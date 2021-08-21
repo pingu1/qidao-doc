@@ -7,6 +7,8 @@ description: >-
 
 # How to use MAI in the real life
 
+<article en cours de traduction>
+
 ## Case study for MAI
 
 DogeOfWallStreet is very bullish on Ethereum. With all the craze revolving around the crypto, partially driven by the NFT hype and bullish case for Eth2.0, he wants to make sure he can get as much ETH as possible before the price really goes to the moon.
