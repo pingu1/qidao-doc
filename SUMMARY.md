@@ -1,23 +1,20 @@
 # Table of contents
 
-* [Le guide non-officiel d'utilisation de Mai Finance](README.md)
+* [La guía no oficial de Mai Finance](README.md)
 
-## Tutoriels investissement <a id="tutoriels"></a>
+## ES TUTORIALES DE INVERSIÓN <a id="tutoriales-de-inversion"></a>
 
-* [Appliquez un effet de levier sur vos tokens AAVE](tutoriels/tirez-parti-aave-tokens.md)
-* [Que faire avec vos MAI sur Polygon](tutoriels/que-faire-avec-vos-mai-sur-polygon.md)
-* [Cultivez vos gains avec des monnaies stables](tutoriels/cultivez-vos-gains-avec-des-monnaies-stables.md)
+* [Apalancamiento con tus tokens de AAVE](tutoriales-de-inversion/apalancamiento-con-tus-tokens-de-aave.md)
+* [Qué puedes hacer con tu MAI en Polygon](tutoriales-de-inversion/que-hacer-con-tu-mai-en-polygon.md)
+* [Farmear utilizando únicamente monedas estables](tutoriales-de-inversion/secure-your-yield-farming-profits.md)
+* [Como usar MAI en la vida real](tutoriales-de-inversion/how-to-use-mai-in-the-real-life.md)
 
-## EN - Investment tutorials <a id="investment-tutorials"></a>
+## Artículos pendientes de traducir <a id="investment-tutorials"></a>
 
-* [How to use MAI in the real life](investment-tutorials/how-to-use-mai-in-the-real-life.md)
+* [Debt repayment - Why and When?](investment-tutorials/debt-repayment-why-and-when.md)
+* [Debt repayment - How?](investment-tutorials/debt-repayment-how.md)
 
-## EN - Debt management tutorial
-
-* [Debt repayment - Why and When?](en-debt-management-tutorial/debt-repayment-why-and-when.md)
-* [Debt repayment - How?](en-debt-management-tutorial/debt-repayment-how.md)
-
-## Rejoignez la Communauté <a id="communaute"></a>
+## Únete a la comunidad <a id="comunidad"></a>
 
 * [Telegram](https://t.me/QiDaoProtocol)
 * [Discord](https://discord.gg/qSqkU3R3zy)
