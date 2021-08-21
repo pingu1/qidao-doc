@@ -4,6 +4,7 @@ description: >-
   fee. This is particularly useful to leverage investments on DeFi on Polygon,
   but you can use it in the real world too.
 ---
+<article en cours de traduction>
 
 # How to use MAI in the real life
 
