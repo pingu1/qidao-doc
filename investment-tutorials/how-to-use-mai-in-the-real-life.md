@@ -7,7 +7,7 @@ description: >-
 
 # How to use MAI in the real life
 
-<article en cours de traduction>
+-- article en cours de traduction
 
 ## Case study for MAI
 
