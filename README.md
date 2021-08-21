@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   Bu site ve içerik, Mai Finance topluluğu tarafından yönetilir ve platformla ilişkili DeFi uygulamalarını keşfetmek için bir kaynak görevi üstlenir. Platformun sabit kripto parası MAI'dir.
 ---
 
