@@ -18,4 +18,3 @@
 
 * [Discord](https://discord.gg/qSqkU3R3zy)
 * [Telegram](https://t.me/QiDaoProtocol)
-

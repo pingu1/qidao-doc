@@ -26,4 +26,3 @@ The goal of this website is to present a variety of investment strategies that u
 ## What will I not find on this website?
 
 It will be assumed that users of this website are already aware of DeFi projects on Polygon, have a good understanding of how cryptocurrency works, and are informed of the different risks related to the cryptocurrency industry in general. This website will not explain how to setup a Metamask wallet, nor provide guidance on cryptocurrency tax reporting. It will also be assumed that users have a basic understanding of the Mai Finance platform, it’s fees and how the protocol earns revenue. If you have questions regarding these last few points, please read the official documentation \(link above\) or join the [Discord](https://discord.gg/mQq55j65xJ) or [Telegram](https://t.co/ttG5c1cxfZ?amp=1) communities.
-
