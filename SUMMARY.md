@@ -11,6 +11,7 @@
 
 ## Artículos pendientes de traducir <a id="investment-tutorials"></a>
 
+* [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
 * [Debt repayment - Why and When?](investment-tutorials/debt-repayment-why-and-when.md)
 * [Debt repayment - How?](investment-tutorials/debt-repayment-how.md)
 
