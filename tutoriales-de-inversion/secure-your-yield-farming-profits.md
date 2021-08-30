@@ -14,9 +14,9 @@ Cuando accedes a una granja de rendimiento en Polygon, estás exponiendo a tus i
 El principal problema cuando estas farmeando es que tienes que tomar una decisión entre:
 
 * Vender el token nativo y convertirlo entre activos "seguros" que representarán tus ganancias.
-* Reinvertirlos para generar más beneficios \(también conocido como ¿hiper compounding?
+* Reinvertirlos para generar más beneficios \(también conocido como ¿hiper compounding?\)
 
-Esta guía describirá paso a paso cómo usar Mai Finance para asegurar tus ganancias mientras sigues reinvirtiendo una porción de estas en la granja.
+Esta guía describirá paso a paso cómo usar Mai Finance para asegurar tus ganancias mientras sigues re-invirtiendo una porción de estas en la granja.
 
 {% hint style="info" %}
 Para entender con mejor detalle cómo puedes hacerlo, usaré la última granja PolyUp \(poner hipervinculo\). Esta explicación se realizará con propósito educativo y no deberá ser utilizada como consejo financiero. Además, el término "seguro" esta basado en mi opinión personal del equipo. Como siempre, Haz Tu Propia Investigación \(DYOR\). Por último, no recomendamos esta granja.

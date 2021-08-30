@@ -26,3 +26,4 @@ El objetivo de este sitio web es ofrecer una variedad de estrategias de inversi�
 ## ¿Qué no voy a encontrar en este sitio web?
 
 Se asumirá que los usuarios de este sitio web ya conocen los proyectos DeFi de Polygon, tienen un buen conocimiento de cómo funcionan las criptomonedas y están informados de los diferentes riesgos relacionados con la industria de las criptomonedas en general. Este sitio web no explica cómo configurar una billetera Metamask, ni brinda orientación sobre la tributación de impuestos sobre criptomonedas. También se asumirá que los usuarios tienen un conocimiento básico de la plataforma Mai Finance, sus comisiones y cómo el protocolo genera ingresos. Si tienes preguntas sobre estos últimos puntos, lee la documentación oficial \(enlace arriba\) o únete a las comunidades de [Discord](https://discord.gg/qSqkU3R3zy) o [Telegram](https://t.co/ttG5c1cxfZ?amp=1).
+
