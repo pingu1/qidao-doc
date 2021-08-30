@@ -120,5 +120,3 @@ This tutorial is absolutely not financial advice and should absolutely not be ta
 Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
 {% endhint %}
 
-
-
