@@ -10,11 +10,21 @@ When you farm yields on a given farm, you usually get rewards under the form of 
 
 ## QuickSwap
 
+QuickSwap is one of the biggest AMM (**A**utomated **M**arket **M**aker) on Polygon. People deposit pairs of tokens to liquidity pools and earn transaction fees from other users who use the platform to swap their tokens. During a swap, QuickSwap automatically choses the best route using the different liquidity pools, and each jump from one pool to the other is subject to transaction fees that are redistributed to the liquidity suppliers. 
+
 ### Stable coin farming
+
+For this exercise, we will use the MAI/USDC pair on QuickSwap. This liquidity pool, a stable pool, proposes an APY (**A**nnual **P**ercentage **Y**ield that varies between 20% and 25%). The yield is composed of the transaction fees (that are accrued into the liquidity pool) and QUICK reward. The pool gets a fix amount of QUICK tokens that are then distributed to liquidity providers according to their share of the pool. As an example, if the pool has the equivalent of $1,000,000 worth of LP (**L**iquidity **P**rovider) tokens and you already deposited $1,000 of LP tokens, you own 0.1% of the pool, which entitles you to 0.1% of the daily QUICK reward.
 
 ### Dragon's Lair
 
+The Dragon's Lair is a way to optimize your gains on QuickSwap. You can deposit the QUICK tokens that you earn from liquidity pools into the Lair, and they will earn you additional QUICK rewards. This is a good solution to keep the QUICK tokens instead of selling it on the open market. When you QUICK tokens are staked into the Dragon's Lair, the reward they generate are automatically compounded, and the APY of the Lair is around 12%.
+
+When you claim your QUICK rewards from the liquidity pools, you can deposit it into the Lair where they will be added to your existing rewards as well as the one granted by the Lair itself. After you deposited your QUICK tokens, you will get in your wallet some dQUICK tokens, that represent the share of the QUICK pool that you own. Note that the ratio QUICK:dQUICK isn't 1:1 since the dQUICK represent your share of the pool, while the amount of QUICK will increase over time as more rewards are added to the pool.
+
 ### Dragon's Syrup
+
+The Dragon's Syrup is an additional way that QuickSwap offers to the dQUICK holders. Indeed, partners of QuickSwap will grant
 
 ## Impermax
 
