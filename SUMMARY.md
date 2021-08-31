@@ -19,4 +19,5 @@
 
 * [Telegram](https://t.me/QiDaoProtocol)
 * [Discord](https://discord.gg/qSqkU3R3zy)
-
+* [Twitter](https://twitter.com/OhMaiGuide)
+* [Use the app](https://app.mai.finance)
