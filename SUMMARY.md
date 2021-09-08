@@ -9,6 +9,7 @@
 * [What to do with MAI on Polygon](investment-tutorials/what-to-do-with-mai-on-polygon.md)
 * [How to use MAI in the real life](investment-tutorials/how-to-use-mai-in-the-real-life.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
+* [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
 
 ## Debt Management Tutorials
 
