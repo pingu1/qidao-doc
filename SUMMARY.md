@@ -12,6 +12,7 @@
 
 * [How to use MAI in the real life](investment-tutorials/how-to-use-mai-in-the-real-life.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
+* [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
 
 ## EN - Debt management tutorial
 
@@ -24,3 +25,4 @@
 * [Discord](https://discord.gg/qSqkU3R3zy)
 * [Twitter](https://twitter.com/OhMaiGuide)
 * [Use the app](https://app.mai.finance)
+
