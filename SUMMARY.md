@@ -12,6 +12,7 @@
 ## Artículos pendientes de traducir <a id="investment-tutorials"></a>
 
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
+* [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
 * [Debt repayment - Why and When?](investment-tutorials/debt-repayment-why-and-when.md)
 * [Debt repayment - How?](investment-tutorials/debt-repayment-how.md)
 
@@ -21,3 +22,4 @@
 * [Discord](https://discord.gg/qSqkU3R3zy)
 * [Twitter](https://twitter.com/OhMaiGuide)
 * [Use the app](https://app.mai.finance)
+
