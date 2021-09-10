@@ -1,149 +1,149 @@
 ---
 description: >-
-  This guide will present a strategy that highlights amazing interactions
-  between Mai Finance, QuickSwap and Adamant after the launch of new LP pools on
-  Mai Finance and QuickSwap.
+  Esta guía presentará una estrategia que destacará cuales son las interacciones
+  principales entre Mai Finance, QuickSwap y Adamant tras el lanzamiento de los
+  nuevos LPs en Mai Finance y QuickSwap.
 ---
 
-# Farming or Staking? Or both?
+# ¿Farmear o hacer staking? ¿O Ambas?
 
 ![](../.gitbook/assets/screen-shot-2021-09-03-at-9.24.12-am.png)
 
-## Intro
+## Introducción
 
-When you are using DeFi \(**De**centralize **Fi**nance\) applications, especially when you are farming yields, you tend to end up with a bunch of native tokens granted by the farm. If most people are simply selling these tokens to buy more or their favourite coins, we will try to showcase some ways to actually keep and put them to work in order to increase your revenues.
+Cuando utilizas aplicaciones DeFi \(**De**centralize **Fi**nance\) , especialmente cuando son granjas de farming, sueles acabar acumulando el token nativo de la granja que hayas utilizado. La mayoría de la gente suele vender dichos tokens para comprar sus cryptos favoritas , por lo que les mostraremos algunas alternativas para mantener los tokens nativos y ponerlos a trabajar, lo que incrementará tus beneficios finales.
 
-In order to do so, we will use new LP pools \(**L**iquidity **P**roviding pools\) launched on QuickSwap at the beginning of September 2021, that are using the Qi token from Mai Finance. If you need to get a good idea of what are QuickSwap and Adamant applications, please read the [Stacking DApps guide]().
+Para realizar esto, utilizaremos las nuevas LPs \(Proveedor de Liquidez\) lanzadas en QuickSwap al inicio de Septiembre de 2021, que utilizan el token Qi de Mai Finance. Si necesitas más información para entender las aplicaciones de  QuickSwap y Adamant, léase el artículo [Stacking DApps guide]()\(pendiente de traducción\).
 
-## Application and pools presentation
+## Aplicación y presentación de los nuevos pares
 
-### Farming side
+### Farming 
 
-In order to maximize our gains, we will use 3 different applications
+Para poder maximizar nuestras ganancias, usaremos 3 aplicaciones diferentes:
 
-* Mai Finance
-* QuickSwap
-* Adamant
+* Mai Finance.
+* QuickSwap.
+* Adamant.
 
-We will also be using the following LP pools
+Además utilizaremos los siguientes pares de liquidez:
 
-* Qi/MATIC on Mai Finance to generate Qi
-* Qi/WETH on QuickSwap to generate QUICK and ADDY
-* Qi/QUICK on Adamant to generate ADDY and MATIC
+* Qi/MATIC en Mai Finance para generar Qi.
+* Qi/WETH en QuickSwap para generar QUICK y ADDY.
+* Qi/QUICK en Adamant para generar ADDY y MATIC.
 
-You can already see that each application is generating tokens that can feed the other pools used on the other applications. The idea is to use the Qi tokens harvested on Mai Finance in combination with the QUICK tokens harvested on QuickSwap and use the 2 on Adamant. Adamant will generate ADDY tokens that will let you claim MATIC dividends. The MATIC tokens can be locked on Mai Finance in the WMATIC vault to borrow MAI, and then buy MATIC and WETH that can then we used with Qi tokens to increase your positions on both Mai Finance and QuickSwap.
+Puedes observar que cada aplicación esta generando tokens que pueden ser utilizados en las aplicaciones de arriba. La idea principal es usar los tokens Qi generados en Mai Finance en combinación con el token QUICK generado en QuickSwap, donde además estos últimos se pueden usar en Adamant. Adamant generará tokens ADDY que te permitirá reclamar dividendos en forma de WMATIC. El token WMATIC puede bloquearse en Mai Finance en la bóveda WMATIC para pedir prestado MAI, y posteriormente comprar MATIC y WETH. Estos dos tokens pueden ser usados juntos a Qi para incrementar tu posiciones tanto en Mai Finance como en QuickSwap.
 
-### Staking side
+### Staking
 
-You also need to know that tokens generated in excess on Mai Finance and QuickSwap can be staked:
+Cabe destacar que los tokens generados en Mai Finance y Quickswap pueden ser usados en:
 
-* Qi on Mai Finance **AND** QuickSwap can be used to vote on QIP \(**Q**iDAO **I**mprovement **P**roposals\).
-* Qi on Mai Finance can be locked. If you lock your Qis, you become eligible to protocols dividends that are paid in Qi and distributed every Wednesdays. More details on Qi staking soon.
-* QUICK on QuickSwap can also be staked to generate additional QUICK tokens in the Dragon's Lair.
-* locked QUICK \(dQUICK\) can also be used on QuickSwap to generate other tokens in the Dragon's Syrup, and the one we will be using is the farm generating ADDY tokens.
-* ADDY on Adamant are automatically vested \(locked for 90 days\), but will generate WMATIC dividends.
-* ADDY on Adamant can also be locked in order to boost your APRs/APYs \(**A**nnual **P**ercentage **R**ewards / **A**nnual **P**ercentage **Y**ield\) on the pools you entered on the site, as well as generating more ADDYs, and boosting your MATIC dividends.
+* Qi en Mai Finance **Y** en QuickSwap pueden ser usados en **QIP** \(Propuestas de mejora de QiDao\). Puedes ver las QIPs actuales y anteriores [aquí](https://snapshot.org/#/qidao.eth).
+* Qi en Mai Finance puede ser bloqueado. Si bloqueas tus Qi empezarás a recibir los dividendos del protocolo que son pagados en Qi cada Miércoles. Más detalles acerca del staking de Qi próximamente.
+* QUICK en QuickSwap puede ser stakeado para generar tokens QUICK en "_Dragon's Lair_".
+* QUICK bloqueado \(dQUICK\) puede ser utilizado en QuickSwap para generar otros tokens en "_Dragon's Syrup_", los que se utilizarán en este caso generan tokens ADDY .
+* ADDY en Adamant son generados automáticamente, pero están bloquados 90 días\), pero generarán dividendos en WMATIC.
+* ADDY en Adamant puede ser bloqueado para aumentar tu APRs/APYs \(**P**orcentaje de **R**ecompensas **A**nuales / **P**orcentaje de **R**endimiento **A**nual\) en los pares que estés utilizando en la página, así cómo generando más ADDYs, e incrementando tus diviendos de MATIC.
 
-## Bootstrapping the system
+## Realizando Bootstrapping
 
 ![](../.gitbook/assets/screen-shot-2021-09-08-at-6.54.08-am.png)
 
-What follows is a simulation made with an initial investment of $1,000 worth of Qi/MATIC and Qi/WETH LP tokens, and the current APRs / APYs given by the different platforms on September 9th 2021. This is not a real application of what we described above. Rates will vary, token prices will vary, some programs will come to an end etc ... so the final results are just an estimation of what you could get if everything remained stable, which will never be the case.
+A continuación, se va a realizar una simulación con una inversión inicial de $1,000 en los pares de liquidez \(LPs\) Qi/MATIC y Qi/WETH , teniendo en cuenta que los APRs / APYs utilizados son los que habían el **9 de Septiembre de 2021**. Cabe destacar que los porcentajes variarán, el precio de los tokens no será constante o que algunos programas pueden dejar de estar operativos. Por lo que los resultados son sólo una estimación de lo que podrías obtener si todo se mantuviera tal y cómo estaba el **9 de Septiembre de 2021,** cosa que nunca se producirá, así que este ejemplo se debe tomar como un recurso educativo.
 
-### Day 1
+### Día 1
 
 {% hint style="info" %}
-**ATTENTION:** The pools used in this guide went live a few hours prior to the publication. APRs and APYs are obviously not going to stay the same, and some revision to the document will be made in a few days. Please, DYOR and take the guide with caution.
+**ATENCIÓN:** Los porcentajes de los pares de liquidez utilizados a continuación son aquellos que estuvieron disponibles unas horas más tarde de la primera implementación de éstos, por lo que los APRs y APYs no van a ser los mismos a la hora de la lectura, donde además se realizarán revisiones continuas. Por favor, **DYOR** y utiliza esta guía con precaución.
 {% endhint %}
 
-Since we have $500 worth of Qi/MATIC LP tokens and $500 of Qi/WETH LP tokens, we will deposit them on Mai Finance and QuickSwap. As a side note, if you have a preference for Qi or QuickSwap, you can simply put more LP tokens on one or the other platform to generate more of your favourite token and stake more. For our example, we'll stick to a strict 50% split.
+Ya que tenemos $500 del par de liquidez Qi/MATIC y $500 del par de liquidez Qi/WETH,  los depositaremos en Mai Finance y Quickswap respectivamente. Por otro lado, si prefieres acumular Qi o Quick, puedes aumentar los tokens del par de liquidez que prefieras, ya que así se te generarán más de tus tokens favoritos, por lo que así tendrás más para poder realizar staking de éste. En este ejemplo, se utilizará una división del 50% del capital inicial.
 
-* $500 of Qi/MATIC will be on Mai Finance, with an APR of 1160.65%
-* $500 of Qi/WETH will be on QuickSwap, with an APR of 1817.44%
+* $500 de Qi/MATIC estarán en Mai Finance, con un APR del 1160.65%.
+* $500 de Qi/WETH estarán en QuickSwap, con un APR del 1817.44%.
 
-We will also use the following APRs for the rest of the simulation
+Además utilizaremos los siguientes APRs para el resto de la simulación:
 
-* dQUICK APR from Dragon's Lair is 17.28%
-* ADDY APR from Dragon's Syrup is 17.08%
-* Qi/QUICK APR on Adamant for auto-compounded LP tokens is 133%
-* Qi/QUICK APR on Adamant for ADDY tokens is 131%
-* WMATIC APR on Adamant is 35% of the locked ADDY tokens
+* APR de dQUICK del "_Dragon's Lair_ " es el 17.28%.
+* APR de ADYY del "_Dragon's Syrup_" es el 17.08%.
+* APR de Qi/QUICK en Adamant para los pares autocompuestos es del 133%.
+* APR de Qi/QUICK en Adamant para los tokens es del 131%.
+* APR de WMATIC en Adamant es el 35% de tus tokens ADDY bloqueados.
 
-Because the APR on Mai Finance is lower than the one on QuickSwap, we will be using 100% of the Qi generated on Mai Finance to generate additional Qi/QUICK tokens \(not selling but combining with QUICK tokens received on QuickSwap\), meaning that at the end of the day, we have 0 Qi left. Of course, if you balance your initial investment differently, you could get remaining Qi and 0 QUICK left.
+Ya que el APR generado en Mai Finance es inferior al de Quickswap, utilizaremos el 100% del Qi generado en Mai Finance para obtener más tokens del par Qi/QUICK, es decir, el Qi no se venderá directamente, sino que se combinará con el token QUICK recibido en Quickswap. Esto supondrá que al final de esta operación tendremos 0 Qi. Sin embargo, si decides dividir tu inversión inicial de forma diferente, podrás tener 0 QUICK y algo de Qi.
 
-Hence, at the end of Day 1, we have in our portfolio
+Por lo que al final del Día 1 tendremos en nuestro portafolio lo siguiente:
 
-| Reward type | Value in dollars |
+| Tipo de Recompensa | Valor en Dólares |
 | :--- | :--- |
-| dQUICK on QuickSwap | 8.997 |
-| ADDY on QuickSwap | 0 |
-| Qi/QUICK on Adamant | 31.799 |
-| ADDY on Adamant | 0 |
-| WMATIC on Adamant | 0 |
+| dQUICK en QuickSwap | 8.997 |
+| ADDY en QuickSwap | 0 |
+| Qi/QUICK en Adamant | 31.799 |
+| ADDY en Adamant | 0 |
+| WMATIC en Adamant | 0 |
 
-### Day 2
+### Día 2
 
-On Day 2, the dQUICK deposited on QuickSwap's Dragon's Syrup starts generating ADDY tokens, as well as the Qi/QUICK LP pair on Adamant. At the end of Day 2, we would get
+En el 2º día, el dQUICK depositado en el "_Dragon's Syrup_" de QuickSwap comienza a generar tokens ADDY, así cómo el par Qi/QUICK en Adamant. Al final del día 2 se obtendrá lo siguiente: 
 
-| Reward type | Value in dollars |
+| Tipo de Recompensa | Valor en Dólares |
 | :--- | :--- |
-| dQUICK on QuickSwap | 17.998 |
-| ADDY on QuickSwap | 0.0042 |
-| Qi/QUICK on Adamant | 63.713 |
-| ADDY on Adamant | 0.114 |
-| WMATIC on Adamant | 0 |
+| dQUICK en QuickSwap | 17.998 |
+| ADDY en QuickSwap | 0.0042 |
+| Qi/QUICK en Adamant | 63.713 |
+| ADDY en Adamant | 0.114 |
+| WMATIC en Adamant | 0 |
 
-Don't forget to claim your rewards daily on Adamant in order to start generating WMATIC dividends!
+Es importante no olvidar que hay que reclamar las recomensas diarias de Adamant, para así generar mas dividendos en forma de WMATIC.
 
-### Day 3
+### Día 3
 
-On Day 3, the ADDY tokens collected on Adamant will start generating WMATIC dividends. This means that at the end of Day 3, we would get in our portfolio
+En el Día 3, los tokens ADDY reclamados en Adamant comenzarán a generar diviendos en forma de WMATIC. Al final del día 3 se obtendrá lo siguiente: 
 
-| Reward type | Value in dollars |
+| Tipo de Recompensa | Valor en Dólares |
 | :--- | :--- |
-| dQUICK on QuickSwap | 27.004 |
-| ADDY on QuickSwap | 0.025 |
-| Qi/QUICK on Adamant | 95.743 |
-| ADDY on Adamant | 0.343 |
-| WMATIC on Adamant | 0.0001 |
+| dQUICK en QuickSwap | 27.004 |
+| ADDY en QuickSwap | 0.025 |
+| Qi/QUICK en Adamant | 95.743 |
+| ADDY en Adamant | 0.343 |
+| WMATIC en Adamant | 0.0001 |
 
-Starting on Day 4, we will be able to
+A partir del día 4 podremos realizar lo siguiente:
 
-* collect the WMATIC dividends
-* deposit a portion of the WMATIC on Mai Finance and borrow MAI against it
-* sell MAI to buy more WETH
-* pair the remaining MATIC with Qi, and the WETH with some more Qi generated on Mai Finance
-* deposit the additional Qi/WMATIC pair on Mai Finance and the Qi/WETH pair on QuickSwap
+* Recoger los dividendos en forma de WMATIC.
+* Depositar una parte del WMATIC en Mai Finance y pedir prestado MAI gracias al colateral aportado.
+* Vender MAI para comprar más WETH.
+* Crear el par de liquidez de MATIC con Qi, y el WETH con Qi generado en Mai Finance.
+* Deposit el par Qi/WMATIC adicional en Mai Finance y el par Qi/WETH en QuickSwap.
 
-At that point, the farming system is fully primed, and we can start estimating revenues.
+Llegados a este punto, el sistema de farmeo está completado, por lo que podemos empezar a calcular los beneficios.
 
-## Farming results
+## Resultados del Farmeo
 
-### Daily routine
+### Rutina Diaria
 
-The daily routine is composed by the following transactions
+La rutina diaria de esta estrategia está formada por las siguientes transacciones:
 
-* Harvest Qi on Mai Finance
-* Harvest WMATIC on Adamant
-* Deposit 66% of WMATIC on Mai Finance
-* Borrow MAI for 50% of the deposit
-* Swap MAI for WETH
-* Create Qi/WMATIC pair on QuickSwap
-* Deposit the Qi/WMATIC on Mai Finance
-* Create Qi/WETH pair on QuickSwap
-* Deposit the Qi/WETH on QuickSwap
-* Harvest Quick on QuickSwap
-* Create Qi/QUICK pair on QuickSwap
-* Deposit remaining QUICK on Dragon's Lair
-* Deposit dQUICK on Dragon's Syrup
-* Harvest ADDY token from Dragon's Syrup
-* Harvest ADDY token from Adamant
-* Deposit new Qi/QUICK on Adamant
-* Deposit harvested ADDY on Adamant \(lock\)
+* Recolectar el Qi en Mai Finance.
+* Recolectar el WMATIC en Adamant.
+* Depositar el 66% del WMATIC en Mai Finance.
+* Pedir prestado MAI por el 50% del depósito.
+* Cambiar MAI por WETH.
+* Crear el par Qi/WMATIC en QuickSwap.
+* Depositar el par Qi/WMATIC en Mai Finance.
+* Crear el par Qi/WETH en QuickSwap.
+* Depositar el par Qi/WETH en QuickSwap.
+* Recoger el token Quick en QuickSwap.
+* Crear el par Qi/QUICK en QuickSwap.
+* Depositar el QUICK restante en "_Dragon's Lair"_.
+* Depositar dQUICK en _"Dragon's Syrup"_.
+* Recoger el token ADDY de _"Dragon's Syrup"._
+* Recoger el token ADDY de Adamant.
+* Depositar el nuevo par Qi/QUICK en Adamant.
+* Depositar el ADDY recogido en Adamant \(éste será bloqueado por 90 días\).
 
-### Raw results month after month
+### Estimación de Resultados Mensuales
 
-| Month | dQUICK | Qi/QUICK | ADDY | Qi/MATIC  Qi/WETH |
+| Mes | dQUICK | Qi/QUICK | ADDY | Qi/MATIC  Qi/WETH |
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | $280.96 | $1,040.78 | $54.97 | $0.91 |
 | 2 | $557.79 | $2,162.98 | $224.36 | $7.89 |
@@ -158,27 +158,27 @@ The daily routine is composed by the following transactions
 | 11 | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31 |
 | 12 | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79 |
 
-### Day 365
+### Día 365
 
-After a complete year, the final state of our investment would be
+Tras realizar esta estrategia por un año, hemos obtenido los siguientes resultados:
 
-| Reward type | Value in dollars |
+| Tipo de recompensa | Valor en Dólares |
 | :--- | :--- |
-| dQUICK on QuickSwap | 5,628.29 |
-| ADDY on QuickSwap | 365.25 |
-| Qi/QUICK on Adamant | 29,733.58 |
-| ADDY on Adamant | 13,587.56 |
-| Additional Qi/MATIC + Qi/WETH  | 2,631.07 |
+| dQUICK en QuickSwap | 5,628.29 |
+| ADDY en QuickSwap | 365.25 |
+| Qi/QUICK en Adamant | 29,733.58 |
+| ADDY en Adamant | 13,587.56 |
+| Qi/MATIC y Qi/WETH Adicional | 2,631.07 |
 
-Note that the ADDY that have been generated via the QuickSwap farm haven't been harvested daily and added to boost the ADDY rewards on Adamant in this simulation \(it is already complex enough\). Also, we are only taking in account vested ADDY. After the initial vesting period of 90 days, if you claim the ADDY tokens and lock them, you will boost your ADDY rewards even more, and generate more WMATIC.
+Cabe destacar que el ADDY que se generaba diariamente en la granja de QuickSwap no se ha recogido de forma diaria y añadido a Adamant para incrementar las recompensas en esta simulación, para simplificar los cálculos.  Además una vez pasado los 90 días del bloqueo del ADDY, no se volvió a bloquear el ADDY de nuevo, por lo que se podría obtener más recompensas en Adamant, así cómo obtener mas WMATIC.
 
-Finally, after one year, the generated revenue is worth $51,580.50. If we consider the initial investment was $1,000 worth of Qi/MATIC and Qi/WETH, this leads to a final APY of 5,087.39%.
+Finalmente, tras un año el beneficio generado es de $51,580.50. Si consideramos que la inversión inicial fue de $1,000 de Qi/MATIC y Qi/WETH, esto significa un APY del 5 087.39%.
 
-## Disclaimer
+## Descargo de Responsabilidad
 
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Esta guía no ha sido diseñada como consejo financiero, sino como guía educativa. Debes tener cuidado con las fluctuaciones del precio, con la oferta y demanda, las variaciones de los APRs en las distintas aplicaciones, pérdida impermanente, etc. El propósito de esta guía no ha sido para que ésta sea llevada al pie de la letra, así que por favor, tenga cuidado y sólo invierta aquello que está dispuesto a perder.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Ten en cuenta que una estrategia que funciona bien en un momento dado puede funcionar mal \(o hacerle perder dinero\) en otro momento. Mantente informado, controla los mercados, controla tus inversiones y, como siempre, haz tu propia investigación.
 {% endhint %}
 

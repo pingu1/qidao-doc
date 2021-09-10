@@ -2,7 +2,7 @@
 
 * [La guía no oficial de Mai Finance](README.md)
 
-## ES TUTORIALES DE INVERSIÓN <a id="tutoriales-de-inversion"></a>
+## TUTORIALES DE INVERSIÓN
 
 * [Apalancamiento con tus tokens de AAVE](tutoriales-de-inversion/apalancamiento-con-tus-tokens-de-aave.md)
 * [Qué puedes hacer con tu MAI en Polygon](tutoriales-de-inversion/que-hacer-con-tu-mai-en-polygon.md)
@@ -12,7 +12,7 @@
 ## Artículos pendientes de traducir <a id="investment-tutorials"></a>
 
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
-* [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
+* [¿Farmear o hacer staking? ¿O Ambas?](investment-tutorials/farming-or-staking-or-both.md)
 * [Debt repayment - Why and When?](investment-tutorials/debt-repayment-why-and-when.md)
 * [Debt repayment - How?](investment-tutorials/debt-repayment-how.md)
 
