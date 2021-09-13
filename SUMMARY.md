@@ -14,6 +14,10 @@
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
 * [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
 
+## MAI / eQI / Qi  Tutorials
+
+* [Earning Passive Income with QiDAO](mai-eqi-qi-tutorials/earning-passive-income-with-qidao.md)
+
 ## EN - Debt management tutorial
 
 * [Debt repayment - Why and When?](en-debt-management-tutorial/debt-repayment-why-and-when.md)
