@@ -19,7 +19,7 @@ El principal problema cuando estas farmeando es que tienes que tomar una decisi�
 Esta guía describirá paso a paso cómo usar Mai Finance para asegurar tus ganancias mientras sigues re-invirtiendo una porción de estas en la granja.
 
 {% hint style="info" %}
-Para entender con mejor detalle cómo puedes hacerlo, usaré la última granja PolyUp \(poner hipervinculo\). Esta explicación se realizará con propósito educativo y no deberá ser utilizada como consejo financiero. Además, el término "seguro" esta basado en mi opinión personal del equipo. Como siempre, Haz Tu Propia Investigación \(DYOR\). Por último, no recomendamos esta granja.
+Para entender con mejor detalle cómo puedes hacerlo, usaré la última granja [PolyUp](https://polypup.finance/). Esta explicación se realizará con propósito educativo y no deberá ser utilizada como consejo financiero. Además, el término "seguro" esta basado en mi opinión personal del equipo. Como siempre, Haz Tu Propia Investigación \(DYOR\). Por último, no recomendamos esta granja.
 {% endhint %}
 
 ![](../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
