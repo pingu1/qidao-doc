@@ -8,11 +8,11 @@
 * [Qué puedes hacer con tu MAI en Polygon](tutoriales-de-inversion/que-hacer-con-tu-mai-en-polygon.md)
 * [Farmear utilizando únicamente monedas estables](tutoriales-de-inversion/secure-your-yield-farming-profits.md)
 * [Como usar MAI en la vida real](tutoriales-de-inversion/how-to-use-mai-in-the-real-life.md)
+* [¿Farmear o hacer staking? ¿O Ambas?](tutoriales-de-inversion/farming-or-staking-or-both.md)
 
 ## Artículos pendientes de traducir <a id="investment-tutorials"></a>
 
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
-* [¿Farmear o hacer staking? ¿O Ambas?](investment-tutorials/farming-or-staking-or-both.md)
 * [Debt repayment - Why and When?](investment-tutorials/debt-repayment-why-and-when.md)
 * [Debt repayment - How?](investment-tutorials/debt-repayment-how.md)
 
