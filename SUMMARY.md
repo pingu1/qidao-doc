@@ -11,6 +11,7 @@
 
 ## EN - Investment tutorials <a id="investment-tutorials"></a>
 
+* [MAI Metaverse](investment-tutorials/mai-metaverse.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
 * [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
 
