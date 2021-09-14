@@ -16,11 +16,16 @@
 
 * [Genera Ingresos Pasivos con Qi DAO](earning-passive-income-with-qidao.md)
 
+## Tutoriales sobre el pago de la deuda
+
+---
+
+* [Pago de la Deuda - ¿Cuándo y Por Qué?](debt-repayment-why-and-when.md)
+
 ## Artículos pendientes de traducir <a id="investment-tutorials"></a>
 
 * [MAI Metaverse](investment-tutorials/mai-metaverse.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
-* [Debt repayment - Why and When?](investment-tutorials/debt-repayment-why-and-when.md)
 * [Debt repayment - How?](investment-tutorials/debt-repayment-how.md)
 
 ## Únete a la comunidad <a id="comunidad"></a>
