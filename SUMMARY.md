@@ -10,10 +10,15 @@
 * [Como usar MAI en la vida real](tutoriales-de-inversion/how-to-use-mai-in-the-real-life.md)
 * [¿Farmear o hacer staking? ¿O Ambas?](tutoriales-de-inversion/farming-or-staking-or-both.md)
 
+## Tutoriales de MAI/ eQi / Qi
+
+---
+
+* [Generar Ingresos Pasivos con Qi DAO](earning-passive-income-with-qidao.md)
+
 ## Artículos pendientes de traducir <a id="investment-tutorials"></a>
 
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
-* [Earning Passive Income with QiDAO](investment-tutorials/earning-passive-income-with-qidao.md)
 * [Debt repayment - Why and When?](investment-tutorials/debt-repayment-why-and-when.md)
 * [Debt repayment - How?](investment-tutorials/debt-repayment-how.md)
 
