@@ -5,7 +5,7 @@ description: >-
   hacer lo mismo bloqueando únicamente tus Qi.
 ---
 
-# Generar Ingresos Pasivos con Qi DAO
+# Genera Ingresos Pasivos con Qi DAO
 
 ## ¿Ingresos Pasivos usando Qi DAO?
 

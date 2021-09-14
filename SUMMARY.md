@@ -14,7 +14,7 @@
 
 ---
 
-* [Generar Ingresos Pasivos con Qi DAO](earning-passive-income-with-qidao.md)
+* [Genera Ingresos Pasivos con Qi DAO](earning-passive-income-with-qidao.md)
 
 ## Artículos pendientes de traducir <a id="investment-tutorials"></a>
 
