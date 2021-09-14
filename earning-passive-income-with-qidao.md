@@ -116,7 +116,7 @@ A día de hoy, esto no es posible usando la misma cartera. Sin embargo, puedes r
 
 * **¿Qué pasará cuando se acabe el periodo de bloqueo?** 
 
-Tendrás que hacer click en "_Withdraw_ " y recibirás en tu cartera la misma cantidad de Qi que bloqueaste en primer lugar. Pero he bloqueado por 4 años y puedo ver que tengo 4 veces mas eQi que Qi. No te preocupes, ya que tu eQi irá disminuyendo a medida que pase el tiempo y al final será el mismo que tu Qi inicial. Mientras tanto, podrás disfrutar de un incremento en tu poder de voto así cómo de las recompensas semanales.
+Tendrás que hacer click en "_Withdraw_ " y recibirás en tu cartera la misma cantidad de Qi que bloqueaste en primer lugar. ¡Pero he bloqueado por 4 años y puedo ver que tengo 4 veces mas eQi que Qi! No te preocupes, ya que tu eQi irá disminuyendo a medida que pase el tiempo y al final será el mismo que tu Qi inicial. Mientras tanto, podrás disfrutar de un incremento en tu poder de voto así cómo de las recompensas semanales.
 
 ## Descargo de Responsabilidad
 
