@@ -21,12 +21,12 @@
 ---
 
 * [Pago de la Deuda - ¿Cuándo y Por Qué?](debt-repayment-why-and-when.md)
+* [Pago de la Deuda - ¿Cómo?](debt-repayment-how.md)
 
 ## Artículos pendientes de traducir <a id="investment-tutorials"></a>
 
 * [MAI Metaverse](investment-tutorials/mai-metaverse.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
-* [Debt repayment - How?](investment-tutorials/debt-repayment-how.md)
 
 ## Únete a la comunidad <a id="comunidad"></a>
 
