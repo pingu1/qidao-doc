@@ -27,6 +27,7 @@
 
 * [MAI Metaverse](investment-tutorials/mai-metaverse.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
+* [MAI loans and Vault incentives](investment-tutorials/mai-loans-and-vault-incentives.md)
 
 ## Únete a la comunidad <a id="comunidad"></a>
 
