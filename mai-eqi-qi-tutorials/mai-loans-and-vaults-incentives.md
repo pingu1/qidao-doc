@@ -122,6 +122,12 @@ $$
 Qi=0.005*\frac{86400}{2}=216
 $$
 
+{% hint style="info" %}
+86,400 is the number of seconds in a day, and on Polygon, the block time is 2 seconds, meaning that the expected number of blocks every day is 86,400 / 2 = 43,200. Hence, the emission for each Vault is 216 Qi / day.
+
+**Note:** Block time has increased lately and is around 2.6 seconds. However, all APRs and APYs displayed on all apps are assuming a block time of 2 seconds. Please DYOR and check the current [block time on PolygonScan](https://polygonscan.com/chart/blocktime).
+{% endhint %}
+
 Hence, if the state of the Vault remains the same, Ben will get 0.1% of the 216 Qi distributed, while Kila will get 0.6% of the granted reward.
 
 * Ben will get 0.216 Qi every day, which is a daily reward of 0.0216%, or an APR of 7.884%
