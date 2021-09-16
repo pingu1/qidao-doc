@@ -11,7 +11,7 @@ description: >-
 
 The core business of Mai Finance is a lending platform. Instead of selling their crypto to buy other assets, people are able to lock their funds on Mai Finance and borrow against them. This presents the opportunity to keep high value assets \(WBTC, WETH ...\) while still being able to get other assets and farm yields. In that case, the loan is used to generate revenue, while the collateral is gaining value.
 
-One of the other big advantage of using Mai Finance is that there's no repayment schedule. In other words, you borrow MAI stable coin against your crypto, you don't pay any interests, and you can repay your debt whenever you want. See the different articles on [debt management](../en-debt-management-tutorial/debt-repayment-why-and-when.md) for more details. The only fee that you would ever pay is a repayment fee corresponding to 0.5% of the money you borrowed that you pay when you repay your loan, and that is taken out of your collateral.
+One of the other big advantage of using Mai Finance is that there's no repayment schedule. In other words, you borrow MAI stable coin against your crypto, you don't pay any interests, and you can repay your debt whenever you want. See the different articles on [debt management]() for more details. The only fee that you would ever pay is a repayment fee corresponding to 0.5% of the money you borrowed that you pay when you repay your loan, and that is taken out of your collateral.
 
 As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, when you repay your loan you would have to pay a fee of $0.50 directly taken out of your WETH deposit.
 
@@ -93,7 +93,7 @@ It's very important to keep an eye on your CDR and keep a healthy ratio to
 * prevent liquidation
 * increase the health of the whole Mai Finance platform by ensuring the MAI volume in circulation is properly backed
 
-The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest](../tutoriels/tirez-parti-aave-tokens.md#exemples-chiffres) in other projects, or [repay your debt](../en-debt-management-tutorial/debt-repayment-how.md) using your debt.
+The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest]() in other projects, or [repay your debt]() using your debt.
 
 ## Vault incentives
 
@@ -121,6 +121,12 @@ The total amount of Qi allocated to the WETH vault \(or any vault\) is
 $$
 Qi=0.005*\frac{86400}{2}=216
 $$
+
+{% hint style="info" %}
+86,400 is the number of seconds in a day, and on Polygon, the block time is 2 seconds, meaning that the expected number of blocks every day is 86,400 / 2 = 43,200. Hence, the emission for each Vault is 216 Qi / day.
+
+**Note:** Block time has increased lately and is around 2.6 seconds. However, all APRs and APYs displayed on all apps are assuming a block time of 2 seconds. Please DYOR and check the current [block time on PolygonScan](https://polygonscan.com/chart/blocktime).
+{% endhint %}
 
 Hence, if the state of the Vault remains the same, Ben will get 0.1% of the 216 Qi distributed, while Kila will get 0.6% of the granted reward.
 
