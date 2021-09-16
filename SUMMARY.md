@@ -18,6 +18,7 @@
 ## MAI / eQI / Qi  Tutorials
 
 * [Earning Passive Income with QiDAO](mai-eqi-qi-tutorials/earning-passive-income-with-qidao.md)
+* [MAI loans and Vault incentives](mai-eqi-qi-tutorials/mai-loans-and-vault-incentives.md)
 
 ## EN - Debt management tutorial
 
