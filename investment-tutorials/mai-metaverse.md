@@ -97,7 +97,7 @@ The farms on Avalanche work very closely to what you can find on Polygon. Hence,
 
 ### Getting MAI on Fantom
 
-Fantom is a blockchain / smart contract platform which purpose is to solve the scalability issues of other networks, namely the Ethereum blockchain. Developers can create their DApps \(**D**ecentralized **App**lications\) on that network and use the same assets as on other network. As such, you can already bridge MAI from Polygon to Fantom using the AnySwap's bridge.
+Fantom is a blockchain / smart contract platform which purpose is to solve the scalability issues of other networks, namely the Ethereum blockchain. Developers can create their DApps \(**D**ecentralized **App**lications\) on that network and use the same assets as on other network. As such, you can already bridge MAI from Polygon to Fantom using the [AnySwap](https://anyswap.exchange/#/bridge)'s bridge.
 
 If AnySwap is another bridging solution, its UI is very similar to the one of AllBridge and Relay Chain. When on Polygon, you will have to connect your MetaMask wallet first, then select the asset you want to bridge \(MAI\) and the destination network \(Fantom\).
 
