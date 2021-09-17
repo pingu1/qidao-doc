@@ -9,6 +9,7 @@
 * [Farmear utilizando únicamente monedas estables](tutoriales-de-inversion/secure-your-yield-farming-profits.md)
 * [Como usar MAI en la vida real](tutoriales-de-inversion/how-to-use-mai-in-the-real-life.md)
 * [¿Farmear o hacer staking? ¿O Ambas?](tutoriales-de-inversion/farming-or-staking-or-both.md)
+* [Universo MAI](tutoriales-de-inversion/mai-metaverse.md)
 
 ## Tutoriales de MAI/ eQi / Qi
 
@@ -25,7 +26,6 @@
 
 ## Artículos pendientes de traducir <a id="investment-tutorials"></a>
 
-* [Universo MAI](investment-tutorials/mai-metaverse.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
 * [MAI loans and Vault incentives](investment-tutorials/mai-loans-and-vault-incentives.md)
 
