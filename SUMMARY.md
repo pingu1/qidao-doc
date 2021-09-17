@@ -5,10 +5,10 @@
 ## Tutoriels investissement <a id="tutoriels"></a>
 
 * [Appliquez un effet de levier sur vos tokens AAVE](tutoriels/tirez-parti-aave-tokens.md)
-* [Que faire avec vos MAI sur Polygon](tutoriels/que-faire-avec-vos-mai-sur-polygon.md)
 * [Cultivez vos gains avec des monnaies stables](tutoriels/cultivez-vos-gains-avec-des-monnaies-stables.md)
-* [Comment utiliser MAI dans la "vraie" vie](tutoriels/how-to-use-mai-in-the-real-life.md)
+* [Que faire avec vos MAI sur Polygon](tutoriels/que-faire-avec-vos-mai-sur-polygon.md)
 * [MAI dans le metaverse](tutoriels/mai-dans-le-metaverse.md)
+* [Comment utiliser MAI dans la "vraie" vie](tutoriels/how-to-use-mai-in-the-real-life.md)
 
 ## EN - Investment tutorials <a id="investment-tutorials"></a>
 
