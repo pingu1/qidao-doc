@@ -8,10 +8,10 @@
 * [Que faire avec vos MAI sur Polygon](tutoriels/que-faire-avec-vos-mai-sur-polygon.md)
 * [Cultivez vos gains avec des monnaies stables](tutoriels/cultivez-vos-gains-avec-des-monnaies-stables.md)
 * [Comment utiliser MAI dans la "vraie" vie](tutoriels/how-to-use-mai-in-the-real-life.md)
+* [MAI dans le metaverse](tutoriels/mai-dans-le-metaverse.md)
 
 ## EN - Investment tutorials <a id="investment-tutorials"></a>
 
-* [MAI Metaverse](investment-tutorials/mai-metaverse.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
 * [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
 
