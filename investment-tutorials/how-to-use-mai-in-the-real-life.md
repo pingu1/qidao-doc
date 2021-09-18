@@ -4,7 +4,6 @@ description: >-
   fee. This is particularly useful to leverage investments on DeFi on Polygon,
   but you can use it in the real world too.
 ---
-<article en cours de traduction>
 
 # How to use MAI in the real life
 
@@ -106,7 +105,7 @@ Hence we need to sell $456.00 worth of ETH and use Mai Finance to borrow $422.00
 Of course, this is moving the debt that you need to repay to the bank to a debt you need to repay to Mai Finance. However, the fact that the bank has a high interest fee model, and that you need to repay monthly explains why it's better to move it to Mai Finance \(0% interest, no time limit to repay\).
 
 {% hint style="info" %}
-If you want to use a more agressive Collateral to Debt ratio, you would be able to sell less crypto to fiat, and deposit/borrow more from Mai vaults. As an example, with a CDR of 175%, you would sell the equivalent of $316.00 of EHT and keep $984.00 in Mai Finance to borrow $562.00 of MAI, still repaying your $878.00 debt to the bank every month.
+If you want to use a more agressive Collateral to Debt ratio, you would be able to sell less crypto to fiat, and deposit/borrow more from Mai vaults. As an example, with a CDR of 175%, you would sell the equivalent of $316.00 of ETH and keep $984.00 in Mai Finance to borrow $562.00 of MAI, still repaying your $878.00 debt to the bank every month.
 {% endhint %}
 
 **Note**: All the math here is not including transaction fees.

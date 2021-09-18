@@ -1,29 +1,29 @@
 ---
 description: >-
-  Ce site est maintenu par la communauté de Mai Finance et sert de ressource
-  pour explorer les possibilités offertes par les applications DeFi  en
-  conjonction avec la plateforme Mai Finance.
+  Trang web này được duy trì bởi cộng đồng Mai Finance và được phục vụ như tài
+  nguyên để khám phá chiều rộng của các ứng dụng DeFi được liên kết với nền tảng
+  và đồng stablecoin MAI.
 ---
 
-# Le guide non-officiel d'utilisation de Mai Finance
+# Tài liệu hướng dẫn sơ bộ của giao thức QiDao
 
-## Est-ce que ce guide est approuvé par la communauté?
+## Hướng dẫn này đã được chấp nhận của cộng động chưa?
 
-Ce guide a été développé par les membres de la communauté de Mai Finance, aussi connus sous le nom de Qimps \(chimps\), afin d'explorer la plateforme d'emprunt dans tous ses détails, et présenter les différentes stratégies liées à une variété d'applications DeFi \(**De**centralized **Fi**nance, ou Finance Décentralisée\) que vous pourrez mettre en place afin d'accroître vos gains. Ce n'est pas un guide officiel, ni un répertoire de conseils financiers. Comme toujours dans le monde de la DeFi, et des crypto-monnaies en général, faites vos propres recherches, et n'investissez que ce que vous êtes prêt à possiblement perdre.
+Tài  liệu hướng dẫn này được phát triển bởi các thành viên của cộng đồng Mai Finance, hay còn được gọi là Qpimps, với mục đích khám phá nền tảng cho vay Mai Finance một cách chi tiết hơn, trình nhiều chiến lược Defi nhằm tối ưu hóa lợi nhuận cho người dùng. Xin lưu ý đây là tài liệu chưa chính thức của Mai Finance, cũng như không phải lời khuyên tài chính nào. Như đối với mọi dự án Defi trong thị trường tiền mã hóa nói chung, hãy tự mình nghiên cứu và đầu tư với số vốn mà bạn cảm thấy chấp nhận được với khả năng bị mất. 
 
-## Où puis-je trouver la documentation officielles?
+## Tôi có thể tìm hồ sơ chính thức ở đâu?
 
-La seule documentation officielle de Mai Finance est accessible ici: [docs.mai.finance](https://docs.mai.finance)
+Bạn có thể tìm tại địa chỉ này: [docs.mai.finance](https://docs.mai.finance)
 
-## Quelle est l'adresse de l'application Mai Finance?
+## Tôi có thể truy nhập ứng dụng ở đâu?
 
-L'application Mai Finance est accessible via ce lien: [app.mai.finance](https://app.mai.finance)
+Ứng dụng Mai Finance được tìm thấy tại địa chỉ: [app.mai.finance](https://app.mai.finance)
 
-## Que vais-je trouver sur ce site?
+## Tôi tìm được gì tại trang web này?
 
-Le but de ce site est de présenter une variété de stratégies d'investissement utilisant la plateforme d'emprunt Mai Finance. Par exemple, vous trouverez des conseils sur la gestion de vos dettes et de leur remboursement, des utilisations possibles de la monnaie stable MAI que vous pourrez emprunter, et des informations sur la façon dont Mai Finance peut être utilisée en combinaison avec d'autres protocoles DeFi. Enfin, vous pourrez trouver des informations sur la façon d'utiliser efficacement le token natif de la plateforme: Qi.
+Mục tiêu của ứng dụng này là trình bày các chiến lược đầu tư khác nhau được tận dụng từ nền tảng cho vay Mai Finance. Các chủ đề chính được trình bày bao gồm quản lý nợ và thanh toán, lợi thế của việc vay stablecoin Mai và cách thức tích hợp Mai Finance vào các giao thức/chiến lược Defi khác nhau. Cuối cùng, thông tin về cách sử dụng hiệu quả đồng bản vị Qi, cũng sẽ được cung cấp. 
 
-## Que ne vais-je pas trouver sur ce site?
+## Tôi sẽ không tìm thấy gì trên trang web này?
 
-Nous partons du principe que les utilisateurs de ce site ont quelques notions de base sur les projets de DeFi sur Polygon, et ont une bonne compréhension du fonctionnement des crypto-monnaies, ainsi que des différents risques reliés à l'industrie des monnaies virtuelles en général. Ce site web n'expliquera pas comment vous procurer un portefeuille virtuel Metamask, ni n'expliquera comment remplir vos comptes de taxes liés à vos activités financières numériques. Il sera également attendu que les utilisateurs aient une connaissance minimale de la plateforme Mai Finance, ainsi que du modèle financier permettant à la plateforme de générer des revenus. Si vous avez des questions à propos de ces derniers points, veuillez vous référer à la documentation officielle \(voir lien ci-dessus\) ou rejoindre les communautés sur [Discord](https://discord.gg/mQq55j65xJ) ou [Telegram](https://t.co/ttG5c1cxfZ?amp=1).
+Chúng tôi giả định rằng người dùng trang web này đã biết về các dự án DeFi trên chuỗi khối Polygon, hiểu rõ về cách hoạt động của tiền mã hóa và nhận thức được các rủi ro tiềm tàng liên quan đến thị trường tiền mã hóa về tổng quan. Trang web này sẽ không hướng dẫn cách thiết lập ví Metamask cũng như cung cấp các tài liệu báo cáo thuế. Ngoài ra, chúng tôi cũng giả định rằng người dùng có kiến thức cơ bản về nền tảng Mai Finance bao các khoản phí và các giao thức tạo doanh thu. Cuối cùng nếu bạn có câu hỏi, xin vui lòng đọc tài liệu chính thức \(liên kết ở trên\) hoặc tham gia vào cộng đồng [Discord](https://discord.gg/mQq55j65xJ) hoặc [Telegram](https://t.co/ttG5c1cxfZ?amp=1).
 
