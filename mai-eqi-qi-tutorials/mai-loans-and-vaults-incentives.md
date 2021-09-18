@@ -55,7 +55,7 @@ The maximum number of MAI that one can mint on a specific vault depends on how m
 
 As an example, if a big institution would deposit 5,000 WBTC at once and was able to borrow $100,000,000 worth of MAI, swapping the totality for more WBTC, this could drive the price of MAI down so much that the price would deviate too much from its peg, putting the whole platform at risk. Debt ceiling is the mechanism that prevents this from happening: there's a maximum amount of MAI that can be minted for a given vault type.
 
-When the debt ceiling is reached, the time at which there aren't any more available MAI to mint is recorded, and the system automatically increases the debt ceiling after 48 hours. This is considered enough time for the MAI price to stabilize \(in case of high sell pressure following a big sell off of MAI\). 
+When the debt ceiling is reached, the time at which there aren't any more available MAI to mint is recorded, and the system automatically increases the debt ceiling after 48 hours. This is considered enough time for the MAI price to stabilize \(in case of high sell pressure following a big sell off of MAI\).
 
 This means that for 48h, nobody will be able to borrow more MAI from a vault that reached its debt ceiling, unless a debt is repaid.
 
