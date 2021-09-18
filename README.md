@@ -26,4 +26,3 @@ Mục tiêu của ứng dụng này là trình bày các chiến lược đầu 
 ## Tôi sẽ không tìm thấy gì trên trang web này?
 
 Chúng tôi giả định rằng người dùng trang web này đã biết về các dự án DeFi trên chuỗi khối Polygon, hiểu rõ về cách hoạt động của tiền mã hóa và nhận thức được các rủi ro tiềm tàng liên quan đến thị trường tiền mã hóa về tổng quan. Trang web này sẽ không hướng dẫn cách thiết lập ví Metamask cũng như cung cấp các tài liệu báo cáo thuế. Ngoài ra, chúng tôi cũng giả định rằng người dùng có kiến thức cơ bản về nền tảng Mai Finance bao các khoản phí và các giao thức tạo doanh thu. Cuối cùng nếu bạn có câu hỏi, xin vui lòng đọc tài liệu chính thức \(liên kết ở trên\) hoặc tham gia vào cộng đồng [Discord](https://discord.gg/mQq55j65xJ) hoặc [Telegram](https://t.co/ttG5c1cxfZ?amp=1).
-
