@@ -7,9 +7,9 @@ description: >-
 
 # Tài liệu hướng dẫn sơ bộ của giao thức QiDao
 
-## Hướng dẫn này đã được chấp nhận của cộng động chưa?
+## Bộ hướng dẫn này đã được chấp nhận của cộng động chưa?
 
-Tài liệu hướng dẫn này được phát triển bởi các thành viên của cộng đồng Mai Finance, hay còn được gọi là Qpimps, với mục đích khám phá nền tảng cho vay Mai Finance một cách chi tiết hơn, trình nhiều chiến lược Defi nhằm tối ưu hóa lợi nhuận cho người dùng. Xin lưu ý đây là tài liệu chưa chính thức của Mai Finance, cũng như không phải lời khuyên tài chính nào. Như đối với mọi dự án Defi trong thị trường tiền mã hóa nói chung, hãy tự mình nghiên cứu và đầu tư với số vốn mà bạn cảm thấy chấp nhận được với khả năng bị mất.
+Bộ tài liệu hướng dẫn này được phát triển bởi các thành viên của cộng đồng Mai Finance, những người được gọi là Qimps \(Tinh tinh\) với mục đích khám phá nền tảng cho vay Mai Finance một cách chi tiết hơn, đồng thời tài liệu hướng dẫn này còn trình bày nhiều chiến lược DeFi khác nhau mà người dùng có thể thu được giá trị bổ sung từ nền tảng này. Cần lưu ý là đây không phải là tài liệu hướng dẫn chính thức của Mai Finance, cũng như đây không phải là bất cứ lời khuyên tài chính trong tài liệu này. Cũng như với một nền tảng DeFi nói riêng và thị trường tiền mã hóa nói chung, hãy tự nghiên cứu trước khi đầu tư và chỉ đầu tư với số vốn mà bạn cảm thấy thỏa mái với khả năng có thể bị mất.
 
 ## Tôi có thể tìm hồ sơ chính thức ở đâu?
 
