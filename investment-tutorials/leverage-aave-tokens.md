@@ -61,8 +61,6 @@ Giả sử rằng khi một bể amToken được tạo ra trên Mai Finance tro
 
 ### Đi vay stablecoin Mai
 
-### Đi vay stablecoin Mai
-
 Nền tảng Mai Finance cho phép bạn vay stablecoin Mai khi bạn gửi tài sản thế chấp. Hiện tại Mai Finance chấp nhận nhiều loại tài sản thế chấp bao gồm cả các camToken. Trên nền tảng Mai Finance, số camToken của bạn sẽ tiếp tục sinh lời trong khi được gửi làm tài sản thế chấp, có nghĩa là số lượng tài sản cơ bản tiếp tục tăng lên theo thời gian.
 
 Nền tảng Mai Finance cho phép bạn vay stablecoin Mai khi bạn gửi tài sản thế chấp. Hiện tại Mai Finance chấp nhận nhiều loại tài sản thế chấp bao gồm cả các camToken. Trên nền tảng Mai Finance, số camToken của bạn sẽ tiếp tục sinh lời trong khi được gửi làm tài sản thế chấp, có nghĩa là số lượng tài sản cơ bản tiếp tục tăng lên theo thời gian.
