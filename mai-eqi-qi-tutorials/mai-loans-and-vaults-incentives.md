@@ -176,6 +176,44 @@ You can also see that if you keep your loan for one year of more, the 0.5% repay
 
 Rewards allocated by the vault incentives will be distributed the same way as for staked Qi. Every Wednesday, the Qi allocated by the Vaults incentives program will be airdropped / claimed for the week prior to the pay day.
 
+## Vaults incentives FAQs
+
+If you want to know more about the way Vault incentives are working, here's an official FAQ from the Discord server.
+
+*  **What vaults are receiving rewards?**
+
+Right now all the vault types have been allocated Qi rewards
+
+*  **How much rewards are given out for the borrowing incentives?**
+
+0.05 Qi/block for each vault type
+
+*  **How much MAI do I need to borrow to earn rewards?**
+
+ For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:
+
+*  _Matic_ - Liquidation ratio 150% - Eligible for Incentives between 175% and 420% 
+* _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400% 
+* _CamTokens_: - Liquidation ratio 135% - Eligible for Incentives between 160% and 405%
+
+
+
+*  **How can I see if my vault is earning rewards?**
+
+ If you see the fire emoji on your vault overview page that means that vault is earning rewards
+
+*  **How much will I earn?**
+
+Your percent of the reward pool is based on the percentage of MAI you borrowed compared to the total amount of MAI borrowed from that vault type.
+
+*  **How long will the incentives program last?**
+
+The scheduled length of the borrowing incentives program is to last 3 months. The DAO can vote to stop incentives before the 3 months is over or vote to extend the program.
+
+* **How will we receive rewards?**
+
+Qi will be airdropped to eligible vault holders.
+
 ## Disclaimer
 
 This guide has been written **prior** to the launch of Vault incentives, meaning that the APRs promoted in this document \(as well as this document\) are subject to modifications, and/or may not be accurate. The amount of MAI borrowed, the debt ceiling and the value of the Qi token will highly impact the final APR of each vault type. Please, make sure that you invest responsibly.
