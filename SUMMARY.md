@@ -10,7 +10,7 @@
 * [Como usar MAI en la vida real](tutoriales-de-inversion/how-to-use-mai-in-the-real-life.md)
 * [¿Farmear o hacer staking? ¿O Ambas?](tutoriales-de-inversion/farming-or-staking-or-both.md)
 * [Universo MAI](tutoriales-de-inversion/mai-metaverse.md)
-* [Acumula DApps como si fueran cromos](tutoriales-de-inversion/stack-dapps-like-lego-bricks.md)
+* [Acumula DApps como si fueran cromos](tutoriales-de-inversion/acumula-dapps-como-cromos.md)
 
 ## Tutoriales de MAI/ eQi / Qi
 
