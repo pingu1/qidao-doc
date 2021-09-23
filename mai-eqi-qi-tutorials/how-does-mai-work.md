@@ -67,9 +67,9 @@ As the value of the collateral rises, more stable coins can be issued as a rise 
 
 ## Afterword
 
-As you've seen throughout this article, the MAI stable coin is a type of stable coin that is **over-collateralized,** meaning that there will always be enough collateral to back the price of the MAI token. This should give enough relief to those investors who hesitate about investing in projects that mint stable coins. Also, keep in mind that if there is more MAI in the market, the more stable the price of MAI will be.
+As you've seen throughout this article, the MAI stable coin is a type of stable coin that is **over-collateralized,** meaning that there will always be enough collateral to back the price of the MAI token. This should give enough relief to those investors who hesitate about investing in projects that mint stable coins. Also, keep in mind that as MAI is expanding to other blockchains, there'll be more MAI in the market, resulting in less volatily in MAI's price.
 
-Recently, the vaults incentives have been introduced to Mai Finance, if you want to understand what that is, you can check this [article](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjoGweuRy7QzOmwfg7k/mai-eqi-qi-tutorials/mai-loans-and-vaults-incentives). This will help even more to the stability of the MAI price.
+Recently, the vaults incentives have been introduced to Mai Finance, if you want to understand what that is, stay tuned because there'll be an article about this topic. This will help even more to the stability of the MAI price.
 
 ## Disclaimer 
 
