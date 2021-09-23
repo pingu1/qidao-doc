@@ -27,11 +27,11 @@ People started buying the IRON stable coin to sell it for USDC and earn some qui
 
 ## What is MAI?
 
-MAI is a stable coin that is backed by locked collateral tokens, the minting of MAI can be done either through **approved collateral** in vaults or through **Anchor.** 
+MAI is a stable coin that is backed by locked collateral tokens, the minting of MAI can be done either through depositing **approved collateral** in vaults or through using **Anchor.** 
 
-When minting MAI depositing approved collateral, the **CDR** \(Collateral to Debt Ratio\) needs to be above 150%, this means that if you deposit $100 worth of collateral, the newly minted MAI can be at most worth $66.6667. We'll get to the reason behind this later in this article.
+When minting MAI depositing approved collateral, the **CDR** \(Collateral to Debt Ratio\) needs to be between 150%, this means that if you deposit $100 worth of collateral, the newly minted MAI can be at most worth $66.6667. We'll get to the reason behind this later in this article.
 
-Another way to mint MAI is through the [Anchor](https://app.mai.finance/anchor),  this means that when you swap an stable coin \(as September of 2021 you can mint MAI using **DAI**, **USDC** and **USDT**\) for MAI, new MAI is minted by the treasury and the deposited USDC is held in the treasury as collateral. Meanwhile, when you swap back your USDC, the MAI  that you provide will be burned.
+Another way to mint MAI is through the [Anchor](https://app.mai.finance/anchor),  this means that when you swap a stable coin \(as of September 2021 you can mint MAI using **DAI**, **USDC** and **USDT**\) for MAI, new MAI is minted by the treasury and the deposited stablecoin is held in the treasury as collateral. Meanwhile, when you swap back your stablecoins, the MAI that you provide will be burned.
 
 ![Stablecoins that can be swaped to mint MAI](../.gitbook/assets/image%20%289%29.png)
 
