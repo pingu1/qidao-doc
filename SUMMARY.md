@@ -28,6 +28,10 @@
 
 ## Artículos pendientes de traducir <a id="investment-tutorials"></a>
 
+---
+
+* [How does MAI work?](how-does-mai-work.md)
+
 ## Únete a la comunidad <a id="comunidad"></a>
 
 * [Telegram](https://t.me/QiDaoProtocol)
