@@ -5,7 +5,7 @@ description: >-
   và đồng stablecoin MAI.
 ---
 
-# Tài liệu hướng dẫn sơ bộ của giao thức QiDao
+# Tài liệu hướng dẫn không chính thức của giao thức QiDao
 
 ## Bộ hướng dẫn này đã được chấp nhận của cộng động chưa?
 

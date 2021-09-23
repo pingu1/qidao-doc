@@ -1,110 +1,110 @@
 ---
 description: >-
-  Passive income is the art of making money which flows in regular interval of
-  time by doing minimal work for it. Now, Qi DAO lets you do the same by locking
-  your QI tokens.
+  Thu nhập thụ động là nghệ thuật nguồn tiền luân chuyển trong khoảng thời gian
+  đều đặn mà ít tốn công sức và thời gian nhất. Với QiDao cho phép bạn đạt được
+  điều tương tự bằng cách khóa Qi của bạn.
 ---
 
-# Earning Passive Income with QiDAO
+# Thu nhập thu động với QiDao
 
-## Passive income through QI DAO?
+## Thu nhập thụ động bằng QiDao ư?
 
-Qi DAO lets you earn weekly share of the revenue earned by the protocol, precisely:
+Qi DAO cho phép bạn nhận được một phần cổ tức doanh thu hàng tuần mà nền tảng kiếm được:
 
-* 30% of weekly repayment fee revenue \(plus a 25% boost\). 
-* 100% of LP rewards received from using deposit fee revenue to farm on QuickSwap 
-* 30% of weekly USDC Swap fees. 
+* 30% phí hoàn trả hàng tuần \(cộng thêm 25% tăng trưởng\). 
+* 100% của phần thưởng thanh khoản LP nhận được từ việc sử dụng doanh thu phí kí gửi để farm trên Quickswap 
+* 30% của phí swap USDC hàng tuần 
 
-This share of revenue is distributed to the people who stake and lock their QI tokens for a certain period of time, the rewards are then distributed in the form of QI tokens which is airdropped to your wallets directly. These rewards will be airdropped each Wednesday, and you can check your previous rewards [here](https://app.mai.finance/rewards).
+Phần chia doanh thu này được phân phối cho những người stake vào lock token Qi trong một khoảng thời gian nhất định, phần thường được phân phối trực tiếp vào ví theo dạng airdrops vào thứ Tư hàng tuần. Bạn có thể check phần thưởng gần nhất tại [đây.](https://app.mai.finance/rewards)
 
-## Introduction to snapshots
+## Giới thiệu về snapshot
 
-A snapshot is basically a recording of the the state of a blockchain on a particular block height, this means that the snapshot will record the contents of the entire blockchain ledger, which includes all existing addresses and their associated data \(transactions, fees, balance, so on\). Since Qi is on the Polygon blockchain we can check when the next snapshot is going to take place in [Polygonscan](https://polygonscan.com/).
+Một snapshot cơ bản là bản ghi lại trạng thái của một blockchain trên một chiều cao khối cụ thể, điều đó có nghĩa là môt snapshot sẽ ghi lại tất nội dung trên toàn bộ sổ cái blockchain, bao gồm tất cả địa chỉ hiện có và các thông tin liên quan đến chúng \(giao dich, phí, số dư...\) Ví Qi nằm trên chuỗi khối Polygon nên chúng ta có thể kiểm tra khi nào snapshot được tiến hành lần tới tại [Polygonscan](https://polygonscan.com/).
 
-You become eligible for the rewards if you stake your Qi tokens for at least ~10 days depending on when you lock your tokens. In other words, a valid staking period should contain at least 2 snapshots, so you'll get paid the Wednesday following the 2nd snapshot.
+Bạn đủ điều kiện để nhận phần thưởng nếu bạn stake số Qi của mình trong ít nhất 10 ngày tùy thuộc vào thời điểm bạn khóa token của mình. 
 
-![How to become eligible for the Qi rewards](../.gitbook/assets/unknown.png)
+![L&#xE0;m sao &#x111;&#x1EC3; &#x111;&#x1EE7; &#x111;i&#x1EC1;u ki&#x1EC7;n nh&#x1EAD;n th&#x1B0;&#x1EDF;ng Qi](../.gitbook/assets/unknown.png)
 
-This is an example of a bare minimal staking period. Of course, you can stake for a longer period of time, and there are actually benefits locking your Qi for a long period. The longer you lock, the bigger the reward boost will be \(see [What is Qi Powah](earning-passive-income-with-qidao.md#what-is-qi-powah) and the [FAQ](earning-passive-income-with-qidao.md#faqs-of-qi-staking) for more details\).
+Đây là ví dụ về khoảng thời gian khóa tối thiều. Tất nhiên bạn có thể khóa trong thời gian lâu hơn và thực sự có lợi khi khóa Qi của bạn trong một thời gian dài. Càng khóa  lâu thì phần thưởng càng lớn \(tham khảo thêm tại [What is Qi Powah](earning-passive-income-with-qidao.md#what-is-qi-powah) và [FAQ](earning-passive-income-with-qidao.md#faqs-of-qi-staking)\).
 
-## Understanding Qi Boost and Qi Powah
+## Tìm hiểu về Qi Boost và Qi Powah
 
-Now that we know what a snapshot is, we are ready to start earning some passive income using Qi. In order to do so, we have to go to the [boost ](https://app.mai.finance/boost)page in Mai Finance.
+Bây giờ chúng ta biết snapshot là gì, chúng ta đã sẵn sàng để bắt đầu kiếm một số thu nhập thụ động bằng cách sử dụng Qi. Để làm như vậy, chúng ta phải vào trang [Boost](https://app.mai.finance/boost) trong Mai Finance.
 
-### What is Qi Boost and Qi Powah?
+### Qi Boost và Qi Powah là gì?
 
-Qi Boost is your opportunity to increase the power and rewards of your Qi. The longer you lock your Qi the greater your voting power \(Qi Powah\) and weekly reward share will be. You can boost up to 4x by locking Qi for 4 years. Your boosts slowly reduces over your locking period, eventually unlocking your Qi, however you can always increase your boost to maintain your boosted level. Your boosted Qi is represented in eQi \(escrowed Qi\) and will remain in escrow until your unlock date \(non-transferable\).
+Qi Boost là cơ hội để bạn tăng sức mạnh và phần thưởng số Qi bị khóa của bạn. Bạn khóa Qi càng lâu thì quyền biểu quyết của bạn \(Qi Powah\) và phần thưởng hàng tuần sẽ càng lớn. Bạn có thể tăng lên đến 4x bằng cách khóa Qi trong 4 năm. Mức tăng của bạn giảm dần trong thời gian khóa, cuối cùng sẽ mở khóa Qi của bạn, tuy nhiên bạn luôn có thể tăng mức Qi để duy trì mức tăng của mình. Qi được boost của bạn được thể hiện bằng eQi \(Qi ký quỹ\) và sẽ vẫn ở trong ký quỹ cho đến ngày mở khóa của bạn \(không thể trao đổi\).
 
-This can means that locking Qi have the following advantages:
+Có nghĩa là số Qi bị khóa sẽ có những lợi thế sau:
 
-* You can start earning weekly rewards just by locking your Qi tokens.
-* As a DAO, your voice will matter and depending on how many Qi tokens you lock, and how much time it is locked, you'll have more voting power of what will happen in the community. You can check the currents proposals of Qi DAO [here](https://snapshot.org/#/qidao.eth).
+* Bạn có thể kiếm được phần thưởng hàng tuần chỉ với khóa số Qi của bạn.
+* Là một DAO, tiếng nói của bạn sẽ quan trọng và tùy thuộc vào số lượng token Qi bạn khóa và thời gian khóa, bạn sẽ có nhiều quyền biểu quyết hơn về những gì sẽ xảy ra trong cộng đồng. Bạn có thể kiểm tra các đề xuất gần đây của Qi DAO [here](https://snapshot.org/#/qidao.eth).
 
-### Locking your Qi
+### Khóa Qi của bạn
 
-To lock your Qi tokens you need to go the Qi Powah Boost lock bar and select how many tokens do you want to lock and the time period for which you want to lock your Qi tokens. The longer the time period the more **eQi** you will get, remember that eQi is just how many Qi tokens you will have once the locking period is over.
+Để khóa  Qi của bạn, bạn cần vào thanh tab Boost và chọn số lượng token bạn muốn khóa và khoảng thời gian bạn muốn khóa token Qi của mình. Khoảng thời gian càng dài thì bạn sẽ nhận được càng nhiều eQi, hãy nhớ rằng eQi chỉ là số lượng token Qi bạn sẽ có sau khi thời gian khóa kết thúc.
 
 ![Qi Powah Boost Lock](../.gitbook/assets/captura.jpg)
 
-Once you have decided all that, click on approve and approve the transaction, then click on `Increase locked QI and lock time` and confirm the transaction.
+Một khi đã quyết định tất cả những thứ đó hãy nhấp vào phê duyệt và chấp nhận phê duyệt giao dịch `Increase locked QI and lock time` .
 
 {% hint style="info" %}
-Please be aware that once you lock your Qi tokens for a given period, there's no way to unlock them before the lock period is over. Please be very cautious and aware when using this feature.
+Xin lưu ý rằng khi bạn khóa token Qi của mình trong một khoảng thời gian nhất định, không có cách nào để mở khóa chúng trước khi thời gian khóa kết thúc. Hãy rất thận trọng và lưu ý khi sử dụng tính năng này.
 {% endhint %}
 
-Congratulations, now you are officially a Qi staker you will receive on the following weeks a weekly pay check. If you have any doubt wether you are qualified for the next week's revenue sharing, you can see on the boost page if you are qualified or not.
+Xin chúc mừng, bây giờ bạn đã chính thức là một cổ đông Qi, bạn sẽ nhận được tiền thưởng hàng tuần và các tuần tiếp theo. Nếu bạn có bất kỳ nghi ngờ nào về việc bạn có đủ điều kiện để chia sẻ doanh thu của tuần tiếp theo hay không, bạn có thể xem trên trang Boost xem bạn có đủ điều kiện hay không.
 
 ![](../.gitbook/assets/captura%20%281%29.jpg)
 
-### Stats of the Qi Powah
+### Số liệu thống kê Qi Powah
 
-If you want to check the stats of the Qi Boosting, you can go to this [page ](https://app.mai.finance/boost/stats)to check the amount of Qi locked, as well as the average lock time or the revenue that the protocol earn each week.
+Nếu bạn muốn kiểm tra số liệu thống kê của Qi Bo boost, bạn có thể vào trang[ này](https://app.mai.finance/boost/stats) để kiểm tra lượng Qi bị khóa, cũng như thời gian khóa trung bình hoặc doanh thu mà giao thức kiếm được mỗi tuần.
 
 ## FAQs of Qi Staking
 
-* **When do I have to lock my QI?** 
+* **Khi nào tôi phải khóa Qi?** 
 
-Snapshots are on Sunday and they record who has locked their $QI for at least a week at the time of the snapshot. If you do, you qualify for a share of the revenue for the upcoming week
+Snapshot là vào Chủ nhật và nó ghi lại ai đã khóa $ QI của họ trong ít nhất một tuần tại thời điểm snapshot. Nếu bạn làm vậy, bạn đủ điều kiện để được nhận  doanh thu cho tuần sắp tới
 
-* **Where can I see when is the snapshot?** 
+* **Nơi nào để biết được khi nào snapshot?** 
 
-Check the boost page, copy the “Next blocks” first number and paste it on Polygonscan. It will tell you the exact estimation time of the snapshot.
+Kiểm tra trang "Boost", sao chép số đầu tiên “Khối tiếp theo” và dán nó vào Polygonscan. Nó sẽ cho bạn biết thời gian ước tính chính xác của snapshot.
 
-* **For how long do I have to lock my QI?** 
+* **Tôi phải khóa Qi đến bao giờ?** 
 
-At he moment of the snapshot it has to be locked at least 1 full week. If you want to make 100% sure that you will be eligible, we recommend to lock for 2 weeks or more.
+Tại thời điểm snapshot, nó phải được khóa ít nhất đủ 1 tuần . Nếu bạn muốn chắc chắn 100% rằng bạn sẽ đủ điều kiện, chúng tôi khuyên bạn nên khóa từ 2 tuần trở lên.
 
-* **When do I receive my rewards?** 
+* **Khi nào tôi nhận được phần thưởng ?** 
 
-Every Wednesday, they will be either airdropped to your wallet or collectable from rewards page. Timing might be somewhat flexible, please be patient as the team has to verify before release them.
+Thứ Tư hàng tuần, chúng sẽ được chuyển thẳng vào ví của bạn hoặc có thể thu thập tại trang Rewards. Thời gian sẽ có chút linh hoạt, hãy kiên nhẫn chờ team xác nhận trước khi gửi vào ví của bạn.
 
-* **But I locked almost 2 weeks ago and I didn’t receive anything yet!** 
+* **Nhưng tôi đã khóa 2 tuần trước và tôi chưa nhận được gì cả!** 
 
-There’s a few possibilities here: Either everything is fine but you still have to wait until next Wednesday, or at the moment of the snapshot it was locked for less than a week. Rewards are distributed roughly 10 days after snapshots.
+Có một số khả năng xảy ra như sau: Mọi thứ vẫn ổn cả, tuy nhiên bạn phải đợi đến thứ Tư hoặc vào thời điểm chụp nhanh nó đã khóa chưa đầy 1 tuần. Phần thưởng được phân phối sau 10 ngày sau khi snapshot.
 
-* **What tokens will I receive?** 
+* **Tôi sẽ nhận loại token nào ?** 
 
-$QI staking rewards are distributed in $QI.
+Staking Qi bạn sẽ nhận lại Qi
 
-* **Where do these rewards come from?** 
-  * 100% gains from farming deposit fee revenue \($2,245,681 used to farm as of week 14\) 
-  * 30% of repayment fee revenue \($18,362 average weekly revenue\)
-  * 30% of Anchor/Swap fee revenue \($178,365 average weekly revenue\)
-* **What is eQI and what can I do with it?** 
+* **Phần thưởng đến từ đâu?** 
+  * 100% lợi nhuận từ doanh thu phí ký gửi farming \(2.245.681 đô la được sử dụng để famr tính đến tuần 14\)
+  * 30% doanh thu phí hoàn trả \(doanh thu trung bình hàng tuần là 18.362 đô la\)
+  * 30% doanh thu phí Anchor / Swap \(doanh thu trung bình hàng tuần là 178.365 đô la\)
+* **eQi là gì và tôi có thể làm gì với eQi?** 
 
-eQI \(escrowed QI\) represents the boost that you're getting on your voting power and Qi rewards. So for the purposes of voting and getting Qi rewards, 1 eQi counts as 1 Qi
+eQI \(QI ký quỹ\) đại diện cho sự gia tăng mà bạn đang nhận được nhờ quyền biểu quyết của mình và phần thưởng Qi. Vì vậy, với mục đích bỏ phiếu và nhận phần thưởng Qi, 1 eQi được tính là 1 Qi
 
-* **But wait, I locked to get rewards. What’s this voting power?** 
+* **Quyền biểu quyết là gì?**
 
-QiDao is a DAO \(Decentralized Autonomous Organization\) and the future of the protocol is decided by the community. As a holder of $QI you are entitled to vote on QIP \(QiDao Improvement Proposals\) published on Governance page.
+QiDao là một DAO \(Tổ chức tự trị phi tập trung\) và tương lai của giao thức được quyết định bởi cộng đồng. Là người nắm giữ $ QI, bạn có quyền bỏ phiếu cho QIP \(Đề xuất cải tiến QiDao\) được xuất bản trên trang Governance.
 
-* **What APR can I expect by locking $QI?** 
+* **Số APR tôi mong chờ là khoảng bao nhiêu?** 
 
-Every week is different as the rewards depends on how much eQI there is and how much revenue did the protocol collect that week. You can get some estimates from the eQI APY on boost page, the boost stats and the weekly updates where we share past revenues.
+Mỗi tuần APY đều khác nhau vì phần thưởng phụ thuộc vào lượng eQI có và doanh thu mà giao thức thu được trong tuần đó. Bạn có thể nhận được một số ước tính từ eQI APY trên trang Boost, số liệu thống kê tăng và cập nhật hàng tuần nơi chúng tôi chia sẻ doanh thu trước đó.
 
-* **Can I add more QI to my current staking or make it last longer?** 
+* **Tôi có thể thêm nhiều QI hơn vào số cổ phần hiện tại hay kéo dài thời gian?** 
 
-Yes, you can do both without affecting your current staking. Just select the amount, the time to add, click increase and confirm.
+Đương nhiên là được, bạn có thể làm cả hai mà không ảnh hưởng đến việc đặt cổ phần hiện tại của bạn. Chỉ cần chọn số tiền, thời gian cần thêm, bấm tăng và xác nhận.
 
 * **Can I lock my QI for different amounts of time?** 
 
