@@ -116,8 +116,8 @@ From these 98.45% Qi reward, half of it is directly sold to buy WMATIC and form 
 
 With 100$ worth of LP token, assuming the APR and the token prices remain the same for a complete year, and assuming there's no compounding, you would get after one year of farming
 
-* $134.42 worth of new Qi
-* $98.45 worth of new Qi/WMATIC token, or $49.23 worth of new Qi
+* $134.42 worth of new Qi on Mai Finance
+* $98.45 worth of new Qi/WMATIC token, or $49.23 worth of new Qi on Adamant
 
 This means that, in the process, $85.20 worth of Qi is simply sold directly on the market, which is more than 60% of the total emission allocated to the pool on Adamant.
 
