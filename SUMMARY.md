@@ -7,6 +7,7 @@
 * [Tạo đòn bẩy cho các token từ thị trường Aave](huong-dan/leverage-aave-tokens.md)
 * [Tối ưu thanh khoản chỉ bằng stablecoin](huong-dan/secure-your-yield-farming-profits.md)
 * [Cách sử dụng MAI trên hệ sinh thái Polygon?](huong-dan/what-to-do-with-mai-on-polygon.md)
+* [What to do with Qi on Polygon](huong-dan/what-to-do-with-qi-on-polygon.md)
 * [Vũ trụ MAI](huong-dan/mai-metaverse.md)
 * [Cách sử dụng MAI ngoài thực tế](huong-dan/how-to-use-mai-in-the-real-life.md)
 * [Xếp DApps giống xếp Lego](huong-dan/stack-dapps-like-lego-bricks.md)
