@@ -105,7 +105,7 @@ The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% a
 
 In September 2021, Mai Finance introduced vault incentives. This is a reward allocated by the Mai Finance platform to anyone borrowing MAI and participating in the growth of the platform.
 
-Each Vault type \(among the 10 different types\) receives 0.005 Qi per block, that is then distributed between all the users who have a healthy Collateral to Debt Ratio. The APR of the vault is defined by the current amount of MAI borrowed.
+Each Vault type \(among the 10 different types\) receives 0.05 Qi per block, that is then distributed between all the users who have a healthy Collateral to Debt Ratio. The APR of the vault is defined by the current amount of MAI borrowed.
 
 As an example, Ben and Kila are 2 friends who deposited their ETH in the WETH vaults on Mai Finance.
 
@@ -119,21 +119,21 @@ Both Ben and Kila qualify for the vault incentives because Ben has a CDR of 200%
 The total amount of Qi allocated to the WETH vault \(or any vault\) is
 
 $$
-Qi=0.005*\frac{86400}{2}=216
+Qi=0.05*\frac{86400}{2}=2160
 $$
 
 {% hint style="info" %}
-86,400 is the number of seconds in a day, and on Polygon, the block time is 2 seconds, meaning that the expected number of blocks every day is 86,400 / 2 = 43,200. Hence, the emission for each Vault is 216 Qi / day.
+86,400 is the number of seconds in a day, and on Polygon, the block time is 2 seconds, meaning that the expected number of blocks every day is 86,400 / 2 = 43,200. Hence, the emission for each Vault is 2,160 Qi / day.
 
 **Note:** Block time has increased lately and is around 2.6 seconds. However, all APRs and APYs displayed on all apps are assuming a block time of 2 seconds. Please DYOR and check the current [block time on PolygonScan](https://polygonscan.com/chart/blocktime).
 {% endhint %}
 
-Hence, if the state of the Vault remains the same, Ben will get 0.1% of the 216 Qi distributed, while Kila will get 0.6% of the granted reward.
+Hence, if the state of the Vault remains the same, Ben will get 0.1% of the 2,160 Qi distributed, while Kila will get 0.6% of the granted reward.
 
-* Ben will get 0.216 Qi every day, which is a daily reward of 0.0216%, or an APR of 7.884%
-* Kila will get 1.296 Qi every day, which is also a daily reward of 0.0216%, or an APR of 7.884%
+* Ben will get 2.16 Qi every day, which is a daily reward of 0.216%, or an APR of 78.84%
+* Kila will get 12.96 Qi every day, which is also a daily reward of 0.216%, or an APR of 78.84%
 
-On a side note, 216 Qi for 1,000,000 MAI is a daily reward of 0.0216%, or 7.884%, which is the Vault's APR.
+On a side note, 2,160 Qi for 1,000,000 MAI is a daily reward of 0.216%, or 78.84%, which is the Vault's APR.
 
 {% hint style="info" %}
 It's easy to see that the Vault's APR is directly linked to the amount of MAI borrowed. The more MAI is borrowed, the lower the APR. As a side note, the amount of MAI that can be borrowed is also capped by the debt ceiling, which is increased with the demand for MAI.
@@ -142,12 +142,12 @@ It's easy to see that the Vault's APR is directly linked to the amount of MAI bo
 As a verification, we can calculate the theoretical APR for the MATIC vault based on numbers published on the [analytics page](https://app.mai.finance/analytics) on Mai Finance. The amount of MAI borrowed from the MATIC vault is 799,328. The reward is 216 Qi per day for that vault. That corresponds to a APR of
 
 $$
-APR=\frac{QiReward}{MAI_{borrowed}}*365=\frac{216}{799328}*365=9.86\%
+APR=\frac{QiReward*Qi_{Price}}{MAI_{borrowed}}*365=\frac{2160*0.441}{785008}*365=44.29\%
 $$
 
-This corresponds more or less to the APR displayed on the MATIC vault that has been advertised during a QiDAO workshop on September 13th, as displayed in the following screenshot:
+This corresponds more or less to the APR of the MATIC Vault, as displayed in the following screenshot:
 
-![](../.gitbook/assets/image%20%282%29.png)
+![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](../.gitbook/assets/image%20%2821%29.png)
 
 ### Calculating starting vaults' APRs
 
@@ -155,16 +155,16 @@ With the same data as the example above, it's possible to calculate the starting
 
 | Vault type | Starting APR |
 | :--- | :--- |
-| MATIC | 9.86% |
-| WETH | 19.24% |
-| LINK | 10.02% |
-| AAVE | 46.26% |
-| CRV | 51.65% |
-| WBTC | 21.56% |
-| camWETH | 6.72% |
-| camWMATIC | 8.57% |
-| camAAVE | 126.19% |
-| camWBTC | 12.51% |
+| MATIC | 44.29% |
+| WETH | 24.03% |
+| LINK | 27.41% |
+| AAVE | 164.14% |
+| CRV | 159.96% |
+| WBTC | 36.92% |
+| camWETH | 25.46% |
+| camWMATIC | 44.33% |
+| camAAVE | 167.23% |
+| camWBTC | 47.38% |
 
 {% hint style="info" %}
 As you can see, some vaults will generate more rewards than others. Also, you can see that it's super important to deposit your assets as soon as possible to benefit from high APRs before the debt ceiling is increased and more loan is taken \(lowering the APR\).
@@ -213,6 +213,14 @@ The scheduled length of the borrowing incentives program is to last 3 months. Th
 * **How will we receive rewards?**
 
 Qi will be airdropped to eligible vault holders.
+
+* **How is eligibility for rewards gathered?**
+
+Eligibility for rewards is calculated per block. You will earn rewards for the blocks you were eligible during the week.
+
+* **When do tracking rewards for the week start?**
+
+We will follow the same schedule as eQi. You can find the block numbers on the boost page.
 
 ## Disclaimer
 
