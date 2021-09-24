@@ -4,7 +4,7 @@ description: >-
   tus MAI recién acuñados en Polygon.
 ---
 
-# Qué puedes hacer con tu MAI en Polygon
+# ¿Qué hacer con MAI en Polygon?
 
 ## Objetivo de este tutorial <a id="goal-of-this-tutorial"></a>
 
