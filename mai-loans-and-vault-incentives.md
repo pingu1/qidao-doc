@@ -138,7 +138,7 @@ Es fácil de ver que el APR de la bóveda esta relacionado con la cantidad de MA
 Para verificarlo, podemos calcular el APR teórico para la bóveda de MATIC usando los números que nos proporciona las [estadísticas ](https://app.mai.finance/analytics)de Mai Finance. La cantidad de MAI prestada en la bóveda de MATIC es 785 328. La recompensa es de 2160 Qi por día en esa bóveda. Eso corresponde a un APR del:
 
 $$
-APR=\frac{RecompensaQi * QiPrice}{MAI_{prestado}}*365=\frac{2160 *0.441}{785328 }*365=44.29\%
+APR=\frac{RecompensaQi * PrecioQi}{MAI_{prestado}}*365=\frac{2160 *0.441}{785328 }*365=44.29\%
 $$
 
 Esto da como resultado aproximadamente el APR existente al crear una bóveda en Mai Finance, ten en cuenta que la cantidad de MAI prestado y el precio de Qi variarán con el tiempo por lo que el APR no sera siempre el mismo.
