@@ -6,7 +6,7 @@
 
 * [Apalancamiento con tus tokens de AAVE](tutoriales-de-inversion/apalancamiento-con-tus-tokens-de-aave.md)
 * [¿Qué hacer con MAI en Polygon?](tutoriales-de-inversion/que-hacer-con-mai-en-polygon.md)
-* [¿Qué hacer con Qi en Polygon?](tutoriales-de-inversion/what-to-do-with-qi-on-polygon.md)
+* [¿Qué hacer con Qi en Polygon?](tutoriales-de-inversion/que-hacer-con-qi-polygon.md)
 * [Farmear utilizando únicamente monedas estables](tutoriales-de-inversion/secure-your-yield-farming-profits.md)
 * [Como usar MAI en la vida real](tutoriales-de-inversion/how-to-use-mai-in-the-real-life.md)
 * [¿Farmear o hacer staking? ¿O Ambas?](tutoriales-de-inversion/farming-or-staking-or-both.md)
