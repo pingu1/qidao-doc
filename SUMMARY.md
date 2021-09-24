@@ -17,7 +17,7 @@
 ---
 
 * [Genera Ingresos Pasivos con Qi DAO](earning-passive-income-with-qidao.md)
-* [Préstamos de MAI y Depósitos Incentivados](mai-loans-and-vault-incentives.md)
+* [Préstamos de MAI y Depósitos Incentivados](prestamos-mai-depositos-incentivados.md)
 
 ## Tutoriales sobre el pago de la deuda
 
