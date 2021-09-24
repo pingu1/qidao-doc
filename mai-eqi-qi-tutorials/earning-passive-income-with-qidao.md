@@ -15,11 +15,11 @@ Qi DAO cho phép bạn nhận được một phần cổ tức doanh thu hàng t
 * 100% của phần thưởng thanh khoản LP nhận được từ việc sử dụng doanh thu phí kí gửi để farm trên Quickswap 
 * 30% của phí swap USDC hàng tuần 
 
-Phần chia doanh thu này được phân phối cho những người stake vào lock token Qi trong một khoảng thời gian nhất định, phần thường được phân phối trực tiếp vào ví theo dạng airdrops vào thứ Tư hàng tuần. Bạn có thể check phần thưởng gần nhất tại [đây.](https://app.mai.finance/rewards)
+Phần chia doanh thu này được phân phối cho những người stake vào lock token Qi trong một khoảng thời gian nhất định, phần thưởng được phân phối trực tiếp vào ví theo dạng airdrop vào thứ Tư hàng tuần. Bạn có thể check phần thưởng gần nhất tại [đây.](https://app.mai.finance/rewards)
 
 ## Giới thiệu về snapshot
 
-Một snapshot cơ bản là bản ghi lại trạng thái của một blockchain trên một chiều cao khối cụ thể, điều đó có nghĩa là môt snapshot sẽ ghi lại tất nội dung trên toàn bộ sổ cái blockchain, bao gồm tất cả địa chỉ hiện có và các thông tin liên quan đến chúng \(giao dich, phí, số dư...\) Ví Qi nằm trên chuỗi khối Polygon nên chúng ta có thể kiểm tra khi nào snapshot được tiến hành lần tới tại [Polygonscan](https://polygonscan.com/).
+Một snapshot cơ bản là bản ghi lại trạng thái của một blockchain trên một chiều cao khối cụ thể, điều đó có nghĩa là môt snapshot sẽ ghi lại tất nội dung trên toàn bộ sổ cái blockchain, bao gồm tất cả địa chỉ hiện có và các thông tin liên quan đến chúng \(giao dich, phí, số dư...\). Vì QiDao nằm trên chuỗi khối Polygon nên chúng ta có thể kiểm tra khi nào snapshot được tiến hành lần tới tại [Polygonscan](https://polygonscan.com/).
 
 Bạn đủ điều kiện để nhận phần thưởng nếu bạn stake số Qi của mình trong ít nhất 10 ngày tùy thuộc vào thời điểm bạn khóa token của mình. 
 
@@ -60,11 +60,11 @@ Xin chúc mừng, bây giờ bạn đã chính thức là một cổ đông Qi, 
 
 Nếu bạn muốn kiểm tra số liệu thống kê của Qi Bo boost, bạn có thể vào trang[ này](https://app.mai.finance/boost/stats) để kiểm tra lượng Qi bị khóa, cũng như thời gian khóa trung bình hoặc doanh thu mà giao thức kiếm được mỗi tuần.
 
-## FAQs of Qi Staking
+## Hỏi đáp về Qi Staking
 
 * **Khi nào tôi phải khóa Qi?** 
 
-Snapshot là vào Chủ nhật và nó ghi lại ai đã khóa $ QI của họ trong ít nhất một tuần tại thời điểm snapshot. Nếu bạn làm vậy, bạn đủ điều kiện để được nhận  doanh thu cho tuần sắp tới
+Snapshot là vào Chủ nhật và nó ghi lại ai đã khóa Qi của họ trong ít nhất một tuần tại thời điểm snapshot. Nếu bạn làm vậy, bạn đủ điều kiện để được nhận doanh thu cho tuần sắp tới
 
 * **Nơi nào để biết được khi nào snapshot?** 
 
@@ -82,7 +82,7 @@ Thứ Tư hàng tuần, chúng sẽ được chuyển thẳng vào ví của b�
 
 Có một số khả năng xảy ra như sau: Mọi thứ vẫn ổn cả, tuy nhiên bạn phải đợi đến thứ Tư hoặc vào thời điểm chụp nhanh nó đã khóa chưa đầy 1 tuần. Phần thưởng được phân phối sau 10 ngày sau khi snapshot.
 
-* **Tôi sẽ nhận loại token nào ?** 
+* **Tôi sẽ nhận lại token nào ?** 
 
 Staking Qi bạn sẽ nhận lại Qi
 
@@ -96,31 +96,31 @@ eQI \(QI ký quỹ\) đại diện cho sự gia tăng mà bạn đang nhận đ�
 
 * **Quyền biểu quyết là gì?**
 
-QiDao là một DAO \(Tổ chức tự trị phi tập trung\) và tương lai của giao thức được quyết định bởi cộng đồng. Là người nắm giữ $ QI, bạn có quyền bỏ phiếu cho QIP \(Đề xuất cải tiến QiDao\) được xuất bản trên trang Governance.
+QiDao là một DAO \(Tổ chức tự trị phi tập trung\) và tương lai của giao thức được quyết định bởi cộng đồng. Là người nắm giữ Qi, bạn có quyền bỏ phiếu cho QIP \(Đề xuất cải tiến QiDao\) được xuất bản trên trang Governance.
 
 * **Số APR tôi mong chờ là khoảng bao nhiêu?** 
 
-Mỗi tuần APY đều khác nhau vì phần thưởng phụ thuộc vào lượng eQI có và doanh thu mà giao thức thu được trong tuần đó. Bạn có thể nhận được một số ước tính từ eQI APY trên trang Boost, số liệu thống kê tăng và cập nhật hàng tuần nơi chúng tôi chia sẻ doanh thu trước đó.
+Mỗi tuần APR đều khác nhau vì phần thưởng phụ thuộc vào lượng eQI có và doanh thu mà giao thức thu được trong tuần đó. Bạn có thể nhận được một số ước tính từ eQI APR trên trang Boost, số liệu thống kê tăng và cập nhật hàng tuần nơi chúng tôi chia sẻ doanh thu trước đó.
 
 * **Tôi có thể thêm nhiều QI hơn vào số cổ phần hiện tại hay kéo dài thời gian?** 
 
 Đương nhiên là được, bạn có thể làm cả hai mà không ảnh hưởng đến việc đặt cổ phần hiện tại của bạn. Chỉ cần chọn số tiền, thời gian cần thêm, bấm tăng và xác nhận.
 
-* **Can I lock my QI for different amounts of time?** 
+* **Tôi có thể khóa Qi theo thời gian khác nhau không?** 
 
-Currently that’s not possible within the same account. However, you can quickly do that by adding a new account to your wallet. That way you can lock for a long time with your main one and for shorter periods of time with a secondary address.
+Hiện tại, điều đó không thể thực hiện được trong cùng một tài khoản. Tuy nhiên, bạn có thể  thực hiện điều đó bằng cách thêm tài khoản mới vào ví của mình. Bằng cách đó, bạn có thể khóa trong thời gian dài với ví chính và trong khoảng thời gian ngắn hơn với ví phụ.
 
-* **What will happen when the lock time is due?** 
+* **Điều gì khi khóa hết hạn?** 
 
-You will have to click withdraw and will receive in your wallet the same amount you initially locked. But I locked for 4 years and see that I have 4 times more eQI than QI locked That’s normal. eQI will gradually decrease as time passes by and in the end it will be equal to your initial QI. In the meantime you will enjoy a boost on your voting power and weekly rewards.
+Bạn sẽ phải nhấp vào rút tiền và sẽ nhận được trong ví của bạn số tiền bạn đã khóa ban đầu. Nhưng vì đã khóa trong 4 năm và thấy rằng bạn có eQI gấp 4 lần so với QI bị khóa. eQI sẽ giảm dần khi thời gian trôi qua và cuối cùng nó sẽ bằng với QI ban đầu của bạn. Trong thời gian chờ đợi, bạn sẽ được  quyền biểu quyết và phần thưởng hàng tuần.
 
-## Disclaimer
+## Tuyên bố từ chối trách nhiệm
 
-You can find an article on a similar topic covered by Genkham [here](https://medium.com/@GenKham/earning-passive-income-with-qi-dao-b92a6a3721bd).
+Bạn có thể tìm thấy một bài viết với chủ đề tương tự tại đây  [here](https://medium.com/@GenKham/earning-passive-income-with-qi-dao-b92a6a3721bd).
 
-This guide is definitely not financial advice, it was made with an educational goal in mind. The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Hướng dẫn này chắc chắn không phải là lời khuyên tài chính, nó được thực hiện với mục tiêu giáo dục. Mục đích không phải là đề xuất các công thức mà làm theo một cách mù quáng, vì vậy vui lòng hãy tự nghiên cứu và minh họa của riêng bạn, và chỉ đầu tư những gì bạn sẵn sàng với khả năng có thể mất.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động xấu \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu
 {% endhint %}
 

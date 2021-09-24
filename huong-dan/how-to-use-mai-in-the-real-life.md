@@ -9,7 +9,7 @@ description: >-
 
 ## Tình huống thực tế cho MAI
 
-DogeOfWallStreet rất lạc quan về Ethereum. Với tất cả cơn sốt xoay quanh tiền điện tử, một phần được thúc đẩy bởi cơn sốt của NFT và trường hợp tăng giá cho Eth2.0, anh ấy muốn đảm bảo rằng anh ấy có thể nhận được nhiều ETH nhất có thể trước khi giá thực sự go to moon.
+DogeOfWallStreet rất lạc quan về Ethereum. Với tất cả cơn sốt xoay quanh tiền điện tử, một phần được thúc đẩy bởi cơn sốt của NFT và trường hợp tăng giá cho Eth 2.0, anh ấy muốn đảm bảo rằng anh ấy có thể nhận được nhiều ETH nhất có thể trước khi giá thực sự go to moon.
 
 Để làm như vậy,  anh ý đã đầu tư vào một giàn khai thác nhỏ với 6 GPU. Anh ấy đang khai thác ETH 24/7/365 và kiếm được trung bình $ 40,00 mỗi ngày với 6 RTX 3080 của mình.
 
@@ -21,7 +21,7 @@ Hôm nay là ngày mà khoản đầu tư ban đầu của anh ấy vào GPU cu�
 * "Sự hợp nhất" sẽ chuyển Ethereum từ P-o-W \(Bằng chứng công việc\) sang P-o-S \(Bằng chứng cổ phần\) sẽ không xảy ra trước Quý 1 năm 2022 và các nhà phát triển Ethereum nổi tiếng vì sự chậm trễ
 * các nhà sản xuất GPU và ASIC đang bổ sung thêm nhiều công cụ khai thác ETH vào thị trường, đặt cược vào thực tế rằng ETH2.0 sẽ bị trì hoãn trong nhiều tháng, có thể là nhiều năm
 
-Vì vậy, thay vì ngồi trên lợi nhuận của mình chờ đợi giá tăng vọt, DogeOfWallStreet quyết định rằng đã đến lúc mua thêm card đồ họa và có thể tăng lợi nhuận khai thác của mình. Về mặt chi phí, RTX 1660 super có vẻ là card có lợi nhất hiện tại và nó chỉ có giá $ 500.00.
+Vì vậy, thay vì ngồi trên lợi nhuận của mình chờ đợi giá tăng vọt, DogeOfWallStreet quyết định rằng đã đến lúc mua thêm card đồ họa và có thể tăng lợi nhuận khai thác của mình. Về mặt chi phí, RTX 1660 super có vẻ là card có lợi nhất hiện tại và nó chỉ có giá $ 500.
 
 ![](../.gitbook/assets/screen-shot-2021-08-13-at-12.07.41-pm.png)
 
@@ -30,11 +30,11 @@ Sau 1 tháng khai thác, anh ấy kiểm tra danh mục đầu tư của mình t
 * anh ấy có nên giữ ETH của mình vì giá đang tăng không?
 * anh ta có nên bán ETH của mình không vì anh ta mua GPU càng sớm thì anh ta càng sớm khai thác được nhiều ETH hơn?
 
-Đó là khi anh phát hiện ra Mai Finance và sức mạnh của khoản vay 0% lãi suấ.
+Đó là khi anh phát hiện ra Mai Finance và sức mạnh của khoản vay 0% lãi suất.
 
 ##  Khoản vay 0% lãi suất / 0,5% phí hoàn trả
 
-Sau khi đọc các tài liệu khác nhau của Mai Finance và nhận được một số trợ giúp từ cộng đồng Discord, DogeOfWallStreet nhận thấy khả năng giữ Ethereum của mình trong khi vẫn được mua card đồ họa của mình.
+Sau khi đọc các tài liệu khác nhau của Mai Finance và nhận được một số trợ giúp từ cộng đồng Discord, DogeOfWallStreet nhận thấy khả năng giữ Ethereum của mình trong khi vẫn được mua thêm card đồ họa.
 
 Bước đầu tiên là kết nối ETH với mạng Polygon. Điều này thật dễ dàng bằng cách sử dụng cầu [PoS](https://wallet.polygon.technology/) và việc bắc cầu các tài sản được thực hiện ở "mức giá hợp lý" là 20,00 đô la được thanh toán bằng ETH.
 
@@ -58,7 +58,7 @@ Tại một số thời điểm, nếu việc khai thác ETH trở nên không c
 
 ## Số đầu tư ban đầu và chiến lược trả nợ trong cuộc sống thực
 
-Nghĩ về điều đó, Doge Wall Street bây giờ buồn vì anh ta không biết Tài chính của tôi tồn tại trước khi anh ta mua giàn trâu của mình. Thật vậy, đây là những gì anh ấy có thể đã làm
+Nghĩ về điều đó, Doge Wall Street bây giờ buồn vì anh ta không biết Mai Finance tồn tại trước khi anh ta mua giàn trâu của mình. Thật vậy, đây là những gì anh ấy có thể đã làm
 
 * Nhận khoản vay ngân hàng 20.000,00 đô la với lãi suất 5% và trả dần trong 2 năm \(hoàn trả 877,43 đô la /tháng\)
 * Chuyển đổi USD sang ETH, chuyển nó sang Polygon, sử dụng AAVE và Mai Finance để vay 10.000 MAI

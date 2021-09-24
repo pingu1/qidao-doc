@@ -16,13 +16,13 @@
 ## Hướng dẫn MAI/eQi/Qi <a id="mai-eqi-qi-tutorials"></a>
 
 * [Thu nhập thu động với QiDao](mai-eqi-qi-tutorials/earning-passive-income-with-qidao.md)
-* [How does MAI work](mai-eqi-qi-tutorials/how-does-mai-work.md)
-* [MAI loans and Vaults incentives](mai-eqi-qi-tutorials/mai-loans-and-vaults-incentives.md)
+* [MAI hoạt động như thế nào?](mai-eqi-qi-tutorials/how-does-mai-work.md)
+* [Các khoản vay MAI và các ưu đãi cho các kho tiền](mai-eqi-qi-tutorials/mai-loans-and-vaults-incentives.md)
 
-## Debt Management Tutorials
+## Hướng dẫn quản lý nợ <a id="debt-management-tutorials"></a>
 
-* [Debt repayment - Why and When?](debt-management-tutorials/debt-repayment-why-and-when.md)
-* [Debt repayment - How?](debt-management-tutorials/debt-repayment-how.md)
+* [Hoàn trả nợ - Tại sao và khi nào?](debt-management-tutorials/debt-repayment-why-and-when.md)
+* [Hoàn trả nợ - Như thế nào?](debt-management-tutorials/debt-repayment-how.md)
 
 ## Join the Community <a id="community"></a>
 

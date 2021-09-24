@@ -10,25 +10,25 @@ description: >-
 
 Mục tiêu của hướng dẫn này không phải là trình bày chi tiết những gì bạn có thể làm với đồng MAI của mình, tuy nhiên sẽ có một danh sách tất cả các trang web và ứng dụng DeFi mà bạn có thể sử dụng trên Polygon sẽ cho phép bạn sử dụng MAI của mình trực tiếp hoặc kết hợp với các đồng tiền ổn định khác. Để biết thêm chi tiết về các cách cụ thể để sử dụng MAI, bạn có thể tham khảo các hướng dẫn khác trên trang web này, hoặc nhận trợ giúp trên Discord hoặc Telegram.
 
-Xin lưu ý rằng danh sách này chưa hoàn chỉnh và sẽ không bao giờ là hoàn chỉnh bởi vì có các dapp mới ra mắt liên tục hàng tuần. Chúng ta không thể xem xét tất cả chúng, vì vậy tôi sẽ chỉ trình bày các tùy chọn chính, hoặc các tùy chọn nổi bâtj nhất / "bảo mật" nhất.
+Xin lưu ý rằng danh sách này chưa hoàn chỉnh và sẽ không bao giờ là hoàn chỉnh bởi vì có các dapp mới ra mắt liên tục hàng tuần. Chúng ta không thể xem xét tất cả chúng, vì vậy tôi sẽ chỉ trình bày các tùy chọn chính, hoặc các tùy chọn nổi bật nhất / "bảo mật" nhất.
 
 Nếu bạn muốn dự án cụ thể được trình bày xin vui lòng liên hệ cộng đồng  [Discord](https://discord.gg/mQq55j65xJ).
 
 {% hint style="info" %}
-Tôi sẽ không trình bày farm của Mai Finance. Chủ đề này xứng đáng có một mục hướng dẫn riêng, bởi vì Qi không giống như bất kỳ đồng coin bản vị của một farm ngẫu nhiên nào.
+Chúng ta sẽ không trình bày farm của Mai Finance. Chủ đề này xứng đáng có một mục hướng dẫn riêng, bởi vì Qi không giống như bất kỳ đồng coin bản vị của một farm ngẫu nhiên nào.
 {% endhint %}
 
 ## Farming an toàn trên các dự án bluechip
 
-Các dự án bluechips là các ứng dụng DeFi được chứng minh là bền vững và có rủi ro thấp hơn. Các dự án thường đã được kiểm định và tem đã gắn bó với dự án rất lâu. Những dự án thường không có APR lớn \(Tỷ lệ phần trăm lợi nhuận hàng năm\) nhưng có thể đáng tin cậy.
+Các dự án bluechip là các ứng dụng DeFi được chứng minh là bền vững và có rủi ro thấp hơn. Các dự án thường đã được kiểm định và team đã gắn bó với dự án rất lâu. Những dự án thường không có APR lớn \(Tỷ lệ phần trăm lợi nhuận hàng năm\) nhưng có thể đáng tin cậy.
 
 ### Balancer
 
-[Balancer](https://polygon.balancer.fi/#/) là trình quản lý danh mục đầu tư tự động, nhà cung cấp thanh khoản và cảm biến giá. Trên nền tảng này, bạn sẽ có thể cho vay tiền điện tử của mình và thu phí từ các nhà giao dịch, những người tái danh mục đầu tư của bạn bằng cách tận dụng các cơ hội kinh doanh chênh lệch giá. Nếu bạn cần thêm thông tin chi tiết về Balancer, vui lòng đọc [tài liệu chính thúc của Balancer](https://docs.balancer.fi/).
+[Balancer](https://polygon.balancer.fi/#/) là trình quản lý danh mục đầu tư tự động, nhà cung cấp thanh khoản và cảm biến giá. Trên nền tảng này, bạn sẽ có thể cho vay tiền điện tử của mình và thu phí từ các nhà giao dịch, những người tái danh mục đầu tư của bạn bằng cách tận dụng các cơ hội kinh doanh chênh lệch giá. Nếu bạn cần thêm thông tin chi tiết về Balancer, vui lòng đọc [tài liệu chính thức của Balancer](https://docs.balancer.fi/).
 
 Trên chuỗi Polygon, Balancer đề xuất một bể bao gồm 4 đồng stablecoin chính: DAI, USDC, USDT và MAI \(miMATIC\). Bể stablecoin này hiện có APR khá ổn định là ~ 20%.
 
-![Stable coin pool state as of August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
+![C&#xE1;c b&#x1EC3; stablecoin v&#xE0;o th&#xE1;ng 8 2021](../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
 
 Tính năng nổi trội nhất về Balancer là bạn hoàn toàn không cần phải sở hữu 4 đồng tiền để gửi vào bể. Tính năng cân bằng sẽ tự động tạo ra một kết hợp cân bằng với bất kỳ khoản tiền gửi nào bạn thực hiện. Điều này có nghĩa là nếu bạn có MAI trị giá 100 đô la, bạn có thể chỉ cần gửi chúng vào nhóm Balancer và để thuật toán chia đúng tỷ lệ 25% cho mỗi đồng xu tùy thuộc vào giá tương ứng của chúng tại thời điểm bạn gửi tiền.
 
@@ -38,7 +38,7 @@ Một vòng hoàn hảo sẽ được minh họa như sau:
 
 ![](../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
-Nếu bạn cần thêm thông tin chi tiết về cách bạn có thể sử dụng Mai Finance để cho vay đồng tiền mã hóa của bạn và mượn lại đồng Mai \(thay vì bán chúng để mua Mai\), hãy đọc các hướng dẫn khác trên trang web này. Bạn có thể kiếm được nhiều hơn thế nếu đưa [giao thức Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjxxDnNvTemFZGgRpNm/v/viet-nam/huong-dan/leverage-aave-tokens) vào vòng lặp.
+Nếu bạn cần thêm thông tin chi tiết về cách bạn có thể sử dụng Mai Finance để cho vay đồng tiền mã hóa của bạn và mượn lại đồng Mai \(thay vì bán chúng để mua Mai\), hãy đọc các hướng dẫn khác trên tài liệu này. Bạn có thể kiếm được nhiều hơn thế nếu đưa [giao thức Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjxxDnNvTemFZGgRpNm/v/viet-nam/huong-dan/leverage-aave-tokens) vào vòng lặp.
 
 ### Curve finance
 
@@ -86,9 +86,9 @@ Hiện tại, nếu bạn tham gia vào bể MAI/USDC trên Quickswap, bạn s�
 
 ### Adamant
 
-[Adamant](https://adamant.finance/home) là một nền tảng tăng tốc liệt kê tất cả các bể tốt nhất từ Polygon và cho phép bạn tham gia trực tiếp tại website của họ. Bằng cách gửi tài sản của bạn \(mã token LP\) vào một bể cụ thể trên Adamant, các thuật toán sẽ thu thập phần thưởng do bể đó cấp và tự động bán ra thị trường và gộp một phần của phần thưởng vào cặp LP của bạn. Phần còn lại của phần thưởng thường được chuyển đổi trong WMATIC, sau đó được phân phối lại cho những người nắm giữ đồng ADDY \(đồng coin bản vị của Adamant\). Cuối cùng, bạn nhận được phần thưởng bằng đồng ADDY cũng như bạn có thể thu hoạch su 90 ngày, kiếm cho bạn một phần thưởng cổ phần của WMATIC.
+[Adamant](https://adamant.finance/home) là một nền tảng tăng tốc liệt kê tất cả các bể tốt nhất từ Quickswap và cho phép bạn tham gia trực tiếp tại website của họ. Bằng cách gửi tài sản của bạn \(mã token LP\) vào một bể cụ thể trên Adamant, các thuật toán sẽ thu thập phần thưởng do bể đó cấp và tự động bán ra thị trường và gộp một phần của phần thưởng vào cặp LP của bạn. Phần còn lại của phần thưởng thường được chuyển đổi trong WMATIC, sau đó được phân phối lại cho những người nắm giữ đồng ADDY \(đồng coin bản vị của Adamant\). Cuối cùng, bạn nhận được phần thưởng bằng đồng ADDY cũng như bạn có thể thu hoạch su 90 ngày, kiếm cho bạn một phần thưởng cổ phần của WMATIC.
 
-Về tổng quan, Adamant là một nền tảng tốt nếu bạn không thực sự quan tâm đến đồng bản vị và nếu bạn không muốn gộp phần thưởng của mình theo cách thủ công nhiều lần trong ngày. Nó cũng tạo ra nhiều doanh thu hơn vì bạn nhận được một số phần thưởng THÊM ngoài phần thưởng được trả bởi bể thanh khoản đó.
+Về tổng quan, Adamant là một nền tảng tốt nếu bạn không thực sự quan tâm đến đồng bản vị và nếu bạn không muốn gộp phần thưởng của mình theo cách thủ công nhiều lần trong ngày. Nó cũng tạo ra nhiều doanh thu hơn vì bạn nhận được một số phần thưởng ADDY ngoài phần thưởng được trả bởi bể thanh khoản đó.
 
 Adamant hiện hỗ trợ một số bể chấp nhận cặp LP MAI / USDC. Các bể hiện có:
 
@@ -99,19 +99,19 @@ Adamant hiện hỗ trợ một số bể chấp nhận cặp LP MAI / USDC. Cá
 ![B&#x1EC3; MAI/USDC c&#x1EE7;a Quickswap tr&#xEA;n Adamant](../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
 
 {% hint style="info" %}
-Ảnh chụp màn hình của bể QuickSwap trên trang web QuickSwap \(xem đoạn trên\) và Adamant đã được chụp trong cùng một ngày, nhưng đang hiển thị các APY khác nhau \(Lợi nhuận phần trăm cộng dồn hàng năm\).
+Ảnh chụp màn hình của bể QuickSwap trên trang web QuickSwap \(xem đoạn trên\) và Adamant đã được chụp trong cùng một ngày, nhưng đang hiển thị các APY khác nhau \(lợi nhuận phần trăm cộng dồn hàng năm\).
 {% endhint %}
 
 Bạn có thể thấy rằng APY trên Adamant cao hơn một chút so với QuickSwap. Phân tích phần thưởng như sau
 
 * 12,88% QUICK được cộng dồn tự động \(nghĩa là phần thưởng QUICK được chuyển thành nhiều LP hơn\)
-* 9.16% ADDY reward \(not compounded\)
-* 3.40% fee share dividend \(claiming ADDY daily\)
+* 9.16% phần thưởng ADDY  \(không cộng dồn\)
+* 3.40% cổ tức trả bằng WMATIC
 
 Điều này có nghĩa là, trong số 20,92% được QuickSwap phân phối, chỉ có 12,88% được sử dụng để tăng số lượng LP của bạn, phần còn lại được đổi thành cổ tức c WMATIC. Bạn sẽ có thể nhận phần thưởng ADDY của mình hàng ngày \(hoặc bất cứ lúc nào\) và stake chúng để tạo ra cổ tức WMATIC có thể nhận. Nói cách khác, Adamant có vẻ là một lựa chọn tốt hơn vì nó có APY tốt hơn và phần thưởng cộng dồn tự động, nhưng trên thực tế, nó cũng liên quan đến rất nhiều thao tác thủ công.
 
 {% hint style="info" %}
-Việc sử dụng Adamant cũng có tác động mạnh mẽ đến giá đồng bản vị . Thật vậy,  vì Adamant liên tục bán các mã thông báo trang trại để tạo ra nhiều cặp LP và WMATIC dưới dạng cổ tức cho những người nắm giữ ADDY của họ, áp lực bán rất cao đối với các mã thông báo trang trại và có thể giải thích tại sao giá của chúng liên tục giảm.
+Việc sử dụng Adamant cũng có tác động mạnh mẽ đến giá đồng bản vị . Adamant liên tục bán các mã thông báo trang trại để tạo ra nhiều cặp LP và WMATIC dưới dạng cổ tức cho những người nắm giữ ADDY của họ, áp lực bán rất cao đối với các mã thông báo trang trại và có thể giải thích tại sao giá của chúng liên tục giảm.
 {% endhint %}
 
 ### Một số farm khác chấp nhận cặp MAI/USDC
@@ -171,7 +171,7 @@ Trên trang web, bạn cũng có thể cung cấp tính thanh khoản cho nhữn
 
 ## Tuyên bố từ chối trách nhiệm
 
-Mọi hướng dẫn này hoàn toàn phục vụ cho mục đích giáo dục. Mục tiêu là mang lại cái nhìn mới cho các dự án mà chúng tôi nghĩ là xứng đáng cho nhữngnhà đầu tư trong thế giới tiền điện tử trên Polygon. Chúng tôi rõ ràng không nói về Mai Finance như một farm bởi vì một bài hướng dẫn chuyên dụng sẽ được viết sau đây. Cuối cùng, hướng dẫn này TUYỆT ĐỐI KHÔNG ĐƯỢC áp dụng một cách máy móc,  nó không phải là bất kỳ lời khuyên tài chính nào và bạn không nên làm theo những gì chúng tôi đã viết một cách mù quáng. Vui lòng đọc tài liệu về các dự án khác nhau mà chúng tôi đã đề cập trước khi xem xét đầu tư vào nền tảng của họ.
+Mọi hướng dẫn này hoàn toàn phục vụ cho mục đích giáo dục. Mục tiêu là mang lại cái nhìn mới cho các dự án mà chúng tôi nghĩ là xứng đáng cho những nhà đầu tư trong thế giới tiền điện tử trên Polygon. Chúng tôi rõ ràng không nói về Mai Finance như một farm bởi vì một bài hướng dẫn chuyên dụng sẽ được viết sau đây. Cuối cùng, hướng dẫn này TUYỆT ĐỐI KHÔNG ĐƯỢC áp dụng một cách máy móc,  nó không phải là bất kỳ lời khuyên tài chính nào và bạn không nên làm theo những gì chúng tôi đã viết một cách mù quáng. Vui lòng đọc tài liệu về các dự án khác nhau mà chúng tôi đã đề cập trước khi xem xét đầu tư vào nền tảng của họ.
 
 {% hint style="info" %}
 Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự mình nghiên cứu.

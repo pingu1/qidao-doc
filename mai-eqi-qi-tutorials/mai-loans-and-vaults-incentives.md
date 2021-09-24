@@ -1,31 +1,37 @@
 ---
 description: >-
-  This article is a detailed explanation of how you can use Mai Finance to
-  borrow MAI at 0% interest, and get paid to do so, transforming your 0%
-  interest loan into a negative interest loan.
+  Bài viết này giải thích chi tiết cách bạn có thể sử dụng Mai Finance để vay
+  MAI với lãi suất 0% và được trả tiền để thực hiện việc này, chuyển khoản vay
+  lãi suất 0% thành khoản vay lãi suất âm.
 ---
 
-# MAI loans and Vaults incentives
+# Các khoản vay MAI và các ưu đãi cho các kho tiền
 
-## Intro
+## Giới thiệu
+
+Hoạt động kinh doanh cốt lõi của Mai Finance là cho vay. Thay vì bán tiền mã hóa của họ để mua các tài sản khác, mọi người có thể khóa tiền của họ trên Mai Finance và vay ngược lại chúng. Điều này mang lại cơ hội để giữ các tài sản có giá trị cao \(WBTC, WETH ...\) trong khi vẫn có thể nhận được các tài sản khác và lãi suất farming. Trong trường hợp đó, khoản vay được sử dụng để sinh lời, trong khi tài sản thế chấp đang tăng giá trị.
 
 The core business of Mai Finance is a lending platform. Instead of selling their crypto to buy other assets, people are able to lock their funds on Mai Finance and borrow against them. This presents the opportunity to keep high value assets \(WBTC, WETH ...\) while still being able to get other assets and farm yields. In that case, the loan is used to generate revenue, while the collateral is gaining value.
 
+Một trong những lợi thế lớn khác của việc sử dụng Mai Finance là không có lịch trả nợ. Nói cách khác, bạn vay đồng tiền ổn định MAI đối với tiền điện tử của mình, bạn không phải trả bất kỳ khoản lãi nào và bạn có thể trả nợ bất cứ khi nào bạn muốn. Xem các bài viết khác nhau về [quản lý nợ](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkHoQ3MuIPfaGWopXMV/v/viet-nam/debt-management-tutorials/debt-repayment-why-and-when) để biết thêm chi tiết. Khoản phí duy nhất mà bạn phải trả là phí hoàn trả tương ứng với 0,5% số tiền bạn đã vay khi hoàn trả khoản vay của mình và số tiền đó sẽ được lấy ra khỏi tài sản thế chấp của bạn.
+
 One of the other big advantage of using Mai Finance is that there's no repayment schedule. In other words, you borrow MAI stable coin against your crypto, you don't pay any interests, and you can repay your debt whenever you want. See the different articles on [debt management](../debt-management-tutorials/debt-repayment-why-and-when.md) for more details. The only fee that you would ever pay is a repayment fee corresponding to 0.5% of the money you borrowed that you pay when you repay your loan, and that is taken out of your collateral.
+
+Ví dụ: nếu bạn gửi ETH trị giá 200 đô la để vay MAI trị giá 100 đô la, khi bạn hoàn trả khoản vay của mình, bạn sẽ phải trả một khoản phí 0,5 đô la trực tiếp lấy từ khoản thế chấp ETH của mình.
 
 As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, when you repay your loan you would have to pay a fee of $0.50 directly taken out of your WETH deposit.
 
-If that wasn't already an amazing opportunity, the Mai Finance team introduced in September 2021 Vault incentives paid in Qi, the native token of Mai Finance. In other words, by depositing your assets on Mai Finance in a vault to borrow MAI, you will also get paid to do it. This articles presents in details how this functionality works.
+Mai Finance đã giới thiệu vào tháng 9 năm 2021 các ưu đãi cho các kho tiền được thanh toán bằng Qi, mã token bản vị của Mai Finance. Nói cách khác, bằng cách gửi tài sản của bạn vào Mai Finance trong kho tiền để vay MAI, bạn cũng sẽ được trả tiền để làm điều đó. Bài viết này trình bày chi tiết cách hoạt động của chức năng này.
 
-## Vaults - What they are and how they work
+## Kho tiền là gì và hoạt động như thế nào?
 
-### Vault creation
+### Tạo lập kho tiền
 
-On Mai Finance, vaults are special storages where one can deposit their assets. Currently, there are 10 types of vaults:
+Trên Mai Finance, kho tiền là kho lưu trữ đặc biệt, nơi người ta có thể gửi tài sản của mình. Hiện tại, có 10 loại loại:
 
-![The different vault types you can create on Mai Finance](../.gitbook/assets/image%20%281%29.png)
+![C&#xE1;c lo&#x1EA1;i vault kh&#xE1;c nhau tr&#xEA;n n&#x1EC1;n t&#x1EA3;ng Mai Finance](../.gitbook/assets/image%20%281%29.png)
 
-There are 2 different types of vaults:
+Có 2 loại kho tiền khác nhau:
 
 * WETH
 * WBTC
@@ -34,126 +40,124 @@ There are 2 different types of vaults:
 * CRV
 * AAVE
 
-and
+và
 
 * camWETH
 * camWBTC
 * camWMATIC
 * camAAVE
 
+6 kho đầu tiên trong danh sách dành cho các tài sản trong khi 4 hầm cuối cùng dành cho camTokens. camTokens đang gộp mã thông báo thị trường AAVE, đại diện cho một khoản tiền gửi mà bạn có thể đã thực hiện trên AAVE và sau đó gửi vào các bể Yield của Mai Finance. Trong khi tài sản của bạn đang tạo ra lợi suất trên AAVE \(và trong khi phần thưởng được tự động cộng gộp bởi bể Yield\), bạn vẫn có thể vay MAI đồng tiền ổn định dựa trên các mã token này.
+
 The first 6 vaults in the list are for simple assets while the 4 last ones are for camTokens. camTokens are compounding AAVE market tokens, a representation of a deposit that you could have done on AAVE and then deposited on the yield pools of Mai Finance. While you assets is generating yields on AAVE \(and while the rewards are automatically compounded by the yield pool\), you can still borrow MAI stable coins against these tokens.
 
-As a side note, you can see on the screenshot above that the creation page shows some very important informations:
+Lưu ý thêm, bạn có thể thấy trên ảnh chụp màn hình ở trên rằng trang tạo hiển thị một số thông tin rất quan trọng:
 
-* MAI available: this corresponds to the maximum debt ceiling, the maximum number of MAI that can be minted from vault deposits.
-* Min Coll. ratio: this is the minimum Collateral to Debt ratio \(CDR\) for that vault
-* Vault incentives APR
+* MAI khả dụng: điều này tương ứng với trần nợ tối đa, số lượng MAI tối đa có thể được đúc từ tiền gửi kho tiền.
+* Min Coll. đây là tỷ lệ Tài sản đảm bảo trên Nợ \(CDR\) tối thiểu cho kho tiền đó.
+* APR khuyến khích cho kho tiền
 
-### Understanding Debt Ceiling
+### Hiểu rõ về nợ trần
 
-The maximum number of MAI that one can mint on a specific vault depends on how much assets is deposited on that vault. Debt ceiling are implemented in order to make sure that the market isn't flooded with MAI in a very short time, which may affect the price of the stable coin.
+Số lượng MAI tối đa mà người ta có thể đúc trên một kho tiền cụ thể phụ thuộc vào số lượng tài sản được gửi vào kho tiền đó. Trần nợ được thực hiện để đảm bảo rằng thị trường không tràn ngập MAI trong thời gian rất ngắn, điều này có thể ảnh hưởng đến giá của đồng tiền ổn định
 
-As an example, if a big institution would deposit 5,000 WBTC at once and was able to borrow $100,000,000 worth of MAI, swapping the totality for more WBTC, this could drive the price of MAI down so much that the price would deviate too much from its peg, putting the whole platform at risk. Debt ceiling is the mechanism that prevents this from happening: there's a maximum amount of MAI that can be minted for a given vault type.
+Ví dụ, nếu một tổ chức lớn gửi 5.000 WBTC cùng một lúc và có thể vay MAI trị giá 100.000.000 đô la, hoán đổi tổng số để lấy nhiều WBTC hơn, điều này có thể đẩy giá MAI xuống rất nhiều và giá sẽ chênh lệch quá nhiều so với chốt, khiến toàn bộ nền tảng gặp rủi ro. Trần nợ là cơ chế ngăn điều này xảy ra: có một lượng MAI tối đa có thể được đúc cho một loại kho tiền nhất định.
 
-When the debt ceiling is reached, the time at which there aren't any more available MAI to mint is recorded, and the system automatically increases the debt ceiling after 48 hours. This is considered enough time for the MAI price to stabilize \(in case of high sell pressure following a big sell off of MAI\). 
+Khi đạt đến trần nợ, thời gian mà không còn MAI để đúc được ghi lại và hệ thống sẽ tự động tăng trần nợ sau 48 giờ. Đây được coi là thời gian đủ để giá MAI ổn định \(trong trường hợp áp lực bán cao sau đợt bán tháo lớn đối với MAI\)
 
-This means that for 48h, nobody will be able to borrow more MAI from a vault that reached its debt ceiling, unless a debt is repaid.
+Điều này có nghĩa là trong 48 giờ, không ai có thể vay thêm MAI từ một kho tiền đã đạt đến trần nợ của nó, trừ khi một khoản nợ được hoàn trả.
 
-As a side note, the more MAI on the market, the more stable the price is. Indeed, a massive sell of MAI is less invasive if there are more MAI in circulation.
+Xin lưu ý thêm, càng có nhiều MAI trên thị trường, giá càng ổn định. Thật vậy, việc bán một lượng lớn MAI sẽ ít xâm lấn hơn đến giá của MAI nếu có nhiều MAI đang lưu hành.
 
-* If someone sells 1,000 MAI while there are only 10,000 MAI in circulation, the sell corresponds to 10%
-* If someone sells 1,000 MAI while there are 10,000,000 MAI in circulation, the sell corresponds to 0.01%
+* Nếu ai đó bán 1,000 MAI trong khi chỉ có 10.000 MAI đang lưu hành, thì lượng bán tương ứng với 10%
+* Nếu ai đó bán 1,000 MAI trong khi có 10.000.000 MAI đang lưu hành, lượng bán tương ứng với 0,01%
 
-Hence, the debt ceiling isn't increased incrementally, but exponentially: the more MAI in circulation, the less impact a big sell would have, so the debt ceiling can be increased by a lot more.
-
-{% hint style="info" %}
-When you borrow MAI, it can happen that the maximum amount of MAI that you can borrow is capped by the debt ceiling, regardless of the current value of your collateral and the current amount of MAI you already borrowed. When that's the case, you may wait up for 48h before you can actually borrow more MAI.
-{% endhint %}
-
-### Understanding Collateral to Debt Ratio
-
-The CDR, or **C**ollateral to **D**ebt **R**atio is the ratio between the value of the deposited assets in your vault compared to the amount of MAI you borrowed.
-
-As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, your CDR would be
-
-$$
-CDR=\frac{CollateralValue}{DebtValue}=\frac{200}{100}=200\%
-$$
-
-Maintaining a CDR above 100% means that, at any point, there are more collateral than debt. This is mandatory to ensure that the MAI stable coin is over-collateralized, and is one of the foundations of the Mai Finance tokenomics. You can get more details from the official [Mai Finance documentation](https://docs.mai.finance/stablecoin-economics).
-
-Each vault type has a minimum CDR ratio accepted, a threshold under which the vault is considered at risk because the borrowed amount may not be backed by enough collateral. At this point, anyone can liquidate the vault, meaning a part of the debt is repaid by the liquidator that can then get a portion of the deposited collateral in repayment. Once again, you can find more details about liquidation process in the official documentation.
-
-When you borrow MAI against a given collateral, you will get some hints on what's the maximum amount of MAI you can borrow, and what would be the impact on your health ratio depending on the amount borrowed, as you can see in the screenshot bellow:
-
-![Health mitigation depending on borrowed amount](../.gitbook/assets/image%20%284%29.png)
-
-It's very important to keep an eye on your CDR and keep a healthy ratio to
-
-* prevent liquidation
-* increase the health of the whole Mai Finance platform by ensuring the MAI volume in circulation is properly backed
-
-The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest]() in other projects, or [repay your debt]() using your debt.
-
-## Vault incentives
+Do đó, trần nợ không tăng dần mà theo cấp số nhân: càng có nhiều MAI lưu thông, thì tác động của một đợt bán lớn càng ít, do đó, trần nợ có thể được tăng lên nhiều hơn nữa.
 
 {% hint style="info" %}
-**ATTENTION**: Vaults incentives are not out yet. This section is a guess game while we are waiting for the official documentation. The estimations calculated in this section are "napkin maths" based on leaked info from the official team, and voted emission rate. Hence, this section will certainly be rewritten when Vaults incentives are out on Sunday September 19th 2021. There is absolutely no guarantee that these estimations are correct.
+Khi bạn vay MAI, có thể xảy ra trường hợp số tiền MAI tối đa mà bạn có thể vay bị giới hạn bởi trần nợ, bất kể giá trị hiện tại của tài sản thế chấp của bạn và số tiền MAI hiện tại mà bạn đã vay. Trong trường hợp đó, bạn có thể đợi 48h để có thể vay thêm MAI.
 {% endhint %}
 
-### Understanding Vaults incentives APRs
+### Tìm hiểu về tài sản thế chấp trên nợ
 
-In September 2021, Mai Finance introduced vault incentives. This is a reward allocated by the Mai Finance platform to anyone borrowing MAI and participating in the growth of the platform.
+CDR, hay Tỷ lệ tài sản đảm bảo trên Nợ là tỷ lệ giữa giá trị của tài sản ký gửi trong kho tiền của bạn so với số tiền MAI bạn đã vay.
 
-Each Vault type \(among the 10 different types\) receives 0.05 Qi per block, that is then distributed between all the users who have a healthy Collateral to Debt Ratio. The APR of the vault is defined by the current amount of MAI borrowed.
+Ví dụ: nếu bạn gửi ETH trị giá 200 đô la để vay MAI trị giá 100 đô la, CDR của bạn sẽ là
 
-As an example, Ben and Kila are 2 friends who deposited their ETH in the WETH vaults on Mai Finance.
+$$
+CDR=\frac{Tài.sản.thế.chấp}{Giá.trị.nợ}=\frac{200}{100}=200\%
+$$
 
-* Ben deposited the equivalent of $2,000 worth of ETH and borrowed 1,000 MAI
-* Kila deposited the equivalent of $10,000 worth of ETH and borrowed 6,000 MAI
+Duy trì CDR trên 100% có nghĩa là, tại bất kỳ thời điểm nào sẽ có nhiều tài sản thế chấp hơn nợ. Điều này là bắt buộc để đảm bảo rằng đồng tiền ổn định MAI được thế chấp quá mức nhằm đảm bảo nền tảng của tokenomics Mai Finance. Bạn có thể biết thêm chi tiết từ [tài liệu chính thức ](https://docs.mai.finance/stablecoin-economics)của Mai Finance.
 
-The current amount of MAI borrowed by users who deposited WETH in the vault is 1,000,000 MAI.
+Mỗi loại kho tiền có tỷ lệ CDR tối thiểu được chấp nhận, một ngưỡng mà theo đó kho tiền được coi là có rủi ro vì số tiền đã vay có thể không được đảm bảo bằng đủ tài sản thế chấp. Tại thời điểm này, bất kỳ ai cũng có thể thanh lý kho tiền, có nghĩa là một phần của khoản nợ được người thanh lý thanh toán và sau đó có thể lấy một phần của tài sản thế chấp đã ký gửi để hoàn trả. Bạn có thể tìm thêm thông tin chi tiết về quy trình thanh lý trong tài liệu chính thức.
 
-Both Ben and Kila qualify for the vault incentives because Ben has a CDR of 200% and Kila a CDR of 166.67%. Ben, with his loan, owns 0.1% of the total amount borrowed, while Kila owns 0.6%.
+Khi bạn vay MAI với một tài sản thế chấp nhất định, bạn sẽ nhận được một số gợi ý về số tiền MAI tối đa bạn có thể vay là bao nhiêu và tác động đến tỷ lệ lành mạnh trong thanh khoản của bạn tùy thuộc vào số tiền đã vay là bao nhiêu, như bạn có thể thấy trong ảnh chụp màn hình bên dưới:
 
-The total amount of Qi allocated to the WETH vault \(or any vault\) is
+![T&#x1EF7; l&#x1EC7; l&#xE0;nh m&#x1EA1;nh t&#xF9;y thu&#x1ED9;c v&#xE0;o s&#x1ED1; ti&#x1EC1;n vay](../.gitbook/assets/image%20%284%29.png)
+
+Rất quan trọng khi bạn luôn phải để ý tỷ lệ CDR và tỷ lệ lành mạnh với mục đích:
+
+* tránh bị thanh lý tài sản
+* tăng cường lành mạnh của toàn bộ nền tảng Mai Finance bằng cách đảm bảo khối lượng MAI được lưu hành với hỗ trợ thích hợp.  
+
+CDR "lành mạnh", theo định nghĩa của Mai Finance là cao hơn giá trị CDR tối thiểu từ 25% đến 270%. Lưu ý thêm, bạn cũng có thể xem[ hướng dẫn chiến lược](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkHoQ3MuIPfaGWopXMV/v/viet-nam/huong-dan/leverage-aave-tokens) của chúng tôi để xem cách bạn có thể sử dụng CDR để đầu tư vào các dự án khác hoặc [trả nợ ](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkHoQ3MuIPfaGWopXMV/v/viet-nam/debt-management-tutorials/debt-repayment-how)bằng cách sử dụng nợ của bạn.
+
+## Các ưu đãi kho tiền
+
+### Tìm hiểu APR ưu đãi kho tiền  
+
+Vào tháng 9 năm 2021, Mai Finance giới thiệu các ưu đãi kho tiền. Đây là phần thưởng do nền tảng Tài chính Mai phân bổ cho bất kỳ ai vay MAI và tham gia vào sự phát triển của nền tảng.
+
+Mỗi loại kho \(trong số 10 loại khác nhau\) nhận được 0,05 Qi trên mỗi khối, sau đó được phân phối giữa tất cả những người dùng có Tỷ lệ tài sản đảm bảo trên Nợ lành mạnh. APR của kho tiền được xác định bởi số tiền hiện tại MAI đã vay.
+
+Ví dụ, Ben và Kila là 2 người bạn đã gửi ETH của họ vào các hầm WETH trên Mai Finance.
+
+* Ben đã gửi số ETH trị giá tương đương 2.000 đô la và vay 1.000 MAI
+* Kila đã gửi số ETH trị giá tương đương 10.000 đô la và vay 6.000 MAI
+
+Số tiền MAI hiện tại mà người dùng đã gửi WETH vào kho tiền là 1.000.000 MAI.
+
+Cả Ben và Kila đều đủ điều kiện nhận ưu đãi kho tiền vì Ben có CDR là 200% và Kila có CDR là 166,67%. Ben, với khoản vay của mình, sở hữu 0,1% tổng số tiền đã vay, trong khi Kila sở hữu 0,6%.
+
+Tổng lượng Qi được phân bổ cho kho WETH \(hoặc bất kỳ kho tiền nào\) là
 
 $$
 Qi=0.05*\frac{86400}{2}=2160
 $$
 
 {% hint style="info" %}
-86,400 is the number of seconds in a day, and on Polygon, the block time is 2 seconds, meaning that the expected number of blocks every day is 86,400 / 2 = 43,200. Hence, the emission for each Vault is 2,160 Qi / day.
+86.400 là số giây trong một ngày và trên Polygon, thời gian khối là 2 giây, có nghĩa là số khối dự kiến ​​mỗi ngày là 86.400 / 2 = 43.200. Do đó, phát thải cho mỗi Vault là 2.160 Qi / ngày.
 
-**Note:** Block time has increased lately and is around 2.6 seconds. However, all APRs and APYs displayed on all apps are assuming a block time of 2 seconds. Please DYOR and check the current [block time on PolygonScan](https://polygonscan.com/chart/blocktime).
+**Lưu ý**: Thời gian khối trên Polygon gần đây đã tăng lên và khoảng 2,6 giây. Tuy nhiên, tất cả các APR và APY được hiển thị trên tất cả các ứng dụng đều giả định thời gian khối là 2 giây. Vui lòng DYOR và kiểm tra [thời gian khối hiện tại trên PolygonScan](https://polygonscan.com/chart/blocktime).
 {% endhint %}
 
-Hence, if the state of the Vault remains the same, Ben will get 0.1% of the 2,160 Qi distributed, while Kila will get 0.6% of the granted reward.
+Do đó, nếu trạng thái của Vault vẫn giữ nguyên, Ben sẽ nhận được 0,1% trong số 2.160 Qi được phân phối, trong khi Kila sẽ nhận được 0,6%.
 
-* Ben will get 2.16 Qi every day, which is a daily reward of 0.216%, or an APR of 78.84%
-* Kila will get 12.96 Qi every day, which is also a daily reward of 0.216%, or an APR of 78.84%
+* Ben sẽ nhận được 2,16 Qi mỗi ngày, đây là phần thưởng hàng ngày là 0,216% hoặc APR là 78,84%
+* Kila sẽ nhận được 12,96 Qi mỗi ngày, đây cũng là phần thưởng hàng ngày là 0,216% hoặc APR là 78,84%
 
-On a side note, 2,160 Qi for 1,000,000 MAI is a daily reward of 0.216%, or 78.84%, which is the Vault's APR.
+Lưu ý nhỏ, 2.160 Qi cho 1.000.000 MAI là phần thưởng hàng ngày 0,216% hoặc 78,84%, là APR của Vault.
 
 {% hint style="info" %}
-It's easy to see that the Vault's APR is directly linked to the amount of MAI borrowed. The more MAI is borrowed, the lower the APR. As a side note, the amount of MAI that can be borrowed is also capped by the debt ceiling, which is increased with the demand for MAI.
+Dễ dàng nhận thấy rằng APR của Vault được liên kết trực tiếp với số tiền MAI đã vay. Vay càng nhiều MAI thì APR càng thấp. Cũng cần lưu ý thêm, số tiền MAI có thể vay cũng bị giới hạn bởi nợ trần, điều này sẽ tăng lên cùng với nhu cầu về MAI.
 {% endhint %}
 
-As a verification, we can calculate the theoretical APR for the MATIC vault based on numbers published on the [analytics page](https://app.mai.finance/analytics) on Mai Finance. The amount of MAI borrowed from the MATIC vault is 799,328. The reward is 216 Qi per day for that vault. That corresponds to a APR of
+Để xác minh, chúng ta có thể tính toán APR lý thuyết cho kho tiền MATIC dựa trên các con số được công bố trên [trang phân tích ](https://app.mai.finance/analytics)trên Mai Finance. Số tiền MAI vay từ kho tiền MATIC là 799.328. Phần thưởng là 2.160 Qi mỗi ngày cho kho tiền đó. Điều đó tương ứng với APR là
 
 $$
-APR=\frac{QiReward*Qi_{Price}}{MAI_{borrowed}}*365=\frac{2160*0.441}{785008}*365=44.29\%
+APR=\frac{Phần .thưởng Qi}{MAI_{đã.mượn}}*365=\frac{2160}{799328}*365=44,29\%
 $$
 
-This corresponds more or less to the APR of the MATIC Vault, as displayed in the following screenshot:
+Điều này ít nhiều tương ứng với APR được hiển thị trên kho tiền MATIC đã được quảng cáo trong hội thảo QiDAO vào ngày 13 tháng 9, như được hiển thị trong ảnh chụp màn hình sau:
 
-![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 
-### Calculating starting vaults' APRs
+### Tính toán APR của hầm tiền bắt đầu
 
-With the same data as the example above, it's possible to calculate the starting APRs for all vaults
+Với dữ liệu tương tự như ví dụ trên, có thể tính toán APR bắt đầu cho tất cả các vault như sau
 
-| Vault type | Starting APR |
+| Dạng vault | APR bắt đầu |
 | :--- | :--- |
 | MATIC | 44.29% |
 | WETH | 24.03% |
@@ -167,18 +171,22 @@ With the same data as the example above, it's possible to calculate the starting
 | camWBTC | 47.38% |
 
 {% hint style="info" %}
-As you can see, some vaults will generate more rewards than others. Also, you can see that it's super important to deposit your assets as soon as possible to benefit from high APRs before the debt ceiling is increased and more loan is taken \(lowering the APR\).
+Như bạn có thể thấy, một số hầm sẽ tạo ra nhiều phần thưởng hơn những hầm khác. Ngoài ra, bạn có thể thấy rằng điều cực kỳ quan trọng là phải gửi tài sản của mình càng sớm càng tốt để hưởng lợi từ APR cao trước khi tăng trần nợ và vay nhiều hơn \(làm giảm APR\).
 
-You can also see that if you keep your loan for one year of more, the 0.5% repayment fee will easily be compensated by the reward program.
+Bạn cũng có thể thấy rằng nếu bạn giữ khoản vay của mình trong hơn một năm, phí hoàn trả hơn 0,5% sẽ dễ dàng được bù đắp bởi chương trình thưởng này.
 {% endhint %}
 
-### Incentives distribution
+### Phân phối thưởng
 
-Rewards allocated by the vault incentives will be distributed the same way as for staked Qi. Every Wednesday, the Qi allocated by the Vaults incentives program will be airdropped / claimed for the week prior to the pay day.
+Phần thưởng được phân bổ bởi các ưu đãi kho tiền sẽ được phân phối theo cách tương tự như đối với Qi đặt cổ phần. Có nghĩa là mỗi thứ Tư hàng tuần, Qi được phân bổ bởi chương trình ưu đãi Vaults sẽ được airdrop / nhận cho tuần trước ngày trả lương.
 
-## Vaults incentives FAQs
+## Tuyên bố từ chối trách nhiệm
 
-If you want to know more about the way Vault incentives are working, here's an official FAQ from the Discord server.
+Hướng dẫn này đã được viết trước khi ra mắt các ưu đãi của Vault, có nghĩa là các APR được quảng cáo trong tài liệu này \(cũng như tài liệu này\) có thể được sửa đổi và / hoặc có thể không chính xác. Số tiền MAI đã vay, trần nợ và giá trị của mã token Qi sẽ ảnh hưởng lớn đến APR cuối cùng của mỗi loại kho tiền. Hãy đảm bảo rằng bạn đầu tư có trách nhiệm.
+
+{% hint style="info" %}
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
+{% endhint %}
 
 *  **What vaults are receiving rewards?**
 

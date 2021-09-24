@@ -1,13 +1,13 @@
 ---
 description: >-
   Hướng dẫn này sẽ trình bày tổng quan về các chuỗi khối khác nhau mà đồng tiền
-  stablecoin MAI có thể được sử dụng và cách bạn có thể kết nối đồng tiền với
-  các chuỗi khác nhau.
+  stablecoin MAI có thể được sử dụng và cách bạn có thể kết nối đồng tiền này
+  với các chuỗi khác nhau.
 ---
 
 # Vũ trụ MAI
 
-![](../.gitbook/assets/screen-shot-2021-09-13-at-1.06.42-pm.png)
+![Andy sees his future ](../.gitbook/assets/screen-shot-2021-09-13-at-1.06.42-pm.png)
 
 ## Giới thiệu
 
@@ -25,7 +25,7 @@ Như đã giải thích ở trên, MAI có nguồn gốc từ Polygon và đó l
 
 ### Sử dụng MAI trên Polygon
 
-Đồng stablecoin MAI đang được sử dụng trong ngày càng nhiều dự án trên Polygon, đặc biệt là hiện nay nó được sử dụng như các đồng stable khác trong các dự án lớn trên QuickSwap. Tính đến tháng 9 năm 2021, có 3 bể stablecoin trên QuickSwap với tổng số tiền là:
+Đồng stablecoin MAI đang được sử dụng trong ngày càng nhiều dự án trên Polygon, đặc biệt là hiện nay nó được sử dụng như các đồng stablecoin khác trong các dự án lớn trên QuickSwap. Tính đến tháng 9 năm 2021, có 3 bể stablecoin trên QuickSwap với tổng số tiền là:
 
 * MAI-DAI với $6,553,255
 * MAI-USDT với $6,316,026
@@ -63,14 +63,14 @@ Tương tự như cách bạn có thể sử dụng MAI trên Polygon để cung
 
 ![Tr&#x1EA1;ng th&#xE1;i b&#x1EC3; MAI/USDC t&#x1EA1;i th&#x1EDD;i &#x111;i&#x1EC3;m Sept. 2021](../.gitbook/assets/screen-shot-2021-09-13-at-2.11.10-pm.png)
 
-Một trong những điều thuận lựi cần biết về bể MAI / USDC trên saber đó là, không giống như cặp LP \(Cung cấp thanh khoản\) trên QuickSwap, bạn không cần phải cung cấp cặp LP với tỷ lệ 1: 1. Bạn có thể chỉ cần gửi một tài sản duy nhất \(MAI hoặc USDC\) hoặc một tỷ lệ cân bằng \(hoặc không\) của cả hai đồng tiền stablecoin.
+Một trong những điều thuận lợi cần biết về bể MAI / USDC trên saber đó là, không giống như cặp LP \(Cung cấp thanh khoản\) trên QuickSwap, bạn không cần phải cung cấp cặp LP với tỷ lệ 1: 1. Bạn có thể chỉ cần gửi một tài sản duy nhất \(MAI hoặc USDC\) hoặc một tỷ lệ cân bằng \(hoặc không\) của cả hai đồng tiền stablecoin.
 
 ![MAI v&#xE0; USDC kh&#xF4;ng c&#xE2;n b&#x1EB1;ng trong b&#x1EC3; Saber](../.gitbook/assets/screen-shot-2021-09-13-at-2.13.51-pm.png)
 
-Điều này có nghĩa là bạn thực sự có thể sử dụng 100% tiền gửi MAI từ Mai Finance mà không cần phải hoán đổi bất kỳ khoản nào để lấy USDC. Nó đặc biệt tiện lợi và tránh bị ảnh hưởng bởi sự khác biệt nhỏ về giá giữa 2 đồng. Lưu ý rằng bạn sẽ nhận được phần thưởng được trả bằng token của trang trại gốc, giống như cách bạn sẽ được trả trong QUICK nếu bạn đang farming ở QuickSwap trên Polygon. Sau đó, bạn có thể bán đồng bản vị của saber  để tăng vị thế của LP MAI / USDC.
+Điều này có nghĩa là bạn thực sự có thể sử dụng 100% tiền gửi MAI từ Mai Finance mà không cần phải hoán đổi bất kỳ khoản nào để lấy USDC. Nó đặc biệt tiện lợi và tránh bị ảnh hưởng bởi sự khác biệt nhỏ về giá giữa 2 đồng. Lưu ý rằng bạn sẽ nhận được phần thưởng được trả bằng token của trang trại gốc, giống như cách bạn sẽ được trả trong QUICK nếu bạn đang farming ở QuickSwap trên Polygon. Sau đó, bạn có thể bán đồng bản vị của saber để tăng vị thế của LP MAI / USDC.
 
 {% hint style="info" %}
-Trên Solana, bạn cũng có thể sử dụng [Sunny](https://app.sunny.ag/), một nền tảng tăng tốc tự động gộp phần thưởng từ Saber. Lưu ý rằng nền tảng Sunny không được xác thực bởi team Mai Finance. AllBridge và Sabre đã là đối tác chính thức của Mai Finance, nhưng kết quả không được đảm bảo chắc chắn. Và vui lòng, như thường lệ, hãy tự nghiên cứu.
+Trên Solana, bạn cũng có thể sử dụng [Sunny](https://app.sunny.ag/), một nền tảng tăng tốc tự động gộp phần thưởng từ Saber. Lưu ý rằng nền tảng Sunny không được xác thực bởi team Mai Finance. AllBridge và Saber đã là đối tác chính thức của Mai Finance, nhưng kết quả không được đảm bảo chắc chắn. Và vui lòng, như thường lệ, hãy tự nghiên cứu.
 {% endhint %}
 
 ## Avalanche
@@ -111,7 +111,7 @@ Hiện tại, team Mai Finance chưa có bất kỳ quan hệ đối tác nào v
 
 ## Tuyên bố từ chối trách nhiệm
 
-Các chi tiết được trình bày trong hướng dẫn này hoàn toàn mang tính giáo dục và chưa được kiểm tra trực tiếp bởi nhóm. Một số người dùng trên Discord đã thử bắc cầu nội dung của họ với Solana và / hoặc Avalanche, vì vậy bạn có thể tham gia cộng đồng Discord để đặt câu hỏi. Xin đừng quên tự nghiên cứu, các mạng khác nhau sẽ có phí giao dịch và thời gian thực hiện khác nhau, các chương trình thưởng khác nhau, phí bắc cầu, v.v. Nếu bạn gửi MAI của mình đến các mạng khác, hãy đảm bảo rằng bạn có thể kết nối chúng trở lại trong trường hợp bạn cần trên Polygon.
+Các chi tiết được trình bày trong hướng dẫn này hoàn toàn mang tính giáo dục và chưa được kiểm tra trực tiếp bởi nhóm. Một số người dùng trên Discord đã thử bắc cầu tài sản của họ với Solana và/hoặc Avalanche, vì vậy bạn có thể tham gia cộng đồng Discord để đặt câu hỏi. Xin đừng quên tự nghiên cứu, các mạng khác nhau sẽ có phí giao dịch và thời gian thực hiện khác nhau, các chương trình thưởng khác nhau, phí bắc cầu, v.v. Nếu bạn gửi MAI của mình đến các mạng khác, hãy đảm bảo rằng bạn có thể kết nối chúng trở lại trong trường hợp bạn cần trên Polygon.
 
 {% hint style="info" %}
 Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự mình nghiên cứu.

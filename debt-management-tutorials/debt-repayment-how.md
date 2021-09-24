@@ -1,85 +1,83 @@
 ---
 description: >-
-  This page will present different options to repay your debt on Mai Finance.
-  Keep in mind that repaying a debt is never mandatory as long as you want to
-  keep your loan, and don't need your collateral.
+  Phần này sẽ trình bày tùy chọn khác nhau để trả nợ của bạn trên Mai Finance.
+  Hãy nhớ rằng việc trả nợ không bao giờ là bắt buộc miễn là bạn muốn giữ khoản
+  vay của mình và không cần tài sản thế chấp.
 ---
 
-# Debt repayment - How?
+# Hoàn trả nợ - Như thế nào?
 
-The market is on a bull run and your crypto, locked in the Vault, is gaining more and more value, so much that you decided to sell it. However, because it's in the Vault on Mai Finance, you can't totally unlock it unless you repay your loan.
+Thị trường đang trong đà tăng giá và tiền điện tử của bạn, bị khóa trong Vault, ngày càng đạt được nhiều giá trị hơn, đến mức bạn đã quyết định bán nó. Tuy nhiên, vì nó nằm trong Vault on Mai Finance, bạn không thể mở khóa hoàn toàn trừ khi bạn hoàn trả khoản vay của mình. 
 
-The market is bearish, and your crypto is losing value very quickly. You don't generate yield fast enough to cover up the damages and keep an healthy Collateral to Debt Ratio \(CDR\), and liquidation is near. It's time to repay your debt to make sure you're not losing too much, and prevent liquidation.
+Thị trường đang giảm giá và tiền điện tử của bạn đang mất giá rất nhanh. Bạn không tạo ra lợi tức đủ nhanh để bù đắp thiệt hại và giữ một Tài sản đảm bảo trên Tỷ lệ Nợ \(CDR\) lành mạnh, và việc thanh lý sắp đến gần. Đã đến lúc trả nợ để đảm bảo rằng bạn không bị thua lỗ quá nhiều và ngăn chặn việc thanh lý. Nếu bạn không ở trong bất kỳ trường hợp nào ở trên, có lẽ bạn không phải trả nợ. Vui lòng xem chương [Trả nợ](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkHoQ3MuIPfaGWopXMV/v/viet-nam/debt-management-tutorials/debt-repayment-why-and-when) để biết thêm chi tiết.
 
-If you are not in any of the above situation, it's probably not worth repaying your debt. Please see the chapter on [Debt Repayment](https://qidao-qimps.gitbook.io/mai-finance-tutorials/debt-management-tutorials/debt-repayment-why-and-when) for more details.
+## Hoàn trả một phần hay toàn bộ bằng tiền giấy
 
-## Partial or Full repayment using fiat
+Cách trực tiếp nhất để trả nợ là sử dụng một số fiat, đặc biệt nếu bạn muốn giữ nguyên tài sản thế chấp và các khoản đầu tư khác của mình. 
 
-The most direct way to repay your debt is to use some fiat, especially if you want to keep your collateral and other investments untouched.
+Mai Finance đang hợp tác với [Transak ](https://transak.com/)để dễ dàng chuyển tiền được mua bằng Thẻ tín dụng / Thẻ ghi nợ hoặc chuyển khoản ngân hàng trực tiếp với mạng Polygon. Chỉ cần truy cập Mai Finance và nhấp vào biểu tượng chuyển khoản trong thanh menu để mở một phương thức cho phép bạn mua một số MATIC và gửi chúng trực tiếp đến ví Polygon của bạn.
 
-Mai Finance is partnering with [Transak](https://transak.com/) to easily bridge money bought by Credit / Debit Cards, or bank transfers, directly to the Polygon network. Simply head to Mai Finance and click the transak icon in the menu bar to open a modal that will let you purchase some MATIC and send them directly to your Polygon wallet.
+![Mua m&#x1ED9;t s&#x1ED1; USDT t&#x1EEB; fiat v&#xE0; chuy&#x1EC3;n ti&#x1EBF;p sang Polygon tr&#x1EF1;c ti&#x1EBF;p](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
 
-![Buying some USDC from fiat and bridging to Polygon directly](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
+Vấn đề chính là thời gian thực hiện để xử lý giao dịch. Tuy nhiên, làm như vậy sẽ cho phép bạn hoán đổi USDC lấy MAI và sau đó trả một phần hoặc toàn bộ khoản nợ của mình.
 
-The main issue is the time taken to process the transaction. However, doing so will let you swap USDC for MAI and then partially or fully repay your debt.
+## Hoàn trả sử dụng lợi ích từ khoản vay
 
-## Repayment using the benefits of your loan
+### Hoàn trả một phần
 
-### Partial Repayment
+Hầu hết mọi người sẽ muốn vay MAI trên Mai Finance để đầu tư vào các dự án cụ thể. Những farmer năng suất đang sử dụng MAI có thể sẽ thành công trong việc tạo ra các nguồn bổ sung và hy vọng sẽ không bị mất tiền vào các farm này. Nếu bạn ở trong trường hợp đó, bạn có 2 lựa chọn
 
-Most people will want to borrow MAI on Mai Finance in order to invest into specific projects. Yield farmers that are using MAI will most probably be successful generating additional resources and will hopefully not lose money on degen farms. If you're in that case, you have 2 options
+* hoàn trả khoản vay của bạn với doanh thu được tạo ra
+* tái đầu tư lợi nhuận của bạn vào cùng một dự án \(hoặc một dự án khác\)
 
-* repay your loan with the generated revenue
-* re-invest your gains into the same \(or another\) project
+Trong hầu hết các trường hợp, có lẽ tốt hơn là đầu tư lại lợi nhuận của bạn. Thật vậy, bằng cách cộng gộp phần thưởng của bạn, APR \(Doanh thu phần trăm hàng năm\) được áp dụng với số tiền lớn hơn, do đó tạo ra nhiều doanh thu hơn. Xem hướng dẫn đầu tư của chúng tôi để có ý tưởng về cách bạn có thể tối đa hóa các khoản đầu tư của mình. 
 
-In most cases, it's probably better to re-invest your gains. Indeed, by compounding your rewards, APR \(**A**nnual **P**ercentage **R**evenue\) is applied on a bigger amount, which in turns generates more revenue. See our investment guides to get ideas on how you can maximize your investments.
+Tuy nhiên, một số người chỉ đơn giản là không thích ý tưởng có một khoản nợ, và sẽ muốn trả nợ càng nhanh càng tốt. Nếu đó là trường hợp của bạn, bạn có thể chỉ cần hoán đổi lợi nhuận của mình thành MAI và trả nợ.
 
-However, some people simply don't like the idea of having a debt, and will want to repay it as quickly as possible. If that's your case, you can simply swap your gains into MAI, and repay your debt.
-
-* Open your Vault info
-* Select the `Manage` option
-* Select the Repay tab at the bottom of your Vault
-* Enter any amount you want to repay
-* Click `Repay MAI` and you're done
+* Mở thông tin kho tiền của bạn
+* Lựa chọn `Manage` 
+* Chọn tab Trả nợ ở cuối Vault của bạn
+* Điền bất cứ số lượng nào bạn muốn hoàn trả
+* Nhấn `Repay MAI` 
 
 ![Partially repaying a portion of my debt](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
 
-As an example
+Như một ví dụ
 
-* You have $1,000.00 worth of camWMATIC in your vault, with a debt of $400.00
-* You swapped $10.00 worth of ADDY tokens for MAI
-* You repay $10.00 today
-  * Your debt is now $390.00
-  * Your camWMATIC value is $999.95 \(you add to pay 0.5% of $10.00 in repayment fees\)
+* Bạn có camWMATIC trị giá 1.000 đô la trong kho tiền của mình, với khoản nợ 400 đô la
+* Bạn đã đổi  ADDY trị giá 10 đô la cho MAI
+* Bạn hoàn trả 10$ hôm nay
+  * Nợ của bạn còn 390$
+  * Giá trị camWMATIC của bạn là $ 999,95 \(bạn thêm để trả 0,5% của $ 10,00 phí hoàn trả\)
 
-At some point, you will be able to totally repay your debt using this technique, as long as you can generate enough revenue via your loan.
+Tại một thời điểm nào đó, bạn sẽ có thể hoàn trả toàn bộ khoản nợ của mình bằng cách sử dụng này, miễn là bạn có thể tạo ra đủ doanh thu thông qua khoản vay của mình.
 
-Is this strategy efficient? Not really. Repaying your debt this way doesn't change anything except for your CDR. Indeed, your collateral remains partially locked until you totally repay your debt, and if you're using amTokens as collateral, whether you have a debt or not will not change the fact that your collateral is generating yield. The only advantage is that you can possibly withdraw a portion of your collateral and re-use it somewhere else / sell it.
+Chiến lược này có hiệu quả không? Không hẳn. Trả nợ theo cách này không thay đổi bất cứ điều gì ngoại trừ CDR của bạn. Thật vậy, tài sản thế chấp của bạn vẫn bị khóa một phần cho đến khi bạn trả hết nợ và nếu bạn đang sử dụng camTokens làm tài sản thế chấp, thì việc bạn có nợ hay không sẽ không thay đổi thực tế là tài sản thế chấp của bạn đang tạo ra lợi nhuận. Ưu điểm duy nhất là bạn có thể rút một phần tài sản thế chấp của mình và sử dụng lại nó ở một nơi khác hoặc bán nó. 
 
-### Full Repayment
+### Hoàn trả toàn bộ 
 
-Another approach, very similar to the above strategy, is to repay everything at once. In the example above, instead of repaying $10.00 every few days, I could instead compound the $10.00 earned into my investment to generate yield faster. I can also invest these gains into another project that would also generate revenue. Once I received the equivalent of $400.00 that corresponds to my loan, I can repay everything at once.
+Một cách tiếp cận khác, rất giống với chiến lược trên, là hoàn trả mọi thứ cùng một lúc. Trong ví dụ trên, thay vì hoàn trả 10 đô la sau vài ngày, thay vào đó, tôi có thể gộp 10 đô la kiếm được vào khoản đầu tư của mình để tạo ra lợi nhuận nhanh hơn. Tôi cũng có thể đầu tư những khoản lợi nhuận này vào một dự án khác cũng sẽ tạo ra doanh thu. Khi tôi nhận được số tiền tương đương $ 400.00 tương ứng với khoản vay của mình, tôi có thể hoàn trả mọi thứ ngay lập tức.
 
-## Repayment using your collateral
+## Hoàn trả sử dụng tài sản thế chấp
 
-### Main idea
+### Ý tưởng chính
 
-On Mai Finance, you can borrow MAI stable coins by depositing a certain amount of collateral in a vault. The collateral to debt ratio needs to always be above a certain threshold, 150% for most vaults. This means, for a 150% CDR, that for any $100 worth of collateral, you can only borrow $66.6667 of MAI.
+Trên Mai Finance, bạn có thể vay MAI đồng tiền ổn định bằng cách gửi một lượng tài sản thế chấp nhất định vào một kho tiền. Tỷ lệ tài sản thế chấp trên nợ cần phải luôn trên một ngưỡng nhất định, 150% đối với hầu hết các kho tiền. Điều này có nghĩa là, đối với CDR 150%, đối với bất kỳ tài sản thế chấp trị giá 100 đô la nào, bạn chỉ có thể vay 66,6667 đô la của MAI. 
 
-However, this would directly put you in a liquidation position. This means that the health of your vault is considered too risky, and anyone can repay a portion of your debt using their funds and get paid back by getting a portion of your collateral. For more details about liquidation, please read [the official documentation](https://docs.mai.finance/liquidation).
+Tuy nhiên, điều này sẽ trực tiếp đưa bạn vào tình thế bị thanh lý. Điều này có nghĩa là sức khỏe của kho tiền của bạn được coi là quá rủi ro và bất kỳ ai cũng có thể trả một phần nợ của bạn bằng tiền của họ và được trả lại bằng cách nhận một phần tài sản thế chấp của bạn. Để biết thêm chi tiết về thanh lý,[ vui lòng đọc tài liệu chính thức.](https://docs.mai.finance/liquidation)
 
-It's usually considered best practice to keep a high collateral to debt ratio to prevent liquidation, but even with a CDR close to 150%, it's easy to see that the value of the collateral is ALWAYS bigger than the value of the debt. This means that you can, in theory, repay your debt by selling some of your collateral asset.
+Thường được coi là phương pháp hay nhất để giữ tỷ lệ tài sản thế chấp trên nợ cao để tránh bị thanh lý, nhưng ngay cả với CDR gần 150%, dễ dàng nhận thấy rằng giá trị của tài sản thế chấp LUÔN lớn hơn giá trị của khoản nợ. Điều này có nghĩa là về lý thuyết, bạn có thể trả nợ bằng cách bán một số tài sản thế chấp của mình.
 
-### How to use collateral
+### Làm thế nào để sử dụng tài sản thế chấp?
 
-Let's consider a vault with $1,000.00 worth of MATIC and a $500.00 debt. The CDR is 200%. The minimum CDR is 150%. In this example, we want to repay the debt completely, but we want to avoid liquidation, and we will try to never go bellow a 160% CDR when withdrawing our collaterals. We will be using the following formulas:
-
-$$
-CDR=\frac{Collateral}{Debt}
-$$
+Hãy xem xét một kho tiền với MATIC trị giá 1.000 đô la và một khoản nợ 500 đô la. CDR là 200%. CDR tối thiểu là 150%. Trong ví dụ này, chúng ta muốn trả nợ hoàn toàn, nhưng chúng ta muốn tránh bị thanh lý và chúng ta sẽ cố gắng không  giảm 160% CDR khi rút tài sản thế chấp của mình. Chúng ta sẽ sử dụng các công thức sau:
 
 $$
-AvailableCollateral = InitialCollateral - TargetCDR*Debt
+CDR=\frac{Tài.sản.thế.chấp}{Nợ}
+$$
+
+$$
+Tài.sản.thế.chấp.khả.dụng =Thế.chấp.ban.đầu - CDR.Mục.tiêu*Nợ
 $$
 
 In this situation, if we want to keep a CDR of 160%, the amount of collateral we can withdraw "safely" is
@@ -88,65 +86,64 @@ $$
 AvailableCollateral=$1000-1.60*$500=$200
 $$
 
-Hence, we will have to proceed in multiple steps:
+Do đó, chúng ta sẽ tiến hành theo nhiều bước như sau:
 
-* Withdraw $200 from the collateral
-  * the vault now has $800 worth of MATIC and $500 of debt, CDR is 160%
-* Sell the $200 worth of collateral to buy MAI
-* Repay $200 of the debt with a 0.5% repayment fee
-  * the vault now has $799 worth of MATIC and $300 of debt, CDR is 266.33%
+* Rút 200$ khỏi tài sản thế chấp
+  * kho tiền hiện có MATIC trị giá 800 đô la và 500 đô la nợ, CDR là 160%
+* Bạn 200$ tài sản thế chấp để mua MAI
+* Hoàn trả 200$ với 0.5% phí hoàn trả
+  * kho tiền hiện có MATIC trị giá 799 đô la và 300 đô la nợ, CDR là 266,33%
 * Calculate the new amount of collateral we can withdraw: $319
 * Withdraw $319 from the collateral
   * the vault now has $480 of MATIC and $300 of debt, CDR is 160%
-* Sell the $319 worth of collateral to buy MAI
-* Repay $300 of the debt with a 0.5% repayment fee
-  * the vault has $478.50 worth of MATIC and $0 of debt, and you still have $19 of MAI
+* bán tài sản thế chấp trị giá 319 đô la để mua MAI 
+* Trả khoản nợ $ 300 với phí hoàn trả 0,5% kho tiền có MATIC trị giá $ 478,50 và $ 0 tiền nợ, và bạn vẫn còn $ 19 của MAI
 
-You can see that keeping a healthy CDR can greatly help you repay your debt with very little number of loops. Of course, if your CDR is closer to the 150% limit, you may have to operate more loops since you cannot withdraw as much at once.
+Bạn có thể thấy rằng việc giữ một CDR lành mạnh có thể giúp bạn trả nợ rất nhiều với số vòng lặp rất ít. Tất nhiên, nếu CDR của bạn gần với giới hạn 150%, bạn có thể phải thực hiện nhiều vòng lặp hơn vì bạn không thể rút nhiều tiền cùng một lúc.
 
 {% hint style="info" %}
-A collateral to debt ratio of 260% is enough to be able to withdraw the total amount of your debt and stay above 160% CDR. This way, you only need one loop to fully repay your debt.
+Tỷ lệ tài sản thế chấp trên nợ là 260% là đủ để có thể rút tổng số tiền nợ của bạn và duy trì trên 160% CDR. Bằng cách này, bạn chỉ cần một vòng lặp để hoàn trả đầy đủ.
 {% endhint %}
 
-Note that fully repaying your debt by selling your collateral is never necessary if you don't need to sell your underlying assets, or to modify your CDR and keep your vault from being liquidated.
+Lưu ý rằng việc trả nợ đầy đủ bằng cách bán tài sản thế chấp của bạn là không bao giờ cần thiết nếu bạn không cần bán tài sản cơ bản của mình hoặc để sửa đổi CDR và ​​giữ cho kho tiền của bạn không bị thanh lý.
 
-## Repayment using a robot
+## Hoàn trả tự động hóa
 
-This paragraph is pure theory and is there only for advanced programmers. The idea is to use flash loans that will help you repay your debt and unlock the collateral so that it can be paid. Flash loans are an option proposed by some applications on different networks, including Polygon, that allow you to borrow funds and repay the loan in the same transaction block. If the loan cannot be fully repaid within the same block, the transaction is simply reverted. On Polygon, AAVE is proposing flash loans.
+Đoạn này là lý thuyết thuần túy và chỉ dành cho các lập trình viên nâng cao. Ý tưởng là sử dụng các khoản vay nhanh sẽ giúp bạn trả nợ và mở khóa tài sản thế chấp để có thể thanh toán. Các khoản vay nhanh là một tùy chọn được đề xuất bởi một số ứng dụng trên các mạng khác nhau, bao gồm Polygon, cho phép bạn vay tiền và trả khoản vay trong cùng một khối giao dịch. Nếu khoản vay không thể được hoàn trả đầy đủ trong cùng một khối, giao dịch chỉ được hoàn nguyên. Trên Polygon, AAVE đang đề xuất các khoản vay nhanh.
 
-If we take the example above with $1,000.00 worth of MATIC and a debt of $500.00. The flow would be as follows:
+Nếu chúng ta lấy ví dụ ở trên với MATIC trị giá $ 1,000.00 và khoản nợ là $ 500,00. Các thao tác sẽ như sau:
 
-* Borrow $600.00 of USDC on AAVE in a flash loan
-* Swap the USDC for MAI
-* Repay your debt completely
-* Withdraw your MATIC collateral
-* Sell your MATIC for USDC
-* Repay the AAVE flash loan
+* Vay $ 600.00 USDC trên AAVE trong một khoản vay nhanh 
+* Đổi USDC lấy MAI 
+* Trả hết nợ của bạn 
+* Rút tài sản thế chấp MATIC của bạn 
+* Bán MATIC của bạn để lấy USDC 
+* Trả khoản vay nhanh AAVE
 
-When submitted, this list of transactions will all happen in the same block, and you will end up with whatever is left from your MATIC as USDC in your wallet \(more or less $500.00, with some slight variations due to flash loan interest rate, swap fees, and repayment fees\).
+Khi được gửi, danh sách các giao dịch này sẽ xảy ra trong cùng một khối và bạn sẽ kết thúc với bất kỳ thứ gì còn lại từ MATIC của bạn dưới dạng USDC trong ví của bạn \(nhiều hơn hoặc ít hơn $ 500,00, với một số thay đổi nhỏ do lãi suất cho vay nhanh, hoán đổi phí và phí hoàn trả\).
 
-Right now, you would have to interact directly with the smart contracts, which requires some good understanding of how they work. If you need help, you can find some on our Discord server where there's a programming channel. Maybe in a near future, [FuruCombo](https://furucombo.app/combo) will propose Mai Finance bricks that would allow you to operate this directly using their graphic tool, but for now it's not possible. Finally, the idea of a button to "repay debt using collateral" has been proposed to the team of devs of Mai Finance, and the option may be implemented in the future.
+Ngay bây giờ, bạn sẽ phải tương tác trực tiếp với các hợp đồng thông minh, điều này đòi hỏi một số hiểu biết tốt về cách chúng hoạt động. Nếu bạn cần trợ giúp, bạn có thể tìm thấy một số trên máy chủ Discord của chúng tôi, nơi có kênh lập trình. Có thể trong một tương lai gần,[ FuruCombo](https://furucombo.app/explore) sẽ đề xuất những nền tảng Mai Finance cho phép bạn vận hành điều này trực tiếp bằng công cụ đồ họa của họ, nhưng hiện tại thì chưa thể. Cuối cùng, ý tưởng về nút “trả nợ bằng tài sản thế chấp” đã được đề xuất với nhóm các nhà phát triển của Mai Finance, và phương án này có thể sẽ được triển khai trong tương lai.
 
-## Short term VS Long term Debt Repayments
+## Hoàn trả nợ ngắn hạn và dài hạn
 
-Depending on your strategy and the way you feel regarding your debt, it may be a good idea to compare different lending platforms. However, keep in mind that Mai Finance with its 0% interest and 0.5% repayment fee is one of the top product on the Polygon market. The real competitor is AAVE, but only if you want to borrow MAI or USDC for a short period of time.
+Tùy thuộc vào chiến lược của bạn và cách bạn cảm thấy về khoản nợ của mình, bạn nên so sánh các nền tảng cho vay khác nhau. Tuy nhiên, hãy nhớ rằng Mai Finance với lãi suất 0% và phí hoàn trả 0,5% là một trong những sản phẩm hàng đầu trên thị trường Polygon. Đối thủ cạnh tranh thực sự là AAVE, nhưng chỉ khi bạn muốn mượn MAI hoặc USDC trong một khoảng thời gian ngắn.
 
-* Mais is 0% interest + 0.5% repayment fee
-* AAVE has no repayment fees, but a variable APR for interests you need to pay back
+* MAI là 0% lãi suất + 0,5% phí hoàn trả
+*  AAVE không có phí hoàn trả, nhưng APR có thể thay đổi cho các khoản lãi mà bạn cần trả lại
 
-![Supplying and Borrowing APY on AAVE as of August 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
+![&#x110;i vay v&#xE0; cho vay APY tr&#xEA;n AAVE k&#x1EC3; t&#x1EEB; th&#xE1;ng 8 n&#x103;m 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
 
-As an example for USDC, you can see that the borrowing rate is 3.79% with a current reward of 2.08% paid back in MATIC. This gives, at the moment of writing, the equivalent of 1.71% you need to pay back if you keep your loan for a complete year. With AAVE, since you can repay your debt very quickly, the variable APY is equivalent to 0.005% daily. Hence, it would take 100 days \(a bit more than 3 months\) to reach 0.5% of your debt.
+Ví dụ đối với USDC, bạn có thể thấy rằng tỷ lệ đi vay là 3,79% với phần thưởng hiện tại là 2,08% được trả lại trong MATIC. Điều này cho thấy, tại thời điểm viết bài, tương đương với 1,71% bạn cần phải trả lại nếu bạn giữ khoản vay của mình trong một năm hoàn thành. Với AAVE, vì bạn có thể trả nợ rất nhanh nên APY biến đổi tương đương với 0,005% hàng ngày. Do đó, sẽ mất 100 ngày \(hơn 3 tháng một chút\) để đạt được 0,5% khoản nợ của bạn.
 
-If you plan to keep your loan longer than that, it's definitely better to use Mai Finance. Also, it's important to understand that AAVE borrowing APRs are variable, they will fluctuate with the amounts that are deposited and required \(the more people want to borrow from AAVE, the higher the borrowing APR\). Keep also in mind that the MATIC reward program will end at some point, and the 1.71% interest will soon become a 3.79% interest rate. At least with Mai Finance, you don't have to keep a close eye on your loan to see when it becomes dangerous to keep it.
+Nếu bạn dự định giữ khoản vay của mình lâu hơn thế, chắc chắn bạn nên sử dụng Mai Finance. Ngoài ra, điều quan trọng cần hiểu là APR vay của AAVE có thể thay đổi, chúng sẽ dao động theo số tiền được gửi và nhu cầu \(càng nhiều người muốn vay từ AAVE, APR đi vay càng cao\). Cũng nên nhớ rằng chương trình phần thưởng MATIC sẽ kết thúc vào một thời điểm nào đó và lãi suất 1,71% sẽ sớm trở thành lãi suất 3,79%. Ít nhất với Mai Finance, bạn không cần phải theo dõi kỹ khoản vay của mình để xem khi nào nguy hiểm mới giữ lại.
 
-Finally, the team of Mai Finance is working on Vaults incentives that would work the same way as the MATIC reward, meaning that you would still get a 0% interest loan and a bonus paid in Qi that may very well reduce the repayment fee to 0% of your debt. And the longer you keep your loan, the more reward you will collect, making it a true negative interest loan.
+Cuối cùng, nhóm của Mai Finance đang nghiên cứu các ưu đãi của Vaults sẽ hoạt động giống như phần thưởng MATIC, nghĩa là bạn vẫn nhận được khoản vay lãi suất 0% và phần thưởng được trả bằng Qi có thể giảm phí hoàn trả xuống 0 % số nợ của bạn. Và bạn giữ khoản vay của mình càng lâu, bạn sẽ càng nhận được nhiều phần thưởng, khiến nó trở thành một khoản vay có lãi suất âm thực sự.
 
-## Disclaimer
+## Tuyên bố từ chối trách nhiệm
 
-The views, thoughts, and opinions expressed in the text belong solely to the author, and not necessarily to the rest of the community, nor the development team behind Mai Finance. It should not be taken as a financial advice or guidance of any kind.
+Các quan điểm, suy nghĩ và ý kiến ​​thể hiện trong hướng dẫn này chỉ thuộc về tác giả, và không nhất thiết thuộc về phần còn lại của cộng đồng, cũng như nhóm phát triển đằng sau Mai Finance. Nó không nên được coi là một lời khuyên hoặc hướng dẫn tài chính dưới bất kỳ hình thức nào.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Vui lòng cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu 
 {% endhint %}
 

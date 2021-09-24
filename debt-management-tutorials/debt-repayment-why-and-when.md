@@ -1,68 +1,66 @@
 ---
 description: >-
-  This page presents different aspects of your debt management, most
-  specifically when you should consider repaying it, but also why you should
-  repay it.
+  Phần này trình bày các khía cạnh khác nhau trong việc quản lý nợ của bạn, cụ
+  thể nhất là khi nào bạn nên cân nhắc trả nợ, cũng như lý do tại sao bạn nên
+  trả nợ.
 ---
 
-# Debt repayment - Why and When?
+# Hoàn trả nợ - Tại sao và khi nào?
 
-## Is this really a debt?
+## Có phải thực sự là một khoản nợ?
 
-Technically speaking, yes. You owe MAI to the protocol, so it's a debt. However, you shouldn't really consider the debt on Mai Finance as a debt. Indeed, you deposit something of value \(you crypto assets\) and in exchange, Mai Finance allows you to borrow a stable coin. You don't need to pay any interests on the funds you borrowed, and when you want to get your assets back, you pay a very small fee of 0.5% of what you borrowed, which is paid directly on the collateral.
+Về mặt kỹ thuật thì là có. Bạn nợ MAI với nền tảng, vì vậy đó là một món nợ. Tuy nhiên, bạn không nên thực sự coi khoản nợ trên Mai Finance là một khoản nợ. Thật vậy, bạn gửi một thứ gì đó có giá trị \( tài sản tiền điện tử\) và đổi lại, Mai Finance cho phép bạn vay một đồng tiền ổn định. Bạn không cần phải trả bất kỳ khoản lãi nào đối với số tiền bạn đã vay và khi bạn muốn lấy lại tài sản của mình, bạn phải trả một khoản phí rất nhỏ là 0,5% số tiền bạn đã vay, được trả trực tiếp trên tài sản thế chấp..
 
-So basically, Mai Finance is your crypto pawn shop.
+Về cơ bản, Mai Finance là một cửa hàng cầm đồ.
 
-On the other hand, your deposited crypto can increase in value, which allows you to borrow more. Also, on Mai Finance, you can use other protocols like AAVE to make sure your deposited assets are at work and earn you yield while still being used as a collateral, and it won't have any impact of the amount or value of your debt, nor on its repayment.
+Mặt khác, tiền điện tử đã gửi của bạn có thể tăng giá trị, điều này cho phép bạn vay nhiều hơn. Ngoài ra, trên Mai Finance, bạn có thể sử dụng các giao thức khác như AAVE để đảm bảo tài sản ký gửi của bạn hoạt động hiệu quả và mang lại lợi nhuận cho bạn trong khi vẫn được sử dụng làm tài sản thế chấp và nó sẽ không ảnh hưởng đến số tiền hoặc giá trị khoản nợ của bạn. , cũng không phải về sự hoàn trả.
 
-Finally, as of mid-August 2021, the dev team of Mai Finance is working actively on adding incentives to loans, which would actually make borrowing MAI a negative interest loan \(you get paid to borrow money\).
+Cuối cùng, kể từ giữa tháng 8 năm 2021, nhóm phát triển của Mai Finance đang tích cực làm việc để bổ sung các ưu đãi cho các khoản vay, điều này thực sự sẽ khiến việc vay MAI trở thành khoản vay có lãi suất âm \(bạn được trả tiền để vay\)
 
-Hence, by using Mai Finance and its vaults, you simply secure your assets, and only put at risk your borrowed money. Ideally, you would make some profits, or at least try to not totally lose your loan, which means that you should always be able to pay back your debt and get back your collateral.
+Do đó, bằng cách sử dụng Mai Finance và các kho tiền của nó, bạn chỉ cần đảm bảo tài sản của mình và chỉ chịu rủi ro đối với khoản tiền đã vay của bạn. Lý tưởng nhất là bạn sẽ kiếm được một số lợi nhuận, hoặc ít nhất là cố gắng không mất hoàn toàn khoản vay của mình, có nghĩa là bạn luôn có thể trả nợ và lấy lại tài sản thế chấp của mình.
 
-## Why should you repay your debt?
+## Tại sao bạn nên hoàn trả số nợ của mình?
 
-There is a single answer to this question: get back your collateral.
+Có một câu trả lời duy nhất cho câu hỏi này: lấy lại tài sản thế chấp của bạn.
 
-Indeed, Mai Finance does not charge any interest on your loans. This means that there is no growing amount of money that you need to pay back. You only repay what you borrowed, with the simple addition of the 0.5% repayment fee corresponding to 0.5% of what you borrowed.
+Thật vậy, Mai Finance không tính bất kỳ khoản lãi nào đối với các khoản vay của bạn. Điều này có nghĩa là không có số tiền nợ ngày càng tăng mà bạn cần phải trả lại. Bạn chỉ hoàn trả những gì bạn đã vay, với việc cộng thêm 0,5% phí hoàn trả đơn giản tương ứng với 0,5% số tiền bạn đã vay.
 
-As an example
+Như một ví dụ 
 
-* You deposit $1,000 worth of MATIC in the MATIC vault
-* You borrow $200 worth of MAI and play with it
-* Your investments generated $20 that you convert back to MAI
-* You repay your $200 loan after 5 months
-* You unlock $999 worth of MATIC \(the 0.5% of $200 equals to $1 and is taken off your collateral\)
+* Bạn gửi MATIC trị giá 1.000 đô la vào kho tiền MATIC 
+* Bạn mượn MAI trị giá 200 đô la 
+* Các khoản đầu tư của bạn đã tạo ra 20 đô la mà bạn chuyển đổi trở lại MAI 
+* Bạn hoàn trả khoản vay 200 đô la sau 5 tháng 
+* Bạn mở khóa MATIC trị giá $ 999 \(0,5% của $ 200 tương đương với $ 1 và được lấy ra khỏi tài sản thế chấp của bạn\)
 
-There is also absolutely no pressure on the moment you need to repay your debt. It's not like the longer you wait, the more you owe. With Mai Finance, you do whatever you want with your borrowed MAI, and you pay back when you want. You can even pay back in pieces. If your borrowed money is generating a consistant revenue stream, you can use it to either re-invest, partially or totally repay your loan.
+Cũng hoàn toàn không có áp lực nào trong thời điểm bạn cần trả nợ. Nó không giống như bạn càng đợi lâu, bạn càng nợ nhiều hơn. Với Mai Finance, bạn có thể làm bất cứ điều gì bạn muốn với MAI đã vay của bạn và bạn sẽ trả lại khi bạn muốn. Bạn thậm chí có thể trả lại từng phần. Nếu khoản tiền đã vay của bạn đang tạo ra một dòng doanh thu thường xuyên, bạn có thể sử dụng nó để tái đầu tư, hoàn trả một phần hoặc toàn bộ khoản vay của mình.
 
-As an example
+Một ví dụ
 
-* You deposit $1,000 worth of MATIC in the MATIC vault
-* You borrow $225 worth of MAI
-* You convert your MAI into a IMX/ETH LP pair and deposit it on QuickSwap pool
-* Your position, with an APR of 163.2%, is generating $1 every day
-* You convert your gain into MAI and repay your debt, $1 every day
-* After 225 days, your debt is fully repaid and your IMX/ETH can now generate pure revenue
+* Bạn gửi MATIC trị giá 1.000 đô la vào kho tiền MATIC 
+* Bạn vay MAI trị giá 225 đô la 
+* Bạn chuyển đổi MAI của mình thành một cặp IMX / ETH LP và gửi nó vào nhóm QuickSwap 
+* Vị trí của bạn, với APR là 163,2%, đang tạo ra $ 1 mỗi ngày 
+* Bạn chuyển lợi nhuận của mình thành MAI và trả nợ, $ 1 mỗi ngày 
+* Sau 225 ngày, khoản nợ của bạn sẽ được hoàn trả đầy đủ và IMX / ETH của bạn hiện có thể tạo ra doanh thu thuần
 
-Because of the 0% interest / no pay-back time limit, there's absolutely no need to repay your debt for whatever reason else than get back your collateral. And this is truly fantastic, because instead of repaying your debt, you could use your gains to increase your investments. And the best way to do it, of course, is to buy more crypto, secure it into the vault, and borrow more MAI.
+Vì lãi suất 0% / không giới hạn thời gian hoàn vốn, bạn hoàn toàn không cần phải trả nợ vì bất cứ lý do gì khác ngoài việc lấy lại tài sản thế chấp của mình. Và điều này thực sự tuyệt vời, bởi vì thay vì trả nợ, bạn có thể sử dụng tiền kiếm được để tăng các khoản đầu tư của mình. Và cách tốt nhất để làm điều đó, tất nhiên, là mua thêm tiền điện tử, gửi nó vào kho tiền và vay thêm MAI.
 
-## When should you repay your debt?
+## Khi nào bạn nên hoàn trả số nợ?
 
-There is a single answer to this question: when you want to sell your collateral.
+Có một câu trả lời duy nhất cho câu hỏi này: khi bạn muốn bán tài sản thế chấp của mình. 
 
-In the paragraph above, we saw that there is absolutely 0 impact if you don't repay your debt "fast enough". Indeed, you could just never repay your debt and you would be in the exact same position as someone who just borrowed a few minutes before.
+Trong đoạn trên, chúng ta thấy rằng hoàn toàn không có tác động xấu gì nếu bạn không trả nợ "đủ nhanh". Thật vậy, bạn có thể không bao giờ trả được nợ của mình và bạn sẽ ở vào vị trí giống hệt như người vừa mới vay vài phút trước đó. Điều duy nhất khiến bạn thực sự trả được nợ là bạn cân nhắc rằng tài sản được sử dụng làm tài sản thế chấp hiện đã đạt đến mức giá mà bạn muốn bán hoặc nếu bạn cần bán tài sản tiền điện tử của mình vì bất kỳ lý do gì. Chỉ khi đó mới là "thời điểm thích hợp" để bạn trả nợ. 
 
-The only thing that would make you actually repay your debt is that you consider that the asset used as collateral is now reached a price at which you want to sell it, or if you need to sell your crypto assets for whatever reason. Only then is "the right time" to repay your debt.
+Một lưu ý riêng, bạn cũng có thể muốn trả nợ nếu tài sản của bạn được sử dụng làm tài sản thế chấp mất giá quá nhanh và bạn không muốn bị thanh lý, vì điều đó sẽ khiến bạn mất nhiều tiền hơn nữa. Chúng ta sẽ xem trong một bài  riêng về cách bạn có thể trả nợ tùy thuộc vào tình hình của kho tiền của bạn \(đó là số đo sức khỏe\), thị trường và các yếu tố khác.
 
-On a separate note, you may also want to repay your debt if your asset used as collateral is losing value too quickly, and you don't want to be liquidated, because it would make you lose even more money. We will see on a separate article how you can repay your debt depending on the situation of your vault \(it's health ratio\), the market, and other factors.
+## Tuyên bố từ chối trách nhiệm
 
-
-
-## Disclaimer
-
-The views, thoughts, and opinions expressed in the text belong solely to the author, and not necessarily to the rest of the community, nor the development team behind Mai Finance. It should not be taken as a financial advice or guidance of any kind.
+Các quan điểm, suy nghĩ và ý kiến ​​thể hiện trong hướng dẫn chỉ thuộc về tác giả, và không nhất thiết thuộc về phần còn lại của cộng đồng, cũng như nhóm phát triển đằng sau Mai Finance. Nó không nên được coi là một lời khuyên hoặc hướng dẫn tài chính dưới bất kỳ hình thức nào.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Vui lòng cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu 
 {% endhint %}
+
+
 

@@ -48,7 +48,7 @@ Bạn cũng cần biết rằng các token dư ra có thể stake trên Mai Fina
 
 ![](../.gitbook/assets/screen-shot-2021-09-08-at-6.54.08-am.png)
 
-Những gì sau đây là một mô phỏng được thực hiện với khoản đầu tư ban đầu trị giá 1.000 đô la cho các cặp Qi / MATIC và Qi / WETH LP và các APR / APY hiện tại được cung cấp bởi các nền tảng khác nhau vào ngày 9 tháng 9 năm 2021. Trên thực tế tỷ giá sẽ khác nhau, giá mã token sẽ thay đổi, một số chương trình sẽ kết thúc, v.v. vì vậy kết quả cuối cùng chỉ là ước tính bạn có thể nhận được gì nếu mọi thứ vẫn ổn định \(không bao giờ xảy ra\).
+Những gì sau đây là một mô phỏng được thực hiện với khoản đầu tư ban đầu trị giá 1000 đô la cho các cặp Qi / MATIC và Qi / WETH LP và các APR / APY hiện tại được cung cấp bởi các nền tảng khác nhau vào ngày 9 tháng 9 năm 2021. Trên thực tế tỷ giá sẽ khác nhau, giá mã token sẽ thay đổi, một số chương trình sẽ kết thúc, v.v. vì vậy kết quả cuối cùng chỉ là ước tính bạn có thể nhận được gì nếu mọi thứ vẫn ổn định \(không bao giờ xảy ra\).
 
 ### Ngày 1
 
@@ -71,7 +71,7 @@ Chúng ta cũng sẽ sử dụng các APR sau cho phần còn lại của minh h
 
 Vì APR trên Mai Finance thấp hơn APR trên QuickSwap, nên chúng ta sẽ sử dụng 100% Qi được tạo trên Mai Finance để tạo thêm mã Qi / QUICK \(không bán nhưng kết hợp với mã QUICK nhận được trên QuickSwap\), nghĩa là tại cuối ngày, chúng ta còn lại 0 Qi. Tất nhiên, nếu bạn cân đối khoản đầu tư ban đầu của mình theo cách khác, bạn có thể nhận được Qi còn lại và còn lại 0 QUICK.
 
-Ở cuối ngày thứ nhất, trong danh bạ của chúng ta sẽ có
+Ở cuối ngày thứ nhất chúng ta sẽ có
 
 | Dạng phần thưởng | Giá trị bằng dollars |
 | :--- | :--- |
@@ -85,7 +85,7 @@ Vì APR trên Mai Finance thấp hơn APR trên QuickSwap, nên chúng ta sẽ s
 
 Vào ngày 2, dQUICK được gửi trên QuickSwap Dragon's Syrup bắt đầu tạo ra các token ADDY, cũng như cặp Qi / QUICK LP trên Adamant. Vào cuối Ngày 2, chúng tôi sẽ nhận được
 
-| Reward type | Value in dollars |
+| Dạng phần thưởng | Giá trị bằng dollar |
 | :--- | :--- |
 | dQUICK trên QuickSwap | 17.998 |
 | ADDY trên QuickSwap | 0.0042 |

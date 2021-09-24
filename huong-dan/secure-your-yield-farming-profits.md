@@ -1,6 +1,6 @@
 ---
 description: >-
-  Trang này trình bày một cách chi tiết một chiến lược an toàn cho việc tối ưu
+  TPhần này trình bày một cách chi tiết một chiến lược an toàn cho việc tối ưu
   thanh khoản ít sinh lợi hơn nhưng an toàn hơn rất nhiều.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 ## Ý tưởng chung
 
-Khi bạn tham gia tối ưu thanh khoản \(yield farming\) tại một farm nào đó trên Polygon, bạn đưa số vốn đầu tư của bạn cho sự thành công hoặc thất bại của farm đó. Hướng dẫn này không trình bày chi tiết farm là gì và làm thế nào để farm. Nếu bạn cần hướng dẫn chi tiết bạn có thể tìm khắp internet hoặc bạn cũng có thể hỏi cộng đồng [Discord](https://discord.gg/mQq55j65xJ).
+Khi bạn tham gia tối ưu thanh khoản \(yield farming\) tại một farm nào đó trên Polygon, bạn đưa số vốn đầu tư của bạn cho sự thành công hoặc thất bại của farm đó. Hướng dẫn này không trình bày chi tiết farm là gì và làm thế nào để farm. Nếu bạn cần hướng dẫn chi tiết bạn có thể tìm trên internet hoặc bạn cũng có thể hỏi cộng đồng [Discord](https://discord.gg/mQq55j65xJ) Mai Finance.
 
 Vấn đề chính khi bạn farming là bạn phải lựa chọn giữa:
 
@@ -18,7 +18,7 @@ Vấn đề chính khi bạn farming là bạn phải lựa chọn giữa:
 Hướng dẫn dưới đây sẽ trình bày từng bước các tận dụng nền tảng Mai Finance để thực sự đảm bảo được lợi nhuận thu được trong khi vẫn tái đầu tư một phần vào farm.
 
 {% hint style="info" %}
-Để minh họa chi tiết hơn làm thế nào bạn có thể làm điều đó, chúng ta sẽ dùng [farm mới nhất ](https://ball.polypup.finance/)của Polypup farm. Xin lưu ý đây chỉ là ví dụ cho mục đích giáo dục nên tuyệt đối không sử dụng như là một lời khuyên tài chính. Ngoài ra, thuật ngữ "an toàn" cũng chỉ mang tính chủ quan cá nhân.
+Để minh họa chi tiết hơn làm thế nào bạn có thể làm điều đó, chúng ta sẽ dùng [farm mới nhất ](https://ball.polypup.finance/)của Polypup. Xin lưu ý đây chỉ là ví dụ cho mục đích giáo dục nên tuyệt đối không sử dụng như là một lời khuyên tài chính. Ngoài ra, thuật ngữ "an toàn" cũng chỉ mang tính chủ quan cá nhân.
 {% endhint %}
 
 ![](../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
@@ -31,7 +31,7 @@ Một trong những farmer kỳ cựu từng nói rằng
 
 > Đừng bao giờ mua những thứ có thể kiếm được
 
-Trong nội dung hướng dẫn này, vì chúng tôi ưu tiên sự an toàn tài chính là quan trọng hàng đầu cho nên cặp stablecoin được lựa chọn để tiến hành farm nhằm bảo vệ số vốn đầu tư tránh được tổn thất tạm thời. Hầu hết các farm đều có các cặp stable coin trong bể thanh khoản của họ. Cặp MAI/USDC cũng được tìm thấy trên nền tảng của Mai Finance và đây cũng sẽ là cặp ví dụ cho minh họa này.
+Trong nội dung hướng dẫn này, vì chúng ta ưu tiên sự an toàn tài chính là quan trọng hàng đầu cho nên cặp stablecoin được lựa chọn để tiến hành farm nhằm bảo vệ số vốn đầu tư tránh được tổn thất tạm thời. Hầu hết các farm đều có các cặp stable coin trong bể thanh khoản của họ. Cặp MAI/USDC cũng được tìm thấy trên nền tảng của Mai Finance và đây cũng sẽ là cặp ví dụ cho minh họa này.
 
 Để bắt đầu farm bằng cặp MAI/USDC, bạn cần phải có stablecoin. Trên nền tảng của Mai Finance, bạn có thể vay được stable Mai bằng cách dùng những đồng coin ưa thích của bạn làm tài sản thế chấp. Trong trường hợp này, chúng ta sẽ lấy MATIC làm tài sản thế chấp để vay MAI bằng cách gửi vào các vault tại mục Vault của trang web. Nếu bạn cần hỗ trợ, vui lòng tham gia Discord và đặt câu hỏi cho cộng đồng. Ngoài ra, bạn cũng dễ dàng tìm thấy những hướng dẫn cần thiết tại các mục trên trang web này.
 
@@ -78,7 +78,7 @@ Mai Finance giới thiệu cho bạn lựa chọn thứ ba cho phép bạn thự
 
 ![Swapping ph&#x1EA7;n th&#x1B0;&#x1EDF;ng th&#xE0;nh MATIC](../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
 
-Tại thời điểm đó,  chúng ta đã quay lại bước mà chúng tôi có token MATIC trong ví, sẵn sàng được gửi vào Mai Finance làm tài sản thế chấp để vay MAI, hoán đổi một phần của nó thành USDC, tạo một cặp LP và gửi lại vào trang trại. Bằng cách thực hiện chuyển đổi này, chúng ta "đảm bảo" 100% phần thưởng của mình bằng cách hoán đổi chúng thành một loại đồng coin ổn định hơn \(ở đây là MATIC\) và chúng ta gửi tiếp 50% phần thưởng của mình bể farming \(hoặc thực tế, trong ví dụ này là 46% vì phí gửi là 4%\).
+Tại thời điểm đó,  chúng ta đã quay lại bước mà chúng ta có token MATIC trong ví, sẵn sàng được gửi vào Mai Finance làm tài sản thế chấp để vay MAI, hoán đổi một phần của nó thành USDC, tạo một cặp LP và gửi lại vào trang trại. Bằng cách thực hiện chuyển đổi này, chúng ta "đảm bảo" 100% phần thưởng của mình bằng cách hoán đổi chúng thành một loại đồng coin ổn định hơn \(ở đây là MATIC\) và chúng ta gửi tiếp 50% phần thưởng của mình bể farming \(hoặc thực tế, trong ví dụ này là 46% vì phí gửi là 4%\).
 
 Từ một góc độ khác, APR được áp dụng 100% cho số stablecoin bạn gửi vào bể, nên nếu bạn tiếp tục cộng dồn bạn sẽ nhận được số APY chỉ bằng một nửa số APY mà farm đã quảng cáo.
 
@@ -140,11 +140,11 @@ $$
 Trong trường hợp farm có phí gửi là 4%, bạn cần nhân kết quả trên với 96%. Trong trường hợp cụ thể trên, chúng ta có thể nhanh chóng xác nhận rằng công thức có chuẩn xác hay không bằng cách so sánh kết quả của nó với bảng trên.
 
 $$
-ROI_{Day1} = [60 * (1+0.00242)^{1}-60]*0.96=$0.1396523836
+ROI_{Ngày1} = [60 * (1+0.00242)^{1}-60]*0.96=$0.1396523836
 $$
 
 $$
-ROI_{Day365}=[60*(1+0.00242)^{365}-60]*0.96=$81.80752927
+ROI_{Ngày365}=[60*(1+0.00242)^{365}-60]*0.96=$81.80752927
 $$
 
 Bắt đầu từ $ 60,00 và tạo ra $ 81,81 sau 1 năm tạo ra tỷ lệ APY là 136,34%.

@@ -34,9 +34,9 @@ Dragon's Lair là một cách để tối ưu hóa lợi nhuận của bạn tr�
 
 ![Dragon&apos;s Lair APY k&#x1EC3; t&#x1EEB; th&#xE1;ng 8 n&#x103;m 2021. ](../.gitbook/assets/screen-shot-2021-08-30-at-6.42.39-am.png)
 
-Sau khi bạn gửi đồng QUICK, bạn sẽ nhận được trong ví của mình một số mã ttoken đại diện cho cổ phần phần của bể QUICK mà bạn sở hữu. Lưu ý rằng tỷ lệ QUICK: dQUICK không phải là 1: 1 vì dQUICK đại diện cho phần của bạn trong nhóm, trong khi số lượng QUICK sẽ tăng lên theo thời gian khi nhiều phần thưởng được thêm vào bể.
+Sau khi bạn gửi đồng QUICK, bạn sẽ nhận được trong ví của mình một số mã token đại diện cho cổ phần phần của bể QUICK mà bạn sở hữu. Lưu ý rằng tỷ lệ QUICK: dQUICK không phải là 1: 1 vì dQUICK đại diện cho phần của bạn trong nhóm, trong khi số lượng QUICK sẽ tăng lên theo thời gian khi nhiều phần thưởng được thêm vào bể.
 
- Giờ đây, bạn đã có những đồng stablecoin của mình được gửi vào bể thanh khoản và chúng tạo ra phần thưởng QUICK. Phần thưởng đang tạo ra nhiều phần thưởng hơn nhờ Dragon's Lair. Nhưng xin chờ chút nữa ...
+Giờ đây, bạn đã có những đồng stablecoin của mình được gửi vào bể thanh khoản và chúng tạo ra phần thưởng QUICK. Phần thưởng đang tạo ra nhiều phần thưởng hơn nhờ Dragon's Lair. Nhưng xin chờ chút nữa ...
 
 ### Dragon's Syrup
 
@@ -111,7 +111,7 @@ Chúng tôi nhận được mã token QUICK trên QuickSwap và chúng ta nhận
 Khi bài viết này đang được viết, APY hiện tại của bể IMX / QUICK trên Adamant là 417,25%. Phần thưởng bao gồm
 
 * 168,49% tự động cộng dồn QUICK \(Phần thưởng QUICK từ QuickSwap được bán để mua thêm mã thông báo IMX / NHANH LP được thêm vào vị trí của bạn\)
-* 212,85% ADDY mã token mà bạn có thể nhận trên Adamant \(chúng được khóa  trong 90 ngày nên bạn không thể truy cập chúng ngay lập tức\)
+* 212,85% ADDY mã token mà bạn có thể nhận trên Adamant \(chúng được khóa trong 90 ngày nên bạn không thể truy cập chúng ngay lập tức\)
 * 35,91% phí trả cổ tức bằng WMATIC nếu bạn nhận ADDY của mình hàng ngày
 
 Điều này có nghĩa là vị thế IMX / QUICK của bạn sẽ tăng lên theo thời gian và bạn sẽ nhận được phần thưởng ADDY. Bạn càng nắm giữ nhiều ADDY, bạn càng thu được nhiều cổ tức \(WMATIC\).
@@ -142,32 +142,32 @@ Với các token WMATIC kiếm được trên Adamant, bây giờ chúng ta có 
 
 Sau khi gửi tiền AAVE, chúng ta nhận được amWMATIC. Chúng tôi có thể sử dụng trang Yield trên Mai Finance để tự động cộng dồn phần thưởng do AAVE cung cấp với phần thưởng từ khuyến khích Matic và nhận thêm 4% trên MATIC của chúng ta kiếm được trên Adamant.
 
-Mã camWMATIC sau đó có thể được sử dụng làm tài sản thế chấp trên Mai Finance bằng cách gửi chúng vào kho camWMATIC, cho phép chúng ta vay MAI và hoán đổi một phần MAI thành USDC. Khi chúng tôi có thêm MAI và USDC trong ví của mình, chúng tôi có thể kết hợp 2 đồng stablecoin thành các cặp LP bổ sung sẽ được gửi trên QuickSwap và Impermax. Một lần nữa, nếu bạn cần chi tiết về cách bạn có thể làm điều đó, vui lòng đọc [bài viết dành riêng](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjxxDnNvTemFZGgRpNm/v/viet-nam/huong-dan/leverage-aave-tokens).
+Mã camWMATIC sau đó có thể được sử dụng làm tài sản thế chấp trên Mai Finance bằng cách gửi chúng vào kho tiền camWMATIC, cho phép chúng ta vay MAI và hoán đổi một phần MAI thành USDC. Khi chúng ta có thêm MAI và USDC trong ví của mình, chúng ta có thể kết hợp 2 đồng stablecoin thành các cặp LP bổ sung sẽ được gửi trên QuickSwap và Impermax. Một lần nữa, nếu bạn cần chi tiết ,vui lòng đọc [bài viết dành riêng](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjxxDnNvTemFZGgRpNm/v/viet-nam/huong-dan/leverage-aave-tokens).
 
 ## Khởi động hệ thống 
 
-Những gì sau đây là một mô phỏng được thực hiện với khoản đầu tư ban đầu trị giá 1.000 đô la của cặp token MAI / USDC LP và các APR / APY hiện tại được cung cấp bởi các nền tảng khác nhau vào ngày 30 tháng 8 năm 2021. Đây không phải là ứng dụng thực của những gì chúng ta đã mô tả ở trên. Tỷ giá sẽ khác nhau, giá token sẽ thay đổi, một số chương trình sẽ kết thúc, v.v. vì vậy kết quả cuối cùng chỉ là ước tính bạn có thể nhận được những gì nếu mọi thứ vẫn ổn định, điều mà sẽ không bao giờ xảy ra.
+Những gì sau đây là một mô phỏng được thực hiện với khoản đầu tư ban đầu trị giá 1,000 đô la của cặp token MAI / USDC LP và các APR / APY hiện tại được cung cấp bởi các nền tảng khác nhau vào ngày 30 tháng 8 năm 2021. Đây không phải là minh họa thực do tỷ giá sẽ khác nhau, giá token sẽ thay đổi, một số chương trình sẽ kết thúc, v.v. vì vậy kết quả cuối cùng chỉ là ước tính.
 
 ### Ngày 1
 
-Vì chúng ta có cặp MAI / USDC trị giá 1.000 đô la, chúng ta sẽ chia cặp LP giữa QuickSwap và Impermax. Bởi vì Impermax cho phép chúng ta tạo đòn bẩy khoản tiền gửi, chúng ta thực sự có thể gửi nhiều mã token hơn trên QuickSwap và sử dụng tùy chọn đòn bẩy trên Impermax để phù hợp với những gì chúng ta nhận được trên QuickSwap.
+Vì chúng ta có cặp MAI / USDC trị giá 1,000 đô la, chúng ta sẽ chia cặp LP giữa QuickSwap và Impermax. Bởi vì Impermax cho phép chúng ta tạo đòn bẩy khoản tiền gửi nên chúng ta thực sự có thể gửi nhiều mã token hơn trên QuickSwap và sử dụng tùy chọn đòn bẩy trên Impermax để cân bằng với phần thưởng chúng ta nhận được trên QuickSwap.
 
-Để giảm rủi ro về lãi suất âm đối với Impermax, việc phân chia sẽ như sau:
+Để giảm rủi ro về lãi suất âm đối với Impermax, việc phân chia sẽ tiến hành như sau:
 
-* giá trị 900$ của cặp MAI/USDC trên QuickSwap
-* giá trị 100$ of MAI/USDC trên Impermax với một đòn bẩy x9 để đưa ra $ 900 cho cặp MAI / USDC
+* giá trị 900$ của  MAI/USDC trên QuickSwap
+* giá trị 100$ của MAI/USDC trên Impermax với một đòn bẩy x9 để tạo ra 900$ cho cặp MAI / USDC
 
-Đối với phần còn lại của mô phỏng, chúng ta sẽ xem xét rằng QuickSwap cấp APR 25,56% trên MAI / USDC được trả bằng đồng QUICK và Impermax cung cấp 20% APR trung bình trên MAI / USDC ở mức đòn bầy x9, chỉ được trả bằng token IMX. Điều này tương ứng với tỷ lệ hàng ngày là
+Đối với phần còn lại của mô phỏng, chúng ta sẽ xem xét rằng QuickSwap cho APR 25,56% trên MAI / USDC được trả bằng đồng QUICK và Impermax cung cấp 20% APR trung bình trên MAI / USDC ở mức đòn bầy x9, chỉ được trả bằng đồng IMX. Điều này tương ứng với tỷ lệ hàng ngày là
 
 * +0.07% trên QuickSwap
 * +0.05% trên Impermax
 
-Điều này có nghĩa là vào cuối Ngày 1, chúng tôi đã thu thập
+Điều này có nghĩa là vào cuối ngày 1, chúng ta sẽ có
 
 * $0.63 giá trị của QUICK
 * $0.49 giá trị của IMX
 
-Từ đó, chúng ta có thể kết hợp tất cả IMX nhận được với một phần của QUICK thành cặp IMX / QUICK LP sẽ được gửi vào Adamant. Cặp LP có giá trị là 0,98 đô la và chúng ta vẫn còn dư có giá trị 0,14 đô la QUICK mà chúng ta gửi vào Dragons's Lair cho dQUICK. dQUICK sau đó được sử dụng trên Dragon's Syrup để bắt đầu nhận ADDY vào ngày thứ 2.
+Từ đó, chúng ta có thể kết hợp tất cả IMX nhận được với một phần của QUICK thành cặp IMX / QUICK LP sẽ được gửi vào Adamant. Cặp LP có giá trị là 0,98 đô la và chúng ta vẫn còn dư QUICK có giá trị 0,14 đô la mà chúng ta gửi vào Dragons's Lair tạo ra dQUICK. dQUICK sau đó được sử dụng trên Dragon's Syrup để bắt đầu nhận ADDY vào ngày thứ 2.
 
 | Loại phần thưởng | Giá trị bằng dollars |
 | :--- | :--- |
@@ -181,9 +181,9 @@ Từ đó, chúng ta có thể kết hợp tất cả IMX nhận được với 
 
 ### Ngày 2
 
-Chúng ta vẫn giữ nguyên vị thế trên QuickSwap và Impermax, không có gì thay đổi và chúng ta một lần nữa nhận được QUICK trị giá 0,63 đô la và IMX trị giá 0,49 đô la được sử dụng để nhận IMX / QUICK trị giá 0,98 đô la và 0,14 đô la dQUICK được gửi vào bể ADDY trên QuickSwap. Tuy nhiên, vị trí IMX / QUICK trên Adamant đang kiếm được 151,96% APR trong IMX / QUICK \(hoặc + 0,42% hàng ngày\). Điều này có nghĩa là khoản tiền gửi 0,98 đô la ban đầu của chúng ta hiện ở mức 0,984 đô la và chúng ta đang thêm 0,98 đô la từ việc farming trên QuickSwap và Impermax. Nó cũng tạo ra 177,43% APR \(hoặc + 0,49% hàng ngày\) QUICK, tương ứng với 0,005 đô la. 
+Chúng ta vẫn giữ nguyên vị thế trên QuickSwap và Impermax, không có gì thay đổi và chúng ta một lần nữa nhận được QUICK trị giá 0,63 đô la và IMX trị giá 0,49 đô la được sử dụng để nhận IMX/QUICK trị giá 0,98 đô la và 0,14 đô la dQUICK được gửi vào bể ADDY trên QuickSwap. Tuy nhiên, vị trí IMX / QUICK trên Adamant đang kiếm được 151,96% APR trong IMX / QUICK \(hoặc + 0,42% hàng ngày\). Điều này có nghĩa là khoản tiền gửi 0,98 đô la ban đầu của chúng ta hiện ở mức 0,984 đô la và chúng ta đang thêm 0,98 đô la từ việc farming trên QuickSwap và Impermax. Nó cũng tạo ra 177,43% APR \(hoặc + 0,49% hàng ngày\) QUICK, tương ứng với 0,005 đô la. 
 
-Trên QuickSwap, dQUICK mà chúng ta gửi vào Dragon's Syrup đang tạo thêm QUICK với 12,26% APR \(+ 0,03% hàng ngày\) và  ADDY ở 17,08% APR \(+ 0,05% hàng ngày\). Điều này được áp dụng cho QUICK trị giá 0,18 đô la, có nghĩa là vào cuối Ngày thứ 2, chúng ta đã tạo ra ADDY trị giá 0,00006 đô la và giá trị 0,000054 đô la của QUICK. Phần thưởng ADDY có thể được yêu cầu và thêm vào Adamant để bắt đầu thúc đẩy APR ADDY của cặp IMX / QUICK.
+Trên QuickSwap, dQUICK mà chúng ta gửi vào Dragon's Syrup đang tạo thêm QUICK với 12,26% APR \(+ 0,03% hàng ngày\) và ADDY ở 17,08% APR \(+ 0,05% hàng ngày\). Điều này được áp dụng cho QUICK trị giá 0,18 đô la, có nghĩa là vào cuối ngày thứ 2, chúng ta đã tạo ra ADDY trị giá 0,00006 đô la và giá trị 0,000054 đô la của QUICK. Phần thưởng ADDY có thể được yêu cầu và thêm vào Adamant để bắt đầu boost APR ADDY của cặp IMX / QUICK.
 
 | Dạng phần thưởng | Giá trị bằng $ |
 | :--- | :--- |
@@ -209,7 +209,7 @@ Tiếp tục, phần thưởng ADDY được nhận trên Adamant hiện đang t
 | camWMATIC trên Mai Finance | 0 |
 | nợ tại Mai Finance | 0 |
 
-### Day 4
+### Ngày 4
 
 Bây giờ chúng ta có thể thêm WMATIC trong vòng lặp. Cổ tức này sẽ được gửi vào AAVE, sau đó được sử dụng trên Mai Finance để vay MAI.
 
@@ -272,7 +272,7 @@ Công việc hàng ngày bao gồm các thao tác sau:
 
 ### Ngày thứ 365
 
-Sau một năm, trạng thái cuối cùng của cuộc đầu tư là 
+Sau một năm, kết quả cuối cùng như sau
 
 | Dạng phần thưởng | Giá trị bằng $ |
 | :--- | :--- |
