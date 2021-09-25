@@ -178,19 +178,13 @@ Bạn cũng có thể thấy rằng nếu bạn giữ khoản vay của mình tr
 
 ### Phân phối thưởng
 
-Phần thưởng được phân bổ bởi các ưu đãi kho tiền sẽ được phân phối theo cách tương tự như đối với Qi đặt cổ phần. Có nghĩa là mỗi thứ Tư hàng tuần, Qi được phân bổ bởi chương trình ưu đãi Vaults sẽ được airdrop / nhận cho tuần trước ngày trả lương.
+Phần thưởng được phân bổ bởi các ưu đãi kho tiền sẽ được phân phối theo cách tương tự như đối với Qi đặt cổ phần. Có nghĩa là mỗi thứ Tư hàng tuần, Qi được phân bổ bởi chương trình ưu đãi Vaults sẽ được airdrop / nhận cho tuần trước ngày trả lương
 
-## Tuyên bố từ chối trách nhiệm
+### Hỏi đáp về phần thưởng Qi.
 
-Hướng dẫn này đã được viết trước khi ra mắt các ưu đãi của Vault, có nghĩa là các APR được quảng cáo trong tài liệu này \(cũng như tài liệu này\) có thể được sửa đổi và / hoặc có thể không chính xác. Số tiền MAI đã vay, trần nợ và giá trị của mã token Qi sẽ ảnh hưởng lớn đến APR cuối cùng của mỗi loại kho tiền. Hãy đảm bảo rằng bạn đầu tư có trách nhiệm.
+*  **Kho tiền nào thì nhận được phần thưởng Qi?**
 
-{% hint style="info" %}
-Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
-{% endhint %}
-
-*  **What vaults are receiving rewards?**
-
-Right now all the vault types have been allocated Qi rewards
+Hiện tại thì tất cả kho tiền đều nhận được 
 
 *  **How much rewards are given out for the borrowing incentives?**
 

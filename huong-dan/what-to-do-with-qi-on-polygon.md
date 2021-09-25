@@ -1,171 +1,167 @@
 ---
 description: >-
-  This guide will explain in details how you can use your Qi, the native token
-  from Mai Finance, on Polygon. We will also analyze if Qi is a good investment
-  opportunity, and what drives its price.
+  Hướng dẫn này sẽ giải thích chi tiết cách bạn có thể sử dụng Qi, mã token gốc
+  của Mai Finance, trên Polygon.Chúng ta cũng cùng phân tích cơ hội đầu tư cũng
+  như các yếu tố ảnh hưởng đến giá của Qi.
 ---
 
-# What to do with Qi on Polygon
+# Cách sử dụng Qi trên hệ sinh thái Polygon
 
-## Intro
+## Giới thiệu 
 
-Qi \(\[tʃ Í\] or _chee_\), is the native token of Mai Finance. Some use it to vote and QIP \(**Q**iDAO **I**mprovement **P**roposals\), some stake it to get even more of them, and some simply farm with it. You can find some very good info on how you can use Qi on the Mai Finance plateforme in the [guide dedicated to passive income](../mai-eqi-qi-tutorials/earning-passive-income-with-qidao.md).
+Qi \(\[tʃ Í\] or _chee_\), là đồng token bản vị của nền tảng Mai Finance. Một số  người sử dụng nó để bỏ phiếu và QIP \(Đề xuất Cải tiến QiDAO\), một số đặt cổ phần để nhận được nhiều hơn trong số đó, và một số chỉ đơn giản là farm với Qi. Bạn có thể tìm thấy một số thông tin rất hữu ích về cách bạn có thể sử dụng Qi trên nền tảng Mai Finance trong [hướng dẫn dành riêng cho thu nhập thụ động](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/mai-eqi-qi-tutorials/earning-passive-income-with-qidao).
 
-This guide, as most investment tutorials, will focus primarily on farming and harvesting yields, this time using the Qi token. We will see how you can generate a lot of Qi, and how you can use them on the different platforms on Polygon.
+Hướng dẫn này cũng như hầu hết các hướng dẫn đầu tư sẽ tập trung chủ yếu vào vào farming và harvesting yield với mã token là Qi. Chúng ta sẽ xem cách để tạo ra nhiều Qi và làm như thế nào để sử dụng chúng tại các nền tảng khác nhau trên chuỗi Polygon.
 
-Humble farmers will sometimes tell you that you need to remain humble, sell what you harvest and take profits. But personally, I'll go with:
+Những người nông dân khiêm tốn đôi khi sẽ nói với bạn rằng bạn cần phải khiêm tốn, bán những gì bạn thu hoạch và thu lợi nhuận. Nhưng cá nhân tôi, tôi sẽ đi với
 
-> Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime.
+> Đưa cho anh ta con cá có thể nuôi sống anh ta trong một ngày. Dạy anh ta cách câu cá sẽ nuôi sống anh ta cả đời.
 
-So grab your fish rods, and follow the guide.
+Vậy hãy cầm cần câu lên và làm theo hướng dẫn dưới đây.
 
-## What to do with your Qi on Polygon
+## Làm gì với Qi trên hệ sinh thái Polygon
 
 ### Staking
 
-I will not spend too much time on this part, there's already a complete guide on the subject. Just keep in mind that Mai Finance is collecting revenues, and redistributes a very large portion to Qi stakers. Staking your Qi on Mai finance is one of the best use for the token, and as of September 2021, 23% of all circulating Qi is locked on average for 2 years.
+Tôi sẽ không dành quá nhiều thời gian cho phần này, đã có một hướng dẫn đầy đủ về chủ đề này. Chỉ cần nhớ rằng Mai Finance đang thu doanh thu và phân phối lại một phần rất lớn cho các staker của Qi. Stake Qi trên Mai của bạn là một trong những cách sử dụng tốt nhất và tính đến tháng 9 năm 2021, trung bình 23% tổng số Qi đang lưu hành bị khóa trong 2 năm.
 
-### LP pair Farming
+### Cặp LP Farming
 
-Once again, there are already a few other pages presenting how you can include the Qi token in your farming strategy to generate yields and never sell any of your farm tokens. See [Stack DApps like Lego bricks](stack-dapps-like-lego-bricks.md) or [Farming or Staking ?](farming-or-staking-or-both.md) guides for details exampled.
+Một lần nữa, đã có một số trang khác trình bày cách bạn có thể đưa Qi vào chiến lược farming của mình để tạo ra sản lượng và không bao giờ bán bất kỳ đồng bản vị của farm nào. Xem các [Xếp Daap giống xếp Lego](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/huong-dan/stack-dapps-like-lego-bricks) hay[ Farming hoặc Staking?](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/huong-dan/farming-or-staking-or-both) để có hướng dẫn chi tiết.
 
-As a quick reminder, Qi is paired to different tokens to form LP \(**L**iquidity **P**rovider\) pairs on [QuickSwap](https://quickswap.exchange/#/quick) so that you can farm
+Xin nhắc lại nhanh, Qi được ghép nối với các mã token khác nhau để tạo thành các cặp LP \(Cặp cung cấp thanh khoản\) trên [QuickSwap](https://quickswap.exchange/#/quick) 
 
-* Qi-WMATIC on Mai Finance and get rewarded with Qi tokens
-* Qi-WETH on QuickSwap and get rewarded with QUICK tokens
-* Qi-QUICK on QuickSwap and get rewarded with QUICK tokens
+* Qi-WMATIC trên Mai Finance nhận phần thưởng là Qi 
+* Qi-WETH trên QuickSwap và nhận phần thưởng là QUICK
+* Qi-QUICK trên QuickSwap và nhận phần thưởng là QUICK
 
-![LP pool on QuickSwap for the Qi-WETH pair](../.gitbook/assets/image%20%2819%29.png)
+![B&#x1EC3; thanh kho&#x1EA3;n Qi-ETH tr&#xEA;n Quickswap](../.gitbook/assets/image%20%2819%29.png)
 
-### Single Qi farming
+###  Qi farming độc lập
 
-Qi can also be used solely on [Impermax](https://polygon.impermax.finance). Impermax is a platform where you will be able to leverage a specific LP pair several times in order to increase your gains from QuickSwap.
+Qi cũng có thể được sử dụng độc lập trên [Impermax](https://polygon.impermax.finance). Impermax là một nền tảng mà bạn sẽ có thể tạo đòn bẩy cho một cặp LP nhất định nhiều lần để tăng lợi nhuận của bạn từ QuickSwap.
 
-The way it works, is that you will borrow the 2 tokens forming the pair that you want to farm, combine them into more LP tokens, and farm with a much higher position. In most cases, borrowing rates are largely compensated by farming APR, giving you some net positive rewards.
+Cách thức hoạt động là bạn sẽ mượn 2 token để  tạo thành cặp mà bạn muốn farm, kết hợp chúng thành nhiều mã  LP hơn và farm với vị thế cao hơn nhiều. Trong hầu hết các trường hợp, lãi suất đi vay được bù đắp phần lớn bằng APR farming, mang lại cho bạn một số phần thưởng dương ròng.
 
-![Leveraged Qi-WETH position on Impermax](../.gitbook/assets/image%20%2820%29.png)
+![T&#x1EA1;o &#x111;&#xF2;n b&#x1EA9;y v&#x1ECB; th&#x1EBF; cho c&#x1EB7;p Qi-ETH tr&#xEA;n Impermax](../.gitbook/assets/image%20%2820%29.png)
 
-We can see here that the final reward APR on Impermax is 393.88% after leveraging 5 times, based on an APY of 239.68% on QuickSwap.
+Chúng ta có thể thấy ở đây rằng APR cuối cùng trên Impermax là 393,88% sau khi tạo đòn bẩy 5 lần, dựa trên APY là 239,68% trên QuickSwap.
 
 {% hint style="info" %}
-Note also that Impermax gives estimated APRs \(**A**nnual **P**ercentage **R**ewards\) while QuickSwap gives estimated APYs \(**A**nnual **P**ercentage **Y**ields\), meaning that QuickSwap assumes you compound your rewards daily. The 239.68% APY on QuickSwap corresponds to a 122.49% APR.
+Cũng xin lưu ý rằng Impermax cung cấp APR ước tính \(Phần thưởng phần trăm hàng năm\) trong khi QuickSwap cung cấp APY ước tính \(Phần trăm cộng dồn hàng năm\), có nghĩa là QuickSwap giả định rằng bạn cộng dồn phần thưởng của mình hàng ngày. 239,68% APY trên QuickSwap tương ứng với 122,49% APR.
 {% endhint %}
 
-But then, on Impermax, in order to borrow Qi and WETH to leverage your position, you need to get them from somewhere. This is possible only because some other users \(or yourself\) also supply both tokens separately. The more token is borrowed, the higher the borrowing rate becomes, and the lower the final APR, sometimes going in the negatives.
+Nhưng sau đó, trên Impermax, để mượn Qi và WETH để tạo đòn đẩy vị thế của bạn, bạn cần phải lấy chúng từ đâu đó. Điều này chỉ có thể thực hiện được vì một số người dùng khác \(hoặc chính bạn\) cũng cung cấp cả hai mã token riêng biệt. Mã token được vay càng nhiều, tỷ lệ vay càng cao và APR cuối cùng càng thấp, đôi khi đi theo chiều âm.
 
-![Qi and WETH statistics for the Qi-WETH market on Impermax](../.gitbook/assets/image%20%2811%29.png)
+![Th&#x1ED1;ng k&#xEA; Qi v&#xE0; WETH cho th&#x1ECB; tr&#x1B0;&#x1EDD;ng Qi-WETH tr&#xEA;n Impermax ](../.gitbook/assets/image%20%2811%29.png)
 
-For our example, we will focus on Qi. You can see that the total supply of Qi is $427.21 and the total amount used in leveraged position is $321.44, giving the utilization rate of 75.24%. Impermax has some internal mechanism that automatically calculates the supply APR \(APR that people lending Qi will get\) and the borrowing APR \(percentage of the farmed reward that will be deduced to pay the loan\).
+Tại ví dụ này, chúng ta sẽ tập trung vào Qi. Bạn có thể thấy rằng tổng cung Qi là 427,21 đô la và tổng số tiền được sử dụng ở vị trí đòn bẩy là 321,44 đô la, cho tỷ lệ sử dụng là 75,24%. Impermax có một số cơ chế nội bộ tự động tính toán APR cung cấp \(APR mà những người cho vay Qi sẽ nhận được\) và APR đi vay \(phần trăm phần thưởng farm sẽ được khấu trừ để trả khoản vay\).
 
-This means that you can provide Qi solely on Impermax and get, in our example, 43.73% APR, at the moment of writing. As supply and demand varies, the supply APR will also increase / decrease. When you supply single tokens on Impermax, you will get rewarded with the token you provide, meaning that this strategy will make you accumulate more Qi over time.
+Điều này có nghĩa là bạn chỉ cần cung cấp Qi trên Impermax và nhận được, trong ví dụ của chúng tôi là 43,73% APR, tại thời điểm viết bài. Khi cung và cầu thay đổi, APR của nguồn cung cũng sẽ tăng / giảm. Khi bạn cung cấp mã token đơn lẻ trên Impermax, bạn sẽ được phần thưởng bằng mã token bạn cung cấp, có nghĩa là chiến lược này sẽ khiến bạn tích lũy nhiều Qi hơn theo thời gian.
 
-While you are on Impermax, you can also use the leverage option to get IMX rewards. Please read the [Stacking guide](stack-dapps-like-lego-bricks.md) to get more details on how you can include Impermax in your farming strategy.
+Trong khi sử dụng Impermax, bạn cũng có thể sử dụng tùy chọn đòn bẩy để nhận phần thưởng IMX. Vui lòng đọc hướng dẫn [Xếp chồng Dapps ](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/huong-dan/stack-dapps-like-lego-bricks)để biết thêm chi tiết về cách bạn có thể đưa Impermax vào chiến lược farming của mình.
 
 ### Balancer
 
-Balancer is a really nice toolbox for any strategy, especially the ones that include Qi and/or MAI. Balancer proposes an equivalent of LP pair mining, but with more than 2 tokens provided in a 1:1 ratio. The pool can have 3, 4 or 5 tokens \(sometimes even more\) with different weight, and the algorithm in charge of the pool makes sure that the ratio for each token is always respected, selling some and buying others to keep it balanced.
+Balancer là một công cụ thực sự tốt cho bất kỳ chiến lược nào, đặc biệt là những chiến lược bao gồm Qi và /hoặc MAI. Balancer đề xuất khai thác cặp LP tương ứng, nhưng với hơn 2 mã token được cung cấp theo tỷ lệ 1: 1. Nhóm có thể có 3, 4 hoặc 5 mã token \(đôi khi thậm chí nhiều hơn\) với trọng lượng khác nhau và thuật toán sẽ phụ trách đảm bảo rằng tỷ lệ cho mỗi mã token luôn được cân bằng.
 
-The pool that we want to use here is a pool that contains Qi, WMATIC, BAL, USDC and MAI. This pool will reward you with both Qi and BAL tokens, and you can already see that you will be able to compound both into the pool. Because another amazing advantage of pools on Balancer is that you don't need to provide all tokens forming the pool in the proper ratio, the algorithm will do it for you. This means that you can indeed only deposit Qi in the pool and let the algorithm do the rest to rebalance everything.
+Bể mà chúng tôi muốn sử dụng ở đây là bể chứa Qi, WMATIC, BAL, USDC và MAI. Bể này sẽ thưởng cho bạn cả mã thông báo Qi và BAL, và bạn có thể thấy rằng bạn sẽ có thể gộp cả hai vào bể. Bởi vì một tiện ích đáng kinh ngạc của các bể trên Balancer là bạn không cần thiết phải cung cấp tất cả các token tạo thành bể theo tỷ lệ thích hợp, thuật toán sẽ làm điều đó cho bạn. Điều này có nghĩa là bạn thực sự chỉ có thể gửi Qi vào bể và để thuật toán làm cân bằng lại mọi thứ.
 
-![Details of the pool as of September 2021](../.gitbook/assets/image%20%2817%29.png)
+![Th&#xF4;ng tin v&#x1EC1; b&#x1EC3; tr&#xEA;n Balancer t&#x1EA1;i th&#x1EDD;i &#x111;i&#x1EC3;m th&#xE1;ng 9 n&#x103;m 2021](../.gitbook/assets/image%20%2817%29.png)
 
-As a side note, BAL tokens can \(or will soon be\) usable as collateral on Mai Finance, which mean that you will have the option to store your BAL tokens on the BAL vault on Mai Finance, and borrow MAI against then. In addition to that, borrowing MAI against your BAL tokens will make you eligible for Qi rewards that will feed the pool on Balancer.
+Một lưu ý nhỏ, mã thông báo BAL có thể \(hoặc sẽ sớm\) có thể được sử dụng làm tài sản thế chấp trên Mai Finance, có nghĩa là bạn sẽ có tùy chọn lưu trữ BAL của mình trên kho tiền BAL trên Mai Finance và vay MAI. Ngoài ra, việc mượn MAI  với mã token BAL sẽ tạo điều kiện nhận phần thưởng Qi sẽ cung cấp cho bể trên Balancer.
 
-![Closed loop using Mai Finance and Balancer](../.gitbook/assets/image%20%2818%29.png)
+![V&#xF2;ng l&#x1EB7;p &#x111;&#xF3;ng s&#x1EED; d&#x1EE5;ng Balancer v&#xE0; QiDao](../.gitbook/assets/image%20%2818%29.png)
 
-The APR of BAL vaults will highly dictates how interesting it is to have the vault in the loop, or if compounding your Qi into the Balancer's pool will be better.
+APR của các kho tiền BAL sẽ cho biết mức độ thú vị hiện diện trong vòng lặp hoặc nếu gộp Qi của bạn vào bể của Balancer sẽ tốt hơn.
 
-## Understanding the price of Qi
+## Tìm hiểu về giá của Qi
 
-Getting a lot of Qi is one thing, however if the token loses value over time, is it really a good strategy to keep it? In this section, we will try to understand the different factors that impact directly the price of Qi so that, when you start investing your Qis, you will get a better idea of how its price may vary, and what impact you will get on the Qi ecosystem.
+Nhận được nhiều Qi là một chuyện, tuy nhiên nếu mã token mất giá trị theo thời gian, thì việc giữ nó có thực sự là một chiến lược tốt? Trong phần này, chúng tôi sẽ cố gắng hiểu các yếu tố khác nhau ảnh hưởng trực tiếp đến giá Qi để khi bắt đầu đầu tư Qi, bạn sẽ hiểu rõ hơn về việc giá của nó có thể thay đổi như thế nào và tác động của bạn đến Hệ sinh thái Qi.
 
-### Qi emission
+### Tỷ lệ phát hành Qi
 
-One of the main factor that will affect the price of Qi is the rate at which they are created. Indeed, price is always driven by demand and supply. If there's a lot of supply and very low demande, the price will naturally collapse. Hence understanding how Qi is generated is crucial to estimate its value over time.
+Một trong những yếu tố chính sẽ ảnh hưởng đến giá Qi là tốc độ tạo ra chúng. Thật vậy, giá cả luôn được thúc đẩy bởi cung và cầu. Nếu nguồn cung nhiều và lượng cầu rất thấp, giá sẽ tự nhiên giảm xuống. Do đó, hiểu được Qi được tạo ra như thế nào là rất quan trọng để ước tính giá trị của nó theo thời gian.
 
-There are currently 2 sources of Qi emission: farming rewards and vault rewards.
+Hiện có 2 nguồn chính mà Qi được phát hành: LP farming và phần thưởng kho tiền
 
-![LP farms on Mai Finance in September 2021](../.gitbook/assets/image%20%2812%29.png)
+![C&#xE1;c c&#x1EB7;p thanh kho&#x1EA3;n tr&#xEA;n Mai Finance v&#xE0;o th&#x1EDD;i &#x111;i&#x1EC3;m T9 2021](../.gitbook/assets/image%20%2812%29.png)
 
-If you are farming yields on MAI finance, you have the choice between the MAI/USDC pair and the Qi/WMATIC pair \(as of September 2021\).
+Nếu bạn đang yield farming trên Mai Finance, bạn có sự lựa chọn giữa cặp MAI / USDT và cặp Qi / WMATIC \(kể từ tháng 9 năm 2021\).
 
-* The MAI/USDC pair is rewarded with 0.5 Qi / block
-* The Qi/WMATIC pair is rewarded with 1 Qi / block
+* Cặp MAI/USDC được thưởng 0.5 Qi / khối
+* Cặp Qi/WMATIC được thưởng 1 Qi / khối
 
-On Polygon, the expected block time is 2 seconds, and since there are 86,400 seconds in a day, this means that the MAI/USDC pool is rewarded with 21,600 Qi every day, and the Qi/WMATIC with 43,200 Qi.
+Trên Polygon, thời gian khối dự kiến là 2 giây và vì có 86.400 giây trong một ngày, điều này có nghĩa là bể MAI / USDC được thưởng 21.600 Qi mỗi ngày và Qi / WMATIC với 43.200 Qi. 
 
-The pools of Mai Finance alone are responsible for 64,800 new Qi daily.
+Chỉ riêng các bể của Mai Finance chịu trách nhiệm tạo ra 64.800 Qi mới hàng ngày. Đối với Vault, mỗi vault nhận được mức đúc là 0,05 Qi / khối hoặc mức đúc hàng ngày là 2.160 Qi và hiện có 10 Vault, với tổng số 21.600 Qi được phân bổ làm phần thưởng cho Vault. Điều này có nghĩa là mỗi ngày, tương đương với 86.400 Qi mới được đúc và phân phối cho người dùng.
 
-As for Vaults, each vault gets an emission of 0.05 Qi / block, or a daily emission of 2,160 Qi, and there are currently 10 Vaults, for a total of 21,600 Qi allocated as Vault rewards.
+### Tối ưu hóa hiệu suất
 
-This means that each day, the equivalent of 86,400 new Qi are minted and distributed to users.
+Trình tối ưu hóa lợi nhuận là nền tảng sẽ tự động cộng dồn phần thưởng với một số chiến lược được xác định trước và phân bổ phần thưởng bổ sung để bạn chọn trên trang web của họ. Tuy nhiên, một phần lớn phần thưởng thu được sẽ được bán trực tiếp và được sử dụng lại theo cách khác trên các nền tảng này. 
 
-### Yield optimizers
+Ví dụ: Adamant đề nghị bạn trang trại cặp Qi / WMATIC LP trên nền tảng của họ, với phân phối phần thưởng như sau
 
-Yield optimizers are platforms that will automatically compound the rewards with some pre-defined strategies, and allocate additional rewards for you to choose their site. However, a big part of the reward harvested is sold directly, and re-used in another way on these platforms.
+![B&#x1EC3; Qi-WMATIC tr&#xEA;n Adamant](../.gitbook/assets/image%20%2815%29.png)
 
-As an example, Adamant offers you to farm the Qi/WMATIC LP pair on their platform, with the following reward distribution
+![Chi ti&#x1EBF;t  179.23% APR &#x111;&#x1B0;&#x1EE3;c c&#x1EA5;p b&#x1EDF;i Adamant](../.gitbook/assets/image%20%2814%29.png)
 
-![Qi-WMATIC pool on Adamant](../.gitbook/assets/image%20%2815%29.png)
+Bạn sẽ nhận thấy rằng nếu APR tổng thể cao hơn trên Mai Finance là do Adamant đang phân bổ thêm phần thưởng ADDY cho famers. Lượng Qi thực sự được phân phối lại cho là 98,45% so với 134,42% mà bạn có thể nhận được trên Mai Finance.
 
-![Details of the 179.23% APR granted by Adamant](../.gitbook/assets/image%20%2814%29.png)
+Từ phần thưởng 98,45% Qi này, một nửa trong số đó được bán trực tiếp để mua WMATIC và tạo thành các mã token LP bổ sung cộng dồn vào cặp LP ban đầu.
 
-You will notice that if the overall APR is higher than on Mai Finance, it's solely because Adamant is allocating additional ADDY rewards to the farmers. The amount of Qi that is actually redistributed to the farmer is 98.45% compared to the 134.42% you can get on Mai Finance.
+Với 100$ giá trị của cặp LP, giả sử rằng APR và giá của các token này vẫn giữ nguyên trong một năm đầy đủ và bạn không cộng dồn lãi thì số phần thưởng bạn nhận được sau 1 năm sẽ là
 
-From these 98.45% Qi reward, half of it is directly sold to buy WMATIC and form additional LP tokens that is then given to the farmer.
+* $134.42 giá trị của số Qi mới đúc trên Mai Finance
+* 98,45 đô la  trị giá cặp LP Qi / WMATIC hoặc 49,23 đô la Qi mới trên Adamant
 
-With 100$ worth of LP token, assuming the APR and the token prices remain the same for a complete year, and assuming there's no compounding, you would get after one year of farming
+Điều này có nghĩa là trong quá trình này, lượng Qi trị giá 85,20 USD chỉ đơn giản là được bán trực tiếp trên thị trường, chiếm hơn 60% tổng lượng đúc được phân bổ cho bể trên Adamant.
 
-* $134.42 worth of new Qi on Mai Finance
-* $98.45 worth of new Qi/WMATIC token, or $49.23 worth of new Qi on Adamant
+Và Adamant không phải là nền tảng duy nhất đề xuất cùng một loại dịch vụ. Một số ví dụ khác là Beefy Finance và Kogecoin. Từ TVL 4,9 triệu đô la giá trị bể Qi / WMATIC trên Mai Finance, 2,3 triệu đô la trực tiếp đến từ Adamant, 41 nghìn đô la từ Beefy và 12 nghìn đô la từ Kogecoin, đại diện cho 3 nền tảng này hơn 50% giá trị bị khóa trên Mai Finance. Một ước tính thô là hơn 30% tổng lượng đúc Qi hàng ngày được bán phá giá bởi các nền tảng này, gây ra một số áp lực bán rất tiêu cực lên Qi, làm giảm giá của nó, điều này giải thích một phần lý do tại sao Qi gặp khó khăn trong việc giữ giá cao.
 
-This means that, in the process, $85.20 worth of Qi is simply sold directly on the market, which is more than 60% of the total emission allocated to the pool on Adamant.
+### Tìm hiểu về cặp thanh khoản 
 
-And Adamant isn't the only platform proposing the same type of service. Some other examples are Beefy Finance and Kogecoin. From the $4.9M TVL in the Qi/WMATIC farm on Mai Finance, $2.3M are coming directly from Adamant, $41k from Beefy and $12k from Kogecoin, representing for these 3 platforms more than 50% of the value locked on Mai Finance. A raw estimation is that more than 30% of the total daily Qi emission is dumped by these platforms, putting some very negative sell pressure on the token, decreasing its price, which partially explains why Qi has difficulties keeping a high price.
+Khi bạn tạo ra lợi nhuận bằng cách cung cấp các cặp thanh khoản LP thì những cặp này thực sự được sử dụng để cung cấp tính thanh khoản cho những người dùng đang hoán đổi một mã token này cho một mã token khác. Trong ví dụ của chúng ta về  cặp Qi / WETH, khi ai đó mua WETH, một số mã token có thể được lấy ra khỏi cặp LP và bán cho người dùng yêu cầu nó.
 
-### Understanding LP pairs
+Tại thời điểm đó, vì WETH bị lấy ra khỏi bể sẽ dẫn đến một sự mất cân bằng: ít WETH hơn so với cùng số lượng Qi. Thuật toán phụ trách đảm bảo tỷ lệ cân bằng tỷ lệ gộp 1:1 sẽ bán một số Qi trong bể để mua lại WETH và tái lập lại tỷ lệ 1:1. Trong trường hợp ngược lại quy trình cũng xảy ra tương tự, nếu ai đó mua Qi thì WETH được rút ra để mua  lại Qi
 
-When you farm yields by providing LP pairs, the LP token is actually used to provide liquidity to users who are swapping one token for another. In our example of Qi/WETH, when someone is buying WETH, some of the token can be taken off the LP pool and sold to the user requiring it.
+Hiện tượng tương tự cũng xảy ra khi một trong 2 mã token tạo ra cặp thanh khoảng mất giá hoặc tăng giá. Ví dụ, chúng ta sẽ giả định rằng giá của Qi là 1$ và giá của ETH là 1000$ và chúng ta có một bể có giá trị 100$ Qi và  100$ ETH, điều đó có nghĩa là bể chứa 100 Qi và 0.1 ETH. 
 
-At that point, because some WETH has been taken off the pool, there is a balance mismatch: less WETH for the same amount of Qi. The algorithm in charge of maintaining the pool ratio to 1:1 will then sell some Qi from this pool to buy back some more WETH and recreate a perfect 1:1 ratio. The opposite things also happen when someone buys Qi, i.e. WETH is sold to buy back some Qi.
+Bây giờ nếu giá của ETH tăng lên 2000$ thì bây giờ bể sẽ có 100$ giá trị của Qi và 200$ giá trị của ETH đó là sự mất cân bằng. Do vậy, thuật toán sẽ bán một ít ETH để mua một số Qi. 
 
-The same phenomenon occurs when one of the 2 tokens composing the pair gains or loses value. As an example, we will assume that Qi price is $1 and ETH price is $1,000, and that we have a pool that has $100 worth of Qi and $100 worth of WETH. It means that the pools contains 100 Qi and 0.1 WETH.
+* 150 Qi với giá trị là $150$
+* 0.075 ETH với giá trị là $150
 
-Now, if the price of ETH goes up to $2,000, if the pool keeps the same amount of token, we would have $100 worth of Qi but $200 worth of WETH, and we would have lost the balance. Hence, the algorithm in charge of the pool will sell a little bit of ETH to buy some Qi. In our easy example, $50 worth of ETH will be sold to buy $50 worth of Qi, and the final state would be
+Điều này cũng có nghĩa là khi giá của một trong 2 token tăng lên, bể này sẽ tạo ra một số nhu cầu cho mã kia, đồng thời khiến giá của nó tăng lên. Điều ngược lại cũng đúng: nếu một mã mất giá trị, mã còn lại sẽ được bán để duy trì tỷ lệ 1: 1, khiến giá giảm xuống. Điều này cũng giải thích một phần sự biến động giá của Qi khi so sánh với sự biến động giá của WEHT và WMATIC \(2 token chính mà Qi được ghép nối với nhau\).
 
-* 150 Qi with a value of $150$
-* 0.075 ETH with a value of $150
+![Gi&#xE1; c&#x1EE7;a Qi \(tr&#xE1;i\) VS gi&#xE1; c&#x1EE7;a WMATIC \(ph&#x1EA3;i\)](../.gitbook/assets/image%20%2813%29.png)
 
-This also means that when the price of one of the 2 token goes up, the pool creates some demande for the other, also driving its price up. The opposite is also true: if one token loses value, the other one will be sold to maintain a 1:1 ratio, driving the price down. This also partially explains the price fluctuation of Qi when compared to the price fluctuation of WEHT and WMATIC \(the 2 main tokens to which Qi is paired\).
+### Thiếu tính ứng dụng
 
-![Price of Qi \(left\) VS Price of WMATIC \(right\)](../.gitbook/assets/image%20%2813%29.png)
+Cuối cùng, việc thiếu tính ứng dụng của Qi, có thể giải thích tại sao giá của mã token đang giảm. Những người thu thập Qi từ phần thưởng từ Vault và/ hoặc farming trên Mai Finance sẽ chỉ bán nó trong khi nó vẫn còn "một số" giá trị để thu lợi nhuận, mà không có tầm nhìn dài hạn, đây thực sự là một chiến lược khá hợp lý. Hướng dẫn này thực sự cố gắng đưa ra các cách khác nhau để sử dụng mã token Qi của bạn mà không cần bán chúng, nhưng nếu giá không tăng hoặc nếu bạn không thể tạo ra lợi ích từ các mã token khác\(còn gọi là rò rỉ lợi nhuận\), thì sẽ có rất ít lợi ích khi sử dụng chúng.
 
-### Lack of use case
+### Làm cách nào để giúp giá tăng lên?
 
-Finally, the lack of use for Qi, or the lack of known use cases, can explain why the price of the token is going down. People collecting Qi from Vault rewards and/or farming on Mai Finance will just sell it while it still has "some" value in order to realize a profit, with no long-term vision, which is actually a pretty reasonable strategy. This guide tries actually to promote different ways to use your Qi tokens without selling them, but if the price doesn't go up, or if you can't generate benefits in other tokens \(a.k.a profit leak\), there's very little advantages stacking them.
+Nếu chúng ta muốn giá Qi tăng lên \(và ai sẽ không muốn\), có một vài lựa chọn.
 
-### How can we help price to go up?
+* Giảm tỷ lệ đúc: với 86.400 Qi mới được đúc hàng ngày, nguồn cung là rất cao. Nếu chúng ta cắt giảm lượng phát hành này, nguồn cung có thể thấp hơn và với lượng cung ít hơn, về lý thuyết, giá sẽ tăng lên. Tuy nhiên, mức phát hành hiện tại cho các farm cần được giữ nguyên vì chúng là một phần của mối quan hệ đối tác hiện tại với QuickSwap. Các ưu đãi của Vault đã được đưa ra và là một cách tuyệt vời để quảng bá nền tảng cho vay, thúc đẩy mọi người vay vốn, vì vậy việc cắt giảm lượng phát hành này có lẽ là một ý tưởng tồi.
+* Farm có trách nhiệm: Tôi không nói rằng Adamant là thủ phạm chính hay là một sản phẩm xấu. Thật vậy, tôi đưa nền tảng này vào hầu hết các chiến lược của mình và sử dụng nó hàng ngày. Tuy nhiên, tôi cố gắng farm trong các bể mà tôi ít lo ngại rằng mã token sẽ bị bán phá giá. Nếu bạn muốn tăng sản lượng trên Adamant trong một bể đang sử dụng Mai Finance, hãy nhớ rằng bạn tham gia vào khấu hao Qi. Nếu bạn đồng ý với điều đó, điều đó hoàn toàn ổn.
+* Hiểu cách hoạt động của mọi thứ: giá của TẤT CẢ các loại tiền điện tử đều biến động mạnh, giá của BTC và ETH quyết định giá của tất cả các mã token khác. Điều này không được thực hiện một cách kỳ diệu. Ngoài ra, hãy hiểu rằng khi một số người kiếm được tiền, đó là bởi vì một số người khác đang mất một số tiền. Không có tiền miễn phí và tiền từ internet kỳ diệu thực ra không phải là điều kỳ diệu. 
+* Tìm những cách mới để sử dụng mã token Qi của bạn. Hướng dẫn này sẽ luôn cung cấp các ý tưởng giúp bạn tăng khối lượng danh mục đầu tư của mình và bán càng ít mã token càng tốt. Các vòng lặp đóng là tốt nhất vì đầu ra của một sản phẩm cung cấp đầu vào của sản phẩm tiếp theo.
 
-If we want the price of Qi to go up \(and who wouldn't want to\), there are a few options.
-
-* Reduce emission: with 86,400 new Qi minted daily, the supply is very high. If we cut down this emission, the supply may be lower, and with less supply, price should in theory go up. However, the current emission for the farms need to remain the same because they're part of a current partnership with QuickSwap. Vault incentives have been launched, and are an amazing way to promote the lending platform, pushing people to take loans, so cutting these emissions is probably another bad idea.
-* Farm responsibly: I'm not saying that Adamant is the main culprit or is a bad product. Indeed, I include this platform in most of my strategies and use it on a daily basis. However, I try to farm in pools for which I have less concerns that the token will be dumped. If you want to farm yields on Adamant in a pool that is using the Mai Finance farm, keep in mind that you participate in the Qi depreciation. If you are ok with that, that's totally fine.
-* Understand how things work: prices of ALL crypto-currencies are highly volatile, and most of the time, the price of BTC and ETH dictate the price of all other tokens. This is not done magically. Also, please understand that when some people earn money, it's because some other are loosing some. There's no free money, and magical internet money is actually not that magical.
-* Find new ways to use your Qi tokens. This guide will always provide ideas that will help you increase the volume of your portfolio, and sell as few tokens as possible. Closed loops are the best because the output of one product feeds the input of the next one, creating a nice bubble that will only grow over time.
-
-Keep also in mind that
+Và hãy luôn nhớ rằng
 
 $$
-Value = Quantity * Price
+Giá.trị = Số.lượng* Giá
 $$
 
-When the price go down but your quantity goes up, your value may increase, or at least it won't decrease as fast.
+Khi mà giá giảm xuống, số lượng phần thưởng bạn nhận được tăng thì giá trị của token tăng lên, hoặc ít nhất là không bị giảm đột ngột
 
-## Disclaimer
+## Tuyên bố từ chối trách nhiệm
 
-This guide is actually a result of many discussion about Qi price on the Discord channel. I realized that some people complaining about the price depreciation didn't fully understand the reasons about why the price of Qi was on a consistant down trend. This leads to frustration and delusion, which is very negative for Qi, the Mai Finance product, and the whole DeFi ecosystem in general. However, there's absolutely no guarantee that the price will ever go up, so if you want to keep your Qis and invest them, please do your own research and do it at your own risk. Plan your strategy properly and stick to it.
+Hướng dẫn này thực sự là kết quả của nhiều cuộc thảo luận về giá của Qi diễn ra trên Discord. Tôi nhận ra rằng một số người phàn nàn về việc giá của Qi tiếp tục giảm mà không nhận thức được hoàn toàn lý do vì sao giá của Qi tiếp tục giảm. Điều đó dẫn tới lầm lẫn và chán nản ảnh hưởng không nhỏ đến nền tảng Mai Finance cũng như cả hệ sinh thái tài chính phi tập trung. Tuy nhiên, hoàn toàn không có gì đảm bảo rằng giá của Qi sẽ tăng lên, vì vậy nếu bạn muốn đầu tư vào Qi hãy cân nhắc thật kỹ và vui lòng tự nghiên cứu, 
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự mình nghiên cứu.
 {% endhint %}
 

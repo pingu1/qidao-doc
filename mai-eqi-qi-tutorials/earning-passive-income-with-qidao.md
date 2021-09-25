@@ -5,7 +5,7 @@ description: >-
   điều tương tự bằng cách khóa Qi của bạn.
 ---
 
-# Thu nhập thu động với QiDao
+# Thu nhập thụ động với QiDao
 
 ## Thu nhập thụ động bằng QiDao ư?
 

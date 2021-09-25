@@ -7,7 +7,7 @@
 * [Tạo đòn bẩy cho các token từ thị trường Aave](huong-dan/leverage-aave-tokens.md)
 * [Tối ưu thanh khoản chỉ bằng stablecoin](huong-dan/secure-your-yield-farming-profits.md)
 * [Cách sử dụng MAI trên hệ sinh thái Polygon?](huong-dan/what-to-do-with-mai-on-polygon.md)
-* [What to do with Qi on Polygon](huong-dan/what-to-do-with-qi-on-polygon.md)
+* [Cách sử dụng Qi trên hệ sinh thái Polygon](huong-dan/what-to-do-with-qi-on-polygon.md)
 * [Vũ trụ MAI](huong-dan/mai-metaverse.md)
 * [Cách sử dụng MAI ngoài thực tế](huong-dan/how-to-use-mai-in-the-real-life.md)
 * [Xếp DApps giống xếp Lego](huong-dan/stack-dapps-like-lego-bricks.md)
@@ -15,7 +15,7 @@
 
 ## Hướng dẫn MAI/eQi/Qi <a id="mai-eqi-qi-tutorials"></a>
 
-* [Thu nhập thu động với QiDao](mai-eqi-qi-tutorials/earning-passive-income-with-qidao.md)
+* [Thu nhập thụ động với QiDao](mai-eqi-qi-tutorials/earning-passive-income-with-qidao.md)
 * [MAI hoạt động như thế nào?](mai-eqi-qi-tutorials/how-does-mai-work.md)
 * [Các khoản vay MAI và các ưu đãi cho các kho tiền](mai-eqi-qi-tutorials/mai-loans-and-vaults-incentives.md)
 
