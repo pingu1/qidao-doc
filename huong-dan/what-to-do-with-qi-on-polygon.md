@@ -1,19 +1,19 @@
 ---
 description: >-
-  Hướng dẫn này sẽ giải thích chi tiết cách bạn có thể sử dụng Qi, mã token gốc
-  của Mai Finance, trên Polygon.Chúng ta cũng cùng phân tích cơ hội đầu tư cũng
-  như các yếu tố ảnh hưởng đến giá của Qi.
+  Hướng dẫn này sẽ giải thích chi tiết cách bạn có thể sử dụng Qi, mã token bản
+  vị của Mai Finance trên Polygon. Chúng ta cũng cùng phân tích cơ hội đầu tư
+  cũng như các yếu tố ảnh hưởng đến giá của Qi.
 ---
 
 # Cách sử dụng Qi trên hệ sinh thái Polygon
 
 ## Giới thiệu 
 
-Qi \(\[tʃ Í\] or _chee_\), là đồng token bản vị của nền tảng Mai Finance. Một số  người sử dụng nó để bỏ phiếu và QIP \(Đề xuất Cải tiến QiDAO\), một số đặt cổ phần để nhận được nhiều hơn trong số đó, và một số chỉ đơn giản là farm với Qi. Bạn có thể tìm thấy một số thông tin rất hữu ích về cách bạn có thể sử dụng Qi trên nền tảng Mai Finance trong [hướng dẫn dành riêng cho thu nhập thụ động](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/mai-eqi-qi-tutorials/earning-passive-income-with-qidao).
+Qi \(\[tʃ Í\] or _chee_\), là đồng token bản vị của nền tảng Mai Finance. Một số người sử dụng nó để bỏ phiếu vào QIP \(Đề xuất cải tiến QiDAO\), một số đặt cổ phần để nhận được nhiều hơn, và một số chỉ đơn giản là farm với Qi. Bạn có thể tìm thấy một số thông tin rất hữu ích về cách bạn có thể sử dụng Qi trên nền tảng Mai Finance trong [hướng dẫn dành riêng cho thu nhập thụ động](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/mai-eqi-qi-tutorials/earning-passive-income-with-qidao).
 
-Hướng dẫn này cũng như hầu hết các hướng dẫn đầu tư sẽ tập trung chủ yếu vào vào farming và harvesting yield với mã token là Qi. Chúng ta sẽ xem cách để tạo ra nhiều Qi và làm như thế nào để sử dụng chúng tại các nền tảng khác nhau trên chuỗi Polygon.
+Hướng dẫn này cũng như hầu hết các hướng dẫn đầu tư khác sẽ tập trung chủ yếu vào vào farming và harvesting yield với mã token Qi. Chúng ta sẽ xem xét các cách để tạo ra nhiều Qi và làm như thế nào để sử dụng chúng tại các nền tảng khác nhau trên chuỗi Polygon.
 
-Những người nông dân khiêm tốn đôi khi sẽ nói với bạn rằng bạn cần phải khiêm tốn, bán những gì bạn thu hoạch và thu lợi nhuận. Nhưng cá nhân tôi, tôi sẽ đi với
+Những người nông dân khiêm tốn đôi khi sẽ nói với bạn rằng bạn cần phải khiêm tốn, bán những gì bạn thu hoạch và thu lợi nhuận. Nhưng cá nhân tôi, tôi cho rằng
 
 > Đưa cho anh ta con cá có thể nuôi sống anh ta trong một ngày. Dạy anh ta cách câu cá sẽ nuôi sống anh ta cả đời.
 
@@ -29,7 +29,7 @@ Tôi sẽ không dành quá nhiều thời gian cho phần này, đã có một 
 
 Một lần nữa, đã có một số trang khác trình bày cách bạn có thể đưa Qi vào chiến lược farming của mình để tạo ra sản lượng và không bao giờ bán bất kỳ đồng bản vị của farm nào. Xem các [Xếp Daap giống xếp Lego](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/huong-dan/stack-dapps-like-lego-bricks) hay[ Farming hoặc Staking?](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/huong-dan/farming-or-staking-or-both) để có hướng dẫn chi tiết.
 
-Xin nhắc lại nhanh, Qi được ghép nối với các mã token khác nhau để tạo thành các cặp LP \(Cặp cung cấp thanh khoản\) trên [QuickSwap](https://quickswap.exchange/#/quick) 
+Xin nhắc lại nhanh, Qi được ghép nối với các mã token khác nhau để tạo thành các cặp LP \( cung cấp thanh khoản\) trên [QuickSwap](https://quickswap.exchange/#/quick) 
 
 * Qi-WMATIC trên Mai Finance nhận phần thưởng là Qi 
 * Qi-WETH trên QuickSwap và nhận phần thưởng là QUICK
@@ -37,11 +37,11 @@ Xin nhắc lại nhanh, Qi được ghép nối với các mã token khác nhau 
 
 ![B&#x1EC3; thanh kho&#x1EA3;n Qi-ETH tr&#xEA;n Quickswap](../.gitbook/assets/image%20%2819%29.png)
 
-###  Qi farming độc lập
+### Farming Qi độc lập
 
-Qi cũng có thể được sử dụng độc lập trên [Impermax](https://polygon.impermax.finance). Impermax là một nền tảng mà bạn sẽ có thể tạo đòn bẩy cho một cặp LP nhất định nhiều lần để tăng lợi nhuận của bạn từ QuickSwap.
+Qi cũng có thể được sử dụng độc lập trên [Impermax](https://polygon.impermax.finance). Impermax là một nền tảng mà bạn sẽ có thể tạo đòn bẩy cho một cặp LP nhất định nhiều lần để tăng lợi nhuận của bạn từ Quickswap.
 
-Cách thức hoạt động là bạn sẽ mượn 2 token để  tạo thành cặp mà bạn muốn farm, kết hợp chúng thành nhiều mã  LP hơn và farm với vị thế cao hơn nhiều. Trong hầu hết các trường hợp, lãi suất đi vay được bù đắp phần lớn bằng APR farming, mang lại cho bạn một số phần thưởng dương ròng.
+Cách thức hoạt động là bạn sẽ mượn 2 token để tạo thành cặp mà bạn muốn farm, kết hợp chúng thành nhiều mã  LP hơn và farm với vị thế cao hơn nhiều. Trong hầu hết các trường hợp, lãi suất đi vay được bù đắp phần lớn bằng APR farming, mang lại cho bạn một số phần thưởng dương ròng.
 
 ![T&#x1EA1;o &#x111;&#xF2;n b&#x1EA9;y v&#x1ECB; th&#x1EBF; cho c&#x1EB7;p Qi-ETH tr&#xEA;n Impermax](../.gitbook/assets/image%20%2820%29.png)
 
@@ -55,17 +55,17 @@ Nhưng sau đó, trên Impermax, để mượn Qi và WETH để tạo đòn đ�
 
 ![Th&#x1ED1;ng k&#xEA; Qi v&#xE0; WETH cho th&#x1ECB; tr&#x1B0;&#x1EDD;ng Qi-WETH tr&#xEA;n Impermax ](../.gitbook/assets/image%20%2811%29.png)
 
-Tại ví dụ này, chúng ta sẽ tập trung vào Qi. Bạn có thể thấy rằng tổng cung Qi là 427,21 đô la và tổng số tiền được sử dụng ở vị trí đòn bẩy là 321,44 đô la, cho tỷ lệ sử dụng là 75,24%. Impermax có một số cơ chế nội bộ tự động tính toán APR cung cấp \(APR mà những người cho vay Qi sẽ nhận được\) và APR đi vay \(phần trăm phần thưởng farm sẽ được khấu trừ để trả khoản vay\).
+Tại ví dụ này, chúng ta sẽ tập trung vào Qi. Bạn có thể thấy rằng tổng cung Qi là 427,21 đô la và tổng số tiền được sử dụng ở vị trí đòn bẩy là 321,44 đô la, cho tỷ lệ sử dụng là 75,24%. Impermax có một số cơ chế tự động tính toán APR cung cấp \(APR mà những người cho vay Qi sẽ nhận được\) và APR đi vay \(phần trăm phần thưởng farm sẽ được khấu trừ để trả khoản vay\).
 
-Điều này có nghĩa là bạn chỉ cần cung cấp Qi trên Impermax và nhận được, trong ví dụ của chúng tôi là 43,73% APR, tại thời điểm viết bài. Khi cung và cầu thay đổi, APR của nguồn cung cũng sẽ tăng / giảm. Khi bạn cung cấp mã token đơn lẻ trên Impermax, bạn sẽ được phần thưởng bằng mã token bạn cung cấp, có nghĩa là chiến lược này sẽ khiến bạn tích lũy nhiều Qi hơn theo thời gian.
+Điều này có nghĩa là bạn chỉ cần cung cấp Qi trên Impermax và nhận được, trong ví dụ của chúng tôi là 43,73% APR, tại thời điểm viết bài. Khi cung và cầu thay đổi, APR của nguồn cung cũng sẽ tăng/giảm. Khi bạn cung cấp mã token đơn lẻ trên Impermax, bạn sẽ được phần thưởng bằng mã token bạn cung cấp, có nghĩa là chiến lược này sẽ khiến bạn tích lũy nhiều Qi hơn theo thời gian.
 
 Trong khi sử dụng Impermax, bạn cũng có thể sử dụng tùy chọn đòn bẩy để nhận phần thưởng IMX. Vui lòng đọc hướng dẫn [Xếp chồng Dapps ](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/huong-dan/stack-dapps-like-lego-bricks)để biết thêm chi tiết về cách bạn có thể đưa Impermax vào chiến lược farming của mình.
 
 ### Balancer
 
-Balancer là một công cụ thực sự tốt cho bất kỳ chiến lược nào, đặc biệt là những chiến lược bao gồm Qi và /hoặc MAI. Balancer đề xuất khai thác cặp LP tương ứng, nhưng với hơn 2 mã token được cung cấp theo tỷ lệ 1: 1. Nhóm có thể có 3, 4 hoặc 5 mã token \(đôi khi thậm chí nhiều hơn\) với trọng lượng khác nhau và thuật toán sẽ phụ trách đảm bảo rằng tỷ lệ cho mỗi mã token luôn được cân bằng.
+Balancer là một công cụ thực sự tuyệt vời cho bất kỳ chiến lược nào, đặc biệt là những chiến lược bao gồm Qi và /hoặc MAI. Balancer đề xuất khai thác cặp LP tương ứng, nhưng với hơn 2 mã token được cung cấp theo tỷ lệ 1: 1. Nhóm có thể có 3, 4 hoặc 5 mã token \(đôi khi thậm chí nhiều hơn\) với trọng lượng khác nhau và thuật toán tự động đảm bảo rằng tỷ lệ cho mỗi mã token luôn được cân bằng.
 
-Bể mà chúng tôi muốn sử dụng ở đây là bể chứa Qi, WMATIC, BAL, USDC và MAI. Bể này sẽ thưởng cho bạn cả mã thông báo Qi và BAL, và bạn có thể thấy rằng bạn sẽ có thể gộp cả hai vào bể. Bởi vì một tiện ích đáng kinh ngạc của các bể trên Balancer là bạn không cần thiết phải cung cấp tất cả các token tạo thành bể theo tỷ lệ thích hợp, thuật toán sẽ làm điều đó cho bạn. Điều này có nghĩa là bạn thực sự chỉ có thể gửi Qi vào bể và để thuật toán làm cân bằng lại mọi thứ.
+Bể mà chúng tôi muốn sử dụng ở đây là bể chứa Qi, WMATIC, BAL, USDC và MAI. Bể này sẽ thưởng cho bạn cả mã Qi và BAL, và bạn có thể thấy rằng bạn sẽ có thể gộp cả hai vào bể. Một tiện ích đáng kinh ngạc của các bể trên Balancer là bạn không cần thiết phải cung cấp tất cả các token tạo thành bể theo tỷ lệ thích hợp, thuật toán tự làm điều đó cho bạn. Điều này có nghĩa là bạn thực sự chỉ có thể gửi Qi vào bể và để thuật toán làm cân bằng lại mọi thứ.
 
 ![Th&#xF4;ng tin v&#x1EC1; b&#x1EC3; tr&#xEA;n Balancer t&#x1EA1;i th&#x1EDD;i &#x111;i&#x1EC3;m th&#xE1;ng 9 n&#x103;m 2021](../.gitbook/assets/image%20%2817%29.png)
 
@@ -77,7 +77,7 @@ APR của các kho tiền BAL sẽ cho biết mức độ thú vị hiện diệ
 
 ## Tìm hiểu về giá của Qi
 
-Nhận được nhiều Qi là một chuyện, tuy nhiên nếu mã token mất giá trị theo thời gian, thì việc giữ nó có thực sự là một chiến lược tốt? Trong phần này, chúng tôi sẽ cố gắng hiểu các yếu tố khác nhau ảnh hưởng trực tiếp đến giá Qi để khi bắt đầu đầu tư Qi, bạn sẽ hiểu rõ hơn về việc giá của nó có thể thay đổi như thế nào và tác động của bạn đến Hệ sinh thái Qi.
+Nhận được nhiều Qi là một chuyện, tuy nhiên nếu mã token mất giá trị theo thời gian, thì việc giữ nó có thực sự là một chiến lược tốt? Trong phần này, chúng tôi sẽ cố gắng hiểu các yếu tố khác nhau ảnh hưởng trực tiếp đến giá Qi để khi bắt đầu đầu tư Qi, bạn sẽ hiểu rõ hơn về việc giá của nó có thể thay đổi như thế nào và tác động của bạn đến hệ sinh thái Qi.
 
 ### Tỷ lệ phát hành Qi
 

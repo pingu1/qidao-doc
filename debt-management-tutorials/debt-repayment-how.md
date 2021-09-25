@@ -40,7 +40,7 @@ Tuy nhiên, một số người chỉ đơn giản là không thích ý tưởng
 * Điền bất cứ số lượng nào bạn muốn hoàn trả
 * Nhấn `Repay MAI` 
 
-![Partially repaying a portion of my debt](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
+![Tr&#x1EA3; l&#x1EA1;i m&#x1ED9;t ph&#x1EA7;n m&#x1ED9;t ph&#x1EA7;n n&#x1EE3;](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
 
 Như một ví dụ
 
@@ -80,7 +80,7 @@ $$
 Tài.sản.thế.chấp.khả.dụng =Thế.chấp.ban.đầu - CDR.Mục.tiêu*Nợ
 $$
 
-In this situation, if we want to keep a CDR of 160%, the amount of collateral we can withdraw "safely" is
+Trong tình huống này, nếu chúng ta muốn giữ CDR là 160%, thì số tài sản thế chấp mà chúng ta có thể rút ra một cách "an toàn" là
 
 $$
 AvailableCollateral=$1000-1.60*$500=$200
@@ -93,9 +93,9 @@ Do đó, chúng ta sẽ tiến hành theo nhiều bước như sau:
 * Bạn 200$ tài sản thế chấp để mua MAI
 * Hoàn trả 200$ với 0.5% phí hoàn trả
   * kho tiền hiện có MATIC trị giá 799 đô la và 300 đô la nợ, CDR là 266,33%
-* Calculate the new amount of collateral we can withdraw: $319
-* Withdraw $319 from the collateral
-  * the vault now has $480 of MATIC and $300 of debt, CDR is 160%
+* Tính toán số lượng tài sản thế chấp mới mà chúng ta có thể rút: 319$
+* Rút 319$ tài sản thế chấp
+  * kho tiền hiện có 480 đô la MATIC và 300 đô la nợ, CDR là 160%
 * bán tài sản thế chấp trị giá 319 đô la để mua MAI 
 * Trả khoản nợ $ 300 với phí hoàn trả 0,5% kho tiền có MATIC trị giá $ 478,50 và $ 0 tiền nợ, và bạn vẫn còn $ 19 của MAI
 

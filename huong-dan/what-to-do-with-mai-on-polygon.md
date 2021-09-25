@@ -44,7 +44,7 @@ Nếu bạn cần thêm thông tin chi tiết về cách bạn có thể sử d�
 
 [Curve](https://curve.fi/) là một nền tảng nơi bạn có thể cho vay tài sản tiền điện tử của mình trong các bể sẽ tạo ra doanh thu, nhưng không trực tiếp MAI \(vẫn chưa?\). Các bể mà chúng tôi quan tâm là
 
-* bể AAVE sẽ tạo ra từ 5% đến 15% APR \(APR biến động rất nhiều\) trên bộ ba đồng tiền ổn định \(DAI / USDC / USDT\). Bể hoạt động giống hệt như Balancer theo cách mà bạn có thể vào nhóm bằng cách sử dụng một tài sản duy nhất sẽ được sử dụng trên AAVE bởi giao thức.
+* Bể AAVE sẽ tạo ra từ 5% đến 15% APR \(APR biến động rất nhiều\) trên bộ ba đồng tiền ổn định \(DAI / USDC / USDT\). Bể hoạt động giống hệt như Balancer theo cách mà bạn có thể vào nhóm bằng cách sử dụng một tài sản duy nhất sẽ được sử dụng trên AAVE bởi giao thức.
 * Bể Atricrypto bao gồm bộ ba đồng tiền ổn định và bao gồm cả wETH và wBTC để giảm thiểu tổn thất tạm thời. Bể này có APR dao động trong khoảng từ 25% đến 30%. Mai Finance team hiện cũng đang cố gắng thêm MAI vào nhóm này, có nghĩa là bạn có thể tham gia trực tiếp bằng MAI của mình.
 
 Trong khi chờ giao thức Curve chấp nhận MAI là đồng tiền ổn định hợp lệ trong bể của họ, bạn vẫn có thể sử dụng tiền điện tử yêu thích của mình với Curve bằng cách làm theo các bước sau \(trong ví dụ với MATIC\)

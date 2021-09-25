@@ -7,9 +7,9 @@ description: >-
 
 # MAI hoạt động như thế nào?
 
-## Stable coin là gì?
+## Đồng ổn định là gì?
 
-Trước khi tìm hiểu MAI là gì, chúng ta phải hiểu stable coin là gì, stable coin là một loại tiền mã hóa được thiết kế để duy trì giá thị trường ổn định. Hầu hết các đồng tiền ổn định được neo \(một loại tiền tệ mà giá được thiết kế để giữ nguyên như một tài sản được chỉ định\) với đô la Mỹ, nhưng bạn có thể tìm thấy các đồng tiền ổn định khác được chốt với các hàng hóa khác như vàng \(như EGold\) hoặc bạc \( eSilver\).
+Trước khi tìm hiểu MAI là gì, chúng ta phải hiểu đồng ổn định là gì, đồng ổn định là một loại tiền mã hóa được thiết kế để duy trì giá thị trường ổn định. Hầu hết các đồng tiền ổn định được neo \(một loại tiền tệ mà giá được thiết kế để giữ nguyên như một tài sản được chỉ định\) với đô la Mỹ, nhưng bạn có thể tìm thấy các đồng tiền ổn định khác được chốt với các hàng hóa khác như vàng \(như EGold\) hoặc bạc \( eSilver\).
 
 Tuy nhiên, có 2 loại chính trong đó tất cả các đồng tiền ổn định có thể phù hợp với bao gồm **thế chấp** hoặc **không thế chấp**. Các đồng tiền ổn định có thế chấp là những đồng tiền giữ tài sản mà đồng tiền của họ được cố định, trong khi đồng tiền không thế chấp sử dụng các thuật toán để kiểm soát nguồn cung cấp mã token nhằm giữ giá cố định ở mức xác định trước.
 
@@ -78,7 +78,7 @@ Bạn có thể tìm thấy bài viết gốc của nhóm Mai Finance về MAI [
 Hướng dẫn này tuyệt đối không phải là lời khuyên tài chính, được xây dựng với mục đích giáo dục.
 
 {% hint style="info" %}
-Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động xấu \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu
 {% endhint %}
 
 

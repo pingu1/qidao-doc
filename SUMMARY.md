@@ -17,7 +17,7 @@
 
 * [Thu nhập thụ động với QiDao](mai-eqi-qi-tutorials/earning-passive-income-with-qidao.md)
 * [MAI hoạt động như thế nào?](mai-eqi-qi-tutorials/how-does-mai-work.md)
-* [Các khoản vay MAI và các ưu đãi cho các kho tiền](mai-eqi-qi-tutorials/mai-loans-and-vaults-incentives.md)
+* [Khoản vay MAI và ưu đãi cho các kho tiền](mai-eqi-qi-tutorials/mai-loans-and-vaults-incentives.md)
 
 ## Hướng dẫn quản lý nợ <a id="debt-management-tutorials"></a>
 

@@ -25,7 +25,7 @@ Bạn đủ điều kiện để nhận phần thưởng nếu bạn stake số 
 
 ![L&#xE0;m sao &#x111;&#x1EC3; &#x111;&#x1EE7; &#x111;i&#x1EC1;u ki&#x1EC7;n nh&#x1EAD;n th&#x1B0;&#x1EDF;ng Qi](../.gitbook/assets/unknown.png)
 
-Đây là ví dụ về khoảng thời gian khóa tối thiều. Tất nhiên bạn có thể khóa trong thời gian lâu hơn và thực sự có lợi khi khóa Qi của bạn trong một thời gian dài. Càng khóa  lâu thì phần thưởng càng lớn \(tham khảo thêm tại [What is Qi Powah](earning-passive-income-with-qidao.md#what-is-qi-powah) và [FAQ](earning-passive-income-with-qidao.md#faqs-of-qi-staking)\).
+Đây là ví dụ về khoảng thời gian khóa tối thiều. Tất nhiên bạn có thể khóa trong thời gian lâu hơn và thực sự có lợi khi khóa Qi của bạn trong một thời gian dài. Càng khóa  lâu thì phần thưởng càng lớn \(tham khảo thêm tại [Tìm hiểu vể Qi Powah](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkQcqIVxzmpIlPgUEdG/v/viet-nam/mai-eqi-qi-tutorials/earning-passive-income-with-qidao#tim-hieu-ve-qi-boost-va-qi-powah) và [Hỏi đáp về phần thưởng Qi](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkQcqIVxzmpIlPgUEdG/v/viet-nam/huong-dan/what-to-do-with-qi-on-polygon#tim-hieu-ve-gia-cua-qi)\)
 
 ## Tìm hiểu về Qi Boost và Qi Powah
 
@@ -38,13 +38,13 @@ Qi Boost là cơ hội để bạn tăng sức mạnh và phần thưởng số 
 Có nghĩa là số Qi bị khóa sẽ có những lợi thế sau:
 
 * Bạn có thể kiếm được phần thưởng hàng tuần chỉ với khóa số Qi của bạn.
-* Là một DAO, tiếng nói của bạn sẽ quan trọng và tùy thuộc vào số lượng token Qi bạn khóa và thời gian khóa, bạn sẽ có nhiều quyền biểu quyết hơn về những gì sẽ xảy ra trong cộng đồng. Bạn có thể kiểm tra các đề xuất gần đây của Qi DAO [here](https://snapshot.org/#/qidao.eth).
+* Là một DAO, tiếng nói của bạn sẽ quan trọng và tùy thuộc vào số lượng token Qi bạn khóa và thời gian khóa, bạn sẽ có nhiều quyền biểu quyết hơn về những gì sẽ xảy ra trong cộng đồng. Bạn có thể kiểm tra các đề xuất [gần đây](https://snapshot.org/#/qidao.eth/proposal/QmSbkF4HGzaZ3zwNRiMQqsb12sqh1dk5FfBF23P1jNJVFZ) của Qi DAO.
 
 ### Khóa Qi của bạn
 
-Để khóa  Qi của bạn, bạn cần vào thanh tab Boost và chọn số lượng token bạn muốn khóa và khoảng thời gian bạn muốn khóa token Qi của mình. Khoảng thời gian càng dài thì bạn sẽ nhận được càng nhiều eQi, hãy nhớ rằng eQi chỉ là số lượng token Qi bạn sẽ có sau khi thời gian khóa kết thúc.
+Để khóa Qi của bạn, bạn cần vào thanh Boost và chọn số lượng token bạn muốn khóa và khoảng thời gian bạn muốn khóa token Qi của mình. Khoảng thời gian càng dài thì bạn sẽ nhận được càng nhiều eQi, hãy nhớ rằng eQi chỉ là số lượng token Qi bạn sẽ có sau khi thời gian khóa kết thúc.
 
-![Qi Powah Boost Lock](../.gitbook/assets/captura.jpg)
+![Th&#xF4;ng tin kh&#xF3;a t&#x103;ng c&#x1B0;&#x1EDD;ng Qi Powah](../.gitbook/assets/captura.jpg)
 
 Một khi đã quyết định tất cả những thứ đó hãy nhấp vào phê duyệt và chấp nhận phê duyệt giao dịch `Increase locked QI and lock time` .
 
@@ -116,11 +116,11 @@ Bạn sẽ phải nhấp vào rút tiền và sẽ nhận được trong ví c�
 
 ## Tuyên bố từ chối trách nhiệm
 
-Bạn có thể tìm thấy một bài viết với chủ đề tương tự tại đây  [here](https://medium.com/@GenKham/earning-passive-income-with-qi-dao-b92a6a3721bd).
+Bạn có thể tìm thấy một bài viết với chủ đề tương tự [tại đây](https://medium.com/@GenKham/earning-passive-income-with-qi-dao-b92a6a3721bd)**.**
 
 Hướng dẫn này chắc chắn không phải là lời khuyên tài chính, nó được thực hiện với mục tiêu giáo dục. Mục đích không phải là đề xuất các công thức mà làm theo một cách mù quáng, vì vậy vui lòng hãy tự nghiên cứu và minh họa của riêng bạn, và chỉ đầu tư những gì bạn sẵn sàng với khả năng có thể mất.
 
 {% hint style="info" %}
-Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động xấu \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu
 {% endhint %}
 

@@ -1,25 +1,19 @@
 ---
 description: >-
   Bài viết này giải thích chi tiết cách bạn có thể sử dụng Mai Finance để vay
-  MAI với lãi suất 0% và được trả tiền để thực hiện việc này, chuyển khoản vay
-  lãi suất 0% thành khoản vay lãi suất âm.
+  MAI với lãi suất 0% và lại được trả tiền để thực hiện việc này, chuyển khoản
+  vay lãi suất 0% thành khoản vay lãi suất âm.
 ---
 
-# Các khoản vay MAI và các ưu đãi cho các kho tiền
+# Khoản vay MAI và ưu đãi cho các kho tiền
 
 ## Giới thiệu
 
 Hoạt động kinh doanh cốt lõi của Mai Finance là cho vay. Thay vì bán tiền mã hóa của họ để mua các tài sản khác, mọi người có thể khóa tiền của họ trên Mai Finance và vay ngược lại chúng. Điều này mang lại cơ hội để giữ các tài sản có giá trị cao \(WBTC, WETH ...\) trong khi vẫn có thể nhận được các tài sản khác và lãi suất farming. Trong trường hợp đó, khoản vay được sử dụng để sinh lời, trong khi tài sản thế chấp đang tăng giá trị.
 
-The core business of Mai Finance is a lending platform. Instead of selling their crypto to buy other assets, people are able to lock their funds on Mai Finance and borrow against them. This presents the opportunity to keep high value assets \(WBTC, WETH ...\) while still being able to get other assets and farm yields. In that case, the loan is used to generate revenue, while the collateral is gaining value.
-
 Một trong những lợi thế lớn khác của việc sử dụng Mai Finance là không có lịch trả nợ. Nói cách khác, bạn vay đồng tiền ổn định MAI đối với tiền điện tử của mình, bạn không phải trả bất kỳ khoản lãi nào và bạn có thể trả nợ bất cứ khi nào bạn muốn. Xem các bài viết khác nhau về [quản lý nợ](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkHoQ3MuIPfaGWopXMV/v/viet-nam/debt-management-tutorials/debt-repayment-why-and-when) để biết thêm chi tiết. Khoản phí duy nhất mà bạn phải trả là phí hoàn trả tương ứng với 0,5% số tiền bạn đã vay khi hoàn trả khoản vay của mình và số tiền đó sẽ được lấy ra khỏi tài sản thế chấp của bạn.
 
-One of the other big advantage of using Mai Finance is that there's no repayment schedule. In other words, you borrow MAI stable coin against your crypto, you don't pay any interests, and you can repay your debt whenever you want. See the different articles on [debt management](../debt-management-tutorials/debt-repayment-why-and-when.md) for more details. The only fee that you would ever pay is a repayment fee corresponding to 0.5% of the money you borrowed that you pay when you repay your loan, and that is taken out of your collateral.
-
 Ví dụ: nếu bạn gửi ETH trị giá 200 đô la để vay MAI trị giá 100 đô la, khi bạn hoàn trả khoản vay của mình, bạn sẽ phải trả một khoản phí 0,5 đô la trực tiếp lấy từ khoản thế chấp ETH của mình.
-
-As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, when you repay your loan you would have to pay a fee of $0.50 directly taken out of your WETH deposit.
 
 Mai Finance đã giới thiệu vào tháng 9 năm 2021 các ưu đãi cho các kho tiền được thanh toán bằng Qi, mã token bản vị của Mai Finance. Nói cách khác, bằng cách gửi tài sản của bạn vào Mai Finance trong kho tiền để vay MAI, bạn cũng sẽ được trả tiền để làm điều đó. Bài viết này trình bày chi tiết cách hoạt động của chức năng này.
 
@@ -48,8 +42,6 @@ và
 * camAAVE
 
 6 kho đầu tiên trong danh sách dành cho các tài sản trong khi 4 hầm cuối cùng dành cho camTokens. camTokens đang gộp mã thông báo thị trường AAVE, đại diện cho một khoản tiền gửi mà bạn có thể đã thực hiện trên AAVE và sau đó gửi vào các bể Yield của Mai Finance. Trong khi tài sản của bạn đang tạo ra lợi suất trên AAVE \(và trong khi phần thưởng được tự động cộng gộp bởi bể Yield\), bạn vẫn có thể vay MAI đồng tiền ổn định dựa trên các mã token này.
-
-The first 6 vaults in the list are for simple assets while the 4 last ones are for camTokens. camTokens are compounding AAVE market tokens, a representation of a deposit that you could have done on AAVE and then deposited on the yield pools of Mai Finance. While you assets is generating yields on AAVE \(and while the rewards are automatically compounded by the yield pool\), you can still borrow MAI stable coins against these tokens.
 
 Lưu ý thêm, bạn có thể thấy trên ảnh chụp màn hình ở trên rằng trang tạo hiển thị một số thông tin rất quan trọng:
 
@@ -180,55 +172,55 @@ Bạn cũng có thể thấy rằng nếu bạn giữ khoản vay của mình tr
 
 Phần thưởng được phân bổ bởi các ưu đãi kho tiền sẽ được phân phối theo cách tương tự như đối với Qi đặt cổ phần. Có nghĩa là mỗi thứ Tư hàng tuần, Qi được phân bổ bởi chương trình ưu đãi Vaults sẽ được airdrop / nhận cho tuần trước ngày trả lương
 
-### Hỏi đáp về phần thưởng Qi.
+## Hỏi đáp về phần thưởng Qi.
 
 *  **Kho tiền nào thì nhận được phần thưởng Qi?**
 
 Hiện tại thì tất cả kho tiền đều nhận được 
 
-*  **How much rewards are given out for the borrowing incentives?**
+*  **Bao nhiêu Qi được dùng để khuyến  khích hoạt động cho vay?**
 
-0.05 Qi/block for each vault type
+0.05 Qi/khối cho mỗi loại kho tiền
 
-*  **How much MAI do I need to borrow to earn rewards?**
+*  **Bao nhiêu MAI tôi cần phải mượn để nhận được phần thưởng?**
 
- For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:
+Đối với ưu đãi vay tiền của Vault, hãy cao hơn tỷ lệ thanh lý từ 25% đến 270% để nhận được airdrop mã token Qi. Điều này có nghĩa là:
 
-*  _Matic_ - Liquidation ratio 150% - Eligible for Incentives between 175% and 420% 
-* _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400% 
-* _CamTokens_: - Liquidation ratio 135% - Eligible for Incentives between 160% and 405%
+*  _Matic_ - Tỷ lệ thanh lý 150% - Điều kiện để nhận khuyến khích giữa 175% và 420% 
+* _Tokens_: - Tỷ lệ thanh lý  130% - Điều kiện để nhận khuyến khích giữa 155% và 400% 
+* _CamTokens_: - Tỷ lệ thanh lý 135% - Điều kiện để nhận khuyến khích giữa 160% và 405%
 
 
 
-*  **How can I see if my vault is earning rewards?**
+*  **Làm sao tôi biết được rằng kho tiền có đang được nhận thưởng hay không?**
 
- If you see the fire emoji on your vault overview page that means that vault is earning rewards
+ Nếu bạn thấy biểu tượng cảm xúc lửa trên trang tổng quan về vault của mình, điều đó có nghĩa là vault đang kiếm được phần thưởng
 
-*  **How much will I earn?**
+*  **Tôi sẽ nhận được khoảng bao nhiêu?**
 
-Your percent of the reward pool is based on the percentage of MAI you borrowed compared to the total amount of MAI borrowed from that vault type.
+Phần trăm tổng phần thưởng của bạn dựa trên phần trăm MAI bạn đã vay so với tổng số tiền MAI đã vay từ loại kho tiền đó.
 
-*  **How long will the incentives program last?**
+*  **Chương trình ưu đãi diễn ra trong bao lâu?**
 
-The scheduled length of the borrowing incentives program is to last 3 months. The DAO can vote to stop incentives before the 3 months is over or vote to extend the program.
+Thời gian dự kiến của chương trình ưu đãi vay là kéo dài 3 tháng. DAO có thể bỏ phiếu để ngừng khuyến khích trước khi hết 3 tháng hoặc bỏ phiếu để gia hạn chương trình.
 
-* **How will we receive rewards?**
+* **Tôi sẽ nhận thưởng bằng cách nào?**
 
-Qi will be airdropped to eligible vault holders.
+Qi sẽ được airdrop cho những chủ sở hữu kho tiền đủ điều kiện.
 
-* **How is eligibility for rewards gathered?**
+* **Tính đủ điều kiện nhận phần thưởng được thu thập như thế nào?**
 
-Eligibility for rewards is calculated per block. You will earn rewards for the blocks you were eligible during the week.
+Tính đủ điều kiện cho phần thưởng được tính trên mỗi khối. Bạn sẽ kiếm được phần thưởng cho các khối bạn đủ điều kiện trong tuần.
 
-* **When do tracking rewards for the week start?**
+* **Khi nào phần thưởng theo dõi trong tuần bắt đầu?**
 
-We will follow the same schedule as eQi. You can find the block numbers on the boost page.
+Chúng tôi sẽ tuân theo lịch trình tương tự như eQi. Bạn có thể tìm thấy số khối trên trang Boost.
 
-## Disclaimer
+## Tuyên bố từ chối trách nhiệm 
 
-This guide has been written **prior** to the launch of Vault incentives, meaning that the APRs promoted in this document \(as well as this document\) are subject to modifications, and/or may not be accurate. The amount of MAI borrowed, the debt ceiling and the value of the Qi token will highly impact the final APR of each vault type. Please, make sure that you invest responsibly.
+Hướng dẫn này đã được viết trước khi ra mắt các ưu đãi của Vault, có nghĩa là các APR được quảng cáo trong tài liệu này  có thể được sửa đổi và / hoặc có thể không chính xác. Số tiền MAI đã vay, trần nợ và giá trị của mã token Qi sẽ ảnh hưởng lớn đến APR cuối cùng của mỗi loại kho tiền. Hãy đảm bảo rằng bạn đầu tư có trách nhiệm.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}
 
