@@ -38,7 +38,7 @@ Một vòng hoàn hảo sẽ được minh họa như sau:
 
 ![](../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
-Nếu bạn cần thêm thông tin chi tiết về cách bạn có thể sử dụng Mai Finance để cho vay đồng tiền mã hóa của bạn và mượn lại đồng Mai \(thay vì bán chúng để mua Mai\), hãy đọc các hướng dẫn khác trên tài liệu này. Bạn có thể kiếm được nhiều hơn thế nếu đưa [giao thức Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjxxDnNvTemFZGgRpNm/v/viet-nam/huong-dan/leverage-aave-tokens) vào vòng lặp.
+Nếu bạn cần thêm thông tin chi tiết về cách bạn có thể sử dụng Mai Finance để cho vay đồng tiền mã hóa của bạn và mượn lại đồng Mai \(thay vì bán chúng để mua Mai\), hãy đọc các hướng dẫn khác trên tài liệu này. Bạn có thể kiếm được nhiều hơn thế nếu đưa [giao thức Aave](leverage-aave-tokens.md) vào vòng lặp.
 
 ### Curve finance
 
@@ -67,13 +67,13 @@ Phần thưởng trên Curve được thưởng bằng cách
 
 ### AAVE
 
-Có một hướng dẫn đầy đủ về cách dùng nền tảng Mai Finance [tạo đòn bẩy cho các token từ thị trường Aave.](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjxxDnNvTemFZGgRpNm/v/viet-nam/huong-dan/leverage-aave-tokens) Tuy không có cách sử dụng trực tiếp đồng MAI trên  nền tảng này nhưng trong tương lai AAVE sẽ có một bể ở đó bạn có thể cho vay trực tiếp đồng MAI của mình.
+Có một hướng dẫn đầy đủ về cách dùng nền tảng Mai Finance [tạo đòn bẩy cho các token từ thị trường Aave.](leverage-aave-tokens.md) Tuy không có cách sử dụng trực tiếp đồng MAI trên  nền tảng này nhưng trong tương lai AAVE sẽ có một bể ở đó bạn có thể cho vay trực tiếp đồng MAI của mình.
 
 ### QuickSwap
 
 [QuickSwap](https://quickswap.exchange/#/) có lẽ là DEX \(trao đổi phi tập trung\) nổi tiếng nhất trên chuỗi Polygon cùng với Sushiswap và 1Inch. Nó cũng là một AMM\( Nhà tạo lập thị trường tự động\) cho phép người dùng có thể giao dịch một cách hiệu quả trên mạng lưới Polygon bằng cách sử dụng các bể thanh khoản.Bất kỳ giao dịch nào trên sàn giao dịch đều phải chịu một khoản phí được phân phối lại một phần cho người dùng gửi thanh khoản của họ trên nền tảng.
 
-Cách bạn có thể sử dụng MAI trên QuickSwap rất giống với [các yield farm thông thường](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjxxDnNvTemFZGgRpNm/v/viet-nam/huong-dan/secure-your-yield-farming-profits), vì vậy nếu bạn cần biết các bước chính xác để vào bể MAI / USDC trên QuickSwap, có lẽ tốt hơn bạn nên đọc bài viết này.
+Cách bạn có thể sử dụng MAI trên QuickSwap rất giống với [các yield farm thông thường](secure-your-yield-farming-profits.md), vì vậy nếu bạn cần biết các bước chính xác để vào bể MAI / USDC trên QuickSwap, có lẽ tốt hơn bạn nên đọc bài viết này.
 
 Hiện tại, nếu bạn tham gia vào bể MAI/USDC trên Quickswap, bạn sẽ nhận được
 

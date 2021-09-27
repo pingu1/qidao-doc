@@ -13,7 +13,7 @@ description: >-
 
 Khi bạn đang sử dụng các ứng dụng DeFi \(Tài chính phân quyền\), đặc biệt là khi bạn đang yield farming, bạn có xu hướng kết thúc với một loạt các token bản vị của farm đó. Nếu hầu hết mọi người chỉ đơn giản là bán những token này để mua thêm hoặc những đồng tiền yêu thích của họ, chúng tôi sẽ cố gắng giới thiệu một số cách để thực sự giữ và đưa chúng vào hoạt động nhằm tăng doanh thu của bạn.
 
-Để làm như vậy, chúng tôi sẽ sử dụng các bể LP mới \(Nhóm cung cấp tính thanh khoản\) được ra mắt trên QuickSwap vào đầu tháng 9 năm 2021, đang sử dụng mã token Qi từ Mai Finance. Nếu bạn cần hiểu rõ các ứng dụng QuickSwap và Adamant là gì, vui lòng đọc hướng dẫn [Xếp chồng DApps.](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjxxDnNvTemFZGgRpNm/v/viet-nam/huong-dan/stack-dapps-like-lego-bricks)
+Để làm như vậy, chúng tôi sẽ sử dụng các bể LP mới \(Nhóm cung cấp tính thanh khoản\) được ra mắt trên QuickSwap vào đầu tháng 9 năm 2021, đang sử dụng mã token Qi từ Mai Finance. Nếu bạn cần hiểu rõ các ứng dụng QuickSwap và Adamant là gì, vui lòng đọc hướng dẫn [Xếp chồng DApps.](stack-dapps-like-lego-bricks.md)
 
 ## Trình bày ứng dụng và các bể 
 

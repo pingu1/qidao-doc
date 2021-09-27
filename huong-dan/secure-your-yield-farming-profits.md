@@ -36,7 +36,7 @@ Trong nội dung hướng dẫn này, vì chúng ta ưu tiên sự an toàn tài
 Để bắt đầu farm bằng cặp MAI/USDC, bạn cần phải có stablecoin. Trên nền tảng của Mai Finance, bạn có thể vay được stable Mai bằng cách dùng những đồng coin ưa thích của bạn làm tài sản thế chấp. Trong trường hợp này, chúng ta sẽ lấy MATIC làm tài sản thế chấp để vay MAI bằng cách gửi vào các vault tại mục Vault của trang web. Nếu bạn cần hỗ trợ, vui lòng tham gia Discord và đặt câu hỏi cho cộng đồng. Ngoài ra, bạn cũng dễ dàng tìm thấy những hướng dẫn cần thiết tại các mục trên trang web này.
 
 {% hint style="info" %}
-Bạn có thể gửi trực tiếp đồng MATIC của mình vào vault MATIC hoặc bạn có thể gửi chúng vào Aave để nhận amWMATIC sau đó gửi lên Mai Finance để nhận về camWMATIC và dùng chúng như là tài sản thế chấp để vay MAI. Bạn sẽ thấy rằng với cùng số lượng MAI vay được bạn còn nhận được thêm lợi nhuận từ đồng MATIC trên các nền tảng Aave và Mai Finance. Để biết thêm chi tiết và hướng dẫn cụ thể bạn có thể tham khảo tại phần [Tạo đòn bẩy cho các token từ thị trường Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjxxDnNvTemFZGgRpNm/v/viet-nam/huong-dan/leverage-aave-tokens).
+Bạn có thể gửi trực tiếp đồng MATIC của mình vào vault MATIC hoặc bạn có thể gửi chúng vào Aave để nhận amWMATIC sau đó gửi lên Mai Finance để nhận về camWMATIC và dùng chúng như là tài sản thế chấp để vay MAI. Bạn sẽ thấy rằng với cùng số lượng MAI vay được bạn còn nhận được thêm lợi nhuận từ đồng MATIC trên các nền tảng Aave và Mai Finance. Để biết thêm chi tiết và hướng dẫn cụ thể bạn có thể tham khảo tại phần [Tạo đòn bẩy cho các token từ thị trường Aave](leverage-aave-tokens.md).
 {% endhint %}
 
 Khi vay đã vay stablecoin MAI, bạn có thể sử dụng mục [Anchor](https://app.mai.finance/anchor) trên app Mai Finance để chuyển một nửa MAI thành USDC với tỷ lên là 1:1. 
@@ -44,10 +44,6 @@ Khi vay đã vay stablecoin MAI, bạn có thể sử dụng mục [Anchor](http
 ![S&#x1EED; d&#x1EE5;ng m&#x1EE5;c Swap &#x111;&#x1EC3; chuy&#x1EC3;n m&#x1ED9;t n&#x1EED;a MAI th&#xE0;nh USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
 
 Bây giờ, phụ thuộc vào farm cụ thể bạn muốn tham gia, bạn cần ghép 2 đồng này với nhau để tạo ra một cặp thanh khoản LP trên các nền tảng DEX. Vì dự định ban đầu của chúng ta là Polypup mà farm này chấp nhận cặp thanh khoản của Quickswap LPs, nên chúng ta đi tới trang chính của Quickswap vào mục [Pool](https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xa3Fa99A148fA48D14Ed51d610c367C61876997F1) để tạo cặp MAI-USDC
-
-
-
-
 
 ![T&#x1EA1;o LP token b&#x1EB1;ng MAI v&#xE0; USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
 

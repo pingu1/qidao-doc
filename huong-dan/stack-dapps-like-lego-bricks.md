@@ -136,13 +136,13 @@ Chúng ta gửi mã token IMX và QUICK kiếm được từ Impermax và QuickS
 
 ## AAVE
 
-Với các token WMATIC kiếm được trên Adamant, bây giờ chúng ta có thể gửi chúng trên AAVE để nhận được một số lợi nhuận. Đây là đòn bẩy mã thông báo AAVE thông thường được đề cập trong [bài viết dành riêng](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjxxDnNvTemFZGgRpNm/v/viet-nam/huong-dan/leverage-aave-tokens).
+Với các token WMATIC kiếm được trên Adamant, bây giờ chúng ta có thể gửi chúng trên AAVE để nhận được một số lợi nhuận. Đây là đòn bẩy mã thông báo AAVE thông thường được đề cập trong [bài viết dành riêng](leverage-aave-tokens.md).
 
 ## Mai Finance
 
 Sau khi gửi tiền AAVE, chúng ta nhận được amWMATIC. Chúng tôi có thể sử dụng trang Yield trên Mai Finance để tự động cộng dồn phần thưởng do AAVE cung cấp với phần thưởng từ khuyến khích Matic và nhận thêm 4% trên MATIC của chúng ta kiếm được trên Adamant.
 
-Mã camWMATIC sau đó có thể được sử dụng làm tài sản thế chấp trên Mai Finance bằng cách gửi chúng vào kho tiền camWMATIC, cho phép chúng ta vay MAI và hoán đổi một phần MAI thành USDC. Khi chúng ta có thêm MAI và USDC trong ví của mình, chúng ta có thể kết hợp 2 đồng stablecoin thành các cặp LP bổ sung sẽ được gửi trên QuickSwap và Impermax. Một lần nữa, nếu bạn cần chi tiết ,vui lòng đọc [bài viết dành riêng](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjxxDnNvTemFZGgRpNm/v/viet-nam/huong-dan/leverage-aave-tokens).
+Mã camWMATIC sau đó có thể được sử dụng làm tài sản thế chấp trên Mai Finance bằng cách gửi chúng vào kho tiền camWMATIC, cho phép chúng ta vay MAI và hoán đổi một phần MAI thành USDC. Khi chúng ta có thêm MAI và USDC trong ví của mình, chúng ta có thể kết hợp 2 đồng stablecoin thành các cặp LP bổ sung sẽ được gửi trên QuickSwap và Impermax. Một lần nữa, nếu bạn cần chi tiết ,vui lòng đọc [bài viết dành riêng](leverage-aave-tokens.md).
 
 ## Khởi động hệ thống 
 

@@ -25,7 +25,7 @@ Bạn đủ điều kiện để nhận phần thưởng nếu bạn stake số 
 
 ![L&#xE0;m sao &#x111;&#x1EC3; &#x111;&#x1EE7; &#x111;i&#x1EC1;u ki&#x1EC7;n nh&#x1EAD;n th&#x1B0;&#x1EDF;ng Qi](../.gitbook/assets/unknown.png)
 
-Đây là ví dụ về khoảng thời gian khóa tối thiều. Tất nhiên bạn có thể khóa trong thời gian lâu hơn và thực sự có lợi khi khóa Qi của bạn trong một thời gian dài. Càng khóa  lâu thì phần thưởng càng lớn \(tham khảo thêm tại [Tìm hiểu vể Qi Powah](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkQcqIVxzmpIlPgUEdG/v/viet-nam/mai-eqi-qi-tutorials/earning-passive-income-with-qidao#tim-hieu-ve-qi-boost-va-qi-powah) và [Hỏi đáp về phần thưởng Qi](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkQcqIVxzmpIlPgUEdG/v/viet-nam/huong-dan/what-to-do-with-qi-on-polygon#tim-hieu-ve-gia-cua-qi)\)
+Đây là ví dụ về khoảng thời gian khóa tối thiều. Tất nhiên bạn có thể khóa trong thời gian lâu hơn và thực sự có lợi khi khóa Qi của bạn trong một thời gian dài. Càng khóa  lâu thì phần thưởng càng lớn \(tham khảo thêm tại [Tìm hiểu vể Qi Powah](earning-passive-income-with-qidao.md#tim-hieu-ve-qi-boost-va-qi-powah) và [Hỏi đáp về phần thưởng Qi](earning-passive-income-with-qidao.md#hoi-dap-ve-qi-staking)\)
 
 ## Tìm hiểu về Qi Boost và Qi Powah
 

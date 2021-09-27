@@ -9,7 +9,7 @@ description: >-
 
 Thị trường đang trong đà tăng giá và tiền điện tử của bạn, bị khóa trong Vault, ngày càng đạt được nhiều giá trị hơn, đến mức bạn đã quyết định bán nó. Tuy nhiên, vì nó nằm trong Vault on Mai Finance, bạn không thể mở khóa hoàn toàn trừ khi bạn hoàn trả khoản vay của mình. 
 
-Thị trường đang giảm giá và tiền điện tử của bạn đang mất giá rất nhanh. Bạn không tạo ra lợi tức đủ nhanh để bù đắp thiệt hại và giữ một Tài sản đảm bảo trên Tỷ lệ Nợ \(CDR\) lành mạnh, và việc thanh lý sắp đến gần. Đã đến lúc trả nợ để đảm bảo rằng bạn không bị thua lỗ quá nhiều và ngăn chặn việc thanh lý. Nếu bạn không ở trong bất kỳ trường hợp nào ở trên, có lẽ bạn không phải trả nợ. Vui lòng xem chương [Trả nợ](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkHoQ3MuIPfaGWopXMV/v/viet-nam/debt-management-tutorials/debt-repayment-why-and-when) để biết thêm chi tiết.
+Thị trường đang giảm giá và tiền điện tử của bạn đang mất giá rất nhanh. Bạn không tạo ra lợi tức đủ nhanh để bù đắp thiệt hại và giữ một Tài sản đảm bảo trên Tỷ lệ Nợ \(CDR\) lành mạnh, và việc thanh lý sắp đến gần. Đã đến lúc trả nợ để đảm bảo rằng bạn không bị thua lỗ quá nhiều và ngăn chặn việc thanh lý. Nếu bạn không ở trong bất kỳ trường hợp nào ở trên, có lẽ bạn không phải trả nợ. Vui lòng xem chương [Trả nợ](debt-repayment-why-and-when.md) để biết thêm chi tiết.
 
 ## Hoàn trả một phần hay toàn bộ bằng tiền giấy
 

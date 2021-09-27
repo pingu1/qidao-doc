@@ -11,7 +11,7 @@ description: >-
 
 Hoạt động kinh doanh cốt lõi của Mai Finance là cho vay. Thay vì bán tiền mã hóa của họ để mua các tài sản khác, mọi người có thể khóa tiền của họ trên Mai Finance và vay ngược lại chúng. Điều này mang lại cơ hội để giữ các tài sản có giá trị cao \(WBTC, WETH ...\) trong khi vẫn có thể nhận được các tài sản khác và lãi suất farming. Trong trường hợp đó, khoản vay được sử dụng để sinh lời, trong khi tài sản thế chấp đang tăng giá trị.
 
-Một trong những lợi thế lớn khác của việc sử dụng Mai Finance là không có lịch trả nợ. Nói cách khác, bạn vay đồng tiền ổn định MAI đối với tiền điện tử của mình, bạn không phải trả bất kỳ khoản lãi nào và bạn có thể trả nợ bất cứ khi nào bạn muốn. Xem các bài viết khác nhau về [quản lý nợ](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkHoQ3MuIPfaGWopXMV/v/viet-nam/debt-management-tutorials/debt-repayment-why-and-when) để biết thêm chi tiết. Khoản phí duy nhất mà bạn phải trả là phí hoàn trả tương ứng với 0,5% số tiền bạn đã vay khi hoàn trả khoản vay của mình và số tiền đó sẽ được lấy ra khỏi tài sản thế chấp của bạn.
+Một trong những lợi thế lớn khác của việc sử dụng Mai Finance là không có lịch trả nợ. Nói cách khác, bạn vay đồng tiền ổn định MAI đối với tiền điện tử của mình, bạn không phải trả bất kỳ khoản lãi nào và bạn có thể trả nợ bất cứ khi nào bạn muốn. Xem các bài viết khác nhau về [quản lý nợ](../debt-management-tutorials/debt-repayment-why-and-when.md) để biết thêm chi tiết. Khoản phí duy nhất mà bạn phải trả là phí hoàn trả tương ứng với 0,5% số tiền bạn đã vay khi hoàn trả khoản vay của mình và số tiền đó sẽ được lấy ra khỏi tài sản thế chấp của bạn.
 
 Ví dụ: nếu bạn gửi ETH trị giá 200 đô la để vay MAI trị giá 100 đô la, khi bạn hoàn trả khoản vay của mình, bạn sẽ phải trả một khoản phí 0,5 đô la trực tiếp lấy từ khoản thế chấp ETH của mình.
 
@@ -93,7 +93,7 @@ Rất quan trọng khi bạn luôn phải để ý tỷ lệ CDR và tỷ lệ l
 * tránh bị thanh lý tài sản
 * tăng cường lành mạnh của toàn bộ nền tảng Mai Finance bằng cách đảm bảo khối lượng MAI được lưu hành với hỗ trợ thích hợp.  
 
-CDR "lành mạnh", theo định nghĩa của Mai Finance là cao hơn giá trị CDR tối thiểu từ 25% đến 270%. Lưu ý thêm, bạn cũng có thể xem[ hướng dẫn chiến lược](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkHoQ3MuIPfaGWopXMV/v/viet-nam/huong-dan/leverage-aave-tokens) của chúng tôi để xem cách bạn có thể sử dụng CDR để đầu tư vào các dự án khác hoặc [trả nợ ](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkHoQ3MuIPfaGWopXMV/v/viet-nam/debt-management-tutorials/debt-repayment-how)bằng cách sử dụng nợ của bạn.
+CDR "lành mạnh", theo định nghĩa của Mai Finance là cao hơn giá trị CDR tối thiểu từ 25% đến 270%. Lưu ý thêm, bạn cũng có thể xem[ hướng dẫn chiến lược](../huong-dan/leverage-aave-tokens.md) của chúng tôi để xem cách bạn có thể sử dụng CDR để đầu tư vào các dự án khác hoặc [trả nợ ](../debt-management-tutorials/debt-repayment-how.md#hoan-tra-mot-phan)bằng cách sử dụng nợ của bạn.
 
 ## Các ưu đãi kho tiền
 

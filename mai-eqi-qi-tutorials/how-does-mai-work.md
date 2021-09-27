@@ -69,7 +69,7 @@ Khi giá trị của tài sản thế chấp tăng lên, các đồng ổn đị
 
 Như bạn đã thấy trong suốt bài viết này, đồng tiền ổn định MAI là một loại đồng tiền ổn định được thế chấp quá mức, có nghĩa là sẽ luôn có đủ tài sản thế chấp để hỗ trợ giá đồng ổn định MAI. Điều này sẽ giúp giải tỏa đủ cho những nhà đầu tư ngần ngại về việc đầu tư vào các dự án đúc tiền ổn định. Ngoài ra, hãy nhớ rằng nếu có càng nhiều MAI trên thị trường, thì giá MAI sẽ càng ổn định.
 
-Gần đây, những ưu đãi dành cho kho tiền đã được Mai Finance giới thiệu, nếu bạn muốn hiểu đó là gì thì có thể tham khảo bài [viết này.](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkHoQ3MuIPfaGWopXMV/v/viet-nam/mai-eqi-qi-tutorials/mai-loans-and-vaults-incentives) 
+Gần đây, những ưu đãi dành cho kho tiền đã được Mai Finance giới thiệu, nếu bạn muốn hiểu đó là gì thì có thể tham khảo bài [viết này.](mai-loans-and-vaults-incentives.md) 
 
 ## Tuyên bố từ chối trách nhiệm
 

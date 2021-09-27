@@ -9,7 +9,7 @@ description: >-
 
 ## Giới thiệu 
 
-Qi \(\[tʃ Í\] or _chee_\), là đồng token bản vị của nền tảng Mai Finance. Một số người sử dụng nó để bỏ phiếu vào QIP \(Đề xuất cải tiến QiDAO\), một số đặt cổ phần để nhận được nhiều hơn, và một số chỉ đơn giản là farm với Qi. Bạn có thể tìm thấy một số thông tin rất hữu ích về cách bạn có thể sử dụng Qi trên nền tảng Mai Finance trong [hướng dẫn dành riêng cho thu nhập thụ động](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/mai-eqi-qi-tutorials/earning-passive-income-with-qidao).
+Qi \(\[tʃ Í\] or _chee_\), là đồng token bản vị của nền tảng Mai Finance. Một số người sử dụng nó để bỏ phiếu vào QIP \(Đề xuất cải tiến QiDAO\), một số đặt cổ phần để nhận được nhiều hơn, và một số chỉ đơn giản là farm với Qi. Bạn có thể tìm thấy một số thông tin rất hữu ích về cách bạn có thể sử dụng Qi trên nền tảng Mai Finance trong [hướng dẫn dành riêng cho thu nhập thụ động](../mai-eqi-qi-tutorials/earning-passive-income-with-qidao.md).
 
 Hướng dẫn này cũng như hầu hết các hướng dẫn đầu tư khác sẽ tập trung chủ yếu vào vào farming và harvesting yield với mã token Qi. Chúng ta sẽ xem xét các cách để tạo ra nhiều Qi và làm như thế nào để sử dụng chúng tại các nền tảng khác nhau trên chuỗi Polygon.
 
@@ -27,7 +27,7 @@ Tôi sẽ không dành quá nhiều thời gian cho phần này, đã có một 
 
 ### Cặp LP Farming
 
-Một lần nữa, đã có một số trang khác trình bày cách bạn có thể đưa Qi vào chiến lược farming của mình để tạo ra sản lượng và không bao giờ bán bất kỳ đồng bản vị của farm nào. Xem các [Xếp Daap giống xếp Lego](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/huong-dan/stack-dapps-like-lego-bricks) hay[ Farming hoặc Staking?](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/huong-dan/farming-or-staking-or-both) để có hướng dẫn chi tiết.
+Một lần nữa, đã có một số trang khác trình bày cách bạn có thể đưa Qi vào chiến lược farming của mình để tạo ra sản lượng và không bao giờ bán bất kỳ đồng bản vị của farm nào. Xem các [Xếp Daap giống xếp Lego](stack-dapps-like-lego-bricks.md) hay[ Farming hoặc Staking?](farming-or-staking-or-both.md) để có hướng dẫn chi tiết.
 
 Xin nhắc lại nhanh, Qi được ghép nối với các mã token khác nhau để tạo thành các cặp LP \( cung cấp thanh khoản\) trên [QuickSwap](https://quickswap.exchange/#/quick) 
 
@@ -59,7 +59,7 @@ Tại ví dụ này, chúng ta sẽ tập trung vào Qi. Bạn có thể thấy 
 
 Điều này có nghĩa là bạn chỉ cần cung cấp Qi trên Impermax và nhận được, trong ví dụ của chúng tôi là 43,73% APR, tại thời điểm viết bài. Khi cung và cầu thay đổi, APR của nguồn cung cũng sẽ tăng/giảm. Khi bạn cung cấp mã token đơn lẻ trên Impermax, bạn sẽ được phần thưởng bằng mã token bạn cung cấp, có nghĩa là chiến lược này sẽ khiến bạn tích lũy nhiều Qi hơn theo thời gian.
 
-Trong khi sử dụng Impermax, bạn cũng có thể sử dụng tùy chọn đòn bẩy để nhận phần thưởng IMX. Vui lòng đọc hướng dẫn [Xếp chồng Dapps ](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MkN369MEJ4ccna-zjHl/v/viet-nam/huong-dan/stack-dapps-like-lego-bricks)để biết thêm chi tiết về cách bạn có thể đưa Impermax vào chiến lược farming của mình.
+Trong khi sử dụng Impermax, bạn cũng có thể sử dụng tùy chọn đòn bẩy để nhận phần thưởng IMX. Vui lòng đọc hướng dẫn [Xếp chồng Dapps ](stack-dapps-like-lego-bricks.md)để biết thêm chi tiết về cách bạn có thể đưa Impermax vào chiến lược farming của mình.
 
 ### Balancer
 

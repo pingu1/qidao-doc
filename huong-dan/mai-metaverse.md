@@ -31,7 +31,7 @@ Như đã giải thích ở trên, MAI có nguồn gốc từ Polygon và đó l
 * MAI-USDT với $6,316,026
 * MAI-USDC với $5,458,323
 
-Các bể khác có thể được tìm thấy trên các dự án khác / yield farming / yield optimizer. Bạn có thể đọc thêm về cách sử dụng  với đồng tiền stablecoin MAI của mình trong [đoạn chi tiết này](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjxxDnNvTemFZGgRpNm/v/viet-nam/huong-dan/what-to-do-with-mai-on-polygon).
+Các bể khác có thể được tìm thấy trên các dự án khác / yield farming / yield optimizer. Bạn có thể đọc thêm về cách sử dụng  với đồng tiền stablecoin MAI của mình trong [đoạn chi tiết này](how-to-use-mai-in-the-real-life.md).
 
 ## Solana
 
