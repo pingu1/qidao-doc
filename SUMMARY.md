@@ -26,7 +26,7 @@
 
 ## Join the Community <a id="community"></a>
 
-* [Discord](https://discord.gg/qSqkU3R3zy)
+* [Discord](https://discord.gg/qidaoprotocol%20)
 * [Telegram](https://t.me/QiDaoProtocol)
 * [Twitter](https://twitter.com/OhMaiGuide)
 * [Use the app](https://app.mai.finance)
