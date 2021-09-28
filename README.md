@@ -28,4 +28,3 @@ O objetivo deste website é apresentar as várias estratégias de investimento q
 Assumimos que os leitores deste website já se encontrem familiarizados com alguns dos projetos _DeFi_ no protocolo _Polygon_, que possuam um bom conhecimento de como as criptomoedas funcionam e que estão informados sobre os diversos riscos relacionados com a indústria das criptomoedas no geral. Este website não tem como objetivo ensinar em como configurar uma carteira _Metamask_ ou fornecer orientações sobre como declarar impostos relacionados com criptomoedas.
 
 Assume-se que os leitores possuem um conhecimento básico do funcionamento da plataforma _Mai Finance,_ taxas associadas e como a plataforma gera lucro. Se tens alguma questão em relação a estes últimos pontos, por favor consulta a documentação oficial \(link acima\) ou junta-te às nossas comunidades [Discord](https://discord.gg/mQq55j65xJ) ou [Telegram](https://t.co/ttG5c1cxfZ?amp=1).
-
