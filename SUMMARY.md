@@ -30,7 +30,7 @@
 ## Rejoignez la Communauté <a id="communaute"></a>
 
 * [Telegram](https://t.me/QiDaoProtocol)
-* [Discord](https://discord.gg/qSqkU3R3zy)
+* [Discord](https://discord.gg/qidaoprotocol%20)
 * [Twitter](https://twitter.com/OhMaiGuide)
 * [Use the app](https://app.mai.finance)
 
