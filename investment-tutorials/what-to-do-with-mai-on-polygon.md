@@ -139,7 +139,7 @@ With stable coins, the risk of liquidation is lower though, because the price va
 
 Note that Impermax is charging fees when you borrow and leverage your position. The fee corresponds to 0.1% of your final position. As an example, if I have $100 worth of MAI/USDC and I leverage 50x, my final position will worth $5,000 and I will pay a $4.90 fee corresponding to the $4,900 that I borrowed.
 
-The effect of looping the lending/borrowing combination allows to multiply the final APY. With an initial APY of 20% for MAI/USDC pair with a CDR of 110%, operating the loop 50 times, and using the formula 
+The effect of looping the lending/borrowing combination allows to multiply the final APY. With an initial APY of 20% for MAI/USDC pair with a CDR of 110%, operating the loop 50 times, and using the formula
 
 $$
 Equivalent APR = Initial APR * \sum_{i=0}^{n}{\frac{100}{CDR}}^i
@@ -168,8 +168,6 @@ Indeed, on the app you can also provide liquidity to those who want to apply lev
 ![Rates for supplying and borrowing MAI on Impermax at a given time](../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
 
 This is another great way to optimize your 0% loan on Mai Finance. Not only you don't have to pay anything to borrow MAI, but you can earn a lot of interest just by depositing it on Impermax.
-
-
 
 ## Disclaimer
 

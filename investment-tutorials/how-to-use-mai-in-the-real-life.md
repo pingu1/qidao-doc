@@ -4,7 +4,6 @@ description: >-
   fee. This is particularly useful to leverage investments on DeFi on Polygon,
   but you can use it in the real world too.
 ---
-<article en cours de traduction>
 
 # How to use MAI in the real life
 
@@ -118,6 +117,4 @@ This tutorial is absolutely not financial advice and should absolutely not be ta
 {% hint style="info" %}
 Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
 {% endhint %}
-
-
 
