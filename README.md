@@ -1,29 +1,31 @@
 ---
 description: >-
-  Ce site est maintenu par la communauté de Mai Finance et sert de ressource
-  pour explorer les possibilités offertes par les applications DeFi  en
-  conjonction avec la plateforme Mai Finance.
+  Este website é gerido pela comunidade de Mai Finance e serve como um recurso
+  para explorar a variedade de aplicações DeFi associadas à plataforma e à sua
+  moeda estável MAI.
 ---
 
-# Le guide non-officiel d'utilisation de Mai Finance
+# O Guia Não Oficial de Mai Finance
 
-## Est-ce que ce guide est approuvé par la communauté?
+## Este guia é aprovado pela comunidade?
 
-Ce guide a été développé par les membres de la communauté de Mai Finance, aussi connus sous le nom de Qimps \(chimps\), afin d'explorer la plateforme d'emprunt dans tous ses détails, et présenter les différentes stratégies liées à une variété d'applications DeFi \(**De**centralized **Fi**nance, ou Finance Décentralisée\) que vous pourrez mettre en place afin d'accroître vos gains. Ce n'est pas un guide officiel, ni un répertoire de conseils financiers. Comme toujours dans le monde de la DeFi, et des crypto-monnaies en général, faites vos propres recherches, et n'investissez que ce que vous êtes prêt à possiblement perdre.
+Este guia foi desenvolvido por membros da comunidade _Mai Finance_, também apelidados de _"Qimps"_ \(chimpanzés\), com o intuito de explorar a plataforma de empréstimos de _Mai Finance_ em maior detalhe e apresentar as várias estratégias disponíveis aos seus utilizadores para gerar valor adicional da plataforma. Este não se trata de um guia oficial para a plataforma _Mai Finance_, nem pode ser interpretado como conselhos de investimento financeiro.  Como sempre no espaço _DeFi_ e em criptomoedas no geral, faz a tua própria pesquisa e investe apenas o que te sentes confortável em eventualmente perder.
 
-## Où puis-je trouver la documentation officielles?
+## Onde posso encontrar a documentação oficial?
 
-La seule documentation officielle de Mai Finance est accessible ici: [docs.mai.finance](https://docs.mai.finance)
+Podes encontrar a documentação oficial aqui: [docs.mai.finance](https://docs.mai.finance)
 
-## Quelle est l'adresse de l'application Mai Finance?
+## Onde posso aceder à aplicação?
 
-L'application Mai Finance est accessible via ce lien: [app.mai.finance](https://app.mai.finance)
+A aplicação da plataforma _Mai Finance_ pode ser encontrada aqui: [app.mai.finance](https://app.mai.finance)
 
-## Que vais-je trouver sur ce site?
+## O que posso encontrar neste website?
 
-Le but de ce site est de présenter une variété de stratégies d'investissement utilisant la plateforme d'emprunt Mai Finance. Par exemple, vous trouverez des conseils sur la gestion de vos dettes et de leur remboursement, des utilisations possibles de la monnaie stable MAI que vous pourrez emprunter, et des informations sur la façon dont Mai Finance peut être utilisée en combinaison avec d'autres protocoles DeFi. Enfin, vous pourrez trouver des informations sur la façon d'utiliser efficacement le token natif de la plateforme: Qi.
+O objetivo deste website é apresentar as várias estratégias de investimento que podem ser utilizadas na plataforma de empréstimo _Mai Finance_. São também abordados tópicos em como gerir dividas e repagamentos, vantagens em pedir empréstimo na moeda estável **MAI** e como integrar a plataforma _Mai Finance_ com outros procolos e estratégias de _DeFi_. Por último, é também fornecida informação em como utilizar eficazmente o _token_ nativo da plataforma _Mai Finance_, **Qi**.
 
-## Que ne vais-je pas trouver sur ce site?
+## O que não vou encontrar neste website?
 
-Nous partons du principe que les utilisateurs de ce site ont quelques notions de base sur les projets de DeFi sur Polygon, et ont une bonne compréhension du fonctionnement des crypto-monnaies, ainsi que des différents risques reliés à l'industrie des monnaies virtuelles en général. Ce site web n'expliquera pas comment vous procurer un portefeuille virtuel Metamask, ni n'expliquera comment remplir vos comptes de taxes liés à vos activités financières numériques. Il sera également attendu que les utilisateurs aient une connaissance minimale de la plateforme Mai Finance, ainsi que du modèle financier permettant à la plateforme de générer des revenus. Si vous avez des questions à propos de ces derniers points, veuillez vous référer à la documentation officielle \(voir lien ci-dessus\) ou rejoindre les communautés sur [Discord](https://discord.gg/mQq55j65xJ) ou [Telegram](https://t.co/ttG5c1cxfZ?amp=1).
+Assumimos que os leitores deste website já se encontrem familiarizados com alguns dos projetos _DeFi_ no protocolo _Polygon_, que possuam um bom conhecimento de como as criptomoedas funcionam e que estão informados sobre os diversos riscos relacionados com a indústria das criptomoedas no geral. Este website não tem como objetivo ensinar em como configurar uma carteira _Metamask_ ou fornecer orientações sobre como declarar impostos relacionados com criptomoedas.
+
+Assume-se que os leitores possuem um conhecimento básico do funcionamento da plataforma _Mai Finance,_ taxas associadas e como a plataforma gera lucro. Se tens alguma questão em relação a estes últimos pontos, por favor consulta a documentação oficial \(link acima\) ou junta-te às nossas comunidades [Discord](https://discord.gg/mQq55j65xJ) ou [Telegram](https://t.co/ttG5c1cxfZ?amp=1).
 
