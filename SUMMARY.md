@@ -14,7 +14,7 @@
 
 * [What to do with Qi on Polygon](investment-tutorials/what-to-do-with-qi-on-polygon.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
-* [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
+* [Farming ou Staking? Ou les deux?](investment-tutorials/farming-ou-staking-ou-les-deux.md)
 
 ## MAI / eQI / Qi  Tutorials
 
