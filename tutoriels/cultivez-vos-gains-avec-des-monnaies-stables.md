@@ -70,7 +70,7 @@ Nous avons récolté nos premiers tokens. En général à cette étape, vous ave
 * vendre les jetons et acheter quelque chose ayant une valeur plus sûre \(votre crypto préférée est un excellent exemple\)
 * ré-injecter les tokens dans la ferme
 
-Mai Finance vous offre une troisième option vous permettant de faire les deux à la fois. Une fois que les jetons natifs sont récoltés, vous pouvez simplement utiliser votre DEX préféré supportant le token natif. D'habitude, vous pourrez trouver un lien vers la plateforme d'échange dans le menu de la ferme de rendement. Ce lien vous dirigera directement vers la bonne page permettant de faire l'échange plus facilement. Veillez tout de même à vous assurer que le site n'est pas un site de phishing, faites attention à l'URL. Toutes les fermes ne sont pas tenues par des développeurs exemplaires. 
+Mai Finance vous offre une troisième option vous permettant de faire les deux à la fois. Une fois que les jetons natifs sont récoltés, vous pouvez simplement utiliser votre DEX préféré supportant le token natif. D'habitude, vous pourrez trouver un lien vers la plateforme d'échange dans le menu de la ferme de rendement. Ce lien vous dirigera directement vers la bonne page permettant de faire l'échange plus facilement. Veillez tout de même à vous assurer que le site n'est pas un site de phishing, faites attention à l'URL. Toutes les fermes ne sont pas tenues par des développeurs exemplaires.
 
 ![J&apos;&#xE9;change mes jetons BALL contre des MATIC](../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
 
@@ -122,7 +122,7 @@ Ces hypothèses sont bien entendu complètement fausses. Vous vous rendrez compt
 
 La simulation a été arrêtée après 18 jours. Passé cette date, il est possible de se rendre compte que nous sommes à nouveau à 60$ de tokens LP. Cela veut dire que nous avons récolté assez de bénéfices pour rembourser les frais de dépôt initiaux, ce qui devrait être le but principal de n'importe quel "fermier".
 
-Passé le 18ème jour, en restant dans la ferme, nous allons générer seulement du profit. Et puisque nous utilisons des monnaies stables pour récolter des gains, il y a quasiment 0% de risques de pertes liées à la fluctuation des tokens composant la paire LP \(pertes impermanentes\), ce qui veut dire qu'il n'y a "plus aucun risque" à rester dans la ferme. 
+Passé le 18ème jour, en restant dans la ferme, nous allons générer seulement du profit. Et puisque nous utilisons des monnaies stables pour récolter des gains, il y a quasiment 0% de risques de pertes liées à la fluctuation des tokens composant la paire LP \(pertes impermanentes\), ce qui veut dire qu'il n'y a "plus aucun risque" à rester dans la ferme.
 
 On peut également considérer que les 2,40$ de frais de dépôt initiaux sont remboursés au jour 9 puisque c'est le moment où la valeur des gains transférés sous forme de MATIC ont été atteints dans notre coffre. Si nous avions ré-investi 100% des tokens de ferme en nouveaux tokens LP, c'est au bout du 9ème jour que nous aurions couvert les frais initiaux.
 
@@ -166,7 +166,7 @@ $$
 ROI_{Jour365} = [60 * (1 + 0.00242)^{365} - 60]*0.96*2=$163.6150585
 $$
 
-C'est le montant en MATIC que nous pourrions gagner en restant dans la ferme pendant un an complet, avec un investissement initial de 60$ de MAI/USDC, en partant du principe que le rendement reste le même sur un an. Cela nous donne également un rendement composé de 272,69%, ce qui est plus ou moins le rendement composé annuel affiché par la ferme \(le rendement annuel composé affiché ne tenant pas compte des frais d'entrée\). 
+C'est le montant en MATIC que nous pourrions gagner en restant dans la ferme pendant un an complet, avec un investissement initial de 60$ de MAI/USDC, en partant du principe que le rendement reste le même sur un an. Cela nous donne également un rendement composé de 272,69%, ce qui est plus ou moins le rendement composé annuel affiché par la ferme \(le rendement annuel composé affiché ne tenant pas compte des frais d'entrée\).
 
 ### Récapitulatif après un an de récolte
 

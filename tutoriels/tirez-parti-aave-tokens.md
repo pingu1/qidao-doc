@@ -101,7 +101,7 @@ Les exemples qui suivent sont basés sur un investissement initial de 1 000$ de 
 | :---: | ---: | ---: | ---: | ---: |
 | 1 | 1 000,00$ | 500,00$ | 49,30$ | 4,930% |
 | 2 | 1 500,00$ | 750,00$ | 73,95$ | 7,395% |
-| 3 | 1 750,00$ | 875,00$  | 86,75$ | 8,628% |
+| 3 | 1 750,00$ | 875,00$ | 86,75$ | 8,628% |
 | 4 | 1 875,00$ | 937,50$ | 92,44$ | 9,244% |
 | 5 | 1 937,50$ | 968,75$ | 95,52$ | 9,552% |
 | 6 | 1 968,75$ | 984,38$ | 97,06$ | 9,706% |
@@ -171,7 +171,7 @@ $$
 APY equivalent = 4.93 * 1.9921875 = 9.821484375
 $$
 
-##  Avertissement <a id="disclaimer"></a>
+## Avertissement <a id="disclaimer"></a>
 
 Tout ce qui est présenté dans ce tutoriel assume que
 

@@ -147,7 +147,7 @@ $$
 
 Ce qui donne un rendement final de 228%. Bien entendu, plusieurs autres facteurs rentrent en compte dans le calcul du rendement final, notamment le taux d'emprunt \(intérêts sur les montant empruntés pour fabriquer plus de tokens LP\), ainsi que l'offre et la demande pour chaque crypto composant la paire de liquidité que vous empruntez \(impactant directement le taux d'emprunt\).
 
-Notez également que ces facteurs sont d'autant plus amplifiés que vous effectuez un nombre de boucles important. Le rendement peut donc varier de façon drastique, et parfois même devenir négatif \(vos tokens  LP seront alors utilisés pour payer les frais\).
+Notez également que ces facteurs sont d'autant plus amplifiés que vous effectuez un nombre de boucles important. Le rendement peut donc varier de façon drastique, et parfois même devenir négatif \(vos tokens LP seront alors utilisés pour payer les frais\).
 
 ### Effet de levier sur la paire MAI/USDC
 
