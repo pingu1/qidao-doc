@@ -4,6 +4,7 @@
 
 ## Hướng dẫn đầu tư <a id="huong-dan"></a>
 
+* [How to get started on Polygon](huong-dan/how-to-get-started-on-polygon.md)
 * [Tạo đòn bẩy cho các token từ thị trường Aave](huong-dan/leverage-aave-tokens.md)
 * [Tối ưu thanh khoản chỉ bằng stablecoin](huong-dan/secure-your-yield-farming-profits.md)
 * [Cách sử dụng MAI trên hệ sinh thái Polygon?](huong-dan/what-to-do-with-mai-on-polygon.md)
