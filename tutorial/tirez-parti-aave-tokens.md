@@ -19,7 +19,7 @@ Supponiamo che adori MATIC e pensi che attualmente sia sottovalutato. Pensi che 
 
 ### Utilizzare Aave per aumentare il tuo capitale
 
-Aave è una piattaforma di deposito e prestito in cui puoi depositare i tuoi token MATIC \(insieme ad altri token\). Depositando su Aave, i tuoi token depositati guadagneranno un rendimento. Ad esempio, i tuoi $100 di MATIC genereranno potenzialmente un tasso di rendita dell'1,2% nell'arco di 1 anno \(APY\). A volte, Aave proporrà anche campagne specifiche che forniranno premi aggiuntivi oltre agli APY di deposito di base. Dato che i tuoi token MATIC sono nel pool Aave, l'interesse generato viene automaticamente reinvestito, ciò significa che la quantità di MATIC che detieni crescerà nel tempo.
+[Aave](https://app.aave.com) è una piattaforma di deposito e prestito in cui puoi depositare i tuoi token MATIC \(insieme ad altri token\). Depositando su Aave, i tuoi token depositati guadagneranno un rendimento. Ad esempio, i tuoi $100 di MATIC genereranno potenzialmente un tasso di rendita dell'1,2% nell'arco di 1 anno \(APY\). A volte, Aave proporrà anche campagne specifiche che forniranno premi aggiuntivi oltre agli APY di deposito di base. Dato che i tuoi token MATIC sono nel pool Aave, l'interesse generato viene automaticamente reinvestito, ciò significa che la quantità di MATIC che detieni crescerà nel tempo.
 
 ![In questo esempio, ho depositato 0.2 MATIC](../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
 
