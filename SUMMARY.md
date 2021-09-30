@@ -4,6 +4,7 @@
 
 ## Investment tutorials
 
+* [How to get started on Polygon](investment-tutorials/how-to-get-started-on-polygon.md)
 * [Leverage Your Aave Market Tokens](investment-tutorials/leverage-aave-tokens.md)
 * [Farming using only stable coins](investment-tutorials/secure-your-yield-farming-profits.md)
 * [What to do with MAI on Polygon](investment-tutorials/what-to-do-with-mai-on-polygon.md)
