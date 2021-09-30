@@ -12,6 +12,7 @@
 
 ## EN - Investment tutorials <a id="investment-tutorials"></a>
 
+* [How to get started on Polygon](investment-tutorials/how-to-get-started-on-polygon.md)
 * [What to do with Qi on Polygon](investment-tutorials/what-to-do-with-qi-on-polygon.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
 * [Farming ou Staking? Ou les deux?](investment-tutorials/farming-ou-staking-ou-les-deux.md)
