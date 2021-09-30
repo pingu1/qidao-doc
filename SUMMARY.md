@@ -31,6 +31,7 @@
 
 ---
 
+* [How to get started on Polygon](how-to-get-started-on-polygon.md)
 * [How does MAI work?](how-does-mai-work.md)
 
 ## Únete a la comunidad <a id="comunidad"></a>
