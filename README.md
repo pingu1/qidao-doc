@@ -1,29 +1,29 @@
 ---
 description: >-
-  This site is maintained by the Mai Finance community and serves as a resource
-  to explore the breadth of DeFi applications associated with the platform and
-  it’s stablecoin MAI.
+  Questo sito è gestito dalla comunità Mai Finance e funge da risorsa per
+  esplorare la vasta gamma di applicazioni DeFi associate alla piattaforma ed
+  alla stablecoin MAI.
 ---
 
-# The Unofficial Guide to Mai Finance
+# La guida Non Ufficiale a Mai Finance
 
-## Is this guide approved by the community?
+## Questa è una guida approvata dalla community?
 
-This guide was developed by members of the Mai Finance community, also known as Qimps \(chimps\), to explore the Mai Finance borrowing platform in greater detail and present a variety of DeFi strategies by which users can derive additional value from the platform. This is not an official guide for Mai Finance, nor is any of this literature financial advice. As always with DeFi and cryptocurrency in general, do your own research, and only invest what you’re comfortable with potentially losing.
+Questa guida è stata sviluppata dai membri della comunità Mai Finance, meglio nota come "Qimps" \(simpaticamente scimpanzé\), per esplorare approfonditamente la piattaforma di prestito Mai Finance e presentare un'ampia gamma di strategie DeFi attraverso le quali gli utenti possono beneficiare maggiormente della piattaforma. Questa non è una guida ufficiale per Mai Finance e non deve in nessun modo essere vista come una qualsiasi forma di consulenza finanziaria. Come sempre, quando si tratta di DeFi e crypto valuta in generale, fai sempre le tue ricerche e investi solamente importi che saresti in grado di sopportare nell'eventualità di perderli.
 
-## Where can I find the official documentation?
+## Dove posso trovare la documentazione ufficiale?
 
-You can find the official documentation here: [docs.mai.finance](https://docs.mai.finance)
+Puoi trovare la documentazione ufficiale qui: [docs.mai.finance](https://docs.mai.finance)
 
-## Where can I access the application?
+## Qual è l'indirizzo ufficiale dell'applicazione?
 
-The Mai Finance application can be found here: [app.mai.finance](https://app.mai.finance)
+L' applicazione ufficiale di Mai Finance è raggiungibile qui: [app.mai.finance](https://app.mai.finance)
 
-## What will I find on this website?
+## Cosa troverò su questo sito?
 
-The goal of this website is to present a variety of investment strategies that utilize the Mai Finance borrowing platform. Topic samples include managing debts and repayments, advantages of borrowing the MAI stablecoin and how to integrate Mai Finance into other DeFi protocols/strategies. Lastly, information on how to efficiently use Mai Finance's native token, Qi, will be provided.
+L' obbiettivo di questo sito Web è presentare un'ampia gamma di strategie di investimento che utilizzano la piattaforma di prestito Mai Finance. Esempi di argomenti includono la gestione di debiti e rimborsi, i vantaggi di prendere in prestito la stable coin MAI e come integrare Mai Finance in altri protocolli/strategie DeFi. Infine, verranno fornite informazioni su come utilizzare in modo efficiente il token nativo di Mai Finance, Qi.
 
-## What will I not find on this website?
+## Cosa non troverò su questo sito?
 
-It will be assumed that users of this website are already aware of DeFi projects on Polygon, have a good understanding of how cryptocurrency works, and are informed of the different risks related to the cryptocurrency industry in general. This website will not explain how to setup a Metamask wallet, nor provide guidance on cryptocurrency tax reporting. It will also be assumed that users have a basic understanding of the Mai Finance platform, it’s fees and how the protocol earns revenue. If you have questions regarding these last few points, please read the official documentation \(link above\) or join the [Discord](https://discord.gg/mQq55j65xJ) or [Telegram](https://t.co/ttG5c1cxfZ?amp=1) communities.
+Si darà per assodato che gli utenti di questo sito Web siano già a conoscenza dei progetti DeFi sulla rete Polygon che abbiano una buona conoscenza di come funziona una crypto valuta e che siano informati dei vari rischi connessi all'industria delle crypto valute in generale. Questo sito Web non spiegherà come configurare un portafoglio Metamask né fornirà indicazioni sulla rendicontazione fiscale delle crypto valute. Si darà per assodato inoltre che gli utenti abbiano una conoscenza di base della piattaforma Mai Finance, delle sue commissioni e di come il protocollo genera entrate. Se hai domande su questi ultimi punti, leggi la documentazione ufficiale \(link sopra\) o unisciti alle community [Discord](https://discord.gg/mQq55j65xJ) o [Telegram](https://t.co/ttG5c1cxfZ?amp=1).
 

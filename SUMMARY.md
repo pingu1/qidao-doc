@@ -1,6 +1,10 @@
 # Table of contents
 
-* [The Unofficial Guide to Mai Finance](README.md)
+* [La guida Non Ufficiale a Mai Finance](README.md)
+
+## Tutorial di investimento <a id="tutorial"></a>
+
+* [Come far fruttare i tuoi token Aave](tutorial/tirez-parti-aave-tokens.md)
 
 ## Investment tutorials
 
