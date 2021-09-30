@@ -5,7 +5,7 @@ description: >-
   conjonction avec la plateforme Mai Finance.
 ---
 
-# Le guide non-officiel d'utilisation de Mai Finance
+# The Unofficial Guide to Mai Finance
 
 ## Est-ce que ce guide est approuvé par la communauté?
 
@@ -26,3 +26,4 @@ Le but de ce site est de présenter une variété de stratégies d'investissemen
 ## Que ne vais-je pas trouver sur ce site?
 
 Nous partons du principe que les utilisateurs de ce site ont quelques notions de base sur les projets de DeFi sur Polygon, et ont une bonne compréhension du fonctionnement des crypto-monnaies, ainsi que des différents risques reliés à l'industrie des monnaies virtuelles en général. Ce site web n'expliquera pas comment vous procurer un portefeuille virtuel Metamask, ni n'expliquera comment remplir vos comptes de taxes liés à vos activités financières numériques. Il sera également attendu que les utilisateurs aient une connaissance minimale de la plateforme Mai Finance, ainsi que du modèle financier permettant à la plateforme de générer des revenus. Si vous avez des questions à propos de ces derniers points, veuillez vous référer à la documentation officielle \(voir lien ci-dessus\) ou rejoindre les communautés sur [Discord](https://discord.gg/mQq55j65xJ) ou [Telegram](https://t.co/ttG5c1cxfZ?amp=1).
+

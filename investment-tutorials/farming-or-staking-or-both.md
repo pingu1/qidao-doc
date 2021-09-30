@@ -168,7 +168,7 @@ After a complete year, the final state of our investment would be
 | ADDY on QuickSwap | 365.25 |
 | Qi/QUICK on Adamant | 29,733.58 |
 | ADDY on Adamant | 13,587.56 |
-| Additional Qi/MATIC + Qi/WETH  | 2,631.07 |
+| Additional Qi/MATIC + Qi/WETH | 2,631.07 |
 
 Note that the ADDY that have been generated via the QuickSwap farm haven't been harvested daily and added to boost the ADDY rewards on Adamant in this simulation \(it is already complex enough\). Also, we are only taking in account vested ADDY. After the initial vesting period of 90 days, if you claim the ADDY tokens and lock them, you will boost your ADDY rewards even more, and generate more WMATIC.
 
