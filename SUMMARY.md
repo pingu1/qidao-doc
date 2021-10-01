@@ -4,13 +4,12 @@
 
 ## Tutorial di investimento <a id="tutorial"></a>
 
+* [Come iniziare con Polygon](tutorial/how-to-get-started-on-polygon.md)
 * [Come far fruttare i tuoi token Aave](tutorial/tirez-parti-aave-tokens.md)
+* [Farming using only stable coins](tutorial/secure-your-yield-farming-profits.md)
 
 ## Investment tutorials
 
-* [How to get started on Polygon](investment-tutorials/how-to-get-started-on-polygon.md)
-* [Leverage Your Aave Market Tokens](investment-tutorials/leverage-aave-tokens.md)
-* [Farming using only stable coins](investment-tutorials/secure-your-yield-farming-profits.md)
 * [What to do with MAI on Polygon](investment-tutorials/what-to-do-with-mai-on-polygon.md)
 * [What to do with Qi on Polygon](investment-tutorials/what-to-do-with-qi-on-polygon.md)
 * [MAI Metaverse](investment-tutorials/mai-metaverse.md)

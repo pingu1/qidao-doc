@@ -33,7 +33,7 @@ Mai Finance può accettare i tuoi token amWMATIC sulla pagina "Yield" del sito w
 
 Noterai che il rendimento generato da Mai Finance è lo stesso che otterresti su Aave.
 
-Tuttavia, oltre all'APY di base, Mai Finance reinvestirà anche le eventuali ricompense Aave aggiuntive disponibili per il token scelto \(nel nostro esempio MATIC\), generando così un rendimento passivo maggiore nel token scelto. Nel nostro esempio \(vedi sopra\), Aave fornisce l'1,16% di APY per i MATIC depositati ed un APR "premio" aggiuntivo del 3,69% pagato in MATIC, ma questo "premio" aggiuntivo non genera alcun rendimento. Depositando il tuo amWMATIC su Mai Finance, il "premio" viene raccolto periodicamente e reinvestito sul tuo deposito principale in modo da ottenere anche su di esso il tasso di interesse dell'1,16%.
+Tuttavia, oltre all'APY di base, Mai Finance reinvestirà anche le eventuali ricompense Aave aggiuntive disponibili per il token scelto \(nel nostro esempio MATIC\), generando così un rendimento passivo maggiore nel token scelto. Nel nostro esempio \(vedi sopra\), Aave fornisce l'1,16% di APY per i MATIC depositati ed un APR "premio" aggiuntivo del 3,69% pagato in MATIC ma questo "premio" aggiuntivo non genera alcun rendimento. Depositando il tuo amWMATIC su Mai Finance, il "premio" viene raccolto periodicamente e reinvestito sul tuo deposito principale in modo da ottenere anche su di esso il tasso di interesse dell'1,16%.
 
 ![I miei 0.2 MATIC ora sono depositati su Mai Finance genereranno un rendimento del 4.93% annuale](../.gitbook/assets/screen-shot-2021-08-06-at-5.45.00-pm.png)
 
@@ -83,7 +83,7 @@ Dopo lo scambio, ho più MATIC nel mio portafoglio.
 
 ### Ripetere il ciclo
 
-Inizialmente avevo 0,20 MATIC nel mio portafoglio. Questi MATIC ora sono depositati su Mai Finance, generando un rendimento del 4,93% annuo, e ho in aggiunta 0,09 MATIC resi disponibili grazie ai MAI che ho preso in prestito. Questi 0,09 MATIC aggiuntivi possono essere depositati su Aave, proprio come i miei MATIC iniziali e ripartire con lo stesso processo.
+Inizialmente avevo 0,20 MATIC nel mio portafoglio. Questi MATIC ora sono depositati su Mai Finance, generando un rendimento del 4,93% annuo ed ho in aggiunta 0,09 MATIC resi disponibili grazie ai MAI che ho preso in prestito. Questi 0,09 MATIC aggiuntivi possono essere depositati su Aave, proprio come i miei MATIC iniziali e ripartire con lo stesso processo.
 
 ### In che momento dovrei fermare il ciclo?
 
