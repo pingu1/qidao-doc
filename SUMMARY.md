@@ -10,12 +10,12 @@
 * [Que faire avec vos MAI sur Polygon](tutoriels/que-faire-avec-vos-mai-sur-polygon.md)
 * [MAI dans le metaverse](tutoriels/mai-dans-le-metaverse.md)
 * [Comment utiliser MAI dans la "vraie" vie](tutoriels/how-to-use-mai-in-the-real-life.md)
+* [Farming ou Staking? Ou les deux?](tutoriels/farming-ou-staking-ou-les-deux.md)
 
 ## EN - Investment tutorials <a id="investment-tutorials"></a>
 
 * [What to do with Qi on Polygon](investment-tutorials/what-to-do-with-qi-on-polygon.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
-* [Farming ou Staking? Ou les deux?](investment-tutorials/farming-ou-staking-ou-les-deux.md)
 
 ## MAI / eQI / Qi  Tutorials
 

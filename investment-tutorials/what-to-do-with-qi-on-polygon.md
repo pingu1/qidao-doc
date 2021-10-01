@@ -27,7 +27,7 @@ I will not spend too much time on this part, there's already a complete guide on
 
 ### LP pair Farming
 
-Once again, there are already a few other pages presenting how you can include the Qi token in your farming strategy to generate yields and never sell any of your farm tokens. See [Stack DApps like Lego bricks](stack-dapps-like-lego-bricks.md) or [Farming or Staking ?](farming-ou-staking-ou-les-deux.md) guides for details exampled.
+Once again, there are already a few other pages presenting how you can include the Qi token in your farming strategy to generate yields and never sell any of your farm tokens. See [Stack DApps like Lego bricks](stack-dapps-like-lego-bricks.md) or [Farming or Staking ?](../tutoriels/farming-ou-staking-ou-les-deux.md) guides for details exampled.
 
 As a quick reminder, Qi is paired to different tokens to form LP \(**L**iquidity **P**rovider\) pairs on [QuickSwap](https://quickswap.exchange/#/quick) so that you can farm
 
