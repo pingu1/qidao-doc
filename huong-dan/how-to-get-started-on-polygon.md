@@ -1,104 +1,104 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the different DApps that Polygon has on its blockchain.
+  Trong hướng dẫn này, chúng tôi sẽ trình bày tất cả mọi thứ bạn cần biết để sử
+  dụng các Dapps khác nhau trên chuỗi khối Polygon
 ---
 
-# How to get started on Polygon
+# Các bước bắt đầu trên mạng Polygon
 
-## What is Polygon?
+## Polygon là gì?
 
-Polygon network is a network that is built on top of the Ethereum Blockchain, but it has been designed to address the scalability issues that the Ethereum Mainnet has. On average, a transaction on the Polygon network takes between 3 and 5 seconds, and costs fractions of a penny, allowing one to make several dozens of transactions every day, with a very small wallet.
+Mạng lưới Polygon là một mạng lưới được xây dưng trên nền tảng của chuỗi khối Ethereum, được thiết kế để giải quyết các vấn đề về khả năng mở rộng mà chuỗi Ethereum đang gặp phải. Một giao dịch trung bình trên mạng Polygon chỉ mất 3 đến 5 giây với chi phí giao dịch 1 xu, cho phép người dùng thực hiện được hàng chục giao dịch mỗi ngày với ngân sách hợp lý.
 
-Polygon is also one of the first “side chain” that launched, and with the little advance it has over the other available chains, Polygon managed to collect:
+Polygon cũng là một trong những " side chain" đầu tiên có những tiến bộ đáng kể so với các chuỗi hiện tại, có thể kể đến như.
 
-* An ever increasing user base
-* An ever increasing number of applications
-* A solid TVL that is currently stabilizing around 4 billions USD
+* Cơ sở người dùng ngày càng tăng
+* Số lượng ứng dụng ngày càng tăng
+* TVL bền vững ổn định vào khoảng 4 tỷ USD
 
-Polygon also managed to build trust and proved to be a reliable alternative to the Ethereum network, opening the DeFi world to small investors willing to try decentralized finance without having to spend hundreds of dollars in transaction fees. With this trust and ease of use, many companies turned to Polygon to facilitate bridging assets from one network to another, increasing security and anonymity, eventually making the network stronger.
+Polygon cũng bắt đầu xây dựng lòng tin như là một thay thế đáng tin cậy của chuỗi Ethereum, mở ra thế giới Defi cho những nhà đầu tư  nhỏ mà không phải chi hàng trăm đô la cho phí giao dịch. Với sự tin cậy cũng như tính thân thiện của Polygon, rất nhiều công ty đã chuyển sang Polygon để tạo điều kiện kết nối tài sản từ mạng này sang mạng khác, tăng cường bảo mật và tính ẩn danh, cùng lúc đó làm mạng lưới trở nên vững mạnh hơn. 
 
-## Creating a wallet
+## Tạo một ví 
 
-Before using the Polygon Blockchain, you need to create a wallet address, there are different wallet types , **software \(**Metamask, TrustWallet...**\)** and **hardware \(**Trezor or Ledger**\)**. However, in this guide we'll use _Metamask_ to explain how to access the Polygon Blockchain. 
+Trước khi bắt đầu với chuỗi khối Polygon , bạn cần tạo một địa chỉ ví, có nhiều loại ví khác nhau bao gồm phần mềm \(Metamask, TrustWallet ...\) và phần cứng \(Trezor hoặc Ledger\). Tuy nhiên, trong hướng dẫn này, chúng tôi sẽ sử dụng Metamask để giải thích cách truy cập vào Polygon.
 
-### Downloading Metamask
+### Tải Metamask
 
-The first step you need to complete to use the Polygon Blockchain is downloading the Metamask extension in your web browser. You can download it on their [webpage](https://metamask.io/index.html). Metamask can also be used on iOs and Android devices.
+Bước đầu tiên bạn cần hoàn thành để sử dụng chuỗi Polygon là tải xuống tiện ích mở rộng Metamask trong trình duyệt web của bạn. Bạn có thể tải xuống trên[ trang web ](https://metamask.io/index.html)của họ. Metamask cũng có thể được sử dụng trên các thiết bị IOS và Android.
 
-Once you do that, you should have an extension on your browser with the logo of Metamask. When you open the Metamask extension for the first time, it'll ask you if you have a Metamask account, if do, you need to write the **seed phrase \(**we'll get to the importance of the seed phrase later\) ****of the account you want to load. If you don't have an account, you'll have to create a new account. These are the steps that you need to follow:
+Khi hoàn thành bạn sẽ thấy một tiện ích mở rộng trên trình duyệt của mình với biểu tượng của Metamask. Khi bạn mở tiện ích mở rộng Metamask lần đầu tiên, nó sẽ hỏi bạn xem bạn có tài khoản Metamask hay không, nếu có, bạn cần viết seed phrase \(chúng ta sẽ nói về tầm quan trọng của seed phrase sau\) của tài khoản bạn muốn sử dụng. Nếu chưa có tài khoản, bạn sẽ phải tạo một tài khoản mới. Sau đây là một số bước cụ thể:
 
-1. First of all, you'll need to select a password to your Metamask account.
-2. Then you should watch the video about how to protect your wallet and the importance of the seed phrase.
-3. You'll see you seed phrase. Your seed phrase is the **most important** thing when creating a new wallet, because if you loose your seed phrase and your computer breaks, you won't be able to access your Metamask account. So please, be careful with your seed phrase and don't share it with anyone.
+1. Trước hết, bạn cần chọn mật khẩu cho tài khoản Metamask của mình. 
+2. Sau đó, bạn nên xem video về cách bảo vệ ví của bạn và tầm quan trọng của cụm từ seed phrase.
+3. Seed phrase của bạn là điều quan trọng nhất khi tạo ví mới, vì nếu bạn mất cụm từ này và máy tính của bạn bị hỏng, bạn sẽ không thể truy cập vào tài khoản Metamask của mình. Vì vậy, hãy giữ cẩn thận với cụm từ này và tuyệt đối không chia sẻ nó với bất kỳ ai.
 
-When you are done, you should see this on your browser:
+![Giao di&#x1EC7;n c&#x1EE7;a Metamask](../.gitbook/assets/image%20%2827%29.png)
 
-![Metamask&apos;s Interface](../.gitbook/assets/image%20%2827%29.png)
+### Thêm chuỗi Polygon
 
-### Adding the Polygon Blockchain
-
-As you can see on the picture above, we are using the Ethereum Mainnet, however if we click on there to change to a different network, you'll see that the Polygon Mainnet isn't there. Don't worry, what we need to do is adding manually the Polygon Mainnet, to do so, you need to do click on Custom RPC and write this:
+Như bạn thấy ở trên, chúng ta bắt đầu với mạng Ethereum mặc định, để có thể sử dụng mạng Polygon, chúng ta cần thêm thủ công bằng cách nhấp vào RPC tùy chọn và thiết lập mạng  Polygon với các thông số kỹ thuật như hình dưới:
 
 ![](../.gitbook/assets/image%20%2816%29.png)
 
-Once you're done, you are almost ready to use the Metamask wallet on the Polygon Blockchain, the only step left is switching the Ethereum Mainnet to Polygon Mainnet, to do so you need to click on the dropdown menu at the top of the Metamask extension.
+Sau khi hoàn tất, bạn gần như đã sẵn sàng để sử dụng ví Metamask trên Polygon , bước duy nhất còn lại là chuyển Ethereum Mainnet sang Polygon, để làm như vậy bạn cần nhấp vào menu mạng thả xuống ở đầu tiện ích Metamask.
 
-## Getting free MATIC
+## Cách nhận MATIC miễn phí
 
-Now you have everything set up to use the Polygon Blockchain, however you don't have any MATIC on your wallet, so you can't do any **transactions** on the Polygon Blockchain. A transaction is basically an exchange between 2 addresses, that require some time to be processed \(this is done by the different validators that Polygon has\) and has a fee \(this fee is also known as **gas** and is paid with MATIC tokens\).
+Bây giờ bạn đã thiết lập mọi thứ để sử dụng Polygon, tuy nhiên bạn không có bất kỳ MATIC nào trên ví của mình, vì vậy bạn không thể thực hiện bất kỳ giao dịch nào trên Polygon cả. Về cơ bản, một giao dịch là sự trao đổi giữa 2 địa chỉ, cần một thời gian để được xử lý \(điều này được thực hiện bởi các node xác thực khác nhau mà Polygon có\) và có phí \(phí này còn được gọi là gas và được thanh toán bằng mã thông báo MATIC\).
 
-Luckily, this [page](https://matic.supply/) gives you free MATIC to do your first transactions on the Polygon network \(those types of pages can be called _faucet_\). The only thing you need to do is connect your wallet to that page and complete a captcha. These 0.002 MATIC \(~0,00223$\) will allow us to do a few transactions using the Polygon Network.
+May mắn thay, [trang này](https://matic.supply/) cung cấp cho bạn MATIC miễn phí để thực hiện các giao dịch đầu tiên của bạn trên mạng Polygon \(những loại trang đó có thể được gọi là faucet\). Điều duy nhất bạn cần làm là kết nối ví của bạn với trang đó và hoàn thành hình ảnh xác thực. 0,002 MATIC này \(~ 0,00223 $\) sẽ cho phép bạn thực hiện một số giao dịch sử dụng trên mạng Polygon.
 
-![Getting FREE MATIC](../.gitbook/assets/image%20%2826%29.png)
+![Nh&#x1EAD;n mi&#x1EC5;n ph&#xED; MATIC](../.gitbook/assets/image%20%2826%29.png)
 
-Sometimes due to network congestion, you may have some problems using that page, so just wait a little and you'll be able to claim some free MATIC. Also, you can try using this [one](https://macncheese.finance/matic-polygon-mainnet-faucet.php) in case the other doesn't work. 
+Đôi khi do tắc nghẽn mạng, bạn có thể gặp một số vấn đề khi sử dụng trang, vì vậy chỉ cần đợi một chút là bạn sẽ có thể yêu cầu một số MATIC miễn phí. Ngoài ra, bạn có thể thử sử dụng [trang này](https://macncheese.finance/matic-polygon-mainnet-faucet.php) trong trường hợp trang kia không hoạt động.
 
-Before we get to the next part of the article, you need to be aware that these faucet are not done for people to drain it, it won't deliver anything if your wallet has too much MATIC, or if you try to claim more than a few times within 24h. So please, be careful and don't be selfish.
+Trước khi chúng ta chuyển sang phần tiếp theo của bài viết, bạn cần lưu ý rằng những trang faucets này không được thực hiện để mọi người rút nó cạn ra, nó sẽ không mang lại bất cứ gì nếu ví của bạn có quá nhiều MATIC hoặc nếu bạn cố gắng yêu cầu nhiều hơn một vài lần trong vòng 24h. Vì vậy, xin hãy cẩn thận và đừng ích kỷ.
 
-## Add Tokens in Metamask
+## Thêm token vào Metamask
 
-Now that you have some free MATIC in your Metamask, you are ready to use the different DApps and tokens that Polygon has. You can copy the address of the token that you want to use using [PolygonScan](https://polygonscan.com/). Once you are there, you only need to write the name of the token that you'll like to add. For example, if we search QiDAO on Polygon, we'll get this:
+Bây giờ bạn đã có một số MATIC miễn phí trong Metamask để sẵn sàng sử dụng các DApp và mã thông báo khác nhau mà Polygon. Bạn có thể sao chép địa chỉ của mã thông báo mà bạn muốn sử dụng bằng [PolygonScan](https://polygonscan.com/). Khi bạn ở đó, bạn chỉ cần viết tên của mã thông báo mà bạn muốn thêm. Ví dụ: nếu chúng ta tìm kiếm QiDAO trên Polygon, chúng ta sẽ thấy:
 
-![Results of writing QiDAO on PolygonScan](../.gitbook/assets/image%20%2824%29.png)
+![K&#x1EBF;t qu&#x1EA3; c&#x1EE7;a QiDao tr&#xEA;n Polygonscan](../.gitbook/assets/image%20%2824%29.png)
 
-Now, you'll need to copy the address of the contract and click in **add token** on Metamask.
+Bây giờ, bạn sẽ cần sao chép địa chỉ của hợp đồng và nhấp vào thêm mã thông báo trên Metamask.
 
-![Adding Qi on Metamask](../.gitbook/assets/image%20%2822%29.png)
+![Th&#xEA;m Qi v&#xE0;o trong Metamask](../.gitbook/assets/image%20%2822%29.png)
 
-## How to buy tokens on Polygon
+## Cách mua token trên Polygon
 
-Now that we have our Metamask ready and some MATIC to pay the gas, we can start buying some tokens on the Polygon network. To do so, you need to use a **DEX** \(Decentralized Exchange\), there are a lot of DEXs that you can choose from, like [_Quickswap_](https://quickswap.exchange/#/swap), [_Slingshot_](https://app.slingshot.finance/trade/m/MATIC/USDC), [_Dexguru_](https://dex.guru/), [_Sushiswap_](https://app.sushi.com/swap), etc. 
+Bây giờ đã có Metamask và một số MATIC để thanh toán gas, chúng ta có thể bắt đầu mua một số mã thông báo trên mạng Polygon. Để làm như vậy, bạn cần sử dụng DEX \(Sàn giao dịch phi tập trung\), có rất nhiều DEX mà bạn có thể lựa chọn, như [_Quickswap_](https://quickswap.exchange/#/swap)_,_ [_Slingshot_](https://app.slingshot.finance/markets)_,_ [_Dexguru,_](https://dex.guru/token/0x76bf0c28e604cc3fe9967c83b3c3f31c213cfe64-polygon) __[_Sushiswap_](https://app.sushi.com/vi/swap)_, v.v.._ 
 
-Once you decide which DEX you want to use, you can start buying your favourites tokens on the Polygon Blockchain.
+Khi bạn quyết định DEX nào bạn muốn sử dụng, bạn có thể bắt đầu mua các mã thông báo yêu thích của mình trên Polygon.
 
 ![Buying Qi tokens using Quickswap](../.gitbook/assets/image%20%2825%29.png)
 
 {% hint style="info" %}
-Another interesting DApp to use when you want to buy tokens is [Zapper](https://zapper.fi/es/exchange). Zapper theoretically searches for the cheapest platform to perform the swap of the two tokens, so it's a good way to save up some MATIC.
+Một DApp thú vị khác để sử dụng khi bạn muốn trao đổi tiền mã hóa là [Zapper](https://zapper.fi/). Về mặt lý thuyết, Zapper tìm kiếm nền tảng rẻ nhất để thực hiện hoán đổi hai mã thông báo, vì vậy đó là một cách tốt để tiết kiệm một số MATIC nhất định.
 {% endhint %}
 
-## Checking your wallet history
+## Kiểm tra ví của bạn
 
-It's important to know how to check your wallet's history, to do so, you can use [DeBank](https://debank.com/). Debank will allow you to check the different transactions that you have made in your Metamask account, as well as checking your portfolio in all the blockchains that you use or the NFTs that you own. This will be useful if you want to compare, for example, the different Qi airdrops that you receive while staking some Qi.
+Điều quan trọng là phải biết cách kiểm tra lịch sử ví của bạn, để làm như vậy, bạn có thể sử dụng [DeBank](https://debank.com/). Debank sẽ cho phép bạn kiểm tra các giao dịch khác nhau mà bạn đã thực hiện trong tài khoản Metamask của mình, cũng như kiểm tra danh mục đầu tư của bạn trong tất cả các blockchain mà bạn sử dụng hoặc NFT mà bạn sở hữu. Điều này sẽ hữu ích nếu bạn muốn so sánh, chẳng hạn như các airdrop Qi khác nhau mà bạn nhận được khi đặt một số cổ phần Qi.
 
-![All the transactions made in our new Metamask address](../.gitbook/assets/image%20%2810%29.png)
+![T&#x1EA5;t c&#x1EA3; c&#xE1;c giao d&#x1ECB;ch &#x111;&#x1B0;&#x1EE3;c hi&#x1EC3;n th&#x1ECB; tr&#xEA;n v&#xED; Metamask m&#x1EDB;i ](../.gitbook/assets/image%20%2810%29.png)
 
-As you can see, I have in my wallet 800,000 DxDex.io but I haven't done anything to have those tokens on my wallet. You need to be aware of these types of scam, and never interact with any coins that you don't know. In case you grant them access, Debank will allow you to revoke it. Please be careful and if you don't know that token don't touch it. 
+Như bạn có thể thấy, tôi có trong ví 800.000 DxDex.io nhưng tôi chưa làm bất cứ điều gì để có những mã thông báo đó trong ví của mình. Bạn cần lưu ý những kiểu lừa đảo này và không bao giờ tương tác với bất kỳ đồng tiền nào mà bạn không biết. Trong trường hợp bạn cấp cho họ quyền truy cập, Debank sẽ cho phép bạn thu hồi quyền truy cập đó. Hãy cẩn thận và nếu bạn không biết mã thông báo đó, đừng chạm vào nó.
 
-## Useful Links
+## Một số liên kết hữu ích
 
-Here are some links that you may found useful when using the Polygon Blockchain:
+Dưới đây là một số liên kết mà bạn có thể thấy hữu ích khi sử dụng chuỗi khối Polygon:
 
 * [Quickswap](https://quickswap.exchange/#/swap)
 *  [AAVE](https://app.aave.com/)
-* [PolygonScan](https://polygonscan.com/gastracker/): this link will be useful to see the gas prices on the Polygon Network.
+* [PolygonScan](https://polygonscan.com/gastracker/): liên kết này sẽ hữu ích để quan sát giá gas giao dịch trên chuỗi khối Polygon
 
-## Disclaimer
+## Tuyên bố từ chối trách nhiệm
 
-This guide is definitely not financial advice, it was made with an educational goal in mind. 
+Hướng dẫn này chắc chắn không phải là lời khuyên tài chính, nó được thực hiện với mục tiêu giáo dục.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}
+
+
 
