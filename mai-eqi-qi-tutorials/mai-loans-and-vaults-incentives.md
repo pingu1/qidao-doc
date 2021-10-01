@@ -97,10 +97,6 @@ The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% a
 
 ## Vault incentives
 
-{% hint style="info" %}
-**ATTENTION**: Vaults incentives are not out yet. This section is a guess game while we are waiting for the official documentation. The estimations calculated in this section are "napkin maths" based on leaked info from the official team, and voted emission rate. Hence, this section will certainly be rewritten when Vaults incentives are out on Sunday September 19th 2021. There is absolutely no guarantee that these estimations are correct.
-{% endhint %}
-
 ### Understanding Vaults incentives APRs
 
 In September 2021, Mai Finance introduced vault incentives. This is a reward allocated by the Mai Finance platform to anyone borrowing MAI and participating in the growth of the platform.
