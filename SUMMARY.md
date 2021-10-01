@@ -4,6 +4,7 @@
 
 ## Tutoriels investissement <a id="tutoriels"></a>
 
+* [Comment bien démarrer sur Polygon](tutoriels/how-to-get-started-on-polygon.md)
 * [Appliquez un effet de levier sur vos tokens AAVE](tutoriels/tirez-parti-aave-tokens.md)
 * [Cultivez vos gains avec des monnaies stables](tutoriels/cultivez-vos-gains-avec-des-monnaies-stables.md)
 * [Que faire avec vos MAI sur Polygon](tutoriels/que-faire-avec-vos-mai-sur-polygon.md)
@@ -12,7 +13,6 @@
 
 ## EN - Investment tutorials <a id="investment-tutorials"></a>
 
-* [How to get started on Polygon](investment-tutorials/how-to-get-started-on-polygon.md)
 * [What to do with Qi on Polygon](investment-tutorials/what-to-do-with-qi-on-polygon.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
 * [Farming ou Staking? Ou les deux?](investment-tutorials/farming-ou-staking-ou-les-deux.md)
