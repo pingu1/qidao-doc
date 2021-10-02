@@ -1,4 +1,5 @@
 ---
+tags: Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,stable,miMATIC,peg,anchor
 description: >-
   Getting a good understanding about how MAI works is crucial for any investor
   that really wants to understand Mai Finance, so in this article you will
