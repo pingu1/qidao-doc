@@ -35,7 +35,7 @@ Recuerda que aquí, Qi se junta con otro token para poder formar un par LP \(**P
 * Qi-WETH en QuickSwap y obtener tokens Quick como recompensa
 * Qi-QUICK en QuickSwap y obtener tokens Quick como recompensa
 
-![LP pool on QuickSwap for the Qi-WETH pair](../.gitbook/assets/image%20%2819%29%20%282%29.png)
+![LP pool on QuickSwap for the Qi-WETH pair](../.gitbook/assets/image%20%2819%29%20%282%29%20%282%29.png)
 
 ### Farming solo con Qi
 
