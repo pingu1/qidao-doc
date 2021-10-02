@@ -1,4 +1,5 @@
 ---
+tags: Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,yield,farming,stable coin,miMATIC,
 description: >-
   This guide will present a strategy that highlights amazing interactions
   between Mai Finance, QuickSwap and Adamant after the launch of new LP pools on
