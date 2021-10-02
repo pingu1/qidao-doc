@@ -1,4 +1,5 @@
 ---
+tags: Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,yield,farming,stable coin,miMATIC
 description: >-
   This page presents in details a "safe" strategy to make yield farming a little
   less profitable, but a lot more secure.
