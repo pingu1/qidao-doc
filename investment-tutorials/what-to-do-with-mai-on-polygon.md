@@ -1,5 +1,6 @@
 ---
-tags: Mai,Finance,Qi,QiDAO,Polygon,MATIC,DeFi,Balancer,Curve,QuickSwap,yield,Adamant,Impermax
+tags: >-
+  Mai,Finance,Qi,QiDAO,Polygon,MATIC,DeFi,Balancer,Curve,QuickSwap,yield,Adamant,Impermax
 description: >-
   This tutorial will present the different options that will let you use your
   freshly minted MAI on Polygon.
@@ -39,7 +40,7 @@ The complete flow would be something like this
 
 ![](../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
-If you need more details on how you can use Mai Finance to lend your crypto and borrow MAI \(instead of selling your crypto to buy MAI\), read other guides on this site. You can even [include AAVE into the loop](https://qidao-qimps.gitbook.io/mai-finance-tutorials/en-investment-tutorials/leverate-aave-tokens) to earn even more.
+If you need more details on how you can use Mai Finance to lend your crypto and borrow MAI \(instead of selling your crypto to buy MAI\), read other guides on this site. You can even [include AAVE into the loop](leverage-aave-tokens.md) to earn even more.
 
 ### Curve finance
 
@@ -68,13 +69,13 @@ Rewards on Curve are granted in
 
 ### AAVE
 
-There's a complete guide on how you can use Mai Finance to [lever up your crypto on AAVE](https://qidao-qimps.gitbook.io/mai-finance-tutorials/en-investment-tutorials/leverate-aave-tokens). This is not doing a direct use of MAI stable coin, but we can imagine that, in the future, AAVE will also have a MAI pool where you will be able to lend your crypto.
+There's a complete guide on how you can use Mai Finance to [lever up your crypto on AAVE](leverage-aave-tokens.md). This is not doing a direct use of MAI stable coin, but we can imagine that, in the future, AAVE will also have a MAI pool where you will be able to lend your crypto.
 
 ### QuickSwap
 
 [QuickSwap](https://quickswap.exchange/#/) is probably one of the most famous DEX \(Decentralized EXchange\) on Polygon with SushiSwap and 1Inch. It's also an AMM \(Automated Market Maker\) that allows users to efficiently trade on the Polygon network using liquidity pools. Any trade on the exchange is subject to a fee that is partially redistributed to users who deposit their liquidity on the platform.
 
-The way you can use MAI on QuickSwap is very similar to a [regular yield farm](https://qidao-qimps.gitbook.io/mai-finance-tutorials/en-investment-tutorials/secure-your-yield-farming-profits) so if you need to get exact steps to enter the MAI/USDC pool on QuickSwap, it's probably better for you to read this article.
+The way you can use MAI on QuickSwap is very similar to a [regular yield farm](secure-your-yield-farming-profits.md) so if you need to get exact steps to enter the MAI/USDC pool on QuickSwap, it's probably better for you to read this article.
 
 Currently, if you enter the MAI/USDC LP \(**L**iquidity **P**rovider\) pool on QuickSwap, you will earn
 
@@ -140,7 +141,7 @@ With stable coins, the risk of liquidation is lower though, because the price va
 
 Note that Impermax is charging fees when you borrow and leverage your position. The fee corresponds to 0.1% of your final position. As an example, if I have $100 worth of MAI/USDC and I leverage 50x, my final position will worth $5,000 and I will pay a $4.90 fee corresponding to the $4,900 that I borrowed.
 
-The effect of looping the lending/borrowing combination allows to multiply the final APY. With an initial APY of 20% for MAI/USDC pair with a CDR of 110%, operating the loop 50 times, and using the formula 
+The effect of looping the lending/borrowing combination allows to multiply the final APY. With an initial APY of 20% for MAI/USDC pair with a CDR of 110%, operating the loop 50 times, and using the formula
 
 $$
 Equivalent APR = Initial APR * \sum_{i=0}^{n}{\frac{100}{CDR}}^i
@@ -169,8 +170,6 @@ Indeed, on the app you can also provide liquidity to those who want to apply lev
 ![Rates for supplying and borrowing MAI on Impermax at a given time](../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
 
 This is another great way to optimize your 0% loan on Mai Finance. Not only you don't have to pay anything to borrow MAI, but you can earn a lot of interest just by depositing it on Impermax.
-
-
 
 ## Disclaimer
 

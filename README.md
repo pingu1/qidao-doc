@@ -1,5 +1,5 @@
 ---
-tags: Mai,DeFi,Qi,QiDAO,Polygon,Loan,Lending,Borrowing,Finance
+tags: 'Mai,DeFi,Qi,QiDAO,Polygon,Loan,Lending,Borrowing,Finance'
 description: >-
   This site is maintained by the Mai Finance community and serves as a resource
   to explore the breadth of DeFi applications associated with the platform and

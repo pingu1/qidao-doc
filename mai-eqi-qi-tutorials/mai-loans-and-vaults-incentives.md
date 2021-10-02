@@ -1,5 +1,6 @@
 ---
-tags: Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,loan,reward,incentive,borrow,vault
+tags: >-
+  Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,loan,reward,incentive,borrow,vault
 description: >-
   This article is a detailed explanation of how you can use Mai Finance to
   borrow MAI at 0% interest, and get paid to do so, transforming your 0%
@@ -56,7 +57,7 @@ The maximum number of MAI that one can mint on a specific vault depends on how m
 
 As an example, if a big institution would deposit 5,000 WBTC at once and was able to borrow $100,000,000 worth of MAI, swapping the totality for more WBTC, this could drive the price of MAI down so much that the price would deviate too much from its peg, putting the whole platform at risk. Debt ceiling is the mechanism that prevents this from happening: there's a maximum amount of MAI that can be minted for a given vault type.
 
-When the debt ceiling is reached, the time at which there aren't any more available MAI to mint is recorded, and the system automatically increases the debt ceiling after 48 hours. This is considered enough time for the MAI price to stabilize \(in case of high sell pressure following a big sell off of MAI\). 
+When the debt ceiling is reached, the time at which there aren't any more available MAI to mint is recorded, and the system automatically increases the debt ceiling after 48 hours. This is considered enough time for the MAI price to stabilize \(in case of high sell pressure following a big sell off of MAI\).
 
 This means that for 48h, nobody will be able to borrow more MAI from a vault that reached its debt ceiling, unless a debt is repaid.
 
@@ -144,7 +145,7 @@ $$
 
 This corresponds more or less to the APR of the MATIC Vault, as displayed in the following screenshot:
 
-![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](../.gitbook/assets/image%20%2823%29%20%282%29.png)
+![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](../.gitbook/assets/image%20%2823%29%20%282%29%20%283%29%20%285%29.png)
 
 ### Calculating starting vaults' APRs
 
@@ -177,33 +178,30 @@ Rewards allocated by the vault incentives will be distributed the same way as fo
 
 If you want to know more about the way Vault incentives are working, here's an official FAQ from the Discord server.
 
-*  **What vaults are receiving rewards?**
+* **What vaults are receiving rewards?**
 
 Right now all the vault types have been allocated Qi rewards
 
-*  **How much rewards are given out for the borrowing incentives?**
+* **How much rewards are given out for the borrowing incentives?**
 
 0.05 Qi/block for each vault type
 
-*  **How much MAI do I need to borrow to earn rewards?**
+* **How much MAI do I need to borrow to earn rewards?**
 
- For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:
+  For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:
 
-*  _Matic_ - Liquidation ratio 150% - Eligible for Incentives between 175% and 420% 
+* _Matic_ - Liquidation ratio 150% - Eligible for Incentives between 175% and 420%
 * _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400% 
 * _CamTokens_: - Liquidation ratio 135% - Eligible for Incentives between 160% and 405%
+* **How can I see if my vault is earning rewards?**
 
+  If you see the fire emoji on your vault overview page that means that vault is earning rewards
 
-
-*  **How can I see if my vault is earning rewards?**
-
- If you see the fire emoji on your vault overview page that means that vault is earning rewards
-
-*  **How much will I earn?**
+* **How much will I earn?**
 
 Your percent of the reward pool is based on the percentage of MAI you borrowed compared to the total amount of MAI borrowed from that vault type.
 
-*  **How long will the incentives program last?**
+* **How long will the incentives program last?**
 
 The scheduled length of the borrowing incentives program is to last 3 months. The DAO can vote to stop incentives before the 3 months is over or vote to extend the program.
 

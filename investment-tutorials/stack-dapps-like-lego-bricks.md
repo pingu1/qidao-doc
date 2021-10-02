@@ -1,5 +1,6 @@
 ---
-tags: Mai,Finance,Qi,QiDAO,Polygon,MATIC,DeFi,QuickSwap,Impermax,Adamant,AAVE,lego,APR,APY,yield
+tags: >-
+  Mai,Finance,Qi,QiDAO,Polygon,MATIC,DeFi,QuickSwap,Impermax,Adamant,AAVE,lego,APR,APY,yield
 description: >-
   This tutorial will presents in details how you can use different DApps on 
   Polygon to increase your benefits when farming stable coins.

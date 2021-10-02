@@ -1,5 +1,5 @@
 ---
-tags: Mai,Finance,Qi,QiDAO,Polygon,MATIC,DeFi,real life,ethereum,mining,ETH,GPU
+tags: 'Mai,Finance,Qi,QiDAO,Polygon,MATIC,DeFi,real life,ethereum,mining,ETH,GPU'
 description: >-
   Mai Finance proposes loans with 0% interest rates and a single 0.5% repayment
   fee. This is particularly useful to leverage investments on DeFi on Polygon,
@@ -118,6 +118,4 @@ This tutorial is absolutely not financial advice and should absolutely not be ta
 {% hint style="info" %}
 Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
 {% endhint %}
-
-
 

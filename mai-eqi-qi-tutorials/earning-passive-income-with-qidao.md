@@ -1,5 +1,6 @@
 ---
-tags: Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,staking,passive,income,qipowah,eqi
+tags: >-
+  Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,staking,passive,income,qipowah,eqi
 description: >-
   Passive income is the art of making money which flows in regular interval of
   time by doing minimal work for it. Now, Qi DAO lets you do the same by locking
@@ -20,9 +21,9 @@ This share of revenue is distributed to the people who stake and lock their QI t
 
 ## Introduction to snapshots
 
- A snapshot is basically a recording of the the state of a blockchain on a particular block height, this means that the snapshot will record the contents of the entire blockchain ledger, which includes all existing addresses and their associated data \(transactions, fees, balance, so on\). Since Qi is on the Polygon blockchain we can check when the next snapshot is going to take place in [Polygonscan](https://polygonscan.com/). 
+A snapshot is basically a recording of the the state of a blockchain on a particular block height, this means that the snapshot will record the contents of the entire blockchain ledger, which includes all existing addresses and their associated data \(transactions, fees, balance, so on\). Since Qi is on the Polygon blockchain we can check when the next snapshot is going to take place in [Polygonscan](https://polygonscan.com/).
 
-You become eligible for the rewards if you stake your Qi tokens for at least ~10 days depending on when you lock your tokens. In other words, a valid staking period should contain at least 2 snapshots,  so you'll get paid the Wednesday following the 2nd snapshot.
+You become eligible for the rewards if you stake your Qi tokens for at least ~10 days depending on when you lock your tokens. In other words, a valid staking period should contain at least 2 snapshots, so you'll get paid the Wednesday following the 2nd snapshot.
 
 ![How to become eligible for the Qi rewards](../.gitbook/assets/unknown.png)
 
@@ -59,7 +60,7 @@ Congratulations, now you are officially a Qi staker you will receive on the foll
 
 ### Stats of the Qi Powah
 
-If you want to check the stats of the Qi Boosting, you can go to this [page ](https://app.mai.finance/boost/stats)to check the amount of Qi locked, as well as the average lock time or the revenue that the protocol earn each week. 
+If you want to check the stats of the Qi Boosting, you can go to this [page ](https://app.mai.finance/boost/stats)to check the amount of Qi locked, as well as the average lock time or the revenue that the protocol earn each week.
 
 ## FAQs of Qi Staking
 
@@ -91,9 +92,6 @@ $QI staking rewards are distributed in $QI.
   * 100% gains from farming deposit fee revenue \($2,245,681 used to farm as of week 14\) 
   * 30% of repayment fee revenue \($18,362 average weekly revenue\)
   * 30% of Anchor/Swap fee revenue \($178,365 average weekly revenue\)
-
-
-
 * **What is eQI and what can I do with it?** 
 
 eQI \(escrowed QI\) represents the boost that you're getting on your voting power and Qi rewards. So for the purposes of voting and getting Qi rewards, 1 eQi counts as 1 Qi

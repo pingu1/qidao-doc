@@ -1,5 +1,7 @@
 ---
-tags: Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,yield,farming,stable coin,miMATIC
+tags: >-
+  Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,yield,farming,stable
+  coin,miMATIC
 description: >-
   This page presents in details a "safe" strategy to make yield farming a little
   less profitable, but a lot more secure.
@@ -37,7 +39,7 @@ In the guide, we will try to implement as much financial security as possible. T
 In order to start farming using MAI/USDC pair, you need to acquire some stable coins. Mai Finance allows you to borrow the MAI stable coin by depositing your favorite crypto currency. In our case, we have a bunch of MATIC in our wallet, ready to be used. By depositing my MATIC into the [MATIC vault](https://app.mai.finance/vaults/matic) on Mai Finance, I can borrow MAI. If you need assistance doing that, please join the Discord server and ask the community. You can also read other tutorials on this site where you may find how to do this.
 
 {% hint style="info" %}
-You can deposit your MATIC tokens in your MATIC vault, but you can also deposit them into AAVE to get amWMATIC, deposit them on Mai Finance on the yield page to get camWMATIC, and use these camWMATIC as collateral. You will be able to borrow the same amount of MAI, but you will also earn additional yield on your MATIC. See [Leverage your AAVE tokens](https://qidao-qimps.gitbook.io/mai-finance-tutorials/investment-tutorials/leverage-aave-tokens) to get more details on how to do this. 
+You can deposit your MATIC tokens in your MATIC vault, but you can also deposit them into AAVE to get amWMATIC, deposit them on Mai Finance on the yield page to get camWMATIC, and use these camWMATIC as collateral. You will be able to borrow the same amount of MAI, but you will also earn additional yield on your MATIC. See [Leverage your AAVE tokens](https://qidao-qimps.gitbook.io/mai-finance-tutorials/investment-tutorials/leverage-aave-tokens) to get more details on how to do this.
 {% endhint %}
 
 Once you borrowed MAI stable coins, you can use the [anchor page](https://app.mai.finance/anchor) on Mai Finance to convert half of your loan into USDC. Indeed, when you farm using LP pairs, the two parts of the pair need to be provided in a 1:1 ratio.

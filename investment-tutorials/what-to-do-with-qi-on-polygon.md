@@ -1,5 +1,6 @@
 ---
-tags: Mai,Finance,Qi,QiDAO,Polygon,MATIC,DeFi,Balancer,QuickSwap,yield,Adamant,Impermax,staking
+tags: >-
+  Mai,Finance,Qi,QiDAO,Polygon,MATIC,DeFi,Balancer,QuickSwap,yield,Adamant,Impermax,staking
 description: >-
   This guide will explain in details how you can use your Qi, the native token
   from Mai Finance, on Polygon. We will also analyze if Qi is a good investment
