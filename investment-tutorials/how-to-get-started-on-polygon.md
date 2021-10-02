@@ -1,4 +1,5 @@
 ---
+tags: Mai,Finance,Polygon,Metamask,Qi,QiDAO,tutorial,setup,RPC,PolygonScan,DeFi,start,wallet,MATIC
 description: >-
   In this guide we'll explain everything you need to know in order to start
   using the different DApps that Polygon has on its blockchain.
