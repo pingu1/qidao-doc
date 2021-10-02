@@ -1,4 +1,5 @@
 ---
+tags: Mai,Finance,Qi,QiDAO,Polygon,MATIC,DeFi,Balancer,Curve,QuickSwap,yield,Adamant,Impermax
 description: >-
   This tutorial will present the different options that will let you use your
   freshly minted MAI on Polygon.
