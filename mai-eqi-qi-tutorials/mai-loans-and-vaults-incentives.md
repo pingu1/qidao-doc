@@ -143,7 +143,7 @@ $$
 
 This corresponds more or less to the APR of the MATIC Vault, as displayed in the following screenshot:
 
-![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](../.gitbook/assets/image%20%2823%29.png)
+![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](../.gitbook/assets/image%20%2823%29%20%282%29%20%283%29.png)
 
 ### Calculating starting vaults' APRs
 

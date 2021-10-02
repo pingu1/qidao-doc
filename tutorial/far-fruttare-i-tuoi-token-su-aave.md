@@ -5,11 +5,11 @@ description: >-
   0% di Mai Finance al protocollo Aave.
 ---
 
-# Come far fruttare i tuoi token Aave
+# Come far fruttare i tuoi token su Aave
 
 ## Quando un'immagine vale più di mille parole
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2821%29%20%282%29.png)
 
 ## Ma in fondo mille parole non sono poi così male
 

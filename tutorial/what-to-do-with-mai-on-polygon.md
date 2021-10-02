@@ -1,73 +1,71 @@
 ---
-description: >-
-  This tutorial will present the different options that will let you use your
-  freshly minted MAI on Polygon.
+description: Questo tutorial illustra le varie opzioni di utilizzo dei tuoi MAI su Polygon.
 ---
 
-# What to do with MAI on Polygon
+# Cosa fare con Mai su Polygon
 
-## Goal of this tutorial
+## Obbiettivo di questo tutorial
 
-The goal of this tutorial is not to present in details what you can do with your MAI stable coin, but have a list of all the websites and DeFi application that you can use on Polygon that will let you use your MAI directly, or in combination with other stable coins. For more details about specific ways to use MAI, you can refer to other tutorials on this site, or get help on Discord or Telegram.
+L'obiettivo di questo tutorial non è presentare in dettaglio cosa puoi fare con la tua stable coin MAI ma avere un elenco di tutti i siti Web e applicazioni DeFi che puoi utilizzare su Polygon che ti permettano di utilizzare i tuoi MAI direttamente o in combinazione con altre stable coin. Per maggiori dettagli su modi specifici di utilizzare MAI, puoi fare riferimento ad altri tutorial su questo sito o ottenere aiuto su [Discord](https://discord.gg/aRghpvhV) o [Telegram](https://t.me/QiDaoProtocol).
 
-Please note that the list is not complete, and will never be since there are new dapps launching every week on the network. I can't review them all, so I will only present the main options, or the most famous / most "secured" options.
+Si prega di notare che l'elenco non è completo e non lo sarà mai poiché ci sono nuove dApp lanciate ogni settimana sulla rete. Non possiamo recensirle tutte quindi presenterò solo le opzioni principali, ovvero le opzioni più famose/più "sicure".
 
-If you want a particular project to be listed, please join the Qi community on [Discord](https://discord.gg/mQq55j65xJ).
+Se vuoi che un particolare progetto sia elencato, per favore unisciti alla comunità Qi su [Discord](https://discord.gg/mQq55j65xJ).
 
 {% hint style="info" %}
-I will not present Mai Finance farms. This subject deserves its own tutorial, because Qi is not like any other random farm token.
+Non presenterò le farm di Mai Finance. Questo argomento merita il suo tutorial, perché Qi non è come qualsiasi altro token farm.
 {% endhint %}
 
-## Farming safely on bluechip projects
+## Farmare in sicurezza sui progetti maggiori \(bluechip\)
 
-Bluechip projects are the DeFi applications that proved to be solid and present a lower risk. They are usually audited and the team behind them have been working on then for a long time. They usually don't have huge APRs \(**A**nnual **P**ercentage **R**ate\) but they can be trusted.
+I progetti Bluechip sono le applicazioni DeFi che si sono dimostrate solide e presentano un rischio minore. Di solito sono controllati e il team di sviluppo ci ha lavorato per molto tempo. Di solito non hanno APR \(tasso percentuale annuo\) altissimi ma sono affidabili e sicure.
 
 ### Balancer
 
-[Balancer](https://polygon.balancer.fi/#/) is an automated portfolio manager, liquidity provider, and price sensor. On the platform, you will be able to lend your crypto and you collect fees from traders, who rebalance your portfolio by following arbitrage opportunities. If you need more details about Balancer, please go read [the official doc](https://docs.balancer.fi/).
+[Balancer](https://polygon.balancer.fi/#/) è un gestore di portafoglio automatizzato, fornitore di liquidità e rilevatore di prezzi. Sulla piattaforma potrai prestare le tue crypto valute e riscuotere commissioni dai trader, che riequilibrano il tuo portafoglio seguendo opportunità di arbitraggio. Se hai bisogno di maggiori dettagli su Balancer, vai a leggere il [documento ufficiale](https://docs.balancer.fi/).
 
-On Polygon network, Balancer proposes a pool composed of the 4 main stable coins: DAI, USDC, USDT and MAI \(miMATIC\). This stable pool has currently a pretty steady APR of ~20%.
+Sulla rete Polygon, Balancer propone un pool composto dalle 4 principali stable coin: DAI, USDC, USDT e MAI \(miMATIC\). Questo pool stabile ha attualmente un APR abbastanza stabile di ~ 20%.
 
 ![Stable coin pool state as of August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
 
-The best thing about Balancer is that you absolutely don't need to own the 4 coins to deposit into the pool. Balancer will automatically generate a balanced combination with whatever deposit you make. This means that if you have 100$ worth of MAI, you can simply deposit them into the Balancer pool and let the algorithm slip it properly to have a 25% ratio for each coin depending on their respective price at the moment of the deposit.
+La cosa più bella di Balancer è che non hai assolutamente bisogno di possedere le 4 monete da depositare nel pool. Balancer genererà automaticamente una combinazione bilanciata a prescidere dal  deposito effettuato. Ciò significa che se hai 100$ di MAI, puoi semplicemente depositarli nel pool di Balancer e lasciare che l'algoritmo lo coverta correttamente per avere un rapporto del 25% per ogni moneta a seconda del loro rispettivo prezzo al momento del deposito.
 
-Rewards for the pool are paid using the BAL token, distributed on a weekly basis. In addition to the BAL token, additional rewards can be granted depending on the pool you entered. You can check the different [incentives program here](https://balancer-incentives.web.app/). In our case, participating in the stable pool will also earn you MATIC and Qi rewards.
+I premi per il pool vengono pagati utilizzando il token BAL, distribuito su base settimanale. Oltre al token BAL, possono essere concessi premi aggiuntivi a seconda del pool in cui hai depositato. Puoi controllare i differenti [programmi di incentivi qui](https://balancer-incentives.web.app/). Nel nostro caso, la partecipazione al pool stabile ti farà guadagnare anche premi MATIC e Qi.
 
-The complete flow would be something like this
+Il ciclo completo può essere rappresentato così:
 
 ![](../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
-If you need more details on how you can use Mai Finance to lend your crypto and borrow MAI \(instead of selling your crypto to buy MAI\), read other guides on this site. You can even [include AAVE into the loop](https://qidao-qimps.gitbook.io/mai-finance-tutorials/en-investment-tutorials/leverate-aave-tokens) to earn even more.
+Se hai bisogno di maggiori dettagli su come utilizzare Mai Finance per depositare le tue crypto valute e prendere in prestito MAI \(invece di vendere le tue crypto valute per acquistare MAI\), leggi altre guide su questo sito. Puoi anche [includere Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-Ml1OUN9zNLQIeHPCX6O/v/italian/tutorial/far-fruttare-i-tuoi-token-aave/@drafts) per generare ulteriori profitti.
 
 ### Curve finance
 
-A little bit of click-bait here. [Curve](https://polygon.curve.fi/) is another platform where you will be able to lend your crypto assets in pools that will generate revenues, but not MAI directly \(not yet?\). The pools we are interested in are
+Un po' di click-bait qui. [Curve](https://polygon.curve.fi/) è un'altra piattaforma in cui potrai depositare le tue crypto valute  in pool che genereranno entrate ma non direttamente MAI \(non ancora?\). I pool che ci interessano sono:
 
-* the AAVE pool that will generate between 5% and 15% APR \(APR varies a lot\) on a stable coins trio \(DAI/USDC/USDT\). The pool works exactly like Balancer in the way that you can enter the pool using a single asset that will be used on AAVE by the protocol.
-* the atricrypto pool that is composed of the stable coin trio and includes wETH and wBTC too to mitigate impermanent losses. This pool has an APR ranging between 25% and 30%. The Mai Finance team is currently trying to have MAI added to this pool too, meaning that you may be able to enter it with your minted MAI directly.
+* il pool AAVE che genera tra il 5% e il 15% APR \(APR molto variabile\) su un trio di stable coin \(DAI/USDC/USDT\). Il pool funziona esattamente come Balancer nel senso che puoi entrare nel pool utilizzando un singolo asset che verrà utilizzato su AAVE dal protocollo.
+* il pool atricrypto  è composto dal trio di stable coin \(DAI/USDC/USDT\) e include anche wETH e wBTC per mitigare l'impermanent loss. Questo pool ha un APR compreso tra il 25% e il 30%. Il team di Mai Finance sta attualmente cercando di aggiungere MAI a questo pool, il che significa che potresti essere in grado di depositare direttamente i tuoi MAI.
 
-While waiting for the Curve protocol to accept MAI as a valid stable coin in their pools, you can still use your favourite crypto with Curve by following these steps \(example with MATIC\)
+In attesa che il protocollo Curve accetti MAI come stable coin valida nei propri pool, puoi comunque utilizzare la tua crypto valuta preferita con Curve seguendo questi passaggi \(esempio con MATIC\):
 
-* Deposit your MATIC token on AAVE and collect amWMATIC
-* Deposit your amWMATIC on Mai Finance and collect camWMATIC \(the AAVE rewards will be compounded into the camWMATIC tokens\)
-* Use the camWMATIC as a collateral on Mai Finance and borrow MAI against it
-* Use the [swap page](https://app.mai.finance/swap) on Mai Finance to swap all of your MAI for USDC
-* Then you can
-  * Enter the atricrypto pool on Curve with your USDC and get 25% to 30% reward
-  * Enter the AAVE pool on Curve with your USDC and get 5% to 15% reward
+* Deposita i tuoi token MATIC su AAVE ed ottieni amWMATIC
+* Deposita i tuoi amWMATIC su Mai Finance ed ottieni camWMATIC \(le ricompense AAVE saranno aggiunte ai token camWMATIC\)
+* Usa i token camWMATIC come collaterale su Mai Finance e prendi in prestito MAI
+* Usa la [pagina di swap](https://app.mai.finance/swap) su Mai Finance per scambiare tutti i tuoi MAI per USDC
+* Ora puoi
+  * Entrare nel pool di atricrypto su Curve con i tuoi USDC e ottenere un APR dal 25% al ​​30%
+  * Entrare nel pool AAVE su Curve con i tuoi USDC e ottenere un APR dal 5% al ​​15%
 
-Rewards on Curve are granted in
+Le ricompense su Curve sono date in:
 
-* Auto-compounded USDC that increase your position in the pool \(it will be a mix of USDC/USDT/DAI and possibly wBTC/wETH for the atricrypto pool\)
-* WMATIC that you can then use to repeat the loop above and increase your loan and invested capital
-* CRV token, that can also be used as collateral on Mai Finance to borrow more MAI and increase your invested capital
+* USDC automaticamente reinvestiti che accrescono la tua posizione nel pool \(sarà un mix di USDC/USDT/DAI e possibilmente wBTC/wETH nel caso del pool atricrypto\)
+* WMATIC che puoi utilizzare per ripetere il ciclo di cui sopra e aumentare il tuo prestito e capitale investito
+* CRV, che possono essere utilizzati anche come collaterale su Mai Finance per prendere in prestito più MAI e aumentare il capitale investito
 
 ![](../.gitbook/assets/screen-shot-2021-08-11-at-12.14.27-pm.png)
 
 ### AAVE
 
-There's a complete guide on how you can use Mai Finance to [lever up your crypto on AAVE](https://qidao-qimps.gitbook.io/mai-finance-tutorials/en-investment-tutorials/leverate-aave-tokens). This is not doing a direct use of MAI stable coin, but we can imagine that, in the future, AAVE will also have a MAI pool where you will be able to lend your crypto.
+C'è una guida completa su come usare Mai Finance per [far fruttare i tuoi token su Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-Ml1OUN9zNLQIeHPCX6O/v/italian/tutorial/far-fruttare-i-tuoi-token-aave/@drafts) This is not doing a direct use of MAI stable coin, but we can imagine that, in the future, AAVE will also have a MAI pool where you will be able to lend your crypto.
 
 ### QuickSwap
 
