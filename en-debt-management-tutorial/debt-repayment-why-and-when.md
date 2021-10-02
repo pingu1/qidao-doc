@@ -1,4 +1,5 @@
 ---
+tags: Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,debt,repayment,fee
 description: >-
   This page presents different aspects of your debt management, most
   specifically when you should consider repaying it, but also why you should
