@@ -35,7 +35,7 @@ Xin nhắc lại nhanh, Qi được ghép nối với các mã token khác nhau 
 * Qi-WETH trên QuickSwap và nhận phần thưởng là QUICK
 * Qi-QUICK trên QuickSwap và nhận phần thưởng là QUICK
 
-![B&#x1EC3; thanh kho&#x1EA3;n Qi-ETH tr&#xEA;n Quickswap](../.gitbook/assets/image%20%2819%29%20%282%29.png)
+![B&#x1EC3; thanh kho&#x1EA3;n Qi-ETH tr&#xEA;n Quickswap](../.gitbook/assets/image%20%2819%29%20%282%29%20%282%29.png)
 
 ### Farming Qi độc lập
 

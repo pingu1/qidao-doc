@@ -143,7 +143,7 @@ $$
 
 Điều này ít nhiều tương ứng với APR được hiển thị trên kho tiền MATIC đã được quảng cáo trong hội thảo QiDAO vào ngày 13 tháng 9, như được hiển thị trong ảnh chụp màn hình sau:
 
-![](../.gitbook/assets/image%20%2823%29%20%282%29.png)
+![](../.gitbook/assets/image%20%2823%29%20%282%29%20%283%29%20%281%29.png)
 
 ### Tính toán APR của hầm tiền bắt đầu
 

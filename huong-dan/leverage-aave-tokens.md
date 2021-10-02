@@ -9,7 +9,7 @@ description: >-
 
 ## Trăm nghe không bằng mắt thấy
 
-![](../.gitbook/assets/leverup.png)
+![](../.gitbook/assets/image%20%2821%29%20%281%29.png)
 
 ## Tuy vậy ngàn lời nói cũng không phải là vô dụng hoàn toàn
 
