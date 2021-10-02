@@ -1,4 +1,5 @@
 ---
+tags: Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,debt,repayment,fee
 description: >-
   This page will present different options to repay your debt on Mai Finance.
   Keep in mind that repaying a debt is never mandatory as long as you want to
