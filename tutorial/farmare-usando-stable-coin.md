@@ -40,7 +40,7 @@ Per iniziare a farmare utilizzando la coppia MAI/USDC, è necessario acquistare 
 {% hint style="info" %}
 Puoi depositare i tuoi token MATIC nel tuo vault MATIC ma puoi anche depositarli in AAVE per ottenere amWMATIC, depositarli su Mai Finance nella pagina di rendimento per ottenere camWMATIC e utilizzare questi camWMATIC come garanzia. Potrai prendere in prestito lo stesso importo di MAI ma guadagnerai anche un rendimento aggiuntivo suoi tuoi MATIC. 
 
-Leggi [Come far fruttare i tuoi token Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-Ml1OUN9zNLQIeHPCX6O/v/italian/tutorial/far-fruttare-i-tuoi-token-aave/@drafts)  per ottenere maggiori informazioni su come fare.
+Leggi [Come far fruttare i tuoi token su Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/v/italian/tutorial/far-fruttare-i-tuoi-token-su-aave/@drafts)  per ottenere maggiori informazioni su come fare.
 {% endhint %}
 
 Dopo aver preso in prestito la stable coin MAI  puoi utilizzare la pagina di [Anchor](https://app.mai.finance/anchor) su Mai Finance per convertire metà del tuo prestito in USDC. Infatti, quando si farma utilizzando coppie LP, le due parti della coppia devono essere fornite in un rapporto 1:1.
