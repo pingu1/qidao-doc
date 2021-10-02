@@ -1,4 +1,5 @@
 ---
+tags: Mai,Finance,Qi,QiDAO,Polygon,MATIC,DeFi,Solana,sol,allbridge,saber,Avalanche,avax,relaychain,traderjoe,fantom,ftm,anyswap
 description: >-
   This guide will present an overview of the different chains where the MAI
   stable coin can be used, and how you can bridge the native coin to other
