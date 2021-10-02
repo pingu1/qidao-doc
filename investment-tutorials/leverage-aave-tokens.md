@@ -9,7 +9,7 @@ description: >-
 
 ## Quando uma imagem vale mil palavras
 
-![](../.gitbook/assets/leverup.png)
+![](../.gitbook/assets/image%20%2821%29%20%281%29.png)
 
 ## But a thousand words are also not that bad
 

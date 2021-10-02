@@ -35,7 +35,7 @@ As a quick reminder, Qi is paired to different tokens to form LP \(**L**iquidity
 * Qi-WETH on QuickSwap and get rewarded with QUICK tokens
 * Qi-QUICK on QuickSwap and get rewarded with QUICK tokens
 
-![LP pool on QuickSwap for the Qi-WETH pair](../.gitbook/assets/image%20%2819%29.png)
+![LP pool on QuickSwap for the Qi-WETH pair](../.gitbook/assets/image%20%2819%29%20%282%29.png)
 
 ### Single Qi farming
 
