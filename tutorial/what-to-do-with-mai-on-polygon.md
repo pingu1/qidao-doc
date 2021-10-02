@@ -69,109 +69,109 @@ C'è una guida completa su come usare Mai Finance per [far fruttare i tuoi token
 
 ### QuickSwap
 
-[QuickSwap](https://quickswap.exchange/#/) is probably one of the most famous DEX \(Decentralized EXchange\) on Polygon with SushiSwap and 1Inch. It's also an AMM \(Automated Market Maker\) that allows users to efficiently trade on the Polygon network using liquidity pools. Any trade on the exchange is subject to a fee that is partially redistributed to users who deposit their liquidity on the platform.
+[QuickSwap](https://quickswap.exchange/#/) è probabilmente uno dei più famosi DEX \(Decentralized EXchange\) su Polygon insieme a SushiSwap e 1Inch. È anche un AMM \(Automated Market Maker\) che consente agli utenti di fare trading in modo efficiente sulla rete Polygon utilizzando i pool di liquidità. Qualsiasi operazione è soggetta a una commissione che viene parzialmente ridistribuita agli utenti che depositano la loro liquidità sulla piattaforma.
 
-The way you can use MAI on QuickSwap is very similar to a [regular yield farm](https://qidao-qimps.gitbook.io/mai-finance-tutorials/en-investment-tutorials/secure-your-yield-farming-profits) so if you need to get exact steps to enter the MAI/USDC pool on QuickSwap, it's probably better for you to read this article.
+Il modo in cui puoi usare MAI su QuickSwap è molto simile ad una farm normale ma se hai bisogno di capire i passaggi esatti per entrare nel pool MAI/USDC su QuickSwap, probabilmente è meglio chiedere supporto nel nostro [Discord](https://discord.gg/aRghpvhV).
 
-Currently, if you enter the MAI/USDC LP \(**L**iquidity **P**rovider\) pool on QuickSwap, you will earn
+Attualmente, se entri nel pool MAI/USDC LP \(Liquidity Provider\) su QuickSwap, guadagnerai:
 
-* trading fees
-* QUICK tokens
+* Commissioni di trading
+* Token QUICK
 
-![Details of the MAI/USDC pool on QuickSwap as of August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
+![Dettaglio del pool MAI/USDT su QuickSwap ad Ottobre 2021](../.gitbook/assets/schermata-2021-10-02-alle-23.10.50.png)
 
-## Degen farms and aggregators
+## Farms "Degen" e aggregatori
 
 ### Adamant
 
-[Adamant](https://adamant.finance/home) is an aggregator that is listing all the "best" farms on Polygon and let you enter them directly from their website. By depositing your assets \(LP tokens\) on a specific pool on Adamant, the algorithms will harvest the rewards granted by the pool and automatically compound part of the reward into your LP position. The rest of the reward is usually converted in WMATIC that is then redistributed to the holders of the ADDY token \(native token of Adamant\). Finally, you get a reward in ADDY tokens as well that you can harvest and vest for 90 days, earning you part of the WMATIC dividends.
+[Adamant](https://adamant.finance/home) è un aggregatore che include tutti le "migliori" farm su Polygon e ti consente di accedervi direttamente dal loro sito web. Depositando i tuoi assets \(token LP\) su un pool specifico attraverso Adamant, il loro algoritmo raccoglierà per te le ricompense del pool e reinvestirà automaticamente parte di queste nella tua posizione LP. Il resto delle ricompense viene solitamente convertito in WMATIC che viene poi ridistribuito ai possessori del token ADDY \(token nativo di Adamant\). Infine, ricevi a tua volta una  ricompensa in token ADDY che investire per 90 giorni, guadagnando parte dei dividendi WMATIC.
 
-In general, Adamant is a good place to go if you don't really care about the farm token, and if you don't want to compound your rewards manually several times a day. It also generates more revenue since you get some ADDY rewards in addition to the reward granted by the pool.
+Solitamente, Adamant è una buona scelta se non ti interessa il token della farm e se non vuoi richiedere le tue ricompense manualmente più volte al giorno. Genera anche maggiori entrate perchè ottieni ricompense ADDY oltre alle ricompense base del pool.
 
-Adamant currently supports a few pools that accept the MAI/USDC LP pair. The pools are on
+Adamant attualmente supporta alcuni pool che accettano la coppia MAI/USDC LP. I pool attivi sono:
 
-* QuickSwap: QUICK reward is swapped into more MAI/USDC LP and WMATIC rewards
-* DinoSwap: Dino reward is swapped into more MAI/USDC LP and WMATIC rewards
-* Mai Finance: Qi reward is swapped into more MAI/USDC LP and WMATIC rewards
+* QuickSwap: le ricompense in QUICK vengono swappate in MAI/USDC LP e WMATIC
+* DinoSwap: le ricompense in Dino vengono swappate in MAI/USDC LP e WMATIC 
+* Mai Finance: le ricompense in Qi vengono swappate MAI/USDC LP e WMATIC
 
-![QuickSwap MAI/USDC pool on Adamant](../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
-
-{% hint style="info" %}
-The screenshots of the QuickSwap pool on QuickSwap website \(see paragraph above\) and Adamant have been taken the same day, but are showing different APYs \(**A**nnual **P**ercentage **Y**ield\).
-{% endhint %}
-
-You can see that the APY on Adamant is a little bit higher than on QuickSwap directly. The reward breakdown is as follows
-
-* 12.88% Auto-compounded QUICK \(meaning the QUICK reward is transformed into more LP tokens\)
-* 9.16% ADDY reward \(not compounded\)
-* 3.40% fee share dividend \(claiming ADDY daily\)
-
-This means that, out of the 20.92% granted by QuickSwap, only 12.88% is used to increase your LP position, the rest is swapped into WMATIC dividends. You will be able claim your ADDY reward daily \(or anytime\) and stake them, which will will in turn generate claimable WMATIC dividends. In other words, Adamant _seems_ a better option because it has better APYs and compound rewards automatically, but in reality it involves a lot of manual actions too.
+![Pool QuickSwap MAI/USDC su Adamant](../.gitbook/assets/schermata-2021-10-02-alle-23.22.12.png)
 
 {% hint style="info" %}
-Using Adamant also has a strong impact of native token prices. Indeed, because Adamant is constantly selling the farm tokens to generate more LP pairs and WMATIC as dividends to their ADDY holders, the sell pressure is very high on farm tokens and can explain why their price is consistently decaying.
+Gli screenshots del pool QuickSwap \(vedi paragrafo sopra\) e Adamant sono stati presi lo stesso giorno, ma mostrano diversi APY \(Annual Percentage Yield\).
 {% endhint %}
 
-### Other farms accepting MAI/USDC LP pair
+Noterai che l'APY su Adamant è un po' più alto rispetto a QuickSwap. La ripartizione delle ricompense è la seguente:
 
-MAI getting more and more popularity on Polygon, and because QuickSwap supports the MAI/USDC pair, a lot of farms are now supporting it too. The following list will present a few projects on which you can earn yield using MAI/USDC
+* 12,88% di ricompense QUICK automaticamente reinvestiti \(il che significa che la ricompensa QUICK viene convertita in più token LP\)
+* 9.16% di ricompense ADDY   \(non reinvestiti\)
+* 3.40% di quota di dividendi delle commissioni \(ritirando le ricompense ADDY ogni giorno\)
+
+Ciò significa che del 20,92% concesso da QuickSwap solo il 12,88% viene utilizzato per aumentare la posizione LP, il resto viene scambiato in dividendi WMATIC. Potrai richiedere le tue ricompense ADDY ogni giorno \(o in qualsiasi momento\) e depositarli a loro volta generando dividendi in WMATIC. In altre parole, Adamant sembra un'opzione migliore perché ha APY migliori e ricompense reinvestite automaticamente, ma in realtà richiede comunque molte azioni manuali.
+
+{% hint style="info" %}
+L'utilizzo di Adamant ha anche un forte impatto sul prezzo dei token nativi. Va sottolineato che, dato che Adamant vende costantemente i token farm per generare più coppie di LP e WMATIC come dividendi ai possessori di ADDY, la pressione di vendita è molto alta sui token della farm e questo si riflette sul loro prezzo che sta diminuendo costantemente.
+{% endhint %}
+
+### Altre farm che accettando la coppia MAI/USDC
+
+MAI sta diventando sempre più popolare su Polygon e dato che QuickSwap supporta la coppia MAI/USDC anche altre farm lo stanno supportando. Il seguente è un elenco di alcuni progetti su cui è possibile guadagnare rendimento utilizzando MAI/USDC:
 
 * DinoSwap
 * Augury
 * Polypup
 * ...
 
-Other farms may also accept the MAI/USDC pool. If you want to stay informed about new farms and their launch date, I strongly recommend taking a look at the [RugDoc.io calendar](https://rugdoc.io/calendar/) for Polygon farms, and possibly to the rest of their website which will present a very smart overview of each farm, as well as their potential risks.
+Anche altre farm accettano il pool MAI/USDC. Se vuoi rimanere informato su nuove farm e sulla loro data di lancio, ti consiglio vivamente di dare un'occhiata al [calendario Rugdoc.io](https://rugdoc.io/calendar/) per le farm Polygon e possibilmente al resto del sito che presenta una panoramica molto ben fatta di ciascuna farm, classificandole anche per fattore di rischio.
 
 ## Impermax
 
-### A little bit of explanation
+### Un po' di informazioni
 
-[Impermax](https://polygon.impermax.finance/) is a platform that let users leverage their LP tokens for higher yields. The goal is very simple: by providing LP tokens and using them as collateral, one can then borrow more of the 2 underlying assets to generate more LP tokens and repeat the loop.
+[Impermax](https://polygon.impermax.finance/) è una piattaforma che consente agli utenti di sfruttare i propri token LP per ottenere rendimenti più elevati. L'obiettivo è molto semplice: depositando i token LP e utilizzandoli come garanzia è possibile prendere in prestito più dei 2 asset sottostanti per generare più token LP e ripetere il ciclo.
 
-![Impermax loop explained](../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
+![Ciclo Impermax spiegato](../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
 
-When doing so, the user is exposed to impermanent loss, and the loss is magnified by the number of times the loop is repeated. The risk of liquidation is also multiplied when too many loops are applied. Indeed, if the APR is multiplied, the price variation of the two coins forming the pair is amplified by the lever effect, leading to faster liquidation.
+Quando l'utente entra nel ciclo è esposto all'impermanent loss e la perdita viene amplificata dal numero di volte in cui viene ripetuto il ciclo. Il rischio di liquidazione si moltiplica anche quando vengono applicati troppi cicli. Infatti, moltiplicando l'APR, la variazione di prezzo delle due monete che compongono la coppia viene amplificata dall'effetto leva, portando ad una liquidazione più rapida.
 
-With stable coins, the risk of liquidation is lower though, because the price variation is negligible. This also means that the Collateral to Debt Ratio \(CDR\) can be very close to 100%, leading to a high number of loops, hence a high APR.
+Con le stable coin però il rischio di liquidazione è minore perché la variazione di prezzo è trascurabile. Ciò significa anche che il rapporto tra Collaterale e Debito \(CDR\) può essere molto vicino al 100%, portando a un numero elevato di cicli e quindi un APR elevato.
 
-Note that Impermax is charging fees when you borrow and leverage your position. The fee corresponds to 0.1% of your final position. As an example, if I have $100 worth of MAI/USDC and I leverage 50x, my final position will worth $5,000 and I will pay a $4.90 fee corresponding to the $4,900 that I borrowed.
+Tieni presente che Impermax addebita commissioni quando prendi in prestito e metti in leva la tua posizione. La commissione corrisponde allo 0,1% della tua posizione finale. Ad esempio, se ho $100 di MAI/USDC e faccio leva 50x, la mia posizione finale avrà un valore di $5.000 e pagherò una commissione di $4,90 dovuta ai $4,900 che ho preso in prestito.
 
-The effect of looping the lending/borrowing combination allows to multiply the final APY. With an initial APY of 20% for MAI/USDC pair with a CDR of 110%, operating the loop 50 times, and using the formula
+L'effetto dei cicli combinati di deposito/prestito consente di moltiplicare l'APY finale. Partendo da un APY iniziale del 20% per la coppia MAI/USDC e con un CDR del 110%, facendo 50 cicli e utilizzando la formula
 
 $$
-Equivalent APR = Initial APR * \sum_{i=0}^{n}{\frac{100}{CDR}}^i
+APREquivalente = APRIniziale * \sum_{i=0}^{n}{\frac{100}{CDR}}^i
 $$
 
-We can easily get a 228% final APR. There are some other elements that will affect the final APR, namely the borrowing APR \(loan interest for borrowing more LP tokens\), and the supply/demand of both assets composing the LP pair \(directly driving the borrowing APR\).
+Possiamo facilmente ottenere un APR finale del 228%. Ci sono altri elementi che influenzano l'APR finale, vale a dire l'APR di prestito \(interesse sul prestito per ottenere più token LP\) e l'offerta/domanda di entrambi gli asset che compongono la coppia LP \(che determina direttamente l'APR di prestito\).
 
-Also, because all the rates are magnified by the number of times the loop is applied, the APR will vary drastically, and can sometimes become negative for short amount of times \(your LP token will be used to repay the negative APR\).
+Inoltre, dato che tutte le tariffe vengono amplificate dal numero di volte in cui viene applicato il ciclo, l'APR varierà drasticamente e a volte potrà diventare negativo per un breve periodo di tempo \(il tuo token LP verrà utilizzato per ripagare l'APR negativo\).
 
-### Leveraged position of my MAI/USDC pair
+### Posizione in leva della coppia MAI/USDC
 
-In the end, you are using the base APR on a much bigger value, which is earning much bigger interests, increasing the APR of your initial position.
+Alla fine, stai usando l'APR di base su un valore molto più grande, che di conseguenza sta guadagnando interessi molto più grandi, aumentando l'APR della tua posizione iniziale.
 
-![An example of Impermax dashboard with an initial $70.52 MAI/USDC pair](../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
+![Un esempio della dashboard Impermax con una coppia iniziale di $70.52 MAI/USDC](../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
 
-I can see very easily how much I'm using as collateral, how much I initially invested, what's the leverage ratio, and what are the liquidation values due to the leverage ratio. This position will give me the following ratios at the time of writing
+Puoi vedere molto facilmente quanto sto usando come garanzia, quanto ho investito inizialmente, qual è il rapporto di leva finanziaria e quali sono i valori di liquidazione dovuti al rapporto di leva finanziaria. Questa posizione mi darà i seguenti rapporti al momento della scrittura
 
-![Earnings and spendings estimation at a given time](../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
+![Stima di ricavi e spese in un determinato momento](../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
 
-The APR is granted in IMX token that can either be swapped for more MAI/USDC \(use the power of Mai Finance to borrow at 0% interest, RFTM\), or used to provide liquidity on specific pools accepting IMX on Impermax.
+L'APR viene dato in token IMX che possono essere scambiati con più MAI/USDC \(usa il potere di Mai Finance per prendere in prestito a 0% di interesse\) o utilizzato per fornire liquidità su pool specifici che accettano IMX su Impermax.
 
-### Supplying MAI to borrowers
+### Fornire MAI a chi prende in prestito
 
-Indeed, on the app you can also provide liquidity to those who want to apply leveraging loops to their positions \(they will need underlying assets to generate more LP tokens\). Lending assets is a great way to earn yield and let the borrowers take all the risks. Also, the more users are borrowing, the higher the supply APR will be.
+Sull'app infatti è possibile fornire liquidità anche a coloro che vogliono applicare i cicli di leva alle proprie posizioni \(avranno bisogno di asset sottostanti per generare più token LP\). Il prestito di assets è un ottimo modo per guadagnare e lasciare che chi prende in prestito si assuma tutti i rischi. Inoltre, più utenti prendono in prestito, maggiore sarà l'APR di offerta.
 
-![Rates for supplying and borrowing MAI on Impermax at a given time](../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
+![Tassi per offrire o prendere in prestito MAI su Impermax in un determinato momento](../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
 
-This is another great way to optimize your 0% loan on Mai Finance. Not only you don't have to pay anything to borrow MAI, but you can earn a lot of interest just by depositing it on Impermax.
+Questo è un altro ottimo modo per ottimizzare il tuo prestito a tasso 0% su Mai Finance. Non solo non devi pagare nulla per prendere in prestito MAI, ma puoi guadagnare interessi semplicemente depositandoli su Impermax.
 
 ## Disclaimer
 
-Everything is this tutorial is purely educational. The goal is to bring light to projects that I think are worthy for people evolving in the crypto world on Polygon. I obviously didn't talk about Mai Finance as a farm because a dedicated tutorial will be written very soon. Finally, this guide is ABSOLUTELY NOT meant to be applied as is, it's not any financial advice and you should not follow blindly what I wrote. Please read the docs of the different projects I mentioned before considering investing on their platforms.
+Tutte le informazioni di questo tutorial sono a scopo puramente educativo. L'obiettivo è portare alla luce progetti meritevoli di attenzione per le persone che sono entrate nel mondo delle crypto su Polygon. Ovviamente non ho parlato di Mai Finance come farm perché abbiamo già un tutorial dedicato. Infine, questa guida NON è ASSOLUTAMENTE pensata per essere applicata così com'è, non è un consiglio finanziario e non dovresti seguire ciecamente quello che vi è scritto. Si prega di leggere i documenti dei diversi progetti che sono stati menzionati prima di considerare un investimento sulle loro piattaforme.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore \(o farti perdere denaro\) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
 {% endhint %}
 

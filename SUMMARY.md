@@ -9,9 +9,12 @@
 * [Farmare usando solo stable coin](tutorial/farmare-usando-stable-coin.md)
 * [Cosa fare con Mai su Polygon](tutorial/what-to-do-with-mai-on-polygon.md)
 
+---
+
+* [What to do with Qi on Polygon](what-to-do-with-qi-on-polygon.md)
+
 ## Investment tutorials
 
-* [What to do with Qi on Polygon](investment-tutorials/what-to-do-with-qi-on-polygon.md)
 * [MAI Metaverse](investment-tutorials/mai-metaverse.md)
 * [How to use MAI in the real life](investment-tutorials/how-to-use-mai-in-the-real-life.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
