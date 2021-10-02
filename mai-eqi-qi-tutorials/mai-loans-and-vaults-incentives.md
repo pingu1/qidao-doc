@@ -1,4 +1,5 @@
 ---
+tags: Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,loan,reward,incentive,borrow,vault
 description: >-
   This article is a detailed explanation of how you can use Mai Finance to
   borrow MAI at 0% interest, and get paid to do so, transforming your 0%
