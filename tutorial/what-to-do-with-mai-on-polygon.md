@@ -36,7 +36,7 @@ Il ciclo completo può essere rappresentato così:
 
 ![](../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
-Se hai bisogno di maggiori dettagli su come utilizzare Mai Finance per depositare le tue crypto valute e prendere in prestito MAI \(invece di vendere le tue crypto valute per acquistare MAI\), leggi altre guide su questo sito. Puoi anche [includere Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-Ml1OUN9zNLQIeHPCX6O/v/italian/tutorial/far-fruttare-i-tuoi-token-aave/@drafts) per generare ulteriori profitti.
+Se hai bisogno di maggiori dettagli su come utilizzare Mai Finance per depositare le tue crypto valute e prendere in prestito MAI \(invece di vendere le tue crypto valute per acquistare MAI\), leggi altre guide su questo sito. Puoi anche [includere Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/v/italian/tutorial/far-fruttare-i-tuoi-token-su-aave/@drafts) per generare ulteriori profitti.
 
 ### Curve finance
 
@@ -65,7 +65,7 @@ Le ricompense su Curve sono date in:
 
 ### AAVE
 
-C'è una guida completa su come usare Mai Finance per [far fruttare i tuoi token su Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/v/italian/tutorial/far-fruttare-i-tuoi-token-su-aave/@drafts) .This is not doing a direct use of MAI stable coin, but we can imagine that, in the future, AAVE will also have a MAI pool where you will be able to lend your crypto.
+C'è una guida completa su come usare Mai Finance per [far fruttare i tuoi token su Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/v/italian/tutorial/far-fruttare-i-tuoi-token-su-aave/@drafts) .Non si tratta di fare un uso diretto della stable coin MAI ma possiamo immaginare che in futuro AAVE avrà anche un pool MAI dove potrai depositare le tue crypto valute.
 
 ### QuickSwap
 
