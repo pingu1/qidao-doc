@@ -1,4 +1,5 @@
 ---
+tags: Mai,finance,qi,qidao,tutorial,DeFi,Polygon,MATIC,staking,passive,income,qipowah,eqi
 description: >-
   Passive income is the art of making money which flows in regular interval of
   time by doing minimal work for it. Now, Qi DAO lets you do the same by locking
