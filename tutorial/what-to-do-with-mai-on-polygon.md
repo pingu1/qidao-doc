@@ -6,7 +6,7 @@ description: Questo tutorial illustra le varie opzioni di utilizzo dei tuoi MAI 
 
 ## Obbiettivo di questo tutorial
 
-L'obiettivo di questo tutorial non è presentare in dettaglio cosa puoi fare con la tua stable coin MAI ma avere un elenco di tutti i siti Web e applicazioni DeFi che puoi utilizzare su Polygon che ti permettano di utilizzare i tuoi MAI direttamente o in combinazione con altre stable coin. Per maggiori dettagli su modi specifici di utilizzare MAI, puoi fare riferimento ad altri tutorial su questo sito o ottenere aiuto su [Discord](https://discord.gg/aRghpvhV) o [Telegram](https://t.me/QiDaoProtocol).
+L'obbiettivo di questo tutorial non è presentare in dettaglio cosa puoi fare con la tua stable coin MAI ma avere un elenco di tutti i siti Web e applicazioni DeFi che puoi utilizzare su Polygon che ti permettano di utilizzare i tuoi MAI direttamente o in combinazione con altre stable coin. Per maggiori dettagli su modi specifici di utilizzare MAI, puoi fare riferimento ad altri tutorial su questo sito o ottenere aiuto su [Discord](https://discord.gg/aRghpvhV) o [Telegram](https://t.me/QiDaoProtocol).
 
 Si prega di notare che l'elenco non è completo e non lo sarà mai poiché ci sono nuove dApp lanciate ogni settimana sulla rete. Non possiamo recensirle tutte quindi presenterò solo le opzioni principali, ovvero le opzioni più famose/più "sicure".
 
