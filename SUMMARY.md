@@ -11,7 +11,7 @@
 
 ---
 
-* [What to do with Qi on Polygon](what-to-do-with-qi-on-polygon.md)
+* [Cosa fare con Qi su Polygon](cosa-fare-con-qi-su-polygon.md)
 
 ## Investment tutorials
 
