@@ -2,23 +2,20 @@
 
 * [La guida Non Ufficiale a Mai Finance](README.md)
 
-## Tutorial di investimento <a id="tutorial"></a>
+## Tutorial di investimento
 
-* [Come iniziare con Polygon](tutorial/come-iniziare-con-polygon.md)
-* [Come far fruttare i tuoi token su Aave](tutorial/far-fruttare-i-tuoi-token-su-aave.md)
-* [Farmare usando solo stable coin](tutorial/farmare-usando-stable-coin.md)
-* [Cosa fare con Mai su Polygon](tutorial/what-to-do-with-mai-on-polygon.md)
+* [Come iniziare con Polygon](tutorial-di-investimento/come-iniziare-con-polygon.md)
+* [Come far fruttare i tuoi token su Aave](tutorial-di-investimento/far-fruttare-i-tuoi-token-su-aave.md)
+* [Farmare usando solo stable coin](tutorial-di-investimento/farmare-usando-stable-coin.md)
+* [Cosa fare con Mai su Polygon](tutorial-di-investimento/what-to-do-with-mai-on-polygon.md)
 
 ---
 
 * [Cosa fare con Qi su Polygon](cosa-fare-con-qi-su-polygon.md)
 * [MAI Metaverse](mai-metaverse.md)
-
-## Investment tutorials
-
-* [How to use MAI in the real life](investment-tutorials/how-to-use-mai-in-the-real-life.md)
-* [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
-* [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
+* [Come usare MAI nella vita reale](how-to-use-mai-in-the-real-life.md)
+* [Stack DApps like Lego bricks](stack-dapps-like-lego-bricks.md)
+* [Farming or Staking? Or both?](farming-or-staking-or-both.md)
 
 ## MAI / eQI / Qi  Tutorials
 

@@ -27,7 +27,7 @@ Non dedicherò troppo tempo a questo argomento, c'è già una guida completa. Ti
 
 ### Farming su una coppia LP
 
-Anche in questo caso ci sono già altre pagine che presentano come includere il token Qi nella tua strategia di farming per generare rendimenti e non vendere mai nessuno dei tuoi farm token. Guarda le guide [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md) o [Farming or Staking ](investment-tutorials/farming-or-staking-or-both.md)per ulteriori dettagli.
+Anche in questo caso ci sono già altre pagine che presentano come includere il token Qi nella tua strategia di farming per generare rendimenti e non vendere mai nessuno dei tuoi farm token. Guarda le guide [Stack DApps like Lego bricks](stack-dapps-like-lego-bricks.md) o [Farming or Staking ](farming-or-staking-or-both.md)per ulteriori dettagli.
 
 Come rapido promemoria, Qi è abbinato a diversi token per formare coppie LP \(Liquidity Provider\) su QuickSwap in modo da poter farmare:
 
