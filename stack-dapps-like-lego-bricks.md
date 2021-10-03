@@ -1,65 +1,65 @@
 ---
 description: >-
-  This tutorial will presents in details how you can use different DApps on 
-  Polygon to increase your benefits when farming stable coins.
+  Questo tutorial presenterà in dettaglio come è possibile utilizzare diverse
+  DApp su Polygon per aumentare i benefici di farmare stable coin.
 ---
 
-# Stack DApps like Lego bricks
+# Impilare le dApp come i mattoncini Lego
 
-## Intro
+## Introduzione
 
-When you farm yields on a given farm, you usually get rewards under the form of native farm tokens. You then have the choice between either selling those, or keep them and hope they will gain some value over time. This guide will present a few different DApps \(**D**ecentralized **App**lications\) to maximize your yields without selling anything, while still compounding interests. This articles will also start from stable coins, because this is considered as a relatively safe strategy. However, you need to keep in mind that this is not a financial advice, and that this guide should be followed with caution as results are absolutely not guaranteed. As always, do your own research.
+Quando fai farming in una farm, di solito ricevi ricompense sotto forma di token nativi della farm stessa. Hai quindi la possibilità di scegliere se venderli o tenerli e sperare che guadagnino valore nel tempo. Questa guida presenterà alcune DApp \(Applicazioni decentralizzate\) che ti permetteranno di massimizzare i tuoi rendimenti senza vendere nulla pur continuando a far crescere la rendita. Questo articolo partirà dalle stable coin, perché sono l'ideale per una strategia relativamente sicura. Tuttavia, è necessario ricordare che questo non è un consiglio finanziario e che questa guida deve essere seguita con cautela poiché i risultati non sono assolutamente garantiti. Come sempre, fai le tue ricerche.
 
 ![](.gitbook/assets/screen-shot-2021-08-30-at-10.52.20-am.png)
 
 ## QuickSwap
 
-QuickSwap is one of the biggest AMM \(**A**utomated **M**arket **M**aker\) on Polygon. People deposit pairs of tokens into liquidity pools and earn transaction fees from other users who use the platform to swap their tokens. During a swap, QuickSwap automatically choses the best route using the different liquidity pools, and each jump from one pool to the other is subject to transaction fees that are redistributed to the liquidity suppliers.
+QuickSwap è uno dei più grandi AMM \(Automated Market Maker\) su Polygon. Gli utenti depositano coppie di token in pool di liquidità e guadagnano commissioni di transazione da altri utenti che utilizzano la piattaforma per scambiare i propri token. Durante uno swap, QuickSwap sceglie automaticamente il percorso migliore utilizzando i diversi pool di liquidità e ogni passaggio da un pool all'altro è soggetto a commissioni di transazione che vengono ridistribuite ai fornitori di liquidità.
 
 ### Stable coin farming
 
-For this exercise, we will use the MAI/USDC pair on QuickSwap. This liquidity pool, a stable pool, proposes an APY \(**A**nnual **P**ercentage **Y**ield that varies between 20% and 25%\). The yield is composed of the transaction fees \(that are accrued into the liquidity pool\) and QUICK rewards.
+Per questo esercizio utilizzeremo la coppia MAI/USDC su QuickSwap. Questo pool di liquidità, un pool di stable coin, propone un APY \(Annual Percentage Yield che varia tra il 20% e il 25%\). Il rendimento è composto dalle commissioni di transazione \(che maturano nel pool di liquidità\) e dai premi QUICK.
 
-![MAI/USDC liquidity pool on QuickSwap as of August 2021](.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
+![Pool di liquidit&#xE0; MAI/USDC su QuickSwap ad Agosto 2021](.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
-The pool gets a fix amount of QUICK tokens every day, and they are then distributed to liquidity providers according to their share of the pool. As an example, if the pool has the equivalent of $1,000,000 worth of liquidity, and you already deposited $1,000 of LP \(**L**iquidity **P**rovider\) tokens, you own 0.1% of the pool, which entitles you to 0.1% of the daily QUICK reward. Your Quick reward will then be claimable when you manage the pool you entered.
+Il pool riceve una quantità fissa di token QUICK ogni giorno, che vengono quindi distribuiti ai fornitori di liquidità in base alla loro quota nel pool. Ad esempio, se il pool ha l'equivalente di $1.000.000 di liquidità e hai già depositato $1.000 di token LP \(Liquidity Provider\), possiedi lo 0,1% del pool, che ti dà diritto allo 0,1% del premio QUICK giornaliero. La tua ricompensa in QUICK sarà quindi riscattabile direttamente dal pool in cui hai depositato.
 
-![Claiming my QUICK reward for a $20 deposit](.gitbook/assets/screen-shot-2021-08-30-at-6.39.44-am.png)
+![Riscattare le mie ricompense QUICK per un deposito di $20](.gitbook/assets/screen-shot-2021-08-30-at-6.39.44-am.png)
 
-You can claim them regularly in order to put them at work. Let's see how.
+Puoi riscattarli regolarmente per reinvestirli. Vediamo come:
 
 ### Dragon's Lair
 
-The Dragon's Lair is a way to optimize your gains on QuickSwap. You can deposit the QUICK tokens that you earn from liquidity pools into the Lair, and they will earn you additional QUICK rewards. This is a good idea if you want to keep the QUICK tokens instead of selling them. When your QUICK tokens are staked into the Dragon's Lair, the rewards they generate are automatically compounded, and the APY of the Lair is around 12%.
+Il Dragon's Lair è un modo per ottimizzare i tuoi guadagni su QuickSwap. Puoi depositare i token QUICK che guadagni dai pool di liquidità nel "Lair" e ti guadagnerai ulteriori ricompense in QUICK. Questa è una buona idea se vuoi detenere i token QUICK invece di venderli. Quando i tuoi token QUICK vengono depositati nella Dragon's Lair le ricompense generate vengono automaticamente sommate e l'APY del Lair è di circa il 12%.
 
-![Dragon&apos;s Lair APY as of August 2021](.gitbook/assets/screen-shot-2021-08-30-at-6.42.39-am.png)
+![APY del Dragon&apos;s Lair ad Agosto 2021](.gitbook/assets/screen-shot-2021-08-30-at-6.42.39-am.png)
 
-After you deposited your QUICK tokens, you will get in your wallet some dQUICK tokens that represent the share of the QUICK pool that you own. Note that the ratio QUICK:dQUICK isn't 1:1 since the dQUICK represent your share of the pool, while the amount of QUICK will increase over time as more rewards are added to the pool.
+Dopo aver depositato i tuoi token QUICK, otterrai nel tuo portafoglio alcuni token dQUICK che rappresentano la tua quota del pool QUICK. Nota che il rapporto QUICK:dQUICK non è 1:1 poiché dQUICK rappresenta la tua quota del pool mentre la quantità di QUICK aumenterà nel tempo man mano che vengono aggiunte più ricompense al pool.
 
-Now you have your stable coins deposited in the liquidity pool, and they generate QUICK rewards. The rewards are generating more rewards thanks to the Dragon's Lair. But wait, there's more ...
+Ora hai le tue stable coin depositate nel pool di liquidità che generano ricompense in QUICK. Le ricompense stanno a loro volta generando più ricompense grazie al Dragon's Lair. Ma aspetta, c'è di più...
 
 ### Dragon's Syrup
 
-The Dragon's Syrup is an additional way that QuickSwap offers to reward even more users who are holding QUICK tokens. The QuickSwap team set up a program where partners can promote their products by granting their own token to the users of the QuickSwap platform. You can then deposit your dQUICK tokens into one of the farm in order to earn these exotic tokens on top of the Dragon's Lair rewards. The one we are interested in is the ADDY farm.
+Il Dragon's Syrup è un ulteriore modo che QuickSwap offre per premiare ancora di più gli utenti che detengono token QUICK. Il team QuickSwap ha creato un programma per cui i partner possono promuovere i propri prodotti concedendo il proprio token agli utenti della piattaforma QuickSwap. Puoi quindi depositare i tuoi token dQUICK in una delle farm per guadagnare questi token "esotici" in aggiunta alle ricompense di Dragon's Lair. Quello che ci interessa è la farm ADDY.
 
-![Dragon&apos;s Syrup, a farm to collect ADDY token via dQUICK deposits](.gitbook/assets/screen-shot-2021-08-30-at-6.49.25-am.png)
+![Dragon&apos;s Syrup, una farm per ottenere token ADDY attraverso il deposito di dQUICK](.gitbook/assets/screen-shot-2021-08-30-at-6.49.25-am.png)
 
-When you deposit your dQUICK into the farm, they will disappear from the Dragon's Lair \(pretty much the same way your camTokens disappear from the Yield page on Mai Finance when you deposit them into a Vault\). But you can clearly see that the dQUICK APY from the Lair is still applied, and that you will also get additional ADDY reward. Here, the APR \(**A**nnual **P**ercentage **R**eward\) is currently 21.36%.
+Quando depositi i tuoi dQUICK nella farm, scompariranno dal Dragon's Lair \(più o meno allo stesso modo in cui i tuoi CamToken scompaiono dalla pagina Yield su Mai Finance quando li depositi in un Vault\). Ma puoi vedere chiaramente che l'APY di dQUICK dal Lair è ancora presente e che otterrai anche una ricompensa aggiuntiva ADDY. Qui, l'APR \(premio percentuale annuale\) è attualmente del 21,36%.
 
 {% hint style="info" %}
-You will notice that the Syrup farms have an expiration date. Here, the ADDY farm will expire in 50 days and 11 hours. Some new farms will show up as some older disappear.
+Noterai che le farm Dragon's Syrup hanno una data di scadenza. In questo caso, la farm ADDY scadrà tra 50 giorni e 11 ore. Alcune nuove farm appariranno mentre alcune più vecchie scompariranno.
 {% endhint %}
 
-In our case, the ADDY reward that we get can be claimed manually. You can note that the rate at which we will collect ADDY reward can only accelerate if we compound manually our QUICK rewards into dQUICK that we then deposit into the ADDY farm on QuickSwap.
+Nel nostro caso, le ricompense ADDY che otteniamo possono essere riscattate manualmente. Si può notare che il ritmo con cui riscatteremo le ricompense ADDY può solo accelerare se reinvestiamo manualmente le ricompense QUICK in dQUICK da depositare nella farm ADDY di QuickSwap.
 
-### Quick recap
+### Riassunto veloce
 
-We have MAI/USDC LP tokens deposited in the liquidity pool, and we earn
+Abbiamo i token MAI/USDC LP depositati nel pool di liquidità e guadagniamo:
 
-* swapping fees
-* QUICK rewards from the pool that we need to claim manually and add to the Dragon's Lair
-* QUICK rewards from the Dragon's Lair that are auto-compounded in our existing rewards
-* ADDY rewards from the Dragon's Syrup that we can claim
+* commissioni dalle fee di swap
+* ricompense in QUICK dal pool che dobbiamo riscattare manualmente ed aggiungere nel Dragon's Lair
+* ricompense in QUICK dal Dragon's Lair che vengono reinvestite automaticamente
+* ricompense in ADDY dal Dragon's Syrup che possiamo riscattare
 
 ## Impermax
 
