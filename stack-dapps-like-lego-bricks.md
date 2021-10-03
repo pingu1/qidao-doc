@@ -6,7 +6,7 @@ description: >-
 
 # Impilare le dApp come i mattoncini Lego
 
-## Introduzione
+## Impermax è un'applicazione che consente all'utente di sfruttare automaticamente i propri asset per amplificare le proprie posizioni in pool di liquidità. Questo viene fatto prendendo in prestito risorse aggiuntive fornite sulla piattaforma Impermax.Introduzione
 
 Quando fai farming in una farm, di solito ricevi ricompense sotto forma di token nativi della farm stessa. Hai quindi la possibilità di scegliere se venderli o tenerli e sperare che guadagnino valore nel tempo. Questa guida presenterà alcune DApp \(Applicazioni decentralizzate\) che ti permetteranno di massimizzare i tuoi rendimenti senza vendere nulla pur continuando a far crescere la rendita. Questo articolo partirà dalle stable coin, perché sono l'ideale per una strategia relativamente sicura. Tuttavia, è necessario ricordare che questo non è un consiglio finanziario e che questa guida deve essere seguita con cautela poiché i risultati non sono assolutamente garantiti. Come sempre, fai le tue ricerche.
 
@@ -63,40 +63,40 @@ Abbiamo i token MAI/USDC LP depositati nel pool di liquidità e guadagniamo:
 
 ## Impermax
 
-Impermax is an application that allows their user to leverage automatically their assets in order to amplify their positions in liquidity pools. This is done by borrowing additional assets supplied on the Impermax platform.
+Impermax è un'applicazione che consente agli utenti di sfruttare automaticamente i propri asset per amplificare le proprie posizioni in pool di liquidità. Questo viene fatto prendendo in prestito risorse aggiuntive fornite sulla piattaforma stessa.
 
-### Stable coin farmin
+### Stable coin farming
 
-For this exercise, we will also use the MAI/USDC pool in Impermax. By depositing some LP tokens into the MAI/USDC pool, we now have the option to leverage this deposit a certain number of times in order to increase our exposed capital, and gain more rewards. You need to pay attention to a few things when you're using Impermax though
+Per questo esercizio utilizzeremo il pool MAI/USDC su Impermax. Depositando alcuni token LP nel pool MAI/USDC abbiamo la possibilità di sfruttare questo deposito un certo numero di volte per aumentare il nostro capitale ottenere più ricompense. Quando si utilizza Impermax è però necessario porre attenzione ad alcuni aspetti importanti:
 
-* You can only borrow what other users supply
-* The more assets are borrowed, the higher the borrowing rate
-* If the borrowing rate becomes too high, your final APR can become negative, and then you will lose some of your LP
-* The more you leverage, the higher the APR, but the higher the borrowing rate
+* Puoi prendere in prestito solo ciò che altri utenti hanno depositato
+* Più assets vengono presi in prestito più è alto il tasso di prestito
+* Se il tasso di prestito diventa troppo alto, il tuo APR finale può diventare negativo e quindi perderai parte del tuo LP
+* Maggiore è la leva usata, più alto è l' APR ma più alto è il tasso di prestito
 
-### Levered position
+### Posizioni in leva
 
-On QuickSwap, I deposited $20 worth of MAI/USDC pair. On Impermax, I will deposit only $10 worth of MAI/USDC and will apply a x2 lever on it to get a $20 exposure.
+Su QuickSwap ho depositato $20 di MAI/USDC. Su Impermax, deposito solo $10 di MAI/USDC e applicherò una leva x2 per ottenere un'esposizione di $20.
 
-![Leverage window on Impermax at a given time](.gitbook/assets/screen-shot-2021-08-30-at-7.11.10-am.png)
+![Finestra di impostazione della leva su Impermax](.gitbook/assets/screen-shot-2021-08-30-at-7.11.10-am.png)
 
-You can see on the screenshot above that, if I increase my leverage to x2.1, I would borrow
+Potete notare dallo screenshot qui sopra che se aumentassi la mia leva a x2.1 prenderei in prestito:
 
 * 0.481269 USDC
 * 0.487593 MAI
 
-We can also see by how much the trading fees I collect would increase \(+3.45%\), as well as the increase in QUICK rewards \(+36.83%\), IMX rewards \(+23.05%\) and the borrowing rate \(-37.20%\) for a final estimated APR of 26.13%.
+Possiamo anche notare quanto aumenterebbero le commissioni di trading che raccoglierei \(+3,45%\), così come l'aumento delle ricompense QUICK \(+36,83%\), delle ricompense IMX \(+23,05%\) e del tasso di prestito \(-37,20%\) per un APR finale stimato del 26,13%.
 
-Note in this example that the Borrowing fees are paid using the QUICK rewards and the trading fees in case the QUICK rewards aren't enough. Then the IMX reward goes to the supplier if the borrowing fee isn't yet paid, and finally the deposit is used to pay the supplier if there's still something to pay.
+Vi faccio notare anche che in questo esempio le commissioni di prestito verrebbero pagate utilizzando le ricompense QUICK e le commissioni di trading nel caso in cui le ricompense QUICK non siano sufficienti. La ricompensa in IMX andrà al fornitore se la commissione di prestito non è stata ancora pagata e infine il deposito verrà utilizzato per pagare il fornitore se c'è ancora qualcosa di insoluto.
 
-Our goal here is to match the deposit we have on QuickSwap, so we'll stick to a x2 leverage. This also ensures that we don't get the risk of going into negative APRs. Our goal is not to collect as much reward as possible, but to increase our position over time, and collect IMX tokens.
+Il nostro obbiettivo è eguagliare il deposito che abbiamo su QuickSwap, quindi ci fermeremo ad una leva x2. Ciò garantirà anche di non correre il rischio di ottenere APR negativi. Il nostro obbiettivo non è raccogliere più ricompense possibili ma aumentare la nostra posizione nel tempo e riscattare token IMX.
 
-### Quick recap
+### Riassunto veloce
 
-We have MAI/USDC tokens deposited in the appropriate pool
+Abbiamo i token MAI/USDC depositati nel pool appropriato
 
-* Our position is levered two times in order to match the amount deposited in QuickSwap
-* We collect IMX tokens
+* La nostra posizione viene messa in leva X2 per eguagliare l'importo depositato in QuickSwap
+* Otteniamo token IMX
 
 ## Adamant
 
