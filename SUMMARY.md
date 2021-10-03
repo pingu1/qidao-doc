@@ -12,10 +12,10 @@
 ---
 
 * [Cosa fare con Qi su Polygon](cosa-fare-con-qi-su-polygon.md)
+* [MAI Metaverse](mai-metaverse.md)
 
 ## Investment tutorials
 
-* [MAI Metaverse](investment-tutorials/mai-metaverse.md)
 * [How to use MAI in the real life](investment-tutorials/how-to-use-mai-in-the-real-life.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
 * [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
