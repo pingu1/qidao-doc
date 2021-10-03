@@ -108,7 +108,7 @@ Ovviamente, questo sta spostando il debito che devi rimborsare alla banca in un 
 Se desideri utilizzare un rapporto collaterale/debito più aggressivo, potresti vendere meno crypto valute a fiat e depositare/prendere in prestito di più dai depositi di Mai. Ad esempio, con un CDR del 175%, venderesti l'equivalente di $316,00 di EHT e manterrai $984,00 in Mai Finance per prendere in prestito $562,00 di MAI, ripagando comunque il tuo debito di $878,00 alla banca ogni mese.
 {% endhint %}
 
-**Nota**: Tutta i calcoli fatti non includono le commissioni di transazione.
+**Nota**: Tutti i calcoli fatti non includono le commissioni di transazione.
 
 ## Disclaimer
 
