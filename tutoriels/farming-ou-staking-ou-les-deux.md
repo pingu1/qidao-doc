@@ -188,6 +188,6 @@ Finalement, après un an, un revenu valant $51,580.50 a été généré; avec un
 Le but n'était pas d'écrire une recette à suivre à l'aveugle alors, s'il vous plait, **faites vos recherches et vos propres simulations**, et n'investissez que ce que vous êtes prêts à perdre.
 
 {% hint style="info" %}
-Gardez à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut moins bien fonctionner, voir vous faire perdre de l'argent, à un autre. Restez informer, surveillez les marchés et vos investissement, et, encore une fois, **faites vos recherches**.
+Gardez à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut moins bien fonctionner, voir vous faire perdre de l'argent, à un autre. Restez informé, surveillez les marchés et vos investissements, et, encore une fois, **faites vos recherches**.
 {% endhint %}
 
