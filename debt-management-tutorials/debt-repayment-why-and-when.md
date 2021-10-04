@@ -9,7 +9,7 @@ description: >-
 
 ## Is this really a debt?
 
-Technically speaking, yes. You owe MAI to the protocol, so it's a debt. However, you shouldn't really consider the debt on Mai Finance as a debt. Indeed, you deposit something of value \(you crypto assets\) and in exchange, Mai Finance allows you to borrow a stable coin. You don't need to pay any interests on the funds you borrowed, and when you want to get your assets back, you pay a very small fee of 0.5% of what you borrowed, which is paid directly on the collateral.
+Technically speaking, yes. You owe MAI to the protocol, so it's a debt. However, you shouldn't really consider the debt on Mai Finance as a debt. Indeed, you deposit something of value \(your crypto assets\) and in exchange, Mai Finance allows you to borrow a stable coin. You don't need to pay any interests on the funds you borrowed, and when you want to get your assets back, you pay a very small fee of 0.5% of what you borrowed, which is paid directly on the collateral.
 
 So basically, Mai Finance is your crypto pawn shop.
 
