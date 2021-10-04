@@ -39,5 +39,5 @@
 * [Telegram](https://t.me/QiDaoProtocol)
 * [Discord](https://discord.gg/qidaoprotocol%20)
 * [Twitter](https://twitter.com/OhMaiGuide)
-* [Use the app](https://app.mai.finance)
+* [Usa la app](https://app.mai.finance)
 
