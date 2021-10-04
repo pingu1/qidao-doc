@@ -1,154 +1,150 @@
 ---
 description: >-
-  This page will present different options to repay your debt on Mai Finance.
-  Keep in mind that repaying a debt is never mandatory as long as you want to
-  keep your loan, and don't need your collateral.
+  Cette page présente différentes options pour rembouser votre dette sur Mai
+  Finance. Gardez à l'esprit que rembourser sa dette n'est jamais obligatoire.
 ---
 
-# Debt repayment - How?
+# Rembourser sa dette - Comment?
 
+Le marché est à la hausse et votre crypto, dans un coffre, gagne de plus en plus de valeur, tellement que vous décidez de la vendre. Cependant, puisque votre crypto se trouve dans un coffre sur Mai Finance, vous ne pouvez pas la récupérer entièrement, à moins de rembourser votre dette.
 
+Le marché est à la baisse et votre crypto perd rapidement en valeur. Vos revenus ne sont pas suffisants pour compenser les dégâts et garder un ratio Collatéral/Dette \(CDR, Collateral to Debt Ratio\) sain, et la liquidation est proche. Il est temps de rembourser votre dette pour limiter les pertes et éviter la liquidation.
 
-The market is on a bull run and your crypto, locked in the Vault, is gaining more and more value, so much that you decided to sell it. However, because it's in the Vault on Mai Finance, you can't totally unlock it unless you repay your loan.
+Si vous n'êtes pas dans une de ces situations, il n'est probablement pas utile de rembourser votre dette. Pour plus de détails, vous pouvez regarder cet article [Debt repayment - Why and When?](debt-repayment-why-and-when.md).
 
-The market is bearish, and your crypto is losing value very quickly. You don't generate yield fast enough to cover up the damages and keep an healthy Collateral to Debt Ratio \(CDR\), and liquidation is near. It's time to repay your debt to make sure you're not losing too much, and prevent liquidation.
+## Remboursement, complet ou partiel, avec des fiats
 
-If you are not in any of the above situation, it's probably not worth repaying your debt. Please see the chapter on [Debt Repayment](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/fr/investment-tutorials/debt-repayment-why-and-when) for more details.
+La méthode de remboursement la plus directe est d'utiliser des fiats, particulièrement si vous ne voulez pas toucher vos collatéraux et autres investissements.
 
-## Partial or Full repayment using fiat
+Mai Finance a un partenariat avec [Transak](https://transak.com/) pour facilement acheter, avec des fiats, des cryptos sur le réseau Polygon. Pour ce faire, aller sur [Mai Finance](https://app.mai.finance/) et cliquez sur le bouton "Buy" dans la barre de menus, en haut à droite. Une fenêtre va s'ouvrir, elle vous permet d'acheter du MATIC, ainsi que d'autres cryptos, et les envoyer directement sur votre adresse Polygon.
 
-The most direct way to repay your debt is to use some fiat, especially if you want to keep your collateral and other investments untouched.
+![Achat d&apos;USDC avec de l&apos;euro et envois vers Polygon.](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
 
-Mai Finance is partnering with [Transak](https://transak.com/) to easily bridge money bought by Credit / Debit Cards, or bank transfers, directly to the Polygon network. Simply head to Mai Finance and click the transak icon in the menu bar to open a modal that will let you purchase some MATIC and send them directly to your Polygon wallet.
+Le problème principal de cette méthode est le temps pour traiter la transaction. Cependant, cela vous permet d'échanger votre USDC pour du MAI et rembourser votre dette, entièrement ou partiellement.
 
-![Buying some USDC from fiat and bridging to Polygon directly](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
+## Rembouser en utilisant les bénéfices de votre prêt
 
-The main issue is the time taken to process the transaction. However, doing so will let you swap USDC for MAI and then partially or fully repay your debt.
+### Remboursement Partiel
 
-## Repayment using the benefits of your loan
+La plupart des gens vont emprunter du MAI sur Mai Finance pour investir dans d'autres projets. Les cultivateurs de revenus qui utilisent MAI seront surement ceux qui ont le plus de réussite pour générer des ressources supplémentaires, et, avec espoir, ne pas perdre d'argent dans des fermes dégénérées. Si vous êtes dans ce cas, vous avez 2 options
 
-### Partial Repayment
+* rembourser votre prêt avec les revenus générés
+* réinvestir vos gains \(dans le même projet, ou un autre\)
 
-Most people will want to borrow MAI on Mai Finance in order to invest into specific projects. Yield farmers that are using MAI will most probably be successful generating additional resources and will hopefully not lose money on degen farms. If you're in that case, you have 2 options
+Dans la majorité des cas, il est probablement meilleur de réinvestir vos gains. En effet, en accumulant vos récompenses, l'APR \(Annual Percentage Revenu\) est appliqué sur un montant plus grand, ce qui génère plus de revenus. Allez jeter un oeil à nos guides d'investissement **pour vous faire une idée** de comment maximiser vos revenus.
 
-* repay your loan with the generated revenue
-* re-invest your gains into the same \(or another\) project
+Cependant, certaines personnes n'aiment pas l'idée d'avoir une dette et vont vouloir rembourser aussi vite que possible. Si c'est votre cas, vous pouvez simplement échanger vos gains pour du MAI et rembourser votre dette.
 
-In most cases, it's probably better to re-invest your gains. Indeed, by compounding your rewards, APR \(**A**nnual **P**ercentage **R**evenue\) is applied on a bigger amount, which in turns generates more revenue. See our investment guides to get ideas on how you can maximize your investments.
+* Ouvrez les info de votre Vault
+* Cliquez sur `Repay` en dessous de `Manage`
+* Entrez le montant que vous voulez rembourser.
+* Cliquez sur `Repay Mai`
 
-However, some people simply don't like the idea of having a debt, and will want to repay it as quickly as possible. If that's your case, you can simply swap your gains into MAI, and repay your debt.
+![Remboursement partiel de ma dette](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
 
-* Open your Vault info
-* Select the `Manage` option
-* Select the Repay tab at the bottom of your Vault
-* Enter any amount you want to repay
-* Click `Repay MAI` and you're done
+Comme exemple
 
-![Partially repaying a portion of my debt](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
+* Vous avez $1,000.00 de camWMATIC dans votre coffre, avec une dette de $400.00
+* Vous avez échangé $10.00 de jetons ADDY pour du MAI
+* Vous remboursez $10.00 aujourd'hui
+  * Votre dette est de $390.00
+  * La valeur de votre camWMATIC est de $999.95 \(0.5% de $10 ont été payé pour les frais de remboursement\)
 
-As an example
+Au bout d'un moment, vous serez capable de rembourser entièrement avec cette technique, tant que vous générez suffisamment de revenus avec votre emprunt.
 
-* You have $1,000.00 worth of camWMATIC in your vault, with a debt of $400.00
-* You swapped $10.00 worth of ADDY tokens for MAI
-* You repay $10.00 today
-  * Your debt is now $390.00
-  * Your camWMATIC value is $999.95 \(you add to pay 0.5% of $10.00 in repayment fees\)
+Est-ce que cette stratégie est efficace? Pas vraiment, rembourser votre dette de cette manière ne change rien à part votre CDR. En effet, votre collatéral reste partiellement bloqué tant que vous avez une dette, et si vous utilisez des jetons "cam" en collatéral, avoir une dette, ou non, ne change pas le fait que votre collatéral génère du revenu. Le seul avantage est de pouvoir, possiblement, retirer une partie de votre collatéral et vous servir ailleurs / le vendre.
 
-At some point, you will be able to totally repay your debt using this technique, as long as you can generate enough revenue via your loan.
+### Remboursement Complet
 
-Is this strategy efficient? Not really. Repaying your debt this way doesn't change anything except for your CDR. Indeed, your collateral remains partially locked until you totally repay your debt, and if you're using amTokens as collateral, whether you have a debt or not will not change the fact that your collateral is generating yield. The only advantage is that you can possibly withdraw a portion of your collateral and re-use it somewhere else / sell it.
+Une autre approche, très similaire, est de rembourser tout d'un coup. Dans l'exemple au-dessus, au lieu de rembourser $10 tous les jours, je pourrais, à la place, réinvestir ces $10 pour générer des revenus plus vite. Je peux aussi les investir dans un autre projet qui génèrerait des revenus. Quand j'ai reçu l'équivalent de $400, qui correspondent à mon emprunt, je peux tout rembourser.
 
-### Full Repayment
+## Rembourser en utilisant votre collatéral
 
-Another approach, very similar to the above strategy, is to repay everything at once. In the example above, instead of repaying $10.00 every few days, I could instead compound the $10.00 earned into my investment to generate yield faster. I can also invest these gains into another project that would also generate revenue. Once I received the equivalent of $400.00 that corresponds to my loan, I can repay everything at once.
+### Idée principale
 
-## Repayment using your collateral
+Sur Mai Finance, vous pouvez emprunter du MAI en déposant un certain montant de collatéral dans un coffre. Le ratio de collatéral/dette doit toujours être au-dessus d'un certain pourcentage, 130-135 pour la plupart des coffres. Cela veut dire, pour un ratio de 150%, que pour chaque $100 de collatéral, vous pouvez emprunter au plus $66.66 de MAI.
 
-### Main idea
+Cependant, un coffre ayant son CDR inférieur ou égal à la limite va être en position de se faire liquider car il sera considéré comme trop risqué. Cette position signifie que n'importe qui peut rembourser 50% de votre dette, en utilisant ses fonds, et être payé pour avec une portion de votre collatéral \(la valeur de la dette + 10%\). [La documentation officielle](https://docs.mai.finance/liquidation) donne plus de détails. 
 
-On Mai Finance, you can borrow MAI stable coins by depositing a certain amount of collateral in a vault. The collateral to debt ratio needs to always be above a certain threshold, 150% for most vaults. This means, for a 150% CDR, that for any $100 worth of collateral, you can only borrow $66.6667 of MAI.
+Garder un ratio élevé est une bonne pratique pour éviter la liquidation mais, même avec un ratio proche de 150%, il est facile de voir que la valeur du collatéral est **toujours** plus élevée que celle de la dette. Cela veut dire que vous pouvez, en théorie, rembourser votre dette en vendant une partie de votre collatéral.
 
-However, this would directly put you in a liquidation position. This means that the health of your vault is considered too risky, and anyone can repay a portion of your debt using their funds and get paid back by getting a portion of your collateral. For more details about liquidation, please read [the official documentation](https://docs.mai.finance/liquidation).
+### Comment utiliser un collatéral
 
-It's usually considered best practice to keep a high collateral to debt ratio to prevent liquidation, but even with a CDR close to 150%, it's easy to see that the value of the collateral is ALWAYS bigger than the value of the debt. This means that you can, in theory, repay your debt by selling some of your collateral asset.
-
-### How to use collateral
-
-Let's consider a vault with $1,000.00 worth of MATIC and a $500.00 debt. The CDR is 200%. The minimum CDR is 150%. In this example, we want to repay the debt completely, but we want to avoid liquidation, and we will try to never go bellow a 160% CDR when withdrawing our collaterals. We will be using the following formulas:
+Considérons un coffre avec $1000 de MATIC et $500 de dette. Le CDR est de 200%. Le minimum, pour ce collatéral, est 150%. Dans cet exemple, nous voulons rembourser notre dette entièrement en évitant la liquidation, donc nous nous fixons une limite de 160% CDR quand nous retirons notre collatéral. Nous utiliserons les formules suivantes:
 
 $$
-CDR=\frac{Collateral}{Debt}
+CDR=\frac{Collatéral}{Dette}
 $$
 
 $$
-AvailableCollateral = InitialCollateral - TargetCDR*Debt
+CollatéralDisponible = Collatéral Initial - MinCDR * Dette
 $$
 
-In this situation, if we want to keep a CDR of 160%, the amount of collateral we can withdraw "safely" is
+Nous devons procéder en plusieurs étapes:
 
-$$
-AvailableCollateral=$1000-1.60*$500=$200
-$$
+* Retirer $200 de notre collatéral
+  * Le coffre a maintenant $800 de MATIC et $500 de dette, le CDR vaut 160%
+* Vendre les $200 de collatéral pour acheter du MAI
+* Rembourser $200, avec 0.5% de frais.
+  * Le coffre a maintenant $799 de MATIC et $300 de dette, le CDR vaut 266.33%
+* Calculer le nouveau montant de collatéral que l'on peut retirer: $319
+* Retirer $319 de notre collatéral
+  * Le coffre a maintenant $480 of MATIC et $300 de dette, le CDR vaut 160%
+* Vendre les $319 de collatéral pour acheter du MAI
+* Rembourser $300, avec 0.5% de frais
+  * Le coffre a maintenant $478.50 de MATIC et $0 de dette, et il vous reste $19 de MAI
 
-Hence, we will have to proceed in multiple steps:
-
-* Withdraw $200 from the collateral
-  * the vault now has $800 worth of MATIC and $500 of debt, CDR is 160%
-* Sell the $200 worth of collateral to buy MAI
-* Repay $200 of the debt with a 0.5% repayment fee
-  * the vault now has $799 worth of MATIC and $300 of debt, CDR is 266.33%
-* Calculate the new amount of collateral we can withdraw: $319
-* Withdraw $319 from the collateral
-  * the vault now has $480 of MATIC and $300 of debt, CDR is 160%
-* Sell the $319 worth of collateral to buy MAI
-* Repay $300 of the debt with a 0.5% repayment fee
-  * the vault has $478.50 worth of MATIC and $0 of debt, and you still have $19 of MAI
-
-You can see that keeping a healthy CDR can greatly help you repay your debt with very little number of loops. Of course, if your CDR is closer to the 150% limit, you may have to operate more loops since you cannot withdraw as much at once.
+Vous pouvez voir que garder un CDR sain peut grandement vous aider à rembourser votre dette en répétant peu de fois cette boucle. Évidemment, si votre CDR est plus proche de 150%, vous devrez répéter cette boucle un plus grand nombre de fois puisque vous pouvez retirer moins à chaque itération.
 
 {% hint style="info" %}
-A collateral to debt ratio of 260% is enough to be able to withdraw the total amount of your debt and stay above 160% CDR. This way, you only need one loop to fully repay your debt.
+Un CDR de 260% est assez pour pouvoir retirer entièrement la valeur de votre dette et rester au-dessus de 160%. De cette manière, vous n'avez qu'une itération de la boucle à faire pour rembourser votre dette.
 {% endhint %}
 
-Note that fully repaying your debt by selling your collateral is never necessary if you don't need to sell your underlying assets, or to modify your CDR and keep your vault from being liquidated.
+Notez que rembourser entièrement votre dette en vendant votre collatéral n'est jamais nécessaire si vous n'avez pas besoin de vendre votre actif sous-jacent, ou modifier votre CDR pour éviter la liquidation.
 
-## Repayment using a robot
+## Rembourser en utilisant un robot
 
-This paragraph is pure theory and is there only for advanced programmers. The idea is to use flash loans that will help you repay your debt and unlock the collateral so that it can be paid. Flash loans are an option proposed by some applications on different networks, including Polygon, that allow you to borrow funds and repay the loan in the same transaction block. If the loan cannot be fully repaid within the same block, the transaction is simply reverted. On Polygon, AAVE is proposing flash loans.
+Ce paragraphe est purement théorique et présent seulement pour des développeurs avancés. L'idée est d'utiliser un emprunt flash \(flashloans\) pour rembourser votre dette, débloqué votre collatéral et s'en servir pour rembourser l'emprunt flash. Les emprunts flash sont un élément de certaines applications, sur différents réseaux, Polygon inclus, qui vous permettent de faire un prêt et le rembourser en l'espace d'une transaction. Si l'emprunt ne peut pas être remboursé entièrement, la transaction est inversée. Sur Polygon, [AAVE](https://docs.aave.com/developers/guides/flash-loans#step-by-step) propose cet élément. 
 
-If we take the example above with $1,000.00 worth of MATIC and a debt of $500.00. The flow would be as follows:
+Si nous prenons l'exemple du dessus, $1000 de MATIC et $500 de dette. L'execution serait la suivante:
 
-* Borrow $600.00 of USDC on AAVE in a flash loan
-* Swap the USDC for MAI
-* Repay your debt completely
-* Withdraw your MATIC collateral
-* Sell your MATIC for USDC
-* Repay the AAVE flash loan
+* Emprunt flash de $600.00 d'USDC sur AAVE
+* Échanger l'USDC pour du MAI
+* Rembourser votre dette
+* Retirer votre collatéral \(MATIC\)
+* Vendre du MATIC pour de l'USDC
+* Rembourser l'emprunt flash sur AAVE
 
-When submitted, this list of transactions will all happen in the same block, and you will end up with whatever is left from your MATIC as USDC in your wallet \(more or less $500.00, with some slight variations due to flash loan interest rate, swap fees, and repayment fees\).
+Une fois soumise, la liste de transactions sera dans le même bloc et vous aurez le MATIC restant sous forme d'USDC dans votre portefeuille \(plus ou moins $500 avec de petites variations due aux frais du flash loan, échanges des jetons et remboursement\).
 
-Right now, you would have to interact directly with the smart contracts, which requires some good understanding of how they work. If you need help, you can find some on our Discord server where there's a programming channel. Maybe in a near future, [FuruCombo](https://furucombo.app/combo) will propose Mai Finance bricks that would allow you to operate this directly using their graphic tool, but for now it's not possible. Finally, the idea of a button to "repay debt using collateral" has been proposed to the team of devs of Mai Finance, and the option may be implemented in the future.
+Pour l'instant, il faut interagir directement avec des smart contracts, ce qui demande de bien comprendre comment ils fonctionnent. Si vous avez besoin d'aide, faites un tour dans `#programming` sur Discord. Dans le futur, il est possible que [FuruCombo](https://furucombo.app/combo) propose des briques Mai Finance ce qui permettrait d'utiliser leur interface graphique.
 
-## Short term VS Long term Debt Repayments
+Finalement, l'idée d'un bouton "Rembourser en utilisant le collatéral" a été proposé à l'équipe de devs de Mai Finance, cela sera peut-être implémenter dans le futur.
 
-Depending on your strategy and the way you feel regarding your debt, it may be a good idea to compare different lending platforms. However, keep in mind that Mai Finance with its 0% interest and 0.5% repayment fee is one of the top product on the Polygon market. The real competitor is AAVE, but only if you want to borrow MAI or USDC for a short period of time.
+## Remboursement de dette: court vs long terme
 
-* Mais is 0% interest + 0.5% repayment fee
-* AAVE has no repayment fees, but a variable APR for interests you need to pay back
+En fonction de votre stratégie et la manière dont vous vous sentez par rapport à votre dette, il pourrait être une bonne idée de comparer à d'autres plateformes de prêt. Cependant, garder à l'esprit que Mai Finance, avec ses intérêts à 0% et frais de remboursement à 0.5%, est l'un des meilleurs produit sur Polygon. Aave est un concurrent mais seulement si vous empruntez du MAI ou USDC pour une courte période. 
 
-![Supplying and Borrowing APY on AAVE as of August 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
+* Mai est 0% interêt + 0.5% frais de remboursement
+* AAVE n'a pas de frais de remboursement mais une APR variable pour les intérêts que vous devez payer.
 
-As an example for USDC, you can see that the borrowing rate is 3.79% with a current reward of 2.08% paid back in MATIC. This gives, at the moment of writing, the equivalent of 1.71% you need to pay back if you keep your loan for a complete year. With AAVE, since you can repay your debt very quickly, the variable APY is equivalent to 0.005% daily. Hence, it would take 100 days \(a bit more than 3 months\) to reach 0.5% of your debt.
+![APY de D&#xE9;pot et Emprunt sur AAVE en Ao&#xFB;t 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
 
-If you plan to keep your loan longer than that, it's definitely better to use Mai Finance. Also, it's important to understand that AAVE borrowing APRs are variable, they will fluctuate with the amounts that are deposited and required \(the more people want to borrow from AAVE, the higher the borrowing APR\). Keep also in mind that the MATIC reward program will end at some point, and the 1.71% interest will soon become a 3.79% interest rate. At least with Mai Finance, you don't have to keep a close eye on your loan to see when it becomes dangerous to keep it.
+Par exemple, avec de l'USDC, vous pouvez voir que le taux d'emprunt est de 3.79% avec une récompense de 2.08% payée en MATIC. Cela donne, à l'écriture, l'équivalent de 1.71% que vous devez rembourser pour garder votre emprunt pendant 1 an. Avec Aave, puisque vous pouvez rembourser votre dette très rapidement, l'APY variable est équivalente à 0.005% par jour. Par conséquent, il faut 100 jours, un peu plus de 3 mois, pour atteindre 0.5% de votre dette.
 
-Finally, the team of Mai Finance is working on Vaults incentives that would work the same way as the MATIC reward, meaning that you would still get a 0% interest loan and a bonus paid in Qi that may very well reduce the repayment fee to 0% of your debt. And the longer you keep your loan, the more reward you will collect, making it a true negative interest loan.
+Si vous planifiez de garder votre emprunt plus longtemps, il est plus intéressant d'utiliser Mai Finance. Il est aussi important de comprendre que les APR d'Aave sont variables, elles vont fluctuer avec les montants qui sont déposés et empruntés \(plus il y a d'emprunts sur Aave, plus les APR d'emprunt sont élevées\). Garder aussi à l'esprit que le programme de récompense en MATIC a une date de fin et les 1.71% d'intérêt deviendront 3.79%.
 
-## Disclaimer
-
-The views, thoughts, and opinions expressed in the text belong solely to the author, and not necessarily to the rest of the community, nor the development team behind Mai Finance. It should not be taken as a financial advice or guidance of any kind.
+Finalement, l'équipe de Mai Finance travaille sur l'implémentation de récompenses qui fonctionneraient comme les récompenses en MATIC d'Aave, ce qui signifie que vous aurez toujours 0% d'intérêt sur votre emprunt **et** vous serez payés \(en Qi\) ce qui pourrait bien réduire vos frais de remboursement à 0% de votre dette. Plus votre garder votre emprunt, plus vous collecterez des récompenses, faisant ainsi un véritable emprunt à intérêts négatifs.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+À la traduction de cet article \(04/10/21\), les récompenses sur les emprunts de Mai Finance sont actives, les APRs sont comprises entre 20% pour les collatéraux les plus utilisés/anciens et 820% \(BAL\) pour les moins utilisés/plus récents. Voir [MAI loans and Vault incentives](../mai-eqi-qi-tutorials/mai-loans-and-vault-incentives.md)
+{% endhint %}
+
+## Avertissements
+
+Les vues, pensées, et avis exprimés ici appartiennent à l'auteur \(et/ou traducteur\), et ne reflètent pas nécessairement ni le reste de la communauté, ni l'équipe derrière Mai Finance. Cet article ne devrait pas être pris comme un conseil financier ou un guide.
+
+{% hint style="info" %}
+Gardez à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut moins bien fonctionner, voir vous faire perdre de l'argent, à un autre. Restez informer, surveillez les marchés et vos investissements, et, encore une fois, **faites vos recherches**.
 {% endhint %}
 
