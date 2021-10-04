@@ -15,7 +15,7 @@ So basically, Mai Finance is your crypto pawn shop.
 
 On the other hand, your deposited crypto can increase in value, which allows you to borrow more. Also, on Mai Finance, you can use other protocols like AAVE to make sure your deposited assets are at work and earn you yield while still being used as a collateral, and it won't have any impact of the amount or value of your debt, nor on its repayment.
 
-Finally, as of mid-August 2021, the dev team of Mai Finance is working actively on adding incentives to loans, which would actually make borrowing MAI a negative interest loan \(you get paid to borrow money\).
+Finally, as of mid-September 2021, the dev team of Mai Finance added incentives to loans, which would actually make borrowing MAI a negative interest loan \(you get paid to borrow money\).
 
 Hence, by using Mai Finance and its vaults, you simply secure your assets, and only put at risk your borrowed money. Ideally, you would make some profits, or at least try to not totally lose your loan, which means that you should always be able to pay back your debt and get back your collateral.
 
