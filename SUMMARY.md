@@ -25,7 +25,7 @@
 
 ## EN - Debt management tutorial
 
-* [Debt repayment - Why and When?](en-debt-management-tutorial/debt-repayment-why-and-when.md)
+* [Rembourser sa dette - Pourquoi et quand?](en-debt-management-tutorial/debt-repayment-why-and-when.md)
 * [Rembourser sa dette - Comment?](en-debt-management-tutorial/debt-repayment-how.md)
 
 ## Rejoignez la Communauté <a id="communaute"></a>

@@ -1,68 +1,74 @@
 ---
 description: >-
-  This page presents different aspects of your debt management, most
-  specifically when you should consider repaying it, but also why you should
-  repay it.
+  Cette page présente différents aspects de la gestion de votre dette,
+  spécifiquement quand devriez-vous rembourser, mais aussi pourquoi vous devriez
+  rembourser.
 ---
 
-# Debt repayment - Why and When?
+# Rembourser sa dette - Pourquoi et quand?
 
-## Is this really a debt?
+## Est-ce vraiment une dette?
 
-Technically speaking, yes. You owe MAI to the protocol, so it's a debt. However, you shouldn't really consider the debt on Mai Finance as a debt. Indeed, you deposit something of value \(you crypto assets\) and in exchange, Mai Finance allows you to borrow a stable coin. You don't need to pay any interests on the funds you borrowed, and when you want to get your assets back, you pay a very small fee of 0.5% of what you borrowed, which is paid directly on the collateral.
+Techniquement parlant, oui. Vous devez du MAI au protocole, c'est donc une dette. Cependant, vous ne devriez pas vraiment la considérér comme une dette. En effet, vous déposez quelque chose de valeur \(vos actifs crypto\) et en échange, Mai Finance vous autorise à emprunter du MAI. Vous n'avez pas d'intérêts à payer sur les fonds empruntés, et quand vous voulez récupérer vos actifs, vous payez des frais à la hauteur de 0.5% de votre dette, qui est payé directement avec le collatéral \(vos actifs\). 
 
-So basically, Mai Finance is your crypto pawn shop.
+Simplement, Mai est votre prêteur sur gages crypto.
 
-On the other hand, your deposited crypto can increase in value, which allows you to borrow more. Also, on Mai Finance, you can use other protocols like AAVE to make sure your deposited assets are at work and earn you yield while still being used as a collateral, and it won't have any impact of the amount or value of your debt, nor on its repayment.
+D'autre part, la crypto que vous avez déposé peut gagner en valeur, ce qui vous permet d'emprunter plus. De plus, sur Mai Finance, vous pouvez utiliser d'autres protocoles, tels qu'Aave, pour être certain que les actifs, que vous avez déposé, travaillent & vous rapportent des revenus tout en étant utilisés comme collatéraux, sans impact sur la valeur de votre dette et son remboursement.
 
-Finally, as of mid-August 2021, the dev team of Mai Finance is working actively on adding incentives to loans, which would actually make borrowing MAI a negative interest loan \(you get paid to borrow money\).
+Finalement, depuis septembre 2021, Mai Finance a ajouté des récompenses \(en Qi\) sur les emprunts, ce qui fait de l'emprunt de MAI un prêt à intérêt négatif \(vous êtes payés pour emprunter\).
 
-Hence, by using Mai Finance and its vaults, you simply secure your assets, and only put at risk your borrowed money. Ideally, you would make some profits, or at least try to not totally lose your loan, which means that you should always be able to pay back your debt and get back your collateral.
+Par conséquent, en utilisant Mai Finance et ses coffres, vous sécurisez vos actifs facilement, et mettez seulement à risque l'argent emprunté. Idéalement, vous voudriez faire du profit, ou au moins ne pas perdre votre emprunt, ce qui veut dire que vous devriez toujours être capable de rembourser votre dette et récupérer vos actifs.
 
-## Why should you repay your debt?
+## Pourquoi devriez-vous rembourser votre dette?
 
-There is a single answer to this question: get back your collateral.
+Il y a une seule réponse à cette question: récupérer votre collatéral.
 
-Indeed, Mai Finance does not charge any interest on your loans. This means that there is no growing amount of money that you need to pay back. You only repay what you borrowed, with the simple addition of the 0.5% repayment fee corresponding to 0.5% of what you borrowed.
+En effet, Mai Finance ne vous facture pas d'intérêts sur votre prêt. Cela signifie qu'il n'y a pas de  montant d'argent croissant que vous devez payer. Vous remboursez seulement ce que vous empruntez et les frais de remboursement, à hauteur de 0.5% de montant remboursé.
 
-As an example
+Par exemple:
 
-* You deposit $1,000 worth of MATIC in the MATIC vault
-* You borrow $200 worth of MAI and play with it
-* Your investments generated $20 that you convert back to MAI
-* You repay your $200 loan after 5 months
-* You unlock $999 worth of MATIC \(the 0.5% of $200 equals to $1 and is taken off your collateral\)
+* Vous déposez $1,000 de MATIC dans un coffre MATIC
+* Vous empruntez $200 de MAI et jouez avec
+* Votre investissement a généré $20 que vous échangez contre du MAI
+* Vous remboursez vos $200 après 5 mois
+* Vous débloquez $999 de MATIC \(0.5% de $200 vaut $1 et est pris de votre collatéral\)
 
-There is also absolutely no pressure on the moment you need to repay your debt. It's not like the longer you wait, the more you owe. With Mai Finance, you do whatever you want with your borrowed MAI, and you pay back when you want. You can even pay back in pieces. If your borrowed money is generating a consistant revenue stream, you can use it to either re-invest, partially or totally repay your loan.
+De plus, il n'y a aucune pression sur le moment où vous devez rembourser votre dette. Ce n'est pas comme si plus vous attendez, plus vous devez; par ailleurs, avec les récompenses instaurées en septembre, c'est même le contraire: vous êtes encouragés à garder votre prêt. Avec Mai Finance, vous faites ce que vous voulez avec vos MAI et vous remboursez quand vous voulez. Vous pouvez même rembourser en plusieurs fois. Si l'argent emprunté génère un flux consistant de revenus, vous pouvez l'utiliser pour réinvestir ou rembourser votre prêt.
 
-As an example
+Par exemple:
 
-* You deposit $1,000 worth of MATIC in the MATIC vault
-* You borrow $225 worth of MAI
-* You convert your MAI into a IMX/ETH LP pair and deposit it on QuickSwap pool
-* Your position, with an APR of 163.2%, is generating $1 every day
-* You convert your gain into MAI and repay your debt, $1 every day
-* After 225 days, your debt is fully repaid and your IMX/ETH can now generate pure revenue
+* Vous déposez $1,000 de MATIC dans un coffre MATIC
+* Vous empruntez $225 de MAI
+* Vous convertissez vos MAI en paires IMX/ETH LP et les déposez dans la réserve sur QuickSwap
+* Votre position, avec une APR de 163.2%, génère $1 tous les jours
+* Vous convertissez vos gains en MAI et remboursez votre dette, 1$ tous les jours
+* Après 225 jours, votre dette est entièrement remboursée et votre IMX/ETH continue de générer des revenus.
 
-Because of the 0% interest / no pay-back time limit, there's absolutely no need to repay your debt for whatever reason else than get back your collateral. And this is truly fantastic, because instead of repaying your debt, you could use your gains to increase your investments. And the best way to do it, of course, is to buy more crypto, secure it into the vault, and borrow more MAI.
-
-## When should you repay your debt?
-
-There is a single answer to this question: when you want to sell your collateral.
-
-In the paragraph above, we saw that there is absolutely 0 impact if you don't repay your debt "fast enough". Indeed, you could just never repay your debt and you would be in the exact same position as someone who just borrowed a few minutes before.
-
-The only thing that would make you actually repay your debt is that you consider that the asset used as collateral is now reached a price at which you want to sell it, or if you need to sell your crypto assets for whatever reason. Only then is "the right time" to repay your debt.
-
-On a separate note, you may also want to repay your debt if your asset used as collateral is losing value too quickly, and you don't want to be liquidated, because it would make you lose even more money. We will see on a separate article how you can repay your debt depending on the situation of your vault \(it's health ratio\), the market, and other factors.
-
-
-
-## Disclaimer
-
-The views, thoughts, and opinions expressed in the text belong solely to the author, and not necessarily to the rest of the community, nor the development team behind Mai Finance. It should not be taken as a financial advice or guidance of any kind.
+Grâce aux 0%, voir potentiellement négatif, intérêts, l'absence de date de remboursement, il n'y a aucune raison de rembourser votre dette à part récupérer votre collatéral. Ceci est fantastique puisque, plutôt que rembourser votre dette, vous pouvez réinvestir vos gains. Et la meilleure manière de faire, bien entendu, est d'acheter plus de crypto, la déposer dans un coffre et emprunter plus de MAI.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Il est tout de même intéressant de noter qu'il existe une raison, beaucoup plus occasionnelle, pour laquelle vous auriez besoin de rembourser: garder un ratio collatéral/dette sain de votre coffre.
+{% endhint %}
+
+## Quand est-ce que vous devriez rembourser votre dette?
+
+Ici aussi, il y a une seule réponse à la question: quand vous voulez récupérer votre collatéral.
+
+Dans le paragraphe au-dessus, nous avons vu qu'il n'y a pas d'impact si vous ne remboursez pas assez vite votre dette; la notion même de rembourser assez vite n'a pas de sens ici. En effet, vous pourriez ne jamais rembourser votre dette et vous seriez dans la même situation que quelqu'un qui vient d'emprunter.
+
+La seule chose qui pourrait vous pousser à rembourser votre dette est que vous pensez que l'actif utilisé comme collatéral a atteint le prix auquel vous voulez le vendre, ou pour n'importe quelle autre raison. Seulement ce moment-là est "le bon moment" pour rembourser.
+
+{% hint style="info" %}
+En considérant la note précédente, vous voulez peut-être remboursez, au moins en partie, votre dette quand votre collatéral perd en valeur et vous ne voulez pas être liquidé, car cela vous couterez encore plus cher. Pour voir comment rembourser votre dette selon la santé de votre coffre, le marché et d'autres facteurs, voir [Rembourser sa dette - Comment?](debt-repayment-how.md)
+{% endhint %}
+
+
+
+## Avertissements
+
+Les vues, pensées, et avis exprimés ici appartiennent à l'auteur \(et/ou traducteur\), et ne reflètent pas nécessairement ni le reste de la communauté, ni l'équipe derrière Mai Finance. Cet article ne devrait pas être pris comme un conseil financier ou un guide.
+
+{% hint style="info" %}
+Gardez à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut moins bien fonctionner, voir vous faire perdre de l'argent, à un autre. Restez informé, surveillez les marchés et vos investissements, et, encore une fois, **faites vos recherches**.
 {% endhint %}
 
