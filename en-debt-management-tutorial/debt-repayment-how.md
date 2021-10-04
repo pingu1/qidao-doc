@@ -145,6 +145,6 @@ Finalement, l'équipe de Mai Finance travaille sur l'implémentation de récompe
 Les vues, pensées, et avis exprimés ici appartiennent à l'auteur \(et/ou traducteur\), et ne reflètent pas nécessairement ni le reste de la communauté, ni l'équipe derrière Mai Finance. Cet article ne devrait pas être pris comme un conseil financier ou un guide.
 
 {% hint style="info" %}
-Gardez à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut moins bien fonctionner, voir vous faire perdre de l'argent, à un autre. Restez informer, surveillez les marchés et vos investissements, et, encore une fois, **faites vos recherches**.
+Gardez à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut moins bien fonctionner, voir vous faire perdre de l'argent, à un autre. Restez informé, surveillez les marchés et vos investissements, et, encore une fois, **faites vos recherches**.
 {% endhint %}
 
