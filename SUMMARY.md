@@ -17,11 +17,11 @@
 * [Impilare le dApp come mattoncini Lego](impilare-le-dapp-come-mattoncini-lego.md)
 * [Farmare o mettere in Stake? O entrambe le cose?](farmare-o-mettere-in-stake-o-entrambe.md)
 
-## MAI / eQI / Qi  Tutorials
+## Tutorial MAI / eQI / Qi
 
-* [Earning Passive Income with QiDAO](mai-eqi-qi-tutorials/earning-passive-income-with-qidao.md)
-* [How does MAI work?](mai-eqi-qi-tutorials/how-does-mai-work.md)
-* [MAI loans and Vaults incentives](mai-eqi-qi-tutorials/mai-loans-and-vaults-incentives.md)
+* [Ottenere una rendita passiva con QiDAO](tutorial-mai-eqi-qi/earning-passive-income-with-qidao.md)
+* [How does MAI work?](tutorial-mai-eqi-qi/how-does-mai-work.md)
+* [MAI loans and Vaults incentives](tutorial-mai-eqi-qi/mai-loans-and-vaults-incentives.md)
 
 ## Debt Management Tutorials
 
