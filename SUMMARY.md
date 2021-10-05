@@ -21,7 +21,7 @@
 
 * [Ottenere una rendita passiva con QiDAO](tutorial-mai-eqi-qi/ottenere-una-rendita-passiva-con-qidao.md)
 * [Come funziona MAI?](tutorial-mai-eqi-qi/come-funziona-mai.md)
-* [MAI loans and Vaults incentives](tutorial-mai-eqi-qi/mai-loans-and-vaults-incentives.md)
+* [Prestiti MAI e incentivi Vaults](tutorial-mai-eqi-qi/prestiti-mai-e-incentivi-vaults.md)
 
 ## Debt Management Tutorials
 
