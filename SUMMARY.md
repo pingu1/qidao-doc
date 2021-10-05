@@ -13,9 +13,9 @@
 
 * [Cosa fare con Qi su Polygon](cosa-fare-con-qi-su-polygon.md)
 * [MAI Metaverse](mai-metaverse.md)
-* [Come usare MAI nella vita reale](how-to-use-mai-in-the-real-life.md)
-* [Impilare le dApp come i mattoncini Lego](stack-dapps-like-lego-bricks.md)
-* [Farming or Staking? Or both?](farming-or-staking-or-both.md)
+* [Come usare MAI nella vita reale](come-usare-mai-nella-vita-reale.md)
+* [Impilare le dApp come mattoncini Lego](impilare-le-dapp-come-mattoncini-lego.md)
+* [Farmare o mettere in Stake? O entrambe le cose?](farmare-o-mettere-in-stake-o-entrambe.md)
 
 ## MAI / eQI / Qi  Tutorials
 

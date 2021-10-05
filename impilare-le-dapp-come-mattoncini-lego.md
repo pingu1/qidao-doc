@@ -4,7 +4,7 @@ description: >-
   DApp su Polygon per aumentare i benefici di farmare stable coin.
 ---
 
-# Impilare le dApp come i mattoncini Lego
+# Impilare le dApp come mattoncini Lego
 
 ## Impermax è un'applicazione che consente all'utente di sfruttare automaticamente i propri asset per amplificare le proprie posizioni in pool di liquidità. Questo viene fatto prendendo in prestito risorse aggiuntive fornite sulla piattaforma Impermax.Introduzione
 

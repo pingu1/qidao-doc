@@ -1,19 +1,19 @@
 ---
 description: >-
-  This guide will present a strategy that highlights amazing interactions
-  between Mai Finance, QuickSwap and Adamant after the launch of new LP pools on
-  Mai Finance and QuickSwap.
+  Questa guida illustrerà una strategia che mette in evidenza le straordinarie
+  interazioni tra Mai Finance, QuickSwap e Adamant dopo il lancio dei nuovi pool
+  LP su Mai Finance e QuickSwap.
 ---
 
-# Farming or Staking? Or both?
+# Farmare o mettere in Stake? O entrambe le cose?
 
-![](.gitbook/assets/screen-shot-2021-09-03-at-9.24.12-am.png)
+![Farmare, Mettere in stake o entrambe le cose?](.gitbook/assets/screen-shot-2021-09-03-at-9.24.12-am.png)
 
-## Intro
+## Introduzione
 
-When you are using DeFi \(**De**centralize **Fi**nance\) applications, especially when you are farming yields, you tend to end up with a bunch of native tokens granted by the farm. If most people are simply selling these tokens to buy more or their favourite coins, we will try to showcase some ways to actually keep and put them to work in order to increase your revenues.
+Quando si utilizzano applicazioni DeFi \(Decentralize Finance\), soprattutto quando si farma, si finisce per ritrovarsi con un mucchio di token nativi ottenuti dalle farm stesse. Se la maggior parte delle persone vende semplicemente questi token per acquistare le loro monete preferite, in questo caso proveremo a mostrare alcuni modi per conservarli e metterli al lavoro per aumentare le nostre entrate.
 
-In order to do so, we will use new LP pools \(**L**iquidity **P**roviding pools\) launched on QuickSwap at the beginning of September 2021, that are using the Qi token from Mai Finance. If you need to get a good idea of what are QuickSwap and Adamant applications, please read the [Stacking DApps guide](stack-dapps-like-lego-bricks.md).
+Per fare ciò, utilizzeremo i nuovi pool LP \(Liquidity Providing pool\) lanciati su QuickSwap all'inizio di settembre 2021, che utilizzano il token Qi di Mai Finance. Se hai bisogno di approfondire sulle dApp QuickSwap e Adamant, ti consiglio di leggere la guida [Impilare le dApp come mattoncini Lego](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MlEmFmtKn2yRl6HnDtM/v/italian/impilare-le-dapp-come-mattoncini-lego/@drafts).
 
 ## Application and pools presentation
 
