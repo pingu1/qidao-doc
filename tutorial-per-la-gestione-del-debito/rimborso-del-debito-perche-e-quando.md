@@ -1,68 +1,70 @@
 ---
 description: >-
-  This page presents different aspects of your debt management, most
-  specifically when you should consider repaying it, but also why you should
-  repay it.
+  Questa pagina presenta diversi aspetti della gestione del tuo debito, in
+  particolare quando dovresti considerare di ripagarlo ma anche perché dovresti
+  ripagarlo.
 ---
 
 # Rimborso del debito - Perchè e quando?
 
-## Is this really a debt?
+## E' davvero un debito?
 
-Technically speaking, yes. You owe MAI to the protocol, so it's a debt. However, you shouldn't really consider the debt on Mai Finance as a debt. Indeed, you deposit something of value \(you crypto assets\) and in exchange, Mai Finance allows you to borrow a stable coin. You don't need to pay any interests on the funds you borrowed, and when you want to get your assets back, you pay a very small fee of 0.5% of what you borrowed, which is paid directly on the collateral.
+Tecnicamente parlando, sì. Devi MAI al protocollo, quindi è un debito. Tuttavia, non dovresti davvero considerare il debito su Mai Finance come un debito. In effetti, depositi qualcosa di valore \(le tue crypto valute\) e in cambio Mai Finance ti consente di prendere in prestito una stable coin. Non devi pagare alcun interesse sui fondi che hai preso in prestito e quando vuoi riavere i tuoi assets, paghi una commissione molto piccola dello 0,5% di ciò che hai preso in prestito, che viene pagata direttamente con il tuo collaterale a garanzia.
 
-So basically, Mai Finance is your crypto pawn shop.
+Quindi, in pratica, Mai Finance è il tuo banco dei pegni crypto.
 
-On the other hand, your deposited crypto can increase in value, which allows you to borrow more. Also, on Mai Finance, you can use other protocols like AAVE to make sure your deposited assets are at work and earn you yield while still being used as a collateral, and it won't have any impact of the amount or value of your debt, nor on its repayment.
+D'altra parte, la tua crypto valuta depositata può aumentare di valore, il che ti consente di prendere in prestito di più. Inoltre, su Mai Finance, puoi utilizzare altri protocolli come AAVE per assicurarti che i tuoi assets depositati lavori per te e ti restituiscano un rendimento pur essendo ancora utilizzati come collaterale. E questo non avrà alcun impatto sull'importo o sul valore del tuo debito né sul rimborso dello stesso.
 
-Finally, as of mid-August 2021, the dev team of Mai Finance is working actively on adding incentives to loans, which would actually make borrowing MAI a negative interest loan \(you get paid to borrow money\).
+Infine, a partire da metà Agosto 2021, il team di sviluppo di Mai Finance sta lavorando attivamente per aggiungere incentivi ai prestiti il che renderebbe effettivamente il prestito MAI un prestito a interessi negativi \(vieni pagato per prendere in prestito denaro\). 
 
-Hence, by using Mai Finance and its vaults, you simply secure your assets, and only put at risk your borrowed money. Ideally, you would make some profits, or at least try to not totally lose your loan, which means that you should always be able to pay back your debt and get back your collateral.
+**NOTA:** ad oggi, Ottobre 2021, gli incentivi per i prestiti sono stati lanciati e ti permettono effettivamente di prendere in prestito con interesse negativo.
 
-## Why should you repay your debt?
+Quindi, utilizzando Mai Finance e i suoi Vault, proteggi i tuoi assets e metti a rischio solo i soldi presi in prestito. Idealmente cercherai di fare dei profitti o quantomeno non perdere totalmente il tuo prestito, il che significa che dovresti sempre essere in grado di ripagare il tuo debito e recuperare i tuoi collaterali.
 
-There is a single answer to this question: get back your collateral.
+## Perché dovresti ripagare il tuo debito?
 
-Indeed, Mai Finance does not charge any interest on your loans. This means that there is no growing amount of money that you need to pay back. You only repay what you borrowed, with the simple addition of the 0.5% repayment fee corresponding to 0.5% of what you borrowed.
+C'è una sola risposta a questa domanda: per poter recuperare i tuoi collaterali.
 
-As an example
+Mai Finance, infatti, non addebita alcun interesse sui tuoi prestiti. Ciò significa che non c'è una quantità crescente di denaro da rimborsare. Rimborsi solo ciò che hai preso in prestito, con la semplice aggiunta della commissione di rimborso dello 0,5% di ciò che hai preso in prestito.
 
-* You deposit $1,000 worth of MATIC in the MATIC vault
-* You borrow $200 worth of MAI and play with it
-* Your investments generated $20 that you convert back to MAI
-* You repay your $200 loan after 5 months
-* You unlock $999 worth of MATIC \(the 0.5% of $200 equals to $1 and is taken off your collateral\)
+Ad esempio:
 
-There is also absolutely no pressure on the moment you need to repay your debt. It's not like the longer you wait, the more you owe. With Mai Finance, you do whatever you want with your borrowed MAI, and you pay back when you want. You can even pay back in pieces. If your borrowed money is generating a consistant revenue stream, you can use it to either re-invest, partially or totally repay your loan.
+* Depositi $1,000 in MATIC nel Vault MATIC
+* Prendi in prestito $200 di MAI e ci "giochi" un po'
+* I tuoi investimenti hanno generato $20 che puoi riconvertire in MAI
+* Ripaghi i tuoi $200 di prestito dopo 5 mesi
+* Ritiri $999 di MATIC \(perchè lo 0,5% di commissione di $200 equivale a $1 che viene detratto dal tuo collaterale \)
 
-As an example
+Non c'è assolutamente alcuna pressione nel momento in cui devi ripagare il tuo debito. Non è che più aspetti, più devi restituire. Con Mai Finance, fai quello che vuoi con il tuo MAI preso in prestito e ripaghi quando vuoi. Puoi anche rimborsarne una parte. Se il denaro preso in prestito genera un flusso di entrate consistente, puoi utilizzarlo per reinvestire o rimborsare parzialmente o totalmente il prestito.
 
-* You deposit $1,000 worth of MATIC in the MATIC vault
-* You borrow $225 worth of MAI
-* You convert your MAI into a IMX/ETH LP pair and deposit it on QuickSwap pool
-* Your position, with an APR of 163.2%, is generating $1 every day
-* You convert your gain into MAI and repay your debt, $1 every day
-* After 225 days, your debt is fully repaid and your IMX/ETH can now generate pure revenue
+Ad esempio
 
-Because of the 0% interest / no pay-back time limit, there's absolutely no need to repay your debt for whatever reason else than get back your collateral. And this is truly fantastic, because instead of repaying your debt, you could use your gains to increase your investments. And the best way to do it, of course, is to buy more crypto, secure it into the vault, and borrow more MAI.
+* Depositi $1,000 in MATIC nel Vault MATIC
+* Prendi in prestito $225 di MAI
+* Converti i MAI in un pool IMX/ETH LP e lo depositi su QuickSwap
+* La tua posizione, con un APR del 163.2%, sta generando $1 al giorno
+* Converti i tuoi guadagni in MAI e ripaghi il tuo debito $1 ogni giorno
+* Dopo 225 giorni, il tuo debito è completamente ripagato e il pool IMX/ETH genererà puro guadagno
 
-## When should you repay your debt?
+Grazie all'interesse dello 0% e al non aver nessun limite di tempo per il rimborso nessun motivo per rimborsare il tuo debito diverso da quello di recuperare il tuo collaterale. E questo è davvero fantastico, perché invece di ripagare il tuo debito, potresti usare i tuoi guadagni per aumentare i tuoi investimenti. E il modo migliore per farlo, ovviamente, è acquistare più crypto valute, metterle al sicuro nel Vault e prendere in prestito più MAI.
 
-There is a single answer to this question: when you want to sell your collateral.
+## Quando dovresti ripagare il tuo debito?
 
-In the paragraph above, we saw that there is absolutely 0 impact if you don't repay your debt "fast enough". Indeed, you could just never repay your debt and you would be in the exact same position as someone who just borrowed a few minutes before.
+C'è una sola risposta a questa domanda: quando vuoi vendere il tuo collaterale.
 
-The only thing that would make you actually repay your debt is that you consider that the asset used as collateral is now reached a price at which you want to sell it, or if you need to sell your crypto assets for whatever reason. Only then is "the right time" to repay your debt.
+Nel paragrafo precedente, abbiamo visto che c'è assolutamente 0 impatto nel non ripagare il tuo debito "velocemente". In effetti,  potresti non ripagare mai il tuo debito e ti troveresti nella stessa identica posizione di qualcuno che ha preso in prestito pochi minuti fa.
 
-On a separate note, you may also want to repay your debt if your asset used as collateral is losing value too quickly, and you don't want to be liquidated, because it would make you lose even more money. We will see on a separate article how you can repay your debt depending on the situation of your vault \(it's health ratio\), the market, and other factors.
+L'unica cosa che ti spingerebbe effettivamente a ripagare il tuo debito è che consideri che l'asset utilizzato come collaterale ha ora raggiunto un prezzo al quale vuoi venderlo oppure se hai bisogno di vendere i tuoi assets crypto per qualsiasi altro motivo. Solo quello è "il momento giusto" per ripagare il tuo debito.
+
+Come nota a parte, potresti anche voler rimborsare il tuo debito se l'asset utilizzato come garanzia sta perdendo valore troppo rapidamente e non vuoi essere liquidato, perché questo ti farebbe perdere ancora più denaro. Vedremo in un articolo separato come puoi ripagare il tuo debito a seconda della situazione del tuo Vault \(il rapporto di salute\), del mercato e di altri fattori.
 
 
 
 ## Disclaimer
 
-The views, thoughts, and opinions expressed in the text belong solely to the author, and not necessarily to the rest of the community, nor the development team behind Mai Finance. It should not be taken as a financial advice or guidance of any kind.
+Le opinioni, i pensieri e le considerazioni espresse in questo documento appartengono esclusivamente all'autore e non necessariamente al resto della comunità, né al team di sviluppo di Mai Finance. Non dovrebbero essere presi come un consiglio finanziario o una guida di alcun tipo.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore \(o farti perdere denaro\) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
 {% endhint %}
 
