@@ -217,9 +217,9 @@ Seguiremo lo stesso programma di eQi. Puoi trovare i numeri dei blocchi nella pa
 
 ## Disclaimer
 
-This guide has been written **prior** to the launch of Vault incentives, meaning that the APRs promoted in this document \(as well as this document\) are subject to modifications, and/or may not be accurate. The amount of MAI borrowed, the debt ceiling and the value of the Qi token will highly impact the final APR of each vault type. Please, make sure that you invest responsibly.
+Questa guida è stata scritta **prima** del lancio degli incentivi per i Vault, il che significa che gli APR mostrati in questo documento sono soggetti a modifiche e/o potrebbero non essere accurati. L'importo dei MAI presi in prestito, il tetto del debito e il valore del token Qi influiranno notevolmente sull'APR finale di ciascun tipo di Vault. Per favore, assicurati di investire in modo responsabile.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore \(o farti perdere denaro\) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
 {% endhint %}
 
