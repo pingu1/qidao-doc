@@ -28,10 +28,10 @@
 * [Rimborso del debito - Perchè e quando?](tutorial-per-la-gestione-del-debito/rimborso-del-debito-perche-e-quando.md)
 * [Rimborso del debito - Come?](tutorial-per-la-gestione-del-debito/rimborso-del-debito-come.md)
 
-## Join the Community <a id="community"></a>
+## Entra nella Community <a id="community"></a>
 
 * [Discord](https://discord.gg/qidaoprotocol%20)
 * [Telegram](https://t.me/QiDaoProtocol)
 * [Twitter](https://twitter.com/OhMaiGuide)
-* [Use the app](https://app.mai.finance)
+* [Usa la dApp](https://app.mai.finance)
 
