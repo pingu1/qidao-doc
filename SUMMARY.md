@@ -23,10 +23,10 @@
 * [Come funziona MAI?](tutorial-mai-eqi-qi/come-funziona-mai.md)
 * [Prestiti MAI e incentivi per i Vaults](tutorial-mai-eqi-qi/prestiti-mai-e-incentivi-per-i-vaults.md)
 
-## Debt Management Tutorials
+## Tutorial per la gestione del debito
 
-* [Debt repayment - Why and When?](debt-management-tutorials/debt-repayment-why-and-when.md)
-* [Debt repayment - How?](debt-management-tutorials/debt-repayment-how.md)
+* [Rimborso del debito - Perchè e quando?](tutorial-per-la-gestione-del-debito/rimborso-del-debito-perche-e-quando.md)
+* [Rimborso del debito - Come?](tutorial-per-la-gestione-del-debito/rimborso-del-debito-come.md)
 
 ## Join the Community <a id="community"></a>
 

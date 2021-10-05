@@ -5,7 +5,7 @@ description: >-
   keep your loan, and don't need your collateral.
 ---
 
-# Debt repayment - How?
+# Rimborso del debito - Come?
 
 The market is on a bull run and your crypto, locked in the Vault, is gaining more and more value, so much that you decided to sell it. However, because it's in the Vault on Mai Finance, you can't totally unlock it unless you repay your loan.
 

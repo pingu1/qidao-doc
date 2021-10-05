@@ -5,7 +5,7 @@ description: >-
   repay it.
 ---
 
-# Debt repayment - Why and When?
+# Rimborso del debito - Perchè e quando?
 
 ## Is this really a debt?
 
