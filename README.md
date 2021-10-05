@@ -7,7 +7,7 @@ description: >-
 
 # La guida Non Ufficiale a Mai Finance
 
-## Questa è una guida approvata dalla community?
+## Questa guida è approvata dalla community?
 
 Questa guida è stata sviluppata dai membri della comunità Mai Finance, meglio nota come "Qimps" \(simpaticamente scimpanzé\), per esplorare approfonditamente la piattaforma di prestito Mai Finance e presentare un'ampia gamma di strategie DeFi attraverso le quali gli utenti possono beneficiare maggiormente della piattaforma. Questa non è una guida ufficiale per Mai Finance e non deve in nessun modo essere vista come una qualsiasi forma di consulenza finanziaria. Come sempre, quando si tratta di DeFi e crypto valuta in generale, fai sempre le tue ricerche e investi solamente importi che saresti in grado di sopportare nell'eventualità di perderli.
 
