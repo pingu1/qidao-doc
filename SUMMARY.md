@@ -13,6 +13,7 @@
 * [Cách sử dụng MAI ngoài thực tế](huong-dan/how-to-use-mai-in-the-real-life.md)
 * [Xếp DApps giống xếp Lego](huong-dan/stack-dapps-like-lego-bricks.md)
 * [Farming hoặc Staking? Hoặc cả hai?](huong-dan/farming-or-staking-or-both.md)
+* [How to combine farming and borrowing rewards](huong-dan/how-to-combine-farming-and-borrowing-rewards.md)
 
 ## Hướng dẫn MAI/eQi/Qi <a id="mai-eqi-qi-tutorials"></a>
 
