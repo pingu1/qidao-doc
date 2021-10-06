@@ -16,6 +16,7 @@
 
 * [What to do with Qi on Polygon](investment-tutorials/what-to-do-with-qi-on-polygon.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
+* [How to combine farming and borrowing rewards](investment-tutorials/untitled.md)
 
 ## MAI / eQI / Qi  Tutorials
 
