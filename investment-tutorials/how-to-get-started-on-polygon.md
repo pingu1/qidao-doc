@@ -34,7 +34,7 @@ Polygon 还设法建立了信任，并被证明是以太坊网络的可靠替代
 
 完成后，你应该会在浏览器上看到以下内容：
 
-![Metamask&apos;s Interface](../.gitbook/assets/image%20%2827%29.png)
+![ Metamask&#x754C;&#x9762;](../.gitbook/assets/image%20%2827%29.png)
 
 ### **添加Polygon Blockchain**
 
@@ -60,11 +60,11 @@ Polygon 还设法建立了信任，并被证明是以太坊网络的可靠替代
 
 现在你的 Metamask 中有一些免费的 MATIC，你已准备好使用 Polygon 有的不同 DApp 和代币。你可以复制你想要用[PolygonScan](https://polygonscan.com/) 使用的代币的地址。你到达那里后，你只需要写下你要添加的代币的名称。例如，如果我们在 Polygon 上搜索 QiDAO，我们将得到：
 
-![Results of writing QiDAO on PolygonScan](../.gitbook/assets/image%20%2824%29.png)
+![&#x5728;PolygonScan &#x4E0A;&#x7F16;&#x5199; QiDAO &#x7684;&#x7ED3;&#x679C;](../.gitbook/assets/image%20%2824%29.png)
 
 现在，你需要复制合约的地址并在 Metamask上单击Add token。
 
-![Adding Qi on Metamask](../.gitbook/assets/image%20%2822%29.png)
+![&#x5728; Metamask &#x4E0A;&#x6DFB;&#x52A0; Qi](../.gitbook/assets/image%20%2822%29.png)
 
 ## **如何在 Polygon 上购买代币**
 
@@ -72,17 +72,17 @@ Polygon 还设法建立了信任，并被证明是以太坊网络的可靠替代
 
 一旦你决定了你想要使用哪个 DEX，你就可以开始在 Polygon Blockchain上购买你最喜欢的代币。
 
-![Buying Qi tokens using Quickswap](../.gitbook/assets/image%20%2825%29.png)
+![&#x4F7F;&#x7528; Quickswap &#x8D2D;&#x4E70; Qi &#x4EE3;&#x5E01;](../.gitbook/assets/image%20%2825%29.png)
 
 {% hint style="info" %}
-Another interesting DApp to use when you want to buy tokens is [Zapper](https://zapper.fi/es/exchange). Zapper theoretically searches for the cheapest platform to perform the swap of the two tokens, so it's a good way to save up some MATIC.
+当你想购买代币时有另一个有趣的 DApp 是 [Zapper](https://zapper.fi/es/exchange)。 Zapper 理论上会搜索最便宜的平台来执行两个代币的互换，因此这是节省一些 MATIC 的好方法。
 {% endhint %}
 
 ## 检查你的钱包历史记录
 
 I了解如何查钱包历史记录很重要，这么做，你可以使用 [DeBank](https://debank.com/)。 Debank 将允许你检查你在 Metamask 帐户中进行的不同交易，以及检查你使用的所有区块链上的投资组合或你拥有的 NFT 。如果你想比较的话这将会非常有用，例如，在质押一些Qi的期间你收到的不同的空投Qi。
 
-![All the transactions made in our new Metamask address](../.gitbook/assets/image%20%2810%29.png)
+![&#x5728;&#x6211;&#x4EEC;&#x65B0;&#x7684; Metamask &#x5730;&#x5740;&#x4E2D;&#x8FDB;&#x884C;&#x7684;&#x6240;&#x6709;&#x4EA4;&#x6613;](../.gitbook/assets/image%20%2810%29.png)
 
 正如你所看到的，我的钱包里有 800,000 个 DxDex.io，但我没有做任何事情来让我的钱包里得到这些代币。你需要意识到这些类型的骗局，并且永远不要与你不知道的任何硬币互动。万一你授予他们访问权限，Debank 将允许你撤销它。请小心，如果你不知道那个代币，请不要触摸它。
 
@@ -99,6 +99,6 @@ I了解如何查钱包历史记录很重要，这么做，你可以使用 [DeBan
 本指南绝对不是财务建议，它是出于教育目标而制作的。
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请牢记在给定时间运行良好的策略可能在另一个时间表现不佳（或让你赔钱）。请保持消息灵通，监测市场，留意你的投资，并一如既往地，做你的研究。
 {% endhint %}
 
