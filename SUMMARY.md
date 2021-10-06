@@ -4,6 +4,7 @@
 
 ## TUTORIALES DE INVERSIÓN
 
+* [Cómo comenzar en Polygon](tutoriales-de-inversion/how-to-get-started-on-polygon.md)
 * [Apalancamiento con tus tokens de AAVE](tutoriales-de-inversion/apalancamiento-con-tus-tokens-de-aave.md)
 * [¿Qué hacer con MAI en Polygon?](tutoriales-de-inversion/que-hacer-con-mai-en-polygon.md)
 * [¿Qué hacer con Qi en Polygon?](tutoriales-de-inversion/que-hacer-con-qi-polygon.md)
@@ -31,7 +32,6 @@
 
 ---
 
-* [How to get started on Polygon](how-to-get-started-on-polygon.md)
 * [How does MAI work?](how-does-mai-work.md)
 
 ## Únete a la comunidad <a id="comunidad"></a>
