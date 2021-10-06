@@ -13,6 +13,7 @@
 * [How to use MAI in the real life](investment-tutorials/how-to-use-mai-in-the-real-life.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
 * [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
+* [How to combine farming and borrowing rewards](investment-tutorials/how-to-combine-farming-and-borrowing-rewards.md)
 
 ## MAI / eQI / Qi  Tutorials
 
