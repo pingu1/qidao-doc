@@ -33,6 +33,7 @@
 ---
 
 * [How does MAI work?](how-does-mai-work.md)
+* [How to combine farming and borrowing rewards](how-to-combine-farming-and-borrowing-rewards.md)
 
 ## Únete a la comunidad <a id="comunidad"></a>
 
