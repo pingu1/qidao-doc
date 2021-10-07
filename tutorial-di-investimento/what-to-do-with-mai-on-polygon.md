@@ -65,7 +65,7 @@ Le ricompense su Curve sono date in:
 
 ### AAVE
 
-C'è una guida completa su come usare Mai Finance per [far fruttare i tuoi token su Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/v/italian/tutorial/far-fruttare-i-tuoi-token-su-aave/@drafts) .Non si tratta di fare un uso diretto della stable coin MAI ma possiamo immaginare che in futuro AAVE avrà anche un pool MAI dove potrai depositare le tue crypto valute.
+C'è una guida completa su come usare Mai Finance per [far fruttare i tuoi token su Aave](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/tutorial-di-investimento/come-far-fruttare-i-tuoi-token-su-aave) .Non si tratta di fare un uso diretto della stable coin MAI ma possiamo immaginare che in futuro AAVE avrà anche un pool MAI dove potrai depositare le tue crypto valute.
 
 ### QuickSwap
 
