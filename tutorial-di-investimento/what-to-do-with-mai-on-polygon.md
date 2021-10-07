@@ -36,7 +36,7 @@ Il ciclo completo può essere rappresentato così:
 
 ![](../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
-Se hai bisogno di maggiori dettagli su come utilizzare Mai Finance per depositare le tue crypto valute e prendere in prestito MAI \(invece di vendere le tue crypto valute per acquistare MAI\), leggi altre guide su questo sito. Puoi anche [includere Aave](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/v/italian/tutorial/far-fruttare-i-tuoi-token-su-aave/@drafts) per generare ulteriori profitti.
+Se hai bisogno di maggiori dettagli su come utilizzare Mai Finance per depositare le tue crypto valute e prendere in prestito MAI \(invece di vendere le tue crypto valute per acquistare MAI\), leggi altre guide su questo sito. Puoi anche [includere Aave](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/tutorial-di-investimento/far-fruttare-i-tuoi-token-su-aave) per generare ulteriori profitti.
 
 ### Curve finance
 
