@@ -5,7 +5,7 @@
 ## Tutorial di investimento
 
 * [Come iniziare con Polygon](tutorial-di-investimento/come-iniziare-con-polygon.md)
-* [Come far fruttare i tuoi token su Aave](tutorial-di-investimento/far-fruttare-i-tuoi-token-su-aave.md)
+* [Come far fruttare i tuoi token su Aave](tutorial-di-investimento/come-far-fruttare-i-tuoi-token-su-aave.md)
 * [Farmare usando solo stable coin](tutorial-di-investimento/farmare-usando-stable-coin.md)
 * [Cosa fare con Mai su Polygon](tutorial-di-investimento/what-to-do-with-mai-on-polygon.md)
 

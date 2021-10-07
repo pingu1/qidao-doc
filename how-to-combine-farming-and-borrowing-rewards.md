@@ -52,7 +52,7 @@ We will be using the atricrypto3 pool that accepts any combination of WBTC/WETH/
 
 ### AAVE
 
-As mentioned in the paragraph about Augury, AAVE is used to add a small reward to the tokens farmed on Augury before we use them on Mai Finance. Instead of putting our WBTC, WETH and WMATIC directly on Mai Finance, we will deposit these tokens on AAVE and use the yield instrument of Mai Finance to auto-compound the rewards from AAVE in the amToken pools, and use the camToken as collateral in vaults. You can get more details about this part by reading the [tutorial about AAVE tokens](tutorial-di-investimento/far-fruttare-i-tuoi-token-su-aave.md).
+As mentioned in the paragraph about Augury, AAVE is used to add a small reward to the tokens farmed on Augury before we use them on Mai Finance. Instead of putting our WBTC, WETH and WMATIC directly on Mai Finance, we will deposit these tokens on AAVE and use the yield instrument of Mai Finance to auto-compound the rewards from AAVE in the amToken pools, and use the camToken as collateral in vaults. You can get more details about this part by reading the [tutorial about AAVE tokens](tutorial-di-investimento/come-far-fruttare-i-tuoi-token-su-aave.md).
 
 ![AAVE lending rewards as of September 2021](.gitbook/assets/image%20%2829%29.png)
 
@@ -198,7 +198,7 @@ The total debt is actually the entire USDT-UST position, so $553.24, and the tot
 
 Getting a 28% APY on stable coin farming isn't too bad, but how does this compare to other easier strategies we could apply with the initial $1,000 worth of ETH? Let's check the final APY fo the following strategies
 
-* Leverage amWETH 8 times via AAVE: for this, we will use the exact flow described in the [AAVE token guide](tutorial-di-investimento/far-fruttare-i-tuoi-token-su-aave.md).
+* Leverage amWETH 8 times via AAVE: for this, we will use the exact flow described in the [AAVE token guide](tutorial-di-investimento/come-far-fruttare-i-tuoi-token-su-aave.md).
 * Full stable farming on Augury: for this strategy, we sell the WETH and farm with $1,000 worth of USDT-UST on the same infusion on Augury
 * Full stable farming on QuickSwap: for this strategy, we will use the camWETH vault to benefit from the vault reward, and farm with $500 worth of MAI on QuickSwap \(MAI-DAI at 19.78% APY\), using the dQUICK vault on Mai Finance to borrow additional MAI and re-invest into the farming pool \(dQUICK vaults with an APR of 55.72%\)
 
