@@ -30,7 +30,7 @@ La stable coin MAI viene utilizzata in sempre più progetti su Polygon soprattut
 * MAI-USDT con $6,316,026
 * MAI-USDC con $5,458,323
 
-Ulteriori pool possono essere trovati in altri progetti / farm / ottimizzatori di rendimento. Puoi leggere di più su cosa fare con MAI in [questo articolo dedicato](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-Ml6ZDEQjx9SHMPRJfLn/v/italian/tutorial-di-investimento/what-to-do-with-mai-on-polygon/@drafts).
+Ulteriori pool possono essere trovati in altri progetti / farm / ottimizzatori di rendimento. Puoi leggere di più su cosa fare con MAI in [questo articolo dedicato](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/tutorial-di-investimento/what-to-do-with-mai-on-polygon).
 
 ## Solana
 

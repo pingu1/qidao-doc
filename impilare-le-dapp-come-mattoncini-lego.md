@@ -136,7 +136,7 @@ Depositiamo i token IMX e QUICK guadagnati da Impermax e QuickSwap sotto forma d
 
 ## AAVE
 
-I i token WMATIC guadagnati su Adamant possiamo andarli a depositare su AAVE per ottenere un po' di rendimento. Questo è parte della strategia descritta in [questo articolo](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MlEaDNrYCUeSUCreaNT/v/italian/tutorial-di-investimento/far-fruttare-i-tuoi-token-su-aave).
+I i token WMATIC guadagnati su Adamant possiamo andarli a depositare su AAVE per ottenere un po' di rendimento. Questo è parte della strategia descritta in [questo articolo](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/tutorial-di-investimento/come-far-fruttare-i-tuoi-token-su-aave).
 
 ## Mai Finance
 

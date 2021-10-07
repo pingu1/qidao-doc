@@ -27,7 +27,7 @@ Non dedicherò troppo tempo a questo argomento, c'è già una guida completa. Ti
 
 ### Farming su una coppia LP
 
-Anche in questo caso ci sono già altre pagine che presentano come includere il token Qi nella tua strategia di farming per generare rendimenti e non vendere mai nessuno dei tuoi farm token. Guarda le guide [Impilare le dApp come mattoncini Lego](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/impilare-le-dapp-come-mattoncini-lego) o [Farmare o metter in Stake?](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/farmare-o-mettere-in-stake-o-entrambe) per ulteriori dettagli.
+Anche in questo caso ci sono già altre pagine che presentano come includere il token Qi nella tua strategia di farming per generare rendimenti e non vendere mai nessuno dei tuoi farm token. Guarda le guide [Impilare le dApp come mattoncini Lego](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/impilare-le-dapp-come-mattoncini-lego) o [Farmare o mettere in Stake?](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/farmare-o-mettere-in-stake-o-entrambe) per ulteriori dettagli.
 
 Come rapido promemoria, Qi è abbinato a diversi token per formare coppie LP \(Liquidity Provider\) su QuickSwap in modo da poter farmare:
 
