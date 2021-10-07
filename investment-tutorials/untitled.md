@@ -1,160 +1,171 @@
 ---
 description: >-
-  This page presents how to combine yield farming with the borrowing rewards
-  provided by Mai Finance to increase your overall interests.
+  Cet article présente comment combiner la culture de revenus avec les
+  récomponses d'emprunt de Mai Finance pour augmenter vos intérêts.
 ---
 
-# How to combine farming and borrowing rewards
+# Comment combiner les récompenses de fermes et d'emprunts
 
 ## Intro
 
-In September 2021, Mai Finance introduced vault rewards in order to promote its borrowing business and have people use their tokens to borrow MAI. It's not only taking a 0% interest loan with a small repayment fee, now people can also get paid to borrow money. This guide will propose a strategy based on stable coin farming using Augury Finance as a source of tokens that will feed the vaults on Mai Finance, leading to high borrowing incentives, and additional MAI that will then be re-injected in the farm.
+En septembre 2021, Mai Finance a ajouté des récompenses à ses coffres pour promouvoir les emprunts, augmentant ainsi le nombre de MAI crée via les coffres. Ce qui veut dire que, en plus d'avoir un prêt à 0% d'intérêt, avec un petit frais de remboursement, vous êtes payé pour emprunter du MAI. Cet article propose une stratégie basée sur la culture de jetons stables avec [Augury Finance](https://augury.finance/) comme source de jetons que l'on peut utiliser pour nourrir nos coffres sur Mai Finance, profitant ainsi des incitations à l'emprunt, et du MAI additionel qui sera réinjecté dans la ferme.
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
-## Application and pools presentation
+## Présentation des applications et réserves
 
 ### Augury Finance
 
-Augury Finance is a yield aggregator that doesn't focus on auto-compounding your LP \(**L**iquidity **P**ool\) tokens. Instead, Augury will automatically sell the farm tokens of the farms it uses to buy other tokens in their _Infusions._
+Augury Finance est un aggrégateur de revenus qui ne se concentre pas sur l'auto-capitalisation de vos jetons LP \(**L**iquidity **P**rovider\). À la place, Augury vend les jetons de la ferme et s'en sert pour acheter d'autres tokens dans leurs _Infusions._
 
-As an example, you can farm the DFYN-WETH pair on Augury
+Par exemple, vous pouvez cultiver la paire DFYN/WETH sur Augury.
 
-![Example of the DFYN-WETH mining pool on Augury Finance](../.gitbook/assets/image%20%2832%29.png)
+![Exemple de la r&#xE9;serve DFYN-WETH sur Augury Finance](../.gitbook/assets/image%20%2832%29.png)
 
-This Infusion is using DinoSwap as the underlying farm, and a LP token that one can get on DFYN. With an APR of 123.43%, users who deposit liquidity in this pool will be rewarded with
+Cette infusion se sert de DinoSwap comme ferme sous-jacente et un jeton LP, obtenable sur DFYN. Avec une APR de 123,43%, les utilisateurs qui déposent de la liquidité dans cette réserve seront récompensés avec:
 
-* 30% of WETH
-* 20% of LINK
-* 20% of WBTC
-* 15% of USDT
-* 15% of WMATIC
+* 30% de WETH
+* 20% de LINK
+* 20% de WBTC
+* 15% d'USDT
+* 15% de WMATIC
 
-If you farm on DinoSwap, you will be paid with DINO tokens, which price is very volatile. On other aggregator like Adamant or Beefy, you would increase your LP position, but with Augury you "secure" your position by getting tokens that are less likely to have very high volatility. The drawback is that your initial position won't grow over time since 100% of the harvest DINO is converted into the set of tokens composing the reward on Augury.
+Si vous cultivez sur DinoSwap, vous seriez payés en jetons DINO, dont le prix est très volatile. Sur d'autres aggrégateur, comme Adamant ouBeefy, vos positions \(en LP\) augmenteraient avec, mais avec Augury vous "sécurisez" vos positions en recevant des jetons qui sont des valeurs sûres. L'inconvénient est que vos positions ne grandissent pas avec le temps puisque tous les DINOs récoltés sont échangés pour le set de jetons composant les récompenses d'Augury.
 
 {% hint style="info" %}
-Augury finance is using 3 different Infusion tiers that have different deposit fees and performance fees. Please read about the tier types you want to use and make sure you understand their impact for your farming strategy.
+Augury finance utilise 3 tiers differents d'Infusion qui ont est frais de dépôt et performance différents. Renseignez vous sur les tiers et soyez certains de comprendre leurs impacts sur votre stratégie pour choisir celui qui vous convient.
 {% endhint %}
 
-In our strategy, we will be using the USDT-UST tier2 farm that rewards users with a mix of WETH/WBTC/LINK/WMATIC/USDC, because Mai Finance proposes 4 vaults for 4 of the 5 tokens we will get as a reward. In order to maximize our profits, we will add AAVE between the output of Augury and the vaults on Mai Finance since 3 out of the 5 tokens we will harvest can be lended on AAVE.
+Dans cette stratégie, nous utiliserons l'infusion: USDT/UST Tier 2 qui récompense ses utilisateurs avec un mix de WETH/WBTC/LINK/WMATIC/USDC, parce que Mai Finance propose des coffres pour 4 des 5 jetons du set. Pour maximiser nos profits, nous ajoutons une étape entre Augury et Mai: Aave, car 3 des 5 jetons ont un coffre qui accepte la version d'Aave \(camWETH/camWBTC/camWMATIC\).
 
 ![Stable coin farming USDT-UST for our strategy](../.gitbook/assets/image%20%2831%29.png)
 
 ### Curve
 
-Curve is a blue-chip project that will reward users lending blue-chip tokens. The reward is composed of auto-compounded tokens \(added back into the investment\), WMATIC tokens and CRV tokens, which are 2 tokens that are also accepted as collateral on Mai Finance.
+Curve est une valeur sûre, en terme de projet, qui récompenses les utilisateurs qui fournissent des jetons qui sont des valeurs sûres. Les récompenses sont composées de jetons auto-réinvestis \(ajouter à votre investissement\), jetons WMATIC et de jetons CRV, les derniers étant des collatéraux acceptés sur Mai Finance.
 
-One of the very interesting things to note about Curve and its pools is that one doesn't have to deposit an exact amount of each token for a given pool. Instead, a single token can be provided and the algorithm that managed the pool will automatically adjust the other tokens by selling a portion of the deposit and buy the other tokens to maintain a correct ratio in the pool.
+Un aspect très intéressant de Curve et ses réserves est qu'un utilisateur n'a pas besoin d'équilibrer les jetons déposés dans les réserves. Il est possible de déposer seulement 1 jeton de la réserve et l'algorithme qui gère la ferme va automatiquement ajuster les autres jetons \(en vendant/achetant\) pour maintenir un ratio correcte.
 
-We will be using the atricrypto3 pool that accepts any combination of WBTC/WETH/USDC/USDT/DAI and we will add to this pool the USDC that will be generated by the pool on Augury.
+Nous utiliserons la réserve "atricrypto3" qui accepte du WBTC/WETH/USDC/USDT/DAI et nous y ajouterons l'USDC généré sur Augury.
 
-![Details of the atricrypto3 pool on Curve as of September 2021](../.gitbook/assets/image%20%2830%29.png)
+![D&#xE9;tails de la r&#xE9;serve atricrypto3 sur Curve, en September 2021](../.gitbook/assets/image%20%2830%29.png)
 
 ### AAVE
 
-As mentioned in the paragraph about Augury, AAVE is used to add a small reward to the tokens farmed on Augury before we use them on Mai Finance. Instead of putting our WBTC, WETH and WMATIC directly on Mai Finance, we will deposit these tokens on AAVE and use the yield instrument of Mai Finance to auto-compound the rewards from AAVE in the amToken pools, and use the camToken as collateral in vaults. You can get more details about this part by reading the [tutorial about AAVE tokens](../tutoriels/tirez-parti-aave-tokens.md).
+Aave est une autre valeur sûre, en terme de projet, et, comme mentionné dans le paragraphe sur Augury, est utilisé pour ajouter une petite APR \(&lt;5%\) sur les récompenses d'Augury. Au lieu de mettre directement les WBTC, WETH & WMATIC dans un coffre de Mai Finance, nous allons déposé ces jetons sur Aave puis dans la page "[/yield](https://app.mai.finance/yield)" de Mai Finance, pour auto-réinvestir les récompenses d'Aave et faire grandir notre position, et pour finir, dans un coffre. Vous pouvez trouver plus de détails sur cette partie [ici](../tutoriels/tirez-parti-aave-tokens.md).
 
-![AAVE lending rewards as of September 2021](../.gitbook/assets/image%20%2829%29.png)
+![R&#xE9;compenses d&apos;AAVE sur les pr&#xEA;ts, en septembre 2021](../.gitbook/assets/image%20%2829%29.png)
+
+{% hint style="info" %}
+À la mi-septembre 2021,[ Aave a voté pour ajouter CRV, BAL & LINK à leur marché](https://snapshot.org/#/aave.eth/proposal/QmUjs75wxvsv4q4urC5DXZSgh8mAWK99SsRPXNu3zeuuYa). Une fois implémentés, Mai Finance pourra les utiliser pour créer des coffres camCRV, camBAL & camLINK.
+{% endhint %}
 
 ### Balancer
 
-Balancer is another blue-chip project like Curve. You will be able to deposit certain tokens in pools composed of more than 2 tokens,  and you deposit a single token. The pool will automatically be balanced to get an equal proportion of each token that composes the pool.
+Balancer est, encore une fois, une valeur sûre, comme Curve & Aave. Comme sur Curve, vous pouvez déposer des jetons dans les réserves sans vous souciez du ratio, la réserve s'équilibre automatiquement.
 
-For our strategy, we will be using the WETH/BAL/Qi/MAI/USDC pool. This pool will accept the Qi token that will be collected from vaults on Mai Finance, and will reward us with additional Qi, and BAL tokens that we will be able to deposit on Mai Finance in the BAL vault, allowing us to mint more MAI and increase our farming position on Augury.
+Pour notre stratégie, nous utiliserons la réserve WETH/BAL/Qi/MAI/USDC. Cette réserve accepte le Qi, que nous gagnerons via la dette de nos coffres sur Mai Finance, et nous récompenses avec plus de Qi et du BAL, que nous deposerons dans un coffre sur Mai Finance, pour pouvoir emprunter plus de MAI et augmenter notre position sur Augury.
 
 ![Balancer 5-pool as of September 2021](../.gitbook/assets/image%20%2823%29.png)
 
-## Bootstrapping the system
+## Préparer le système
 
 ![](../.gitbook/assets/image%20%2819%29.png)
 
-What follows is a simulation made with an initial investment of $1,000 worth of ETH that is deposited in the camWETH vault to borrow $500 worth of MAI, converted in $500 worth of USDT-UST. This simulation assumes the following rewards for the different systems
+Ce qui suit est une simulation faite avec un investissement initial de $1000 d'ETH, qui est déposé dans un coffre camWETH et sur lequel on emprunte $500 de MAI, que l'on échange pour $500 de paire USDT/UST LP. Cette simulation est faite avec les APR suivantes:
 
-* USDT-UST farming APR of 22.53%
-* amWBTC APR of 0.39%
-* amWETH APR of 1.71%
-* amWMATIC APR of 3.80%
-* atricrypto3 APR of 3.86% auto-compounded LP token, 13.09% WMATIC and 17.63% CRV
-* 5-tokens Balancer pool with APR of 43.46% with a BAL:Qi ratio of 1:6
-* Vault rewards APRs of
-  * 23.28% for camWBTC
-  * 21.52% for camWETH
-  * 32.93% for camWMATIC
-  * 24.51% for LINK
-  * 116.71% for CRV
-  * 62.38% for BAL
+* USDT/UST sur Augury: 22,53%
+* camWBTC sur Mai: 0,39%
+* camWETH sur Mai: 1,71%
+* camWMATIC sur Mai: 3,80%
+* atricrypto3 sur Curve:
+  * 3,86% sur les jetons auto-réinvestis
+  * 13,09% de WMATIC
+  * 17,63% de CRV
+* 5-jetons réserve sur Balancer: 43,46% avec un ratio BAL/Qi de 1 pour 6.
+* Dette sur les coffre de Mai:
+  * 23,28% pour camWBTC
+  * 21,52% pour camWETH
+  * 32,93% pour camWMATIC
+  * 24,51% pour LINK
+  * 116,71% pour CRV
+  * 62,38% pour BAL
 
-These APRs are all subject to change on the different platforms, and there's no guarantee that they will continue for a whole year, however we will take them as is for this simulation in order to get an idea of the possible overall APR of the system. In order to further "simplify" the simulation, we will not take in account price variations, nor transaction fees. Also note that this simulation is taking into account that the Vault Rewards on Mai Finance and the Balancer rewards are compounded daily instead of weekly, but these rewards are currently airdropped weekly to the users' wallet. Finally, for the sake of this simulation, we will assume the CDR \(**C**ollateral to **D**ebt **R**atio\) is always 200%, meaning we're only borrowing half of what we deposit to keep getting the rewards, but prevent easy liquidations.
+Toutes ces APRs vont varier avec le temps, et il n'y a aucune garantie qu'elles continuent pendant 1 an. Nous les utiliserons tout de même afin de se faire une idée de l'APR possible du système. Pour garder la simulation simple, nous ne tiendrons pas non plus compte ni de la variations des prix, ni des frais de transaction. Par ailleurs, veuillez noter que cette simulation considère que nous réinvestissons les récompenses de Mai Finance & Balancer quotidiennement plutôt que chaque semaine; ces récompenses sont envoyées chaque semaine par les protocoles directement dans le portefeuille des utilisateur. Finalement, nous partons du principe que le ratio collatéral/dette des coffres est toujours à 200%, ce qui signifie que nous empruntons seulement la moitié de ce que l'on a déposé, pour éviter d'être liquidé.
 
-### Day 1
+### Jour 1
 
-If you still have your $1,000 worth of WETH, deposit it in on AAVE to get amWETH, then deposit your amWETH on [Mai Finance](https://app.mai.finance/yield) to get camWETH, and finally deposit your camWETH into the corresponding vault to be able to borrow 500 MAI.
+Si vous avez toujours vos $1000 de WETH, déposez les dans Aave pour obtenir des amWETH, puis déposez ces derniers dans Mai Finance pour obtenir des camWETH, et finalement, déposez les dans un coffre camWETH et empruntez 500 MAI.
 
-Use the [anchor](https://app.mai.finance/anchor) to convert your MAI into USDT \(or you can use another DEX like [QuickSwap](https://quickswap.exchange/#/) if there is no liquidity in the anchor\), then you can use [DFYN](https://exchange.dfyn.network/#/) to swap 50% of your USDT into UST and form a USDT-UST pair that you can then deposit on [Augury](https://augury.finance/infusions/). Note that you will also need some OMEN that you can buy on QuickSwap too.
+Vous pouvez utiliser l'Anchor de Mai pour échanger votre MAI pour de l'USDT \(ou n'importe quel autre DEX, comme QuickSwap, si l'Anchor n'a plus d'USDT\). Pour obtenir de l'UST vous pouvez aller sur DFYN, ou 1inch. Pour obtenir la paire USDT/UST LP, déposez vos USDT et UST dans la réserve de DFYN. Finalement, déposez vos paires USDT/UST LP sur Augury. Notez que vous aurez besoin d'un peu d'OMEN, vous pouvez en obtenir sur QuickSwap et 1inch aussi.
 
-Hence, at the end of Day 1, we harvest the following rewards
+À la fin du premier jour, nous récoltons les récompenses suivantes:
 
-| Reward type | Value in dollars |
+| Récompenses | Valeur en dollars |
 | :--- | :--- |
-| WBTC from farming | 0.123 |
-| WETH from farming | 0.031 |
-| WMATIC from farming | 0.031 |
-| LINK from farming | 0.031 |
-| USDC from farming | 0.092 |
-| Qi rewards from vaults | 0.295 |
-
-These are only the rewards we get from farming and borrowing at the end of the first day.
+| WBTC via Augury | 0.123 |
+| WETH via Augury | 0.031 |
+| WMATIC via Augury | 0.031 |
+| LINK via Augury | 0.031 |
+| USDC via Augury | 0.092 |
+| Qi via la dette de notre coffre | 0.295 |
 
 ### Day 2
 
-Rewards are harvested, WBTC, WETH and WMATIC are sent to corresponding vaults on Mai finance after they went through AAVE and the yield instrument on Mai. LINK are directly deposited in the LINK vault, and USDC sent to Curve in the atricrypto3 pool. The Qi reward is sent to Balancer. At this point, we can borrow more MAI from the 3 camToken vaults and the LINK vault \($0.13 worth of MAI to be exact\) and we can create more USDT-UST pair from the MAI we borrowed.
+Une fois les récompenses récoltées:
 
-Hence, at the end of Day 2, we harvest the following rewards
+* Déposez les WBTC, WETH & WMATIC sur Aave puis sur la page "yield" de Mai, puis dans les coffres correspondants
+* Déposez les LINK directement dans un coffre Mai correspondant
+* Déposez les USDC dans la réserve atricrypto3 de Curve.
+* Déposez les Qi dans la réserve de Balancer \(encore une fois, ce n'est pas une action faisable chaque jour\)
+* Empruntez du MAI depuis nos coffres, en gardant un ratio collatéral/dette à 200%: $0,13 MAI pour être précis.
+* Créez plus de USDT/UST LP et déposez les dans Augury.
 
-| Reward type | Value in dollars |
+À la fin du premier jour, nous récoltons les récompenses suivantes:
+
+| Récompenses | Valeur en dollars |
 | :--- | :--- |
-| WBTC from farming | 0.123 |
-| WETH from farming | 0.031 |
-| WMATIC from farming + Curve | 0.031 |
-| LINK from farming | 0.031 |
-| USDC from farming | 0.093 |
-| CRV rewards on Curve | 0.00004 |
-| BAL rewards | 0.00005 |
-| Qi rewards from vaults | 0.296 |
+| WBTC via Augury | 0.123 |
+| WETH via Augury | 0.031 |
+| WMATIC via Augury + Curve | 0.031 |
+| LINK via Augury | 0.031 |
+| USDC via Augury | 0.093 |
+| CRV via Curve | 0.00004 |
+| BAL via Balancer | 0.00005 |
+| Qi via la dette de nos coffres | 0.296 |
 
-At this point, the system is primed and rewards are flowing in a way that each step is feeding the next one, creating some nice little loop.
+À partir de là, le système est prêt et les récompenses s'alimentent toutes entre elles, créant ainsi une petit boucle fort appréciable.
 
-## Farming results
+## Résultats
 
-### Daily routine
+### Routine quotidienne
 
-The daily routine is composed by the following transactions
+Elle est composée des transactions suivantes
 
-* Harvest rewards on Augury
-* Deposit WBTC, WETH and WMATIC on AAVE
-* Deposit amWBTC, amWETH and amWMATIC on Mai Finance in the yield instrument
-* Deposit camWBTC, camWETH and camWMATIC in the respective vaults on Mai Finance
-* Deposit LINK in the LINK vault on Mai Finance
-* Deposit USDC in the atricrypto3 pool on Curve
-* Harvest WMATIC from Curve and use them in the camWMATIC vault
-* Harvest CRV from Curve and use them in the CRV vault
-* Borrow MAI from the different vaults
-* Convert MAI into USDT on Mai Finance via the anchor
-* Convert 50% of the USDT into UST on DFYN
-* Create new USDT-UST LP pair on DFYN
-* Deposit the new LP tokens on Augury
+* Récolter sur Augury
+* Déposer les WBTC, WETH et WMATIC sur AAVE
+* Déposer les amWBTC, amWETH et amWMATIC sur Mai Finance via la page "/yield"
+* Déposer les camWBTC, camWETH et camWMATIC dans leurs coffres sur Mai Finance
+* Déposer les LINK dans le coffre sur Mai Finance
+* Déposer les USDC dans la réserve atricrypto3 sur Curve
+* Récolter les WMATIC de Curve et les utiliser dans le coffre camWMATIC
+* Récolter les CRV de Curve et les déposer dans le coffre
+* Emprunter du MAI dans les différents coffres, jusqu'à 200% de ratio collat/dette
+* Échanger les MAI contre de l'USDT et de l'UST
+* Créer de nouvelles paires USDT/UST LP sur DFYN
+* Déposer les nouveaux jetons LP sur Augury
 
-### Weekly routine
+### Routine par semaine
 
-Additionally, you will get weekly rewards in BAL \(from your Qi deposit on Balancer\) and Qi tokens \(from vault rewards\). You will have to
+Chaque semaine, vous receverez, directement dans votre portefeuille, du BAL \(via le Qi déposé sur Balancer\) et du Qi \(via le Qi déposé sur Balancer et la dette de vos coffres\). Vous deverez:
 
-* Deposit the Qi token on Balancer
-* Deposit the BAL token on Mai Finance in the BAL vault
-* Borrow MAI from your additional BAL deposit and convert them in USDT-UST pair to farm on Augury
+* Déposer le Qi sur Balancer
+* Déposer le BAL dans un coffre sur Mai Finance
+* Emprunter du MAI, l'échanger pour former des pairs USDT/UST et les déposer sur Augury
 
-### Raw results month after month
+### Résultats mois après mois
 
-| Month | USDT-UST | atricrypto3 | Balancer | camWBTC | camWETH | camWMATIC | LINK | CRV | BAL |  |
+| Mois | USDT-UST | atricrypto3 | Balancer | camWBTC | camWETH | camWMATIC | LINK | CRV | BAL |  |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | 503.84 | 2.79 | 9.01 | 3.72 | 1,002.34 | 0.94 | 0.93 | 0.001 | 0.02 |  |
 | 2 | 507.88 | 5.66 | 18.39 | 7.47 | 1,004.68 | 1.93 | 1.87 | 0.003 | 0.09 |  |
@@ -169,18 +180,18 @@ Additionally, you will get weekly rewards in BAL \(from your Qi deposit on Balan
 | 11 | 547.61 | 32.51 | 121.44 | 42.68 | 1,026.31 | 12.72 | 10.65 | 0.016 | 3.16 |  |
 | 12 | 552.43 | 35.67 | 135.26 | 47.45 | 1,028.78 | 14.15 | 11.67 | 0.017 | 3.81 |  |
 
-A few notes:
+Quelques notes:
 
-* The growth of the USDT-UST pool is the only result of additional MAI borrowed from vaults
-* The CRV pool is almost inexistant due to the very low amount of USDC deposited on Curve
-* The BAL vault is not important due to the fact that 14.28% of the Balancer reward is paid in BAL tokens, the rest being paid in Qi tokens
-* The amount in the Balancer pool is the biggest gain, and is only the result of Vault rewards and Balancer rewards
+* La position USDT/UST grandit uniquement grace aux MAI empruntés depuis les coffres
+* La réserve CRV est presque inexistante à cause du faible montant d'USDC déposés sur Curve
+* Le coffre BAL n'est pas très important car 14,28% des récompenses de Balancer sont payées en BAL, le reste est en Qi.
+* Le montant dans la réserve Balancer est le plus gros gain et n'est que le résultat des récompenses sur notre dette et de Balancer.
 
-### Day 365
+### Jour 365
 
-After a complete year, the final state of our investment would be
+Après une année complète, notre investissement serait le suivant:
 
-| Position | Value in dollars |
+| Position | Valeur en dollars |
 | :--- | :--- |
 | USDT-UST | 553.24 |
 | atricrypto3 | 36.20 |
@@ -192,28 +203,28 @@ After a complete year, the final state of our investment would be
 | CRV | 0.017 |
 | BAL | 3.93 |
 
-The total debt is actually the entire USDT-UST position, so $553.24, and the total reward generated is $280.63, corresponding to a final APY of 28.06%.
+La position USDT/UST est entièrement construite sur notre dette, qui vaut donc $553,24 et la valeur totale des récompenses générées est $280,63, cela nous donne une APY de 28,06%.
 
-### Comparison with other strategies
+### Comparaison avec d'autres stratégies
 
-Getting a 28% APY on stable coin farming isn't too bad, but how does this compare to other easier strategies we could apply with the initial $1,000 worth of ETH? Let's check the final APY fo the following strategies
+Une APY de 28% en cultivant des jetons stables n'est pas mauvais, mais regardons d'autres stratégies, plus simples, que nous pourrions appliquer à nos $1000 d'ETH:
 
-* Leverage amWETH 8 times via AAVE: for this, we will use the exact flow described in the [AAVE token guide](../tutoriels/tirez-parti-aave-tokens.md).
-* Full stable farming on Augury: for this strategy, we sell the WETH and farm with $1,000 worth of USDT-UST on the same infusion on Augury
-* Full stable farming on QuickSwap: for this strategy, we will use the camWETH vault to benefit from the vault reward, and farm with $500 worth of MAI on QuickSwap \(MAI-DAI at 19.78% APY\), using the dQUICK vault on Mai Finance to borrow additional MAI and re-invest into the farming pool \(dQUICK vaults with an APR of 55.72%\)
+* Appliquer un effet de levier 8 fois sur de l'amWETH via AAVE: pour cela, nous suivons cet [article](../tutoriels/tirez-parti-aave-tokens.md).
+* Seulement cultiver de la stable sur Augury: pour cela, nous vendons notre WETH et cultivons avec  $1,000 de USDT-UST sur la même infusion d'Augury.
+* Seulement cultiver de la stable sur QuickSwap: pour cela, nous utilisons le coffre camWETH pour bénéficier des récompenses, puis nous cultivons avec $500 de MAI sur QuickSwap \(MAI/DAI avec une APY de 19,78%\), et nous mettons le dQUICK récolté dans un coffre \(55,72% APR\) et on emprunte contre pour réinvestir dans la ferme de QuickSwap.
 
-| Strategy | Final APY |
+| Stratégie | APY finale |
 | :--- | :--- |
-| Strategy presented in this guide | 28.06% |
-| Leverage AAVE token 8x | 46.46% |
-| Only stable farming on Augury | 22.53% |
-| Quickswap farming + dQUICK vault | 35.96% |
+| Stratégie présentée dans cet article | 28.06% |
+| Levier x8 via Aave | 46.46% |
+| Seulement la culture de stable sur Augury | 22.53% |
+| culture sur Quickswap + coffre dQUICK | 35.96% |
 
-## Disclaimer
+## Avertissements
 
-This strategy is really interesting and uses most vaults from Mai Finance, and this guide has been written mostly to showcase that, as of September 2021, this is the part that would generate the more rewards when faming stable coins. However, this strategy may not be the most interesting one, and involves a lot of manipulations of several platforms. Finally, Augury is a fantastic tool that generates specific tokens that can be included in several strategies, but probably not stable farming solely. And as a side note, no deposit fees nor performance fees have been taken in consideration when calculating the final APY.
+Cette stratégie est très intéressante et utilise la plupart des coffres de Mai Finance, et cet article a été écrit pour démontrer que, en septembre 2021, les coffres sont la partie qui génère le plus de récompense en cultivant de la stable. Cependant, cette stratégie n'est peut-être pas la plus intéressante et fait intervenir beaucoup de manipulations entre plusieurs plateformes. Finalement, Augury est une plateforme fantastique qui génère des jetons spécifiques qui peuvent être inclus dans plusieurs stratégies et probablement pas que pour la culture de stable. Une dernière remarque: aucun frais de dépôt et/ou de performances ont été pris en compte pour calculer l'APY finale.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Gardez à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut moins bien fonctionner, voir vous faire perdre de l'argent, à un autre. Restez informé, surveillez les marchés et vos investissements, et, encore une fois, **faites vos recherches**.
 {% endhint %}
 
