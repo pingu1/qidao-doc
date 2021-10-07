@@ -6,7 +6,9 @@ description: >-
 
 # Impilare le dApp come mattoncini Lego
 
-## Impermax è un'applicazione che consente all'utente di sfruttare automaticamente i propri asset per amplificare le proprie posizioni in pool di liquidità. Questo viene fatto prendendo in prestito risorse aggiuntive fornite sulla piattaforma Impermax.Introduzione
+**Impermax è un'applicazione che consente all'utente di sfruttare automaticamente i propri asset per amplificare le proprie posizioni in pool di liquidità. Questo viene fatto prendendo in prestito risorse aggiuntive fornite sulla piattaforma Impermax.**
+
+## Introduzione
 
 Quando fai farming in una farm, di solito ricevi ricompense sotto forma di token nativi della farm stessa. Hai quindi la possibilità di scegliere se venderli o tenerli e sperare che guadagnino valore nel tempo. Questa guida presenterà alcune DApp \(Applicazioni decentralizzate\) che ti permetteranno di massimizzare i tuoi rendimenti senza vendere nulla pur continuando a far crescere la rendita. Questo articolo partirà dalle stable coin, perché sono l'ideale per una strategia relativamente sicura. Tuttavia, è necessario ricordare che questo non è un consiglio finanziario e che questa guida deve essere seguita con cautela poiché i risultati non sono assolutamente garantiti. Come sempre, fai le tue ricerche.
 

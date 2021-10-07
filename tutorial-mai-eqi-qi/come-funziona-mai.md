@@ -69,7 +69,7 @@ All'aumentare del valore del collaterale è possibile emettere monete più stabi
 
 Come hai potuto vedere in questo articolo, la stable coin MAI è un tipo di moneta stabile che è **sovra-collateralizzata,** il che significa che ci sarà sempre abbastanza collaterale e quindi garanzia per sostenere il prezzo del token MAI. Questo dovrebbe dare abbastanza sollievo agli investitori che esitano a investire in progetti che coniano stable coin. Inoltre, tieni presente che vista l'espansione di MAI ad altre blockchain, ci saranno sempre più MAI nel mercato con conseguente minore volatilità nel prezzo di MAI.
 
-Di recente sono stati introdotti gli incentivi dei vault di Mai Finance, se volete capire di cosa si tratta, vi invito a leggere la guida [Prestiti MAI e Incentivi dei Vault](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MlFoX2VVsyqQeze97Jz/v/italian/tutorial-mai-eqi-qi/mai-loans-and-vaults-incentives/@drafts). Questo è un ulteriore step che aiuterà ancora di più a dare stabilità al prezzo di MAI.
+Di recente sono stati introdotti gli incentivi dei vault di Mai Finance, se volete capire di cosa si tratta, vi invito a leggere la guida [Prestiti MAI e Incentivi dei Vault](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/tutorial-mai-eqi-qi/prestiti-mai-e-incentivi-per-i-vaults). Questo è un ulteriore step che aiuterà ancora di più a dare stabilità al prezzo di MAI.
 
 ## Disclaimer
 

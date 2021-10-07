@@ -11,7 +11,7 @@ Il mercato è in rialzo e la tua crypto valuta, all'interno del Vault, sta guada
 
 Il mercato è ribassista e la tua crypto valuta sta perdendo valore molto rapidamente. Non generi un rendimento sufficientemente veloce da coprire le perdite e mantenere un sano rapporto tra garanzia e debito \(CDR\) e la liquidazione è vicina. È tempo di ripagare il tuo debito per assicurarti di non perdere troppo e prevenire di essere liquidati.
 
-Se non ti trovi in ​​nessuna delle situazioni di cui sopra, probabilmente non vale la pena ripagare il tuo debito. Guarda il capitolo [Rimborso del debito](https://qidao-qimps.gitbook.io/mai-finance-tutorials/debt-management-tutorials/debt-repayment-why-and-when) per maggiori dettagli.
+Se non ti trovi in ​​nessuna delle situazioni di cui sopra, probabilmente non vale la pena ripagare il tuo debito. Guarda il capitolo [Rimborso del debito - Perchè e quando](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/tutorial-per-la-gestione-del-debito/rimborso-del-debito-perche-e-quando) per maggiori dettagli.
 
 ## Rimborso parziale o totale tramite fiat
 

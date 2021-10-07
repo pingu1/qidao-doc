@@ -11,7 +11,7 @@ description: >-
 
 Il core business di Mai Finance è la piattaforma di prestito. Invece di vendere le loro crypto valute per acquistare altri assets, le persone sono in grado depositarle su Mai Finance e prendere in prestito usandole come garanzia. Ciò offre l'opportunità di mantenere assets di alto valore \(WBTC, WETH ...\) pur essendo in grado di ottenere altri assets e rendimenti da farm. Così il prestito viene utilizzato per generare entrate, mentre il collaterale a garanzia acquisisce valore.
 
-Uno degli altri grandi vantaggi dell'utilizzo di Mai Finance è che non esiste un programma di rimborso. In altre parole, prendi in prestito stable coin MAI usando la tua crypto valuta come garanzia, non paghi alcun interesse e puoi ripagare il tuo debito quando vuoi. Vedi i diversi articoli sulla [gestione del debito](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MlG-tABMpcTV0N04aow/v/italian/debt-management-tutorials/debt-repayment-why-and-when/@drafts) per ulteriori dettagli. L'unica commissione che pagherai a MAI è una commissione di rimborso corrispondente allo 0,5% del valore che hai preso in prestito, che paghi quando rimborsi il prestito e che viene detratta dalla tua garanzia.
+Uno degli altri grandi vantaggi dell'utilizzo di Mai Finance è che non esiste un programma di rimborso. In altre parole, prendi in prestito stable coin MAI usando la tua crypto valuta come garanzia, non paghi alcun interesse e puoi ripagare il tuo debito quando vuoi. Vedi i diversi articoli sulla [gestione del debito](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/tutorial-per-la-gestione-del-debito/rimborso-del-debito-perche-e-quando) per ulteriori dettagli. L'unica commissione che pagherai a MAI è una commissione di rimborso corrispondente allo 0,5% del valore che hai preso in prestito, che paghi quando rimborsi il prestito e che viene detratta dalla tua garanzia.
 
 Ad esempio, se hai depositato $200 di WETH per prendere in prestito $100 di MAI, quando ripagherai il tuo prestito dovresti pagare una commissione di $0,50 che verrà prelevata direttamente dal tuo deposito WETH.
 
@@ -93,7 +93,7 @@ Quando prendi in prestito MAI a fronte di un determinato collaterale, riceverai 
 * evitare di essere liquidati
 * contribuire alla salute dell'intera piattaforma Mai Finance assicurando che il volume MAI in circolazione sia adeguatamente supportato
 
-Il CDR "sano", come definito dal team di Mai Finance, è compreso tra il 25% e il 270% oltre al valore CDR minimo. Come nota a margine, puoi anche controllare le nostre guide strategiche per vedere come puoi essere più conservativo/aggressivo nell'operare in altri progetti o [ripagare il tuo debito](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MlG-tABMpcTV0N04aow/v/italian/debt-management-tutorials/debt-repayment-how#repayment-using-your-collateral/@drafts) facendo rendere il tuo prestito.
+Il CDR "sano", come definito dal team di Mai Finance, è compreso tra il 25% e il 270% oltre al valore CDR minimo. Come nota a margine, puoi anche controllare le nostre guide strategiche per vedere come puoi essere più conservativo/aggressivo nell'operare in altri progetti o [ripagare il tuo debito](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/tutorial-per-la-gestione-del-debito/rimborso-del-debito-come) facendo rendere il tuo prestito.
 
 ## Incentivi per i Vaults
 
