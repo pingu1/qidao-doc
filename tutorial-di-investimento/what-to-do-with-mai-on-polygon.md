@@ -22,7 +22,7 @@ I progetti Bluechip sono le applicazioni DeFi che si sono dimostrate solide e pr
 
 ### Balancer
 
-[Balancer](https://polygon.balancer.fi/#/) è un gestore di portafoglio automatizzato, fornitore di liquidità e rilevatore di prezzi. Sulla piattaforma potrai prestare le tue crypto valute e riscuotere commissioni dai trader, che riequilibrano il tuo portafoglio seguendo opportunità di arbitraggio. Se hai bisogno di maggiori dettagli su Balancer, vai a leggere il [documento ufficiale](https://docs.balancer.fi/).
+[Balancer](https://polygon.balancer.fi/#/) è un gestore di portafoglio automatizzato, fornitore di liquidità e rilevatore di prezzi. Sulla piattaforma potrai prestare le tue crypto valute e riscuotere commissioni dai trader, che riequilibrano il tuo portafoglio seguendo opportunità di arbitraggio. Se hai bisogno di maggiori dettagli su Balancer, vai a leggere il loro [documento ufficiale](https://docs.balancer.fi/).
 
 Sulla rete Polygon, Balancer propone un pool composto dalle 4 principali stable coin: DAI, USDC, USDT e MAI \(miMATIC\). Questo pool stabile ha attualmente un APR abbastanza stabile di ~ 20%.
 
