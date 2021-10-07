@@ -34,7 +34,7 @@ Una volta fatto questo, vedrai un'estensione sul tuo browser con il logo di Meta
 
 Quando avrai finito, vedrai questa schermata sul tuo browser:
 
-![Metamask&apos;s Interface](../.gitbook/assets/image%20%2827%29.png)
+![Interfaccia di Metamask](../.gitbook/assets/image%20%2827%29.png)
 
 ### Aggiugengere la rete Polygon a Metamask
 
@@ -62,11 +62,11 @@ Prima di passare alla parte successiva dell'articolo, devi essere consapevole ch
 
 Ora che hai dei MATIC gratuiti nel tuo Metamask, sei pronto per utilizzare le DApp e i token di Polygon. È possibile copiare l'indirizzo del token che si desidera utilizzare utilizzando [PolygonScan](https://polygonscan.com/). Una volta che sei sul sito devi solo scrivere il nome del token che desideri aggiungere. Ad esempio, se cerchiamo QiDAO su Polygon, otterremo questo risultato:
 
-![Results of writing QiDAO on PolygonScan](../.gitbook/assets/image%20%2824%29.png)
+![Risultati scrivendo QiDAO su PolygonScan](../.gitbook/assets/image%20%2824%29.png)
 
 Ora dovrai copiare l'indirizzo del contratto e fare clic su **aggiungi token** su Metamask.
 
-![Adding Qi on Metamask](../.gitbook/assets/image%20%2822%29.png)
+![Aggiungere Qi su Metamask](../.gitbook/assets/image%20%2822%29.png)
 
 ## Come comprare dei token su Polygon
 
