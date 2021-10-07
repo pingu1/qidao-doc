@@ -27,7 +27,7 @@ Non dedicherò troppo tempo a questo argomento, c'è già una guida completa. Ti
 
 ### Farming su una coppia LP
 
-Anche in questo caso ci sono già altre pagine che presentano come includere il token Qi nella tua strategia di farming per generare rendimenti e non vendere mai nessuno dei tuoi farm token. Guarda le guide [Stack DApps like Lego bricks](impilare-le-dapp-come-mattoncini-lego.md) o [Farming or Staking ](farmare-o-mettere-in-stake-o-entrambe.md)per ulteriori dettagli.
+Anche in questo caso ci sono già altre pagine che presentano come includere il token Qi nella tua strategia di farming per generare rendimenti e non vendere mai nessuno dei tuoi farm token. Guarda le guide [Impilare le dApp come mattoncini Lego](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/impilare-le-dapp-come-mattoncini-lego) o [Farmare o metter in Stake?](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/farmare-o-mettere-in-stake-o-entrambe) per ulteriori dettagli.
 
 Come rapido promemoria, Qi è abbinato a diversi token per formare coppie LP \(Liquidity Provider\) su QuickSwap in modo da poter farmare:
 
@@ -59,7 +59,7 @@ Per il nostro esempio ci concentreremo su Qi. Puoi notare che la supply totale d
 
 Questo significa che puoi fornire Qi esclusivamente su Impermax e ottenere, nel nostro esempio, il 43,73% di APR, al momento in cui scriviamo questo articolo. Al variare della domanda e dell'offerta, anche l'APR dell'offerta aumenterà/diminuirà. Quando fornisci singoli token su Impermax, verrai ricompensato con il token che fornisci, il che significa che questa strategia ti farà accumulare più Qi nel tempo.
 
-Mentre sei su Impermax, puoi anche utilizzare l'opzione leva per ottenere premi IMX. Consiglio di leggere la [guida Stacking](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-Ml6CXky9gqPwQudrW7j/v/italian/investment-tutorials/stack-dapps-like-lego-bricks/@drafts) per avere maggiori dettagli su come includere Impermax nella tua strategia di farming.
+Mentre sei su Impermax, puoi anche utilizzare l'opzione leva per ottenere premi IMX. Consiglio di leggere la [guida Staking](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/farmare-o-mettere-in-stake-o-entrambe) per avere maggiori dettagli su come includere Impermax nella tua strategia di farming.
 
 ### Balancer
 
