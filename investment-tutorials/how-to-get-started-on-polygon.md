@@ -1,10 +1,10 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the different DApps that Polygon has on its blockchain.
+  Neste guia vamos te explicar tudo o que precisas de saber para começar a usar
+  as diferentes DApps na blockchain Polygon.
 ---
 
-# How to get started on Polygon
+# Como começar a tua jornada na rede Polygon
 
 ## What is Polygon?
 
