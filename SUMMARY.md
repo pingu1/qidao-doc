@@ -16,29 +16,28 @@
 
 ## Tutoriales de MAI/ eQi / Qi
 
----
+***
 
 * [Genera Ingresos Pasivos con Qi DAO](earning-passive-income-with-qidao.md)
+* [¿Cómo funciona MAI?](how-does-mai-work.md)
 * [Préstamos de MAI y Depósitos Incentivados](prestamos-mai-depositos-incentivados.md)
 
 ## Tutoriales sobre el pago de la deuda
 
----
+***
 
 * [Pago de la Deuda - ¿Cuándo y Por Qué?](debt-repayment-why-and-when.md)
 * [Pago de la Deuda - ¿Cómo?](debt-repayment-how.md)
 
-## Artículos pendientes de traducir <a id="investment-tutorials"></a>
+## Artículos pendientes de traducir <a href="investment-tutorials" id="investment-tutorials"></a>
 
----
+***
 
-* [How does MAI work?](how-does-mai-work.md)
 * [How to combine farming and borrowing rewards](how-to-combine-farming-and-borrowing-rewards.md)
 
-## Únete a la comunidad <a id="comunidad"></a>
+## Únete a la comunidad <a href="comunidad" id="comunidad"></a>
 
 * [Telegram](https://t.me/QiDaoProtocol)
-* [Discord](https://discord.gg/qidaoprotocol%20)
+* [Discord](https://discord.gg/qidaoprotocol)
 * [Twitter](https://twitter.com/OhMaiGuide)
 * [Usa la app](https://app.mai.finance)
-
