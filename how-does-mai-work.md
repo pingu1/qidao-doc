@@ -71,7 +71,7 @@ A medida que el valor del colateral aumenta, se puede pedir prestado más MAI, y
 
 Como has visto a lo largo de este artículo, la moneda estable MAI es un tipo de moneda estable que está **sobre-colateralizada,** lo que significa que siempre habrá suficiente garantía para respaldar el precio del token MAI. Esto debería dar suficiente alivio a aquellos inversores que dudan sobre invertir en proyectos que acuñan monedas estables. Además, hay que tener en cuenta que cuánto más MAI haya en el mercado, más estable será su precio. 
 
-Recientemente, se han introducido los préstamos incentivos en las bóvedas de Mai Finance, si quieres entender en qué consiste, puedes consultar este [artículo](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/es/prestamos-mai-depositos-incentivados). Esto ayudará aún más a la estabilidad del precio de MAI
+Recientemente, se han introducido los préstamos incentivos en las bóvedas de Mai Finance, si quieres entender en qué consiste, puedes consultar este [artículo](prestamos-mai-depositos-incentivados.md). Esto ayudará aún más a la estabilidad del precio de MAI
 
 ## Disclaimer 
 

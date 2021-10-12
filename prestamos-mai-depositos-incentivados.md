@@ -9,21 +9,21 @@ description: >-
 
 ## Introducción
 
-El negocio principal de Mai Finance es ser una plataforma de préstamos. En vez de vender sus crypto para comprar otros activos, la gente será capaz de bloquear sus activos en Mai Finance y pedir prestado gracias a éste. Esto presenta una oportunidad de mantener tus activos valiosos \(WBTC, WETH …\) mientras puedes obtener otros activos y participar en granjas de rendimiento. En ese caso, el préstamo es usado para generar beneficios adicionales mientras que el colateral gana valor.
+El negocio principal de Mai Finance es ser una plataforma de préstamos. En vez de vender sus crypto para comprar otros activos, la gente será capaz de bloquear sus activos en Mai Finance y pedir prestado gracias a éste. Esto presenta una oportunidad de mantener tus activos valiosos (WBTC, WETH …) mientras puedes obtener otros activos y participar en granjas de rendimiento. En ese caso, el préstamo es usado para generar beneficios adicionales mientras que el colateral gana valor.
 
-Otra de las ventajas principales al usar Mai Finance es que no hay ninguna fecha para realizar el pago de la deuda. Dicho de otra manera, puedes pedir prestado la stablecoin MAI gracias al colateral depositado, no tienes que pagar ningún interés y puedes saldar tu deuda cuando lo creas conveniente. Véase los artículos sobre el [pago de la deuda](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MjoGweuRy7QzOmwfg7k/v/es/debt-repayment-why-and-when) para saber los detalles. La única comisión que tendrás que pagar es la cuota de pago correspondiente al **0.5%** del dinero que has pedido prestado cuando pagas tu préstamo, esto será cogido directamente del colateral que hayas depositado
+Otra de las ventajas principales al usar Mai Finance es que no hay ninguna fecha para realizar el pago de la deuda. Dicho de otra manera, puedes pedir prestado la stablecoin MAI gracias al colateral depositado, no tienes que pagar ningún interés y puedes saldar tu deuda cuando lo creas conveniente. Véase los artículos sobre el [pago de la deuda](debt-repayment-why-and-when.md) para saber los detalles. La única comisión que tendrás que pagar es la cuota de pago correspondiente al **0.5%** del dinero que has pedido prestado cuando pagas tu préstamo, esto será cogido directamente del colateral que hayas depositado
 
 Por ejemplo, si has depositado $200 de WETH para pedir prestado $100 de MAI, cuando vayas a pagar tu préstamo tendrías que pagar $0.50 que serán tomados de tu depósito de WETH .
 
-Además de esta increíble oportunidad, el equipo de Mai Finance introdujo en Septiembre de 2021 incentivos en los préstamos  pagados en Qi, el token nativo de Mai Finance. Es decir, al depositar tus activos en Mai Finance en una bóveda \(vaults\) para pedir prestado MAI, recibirás dinero extra al hacerlo. Este artículo explica de forma detallada cómo funciona esta funcionalidad.
+Además de esta increíble oportunidad, el equipo de Mai Finance introdujo en Septiembre de 2021 incentivos en los préstamos  pagados en Qi, el token nativo de Mai Finance. Es decir, al depositar tus activos en Mai Finance en una bóveda (vaults) para pedir prestado MAI, recibirás dinero extra al hacerlo. Este artículo explica de forma detallada cómo funciona esta funcionalidad.
 
 ## Bóveda - ¿Qué son y cómo funcionan?
 
 ### Creación de la bóveda
 
-En Mai Finance, las bóvedas \(vaults\) son un tipo de almacenamiento especial donde puedes depositar tus activos. Actualmente, hay 10 tipos de bóvedas:
+En Mai Finance, las bóvedas (vaults) son un tipo de almacenamiento especial donde puedes depositar tus activos. Actualmente, hay 10 tipos de bóvedas:
 
-![Los distintos tipos de b&#xF3;vedas que puedes crear en Mai Finance](.gitbook/assets/image%20%285%29.png)
+![Los distintos tipos de bóvedas que puedes crear en Mai Finance](<.gitbook/assets/image (5).png>)
 
 Hay 2 tipos diferentes de bóvedas:
 
@@ -41,13 +41,13 @@ y
 * camWMATIC
 * camAAVE
 
-Las 6 primeras bóvedas son para activos "simples"  mientras que los 4 últimos son camTokens. Los camTokens son los encargados de hacer compounding con los tokens de mercado de  AAVE, es decir, es la representación de un depósito que se hace en AAVE, y luego éste es depositado en las granjas de rendimientos \(yield pools\) de Mai Finance. Mientras tus activos están generando rendimiento en AAVE \(y éstos son automáticamente compuestos \), puedes pedir prestado MAI al depositar estos tokens.
+Las 6 primeras bóvedas son para activos "simples"  mientras que los 4 últimos son camTokens. Los camTokens son los encargados de hacer compounding con los tokens de mercado de  AAVE, es decir, es la representación de un depósito que se hace en AAVE, y luego éste es depositado en las granjas de rendimientos (yield pools) de Mai Finance. Mientras tus activos están generando rendimiento en AAVE (y éstos son automáticamente compuestos ), puedes pedir prestado MAI al depositar estos tokens.
 
 Cabe destacar, en la imagen superior se puede observar una información importante respecto a la creación de las bóvedas
 
 * **MAI disponible**: corresponde al techo máximo de deuda, el número máximo de MAI que puede ser creado en el deposito de las bóvedas.
-* **Min Coll. ratio**: El Ratio de Colateral a Deuda\(CDR\) mínimo para esa bóveda.
-* **Vault incentives APR** \(esto será tratado más tarde en el artículo\).
+* **Min Coll. ratio**: El Ratio de Colateral a Deuda(CDR) mínimo para esa bóveda.
+* **Vault incentives APR **(esto será tratado más tarde en el artículo).
 
 ### Entendiendo el techo de deuda
 
@@ -55,7 +55,7 @@ El número máximo de MAI que uno puede crear en una bóveda depende de la canti
 
 Por ejemplo, si una gran institución financiera depositara 5,000 WBTC de una sola vez y pidiera prestado $100,000,000 de MAI, intercambiando ese MAI por más WBTC, esto podría afectar al precio de MAI haciendo que peligre la estabilidad del precio de $1 de MAI, poniendo en riesgo a toda la plataforma. El techo de deuda es el mecanismo que previene que esto ocurra: hay una cantidad máxima de MAI que puede ser creado en cada tipo de bóveda-
 
-Cuando el techo de deuda es alcanzado \(ya no se puede crear mas MAI\), el tiempo en el cual ha ocurrido esto es guardado, y el sistema incrementará automáticamente el techo de deuda pasadas unas 48 horas. Esto es tiempo suficiente para que el precio de MAI se estabilice \(en caso de que haya una gran presión de venta siguiendo una gran venta de MAI\). 
+Cuando el techo de deuda es alcanzado (ya no se puede crear mas MAI), el tiempo en el cual ha ocurrido esto es guardado, y el sistema incrementará automáticamente el techo de deuda pasadas unas 48 horas. Esto es tiempo suficiente para que el precio de MAI se estabilice (en caso de que haya una gran presión de venta siguiendo una gran venta de MAI). 
 
 Esto significa que en 48 horas, nadie podrá pedir prestado mas MAI en una bóveda que ha alcanzado el techo de deuda, a no ser de que se pague una deuda en ese tiempo.
 
@@ -72,9 +72,9 @@ Cuando pides prestado MAI,  puede ocurrir que la cantidad de MAI que puedes pedi
 
 ### Entendiendo el Ratio de Colateral a Deuda
 
-El **CDR**, o **R**atio ****de **C**olatera**l** a **D**euda ****es el ratio entre el valor que has depositado en Mai Finance y la cantidad de MAI que has pedido prestado.
+El **CDR**, o **R**atio** **de** C**olatera**l **a **D**euda** **es el ratio entre el valor que has depositado en Mai Finance y la cantidad de MAI que has pedido prestado.
 
-Por ejemplo, si has depositado $200 de WETH para pedir prestado $100 de MAI, tu **CDR** sería de:
+Por ejemplo, si has depositado $200 de WETH para pedir prestado $100 de MAI, tu **CDR **sería de:
 
 $$
 CDR=\frac{ValorColateral}{ValorDeuda}=\frac{200}{100}=200\%
@@ -86,14 +86,14 @@ Cada tipo de bóveda tiene un CDR determinado, esto es una marca que sirve de re
 
 Cuando pides prestado MAI en contra de un colateral depositado, podrás obtener cual es la cantidad máxima de MAI que puedes pedir prestada, y cuál sería el impacto en tu ratio de "salud" dependiendo de la cantidad prestada, tal y cómo se puede ver en la imagen inferior:
 
-![Variaci&#xF3;n de la &quot;salud&quot; del pr&#xE9;stamo dependiendo de la cantidad prestada](.gitbook/assets/image%20%284%29.png)
+![Variación de la "salud" del préstamo dependiendo de la cantidad prestada](<.gitbook/assets/image (4).png>)
 
-Es muy importante echarle un ojo a tu **CDR** y mantener un ratio saludable para:
+Es muy importante echarle un ojo a tu **CDR **y mantener un ratio saludable para:
 
 * Evitar ser liquidado
 * Incrementar la "salud" de toda la plataforma de Mai Finance al asegurarte de que la cantidad de MAI circulante tiene colateral que lo respalde.
 
-Un CDR "sano", definido por el equipo de Mai Finance , es entre el 25% y el 270% sobre el valor mínimo del CDR. Además, puedes ver nuestras guías sobre estrategias sobre como puedes usar CDRs agresivos/conservadores para [invertir]() en otros proyectos, o [pagar tu deuda]() usando tu deuda.
+Un CDR "sano", definido por el equipo de Mai Finance , es entre el 25% y el 270% sobre el valor mínimo del CDR. Además, puedes ver nuestras guías sobre estrategias sobre como puedes usar CDRs agresivos/conservadores para [invertir](tutoriales-de-inversion/apalancamiento-con-tus-tokens-de-aave.md#examples-with-numbers) en otros proyectos, o [pagar tu deuda](debt-repayment-how.md) usando tu deuda.
 
 ## Préstamos incentivados
 
@@ -101,7 +101,7 @@ Un CDR "sano", definido por el equipo de Mai Finance , es entre el 25% y el 270%
 
 En Septiembre de 2021, Mai Finance introdujo los préstamos incentivados. Esta es una recompensa distribuida por el equipo de Mai Finance para cualquiera que pida prestado MAI y participe en el crecimiento de la plataforma
 
-Cada tipo de bóveda \(entre los 10 tipos existentes\) reciben 0.05 Qi por bloque, que es distribuido a aquellos usuarios que tengan un CDR sano. El APR de la bóveda es definido por la cantidad de MAI que hayan pedido prestada.
+Cada tipo de bóveda (entre los 10 tipos existentes) reciben 0.05 Qi por bloque, que es distribuido a aquellos usuarios que tengan un CDR sano. El APR de la bóveda es definido por la cantidad de MAI que hayan pedido prestada.
 
 Por ejemplo, Ben y Kila son 2 amigos que han depositado su ETH en la bóveda de  WETH en Mai Finance.
 
@@ -112,7 +112,7 @@ La cantidad actual de MAI prestado en la bóveda de WETH asciende a 1,000,000 MA
 
 Ben y Kila están cualificados para acceder a esas recompensas ya que Ben tiene un CDR del 200%y Kila un CDR del 166.67%. Ben, con su préstamo, tiene el 0.1% de la cantidad total prestada, mientras Kila tiene el 0.6%.
 
-La cantidad total de Qi distribuida a la bóveda de WETH \(o cualquier otra\) es:
+La cantidad total de Qi distribuida a la bóveda de WETH (o cualquier otra) es:
 
 $$
 Qi=0.05*\frac{86400}{2}=2160
@@ -143,24 +143,24 @@ $$
 
 Esto da como resultado aproximadamente el APR existente al crear una bóveda en Mai Finance, ten en cuenta que la cantidad de MAI prestado y el precio de Qi variarán con el tiempo por lo que el APR no sera siempre el mismo.
 
-![APR de la b&#xF3;veda de MAI en el lanzamiento de los pr&#xE9;stamos incentivados](.gitbook/assets/image%20%2823%29%20%282%29%20%283%29%20%283%29.png)
+![APR de la bóveda de MAI en el lanzamiento de los préstamos incentivados](<.gitbook/assets/image (23) (2) (3) (3).png>)
 
 ### Calculando los APRs iniciales
 
 Usando los mismos datos que en el ejemplo anterior, podemos calcular el APR inicial de cada tipo de bóveda:
 
 | Tipo de bóveda | APR Inicial |
-| :--- | :--- |
-| MATIC | 44.29% |
-| WETH | 24.03% |
-| LINK | 27.41% |
-| AAVE | 164.14% |
-| CRV | 159.96% |
-| WBTC | 36.92% |
-| camWETH | 25.46% |
-| camWMATIC | 44.33% |
-| camAAVE | 167.23% |
-| camWBTC | 47.38% |
+| -------------- | ----------- |
+| MATIC          | 44.29%      |
+| WETH           | 24.03%      |
+| LINK           | 27.41%      |
+| AAVE           | 164.14%     |
+| CRV            | 159.96%     |
+| WBTC           | 36.92%      |
+| camWETH        | 25.46%      |
+| camWMATIC      | 44.33%      |
+| camAAVE        | 167.23%     |
+| camWBTC        | 47.38%      |
 
 {% hint style="info" %}
 Como puedes ver, algunas bóvedas generarán mas recompensas que otras. Además, puedes observar que es muy importante depositar tus activos lo antes posible para así poder beneficiarte de estos jugosos APRs antes de que el techo de deuda se incremente, bajando consecuentemente el APR.
@@ -206,7 +206,7 @@ La duración del programa de incentivos es de 3 meses, sin embargo, la DAO puede
 
 * **¿Cómo recibiré las recompensas?**
 
-Qi será enviado a tu cartera automáticamente \(airdrop\)
+Qi será enviado a tu cartera automáticamente (airdrop)
 
 * **¿Cómo se comprueba en que bloques tendré recompensas?**
 
@@ -221,6 +221,5 @@ Seguiremos el mismo calendario que eQi. Puedes comprobar el numero de bloque en 
 Los APRs mostrados a lo largo de este articulo están sujetos a cambios por lo que dependiendo de cuando leas el documento, éstos pueden ser distintos. Recuerda que la cantidad de MAI prestada, el techo de deuda y el valor del token Qi pueden afectar a los APRs de las distintas bóvedas. Por favor, asegúrese de que invierte responsablemente.
 
 {% hint style="info" %}
-Ten en cuenta que una estrategia que funciona bien en un momento dado puede funcionar mal \(o hacerle perder dinero\) en otro momento. Mantente informado, controla los mercados, controla tus inversiones y, como siempre, haz tu propia investigación.
+Ten en cuenta que una estrategia que funciona bien en un momento dado puede funcionar mal (o hacerle perder dinero) en otro momento. Mantente informado, controla los mercados, controla tus inversiones y, como siempre, haz tu propia investigación.
 {% endhint %}
-
