@@ -2,7 +2,7 @@
 
 * [Le guide non-officiel d'utilisation de Mai Finance](README.md)
 
-## Tutoriels investissement <a id="tutoriels"></a>
+## Tutoriels investissement <a href="tutoriels" id="tutoriels"></a>
 
 * [Comment bien démarrer sur Polygon](tutoriels/how-to-get-started-on-polygon.md)
 * [Appliquez un effet de levier sur vos tokens AAVE](tutoriels/tirez-parti-aave-tokens.md)
@@ -11,12 +11,12 @@
 * [MAI dans le metaverse](tutoriels/mai-dans-le-metaverse.md)
 * [Comment utiliser MAI dans la "vraie" vie](tutoriels/how-to-use-mai-in-the-real-life.md)
 * [Farming ou Staking? Ou les deux?](tutoriels/farming-ou-staking-ou-les-deux.md)
+* [Comment combiner les récompenses de fermes et d'emprunts](tutoriels/untitled.md)
 
-## EN - Investment tutorials <a id="investment-tutorials"></a>
+## EN - Investment tutorials <a href="investment-tutorials" id="investment-tutorials"></a>
 
 * [What to do with Qi on Polygon](investment-tutorials/what-to-do-with-qi-on-polygon.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
-* [Comment combiner les récompenses de fermes et d'emprunts](investment-tutorials/untitled.md)
 
 ## MAI / eQI / Qi  Tutorials
 
@@ -29,10 +29,9 @@
 * [Rembourser sa dette - Pourquoi et quand?](en-debt-management-tutorial/debt-repayment-why-and-when.md)
 * [Rembourser sa dette - Comment?](en-debt-management-tutorial/debt-repayment-how.md)
 
-## Rejoignez la Communauté <a id="communaute"></a>
+## Rejoignez la Communauté <a href="communaute" id="communaute"></a>
 
 * [Telegram](https://t.me/QiDaoProtocol)
-* [Discord](https://discord.gg/qidaoprotocol%20)
+* [Discord](https://discord.gg/qidaoprotocol)
 * [Twitter](https://twitter.com/OhMaiGuide)
 * [Use the app](https://app.mai.finance)
-

@@ -9,9 +9,9 @@ description: >-
 
 ## Intro
 
-The core business of Mai Finance is a lending platform. Instead of selling their crypto to buy other assets, people are able to lock their funds on Mai Finance and borrow against them. This presents the opportunity to keep high value assets \(WBTC, WETH ...\) while still being able to get other assets and farm yields. In that case, the loan is used to generate revenue, while the collateral is gaining value.
+The core business of Mai Finance is a lending platform. Instead of selling their crypto to buy other assets, people are able to lock their funds on Mai Finance and borrow against them. This presents the opportunity to keep high value assets (WBTC, WETH ...) while still being able to get other assets and farm yields. In that case, the loan is used to generate revenue, while the collateral is gaining value.
 
-One of the other big advantage of using Mai Finance is that there's no repayment schedule. In other words, you borrow MAI stable coin against your crypto, you don't pay any interests, and you can repay your debt whenever you want. See the different articles on [debt management]() for more details. The only fee that you would ever pay is a repayment fee corresponding to 0.5% of the money you borrowed that you pay when you repay your loan, and that is taken out of your collateral.
+One of the other big advantage of using Mai Finance is that there's no repayment schedule. In other words, you borrow MAI stable coin against your crypto, you don't pay any interests, and you can repay your debt whenever you want. See the different articles on [debt management](../en-debt-management-tutorial/debt-repayment-why-and-when.md) for more details. The only fee that you would ever pay is a repayment fee corresponding to 0.5% of the money you borrowed that you pay when you repay your loan, and that is taken out of your collateral.
 
 As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, when you repay your loan you would have to pay a fee of $0.50 directly taken out of your WETH deposit.
 
@@ -23,7 +23,7 @@ If that wasn't already an amazing opportunity, the Mai Finance team introduced i
 
 On Mai Finance, vaults are special storages where one can deposit their assets. Currently, there are 10 types of vaults:
 
-![The different vault types you can create on Mai Finance](../.gitbook/assets/image%20%281%29.png)
+![The different vault types you can create on Mai Finance](<../.gitbook/assets/image (1).png>)
 
 There are 2 different types of vaults:
 
@@ -41,12 +41,12 @@ and
 * camWMATIC
 * camAAVE
 
-The first 6 vaults in the list are for simple assets while the 4 last ones are for camTokens. camTokens are compounding AAVE market tokens, a representation of a deposit that you could have done on AAVE and then deposited on the yield pools of Mai Finance. While you assets is generating yields on AAVE \(and while the rewards are automatically compounded by the yield pool\), you can still borrow MAI stable coins against these tokens.
+The first 6 vaults in the list are for simple assets while the 4 last ones are for camTokens. camTokens are compounding AAVE market tokens, a representation of a deposit that you could have done on AAVE and then deposited on the yield pools of Mai Finance. While you assets is generating yields on AAVE (and while the rewards are automatically compounded by the yield pool), you can still borrow MAI stable coins against these tokens.
 
 As a side note, you can see on the screenshot above that the creation page shows some very important informations:
 
 * MAI available: this corresponds to the maximum debt ceiling, the maximum number of MAI that can be minted from vault deposits.
-* Min Coll. ratio: this is the minimum Collateral to Debt ratio \(CDR\) for that vault
+* Min Coll. ratio: this is the minimum Collateral to Debt ratio (CDR) for that vault
 * Vault incentives APR
 
 ### Understanding Debt Ceiling
@@ -55,7 +55,7 @@ The maximum number of MAI that one can mint on a specific vault depends on how m
 
 As an example, if a big institution would deposit 5,000 WBTC at once and was able to borrow $100,000,000 worth of MAI, swapping the totality for more WBTC, this could drive the price of MAI down so much that the price would deviate too much from its peg, putting the whole platform at risk. Debt ceiling is the mechanism that prevents this from happening: there's a maximum amount of MAI that can be minted for a given vault type.
 
-When the debt ceiling is reached, the time at which there aren't any more available MAI to mint is recorded, and the system automatically increases the debt ceiling after 48 hours. This is considered enough time for the MAI price to stabilize \(in case of high sell pressure following a big sell off of MAI\). 
+When the debt ceiling is reached, the time at which there aren't any more available MAI to mint is recorded, and the system automatically increases the debt ceiling after 48 hours. This is considered enough time for the MAI price to stabilize (in case of high sell pressure following a big sell off of MAI). 
 
 This means that for 48h, nobody will be able to borrow more MAI from a vault that reached its debt ceiling, unless a debt is repaid.
 
@@ -86,14 +86,14 @@ Each vault type has a minimum CDR ratio accepted, a threshold under which the va
 
 When you borrow MAI against a given collateral, you will get some hints on what's the maximum amount of MAI you can borrow, and what would be the impact on your health ratio depending on the amount borrowed, as you can see in the screenshot bellow:
 
-![Health mitigation depending on borrowed amount](../.gitbook/assets/image%20%284%29.png)
+![Health mitigation depending on borrowed amount](<../.gitbook/assets/image (4).png>)
 
 It's very important to keep an eye on your CDR and keep a healthy ratio to
 
 * prevent liquidation
 * increase the health of the whole Mai Finance platform by ensuring the MAI volume in circulation is properly backed
 
-The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest]() in other projects, or [repay your debt]() using your debt.
+The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest](../tutoriels/tirez-parti-aave-tokens.md#exemples-chiffres) in other projects, or [repay your debt](../en-debt-management-tutorial/debt-repayment-how.md) using your debt.
 
 ## Vault incentives
 
@@ -101,7 +101,7 @@ The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% a
 
 In September 2021, Mai Finance introduced vault incentives. This is a reward allocated by the Mai Finance platform to anyone borrowing MAI and participating in the growth of the platform.
 
-Each Vault type \(among the 10 different types\) receives 0.05 Qi per block, that is then distributed between all the users who have a healthy Collateral to Debt Ratio. The APR of the vault is defined by the current amount of MAI borrowed.
+Each Vault type (among the 10 different types) receives 0.05 Qi per block, that is then distributed between all the users who have a healthy Collateral to Debt Ratio. The APR of the vault is defined by the current amount of MAI borrowed.
 
 As an example, Ben and Kila are 2 friends who deposited their ETH in the WETH vaults on Mai Finance.
 
@@ -112,7 +112,7 @@ The current amount of MAI borrowed by users who deposited WETH in the vault is 1
 
 Both Ben and Kila qualify for the vault incentives because Ben has a CDR of 200% and Kila a CDR of 166.67%. Ben, with his loan, owns 0.1% of the total amount borrowed, while Kila owns 0.6%.
 
-The total amount of Qi allocated to the WETH vault \(or any vault\) is
+The total amount of Qi allocated to the WETH vault (or any vault) is
 
 $$
 Qi=0.05*\frac{86400}{2}=2160
@@ -143,27 +143,27 @@ $$
 
 This corresponds more or less to the APR of the MATIC Vault, as displayed in the following screenshot:
 
-![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](../.gitbook/assets/image%20%2823%29%20%282%29%20%283%29%20%281%29.png)
+![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](<../.gitbook/assets/image (23) (2) (3) (1).png>)
 
 ### Calculating starting vaults' APRs
 
 With the same data as the example above, it's possible to calculate the starting APRs for all vaults
 
 | Vault type | Starting APR |
-| :--- | :--- |
-| MATIC | 44.29% |
-| WETH | 24.03% |
-| LINK | 27.41% |
-| AAVE | 164.14% |
-| CRV | 159.96% |
-| WBTC | 36.92% |
-| camWETH | 25.46% |
-| camWMATIC | 44.33% |
-| camAAVE | 167.23% |
-| camWBTC | 47.38% |
+| ---------- | ------------ |
+| MATIC      | 44.29%       |
+| WETH       | 24.03%       |
+| LINK       | 27.41%       |
+| AAVE       | 164.14%      |
+| CRV        | 159.96%      |
+| WBTC       | 36.92%       |
+| camWETH    | 25.46%       |
+| camWMATIC  | 44.33%       |
+| camAAVE    | 167.23%      |
+| camWBTC    | 47.38%       |
 
 {% hint style="info" %}
-As you can see, some vaults will generate more rewards than others. Also, you can see that it's super important to deposit your assets as soon as possible to benefit from high APRs before the debt ceiling is increased and more loan is taken \(lowering the APR\).
+As you can see, some vaults will generate more rewards than others. Also, you can see that it's super important to deposit your assets as soon as possible to benefit from high APRs before the debt ceiling is increased and more loan is taken (lowering the APR).
 
 You can also see that if you keep your loan for one year of more, the 0.5% repayment fee will easily be compensated by the reward program.
 {% endhint %}
@@ -220,9 +220,8 @@ We will follow the same schedule as eQi. You can find the block numbers on the b
 
 ## Disclaimer
 
-This guide has been written **prior** to the launch of Vault incentives, meaning that the APRs promoted in this document \(as well as this document\) are subject to modifications, and/or may not be accurate. The amount of MAI borrowed, the debt ceiling and the value of the Qi token will highly impact the final APR of each vault type. Please, make sure that you invest responsibly.
+This guide has been written **prior** to the launch of Vault incentives, meaning that the APRs promoted in this document (as well as this document) are subject to modifications, and/or may not be accurate. The amount of MAI borrowed, the debt ceiling and the value of the Qi token will highly impact the final APR of each vault type. Please, make sure that you invest responsibly.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
 {% endhint %}
-

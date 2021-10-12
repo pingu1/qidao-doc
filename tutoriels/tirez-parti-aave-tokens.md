@@ -19,13 +19,13 @@ Pour cela, nous partirons d'un exemple dans lequel vous aimez vraiment la crypto
 
 ### Utiliser AAVE pour augmenter son capital
 
-[AAVE](https://app.aave.com) est une plateforme sur laquelle vous allez pouvoir prêter et emprunter vos MATIC \(parmi d'autres tokens\). En prêtant vos cryptos sur AAVE, vous allez accumuler des gains. Par exemple, actuellement vos MATIC vont pouvoir vous rapporter 1.2% de rendement annuel \(**A**nnual **P**ercentage **Y**ield, ou gain annuel en pourcentage\). Il se peut que AAVE ait un partenariat avec un autre système qui vous rapportera également des récompenses supplémentaires. Pour le moment, Polygon offre 3.69% de rendement annuel supplémentaire sous forme de MATIC.
+[AAVE](https://app.aave.com) est une plateforme sur laquelle vous allez pouvoir prêter et emprunter vos MATIC (parmi d'autres tokens). En prêtant vos cryptos sur AAVE, vous allez accumuler des gains. Par exemple, actuellement vos MATIC vont pouvoir vous rapporter 1.2% de rendement annuel (**A**nnual **P**ercentage **Y**ield, ou gain annuel en pourcentage). Il se peut que AAVE ait un partenariat avec un autre système qui vous rapportera également des récompenses supplémentaires. Pour le moment, Polygon offre 3.69% de rendement annuel supplémentaire sous forme de MATIC.
 
 Tant que vos MATIC sont dans le pot commun sur AAVE, les intérêts s'accumulent automatiquement, ce qui veut dire que votre montant de MATIC grossit avec le temps.
 
-![Sur cet exemple, j&apos;ai d&#xE9;pos&#xE9; 0.2 MATIC sur AAVE](../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
+![Sur cet exemple, j'ai déposé 0.2 MATIC sur AAVE](../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
 
-En déposant vos tokens MATIC sur AAVE, vous recevez en échange un montant équivalent en amWMATIC \(aave market wrapped MATIC\). Il se peut que vous ne les trouviez pas dans votre portefeuille, mais vous les possédez bien.
+En déposant vos tokens MATIC sur AAVE, vous recevez en échange un montant équivalent en amWMATIC (aave market wrapped MATIC). Il se peut que vous ne les trouviez pas dans votre portefeuille, mais vous les possédez bien.
 
 ![I can see the 0.20 MATIC I lended on DeBank](../.gitbook/assets/screen-shot-2021-08-06-at-5.31.01-pm.png)
 
@@ -33,14 +33,14 @@ En déposant vos tokens MATIC sur AAVE, vous recevez en échange un montant équ
 
 Mai Finance accepte vos tokens amWMATIC sur leur page de yield. En déposant vos amWMATIC sur Mai Finance, vos fonds sont "transférés" depuis AAVE vers Mai Finance. Vous pourrez remarquer que le rendement proposé sur Mai Finance est pratiquement le même que celui proposé sur AAVE.
 
-La différence est que Mai Finance va combiner les gains générés par le pot commun sur AAVE avec les récompenses potentielles offertes par les programmes auxiliaires \(pour un pool ETH, les MATIC offerts par Polygon sont échangés en ETH et rajoutés au pot commun\). Dans notre exemple ci-dessus, AAVE offre 1.16% de rendement sur les MATIC, ainsi que 3.69% supplémentaires en récompenses payées sous forme de MATIC. Cependant, sur AAVE les récompenses ne génèrent pas de profit. En déposant vos amWMATIC sur Mai Finance, les récompenses sont récoltées régulièrement et remises dans le pot commun afin de leur appliquer le taux d'intérêt de 1.16%.
+La différence est que Mai Finance va combiner les gains générés par le pot commun sur AAVE avec les récompenses potentielles offertes par les programmes auxiliaires (pour un pool ETH, les MATIC offerts par Polygon sont échangés en ETH et rajoutés au pot commun). Dans notre exemple ci-dessus, AAVE offre 1.16% de rendement sur les MATIC, ainsi que 3.69% supplémentaires en récompenses payées sous forme de MATIC. Cependant, sur AAVE les récompenses ne génèrent pas de profit. En déposant vos amWMATIC sur Mai Finance, les récompenses sont récoltées régulièrement et remises dans le pot commun afin de leur appliquer le taux d'intérêt de 1.16%.
 
-![Mes 0.2 MATIC sont maintenant d&#xE9;pos&#xE9;s sur Mai Finance et vont me rapporter 4.93% par an](../.gitbook/assets/screen-shot-2021-08-06-at-5.45.00-pm.png)
+![Mes 0.2 MATIC sont maintenant déposés sur Mai Finance et vont me rapporter 4.93% par an](../.gitbook/assets/screen-shot-2021-08-06-at-5.45.00-pm.png)
 
 Lorsque vous déposez vos amWMATIC sur Mai Finance, vous recevrez en échange des tokens camWMATIC. Leur valeur n'est pas exactement à ratio 1:1 car les camWMATIC représentent une part du pot commun de amWMATIC sur Mai Finance, dans lequel les intérêts et les récompenses sont accrus. Vous noterez également que lorsque vos amWMATIC sont déposés sur Mai Finance, ils sont automatiquement retirés de AAVE. Cependant, si vous retirez vos camWMATIC de la page de yield sur Mai Finance, vous pourrez retrouver vos MATIC sur AAVE.
 
 {% hint style="info" %}
-Simplement en déposant vos amWMATIC \(ou n'importe quel amToken\) sur Mai Finance, vous allez générer plus de revenu que si vous aviez simplement déposé vos MATIC sur AAVE. En effet, comme les intérêts de base sont ré-appliqués aux récompenses collectées régulièrement, le taux d'intérêt composite est plus élevé.
+Simplement en déposant vos amWMATIC (ou n'importe quel amToken) sur Mai Finance, vous allez générer plus de revenu que si vous aviez simplement déposé vos MATIC sur AAVE. En effet, comme les intérêts de base sont ré-appliqués aux récompenses collectées régulièrement, le taux d'intérêt composite est plus élevé.
 {% endhint %}
 
 ### amTokens VS camToken
@@ -49,33 +49,33 @@ Beaucoup de personnes ont du mal à comprendre la différence entre les amTokens
 
 Partant du principe que lors de la création du pot de amToken sur Mai Finance il y avait 1 000 amTokens, dont 100 vous appartenant. Puisque le pot vient juste d'être créé, le ratio entre les amTokens et les camTokens est de 1:1, et vous possédez 10% du pot. Après un an, en assumant que personne n'a ajouté ni retiré de amTokens du pot, les intérêts de 4.93% générés font que le pot contient maintenant 1 049.3 amTokens. Cependant, votre part n'a pas changé, vous avez toujours 10% du pot représenté par 100 camTokens. Le ratio est maintenant de 1:1.0493, ou autrement dit, chaque camToken vaut 1.0493 amToken.
 
-### Emprunter des MAI \(stable coin\)
+### Emprunter des MAI (stable coin)
 
-Mai Finance vous permet d'emprunter le stable coin MAI lorsque vous déposez des fonds en tant que collatéral. Et l'un des avantages principaux est que les tokens camWMATIC \(et autres camTokens\) peuvent être utilisés comme collatéral. Sur Mai Finance, vos camWMATIC vont continuer à générer des intérêts tout en vous servant de collatéral, ce qui se traduit simplement par un CDR \(**C**ollateral to **D**ebt **R**atio en anglais, ou Ratio Dette/Collatéral\) croissant. Et plus vous conserverez longtemps votre emprunts, plus facilement vous pourrez rembourser les 0.5% de frais de remboursements chargés par la plateforme.
+Mai Finance vous permet d'emprunter le stable coin MAI lorsque vous déposez des fonds en tant que collatéral. Et l'un des avantages principaux est que les tokens camWMATIC (et autres camTokens) peuvent être utilisés comme collatéral. Sur Mai Finance, vos camWMATIC vont continuer à générer des intérêts tout en vous servant de collatéral, ce qui se traduit simplement par un CDR (**C**ollateral to **D**ebt **R**atio en anglais, ou Ratio Dette/Collatéral) croissant. Et plus vous conserverez longtemps votre emprunts, plus facilement vous pourrez rembourser les 0.5% de frais de remboursements chargés par la plateforme.
 
 {% hint style="info" %}
 Lorsque vous déposez vos camWMATIC dans votre coffre de collatéral, la valeur de ces tokens sur la page de yield tombe à 0. Cependant, cela ne veut pas dire qu'ils ne continuent pas à accroître des intérêts.
 {% endhint %}
 
-Lorsque vous ouvrez la page des coffres \(Vaults\) et sélectionnez le coffre de camWMATIC, vous avez alors la possibilité d'y déposer vos tokens \(il faudra commencer par créer un coffre si vous n'en avez pas déjà un\). Gardez à l'esprit que vous aurez à conserver un ratio Dépôt/Emprunt d'au moins 155% lorsque vous allez emprunter contre vos camWMATIC.
+Lorsque vous ouvrez la page des coffres (Vaults) et sélectionnez le coffre de camWMATIC, vous avez alors la possibilité d'y déposer vos tokens (il faudra commencer par créer un coffre si vous n'en avez pas déjà un). Gardez à l'esprit que vous aurez à conserver un ratio Dépôt/Emprunt d'au moins 155% lorsque vous allez emprunter contre vos camWMATIC.
 
-![Mes 0.2 MATIC sont maintenant utilis&#xE9;s comme collat&#xE9;ral](../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
+![Mes 0.2 MATIC sont maintenant utilisés comme collatéral](../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
 
-**Note:** sur cette page, vous pourrez voir la valeur de votre dépôt en Dollars US, et sa valeur peut fluctuer en fonction du type de collatéral, de la valeur sous-jacente du token utilisé, et des bénéfices réalisés par le pot commun de camWMATIC.
+**Note: **sur cette page, vous pourrez voir la valeur de votre dépôt en Dollars US, et sa valeur peut fluctuer en fonction du type de collatéral, de la valeur sous-jacente du token utilisé, et des bénéfices réalisés par le pot commun de camWMATIC.
 
-**Bon plan:** Lorsque je dépose des tokens pour emprunter des MAI, j'essaye toujours de n'emprunter que 50% de ce que je dépose. Dans l'idéal, j'essaye de rester au dessus de 200% de CDR. Si ma valeur de collatéral augmente \(le token ne perd pas de valeur, et les intérêts s'accumulent\), cette stratégie reste très peu risquée. Si jamais j'ajoute plus de collatéral à un coffre existant, je ne retire jamais plus que 50% de ce que je dépose, et n'essaye pas de redescendre le plus proche possible de 200% de CDR. Je peux par contre emprunter moins si lors de mon dépôt le CDR est passé en dessous de 200%.
+**Bon plan:** Lorsque je dépose des tokens pour emprunter des MAI, j'essaye toujours de n'emprunter que 50% de ce que je dépose. Dans l'idéal, j'essaye de rester au dessus de 200% de CDR. Si ma valeur de collatéral augmente (le token ne perd pas de valeur, et les intérêts s'accumulent), cette stratégie reste très peu risquée. Si jamais j'ajoute plus de collatéral à un coffre existant, je ne retire jamais plus que 50% de ce que je dépose, et n'essaye pas de redescendre le plus proche possible de 200% de CDR. Je peux par contre emprunter moins si lors de mon dépôt le CDR est passé en dessous de 200%.
 
 {% hint style="info" %}
 Il est de votre responsabilité de vous rendre sur la page des coffres et de vérifier que votre niveau de liquidation reste toujours aux alentours de votre objectif, et d'augmenter la valeur de votre collatéral au besoin.
 {% endhint %}
 
-![J&apos;ai maintenant 0.10$ de MAI pour un CDR de 214.56%](../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
+![J'ai maintenant 0.10$ de MAI pour un CDR de 214.56%](../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
 
 Il est maintenant tant d'utiliser notre emprunt.
 
 ### Acheter plus de MATIC
 
-Je peux maintenant me rendre sur mon DEX préféré \(QuickSwap ou SushiSwap sont d'excellents exemples\) et échanger mes MAI contre de nouveaux MATIC.
+Je peux maintenant me rendre sur mon DEX préféré (QuickSwap ou SushiSwap sont d'excellents exemples) et échanger mes MAI contre de nouveaux MATIC.
 
 ![](../.gitbook/assets/screen-shot-2021-08-06-at-6.10.35-pm.png)
 
@@ -97,35 +97,35 @@ Les exemples qui suivent sont basés sur un investissement initial de 1 000$ de 
 
 ### 200% Ratio Collatéral / Dette
 
-| Nombre d'itération | investissement | dette | revenu estimé | APY équivalent |
-| :---: | ---: | ---: | ---: | ---: |
-| 1 | 1 000,00$ | 500,00$ | 49,30$ | 4,930% |
-| 2 | 1 500,00$ | 750,00$ | 73,95$ | 7,395% |
-| 3 | 1 750,00$ | 875,00$  | 86,75$ | 8,628% |
-| 4 | 1 875,00$ | 937,50$ | 92,44$ | 9,244% |
-| 5 | 1 937,50$ | 968,75$ | 95,52$ | 9,552% |
-| 6 | 1 968,75$ | 984,38$ | 97,06$ | 9,706% |
-| 7 | 1 984,38$ | 992,19$ | 97,83$ | 9,783% |
-| 8 | 1 992,19$ | - | 98,21$ | 9,821% |
+| Nombre d'itération | investissement |    dette | revenu estimé | APY équivalent |
+| :----------------: | -------------: | -------: | ------------: | -------------: |
+|          1         |      1 000,00$ |  500,00$ |        49,30$ |         4,930% |
+|          2         |      1 500,00$ |  750,00$ |        73,95$ |         7,395% |
+|          3         |      1 750,00$ | 875,00$  |        86,75$ |         8,628% |
+|          4         |      1 875,00$ |  937,50$ |        92,44$ |         9,244% |
+|          5         |      1 937,50$ |  968,75$ |        95,52$ |         9,552% |
+|          6         |      1 968,75$ |  984,38$ |        97,06$ |         9,706% |
+|          7         |      1 984,38$ |  992,19$ |        97,83$ |         9,783% |
+|          8         |      1 992,19$ |        - |        98,21$ |         9,821% |
 
-Après la 7ème boucle, ajouter plus de dette ne permettrait pas d'augmenter mon investissement de plus que 10$ \(1% de mon investissement initial\), et c'est donc le moment de sortir de la boucle. L'augmentation de mon pourcentage de revenu annuel ne changerait pas de façon significative de toutes façons. Et dans cet exemple, je conserve un CDR relativement raisonnable de 200,79%.
+Après la 7ème boucle, ajouter plus de dette ne permettrait pas d'augmenter mon investissement de plus que 10$ (1% de mon investissement initial), et c'est donc le moment de sortir de la boucle. L'augmentation de mon pourcentage de revenu annuel ne changerait pas de façon significative de toutes façons. Et dans cet exemple, je conserve un CDR relativement raisonnable de 200,79%.
 
 Il est facile de se rendre compte qu'utiliser AAVE en combinaison avec Mai Finance permet de pratiquement doubler mon profit, tout en bénéficiant des fluctuations de valeur de ma crypto.
 
 ### 175% Ratio Collatéral / Dette
 
-| Nombre d'itération | investissement | dette | revenu estimé | APY équivalent |
-| :---: | ---: | ---: | ---: | ---: |
-| 1 | 1 000,00$ | 571,43$ | 49,30$ | 4,930% |
-| 2 | 1 571,43$ | 897,96$ | 77,47$ | 7,747% |
-| 3 | 1 897,96$ | 1 084,55$ | 93,57$ | 9,357% |
-| 4 | 2 084,55$ | 1 191,17$ | 102,77$ | 10,277% |
-| 5 | 2 191,17$ | 1 252,10$ | 108,02$ | 10,802% |
-| 6 | 2 252,10$ | 1 286,91$ | 111,03$ | 11,103% |
-| 7 | 2 286,91$ | 1 306,81$ | 112,74$ | 11,274% |
-| 8 | 2 306,81$ | 1 318,18$ | 113,73$ | 11,373% |
-| 9 | 2 318,18$ | 1 324,67$ | 114,29$ | 11,429% |
-| 10 | 2 324,67$ | - | 114,61$ | 11,461% |
+| Nombre d'itération | investissement |     dette | revenu estimé | APY équivalent |
+| :----------------: | -------------: | --------: | ------------: | -------------: |
+|          1         |      1 000,00$ |   571,43$ |        49,30$ |         4,930% |
+|          2         |      1 571,43$ |   897,96$ |        77,47$ |         7,747% |
+|          3         |      1 897,96$ | 1 084,55$ |        93,57$ |         9,357% |
+|          4         |      2 084,55$ | 1 191,17$ |       102,77$ |        10,277% |
+|          5         |      2 191,17$ | 1 252,10$ |       108,02$ |        10,802% |
+|          6         |      2 252,10$ | 1 286,91$ |       111,03$ |        11,103% |
+|          7         |      2 286,91$ | 1 306,81$ |       112,74$ |        11,274% |
+|          8         |      2 306,81$ | 1 318,18$ |       113,73$ |        11,373% |
+|          9         |      2 318,18$ | 1 324,67$ |       114,29$ |        11,429% |
+|         10         |      2 324,67$ |         - |       114,61$ |        11,461% |
 
 Cette fois-ci, passé la 9ème itération il n'est plus intéressant de continuer, je peux donc arrêter la boucle et avoir un CDR final de quasiment 175,49%.
 
@@ -171,15 +171,14 @@ $$
 APY equivalent = 4.93 * 1.9921875 = 9.821484375
 $$
 
-##  Avertissement <a id="disclaimer"></a>
+##  Avertissement <a href="disclaimer" id="disclaimer"></a>
 
 Tout ce qui est présenté dans ce tutoriel assume que
 
-* Les rendements proposés par AAVE restent les même sur une année \(ce qui n'est pas exactement vrai\)
-* Le programme offert par Polygon reste le même sur une année \(ce qui est faux\)
-* Le prix du MATIC reste relativement stable sur une année \(ce qui n'est clairement pas le cas\)
+* Les rendements proposés par AAVE restent les même sur une année (ce qui n'est pas exactement vrai)
+* Le programme offert par Polygon reste le même sur une année (ce qui est faux)
+* Le prix du MATIC reste relativement stable sur une année (ce qui n'est clairement pas le cas)
 
 {% hint style="info" %}
-Veuillez garder à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut parfaitement performer lamentablement \(voir vous faire perdre de l'argent\) dans d'autres circonstances. Restez informés, vérifiez les marchés, gardez un oeil sur vos investissements, et comme toujours, faites vos propres recherches.
+Veuillez garder à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut parfaitement performer lamentablement (voir vous faire perdre de l'argent) dans d'autres circonstances. Restez informés, vérifiez les marchés, gardez un oeil sur vos investissements, et comme toujours, faites vos propres recherches.
 {% endhint %}
-
