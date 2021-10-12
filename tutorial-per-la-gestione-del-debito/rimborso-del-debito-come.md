@@ -9,15 +9,15 @@ description: >-
 
 Il mercato è in rialzo e la tua crypto valuta, all'interno del Vault, sta guadagnando sempre più valore, tanto che hai deciso di venderla. Tuttavia, poiché è nel Vault su Mai Finance, non puoi sbloccarla completamente a meno che non rimborsi il tuo prestito.
 
-Il mercato è ribassista e la tua crypto valuta sta perdendo valore molto rapidamente. Non generi un rendimento sufficientemente veloce da coprire le perdite e mantenere un sano rapporto tra garanzia e debito \(CDR\) e la liquidazione è vicina. È tempo di ripagare il tuo debito per assicurarti di non perdere troppo e prevenire di essere liquidati.
+Il mercato è ribassista e la tua crypto valuta sta perdendo valore molto rapidamente. Non generi un rendimento sufficientemente veloce da coprire le perdite e mantenere un sano rapporto tra garanzia e debito (CDR) e la liquidazione è vicina. È tempo di ripagare il tuo debito per assicurarti di non perdere troppo e prevenire di essere liquidati.
 
-Se non ti trovi in ​​nessuna delle situazioni di cui sopra, probabilmente non vale la pena ripagare il tuo debito. Guarda il capitolo [Rimborso del debito - Perchè e quando](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/italian/tutorial-per-la-gestione-del-debito/rimborso-del-debito-perche-e-quando) per maggiori dettagli.
+Se non ti trovi in ​​nessuna delle situazioni di cui sopra, probabilmente non vale la pena ripagare il tuo debito. Guarda il capitolo [Rimborso del debito - Perchè e quando](rimborso-del-debito-perche-e-quando.md) per maggiori dettagli.
 
 ## Rimborso parziale o totale tramite fiat
 
 Il modo più diretto per ripagare il tuo debito è usare un po' di fiat, soprattutto se vuoi mantenere intatte i tuoi collaterali e altri investimenti.
 
-Mai Finance collabora con [Transak](https://transak.com/) per collegare facilmente gli acquisti di crypto attraverso carte di credito/debito o bonifici bancari, direttamente alla rete Polygon. Basta andare su Mai Finance e fare clic sull'icona Transak nella barra dei menu per aprire un popup che ti consentirà di acquistare alcuni MATIC e inviarli direttamente al tuo portafoglio Polygon.
+Mai Finance collabora con [Transak](https://transak.com) per collegare facilmente gli acquisti di crypto attraverso carte di credito/debito o bonifici bancari, direttamente alla rete Polygon. Basta andare su Mai Finance e fare clic sull'icona Transak nella barra dei menu per aprire un popup che ti consentirà di acquistare alcuni MATIC e inviarli direttamente al tuo portafoglio Polygon.
 
 ![Comprare USDC da FIAT e trasferirli direttamente su Polygon](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
 
@@ -32,7 +32,7 @@ La maggior parte delle persone vorrà prendere in prestito MAI su Mai Finance pe
 * ripagare il tuo prestito con i profitti generati
 * reinvestire i profitti in un altro progetto
 
-Nella maggior parte dei casi, probabilmente è meglio reinvestire i profitti. Infatti, aumentando le tue ricompense, l' APR \(**A**nnual **P**ercentage **R**evenue\) viene applicato su un importo maggiore che a sua volta genera maggiori profitti. Consulta le nostre guide agli investimenti per avere idee su come massimizzare i tuoi investimenti.
+Nella maggior parte dei casi, probabilmente è meglio reinvestire i profitti. Infatti, aumentando le tue ricompense, l' APR (**A**nnual **P**ercentage **R**evenue) viene applicato su un importo maggiore che a sua volta genera maggiori profitti. Consulta le nostre guide agli investimenti per avere idee su come massimizzare i tuoi investimenti.
 
 Tuttavia, ad alcune persone semplicemente non piace l'idea di avere un debito e vorranno ripagarlo il più rapidamente possibile. Se questo è il tuo caso, puoi semplicemente convertire i tuoi profitti in MAI e ripagare il tuo debito.
 
@@ -50,7 +50,7 @@ Ad esempio
 * Swappi $10.00 di token ADDY in MAI
 * Ripaghi $10.00 oggi
   * Il tuo depito ora è $390.00
-  * Il valore dei tuoi camWMATIC $999.95 \(hai pagato lo 0.5% di $10.00 in commissioni di rimborso\)
+  * Il valore dei tuoi camWMATIC $999.95 (hai pagato lo 0.5% di $10.00 in commissioni di rimborso)
 
 Ad un certo punto, sarai in grado di ripagare totalmente il tuo debito utilizzando questa tecnica, purché tu si in grado di generare entrate sufficienti tramite il tuo prestito.
 
@@ -123,7 +123,7 @@ Se prendiamo l'esempio sopra con $1.000,00 di MATIC e un debito di $500,00. Il f
 * Vendi MATIC per USDC
 * Ripaga il flashloan ad AAVE
 
-Una volta inviato, questo elenco di transazioni avverranno tutte nello stesso blocco e ti ritroverai con tutto ciò che è rimasto dei tuoi MATIC e USDC nel tuo portafoglio \(più o meno $ 500,00, con alcune lievi variazioni dovute al tasso di interesse del flashloan, tasse di swap e commissioni di rimborso\).
+Una volta inviato, questo elenco di transazioni avverranno tutte nello stesso blocco e ti ritroverai con tutto ciò che è rimasto dei tuoi MATIC e USDC nel tuo portafoglio (più o meno $ 500,00, con alcune lievi variazioni dovute al tasso di interesse del flashloan, tasse di swap e commissioni di rimborso).
 
 In questo momento, dovresti interagire direttamente con gli smart contracts il che richiede una buona comprensione di come funzionano. Se hai bisogno di aiuto, puoi trovarne alcuni sul nostro server [Discord](https://discord.gg/aRghpvhV) dove c'è un canale di programmazione. Forse in futuro [FuruCombo](https://furucombo.app/combo) proporrà dei "mattoncini" Mai Finance, il che ti permetterebbe di operare direttamente con il loro strumento grafico ma al momento non è possibile. Infine, al team di sviluppatori di Mai Finance è stata proposta l'idea di un pulsante per "ripagare il debito utilizzando i collaterali" e l'opzione potrebbe essere implementata in futuro.
 
@@ -136,9 +136,9 @@ A seconda della tua strategia e di come ti senti riguardo al debito, potrebbe es
 
 ![APY di Deposito e Prestito su AAVE ad Agosto 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
 
-Ad esempio per USDC, puoi vedere che il tasso di prestito è del 3,79% con un rendimento attuale del 2,08% rimborsato in MATIC. Questo dà, al momento della stesura, l'equivalente dell'1,71% che dovrai rimborsare mantenendo il prestito per un anno intero. Con AAVE però dato che puoi ripagare il tuo debito molto rapidamente, l'APY variabile è pari allo 0,005% giornaliero. Quindi, ci vorrebbero 100 giorni \(poco più di 3 mesi\) per raggiungere lo 0,5% del tuo debito.
+Ad esempio per USDC, puoi vedere che il tasso di prestito è del 3,79% con un rendimento attuale del 2,08% rimborsato in MATIC. Questo dà, al momento della stesura, l'equivalente dell'1,71% che dovrai rimborsare mantenendo il prestito per un anno intero. Con AAVE però dato che puoi ripagare il tuo debito molto rapidamente, l'APY variabile è pari allo 0,005% giornaliero. Quindi, ci vorrebbero 100 giorni (poco più di 3 mesi) per raggiungere lo 0,5% del tuo debito.
 
-Se hai intenzione di mantenere il tuo prestito più a lungo, è sicuramente meglio usare Mai Finance. Inoltre, è importante capire che gli APR dei prestiti AAVE sono variabili, fluttueranno con gli importi che vengono depositati e presi in prestito \(più persone vogliono prendere in prestito da AAVE, maggiore è l'APR del prestito\). Tieni inoltre presente che il programma di ricompensa MATIC a un certo punto terminerà e l'interesse dell'1,71% diventerà presto un tasso di interesse del 3,79%. Almeno con Mai Finance, non devi tenere d'occhio il tuo prestito per vedere quando diventa non più conveniente.
+Se hai intenzione di mantenere il tuo prestito più a lungo, è sicuramente meglio usare Mai Finance. Inoltre, è importante capire che gli APR dei prestiti AAVE sono variabili, fluttueranno con gli importi che vengono depositati e presi in prestito (più persone vogliono prendere in prestito da AAVE, maggiore è l'APR del prestito). Tieni inoltre presente che il programma di ricompensa MATIC a un certo punto terminerà e l'interesse dell'1,71% diventerà presto un tasso di interesse del 3,79%. Almeno con Mai Finance, non devi tenere d'occhio il tuo prestito per vedere quando diventa non più conveniente.
 
 Infine, il team di Mai Finance sta lavorando su incentivi per i Vaults che funzionerebbero allo stesso modo della ricompensa MATIC, il che significa che otterresti comunque un prestito con interesse dello 0% e un bonus pagato in Qi che potrebbe benissimo ridurre la commissione di rimborso a 0 % del tuo debito. E più a lungo mantieni il tuo prestito, più ricompensa otterrai, rendendolo un vero prestito a interesse negativo.
 
@@ -147,6 +147,5 @@ Infine, il team di Mai Finance sta lavorando su incentivi per i Vaults che funzi
 Le opinioni, i pensieri e le considerazioni espresse in questo documento appartengono esclusivamente all'autore e non necessariamente al resto della comunità, né al team di sviluppo di Mai Finance. Non dovrebbero essere presi come un consiglio finanziario o una guida di alcun tipo.
 
 {% hint style="info" %}
-Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore \(o farti perdere denaro\) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
+Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
 {% endhint %}
-

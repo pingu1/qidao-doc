@@ -9,7 +9,7 @@
 * [Farmare usando solo stable coin](tutorial-di-investimento/farmare-usando-stable-coin.md)
 * [Cosa fare con Mai su Polygon](tutorial-di-investimento/what-to-do-with-mai-on-polygon.md)
 
----
+***
 
 * [Cosa fare con Qi su Polygon](cosa-fare-con-qi-su-polygon.md)
 * [MAI Metaverse](mai-metaverse.md)
@@ -29,10 +29,9 @@
 * [Rimborso del debito - Perchè e quando?](tutorial-per-la-gestione-del-debito/rimborso-del-debito-perche-e-quando.md)
 * [Rimborso del debito - Come?](tutorial-per-la-gestione-del-debito/rimborso-del-debito-come.md)
 
-## Entra nella Community <a id="community"></a>
+## Entra nella Community <a href="community" id="community"></a>
 
-* [Discord](https://discord.gg/qidaoprotocol%20)
+* [Discord](https://discord.gg/qidaoprotocol)
 * [Telegram](https://t.me/QiDaoProtocol)
 * [Twitter](https://twitter.com/OhMaiGuide)
 * [Usa la dApp](https://app.mai.finance)
-

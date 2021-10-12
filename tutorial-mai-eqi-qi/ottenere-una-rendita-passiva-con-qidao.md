@@ -10,7 +10,7 @@ description: >-
 
 Qi DAO ti permette di guadagnare una quota settimanale dei ricavi guadagnati dal protocollo:
 
-* 30% delle entrate generate dalle commissioni dai prestiti ripagati settimanali \(più un boost del 25%\). 
+* 30% delle entrate generate dalle commissioni dai prestiti ripagati settimanali (più un boost del 25%). 
 * 100% delle ricompense dai Liquidity Pool ottenute dalle entrate generate dalle commissioni per il farming su QuickSwap.
 * 30% delle commissioni ottenute dagli swap in USDC settimanali. 
 
@@ -18,13 +18,13 @@ Questa quota di entrate viene distribuita alle persone che mettono in stake i lo
 
 ## Introduzione alle "istantanee"
 
-Un'istantanea è fondamentalmente una registrazione dello stato di una blockchain ad uno specifico blocco, questo significa che l'istantanea registrerà il contenuto dell'intera blockchain che include tutti gli indirizzi esistenti e i loro dati associati \(transazioni, commissioni, saldo, presto\). Dato che Qi è sulla blockchain Polygon, possiamo controllare quando si svolgerà la prossima istantanea su [Polygonscan](https://polygonscan.com/).
+Un'istantanea è fondamentalmente una registrazione dello stato di una blockchain ad uno specifico blocco, questo significa che l'istantanea registrerà il contenuto dell'intera blockchain che include tutti gli indirizzi esistenti e i loro dati associati (transazioni, commissioni, saldo, presto). Dato che Qi è sulla blockchain Polygon, possiamo controllare quando si svolgerà la prossima istantanea su [Polygonscan](https://polygonscan.com).
 
 Diventi idoneo per le ricompense metti in stake i tuoi token Qi per almeno 10 giorni a seconda di quando blocchi i tuoi token. In altre parole, un periodo di staking valido dovrebbe contenere almeno 2 istantanee, quindi verrai pagato il mercoledì successivo alla seconda istantanea.
 
 ![Come essere idoneo alle ricompense Qi](../.gitbook/assets/unknown.png)
 
-Questo è un esempio di un periodo di stake minimo. Naturalmente, puoi mettere in stake per un periodo di tempo più lungo e in realtà ci sono vantaggi a mettere in stake i tuoi Qi per un periodo maggiore. Più a lungo si tiene in stake, maggiore sarà l'aumento della ricompensa \(guarda [Cos'è il QiPowah](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MlEwyy1WzC5BTRrahBm/v/italian/tutorial-mai-eqi-qi/earning-passive-income-with-qidao#what-is-qi-powah/@drafts) e le [FAQ](https://app.gitbook.com/@qidao-qimps/s/mai-finance-tutorials/~/drafts/-MlEwyy1WzC5BTRrahBm/v/italian/tutorial-mai-eqi-qi/earning-passive-income-with-qidao#faqs-of-qi-staking/@drafts) per ulteriori dettagli\).
+Questo è un esempio di un periodo di stake minimo. Naturalmente, puoi mettere in stake per un periodo di tempo più lungo e in realtà ci sono vantaggi a mettere in stake i tuoi Qi per un periodo maggiore. Più a lungo si tiene in stake, maggiore sarà l'aumento della ricompensa (guarda [Cos'è il QiPowah](ottenere-una-rendita-passiva-con-qidao.md#cosa-sono-qi-boost-e-qi-powah) e le [FAQ](ottenere-una-rendita-passiva-con-qidao.md#faqs-dello-staking-di-qi) per ulteriori dettagli).
 
 ## Comprendere Qi Boost e Qi Powah
 
@@ -32,7 +32,7 @@ Ora che sappiamo cos'è un'istantanea, siamo pronti per iniziare a guadagnare un
 
 ### Cosa sono Qi Boost e Qi Powah?
 
-Qi Boost è la tua occasione per aumentare il tuo potere di voto e le ricompense per i tuoi Qi. Più a lungo tieni in stake i tuoi Qi, maggiore sarà il tuo potere di voto \(Qi Powah\) e la quota di ricompensa settimanale. Puoi potenziarlo fino a 4 volte bloccando il Qi per 4 anni. I tuoi potenziamenti si riducono lentamente durante il periodo di blocco, man mano che si sbloccano i tuoi Qi, tuttavia puoi sempre aumentare il tuo stake per mantenere il tuo livello potenziato. I tuoi Qi potenziati sono rappresentati in eQi \(Qi come garanzia\) e rimarrà in garanzia fino alla data di sblocco \(non trasferibile\).
+Qi Boost è la tua occasione per aumentare il tuo potere di voto e le ricompense per i tuoi Qi. Più a lungo tieni in stake i tuoi Qi, maggiore sarà il tuo potere di voto (Qi Powah) e la quota di ricompensa settimanale. Puoi potenziarlo fino a 4 volte bloccando il Qi per 4 anni. I tuoi potenziamenti si riducono lentamente durante il periodo di blocco, man mano che si sbloccano i tuoi Qi, tuttavia puoi sempre aumentare il tuo stake per mantenere il tuo livello potenziato. I tuoi Qi potenziati sono rappresentati in eQi (Qi come garanzia) e rimarrà in garanzia fino alla data di sblocco (non trasferibile).
 
 Ciò vuol dire che mettere in stake Qi ha i seguenti vantaggi:
 
@@ -53,7 +53,7 @@ Tieni presente che una volta che hai bloccato i tuoi token Qi per un determinato
 
 Congratulazioni, ora sei ufficialmente uno staker di Qi e riceverai nelle prossime settimane uno stipendio settimanale. Se hai qualche dubbio se sei idoneo alla condivisione delle entrate della prossima settimana, puoi controllarlo nella pagina boost.
 
-![](../.gitbook/assets/captura%20%281%29.jpg)
+![](<../.gitbook/assets/captura (1).jpg>)
 
 ### Statistiche di Qi Powah
 
@@ -86,16 +86,16 @@ Possono esserci un paio di ragioni in questo caso: o è tutto corretto ma devi a
 Le ricompense per lo staking di QI sono distribuite in QI.
 
 * **Da dove arrivano queste ricompense!?** 
-  * 100% dei guadagni dalle entrate derivanti dalle commissioni deposito delle farm \($2,245,681 usati per farmare alla settimana 14\) 
-  * 30% delle entrate derivanti dalle commissioni di pagamento del debito \($18,362 settimanali di entrate in media\)
-  * 30% Anchor/Swap delle entrate derivanti dalle commissioni di swap, Anchor incluso \($178,365 settimanali di entrate in media\)
+  * 100% dei guadagni dalle entrate derivanti dalle commissioni deposito delle farm ($2,245,681 usati per farmare alla settimana 14) 
+  * 30% delle entrate derivanti dalle commissioni di pagamento del debito ($18,362 settimanali di entrate in media)
+  * 30% Anchor/Swap delle entrate derivanti dalle commissioni di swap, Anchor incluso ($178,365 settimanali di entrate in media)
 * **Cos'è eQI e cosa ci posso fare?** 
 
-eQI \(QI su escrow\) rappresenta il boost che stai ottenendo sul tuo potere di voto e sulle ricompense Qi. Quindi, ai fini di voto e dell'ottenimento delle ricompense Qi, 1 eQi conta come 1 Qi
+eQI (QI su escrow) rappresenta il boost che stai ottenendo sul tuo potere di voto e sulle ricompense Qi. Quindi, ai fini di voto e dell'ottenimento delle ricompense Qi, 1 eQi conta come 1 Qi
 
 * **Aspetta io ho messo in stake per ottenere ricompense. Cos'è questo potere di voto?** 
 
-QiDao è una DAO \(Organizzazione Autonoma Decentralizzata\) e il futuro del protocollo è deciso dalla comunità. In qualità di titolare di $QI hai diritto a votare i QIP \(QiDao Improvement Proposals\) pubblicati sulla pagina Governance.
+QiDao è una DAO (Organizzazione Autonoma Decentralizzata) e il futuro del protocollo è deciso dalla comunità. In qualità di titolare di $QI hai diritto a votare i QIP (QiDao Improvement Proposals) pubblicati sulla pagina Governance.
 
 * **Che APR posso attendermi mettendo in stake $QI?** 
 
@@ -105,7 +105,7 @@ Ogni settimana è diversa dato che i premi dipendono da quanto eQI c'è e da qua
 
 Sì, puoi fare entrambe le cose senza influenzare il tuo attuale staking. Basta selezionare l'importo, il tempo da aggiungere, fare clic su aumenta e confermare.
 
-* **Posso bloccare i miei QI per periodi di tempo diversi??** 
+* **Posso bloccare i miei QI per periodi di tempo diversi?? **
 
 Attualmente non è possibile all'interno dello stesso account. Tuttavia, puoi farlo rapidamente aggiungendo un nuovo account al tuo portafoglio. In questo modo puoi bloccare a lungo con quello principale e per periodi più brevi con un indirizzo secondario.
 
@@ -120,6 +120,5 @@ Puoi trovare un articolo su un argomento simile trattato da Genkham [qui](https:
 Questa guida non è assolutamente un consiglio finanziario, è stata realizzata a puro scopo educativo.       L' obbiettivo non è quello di proporre una ricetta da seguire alla cieca, quindi per favore fai le tue ricerche e le tue simulazioni e investi solo ciò che sei disposto a perdere.
 
 {% hint style="info" %}
-Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore \(o farti perdere denaro\) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
+Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
 {% endhint %}
-
