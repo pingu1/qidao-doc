@@ -11,6 +11,7 @@
 * [¿Qué hacer con Qi en Polygon?](tutoriales-de-inversion/que-hacer-con-qi-polygon.md)
 * [Universo MAI](tutoriales-de-inversion/mai-metaverse.md)
 * [Como usar MAI en la vida real](tutoriales-de-inversion/how-to-use-mai-in-the-real-life.md)
+* [¿Cómo combinar el farmeo con los préstamos incentivados?](tutoriales-de-inversion/how-to-combine-farming-and-borrowing-rewards.md)
 * [Acumula DApps como si fueran cromos](tutoriales-de-inversion/acumula-dapps-como-cromos.md)
 * [¿Farmear o hacer staking? ¿O Ambas?](tutoriales-de-inversion/farming-or-staking-or-both.md)
 
@@ -30,10 +31,6 @@
 * [Pago de la Deuda - ¿Cómo?](debt-repayment-how.md)
 
 ## Artículos pendientes de traducir <a href="investment-tutorials" id="investment-tutorials"></a>
-
-***
-
-* [How to combine farming and borrowing rewards](how-to-combine-farming-and-borrowing-rewards.md)
 
 ## Únete a la comunidad <a href="comunidad" id="comunidad"></a>
 
