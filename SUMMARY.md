@@ -26,10 +26,9 @@
 * [Debt repayment - Why and When?](debt-management-tutorials/debt-repayment-why-and-when.md)
 * [Debt repayment - How?](debt-management-tutorials/debt-repayment-how.md)
 
-## Junta-te à comunidade <a id="community"></a>
+## Junta-te à comunidade <a href="community" id="community"></a>
 
-* [Discord](https://discord.gg/qidaoprotocol%20)
+* [Discord](https://discord.gg/qidaoprotocol)
 * [Telegram](https://t.me/QiDaoProtocol)
 * [Twitter](https://twitter.com/OhMaiGuide)
 * [Use the app](https://app.mai.finance)
-
