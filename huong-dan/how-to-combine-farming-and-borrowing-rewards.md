@@ -1,219 +1,216 @@
 ---
 description: >-
-  This page presents how to combine yield farming with the borrowing rewards
-  provided by Mai Finance to increase your overall interests.
+  Phần này chúng tôi sẽ trình bày cách kết hợp giữa phần thưởng từ các kho tiền
+  trên Mai Finance và farming để tối đa hóa lợi nhuận tổng thể của bạn.
 ---
 
-# How to combine farming and borrowing rewards
+# Cách để kết hợp giữa phần thưởng đi vay và farming
 
-## Intro
+## Giới thiệu
 
-In September 2021, Mai Finance introduced vault rewards in order to promote its borrowing business and have people use their tokens to borrow MAI. It's not only taking a 0% interest loan with a small repayment fee, now people can also get paid to borrow money. This guide will propose a strategy based on stable coin farming using Augury Finance as a source of tokens that will feed the vaults on Mai Finance, leading to high borrowing incentives, and additional MAI that will then be re-injected in the farm.
+Vào tháng 9 năm 2021, Mai Finance đã giới thiệu phần thưởng kho tiền để thúc đẩy hoạt động kinh doanh đi vay của mình khi người dùng sử dụng mã thông báo của họ để vay MAI. Không chỉ vay lãi suất 0% với phí hoàn trả nhỏ, giờ đây mọi người còn có thể được trả thưởng khi vay tiền. Hướng dẫn này sẽ đề xuất một chiến lược dựa trên việc farming đồng ổn định bằng cách sử dụng Augury Finance làm nguồn đầu ra mã thông báo cung cấp cho các kho tiền trên Mai Finance, tạo ra các ưu đãi vay vốn cao và MAI bổ sung sau đó sẽ được bơm lại vào  các bể thanh khoản. 
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](<../.gitbook/assets/image (7).png>)
 
-## Application and pools presentation
+## Trình bày ứng dụng và các bể 
 
 ### Augury Finance
 
-Augury Finance is a yield aggregator that doesn't focus on auto-compounding your LP \(**L**iquidity **P**ool\) tokens. Instead, Augury will automatically sell the farm tokens of the farms it uses to buy other tokens in their _Infusions._
+Augury Finance là một nền tảng tổng hợp lợi nhuận không tập trung vào việc tự động cộng gộp các mã thông báo LP (Nhóm thanh khoản) của bạn. Thay vào đó, Augury sẽ tự động bán mã thông báo nền tảng của các bể thanh khoản mà nó sử dụng để mua các mã thông báo khác tại Infusion của họ.
 
-As an example, you can farm the DFYN-WETH pair on Augury
+Ví dụ, bạn có thể farm cặp DFYN-ETH
 
-![Example of the DFYN-WETH mining pool on Augury Finance](../.gitbook/assets/image%20%2832%29.png)
+![Bể thanh khoản khai thác DFYN-ETH trên Augury ](<../.gitbook/assets/image (32).png>)
 
-This Infusion is using DinoSwap as the underlying farm, and a LP token that one can get on DFYN. With an APR of 123.43%, users who deposit liquidity in this pool will be rewarded with
+Infusion này đang sử dụng DinoSwap làm thanh khoản nền tảng và một cặp thanh khoản LP mà một người có thể tạo được trên DFYN. Với APR là 123,43%, người dùng gửi thanh khoản vào bể này sẽ được thưởng
 
-* 30% of WETH
-* 20% of LINK
-* 20% of WBTC
-* 15% of USDT
-* 15% of WMATIC
+* 30%  WETH
+* 20%  LINK
+* 20%  WBTC
+* 15%  USDT
+* 15%  WMATIC
 
-If you farm on DinoSwap, you will be paid with DINO tokens, which price is very volatile. On other aggregator like Adamant or Beefy, you would increase your LP position, but with Augury you "secure" your position by getting tokens that are less likely to have very high volatility. The drawback is that your initial position won't grow over time since 100% of the harvest DINO is converted into the set of tokens composing the reward on Augury.
+Nếu bạn cung cấp thanh khoản trên DinoSwap, bạn sẽ được trả bằng mã thông báo DINO, giá rất dễ biến động. Trên các nền tảng tổng hợp khác như Adamant hoặc Beefy, bạn sẽ tăng vị thế LP của mình, nhưng với Augury, bạn "đảm bảo" vị thế của mình bằng cách nhận được các mã thông báo ít có khả năng biến động. Hạn chế là vị thế ban đầu của bạn sẽ không tăng theo thời gian vì 100% DINO thu hoạch được chuyển đổi thành bộ mã thông báo tạo ra phần thưởng trên Augury.
 
 {% hint style="info" %}
-Augury finance is using 3 different Infusion tiers that have different deposit fees and performance fees. Please read about the tier types you want to use and make sure you understand their impact for your farming strategy.
+Augury Finance đang sử dụng 3 cấp có phí đặt cọc và phí thực hiện khác nhau. Vui lòng đọc về các loại cấp bạn muốn sử dụng và đảm bảo rằng bạn hiểu tác động của chúng đối với chiến lược của bạn.
 {% endhint %}
 
-In our strategy, we will be using the USDT-UST tier2 farm that rewards users with a mix of WETH/WBTC/LINK/WMATIC/USDC, because Mai Finance proposes 4 vaults for 4 of the 5 tokens we will get as a reward. In order to maximize our profits, we will add AAVE between the output of Augury and the vaults on Mai Finance since 3 out of the 5 tokens we will harvest can be lended on AAVE.
+Trong chiến lược này, chúng tôi sẽ sử dụng bể USDT-UST cấp 2 để thưởng cho người dùng kết hợp WETH / WBTC / LINK / WMATIC / USDC, vì Mai Finance đề xuất 4 kho tiền cho 4 trong số 5 mã thông báo mà chúng ta sẽ nhận được làm phần thưởng. Để tối đa hóa lợi nhuận của mình, chúng ta sẽ thêm AAVE giữa đầu ra của Augury và kho tiền trên Mai Finance vì 3 trong số 5 token mà chúng ta sẽ thu hoạch có thể được cho vay trên AAVE.
 
-![Stable coin farming USDT-UST for our strategy](../.gitbook/assets/image%20%2831%29.png)
+![Bể thanh khoản của USDT-UST trên Augury](<../.gitbook/assets/image (31).png>)
 
 ### Curve
 
-Curve is a blue-chip project that will reward users lending blue-chip tokens. The reward is composed of auto-compounded tokens \(added back into the investment\), WMATIC tokens and CRV tokens, which are 2 tokens that are also accepted as collateral on Mai Finance.
+Curve là một dự án blue-chip sẽ thưởng cho người dùng cho vay blue-chip token. Phần thưởng bao gồm các mã thông báo tự động cộng dồn (được thêm lại vào khoản đầu tư), mã thông báo WMATIC và mã thông báo CRV, là 2 mã thông báo cũng được chấp nhận làm tài sản thế chấp trên Mai Finance. 
 
-One of the very interesting things to note about Curve and its pools is that one doesn't have to deposit an exact amount of each token for a given pool. Instead, a single token can be provided and the algorithm that managed the pool will automatically adjust the other tokens by selling a portion of the deposit and buy the other tokens to maintain a correct ratio in the pool.
+Một trong những điều rất thú vị cần lưu ý về Curve và các bể của nó là người ta không phải gửi một số tiền chính xác của mỗi mã thông báo cho một bể nhất định. Thay vào đó, một mã thông báo duy nhất có thể được cung cấp và thuật toán quản lý bể sẽ tự động điều chỉnh các mã thông báo khác bằng cách bán một phần tiền gửi và mua các mã thông báo khác để duy trì tỷ lệ chính xác trong bể. 
 
-We will be using the atricrypto3 pool that accepts any combination of WBTC/WETH/USDC/USDT/DAI and we will add to this pool the USDC that will be generated by the pool on Augury.
+Chúng ta sẽ sử dụng bể atricrypto3 chấp nhận bất kỳ sự kết hợp nào của WBTC / WETH / USDC / USDT / DAI và chúng ta sẽ thêm vào bể này USDC sẽ được tạo bởi bể trên Augury.
 
-![Details of the atricrypto3 pool on Curve as of September 2021](../.gitbook/assets/image%20%2830%29.png)
+![Thông tin chi tiết về bể atricrypto3 trên Curve kể từ tháng 9 năm 2021](<../.gitbook/assets/image (30).png>)
 
 ### AAVE
 
-As mentioned in the paragraph about Augury, AAVE is used to add a small reward to the tokens farmed on Augury before we use them on Mai Finance. Instead of putting our WBTC, WETH and WMATIC directly on Mai Finance, we will deposit these tokens on AAVE and use the yield instrument of Mai Finance to auto-compound the rewards from AAVE in the amToken pools, and use the camToken as collateral in vaults. You can get more details about this part by reading the [tutorial about AAVE tokens](leverage-aave-tokens.md).
+Như đã đề cập trong đoạn về Augury, AAVE được sử dụng để thêm một phần thưởng nhỏ vào bể trên Augury trước khi chúng ta sử dụng chúng trên Mai Finance. Thay vì đặt WBTC, WETH và WMATIC trực tiếp trên Mai Finance, chúng ta sẽ gửi các mã thông báo này trên AAVE và sử dụng công cụ lợi nhuận của Mai Finance để tự động gộp phần thưởng từ AAVE trong các nhóm amToken và sử dụng camToken làm tài sản thế chấp trong kho tiền . Bạn có thể biết thêm chi tiết về phần này bằng cách đọc hướng dẫn về [mã thông báo AAVE.](how-to-combine-farming-and-borrowing-rewards.md#intro)
 
-![AAVE lending rewards as of September 2021](../.gitbook/assets/image%20%2829%29.png)
+![Lãi suất huy động vốn trên AAVE tháng 9 năm 2021](<../.gitbook/assets/image (29).png>)
 
 ### Balancer
 
-Balancer is another blue-chip project like Curve. You will be able to deposit certain tokens in pools composed of more than 2 tokens,  and you deposit a single token. The pool will automatically be balanced to get an equal proportion of each token that composes the pool.
+Balancer là một dự án blue-chip khác như Curve. Bạn sẽ có thể gửi một số mã thông báo nhất định trong các bể bao gồm hơn 2 mã thông báo và bạn gửi một mã thông báo duy nhất. Bể sẽ tự động được cân bằng để có được tỷ lệ bằng nhau của mỗi mã thông báo tạo ra nhóm. 
 
-For our strategy, we will be using the WETH/BAL/Qi/MAI/USDC pool. This pool will accept the Qi token that will be collected from vaults on Mai Finance, and will reward us with additional Qi, and BAL tokens that we will be able to deposit on Mai Finance in the BAL vault, allowing us to mint more MAI and increase our farming position on Augury.
+Đối với chiến lược này, chúng ta sẽ sử dụng bể WETH / BAL / Qi / MAI / USDC. Bể này sẽ chấp nhận mã thông báo Qi sẽ được thu thập từ kho tiền trên Mai Finance và sẽ thưởng cho chúng ta bằng các mã thông báo Qi và BAL bổ sung mà chúng ta sẽ có thể gửi vào Mai Finance trong kho tiền BAL, cho phép chúng ta kiếm thêm MAI và tăng vị tnế thanh khoản của chúng ta trên Augury.
 
-![Balancer 5-pool as of September 2021](../.gitbook/assets/image%20%2823%29.png)
+![Bể trên Balancer tháng 9](<../.gitbook/assets/image (23).png>)
 
-## Bootstrapping the system
+## Khởi động hệ thống
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](<../.gitbook/assets/image (19).png>)
 
-What follows is a simulation made with an initial investment of $1,000 worth of ETH that is deposited in the camWETH vault to borrow $500 worth of MAI, converted in $500 worth of USDT-UST. This simulation assumes the following rewards for the different systems
+Sau đây là một mô phỏng được thực hiện với khoản đầu tư ban đầu trị giá 1.000 đô la ETH được gửi vào kho camWETH để vay MAI trị giá 500 đô la, được quy đổi bằng USDT-UST trị giá 500 đô la. Mô phỏng này giả định các phần thưởng sau cho các  nền tảng khác nhau
 
-* USDT-UST farming APR of 22.53%
-* amWBTC APR of 0.39%
-* amWETH APR of 1.71%
-* amWMATIC APR of 3.80%
-* atricrypto3 APR of 3.86% auto-compounded LP token, 13.09% WMATIC and 17.63% CRV
-* 5-tokens Balancer pool with APR of 43.46% with a BAL:Qi ratio of 1:6
-* Vault rewards APRs of
-  * 23.28% for camWBTC
-  * 21.52% for camWETH
-  * 32.93% for camWMATIC
-  * 24.51% for LINK
-  * 116.71% for CRV
-  * 62.38% for BAL
+* USDT-UST farming APR là 22.53%
+* amWBTC APR  0.39%
+* amWETH APR  1.71%
+* amWMATIC APR  3.80%
+* atricrypto3 APR bao gồm 3.86% tự động cộng dồn LP token, 13.09% WMATIC và 17.63% CRV
+* Bể 5-tokens Balancer với APR là 43.46% với tỷ lệ BAL:Qi là 1:6
+* APR kho tiền bao gồm
+  * 23.28% cho camWBTC
+  * 21.52% cho  camWETH
+  * 32.93% cho camWMATIC
+  * 24.51% cho LINK
+  * 116.71% cho CRV
+  * 62.38% cho BAL
 
-These APRs are all subject to change on the different platforms, and there's no guarantee that they will continue for a whole year, however we will take them as is for this simulation in order to get an idea of the possible overall APR of the system. In order to further "simplify" the simulation, we will not take in account price variations, nor transaction fees. Also note that this simulation is taking into account that the Vault Rewards on Mai Finance and the Balancer rewards are compounded daily instead of weekly, but these rewards are currently airdropped weekly to the users' wallet. Finally, for the sake of this simulation, we will assume the CDR \(**C**ollateral to **D**ebt **R**atio\) is always 200%, meaning we're only borrowing half of what we deposit to keep getting the rewards, but prevent easy liquidations.
+Các APR này đều có thể thay đổi trên các nền tảng khác nhau và không có gì đảm bảo rằng chúng sẽ ổn định trong cả năm, tuy nhiên, chúng ta vẫn sẽ xem xét chúng như là ví dụ đối với mô phỏng này để có được ý tưởng về APR tổng thể. Để tiếp tục "đơn giản hóa" mô phỏng, chúng ta sẽ không tính đến các biến thể giá tài khoản cũng như phí giao dịch. Cũng xin lưu ý rằng mô phỏng này có tính đến phần thưởng Vault trên Mai Finance và phần thưởng Balancer được cộng dồn hàng ngày thay vì hàng tuần, nhưng những phần thưởng này hiện được phát hàng tuần vào ví của người dùng. Cuối cùng, vì lợi ích của mô phỏng này, chúng ta sẽ giả định CDR (Tỷ lệ thế chấp trên nợ) luôn là 200%, có nghĩa là chúng ta chỉ vay một nửa số tiền trên tài sản thế chấp nhắm tránh bị thanh lý quá dễ dàng.
 
-### Day 1
+### Ngày thứ nhất
 
-If you still have your $1,000 worth of WETH, deposit it in on AAVE to get amWETH, then deposit your amWETH on [Mai Finance](https://app.mai.finance/yield) to get camWETH, and finally deposit your camWETH into the corresponding vault to be able to borrow 500 MAI.
+Nếu bạn vẫn còn WETH trị giá 1.000 đô la, hãy gửi vào AAVE để nhận amWETH, sau đó gửi tiền vào [Mai Finance](how-to-combine-farming-and-borrowing-rewards.md#augury-finance) để nhận lại camWETH và cuối cùng gửi camWETH của bạn vào kho tiền tương ứng để có thể vay 500 MAI.
 
-Use the [anchor](https://app.mai.finance/anchor) to convert your MAI into USDT \(or you can use another DEX like [QuickSwap](https://quickswap.exchange/#/) if there is no liquidity in the anchor\), then you can use [DFYN](https://exchange.dfyn.network/#/) to swap 50% of your USDT into UST and form a USDT-UST pair that you can then deposit on [Augury](https://augury.finance/infusions/). Note that you will also need some OMEN that you can buy on QuickSwap too.
+Sử dụng [Anchor](how-to-combine-farming-and-borrowing-rewards.md#intro) để chuyển đổi MAI của bạn thành USDT (hoặc bạn có thể sử dụng một DEX khác như [QuickSwap](how-to-combine-farming-and-borrowing-rewards.md#intro) nếu không đủ thanh khoản), sau đó bạn có thể sử dụng [DFYN ](https://exchange.dfyn.network/#/swap)để hoán đổi 50% USDT của mình thành UST và tạo thành một cặp USDT-UST sau đó bạn có thể gửi tiền trên [Augury](https://augury.finance/infusions/). Lưu ý rằng bạn cũng sẽ cần một số OMEN mà bạn có thể mua trên QuickSwap ..
 
-Hence, at the end of Day 1, we harvest the following rewards
+Do đó, vào cuối Ngày 1, chúng tôi thu hoạch các phần thưởng sau
 
-| Reward type | Value in dollars |
-| :--- | :--- |
-| WBTC from farming | 0.123 |
-| WETH from farming | 0.031 |
-| WMATIC from farming | 0.031 |
-| LINK from farming | 0.031 |
-| USDC from farming | 0.092 |
-| Qi rewards from vaults | 0.295 |
+| Dạng phần thưởng           | Giá trị bằng đô la |
+| -------------------------- | ------------------ |
+| WBTC từ farming            | 0.123              |
+| WETH từ farming            | 0.031              |
+| WMATIC từ farming          | 0.031              |
+| LINK từ farming            | 0.031              |
+| USDC từ farming            | 0.092              |
+| Phần thưởng Qi từ kho tiền | 0.295              |
 
-These are only the rewards we get from farming and borrowing at the end of the first day.
+Đây chỉ là những phần thưởng chúng ta nhận được từ việc canh tác và vay mượn vào cuối ngày đầu tiên.
 
-### Day 2
+### Ngày thứ hai
 
-Rewards are harvested, WBTC, WETH and WMATIC are sent to corresponding vaults on Mai finance after they went through AAVE and the yield instrument on Mai. LINK are directly deposited in the LINK vault, and USDC sent to Curve in the atricrypto3 pool. The Qi reward is sent to Balancer. At this point, we can borrow more MAI from the 3 camToken vaults and the LINK vault \($0.13 worth of MAI to be exact\) and we can create more USDT-UST pair from the MAI we borrowed.
+Phần thưởng được thu hoạch, WBTC, WETH và WMATIC được gửi đến các kho tiền tương ứng trên Mai Finance sau khi thông qua AAVE và công cụ năng suất trên Mai. LINK được gửi trực tiếp vào kho LINK và USDC được gửi đến Curve trong bể atricrypto3. Phần thưởng Qi được gửi đến Balancer. Tại thời điểm này, chúng ta có thể mượn thêm MAI từ 3 kho camToken và kho tiền LINK (chính xác là $ 0,13 trị giá MAI) và chúng ta có thể tạo thêm cặp USDT-UST từ MAI
 
-Hence, at the end of Day 2, we harvest the following rewards
+Do đó, vào cuối Ngày thứ 2, chúng ta thu hoạch được những phần thưởng sau
 
-| Reward type | Value in dollars |
-| :--- | :--- |
-| WBTC from farming | 0.123 |
-| WETH from farming | 0.031 |
-| WMATIC from farming + Curve | 0.031 |
-| LINK from farming | 0.031 |
-| USDC from farming | 0.093 |
-| CRV rewards on Curve | 0.00004 |
-| BAL rewards | 0.00005 |
-| Qi rewards from vaults | 0.296 |
+| Dạng phần thưởng            | Giá trị tính bằng đô la |
+| --------------------------- | ----------------------- |
+| WBTC từ farming             | 0.123                   |
+| WETH từ farming             | 0.031                   |
+| WMATIC từ farming + Curve   | 0.031                   |
+| LINK từ farming             | 0.031                   |
+| USDC từ farming             | 0.093                   |
+| Phần thưởng CRV trên Curve  | 0.00004                 |
+| Phần thưởng BAL             | 0.00005                 |
+| Phần thưởng Qi tại kho tiền | 0.296                   |
 
-At this point, the system is primed and rewards are flowing in a way that each step is feeding the next one, creating some nice little loop.
+Tại thời điểm này, hệ thống đã bắt đầu và phần thưởng đang chảy theo cách mà mỗi bước đang cung cấp cho bước tiếp theo, tạo ra một số vòng lặp
 
-## Farming results
+## Kết quả farming
 
-### Daily routine
+### Công việc hàng ngày
 
-The daily routine is composed by the following transactions
+Công việc hàng ngày bao gồm các giao dịch sau
 
-* Harvest rewards on Augury
-* Deposit WBTC, WETH and WMATIC on AAVE
-* Deposit amWBTC, amWETH and amWMATIC on Mai Finance in the yield instrument
-* Deposit camWBTC, camWETH and camWMATIC in the respective vaults on Mai Finance
-* Deposit LINK in the LINK vault on Mai Finance
-* Deposit USDC in the atricrypto3 pool on Curve
-* Harvest WMATIC from Curve and use them in the camWMATIC vault
-* Harvest CRV from Curve and use them in the CRV vault
-* Borrow MAI from the different vaults
-* Convert MAI into USDT on Mai Finance via the anchor
-* Convert 50% of the USDT into UST on DFYN
-* Create new USDT-UST LP pair on DFYN
-* Deposit the new LP tokens on Augury
+* Thu hoạch phần thưởng trên Augury
+* Gửi WBTC, WETH và WMATIC trên AAVE
+* Gửi amWBTC, amWETH và amWMATIC trên Mai Finance tại công cụ lợi nhuận
+* Gửi camWBTC, camWETH và camWMATIC trong các kho tương ứng trên Mai Finance 
+* WMATIC từ Curve và sử dụng chúng trong vault camWMATIC
+* Thu hoạch CRV từ Curve và sử dụng chúng trong vault CRV 
+* Vay MAI từ các vault khác 
+* Chuyển đổi MAI thành USDT trên Mai Finance qua Anchor
+*  Chuyển đổi 50% USDT thành UST trên DFYNC 
+* Tạo cặp USDT-UST LP mới trên DFY
+* Thêm cặp thanh khoản  trên Augury
 
-### Weekly routine
+### Công việc hàng tuần
 
-Additionally, you will get weekly rewards in BAL \(from your Qi deposit on Balancer\) and Qi tokens \(from vault rewards\). You will have to
+Ngoài ra, bạn sẽ nhận được phần thưởng hàng tuần bằng BAL (từ khoản tiền gửi Qi của bạn trên Balancer) và mã thông báo Qi (từ phần thưởng kho tiền). Bạn sẽ phải
 
-* Deposit the Qi token on Balancer
-* Deposit the BAL token on Mai Finance in the BAL vault
-* Borrow MAI from your additional BAL deposit and convert them in USDT-UST pair to farm on Augury
+* Gửi mã thông báo Qi trên Balancer 
+* Gửi mã thông báo BAL trên Mai Finance trong kho tiền BAL
+* Mượn MAI từ khoản tiền gửi BAL bổ sung của bạn và chuyển đổi chúng theo cặp USDT-UST để cung cấp trên Augury
 
-### Raw results month after month
+### Kết quả hàng tháng
 
-| Month | USDT-UST | atricrypto3 | Balancer | camWBTC | camWETH | camWMATIC | LINK | CRV | BAL |  |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | 503.84 | 2.79 | 9.01 | 3.72 | 1,002.34 | 0.94 | 0.93 | 0.001 | 0.02 |  |
-| 2 | 507.88 | 5.66 | 18.39 | 7.47 | 1,004.68 | 1.93 | 1.87 | 0.003 | 0.09 |  |
-| 3 | 511.99 | 8.47 | 28.14 | 11.24 | 1,007.04 | 2.96 | 2.81 | 0.004 | 0.21 |  |
-| 4 | 516.18 | 11.36 | 38.28 | 15.06 | 1,009.41 | 4.02 | 3.76 | 0.005 | 0.38 |  |
-| 5 | 520.43 | 14.28 | 48.83 | 18.90 | 1,011.79 | 5.13 | 4.72 | 0.007 | 0.60 |  |
-| 6 | 524.76 | 17.23 | 59.79 | 22.78 | 1,014.18 | 6.29 | 5.69 | 0.008 | 0.87 |  |
-| 7 | 529.17 | 20.21 | 71.18 | 26.69 | 1,016.58 | 7.48 | 6.67 | 0.010 | 1.21 |  |
-| 8 | 533.66 | 23.24 | 83.03 | 30.63 | 1,018,99 | 8.72 | 7.65 | 0.011 | 1.60 |  |
-| 9 | 538.22 | 26.29 | 95.34 | 34.61 | 1,021.42 | 10.01 | 8.64 | 0.013 | 2.05 |  |
-| 10 | 542.87 | 29.38 | 108.14 | 38.63 | 1,023.86 | 11.34 | 9.64 | 0.014 | 2.57 |  |
-| 11 | 547.61 | 32.51 | 121.44 | 42.68 | 1,026.31 | 12.72 | 10.65 | 0.016 | 3.16 |  |
-| 12 | 552.43 | 35.67 | 135.26 | 47.45 | 1,028.78 | 14.15 | 11.67 | 0.017 | 3.81 |  |
+| Tháng | USDT-UST | atricrypto3 | Balancer | camWBTC | camWETH  | camWMATIC | LINK  | CRV   | BAL  |   |
+| ----- | -------- | ----------- | -------- | ------- | -------- | --------- | ----- | ----- | ---- | - |
+| 1     | 503.84   | 2.79        | 9.01     | 3.72    | 1,002.34 | 0.94      | 0.93  | 0.001 | 0.02 |   |
+| 2     | 507.88   | 5.66        | 18.39    | 7.47    | 1,004.68 | 1.93      | 1.87  | 0.003 | 0.09 |   |
+| 3     | 511.99   | 8.47        | 28.14    | 11.24   | 1,007.04 | 2.96      | 2.81  | 0.004 | 0.21 |   |
+| 4     | 516.18   | 11.36       | 38.28    | 15.06   | 1,009.41 | 4.02      | 3.76  | 0.005 | 0.38 |   |
+| 5     | 520.43   | 14.28       | 48.83    | 18.90   | 1,011.79 | 5.13      | 4.72  | 0.007 | 0.60 |   |
+| 6     | 524.76   | 17.23       | 59.79    | 22.78   | 1,014.18 | 6.29      | 5.69  | 0.008 | 0.87 |   |
+| 7     | 529.17   | 20.21       | 71.18    | 26.69   | 1,016.58 | 7.48      | 6.67  | 0.010 | 1.21 |   |
+| 8     | 533.66   | 23.24       | 83.03    | 30.63   | 1,018,99 | 8.72      | 7.65  | 0.011 | 1.60 |   |
+| 9     | 538.22   | 26.29       | 95.34    | 34.61   | 1,021.42 | 10.01     | 8.64  | 0.013 | 2.05 |   |
+| 10    | 542.87   | 29.38       | 108.14   | 38.63   | 1,023.86 | 11.34     | 9.64  | 0.014 | 2.57 |   |
+| 11    | 547.61   | 32.51       | 121.44   | 42.68   | 1,026.31 | 12.72     | 10.65 | 0.016 | 3.16 |   |
+| 12    | 552.43   | 35.67       | 135.26   | 47.45   | 1,028.78 | 14.15     | 11.67 | 0.017 | 3.81 |   |
 
-A few notes:
+Một số lưu ý:
 
-* The growth of the USDT-UST pool is the only result of additional MAI borrowed from vaults
-* The CRV pool is almost inexistant due to the very low amount of USDC deposited on Curve
-* The BAL vault is not important due to the fact that 14.28% of the Balancer reward is paid in BAL tokens, the rest being paid in Qi tokens
-* The amount in the Balancer pool is the biggest gain, and is only the result of Vault rewards and Balancer rewards
+* Sự tăng trưởng của nhóm USDT-UST là kết quả duy nhất của việc MAI được vay thêm từ các kho tiền 
+*  Bể CRV hầu như không tăng nhiều do số lượng USDC được gửi trên Curve rất thấp 
+* Kho tiền BAL không quan trọng do thực tế là 14,28% phần thưởng Balancer được thanh toán bằng mã thông báo BAL, phần còn lại được thanh toán bằng mã thông báo Qi 
+* Số tiền trong bể Balancer là khoản thu lớn nhất và chỉ là kết quả của phần thưởng Vault và phần thưởng của Balancer
 
-### Day 365
+### Ngày thứ 365
 
-After a complete year, the final state of our investment would be
+Sau một năm đầy đủ, trạng thái đầu tư cuối cùng của chúng tôi sẽ là
 
-| Position | Value in dollars |
-| :--- | :--- |
-| USDT-UST | 553.24 |
-| atricrypto3 | 36.20 |
-| Balancer | 137.62 |
-| camWBTC | 47.45 |
-| camWETH | 1,029.19 |
-| camWMATIC | 14.39 |
-| LINK | 11.84 |
-| CRV | 0.017 |
-| BAL | 3.93 |
+| Vị thế thanh khoản  | Giá trị bằng đô la |
+| ------------------- | ------------------ |
+| USDT-UST            | 553.24             |
+| atricrypto3         | 36.20              |
+| Balancer            | 137.62             |
+| camWBTC             | 47.45              |
+| camWETH             | 1,029.19           |
+| camWMATIC           | 14.39              |
+| LINK                | 11.84              |
+| CRV                 | 0.017              |
+| BAL                 | 3.93               |
 
-The total debt is actually the entire USDT-UST position, so $553.24, and the total reward generated is $280.63, corresponding to a final APY of 28.06%.
+Tổng số nợ thực sự là toàn bộ cặp USDT-UST, vì vậy, $ 553,24 và tổng phần thưởng được tạo ra là $ 280,63, tương ứng với APY cuối cùng là 28,06%.
 
-### Comparison with other strategies
+### So sánh với các chiến lược khác
 
-Getting a 28% APY on stable coin farming isn't too bad, but how does this compare to other easier strategies we could apply with the initial $1,000 worth of ETH? Let's check the final APY fo the following strategies
+Lợi nhuận 28% APY khi thanh khoản đồng tiền ổn định không phải là quá tệ, nhưng  so với các chiến lược khác áp dụng với số ETH trị giá 1.000 đô la ban đầu sẽ như thế nào? 
 
-* Leverage amWETH 8 times via AAVE: for this, we will use the exact flow described in the [AAVE token guide](leverage-aave-tokens.md).
-* Full stable farming on Augury: for this strategy, we sell the WETH and farm with $1,000 worth of USDT-UST on the same infusion on Augury
-* Full stable farming on QuickSwap: for this strategy, we will use the camWETH vault to benefit from the vault reward, and farm with $500 worth of MAI on QuickSwap \(MAI-DAI at 19.78% APY\), using the dQUICK vault on Mai Finance to borrow additional MAI and re-invest into the farming pool \(dQUICK vaults with an APR of 55.72%\)
+* Sử dụng đòn bẩy amWETH 8 lần thông qua AAVE: quy trình cụ thể  được mô tả trong hướng dẫn [mã thông báo AAVE.](leverage-aave-tokens.md) 
+* Cung cấp toàn bộ đồng ổn định trên Augury: đối với chiến lược này, chúng ta bán WETH và farm với USDT-UST trị giá 1.000 đô la trên cùng một khoản tiền trên Augury
+* Cung cấp thanh khoản toàn bộ đồng ổn định trên QuickSwap: đối với chiến lược này, chúng tôi sẽ sử dụng kho camWETH để hưởng lợi từ phần thưởng kho và farm với MAI trị giá 500 đô la trên QuickSwap (MAI-DAI ở mức 19,78% APY), sử dụng kho tiền DQUICK trên Mai Finance vay thêm MAI và đầu tư lại vào bể (kho dQUICK với APR là 55,72%))
 
-| Strategy | Final APY |
-| :--- | :--- |
-| Strategy presented in this guide | 28.06% |
-| Leverage AAVE token 8x | 46.46% |
-| Only stable farming on Augury | 22.53% |
-| Quickswap farming + dQUICK vault | 35.96% |
+| Chiến lược                                    | APY cuối cùng |
+| --------------------------------------------- | ------------- |
+| Chiến lược được trình bày trong hướng dẫn này | 28.06%        |
+| Tạo đòn bẩy trên AAVE 8 lần                   | 46.46%        |
+| Chỉ farm đồng ổn định trên Augury             | 22.53%        |
+| Farming Quickswap  + kho dQUICK               | 35.96%        |
 
 ## Disclaimer
 
-This strategy is really interesting and uses most vaults from Mai Finance, and this guide has been written mostly to showcase that, as of September 2021, this is the part that would generate the more rewards when faming stable coins. However, this strategy may not be the most interesting one, and involves a lot of manipulations of several platforms. Finally, Augury is a fantastic tool that generates specific tokens that can be included in several strategies, but probably not stable farming solely. And as a side note, no deposit fees nor performance fees have been taken in consideration when calculating the final APY.
+Chiến lược này khá thú vị khi sử dụng hầu hết các kho tiền từ Mai Finance và hướng dẫn này được viết chủ yếu để giới thiệu rằng, kể từ tháng 9 năm 2021, đây là phần sẽ tạo ra nhiều phần thưởng hơn khi kiếm được các đồng tiền ổn định. Tuy nhiên, chiến lược này có thể không phải là chiến lược thú vị nhất và liên quan đến rất nhiều thao tác của một số nền tảng. Cuối cùng, Augury là một công cụ tuyệt vời tạo ra các mã thông báo cụ thể có thể được bao gồm trong một số chiến lược, nhưng có lẽ không phải chỉ farm đồng ổn định. Và như một lưu ý nhỏ, không có phí gửi cũng như phí thực hiện không được tính đến khi tính APY cuối cùng.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}
-
