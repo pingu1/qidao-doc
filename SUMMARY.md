@@ -16,7 +16,7 @@
 * [Come usare MAI nella vita reale](come-usare-mai-nella-vita-reale.md)
 * [Impilare le dApp come mattoncini Lego](impilare-le-dapp-come-mattoncini-lego.md)
 * [Farmare o mettere in Stake? O entrambe le cose?](farmare-o-mettere-in-stake-o-entrambe.md)
-* [How to combine farming and borrowing rewards](how-to-combine-farming-and-borrowing-rewards.md)
+* [Come combinare Farming e ricompense dei prestiti](how-to-combine-farming-and-borrowing-rewards.md)
 
 ## Tutorial MAI / eQI / Qi
 
