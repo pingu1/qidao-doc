@@ -31,7 +31,7 @@ The MAI stable coin is being used in more and more projects on Polygon, especial
 * MAI-USDT with $6,316,026
 * MAI-USDC with $5,458,323
 
-Additional pools can be found on other projects / yield farms / yield optimizers. You can read more on what to do with your MAI stable coin in [the dedicated article](what-to-do-with-mai-on-polygon.md).
+Additional pools can be found on other projects / yield farms / yield optimizers. You can read more on what to do with your MAI stable coin in [the dedicated article](../polygon-tutorials/what-to-do-with-mai-on-polygon.md).
 
 ## Solana
 
