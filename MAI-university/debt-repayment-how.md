@@ -9,7 +9,7 @@ description: >-
 
 The market is on a bull run and your crypto, locked in the Vault, is gaining more and more value, so much that you decided to sell it. However, because it's in the Vault on Mai Finance, you can't totally unlock it unless you repay your loan.
 
-The market is bearish, and your crypto is losing value very quickly. You don't generate yield fast enough to cover up the damages and keep an healthy Collateral to Debt Ratio \(CDR\), and liquidation is near. It's time to repay your debt to make sure you're not losing too much, and prevent liquidation.
+The market is bearish, and your crypto is losing value very quickly. You don't generate yield fast enough to cover up the damages and keep an healthy Collateral to Debt Ratio (CDR), and liquidation is near. It's time to repay your debt to make sure you're not losing too much, and prevent liquidation.
 
 If you are not in any of the above situation, it's probably not worth repaying your debt. Please see the chapter on [Debt Repayment](https://qidao-qimps.gitbook.io/mai-finance-tutorials/debt-management-tutorials/debt-repayment-why-and-when) for more details.
 
@@ -17,9 +17,9 @@ If you are not in any of the above situation, it's probably not worth repaying y
 
 The most direct way to repay your debt is to use some fiat, especially if you want to keep your collateral and other investments untouched.
 
-Mai Finance is partnering with [Transak](https://transak.com/) to easily bridge money bought by Credit / Debit Cards, or bank transfers, directly to the Polygon network. Simply head to Mai Finance and click the transak icon in the menu bar to open a modal that will let you purchase some MATIC and send them directly to your Polygon wallet.
+Mai Finance is partnering with [Transak](https://transak.com) to easily bridge money bought by Credit / Debit Cards, or bank transfers, directly to the Polygon network. Simply head to Mai Finance and click the transak icon in the menu bar to open a modal that will let you purchase some MATIC and send them directly to your Polygon wallet.
 
-![Buying some USDC from fiat and bridging to Polygon directly](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
+![Buying some USDC from fiat and bridging to Polygon directly](<../.gitbook/assets/Screen Shot 2021-08-18 at 9.43.07 AM.png>)
 
 The main issue is the time taken to process the transaction. However, doing so will let you swap USDC for MAI and then partially or fully repay your debt.
 
@@ -30,9 +30,9 @@ The main issue is the time taken to process the transaction. However, doing so w
 Most people will want to borrow MAI on Mai Finance in order to invest into specific projects. Yield farmers that are using MAI will most probably be successful generating additional resources and will hopefully not lose money on degen farms. If you're in that case, you have 2 options
 
 * repay your loan with the generated revenue
-* re-invest your gains into the same \(or another\) project
+* re-invest your gains into the same (or another) project
 
-In most cases, it's probably better to re-invest your gains. Indeed, by compounding your rewards, APR \(**A**nnual **P**ercentage **R**evenue\) is applied on a bigger amount, which in turns generates more revenue. See our investment guides to get ideas on how you can maximize your investments.
+In most cases, it's probably better to re-invest your gains. Indeed, by compounding your rewards, APR (**A**nnual **P**ercentage **R**evenue) is applied on a bigger amount, which in turns generates more revenue. See our investment guides to get ideas on how you can maximize your investments.
 
 However, some people simply don't like the idea of having a debt, and will want to repay it as quickly as possible. If that's your case, you can simply swap your gains into MAI, and repay your debt.
 
@@ -42,7 +42,7 @@ However, some people simply don't like the idea of having a debt, and will want 
 * Enter any amount you want to repay
 * Click `Repay MAI` and you're done
 
-![Partially repaying a portion of my debt](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
+![Partially repaying a portion of my debt](<../.gitbook/assets/Screen Shot 2021-08-17 at 1.02.23 PM.png>)
 
 As an example
 
@@ -50,7 +50,7 @@ As an example
 * You swapped $10.00 worth of ADDY tokens for MAI
 * You repay $10.00 today
   * Your debt is now $390.00
-  * Your camWMATIC value is $999.95 \(you add to pay 0.5% of $10.00 in repayment fees\)
+  * Your camWMATIC value is $999.95 (you add to pay 0.5% of $10.00 in repayment fees)
 
 At some point, you will be able to totally repay your debt using this technique, as long as you can generate enough revenue via your loan.
 
@@ -123,7 +123,7 @@ If we take the example above with $1,000.00 worth of MATIC and a debt of $500.00
 * Sell your MATIC for USDC
 * Repay the AAVE flash loan
 
-When submitted, this list of transactions will all happen in the same block, and you will end up with whatever is left from your MATIC as USDC in your wallet \(more or less $500.00, with some slight variations due to flash loan interest rate, swap fees, and repayment fees\).
+When submitted, this list of transactions will all happen in the same block, and you will end up with whatever is left from your MATIC as USDC in your wallet (more or less $500.00, with some slight variations due to flash loan interest rate, swap fees, and repayment fees).
 
 Right now, you would have to interact directly with the smart contracts, which requires some good understanding of how they work. If you need help, you can find some on our Discord server where there's a programming channel. Maybe in a near future, [FuruCombo](https://furucombo.app/combo) will propose Mai Finance bricks that would allow you to operate this directly using their graphic tool, but for now it's not possible. Finally, the idea of a button to "repay debt using collateral" has been proposed to the team of devs of Mai Finance, and the option may be implemented in the future.
 
@@ -134,11 +134,11 @@ Depending on your strategy and the way you feel regarding your debt, it may be a
 * Mais is 0% interest + 0.5% repayment fee
 * AAVE has no repayment fees, but a variable APR for interests you need to pay back
 
-![Supplying and Borrowing APY on AAVE as of August 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
+![Supplying and Borrowing APY on AAVE as of August 2021](<../.gitbook/assets/Screen Shot 2021-08-18 at 6.52.08 AM.png>)
 
-As an example for USDC, you can see that the borrowing rate is 3.79% with a current reward of 2.08% paid back in MATIC. This gives, at the moment of writing, the equivalent of 1.71% you need to pay back if you keep your loan for a complete year. With AAVE, since you can repay your debt very quickly, the variable APY is equivalent to 0.005% daily. Hence, it would take 100 days \(a bit more than 3 months\) to reach 0.5% of your debt.
+As an example for USDC, you can see that the borrowing rate is 3.79% with a current reward of 2.08% paid back in MATIC. This gives, at the moment of writing, the equivalent of 1.71% you need to pay back if you keep your loan for a complete year. With AAVE, since you can repay your debt very quickly, the variable APY is equivalent to 0.005% daily. Hence, it would take 100 days (a bit more than 3 months) to reach 0.5% of your debt.
 
-If you plan to keep your loan longer than that, it's definitely better to use Mai Finance. Also, it's important to understand that AAVE borrowing APRs are variable, they will fluctuate with the amounts that are deposited and required \(the more people want to borrow from AAVE, the higher the borrowing APR\). Keep also in mind that the MATIC reward program will end at some point, and the 1.71% interest will soon become a 3.79% interest rate. At least with Mai Finance, you don't have to keep a close eye on your loan to see when it becomes dangerous to keep it.
+If you plan to keep your loan longer than that, it's definitely better to use Mai Finance. Also, it's important to understand that AAVE borrowing APRs are variable, they will fluctuate with the amounts that are deposited and required (the more people want to borrow from AAVE, the higher the borrowing APR). Keep also in mind that the MATIC reward program will end at some point, and the 1.71% interest will soon become a 3.79% interest rate. At least with Mai Finance, you don't have to keep a close eye on your loan to see when it becomes dangerous to keep it.
 
 Finally, the team of Mai Finance is working on Vaults incentives that would work the same way as the MATIC reward, meaning that you would still get a 0% interest loan and a bonus paid in Qi that may very well reduce the repayment fee to 0% of your debt. And the longer you keep your loan, the more reward you will collect, making it a true negative interest loan.
 
@@ -147,6 +147,5 @@ Finally, the team of Mai Finance is working on Vaults incentives that would work
 The views, thoughts, and opinions expressed in the text belong solely to the author, and not necessarily to the rest of the community, nor the development team behind Mai Finance. It should not be taken as a financial advice or guidance of any kind.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
 {% endhint %}
-
