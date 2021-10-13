@@ -43,7 +43,7 @@ Ciò vuol dire che mettere in stake Qi ha i seguenti vantaggi:
 
 Per mettere in stake i tuoi token Qi devi andare su Qi Powah Boost e selezionare quanti token vuoi bloccare e il periodo di tempo per il quale vuoi bloccarli. Più lungo è il periodo di tempo più eQi otterrai, ricorda che eQi rappresenta quanti token Qi avrai una volta terminato il periodo di blocco.
 
-![Qi Powah Boost Lock](../.gitbook/assets/captura.jpg)
+![Qi Powah Boost Lock](../.gitbook/assets/Captura.JPG)
 
 Una volta deciso fai clic su "approve" e "approve transaction" quindi fai clic su "increase locked Qi and lock time" e conferma la transazione.
 
@@ -53,7 +53,7 @@ Tieni presente che una volta che hai bloccato i tuoi token Qi per un determinato
 
 Congratulazioni, ora sei ufficialmente uno staker di Qi e riceverai nelle prossime settimane uno stipendio settimanale. Se hai qualche dubbio se sei idoneo alla condivisione delle entrate della prossima settimana, puoi controllarlo nella pagina boost.
 
-![](<../.gitbook/assets/captura (1).jpg>)
+![](<../.gitbook/assets/Captura (1).JPG>)
 
 ### Statistiche di Qi Powah
 

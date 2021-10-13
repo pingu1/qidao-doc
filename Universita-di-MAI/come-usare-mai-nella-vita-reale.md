@@ -23,7 +23,7 @@ Oggi è il giorno! Il suo investimento iniziale sulle GPU è stato finalmente co
 
 Quindi, invece di sedersi sui suoi profitti aspettando che il prezzo salga alle stelle, DogeOfWallStreet decide che è ora di acquistare più schede grafiche e possibilmente aumentare i suoi profitti da mining. In termini di costi, la super RTX 1660 sembra essere la scheda più redditizia in questo momento e costa solo $ 500,00.
 
-![](../.gitbook/assets/screen-shot-2021-08-13-at-12.07.41-pm.png)
+![](<../.gitbook/assets/Screen Shot 2021-08-13 at 12.07.41 PM.png>)
 
 Dopo 1 mese di mining, il miner intelligente controlla il suo portafoglio sulla mainnet ETH dopo che il pool lo ha pagato. Ha l'equivalente di $1.340,00 di ETH (il profitto da mining ed ETH hanno guadagnato quasi il 12% in 4 settimane), che dovrebbe essere abbastanza per comprare la scheda ... ma poi, dilemma:
 

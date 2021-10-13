@@ -86,7 +86,7 @@ Ogni tipo di Vault ha un rapporto CDR minimo accettato, al di sotto del quale il
 
 Quando prendi in prestito MAI a fronte di un determinato collaterale, riceverai alcuni suggerimenti su qual è l'importo massimo di MAI che puoi prendere in prestito e quale sarebbe l'impatto sullo "stato di salute" del tuo Vault a seconda dell'importo preso in prestito, come puoi vedere nello screenshot qui sotto:
 
-![Stato di salute del Vault a seconda dell'importo preso in prestito](<../.gitbook/assets/image (4).png>)
+![Stato di salute del Vault a seconda dell'importo preso in prestito](<../.gitbook/assets/image (2).png>)
 
 È molto importante tenere d'occhio il tuo CDR e mantenere un rapporto debito/collaterale sano per:
 
@@ -143,7 +143,7 @@ $$
 
 Questo corrisponde più o meno all'APR del Vault MATIC, come mostrato nello screenshot seguente:
 
-![APR del Vault MATIC su Mai Finance dopo il lancio degli incentivi Vault](<../.gitbook/assets/image (23) (2) (3).png>)
+![APR del Vault MATIC su Mai Finance dopo il lancio degli incentivi Vault](<../.gitbook/assets/image (23) (2) (3) (3).png>)
 
 ### Calcolare gli APRs dei Vault disponibili
 

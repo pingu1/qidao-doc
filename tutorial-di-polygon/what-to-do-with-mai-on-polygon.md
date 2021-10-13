@@ -26,7 +26,7 @@ I progetti Bluechip sono le applicazioni DeFi che si sono dimostrate solide e pr
 
 Sulla rete Polygon, Balancer propone un pool composto dalle 4 principali stable coin: DAI, USDC, USDT e MAI (miMATIC). Questo pool stabile ha attualmente un APR abbastanza stabile di \~ 20%.
 
-![Stable coin pool state as of August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
+![Stable coin pool state as of August 2021](<../.gitbook/assets/Screen Shot 2021-08-11 at 11.06.59 AM.png>)
 
 La cosa più bella di Balancer è che non hai assolutamente bisogno di possedere le 4 monete da depositare nel pool. Balancer genererà automaticamente una combinazione bilanciata a prescidere dal  deposito effettuato. Ciò significa che se hai 100$ di MAI, puoi semplicemente depositarli nel pool di Balancer e lasciare che l'algoritmo lo coverta correttamente per avere un rapporto del 25% per ogni moneta a seconda del loro rispettivo prezzo al momento del deposito.
 
@@ -34,7 +34,7 @@ I premi per il pool vengono pagati utilizzando il token BAL, distribuito su base
 
 Il ciclo completo può essere rappresentato così:
 
-![](../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
+![](<../.gitbook/assets/Screen Shot 2021-08-11 at 11.34.45 AM.png>)
 
 Se hai bisogno di maggiori dettagli su come utilizzare Mai Finance per depositare le tue crypto valute e prendere in prestito MAI (invece di vendere le tue crypto valute per acquistare MAI), leggi altre guide su questo sito. Puoi anche [includere Aave](come-far-fruttare-i-tuoi-token-su-aave.md) per generare ulteriori profitti.
 
@@ -61,7 +61,7 @@ Le ricompense su Curve sono date in:
 * WMATIC che puoi utilizzare per ripetere il ciclo di cui sopra e aumentare il tuo prestito e capitale investito
 * CRV, che possono essere utilizzati anche come collaterale su Mai Finance per prendere in prestito più MAI e aumentare il capitale investito
 
-![](../.gitbook/assets/screen-shot-2021-08-11-at-12.14.27-pm.png)
+![](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.14.27 PM.png>)
 
 ### AAVE
 
@@ -78,7 +78,7 @@ Attualmente, se entri nel pool MAI/USDC LP (Liquidity Provider) su QuickSwap, gu
 * Commissioni di trading
 * Token QUICK
 
-![Dettaglio del pool MAI/USDT su QuickSwap ad Ottobre 2021](../.gitbook/assets/schermata-2021-10-02-alle-23.10.50.png)
+![Dettaglio del pool MAI/USDT su QuickSwap ad Ottobre 2021](<../.gitbook/assets/Schermata 2021-10-02 alle 23.10.50.png>)
 
 ## Farms "Degen" e aggregatori
 
@@ -94,7 +94,7 @@ Adamant attualmente supporta alcuni pool che accettano la coppia MAI/USDC LP. I 
 * DinoSwap: le ricompense in Dino vengono swappate in MAI/USDC LP e WMATIC 
 * Mai Finance: le ricompense in Qi vengono swappate MAI/USDC LP e WMATIC
 
-![Pool QuickSwap MAI/USDC su Adamant](../.gitbook/assets/schermata-2021-10-02-alle-23.22.12.png)
+![Pool QuickSwap MAI/USDC su Adamant](<../.gitbook/assets/Schermata 2021-10-02 alle 23.22.12.png>)
 
 {% hint style="info" %}
 Gli screenshots del pool QuickSwap (vedi paragrafo sopra) e Adamant sono stati presi lo stesso giorno, ma mostrano diversi APY (Annual Percentage Yield).
@@ -129,7 +129,7 @@ Anche altre farm accettano il pool MAI/USDC. Se vuoi rimanere informato su nuove
 
 [Impermax](https://polygon.impermax.finance) è una piattaforma che consente agli utenti di sfruttare i propri token LP per ottenere rendimenti più elevati. L'obiettivo è molto semplice: depositando i token LP e utilizzandoli come garanzia è possibile prendere in prestito più dei 2 asset sottostanti per generare più token LP e ripetere il ciclo.
 
-![Ciclo Impermax spiegato](../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
+![Ciclo Impermax spiegato](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
 
 Quando l'utente entra nel ciclo è esposto all'impermanent loss e la perdita viene amplificata dal numero di volte in cui viene ripetuto il ciclo. Il rischio di liquidazione si moltiplica anche quando vengono applicati troppi cicli. Infatti, moltiplicando l'APR, la variazione di prezzo delle due monete che compongono la coppia viene amplificata dall'effetto leva, portando ad una liquidazione più rapida.
 
@@ -151,11 +151,11 @@ Inoltre, dato che tutte le tariffe vengono amplificate dal numero di volte in cu
 
 Alla fine, stai usando l'APR di base su un valore molto più grande, che di conseguenza sta guadagnando interessi molto più grandi, aumentando l'APR della tua posizione iniziale.
 
-![Un esempio della dashboard Impermax con una coppia iniziale di $70.52 MAI/USDC](../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
+![Un esempio della dashboard Impermax con una coppia iniziale di $70.52 MAI/USDC](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.38.33 PM.png>)
 
 Puoi vedere molto facilmente quanto sto usando come garanzia, quanto ho investito inizialmente, qual è il rapporto di leva finanziaria e quali sono i valori di liquidazione dovuti al rapporto di leva finanziaria. Questa posizione mi darà i seguenti rapporti al momento della scrittura
 
-![Stima di ricavi e spese in un determinato momento](../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
+![Stima di ricavi e spese in un determinato momento](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.41.55 PM.png>)
 
 L'APR viene dato in token IMX che possono essere scambiati con più MAI/USDC (usa il potere di Mai Finance per prendere in prestito a 0% di interesse) o utilizzato per fornire liquidità su pool specifici che accettano IMX su Impermax.
 
@@ -163,7 +163,7 @@ L'APR viene dato in token IMX che possono essere scambiati con più MAI/USDC (us
 
 Sull'app infatti è possibile fornire liquidità anche a coloro che vogliono applicare i cicli di leva alle proprie posizioni (avranno bisogno di asset sottostanti per generare più token LP). Il prestito di assets è un ottimo modo per guadagnare e lasciare che chi prende in prestito si assuma tutti i rischi. Inoltre, più utenti prendono in prestito, maggiore sarà l'APR di offerta.
 
-![Tassi per offrire o prendere in prestito MAI su Impermax in un determinato momento](../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
+![Tassi per offrire o prendere in prestito MAI su Impermax in un determinato momento](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.47.56 PM.png>)
 
 Questo è un altro ottimo modo per ottimizzare il tuo prestito a tasso 0% su Mai Finance. Non solo non devi pagare nulla per prendere in prestito MAI, ma puoi guadagnare interessi semplicemente depositandoli su Impermax.
 
