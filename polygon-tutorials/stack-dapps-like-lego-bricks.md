@@ -1,6 +1,4 @@
 ---
-tags: >-
-  Mai,Finance,Qi,QiDAO,Polygon,MATIC,DeFi,QuickSwap,Impermax,Adamant,AAVE,lego,APR,APY,yield
 description: >-
   This tutorial will presents in details how you can use different DApps on 
   Polygon to increase your benefits when farming stable coins.
@@ -10,23 +8,23 @@ description: >-
 
 ## Intro
 
-When you farm yields on a given farm, you usually get rewards under the form of native farm tokens. You then have the choice between either selling those, or keep them and hope they will gain some value over time. This guide will present a few different DApps \(**D**ecentralized **App**lications\) to maximize your yields without selling anything, while still compounding interests. This articles will also start from stable coins, because this is considered as a relatively safe strategy. However, you need to keep in mind that this is not a financial advice, and that this guide should be followed with caution as results are absolutely not guaranteed. As always, do your own research.
+When you farm yields on a given farm, you usually get rewards under the form of native farm tokens. You then have the choice between either selling those, or keep them and hope they will gain some value over time. This guide will present a few different DApps (**D**ecentralized **App**lications) to maximize your yields without selling anything, while still compounding interests. This articles will also start from stable coins, because this is considered as a relatively safe strategy. However, you need to keep in mind that this is not a financial advice, and that this guide should be followed with caution as results are absolutely not guaranteed. As always, do your own research.
 
-![](../.gitbook/assets/screen-shot-2021-08-30-at-10.52.20-am.png)
+![](<../.gitbook/assets/Screen Shot 2021-08-30 at 10.52.20 AM.png>)
 
 ## QuickSwap
 
-QuickSwap is one of the biggest AMM \(**A**utomated **M**arket **M**aker\) on Polygon. People deposit pairs of tokens into liquidity pools and earn transaction fees from other users who use the platform to swap their tokens. During a swap, QuickSwap automatically choses the best route using the different liquidity pools, and each jump from one pool to the other is subject to transaction fees that are redistributed to the liquidity suppliers.
+QuickSwap is one of the biggest AMM (**A**utomated **M**arket **M**aker) on Polygon. People deposit pairs of tokens into liquidity pools and earn transaction fees from other users who use the platform to swap their tokens. During a swap, QuickSwap automatically choses the best route using the different liquidity pools, and each jump from one pool to the other is subject to transaction fees that are redistributed to the liquidity suppliers.
 
 ### Stable coin farming
 
-For this exercise, we will use the MAI/USDC pair on QuickSwap. This liquidity pool, a stable pool, proposes an APY \(**A**nnual **P**ercentage **Y**ield that varies between 20% and 25%\). The yield is composed of the transaction fees \(that are accrued into the liquidity pool\) and QUICK rewards.
+For this exercise, we will use the MAI/USDC pair on QuickSwap. This liquidity pool, a stable pool, proposes an APY (**A**nnual **P**ercentage **Y**ield that varies between 20% and 25%). The yield is composed of the transaction fees (that are accrued into the liquidity pool) and QUICK rewards.
 
-![MAI/USDC liquidity pool on QuickSwap as of August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
+![MAI/USDC liquidity pool on QuickSwap as of August 2021](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
 
-The pool gets a fix amount of QUICK tokens every day, and they are then distributed to liquidity providers according to their share of the pool. As an example, if the pool has the equivalent of $1,000,000 worth of liquidity, and you already deposited $1,000 of LP \(**L**iquidity **P**rovider\) tokens, you own 0.1% of the pool, which entitles you to 0.1% of the daily QUICK reward. Your Quick reward will then be claimable when you manage the pool you entered.
+The pool gets a fix amount of QUICK tokens every day, and they are then distributed to liquidity providers according to their share of the pool. As an example, if the pool has the equivalent of $1,000,000 worth of liquidity, and you already deposited $1,000 of LP (**L**iquidity **P**rovider) tokens, you own 0.1% of the pool, which entitles you to 0.1% of the daily QUICK reward. Your Quick reward will then be claimable when you manage the pool you entered.
 
-![Claiming my QUICK reward for a $20 deposit](../.gitbook/assets/screen-shot-2021-08-30-at-6.39.44-am.png)
+![Claiming my QUICK reward for a $20 deposit](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.39.44 AM.png>)
 
 You can claim them regularly in order to put them at work. Let's see how.
 
@@ -34,7 +32,7 @@ You can claim them regularly in order to put them at work. Let's see how.
 
 The Dragon's Lair is a way to optimize your gains on QuickSwap. You can deposit the QUICK tokens that you earn from liquidity pools into the Lair, and they will earn you additional QUICK rewards. This is a good idea if you want to keep the QUICK tokens instead of selling them. When your QUICK tokens are staked into the Dragon's Lair, the rewards they generate are automatically compounded, and the APY of the Lair is around 12%.
 
-![Dragon&apos;s Lair APY as of August 2021](../.gitbook/assets/screen-shot-2021-08-30-at-6.42.39-am.png)
+![Dragon's Lair APY as of August 2021](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.42.39 AM.png>)
 
 After you deposited your QUICK tokens, you will get in your wallet some dQUICK tokens that represent the share of the QUICK pool that you own. Note that the ratio QUICK:dQUICK isn't 1:1 since the dQUICK represent your share of the pool, while the amount of QUICK will increase over time as more rewards are added to the pool.
 
@@ -44,9 +42,9 @@ Now you have your stable coins deposited in the liquidity pool, and they generat
 
 The Dragon's Syrup is an additional way that QuickSwap offers to reward even more users who are holding QUICK tokens. The QuickSwap team set up a program where partners can promote their products by granting their own token to the users of the QuickSwap platform. You can then deposit your dQUICK tokens into one of the farm in order to earn these exotic tokens on top of the Dragon's Lair rewards. The one we are interested in is the ADDY farm.
 
-![Dragon&apos;s Syrup, a farm to collect ADDY token via dQUICK deposits](../.gitbook/assets/screen-shot-2021-08-30-at-6.49.25-am.png)
+![Dragon's Syrup, a farm to collect ADDY token via dQUICK deposits](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.49.25 AM.png>)
 
-When you deposit your dQUICK into the farm, they will disappear from the Dragon's Lair \(pretty much the same way your camTokens disappear from the Yield page on Mai Finance when you deposit them into a Vault\). But you can clearly see that the dQUICK APY from the Lair is still applied, and that you will also get additional ADDY reward. Here, the APR \(**A**nnual **P**ercentage **R**eward\) is currently 21.36%.
+When you deposit your dQUICK into the farm, they will disappear from the Dragon's Lair (pretty much the same way your camTokens disappear from the Yield page on Mai Finance when you deposit them into a Vault). But you can clearly see that the dQUICK APY from the Lair is still applied, and that you will also get additional ADDY reward. Here, the APR (**A**nnual **P**ercentage **R**eward) is currently 21.36%.
 
 {% hint style="info" %}
 You will notice that the Syrup farms have an expiration date. Here, the ADDY farm will expire in 50 days and 11 hours. Some new farms will show up as some older disappear.
@@ -80,14 +78,14 @@ For this exercise, we will also use the MAI/USDC pool in Impermax. By depositing
 
 On QuickSwap, I deposited $20 worth of MAI/USDC pair. On Impermax, I will deposit only $10 worth of MAI/USDC and will apply a x2 lever on it to get a $20 exposure.
 
-![Leverage window on Impermax at a given time](../.gitbook/assets/screen-shot-2021-08-30-at-7.11.10-am.png)
+![Leverage window on Impermax at a given time](<../.gitbook/assets/Screen Shot 2021-08-30 at 7.11.10 AM.png>)
 
 You can see on the screenshot above that, if I increase my leverage to x2.1, I would borrow
 
 * 0.481269 USDC
 * 0.487593 MAI
 
-We can also see by how much the trading fees I collect would increase \(+3.45%\), as well as the increase in QUICK rewards \(+36.83%\), IMX rewards \(+23.05%\) and the borrowing rate \(-37.20%\) for a final estimated APR of 26.13%.
+We can also see by how much the trading fees I collect would increase (+3.45%), as well as the increase in QUICK rewards (+36.83%), IMX rewards (+23.05%) and the borrowing rate (-37.20%) for a final estimated APR of 26.13%.
 
 Note in this example that the Borrowing fees are paid using the QUICK rewards and the trading fees in case the QUICK rewards aren't enough. Then the IMX reward goes to the supplier if the borrowing fee isn't yet paid, and finally the deposit is used to pay the supplier if there's still something to pay.
 
@@ -108,17 +106,17 @@ Adamant is a yield optimizer platform that automates harvesting into liquidity p
 
 We earn QUICK tokens on QuickSwap, and we earn IMX tokens on Impermax. Let's use Adamant to farm the QUICK/IMX pool from QuickSwap. Why do that? Because the farm is actually very profitable, as you can see here:
 
-![IMX/QUICK pool from QuickSwap on Adamant](../.gitbook/assets/screen-shot-2021-08-30-at-7.27.26-am.png)
+![IMX/QUICK pool from QuickSwap on Adamant](<../.gitbook/assets/Screen Shot 2021-08-30 at 7.27.26 AM.png>)
 
 As this article is being written, the current APY of the IMX/QUICK pool on Adamant is 417.25%. The reward is composed of
 
-* 168.49% auto-compounded QUICK \(QUICK rewards from QuickSwap are sold to buy additional IMX/QUICK LP tokens that are added to your position\)
-* 212.85% ADDY tokens that you can claim on Adamant \(they are vested for 90 days so you can't access them right away\)
+* 168.49% auto-compounded QUICK (QUICK rewards from QuickSwap are sold to buy additional IMX/QUICK LP tokens that are added to your position)
+* 212.85% ADDY tokens that you can claim on Adamant (they are vested for 90 days so you can't access them right away)
 * 35.91% fee dividends paid in WMATIC if you claim your ADDY daily
 
-This means that your IMX/QUICK position will grow over time, and that you will collect ADDY rewards. The more ADDY you hold, the more dividend \(WMATIC\) you will collect.
+This means that your IMX/QUICK position will grow over time, and that you will collect ADDY rewards. The more ADDY you hold, the more dividend (WMATIC) you will collect.
 
-You can also see that the APY on Adamant is _Boostable_. This means that if you stake additional ADDY tokens \(not the vested ones\), you will apply an additional multiplier to the reward you get. And that's actually a good thing, because we DO get additional ADDY tokens from the Dragon's Syrup on QuickSwap!
+You can also see that the APY on Adamant is _Boostable_. This means that if you stake additional ADDY tokens (not the vested ones), you will apply an additional multiplier to the reward you get. And that's actually a good thing, because we DO get additional ADDY tokens from the Dragon's Syrup on QuickSwap!
 
 ### Harvesting ADDY and WMATIC
 
@@ -161,8 +159,8 @@ In order to lower the risk of negative interests on Impermax, the split will be 
 
 For the rest of the simulation, we will consider that QuickSwap grants a 25.56% APR on MAI/USDC paid in QUICK tokens, and Impermax gives a 20% average APR on MAI/USDC at x9, only paid in IMX tokens. This corresponds to a daily rate of
 
-* +0.07% on QuickSwap
-* +0.05% on Impermax
+* \+0.07% on QuickSwap
+* \+0.05% on Impermax
 
 This means that at the end of Day 1, we already collected
 
@@ -171,67 +169,67 @@ This means that at the end of Day 1, we already collected
 
 From there, we can combine all the IMX we get with a portion of the QUICK reward into IMX/QUICK LP pair that will be deposited on Adamant. The LP pair has a value of $0.98 and we still have $0.14 worth of QUICK that we deposit on the Dragons's Lair for dQUICK. dQUICK are then used on Dragon's Syrup to start collecting ADDY on Day 2.
 
-| Reward type | Value in dollars |
-| :--- | :--- |
-| dQUICK on QuickSwap | 0.14 |
-| ADDY on QuickSwap | 0 |
-| IMX/QUICK on Adamant | 0.98 |
-| ADDY on Adamant | 0 |
-| WMATIC on Adamant | 0 |
-| camWMATIC on Mai Finance | 0 |
-| debt on Mai Finance | 0 |
+| Reward type              | Value in dollars |
+| ------------------------ | ---------------- |
+| dQUICK on QuickSwap      | 0.14             |
+| ADDY on QuickSwap        | 0                |
+| IMX/QUICK on Adamant     | 0.98             |
+| ADDY on Adamant          | 0                |
+| WMATIC on Adamant        | 0                |
+| camWMATIC on Mai Finance | 0                |
+| debt on Mai Finance      | 0                |
 
 ### Day 2
 
 We still have the same position on QuickSwap and Impermax, nothing changes and we once again get $0.63 worth of QUICK and $0.49 worth of IMX that are used to get $0.98 worth of IMX/QUICK and $0.14 of dQUICK deposited in the ADDY farm on QuickSwap.
 
-However, the IMX/QUICK position on Adamant is earning 151.96% APR in IMX/QUICK \(or +0.42% daily\). This means that our original $0.98 deposit is now at $0.984, and we're adding $0.98 from farming on QuickSwap and Impermax. It also generated 177.43% APR \(or +0.49% daily\) ADDY, corresponding to $0.005.
+However, the IMX/QUICK position on Adamant is earning 151.96% APR in IMX/QUICK (or +0.42% daily). This means that our original $0.98 deposit is now at $0.984, and we're adding $0.98 from farming on QuickSwap and Impermax. It also generated 177.43% APR (or +0.49% daily) ADDY, corresponding to $0.005.
 
-On QuickSwap, the dQUICK we deposited in Dragon's Syrup is generating additional QUICK tokens at 12.26% APR \(+0.03% daily\) and ADDY tokens at 17.08% APR \(+0.05% daily\). This is applied to the $0.18 worth of QUICK, meaning that at the end of Day 2 we already generated $0.00006 worth of ADDY and $0.000054 worth of QUICK. The ADDY reward can be claimed and added into Adamant to start boosting the ADDY APR of the IMX/QUICK position.
+On QuickSwap, the dQUICK we deposited in Dragon's Syrup is generating additional QUICK tokens at 12.26% APR (+0.03% daily) and ADDY tokens at 17.08% APR (+0.05% daily). This is applied to the $0.18 worth of QUICK, meaning that at the end of Day 2 we already generated $0.00006 worth of ADDY and $0.000054 worth of QUICK. The ADDY reward can be claimed and added into Adamant to start boosting the ADDY APR of the IMX/QUICK position.
 
-| Reward type | Value in dollars |
-| :--- | :--- |
-| dQUICK on QuickSwap | 0.274 |
-| ADDY on QuickSwap | 0.00006 |
-| IMX/QUICK on Adamant | 1.98 |
-| ADDY on Adamant | 0.005 |
-| WMATIC on Adamant | 0 |
-| camWMATIC on Mai Finance | 0 |
-| debt on Mai Finance | 0 |
+| Reward type              | Value in dollars |
+| ------------------------ | ---------------- |
+| dQUICK on QuickSwap      | 0.274            |
+| ADDY on QuickSwap        | 0.00006          |
+| IMX/QUICK on Adamant     | 1.98             |
+| ADDY on Adamant          | 0.005            |
+| WMATIC on Adamant        | 0                |
+| camWMATIC on Mai Finance | 0                |
+| debt on Mai Finance      | 0                |
 
 ### Day 3
 
-Moving on, the ADDY reward claimed on Adamant are now generating some WMATIC reward. The first $0.005 worth of ADDY collected earn 56% APR \(0.15% daily\) or WMATIC dividends, which corresponds to $0.000007 worth of WMATIC. Keep in mind we're only starting the engine here.
+Moving on, the ADDY reward claimed on Adamant are now generating some WMATIC reward. The first $0.005 worth of ADDY collected earn 56% APR (0.15% daily) or WMATIC dividends, which corresponds to $0.000007 worth of WMATIC. Keep in mind we're only starting the engine here.
 
-| Reward type | Value in dollars |
-| :--- | :--- |
-| dQUICK on QuickSwap | 0.411 |
-| ADDY on QuickSwap | 0.00019 |
-| IMX/QUICK on Adamant | 2.971 |
-| ADDY on Adamant | 0.014 |
-| WMATIC on Adamant | 0.000007 |
-| camWMATIC on Mai Finance | 0 |
-| debt on Mai Finance | 0 |
+| Reward type              | Value in dollars |
+| ------------------------ | ---------------- |
+| dQUICK on QuickSwap      | 0.411            |
+| ADDY on QuickSwap        | 0.00019          |
+| IMX/QUICK on Adamant     | 2.971            |
+| ADDY on Adamant          | 0.014            |
+| WMATIC on Adamant        | 0.000007         |
+| camWMATIC on Mai Finance | 0                |
+| debt on Mai Finance      | 0                |
 
 ### Day 4
 
 We can now add the WMATIC in the loop. This dividend will be deposited on AAVE, then used on Mai Finance to borrow new MAI.
 
-| Reward type | Value in dollars |
-| :--- | :--- |
-| dQUICK on QuickSwap | 0.548 |
-| ADDY on QuickSwap | 0.00038 |
-| IMX/QUICK on Adamant | 3.969 |
-| ADDY on Adamant | 0.029 |
-| WMATIC on Adamant | 0.000029 |
-| camWMATIC on Mai Finance | 0.000007 |
-| debt on Mai Finance | 0.0000035 |
+| Reward type              | Value in dollars |
+| ------------------------ | ---------------- |
+| dQUICK on QuickSwap      | 0.548            |
+| ADDY on QuickSwap        | 0.00038          |
+| IMX/QUICK on Adamant     | 3.969            |
+| ADDY on Adamant          | 0.029            |
+| WMATIC on Adamant        | 0.000029         |
+| camWMATIC on Mai Finance | 0.000007         |
+| debt on Mai Finance      | 0.0000035        |
 
 At this point, the "debt" on Mai Finance will be used to increase the MAI/USDC LP positions on both QuickSwap and Impermax, and the system is completely primed.
 
 ## Farming results
 
-![](../.gitbook/assets/screen-shot-2021-08-30-at-11.33.34-am.png)
+![](<../.gitbook/assets/Screen Shot 2021-08-30 at 11.33.34 AM.png>)
 
 ### Daily routine
 
@@ -259,36 +257,36 @@ The daily routine is composed by the following transactions
 
 ### Raw results month after month
 
-| Month | dQUICK | IMX/QUICK | ADDY | WMATIC | Debt |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 1 | $4.25 | $32.56 | $2.32 | $0.03 | $0.02 |
-| 2 | $8.36 | $68.34 | $9.65 | $0.28 | $0.15 |
-| 3 | $12.48 | $108.86 | $22.30 | $0.98 | $0.49 |
-| 4 | $16.59 | $154.78 | $41.34 | $2.41 | $1.20 |
-| 5 | $20.71 | $206.83 | $67.50 | $4.86 | $2.42 |
-| 6 | $24.84 | $265.83 | $101.73 | $8.70 | $4.34 |
-| 7 | $28.97 | $332.74 | $145.11 | $14.31 | $7.15 |
-| 8 | $33.12 | $408.63 | $198.87 | $22.14 | $11.06 |
-| 9 | $37.29 | $494.73 | $264.40 | $32.70 | $16.34 |
-| 10 | $41.48 | $592.45 | $343.28 | $46.57 | $23.26 |
-| 11 | $45.71 | $703.39 | $437.33 | $64.40 | $32.19 |
-| 12 | $49.97 | $829.37 | $548.59 | $86.94 | $43.46 |
+| Month | dQUICK | IMX/QUICK | ADDY    | WMATIC | Debt   |
+| ----- | ------ | --------- | ------- | ------ | ------ |
+| 1     | $4.25  | $32.56    | $2.32   | $0.03  | $0.02  |
+| 2     | $8.36  | $68.34    | $9.65   | $0.28  | $0.15  |
+| 3     | $12.48 | $108.86   | $22.30  | $0.98  | $0.49  |
+| 4     | $16.59 | $154.78   | $41.34  | $2.41  | $1.20  |
+| 5     | $20.71 | $206.83   | $67.50  | $4.86  | $2.42  |
+| 6     | $24.84 | $265.83   | $101.73 | $8.70  | $4.34  |
+| 7     | $28.97 | $332.74   | $145.11 | $14.31 | $7.15  |
+| 8     | $33.12 | $408.63   | $198.87 | $22.14 | $11.06 |
+| 9     | $37.29 | $494.73   | $264.40 | $32.70 | $16.34 |
+| 10    | $41.48 | $592.45   | $343.28 | $46.57 | $23.26 |
+| 11    | $45.71 | $703.39   | $437.33 | $64.40 | $32.19 |
+| 12    | $49.97 | $829.37   | $548.59 | $86.94 | $43.46 |
 
 ### Day 365
 
 After a complete year, the final state of our investment would be
 
-| Reward type | Value in dollars |
-| :--- | :--- |
-| dQUICK on QuickSwap | 50.689 |
-| ADDY on QuickSwap | 4.325 |
-| IMX/QUICK on Adamant | 851.968 |
-| ADDY on Adamant | 568.972 |
-| WMATIC on Adamant | 91.209 |
-| camWMATIC on Mai Finance | 91.220 |
-| debt on Mai Finance | 44.30 |
+| Reward type              | Value in dollars |
+| ------------------------ | ---------------- |
+| dQUICK on QuickSwap      | 50.689           |
+| ADDY on QuickSwap        | 4.325            |
+| IMX/QUICK on Adamant     | 851.968          |
+| ADDY on Adamant          | 568.972          |
+| WMATIC on Adamant        | 91.209           |
+| camWMATIC on Mai Finance | 91.220           |
+| debt on Mai Finance      | 44.30            |
 
-Note that the WMATIC in Adamant and collected daily so they're not part of the final revenue generated via this process. Also, the ADDY that have been generated via the QuickSwap farm haven't been harvested daily and added to boost the ADDY rewards on Adamant in this simulation \(it is already complex enough\).
+Note that the WMATIC in Adamant and collected daily so they're not part of the final revenue generated via this process. Also, the ADDY that have been generated via the QuickSwap farm haven't been harvested daily and added to boost the ADDY rewards on Adamant in this simulation (it is already complex enough).
 
 Finally, after one year, the generated revenue is worth $1,567.174. If we consider the initial investment was $1,000 worth of MAI/USDC, this leads to a final APY of 156.71% on our stable pair.
 
@@ -301,6 +299,5 @@ This Lego game allowed us to generate an impressive APY from stable coin farming
 This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
 {% endhint %}
-

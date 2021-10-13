@@ -86,7 +86,7 @@ Each vault type has a minimum CDR ratio accepted, a threshold under which the va
 
 When you borrow MAI against a given collateral, you will get some hints on what's the maximum amount of MAI you can borrow, and what would be the impact on your health ratio depending on the amount borrowed, as you can see in the screenshot bellow:
 
-![Health mitigation depending on borrowed amount](<../.gitbook/assets/image (4).png>)
+![Health mitigation depending on borrowed amount](<../.gitbook/assets/image (2).png>)
 
 It's very important to keep an eye on your CDR and keep a healthy ratio to
 
@@ -143,7 +143,7 @@ $$
 
 This corresponds more or less to the APR of the MATIC Vault, as displayed in the following screenshot:
 
-![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](<../.gitbook/assets/image (23) (2) (3) (5).png>)
+![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](<../.gitbook/assets/image (23) (2) (3) (4).png>)
 
 ### Calculating starting vaults' APRs
 
