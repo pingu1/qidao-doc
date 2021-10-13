@@ -2,35 +2,32 @@
 
 * [La guía no oficial de Mai Finance](README.md)
 
-## TUTORIALES DE INVERSIÓN
+## TUTORIALES DE POLYGON
 
-* [Cómo comenzar en Polygon](tutoriales-de-inversion/how-to-get-started-on-polygon.md)
-* [Apalancamiento con tus tokens de AAVE](tutoriales-de-inversion/apalancamiento-con-tus-tokens-de-aave.md)
-* [Farmear utilizando únicamente monedas estables](tutoriales-de-inversion/secure-your-yield-farming-profits.md)
-* [¿Qué hacer con MAI en Polygon?](tutoriales-de-inversion/que-hacer-con-mai-en-polygon.md)
-* [¿Qué hacer con Qi en Polygon?](tutoriales-de-inversion/que-hacer-con-qi-polygon.md)
-* [Universo MAI](tutoriales-de-inversion/mai-metaverse.md)
-* [Como usar MAI en la vida real](tutoriales-de-inversion/how-to-use-mai-in-the-real-life.md)
-* [Acumula DApps como si fueran cromos](tutoriales-de-inversion/acumula-dapps-como-cromos.md)
-* [¿Farmear o hacer staking? ¿O Ambas?](tutoriales-de-inversion/farming-or-staking-or-both.md)
-* [¿Cómo combinar el farmeo con los préstamos incentivados?](how-to-combine-farming-and-borrowing-rewards.md)
+* [Cómo comenzar en Polygon](tutoriales-de-polygon/how-to-get-started-on-polygon.md)
+* [Apalancamiento con tus tokens de AAVE](tutoriales-de-polygon/apalancamiento-con-tus-tokens-de-aave.md)
+* [Farmear utilizando únicamente monedas estables](tutoriales-de-polygon/secure-your-yield-farming-profits.md)
+* [¿Qué hacer con MAI en Polygon?](tutoriales-de-polygon/que-hacer-con-mai-en-polygon.md)
+* [¿Qué hacer con Qi en Polygon?](tutoriales-de-polygon/que-hacer-con-qi-polygon.md)
+* [Acumula DApps como si fueran cromos](tutoriales-de-polygon/acumula-dapps-como-cromos.md)
+* [¿Farmear o hacer staking? ¿O Ambas?](tutoriales-de-polygon/farming-or-staking-or-both.md)
+* [¿Cómo combinar el farmeo con los préstamos incentivados?](tutoriales-de-polygon/how-to-combine-farming-and-borrowing-rewards.md)
 
-## Tutoriales de MAI/ eQi / Qi
+## Tutoriales de Avalanche
+
+* [How to get started on Avalanche](tutoriales-de-avalanche/how-to-get-started-on-avalanche.md)
+
+## Universidad de MAI <a href="universidade-de-MAI" id="universidade-de-MAI"></a>
 
 ***
 
 * [Genera Ingresos Pasivos con Qi DAO](earning-passive-income-with-qidao.md)
 * [¿Cómo funciona MAI?](how-does-mai-work.md)
 * [Préstamos de MAI y Depósitos Incentivados](prestamos-mai-depositos-incentivados.md)
-
-## Tutoriales sobre el pago de la deuda
-
-***
-
 * [Pago de la Deuda - ¿Cuándo y Por Qué?](debt-repayment-why-and-when.md)
 * [Pago de la Deuda - ¿Cómo?](debt-repayment-how.md)
-
-## Artículos pendientes de traducir <a href="investment-tutorials" id="investment-tutorials"></a>
+* [Universo MAI](mai-metaverse.md)
+* [Como usar MAI en la vida real](how-to-use-mai-in-the-real-life.md)
 
 ## Únete a la comunidad <a href="comunidad" id="comunidad"></a>
 

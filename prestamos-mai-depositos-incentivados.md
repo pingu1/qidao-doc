@@ -93,7 +93,7 @@ Es muy importante echarle un ojo a tu **CDR **y mantener un ratio saludable para
 * Evitar ser liquidado
 * Incrementar la "salud" de toda la plataforma de Mai Finance al asegurarte de que la cantidad de MAI circulante tiene colateral que lo respalde.
 
-Un CDR "sano", definido por el equipo de Mai Finance , es entre el 25% y el 270% sobre el valor mínimo del CDR. Además, puedes ver nuestras guías sobre estrategias sobre como puedes usar CDRs agresivos/conservadores para [invertir](tutoriales-de-inversion/apalancamiento-con-tus-tokens-de-aave.md#examples-with-numbers) en otros proyectos, o [pagar tu deuda](debt-repayment-how.md) usando tu deuda.
+Un CDR "sano", definido por el equipo de Mai Finance , es entre el 25% y el 270% sobre el valor mínimo del CDR. Además, puedes ver nuestras guías sobre estrategias sobre como puedes usar CDRs agresivos/conservadores para [invertir](tutoriales-de-polygon/apalancamiento-con-tus-tokens-de-aave.md#examples-with-numbers) en otros proyectos, o [pagar tu deuda](debt-repayment-how.md) usando tu deuda.
 
 ## Préstamos incentivados
 
