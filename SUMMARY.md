@@ -18,9 +18,9 @@
 
 ## Tutorial di Avalanche
 
-* [How to get started on Avalanche](tutorial-di-avalanche/how-to-get-started-on-avalanche.md)
+* [Come iniziare con Avalanche](tutorial-di-avalanche/how-to-get-started-on-avalanche.md)
 
-## Università di MAI <a href="Universita-di-MAI" id="Universita-di-MAI"></a>
+## Università di MAI
 
 * [Ottenere una rendita passiva con QiDAO](Universita-di-MAI/ottenere-una-rendita-passiva-con-qidao.md)
 * [Come funziona MAI?](Universita-di-MAI/come-funziona-mai.md)

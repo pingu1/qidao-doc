@@ -95,16 +95,16 @@ Gli esempi che seguono si basano su $1.000 di MATIC, con diversi rapporti CDR e 
 
 ### 200% di rapporto Collaterale/Debito 
 
-| Ciclo numero | Investimento |  Debito | Rendimento stimato | APY Equivalente |
-| :----------: | -----------: | ------: | -----------------: | --------------: |
-|       1      |    1 000,00$ | 500,00$ |             49,30$ |          4,930% |
-|       2      |    1 500,00$ | 750,00$ |             73,95$ |          7,395% |
-|       3      |    1 750,00$ | 875,00$ |             86,75$ |          8,628% |
-|       4      |    1 875,00$ | 937,50$ |             92,44$ |          9,244% |
-|       5      |    1 937,50$ | 968,75$ |             95,52$ |          9,552% |
-|       6      |    1 968,75$ | 984,38$ |             97,06$ |          9,706% |
-|       7      |    1 984,38$ | 992,19$ |             97,83$ |          9,783% |
-|       8      |    1 992,19$ |       - |             98,21$ |          9,821% |
+| Ciclo numero | Investimento |  Debito | Rendimento stimato |
+| :----------: | -----------: | ------: | -----------------: |
+|       1      |    1 000,00$ | 500,00$ |             49,30$ |
+|       2      |    1 500,00$ | 750,00$ |             73,95$ |
+|       3      |    1 750,00$ | 875,00$ |             86,75$ |
+|       4      |    1 875,00$ | 937,50$ |             92,44$ |
+|       5      |    1 937,50$ | 968,75$ |             95,52$ |
+|       6      |    1 968,75$ | 984,38$ |             97,06$ |
+|       7      |    1 984,38$ | 992,19$ |             97,83$ |
+|       8      |    1 992,19$ |       - |             98,21$ |
 
 Aggiungere più debito oltre il ciclo n.7 aumenterebbe il mio investimento di meno di $10 (1% del mio investimento iniziale), quindi questo è il momento giusto per fermarmi. L' aumento dell'APY è trascurabile in questa fase e il mio rapporto collaterale/debito rimane del 200,79%, abbastanza sicuro. 
 
