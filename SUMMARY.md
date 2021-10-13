@@ -2,32 +2,30 @@
 
 * [Le guide non-officiel d'utilisation de Mai Finance](README.md)
 
-## Tutoriels investissement <a href="tutoriels" id="tutoriels"></a>
+## Tutoriels pour Polygon <a href="tutoriels-polygon" id="tutoriels-polygon"></a>
 
-* [Comment bien démarrer sur Polygon](tutoriels/how-to-get-started-on-polygon.md)
-* [Appliquez un effet de levier sur vos tokens AAVE](tutoriels/tirez-parti-aave-tokens.md)
-* [Cultivez vos gains avec des monnaies stables](tutoriels/cultivez-vos-gains-avec-des-monnaies-stables.md)
-* [Que faire avec vos MAI sur Polygon](tutoriels/que-faire-avec-vos-mai-sur-polygon.md)
-* [MAI dans le metaverse](tutoriels/mai-dans-le-metaverse.md)
-* [Comment utiliser MAI dans la "vraie" vie](tutoriels/how-to-use-mai-in-the-real-life.md)
-* [Farming ou Staking? Ou les deux?](tutoriels/farming-ou-staking-ou-les-deux.md)
-* [Comment combiner les récompenses de fermes et d'emprunts](tutoriels/untitled.md)
+* [Comment bien démarrer sur Polygon](tutoriels-polygon/how-to-get-started-on-polygon.md)
+* [Appliquez un effet de levier sur vos tokens AAVE](tutoriels-polygon/tirez-parti-aave-tokens.md)
+* [Cultivez vos gains avec des monnaies stables](tutoriels-polygon/cultivez-vos-gains-avec-des-monnaies-stables.md)
+* [Que faire avec vos MAI sur Polygon](tutoriels-polygon/que-faire-avec-vos-mai-sur-polygon.md)
+* [What to do with Qi on Polygon](tutoriels-polygon/what-to-do-with-qi-on-polygon.md)
+* [Stack DApps like Lego bricks](tutoriels-polygon/stack-dapps-like-lego-bricks.md)
+* [Farming ou Staking? Ou les deux?](tutoriels-polygon/farming-ou-staking-ou-les-deux.md)
+* [Comment combiner les récompenses de fermes et d'emprunts](tutoriels-polygon/untitled.md)
 
-## EN - Investment tutorials <a href="investment-tutorials" id="investment-tutorials"></a>
+## Tutoriels pour Avalanche <a href="tutoriels-avalanche" id="tutoriels-avalanche"></a>
 
-* [What to do with Qi on Polygon](investment-tutorials/what-to-do-with-qi-on-polygon.md)
-* [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
+* [How to get started on Avalanche](tutoriels-avalanche/how-to-get-started-on-avalanche.md)
 
-## MAI / eQI / Qi  Tutorials
+## L'Université du MAI <a href="universite-MAI" id="universite-MAI"></a>
 
-* [Earning Passive Income with QiDAO](mai-eqi-qi-tutorials/earning-passive-income-with-qidao.md)
-* [How does MAI work](mai-eqi-qi-tutorials/how-does-mai-work.md)
-* [MAI loans and Vault incentives](mai-eqi-qi-tutorials/mai-loans-and-vault-incentives.md)
-
-## EN - Debt management tutorial
-
-* [Rembourser sa dette - Pourquoi et quand?](en-debt-management-tutorial/debt-repayment-why-and-when.md)
-* [Rembourser sa dette - Comment?](en-debt-management-tutorial/debt-repayment-how.md)
+* [Earning Passive Income with QiDAO](universite-MAI/earning-passive-income-with-qidao.md)
+* [How does MAI work](universite-MAI/how-does-mai-work.md)
+* [MAI loans and Vault incentives](universite-MAI/mai-loans-and-vault-incentives.md)
+* [Rembourser sa dette - Pourquoi et quand?](universite-MAI/debt-repayment-why-and-when.md)
+* [Rembourser sa dette - Comment?](universite-MAI/debt-repayment-how.md)
+* [MAI dans le metaverse](universite-MAI/mai-dans-le-metaverse.md)
+* [Comment utiliser MAI dans la "vraie" vie](universite-MAI/how-to-use-mai-in-the-real-life.md)
 
 ## Rejoignez la Communauté <a href="communaute" id="communaute"></a>
 

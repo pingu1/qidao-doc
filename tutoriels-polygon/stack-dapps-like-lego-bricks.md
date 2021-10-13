@@ -136,13 +136,13 @@ We deposit IMX and QUICK tokens earned from Impermax and QuickSwap under the for
 
 ## AAVE
 
-With the WMATIC tokens earned on Adamant, we now can deposit them on AAVE in order to get some yield. This is the regular AAVE token leverage mentioned in [the dedicated article](../tutoriels/tirez-parti-aave-tokens.md).
+With the WMATIC tokens earned on Adamant, we now can deposit them on AAVE in order to get some yield. This is the regular AAVE token leverage mentioned in [the dedicated article](tirez-parti-aave-tokens.md).
 
 ## Mai Finance
 
 Following the AAVE deposit, we get amWMATIC in our wallet. We can use the yield page on Mai Finance to auto-compound the reward provided by AAVE with the rewards from the Matic incentive and get an additional 4% on our MATIC earned on Adamant.
 
-The camWMATIC can then be used as collateral on Mai Finance by depositing them in the camWMATIC vault, which allows us to borrow MAI, and swap a part of the minted MAI into USDC. Once we have more MAI and USDC in our wallet, we can combine the 2 stable coins into additional LP tokens that will be deposited on QuickSwap and Impermax. Once again, if you need details on how you can do that, please read [the dedicated article](../tutoriels/que-faire-avec-vos-mai-sur-polygon.md).
+The camWMATIC can then be used as collateral on Mai Finance by depositing them in the camWMATIC vault, which allows us to borrow MAI, and swap a part of the minted MAI into USDC. Once we have more MAI and USDC in our wallet, we can combine the 2 stable coins into additional LP tokens that will be deposited on QuickSwap and Impermax. Once again, if you need details on how you can do that, please read [the dedicated article](que-faire-avec-vos-mai-sur-polygon.md).
 
 ## Bootstrapping the system
 

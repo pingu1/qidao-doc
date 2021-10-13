@@ -12,7 +12,7 @@ description: >-
 ## Intro
 
 Lorsque vous utilisez des applications de finance décentralisée (DeFi, **De**centralize **Fi**nance), particulièrement quand vous utilisez des fermes de rendement, vous avez tendance à accumuler des jetons offert par les applications. Si la plus part des personnes vendent ces jetons pour acheter plus de leurs crypto-monnaies favorites, nous allons essayer de démontrer des manières de les garder et utiliser pour augmenter nos revenus.\
-Pour ce faire, nous utiliserons les nouvelles réserves de liquidité (Liquidity Pools) lancées sur QuickSwap, début de septembre 2021, qui utilisent le jeton Qi de Mai Finance. Si vous ne connaissez pas les applications QuickSwap et Adamant, visitez [Stack DApps like Lego Bricks](../investment-tutorials/stack-dapps-like-lego-bricks.md).
+Pour ce faire, nous utiliserons les nouvelles réserves de liquidité (Liquidity Pools) lancées sur QuickSwap, début de septembre 2021, qui utilisent le jeton Qi de Mai Finance. Si vous ne connaissez pas les applications QuickSwap et Adamant, visitez [Stack DApps like Lego Bricks](stack-dapps-like-lego-bricks.md).
 
 ## Présentation de la stratégie
 

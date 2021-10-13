@@ -137,7 +137,7 @@ Si vous planifiez de garder votre emprunt plus longtemps, il est plus intéressa
 Finalement, l'équipe de Mai Finance travaille sur l'implémentation de récompenses qui fonctionneraient comme les récompenses en MATIC d'Aave, ce qui signifie que vous aurez toujours 0% d'intérêt sur votre emprunt **et** vous serez payés (en Qi) ce qui pourrait bien réduire vos frais de remboursement à 0% de votre dette. Plus votre garder votre emprunt, plus vous collecterez des récompenses, faisant ainsi un véritable emprunt à intérêts négatifs.
 
 {% hint style="info" %}
-À la traduction de cet article (04/10/21), les récompenses sur les emprunts de Mai Finance sont actives, les APRs sont comprises entre 20% pour les collatéraux les plus utilisés/anciens et 820% (BAL) pour les moins utilisés/plus récents. Voir [MAI loans and Vault incentives](../mai-eqi-qi-tutorials/mai-loans-and-vault-incentives.md)
+À la traduction de cet article (04/10/21), les récompenses sur les emprunts de Mai Finance sont actives, les APRs sont comprises entre 20% pour les collatéraux les plus utilisés/anciens et 820% (BAL) pour les moins utilisés/plus récents. Voir [MAI loans and Vault incentives](mai-loans-and-vault-incentives.md)
 {% endhint %}
 
 ## Avertissements
