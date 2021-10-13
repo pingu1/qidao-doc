@@ -21,7 +21,7 @@ Ce guide va présenter étape par étape la façon d'utiliser la plateforme Mai 
 Afin d'illustrer en détails comment maximiser vos gains, j'utiliserai l'une des dernières fermes de rendement de [Polypup](https://ball.polypup.finance). Ceci n'est qu'à but éducatif et ne devrait absolument pas être considéré comme un conseil financier. Veuillez également noter que le terme "sans risques" est uniquement basé sur mon opinion personnelle. Comme toujours, veuillez faire vos propres recherches. Pour finir, je ne recommande pas d'exploiter cette ferme.
 {% endhint %}
 
-![](../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
+![](<../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)
 
 ## Cycle de vie de vos "plantations"
 
@@ -41,11 +41,11 @@ Vous pouvez déposer vos jetons MATIC dans le coffre dédié, mais vous pouvez �
 
 Une fois en possession de vos MAI, vous pouvez utiliser la [page d'échange](https://app.mai.finance/anchor) (swap page, ou anchor page) sur Mai Finance afin de convertir la moitié de votre monnaie stable en USDC. En effet, lorsque vous cultivez une paire de monnaie stable, la paire doit toujours être constituée d'un ratio 1:1 en valeur pour chaque token la composant.
 
-![Utilisation de la page d'échange afin de convertir 30 MAI en USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
+![Utilisation de la page d'échange afin de convertir 30 MAI en USDC](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
 
 En fonction de la ferme de rendement sur laquelle vous allez cultiver, vous avez maintenant besoin de combiner une paire (MAI et USDC) sur le bon site d'échange (plateforme DEX pour **D**ecentralized **Ex**change). Dans notre exemple avec Polypup, cette ferme accepte les paires provenant de [QuickSwap](https://quickswap.exchange/#/), c'est donc cette plateforme d'échange que nous utiliserons pour créer la paire MAI/USDC.
 
-![Création de la paire LP à partir des monnaies stables MAI et USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
+![Création de la paire LP à partir des monnaies stables MAI et USDC](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
 
 Nous sommes maintenant prêts à cultiver notre paire stable.
 
@@ -53,7 +53,7 @@ Nous sommes maintenant prêts à cultiver notre paire stable.
 
 Maintenant que nous sommes en possession de jetons LP, nous pouvons commencer les plantations dans la ferme de rendement et les déposer dans la réserve appropriée. Ceci va nous permettre par la suite de récolter les tokens natifs à la ferme. Dans notre exemple, nous allons déposer nos jetons MAI/USDC et nous allons récolter des jetons BALL.
 
-![La réserve nous fait gagner des jetons BALL](../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
+![La réserve nous fait gagner des jetons BALL](<../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
 
 Au moment d'écrire cet article, vous pouvez voir que la réserve MAI/USDC a un rendement de 176.99%. C'est un rendement annualisé (**A**nnual **P**ercentage **R**ate). En fonction du montant de liquidité disponible dans la réserve, et en fonction du prix du token BALL, ce rendement va fortement fluctuer avec le temps.
 
@@ -72,7 +72,7 @@ Nous avons récolté nos premiers tokens. En général à cette étape, vous ave
 
 Mai Finance vous offre une troisième option vous permettant de faire les deux à la fois. Une fois que les jetons natifs sont récoltés, vous pouvez simplement utiliser votre DEX préféré supportant le token natif. D'habitude, vous pourrez trouver un lien vers la plateforme d'échange dans le menu de la ferme de rendement. Ce lien vous dirigera directement vers la bonne page permettant de faire l'échange plus facilement. Veillez tout de même à vous assurer que le site n'est pas un site de phishing, faites attention à l'URL. Toutes les fermes ne sont pas tenues par des développeurs exemplaires. 
 
-![J'échange mes jetons BALL contre des MATIC](../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
+![J'échange mes jetons BALL contre des MATIC](<../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
 
 À cette étape, je suis à nouveau en possession de jetons MATIC dans mon portefeuille, ce qui correspond à la première étape de préparation. Je vais donc pouvoir utiliser ces nouveaux tokens en les déposant sur Mai Finance et emprunter de la monnaie stable MAI, faire l'échange pour des USDC, créer des nouveaux jetons de liquidité et les re-déposer dans la ferme. En opérant de la sorte, 100% de mes gains sont transformés en MATIC (valeur bien plus sûre que les jetons BALL), et je ré-injecte 50% (empruntés sous forme de MAI) dans la ferme pour accroître mes gains. Notez qu'en réalité, je ne ré-injecte que 46% à cause des frais de dépôt de 4%.
 

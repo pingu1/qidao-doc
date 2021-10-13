@@ -10,7 +10,7 @@ description: >-
 
 En septembre 2021, Mai Finance a ajouté des récompenses à ses coffres pour promouvoir les emprunts, augmentant ainsi le nombre de MAI crée via les coffres. Ce qui veut dire que, en plus d'avoir un prêt à 0% d'intérêt, avec un petit frais de remboursement, vous êtes payé pour emprunter du MAI. Cet article propose une stratégie basée sur la culture de jetons stables avec [Augury Finance](https://augury.finance) comme source de jetons que l'on peut utiliser pour nourrir nos coffres sur Mai Finance, profitant ainsi des incitations à l'emprunt, et du MAI additionel qui sera réinjecté dans la ferme.
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (29).png>)
 
 ## Présentation des applications et réserves
 
@@ -20,7 +20,7 @@ Augury Finance est un aggrégateur de revenus qui ne se concentre pas sur l'auto
 
 Par exemple, vous pouvez cultiver la paire DFYN/WETH sur Augury.
 
-![Exemple de la réserve DFYN-WETH sur Augury Finance](<../.gitbook/assets/image (32).png>)
+![Exemple de la réserve DFYN-WETH sur Augury Finance](<../.gitbook/assets/image (30).png>)
 
 Cette infusion se sert de DinoSwap comme ferme sous-jacente et un jeton LP, obtenable sur DFYN. Avec une APR de 123,43%, les utilisateurs qui déposent de la liquidité dans cette réserve seront récompensés avec:
 
@@ -48,13 +48,13 @@ Un aspect très intéressant de Curve et ses réserves est qu'un utilisateur n'a
 
 Nous utiliserons la réserve "atricrypto3" qui accepte du WBTC/WETH/USDC/USDT/DAI et nous y ajouterons l'USDC généré sur Augury.
 
-![Détails de la réserve atricrypto3 sur Curve, en September 2021](<../.gitbook/assets/image (30).png>)
+![Détails de la réserve atricrypto3 sur Curve, en September 2021](<../.gitbook/assets/image (32).png>)
 
 ### AAVE
 
 Aave est une autre valeur sûre, en terme de projet, et, comme mentionné dans le paragraphe sur Augury, est utilisé pour ajouter une petite APR (<5%) sur les récompenses d'Augury. Au lieu de mettre directement les WBTC, WETH & WMATIC dans un coffre de Mai Finance, nous allons déposé ces jetons sur Aave puis dans la page "[/yield](https://app.mai.finance/yield)" de Mai Finance, pour auto-réinvestir les récompenses d'Aave et faire grandir notre position, et pour finir, dans un coffre. Vous pouvez trouver plus de détails sur cette partie [ici](tirez-parti-aave-tokens.md).
 
-![Récompenses d'AAVE sur les prêts, en septembre 2021](<../.gitbook/assets/image (29).png>)
+![Récompenses d'AAVE sur les prêts, en septembre 2021](<../.gitbook/assets/image (33).png>)
 
 {% hint style="info" %}
 À la mi-septembre 2021,[ Aave a voté pour ajouter CRV, BAL & LINK à leur marché](https://snapshot.org/#/aave.eth/proposal/QmUjs75wxvsv4q4urC5DXZSgh8mAWK99SsRPXNu3zeuuYa). Une fois implémentés, Mai Finance pourra les utiliser pour créer des coffres camCRV, camBAL & camLINK.
@@ -66,11 +66,11 @@ Balancer est, encore une fois, une valeur sûre, comme Curve & Aave. Comme sur C
 
 Pour notre stratégie, nous utiliserons la réserve WETH/BAL/Qi/MAI/USDC. Cette réserve accepte le Qi, que nous gagnerons via la dette de nos coffres sur Mai Finance, et nous récompenses avec plus de Qi et du BAL, que nous deposerons dans un coffre sur Mai Finance, pour pouvoir emprunter plus de MAI et augmenter notre position sur Augury.
 
-![Balancer 5-pool as of September 2021](<../.gitbook/assets/image (23).png>)
+![Balancer 5-pool as of September 2021](<../.gitbook/assets/image (34).png>)
 
 ## Préparer le système
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (35).png>)
 
 Ce qui suit est une simulation faite avec un investissement initial de $1000 d'ETH, qui est déposé dans un coffre camWETH et sur lequel on emprunte $500 de MAI, que l'on échange pour $500 de paire USDT/UST LP. Cette simulation est faite avec les APR suivantes:
 

@@ -44,7 +44,7 @@ This can means that locking Qi have the following advantages:
 
 To lock your Qi tokens you need to go the Qi Powah Boost lock bar and select how many tokens do you want to lock and the time period for which you want to lock your Qi tokens. The longer the time period the more **eQi **you will get, remember that eQi is just how many Qi tokens you will have once the locking period is over.
 
-![Qi Powah Boost Lock](../.gitbook/assets/captura.jpg)
+![Qi Powah Boost Lock](../.gitbook/assets/Captura.JPG)
 
 Once you have decided all that, click on approve and approve the transaction, then click on `Increase locked QI and lock time` and confirm the transaction.
 
@@ -54,7 +54,7 @@ Please be aware that once you lock your Qi tokens for a given period, there's no
 
 Congratulations, now you are officially a Qi staker you will receive on the following weeks a weekly pay check. If you have any doubt wether you are qualified for the next week's revenue sharing, you can see on the boost page if you are qualified or not.
 
-![](<../.gitbook/assets/captura (1).jpg>)
+![](<../.gitbook/assets/Captura (1).JPG>)
 
 ### Stats of the Qi Powah
 

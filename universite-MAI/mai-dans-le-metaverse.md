@@ -7,7 +7,7 @@ description: >-
 
 # MAI dans le metaverse
 
-![](../.gitbook/assets/screen-shot-2021-09-13-at-1.06.42-pm.png)
+![](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.06.42 PM.png>)
 
 ## Intro
 
@@ -53,7 +53,7 @@ Veuillez noter que le transfert d'une chaîne à l'autre n'assure pas le transfe
 
 L'interface est très intuitive dans le sens où vous n'avez qu'à sélectionner les deux réseaux et la monnaie que vous voulez transférer entre les deux.
 
-![Transfert de MAI depuis Polygon vers Solana](../.gitbook/assets/screen-shot-2021-09-13-at-1.52.23-pm.png)
+![Transfert de MAI depuis Polygon vers Solana](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.52.23 PM.png>)
 
 L'étape suivante vous permet de renseigner l'adresse de votre portefeuille sur Solana, ainsi que le montant que vous souhaitez faire transiter. Veuillez noter que Metamask ne supporte pas (encore) les portefeuilles de Solana, et vous aurez donc besoin de créer un portefeuille séparé sur ce réseau. Il peut s'agir un portefeuille web ou une application. Veuillez vous renseigner en lisant les [recommandations officielles de Solana](https://docs.solana.com/wallet-guide) avant d'en choisir un.
 
@@ -65,11 +65,11 @@ Faites attention que sur Solana, il n'existe pas de faucet (site permettant d'ob
 
 De la même façon que vous pouvez utiliser des MAI sur Polygon en déposant des token LP (**L**iquidity **P**rovider) dans des réserves de liquidité afin de récolter des frais de transaction et des récompenses en crypto-monnaies, vous pouvez faire la même chose sur Solana. Pour le moment, la seule plateforme supportant officiellement MAI est [Saber](https://app.saber.so) où vous trouverez une réserve MAI-USDC.
 
-![Etat de la réserve MAI-USDC sur Saber en Septembre 2021](../.gitbook/assets/screen-shot-2021-09-13-at-2.11.10-pm.png)
+![Etat de la réserve MAI-USDC sur Saber en Septembre 2021](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.11.10 PM.png>)
 
 Un des points forts de cette réserve sur Saber (et de la plateforme en général) est qu'il est possible de déposer des jetons uniques sans avoir à combiner une pair de tokens avec un ratio 1:1. Vous pourrez donc directement déposer des MAI (ou des USDC) sans vous soucier de balancer avec l'autre moitié de la paire stable.
 
-![MAI et USDC sont débalancés sur la réserve MAI-USDC sur Saber](../.gitbook/assets/screen-shot-2021-09-13-at-2.13.51-pm.png)
+![MAI et USDC sont débalancés sur la réserve MAI-USDC sur Saber](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.13.51 PM.png>)
 
 De ce fait, vous n'avez qu'à envoyer des MAI à 100% depuis Polygon sur Solana sans avoir à convertir la moitié en USDC, en réalisant une possible perte lors de la conversion. Cela permet également de s'affranchir de la possible différence de prix (négligeable) entre les deux monnaies stables. Veuillez noter que vous recevrez des récompenses en jeton natif de la ferme Saber, de la même façon que vous recevez des QUICK lorsque vous fournissez de la liquidité sur QuickSwap. Vous pouvez ensuite vendre vos jetons pour augmenter votre position dan la réserve de liquidité MAI-USDC.
 
@@ -85,7 +85,7 @@ Avalanche est une blockchain conçue pour offrir une plateforme open-source ains
 
 D'une façon générale, l'interface de Relay Chain est très semblable à celle de toutes les autres plateformes de transfert. Vous avez simplement à choisir le réseau d'origine, celui de destination, ainsi que la crypto-monnaie à transférer.
 
-![Transfert de MAI depuis Polygon vers Avalanche](../.gitbook/assets/screen-shot-2021-09-13-at-2.52.31-pm.png)
+![Transfert de MAI depuis Polygon vers Avalanche](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.52.31 PM.png>)
 
 Metamask supporte les [portefeuilles Avax](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche), vous n'aurez donc pas besoin d'une autre application pour gérer vos cryptos sur Avalanche.
 
@@ -93,7 +93,7 @@ Metamask supporte les [portefeuilles Avax](https://support.avax.network/en/artic
 
 Vous pourrez utiliser MAI de la même façon que sur Polygon, dans une ferme de rendements adéquate. L'application officiellement approuvée par Mai Finance est [Trader Joe](https://www.traderjoexyz.com/#/farm), où il vous sera possible de déposer des jetons de liquidité MAI-USDC.
 
-![État de la réserve de liquidité MAI-USDC sur Trader Joe en Septembre 2021](../.gitbook/assets/screen-shot-2021-09-13-at-3.07.19-pm.png)
+![État de la réserve de liquidité MAI-USDC sur Trader Joe en Septembre 2021](<../.gitbook/assets/Screen Shot 2021-09-13 at 3.07.19 PM.png>)
 
 Les fermes sur Avalanche fonctionnent de façon très similaire à celles de Polygon. Vous pouvez ainsi effectuer les mêmes opérations sur Trader Joe que ce que vous pourriez faire sur QuickSwap. Vous devrez commencer par créer une paire stable MAI-USDC avec un ratio 1:1, puis déposer ces jetons dans la réserve. Tout comme vous êtes rétribués avec des QUICK sur QuickSwap, vous obtiendrez des tokens JOE sur Trader Joe. Vous pourrez ensuite placer des jetons JOE ailleurs, ou les vendre pour accroître vos jetons MAI-USDC.
 

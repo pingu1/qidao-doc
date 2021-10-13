@@ -7,7 +7,7 @@ description: >-
 
 # Farming ou Staking? Ou les deux?
 
-![](../.gitbook/assets/screen-shot-2021-09-03-at-9.24.12-am.png)
+![](<../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
 
 ## Intro
 
@@ -46,7 +46,7 @@ Les jetons générés en excès sur Mai Finance et QuickSwap peuvent être stak�
 
 ## Préparer le système
 
-![](../.gitbook/assets/screen-shot-2021-09-08-at-6.54.08-am.png)
+![](<../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
 
 Ce qui suit est une **simulation** basée sur:
 

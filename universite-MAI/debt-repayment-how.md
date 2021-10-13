@@ -18,7 +18,7 @@ La méthode de remboursement la plus directe est d'utiliser des fiats, particuli
 
 Mai Finance a un partenariat avec [Transak](https://transak.com) pour facilement acheter, avec des fiats, des cryptos sur le réseau Polygon. Pour ce faire, aller sur [Mai Finance](https://app.mai.finance) et cliquez sur le bouton "Buy" dans la barre de menus, en haut à droite. Une fenêtre va s'ouvrir, elle vous permet d'acheter du MATIC, ainsi que d'autres cryptos, et les envoyer directement sur votre adresse Polygon.
 
-![Achat d'USDC avec de l'euro et envois vers Polygon.](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
+![Achat d'USDC avec de l'euro et envois vers Polygon.](<../.gitbook/assets/Screen Shot 2021-08-18 at 9.43.07 AM.png>)
 
 Le problème principal de cette méthode est le temps pour traiter la transaction. Cependant, cela vous permet d'échanger votre USDC pour du MAI et rembourser votre dette, entièrement ou partiellement.
 
@@ -40,7 +40,7 @@ Cependant, certaines personnes n'aiment pas l'idée d'avoir une dette et vont vo
 * Entrez le montant que vous voulez rembourser.
 * Cliquez sur `Repay Mai`
 
-![Remboursement partiel de ma dette](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
+![Remboursement partiel de ma dette](<../.gitbook/assets/Screen Shot 2021-08-17 at 1.02.23 PM.png>)
 
 Comme exemple
 
@@ -128,7 +128,7 @@ En fonction de votre stratégie et la manière dont vous vous sentez par rapport
 * Mai est 0% interêt + 0.5% frais de remboursement
 * AAVE n'a pas de frais de remboursement mais une APR variable pour les intérêts que vous devez payer.
 
-![APY de Dépot et Emprunt sur AAVE en Août 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
+![APY de Dépot et Emprunt sur AAVE en Août 2021](<../.gitbook/assets/Screen Shot 2021-08-18 at 6.52.08 AM.png>)
 
 Par exemple, avec de l'USDC, vous pouvez voir que le taux d'emprunt est de 3.79% avec une récompense de 2.08% payée en MATIC. Cela donne, à l'écriture, l'équivalent de 1.71% que vous devez rembourser pour garder votre emprunt pendant 1 an. Avec Aave, puisque vous pouvez rembourser votre dette très rapidement, l'APY variable est équivalente à 0.005% par jour. Par conséquent, il faut 100 jours, un peu plus de 3 mois, pour atteindre 0.5% de votre dette.
 
