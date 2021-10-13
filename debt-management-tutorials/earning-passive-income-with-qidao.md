@@ -11,7 +11,7 @@ description: >-
 
 Qi DAO cho phép bạn nhận được một phần cổ tức doanh thu hàng tuần mà nền tảng kiếm được:
 
-* 30% phí hoàn trả hàng tuần \(cộng thêm 25% tăng trưởng\). 
+* 30% phí hoàn trả hàng tuần (cộng thêm 25% tăng trưởng). 
 * 100% của phần thưởng thanh khoản LP nhận được từ việc sử dụng doanh thu phí kí gửi để farm trên Quickswap 
 * 30% của phí swap USDC hàng tuần 
 
@@ -19,13 +19,13 @@ Phần chia doanh thu này được phân phối cho những người stake vào
 
 ## Giới thiệu về snapshot
 
-Một snapshot cơ bản là bản ghi lại trạng thái của một blockchain trên một chiều cao khối cụ thể, điều đó có nghĩa là môt snapshot sẽ ghi lại tất nội dung trên toàn bộ sổ cái blockchain, bao gồm tất cả địa chỉ hiện có và các thông tin liên quan đến chúng \(giao dich, phí, số dư...\). Vì QiDao nằm trên chuỗi khối Polygon nên chúng ta có thể kiểm tra khi nào snapshot được tiến hành lần tới tại [Polygonscan](https://polygonscan.com/).
+Một snapshot cơ bản là bản ghi lại trạng thái của một blockchain trên một chiều cao khối cụ thể, điều đó có nghĩa là môt snapshot sẽ ghi lại tất nội dung trên toàn bộ sổ cái blockchain, bao gồm tất cả địa chỉ hiện có và các thông tin liên quan đến chúng (giao dich, phí, số dư...). Vì QiDao nằm trên chuỗi khối Polygon nên chúng ta có thể kiểm tra khi nào snapshot được tiến hành lần tới tại [Polygonscan](https://polygonscan.com).
 
 Bạn đủ điều kiện để nhận phần thưởng nếu bạn stake số Qi của mình trong ít nhất 10 ngày tùy thuộc vào thời điểm bạn khóa token của mình. 
 
-![L&#xE0;m sao &#x111;&#x1EC3; &#x111;&#x1EE7; &#x111;i&#x1EC1;u ki&#x1EC7;n nh&#x1EAD;n th&#x1B0;&#x1EDF;ng Qi](../.gitbook/assets/unknown.png)
+![Làm sao để đủ điều kiện nhận thưởng Qi](../.gitbook/assets/unknown.png)
 
-Đây là ví dụ về khoảng thời gian khóa tối thiều. Tất nhiên bạn có thể khóa trong thời gian lâu hơn và thực sự có lợi khi khóa Qi của bạn trong một thời gian dài. Càng khóa  lâu thì phần thưởng càng lớn \(tham khảo thêm tại [Tìm hiểu vể Qi Powah](earning-passive-income-with-qidao.md#tim-hieu-ve-qi-boost-va-qi-powah) và [Hỏi đáp về phần thưởng Qi](earning-passive-income-with-qidao.md#hoi-dap-ve-qi-staking)\)
+Đây là ví dụ về khoảng thời gian khóa tối thiều. Tất nhiên bạn có thể khóa trong thời gian lâu hơn và thực sự có lợi khi khóa Qi của bạn trong một thời gian dài. Càng khóa  lâu thì phần thưởng càng lớn (tham khảo thêm tại [Tìm hiểu vể Qi Powah](earning-passive-income-with-qidao.md#tim-hieu-ve-qi-boost-va-qi-powah) và [Hỏi đáp về phần thưởng Qi](earning-passive-income-with-qidao.md#hoi-dap-ve-qi-staking))
 
 ## Tìm hiểu về Qi Boost và Qi Powah
 
@@ -33,7 +33,7 @@ Bây giờ chúng ta biết snapshot là gì, chúng ta đã sẵn sàng để b
 
 ### Qi Boost và Qi Powah là gì?
 
-Qi Boost là cơ hội để bạn tăng sức mạnh và phần thưởng số Qi bị khóa của bạn. Bạn khóa Qi càng lâu thì quyền biểu quyết của bạn \(Qi Powah\) và phần thưởng hàng tuần sẽ càng lớn. Bạn có thể tăng lên đến 4x bằng cách khóa Qi trong 4 năm. Mức tăng của bạn giảm dần trong thời gian khóa, cuối cùng sẽ mở khóa Qi của bạn, tuy nhiên bạn luôn có thể tăng mức Qi để duy trì mức tăng của mình. Qi được boost của bạn được thể hiện bằng eQi \(Qi ký quỹ\) và sẽ vẫn ở trong ký quỹ cho đến ngày mở khóa của bạn \(không thể trao đổi\).
+Qi Boost là cơ hội để bạn tăng sức mạnh và phần thưởng số Qi bị khóa của bạn. Bạn khóa Qi càng lâu thì quyền biểu quyết của bạn (Qi Powah) và phần thưởng hàng tuần sẽ càng lớn. Bạn có thể tăng lên đến 4x bằng cách khóa Qi trong 4 năm. Mức tăng của bạn giảm dần trong thời gian khóa, cuối cùng sẽ mở khóa Qi của bạn, tuy nhiên bạn luôn có thể tăng mức Qi để duy trì mức tăng của mình. Qi được boost của bạn được thể hiện bằng eQi (Qi ký quỹ) và sẽ vẫn ở trong ký quỹ cho đến ngày mở khóa của bạn (không thể trao đổi).
 
 Có nghĩa là số Qi bị khóa sẽ có những lợi thế sau:
 
@@ -44,7 +44,7 @@ Có nghĩa là số Qi bị khóa sẽ có những lợi thế sau:
 
 Để khóa Qi của bạn, bạn cần vào thanh Boost và chọn số lượng token bạn muốn khóa và khoảng thời gian bạn muốn khóa token Qi của mình. Khoảng thời gian càng dài thì bạn sẽ nhận được càng nhiều eQi, hãy nhớ rằng eQi chỉ là số lượng token Qi bạn sẽ có sau khi thời gian khóa kết thúc.
 
-![Th&#xF4;ng tin kh&#xF3;a t&#x103;ng c&#x1B0;&#x1EDD;ng Qi Powah](../.gitbook/assets/captura.jpg)
+![Thông tin khóa tăng cường Qi Powah](../.gitbook/assets/Captura.JPG)
 
 Một khi đã quyết định tất cả những thứ đó hãy nhấp vào phê duyệt và chấp nhận phê duyệt giao dịch `Increase locked QI and lock time` .
 
@@ -54,7 +54,7 @@ Xin lưu ý rằng khi bạn khóa token Qi của mình trong một khoảng th�
 
 Xin chúc mừng, bây giờ bạn đã chính thức là một cổ đông Qi, bạn sẽ nhận được tiền thưởng hàng tuần và các tuần tiếp theo. Nếu bạn có bất kỳ nghi ngờ nào về việc bạn có đủ điều kiện để chia sẻ doanh thu của tuần tiếp theo hay không, bạn có thể xem trên trang Boost xem bạn có đủ điều kiện hay không.
 
-![](../.gitbook/assets/captura%20%281%29.jpg)
+![](<../.gitbook/assets/Captura (1).JPG>)
 
 ### Số liệu thống kê Qi Powah
 
@@ -87,16 +87,16 @@ Có một số khả năng xảy ra như sau: Mọi thứ vẫn ổn cả, tuy n
 Staking Qi bạn sẽ nhận lại Qi
 
 * **Phần thưởng đến từ đâu?** 
-  * 100% lợi nhuận từ doanh thu phí ký gửi farming \(2.245.681 đô la được sử dụng để famr tính đến tuần 14\)
-  * 30% doanh thu phí hoàn trả \(doanh thu trung bình hàng tuần là 18.362 đô la\)
-  * 30% doanh thu phí Anchor / Swap \(doanh thu trung bình hàng tuần là 178.365 đô la\)
+  * 100% lợi nhuận từ doanh thu phí ký gửi farming (2.245.681 đô la được sử dụng để famr tính đến tuần 14)
+  * 30% doanh thu phí hoàn trả (doanh thu trung bình hàng tuần là 18.362 đô la)
+  * 30% doanh thu phí Anchor / Swap (doanh thu trung bình hàng tuần là 178.365 đô la)
 * **eQi là gì và tôi có thể làm gì với eQi?** 
 
-eQI \(QI ký quỹ\) đại diện cho sự gia tăng mà bạn đang nhận được nhờ quyền biểu quyết của mình và phần thưởng Qi. Vì vậy, với mục đích bỏ phiếu và nhận phần thưởng Qi, 1 eQi được tính là 1 Qi
+eQI (QI ký quỹ) đại diện cho sự gia tăng mà bạn đang nhận được nhờ quyền biểu quyết của mình và phần thưởng Qi. Vì vậy, với mục đích bỏ phiếu và nhận phần thưởng Qi, 1 eQi được tính là 1 Qi
 
 * **Quyền biểu quyết là gì?**
 
-QiDao là một DAO \(Tổ chức tự trị phi tập trung\) và tương lai của giao thức được quyết định bởi cộng đồng. Là người nắm giữ Qi, bạn có quyền bỏ phiếu cho QIP \(Đề xuất cải tiến QiDao\) được xuất bản trên trang Governance.
+QiDao là một DAO (Tổ chức tự trị phi tập trung) và tương lai của giao thức được quyết định bởi cộng đồng. Là người nắm giữ Qi, bạn có quyền bỏ phiếu cho QIP (Đề xuất cải tiến QiDao) được xuất bản trên trang Governance.
 
 * **Số APR tôi mong chờ là khoảng bao nhiêu?** 
 
@@ -121,6 +121,5 @@ Bạn có thể tìm thấy một bài viết với chủ đề tương tự [t�
 Hướng dẫn này chắc chắn không phải là lời khuyên tài chính, nó được thực hiện với mục tiêu giáo dục. Mục đích không phải là đề xuất các công thức mà làm theo một cách mù quáng, vì vậy vui lòng hãy tự nghiên cứu và minh họa của riêng bạn, và chỉ đầu tư những gì bạn sẵn sàng với khả năng có thể mất.
 
 {% hint style="info" %}
-Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu
 {% endhint %}
-

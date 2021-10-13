@@ -9,15 +9,15 @@ description: >-
 
 Thị trường đang trong đà tăng giá và tiền điện tử của bạn, bị khóa trong Vault, ngày càng đạt được nhiều giá trị hơn, đến mức bạn đã quyết định bán nó. Tuy nhiên, vì nó nằm trong Vault on Mai Finance, bạn không thể mở khóa hoàn toàn trừ khi bạn hoàn trả khoản vay của mình. 
 
-Thị trường đang giảm giá và tiền điện tử của bạn đang mất giá rất nhanh. Bạn không tạo ra lợi tức đủ nhanh để bù đắp thiệt hại và giữ một Tài sản đảm bảo trên Tỷ lệ Nợ \(CDR\) lành mạnh, và việc thanh lý sắp đến gần. Đã đến lúc trả nợ để đảm bảo rằng bạn không bị thua lỗ quá nhiều và ngăn chặn việc thanh lý. Nếu bạn không ở trong bất kỳ trường hợp nào ở trên, có lẽ bạn không phải trả nợ. Vui lòng xem chương [Trả nợ](debt-repayment-why-and-when.md) để biết thêm chi tiết.
+Thị trường đang giảm giá và tiền điện tử của bạn đang mất giá rất nhanh. Bạn không tạo ra lợi tức đủ nhanh để bù đắp thiệt hại và giữ một Tài sản đảm bảo trên Tỷ lệ Nợ (CDR) lành mạnh, và việc thanh lý sắp đến gần. Đã đến lúc trả nợ để đảm bảo rằng bạn không bị thua lỗ quá nhiều và ngăn chặn việc thanh lý. Nếu bạn không ở trong bất kỳ trường hợp nào ở trên, có lẽ bạn không phải trả nợ. Vui lòng xem chương [Trả nợ](debt-repayment-why-and-when.md) để biết thêm chi tiết.
 
 ## Hoàn trả một phần hay toàn bộ bằng tiền giấy
 
 Cách trực tiếp nhất để trả nợ là sử dụng một số fiat, đặc biệt nếu bạn muốn giữ nguyên tài sản thế chấp và các khoản đầu tư khác của mình. 
 
-Mai Finance đang hợp tác với [Transak ](https://transak.com/)để dễ dàng chuyển tiền được mua bằng Thẻ tín dụng / Thẻ ghi nợ hoặc chuyển khoản ngân hàng trực tiếp với mạng Polygon. Chỉ cần truy cập Mai Finance và nhấp vào biểu tượng chuyển khoản trong thanh menu để mở một phương thức cho phép bạn mua một số MATIC và gửi chúng trực tiếp đến ví Polygon của bạn.
+Mai Finance đang hợp tác với [Transak ](https://transak.com)để dễ dàng chuyển tiền được mua bằng Thẻ tín dụng / Thẻ ghi nợ hoặc chuyển khoản ngân hàng trực tiếp với mạng Polygon. Chỉ cần truy cập Mai Finance và nhấp vào biểu tượng chuyển khoản trong thanh menu để mở một phương thức cho phép bạn mua một số MATIC và gửi chúng trực tiếp đến ví Polygon của bạn.
 
-![Mua m&#x1ED9;t s&#x1ED1; USDT t&#x1EEB; fiat v&#xE0; chuy&#x1EC3;n ti&#x1EBF;p sang Polygon tr&#x1EF1;c ti&#x1EBF;p](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
+![Mua một số USDT từ fiat và chuyển tiếp sang Polygon trực tiếp](<../.gitbook/assets/Screen Shot 2021-08-18 at 9.43.07 AM.png>)
 
 Vấn đề chính là thời gian thực hiện để xử lý giao dịch. Tuy nhiên, làm như vậy sẽ cho phép bạn hoán đổi USDC lấy MAI và sau đó trả một phần hoặc toàn bộ khoản nợ của mình.
 
@@ -28,9 +28,9 @@ Vấn đề chính là thời gian thực hiện để xử lý giao dịch. Tuy
 Hầu hết mọi người sẽ muốn vay MAI trên Mai Finance để đầu tư vào các dự án cụ thể. Những farmer năng suất đang sử dụng MAI có thể sẽ thành công trong việc tạo ra các nguồn bổ sung và hy vọng sẽ không bị mất tiền vào các farm này. Nếu bạn ở trong trường hợp đó, bạn có 2 lựa chọn
 
 * hoàn trả khoản vay của bạn với doanh thu được tạo ra
-* tái đầu tư lợi nhuận của bạn vào cùng một dự án \(hoặc một dự án khác\)
+* tái đầu tư lợi nhuận của bạn vào cùng một dự án (hoặc một dự án khác)
 
-Trong hầu hết các trường hợp, có lẽ tốt hơn là đầu tư lại lợi nhuận của bạn. Thật vậy, bằng cách cộng gộp phần thưởng của bạn, APR \(Doanh thu phần trăm hàng năm\) được áp dụng với số tiền lớn hơn, do đó tạo ra nhiều doanh thu hơn. Xem hướng dẫn đầu tư của chúng tôi để có ý tưởng về cách bạn có thể tối đa hóa các khoản đầu tư của mình. 
+Trong hầu hết các trường hợp, có lẽ tốt hơn là đầu tư lại lợi nhuận của bạn. Thật vậy, bằng cách cộng gộp phần thưởng của bạn, APR (Doanh thu phần trăm hàng năm) được áp dụng với số tiền lớn hơn, do đó tạo ra nhiều doanh thu hơn. Xem hướng dẫn đầu tư của chúng tôi để có ý tưởng về cách bạn có thể tối đa hóa các khoản đầu tư của mình. 
 
 Tuy nhiên, một số người chỉ đơn giản là không thích ý tưởng có một khoản nợ, và sẽ muốn trả nợ càng nhanh càng tốt. Nếu đó là trường hợp của bạn, bạn có thể chỉ cần hoán đổi lợi nhuận của mình thành MAI và trả nợ.
 
@@ -40,7 +40,7 @@ Tuy nhiên, một số người chỉ đơn giản là không thích ý tưởng
 * Điền bất cứ số lượng nào bạn muốn hoàn trả
 * Nhấn `Repay MAI` 
 
-![Tr&#x1EA3; l&#x1EA1;i m&#x1ED9;t ph&#x1EA7;n m&#x1ED9;t ph&#x1EA7;n n&#x1EE3;](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
+![Trả lại một phần một phần nợ](<../.gitbook/assets/Screen Shot 2021-08-17 at 1.02.23 PM.png>)
 
 Như một ví dụ
 
@@ -48,7 +48,7 @@ Như một ví dụ
 * Bạn đã đổi  ADDY trị giá 10 đô la cho MAI
 * Bạn hoàn trả 10$ hôm nay
   * Nợ của bạn còn 390$
-  * Giá trị camWMATIC của bạn là $ 999,95 \(bạn thêm để trả 0,5% của $ 10,00 phí hoàn trả\)
+  * Giá trị camWMATIC của bạn là $ 999,95 (bạn thêm để trả 0,5% của $ 10,00 phí hoàn trả)
 
 Tại một thời điểm nào đó, bạn sẽ có thể hoàn trả toàn bộ khoản nợ của mình bằng cách sử dụng này, miễn là bạn có thể tạo ra đủ doanh thu thông qua khoản vay của mình.
 
@@ -120,7 +120,7 @@ Nếu chúng ta lấy ví dụ ở trên với MATIC trị giá $ 1,000.00 và k
 * Bán MATIC của bạn để lấy USDC 
 * Trả khoản vay nhanh AAVE
 
-Khi được gửi, danh sách các giao dịch này sẽ xảy ra trong cùng một khối và bạn sẽ kết thúc với bất kỳ thứ gì còn lại từ MATIC của bạn dưới dạng USDC trong ví của bạn \(nhiều hơn hoặc ít hơn $ 500,00, với một số thay đổi nhỏ do lãi suất cho vay nhanh, hoán đổi phí và phí hoàn trả\).
+Khi được gửi, danh sách các giao dịch này sẽ xảy ra trong cùng một khối và bạn sẽ kết thúc với bất kỳ thứ gì còn lại từ MATIC của bạn dưới dạng USDC trong ví của bạn (nhiều hơn hoặc ít hơn $ 500,00, với một số thay đổi nhỏ do lãi suất cho vay nhanh, hoán đổi phí và phí hoàn trả).
 
 Ngay bây giờ, bạn sẽ phải tương tác trực tiếp với các hợp đồng thông minh, điều này đòi hỏi một số hiểu biết tốt về cách chúng hoạt động. Nếu bạn cần trợ giúp, bạn có thể tìm thấy một số trên máy chủ Discord của chúng tôi, nơi có kênh lập trình. Có thể trong một tương lai gần,[ FuruCombo](https://furucombo.app/explore) sẽ đề xuất những nền tảng Mai Finance cho phép bạn vận hành điều này trực tiếp bằng công cụ đồ họa của họ, nhưng hiện tại thì chưa thể. Cuối cùng, ý tưởng về nút “trả nợ bằng tài sản thế chấp” đã được đề xuất với nhóm các nhà phát triển của Mai Finance, và phương án này có thể sẽ được triển khai trong tương lai.
 
@@ -131,11 +131,11 @@ Tùy thuộc vào chiến lược của bạn và cách bạn cảm thấy về 
 * MAI là 0% lãi suất + 0,5% phí hoàn trả
 *  AAVE không có phí hoàn trả, nhưng APR có thể thay đổi cho các khoản lãi mà bạn cần trả lại
 
-![&#x110;i vay v&#xE0; cho vay APY tr&#xEA;n AAVE k&#x1EC3; t&#x1EEB; th&#xE1;ng 8 n&#x103;m 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
+![Đi vay và cho vay APY trên AAVE kể từ tháng 8 năm 2021](<../.gitbook/assets/Screen Shot 2021-08-18 at 6.52.08 AM.png>)
 
-Ví dụ đối với USDC, bạn có thể thấy rằng tỷ lệ đi vay là 3,79% với phần thưởng hiện tại là 2,08% được trả lại trong MATIC. Điều này cho thấy, tại thời điểm viết bài, tương đương với 1,71% bạn cần phải trả lại nếu bạn giữ khoản vay của mình trong một năm hoàn thành. Với AAVE, vì bạn có thể trả nợ rất nhanh nên APY biến đổi tương đương với 0,005% hàng ngày. Do đó, sẽ mất 100 ngày \(hơn 3 tháng một chút\) để đạt được 0,5% khoản nợ của bạn.
+Ví dụ đối với USDC, bạn có thể thấy rằng tỷ lệ đi vay là 3,79% với phần thưởng hiện tại là 2,08% được trả lại trong MATIC. Điều này cho thấy, tại thời điểm viết bài, tương đương với 1,71% bạn cần phải trả lại nếu bạn giữ khoản vay của mình trong một năm hoàn thành. Với AAVE, vì bạn có thể trả nợ rất nhanh nên APY biến đổi tương đương với 0,005% hàng ngày. Do đó, sẽ mất 100 ngày (hơn 3 tháng một chút) để đạt được 0,5% khoản nợ của bạn.
 
-Nếu bạn dự định giữ khoản vay của mình lâu hơn thế, chắc chắn bạn nên sử dụng Mai Finance. Ngoài ra, điều quan trọng cần hiểu là APR vay của AAVE có thể thay đổi, chúng sẽ dao động theo số tiền được gửi và nhu cầu \(càng nhiều người muốn vay từ AAVE, APR đi vay càng cao\). Cũng nên nhớ rằng chương trình phần thưởng MATIC sẽ kết thúc vào một thời điểm nào đó và lãi suất 1,71% sẽ sớm trở thành lãi suất 3,79%. Ít nhất với Mai Finance, bạn không cần phải theo dõi kỹ khoản vay của mình để xem khi nào nguy hiểm mới giữ lại.
+Nếu bạn dự định giữ khoản vay của mình lâu hơn thế, chắc chắn bạn nên sử dụng Mai Finance. Ngoài ra, điều quan trọng cần hiểu là APR vay của AAVE có thể thay đổi, chúng sẽ dao động theo số tiền được gửi và nhu cầu (càng nhiều người muốn vay từ AAVE, APR đi vay càng cao). Cũng nên nhớ rằng chương trình phần thưởng MATIC sẽ kết thúc vào một thời điểm nào đó và lãi suất 1,71% sẽ sớm trở thành lãi suất 3,79%. Ít nhất với Mai Finance, bạn không cần phải theo dõi kỹ khoản vay của mình để xem khi nào nguy hiểm mới giữ lại.
 
 Cuối cùng, nhóm của Mai Finance đang nghiên cứu các ưu đãi của Vaults sẽ hoạt động giống như phần thưởng MATIC, nghĩa là bạn vẫn nhận được khoản vay lãi suất 0% và phần thưởng được trả bằng Qi có thể giảm phí hoàn trả xuống 0 % số nợ của bạn. Và bạn giữ khoản vay của mình càng lâu, bạn sẽ càng nhận được nhiều phần thưởng, khiến nó trở thành một khoản vay có lãi suất âm thực sự.
 
@@ -144,6 +144,5 @@ Cuối cùng, nhóm của Mai Finance đang nghiên cứu các ưu đãi của V
 Các quan điểm, suy nghĩ và ý kiến ​​thể hiện trong hướng dẫn này chỉ thuộc về tác giả, và không nhất thiết thuộc về phần còn lại của cộng đồng, cũng như nhóm phát triển đằng sau Mai Finance. Nó không nên được coi là một lời khuyên hoặc hướng dẫn tài chính dưới bất kỳ hình thức nào.
 
 {% hint style="info" %}
-Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Vui lòng cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu 
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Vui lòng cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu 
 {% endhint %}
-

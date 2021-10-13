@@ -35,7 +35,7 @@ Xin nhắc lại nhanh, Qi được ghép nối với các mã token khác nhau 
 * Qi-WETH trên QuickSwap và nhận phần thưởng là QUICK
 * Qi-QUICK trên QuickSwap và nhận phần thưởng là QUICK
 
-![Bể thanh khoản Qi-ETH trên Quickswap](<../.gitbook/assets/image (19) (2) (2).png>)
+![Bể thanh khoản Qi-ETH trên Quickswap](<../.gitbook/assets/image (19).png>)
 
 ### Farming Qi độc lập
 
@@ -43,7 +43,7 @@ Qi cũng có thể được sử dụng độc lập trên [Impermax](https://po
 
 Cách thức hoạt động là bạn sẽ mượn 2 token để tạo thành cặp mà bạn muốn farm, kết hợp chúng thành nhiều mã  LP hơn và farm với vị thế cao hơn nhiều. Trong hầu hết các trường hợp, lãi suất đi vay được bù đắp phần lớn bằng APR farming, mang lại cho bạn một số phần thưởng dương ròng.
 
-![Tạo đòn bẩy vị thế cho cặp Qi-ETH trên Impermax](<../.gitbook/assets/image (20).png>)
+![Tạo đòn bẩy vị thế cho cặp Qi-ETH trên Impermax](<../.gitbook/assets/image (10).png>)
 
 Chúng ta có thể thấy ở đây rằng APR cuối cùng trên Impermax là 393,88% sau khi tạo đòn bẩy 5 lần, dựa trên APY là 239,68% trên QuickSwap.
 
@@ -67,11 +67,11 @@ Balancer là một công cụ thực sự tuyệt vời cho bất kỳ chiến l
 
 Bể mà chúng tôi muốn sử dụng ở đây là bể chứa Qi, WMATIC, BAL, USDC và MAI. Bể này sẽ thưởng cho bạn cả mã Qi và BAL, và bạn có thể thấy rằng bạn sẽ có thể gộp cả hai vào bể. Một tiện ích đáng kinh ngạc của các bể trên Balancer là bạn không cần thiết phải cung cấp tất cả các token tạo thành bể theo tỷ lệ thích hợp, thuật toán tự làm điều đó cho bạn. Điều này có nghĩa là bạn thực sự chỉ có thể gửi Qi vào bể và để thuật toán làm cân bằng lại mọi thứ.
 
-![Thông tin về bể trên Balancer tại thời điểm tháng 9 năm 2021](<../.gitbook/assets/image (17).png>)
+![Thông tin về bể trên Balancer tại thời điểm tháng 9 năm 2021](<../.gitbook/assets/image (12).png>)
 
 Một lưu ý nhỏ, mã thông báo BAL có thể (hoặc sẽ sớm) có thể được sử dụng làm tài sản thế chấp trên Mai Finance, có nghĩa là bạn sẽ có tùy chọn lưu trữ BAL của mình trên kho tiền BAL trên Mai Finance và vay MAI. Ngoài ra, việc mượn MAI  với mã token BAL sẽ tạo điều kiện nhận phần thưởng Qi sẽ cung cấp cho bể trên Balancer.
 
-![Vòng lặp đóng sử dụng Balancer và QiDao](<../.gitbook/assets/image (18).png>)
+![Vòng lặp đóng sử dụng Balancer và QiDao](<../.gitbook/assets/image (13).png>)
 
 APR của các kho tiền BAL sẽ cho biết mức độ thú vị hiện diện trong vòng lặp hoặc nếu gộp Qi của bạn vào bể của Balancer sẽ tốt hơn.
 
@@ -85,7 +85,7 @@ Một trong những yếu tố chính sẽ ảnh hưởng đến giá Qi là t�
 
 Hiện có 2 nguồn chính mà Qi được phát hành: LP farming và phần thưởng kho tiền
 
-![Các cặp thanh khoản trên Mai Finance vào thời điểm T9 2021](<../.gitbook/assets/image (12).png>)
+![Các cặp thanh khoản trên Mai Finance vào thời điểm T9 2021](<../.gitbook/assets/image (16).png>)
 
 Nếu bạn đang yield farming trên Mai Finance, bạn có sự lựa chọn giữa cặp MAI / USDT và cặp Qi / WMATIC (kể từ tháng 9 năm 2021).
 
@@ -134,7 +134,7 @@ Bây giờ nếu giá của ETH tăng lên 2000$ thì bây giờ bể sẽ có 1
 
 Điều này cũng có nghĩa là khi giá của một trong 2 token tăng lên, bể này sẽ tạo ra một số nhu cầu cho mã kia, đồng thời khiến giá của nó tăng lên. Điều ngược lại cũng đúng: nếu một mã mất giá trị, mã còn lại sẽ được bán để duy trì tỷ lệ 1: 1, khiến giá giảm xuống. Điều này cũng giải thích một phần sự biến động giá của Qi khi so sánh với sự biến động giá của WEHT và WMATIC (2 token chính mà Qi được ghép nối với nhau).
 
-![Giá của Qi (trái) VS giá của WMATIC (phải)](<../.gitbook/assets/image (13).png>)
+![Giá của Qi (trái) VS giá của WMATIC (phải)](<../.gitbook/assets/image (17).png>)
 
 ### Thiếu tính ứng dụng
 

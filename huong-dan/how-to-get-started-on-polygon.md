@@ -32,13 +32,13 @@ Khi hoàn thành bạn sẽ thấy một tiện ích mở rộng trên trình du
 2. Sau đó, bạn nên xem video về cách bảo vệ ví của bạn và tầm quan trọng của cụm từ seed phrase.
 3. Seed phrase của bạn là điều quan trọng nhất khi tạo ví mới, vì nếu bạn mất cụm từ này và máy tính của bạn bị hỏng, bạn sẽ không thể truy cập vào tài khoản Metamask của mình. Vì vậy, hãy giữ cẩn thận với cụm từ này và tuyệt đối không chia sẻ nó với bất kỳ ai.
 
-![Giao diện của Metamask](<../.gitbook/assets/image (27).png>)
+![Giao diện của Metamask](<../.gitbook/assets/image (18).png>)
 
 ### Thêm chuỗi Polygon
 
 Như bạn thấy ở trên, chúng ta bắt đầu với mạng Ethereum mặc định, để có thể sử dụng mạng Polygon, chúng ta cần thêm thủ công bằng cách nhấp vào RPC tùy chọn và thiết lập mạng  Polygon với các thông số kỹ thuật như hình dưới:
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (20).png>)
 
 Sau khi hoàn tất, bạn gần như đã sẵn sàng để sử dụng ví Metamask trên Polygon , bước duy nhất còn lại là chuyển Ethereum Mainnet sang Polygon, để làm như vậy bạn cần nhấp vào menu mạng thả xuống ở đầu tiện ích Metamask.
 
@@ -48,7 +48,7 @@ Bây giờ bạn đã thiết lập mọi thứ để sử dụng Polygon, tuy n
 
 May mắn thay, [trang này](https://matic.supply) cung cấp cho bạn MATIC miễn phí để thực hiện các giao dịch đầu tiên của bạn trên mạng Polygon (những loại trang đó có thể được gọi là faucet). Điều duy nhất bạn cần làm là kết nối ví của bạn với trang đó và hoàn thành hình ảnh xác thực. 0,002 MATIC này (\~ 0,00223 $) sẽ cho phép bạn thực hiện một số giao dịch sử dụng trên mạng Polygon.
 
-![Nhận miễn phí MATIC](<../.gitbook/assets/image (26).png>)
+![Nhận miễn phí MATIC](<../.gitbook/assets/image (23).png>)
 
 Đôi khi do tắc nghẽn mạng, bạn có thể gặp một số vấn đề khi sử dụng trang, vì vậy chỉ cần đợi một chút là bạn sẽ có thể yêu cầu một số MATIC miễn phí. Ngoài ra, bạn có thể thử sử dụng [trang này](https://macncheese.finance/matic-polygon-mainnet-faucet.php) trong trường hợp trang kia không hoạt động.
 
@@ -62,7 +62,7 @@ Bây giờ bạn đã có một số MATIC miễn phí trong Metamask để sẵ
 
 Bây giờ, bạn sẽ cần sao chép địa chỉ của hợp đồng và nhấp vào thêm mã thông báo trên Metamask.
 
-![Thêm Qi vào trong Metamask](<../.gitbook/assets/image (22).png>)
+![Thêm Qi vào trong Metamask](<../.gitbook/assets/image (25).png>)
 
 ## Cách mua token trên Polygon
 
@@ -70,7 +70,7 @@ Bây giờ đã có Metamask và một số MATIC để thanh toán gas, chúng 
 
 Khi bạn quyết định DEX nào bạn muốn sử dụng, bạn có thể bắt đầu mua các mã thông báo yêu thích của mình trên Polygon.
 
-![Buying Qi tokens using Quickswap](<../.gitbook/assets/image (25).png>)
+![Buying Qi tokens using Quickswap](<../.gitbook/assets/image (26).png>)
 
 {% hint style="info" %}
 Một DApp thú vị khác để sử dụng khi bạn muốn trao đổi tiền mã hóa là [Zapper](https://zapper.fi). Về mặt lý thuyết, Zapper tìm kiếm nền tảng rẻ nhất để thực hiện hoán đổi hai mã thông báo, vì vậy đó là một cách tốt để tiết kiệm một số MATIC nhất định.
@@ -80,7 +80,7 @@ Một DApp thú vị khác để sử dụng khi bạn muốn trao đổi tiền
 
 Điều quan trọng là phải biết cách kiểm tra lịch sử ví của bạn, để làm như vậy, bạn có thể sử dụng [DeBank](https://debank.com). Debank sẽ cho phép bạn kiểm tra các giao dịch khác nhau mà bạn đã thực hiện trong tài khoản Metamask của mình, cũng như kiểm tra danh mục đầu tư của bạn trong tất cả các blockchain mà bạn sử dụng hoặc NFT mà bạn sở hữu. Điều này sẽ hữu ích nếu bạn muốn so sánh, chẳng hạn như các airdrop Qi khác nhau mà bạn nhận được khi đặt một số cổ phần Qi.
 
-![Tất cả các giao dịch được hiển thị trên ví Metamask mới ](<../.gitbook/assets/image (10).png>)
+![Tất cả các giao dịch được hiển thị trên ví Metamask mới ](<../.gitbook/assets/image (27).png>)
 
 Như bạn có thể thấy, tôi có trong ví 800.000 DxDex.io nhưng tôi chưa làm bất cứ điều gì để có những mã thông báo đó trong ví của mình. Bạn cần lưu ý những kiểu lừa đảo này và không bao giờ tương tác với bất kỳ đồng tiền nào mà bạn không biết. Trong trường hợp bạn cấp cho họ quyền truy cập, Debank sẽ cho phép bạn thu hồi quyền truy cập đó. Hãy cẩn thận và nếu bạn không biết mã thông báo đó, đừng chạm vào nó.
 

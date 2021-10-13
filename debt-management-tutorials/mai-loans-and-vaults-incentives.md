@@ -9,9 +9,9 @@ description: >-
 
 ## Giới thiệu
 
-Hoạt động kinh doanh cốt lõi của Mai Finance là cho vay. Thay vì bán tiền mã hóa của họ để mua các tài sản khác, mọi người có thể khóa tiền của họ trên Mai Finance và vay ngược lại chúng. Điều này mang lại cơ hội để giữ các tài sản có giá trị cao \(WBTC, WETH ...\) trong khi vẫn có thể nhận được các tài sản khác và lãi suất farming. Trong trường hợp đó, khoản vay được sử dụng để sinh lời, trong khi tài sản thế chấp đang tăng giá trị.
+Hoạt động kinh doanh cốt lõi của Mai Finance là cho vay. Thay vì bán tiền mã hóa của họ để mua các tài sản khác, mọi người có thể khóa tiền của họ trên Mai Finance và vay ngược lại chúng. Điều này mang lại cơ hội để giữ các tài sản có giá trị cao (WBTC, WETH ...) trong khi vẫn có thể nhận được các tài sản khác và lãi suất farming. Trong trường hợp đó, khoản vay được sử dụng để sinh lời, trong khi tài sản thế chấp đang tăng giá trị.
 
-Một trong những lợi thế lớn khác của việc sử dụng Mai Finance là không có lịch trả nợ. Nói cách khác, bạn vay đồng tiền ổn định MAI đối với tiền điện tử của mình, bạn không phải trả bất kỳ khoản lãi nào và bạn có thể trả nợ bất cứ khi nào bạn muốn. Xem các bài viết khác nhau về [quản lý nợ](../debt-management-tutorials/debt-repayment-why-and-when.md) để biết thêm chi tiết. Khoản phí duy nhất mà bạn phải trả là phí hoàn trả tương ứng với 0,5% số tiền bạn đã vay khi hoàn trả khoản vay của mình và số tiền đó sẽ được lấy ra khỏi tài sản thế chấp của bạn.
+Một trong những lợi thế lớn khác của việc sử dụng Mai Finance là không có lịch trả nợ. Nói cách khác, bạn vay đồng tiền ổn định MAI đối với tiền điện tử của mình, bạn không phải trả bất kỳ khoản lãi nào và bạn có thể trả nợ bất cứ khi nào bạn muốn. Xem các bài viết khác nhau về [quản lý nợ](debt-repayment-why-and-when.md) để biết thêm chi tiết. Khoản phí duy nhất mà bạn phải trả là phí hoàn trả tương ứng với 0,5% số tiền bạn đã vay khi hoàn trả khoản vay của mình và số tiền đó sẽ được lấy ra khỏi tài sản thế chấp của bạn.
 
 Ví dụ: nếu bạn gửi ETH trị giá 200 đô la để vay MAI trị giá 100 đô la, khi bạn hoàn trả khoản vay của mình, bạn sẽ phải trả một khoản phí 0,5 đô la trực tiếp lấy từ khoản thế chấp ETH của mình.
 
@@ -23,7 +23,7 @@ Mai Finance đã giới thiệu vào tháng 9 năm 2021 các ưu đãi cho các 
 
 Trên Mai Finance, kho tiền là kho lưu trữ đặc biệt, nơi người ta có thể gửi tài sản của mình. Hiện tại, có 10 loại loại:
 
-![C&#xE1;c lo&#x1EA1;i vault kh&#xE1;c nhau tr&#xEA;n n&#x1EC1;n t&#x1EA3;ng Mai Finance](../.gitbook/assets/image%20%281%29.png)
+![Các loại vault khác nhau trên nền tảng Mai Finance](<../.gitbook/assets/image (1).png>)
 
 Có 2 loại kho tiền khác nhau:
 
@@ -41,12 +41,12 @@ và
 * camWMATIC
 * camAAVE
 
-6 kho đầu tiên trong danh sách dành cho các tài sản trong khi 4 hầm cuối cùng dành cho camTokens. camTokens đang gộp mã thông báo thị trường AAVE, đại diện cho một khoản tiền gửi mà bạn có thể đã thực hiện trên AAVE và sau đó gửi vào các bể Yield của Mai Finance. Trong khi tài sản của bạn đang tạo ra lợi suất trên AAVE \(và trong khi phần thưởng được tự động cộng gộp bởi bể Yield\), bạn vẫn có thể vay MAI đồng tiền ổn định dựa trên các mã token này.
+6 kho đầu tiên trong danh sách dành cho các tài sản trong khi 4 hầm cuối cùng dành cho camTokens. camTokens đang gộp mã thông báo thị trường AAVE, đại diện cho một khoản tiền gửi mà bạn có thể đã thực hiện trên AAVE và sau đó gửi vào các bể Yield của Mai Finance. Trong khi tài sản của bạn đang tạo ra lợi suất trên AAVE (và trong khi phần thưởng được tự động cộng gộp bởi bể Yield), bạn vẫn có thể vay MAI đồng tiền ổn định dựa trên các mã token này.
 
 Lưu ý thêm, bạn có thể thấy trên ảnh chụp màn hình ở trên rằng trang tạo hiển thị một số thông tin rất quan trọng:
 
 * MAI khả dụng: điều này tương ứng với trần nợ tối đa, số lượng MAI tối đa có thể được đúc từ tiền gửi kho tiền.
-* Min Coll. đây là tỷ lệ Tài sản đảm bảo trên Nợ \(CDR\) tối thiểu cho kho tiền đó.
+* Min Coll. đây là tỷ lệ Tài sản đảm bảo trên Nợ (CDR) tối thiểu cho kho tiền đó.
 * APR khuyến khích cho kho tiền
 
 ### Hiểu rõ về nợ trần
@@ -55,7 +55,7 @@ Số lượng MAI tối đa mà người ta có thể đúc trên một kho ti�
 
 Ví dụ, nếu một tổ chức lớn gửi 5.000 WBTC cùng một lúc và có thể vay MAI trị giá 100.000.000 đô la, hoán đổi tổng số để lấy nhiều WBTC hơn, điều này có thể đẩy giá MAI xuống rất nhiều và giá sẽ chênh lệch quá nhiều so với chốt, khiến toàn bộ nền tảng gặp rủi ro. Trần nợ là cơ chế ngăn điều này xảy ra: có một lượng MAI tối đa có thể được đúc cho một loại kho tiền nhất định.
 
-Khi đạt đến trần nợ, thời gian mà không còn MAI để đúc được ghi lại và hệ thống sẽ tự động tăng trần nợ sau 48 giờ. Đây được coi là thời gian đủ để giá MAI ổn định \(trong trường hợp áp lực bán cao sau đợt bán tháo lớn đối với MAI\)
+Khi đạt đến trần nợ, thời gian mà không còn MAI để đúc được ghi lại và hệ thống sẽ tự động tăng trần nợ sau 48 giờ. Đây được coi là thời gian đủ để giá MAI ổn định (trong trường hợp áp lực bán cao sau đợt bán tháo lớn đối với MAI)
 
 Điều này có nghĩa là trong 48 giờ, không ai có thể vay thêm MAI từ một kho tiền đã đạt đến trần nợ của nó, trừ khi một khoản nợ được hoàn trả.
 
@@ -86,14 +86,14 @@ Mỗi loại kho tiền có tỷ lệ CDR tối thiểu được chấp nhận, 
 
 Khi bạn vay MAI với một tài sản thế chấp nhất định, bạn sẽ nhận được một số gợi ý về số tiền MAI tối đa bạn có thể vay là bao nhiêu và tác động đến tỷ lệ lành mạnh trong thanh khoản của bạn tùy thuộc vào số tiền đã vay là bao nhiêu, như bạn có thể thấy trong ảnh chụp màn hình bên dưới:
 
-![T&#x1EF7; l&#x1EC7; l&#xE0;nh m&#x1EA1;nh t&#xF9;y thu&#x1ED9;c v&#xE0;o s&#x1ED1; ti&#x1EC1;n vay](../.gitbook/assets/image%20%284%29.png)
+![Tỷ lệ lành mạnh tùy thuộc vào số tiền vay](<../.gitbook/assets/image (2).png>)
 
 Rất quan trọng khi bạn luôn phải để ý tỷ lệ CDR và tỷ lệ lành mạnh với mục đích:
 
 * tránh bị thanh lý tài sản
 * tăng cường lành mạnh của toàn bộ nền tảng Mai Finance bằng cách đảm bảo khối lượng MAI được lưu hành với hỗ trợ thích hợp.  
 
-CDR "lành mạnh", theo định nghĩa của Mai Finance là cao hơn giá trị CDR tối thiểu từ 25% đến 270%. Lưu ý thêm, bạn cũng có thể xem[ hướng dẫn chiến lược](../huong-dan/leverage-aave-tokens.md) của chúng tôi để xem cách bạn có thể sử dụng CDR để đầu tư vào các dự án khác hoặc [trả nợ ](../debt-management-tutorials/debt-repayment-how.md#hoan-tra-mot-phan)bằng cách sử dụng nợ của bạn.
+CDR "lành mạnh", theo định nghĩa của Mai Finance là cao hơn giá trị CDR tối thiểu từ 25% đến 270%. Lưu ý thêm, bạn cũng có thể xem[ hướng dẫn chiến lược](../huong-dan/leverage-aave-tokens.md) của chúng tôi để xem cách bạn có thể sử dụng CDR để đầu tư vào các dự án khác hoặc [trả nợ ](debt-repayment-how.md#hoan-tra-mot-phan)bằng cách sử dụng nợ của bạn.
 
 ## Các ưu đãi kho tiền
 
@@ -101,7 +101,7 @@ CDR "lành mạnh", theo định nghĩa của Mai Finance là cao hơn giá tr�
 
 Vào tháng 9 năm 2021, Mai Finance giới thiệu các ưu đãi kho tiền. Đây là phần thưởng do nền tảng Tài chính Mai phân bổ cho bất kỳ ai vay MAI và tham gia vào sự phát triển của nền tảng.
 
-Mỗi loại kho \(trong số 10 loại khác nhau\) nhận được 0,05 Qi trên mỗi khối, sau đó được phân phối giữa tất cả những người dùng có Tỷ lệ tài sản đảm bảo trên Nợ lành mạnh. APR của kho tiền được xác định bởi số tiền hiện tại MAI đã vay.
+Mỗi loại kho (trong số 10 loại khác nhau) nhận được 0,05 Qi trên mỗi khối, sau đó được phân phối giữa tất cả những người dùng có Tỷ lệ tài sản đảm bảo trên Nợ lành mạnh. APR của kho tiền được xác định bởi số tiền hiện tại MAI đã vay.
 
 Ví dụ, Ben và Kila là 2 người bạn đã gửi ETH của họ vào các hầm WETH trên Mai Finance.
 
@@ -112,7 +112,7 @@ Số tiền MAI hiện tại mà người dùng đã gửi WETH vào kho tiền 
 
 Cả Ben và Kila đều đủ điều kiện nhận ưu đãi kho tiền vì Ben có CDR là 200% và Kila có CDR là 166,67%. Ben, với khoản vay của mình, sở hữu 0,1% tổng số tiền đã vay, trong khi Kila sở hữu 0,6%.
 
-Tổng lượng Qi được phân bổ cho kho WETH \(hoặc bất kỳ kho tiền nào\) là
+Tổng lượng Qi được phân bổ cho kho WETH (hoặc bất kỳ kho tiền nào) là
 
 $$
 Qi=0.05*\frac{86400}{2}=2160
@@ -143,27 +143,27 @@ $$
 
 Điều này ít nhiều tương ứng với APR được hiển thị trên kho tiền MATIC đã được quảng cáo trong hội thảo QiDAO vào ngày 13 tháng 9, như được hiển thị trong ảnh chụp màn hình sau:
 
-![](../.gitbook/assets/image%20%2823%29%20%282%29%20%283%29%20%281%29.png)
+![](<../.gitbook/assets/image (23) (2) (3).png>)
 
 ### Tính toán APR của hầm tiền bắt đầu
 
 Với dữ liệu tương tự như ví dụ trên, có thể tính toán APR bắt đầu cho tất cả các vault như sau
 
 | Dạng vault | APR bắt đầu |
-| :--- | :--- |
-| MATIC | 44.29% |
-| WETH | 24.03% |
-| LINK | 27.41% |
-| AAVE | 164.14% |
-| CRV | 159.96% |
-| WBTC | 36.92% |
-| camWETH | 25.46% |
-| camWMATIC | 44.33% |
-| camAAVE | 167.23% |
-| camWBTC | 47.38% |
+| ---------- | ----------- |
+| MATIC      | 44.29%      |
+| WETH       | 24.03%      |
+| LINK       | 27.41%      |
+| AAVE       | 164.14%     |
+| CRV        | 159.96%     |
+| WBTC       | 36.92%      |
+| camWETH    | 25.46%      |
+| camWMATIC  | 44.33%      |
+| camAAVE    | 167.23%     |
+| camWBTC    | 47.38%      |
 
 {% hint style="info" %}
-Như bạn có thể thấy, một số hầm sẽ tạo ra nhiều phần thưởng hơn những hầm khác. Ngoài ra, bạn có thể thấy rằng điều cực kỳ quan trọng là phải gửi tài sản của mình càng sớm càng tốt để hưởng lợi từ APR cao trước khi tăng trần nợ và vay nhiều hơn \(làm giảm APR\).
+Như bạn có thể thấy, một số hầm sẽ tạo ra nhiều phần thưởng hơn những hầm khác. Ngoài ra, bạn có thể thấy rằng điều cực kỳ quan trọng là phải gửi tài sản của mình càng sớm càng tốt để hưởng lợi từ APR cao trước khi tăng trần nợ và vay nhiều hơn (làm giảm APR).
 
 Bạn cũng có thể thấy rằng nếu bạn giữ khoản vay của mình trong hơn một năm, phí hoàn trả hơn 0,5% sẽ dễ dàng được bù đắp bởi chương trình thưởng này.
 {% endhint %}
@@ -221,6 +221,5 @@ Chúng tôi sẽ tuân theo lịch trình tương tự như eQi. Bạn có thể
 Hướng dẫn này đã được viết trước khi ra mắt các ưu đãi của Vault, có nghĩa là các APR được quảng cáo trong tài liệu này  có thể được sửa đổi và / hoặc có thể không chính xác. Số tiền MAI đã vay, trần nợ và giá trị của mã token Qi sẽ ảnh hưởng lớn đến APR cuối cùng của mỗi loại kho tiền. Hãy đảm bảo rằng bạn đầu tư có trách nhiệm.
 
 {% hint style="info" %}
-Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}
-

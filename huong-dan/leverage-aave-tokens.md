@@ -9,25 +9,25 @@ description: >-
 
 ## Trăm nghe không bằng mắt thấy
 
-![](../.gitbook/assets/image%20%2821%29%20%281%29.png)
+![](<../.gitbook/assets/image (21).png>)
 
 ## Tuy vậy ngàn lời nói cũng không phải là vô dụng hoàn toàn
 
 Hình ảnh ở trên minh họa làm thế nào để có thể tận dụng Mai Finance để nâng cao khả năng sinh lợi của các khoản đầu tư tiền mã hóa của bạn
 
-Giả sử rằng bạn thực sự tin tưởng vào MATIC và nghĩ rằng hiện giờ nó đang được định giá thấp. Bạn cho rằng nó có tiềm năng đạt 2$, 5$ hoặc 10$ cho mỗi token \(và bạn có thể thực sự đúng\). Tuy nhiên, là một nhà đầu tư nhỏ, bạn chỉ có số lượng token MATIC trị giá 100$ trong ví của mình trên chuỗi Polygon. Bạn đừng buồn, bởi vị thông qua hướng dẫn này, Mai Finance sẽ chỉ cho bạn làm thế nào có thể tạo ra nhiều MATIC hơn từ các token hiện tại của bạn. Holding là tốt nhưng để khoản đầu tư của bạn hoạt động sẽ tốt hơn nhiều.
+Giả sử rằng bạn thực sự tin tưởng vào MATIC và nghĩ rằng hiện giờ nó đang được định giá thấp. Bạn cho rằng nó có tiềm năng đạt 2$, 5$ hoặc 10$ cho mỗi token (và bạn có thể thực sự đúng). Tuy nhiên, là một nhà đầu tư nhỏ, bạn chỉ có số lượng token MATIC trị giá 100$ trong ví của mình trên chuỗi Polygon. Bạn đừng buồn, bởi vị thông qua hướng dẫn này, Mai Finance sẽ chỉ cho bạn làm thế nào có thể tạo ra nhiều MATIC hơn từ các token hiện tại của bạn. Holding là tốt nhưng để khoản đầu tư của bạn hoạt động sẽ tốt hơn nhiều.
 
 ### Sử dụng Aave để tăng vốn của bạn
 
-[Aave](https://app.aave.com/) là một nền tảng cho vay và đi vay hàng đầu nơi mà bạn có thể gửi MATIC \(trong rất nhiều token khác\). Bằng cách cho vay trên Aave, các token được ký gửi sẽ nhận thêm lãi. Ví dụ, với 100$ MATIC của bạn sẽ có khả năng tạo ra lợi  nhuận 1.2% trong khoảng thời gian 1 năm. Đôi khi Aave cũng có các chương trình cụ thể cung cấp thêm phần thưởng trên tỷ lệ APYs cho vay cơ bản.
+[Aave](https://app.aave.com) là một nền tảng cho vay và đi vay hàng đầu nơi mà bạn có thể gửi MATIC (trong rất nhiều token khác). Bằng cách cho vay trên Aave, các token được ký gửi sẽ nhận thêm lãi. Ví dụ, với 100$ MATIC của bạn sẽ có khả năng tạo ra lợi  nhuận 1.2% trong khoảng thời gian 1 năm. Đôi khi Aave cũng có các chương trình cụ thể cung cấp thêm phần thưởng trên tỷ lệ APYs cho vay cơ bản.
 
 Bởi vì MATIC bạn nằm trong bể của Aave, tiền lãi sẽ được tự động cộng dồn, có nghĩa là số MATIC sẽ tăng theo thời gian.
 
-![Trong v&#xED; d&#x1EE5; n&#xE0;y, t&#xF4;i &#x111;&#xE3; cho vay 0.2 MATIC](../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
+![Trong ví dụ này, tôi đã cho vay 0.2 MATIC](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.29.53 PM.png>)
 
 Bằng cách cho Aave vay token MATIC, bạn sẽ được nhận lại một lượng token MATIC tương đương được bọc bởi giao thức Aave ký hiệu là amWMATIC. Bạn có thể không thấy trực tiếp mã token trong ví trừ khi bạn thêm mã token này thủ công, tuy nhiên bạn thật sự sở hữu chúng.
 
-![T&#xF4;i c&#xF3; th&#x1EC3; nh&#xEC;n th&#x1EA5;y 0.2 MATIC &#x111;&#xE3; cho DeBank vay](../.gitbook/assets/screen-shot-2021-08-06-at-5.31.01-pm.png)
+![Tôi có thể nhìn thấy 0.2 MATIC đã cho DeBank vay](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.31.01 PM.png>)
 
 ### Sử dụng Mai Finance để cộng dồn các token của thị trường Aave
 
@@ -35,12 +35,12 @@ Mai Finance sẽ chấp nhận token amWMATIC của bạn trên trang Yield đư
 
 Tuy nhiên ngoài mức lãi suất cộng dồn APY cơ bản, Mai Finance sẽ cộng dồn bất cứ phần thưởng bổ sung hiện có nào từ Aave trở lại mã token bạn đã chọn, do đó  tạo ra nhiều token hơn theo thời gian. Trong ví dụ ở trên, Aave trả 1.16% APY cho MATIC đã gửi, cũng như 3,69% APR thêm được trả bằng MATIC, tuy nhiên số APR này lại không tạo ra thêm bất cứ lợi nhuận bổ sung nào. Bằng cách gửi amWMATIC vào Main Finance, phần thưởng nhận định kỳ sẽ được đưa trở lại số vốn chính của bạn để áp dụng cả mức lãi suất cộng dồn 1.12% APY cho cả khoản APR thưởng thêm đó.
 
-![S&#x1ED1; 0.2$ amMATIC &#x111;&#x1B0;&#x1EE3;c g&#x1EED;i v&#xE0;o Mai Finance t&#x1EA1;o ra m&#x1EE9;c l&#xE3;i su&#x1EA5;t 4.93% m&#x1ED9;t n&#x103;m](../.gitbook/assets/screen-shot-2021-08-06-at-5.45.00-pm.png)
+![Số 0.2$ amMATIC được gửi vào Mai Finance tạo ra mức lãi suất 4.93% một năm](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.45.00 PM.png>)
 
 Khi bạn gửi amMATIC vào Mai Finance thì bạn sẽ nhận lại số lượng token có ký hiệu là camWMATIC. Tỷ lệ giữa các token này không hoàn toàn là 1:1 bởi vì số camWMATIC hiện có đại diện cho số cổ phần của amWMATIC có trong bể, ở đó lợi nhuận và phần thưởng được tự động cộng dồn. Cũng cần lưu ý rằng, một khi bạn gửi token amMATIC vào nền tảng Mai Finance thì token này sẽ bị xóa khỏi giao thức Aave. Tuy nhiên, khi bạn rút amMATIC ra khỏi Mai Finance thì bạn sẽ thấy chúng trở lại trên Aave.  
 
 {% hint style="info" %}
-Chỉ cần gửi amWMATIC \(hoặc bất kì amToken nào\) vào nền tảng Mai Finance  sẽ cho phép bạn tạo ra doanh thu nhiều hơn so với việc cho Aave vay tiền đơn thuần. Thực tế cho thấy, lãi suất cơ bản và phần thưởng bổ sung của bạn được tự động cộng dồn, có nghĩa là bạn không phải nhận phần thưởng thủ công nữa.
+Chỉ cần gửi amWMATIC (hoặc bất kì amToken nào) vào nền tảng Mai Finance  sẽ cho phép bạn tạo ra doanh thu nhiều hơn so với việc cho Aave vay tiền đơn thuần. Thực tế cho thấy, lãi suất cơ bản và phần thưởng bổ sung của bạn được tự động cộng dồn, có nghĩa là bạn không phải nhận phần thưởng thủ công nữa.
 {% endhint %}
 
 ### amTokens VS camToken
@@ -57,27 +57,27 @@ Nền tảng Mai Finance cho phép bạn vay đồng ổn định Mai khi bạn 
 Khi camToken được gửi vào các Vault thì số dư trên mục Yield sẽ là 0. Tuy nhiên, nó không có nghĩa là nó không cộng dồn lợi nhuận và phần thưởng trên Aave của bạn. 
 {% endhint %}
 
-Khi bạn điều hướng đến mục Vault của trang web, bạn sẽ được cung cấp các tùy chọn để tạo ra các Vault mới nơi bạn có thể gửi camToken của mình. Bạn cũng cần lưu ý rằng, bạn cần giữ tỷ lệ thế chấp trên nợ \(CDR\) ít nhất là 155% khi bạn vay MAI với camToken của mình.
+Khi bạn điều hướng đến mục Vault của trang web, bạn sẽ được cung cấp các tùy chọn để tạo ra các Vault mới nơi bạn có thể gửi camToken của mình. Bạn cũng cần lưu ý rằng, bạn cần giữ tỷ lệ thế chấp trên nợ (CDR) ít nhất là 155% khi bạn vay MAI với camToken của mình.
 
-![S&#x1ED1; 0.2 MATIC c&#x1EE7;a t&#xF4;i gi&#x1EDD; tr&#x1EDF; th&#xE0;nh ho&#xE0;n to&#xE0;n t&#xE0;i s&#x1EA3;n th&#x1EBF; ch&#x1EA5;p](../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
+![Số 0.2 MATIC của tôi giờ trở thành hoàn toàn tài sản thế chấp](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.57.55 PM.png>)
 
 **Xin lưu ý:** Trên trang này, bạn có thể thấy tài sản thế chấp của mình được quy đổi thành USD và giá trị sẽ thay đổi theo loại tài sản bạn dùng làm thế chấp, giá của token và lợi nhuận được tạo ra trong bể này.
 
-**Mẹo:** Khi đặt tài sản thế chấp để vay MAI, bạn nên luôn vay 50% giá trị tài sản thế chấp. Lý tưởng nhất là duy trì CDR trên 200% và ​​nếu giá trị tài sản thế chấp tăng lên \(token không bị mất giá trị và tiền lãi đang tăng lên\) thì nó đủ an toàn. Ngoài ra, nếu bạn thêm nhiều tài sản thế chấp vào Vault, bạn sẽ không phải cố gắng khớp 200% CDR khi vay, trừ khi CDR dưới 200%. \(Bạn có thể xem ví dụ với số cụ thể bên dưới\).
+**Mẹo:** Khi đặt tài sản thế chấp để vay MAI, bạn nên luôn vay 50% giá trị tài sản thế chấp. Lý tưởng nhất là duy trì CDR trên 200% và ​​nếu giá trị tài sản thế chấp tăng lên (token không bị mất giá trị và tiền lãi đang tăng lên) thì nó đủ an toàn. Ngoài ra, nếu bạn thêm nhiều tài sản thế chấp vào Vault, bạn sẽ không phải cố gắng khớp 200% CDR khi vay, trừ khi CDR dưới 200%. (Bạn có thể xem ví dụ với số cụ thể bên dưới).
 
 {% hint style="info" %}
 Khi bạn gửi các tài sản có mức độ biến động giá lớn, thì bạn nên thường xuyên để ý mục Vault để chắc chắn rằng tỷ lệ CDR luôn cao hơn tỷ lệ thanh lý. Ngoài ra, bạn có thể thêm tài sản thế chấp nếu CDR giảm tới "tỷ lệ an toàn". Tùy vào danh mục đầu tư rủi ro của bạn, ngưỡng an toàn này có thể khác nhau.
 {% endhint %}
 
-![B&#xE2;y gi&#x1EDD; t&#xF4;i c&#xF3; 0.1$ n&#x1EE3;](../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
+![Bây giờ tôi có 0.1$ nợ](<../.gitbook/assets/Screen Shot 2021-08-06 at 6.07.34 PM.png>)
 
 Tôi đã vay 0.1 MAI tương ứng với 214.56% CDR. Bây giờ hãy thử một vài thí nghiệm với nó nhé.
 
 ### Mua nhiều MATIC hơn
 
-Với số MAI vay được bạn có thể đến các DEX \(QuickSwap hoặc SushiSwap luôn là những lựa chọn tốt\) và đổi MAI của để lấy thêm MATIC
+Với số MAI vay được bạn có thể đến các DEX (QuickSwap hoặc SushiSwap luôn là những lựa chọn tốt) và đổi MAI của để lấy thêm MATIC
 
-![Let&apos;s buy more MATIC](../.gitbook/assets/screen-shot-2021-08-06-at-6.10.35-pm.png)
+![Let's buy more MATIC](<../.gitbook/assets/Screen Shot 2021-08-06 at 6.10.35 PM.png>)
 
 Sau khi swap, bạn có thêm MATIC.
 
@@ -95,35 +95,35 @@ Các ví dụ sau đây dựa trên MATIC trị giá 1.000 đô la, với các t
 
 ### 200% Tỷ lệ tài sản thế chấp trên nợ
 
-| Số vòng lặp | Số vốn | Nợ | Doanh thu ước lượng | APY tương ứng |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | $1,000.00 | $500.00 | $49.30 | 4.930% |
-| 2 | $1,500.00 | $750.00 | $73.95 | 7.395% |
-| 3 | $1,750.00 | $875.00 | $86.75 | 8.628% |
-| 4 | $1,875.00 | $937.50 | $92.44 | 9.244% |
-| 5 | $1,937.50 | $968.75 | $95.52 | 9.552% |
-| 6 | $1,968.75 | $984.38 | $97.06 | 9.706% |
-| 7 | $1,984.38 | $992.19 | $97.83 | 9.783% |
-| 8 | $1,992.19 | - | $98.21 | 9.821% |
+| Số vòng lặp |   Số vốn  |    Nợ   | Doanh thu ước lượng | APY tương ứng |
+| :---------: | :-------: | :-----: | :-----------------: | :-----------: |
+|      1      | $1,000.00 | $500.00 |        $49.30       |     4.930%    |
+|      2      | $1,500.00 | $750.00 |        $73.95       |     7.395%    |
+|      3      | $1,750.00 | $875.00 |        $86.75       |     8.628%    |
+|      4      | $1,875.00 | $937.50 |        $92.44       |     9.244%    |
+|      5      | $1,937.50 | $968.75 |        $95.52       |     9.552%    |
+|      6      | $1,968.75 | $984.38 |        $97.06       |     9.706%    |
+|      7      | $1,984.38 | $992.19 |        $97.83       |     9.783%    |
+|      8      | $1,992.19 |    -    |        $98.21       |     9.821%    |
 
-Thêm nhiều nợ hơn trong vòng thứ 7 sẽ chỉ làm tăng khoản đầu tư của tôi ít hơn 10 đô la \(1% khoản đầu tư ban đầu của tôi\), vì vậy đây là thời điểm thích hợp để dừng lại. Mức tăng APY là không đáng kể trong giai đoạn này, và tôi giữ được tỷ lệ tài sản thế chấp trên nợ là 200,79%, đủ an toàn
+Thêm nhiều nợ hơn trong vòng thứ 7 sẽ chỉ làm tăng khoản đầu tư của tôi ít hơn 10 đô la (1% khoản đầu tư ban đầu của tôi), vì vậy đây là thời điểm thích hợp để dừng lại. Mức tăng APY là không đáng kể trong giai đoạn này, và tôi giữ được tỷ lệ tài sản thế chấp trên nợ là 200,79%, đủ an toàn
 
 Như bạn có thể dễ dàng thấy, việc sử dụng kết hợp Aave và Mai Finance cho tôi gần gấp đôi APY ban đầu và khai thác được thị trường nhiều hơn đáng kể đối với token được lựa chọn, khi so sánh với việc chỉ nắm giữ hoặc sử dụng Aave một cách riêng lẻ.
 
 ### 175% Tỷ lệ tài sản thế chấp trên nợ
 
-| Số vòng lặp | Số vốn | Nợ | Doanh thu ước lượng | APY tương ứng |
-| :---: | :---: | :---: | :---: | :---: |
-| 1 | $1,000.00 | $571.43 | $49.30 | 4.930% |
-| 2 | $1,571.43 | $897.96 | $77.47 | 7.747% |
-| 3 | $1,897.96 | $1,084.55 | $93.57 | 9.357% |
-| 4 | $2,084.55 | $1,191.17 | $102.77 | 10.277% |
-| 5 | $2,191.17 | $1,252.10 | $108.02 | 10.802% |
-| 6 | $2,252.10 | $1,286.91 | $111.03 | 11.103% |
-| 7 | $2,286.91 | $1,306.81 | $112.74 | 11.274% |
-| 8 | $2,306.81 | $1,318.18 | $113.73 | 11.373% |
-| 9 | $2,318.18 | $1,324.67 | $114.29 | 11.429% |
-| 10 | $2,324.67 | - | $114.61 | 11.461% |
+| Số vòng lặp |   Số vốn  |     Nợ    | Doanh thu ước lượng | APY tương ứng |
+| :---------: | :-------: | :-------: | :-----------------: | :-----------: |
+|      1      | $1,000.00 |  $571.43  |        $49.30       |     4.930%    |
+|      2      | $1,571.43 |  $897.96  |        $77.47       |     7.747%    |
+|      3      | $1,897.96 | $1,084.55 |        $93.57       |     9.357%    |
+|      4      | $2,084.55 | $1,191.17 |       $102.77       |    10.277%    |
+|      5      | $2,191.17 | $1,252.10 |       $108.02       |    10.802%    |
+|      6      | $2,252.10 | $1,286.91 |       $111.03       |    11.103%    |
+|      7      | $2,286.91 | $1,306.81 |       $112.74       |    11.274%    |
+|      8      | $2,306.81 | $1,318.18 |       $113.73       |    11.373%    |
+|      9      | $2,318.18 | $1,324.67 |       $114.29       |    11.429%    |
+|      10     | $2,324.67 |     -     |       $114.61       |    11.461%    |
 
 Thêm vòng khi đến vòng 9 sẽ không làm tăng khoản đầu tư  quá 10 đô la, vì vậy đây là một điểm dừng thích hợp. CDR kết quả từ 9 vòng lặp là 175,49%. Chúng ta có thể dễ dàng nhận thấy rằng với cách tiếp cận mạo hiểm hơn, APY cuối cùng cũng hấp dẫn hơn. Điều này thường đúng với bất kỳ chiến lược DeFi nào: "Liều ăn nhiều".
 
@@ -171,11 +171,10 @@ $$
 
 Mọi thứ được trình bày theo chiến lược trên dựa vào các giả định sau:
 
-* Tỷ lệ APY của Aave ổn định và giữ nguyên trong vòng 1 năm\( APY sẽ có một số phương sai nhất định\).
-* Tỷ lệ APR thưởng MATIC của Aave là ổn định và giữ nguyên trong vòng 1 năm \(khả năng xảy ra rất thấp\).
-* Token MATIC giữ giá tương đối ổn định trong vòng 1 năm \(rất khó xảy ra\).
+* Tỷ lệ APY của Aave ổn định và giữ nguyên trong vòng 1 năm( APY sẽ có một số phương sai nhất định).
+* Tỷ lệ APR thưởng MATIC của Aave là ổn định và giữ nguyên trong vòng 1 năm (khả năng xảy ra rất thấp).
+* Token MATIC giữ giá tương đối ổn định trong vòng 1 năm (rất khó xảy ra).
 
 {% hint style="info" %}
-Luôn nhớ rằng, một chiến lược có thể hoạt động tốt tại một thời điểm cũng có thể xấu tại một thời điểm khác \( khiến bạn mất tiền\).Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và luôn DYOR \(hãy tự mình nghiên cứu thật kỹ\). Chúc các bạn may mắn.
+Luôn nhớ rằng, một chiến lược có thể hoạt động tốt tại một thời điểm cũng có thể xấu tại một thời điểm khác ( khiến bạn mất tiền).Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và luôn DYOR (hãy tự mình nghiên cứu thật kỹ). Chúc các bạn may mắn.
 {% endhint %}
-

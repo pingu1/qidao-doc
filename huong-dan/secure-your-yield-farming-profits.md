@@ -8,20 +8,20 @@ description: >-
 
 ## Ý tưởng chung
 
-Khi bạn tham gia tối ưu thanh khoản \(yield farming\) tại một farm nào đó trên Polygon, bạn đưa số vốn đầu tư của bạn cho sự thành công hoặc thất bại của farm đó. Hướng dẫn này không trình bày chi tiết farm là gì và làm thế nào để farm. Nếu bạn cần hướng dẫn chi tiết bạn có thể tìm trên internet hoặc bạn cũng có thể hỏi cộng đồng [Discord](https://discord.gg/mQq55j65xJ) Mai Finance.
+Khi bạn tham gia tối ưu thanh khoản (yield farming) tại một farm nào đó trên Polygon, bạn đưa số vốn đầu tư của bạn cho sự thành công hoặc thất bại của farm đó. Hướng dẫn này không trình bày chi tiết farm là gì và làm thế nào để farm. Nếu bạn cần hướng dẫn chi tiết bạn có thể tìm trên internet hoặc bạn cũng có thể hỏi cộng đồng [Discord](https://discord.gg/mQq55j65xJ) Mai Finance.
 
 Vấn đề chính khi bạn farming là bạn phải lựa chọn giữa:
 
 * Bán đồng bản vị của farm thành những đồng an toàn hơn.
-* Tái đầu tư để tiếp tục sinh lời nhiều hơn \( còn được gọi là siêu lãi kép\).
+* Tái đầu tư để tiếp tục sinh lời nhiều hơn ( còn được gọi là siêu lãi kép).
 
 Hướng dẫn dưới đây sẽ trình bày từng bước các tận dụng nền tảng Mai Finance để thực sự đảm bảo được lợi nhuận thu được trong khi vẫn tái đầu tư một phần vào farm.
 
 {% hint style="info" %}
-Để minh họa chi tiết hơn làm thế nào bạn có thể làm điều đó, chúng ta sẽ dùng [farm mới nhất ](https://ball.polypup.finance/)của Polypup. Xin lưu ý đây chỉ là ví dụ cho mục đích giáo dục nên tuyệt đối không sử dụng như là một lời khuyên tài chính. Ngoài ra, thuật ngữ "an toàn" cũng chỉ mang tính chủ quan cá nhân.
+Để minh họa chi tiết hơn làm thế nào bạn có thể làm điều đó, chúng ta sẽ dùng [farm mới nhất ](https://ball.polypup.finance)của Polypup. Xin lưu ý đây chỉ là ví dụ cho mục đích giáo dục nên tuyệt đối không sử dụng như là một lời khuyên tài chính. Ngoài ra, thuật ngữ "an toàn" cũng chỉ mang tính chủ quan cá nhân.
 {% endhint %}
 
-![](../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
+![](<../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)
 
 ## Vòng đời farming
 
@@ -41,11 +41,11 @@ Bạn có thể gửi trực tiếp đồng MATIC của mình vào vault MATIC h
 
 Khi vay đã vay stablecoin MAI, bạn có thể sử dụng mục [Anchor](https://app.mai.finance/anchor) trên app Mai Finance để chuyển một nửa MAI thành USDC với tỷ lên là 1:1. 
 
-![S&#x1EED; d&#x1EE5;ng m&#x1EE5;c Swap &#x111;&#x1EC3; chuy&#x1EC3;n m&#x1ED9;t n&#x1EED;a MAI th&#xE0;nh USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
+![Sử dụng mục Swap để chuyển một nửa MAI thành USDC](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
 
 Bây giờ, phụ thuộc vào farm cụ thể bạn muốn tham gia, bạn cần ghép 2 đồng này với nhau để tạo ra một cặp thanh khoản LP trên các nền tảng DEX. Vì dự định ban đầu của chúng ta là Polypup mà farm này chấp nhận cặp thanh khoản của Quickswap LPs, nên chúng ta đi tới trang chính của Quickswap vào mục [Pool](https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xa3Fa99A148fA48D14Ed51d610c367C61876997F1) để tạo cặp MAI-USDC
 
-![T&#x1EA1;o LP token b&#x1EB1;ng MAI v&#xE0; USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
+![Tạo LP token bằng MAI và USDC](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
 
 Vậy là bạn đã sẵn sàng
 
@@ -53,7 +53,7 @@ Vậy là bạn đã sẵn sàng
 
 Bây giờ bạn có một số token LP, bạn truy nhập vào website và gửi chúng vào bể thanh khoản để bắt đầu thu hoạch đồng coin Ball của Polypup.
 
-![Nh&#x1EAD;n BALL trong b&#x1EC3;](../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
+![Nhận BALL trong bể](<../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
 
 Như bạn thấy ở trên hình, farming cặp MAI/USDC cho chúng ta mức lãi suất 176% một năm. Tùy vào dung lượng bể và giá của token BALL mà APR sẽ thay đổi theo thời gian. 
 
@@ -72,9 +72,9 @@ Bây giờ bạn có một số token farm được, bạn sẽ lựa chọn gi�
 
 Mai Finance giới thiệu cho bạn lựa chọn thứ ba cho phép bạn thực hiện cả hai điều này. Một khi bạn nhận được đồng coin mà bạn đã farm được, bạn chuyển chúng lên các sàn DEX mà hỗ trợ bán đồng coin này. Thông thường bạn sẽ tìm thấy liên kết với DEX chấp nhận trao đổi đồng coin này tại menu của farm. Trong link sẽ có địa chỉ hợp đồng giúp bạn dễ dàng hơn.
 
-![Swapping ph&#x1EA7;n th&#x1B0;&#x1EDF;ng th&#xE0;nh MATIC](../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
+![Swapping phần thưởng thành MATIC](<../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
 
-Tại thời điểm đó,  chúng ta đã quay lại bước mà chúng ta có token MATIC trong ví, sẵn sàng được gửi vào Mai Finance làm tài sản thế chấp để vay MAI, hoán đổi một phần của nó thành USDC, tạo một cặp LP và gửi lại vào trang trại. Bằng cách thực hiện chuyển đổi này, chúng ta "đảm bảo" 100% phần thưởng của mình bằng cách hoán đổi chúng thành một loại đồng coin ổn định hơn \(ở đây là MATIC\) và chúng ta gửi tiếp 50% phần thưởng của mình bể farming \(hoặc thực tế, trong ví dụ này là 46% vì phí gửi là 4%\).
+Tại thời điểm đó,  chúng ta đã quay lại bước mà chúng ta có token MATIC trong ví, sẵn sàng được gửi vào Mai Finance làm tài sản thế chấp để vay MAI, hoán đổi một phần của nó thành USDC, tạo một cặp LP và gửi lại vào trang trại. Bằng cách thực hiện chuyển đổi này, chúng ta "đảm bảo" 100% phần thưởng của mình bằng cách hoán đổi chúng thành một loại đồng coin ổn định hơn (ở đây là MATIC) và chúng ta gửi tiếp 50% phần thưởng của mình bể farming (hoặc thực tế, trong ví dụ này là 46% vì phí gửi là 4%).
 
 Từ một góc độ khác, APR được áp dụng 100% cho số stablecoin bạn gửi vào bể, nên nếu bạn tiếp tục cộng dồn bạn sẽ nhận được số APY chỉ bằng một nửa số APY mà farm đã quảng cáo.
 
@@ -91,30 +91,30 @@ Những giả định này rõ ràng là không áp dụng được với thực
 ### Kết quả ước tính sơ bộ
 
 | Ngày | Giá trị LP  | Giá trị thưởng | Số MATIC cộng dồn | LP mới tạo ra |
-| :---: | ---: | ---: | ---: | ---: |
-| 1 | $57.60 | $0.279 | $0.279 | $0.139 |
-| 2 | $57.734 | $0.280 | $0.559 | $0.140 |
-| 3 | $57.874 | $0.280 | $0.840 | $0.140 |
-| 4 | $58.014 | $0.281 | $1.121 | $0.141 |
-| 5 | $58.155 | $0.282 | $1.403 | $0.141 |
-| 6 | $58.296 | $0.282 | $1.686 | $0.141 |
-| 7 | $58.437 | $0.283 | $1.969 | $0.142 |
-| 8 | $58.579 | $0.284 | $2.253 | $0.142 |
-| 9 | $58.721 | $0.285 | $2.538 | $0.142 |
-| 10 | $58.863 | $0.285 | $2.823 | $0.143 |
-| 11 | $59.006 | $0.286 | $3.109 | $0.143 |
-| 12 | $59.149 | $0.287 | $3.396 | $0.143 |
-| 13 | $59.292 | $0.287 | $3.684 | $0.144 |
-| 14 | $59.436 | $0.288 | $3.972 | $0.144 |
-| 15 | $59.580 | $0.289 | $4.261 | $0.144 |
-| 16 | $59.725 | $0.289 | $4.551 | $0.145 |
-| 17 | $59.870 | $0.290 | $4.841 | $0.145 |
-| 18 | $60.015 | $0.291 | $5.132 | $0.145 |
+| :--: | ----------: | -------------: | ----------------: | ------------: |
+|   1  |      $57.60 |         $0.279 |            $0.279 |        $0.139 |
+|   2  |     $57.734 |         $0.280 |            $0.559 |        $0.140 |
+|   3  |     $57.874 |         $0.280 |            $0.840 |        $0.140 |
+|   4  |     $58.014 |         $0.281 |            $1.121 |        $0.141 |
+|   5  |     $58.155 |         $0.282 |            $1.403 |        $0.141 |
+|   6  |     $58.296 |         $0.282 |            $1.686 |        $0.141 |
+|   7  |     $58.437 |         $0.283 |            $1.969 |        $0.142 |
+|   8  |     $58.579 |         $0.284 |            $2.253 |        $0.142 |
+|   9  |     $58.721 |         $0.285 |            $2.538 |        $0.142 |
+|  10  |     $58.863 |         $0.285 |            $2.823 |        $0.143 |
+|  11  |     $59.006 |         $0.286 |            $3.109 |        $0.143 |
+|  12  |     $59.149 |         $0.287 |            $3.396 |        $0.143 |
+|  13  |     $59.292 |         $0.287 |            $3.684 |        $0.144 |
+|  14  |     $59.436 |         $0.288 |            $3.972 |        $0.144 |
+|  15  |     $59.580 |         $0.289 |            $4.261 |        $0.144 |
+|  16  |     $59.725 |         $0.289 |            $4.551 |        $0.145 |
+|  17  |     $59.870 |         $0.290 |            $4.841 |        $0.145 |
+|  18  |     $60.015 |         $0.291 |            $5.132 |        $0.145 |
 
 * Vào ngày 1, phí 4% được áp dụng cho cặp MAI / USDC trị giá 60 đô la ban đầu của chúng ta.
-* Vào cuối ngày 1, doanh thu đã tạo \(0,279 đô la\) được chuyển toàn bộ vào vault MATIC. 
-* Vào cuối ngày 1, vì chúng ta đã thêm một số tiền vào kho tiền, chúng ta có thể vay thêm MAI.Để giữ tỷ lệ Tài sản đảm bảo trên Nợ là 200%, chúng ta chỉ vay 50% MATIC đã ký gửi \(0,139 đô la\) 
-* Vào đầu ngày thứ 2, chúng ta cộng dồn $ 0,139 vào bể \(và farm sẽ tính phí gửi 4%\) 
+* Vào cuối ngày 1, doanh thu đã tạo (0,279 đô la) được chuyển toàn bộ vào vault MATIC. 
+* Vào cuối ngày 1, vì chúng ta đã thêm một số tiền vào kho tiền, chúng ta có thể vay thêm MAI.Để giữ tỷ lệ Tài sản đảm bảo trên Nợ là 200%, chúng ta chỉ vay 50% MATIC đã ký gửi (0,139 đô la) 
+* Vào đầu ngày thứ 2, chúng ta cộng dồn $ 0,139 vào bể (và farm sẽ tính phí gửi 4%) 
 * Vào đầu ngày 3, chúng ta bắt đầu lại với số token LP trị giá 0,134 đô la bổ sung
 
 ### Ước lượng APR, APY và doanh thu tăng trưởng
@@ -151,7 +151,7 @@ $$
 APY = ( 1 + \frac{APR}{N})^N-1
 $$
 
-Với APR là 88.495% và N = 365 \(cộng dồn hàng ngày\)
+Với APR là 88.495% và N = 365 (cộng dồn hàng ngày)
 
 $$
 APY = ( 1 + \frac{0.88495}{365})^{365}-1=142.02\%
@@ -165,30 +165,29 @@ $$
 ROI_{Day365} = [60 * (1 + 0.00242)^{365} - 60]*0.96*2=$163.6150585
 $$
 
-Đây là số MATIC mà chúng ta sẽ tạo ra bằng cách farming trong một năm, với khoản đầu tư ban đầu là 60 đô la trị giá MAI / USDC, giả sử APR của trang trại không đổi. Điều này cũng mang lại APY là 272,69%, gần bằng APR mà farm đã quảng cáo \(farm thường không tính đến phí gửi 4% trong APR được hiển thị\).
+Đây là số MATIC mà chúng ta sẽ tạo ra bằng cách farming trong một năm, với khoản đầu tư ban đầu là 60 đô la trị giá MAI / USDC, giả sử APR của trang trại không đổi. Điều này cũng mang lại APY là 272,69%, gần bằng APR mà farm đã quảng cáo (farm thường không tính đến phí gửi 4% trong APR được hiển thị).
 
 ### Tổng kết sau một năm farming với stablecoin
 
 Tại thời điểm cuối năm ta sẽ có
 
-* $283.62 MATIC trong Vault \(ban đầu là $120.00 + $163.62 lợi nhuận từ farming\).
-* $141.82 nợ \(ban đầu $60.00 + $81.82 mượn và tái đầu tư\).
+* $283.62 MATIC trong Vault (ban đầu là $120.00 + $163.62 lợi nhuận từ farming).
+* $141.82 nợ (ban đầu $60.00 + $81.82 mượn và tái đầu tư).
 * $141.82  MAI/USDC LP có trong farm
 
 ## Tuyên bố từ chối trách nhiệm
 
 Tất cả được trình bày trong chiến lược này dựa vào các giả thuyết:
 
-* Farm giữ mức APR liên tục trong vòng 1 năm \(chắc chắn là sai\)
-* Có thể farm trong vòng cả năm \(điều  này gần như không thể, tất cả farm đều kết thúc vòng farming sớm hay muộn\).
+* Farm giữ mức APR liên tục trong vòng 1 năm (chắc chắn là sai)
+* Có thể farm trong vòng cả năm (điều  này gần như không thể, tất cả farm đều kết thúc vòng farming sớm hay muộn).
 
 Lưu ý thêm, APR của bể MAI / USDC trên Polypup sau 24h farming là 128,13%, chủ yếu là do giá BALL giảm dần.
 
 Ngoài ra, farming với các cặp stablecoin có thể là cách "an toàn" nhất để kiếm lợi nhuận mà tránh được tổn thất tạm thời. Tuy nhiên không có gì đảm bảo rằng bạn có thể lấy lại 4% số tiền phí gửi ban đầu. Bạn cũng có thể tìm thấy các website mà ở đó có các bể cho stablecoin với mức phí chỉ 0% đến 1%, ngay cả với những bể không cặp với đồng bản vị của farm.
 
-Thu hoạch phần thưởng và đổi lấy những tài sản có giá trị ổn định được coi là chiến lược farming tốt nhất. Việc vay MAI nhằm tái đầu tư một phần vào bể stablecoin để tăng doanh thu farming, mang lại lợi ích của bạn với 4% phí gửi mà farm đã lấy từ cặp LP của bạn, đây có thể không phải là điều tốt nhất nên làm nếu bạn không chắc chắn để lấy lại và có lẽ tốt hơn nên sử dụng một chiến lược khác để đầu tư lại thu nhập của bạn \(đầu tư vào các bể bản vị của farm với lãi suất 0% và có APR cao\).
+Thu hoạch phần thưởng và đổi lấy những tài sản có giá trị ổn định được coi là chiến lược farming tốt nhất. Việc vay MAI nhằm tái đầu tư một phần vào bể stablecoin để tăng doanh thu farming, mang lại lợi ích của bạn với 4% phí gửi mà farm đã lấy từ cặp LP của bạn, đây có thể không phải là điều tốt nhất nên làm nếu bạn không chắc chắn để lấy lại và có lẽ tốt hơn nên sử dụng một chiến lược khác để đầu tư lại thu nhập của bạn (đầu tư vào các bể bản vị của farm với lãi suất 0% và có APR cao).
 
 {% hint style="info" %}
-Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém \(hoặc khiến bạn mất tiền\) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự mình nghiên cứu.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự mình nghiên cứu.
 {% endhint %}
-

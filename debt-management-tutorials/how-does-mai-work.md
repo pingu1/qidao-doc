@@ -19,9 +19,9 @@ Nếu bạn đã từng sử dụng tiền điện tử một thời gian, bạn
 
 Vào tháng 6 năm 2021, mã token TITAN đạt mức ATH là 65 đô la, điều này khiến một loạt các nhà đầu tư, những người đã đầu tư rất nhiều vào đồng tiền này, đã quyết định bán. Điều này gây ra một vấn đề vì TITAN được định giá dựa trên cung và cầu. Vì vậy, khi nguồn cung sẵn có của TITAN tăng lên, giá bắt đầu giảm. Điều này gây ra áp lực bán rất lớn nên giá của TITAN thậm chí còn giảm nhanh hơn, vì vậy khi TITAN bắt đầu giảm nhanh chóng, IRON đã mất đi backup và cuối cùng neo của nó.
 
-![Biểu đồ giá token TITAN](../.gitbook/assets/iron.jpg)
+![Biểu đồ giá token TITAN](../.gitbook/assets/Iron.JPG)
 
-![Biểu đồ giá của stablecoin IRON](../.gitbook/assets/titan.jpg)
+![Biểu đồ giá của stablecoin IRON](../.gitbook/assets/titan.JPG)
 
 Mọi người bắt đầu mua IRON để bán nó cho USDC và kiếm một số tiền nhanh chóng, trong một cơ hội kinh doanh chênh lệch giá rất lớn (điều này có nghĩa là thu lợi nhuận từ các biến thể giá của các mã token) Tóm lại, người ta tính rằng gần 1,75 tỷ đô la đã bị mất trong vụ việc này .Vậy có sự khác biệt giữa đồng tiền ổn định IRON và đồng tiền ổn định MAI không?
 
@@ -33,7 +33,7 @@ Khi đúc MAI với gửi tài sản thế chấp được chấp thuận, CDR (
 
 Một cách khác để đúc MAI là thông qua [Ancho](https://app.mai.finance/anchor)r, điều này có nghĩa là khi bạn hoán đổi một đồng tiền ổn định (kể từ tháng 9 năm 2021, bạn có thể đúc MAI bằng cách sử dụng DAI, USDC và USDT).Trong khi đó, khi bạn đổi lại USDC của mình, MAI mà bạn cung cấp sẽ bị đốt.
 
-![Stablecoins có thể đúc MAI](<../.gitbook/assets/image (9).png>)
+![Stablecoins có thể đúc MAI](<../.gitbook/assets/image (5).png>)
 
 Như bạn có thể thấy trên hình bên dưới, giá của đồng tiền ổn định MAI hầu như luôn gần với mức 1 đô la, điều này là do như [tài liệu chính thức](https://docs.mai.finance/stablecoin-economics) cho biết, đồng tiền ổn định MAI cho phép người dùng tham gia vào chênh lệch giá không rủi ro thông qua Anchor khi giá của MAI giảm xuống dưới $ 0,99 hoặc tăng trên $ 1,01. 
 
@@ -50,7 +50,7 @@ Anchor cho phép người dùng đúc MAI bằng các đồng tiền ổn địn
 * Phí  1% để tạo MAI đặt giá trần là $ 1,01.
 * Phí 1% để đổi các đồng tiền ổn định từ MAI đặt giá sàn là $ 0,99
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (9).png>)
 
 Việc có giá trần và giá sàn giúp MAI không bị chênh lệch quá nhiều so với tỷ giá neo của nó, tuy nhiên như bạn đã thấy trên hình của biểu đồ MAI, bạn có thể tham gia vào các cơ hội kinh doanh chênh lệch giá rủi ro thấp (nghĩa là bạn có thể bán đồng ổn định của mình khi MAI dưới 1 đô la hoặc bán MAI khi trên 1 đô la để kiếm một số tiền nhanh chóng). 
 
