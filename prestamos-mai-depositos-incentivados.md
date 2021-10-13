@@ -23,7 +23,7 @@ Además de esta increíble oportunidad, el equipo de Mai Finance introdujo en Se
 
 En Mai Finance, las bóvedas (vaults) son un tipo de almacenamiento especial donde puedes depositar tus activos. Actualmente, hay 10 tipos de bóvedas:
 
-![Los distintos tipos de bóvedas que puedes crear en Mai Finance](<.gitbook/assets/image (5).png>)
+![Los distintos tipos de bóvedas que puedes crear en Mai Finance](<.gitbook/assets/image (8).png>)
 
 Hay 2 tipos diferentes de bóvedas:
 
@@ -86,7 +86,7 @@ Cada tipo de bóveda tiene un CDR determinado, esto es una marca que sirve de re
 
 Cuando pides prestado MAI en contra de un colateral depositado, podrás obtener cual es la cantidad máxima de MAI que puedes pedir prestada, y cuál sería el impacto en tu ratio de "salud" dependiendo de la cantidad prestada, tal y cómo se puede ver en la imagen inferior:
 
-![Variación de la "salud" del préstamo dependiendo de la cantidad prestada](<.gitbook/assets/image (4).png>)
+![Variación de la "salud" del préstamo dependiendo de la cantidad prestada](<.gitbook/assets/image (2).png>)
 
 Es muy importante echarle un ojo a tu **CDR **y mantener un ratio saludable para:
 
@@ -143,7 +143,7 @@ $$
 
 Esto da como resultado aproximadamente el APR existente al crear una bóveda en Mai Finance, ten en cuenta que la cantidad de MAI prestado y el precio de Qi variarán con el tiempo por lo que el APR no sera siempre el mismo.
 
-![APR de la bóveda de MAI en el lanzamiento de los préstamos incentivados](<.gitbook/assets/image (23) (2) (3) (3).png>)
+![APR de la bóveda de MAI en el lanzamiento de los préstamos incentivados](<.gitbook/assets/image (23) (2) (3) (2).png>)
 
 ### Calculando los APRs iniciales
 

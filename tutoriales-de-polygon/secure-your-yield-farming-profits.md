@@ -22,7 +22,7 @@ Esta guía describirá paso a paso cómo usar Mai Finance para asegurar tus gana
 Para entender con mejor detalle cómo puedes hacerlo, usaré la última granja [PolyUp](https://polypup.finance). Esta explicación se realizará con propósito educativo y no deberá ser utilizada como consejo financiero. Además, el término "seguro" esta basado en mi opinión personal del equipo. Como siempre, Haz Tu Propia Investigación (DYOR). Por último, no recomendamos esta granja.
 {% endhint %}
 
-![](../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
+![](<../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)
 
 ## Ciclo de vida del farmeo
 
@@ -42,11 +42,11 @@ Puedes depositar tus tokens de MATIC en tu bóveda de MATIC, pero además puedes
 
 Una vez hayas obtenido el préstamo de MAI, podrás utilizar la página de [Anchor](https://app.mai.finance/anchor) para convertir la mitad de tu préstamo en USDC. Recuerda, que para farmear usando los pares de liquidez, las dos partes tienen que tener un ratio de 1:1.
 
-![Usando la página Anchor se podrá convertir 30 MAI a USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
+![Usando la página Anchor se podrá convertir 30 MAI a USDC](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
 
 Dependiendo de la granja donde quieras farmear, necesitarás combinar tus 2 monedas estables (MAI y USDC) en un par de liquidez válido usando un **DEX **(**EX**change **D**escentralizado). Como vamos a utilizar la granja de Polyup, y esa página acepta los pares de liquidez de Quickswap, deberás ir a [QuickSwap](https://quickswap.exchange/#/pool) y generar ahí el par.
 
-![Genera unos tokens de par de liquidez usando MAI y USDC ](../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
+![Genera unos tokens de par de liquidez usando MAI y USDC ](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
 
 Ahora estás listo para entrar en una granja.
 
@@ -54,7 +54,7 @@ Ahora estás listo para entrar en una granja.
 
 Ahora que tienes algunos tokens del par de liquidez, puedes ir a la granja y depositarlos para empezar a recolectar los tokens nativos de la granja. En este ejemplo, se ha depositado MAI/USDC en la siguiente reserva de liquidez, y se ha empezado a generar tokens BALL.
 
-![Generar BALL en la reserva](../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
+![Generar BALL en la reserva](<../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
 
 Por ahora, cómo se puede observar en la imagen superior, farmeando MAI/USDC se puede una tasa de retorno del 176.99%. Esto se debe a la cantidad de liquidez que hay en la reserva de liquidez, y en el precio del token BALL, por lo que este porcentaje puede variar.
 
@@ -73,7 +73,7 @@ Ahora que tienes unos tokens de una granja, puedes elegir entre lo siguiente:
 
 Sin embargo, Mai Finance presenta una alternativa que te deja hacer ambas. Una vez que hayas recolectado tus recompensas, podrás ir a tu DEX favorito que tenga soporte de dicho token. Por lo general, puedes encontrar un link al DEX en el menú de la granja directamente. Este link incluirá la dirección del contrato del token, lo que te permitirá operar con ese token de forma más sencilla.
 
-![Cambiando mis recompensas por MATIC](../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
+![Cambiando mis recompensas por MATIC](<../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
 
 Llegados a este punto, volvemos a tener tokens MATIC en nuestra cartera, listos para ser depositados en MAI Finance como colateral. Si lo hiciera, podría pedir prestado MAI, cambiar una parte por USDC, crear un token del par de la reserva de liquidez y redepositarlos en la granja. Haciendo esta conversión, he "asegurado" el 100% de las recompensas intercambiando el token nativo de la granja por un token mucho mas estable (en este caso MATIC) y he vuelto a reinvertir el 50% de mis recompensas en la reserva de liquidez (para ser exactos, ha sido un 46% debido a la comisión del 4% al depositar el par).
 

@@ -30,7 +30,7 @@ In order to use the Avalanche network, you'll need to add it to Metamask. To do 
 
 Save the changes, and Metamask will automatically switch you over to the Avalanche network.
 
-![Success! You're on Avalanche!](<../.gitbook/assets/image (36).png>)
+![Success! You're on Avalanche!](<../.gitbook/assets/image (39).png>)
 
 ## Bridging to Avalanche
 
@@ -50,25 +50,25 @@ There are currently no faucets available on the Avalanche mainnet. If you need s
   * Once the bridging is complete (usually less than 10 minutes), you can switch your wallet to the Avalanche network and you'll see your ELK and a bit of AVAX ready to deploy. You can now swap your ELK directly on the site to any supported token on Avalanche.
   * The same can be done in reverse to move back to Polygon or any other supported chain.
 
-![Elknet interface](<../.gitbook/assets/image (34).png>)
+![Elknet interface](<../.gitbook/assets/image (37).png>)
 
 ## DeFI on Avalanche
 
 Avalanche has seen a great deal of growth in recent months which has lead not only to great native projects being developed, but large deFi blue chips are beginning to make the move to the network, including Curve which has yet to launch there.
 
 * [Aave](https://app.aave.com/dashboard) recently launched on Avalanche and has already seen $4b in total value locked. Supported collateral tokens on Avalanche include Aave, Avalanche, Dai, Tether, USDC, WBTC, and WETH.
-* [Beefy Finance](https://app.beefy.finance/#/avax) is probably well known to most deFI users as it is available on other chains including Binance, Fantom, Harmony, Polygon, and more. Beefy is what is known as an autocompounder, and currently provides great farming APYs both for single token and dual token farms. Beefy does offer autocompounding functionality for the [MAI/AVAX](https://app.beefy.finance/#/avax/vault/joe-mai-wavax) and [MAI/USDC.e ](https://app.beefy.finance/#/avax/vault/joe-mai-usdc.e)LPs found on Trader Joe.
+* [Beefy Finance](https://app.beefy.finance/#/avax) is probably well known to most deFI users as it is available on other chains including Binance, Fantom, Harmony, Polygon, and more. Beefy is what is known as an autocompounder, and currently provides great farming APYs both for single token and dual token farms.
 * [Benqi](https://app.benqi.fi/markets) is a market protocol similar to Aave and was the first of its kind on the network. Supported collateral tokens include Avalanche, Dai, Link, Tether, USDC, WBTC, and WETH.
 
-![BenQI interface](<../.gitbook/assets/image (37).png>)
+![BenQI interface](<../.gitbook/assets/image (40).png>)
 
 * [TraderJoe](https://www.traderjoexyz.com/#/home) is a decentralized exchange and has become one of the top projects on Avalanche with an intuitive user interface, and a great zapping feature that allows users to convert a token directly into a liquidity pool token. TraderJoe is also the official partner with a [MAI-USDC LP pool on Avalanche](../mai-metaverse.md#usando-mai-en-avax).
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (36).png>)
 
 * [YieldYak](https://yieldyak.com/farms) is another autocompounder that also provides high farming APYs. Its single token farms work in conjuction with BenQI to leverage higher returns and are therefore to be considered risky.
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../.gitbook/assets/image (38).png>)
 
 ## Other useful links
 

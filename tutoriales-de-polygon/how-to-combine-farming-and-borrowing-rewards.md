@@ -11,7 +11,7 @@ description: >-
 
 En Septiembre de 2021, Mai Finance introdujo los préstamos incentivados con el fin de promocionar su negocio de préstamos y hacer que la gente use sus tokens como colateral para pedir prestado MAI. No se trata sólo de obtenerun préstamo al 0% de interés con una pequeña cuota de repago, ahora la gente también puede recibir pagos por pedir dinero prestado. Esta guía propondrá una estrategia basada en el farmeo de monedas estables utilizando **Augury Finance **como fuente de tokens que alimentarán las bóvedas de Mai Finance, lo que supondrá un incentivo superior al préstamo, y MAI adicional que se reinyectará en la granja.
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (29).png>)
 
 ## Estrategia y presentación de aplicaciones
 
@@ -21,7 +21,7 @@ Augury Finance es un agregador de rendimientos que no se centra en auto-componer
 
 Por ejemplo, puedes hacer farming del par DFYN-WETH en Augury
 
-![Ejemplo de la piscina de liquidez del par DFYN-WETH en Augury Finance](<../.gitbook/assets/image (32).png>)
+![Ejemplo de la piscina de liquidez del par DFYN-WETH en Augury Finance](<../.gitbook/assets/image (30).png>)
 
 Esta _Infusion _utiliza **DinoSwap **como granja subyacente, y un token LP que se puede conseguir usando DFYN. Con un APR del 123.43%, los usuarios que depositen liquidez en este pool serán recompensados con
 
@@ -49,13 +49,13 @@ Una de las cosas más interesantes de Curve y sus pools es que no hay que deposi
 
 Utilizaremos el pool _atricrypto3 _que acepta cualquier combinación de WBTC/WETH/USDC/USDT/DAI y añadiremos a este pool los USDC que serán generados por el pool en Augury.
 
-![Detalles del pool atricrypto3 en Curve en Septiembre de 2021](<../.gitbook/assets/image (30).png>)
+![Detalles del pool atricrypto3 en Curve en Septiembre de 2021](<../.gitbook/assets/image (32).png>)
 
 ### AAVE
 
 Como se menciona en el apartado sobre Augury, AAVE se utiliza para añadir una pequeña recompensa adicional a los tokens producidos en Augury antes de que los utilicemos en Mai Finance. En lugar de depositar nuestros WBTC, WETH y WMATIC directamente en Mai Finance, depositaremos estos tokens en AAVE y utilizaremos la funcionalidad de [Yield ](https://app.mai.finance/yield)de Mai Finance para auto-componer las recompensas de AAVE en los pools de amToken, y utilizaremos los camToken como colateral en las bóvedas de Mai Finance. Puedes obtener más detalles sobre esta parte leyendo el [tutorial sobre los tokens AAVE](apalancamiento-con-tus-tokens-de-aave.md).
 
-![Las recompensas al depositar en AAVE en Septiembre de 2021](<../.gitbook/assets/image (29).png>)
+![Las recompensas al depositar en AAVE en Septiembre de 2021](<../.gitbook/assets/image (33).png>)
 
 ### Balancer
 
@@ -63,11 +63,11 @@ Balancer es otro proyecto "blue-chip" como Curve. Podrás depositar determinados
 
 Para nuestra estrategia, utilizaremos el pool WETH/BAL/Qi/MAI/USDC. Este pool aceptará el token Qi que se generará en las bóvedas de Mai Finance, y nos recompensará con Qi adicional, y tokens BAL que podremos depositar en Mai Finance en la bóveda BAL, permitiéndonos generar más MAI y aumentar nuestra posición al hacer farming en Augury.
 
-![Estadísticas del pool de Balancer en Septiembre de 2021](<../.gitbook/assets/image (23).png>)
+![Estadísticas del pool de Balancer en Septiembre de 2021](<../.gitbook/assets/image (34).png>)
 
 ## Poniendo en marcha el sistema
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (35).png>)
 
 Lo que viene a continuación es una simulación realizada con una inversión inicial de 1.000 dólares de ETH que se deposita en la bóveda de camWETH para pedir prestados 500 dólares en forma de MAI, convertidos posteriormente en 500 dólares del par USDT-UST. Para poder realizar la simulación de este sistema se han tenido en cuenta los siguientes APRs:
 

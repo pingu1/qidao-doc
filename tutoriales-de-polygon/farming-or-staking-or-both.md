@@ -7,7 +7,7 @@ description: >-
 
 # ¿Farmear o hacer staking? ¿O Ambas?
 
-![](../.gitbook/assets/screen-shot-2021-09-03-at-9.24.12-am.png)
+![](<../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
 
 ## Introducción
 
@@ -46,7 +46,7 @@ Cabe destacar que los tokens generados en Mai Finance y Quickswap pueden ser usa
 
 ## Realizando Bootstrapping
 
-![](../.gitbook/assets/screen-shot-2021-09-08-at-6.54.08-am.png)
+![](<../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
 
 A continuación, se va a realizar una simulación con una inversión inicial de $1,000 en los pares de liquidez (LPs) Qi/MATIC y Qi/WETH , teniendo en cuenta que los APRs / APYs utilizados son los que habían el **9 de Septiembre de 2021**. Cabe destacar que los porcentajes variarán, el precio de los tokens no será constante o que algunos programas pueden dejar de estar operativos. Por lo que los resultados son sólo una estimación de lo que podrías obtener si todo se mantuviera tal y cómo estaba el **9 de Septiembre de 2021,** cosa que nunca se producirá, así que este ejemplo se debe tomar como un recurso educativo.
 

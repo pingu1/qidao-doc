@@ -36,7 +36,7 @@ Las recompensas del pool se pagan utilizando el token BAL, el cual es distribuid
 
 El flujo completo sería algo así:
 
-![](../.gitbook/assets/granjea-monedas-estables-en-balancer.png)
+![](<../.gitbook/assets/Granjea monedas estables en Balancer.png>)
 
 Si necesitas más detalles sobre cómo puedes usar Mai Finance para prestar tus criptos y pedir prestado MAI (en lugar de vender tus criptos para comprar MAI), consulta otras guías en este sitio web. Incluso puedes [incluir AAVE en el ciclo](apalancamiento-con-tus-tokens-de-aave.md) para ganar aún más.
 
@@ -63,7 +63,7 @@ Las recompensas en Curve se distribuyen de la siguiente forma:
 * WMATIC que puedes luego usar para repetir el ciclo mostrado arriba e incrementar tu préstamo y el capital invertido.
 * Tokens de CRV, que puedes también usar como colateral en Mai Finance para pedir prestado más MAI e incrementar tu capital invertido.
 
-![](../.gitbook/assets/granjea-monedas-estables-en-curve.png)
+![](<../.gitbook/assets/Granjea monedas estables en Curve.png>)
 
 ### AAVE <a href="aave" id="aave"></a>
 
@@ -131,7 +131,7 @@ Otras granjas pueden también aceptar el par MAI/USDC. Si quieres mantenerte inf
 
 ​[Impermax](https://polygon.impermax.finance) es una plataforma que permite a los usuarios apalancarse con sus tokens LP para obtener rendimientos superiores. El objetivo es muy simple: al proveer con tus tokens LP y utilizarlos como colateral, puedes entonces pedir prestados más de los 2 activos subyacentes para generar más tokens LP y repetir el bucle. 
 
-![Esquema explicativo del ciclo de Impermax](../.gitbook/assets/estrategia-con-impermax.png)
+![Esquema explicativo del ciclo de Impermax](<../.gitbook/assets/Estrategia con Impermax.png>)
 
 Al realizarlo, el usuario está expuesto a la _impermanent loss _y esa pérdida se ve magnificada por el número de veces que se repita el ciclo. El riesgo de liquidación también se ve multiplicado cuando se ejecutan demasiadas iteraciones del ciclo. Indudablemente, si el APR se multiplica, también la variación de los precios de las dos monedas que conforman el par se ven amplificadas por el efecto del apalancamiento, lo cual puede conducir a ser liquidado más rápidamente.
 

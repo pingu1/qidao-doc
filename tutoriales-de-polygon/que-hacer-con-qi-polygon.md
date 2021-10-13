@@ -35,7 +35,7 @@ Recuerda que aquí, Qi se junta con otro token para poder formar un par LP (**P*
 * Qi-WETH en QuickSwap y obtener tokens Quick como recompensa
 * Qi-QUICK en QuickSwap y obtener tokens Quick como recompensa
 
-![LP pool on QuickSwap for the Qi-WETH pair](<../.gitbook/assets/image (19) (2) (2).png>)
+![LP pool on QuickSwap for the Qi-WETH pair](<../.gitbook/assets/image (19).png>)
 
 ### Farming solo con Qi
 
@@ -43,7 +43,7 @@ Qi puede ser utilizado únicamente en [Impermax](https://polygon.impermax.financ
 
 Funciona de la siguiente manera, pedirás prestado los 2 tokens que forman el par LP,  los combinarás para tener mas tokens LP, obteniendo así una mayor posición. En la mayoría de casos, los interés del préstamo son compensados por el APR del farming, obteniendo así resultados netos positivos
 
-![Posicion apalancada en Qi-WETH en Impermax](<../.gitbook/assets/image (20).png>)
+![Posicion apalancada en Qi-WETH en Impermax](<../.gitbook/assets/image (10).png>)
 
 Podemos ver que el APR al apalancarnos x5 es de 393.88%, basado en el APY del 239.68% en QuickSwap.
 
@@ -67,11 +67,11 @@ Balancer es una buena herramienta para cualquier estrategia, especialmente en aq
 
 La piscina que vamos a usar en este ejemplo tiene Qi, WMATIC, BAL, USDC y MAI. Esta piscina te dará recompensas en forma de tokens Qi y BAL , y como se puede ver en la imagen, podrás componer ambas en la piscina. Porque otras de las grandes ventajas de Balancer, es que no necesitas suministrar todos los token en su respectivo ratio, ya que el algoritmo lo hará por ti. Es decir, podrías suministrar únicamente Qi en la piscina, y el algoritmo se encargará de reequilibrar el resto.
 
-![Detalles de la piscina a fecha de Septiembre de 2021](<../.gitbook/assets/image (17).png>)
+![Detalles de la piscina a fecha de Septiembre de 2021](<../.gitbook/assets/image (12).png>)
 
 Además, los tokens BAL pueden (o dentro de poco podrán) ser usados como colateral en Mai Finance, lo que significa que podrás guardar tus tokens BAL en la bóveda de BAL en Mai Finance, y pedir prestado MAI con ellos de colateral. Incluso, al pedir prestado MAI en gracias a tus tokens BAL depositados, podrás recibir recompensas de Qi que podrán ser suministradas a la piscina de Balancer.
 
-![Bucle cerrado usando Mai Finance y Balancer](<../.gitbook/assets/image (18).png>)
+![Bucle cerrado usando Mai Finance y Balancer](<../.gitbook/assets/image (13).png>)
 
 El APR de las bóvedas de BAL dictará si es interesante incluir la bóveda en el bucle, o si es mejor depositar tu Qi directamente en Balancer .
 
@@ -85,7 +85,7 @@ Uno de los principales factores que afectan al precio de Qi, es el ritmo en el q
 
 Actualmente hay 2 fuentes de emisión de Qi: las recompensas al hacer farming y los préstamos incentivados.
 
-![Las granjas de LP en Mai Finance en September de 2021](<../.gitbook/assets/image (12).png>)
+![Las granjas de LP en Mai Finance en September de 2021](<../.gitbook/assets/image (16).png>)
 
 Si estas farmeando rendimientos en MAI Finance, tienes la opción de elegir o el par MAI/USDC o el par Qi/WMATIC (a fecha de Septiembre de 2021).
 
@@ -138,7 +138,7 @@ Ahora, si el precio de ETH aumenta hasta $2,000, y la piscina no cambia el numer
 
 Esto significa que cuando el precio de uno de estos 2 token aumenta, la piscina crea una demanda de compra del otro token, haciendo que aumente el precio de este último. También ocurrirá lo contrario: si un token pierde valor, el otro será vendido para mantener el ratio de 1:1, haciendo que baje el precio del otro consecuentemente. Esto podría explicar parcialmente el comportamiento del precio de Qi comparado con la fluctuación de precio de WETH and WMATIC (los 2 tokens principales con los que Qi esta emparejado).
 
-![Price of Qi (left) VS Price of WMATIC (right)](<../.gitbook/assets/image (13).png>)
+![Price of Qi (left) VS Price of WMATIC (right)](<../.gitbook/assets/image (17).png>)
 
 ### Falta de utilidad
 

@@ -23,7 +23,7 @@ Finalmente, ha podido repagar la inversión inicial para comprarse todas las GPU
 
 Por lo que en vez de esperar a que el precio de ETH despegue, DogeOfWallStreet decide comprar mas tarjetas gráficas para poder incrementar sus beneficios al minar. Comparando los precios, la _RTX 1660 super_ parece la tarjeta gráfica mas rentable, teniendo un precio de aproximadamente$500.00.
 
-![](../.gitbook/assets/screen-shot-2021-08-13-at-12.07.41-pm.png)
+![](<.gitbook/assets/Screen Shot 2021-08-13 at 12.07.41 PM.png>)
 
 Tras llevar un mes minando, comprueba su portfolio en la Mainnet de Ethereum una vez la reserva ( o pool) le haya pagado. Comprueba que tiene el equivalente a $1,340.00 de ETH (esto se debe a los beneficios del minado y que ETH ha subido un 12% en 4 semanas) , por lo que debería tener lo suficiente para comprar la tarjeta gráfica, sin embargo, se encuentra en el siguiente dilema:
 

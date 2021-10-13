@@ -32,13 +32,13 @@ Cuando abras la extensión de Metamask por primera vez, te preguntará si tienes
 
 Cuando hayas terminado, verás en tu navegador lo siguiente:
 
-![Interfaz de Metamask](<../.gitbook/assets/image (27).png>)
+![Interfaz de Metamask](<../.gitbook/assets/image (18).png>)
 
 ### Añadiendo la Blockchain de Polygon
 
 Como puedes ver en la imagen de arriba, estamos usando la Mainnet de Ethereum, sin embargo si hacemos clic ahí para cambiar a una red diferente, verás que la Mainnet de Polygon no está. No te preocupes, lo que tenemos que hacer es añadir manualmente la Mainnet de Polygon, para ello, tienes que hacer click en Custom RPC y escribir esto:
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (20).png>)
 
 Una vez que hayas terminado, estás casi listo para usar la cartera Metamask en la Blockchain de Polygon, el único paso que queda es cambiar la Mainnet de Ethereum a la Mainnet de Polygon, para ello tienes que hacer clic en el menú desplegable en la parte superior de la extensión Metamask y seleccionar la red de Polygon.
 
@@ -48,7 +48,7 @@ Ahora tienes todo configurado para usar la Blockchain de Polygon, sin embargo, n
 
 Por suerte, esta [página ](https://matic.supply)te da MATIC gratis para hacer tus primeras transacciones en la red Polygon (ese tipo de páginas se pueden llamar **faucet**). Lo único que tienes que hacer es conectar tu cartera a esa página y completar un captcha. Estos 0,002 MATIC (\~0,00223$) nos permitirán hacer unas cuantas transacciones utilizando la red Polygon.
 
-![Obteniendo MATIC gratis](<../.gitbook/assets/image (26).png>)
+![Obteniendo MATIC gratis](<../.gitbook/assets/image (23).png>)
 
 A veces, debido a la congestión de la red, puedes tener algunos problemas para usar esa página, así que espera un poco y podrás reclamar algún MATIC gratis. Además, puedes probar a usar [ésta ](https://macncheese.finance/matic-polygon-mainnet-faucet.php)en caso de que la otra no funcione. 
 
@@ -62,7 +62,7 @@ Ahora que tienes algo de MATIC libre en tu Metamask, estás listo para usar las 
 
 Ahora tendrás que copiar la direccion del contrato de dicho token y hacer clic en "**add token**" en Metamask
 
-![Añadiendo Qi en Metamask](<../.gitbook/assets/image (22).png>)
+![Añadiendo Qi en Metamask](<../.gitbook/assets/image (25).png>)
 
 ## ¿Cómo comprar tokens en Polygon?
 
@@ -70,7 +70,7 @@ Ahora que tenemos nuestro Metamask listo y algo de MATIC para pagar los fees, po
 
 Una vez que decidas qué DEX quieres utilizar, puedes empezar a comprar tus fichas favoritas en la Blockchain de Polygon.
 
-![Comprando tokens Qi en Quickswap](<../.gitbook/assets/image (25).png>)
+![Comprando tokens Qi en Quickswap](<../.gitbook/assets/image (26).png>)
 
 {% hint style="info" %}
 Otra DApp interesante para usar cuando quieras comprar tokens es [Zapper](https://zapper.fi/es/exchange). Zapper teóricamente busca la plataforma más barata para realizar el intercambio entre los dos tokens, por lo que es una buena manera de ahorrar algo de MATIC.
@@ -80,7 +80,7 @@ Otra DApp interesante para usar cuando quieras comprar tokens es [Zapper](https:
 
 Es importante saber cómo comprobar el historial de tu cartera, para ello, puedes utilizar [DeBank](https://debank.com). Debank te permitirá comprobar las diferentes transacciones que has realizado en tu cuenta de Metamask, así como comprobar tu cartera en todas las blockchains que utilices o las NFT que poseas. Esto te será útil si quieres comparar, por ejemplo, los diferentes airdrops de Qi que recibes al hacer staking de Qi.
 
-![Todas las transacciones hechas con nuestra cartera de Metamask](<../.gitbook/assets/image (10).png>)
+![Todas las transacciones hechas con nuestra cartera de Metamask](<../.gitbook/assets/image (27).png>)
 
 Como puedes ver, tengo en mi cartera 800.000 DxDex.io pero no he hecho nada para tener esos tokens en mi cartera. Debes estar atento a este tipo de estafas y nunca interactuar con monedas que no conoces. En caso de que les des acceso, **Debank **te permitirá revocarlo. Por favor, ten cuidado y si no conoces algún token no lo toques.
 

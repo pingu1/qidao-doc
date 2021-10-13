@@ -9,7 +9,7 @@ description: >-
 
 ## Cuando una imagen vale más que mil palabras <a href="when-a-picture-is-worth-a-thousand-words" id="when-a-picture-is-worth-a-thousand-words"></a>
 
-![](../.gitbook/assets/es_incrementa-las-ganancias-de-tus-tokens-de-aave.png)
+![](<../.gitbook/assets/ES_Incrementa las ganancias de tus tokens de AAVE.png>)
 
 ## Pero mil palabras tampoco están de más <a href="but-a-thousand-words-are-also-not-that-bad" id="but-a-thousand-words-are-also-not-that-bad"></a>
 

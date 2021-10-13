@@ -19,9 +19,9 @@ Si llevas algún tiempo en el mundo de las criptomonedas, puede que recuerdes el
 
 En junio de 2021 el token TITAN alcanzó un ATH (All-Time-High o precio record) de 65 dólares, lo que provocó que un montón de inversores, que habían invertido cantidades considerables en la moneda, decidieran vender. Esto causó un problema ya que TITAN tiene un precio basado en la oferta y la demanda. Por lo tanto, a medida que la oferta disponible de TITAN aumentaba, el precio comenzó a disminuir. Esto causó una enorme presión de venta, por lo que el precio de TITAN cayó aún más rápido, así que cuando TITAN comenzó a caer rápidamente, IRON perdió su respaldo, por lo que la stablecoin de IRON dejó de valer $1 (esto se conoce como perder el "**peg**").
 
-![Gráfica del precio del token TITAN](.gitbook/assets/iron.jpg)
+![Gráfica del precio del token TITAN](.gitbook/assets/Iron.JPG)
 
-![Gráfica del precio de IRON](.gitbook/assets/titan.jpg)
+![Gráfica del precio de IRON](.gitbook/assets/titan.JPG)
 
 La gente comenzó a comprar la moneda estable IRON para venderla por USDC y ganar algo de dinero rápido, en una gran oportunidad de arbitraje (esto es beneficiarse de las variaciones de precio de los tokens). En resumen, se ha llegado a calcular que aproximadamente se perdieron casi 1.750 millones de dólares en este incidente. Ahora, ¿hay alguna diferencia entre la moneda estable IRON y la moneda estable MAI?
 
@@ -33,7 +33,7 @@ Al acuñar MAI depositando colaterales aprobados, el **CDR **(Coeficiente de Col
 
 Otra forma de acuñar MAI es a través del [Anchor](https://app.mai.finance/anchor), esto significa que cuando cambias una moneda estable (a partir de Septiembre de 2021 puedes acuñar MAI usando **DAI**, **USDC **y **USDT**) por MAI, el nuevo MAI es acuñado por la tesorería y el USDC depositado se mantiene guardado en la tesorería como garantía o colateral. En el caso contrario, cuando quieras obtener de vuelta tu USDC, el MAI que proporciones para el cambio se quemará.
 
-![Monedas estables que pueden ser intercambiadas por MAI](<.gitbook/assets/image (9).png>)
+![Monedas estables que pueden ser intercambiadas por MAI](<.gitbook/assets/image (5).png>)
 
 Como se puede ver en la imagen de abajo, el precio de la moneda estable MAI oscila casi siempre en los $ 1, esto se debe a que, tal y cómo dice la [documentación oficial](https://docs.mai.finance/stablecoin-economics), la moneda estable MAI permite a los usuarios participar en oportunidades de arbitraje de bajo riesgo a través de Anchor cuando el precio de MAI cae por debajo de $0,99 o sube por encima de $1,01.
 
@@ -50,7 +50,7 @@ Anchor permite a los usuarios acuñar MAI dando a cambio monedas estables e inte
 * La comisión del 1% para crear MAI crea un precio techo (price ceiling) de $1.01.
 * La comisión del 1% al intercambiar MAI por otras monedas estables establece un precio de suelo de $0.99
 
-![](<.gitbook/assets/image (8).png>)
+![](<.gitbook/assets/image (9).png>)
 
 Tener un precio de techo y suelo ayuda a MAI a no variar demasiado de su "**peg**" (recuerda que este es el término que se utiliza para decir que las monedas estables mantienen el precio de $1) sin embargo, cómo has visto en la imagen superior del gráfico de MAI, hay ocasiones donde puedes participar en oportunidades de arbitraje de bajo riesgo (lo que significa que puedes vender tus monedas estables cuando MAI está por debajo de $1 o vender MAI cuando está por encima de $1 para ganar algo de dinero rápido). 
 

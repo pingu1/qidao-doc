@@ -21,7 +21,7 @@ La forma más directa para saldar tu deuda es usando FIAT, sobre todo si quieres
 
 Mai Finance está colaborando con [Transak](https://transak.com)  para poder transferir fácilmente de tu tarjeta de débito/crédito a la red de Polygon. Simplemente vaya a Mai Finance y haga click en el icono de Transak en la barra del menú para abrir una ventana que te permitirá comprar crypto directamente, el cual será depositado directamente en tu cartera.
 
-![Comprando USDC usando EUR y enviándolos directamente a Polygon](.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
+![Comprando USDC usando EUR y enviándolos directamente a Polygon](<.gitbook/assets/Screen Shot 2021-08-18 at 9.43.07 AM.png>)
 
 El principal problema con este método es el tiempo que tarda en procesar la transacción. Sin embargo, esto te permitirá intercambiar tus USDC a MAI para saldar parcial o totalmente tu deuda.
 
@@ -44,7 +44,7 @@ Sin embargo, hay personas que no son partidarias a tener una deuda, queriéndola
 * Introduce la cantidad que quieras devolver.
 * Haz click en`Repay MAI` y habrás terminado.
 
-![Pagando parcialmente mi deuda en Mai Finance](.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
+![Pagando parcialmente mi deuda en Mai Finance](<.gitbook/assets/Screen Shot 2021-08-17 at 1.02.23 PM.png>)
 
 Pongamos el siguiente ejemplo:
 
@@ -136,7 +136,7 @@ Dependiendo de tu estrategia y de la forma que te sientes respecto a la deuda, p
 * Mai tiene un 0% de interés +  de cuota de pago 0.5%
 * AAVE no tiene cuota de pago pero un APR variable de los intereses que tienes que pagar.
 
-![El APY de AAVE al Pedir Prestado y Depositar en Agosto del 2021](.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
+![El APY de AAVE al Pedir Prestado y Depositar en Agosto del 2021](<.gitbook/assets/Screen Shot 2021-08-18 at 6.52.08 AM.png>)
 
 Por ejemplo podemos ver en la imagen superior,  que el USDC  tiene un interes al pedir prestado del 3.79% con una recompensa del 2.08% devuelto en MATIC. Esto da como resultado, a fecha de cuando fue la captura, un interés del 1.71% que tienes que devolver si quieres mantener tu préstamo por un año entero. Con AAVE, puedes pagar tu deuda de forma muy rápida, por lo que el APY variable es equivalente al 0.005% diario. Por lo que se tardaría 100 días (un poco más de 3 meses) para alcanzar el 0.5% de tu deuda.
 
