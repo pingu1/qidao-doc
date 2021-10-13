@@ -11,7 +11,7 @@ description: >-
 
 Il core business di Mai Finance è la piattaforma di prestito. Invece di vendere le loro crypto valute per acquistare altri assets, le persone sono in grado depositarle su Mai Finance e prendere in prestito usandole come garanzia. Ciò offre l'opportunità di mantenere assets di alto valore (WBTC, WETH ...) pur essendo in grado di ottenere altri assets e rendimenti da farm. Così il prestito viene utilizzato per generare entrate, mentre il collaterale a garanzia acquisisce valore.
 
-Uno degli altri grandi vantaggi dell'utilizzo di Mai Finance è che non esiste un programma di rimborso. In altre parole, prendi in prestito stable coin MAI usando la tua crypto valuta come garanzia, non paghi alcun interesse e puoi ripagare il tuo debito quando vuoi. Vedi i diversi articoli sulla [gestione del debito](../tutorial-per-la-gestione-del-debito/rimborso-del-debito-perche-e-quando.md) per ulteriori dettagli. L'unica commissione che pagherai a MAI è una commissione di rimborso corrispondente allo 0,5% del valore che hai preso in prestito, che paghi quando rimborsi il prestito e che viene detratta dalla tua garanzia.
+Uno degli altri grandi vantaggi dell'utilizzo di Mai Finance è che non esiste un programma di rimborso. In altre parole, prendi in prestito stable coin MAI usando la tua crypto valuta come garanzia, non paghi alcun interesse e puoi ripagare il tuo debito quando vuoi. Vedi i diversi articoli sulla [gestione del debito](rimborso-del-debito-perche-e-quando.md) per ulteriori dettagli. L'unica commissione che pagherai a MAI è una commissione di rimborso corrispondente allo 0,5% del valore che hai preso in prestito, che paghi quando rimborsi il prestito e che viene detratta dalla tua garanzia.
 
 Ad esempio, se hai depositato $200 di WETH per prendere in prestito $100 di MAI, quando ripagherai il tuo prestito dovresti pagare una commissione di $0,50 che verrà prelevata direttamente dal tuo deposito WETH.
 
@@ -93,7 +93,7 @@ Quando prendi in prestito MAI a fronte di un determinato collaterale, riceverai 
 * evitare di essere liquidati
 * contribuire alla salute dell'intera piattaforma Mai Finance assicurando che il volume MAI in circolazione sia adeguatamente supportato
 
-Il CDR "sano", come definito dal team di Mai Finance, è compreso tra il 25% e il 270% oltre al valore CDR minimo. Come nota a margine, puoi anche controllare le nostre guide strategiche per vedere come puoi essere più conservativo/aggressivo nell'operare in altri progetti o [ripagare il tuo debito](../tutorial-di-investimento/come-far-fruttare-i-tuoi-token-su-aave.md#esempio-con-numeri) facendo rendere il tuo prestito.
+Il CDR "sano", come definito dal team di Mai Finance, è compreso tra il 25% e il 270% oltre al valore CDR minimo. Come nota a margine, puoi anche controllare le nostre guide strategiche per vedere come puoi essere più conservativo/aggressivo nell'operare in altri progetti o [ripagare il tuo debito](../tutorial-di-polygon/come-far-fruttare-i-tuoi-token-su-aave.md#esempio-con-numeri) facendo rendere il tuo prestito.
 
 ## Incentivi per i Vaults
 

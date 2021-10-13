@@ -54,7 +54,7 @@ Utilizzeremo il pool "atricrypto3" che accetta qualsiasi combinazione di WBTC/WE
 
 Come accennato nel paragrafo su Augury, AAVE viene utilizzato per aggiungere una piccola ricompensa ai token farmati ​​su Augury prima di utilizzarli su Mai Finance. Invece di mettere i nostri WBTC, WETH e WMATIC direttamente su Mai Finance, depositeremo questi token su AAVE e utilizzeremo lo strumento di rendimento di Mai Finance per reinvestire automaticamente le ricompense di AAVE nei pool amToken e utilizzeremo il camToken come garanzia nei Vaults . 
 
-Puoi ottenere maggiori dettagli su questa parte leggendo il tutorial [come far fruttare i tuoi token su AAVE](tutorial-di-investimento/come-far-fruttare-i-tuoi-token-su-aave.md).
+Puoi ottenere maggiori dettagli su questa parte leggendo il tutorial [come far fruttare i tuoi token su AAVE](tutorial-di-polygon/come-far-fruttare-i-tuoi-token-su-aave.md).
 
 ![Ricompense per i depositi su AAVE al Settembre 2021](<.gitbook/assets/image (29).png>)
 
@@ -202,7 +202,7 @@ Il debito totale è in realtà l'intera posizione USDT-UST, quindi $553,24 e la 
 
 Ottenere un APY del 28% su stable coin non è niente male ma come si confronta con altre strategie più semplici che potremmo applicare con il valore iniziale di $1.000 di ETH? Controlliamo l'APY finale per le seguenti strategie
 
-* Leva finanziare di amWETH x8 volte tramite AAVE: per questo, utilizzeremo il flusso esatto descritto nel tutorial [AAVE](tutorial-di-investimento/come-far-fruttare-i-tuoi-token-su-aave.md).
+* Leva finanziare di amWETH x8 volte tramite AAVE: per questo, utilizzeremo il flusso esatto descritto nel tutorial [AAVE](tutorial-di-polygon/come-far-fruttare-i-tuoi-token-su-aave.md).
 * Farming completamente di stable coin su Augury: per questa strategia, vendiamo WETH e farmiamo con $1.000 di USDT-UST sulla stessa "Infusion" su Augury
 * Farming completamente di stable coin su QuickSwap: per questa strategia, utilizzeremo il Vault camWETH per beneficiare della ricompensa del Vault e farmeremo con $500 di MAI su QuickSwap (MAI-DAI al 19,78% APY), utilizzando il Vault dQUICK su Mai Finance per prendere in prestito MAI aggiuntivi e reinvestire nel pool di farm (vault dQUICK con un APR del 55,72%)
 

@@ -9,7 +9,7 @@ description: >-
 
 ## Introduzione
 
-Qi (\[tʃ Í] o _chee_), è il token nativo di Mai Finance. Alcuni lo usano per votare e per il QIP (Proposte di miglioramento QiDAO), alcuni lo mettono a rendita per ottenerne ancora di più e alcuni semplicemente lo usano per farmare. Puoi trovare alcune ottime informazioni su come utilizzare il Qi sulla piattaforma Mai Finance nella [guida dedicata alla rendita passiva](tutorial-mai-eqi-qi/ottenere-una-rendita-passiva-con-qidao.md).
+Qi (\[tʃ Í] o _chee_), è il token nativo di Mai Finance. Alcuni lo usano per votare e per il QIP (Proposte di miglioramento QiDAO), alcuni lo mettono a rendita per ottenerne ancora di più e alcuni semplicemente lo usano per farmare. Puoi trovare alcune ottime informazioni su come utilizzare il Qi sulla piattaforma Mai Finance nella [guida dedicata alla rendita passiva](Universita-di-MAI/ottenere-una-rendita-passiva-con-qidao.md).
 
 Questa guida, come la maggior parte dei tutorial sugli investimenti, si concentrerà principalmente sul farming e la messa a rendita, questa volta utilizzando il token Qi. Vedremo come è possibile ottenere molti Qi e come utilizzarli sulle diverse piattaforme di Polygon.
 

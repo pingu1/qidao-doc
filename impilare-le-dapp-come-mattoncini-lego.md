@@ -138,13 +138,13 @@ Depositiamo i token IMX e QUICK guadagnati da Impermax e QuickSwap sotto forma d
 
 ## AAVE
 
-I i token WMATIC guadagnati su Adamant possiamo andarli a depositare su AAVE per ottenere un po' di rendimento. Questo è parte della strategia descritta in [questo articolo](tutorial-di-investimento/come-far-fruttare-i-tuoi-token-su-aave.md).
+I i token WMATIC guadagnati su Adamant possiamo andarli a depositare su AAVE per ottenere un po' di rendimento. Questo è parte della strategia descritta in [questo articolo](tutorial-di-polygon/come-far-fruttare-i-tuoi-token-su-aave.md).
 
 ## Mai Finance
 
 Dopo il deposito AAVE, otteniamo amWMATIC nel nostro portafoglio. Possiamo utilizzare la pagina Yield su Mai Finance per unire l'APR base di AAVE con le ricompense in MATIC e ottenere un ulteriore 4% sui nostri MATIC guadagnati su Adamant. 
 
-Il camWMATIC può quindi essere utilizzato come garanzia su Mai Finance depositandoli nel vault camWMATIC che ci consente di prendere in prestito MAI e scambiare una parte del MAI coniato in USDC. Una volta che abbiamo più MAI e USDC nel nostro portafoglio, possiamo combinare le 2 monete stabili in token LP aggiuntivi che verranno depositati su QuickSwap e Impermax. Di nuovo, questo fa parte della strategia già descritta [qui](tutorial-di-investimento/come-far-fruttare-i-tuoi-token-su-aave.md).
+Il camWMATIC può quindi essere utilizzato come garanzia su Mai Finance depositandoli nel vault camWMATIC che ci consente di prendere in prestito MAI e scambiare una parte del MAI coniato in USDC. Una volta che abbiamo più MAI e USDC nel nostro portafoglio, possiamo combinare le 2 monete stabili in token LP aggiuntivi che verranno depositati su QuickSwap e Impermax. Di nuovo, questo fa parte della strategia già descritta [qui](tutorial-di-polygon/come-far-fruttare-i-tuoi-token-su-aave.md).
 
 ## Avvio del sistema
 
