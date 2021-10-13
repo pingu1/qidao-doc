@@ -13,19 +13,19 @@
 * [Farming or Staking? Or both?](polygon-tutorials/farming-or-staking-or-both.md)
 * [How to combine farming and borrowing rewards](polygon-tutorials/how-to-combine-farming-and-borrowing-rewards.md)
 
-## avalanche tutorials <a href="investment-tutorials" id="investment-tutorials"></a>
+## avalanche tutorials
 
-* [How to get started on Avalanche](investment-tutorials/how-to-get-started-on-avalanche.md)
+* [How to get started on Avalanche](avalanche-tutorials/how-to-get-started-on-avalanche.md)
 
-## MAI University <a href="mai-eqi-qi-tutorials" id="mai-eqi-qi-tutorials"></a>
+## MAI University
 
-* [Earning Passive Income with QiDAO](mai-eqi-qi-tutorials/earning-passive-income-with-qidao.md)
-* [How does MAI work?](mai-eqi-qi-tutorials/how-does-mai-work.md)
-* [MAI loans and Vaults incentives](mai-eqi-qi-tutorials/mai-loans-and-vaults-incentives.md)
-* [Debt repayment - Why and When?](mai-eqi-qi-tutorials/debt-repayment-why-and-when.md)
-* [Debt repayment - How?](mai-eqi-qi-tutorials/debt-repayment-how.md)
-* [MAI Metaverse](mai-eqi-qi-tutorials/mai-metaverse.md)
-* [How to use MAI in the real life](mai-eqi-qi-tutorials/how-to-use-mai-in-the-real-life.md)
+* [Earning Passive Income with QiDAO](mai-university/earning-passive-income-with-qidao.md)
+* [How does MAI work?](mai-university/how-does-mai-work.md)
+* [MAI loans and Vaults incentives](mai-university/mai-loans-and-vaults-incentives.md)
+* [Debt repayment - Why and When?](mai-university/debt-repayment-why-and-when.md)
+* [Debt repayment - How?](mai-university/debt-repayment-how.md)
+* [MAI Metaverse](mai-university/mai-metaverse.md)
+* [How to use MAI in the real life](mai-university/how-to-use-mai-in-the-real-life.md)
 
 ## Join the Community <a href="community" id="community"></a>
 
