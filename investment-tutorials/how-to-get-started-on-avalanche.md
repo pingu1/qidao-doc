@@ -57,7 +57,7 @@ There are currently no faucets available on the Avalanche mainnet. If you need s
 Avalanche has seen a great deal of growth in recent months which has lead not only to great native projects being developed, but large deFi blue chips are beginning to make the move to the network, including Curve which has yet to launch there.
 
 * [Aave](https://app.aave.com/dashboard) recently launched on Avalanche and has already seen $4b in total value locked. Supported collateral tokens on Avalanche include Aave, Avalanche, Dai, Tether, USDC, WBTC, and WETH.
-* [Beefy Finance](https://app.beefy.finance/#/avax) is probably well known to most deFI users as it is available on other chains including Binance, Fantom, Harmony, Polygon, and more. Beefy is what is known as an autocompounder, and currently provides great farming APYs both for single token and dual token farms.
+* [Beefy Finance](https://app.beefy.finance/#/avax) is probably well known to most deFI users as it is available on other chains including Binance, Fantom, Harmony, Polygon, and more. Beefy is what is known as an autocompounder, and currently provides great farming APYs both for single token and dual token farms. Beefy does offer autocompounding functionality for the [MAI/AVAX](https://app.beefy.finance/#/avax/vault/joe-mai-wavax) and [MAI/USDC.e ](https://app.beefy.finance/#/avax/vault/joe-mai-usdc.e)LPs found on Trader Joe.
 * [Benqi](https://app.benqi.fi/markets) is a market protocol similar to Aave and was the first of its kind on the network. Supported collateral tokens include Avalanche, Dai, Link, Tether, USDC, WBTC, and WETH.
 
 ![BenQI interface](<../.gitbook/assets/Screen Shot 2021-10-12 at 10.11.19 PM.png>)
