@@ -19,7 +19,7 @@ The most direct way to repay your debt is to use some fiat, especially if you wa
 
 Mai Finance is partnering with [Transak](https://transak.com) to easily bridge money bought by Credit / Debit Cards, or bank transfers, directly to the Polygon network. Simply head to Mai Finance and click the transak icon in the menu bar to open a modal that will let you purchase some MATIC and send them directly to your Polygon wallet.
 
-![Buying some USDC from fiat and bridging to Polygon directly](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
+![Buying some USDC from fiat and bridging to Polygon directly](<../.gitbook/assets/Screen Shot 2021-08-18 at 9.43.07 AM.png>)
 
 The main issue is the time taken to process the transaction. However, doing so will let you swap USDC for MAI and then partially or fully repay your debt.
 
@@ -42,7 +42,7 @@ However, some people simply don't like the idea of having a debt, and will want 
 * Enter any amount you want to repay
 * Click `Repay MAI` and you're done
 
-![Partially repaying a portion of my debt](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
+![Partially repaying a portion of my debt](<../.gitbook/assets/Screen Shot 2021-08-17 at 1.02.23 PM.png>)
 
 As an example
 
@@ -134,7 +134,7 @@ Depending on your strategy and the way you feel regarding your debt, it may be a
 * Mais is 0% interest + 0.5% repayment fee
 * AAVE has no repayment fees, but a variable APR for interests you need to pay back
 
-![Supplying and Borrowing APY on AAVE as of August 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
+![Supplying and Borrowing APY on AAVE as of August 2021](<../.gitbook/assets/Screen Shot 2021-08-18 at 6.52.08 AM.png>)
 
 As an example for USDC, you can see that the borrowing rate is 3.79% with a current reward of 2.08% paid back in MATIC. This gives, at the moment of writing, the equivalent of 1.71% you need to pay back if you keep your loan for a complete year. With AAVE, since you can repay your debt very quickly, the variable APY is equivalent to 0.005% daily. Hence, it would take 100 days (a bit more than 3 months) to reach 0.5% of your debt.
 

@@ -9,7 +9,7 @@ description: >-
 
 ## Quando uma imagem vale mil palavras
 
-![](<../.gitbook/assets/image (21) (1).png>)
+![](<../.gitbook/assets/image (21).png>)
 
 ## Mas mil palavras também são valiosas
 
@@ -23,11 +23,11 @@ Vamos assumir que gostas do token MATIC e que consideras que está subvalorizado
 
 Enquanto que os teus tokens MATIC estiverem na reserva de liquidez da plataforma AAVE (ou _liquidity pool _em inglês), os juros gerados são automaticamente compostos, o que significa que a tua quantidade de tokens MATIC aumenta com o passar do tempo.
 
-![Neste caso, eu emprestei 0.2 de MATIC](../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
+![Neste caso, eu emprestei 0.2 de MATIC](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.29.53 PM.png>)
 
 Ao emprestares os teus tokens MATIC na plataforma AAVE, recebes uma quantidade equivalente de tokens amWMATIC (aave market wrapped MATIC - representam os teus tokens depositados na plataforma AAVE). Podes não conseguir ver estes tokens na tua carteira até os adicionares manualmente, mas estes continuam a estar na tua posse.
 
-![Consegues ver os tokens que emprestas-te na plataforma DeBank](../.gitbook/assets/screen-shot-2021-08-06-at-5.31.01-pm.png)
+![Consegues ver os tokens que emprestas-te na plataforma DeBank](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.31.01 PM.png>)
 
 ### Usa a plataforma Mai Finance para compor os teus tokens Aave
 
@@ -35,7 +35,7 @@ _Mai Finance_ aceita os teus tokens amWMATIC na página **Yield **do website. Ao
 
 No entanto, para além do APY base, a plataforma _Mai Finance_ vai acumular as recompensas adicionais da plataforma AAVE para além do token depositado inicialmente, aumentado assim passivamente a quantidade de tokens que depositaste inicialmente. Neste exemplo (ver acima), a plataforma AAVE disponibiliza um APY de 1,16% para depósitos em MATIC, para além de um APR adicional de 3,69%, que no entanto, não está a gerar nenhum lucro adicional. Ao depositar os teus tokens amWMATIC na plataforma _Mai Finance, _as recompensas são coletadas periodicamente e compostas no teu depósito principal de forma a que a taxa de interesse de 1,16% também seja aplicada nele.
 
-![Os tokens 0.2 MATIC depositados na plataforma Mai Finance  tem um interesse anual de 4,93%](../.gitbook/assets/screen-shot-2021-08-06-at-5.45.00-pm.png)
+![Os tokens 0.2 MATIC depositados na plataforma Mai Finance  tem um interesse anual de 4,93%](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.45.00 PM.png>)
 
 Ao depositar amWMATIC na plataforma _Mai Finance, _recebes camWMATIC em troca. O rácio entre este 2 tokens não é 1:1, porque o token camWMATIC representa a tua porção da _pool _de amWMATIC na plataforma, em que as taxas de interesse são acumuladas e compostas progressivamente. Tem também em conta que quando depositas os tokens amWMATIC na plataforma _Mai Finance, _estes tokens são removidas da plataforma Aave. Da mesma forma, ao remover os teus tokens amWMATIC da plataforma _Mai Finance, _estes podem ser encontrados automaticamente na plataforma Aave.
 
@@ -61,7 +61,7 @@ Quando camWMATIC é depositado como colateral num _Vault_, o saldo na página Yi
 
 Quando acedes à página _Vaults _e selecionas camWMATIC do menu suspenso, é-te dada a opção de criares uma nova _vault _onde podes depositar os teus tokens camWMATIC. Lembra-te que ao utilizares os teus tokens para pedires um empréstimo, tens que manter o teu rácio de colateral para divida (CDR) acima dos 155% para evitares ser liquidado.
 
-![ 0.2 MATIC a ser utilizado como colateral](../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
+![ 0.2 MATIC a ser utilizado como colateral](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.57.55 PM.png>)
 
 **Nota:** nesta página, consegues ver o valor do teu colateral em USD, que flutua de acordo com o colateral depositado, o valor do token e os interesses gerados pela _pool_ de camWMATIC..
 
@@ -71,7 +71,7 @@ Quando acedes à página _Vaults _e selecionas camWMATIC do menu suspenso, é-te
 Cria o hábito de visitar a página Vault para verificar que estás sempre acima do rácio de liquidição, adicionando mais colateral caso o rácio começar a cair abaixo de um nível "saudável". Isto depende no entanto do teu perfil de risco.
 {% endhint %}
 
-![Tenho agora uma divida de $0.10](../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
+![Tenho agora uma divida de $0.10](<../.gitbook/assets/Screen Shot 2021-08-06 at 6.07.34 PM.png>)
 
 Pedi emprestado $0.10 de MAI, o que resulta num rácio de 214.56% CDR. Vamos colocar o dinheiro emprestado a bom uso!
 
@@ -79,7 +79,7 @@ Pedi emprestado $0.10 de MAI, o que resulta num rácio de 214.56% CDR. Vamos col
 
 Podemos ir à nossa DEX favorita (QuickSwap ou SushiSwap são bons exemplos) e trocar MAI para MATIC.
 
-![Vamos comprar mais MATIC](../.gitbook/assets/screen-shot-2021-08-06-at-6.10.35-pm.png)
+![Vamos comprar mais MATIC](<../.gitbook/assets/Screen Shot 2021-08-06 at 6.10.35 PM.png>)
 
 Após a troca, tenho mais tokens MATIC na minha carteira.
 

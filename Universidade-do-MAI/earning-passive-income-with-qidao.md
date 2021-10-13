@@ -11,7 +11,7 @@ description: >-
 
 Qi DAO lets you earn weekly share of the revenue earned by the protocol, precisely:
 
-* 30% of weekly repayment fee revenue \(plus a 25% boost\). 
+* 30% of weekly repayment fee revenue (plus a 25% boost). 
 * 100% of LP rewards received from using deposit fee revenue to farm on QuickSwap 
 * 30% of weekly USDC Swap fees. 
 
@@ -19,13 +19,13 @@ This share of revenue is distributed to the people who stake and lock their QI t
 
 ## Introduction to snapshots
 
-A snapshot is basically a recording of the the state of a blockchain on a particular block height, this means that the snapshot will record the contents of the entire blockchain ledger, which includes all existing addresses and their associated data \(transactions, fees, balance, so on\). Since Qi is on the Polygon blockchain we can check when the next snapshot is going to take place in [Polygonscan](https://polygonscan.com/).
+A snapshot is basically a recording of the the state of a blockchain on a particular block height, this means that the snapshot will record the contents of the entire blockchain ledger, which includes all existing addresses and their associated data (transactions, fees, balance, so on). Since Qi is on the Polygon blockchain we can check when the next snapshot is going to take place in [Polygonscan](https://polygonscan.com).
 
-You become eligible for the rewards if you stake your Qi tokens for at least ~10 days depending on when you lock your tokens. In other words, a valid staking period should contain at least 2 snapshots, so you'll get paid the Wednesday following the 2nd snapshot.
+You become eligible for the rewards if you stake your Qi tokens for at least \~10 days depending on when you lock your tokens. In other words, a valid staking period should contain at least 2 snapshots, so you'll get paid the Wednesday following the 2nd snapshot.
 
 ![How to become eligible for the Qi rewards](../.gitbook/assets/unknown.png)
 
-This is an example of a bare minimal staking period. Of course, you can stake for a longer period of time, and there are actually benefits locking your Qi for a long period. The longer you lock, the bigger the reward boost will be \(see [What is Qi Powah](earning-passive-income-with-qidao.md#what-is-qi-powah) and the [FAQ](earning-passive-income-with-qidao.md#faqs-of-qi-staking) for more details\).
+This is an example of a bare minimal staking period. Of course, you can stake for a longer period of time, and there are actually benefits locking your Qi for a long period. The longer you lock, the bigger the reward boost will be (see [What is Qi Powah](earning-passive-income-with-qidao.md#what-is-qi-powah) and the [FAQ](earning-passive-income-with-qidao.md#faqs-of-qi-staking) for more details).
 
 ## Understanding Qi Boost and Qi Powah
 
@@ -33,7 +33,7 @@ Now that we know what a snapshot is, we are ready to start earning some passive 
 
 ### What is Qi Boost and Qi Powah?
 
-Qi Boost is your opportunity to increase the power and rewards of your Qi. The longer you lock your Qi the greater your voting power \(Qi Powah\) and weekly reward share will be. You can boost up to 4x by locking Qi for 4 years. Your boosts slowly reduces over your locking period, eventually unlocking your Qi, however you can always increase your boost to maintain your boosted level. Your boosted Qi is represented in eQi \(escrowed Qi\) and will remain in escrow until your unlock date \(non-transferable\).
+Qi Boost is your opportunity to increase the power and rewards of your Qi. The longer you lock your Qi the greater your voting power (Qi Powah) and weekly reward share will be. You can boost up to 4x by locking Qi for 4 years. Your boosts slowly reduces over your locking period, eventually unlocking your Qi, however you can always increase your boost to maintain your boosted level. Your boosted Qi is represented in eQi (escrowed Qi) and will remain in escrow until your unlock date (non-transferable).
 
 This can means that locking Qi have the following advantages:
 
@@ -44,7 +44,7 @@ This can means that locking Qi have the following advantages:
 
 To lock your Qi tokens you need to go the Qi Powah Boost lock bar and select how many tokens do you want to lock and the time period for which you want to lock your Qi tokens. The longer the time period the more **eQi** you will get, remember that eQi is just how many Qi tokens you will have once the locking period is over.
 
-![Qi Powah Boost Lock](../.gitbook/assets/captura.jpg)
+![Qi Powah Boost Lock](../.gitbook/assets/Captura.JPG)
 
 Once you have decided all that, click on approve and approve the transaction, then click on `Increase locked QI and lock time` and confirm the transaction.
 
@@ -54,7 +54,7 @@ Please be aware that once you lock your Qi tokens for a given period, there's no
 
 Congratulations, now you are officially a Qi staker you will receive on the following weeks a weekly pay check. If you have any doubt wether you are qualified for the next week's revenue sharing, you can see on the boost page if you are qualified or not.
 
-![](../.gitbook/assets/captura%20%281%29.jpg)
+![](<../.gitbook/assets/Captura (1).JPG>)
 
 ### Stats of the Qi Powah
 
@@ -87,16 +87,16 @@ There’s a few possibilities here: Either everything is fine but you still have
 $QI staking rewards are distributed in $QI.
 
 * **Where do these rewards come from?** 
-  * 100% gains from farming deposit fee revenue \($2,245,681 used to farm as of week 14\) 
-  * 30% of repayment fee revenue \($18,362 average weekly revenue\)
-  * 30% of Anchor/Swap fee revenue \($178,365 average weekly revenue\)
+  * 100% gains from farming deposit fee revenue ($2,245,681 used to farm as of week 14) 
+  * 30% of repayment fee revenue ($18,362 average weekly revenue)
+  * 30% of Anchor/Swap fee revenue ($178,365 average weekly revenue)
 * **What is eQI and what can I do with it?** 
 
-eQI \(escrowed QI\) represents the boost that you're getting on your voting power and Qi rewards. So for the purposes of voting and getting Qi rewards, 1 eQi counts as 1 Qi
+eQI (escrowed QI) represents the boost that you're getting on your voting power and Qi rewards. So for the purposes of voting and getting Qi rewards, 1 eQi counts as 1 Qi
 
 * **But wait, I locked to get rewards. What’s this voting power?** 
 
-QiDao is a DAO \(Decentralized Autonomous Organization\) and the future of the protocol is decided by the community. As a holder of $QI you are entitled to vote on QIP \(QiDao Improvement Proposals\) published on Governance page.
+QiDao is a DAO (Decentralized Autonomous Organization) and the future of the protocol is decided by the community. As a holder of $QI you are entitled to vote on QIP (QiDao Improvement Proposals) published on Governance page.
 
 * **What APR can I expect by locking $QI?** 
 
@@ -121,6 +121,5 @@ You can find an article on a similar topic covered by Genkham [here](https://med
 This guide is definitely not financial advice, it was made with an educational goal in mind. The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
 {% endhint %}
-

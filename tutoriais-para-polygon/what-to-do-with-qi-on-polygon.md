@@ -43,7 +43,7 @@ Qi can also be used solely on [Impermax](https://polygon.impermax.finance). Impe
 
 The way it works, is that you will borrow the 2 tokens forming the pair that you want to farm, combine them into more LP tokens, and farm with a much higher position. In most cases, borrowing rates are largely compensated by farming APR, giving you some net positive rewards.
 
-![Leveraged Qi-WETH position on Impermax](<../.gitbook/assets/image (20).png>)
+![Leveraged Qi-WETH position on Impermax](<../.gitbook/assets/image (10).png>)
 
 We can see here that the final reward APR on Impermax is 393.88% after leveraging 5 times, based on an APY of 239.68% on QuickSwap.
 
@@ -67,11 +67,11 @@ Balancer is a really nice toolbox for any strategy, especially the ones that inc
 
 The pool that we want to use here is a pool that contains Qi, WMATIC, BAL, USDC and MAI. This pool will reward you with both Qi and BAL tokens, and you can already see that you will be able to compound both into the pool. Because another amazing advantage of pools on Balancer is that you don't need to provide all tokens forming the pool in the proper ratio, the algorithm will do it for you. This means that you can indeed only deposit Qi in the pool and let the algorithm do the rest to rebalance everything.
 
-![Details of the pool as of September 2021](<../.gitbook/assets/image (17).png>)
+![Details of the pool as of September 2021](<../.gitbook/assets/image (12).png>)
 
 As a side note, BAL tokens can (or will soon be) usable as collateral on Mai Finance, which mean that you will have the option to store your BAL tokens on the BAL vault on Mai Finance, and borrow MAI against then. In addition to that, borrowing MAI against your BAL tokens will make you eligible for Qi rewards that will feed the pool on Balancer.
 
-![Closed loop using Mai Finance and Balancer](<../.gitbook/assets/image (18).png>)
+![Closed loop using Mai Finance and Balancer](<../.gitbook/assets/image (13).png>)
 
 The APR of BAL vaults will highly dictates how interesting it is to have the vault in the loop, or if compounding your Qi into the Balancer's pool will be better.
 
@@ -85,7 +85,7 @@ One of the main factor that will affect the price of Qi is the rate at which the
 
 There are currently 2 sources of Qi emission: farming rewards and vault rewards.
 
-![LP farms on Mai Finance in September 2021](<../.gitbook/assets/image (12).png>)
+![LP farms on Mai Finance in September 2021](<../.gitbook/assets/image (16).png>)
 
 If you are farming yields on MAI finance, you have the choice between the MAI/USDC pair and the Qi/WMATIC pair (as of September 2021).
 
@@ -138,7 +138,7 @@ Now, if the price of ETH goes up to $2,000, if the pool keeps the same amount of
 
 This also means that when the price of one of the 2 token goes up, the pool creates some demande for the other, also driving its price up. The opposite is also true: if one token loses value, the other one will be sold to maintain a 1:1 ratio, driving the price down. This also partially explains the price fluctuation of Qi when compared to the price fluctuation of WEHT and WMATIC (the 2 main tokens to which Qi is paired).
 
-![Price of Qi (left) VS Price of WMATIC (right)](<../.gitbook/assets/image (13).png>)
+![Price of Qi (left) VS Price of WMATIC (right)](<../.gitbook/assets/image (17).png>)
 
 ### Lack of use case
 
