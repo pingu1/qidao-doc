@@ -17,6 +17,10 @@
 
 * [Comment démarrer sur Avalanche](tutoriels-avalanche/how-to-get-started-on-avalanche.md)
 
+## Fantom tutorials
+
+* [How to get started on Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
+
 ## L'Université du MAI <a href="universite-mai" id="universite-mai"></a>
 
 * [Earning Passive Income with QiDAO](universite-MAI/earning-passive-income-with-qidao.md)
