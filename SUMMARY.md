@@ -2,7 +2,7 @@
 
 * [Tài liệu hướng dẫn không chính thức của giao thức QiDao](README.md)
 
-## polygon tutorials <a href="huong-dan" id="huong-dan"></a>
+## Polygon toàn tập <a href="huong-dan" id="huong-dan"></a>
 
 * [Các bước bắt đầu trên mạng Polygon](huong-dan/how-to-get-started-on-polygon.md)
 * [Tạo đòn bẩy cho các token từ thị trường Aave](huong-dan/leverage-aave-tokens.md)
@@ -13,9 +13,9 @@
 * [Farming hoặc Staking? Hoặc cả hai?](huong-dan/farming-or-staking-or-both.md)
 * [Cách để kết hợp giữa phần thưởng đi vay và farming](huong-dan/how-to-combine-farming-and-borrowing-rewards.md)
 
-## Avalanche tutorials <a href="mai-eqi-qi-tutorials" id="mai-eqi-qi-tutorials"></a>
+## Avalanche toàn tập <a href="mai-eqi-qi-tutorials" id="mai-eqi-qi-tutorials"></a>
 
-* [How to get started on Avalanche](mai-eqi-qi-tutorials/how-to-get-started-on-avalanche.md)
+* [Hướng dẫn khởi đầu trên mạng Avalanche](mai-eqi-qi-tutorials/how-to-get-started-on-avalanche.md)
 
 ## MAI University <a href="debt-management-tutorials" id="debt-management-tutorials"></a>
 
