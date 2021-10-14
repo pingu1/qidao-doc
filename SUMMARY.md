@@ -20,6 +20,10 @@
 
 * [Come iniziare con Avalanche](tutorial-di-avalanche/how-to-get-started-on-avalanche.md)
 
+## Tutorial di Fantom
+
+* [How to get started on Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
+
 ## Università di MAI
 
 * [Ottenere una rendita passiva con QiDAO](Universita-di-MAI/ottenere-una-rendita-passiva-con-qidao.md)
