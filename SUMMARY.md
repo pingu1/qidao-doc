@@ -15,9 +15,9 @@
 
 ## Tutoriels pour Avalanche <a href="tutoriels-avalanche" id="tutoriels-avalanche"></a>
 
-* [How to get started on Avalanche](tutoriels-avalanche/how-to-get-started-on-avalanche.md)
+* [Comment démarrer sur Avalanche](tutoriels-avalanche/how-to-get-started-on-avalanche.md)
 
-## L'Université du MAI <a href="universite-MAI" id="universite-MAI"></a>
+## L'Université du MAI <a href="universite-mai" id="universite-mai"></a>
 
 * [Earning Passive Income with QiDAO](universite-MAI/earning-passive-income-with-qidao.md)
 * [How does MAI work](universite-MAI/how-does-mai-work.md)
