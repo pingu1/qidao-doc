@@ -30,11 +30,11 @@ Per utilizzare la rete Avalanche, dovrai aggiungerla a Metamask. Per farlo, dovr
 
 Salva le modifiche e Metamask selezionerà automaticamente la rete Avalanche. Se così non fosse cliccando sul menu a tendina potrai selezionarla manualmente.
 
-![Success! You're now on Avalanche!](<../.gitbook/assets/image (40).png>)
+![Ottimo lavoro! Ora sei su Avalanche!](<../.gitbook/assets/image (40).png>)
 
 ## Trasferire assets da un'altra blockchain verso Avalanche (Bridging)
 
-### Faucets
+### AVAX Faucets
 
 Al momento non ci sono faucets (contratti che ti "regalano" qualche $AVAX per le prime transazioni) disponibili sulla rete principale di Avalanche. Se hai bisogno di $AVAX per coprire i costi del gas, dovrai inviare $AVAX direttamente al tuo portafoglio da uno exchange centralizzato o trasferendo i tuoi assets usando il bridge Elknet. Maggiori informazioni su questa seconda opzione nella sezione Bridges di seguito.
 

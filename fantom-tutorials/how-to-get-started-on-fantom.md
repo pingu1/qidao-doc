@@ -1,108 +1,108 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the Fantom chain.
+  In questa guida spiegheremo tutto ciò che devi sapere per iniziare a
+  utilizzare le diverse DApp disponibili sulla blockchain Fantom.
 ---
 
-# How to get started on Fantom
+# Come iniziare con Fantom
 
-## What is Fantom
+## Cos'è Fantom?
 
-Fantom is an Ethereum alternative for blockchain designers. As an open-source smart contract enabled blockchain, it allows designers to develop secure, comprehensive and modular DApps (**D**ecentralized **App**lications).
+Fantom è un'alternativa a Ethereum. In quanto blockchain abilitata agli smart contract open source, consente agli sviluppatori di creare DApp (applicazioni decentralizzate) sicure, complete e modulari.
 
-The chain has been designed to overcome all the limitations of the previous generation of blockchain platforms, sometimes referenced as the blockchain trilemma: decentralization, security and scalability. To improve on one of these aspects, it will have to come at the expense of one of the other two. Fantom tried to solve this thanks to its DAG (Directed Acyclic Graphs) based Lachesis aBFT (Asynchronous Byzantine Fault Tolerant) consensus mechanism, allowing it to be high-performance, scalable and secure. Initial benchmarks showed that Fantom can easily handle over 20,000 transactions per second.
+La chain è stata progettata per superare tutte le limitazioni della precedente generazione di  blockchain, nel settore conosciute come il trilemma blockchain: decentralizzazione, sicurezza e scalabilità. Per migliorare uno di questi limiti bisogna scendere a compromessi su uno degli altri due. Fantom ha cercato di risolvere questo problema grazie al suo meccanismo di consenso basato su DAG (**D**irected **A**cyclic **G**raphs) Lachesis aBFT (**A**synchronous **B**izantine **F**ault **T**olerant), che gli consente di ottenere alte prestazioni, scalabilità e sicurezza. I benchmark iniziali hanno dimostrato la capacità di Fantom di gestire oltre 20.000 transazioni al secondo.
 
-Finally, Fantom is 100% EVM (**E**thereum **V**irtual **M**achine) compatible, meaning that DApps that have been developed on EVM compatible networks will be deployable on Fantom too. This also brings another advantages for users since MetaMask and other web3 applications are also compatible with Fantom. You will be able to switch seamlessly from Polygon or Avalanche to Fantom within the same wallet.
+Infine, Fantom è 100% EVM (**E**thereum **V**irtual **M**achine) compatibile, ciò significa che le DApp che sono state sviluppate su reti compatibili con EVM sono facilmente implementabili anche su Fantom. Questo porta anche altri vantaggi per gli utenti dato che MetaMask e altre applicazioni web3 sono già compatibili con Fantom. E' quindi immediato passare senza problemi da Polygon o Avalanche a Fantom all'interno dello stesso portafoglio.
 
-## Getting on Fantom
+## Iniziare con Fantom
 
-Fantom being EVM compatible, if you already have a wallet for other EVM chains (Ethereum Mainnet, Polygon or Avalanche), you will be able to use it. Else, it's time to create wallet address. There are different wallet types that can be used: **software wallets** like Metamask or [fWallet](https://pwawallet.fantom.network/#/), or **hardware wallets** like [Trezor](https://trezor.io/coins/) or [Ledger](https://fantom.foundation/blog/how-to-set-up-your-ledger-nano-s-x-with-fantom/).
+Essendo Fantom compatibile con EVM, se hai già un portafoglio per altre chain EVM (Ethereum Mainnet, Polygon o Avalanche), potrai utilizzarlo da subito. Se sei ai primi passi, è il momento di creare il tuo portafoglio. Esistono diversi tipi di portafoglio che possono essere utilizzati: **software wallets** come [Metamask](how-to-get-started-on-fantom.md#what-is-fantom) e [fWallet](https://pwawallet.fantom.network/#/) oppure **hardware wallets** come [Trezor](https://trezor.io/coins/) e [Ledger](https://fantom.foundation/blog/how-to-set-up-your-ledger-nano-s-x-with-fantom/).
 
-For this guide, and because we're using Metamask in all our other guides, we'll be using Metamask, but feel free to use any other software/hardware wallet you like. If you need instruction on how you can install Metamask, you can find instruction on [the polygon guide](../polygon-tutorials/how-to-get-started-on-polygon.md#downloading-metamask).
+Per questa guida e per essere allineati alle altre nostre guide basate su Metamask utilizzeremo Metamask, ma sentiti libero di utilizzare qualsiasi altro portafoglio software/hardware che preferisci. Se hai bisogno di istruzioni su come installare Metamask, puoi trovarle nella guida [come iniziare con Polygon](../tutorial-di-polygon/come-iniziare-con-polygon.md).
 
-### Adding Fantom to Metamask
+### Aggiungere la rete Fantom a Metamask
 
-In order to use the Fantom network, you will have to manually configure it into Metamask. To do so, click on the Network dropdown at the top of the Metamask window (where it indicates the network you're currently using, Ethereum Mainnet by default), then select `Custom RPC`. The following informations are the ones that will let you connect to Fantom:
+Per utilizzare la rete Fantom, dovrai aggiungerla a Metamask. Per farlo, dovrai entrare nelle Impostazioni di Metamask, selezionare "Reti" (se è la prima volta che lo configuri, troverai pre impostate solo la rete Ethereum Mainnet e le reti testnet) e selezionare "Aggiungi Rete". Dovrai quindi compilare i campi con i seguenti parametri:
 
-* **Network Name**: Fantom Opera
-* **RPC URL**: https://rpc.ftm.tools/
+* **Nome Rete**: Fantom Opera
+* **Nuovo RPC URL**: https://rpc.ftm.tools/
 * **ChainID**: 250
-* **Symbol**: FTM
-* **Explorer**: https://ftmscan.com
+* **Simbolo**: FTM
+* **URL del Block Explorer**: https://ftmscan.com
 
-After saving your changes, Metamask will automatically switch to the Fantom network.
+Salva le modifiche e Metamask selezionerà automaticamente la rete Avalanche. Se così non fosse cliccando sul menu a tendina potrai selezionarla manualmente.
 
-![Good job! You're on Fantom!](../.gitbook/assets/ftm-mm0.png)
+![Ottimo lavoro! Ora sei su Fantom!](../.gitbook/assets/ftm-mm0.png)
 
-If you need more details to setup Metamask, you will find additional info on the [official Fantom guide](https://docs.fantom.foundation/tutorials/set-up-metamask).
+Se hai bisogno di maggiori dettagli per configurare Metamask, troverai ulteriori informazioni nella guida ufficiale del team [Fantom](https://docs.fantom.foundation/tutorials/set-up-metamask).
 
 ### FTM faucet
 
-Now that you are on FTM, you will need some FTM (native token used to cover gas costs). You can either bridge some FTM tokens from other chains, or use a faucet that will deposit enough FTM tokens in your wallet to perform a few transactions. The [main faucet on Fantom](https://docs.spookyswap.finance/getting-started/how-to-get-fantom-gas) can be found on SpookySwap, one of the main DEXes there (**D**ecentralized **Ex**change). Note that it's a service offered by SpookySwap that relies on Discord, and that will require a valid Discord Account active for more than 30 days (it's not required to be on the SpookySwap Discord server for 30 days though).
+Ora che sei su FTM, avrai bisogno di $FTM (token nativo utilizzato per pagare le commissioni di transazione). Puoi trasferire alcuni token $FTM da altre chain o utilizzare un faucet (contratti che ti "regalano" qualche $FTM per le prime transazioni) per ottenere qualche token $FTM per eseguire le transazioni. Il [faucet principale di Fantom](https://docs.spookyswap.finance/getting-started/how-to-get-fantom-gas) si trova su SpookySwap, uno dei DEX più importanti della rete (**Ex**change **D**ecentralizzato). Nota che il servizio offerto da SpookySwap si basa su Discord e richiede un account Discord valido attivo da più di 30 giorni per evitare richieste eccessive (non è necessario essere all'interno del server Discord di SpookySwap per 30 giorni).
 
-* Once you joined the [SpookySwap Discord](http://discord.gg/AqbsWsWDgn) server, and verified your account, head to the #faucet section.
+* Una volta entrato nel server di [SpookySwap Discord](http://discord.gg/AqbsWsWDgn) ed esserti verificato col bot, vedrai vari canali, entra in  #faucet.
 
-![](<../.gitbook/assets/image (42).png>)
+![Canale #faucet all'interno del server Discord di SpookySwap](<../.gitbook/assets/image (42).png>)
 
-* In the #faucet channel, simply type the `!faucet` command and the bot will send you some $FTM. Note that you'll be limited to 1 interaction every 30 days.
-* If you want to verify that you properly received your FTM token, you can click the Fantom Tip Bot name to interact directly with it and type `!balance`
+* Nel canale #faucet, dovrai inviare il comando`!faucet` ed il bot interagirà con te e ti garantirà qualche $FTM. Il limite massimo è di una richiesta ogni 30 giorni.
+* Se vuoi verificare di aver ricevuto correttamente i tuoi token $FTM, puoi fare clic sul nome "Bot Fantom Tip" per interagire direttamente col bot e digitare `!balance`
 
-![Thank you Fantom Tip Bot and SpookySwap](<../.gitbook/assets/image (45).png>)
+![Grazie Fantom Tip Bot e SpookySwap](<../.gitbook/assets/image (45).png>)
 
-* All you need to do now is to send your FTM tokens to your wallet address using the command `!withdraw <your_wallet_address>`. You will find your wallet address at the top of Metamask window.
+* Tutto quello che devi fare ora è ricevere i tuoi token $FTM all'indirizzo del tuo portafoglio usando il comando `!withdraw <indirizzo del tuo portafoglio>`. L'indirizzo del tuo portafoglio si trova nella parte superiore della finestra di Metamask.
 
-![Withdrawing from Discord account](../.gitbook/assets/ftm-faucet.png)
+![Ritirare i tuoi token dal tuo account Discord](../.gitbook/assets/ftm-faucet.png)
 
-![Fresh deposit in my Metamask wallet](../.gitbook/assets/ftm-mm.png)
+![Deposito ricevuto dal faucet al wallet Metamask](../.gitbook/assets/ftm-mm.png)
 
-## Bridging to Fantom
+## Trasferire assets da un'altra blockchain verso Fantom (Bridging)
 
-### Bridging stable coins / ETH / BTC
+### Trasferimento di stable coins / ETH / BTC
 
-If you want to bridge stable coins to Fantom, you can use the following list of bridges:
+Se vuoi trasferire stable coin su Fantom, puoi utilizzare il seguente elenco di bridge:
 
-* [AnySwap](https://anyswap.exchange/#/bridge): This is the officially supported bridge to send the MAI you minted on Polygon to Fantom (see the [MAI metaverse](../mai-university/mai-metaverse.md#fantom) guide for details). This solution supports many assets and many chains so that it will be easy for you to send your crypto currencies to Fantom. Please check the Reminder notes at the bottom of the bridging UI for transaction fees and expected execution time.
+* [AnySwap](https://anyswap.exchange/#/bridge): Questo è il bridge ufficialmente supportato per il trasferimento dei $MAI coniati su Polygon a Fantom(guarda la guida [MAI metaverse](../Universita-di-MAI/mai-metaverse.md) per maggiori dettagli). Questa soluzione supporta numerosi assets e diverse chain in modo da facilitare il più possibile il trasferimento di crypto valute a Fantom. Vi invitiamo a controllare **sempre** le note nella parte inferiore dell'interfaccia utente di bridging per conoscere le commissioni di transazione e il tempo di esecuzione previsto aggiornati.
 
-![Bridging some MAI from Polygon to Fantom](<../.gitbook/assets/image (43).png>)
+![Trasferimento di MAI da Polygon a Fantom](<../.gitbook/assets/image (43).png>)
 
-* [Celer Bridge](https://cbridge.celer.network/#/): offers bridging services for many chains for most stable coins, with fees ranging from 0.04% to 0.19% to bridge to Fantom (DYOR).
-* [xpollinate](https://www.xpollinate.io): low fees, and ensures that there's enough liquidity on the target chain for the token you want to bridge. The lower the liquidity (or the large the amount to bridge), the longer the transfer.
+* [Celer Bridge](https://cbridge.celer.network/#/): offre servizi di bridging per molte chain e per la maggior parte delle stable coins, con commissioni che vanno dallo 0.04% allo 0.19% per il trasferimento verso Fantom (DYOR).
+* [xpollinate](https://www.xpollinate.io): propone commissioni basse e garantisce che ci sia abbastanza liquidità sulla chain di destinazione per il token che trasferire. Minore è la liquidità (o maggiore è l'importo da coprire), più si allunga il tempo necessario al trasferimento.
 
-### Bridging other assets
+### Trasferire altri assets
 
-* Binance CEX: You will be able to buy the FTM token on Binance and bridge it directly to Fantom, but this is the only token you will be able to transfer.
-* [SpookySwap](https://spookyswap.finance/bridge): supports many networks and many tokens that you will be able to send to Fantom.
-* AnySwap: see description made in the stable coin section.
+* Binance CEX: potrai acquistare il token $FTM su Binance e trasferirlo direttamente al tuo portafoglio ma è l'unico token che potrai trasferire attraverso la rete Fantom.
+* [SpookySwap](https://spookyswap.finance/bridge): supporta molte reti e molti token che potrai inviare a Fantom.
+* AnySwap: vedi descrizione sopra nella sezione stable coins.
 
-## DeFi on Fantom
+## DeFi su Fantom
 
-Fantom has seen a pretty impressive expansion at the end of the summer 2021, especially with reward programs that helped attracting investors and developers on the chain. The growth has also been supported by blue chip projects that deployed their DApps on Fantom in September 2021, including Curve and SushiSwap.
+Fantom ha visto un'espansione piuttosto impressionante alla fine dell'estate 2021, in particolare con programmi di ricompensa che hanno contribuito ad attrarre investitori e sviluppatori sulla chain. La crescita è stata supportata anche da progetti "blue chip" che hanno portato le loro DApp su Fantom a settembre 2021, tra queste Curve e SushiSwap.
 
-* [BeethovenX](https://app.beethovenx.io/#/): This application is very similar to Balancer. You will be able to trade some tokens for others, and also enter balanced pools composed of multiple tokens. This is also the first official partner of Mai Finance on Fantom, and the only place where you will be able to swap your MAI, or use them in a MAI-USDC pool.
+* [BeethovenX](https://app.beethovenx.io/#/): Questa applicazione è molto simile a Balancer. Sarai in grado di scambiare alcuni token per altri e anche depositare in pool di farming bilanciati composti da più token. Balancer è il primo partner ufficiale di Mai Finance su Fantom nonchè l'unico posto (ad Ottobre 2021) dove potrai scambiare i tuoi $MAI o depositarli in un pool MAI-USDC.
 
-![Swapping MAI for a little more FTM](<../.gitbook/assets/image (44).png>)
+![Scambiare MAI per FTM](<../.gitbook/assets/image (44).png>)
 
-* [SpookySwap](https://spookyswap.finance): This is the biggest DEX (**D**ecentralized **Ex**change) on Fantom where you will be able to swap your tokens for others, deposit liquidity and farm yields, pretty much the same way you would do it on QuickSwap on Polygon. SpookySwap will reward you using the BOO token, the native token of the platform. As a side note, when you stake your BOO tokens, you will get xBOO, a yield baring token, in exchange, and you can use them to earn extra rewards (same principle as the dragon syrup on QuickSwap).
-* [SpiritSwap](https://app.spiritswap.finance): Traditional AMM and yield farming platform where you'll be able to swap tokens, create LP tokens and farm yields in liquidity pools. SpiritSwap will pay you with SPIRIT tokens that you can stake on the platform and get inSPIRIT tokens (SPIRIT will be locked for a certain period of time), the pendent of veCRV tokens. You can also use SpiritSwap for lending and borrowing while waiting for Mai Finance on Fantom.
-* [Tarot](https://www.tarot.to): Tarot is the Fantom version of Impermax, where you will be able to use your LP tokens from SpookySwap (or other DEXs/AMM) and use them to farm on the platform. You can also deposit single tokens and lend them on the specific pools where people will be able to borrow them to generate new LP tokens and leverage their farming amount. Be aware of liquidations if you leverage your LPs in a pool where the utilization is high.
-* [Scream](https://scream.sh): This is a clone of Compound where you will be able to lend your tokens and borrow against them. Lending your tokens will make you earn rewards in the token you lend, as well as SCREAM tokens that you will be able to use on other platforms.
-* [Curve](how-to-get-started-on-fantom.md#bridging-stable-coins-eth-btc): Curve is the blue chip project everyone knows well, where you will be able to deposit your tokens in specific pools (no need to deposit a balanced amount) and you will be rewarded in the tokens you lend, as well as CRV and wFTM tokens.
+* [SpookySwap](https://spookyswap.finance): Questo è il DEX più grande (**D**ecentralized **Ex**change) su Fantom in cui sarai in grado di scambiare i tuoi token con altri, depositare liquidità e farmare più o meno nello stesso modo in cui lo faresti su QuickSwap su Polygon. SpookySwap ti ricompenserà con il token $BOO, il token nativo della piattaforma. Come nota a margine, quando metti in stake i tuoi token $BOO, otterrai in cambio $xBOO, un token di rendimento, e potrai usarli per guadagnare ricompense extra (stesso principio del Dragon's Syrup su QuickSwap).
+* [SpiritSwap](https://app.spiritswap.finance): Automatic Marker Maker tradizionale e piattaforma di farming in cui sarai in grado di scambiare token, creare token LP e farmare in pool di liquidità. SpiritSwap ti pagherà con i token $SPIRIT che puoi mettere in stake sulla piattaforma ottenendo in cambio i token $inSPIRIT ($SPIRIT sarà bloccato per un certo periodo di tempo), ispirandosi al modello di veCRV. Puoi anche usare SpiritSwap per prestare e prendere in prestito, in attesa che  Mai Finance approdi su Fantom.
+* [Tarot](https://www.tarot.to): Tarot è la versione Fantom di Impermax, dove potrai utilizzare i tuoi token LP da SpookySwap (o altri DEX/AMM) e usarli per farmare sulla piattaforma. Puoi anche depositare singoli token e prestarli su pool specifici in cui le persone potranno prenderli in prestito per generare nuovi token LP e sfruttare il loro rendimento. Fai molta attenzione al rischio liquidazione se usi i tuoi LP in un pool in cui la percentuale di utilizzo è elevata.
+* [Scream](https://scream.sh): Scream è un clone di Compound in cui potrai prestare i tuoi token e prenderli in prestito usandoli come collaterale. Prestare i tuoi token ti farà guadagnare ricompense nel token prestato oltre ai token $SCREAM che potrai utilizzare come meglio ritieni opportuno.
+* [Curve](how-to-get-started-on-fantom.md#bridging-stable-coins-eth-btc): Curve è il progetto blue chip che tutti ben conosciamo dove potrai depositare i tuoi token in pool specifici (non è necessario depositare un importo bilanciato) e sarai ricompensato nei token prestati oltre ai token $CRV e $wFTM.
 
-![DAI+USDC dual pool on Curve on Fantom](../.gitbook/assets/ftm-crv.png)
+![Pool DAI+USDC di Curve su Fantom](../.gitbook/assets/ftm-crv.png)
 
-There are plenty of other opportunities on Fantom that will be described in other guides.
+Ci sono molte altre opportunità su Fantom che non mancheremo di descrivere in altre guide.
 
-## Other useful links
+## Altri link utili
 
 * [Fantom explorer](https://explorer.fantom.network)
 * [Fantom gas checker](https://ftmscan.com/gastracker)
-* Official [Fantom Discord](how-to-get-started-on-fantom.md#ftm-faucet) server
-* [DeBank](https://debank.com) portfolio managed
+* [Fantom Discord](how-to-get-started-on-fantom.md#ftm-faucet) 
+* [DeBank](https://debank.com), gestione portafoglio multi-chain
 
 ## Disclaimer
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Projects presented in this guide or just showcasing the possibilities on the network, and you should not be taken as an endorsement of the project.
+Questa guida NON è un consiglio finanziario e va considerata a pure scopo educativo. Fai sempre le tue ricerche. La discussione di un progetto in questa guida non deve essere considerata come un'approvazione del progetto stesso.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
 {% endhint %}

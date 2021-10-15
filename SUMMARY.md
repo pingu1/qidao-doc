@@ -22,7 +22,7 @@
 
 ## Tutorial di Fantom
 
-* [How to get started on Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
+* [Come iniziare con Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
 
 ## Università di MAI
 
