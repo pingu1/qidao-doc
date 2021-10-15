@@ -6,7 +6,7 @@ description: >-
 
 # Comment démarrer sur Avalanche
 
-## Qu'est-ce qu'Avalanche?
+## Avalanche, c'est quoi?
 
 Avalanche est une blockchain de 1ère couche (L1, comme Ethereum, Bitcoin, Solana, ...) qui fonctionne comme une plateforme pour des applications décentralisées et des réseaux blockchain personnalisés. Le réseau Avalanche est composé de 3 blockchains individuelles: X-Chain, C-Chain, et P-Chain. Chacune a un but précis, ce qui est une approche radicalement différente d'autres réseaux. Les blockchains Avalanche utilisent même un mécanisme de consensus différent, en fonction de leurs rôles.
 
