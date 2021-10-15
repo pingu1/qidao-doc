@@ -1,26 +1,26 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the Avalanche chain.
+  Neste guia vamos te explicar tudo o que precisas de saber para começares a
+  utilizar a rede Avalanche.
 ---
 
-# How to get started on Avalanche
+# Como começar na rede Avalanche
 
-## What is Avalanche?
+## O que é a rede Avalanche?
 
-Avalanche is a layer-one blockchain that functions as a platform for decentralized applications and custom blockchain networks. The Avalanche network consists of three individual blockchains: the X-Chain, C-Chain and P-Chain. Each chain has a distinct purpose, which is radically different from the approach of other, namely having all nodes validate all transactions. Avalanche blockchains even use different consensus mechanisms based on their use cases.
+A rede Avalanche é uma blockchain "layer-one" que funciona como uma plataforma para aplicações descentralizadas e redes de blockchains personalizadas. A rede Avalanche consiste em 3 redes individuais: rede-X, rede-C e rede-P. Cada rede serve um propósito distinto, o que é radicalmente diferente de outras blockchains, em que todos os nodos validam todas as transações. As várias redes da rede Avalanche utilizam diferentes mecanismos de consenso baseado na sua utilidade.
 
-Avalanche is 100% EVM compatible with the existing Ethereum toolchain, and its C-Chain offers all the same functionality as Ethereum but with higher throughput, sub-second finality, and much lower transaction fees. AVAX is the native gas token of the Avalanche network.
+A rede Avalanche é 100% EVM compativel com as ferramentas existentes na rede Ethereum e a rede-C oferece as mesmas funcionalidades que a rede Ethereum mas com maior rendimento, finalização abaixo de 1 segundo e transações com baixo custo. O token utilizado para gás é o token AVAX.
 
-## Getting on Avalanche
+## Aceder à rede Avalanche
 
-Before using the Avalanche network, you will need to create a wallet address. There are different wallet types that can be used including **software wallets **such as Metamask or the native [Avalanche Wallet](https://wallet.avax.network), as well as **hardware wallets **such as [Trezor](https://trezor.io/coins/) or [Ledger](https://support.ledger.com/hc/en-us/articles/360020765779-Avalanche-AVAX-?docs=true). 
+Antes de utilizar a rede Avalanche precisas de criar um endereço para uma carteira. Existem diferentes carteiras disponíveis, tanto de software (Metamask ou a carteira nativa [Avalanche Wallet](https://wallet.avax.network)) ou hardware ( [Trezor](https://trezor.io/coins/) ou [Ledger](https://support.ledger.com/hc/en-us/articles/360020765779-Avalanche-AVAX-?docs=true).)
 
-For the purpose of this tutorial, we'll be using Metamask. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../tutoriais-para-polygon/how-to-get-started-on-polygon.md).
+Para o propósito deste tutorial, vamos usar a carteira Metamask. Se ainda não tens uma carteira instalada, podes encontrar as instruções no guia [Como começar a tua jornada na rede Polygon.](../tutoriais-para-polygon/how-to-get-started-on-polygon.md)
 
-### Adding Avalanche to Metamask
+### Adicionar a rede Avalanche na carteira Metamask
 
-In order to use the Avalanche network, you'll need to add it to Metamask. To do so, click on the Network dropdown menu (it'll read Ethereum Mainnet if this is the first time you've set it up), then select custom RPC. You may then add the following values on the form that pops up:
+Para conseguires aceder à rede Avalanche, precisas de a adicionar à carteira Metamask. Para fazer isso, tens que clicar no menu suspenso _"Network" _(irá aparecer como Rede Ethereum se for a primeira vez que adicionas uma rede) e de seguida selecionar _"custom RPC"_. Podes depois adicionar os seguintes parâmetros:
 
 * **Network Name**: Avalanche Network
 * **New RPC URL**: [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc)
@@ -28,54 +28,54 @@ In order to use the Avalanche network, you'll need to add it to Metamask. To do 
 * **Symbol**: AVAX
 * **Explorer**: [https://cchain.explorer.avax.network/](https://cchain.explorer.avax.network)
 
-Save the changes, and Metamask will automatically switch you over to the Avalanche network.
+Guarda as mudanças e a carteira Metamask mudará automaticamente para a rede Avalanche.
 
-![Success! You're now on Avalanche!](../.gitbook/assets/avax_MM.png)
+![Successo! Tens acesso à rede Avalanche!](../.gitbook/assets/avax_MM.png)
 
-## Bridging to Avalanche
+## Transferindo fundos para a rede Avalanche
 
-### Faucets
+### Torneiras (Faucets)
 
-There are currently no faucets available on the Avalanche mainnet. If you need some AVAX to cover gas costs, you will have to send AVAX directly to your wallet from a centralized exchange, or by bridging tokens via the Elknet bridge. More on this second option in the [Bridges](how-to-get-started-on-avalanche.md#bridges) section below.
+De momento não existem torneiras disponiveis na rede Avalanche. Se precisas de tokens AVAX para pagar as transações, tens que enviar AVAX diretamente da tua carteira de uma CEX (plataforma centralizda de criptomoedas) ou transferir tokens através de pontes.
 
-### Bridges
+### Pontes (Bridges)
 
-* [Official Avalanche bridge](https://bridge.avax.network) - Avalanche has its own bridge which can be used to bridge assets from the Ethereum mainnet to Avalanche. Gas fees are paid in the bridged token and can be high since you are bridging from Ethereum.
-* [Anyswap](https://anyswap.exchange/#/bridge) also allows bridging assets to many different chains. There are minimum token amounts for bridging which will vary depending on the token, but bridging cost is a flat fee.
-* [Celer Bridge](https://cbridge.celer.network/#/transfer) offers bridging services for many chains with a great user interface. Bridging fee is about 3% to Avalanche.
-* [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer) offers an easy to use and intuitive interface with low fees. As a side note, Relay Chain is the solution officially supported to [bridge MAI to Avalanche](../Universidade-do-MAI/mai-metaverse.md#avalanche).
-* [Elknet](https://app.elk.finance/#/elknet) is a bridging service offered by Elk Finance, a decentralized exchange available on multiple networks including Avalanche, Binance, Fantom, Polygon, and xDai. What sets Elknet apart from the other bridges on this list is that no AVAX is required for bridging, but there is a catch which we will go over below. Bridging cost is just the gas fee for the transaction.
-  * In order to move your tokens to Avalanche through Elknet, you will have to first convert them into Elk, Elk Finance's native token. 
-  * You can then use the bridge to move your ELK from the supported networks to Avalanche, and if you check the "Swap $ELK 1 for gas", a portion of your transfer will be converted to AVAX. 
-  * Once the bridging is complete (usually less than 10 minutes), you can switch your wallet to the Avalanche network and you'll see your ELK and a bit of AVAX ready to deploy. You can now swap your ELK directly on the site to any supported token on Avalanche.
-  * The same can be done in reverse to move back to Polygon or any other supported chain.
+* [Ponte oficial Avalanche](https://bridge.avax.network):  A rede Avalanche fornece uma ponte para transferir os teus tokens da rede Ethereum. As taxas de transação são pagas com o token a ser transferido, podendo ser elevadas tendo em conta que estás a transferir da rede Ethereum.
+* [Anyswap](https://anyswap.exchange/#/bridge): Ponte que permite a transferência de tokens para várias redes.  Existe um número minimo de tokens a ser transferidos que varia consoante o token, mas o custo de transação é geralmente baixo.
+* [Celer Bridge](https://cbridge.celer.network/#/transfer): Ponte que oferece transferência de tokens entre várias redes. A taxa de transação é de 3% para a rede Avalanche.
+* [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer): Ponte que oferece uma interface intuitiva com baixos custos de transação. Adicionalmente, esta ponte é a solução oficialmente suportada para transferir tokens MAI para a rede avalanche. 
+* [Elknet](https://app.elk.finance/#/elknet): Serviço de transferência oferecido pela plataforma ElK Finance, uma plataforma descentralizada disponivel em várias redes como Avalanche, Binance, Fantom, Polygon e xDai. O que diferencia esta plataforma das outras pontes é que não precisas de AVAX para fazer a transferência, existindo no entanto pormenores  técnicos que vamos descrever a seguir:
+  * De forma a transferires os teus tokens através da ponte Elknet, primeiro tens que converter os  teus tokens para o token **Elk**, o token nativo da plataforma Elk Finance.
+  * Podes depois utilizar a ponte para transferior os teus tokens Elk para outras redes como a  rede Avalanche. Se clicares na caixa "Swap $ELK 1 for gas" uma porção da tua transferência é convertida em AVAX para pagar os custos da transação na rede Avalanche.
+  * Após a transferência estar concluída (geralmente leva menos de 10 minutos) podes trocar a tua carteira para rede Avalanche e poderás ver os teus tokens ELK e tokens AVAX prontos a serem utilizados. Podes agora trocar os tokens ELK para os tokens da tua escolha.
+  * O mesmo pode ser feito no sentido inverso em qualquer rede suportada.
 
-![Elknet interface](../.gitbook/assets/AVAX_elkswap.png)
+![Interface Elknet](../.gitbook/assets/AVAX_elkswap.png)
 
-## DeFI on Avalanche
+## DeFI na rede Avalanche
 
-Avalanche has seen a great deal of growth in recent months which has lead not only to great native projects being developed, but large deFi blue chips are beginning to make the move to the network, including Curve which has yet to launch there.
+A rede Avalanche viu um grande crescimento nos últimos meses o que resultou no desenvolvimento de vários projetos nativos e na migração de projectos DeFi estabelecidos noutros cadeias, como o protolo Curve e Aave.
 
-* [Aave](https://app.aave.com/dashboard) recently launched on Avalanche and has already seen $4b in total value locked. Supported collateral tokens on Avalanche include Aave, Avalanche, Dai, Tether, USDC, WBTC, and WETH. camAVAX tokens will be accepted as collateral for Mai Finance vaults.
-* [Beefy Finance](https://app.beefy.finance/#/avax) is probably well known to most deFI users as it is available on other chains including Binance, Fantom, Harmony, Polygon, and more. Beefy is what is known as an autocompounder, and currently provides great farming APYs both for single token and dual token farms. Beefy does offer autocompounding functionality for the [MAI/AVAX](https://app.beefy.finance/#/avax/vault/joe-mai-wavax) and [MAI/USDC.e ](https://app.beefy.finance/#/avax/vault/joe-mai-usdc.e)LPs found on Trader Joe.
-* [Benqi](https://app.benqi.fi/markets) is a market protocol similar to Aave and was the first of its kind on the network. Supported collateral tokens include Avalanche, Dai, Link, Tether, USDC, WBTC, and WETH.
+* [Aave](https://app.aave.com/dashboard) lançou recentemente na rede Avalanche tendo já acumulado 4 biliões de doláres em TVL. Os tokens que podem ser utilizados como colateral são AVAX, Aave, Dai, Tether, USDC, WBTC, and WETH. Tokens camAVAX são aceitados como colateral nas vaults da plataforma Mai Finance.
+* [Beefy Finance](https://app.beefy.finance/#/avax) é conhecido pela maior parte dos utilizadores DeFi e está disponível em várias cadeias como Binance, Fantom, Harmony, Polygon e muitas mais. Esta app é conhecida como um "autocompounder" que fornece valores de APY elevados tanto para "farms" de token único ou duplo. De momento podes utilizar a plataforma Beefy para fazer "autocompounding" dos tokens [MAI/AVAX](https://app.beefy.finance/#/avax/vault/joe-mai-wavax) e [MAI/USDC.e ](https://app.beefy.finance/#/avax/vault/joe-mai-usdc.e)encontradas na plataforma Trader Joe.
+* [Benqi](https://app.benqi.fi/markets) é um protocolo semelhante à plataforma Aave e foi o primeiro a depor na rede. Os tokens aceites como colateral são Avalanche, Dai, Link, Tether, USDC, WBTC, e WETH.
 
-![BenQI interface](../.gitbook/assets/AVAX_benqi.png)
+![Interface BenQI](../.gitbook/assets/AVAX_benqi.png)
 
-* [TraderJoe](https://www.traderjoexyz.com/#/home) is a decentralized exchange and has become one of the top projects on Avalanche with an intuitive user interface, and a great zapping feature that allows users to convert a token directly into a liquidity pool token. TraderJoe is also the official partner with a [MAI-USDC LP pool on Avalanche](../Universidade-do-MAI/mai-metaverse.md#using-mai-on-avax).
+* [TraderJoe](https://www.traderjoexyz.com/#/home) é uma plataforma descentralizada que se tornou um dos projetos mais conceituados da rede Avalanche com uma interface de usuário intuitiva e um recurso de troca de tokens que permite a sua conversão diretamente para "liquidity pools". A plataforma TraderJoe é também um dos parceiros oficiais da plataforma Mai Finance com um LP de MAI-USDC.
 
 ![](../.gitbook/assets/AVAX_joe.png)
 
-* [YieldYak](https://yieldyak.com/farms) is another autocompounder that also provides high farming APYs. Its single token farms work in conjuction with BenQI to leverage higher returns and are therefore to be considered risky.
+* [YieldYak](https://yieldyak.com/farms) é outro "autocompounder" que oferece APYs elevados. As "farms" de tokens únicos trabalham em conjunto com a app BenQI par aumentar os retornos sendo assim considerado uma jogada de risco elevado.
 
-![](../.gitbook/assets/avax_yak.png)
+![Interface YieldYak](../.gitbook/assets/avax_yak.png)
 
-## Other useful links
+## Outros links úteis
 
 * [Avalanche Network](htts://avax)
 * [Avalanche community links](https://www.avax.network/community) (Discord, Medium, Reddit, Twitter, etc)
 * [Debank](https://debank.com), portfolio manager
 
-## Disclaimer
+## Aviso
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Este guia não tem como intuito oferecer conselhos financeiros e deve ser apenas considerado como uma ferramenta educativa. Faz sempre a tua própria pesquisa. Projetos discutidos neste guia não devem ser considerados como se estivessem a ser promovidos.
