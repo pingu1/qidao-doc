@@ -19,7 +19,7 @@
 
 ## Fantom tutorials
 
-* [How to get started on Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
+* [Cómo comenzar en Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
 
 ## Universidad de MAI <a href="universidade-de-mai" id="universidade-de-mai"></a>
 
