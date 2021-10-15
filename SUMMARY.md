@@ -17,11 +17,11 @@
 
 * [Hướng dẫn khởi đầu trên mạng Avalanche](mai-eqi-qi-tutorials/how-to-get-started-on-avalanche.md)
 
-## Fantom tutorials
+## Fantom toàn tập
 
-* [How to get started on Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
+* [Cách bắt đầu trên mạng Fantom](fantom-toan-tap/how-to-get-started-on-fantom.md)
 
-## MAI University <a href="debt-management-tutorials" id="debt-management-tutorials"></a>
+## Học việc MAI <a href="debt-management-tutorials" id="debt-management-tutorials"></a>
 
 * [Thu nhập thụ động với QiDao](debt-management-tutorials/earning-passive-income-with-qidao.md)
 * [MAI hoạt động như thế nào?](debt-management-tutorials/how-does-mai-work.md)
