@@ -17,11 +17,11 @@
 
 * [Cómo comenzar en Avalanche](tutoriales-de-avalanche/how-to-get-started-on-avalanche.md)
 
-## Fantom tutorials
+## Tutoriales de Fantom 
 
-* [Cómo comenzar en Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
+* [Cómo comenzar en Fantom](tutoriales-de-fantom/how-to-get-started-on-fantom.md)
 
-## Universidad de MAI <a href="universidade-de-mai" id="universidade-de-mai"></a>
+## Artículos sobre MAI <a href="universidade-de-mai" id="universidade-de-mai"></a>
 
 * [Genera Ingresos Pasivos con Qi DAO](earning-passive-income-with-qidao.md)
 * [¿Cómo funciona MAI?](how-does-mai-work.md)
