@@ -1,125 +1,127 @@
 ---
 description: >-
-  Passive income is the art of making money which flows in regular interval of
-  time by doing minimal work for it. Now, Qi DAO lets you do the same by locking
-  your QI tokens.
+  Passives Einkommen ist die Kunst, Geld zu verdienen, das in regelmäßigen
+  Zeitabständen fließt, indem man minimale Arbeit dafür leistet. Mit QiDAO
+  kannst Du dasselbe tun, indem Du deine QI-Token festle
 ---
 
-# Earning Passive Income with QiDAO
+# Passives Einkommen mit QiDAO
 
-## Passive income through QI DAO?
+## Woher kommen die Einnahmen?
 
-Qi DAO lets you earn weekly share of the revenue earned by the protocol, precisely:
+Mit Qi DAO verdienst Du wöchentlich einen Anteil an den Einnahmen des Protokolls, genauer gesagt:
 
-* 30% of weekly repayment fee revenue (plus a 25% boost). 
-* 100% of LP rewards received from using deposit fee revenue to farm on QuickSwap 
-* 30% of weekly USDC Swap fees. 
+* 30 % der wöchentlichen Rückzahlungsgebühreneinnahmen (plus ein 25 % Boost).
+* 100% der LP-Belohnungen, die durch die Verwendung von Einzahlungsgebühren zum Farmen auf QuickSwap eingenommen werden
+* 30% der wöchentlichen USDC-Swap-Gebühren.
 
-This share of revenue is distributed to the people who stake and lock their QI tokens for a certain period of time, the rewards are then distributed in the form of QI tokens which is airdropped to your wallets directly. These rewards will be airdropped each Wednesday, and you can check your previous rewards [here](https://app.mai.finance/rewards).
+Dieser Anteil der Einnahmen wird an die Leute verteilt, die ihre QI-Token für eine bestimmte Zeitspanne einzahlen und sperren. Die Belohnungen werden dann in Form von QI-Token verteilt, die direkt in dein Wallet übertragen werden. Diese Belohnungen werden jeden Mittwoch verteilt, und du kannst deine bisherigen Belohnungen [hier](https://app.mai.finance/rewards) einsehen.
 
-## Introduction to snapshots
+## Snapshots als Basis der Belohnungsberechnung
 
-A snapshot is basically a recording of the the state of a blockchain on a particular block height, this means that the snapshot will record the contents of the entire blockchain ledger, which includes all existing addresses and their associated data (transactions, fees, balance, so on). Since Qi is on the Polygon blockchain we can check when the next snapshot is going to take place in [Polygonscan](https://polygonscan.com).
+Ein Snapshot ist im Grunde eine Aufzeichnung des Zustands der Blockchain bei einer bestimmten Blockhöhe. Das bedeutet, dass der Snapshot den Inhalt des gesamten Blockchain-Ledgers aufzeichnet, was alle vorhandenen Adressen und die damit verbundenen Daten (Transaktionen, Gebühren, Guthaben usw.) umfasst. Da sich Qi auf der Polygon-Blockchain befindet, können wir auf [Polygonscan](https://polygonscan.com) überprüfen, wann der nächste Snapshot stattfinden wird.
 
-You become eligible for the rewards if you stake your Qi tokens for at least \~10 days depending on when you lock your tokens. In other words, a valid staking period should contain at least 2 snapshots, so you'll get paid the Wednesday following the 2nd snapshot.
+Du hast Anspruch auf die Belohnungen, wenn du deine Qi-Token für mindestens \~10 Tage einsetzt, je nachdem, wann du deine Token einzahlst und sperrst. Mit anderen Worten, ein gültiger Einsatzzeitraum sollte mindestens 2 Snapshots enthalten, so dass du am Mittwoch nach dem zweiten Snapshot bezahlt wirst.
 
-![How to become eligible for the Qi rewards](../.gitbook/assets/unknown.png)
+![Zeitlicher Ablauf der  Qi Belohnungen](../.gitbook/assets/unknown.png)
 
-This is an example of a bare minimal staking period. Of course, you can stake for a longer period of time, and there are actually benefits locking your Qi for a long period. The longer you lock, the bigger the reward boost will be (see [What is Qi Powah](earning-passive-income-with-qidao.md#what-is-qi-powah) and the [FAQ](earning-passive-income-with-qidao.md#faqs-of-qi-staking) for more details).
+Dies ist ein Beispiel für eine minimale Haltedauer. Natürlich kannst du deinen Einsatz auch über einen längeren Zeitraum tätigen, und es hat tatsächlich Vorteile, dein Qi über einen langen Zeitraum zu sperren. Je länger du sperrst, desto größer ist der Belohnungsschub (siehe auch [Was ist Qi Powah](earning-passive-income-with-qidao.md#was-ist-qi-boost-and-qi-powah) und das [FAQ](earning-passive-income-with-qidao.md#faqs-zum-qi-staking) für mehr Details).
 
-## Understanding Qi Boost and Qi Powah
+## Qi Boost und Qi Powah
 
-Now that we know what a snapshot is, we are ready to start earning some passive income using Qi. In order to do so, we have to go to the [boost ](https://app.mai.finance/boost)page in Mai Finance.
+Jetzt, da wir wissen, was ein Snapshot ist, können wir damit beginnen, mit Qi ein passives Einkommen zu verdienen. Dazu müssen wir auf die [Boost-Seite](https://app.mai.finance/boost) von Mai Finance gehen.
 
-### What is Qi Boost and Qi Powah?
+### Was ist Qi Boost & Qi Powah?
 
-Qi Boost is your opportunity to increase the power and rewards of your Qi. The longer you lock your Qi the greater your voting power (Qi Powah) and weekly reward share will be. You can boost up to 4x by locking Qi for 4 years. Your boosts slowly reduces over your locking period, eventually unlocking your Qi, however you can always increase your boost to maintain your boosted level. Your boosted Qi is represented in eQi (escrowed Qi) and will remain in escrow until your unlock date (non-transferable).
+Qi Boost ist deine Chance, die Macht und die Belohnungen deiner Qis zu erhöhen. Je länger du dein Qi sperrst, desto größer sind deine Stimmkraft (Qi Powah) und dein wöchentlicher Belohnungsanteil. Du kannst bis zu 4x boosten, indem du dein Qi für vier Jahre sperrst. Dein Boost nimmt im Laufe der Sperrzeit langsam ab, bis dein Qi schließlich freigeschaltet wird. Dein geboostetes Qi wird in eQi - Escrowed (Treuhand) Qi- dargestellt und bleibt bis zu deinem Entsperrungsdatum in Treuhandschaft (nicht übertragbar).
 
-This can means that locking Qi have the following advantages:
+Das heißt, dass das Sperren von Qi die folgenden Vorteile hat:
 
-* You can start earning weekly rewards just by locking your Qi tokens.
-* As a DAO, your voice will matter and depending on how many Qi tokens you lock, and how much time it is locked, you'll have more voting power of what will happen in the community. You can check the currents proposals of Qi DAO [here](https://snapshot.org/#/qidao.eth).
+* Du bekommst wöchentliche Belohnungen, indem du deine Qi-Tokens sperrst.
+* Als Mitglied einer DAO hat deine Stimme Gewicht, und je nachdem, wie viele Qi-Token du sperrst und wie lange du sie sperrst, hast du ein größeres Stimmrecht bei den Geschehnissen in der Gemeinschaft. Du kannst die aktuellen Vorschläge von Qi DAO [hier](https://snapshot.org/#/qidao.eth) einsehen.
 
-### Locking your Qi
+### Festsetzen deiner $Qi
 
-To lock your Qi tokens you need to go the Qi Powah Boost lock bar and select how many tokens do you want to lock and the time period for which you want to lock your Qi tokens. The longer the time period the more **eQi** you will get, remember that eQi is just how many Qi tokens you will have once the locking period is over.
+Um deine Qi-Token zu sperren, musst du die Qi-Powah-Boost-Sperrleiste aufrufen und auswählen, wie viele Token und für wie lange du sie sperren möchtest. Je länger der Zeitraum ist, desto mehr eQi erhälst du. Vergiss nicht, dass eQi nur die Anzahl der Qi-Token angibt, die du nach Ablauf der Sperrzeit hast.
 
 ![Qi Powah Boost Lock](../.gitbook/assets/Captura.JPG)
 
-Once you have decided all that, click on approve and approve the transaction, then click on `Increase locked QI and lock time` and confirm the transaction.
+Wenn du das alles entschieden hast, klicke auf "approve" und genehmige die Transaktion, dann klicke auf "Increase locked QI and lock time" und bestätige die Transaktion.
 
 {% hint style="info" %}
-Please be aware that once you lock your Qi tokens for a given period, there's no way to unlock them before the lock period is over. Please be very cautious and aware when using this feature.
+Bitte bedenke, dass du deine Qi-Token nicht mehr entsperren kannst, wenn du sie für einen bestimmten Zeitraum gesperrt hast. Bitte sei sehr vorsichtig und aufmerksam, wenn du diese Funktion nutzt.
 {% endhint %}
 
-Congratulations, now you are officially a Qi staker you will receive on the following weeks a weekly pay check. If you have any doubt wether you are qualified for the next week's revenue sharing, you can see on the boost page if you are qualified or not.
+Herzlichen Glückwunsch, jetzt bist du offiziell ein Qi-Staker und erhältst ein wöchentliches passives Einkommen. Wenn du Zweifel hast, ob du für die nächste Woche qualifiziert bist, kannst du auf der Boost-Seite sehen, ob du qualifiziert bist oder nicht.
 
 ![](<../.gitbook/assets/Captura (1).JPG>)
 
-### Stats of the Qi Powah
+### Statistik zu Qi Powah
 
-If you want to check the stats of the Qi Boosting, you can go to this [page ](https://app.mai.finance/boost/stats)to check the amount of Qi locked, as well as the average lock time or the revenue that the protocol earn each week.
+Wenn du die Statistiken vom Qi-Boosting überprüfen willst, kannst du auf diese [Seite](https://app.mai.finance/boost/stats) gehen, um die Menge an gesperrtem Qi zu überprüfen, sowie die durchschnittliche Sperrzeit oder die Einnahmen, die das Protokoll jede Woche erwirtschaftet.
 
-## FAQs of Qi Staking
+## FAQs zum Qi Staking
 
-* **When do I have to lock my QI?** 
+* **Bis wann muss ich meinen QI sperren?**
 
-Snapshots are on Sunday and they record who has locked their $QI for at least a week at the time of the snapshot. If you do, you qualify for a share of the revenue for the upcoming week
+Snapshots werden am Sonntag erstellt und erfassen, wer zum Zeitpunkt des Snapshots seinen $QI für mindestens eine Woche gesperrt hat. Wenn du das tust, qualifizierst du dich für einen Anteil an den Einnahmen für die kommende Woche
 
-* **Where can I see when is the snapshot?** 
+* **Wo kann ich sehen, wann der Snapshot stattfindet?**
 
-Check the boost page, copy the “Next blocks” first number and paste it on Polygonscan. It will tell you the exact estimation time of the snapshot.
+Schau dir die Boost-Seite an, kopiere die erste Zahl bei "next block " und füge sie bei Polygonscan ein. So erfährst du den genauen Zeitpunkt für den Snapshot.
 
-* **For how long do I have to lock my QI?** 
+* **Für wie lange muss ich meinen QI sperren?**
 
-At he moment of the snapshot it has to be locked at least 1 full week. If you want to make 100% sure that you will be eligible, we recommend to lock for 2 weeks or more.
+Zum Zeitpunkt des Snapshots muss dein Qi mindestens eine volle Woche gesperrt sein. Wenn du 100%ig sicher sein willst, dass du in den Genuss der Prämien kommst, empfehlen wir eine Sperrzeit von 2 Wochen oder mehr.
 
-* **When do I receive my rewards?** 
+* **Wann erhalte ich meine Zahlungen?**
 
-Every Wednesday, they will be either airdropped to your wallet or collectable from rewards page. Timing might be somewhat flexible, please be patient as the team has to verify before release them.
+Jeden Mittwoch werden die Belohnungen entweder per Airdrop in dein Wallet geschickt oder du kannst sie auf der Rewards-Seite abholen. Das Timing kann etwas flexibel sein, bitte sei geduldig, da das Team sie erst überprüfen muss, bevor sie freigegeben werden.
 
-* **But I locked almost 2 weeks ago and I didn’t receive anything yet!** 
+* **Aber ich habe vor fast 2 Wochen abgeschlossen und noch nichts erhalten!**
 
-There’s a few possibilities here: Either everything is fine but you still have to wait until next Wednesday, or at the moment of the snapshot it was locked for less than a week. Rewards are distributed roughly 10 days after snapshots.
+Hier gibt es mehrere Möglichkeiten: Entweder ist alles in Ordnung, aber du musst immer noch bis nächsten Mittwoch warten, oder zum Zeitpunkt des Snapshots war es für weniger als eine Woche gesperrt. Die Belohnungen werden etwa 10 Tage nach dem Snapshot verteilt.
 
-* **What tokens will I receive?** 
+* **Welche Token werde ich erhalten?**
 
-$QI staking rewards are distributed in $QI.
+$QI-Staking-Belohnungen werden in $QI ausgezahlt.
 
-* **Where do these rewards come from?** 
-  * 100% gains from farming deposit fee revenue ($2,245,681 used to farm as of week 14) 
-  * 30% of repayment fee revenue ($18,362 average weekly revenue)
-  * 30% of Anchor/Swap fee revenue ($178,365 average weekly revenue)
-* **What is eQI and what can I do with it?** 
+* **Woher kommen die Belohnungen?**
+  * 100% der Einnahmen aus den Farming-Einzahlungsgebühren ($2.245.681, die zum Farmen verwendet wurden, Stand: KW 14)
+  * 30% der Einnahmen aus Rückzahlungsgebühren ($18.362 durchschnittliche wöchentliche Einnahmen)
+  * 30% der Einnahmen aus Anchor/Swap-Gebühren ($178.365 durchschnittliche wöchentliche Einnahmen)
+* **Was ist eQI und was kann ich damit machen?**
 
-eQI (escrowed QI) represents the boost that you're getting on your voting power and Qi rewards. So for the purposes of voting and getting Qi rewards, 1 eQi counts as 1 Qi
+eQI (escrowed QI) stellt den Boost dar, den du für dein Stimmrecht und deine Qi-Belohnungen erhältst. Wenn du also abstimmen und Qi-Belohnungen erhalten möchtest, zählt 1 eQi als 1 Qi.
 
-* **But wait, I locked to get rewards. What’s this voting power?** 
+* **Aber Moment, ich habe gestaket, um Belohnungen zu erhalten. Was ist dieses Stimmrecht?**
 
-QiDao is a DAO (Decentralized Autonomous Organization) and the future of the protocol is decided by the community. As a holder of $QI you are entitled to vote on QIP (QiDao Improvement Proposals) published on Governance page.
+QiDao ist eine DAO ( Dezentrale Autonome Organisation) und die Zukunft des Protokolls wird von der Gemeinschaft entschieden. Als Inhaber von $QI bist du berechtigt, über QIP (QiDao Improvement Proposals) abzustimmen, die auf der Governance-Seite veröffentlicht werden.
 
-* **What APR can I expect by locking $QI?** 
+* **Welche APR kann ich erwarten, wenn ich $QI sperre?**
 
-Every week is different as the rewards depends on how much eQI there is and how much revenue did the protocol collect that week. You can get some estimates from the eQI APY on boost page, the boost stats and the weekly updates where we share past revenues.
+Jede Woche ist anders, da die Belohnung davon abhängt, wie viele eQI es gibt und wie viele Einnahmen das Protokoll in dieser Woche gesammelt hat. Du kannst einige Schätzungen aus dem eQI-APY auf der Boost-Seite, den Boost-Statistiken und den wöchentlichen Updates, in denen wir vergangene Einnahmen mitteilen, erhalten.
 
-* **Can I add more QI to my current staking or make it last longer?** 
+* **Kann ich mehr QI zu meinem aktuellen Einsatz hinzufügen oder ihn verlängern?**
 
-Yes, you can do both without affecting your current staking. Just select the amount, the time to add, click increase and confirm.
+Ja, beides ist möglich, ohne dass sich dies auf deinen aktuellen Einsatz auswirkt. Du wählst einfach den Betrag und die Dauer aus, klickst auf Erhöhen und bestätigst.
 
-* **Can I lock my QI for different amounts of time?** 
+* **Kann ich meine $QI für verschiedene Zeiträume sperren?**
 
-Currently that’s not possible within the same account. However, you can quickly do that by adding a new account to your wallet. That way you can lock for a long time with your main one and for shorter periods of time with a secondary address.
+Derzeit ist das innerhalb eines Kontos nicht möglich. Du kannst dies jedoch schnell tun, indem du ein neues Konto zu deinem Wallet hinzufügst. Auf diese Weise kannst du dein Hauptkonto für eine lange Zeit sperren und dein Zweitkonto für eine kürzere Zeitspanne.
 
-* **What will happen when the lock time is due?** 
+* **Was passiert, wenn die Sperrzeit abgelaufen ist?**
 
-You will have to click withdraw and will receive in your wallet the same amount you initially locked. But I locked for 4 years and see that I have 4 times more eQI than QI locked That’s normal. eQI will gradually decrease as time passes by and in the end it will be equal to your initial QI. In the meantime you will enjoy a boost on your voting power and weekly rewards.
+Du musst auf Auszahlung klicken und erhältst in deinem Wallet den gleichen Betrag, den du ursprünglich gesperrt hast. _Aber ich habe 4 Jahre lang gesperrt und sehe, dass ich 4 Mal mehr eQI als QI gesperrt habe._ Das ist normal. eQI wird im Laufe der Zeit allmählich abnehmen und am Ende wird es deinem ursprünglichen QI entsprechen. In der Zwischenzeit kannst du dein Stimmrecht und deine wöchentlichen Belohnungen steigern.
 
-## Disclaimer
+*
 
-You can find an article on a similar topic covered by Genkham [here](https://medium.com/@GenKham/earning-passive-income-with-qi-dao-b92a6a3721bd).
+## Haftungsausschluss
 
-This guide is definitely not financial advice, it was made with an educational goal in mind. The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Einen Artikel zu einem ähnlichen Thema von Genkham findest du [hier](https://medium.com/@GenKham/verdienen-passives-einkommen-mit-qi-dao-b92a6a3721bd).
+
+Dieser Leitfaden ist definitiv keine Finanzberatung, er wurde mit einem pädagogischen Ziel vor Augen erstellt. Das Ziel war nicht, Tipps zu geben, die man blind befolgen sollte. Deshalb mach bitte deine Hausaufgaben und deine eigenen Analysen, und investiere nur so viel, wie du bereit bist, zu verlieren.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Bedenke, dass eine Strategie, die zu einem bestimmten Zeitpunkt gut funktioniert, zu einem anderen Zeitpunkt schlecht abschneiden (und dich Geld kosten) kann. Bitte bleib informiert, behalte die Märkte und deine Investitionen im Auge und führe wie immer deine eigenen Recherchen durch.
 {% endhint %}

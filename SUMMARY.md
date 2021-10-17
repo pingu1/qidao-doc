@@ -23,7 +23,7 @@
 
 ## MAI University
 
-* [Earning Passive Income with QiDAO](MAI-university/earning-passive-income-with-qidao.md)
+* [Passives Einkommen mit QiDAO](MAI-university/earning-passive-income-with-qidao.md)
 * [How does MAI work?](MAI-university/how-does-mai-work.md)
 * [MAI loans and Vaults incentives](MAI-university/mai-loans-and-vaults-incentives.md)
 * [Debt repayment - Why and When?](MAI-university/debt-repayment-why-and-when.md)
