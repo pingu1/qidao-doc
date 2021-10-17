@@ -21,7 +21,7 @@
 
 * [How to get started on Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
 
-## MAI University <a href="MAI-university" id="MAI-university"></a>
+## MAI University
 
 * [Earning Passive Income with QiDAO](MAI-university/earning-passive-income-with-qidao.md)
 * [How does MAI work?](MAI-university/how-does-mai-work.md)
@@ -29,7 +29,7 @@
 * [Debt repayment - Why and When?](MAI-university/debt-repayment-why-and-when.md)
 * [Debt repayment - How?](MAI-university/debt-repayment-how.md)
 * [MAI Metaverse](MAI-university/mai-metaverse.md)
-* [How to use MAI in the real life](MAI-university/how-to-use-mai-in-the-real-life.md)
+* [Wie man MAI außerhalb der Kryptowelt nutzen kann](MAI-university/how-to-use-mai-in-the-real-life.md)
 
 ## Join the Community <a href="community" id="community"></a>
 
