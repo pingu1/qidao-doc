@@ -21,7 +21,7 @@
 
 * [Cách bắt đầu trên mạng Fantom](fantom-toan-tap/how-to-get-started-on-fantom.md)
 
-## Học việc MAI <a href="debt-management-tutorials" id="debt-management-tutorials"></a>
+## Học viện MAI <a href="debt-management-tutorials" id="debt-management-tutorials"></a>
 
 * [Thu nhập thụ động với QiDao](debt-management-tutorials/earning-passive-income-with-qidao.md)
 * [MAI hoạt động như thế nào?](debt-management-tutorials/how-does-mai-work.md)
