@@ -18,7 +18,7 @@ Finally, Fantom is 100% EVM (**E**thereum **V**irtual **M**achine) compatible, m
 
 Fantom being EVM compatible, if you already have a wallet for other EVM chains (Ethereum Mainnet, Polygon or Avalanche), you will be able to use it. Else, it's time to create wallet address. There are different wallet types that can be used: **software wallets** like Metamask or [fWallet](https://pwawallet.fantom.network/#/), or **hardware wallets** like [Trezor](https://trezor.io/coins/) or [Ledger](https://fantom.foundation/blog/how-to-set-up-your-ledger-nano-s-x-with-fantom/).
 
-For this guide, and because we're using Metamask in all our other guides, we'll be using Metamask, but feel free to use any other software/hardware wallet you like. If you need instruction on how you can install Metamask, you can find instruction on [the polygon guide](../polygon-tutorials/how-to-get-started-on-polygon.md#downloading-metamask).
+For this guide, and because we're using Metamask in all our other guides, we'll be using Metamask, but feel free to use any other software/hardware wallet you like. If you need instruction on how you can install Metamask, you can find instruction on [the polygon guide](../investment-tutorials/how-to-get-started-on-polygon.md#downloading-metamask).
 
 ### Adding Fantom to Metamask
 

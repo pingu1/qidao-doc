@@ -44,7 +44,7 @@ Das heißt, dass das Sperren von Qi die folgenden Vorteile hat:
 
 Um deine Qi-Token zu sperren, musst du die Qi-Powah-Boost-Sperrleiste aufrufen und auswählen, wie viele Token und für wie lange du sie sperren möchtest. Je länger der Zeitraum ist, desto mehr eQi erhälst du. Vergiss nicht, dass eQi nur die Anzahl der Qi-Token angibt, die du nach Ablauf der Sperrzeit hast.
 
-![Qi Powah Boost Lock](../.gitbook/assets/Captura.JPG)
+![Qi Powah Boost Lock](../.gitbook/assets/captura.jpg)
 
 Wenn du das alles entschieden hast, klicke auf "approve" und genehmige die Transaktion, dann klicke auf "Increase locked QI and lock time" und bestätige die Transaktion.
 
@@ -54,7 +54,7 @@ Bitte bedenke, dass du deine Qi-Token nicht mehr entsperren kannst, wenn du sie 
 
 Herzlichen Glückwunsch, jetzt bist du offiziell ein Qi-Staker und erhältst ein wöchentliches passives Einkommen. Wenn du Zweifel hast, ob du für die nächste Woche qualifiziert bist, kannst du auf der Boost-Seite sehen, ob du qualifiziert bist oder nicht.
 
-![](<../.gitbook/assets/Captura (1).JPG>)
+![](<../.gitbook/assets/captura (1).jpg>)
 
 ### Statistik zu Qi Powah
 

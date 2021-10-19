@@ -7,7 +7,7 @@ description: >-
 
 # Wie man MAI außerhalb der Kryptowelt nutzen kann
 
-### Grafikkartenkauf mit Mai - Eine Fallstudie 
+### Grafikkartenkauf mit Mai - Eine Fallstudie&#x20;
 
 DogeOfWallStreet ist sehr optimistisch in Hinblick auf Ethereums Zukunft. Angesichts der ganzen Begeisterung, die sich um die Kryptowährung dreht, teilweise angetrieben durch den NFT-Hype und die guten Prognosen rund um Eth 2.0, möchte er sicherstellen, dass er so viel ETH wie möglich bekommen kann, bevor der Preis in die Höhe schießt.
 
@@ -23,7 +23,7 @@ Heute ist DER Tag! Seine anfängliche Investition in GPUs ist endlich vollständ
 
 Anstatt also auf seinen Gewinnen sitzen zu bleiben und darauf zu warten, dass der Preis in die Höhe schießt, beschließt DogeOfWallStreet, dass es an der Zeit ist, mehr Grafikkarten zu kaufen und möglicherweise seine Mining-Gewinne weiter zu steigern. Was die Kosten angeht, scheint die RTX 1660 super im Moment die profitabelste Karte zu sein, und sie kostet gerade einmal $500,00.
 
-![](<../.gitbook/assets/Screen Shot 2021-08-13 at 12.07.41 PM.png>)
+![](../.gitbook/assets/screen-shot-2021-08-13-at-12.07.41-pm.png)
 
 Nach einem Monat Mining überprüft unser cleverer Miner sein Portfolio im ETH-Mainnet, nachdem der Pool ihn bezahlt hat. Er hat umgerechnet $1.340,00 an ETH (Mining-Gewinn und ETH hat in 4 Wochen fast 12% zugelegt) erwirtschaftet, was eigentlich ausreichen sollte, um die Karte zu kaufen. Doch jetzt steht er vor einem Dilemma:
 
@@ -56,7 +56,7 @@ Angesichts dieser Zahlen wird DogeOfWallStreet sicherlich alle ETH, die er schü
 
 Irgendwann, wenn das Mining von ETH unrentabel wird, kann er immer zu einer anderen Währung wechseln (ETC, RVN, ERG...), aber sein Mining Rig ist derzeit eine tolle Investition.
 
-## Anfangsinvestitionen und Strategien zur Rückzahlung der Schulden im _Real-life_ 
+## Anfangsinvestitionen und Strategien zur Rückzahlung der Schulden im _Real-life_&#x20;
 
 Wenn er so darüber nachdenkt, ist DogeOfWallStreet jetzt traurig, dass er nicht wusste, dass Mai Finance existiert, bevor er seine Anlage gekauft hat. In der Tat hätte er folgendermaßen vorgehen können:
 
