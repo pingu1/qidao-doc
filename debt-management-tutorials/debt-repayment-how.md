@@ -1,151 +1,151 @@
 ---
 description: >-
-  This page will present different options to repay your debt on Mai Finance.
-  Keep in mind that repaying a debt is never mandatory as long as you want to
-  keep your loan, and don't need your collateral.
+  Auf dieser Seite werden verschiedene Möglichkeiten vorgestellt, wie du deine
+  Schulden bei Mai Finance zurückzahlen kannst. Bedenke, dass die Rückzahlung
+  einer Schuld nie zwingend erforderlich ist.
 ---
 
-# Debt repayment - How?
+# Wie du deine Schulden tilgen kannst
 
-The market is on a bull run and your crypto, locked in the Vault, is gaining more and more value, so much that you decided to sell it. However, because it's in the Vault on Mai Finance, you can't totally unlock it unless you repay your loan.
+Der Markt befindet sich in einer Hausse und Ihre Kryptowährung, die im Vault liegt, gewinnt immer mehr an Wert, so sehr, dass du beschlossen hast, sie zu verkaufen. Da die Kryptowährung jedoch im Vault auf Mai Finance liegt, kannst du sie nicht vollständig entsperren, solange du deinen Kredit nicht zurückzahlst.
 
-The market is bearish, and your crypto is losing value very quickly. You don't generate yield fast enough to cover up the damages and keep an healthy Collateral to Debt Ratio (CDR), and liquidation is near. It's time to repay your debt to make sure you're not losing too much, and prevent liquidation.
+Der Markt ist rückläufig, und deine Kryptowährung verliert sehr schnell an Wert. Du erwirtschaftest nicht schnell genug Erträge, um den Verlust zu decken und ein gesundes Sicherheiten-Schulden-Verhältnis (Collateral to Debt Ratio, CDR) aufrechtzuerhalten, und die Liquidation ist nahe. Es ist an der Zeit, die Kredite zurückzuzahlen, um sicherzustellen, dass du nicht zu viel verlierst, und eine Liquidation zu verhindern.
 
-If you are not in any of the above situation, it's probably not worth repaying your debt. Please see the chapter on [Debt Repayment](https://qidao-qimps.gitbook.io/mai-finance-tutorials/debt-management-tutorials/debt-repayment-why-and-when) for more details.
+Wenn keiner der oben genannten Punkte auf dich zutrifft, lohnt es sich wahrscheinlich nicht, deine Schulden zu tilgen. Weitere Einzelheiten dazu stehen im Kapitel [Schuldentilgung - Wann und warum?](debt-repayment-why-and-when.md)].
 
-## Partial or Full repayment using fiat
+## Teilweise oder vollständig zurückzahlen mit FIAT
 
-The most direct way to repay your debt is to use some fiat, especially if you want to keep your collateral and other investments untouched.
+Der direkteste Weg deine Schulden zurückzuzahlen, ist die Verwendung von Fiat, insbesondere wenn du deine Sicherheiten und andere Investitionen unangetastet lassen willst.
 
-Mai Finance is partnering with [Transak](https://transak.com) to easily bridge money bought by Credit / Debit Cards, or bank transfers, directly to the Polygon network. Simply head to Mai Finance and click the transak icon in the menu bar to open a modal that will let you purchase some MATIC and send them directly to your Polygon wallet.
+Mai Finance arbeitet mit \[Transak] (https://transak.com) zusammen, um Geld, das mit Kredit-/Debitkarten oder Banküberweisungen gekauft wurde, direkt in das Polygon-Netzwerk zu überführen. Gehe einfach zu Mai Finance und klicke auf das Transak-Symbol in der Menüleiste, um ein Dialogfenster zu öffnen, mit dem du MATIC kaufen und direkt an deine Polygon-Brieftasche senden kannst.
 
-![Buying some USDC from fiat and bridging to Polygon directly](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
+![Wie du direkt USDC auf polygon kaufen kannst](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
 
-The main issue is the time taken to process the transaction. However, doing so will let you swap USDC for MAI and then partially or fully repay your debt.
+Das Hauptproblem ist die Zeit, die für die Abwicklung der Transaktion benötigt wird. Auf diese Weise lässt sich jedoch der USDC in MAI tauschen und die Schulden teilweise oder vollständig zurückzahlen.
 
-## Repayment using the benefits of your loan
+## Rückzahlung unter Nutzung der Kreditvorteile
 
-### Partial Repayment
+### Teilweise Rückzahlung
 
-Most people will want to borrow MAI on Mai Finance in order to invest into specific projects. Yield farmers that are using MAI will most probably be successful generating additional resources and will hopefully not lose money on degen farms. If you're in that case, you have 2 options
+Die meisten wollen MAI über Mai Finance leihen, um in bestimmte Projekte zu investieren. Yield-Farmer, die MAI verwenden, werden höchstwahrscheinlich erfolgreich sein, indem sie zusätzliche Gelder generieren und hoffentlich kein Geld auf Degenfarmen verlieren. Wenn das bei dir der Fall ist, hast du 2 Möglichkeiten:
 
-* repay your loan with the generated revenue
-* re-invest your gains into the same (or another) project
+* das Darlehen mit den erzielten Einnahmen zurückzahlen
+* die Gewinne in das gleiche (oder ein anderes) Projekt zu reinvestieren
 
-In most cases, it's probably better to re-invest your gains. Indeed, by compounding your rewards, APR (**A**nnual **P**ercentage **R**evenue) is applied on a bigger amount, which in turns generates more revenue. See our investment guides to get ideas on how you can maximize your investments.
+In den meisten Fällen ist es wahrscheinlich besser, die Gewinne zu reinvestieren. Denn durch die Aufzinsung der Gewinne wird der effektive Jahreszins (**A**nnual **P**ercentage **R**evenue) auf einen größeren Betrag angewandt, was wiederum zu mehr Einnahmen führt. In unseren Investitionsleitfäden findest du Ideen, wie du deine Investitionen maximieren kannst.
 
-However, some people simply don't like the idea of having a debt, and will want to repay it as quickly as possible. If that's your case, you can simply swap your gains into MAI, and repay your debt.
+Es gibt jedoch auch diejenigen, denen der Gedanke, Schulden zu haben, einfach nicht gefällt und die diese so schnell wie möglich zurückzahlen möchten. In diesem Fall kannst du deine Gewinne einfach in MAI umwandeln und deine Schulden zurückzahlen.
 
-* Open your Vault info
-* Select the `Manage` option
-* Select the Repay tab at the bottom of your Vault
-* Enter any amount you want to repay
-* Click `Repay MAI` and you're done
+* Öffne deine Vault-Infos.
+* Wähle die Option " Manage ".
+* Wähle die Registerkarte "Repay" am unteren Rand deines Vaults.
+* Gib einen beliebigen Betrag ein, den du zurückzahlen möchtest
+* Klicke auf "Repay MAI" und du bist fertig.
 
 ![Partially repaying a portion of my debt](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
 
-As an example
+Ein Beispiel
 
-* You have $1,000.00 worth of camWMATIC in your vault, with a debt of $400.00
-* You swapped $10.00 worth of ADDY tokens for MAI
-* You repay $10.00 today
-  * Your debt is now $390.00
-  * Your camWMATIC value is $999.95 (you add to pay 0.5% of $10.00 in repayment fees)
+* Du hast camWMATIC im Wert von $1.000,00 in deinem Tresor, mit einer Schuld von $400,00
+* Du hast ADDY-Münzen im Wert von $10,00 gegen MAI getauscht.
+* Du zahlst heute $10.00 zurück
+* Deine Schulden betragen jetzt $390.00
+* Dein camWMATIC-Wert ist $999.95 (du zahlst 0.5% von $10.00 an Rückzahlungsgebühren)
 
-At some point, you will be able to totally repay your debt using this technique, as long as you can generate enough revenue via your loan.
+Irgendwann kannst du mit dieser Technik deine Schulden vollständig zurückzahlen, solange du genügend Einnahmen über deinen Kredit generieren kannst.
 
-Is this strategy efficient? Not really. Repaying your debt this way doesn't change anything except for your CDR. Indeed, your collateral remains partially locked until you totally repay your debt, and if you're using amTokens as collateral, whether you have a debt or not will not change the fact that your collateral is generating yield. The only advantage is that you can possibly withdraw a portion of your collateral and re-use it somewhere else / sell it.
+Ist diese Strategie effizient? Nicht wirklich. Wenn du deine Schulden auf diese Weise zurückzahlst, ändert sich außer deinem CDR nichts. Die Sicherheiten bleiben nämlich teilweise gesperrt, bis du deine Schulden vollständig zurückgezahlt hast, und wenn du amTokens als Sicherheit verwendest, ändert es nichts an der Tatsache, dass deine Sicherheiten Erträge erwirtschaften, ob du Schulden hast oder nicht. Der einzige Vorteil ist, dass du möglicherweise einen Teil deiner Sicherheiten zurückziehen und sie an anderer Stelle wiederverwenden oder verkaufen kannst.
 
-### Full Repayment
+### Vollständige Rückzahlung&#x20;
 
-Another approach, very similar to the above strategy, is to repay everything at once. In the example above, instead of repaying $10.00 every few days, I could instead compound the $10.00 earned into my investment to generate yield faster. I can also invest these gains into another project that would also generate revenue. Once I received the equivalent of $400.00 that corresponds to my loan, I can repay everything at once.
+Ein anderer Ansatz, der der obigen Strategie sehr ähnlich ist, besteht darin, alles auf einmal zurückzuzahlen. Im obigen Beispiel müsste man nicht alle paar Tage 10,00 $ zurückzahlen, sondern könnte die verdienten 10,00 $ in meine Investition stecken, um schneller Rendite zu erzielen. Diese Gewinne könnte man auch in ein anderes Projekt investieren, das ebenfalls Erträge abwirft. Sobald ich den Gegenwert von 400,00 $ erhalten habe, der meinem Darlehen entspricht, kann alles auf einmal zurückgezahlt werden.
 
-## Repayment using your collateral
+## Rückzahlung mit deiner Sicherheit
 
-### Main idea
+### Grundidee&#x20;
 
-On Mai Finance, you can borrow MAI stable coins by depositing a certain amount of collateral in a vault. The collateral to debt ratio needs to always be above a certain threshold, 150% for most vaults. This means, for a 150% CDR, that for any $100 worth of collateral, you can only borrow $66.6667 of MAI.
+Bei Mai Finance kannst du dir MAI als Stablecoin leihen, indem du eine bestimmte Menge an Sicherheiten in einem Tresor hinterlegst. Das Verhältnis von Sicherheiten zu Schulden muss immer über einem bestimmten Schwellenwert liegen, der bei den meisten Tresoren bei 150 % liegt. Bei einem CDR von 150 % bedeutet dies, dass man für 100 $ an Sicherheiten nur 66,6667 $ an MAI ausleihen kann.
 
-However, this would directly put you in a liquidation position. This means that the health of your vault is considered too risky, and anyone can repay a portion of your debt using their funds and get paid back by getting a portion of your collateral. For more details about liquidation, please read [the official documentation](https://docs.mai.finance/liquidation).
+Dies würde dich jedoch direkt in eine Liquidationsposition bringen. Das bedeutet, dass der Zustand deines Tresors als zu riskant angesehen wird und dass jeder einen Teil deiner Schulden mit seinen Mitteln zurückzahlen kann, indem er einen Teil deiner Sicherheiten erhält. Weitere Einzelheiten zur Liquidation findest du in [der offiziellen Dokumentation](https://docs.mai.finance/liquidation).
 
-It's usually considered best practice to keep a high collateral to debt ratio to prevent liquidation, but even with a CDR close to 150%, it's easy to see that the value of the collateral is ALWAYS bigger than the value of the debt. This means that you can, in theory, repay your debt by selling some of your collateral asset.
+In der Regel gilt es als bewährte Praxis, ein hohes Verhältnis zwischen Sicherheiten und Schulden beizubehalten, um eine Liquidierung zu verhindern, aber selbst bei einem CDR von fast 150 % ist leicht zu erkennen, dass der Wert der Sicherheiten IMMER höher ist als der Wert der Schulden. Das bedeutet, dass du theoretisch deine Schulden zurückzahlen kannst, indem du einen Teil deiner Sicherheiten verkaufst.
 
-### How to use collateral
+### Wie deine Sicherheit nutzt &#x20;
 
-Let's consider a vault with $1,000.00 worth of MATIC and a $500.00 debt. The CDR is 200%. The minimum CDR is 150%. In this example, we want to repay the debt completely, but we want to avoid liquidation, and we will try to never go bellow a 160% CDR when withdrawing our collaterals. We will be using the following formulas:
-
-$$
-CDR=\frac{Collateral}{Debt}
-$$
+Nehmen wir einen Vault mit MATIC im Wert von $1.000,00 und einer Schuld von $500,00. Der CDR beträgt 200%. Der Mindest-CDR beträgt 150%. In diesem Beispiel wollen wir die Schulden vollständig zurückzahlen, aber wir wollen eine Liquidation vermeiden, und wir werden versuchen, bei der Entnahme unserer Sicherheiten nie unter einen CDR von 160% zu kommen. Wir werden die folgenden Formeln verwenden:
 
 $$
-AvailableCollateral = InitialCollateral - TargetCDR*Debt
+CDR=\frac{Sicherheit}{Schuld}
 $$
 
-In this situation, if we want to keep a CDR of 160%, the amount of collateral we can withdraw "safely" is
-
 $$
-AvailableCollateral=$1000-1.60*$500=$200
+Ursprungssicherheit = StartSicherheit- ZielCDR*Schuld
 $$
 
-Hence, we will have to proceed in multiple steps:
+Wenn wir in dieser Situation einen CDR von 160 % beibehalten wollen, beträgt der Betrag der Sicherheiten, den wir "sicher" abziehen können
 
-* Withdraw $200 from the collateral
-  * the vault now has $800 worth of MATIC and $500 of debt, CDR is 160%
-* Sell the $200 worth of collateral to buy MAI
-* Repay $200 of the debt with a 0.5% repayment fee
-  * the vault now has $799 worth of MATIC and $300 of debt, CDR is 266.33%
-* Calculate the new amount of collateral we can withdraw: $319
-* Withdraw $319 from the collateral
-  * the vault now has $480 of MATIC and $300 of debt, CDR is 160%
-* Sell the $319 worth of collateral to buy MAI
-* Repay $300 of the debt with a 0.5% repayment fee
-  * the vault has $478.50 worth of MATIC and $0 of debt, and you still have $19 of MAI
+$$
+VerfügbareSicherheit=$1000-1.60*$500=$200
+$$
 
-You can see that keeping a healthy CDR can greatly help you repay your debt with very little number of loops. Of course, if your CDR is closer to the 150% limit, you may have to operate more loops since you cannot withdraw as much at once.
+Daher müssen wir in mehreren Schritten vorgehen:
+
+* Entnahme von $200 aus den Sicherheiten
+  * Der Vault hat jetzt MATIC im Wert von 800 $ und Schulden im Wert von 500 $, der CDR beträgt 160%.
+* Verkauf der Sicherheiten im Wert von 200 $ zum Kauf von MAI
+* Rückzahlung von $200 der Schulden mit einer Rückzahlungsgebühr von 0,5%.
+  * Der Vault hat jetzt MATIC im Wert von $799 und Schulden in Höhe von $300, der CDR beträgt 266,33%.
+* Berechnen Sie den neuen Betrag an Sicherheiten, den wir entnehmen können: $ 319
+* Entnahme von 319 $ aus den Sicherheiten
+  * Der Tresor hat jetzt $480 MATIC und $300 Schulden, der CDR beträgt 160%.
+* Verkauf der Sicherheiten im Wert von $ 319 zum Kauf von MAI
+* Rückzahlung von 300 $ der Schulden mit einer Rückzahlungsgebühr von 0,5%.
+  * Der Tresor hat MATIC im Wert von 478,50 $ und Schulden im Wert von 0 $, und Sie haben noch MAI im Wert von 19 $.
+
+Du siehst, dass ein gesunder CDR dir sehr dabei helfen kann, deine Schulden mit einer sehr geringen Anzahl von Schleifen zu tilgen. Wenn Ihr CDR näher an der 150%-Grenze liegt, müssen Sie natürlich mehr Schleifen fahren, da Sie nicht so viel auf einmal abheben können.
 
 {% hint style="info" %}
-A collateral to debt ratio of 260% is enough to be able to withdraw the total amount of your debt and stay above 160% CDR. This way, you only need one loop to fully repay your debt.
+Ein Sicherheiten-Schulden-Verhältnis von 260 % reicht aus, um den Gesamtbetrag der Schulden zu tilgen und über 160 % CDR zu bleiben. Auf diese Weise reicht eine einzige Schleife aus, um die Schuld vollständig zu tilgen.
 {% endhint %}
 
-Note that fully repaying your debt by selling your collateral is never necessary if you don't need to sell your underlying assets, or to modify your CDR and keep your vault from being liquidated.
+Bitte beachte, dass die vollständige Rückzahlung deiner Schulden durch den Verkauf deiner Sicherheiten niemals notwendig ist, wenn du deine zugrunde liegenden Vermögenswerte nicht verkaufen oder dein CDR ändern musst, um zu verhindern, dass dein Tresor liquidiert wird.
 
-## Repayment using a robot
+## Rückzahlung mit einem Bot
 
-This paragraph is pure theory and is there only for advanced programmers. The idea is to use flash loans that will help you repay your debt and unlock the collateral so that it can be paid. Flash loans are an option proposed by some applications on different networks, including Polygon, that allow you to borrow funds and repay the loan in the same transaction block. If the loan cannot be fully repaid within the same block, the transaction is simply reverted. On Polygon, AAVE is proposing flash loans.
+Dieser Abschnitt ist reine Theorie und ist nur für fortgeschrittene Programmierer gedacht. Die Idee ist, Flash Loans zu verwenden, die dir helfen, deine Schulden zurückzuzahlen und die Sicherheiten freizugeben, damit die Schulden bezahlt werden können. Flash Loans sind eine Option, die von einigen Anwendungen in verschiedenen Netzwerken, darunter Polygon, angeboten wird und die es erlaubt, Geld zu leihen und das Darlehen im selben Transaktionsblock zurückzuzahlen. Kann der Kredit nicht innerhalb desselben Blocks vollständig zurückgezahlt werden, wird die Transaktion einfach rückgängig gemacht. Auf Polygon bietet z. B. AAVE Flash Loans an.
 
-If we take the example above with $1,000.00 worth of MATIC and a debt of $500.00. The flow would be as follows:
+Nehmen wir das obige Beispiel mit MATIC im Wert von $1.000,00 und einer Schuld von $500,00. Der Ablauf wäre dann wie folgt:
 
-* Borrow $600.00 of USDC on AAVE in a flash loan
-* Swap the USDC for MAI
-* Repay your debt completely
-* Withdraw your MATIC collateral
-* Sell your MATIC for USDC
-* Repay the AAVE flash loan
+* Aufnahme von USDC im Wert von 600,00 $ bei AAVE in Form eines Flash Loans
+* Tausche USDC gegen MAI
+* Vollständige Rückzahlung der MAI-Schulden
+* Löse die MATIC-Sicherheiten aus
+* verkaufe deine MATIC für USDC
+* Rückzahlung des AAVE-Flash Loans
 
-When submitted, this list of transactions will all happen in the same block, and you will end up with whatever is left from your MATIC as USDC in your wallet (more or less $500.00, with some slight variations due to flash loan interest rate, swap fees, and repayment fees).
+Wenn du diese Liste von Transaktionen abschickst, werden sie alle im selben Block abgewickelt, und du wirst am Ende den Restbetrag deiner MATIC als USDC in deinem Wallet haben (mehr oder weniger 500,00 $, mit leichten Abweichungen aufgrund des Zinssatzes für den Flash-Loan). Im Moment würde man direkt mit den Smart Contracts interagieren müssen, was ein gutes Verständnis ihrer Funktionsweise erfordert. Wenn du Hilfe brauchst, kannst du sie auf unserem Discord-Server finden, wo es einen Programmierkanal gibt. Vielleicht wird [FuruCombo ](https://furucombo.app/combo)in naher Zukunft Mai Finance Bricks vorschlagen, die es erlauben würden, diese direkt mit ihrem grafischen Tool zu bedienen, aber im Moment ist das noch nicht möglich. Schließlich wurde die Idee eines Buttons "Schulden mit Sicherheiten zurückzahlen" dem Team der Entwickler von Mai Finance vorgeschlagen, und die Option könnte in Zukunft implementiert werden.
 
-Right now, you would have to interact directly with the smart contracts, which requires some good understanding of how they work. If you need help, you can find some on our Discord server where there's a programming channel. Maybe in a near future, [FuruCombo](https://furucombo.app/combo) will propose Mai Finance bricks that would allow you to operate this directly using their graphic tool, but for now it's not possible. Finally, the idea of a button to "repay debt using collateral" has been proposed to the team of devs of Mai Finance, and the option may be implemented in the future.
+## Zeithorizont der Schuldentilgung
 
-## Short term VS Long term Debt Repayments
 
-Depending on your strategy and the way you feel regarding your debt, it may be a good idea to compare different lending platforms. However, keep in mind that Mai Finance with its 0% interest and 0.5% repayment fee is one of the top product on the Polygon market. The real competitor is AAVE, but only if you want to borrow MAI or USDC for a short period of time.
 
-* Mais is 0% interest + 0.5% repayment fee
-* AAVE has no repayment fees, but a variable APR for interests you need to pay back
+Je nach deiner Strategie und deiner Einstellung zu deinen Schulden kann es eine gute Idee sein, verschiedene Kreditplattformen zu vergleichen. Allerdings solltest du bedenken, dass Mai Finance mit seinen 0 % Zinsen und 0,5 % Rückzahlungsgebühr eines der Spitzenprodukte auf dem Polygon-Markt ist. Der wirkliche Konkurrent ist AAVE, aber nur, wenn man MAI oder USDC für einen kurzen Zeitraum leihen möchte.
 
-![Supplying and Borrowing APY on AAVE as of August 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
+* Mai besitzt 0% Zinsen + 0,5% Rückzahlungsgebühr
+* AAVE hat keine Rückzahlungsgebühren, aber einen variablen effektiven Jahreszins, die du zurückzahlen musst
 
-As an example for USDC, you can see that the borrowing rate is 3.79% with a current reward of 2.08% paid back in MATIC. This gives, at the moment of writing, the equivalent of 1.71% you need to pay back if you keep your loan for a complete year. With AAVE, since you can repay your debt very quickly, the variable APY is equivalent to 0.005% daily. Hence, it would take 100 days (a bit more than 3 months) to reach 0.5% of your debt.
+![Supplying und Borrowing APY ben AAVE (August 2021)](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
 
-If you plan to keep your loan longer than that, it's definitely better to use Mai Finance. Also, it's important to understand that AAVE borrowing APRs are variable, they will fluctuate with the amounts that are deposited and required (the more people want to borrow from AAVE, the higher the borrowing APR). Keep also in mind that the MATIC reward program will end at some point, and the 1.71% interest will soon become a 3.79% interest rate. At least with Mai Finance, you don't have to keep a close eye on your loan to see when it becomes dangerous to keep it.
+Als Beispiel für USDC zeigt sich, dass der Sollzinssatz 3,79 % beträgt, wobei 2,08 % in MATIC zurückbezahlt werden. Dies entspricht derzeit 1,71 %, die du zurückzahlen musst, wenn du dein Darlehen ein ganzes Jahr lang behältst. Da bei AAVE die Rückzahlung sehr schnell erfolgen kann, entspricht der variable effektive Jahreszins 0,005 % täglich.&#x20;
 
-Finally, the team of Mai Finance is working on Vaults incentives that would work the same way as the MATIC reward, meaning that you would still get a 0% interest loan and a bonus paid in Qi that may very well reduce the repayment fee to 0% of your debt. And the longer you keep your loan, the more reward you will collect, making it a true negative interest loan.
+Es würde also 100 Tage (etwas mehr als 3 Monate) dauern, bis Sie 0,5 % Ihrer Schulden erreicht haben. Wenn du vorhast, deinen Kredit länger zu behalten, ist es definitiv besser, Mai Finance zu nutzen. Außerdem ist es wichtig zu wissen, dass der effektive Jahreszins für AAVE-Kredite variabel ist, d. h. er schwankt je nach den eingezahlten und benötigten Beträgen (je mehr Leute einen Kredit bei AAVE aufnehmen wollen, desto höher ist der effektive Jahreszins).&#x20;
 
-## Disclaimer
+Zudem ist zu bedenken, dass das MATIC-Belohnungsprogramm irgendwann ausläuft und aus den 1,71 % Zinsen bald 3,79 % Zinsen werden. Zumindest müssen Sie bei Mai Finance Ihren Kredit nicht genau im Auge behalten, um zu erkennen, wann es gefährlich wird, ihn zu behalten. Und schließlich arbeitet das Team von Mai Finance an einer Vault-prämie, die genauso funktioniert wie die MATIC-Prämie, d. h. du bekommst immer noch einen Kredit mit 0 % Zinsen und einen in Qi ausgezahlten Bonus, der die Rückzahlungsgebühr auf 0 % deiner Schulden reduzieren kann. Und je länger man den Kredit behält, desto mehr Prämien erhält man, so dass es sich um einen echten Negativzinskredit handelt.
 
-The views, thoughts, and opinions expressed in the text belong solely to the author, and not necessarily to the rest of the community, nor the development team behind Mai Finance. It should not be taken as a financial advice or guidance of any kind.
+## Haftungsausschluss
+
+Die Ansichten, Gedanken und Meinungen, die in diesem Text geäußert werden, gehören ausschließlich dem Autor und nicht notwendigerweise dem Rest der Community oder dem Entwicklerteam hinter Mai Finance. Er sollte nicht als Finanzberatung oder Anleitung jeglicher Art verstanden werden.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Denk daran, dass eine Strategie, die zu einem bestimmten Zeitpunkt gut funktioniert, zu einem anderen Zeitpunkt schlecht funktionieren (oder Ihnen Geld kosten) kann. Bitte bleib immer informiert, beobachte die Märkte, behalte deine Investitionen im Auge und stell wie immer deine eigenen Recherchen an
 {% endhint %}

@@ -27,7 +27,7 @@
 * [Wie funktioniert MAI?](mai-eqi-qi-tutorials/how-does-mai-work.md)
 * [MAI loans and Vaults incentives](mai-eqi-qi-tutorials/mai-loans-and-vaults-incentives.md)
 * [Schuldentilgung - Wann und warum?](debt-management-tutorials/debt-repayment-why-and-when.md)
-* [Debt repayment - How?](debt-management-tutorials/debt-repayment-how.md)
+* [Wie du deine Schulden tilgen kannst](debt-management-tutorials/debt-repayment-how.md)
 * [MAI Metaverse](MAI-university/mai-metaverse.md)
 * [Wie man MAI außerhalb der Kryptowelt nutzen kann](MAI-university/how-to-use-mai-in-the-real-life.md)
 
