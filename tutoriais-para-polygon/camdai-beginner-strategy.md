@@ -99,7 +99,25 @@ $$
 
 ​You can then swap the MAI you borrowed for DAI and repeat. Here's what your collateral and debt should look like:
 
-<table><thead><tr><th align="center">loop #</th><th align="center">Collateral $</th><th align="center">Debt $</th><th align="center">Loan available</th><th data-type="number"></th></tr></thead><tbody><tr><td align="center">1</td><td align="center">100</td><td align="center">0</td><td align="center">86.956</td><td>null</td></tr><tr><td align="center">2</td><td align="center">186.956</td><td align="center">86.956</td><td align="center">75.614</td><td>null</td></tr><tr><td align="center">3</td><td align="center">262.571</td><td align="center">162.571</td><td align="center">62.751</td><td>null</td></tr><tr><td align="center">4</td><td align="center">328.323</td><td align="center">228.323</td><td align="center">57.175</td><td>null</td></tr><tr><td align="center">5</td><td align="center">385.498</td><td align="center">285.498</td><td align="center">49.718</td><td>null</td></tr><tr><td align="center">6</td><td align="center">435.216</td><td align="center">335.216</td><td align="center">43.233</td><td>null</td></tr><tr><td align="center">7</td><td align="center">478.449</td><td align="center">378.448</td><td align="center">37.593</td><td>null</td></tr><tr><td align="center">8</td><td align="center">516.042</td><td align="center">416.042</td><td align="center">32.690</td><td>null</td></tr><tr><td align="center">9</td><td align="center">548.732</td><td align="center">448.732</td><td align="center">28.426</td><td>null</td></tr><tr><td align="center">10</td><td align="center">577.158</td><td align="center">477.158</td><td align="center">24.718</td><td>null</td></tr><tr><td align="center">11</td><td align="center">601.877</td><td align="center">501.877</td><td align="center">21.494</td><td>null</td></tr><tr><td align="center">12</td><td align="center">623.371</td><td align="center">523.371</td><td align="center">18.691</td><td>null</td></tr><tr><td align="center">13</td><td align="center">642.062</td><td align="center">542.062</td><td align="center">16.253</td><td>null</td></tr><tr><td align="center">14</td><td align="center">658.315</td><td align="center">558.315</td><td align="center">14.133</td><td>null</td></tr><tr><td align="center">15</td><td align="center">672.448</td><td align="center">572.448</td><td align="center">12.289</td><td>null</td></tr><tr><td align="center">16</td><td align="center">684.737</td><td align="center">584.737</td><td align="center">10.686</td><td>null</td></tr><tr><td align="center">17</td><td align="center">695.423</td><td align="center">595.423</td><td align="center">9.293</td><td>null</td></tr></tbody></table>
+| Loop # | Collateral | Debt    | Available loan | Equivalent APY |
+| ------ | ---------- | ------- | -------------- | -------------- |
+| 1      | 100.000    | 0.000   | 86.956         | 10.42%         |
+| 2      | 189.956    | 86.956  | 75.614         | 19.48%         |
+| 3      | 262.571    | 162.571 | 62.751         | 27.36%         |
+| 4      | 328.323    | 228.323 | 57.175         | 34.21%         |
+| 5      | 385.498    | 285.498 | 49.718         | 40.17%         |
+| 6      | 435.216    | 335.216 | 43.233         | 45.35%         |
+| 7      | 478.449    | 278.448 | 37.593         | 49.85%         |
+| 8      | 516.042    | 416.042 | 32.690         | 53.77%         |
+| 9      | 548.732    | 448.732 | 28.426         | 57.18%         |
+| 10     | 577.158    | 477.158 | 24.718         | 60.14%         |
+| 11     | 601.877    | 501.877 | 21.494         | 62.72%         |
+| 12     | 623.371    | 523.371 | 18.691         | 64.96%         |
+| 13     | 642.062    | 542.062 | 16.253         | 66.90%         |
+| 14     | 658.315    | 558.315 | 14.133         | 68.60%         |
+| 15     | 672.448    | 572.448 | 12.289         | 70.07%         |
+| 16     | 684.737    | 584.737 | 10.686         | 71.35%         |
+| 17     | 695.423    | 595.423 | 9.293          | 72.46%         |
 
 We're stopping at 17 loops but you can operate more if you want to.
 
@@ -121,18 +139,18 @@ In order to get a little exposure to high volatility assets, you can use the sam
 
 Since we're re-injecting less DAI in the camDAI vault, we will also operate less loops. The setup will look like this:
 
-| Loop # | Collateral | Debt    | Qi     | Available loan |
-| ------ | ---------- | ------- | ------ | -------------- |
-| 1      | 100.000    | 0.000   | 0.000  | 86.957         |
-| 2      | 178.261    | 86.957  | 8.696  | 68.053         |
-| 3      | 239.509    | 155.009 | 15.501 | 53.259         |
-| 4      | 287.441    | 208.268 | 20.827 | 41.681         |
-| 5      | 324.954    | 249.949 | 24.995 | 32.620         |
-| 6      | 354.312    | 282.569 | 28.257 | 25.529         |
-| 7      | 377.288    | 308.097 | 30.810 | 19.979         |
-| 8      | 395.269    | 328.076 | 32.808 | 15.636         |
-| 9      | 409.341    | 343.712 | 34.371 | 12.237         |
-| 10     | 420.354    | 355.948 | 35.595 | 9.576          |
+| Loop # | Collateral | Debt    | Qi     | Available loan | Equivalent APY |
+| ------ | ---------- | ------- | ------ | -------------- | -------------- |
+| 1      | 100.000    | 0.000   | 0.000  | 86.957         | 10.42%         |
+| 2      | 178.261    | 86.957  | 8.696  | 68.053         | 35.22%         |
+| 3      | 239.509    | 155.009 | 15.501 | 53.259         | 54.63%         |
+| 4      | 287.441    | 208.268 | 20.827 | 41.681         | 69.82%         |
+| 5      | 324.954    | 249.949 | 24.995 | 32.620         | 81.71%         |
+| 6      | 354.312    | 282.569 | 28.257 | 25.529         | 91.01%         |
+| 7      | 377.288    | 308.097 | 30.810 | 19.979         | 98.29%         |
+| 8      | 395.269    | 328.076 | 32.808 | 15.636         | 103.99%        |
+| 9      | 409.341    | 343.712 | 34.371 | 12.237         | 108.45%        |
+| 10     | 420.354    | 355.948 | 35.595 | 9.576          | 111.94%        |
 
 At the end of the 10 loops, you'd get
 
