@@ -6,6 +6,7 @@
 
 * [Comment bien démarrer sur Polygon](tutoriels-polygon/how-to-get-started-on-polygon.md)
 * [Appliquez un effet de levier sur vos tokens AAVE](tutoriels-polygon/tirez-parti-aave-tokens.md)
+* [camDAI beginner strategy](tutoriels-polygon/camdai-beginner-strategy.md)
 * [Cultivez vos gains avec des monnaies stables](tutoriels-polygon/cultivez-vos-gains-avec-des-monnaies-stables.md)
 * [Que faire avec vos MAI sur Polygon](tutoriels-polygon/que-faire-avec-vos-mai-sur-polygon.md)
 * [What to do with Qi on Polygon](tutoriels-polygon/what-to-do-with-qi-on-polygon.md)
