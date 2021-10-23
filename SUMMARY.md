@@ -6,6 +6,7 @@
 
 * [如何开始使用Polygon](polygon-tutorials/how-to-get-started-on-polygon.md)
 * [Leverage Your Aave Market Tokens](polygon-tutorials/leverage-aave-tokens.md)
+* [camDAI beginner strategy](polygon-tutorials/camdai-beginner-strategy.md)
 * [Farming using only stable coins](polygon-tutorials/secure-your-yield-farming-profits.md)
 * [What to do with MAI on Polygon](polygon-tutorials/what-to-do-with-mai-on-polygon.md)
 * [What to do with Qi on Polygon](polygon-tutorials/what-to-do-with-qi-on-polygon.md)
