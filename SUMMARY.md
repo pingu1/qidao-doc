@@ -6,7 +6,7 @@
 
 * [Come iniziare con Polygon](tutorial-di-polygon/come-iniziare-con-polygon.md)
 * [Come far fruttare i tuoi token su Aave](tutorial-di-polygon/come-far-fruttare-i-tuoi-token-su-aave.md)
-* [camDAI beginner strategy](tutorial-di-polygon/camdai-beginner-strategy.md)
+* [Strategia camDAI per principianti](tutorial-di-polygon/camdai-beginner-strategy.md)
 * [Farmare usando solo stable coin](tutorial-di-polygon/farmare-usando-stable-coin.md)
 * [Cosa fare con Mai su Polygon](tutorial-di-polygon/what-to-do-with-mai-on-polygon.md)
 * [Cosa fare con Qi su Polygon](cosa-fare-con-qi-su-polygon.md)
