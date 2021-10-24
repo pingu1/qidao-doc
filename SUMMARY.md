@@ -6,7 +6,7 @@
 
 * [Cómo comenzar en Polygon](tutoriales-de-polygon/how-to-get-started-on-polygon.md)
 * [Apalancamiento con tus tokens de AAVE](tutoriales-de-polygon/apalancamiento-con-tus-tokens-de-aave.md)
-* [camDAI beginner strategy](tutoriales-de-polygon/camdai-beginner-strategy.md)
+* [Estrategia para novatos usando camDAI](tutoriales-de-polygon/camdai-beginner-strategy.md)
 * [Farmear utilizando únicamente monedas estables](tutoriales-de-polygon/secure-your-yield-farming-profits.md)
 * [¿Qué hacer con MAI en Polygon?](tutoriales-de-polygon/que-hacer-con-mai-en-polygon.md)
 * [¿Qué hacer con Qi en Polygon?](tutoriales-de-polygon/que-hacer-con-qi-polygon.md)
@@ -18,7 +18,7 @@
 
 * [Cómo comenzar en Avalanche](tutoriales-de-avalanche/how-to-get-started-on-avalanche.md)
 
-## Tutoriales de Fantom 
+## Tutoriales de Fantom
 
 * [Cómo comenzar en Fantom](tutoriales-de-fantom/how-to-get-started-on-fantom.md)
 
