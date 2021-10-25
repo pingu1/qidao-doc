@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   Bu eğitim, MAI'nizi Polygon'da farklı kullanım seçeneklerini size sunacaktır.
 ---
 

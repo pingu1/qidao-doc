@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   Bu kılavuzda Fantom zincirini kullanmaya başlamak için bilmeniz gereken her şeyi açıklayacağız.
 ---
 

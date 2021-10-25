@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   Bu kılavuz, Mai Finance ve QuickSwap'ta yeni LP havuzlarının kullanıma açılmasından sonra Mai Finance, QuickSwap ve Adamant arasındaki şaşırtıcı etkileşimleri vurgulayan bir strateji sunacaktır.
 ---
 

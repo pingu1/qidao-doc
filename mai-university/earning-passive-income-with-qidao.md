@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   Pasif gelir, minimum iş yaparak düzenli para kazanma sanatıdır. Qi DAO, QI kilitleyerek bu sanatı icra etmenizi sağlar.
 
 ---
@@ -120,6 +120,6 @@ Genkham'ın kapsadığı benzer bir konuyla ilgili bir makaleyi [burada](https:/
 
 Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Amaç, körü körüne takip edilebilecek tarifler önermek değildi, bu yüzden lütfen çalışmanızı yapın ve kendi simülasyonunuzu yapın ve yalnızca kaybetmeye hazır olduğunuz kadar yatırım yapın.
 
-{% ipucu stili="bilgi" %}
+{% hint style="info" %}
 Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen gelişmelerden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
-{% uç ipucu %}
+{% endhint %}

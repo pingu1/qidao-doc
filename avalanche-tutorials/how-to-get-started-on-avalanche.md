@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   Bu kılavuzda, Avalanche kullanmaya başlamak için bilmeniz gereken her şeyi açıklayacağız.
 ---
 

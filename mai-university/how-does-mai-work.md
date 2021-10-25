@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   Mai Finance'i gerçekten anlamak isteyen herhangi bir yatırımcı için MAI'nin nasıl çalıştığını iyi anlamak çok önemlidir. Bu makalede MAI'nin nasıl çalıştığını anlatacağız.
 ---
 
@@ -75,6 +75,6 @@ Mai Finance ekibinin MAI hakkındaki orijinal makalesini [burada](https://docs.m
 
 Bu rehber kesinlikle finansal tavsiye değildi. Eğitim amaçlı hazırlanmıştır.
 
-{% ipucu stili="bilgi" %}
+{% hint style="info" %}
 Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen olan bitenden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
-{% uç ipucu %}
+{% endhint %}

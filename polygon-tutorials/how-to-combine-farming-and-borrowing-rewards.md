@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   Bu sayfa, yatırımlarınızı büyütmek için verim çiftçiliğini, Mai Finance tarafından sağlanan borçlanma ödülleriyle nasıl birleştireceğinizi sunar.
 ---
 

@@ -58,6 +58,6 @@ Ayrı bir notta, teminat olarak kullanılan varlığınız çok hızlı değer k
 
 Metinde ifade edilen görüşler, düşünceler ve görüşler yalnızca yazara aittir ve mutlaka topluluğun geri kalanına veya Mai Finance'in arkasındaki geliştirme ekibine ait değildir. Herhangi bir türde finansal tavsiye veya rehberlik olarak alınmamalıdır.
 
-{% ipucu stili="bilgi" %}
+{% hint style="info" %}
 Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen gelişmelerden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
-{% uç ipucu %}
+{% endhint %}

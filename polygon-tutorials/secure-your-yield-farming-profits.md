@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   Bu sayfa, çiftçiliği biraz daha az karlı ama çok daha güvenli hale getirmek için "güvenli" bir stratejiyi ayrıntılı olarak sunar
 ---
 

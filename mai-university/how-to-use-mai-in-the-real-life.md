@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   Mai Finance, %0 faiz oranı ve tek bir %0,5 geri ödeme ücreti ile krediler önermektedir. Öneri özellikle Polygon'daki DeFi yatırımlarından yararlanmak için kullanışlıdır, ancak bunu gerçek dünyada da kullanabilirsiniz. 
 ---
 

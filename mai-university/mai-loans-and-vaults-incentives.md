@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   Bu makale, MAI'yi %0 faizle ödünç almak için Mai Finance'i nasıl kullanabileceğinizin, bunun için nasıl ödeme alacağınızın, %0 faizli kredinizi negatif faizli krediye nasıl dönüştürebileceğinizin ayrıntılı bir kılavuzudur.
 ---
 

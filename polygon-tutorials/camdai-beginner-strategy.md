@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   DeFi stratejilerinin her zaman karmaşık olması gerekmez. Bu makale, Mai Finance kullanarak düşük risk stratejisiyle nasıl DeFi'ye girebileceğinizi ve nasıl makul faizler elde edebileceğinizi sunar.
 ---
 
@@ -84,7 +84,6 @@ CRD oranı minimum %110 değerine ulaşırsa, teminatınızın değer kaybettiğ
 {% endhint %}
 
 Likidasyon riskini oldukça düşük tutmak için %115'lik bir CDR'ye bağlı kalmaya çalışacağız. %115'lik bir CDR'de kalmak için ne kadar MAI ödünç alabileceğimizi bilmek için şu formülü kullanacağız:
-
 
 $$
 MAI_{available} = \frac{Collateral_{value} - Debt_{value} * Target_{CDR}}{Target_{CDR}}

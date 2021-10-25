@@ -1,5 +1,5 @@
 ---
-Açıklama: >-
+description: >-
   Bu eğitim, stablecoin stratejinizin avantajlarını artırmak için Polygon'da farklı DApp'leri nasıl kullanabileceğinizi ayrıntılı olarak sunacaktır.
 ---
 
