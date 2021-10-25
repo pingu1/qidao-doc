@@ -1,25 +1,38 @@
 # Table of contents
 
-* [Le guide non-officiel d'utilisation de Mai Finance](README.md)
+* [The Unofficial Guide to Mai Finance](README.md)
 
-## Tutoriels investissement <a id="tutoriels"></a>
+## polygon tutorials
 
-* [Appliquez un effet de levier sur vos tokens AAVE](tutoriels/tirez-parti-aave-tokens.md)
-* [Que faire avec vos MAI sur Polygon](tutoriels/que-faire-avec-vos-mai-sur-polygon.md)
-* [Cultivez vos gains avec des monnaies stables](tutoriels/cultivez-vos-gains-avec-des-monnaies-stables.md)
+* [How to get started on Polygon](polygon-tutorials/how-to-get-started-on-polygon.md)
+* [Leverage Your Aave Market Tokens](polygon-tutorials/leverage-aave-tokens.md)
+* [camDAI beginner strategy](polygon-tutorials/camdai-beginner-strategy.md)
+* [Farming using only stable coins](polygon-tutorials/secure-your-yield-farming-profits.md)
+* [What to do with MAI on Polygon](polygon-tutorials/what-to-do-with-mai-on-polygon.md)
+* [What to do with Qi on Polygon](polygon-tutorials/what-to-do-with-qi-on-polygon.md)
+* [Stack DApps like Lego bricks](polygon-tutorials/stack-dapps-like-lego-bricks.md)
+* [Farming or Staking? Or both?](polygon-tutorials/farming-or-staking-or-both.md)
+* [How to combine farming and borrowing rewards](polygon-tutorials/how-to-combine-farming-and-borrowing-rewards.md)
 
-## EN - Investment tutorials <a id="investment-tutorials"></a>
+## avalanche tutorials
 
-* [How to use MAI in the real life](investment-tutorials/how-to-use-mai-in-the-real-life.md)
+* [How to get started on Avalanche](avalanche-tutorials/how-to-get-started-on-avalanche.md)
 
-## EN - Debt management tutorial
+## Fantom tutorials
 
-* [Debt repayment - Why and When?](en-debt-management-tutorial/debt-repayment-why-and-when.md)
-* [Debt repayment - How?](en-debt-management-tutorial/debt-repayment-how.md)
+* [How to get started on Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
 
-## Rejoignez la Communauté <a id="communaute"></a>
+## MAI University
 
+* [Earning Passive Income with QiDAO](mai-university/earning-passive-income-with-qidao.md)
+* [How does MAI work?](mai-university/how-does-mai-work.md)
+* [MAI loans and Vaults incentives](mai-university/mai-loans-and-vaults-incentives.md)
+* [Debt repayment - Why and When?](mai-university/debt-repayment-why-and-when.md)
+* [Debt repayment - How?](mai-university/debt-repayment-how.md)
+* [MAI Metaverse](mai-university/mai-metaverse.md)
+* [How to use MAI in the real life](mai-university/how-to-use-mai-in-the-real-life.md)
+
+## Join the Community <a href="community" id="community"></a>
+
+* [Discord](https://discord.gg/qidaoprotocol)
 * [Telegram](https://t.me/QiDaoProtocol)
-* [Discord](https://discord.gg/qSqkU3R3zy)
-* [Twitter](https://twitter.com/OhMaiGuide)
-* [Use the app](https://app.mai.finance)
