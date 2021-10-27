@@ -1,180 +1,178 @@
 ---
 description: >-
-  DeFi doesn't need to be complicated. This article presents how you can enter
-  DeFi using Mai Finance with a low risk strategy and still get reasonable
-  interests.
+  DeFI không phải thứ gì quá phức tạp, hướng dẫn dưới đây sẽ trình bày cho bạn
+  cách khởi đầu với DeFi bằng sử dụng Mai Finance với chiến lước rủi ro trong
+  tầm kiểm soát mà với có được tỷ lệ lãi khá hấp
 ---
 
-# camDAI beginner strategy
+# Làm gì với camDAI?
 
-## Intro
+## Giới thiệu
 
-Most people are scared when they think about DeFi. There's always a risk factor to take in account when using crypto currencies, the volatility of this market can make one loose a lot of money, and there are so many possibilities that finding a right strategy can be quite complex.  However, when you're using the correct tools, some easy and low risk strategies can get good results, and can probably compete with more complex and risky options.
+Hầu hết mọi người đều sợ hãi khi nghĩ về DeFi. Luôn có một yếu tố rủi ro cần tính đến khi sử dụng tiền mã hóa, sự biến động của thị trường này có thể khiến người ta mất rất nhiều tiền khiến việc tìm ra một chiến lược phù hợp có thể khá phức tạp. Tuy nhiên, khi bạn đang sử dụng các công cụ chính xác, một số chiến lược dễ dàng và rủi ro thấp có thể thu được kết quả tốt và có thể tránh được các lựa chọn phức tạp và rủi ro hơn.
 
-In this guide, we will try to present an investment strategy based on leveraged stable coin, with a touch of risk for higher interests.
+Trong hướng dẫn này, chúng tôi sẽ trình bày một chiến lược đầu tư tạo đòn bẩy cho các đồng tiền ổn định nhằm giảm rủi ro với lợi suất đáng mong đợi.&#x20;
 
-## Understanding the concept of leverage
+## Toàn tập về khái niệm đòn bẩy
 
-![Story of an unluQi gold miner](../.gitbook/assets/canDAI-farwest.png)
+![Câu chuyện của một thợ vàng Qi](../.gitbook/assets/canDAI-farwest.png)
 
-We are in the far west, during the great gold rush. Banks want to buy gold to be able to lend money to people and get interests on these loans, and miners want to get rich by selling their gold to banks.
+Tưởng tượng rằng chúng ta đang có vùng viễn Tây xa xôi, nơi mà cơn sốt vàng đang khiến các thợ đào ngày càng đông đảo hơn với mong muốn làm giàu. Các ngân hàng muốn có vàng để cho vay và kiếm lãi.
 
-You're a miner, but not very lucky. You only found a single nugget. However, you're super clever, and instead of mining, you have another plan!
+Tiếp theo bạn hãy tượng tưởng rằng bạn là một thợ đào tuy nhiên không được may mắn lắm vì chỉ đào được một ít. Tuy thế, bạn là người thông minh nên thay vì dốc sức khai thác, bạn lại có một kế hoạch khác.
 
-You go to a bank and explain that you have gold. You can deposit the gold to the bank as a collateral, meaning that you let the bank use that gold for people who want to use it, and the bank will give you some interests on your deposit.
+Bạn đến một ngân hàng và giải thích rằng bạn có vàng để thế chấp với mục đích nhận một phần lãi suất từ việc cho vay những người có nhu cầu.
 
-Also, because you lended some gold, the bank agrees to let you borrow money from them, and in case you cannot repay your loan with some interests. The bank will pay itself using the gold you deposited. Cool, now you are earning interests on the gold you have at the bank, and they gave you some cash.
+Cũng  bởi vì bạn có thể dùng số vàng đó làm thế chấp nên bạn có thể vay thêm ngân hàng vay một số tiền nhất định.
 
-With that, you decide to go see a fellow miner and buy his gold with your cash. This is letting him focus on mining and he gets cash for the gold he found. Everybody is happy.
+Với số tiền vay được bạn quyết định tìm đến những thợ đào khác để mua lại số vàng của họ.
 
-You go back to the bank and deposit the gold you bought. This implies more interest, and now the bank lets you borrow more cash from the extra gold you deposited. You have more gold exposed to the bank's interests, and some more cash. Time to go back to see if your friend found more gold, then repeat again and again.
+Bạn quay lại ngân hàng để gửi số vàng đó để kiếm được nhiều lãi hơn đồng thời tiếp tục vay tiền để mua thêm vàng từ các thợ đào. Bạn tiếp tục lặp lại nhiều lần như vậy.
 
-This is what is called leverage. Now imagine that you can find a bank that lets you borrow cash at 0% interest and you have a solid money printing machine only from the interests you're getting.
+Đây gọi là tạo đòn bẩy. Bây giờ bạn thử tưởng tượng rằng có một ngân hàng cho bạn vay với lãi suất 0% và một cỗ máy in tiền từ những khoản lãi mà bạn nhận được.
 
-## Introducing the tools
+## Giới thiệu công cụ
 
 ### AAVE
 
-[AAVE](https://app.aave.com) is a lending and borrowing platform where you can deposit your assets. By lending on AAVE, your deposited tokens will earn yield. For our strategy, we'll be lending DAI, a stable coin (pegged to the US dollar). On AAVE, $100 worth of DAI will potentially generate between 4% and 10% rate of return over the span of 1 year.
+[AAVE](https://app.aave.com) là một nền tảng cho vay và đi vay nơi bạn có thể gửi tài sản mã hóa của mình để kiếm được lợi nhuận. Đối với chiến lược minh họa dưới đây, chúng ta sẽ cho vay DAI, một đồng tiền ổn định (được gắn với đô la Mỹ). Trên AAVE, DAI trị giá 100 đô la sẽ có khả năng tạo ra tỷ suất lợi nhuận từ 4% đến 10% trong khoảng thời gian 1 năm.
 
-![AAVE markets on Polygon as of October 2021](../.gitbook/assets/canDAI-aave.png)
+![Thị trường AAVE trên Polygon tại thời điểm tháng 10 nắm 2021](../.gitbook/assets/canDAI-aave.png)
 
-When you deposit your assets on AAVE, you will receive a proof of deposit. In our example, since we are depositing DAI, we will get amDAI tokens in our wallet (**a**ave **m**arket DAI). You absolutely need to keep this receipt because you will need it to remove your DAI from AAVE. This is the bank that will accept your gold in our far west comparison.
+Khi bạn gửi tài sản của mình trên AAVE, bạn sẽ nhận được hóa đơn về việc gửi tiền. Trong ví dụ này, vì chúng ta đang gửi DAI, chúng ta sẽ nhận được mã thông báo amDAI trong ví của mình (hóa đơn của DAI). Bạn nhất thiết phải giữ lại biên lai này vì bạn sẽ cần nó để lấy lại DAI của mình khỏi AAVE. Đây là ngân hàng sẽ chấp nhận vàng của bạn trong cuộc so sánh viễn tây của chúng tôi.
 
 ### Mai Finance
 
-[Mai Finance](https://app.mai.finance) is a lending platform that will let you deposit some assets in a vault, and borrow against the value of this deposit. If we go back to the bank analogy, it would be a bank that lets you take a loan, but the loan doesn't come from what other people are lending. Instead, the bank prints money corresponding to your personal deposit, so you only borrow against yourself.
+[Mai Finance](https://app.mai.finance) là một nền tảng cho vay sẽ cho phép bạn gửi một số tài sản mã hóa vào một kho tiền và vay theo giá trị của khoản tiền gửi này. Nếu chúng ta so sánh với khái niệm ngân hàng, đó sẽ là ngân hàng cho phép bạn vay, nhưng khoản vay không đến từ những gì người khác đang cho vay. Thay vào đó, ngân hàng này in tiền tương ứng với khoản tiền gửi của bạn.
 
-Mai finance will accept the amDAI on its [yield instrument](https://app.mai.finance/yield). The yield instrument is just an intermediate tool between AAVE and the vault on Mai Finance. As you can see in the AAVE screenshot, lending DAI will make you earn 8.75% in DAI (that is compounded), but also 2.01% reward in MATIC. The yield instrument on Mai Finance will harvest this MATIC reward and swap it for more DAI that will be added to your DAI deposit. The APY (**A**nnual **P**ercentage **Y**ield) on the Mai Finance site is hence showing the aggregated interests from AAVE.
+Bạn có thể sử dụng amDAI trên thanh tab [lợi nhuận](https://app.mai.finance/yield) trên nền tảng Mai Finance bằng cách cho vay tại các kho tiền với lãi suất cộng dồn lên tới 8.75% với phần thưởng 2.01% bằng WMATIC. Công cụ lợi nhuận trên nền tảng Mai Finance sẽ trực tiếp hoán đổi số MATIC này thành DAI do vậy tỷ lệ APY hiện thị trên Mai Finance là số lãi suất cộng dồn từ thị trường AAVE.
 
-![Yield instrument on Mai Finance](../.gitbook/assets/camDAI-yield.png)
+![Công cụ lợi nhuận trên Mai Finance](../.gitbook/assets/camDAI-yield.png)
 
-Once you deposited your amDAI on the yield instrument, you will get some camDAI in your wallet (**c**ompounding amDAI). This is a receipt that indicates your share of the amDAI pool in the yield instrument. As a side note, because camDAI is a representation of your share of the amDAI pool, the ratio between amDAI and camDAI isn't 1:1. See [this article](leverage-aave-tokens.md#amtokens-vs-camtoken) for more details.
+Sau khi  bạn gửi số amDAI của mình vào công cụ lợi nhuận trên Mai Finance bạn sẽ nhận lại một số camDAI token được coi như bằng chứng cho số token mà bạn đã gửi vào bể amDAI với tỷ lệ phụ thuộc vào phần trăm cổ phần của bạn trong bể. Bạn có thể xem chi tiết tại [hướng dẫn này.](leverage-aave-tokens.md#amtokens-vs-camtoken)
 
-You can now [deposit your camDAI](https://app.mai.finance/vaults) tokens in a vault on Mai Finance, and will then be able to borrow some MAI (a stable coin pegged to $1) against your collateral. In our far west comparison, this is a second bank that will let you take a cash loan based on the amount of gold you deposited in the first bank. This second bank accepts the receipt from the first bank as a guarantee in case you cannot repay your loan.
+Giờ đây bạn có thể vay thêm MAI (một đồng tiền ổn định neo tại mức 1$) bằng số camDAI nhận được dùng làm thế chấp từ các kho tiền của Mai Finance. Nền tảng này tương tự như ngân hàng thứ hai cho phép bạn vay tiền dựa trên số vàng bạn đã thế chấp tại ngân hàng thứ nhất như một sự đảm bảo trong trưởng hợp bạn không có khả năng hoàn trả khoản vay của mình.&#x20;
 
 ### Zapper
 
-[Zapper](https://zapper.fi/dashboard) is a Swiss army knife of DeFi on Polygon. This platform will let you farm yields in liquidity pools, lend your assets on AAVE directly from their platform, presents a dashboard of your different investments, and will let you swap some currencies for other currencies. This is the last feature that we will be using in order to exchange the MAI stable coin we just borrowed for more DAI.
+[Zapper](https://zapper.fi/dashboard) giống như một con dao sắc bén trên mạng Polygon. Nền tảng này cho phép bạn canh tác lợi suất tại các bể thanh khoản, cho vay tài sản của bạn trên AAVE trực tiếp trên nền tảng của họ. Các bảng theo dõi trực quan cho phép người dùng có thể theo dõi danh mục đầu tư của mình cũng như cho phép hoán đổi một số loại tiền tệ. Chúng ta sẽ sử dụng nền tảng này là bước cuối để hoán đổi đồng MAI sang DAI.
 
-![Swapping MAI for DAI](../.gitbook/assets/camDAI-zapper.png)
+![Hoán đổi MAI sang DAI](../.gitbook/assets/camDAI-zapper.png)
 
-In our far west example, Zapper is the gold miner that will accept your cash and will sell you gold.
+Zapper chính là những người thợ đào vàng chấp nhận tiền bạn vay được để đổi lấy vàng.
 
 ### Balancer
 
-As you can see in the screenshot above, Zapper is using Balancer has the protocol to operate the swap. [Balancer](https://polygon.balancer.fi/#/) is an automated portfolio manager, liquidity provider, and price sensor where you will be able to provide liquidity (and get fees from this) or swap currencies using the liquidity pools.
+Như bạn thấy trên thì Zapper đang sử dụng [Balancer](https://polygon.balancer.fi/#/) như một giao thức vận hành cung cấp thanh khoản. Balancer là trình quản lý danh mục đầu tư tự động, cung cấp thanh khoản và cảm biến giá, nơi bạn có thể cung cấp tính thanh khoản (và nhận phí từ việc này) hoặc hoán đổi tiền tệ bằng cách sử dụng các bể thanh khoản.
 
-For our guide, we will use Balancer to expose our investments to a little more volatility and get better interests. This is 100% optional though.
+Đối với hướng dẫn này, Balancer đóng vai trò như một công cụ để tăng độ biến động của các khoản đầu tư của chúng ta nhằm kiếm được lợi nhuận tốt hơn.
 
-## Strategy description
+## Miêu tả chiến lược
 
-### Main strategy
+### Chiến lược chính
 
-Even if we explained what AAVE is, our strategy will use a feature from Mai Finance to automate the DAI deposit on AAVE, the amDAI deposit in the yield instrument and the camDAI deposit in the camDAI vault.
+Như đã giải thích ở trên thì AAVE đóng vai trò là nguồn cung thế chấp cho những kho tiền trên nền tảng Mai Finance bằng công cụ lợi nhuận.
 
-![](../.gitbook/assets/camDAI-zapDAI.png)![](../.gitbook/assets/camDAI-zapdeposit.png)
+![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
 
-The `Zap in using DAI` button opens a popup that lets you deposit your DAI in the vault and operates the AAVE deposit under the hood. This is saving a lot of time, and some gas.
+Nút `Zap khi sử dụng DAI` sẽ mở ra một cửa sổ bật lên cho phép bạn gửi DAI của mình vào kho tiền và vận hành tiền gửi AAVE . Điều này giúp tiết kiệm rất nhiều thời gian và một phí giao dịch.&#x20;
 
-This will be our first step. Assuming we have $100 worth of DAI, we will deposit them on Mai Finance in a camDAI vault. This will allow us to borrow MAI against this initial deposit.
+Đây là bước đầu tiên với giả định rằng chúng ta có 100$ DAI được gửi vào kho tiền camDAI với mục đích vay MAI.
 
-The minimal CDR (**C**ollateral to **D**ebt **R**atio) for camDAI is 110%. This means that the ratio between your collateral (the $100 worth of DAI) and the loan we're about to get needs to remain above 110%.&#x20;
+CDR (Tỷ lệ tài sản đảm bảo trên Nợ) tối thiểu đối với camDAI là 110%. Điều này có nghĩa là tỷ lệ giữa tài sản thế chấp của bạn (DAI trị giá 100 đô la) và khoản vay cần phải duy trì trên 110%.
 
 {% hint style="danger" %}
-If this CRD ratio reaches the minimal value of 110%, it means that your collateral is losing value and your debt may become bigger than the value of your collateral. At this point, your vault can be liquidated: someone can repay a part of your debt and get a part of your collateral as a compensation. However, since both DAI and MAI are stable coins pegged to the US dollar, the risk of getting a big difference between the 2 assets is very low, which makes this strategy fairly safe.
+Nếu tỷ lệ CRD này đạt đến giá trị tối thiểu là 110%, điều đó có nghĩa là tài sản thế chấp của bạn đang mất giá trị và khoản nợ của bạn trở lên lớn hơn giá trị tài sản thế chấp của bạn. Tại thời điểm này, kho tiền của bạn có thể được thanh lý: ai đó có thể trả một phần nợ của bạn và lấy một phần tài sản thế chấp của bạn như một khoản bồi thường. Tuy nhiên, vì cả DAI và MAI đều là những đồng tiền ổn định được gắn với đồng đô la Mỹ, nên rủi ro giữa 2 tài sản là rất thấp làm cho chiến lược này khá an toàn.
 {% endhint %}
 
-In order to maintain the liquidation risk fairly low, we will try to stick to a CDR of 115%. In order to know how much MAI we can borrow to stay at a 115% CDR, we will use this formula:
+Để duy trì rủi ro thanh lý thấp, chúng ta sẽ duy trì CDR ở mức 115%. Với tỷ lệ này chúng ta có thể biết được số lượng MAI có thể vay được dựa vào công thức dưới đây.
 
 $$
-MAI_{available} = \frac{Collateral_{value} - Debt_{value} * Target_{CDR}}{Target_{CDR}}
+MAI_{khả.dụng} = \frac{tài.sản .thế.chấp_{giá.trị} - Nợ_{giá.trị} * Mục.tiêu_{CDR}}{Mục.tiêu_{CDR}}
 $$
 
-With a collateral value of $100, no debt yet, and a target CDR of 115%, here's how much we can borrow:
+Với giá trị tài sản thế chấp là 100 đô la, chưa có nợ và CDR mục tiêu là 115%, đây là số tiền chúng tôi có thể vay:
 
 $$
-MAI_{available}=\frac{100 - 0*1.15}{1.15}=86.95
+MAI_{khả.dụng}=\frac{100 - 0*1.15}{1.15}=86.95
 $$
 
-​You can then swap the MAI you borrowed for DAI and repeat. Here's what your collateral and debt should look like:
+​Sau đó, bạn có thể hoán đổi MAI mà bạn đã mượn cho DAI và lặp lại. Sau đây là số liệu thống kê tài sản và nợ của bạn:
 
-| Loop # | Collateral | Debt    | Available loan | Equivalent APY | DAI liquidation price |
-| ------ | ---------- | ------- | -------------- | -------------- | --------------------- |
-| 1      | 100.000    | 0.000   | 86.956         | 10.42%         | 0                     |
-| 2      | 189.956    | 86.956  | 75.614         | 19.48%         | 0.512                 |
-| 3      | 262.571    | 162.571 | 62.751         | 27.36%         | 0.681                 |
-| 4      | 328.323    | 228.323 | 57.175         | 34.21%         | 0.765                 |
-| 5      | 385.498    | 285.498 | 49.718         | 40.17%         | 0.815                 |
-| 6      | 435.216    | 335.216 | 43.233         | 45.35%         | 0.847                 |
-| 7      | 478.449    | 278.448 | 37.593         | 49.85%         | 0.870                 |
-| 8      | 516.042    | 416.042 | 32.690         | 53.77%         | 0.887                 |
-| 9      | 548.732    | 448.732 | 28.426         | 57.18%         | 0.899                 |
-| 10     | 577.158    | 477.158 | 24.718         | 60.14%         | 0.909                 |
-| 11     | 601.877    | 501.877 | 21.494         | 62.72%         | 0.917                 |
-| 12     | 623.371    | 523.371 | 18.691         | 64.96%         | 0.924                 |
-| 13     | 642.062    | 542.062 | 16.253         | 66.90%         | 0.929                 |
-| 14     | 658.315    | 558.315 | 14.133         | 68.60%         | 0.933                 |
-| 15     | 672.448    | 572.448 | 12.289         | 70.07%         | 0.936                 |
-| 16     | 684.737    | 584.737 | 10.686         | 71.35%         | 0.939                 |
-| 17     | 695.423    | 595.423 | 9.293          | 72.46%         | 0.942                 |
+| Vòng lặp # | Tài sản thế chấp | Nợ      | Nợ khả dụng | APY tương ứng | DAI liquidation price |
+| ---------- | ---------------- | ------- | ----------- | ------------- | --------------------- |
+| 1          | 100.000          | 0.000   | 86.956      | 10.42%        | 0                     |
+| 2          | 189.956          | 86.956  | 75.614      | 19.48%        | 0.512                 |
+| 3          | 262.571          | 162.571 | 62.751      | 27.36%        | 0.681                 |
+| 4          | 328.323          | 228.323 | 57.175      | 34.21%        | 0.765                 |
+| 5          | 385.498          | 285.498 | 49.718      | 40.17%        | 0.815                 |
+| 6          | 435.216          | 335.216 | 43.233      | 45.35%        | 0.847                 |
+| 7          | 478.449          | 278.448 | 37.593      | 49.85%        | 0.870                 |
+| 8          | 516.042          | 416.042 | 32.690      | 53.77%        | 0.887                 |
+| 9          | 548.732          | 448.732 | 28.426      | 57.18%        | 0.899                 |
+| 10         | 577.158          | 477.158 | 24.718      | 60.14%        | 0.909                 |
+| 11         | 601.877          | 501.877 | 21.494      | 62.72%        | 0.917                 |
+| 12         | 623.371          | 523.371 | 18.691      | 64.96%        | 0.924                 |
+| 13         | 642.062          | 542.062 | 16.253      | 66.90%        | 0.929                 |
+| 14         | 658.315          | 558.315 | 14.133      | 68.60%        | 0.933                 |
+| 15         | 672.448          | 572.448 | 12.289      | 70.07%        | 0.936                 |
+| 16         | 684.737          | 584.737 | 10.686      | 71.35%        | 0.939                 |
+| 17         | 695.423          | 595.423 | 9.293       | 72.46%        | 0.942                 |
 
-We're stopping at 17 loops but you can operate more if you want to.
+Trong minh họa này, chúng ta dừng lại ở vòng lặp thứ 17, bạn có thể tăng vòng lặp nếu muốn.
 
-At the end of the 17 loops, you'd get $695.423 of collateral and $595.423 of debt. This corresponds to a CDR 116.79% which should be safe enough to prevent liquidation.
+Vào cuối 17 vòng, bạn sẽ nhận được 695,423 đô la tài sản thế chấp và 595,423 đô la nợ. Điều này tương ứng với 116,79% CDR, đủ an toàn để ngăn chặn rủi ro thanh lý.
 
-If we consider the 10.42% APY granted by the yield instrument, this would generate
+Với mức APY là 10.42% được cấp từ kho camDAI trên Mai Finance thì lợi nhuận sau một năm với 100$ vốn ban đầu là
 
 $$
-Interests = Collateral_{value}*APY=695.423*10.42\%= \$72.463
+Lợi.nhuận  = Tài.sản.thế.chấp_{giá.trị}*APY=695.423*10.42\%= \$72.463
 $$
 
-&#x20;If we consider that the initial investment was only $100, that's an equivalent APY of 72.463% on single staking a stable coin!
+### Chiến lược thay thế
 
-### Alternative strategy
+Để có thể tiếp xúc nhiều hơn với tài sản biến động cao, bạn có thể sử dụng vòng lặp như trên nhưng chỉ tạo đòn bẩy cho 90% MAI và 10% còn lại mua token Qi nhằm cung cấp thanh khoản cho bể BAL-Qi trên Balancer .
 
-In order to get a little exposure to high volatility assets, you can use the same loop as above but only leverage 90% of the borrowed MAI, and use the 10% to buy something else. In this example, we will use the 10% to buy Qi (the native token of Mai Finance) and use the Qi-BAL pool on Balancer that currently has an APR (**A**nnual **P**ercentage **R**evenue) of 107.12%.
+![Bể Qi-Bal trên Balancer tại thời điểm tháng 10 năm 2021](../.gitbook/assets/camDAI-balancer.png)
 
-![Qi-BAL pool state as of October 2021](../.gitbook/assets/camDAI-balancer.png)
+Vì chúng ta tái đầu tư ít DAI hơn nên chúng ta cũng sử dụng ít vòng lặp hơn :
 
-Since we're re-injecting less DAI in the camDAI vault, we will also operate less loops. The setup will look like this:
+| Vòng lặp # | Tài sản thế chấp | Nợ      | Qi     | Nợ khả dụng | APY tương ứng  | DAI liquidation price |
+| ---------- | ---------------- | ------- | ------ | ----------- | -------------- | --------------------- |
+| 1          | 100.000          | 0.000   | 0.000  | 86.957      | 10.42%         | 0                     |
+| 2          | 178.261          | 86.957  | 8.696  | 68.053      | 35.22%         | 0.537                 |
+| 3          | 239.509          | 155.009 | 15.501 | 53.259      | 54.63%         | 0.712                 |
+| 4          | 287.441          | 208.268 | 20.827 | 41.681      | 69.82%         | 0.797                 |
+| 5          | 324.954          | 249.949 | 24.995 | 32.620      | 81.71%         | 0.846                 |
+| 6          | 354.312          | 282.569 | 28.257 | 25.529      | 91.01%         | 0.877                 |
+| 7          | 377.288          | 308.097 | 30.810 | 19.979      | 98.29%         | 0.898                 |
+| 8          | 395.269          | 328.076 | 32.808 | 15.636      | 103.99%        | 0.913                 |
+| 9          | 409.341          | 343.712 | 34.371 | 12.237      | 108.45%        | 0.924                 |
+| 10         | 420.354          | 355.948 | 35.595 | 9.576       | 111.94%        | 0.931                 |
 
-| Loop # | Collateral | Debt    | Qi     | Available loan | Equivalent APY | DAI liquidation price |
-| ------ | ---------- | ------- | ------ | -------------- | -------------- | --------------------- |
-| 1      | 100.000    | 0.000   | 0.000  | 86.957         | 10.42%         | 0                     |
-| 2      | 178.261    | 86.957  | 8.696  | 68.053         | 35.22%         | 0.537                 |
-| 3      | 239.509    | 155.009 | 15.501 | 53.259         | 54.63%         | 0.712                 |
-| 4      | 287.441    | 208.268 | 20.827 | 41.681         | 69.82%         | 0.797                 |
-| 5      | 324.954    | 249.949 | 24.995 | 32.620         | 81.71%         | 0.846                 |
-| 6      | 354.312    | 282.569 | 28.257 | 25.529         | 91.01%         | 0.877                 |
-| 7      | 377.288    | 308.097 | 30.810 | 19.979         | 98.29%         | 0.898                 |
-| 8      | 395.269    | 328.076 | 32.808 | 15.636         | 103.99%        | 0.913                 |
-| 9      | 409.341    | 343.712 | 34.371 | 12.237         | 108.45%        | 0.924                 |
-| 10     | 420.354    | 355.948 | 35.595 | 9.576          | 111.94%        | 0.931                 |
+Khi kết thúc 10 vòng lặp, bạn sẽ nhận được
 
-At the end of the 10 loops, you'd get
+* $420.354 DAI tài sản thế chấp
+* $355.948 nợ
+* $35.595 Qi
 
-* $420.354 of DAI as collateral
-* $355.948 of debt
-* $35.595 of Qi
+Với cùng công thức áp dụng như trên ta sẽ có số liệu như sau:
 
-The same math as in the previous case gives the following results
+* Mức CDR là 118.09% được coi là đủ an toàn để ngăn chặn rủi ro về thanh lý
+* 43,800 đô la tiền lãi từ DAI với 10,42% APY được cấp bởi công cụ lợi suất
+* 68,139 đô la tiền lãi cho Qi từ Balancer trong bể thanh khoản Bal-Qi
+* Tổng cộng là 111.94% APY
 
-* A final CDR of 118.09%, which should be considered as safe enough to prevent liquidation
-* $43.800 of interests on DAI from the 10.42% APY granted by the yield instrument
-* $68.139 of interests on your Qi from the Balancer pool, if you assume you will be compounding the Qi and BAL rewards in the Qi-BAL pool
-* A total APY of 111.94%
+Chiến lược này rủi ro hơn rất nhiều đặc biệt với bể thanh khoản Bal-Qi. Tuy nhiên với chiến lược này, chúng ta có thể tiếp xúc với Qi từ giao thức QiDAO. Nếu bạn sử dụng phần thưởng Bal từ bể thanh khoản để làm thế chấp tại kho tiền để vay thêm MAI bạn có thể tiếp tục tái đầu tư vào kho tiền camDAI hoặc bể thanh khoản Bal-Qi. Làm như vậy bạn sẽ được thưởng Qi thêm từ việc vay tiền hàng tuần.
 
-This strategy presents more risks in the sense that the investment in the Qi-BAL pool isn't guaranteed. However, you will get a little bit of exposure to Qi, which will let you participate to the QiDAO protocol. If you use the BAL reward on Mai Finance as a collateral and borrow against it, you will also be able to re-invest in the camDAI vault or in the Qi-BAL pool. If you do so, you will also be entitled to borrowing rewards paid in Qi every week.
+## Kết luận
 
-## Conclusion
+Với số vốn đầu tư tối thiểu và giám sát ít bạn có thể nhận được số lợi nhuận khá bền vững chỉ bằng cách tạo đòn bẩy cho DAI. DAI là đồng ổn định nên thanh khoản dồi dào trên rất nhiều mạng lưới vì vậy khả năng bị thanh lý là rất thấp. Giống như việc " set up và quên" tạo khởi đầu thuận lợi cho bất cứ những newbie nào bắt đầu bước chân vào Defi trong bất kì bối cảnh thị trường uptrend hay downtrend.
 
-With some minimal investment and low maintenance, you can get some pretty solid results simply by leveraging your DAI. Since DAI is a stable coin that has a lot of liquidity across multiple chains, the risk is relatively low for DAI to go off peg and for your vault to be liquidated. It's the kind of "set and forget" setup that can easily be a very good starting point for any DeFi beginner, and chances are this strategy will perform the same way in a bull market or in a bear market. Finally, we also explained how you can use the same strategy to grab a portion of your loan and test out the many possibilities that DeFi has on Polygon.
+## Tuyên bố từ chối trách nhiệm
 
-## Disclaimer
-
-Everything presented in this tutorial is educational content made to illustrate the leverage option proposed by Mai Finance. We didn't talk about debt repayment because there are articles dedicated to this on this site, but you need to keep in mind that Mai Finance charges a 0.5% repayment fee on the borrowed amount. As always, make your own researches and don't hesitate to ask question on the [Discord server of the DAO](https://discord.com/invite/qidaoprotocol) community.
+Tất cả mọi thứ được trình bày trong hướng dẫn với mục đích giáo dục được thực hiện để minh họa tùy chọn tạo đòn bẩy cho DAI được Mai Finance đề xuất. Chúng tôi không nói về việc trả nợ vì có những bài viết dành riêng cho vấn đề này trên trang web này, nhưng bạn cần lưu ý rằng  phí hoàn trả 0,5% trên số tiền đã vay. Như mọi khi, hãy tự nghiên cứu và đừng ngần ngại đặt câu hỏi trên  [Discord ](https://discord.com/invite/qidaoprotocol)của cộng đồng DAO.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}
