@@ -1,28 +1,26 @@
 ---
-description: >-
-  This site is maintained by the Mai Finance community and serves as a resource
-  to explore the breadth of DeFi applications associated with the platform and
-  it’s stablecoin MAI.
+Açıklama: >-
+  Bu site ve içerik, Mai Finance topluluğu tarafından yönetilir ve platformla ilişkili DeFi uygulamalarını keşfetmek için bir kaynak görevi üstlenir. Platformun sabit kripto parası MAI'dir.
 ---
 
-# The Unofficial Guide to Mai Finance
+# Mai Finance için Topluluk Rehberi
 
-## Is this guide approved by the community?
+## Kılavuz topluluk tarafından onaylandı mı?
 
-This guide was developed by members of the Mai Finance community, also known as Qimps (chimps), to explore the Mai Finance borrowing platform in greater detail and present a variety of DeFi strategies by which users can derive additional value from the platform. This is not an official guide for Mai Finance, nor is any of this literature financial advice. As always with DeFi and cryptocurrency in general, do your own research, and only invest what you’re comfortable with potentially losing.
+Bu kılavuz, Qimps (şempanzeler) olarak da bilinen Mai Finance topluluğunun üyeleri tarafından, Mai Finance borçlanma platformunu daha ayrıntılı keşfetmek ve kullanıcıların platformdan ek değer elde edebilecekleri çeşitli DeFi stratejileri sunmak için geliştirilmiştir. Kılavuz Mai Finance için resmi bir rehber değildir ve literatürdeki finansal tavsiyelerin hiçbiri geçerli değildir. Genel olarak DeFi ve kripto para biriminde her zaman olduğu gibi, kendi araştırmanızı yapın ve yalnızca sizi alt üst etmeyecek kadar yatırım yapın.
 
-## Where can I find the official documentation?
+## Resmi belgeleri nerede bulabilirim?
 
-You can find the official documentation here: [docs.mai.finance](https://docs.mai.finance)
+Resmi belgeleri burada bulabilirsiniz: [docs.mai.finance](https://docs.mai.finance)
 
-## Where can I access the application?
+## Uygulamaya nereden ulaşabilirim?
 
-The Mai Finance application can be found here: [app.mai.finance](https://app.mai.finance)
+Mai Finans uygulaması burada bulunabilir: [app.mai.finance](https://app.mai.finance)
 
-## What will I find on this website?
+## Bu web sitesinde ne bulacağım?
 
-The goal of this website is to present a variety of investment strategies that utilize the Mai Finance borrowing platform. Topic samples include managing debts and repayments, advantages of borrowing the MAI stablecoin and how to integrate Mai Finance into other DeFi protocols/strategies. Lastly, information on how to efficiently use Mai Finance's native token, Qi, will be provided.
+Bu web sitesinin amacı, Mai Finance borçlanma platformunu kullanan çeşitli yatırım stratejileri sunmaktır. Konu örnekleri arasında borçların ve geri ödemelerin yönetimi, MAI stablecoini ödünç almanın avantajları ve Mai Finance'in diğer DeFi protokollerine/stratejilerine nasıl entegre edileceği yer alıyor. Son olarak, Mai Finance'in yerel tokeni Qi'nin nasıl verimli bir şekilde kullanılacağı hakkında bilgi verilecektir.
 
-## What will I not find on this website?
+## Bu web sitesinde ne yok?
 
-It will be assumed that users of this website are already aware of DeFi projects on Polygon, have a good understanding of how cryptocurrency works, and are informed of the different risks related to the cryptocurrency industry in general. This website will not explain how to setup a Metamask wallet, nor provide guidance on cryptocurrency tax reporting. It will also be assumed that users have a basic understanding of the Mai Finance platform, it’s fees and how the protocol earns revenue. If you have questions regarding these last few points, please read the official documentation (link above) or join the [Discord](https://discord.gg/mQq55j65xJ) or [Telegram](https://t.co/ttG5c1cxfZ?amp=1) communities.
+Bu web sitesinin kullanıcılarının Polygon'daki DeFi projelerinden zaten haberdar oldukları, kripto para biriminin nasıl çalıştığını iyi anladıkları ve genel olarak kripto para endüstrisi ile ilgili farklı riskler hakkında bilgi sahibi oldukları varsayılacaktır. Sitede Metamask cüzdanının nasıl kurulacağını açıklamayacak veya kripto para birimi vergi raporlaması konusunda rehberlik sağlamayacaktır. Ayrıca, kullanıcıların Mai Finance platformu, ücretleri ve protokolün nasıl gelir elde ettiği hakkında temel bir anlayışa sahip olduğu varsayılacaktır. Bu son birkaç noktayla ilgili sorularınız varsa, lütfen resmi belgeleri okuyun (yukarıdaki bağlantı) [Discord](https://discord.gg/mQq55j65xJ) veya [Telegram](https://t.co/ttG5c1cxfZ?amp=1) topluluklarına katılın.
