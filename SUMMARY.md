@@ -26,7 +26,7 @@
 
 * [Passives Einkommen mit QiDAO](MAI-university/earning-passive-income-with-qidao.md)
 * [Wie funktioniert MAI?](mai-eqi-qi-tutorials/how-does-mai-work.md)
-* [MAI loans and Vaults incentives](mai-eqi-qi-tutorials/mai-loans-and-vaults-incentives.md)
+* [MAI Kredite und Vault-Anreize](mai-eqi-qi-tutorials/mai-loans-and-vaults-incentives.md)
 * [Schuldentilgung - Wann und warum?](debt-management-tutorials/debt-repayment-why-and-when.md)
 * [Wie du deine Schulden tilgen kannst](debt-management-tutorials/debt-repayment-how.md)
 * [MAI Metaverse](MAI-university/mai-metaverse.md)
