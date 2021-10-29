@@ -23,11 +23,11 @@ Augury Finance, LP (**L**iquidity**P**ool) tokenlarınızı otomatik olarak birl
 
 Bu infüzyon, temel çiftlik olarak DinoSwap'ı ve birinin DFYN'de alabileceği bir LP tokenını kullanıyor. %123,43'lük bir APR ile bu havuza likidite yatıran kullanıcılar ile ödüllendirilecektir.
 
-* 30% of WETH
-* 20% of LINK
-* 20% of WBTC
-* 15% of USDT
-* 15% of WMATIC
+* 30% WETH ile
+* 20% LINK ile
+* 20% WBTC ile
+* 15% USDT ile
+* 15% WMATIC ile
 
 DinoSwap üzerinde farm yaparsanız, fiyatı çok değişken olan DINO tokenları ile ödeme alırsınız. Adamant veya Beefy gibi diğer toplayıcılarda LP konumunuzu yükseltirsiniz, ancak Augury ile çok yüksek oynaklığa sahip olma olasılığı daha düşük olan tokenlar alarak konumunuzu "güvence altına alırsınız". Dezavantajı ise, hasat DINO'nun %100'ü Augury'de ödülü oluşturan token setine dönüştürüldüğü için ilk konumunuzun zaman içinde büyümemesidir.
 
