@@ -1,28 +1,27 @@
 ---
-description: >-
-  This page presents how to combine yield farming with the borrowing rewards
-  provided by Mai Finance to increase your overall interests.
+Açıklama: >-
+  Bu sayfa, yatırımlarınızı büyütmek için verim çiftçiliğini, Mai Finance tarafından sağlanan borçlanma ödülleriyle nasıl birleştireceğinizi sunar.
 ---
 
-# How to combine farming and borrowing rewards
+# Çiftçilik ve Borçlanma (Borrowing) Ödülleri Nasıl Birleştirilir?
 
-## Intro
+## Giriş
 
-In September 2021, Mai Finance introduced vault rewards in order to promote its borrowing business and have people use their tokens to borrow MAI. It's not only taking a 0% interest loan with a small repayment fee, now people can also get paid to borrow money. This guide will propose a strategy based on stable coin farming using Augury Finance as a source of tokens that will feed the vaults on Mai Finance, leading to high borrowing incentives, and additional MAI that will then be re-injected in the farm.
+Eylül 2021'de Mai Finance, borçlanma işini geliştirmek ve insanların MAI'yi ödünç almak için tokenlarını kullanmasını sağlamak için kasa ödüllerini tanıttı. Sadece küçük bir geri ödeme ücreti ile %0 faizli kredi almakla kalmıyor, artık insanlar borç para almak için de ödeme alabiliyor. Bu kılavuz, Mai Finance'deki kasaları besleyecek, yüksek borçlanma teşviklerine yol açacak bir token kaynağı olarak Augury Finance'i kullanarak istikrarlı token çiftçiliğine dayalı bir strateji ve daha sonra çiftliğe yeniden enjekte edilecek ek MAI önerecektir.
 
 ![](<../.gitbook/assets/image (29).png>)
 
-## Application and pools presentation
+## Uygulama ve Havuz Tanıtımı
 
 ### Augury Finance
 
-Augury Finance is a yield aggregator that doesn't focus on auto-compounding your LP (**L**iquidity **P**ool) tokens. Instead, Augury will automatically sell the farm tokens of the farms it uses to buy other tokens in their _Infusions._
+Augury Finance, LP (**L**iquidity**P**ool) tokenlarınızı otomatik olarak birleştirmeye odaklanmayan bir getiri toplayıcıdır. Bunun yerine Augury Finance, _Infusions_'larında yatırımlarının olduğu çiftliklerin çiftlik tokenlarını otomatik olarak satıyor.
 
-As an example, you can farm the DFYN-WETH pair on Augury
+Örnek olarak, DFYN-WETH çiftini Augury'de değerlendirebilirsiniz.
 
-![Example of the DFYN-WETH mining pool on Augury Finance](<../.gitbook/assets/image (30).png>)
+![Augury Finance'deki DFYN-WETH madencilik havuzu örneği](<../.gitbook/assets/image (30).png>)
 
-This Infusion is using DinoSwap as the underlying farm, and a LP token that one can get on DFYN. With an APR of 123.43%, users who deposit liquidity in this pool will be rewarded with
+Bu infüzyon, temel çiftlik olarak DinoSwap'ı ve birinin DFYN'de alabileceği bir LP tokenını kullanıyor. %123,43'lük bir APR ile bu havuza likidite yatıran kullanıcılar ile ödüllendirilecektir.
 
 * 30% of WETH
 * 20% of LINK
@@ -30,131 +29,131 @@ This Infusion is using DinoSwap as the underlying farm, and a LP token that one 
 * 15% of USDT
 * 15% of WMATIC
 
-If you farm on DinoSwap, you will be paid with DINO tokens, which price is very volatile. On other aggregator like Adamant or Beefy, you would increase your LP position, but with Augury you "secure" your position by getting tokens that are less likely to have very high volatility. The drawback is that your initial position won't grow over time since 100% of the harvest DINO is converted into the set of tokens composing the reward on Augury.
+DinoSwap üzerinde farm yaparsanız, fiyatı çok değişken olan DINO tokenları ile ödeme alırsınız. Adamant veya Beefy gibi diğer toplayıcılarda LP konumunuzu yükseltirsiniz, ancak Augury ile çok yüksek oynaklığa sahip olma olasılığı daha düşük olan tokenlar alarak konumunuzu "güvence altına alırsınız". Dezavantajı ise, hasat DINO'nun %100'ü Augury'de ödülü oluşturan token setine dönüştürüldüğü için ilk konumunuzun zaman içinde büyümemesidir.
 
 {% hint style="info" %}
-Augury finance is using 3 different Infusion tiers that have different deposit fees and performance fees. Please read about the tier types you want to use and make sure you understand their impact for your farming strategy.
+Augury Finance, farklı yatırım ücretleri ve performans ücretleri olan 3 farklı İnfüzyon katmanı kullanıyor. Lütfen kullanmak istediğiniz katman türleri hakkında bilgi edinin ve bunların çiftçilik stratejiniz üzerindeki etkisini anladığınızdan emin olun.
 {% endhint %}
 
-In our strategy, we will be using the USDT-UST tier2 farm that rewards users with a mix of WETH/WBTC/LINK/WMATIC/USDC, because Mai Finance proposes 4 vaults for 4 of the 5 tokens we will get as a reward. In order to maximize our profits, we will add AAVE between the output of Augury and the vaults on Mai Finance since 3 out of the 5 tokens we will harvest can be lended on AAVE.
+Stratejimizde, kullanıcıları bir WETH/WBTC/LINK/WMATIC/USDC karışımı ile ödüllendiren USDT-UST tier2 çiftliğini kullanacağız. Mai Finance, ödül olarak alacağımız 5 tokendan 4'ü için 4 kasa önermektedir. Kârımızı en üst düzeye çıkarmak için, Augury'nin çıktısı ile Mai Finance'deki kasalar arasına AAVE ekleyeceğiz, çünkü hasat edeceğimiz 5 tokendan 3'ü AAVE'ye ödünç verilebilir.
 
-![Stable coin farming USDT-UST for our strategy](<../.gitbook/assets/image (31).png>)
+![Stratejimiz için istikrarlı madeni para çiftçiliği USDT-UST](<../.gitbook/assets/image (31).png>)
 
 ### Curve
 
-Curve is a blue-chip project that will reward users lending blue-chip tokens. The reward is composed of auto-compounded tokens (added back into the investment), WMATIC tokens and CRV tokens, which are 2 tokens that are also accepted as collateral on Mai Finance.
+Curve, *blue chip* tokenları ödünç veren kullanıcıları ödüllendiren bir projedir. Ödül, Mai Finance'te teminat olarak kabul edilen 2 token olan otomatik olarak birleştirilmiş tokenlarıdan (yatırıma geri eklenir), WMATIC tokenlarından ve CRV tokenlarından oluşur.
 
-One of the very interesting things to note about Curve and its pools is that one doesn't have to deposit an exact amount of each token for a given pool. Instead, a single token can be provided and the algorithm that managed the pool will automatically adjust the other tokens by selling a portion of the deposit and buy the other tokens to maintain a correct ratio in the pool.
+Curve ve havuzları hakkında dikkat edilmesi gereken çok ilginç şeylerden biri, belirli bir havuz için her tokenın kesin bir miktarını yatırmak zorunda olmamasıdır. Bunun yerine, tek bir token sağlanabilir ve havuzu yöneten algoritma, yatırdığınız miktarın bir kısmını satarak diğer tokenları otomatik olarak ayarlayacak ve havuzda doğru bir oranı korumak için diğer tokenları satın alacaktır.
 
-We will be using the atricrypto3 pool that accepts any combination of WBTC/WETH/USDC/USDT/DAI and we will add to this pool the USDC that will be generated by the pool on Augury.
+Herhangi bir WBTC/WETH/USDC/USDT/DAI kombinasyonunu kabul eden atricrypto3 havuzunu kullanacağız ve bu havuza Augur tarafından oluşturulacak havuza USDC'yi ekleyeceğiz.
 
-![Details of the atricrypto3 pool on Curve as of September 2021](<../.gitbook/assets/image (32).png>)
+![Eylül 2021 itibarıyla Curve'deki atricrypto3 havuzunun ayrıntıları](<../.gitbook/assets/image (32).png>)
 
 ### AAVE
 
-As mentioned in the paragraph about Augury, AAVE is used to add a small reward to the tokens farmed on Augury before we use them on Mai Finance. Instead of putting our WBTC, WETH and WMATIC directly on Mai Finance, we will deposit these tokens on AAVE and use the yield instrument of Mai Finance to auto-compound the rewards from AAVE in the amToken pools, and use the camToken as collateral in vaults. You can get more details about this part by reading the [tutorial about AAVE tokens](leverage-aave-tokens.md).
+Augury ile ilgili paragrafta bahsedildiği gibi, AAVE, Augury'de yetiştirilen tokenlara Mai Finance'de kullanmadan önce küçük bir ödül eklemek için kullanılır. WBTC, WETH ve WMATIC'imizi doğrudan Mai Finance'e koymak yerine, bu tokenları AAVE'ye yatıracağız ve AAVE'den gelen ödülleri amToken havuzlarında otomatik olarak birleştirmek için Mai Finance'in getiri aracını kullanacağız ve camToken'ı kasalarda teminat olarak kullanacağız. [AAVE hakkında içeriğimizi](leverage-aave-tokens.md) bölümünü okuyarak fazla bilgi alabilirsiniz. 
 
-![AAVE lending rewards as of September 2021](<../.gitbook/assets/image (33).png>)
+![Eylül 2021 itibarıyla AAVE kredi ödülleri](<../.gitbook/assets/image (33).png>)
 
 ### Balancer
 
-Balancer is another blue-chip project like Curve. You will be able to deposit certain tokens in pools composed of more than 2 tokens, and you deposit a single token. The pool will automatically be balanced to get an equal proportion of each token that composes the pool.
+Balancer, Curve gibi başka bir *blue chip* projesidir. 2'den fazla tokendan oluşan havuzlara belirli tokenları yatırabileceksiniz ve aynı zamanda tek bir token yatırabileceksiniz. Havuz, içeriği oluşturan her tokenın eşit bir oranını elde etmek için otomatik olarak dengelenecektir.
 
-For our strategy, we will be using the WETH/BAL/Qi/MAI/USDC pool. This pool will accept the Qi token that will be collected from vaults on Mai Finance, and will reward us with additional Qi, and BAL tokens that we will be able to deposit on Mai Finance in the BAL vault, allowing us to mint more MAI and increase our farming position on Augury.
+Stratejimiz için WETH/BAL/Qi/MAI/USDC havuzunu kullanacağız. Bu havuz, Mai Finance'deki kasalardan toplanacak Qi tokenını kabul edecek ve bizi ek Qi ile ödüllendirecek ve BAL kasasında Mai Finance'e yatırabileceğimiz BAL tokenları ile daha fazla MAI elde ederek Augury'de pozisyonumuzu artıracağız.
 
-![Balancer 5-pool as of September 2021](<../.gitbook/assets/image (34).png>)
+![Eylül 2021 itibarıyla Balancer 5 havuzu](<../.gitbook/assets/image (34).png>)
 
-## Bootstrapping the system
+## Sistemin Ateşlenmesi
 
 ![](<../.gitbook/assets/image (35).png>)
 
-What follows is a simulation made with an initial investment of $1,000 worth of ETH that is deposited in the camWETH vault to borrow $500 worth of MAI, converted in $500 worth of USDT-UST. This simulation assumes the following rewards for the different systems
+Aşağıda, 500$ değerinde MAI ödünç almak için camWETH kasasına yatırılan ve 500$ değerinde USDT-UST'ye dönüştürülen 1.000$ değerinde ETH'lik bir başlangıç yatırımı ile yapılan bir simülasyon yer almaktadır. Bu simülasyon, farklı sistemler için aşağıdaki ödülleri alır.
 
-* USDT-UST farming APR of 22.53%
-* amWBTC APR of 0.39%
-* amWETH APR of 1.71%
-* amWMATIC APR of 3.80%
-* atricrypto3 APR of 3.86% auto-compounded LP token, 13.09% WMATIC and 17.63% CRV
-* 5-tokens Balancer pool with APR of 43.46% with a BAL:Qi ratio of 1:6
-* Vault rewards APRs of
-  * 23.28% for camWBTC
-  * 21.52% for camWETH
-  * 32.93% for camWMATIC
-  * 24.51% for LINK
-  * 116.71% for CRV
-  * 62.38% for BAL
+* USDT-UST farming APR'ı %22,53
+* %0,39 amWBTC APR
+* %1,71 amWETH APR
+* %3,80 amWMATIC APR
+* %3,86 otomatik bileşik LP tokenlı atricrypto3 APR, %13,09 WMATIC ve %17,63 CRV
+* 1:6 BAL:Qi oranıyla %43,46 APR ile 5 tokenlı Balancer havuzu
+* Apps Kasası, APR'leri ödüllendirir
+  * camWBTC için %23,28
+  * camWETH için %21,52
+  * camWMATIC için %32,93
+  * BAĞLANTI için %24,51
+  * CRV için %116,71
+  * BAL için %62,38
 
-These APRs are all subject to change on the different platforms, and there's no guarantee that they will continue for a whole year, however we will take them as is for this simulation in order to get an idea of the possible overall APR of the system. In order to further "simplify" the simulation, we will not take in account price variations, nor transaction fees. Also note that this simulation is taking into account that the Vault Rewards on Mai Finance and the Balancer rewards are compounded daily instead of weekly, but these rewards are currently airdropped weekly to the users' wallet. Finally, for the sake of this simulation, we will assume the CDR (**C**ollateral to **D**ebt **R**atio) is always 200%, meaning we're only borrowing half of what we deposit to keep getting the rewards, but prevent easy liquidations.
+Bu APR'lerin tümü farklı platformlarda değişebilir ve bir yıl boyunca devam edeceklerinin garantisi yoktur. Sistemin olası genel APR'si hakkında bir fikir edinmek için onları bu simülasyon için olduğu gibi alacağız. Simülasyonu daha da "basitleştirmek" için fiyat değişikliklerini veya işlem ücretlerini dikkate almayacağız. Ayrıca bu simülasyonun, Mai Finance'deki Kasa Ödüllerinin ve Balancer ödüllerinin haftalık yerine günlük olarak birleştirildiğini, ancak bu ödüllerin şu anda kullanıcıların cüzdanına haftalık olarak gönderildiğini dikkate aldığını unutmayın. Son olarak, bu simülasyonun CDR'nin (**C**ollateral **D**ebt **R**atio) her zaman %200 olduğunu varsayacağız. Yani aldığımızın sadece yarısını ödünç alıyoruz. Ödülleri almaya devam etmek için para yatırın ve kolay likidasyonları önleyin.
 
-### Day 1
+### Birinci Gün
 
-If you still have your $1,000 worth of WETH, deposit it in on AAVE to get amWETH, then deposit your amWETH on [Mai Finance](https://app.mai.finance/yield) to get camWETH, and finally deposit your camWETH into the corresponding vault to be able to borrow 500 MAI.
+1000$ değerinde WETH'niz varsa amWETH almak için AAVE'ye yatırın, ardından camWETH almak için amWETH'inizi [Mai Finance](https://app.mai.finance/yield)'e yatırın ve son olarak camWETH'inizi 500 MAI ödünç alabilmek ilgili kasaya yatırın. 
 
-Use the [anchor](https://app.mai.finance/anchor) to convert your MAI into USDT (or you can use another DEX like [QuickSwap](https://quickswap.exchange/#/) if there is no liquidity in the anchor), then you can use [DFYN](https://exchange.dfyn.network/#/) to swap 50% of your USDT into UST and form a USDT-UST pair that you can then deposit on [Augury](https://augury.finance/infusions/). Note that you will also need some OMEN that you can buy on QuickSwap too.
+MAI'nizi USDT'ye dönüştürmek için [Anchor](https://app.mai.finance/anchor) kullanın (veya varsa [QuickSwap](https://quickswap.exchange/#/) gibi başka bir DEX kullanabilirsiniz. Bağlantıda likidite yoksa o zaman USDT'nizin %50'sini UST'ye takas etmek için [DFYN](https://exchange.dfyn.network/#/) kullanabilir ve daha sonra para yatırabileceğiniz bir USDT-UST çifti oluşturabilirsiniz. [Ağustos](https://augury.finance/infusions/). QuickSwap üzerinden satın alabileceğiniz bazı OMEN'lere de ihtiyacınız olacağını unutmayın.
 
-Hence, at the end of Day 1, we harvest the following rewards
+Birinci günün sonunda aşağıdaki ödülleri toplarız
 
-| Reward type            | Value in dollars |
-| ---------------------- | ---------------- |
-| WBTC from farming      | 0.123            |
-| WETH from farming      | 0.031            |
-| WMATIC from farming    | 0.031            |
-| LINK from farming      | 0.031            |
-| USDC from farming      | 0.092            |
-| Qi rewards from vaults | 0.295            |
+| Ödül Tipi                | Dolar karşılığı  |
+| ----------------------   | ---------------- |
+| WBTC çiftçiliğinden      | 0.123            |
+| WETH çiftçiliğinden      | 0.031            |
+| WMATIC çiftçiliğinden    | 0.031            |
+| LINK çiftçiliğinden      | 0.031            |
+| USDC çiftçiliğinden      | 0.092            |
+| Qi kasa ödülü            | 0.295            |
 
-These are only the rewards we get from farming and borrowing at the end of the first day.
+Bunlar sadece ilk günün sonunda çiftçilikten ve borçlanarak elde ettiğimiz ödüller.
 
-### Day 2
+### İkinci Gün
 
-Rewards are harvested, WBTC, WETH and WMATIC are sent to corresponding vaults on Mai finance after they went through AAVE and the yield instrument on Mai. LINK are directly deposited in the LINK vault, and USDC sent to Curve in the atricrypto3 pool. The Qi reward is sent to Balancer. At this point, we can borrow more MAI from the 3 camToken vaults and the LINK vault ($0.13 worth of MAI to be exact) and we can create more USDT-UST pair from the MAI we borrowed.
+Ödüller toplanır, WBTC, WETH ve WMATIC, AAVE ve Mai'deki getiri aracından geçtikten sonra Mai Finance'taki ilgili kasalara gönderilir. LINK, doğrudan LINK kasasına yatırılır ve USDC, atricrypto3 havuzunda Curve'e gönderilir. Qi ödülü Balancer'a gönderilir. Bu noktada, 3 camToken kasasından ve LINK kasasından (tam olarak 0.13$ değerinde MAI) daha fazla MAI ödünç alabiliriz ve ödünç aldığımız MAI'den daha fazla USDT-UST çifti oluşturabiliriz.
 
-Hence, at the end of Day 2, we harvest the following rewards
+İkinci günün sonunda aşağıdaki ödülleri toplarız
 
-| Reward type                 | Value in dollars |
+| Ödül Tipi                   |  Dolar karşılığı |
 | --------------------------- | ---------------- |
-| WBTC from farming           | 0.123            |
-| WETH from farming           | 0.031            |
-| WMATIC from farming + Curve | 0.031            |
-| LINK from farming           | 0.031            |
-| USDC from farming           | 0.093            |
-| CRV rewards on Curve        | 0.00004          |
-| BAL rewards                 | 0.00005          |
-| Qi rewards from vaults      | 0.296            |
+| WBTC çiftçiliğinden         | 0.123            |
+| WETH çiftçiliğinden         | 0.031            |
+| WMATIC çiftçiliği + Curve   | 0.031            |
+| LINK çiftçiliğinden         | 0.031            |
+| USDC çiftçiliğinden         | 0.093            |
+| CRV Curve'den ödül          | 0.00004          |
+| BAL ödülü                   | 0.00005          |
+| Qi kasa ödülü               | 0.296            |
 
-At this point, the system is primed and rewards are flowing in a way that each step is feeding the next one, creating some nice little loop.
+Sistem tıkır tıkır çalışıyor, ödülleri topluyoruz ve her adım bir sonrakini besleyecek akışa sahip. Güzel ve küçük bir döngü oluşturduk.
 
-## Farming results
+## Farming Sonuçları
 
-### Daily routine
+### Günlük Rutin
 
-The daily routine is composed by the following transactions
+Günlük rutin aşağıdaki işlemlerden oluşur
 
-* Harvest rewards on Augury
-* Deposit WBTC, WETH and WMATIC on AAVE
-* Deposit amWBTC, amWETH and amWMATIC on Mai Finance in the yield instrument
-* Deposit camWBTC, camWETH and camWMATIC in the respective vaults on Mai Finance
-* Deposit LINK in the LINK vault on Mai Finance
-* Deposit USDC in the atricrypto3 pool on Curve
-* Harvest WMATIC from Curve and use them in the camWMATIC vault
-* Harvest CRV from Curve and use them in the CRV vault
-* Borrow MAI from the different vaults
-* Convert MAI into USDT on Mai Finance via the anchor
-* Convert 50% of the USDT into UST on DFYN
-* Create new USDT-UST LP pair on DFYN
-* Deposit the new LP tokens on Augury
+* Augury'de hasat ödülleri
+* AAVE'de WBTC, WETH ve WMATIC yatırın
+* Getiri aracında Mai Finance'e amWBTC, amWETH ve amWMATIC yatırın
+* Mai Finance'deki ilgili kasalara camWBTC, camWETH ve camWMATIC yatırın
+* LINK'i Mai Finance'deki LINK kasasına yatırın
+* Curve'deki atricrypto3 havuzuna USDC yatırın
+* WMATIC'i Curve'den toplayın ve bunları camWMATIC kasasında kullanın
+* CRV'yi Curve'den toplayın ve bunları CRV kasasında kullanın
+* Farklı kasalardan MAI ödünç alın
+* Anchor aracılığıyla Mai Finance'de MAI'yi USDT'ye dönüştürün
+* DFYN'de USDT'nin %50'sini UST'ye dönüştürün
+* DFYN'de yeni USDT-UST LP çifti oluşturun
+* Yeni LP tokenlarını Augury'de yatırın
 
-### Weekly routine
+### Haftalık Rutin
 
-Additionally, you will get weekly rewards in BAL (from your Qi deposit on Balancer) and Qi tokens (from vault rewards). You will have to
+Ek olarak, BAL (Balancerdaki Qi yatırımınızdan) ve Qi tokenlarından (kasa ödüllerinden) haftalık ödüller alacaksınız. Yapmanız gerekenler;
 
-* Deposit the Qi token on Balancer
-* Deposit the BAL token on Mai Finance in the BAL vault
-* Borrow MAI from your additional BAL deposit and convert them in USDT-UST pair to farm on Augury
+* Qi tokenını Balancer'a yatırın
+* BAL tokenini Mai Finance'e BAL kasasına yatırın
+* Ek BAL depozitonuzdan MAI ödünç alın ve bunları Augury'de USDT-UST çiftine dönüştürün
 
-### Raw results month after month
+### Aylık Ham Sonuçlar
 
-| Month | USDT-UST | atricrypto3 | Balancer | camWBTC | camWETH  | camWMATIC | LINK  | CRV   | BAL  |   |
+|   Ay  | USDT-UST | atricrypto3 | Balancer | camWBTC | camWETH  | camWMATIC | LINK  | CRV   | BAL  |   |
 | ----- | -------- | ----------- | -------- | ------- | -------- | --------- | ----- | ----- | ---- | - |
 | 1     | 503.84   | 2.79        | 9.01     | 3.72    | 1,002.34 | 0.94      | 0.93  | 0.001 | 0.02 |   |
 | 2     | 507.88   | 5.66        | 18.39    | 7.47    | 1,004.68 | 1.93      | 1.87  | 0.003 | 0.09 |   |
@@ -169,18 +168,18 @@ Additionally, you will get weekly rewards in BAL (from your Qi deposit on Balanc
 | 11    | 547.61   | 32.51       | 121.44   | 42.68   | 1,026.31 | 12.72     | 10.65 | 0.016 | 3.16 |   |
 | 12    | 552.43   | 35.67       | 135.26   | 47.45   | 1,028.78 | 14.15     | 11.67 | 0.017 | 3.81 |   |
 
-A few notes:
+Birkaç not:
 
-* The growth of the USDT-UST pool is the only result of additional MAI borrowed from vaults
-* The CRV pool is almost inexistant due to the very low amount of USDC deposited on Curve
-* The BAL vault is not important due to the fact that 14.28% of the Balancer reward is paid in BAL tokens, the rest being paid in Qi tokens
-* The amount in the Balancer pool is the biggest gain, and is only the result of Vault rewards and Balancer rewards
+* USDT-UST havuzunun büyümesi, kasalardan ödünç alınan ek MAI'nin tek sonucudur
+* CRV havuzu, Curve'de çok düşük miktarda USDC yatırıldığı için neredeyse yok denecek kadar azdır.
+* Balancer ödülünün %14,28'inin BAL tokenlarından ödenmesi, geri kalanının Qi tokenlarından ödenmesi nedeniyle BAL kasası önemli değildir.
+* Balancer havuzundaki miktar en büyük kazançtır ve yalnızca Kasa ödüllerinin ve BAL ödüllerinin sonucudur
 
-### Day 365
+### 365 Gün Sonunda
 
-After a complete year, the final state of our investment would be
+Tam bir yıl sonra yatırımımızın son hali;
 
-| Position    | Value in dollars |
+| Pozisyon    | Dolar Karşılığı  |
 | ----------- | ---------------- |
 | USDT-UST    | 553.24           |
 | atricrypto3 | 36.20            |
@@ -192,27 +191,27 @@ After a complete year, the final state of our investment would be
 | CRV         | 0.017            |
 | BAL         | 3.93             |
 
-The total debt is actually the entire USDT-UST position, so $553.24, and the total reward generated is $280.63, corresponding to a final APY of 28.06%.
+Toplam borç aslında USDT-UST pozisyonunun tamamıdır, yani 553.24$ ve üretilen toplam ödül 280.63$'dır, bu da %28.06'lık bir nihai APY'ye karşılık gelir.
 
-### Comparison with other strategies
+### Diğer Stratejilerle Karşılaştırma
 
-Getting a 28% APY on stable coin farming isn't too bad, but how does this compare to other easier strategies we could apply with the initial $1,000 worth of ETH? Let's check the final APY fo the following strategies
+Stabil coin çiftçiliğinde %28 APY almak çok da kötü değil. Peki 1.000 $ değerinde ETH ile uygulayabileceğimiz diğer daha kolay stratejilerle nasıl karşılaştırabiliriz? Aşağıdaki stratejiler için son APY'yi kontrol edelim
 
-* Leverage amWETH 8 times via AAVE: for this, we will use the exact flow described in the [AAVE token guide](leverage-aave-tokens.md).
-* Full stable farming on Augury: for this strategy, we sell the WETH and farm with $1,000 worth of USDT-UST on the same infusion on Augury
-* Full stable farming on QuickSwap: for this strategy, we will use the camWETH vault to benefit from the vault reward, and farm with $500 worth of MAI on QuickSwap (MAI-DAI at 19.78% APY), using the dQUICK vault on Mai Finance to borrow additional MAI and re-invest into the farming pool (dQUICK vaults with an APR of 55.72%)
+* AAVE aracılığıyla 8 kez amWETH'den yararlanın: bunun için [AAVE token kılavuzunda](leverage-aave-tokens.md) açıklanan tam akışı kullanacağız.
+* Augury'de stable coin çiftçilik: Bu strateji için, WETH'i satıyoruz ve Augury'de aynı infüzyonda 1.000 $ değerinde USDT-UST ile çiftliği satıyoruz
+* QuickSwap'ta stabil coin çiftçilik: Bu strateji için, kasa ödülünden yararlanmak için camWETH kasasını kullanacağız ve Mai Finance'deki dQUICK kasasını kullanarak QuickSwap'ta 500$ değerinde MAI ile çiftlik yapacağız (MAI-DAI %19.78 APY'de) ek MAI ödünç almak ve çiftçilik havuzuna yeniden yatırım yapmak (%55,72 APR ile dQUICK kasaları)
 
-| Strategy                         | Final APY |
+| Strateji                         |  Son APY  |
 | -------------------------------- | --------- |
-| Strategy presented in this guide | 28.06%    |
-| Leverage AAVE token 8x           | 46.46%    |
-| Only stable farming on Augury    | 22.53%    |
-| Quickswap farming + dQUICK vault | 35.96%    |
+| Bu kılavuzda sunulan strateji    | 28.06%    |
+|  AAVE'den 8x yararlanma          | 46.46%    |
+| Sadece Augury'de stabil çiftçilik| 22.53%    |
+| Quickswap çiftçiliği + dQUICK    | 35.96%    |
 
-## Disclaimer
+## Sorumluluk Reddi
 
-This strategy is really interesting and uses most vaults from Mai Finance, and this guide has been written mostly to showcase that, as of September 2021, this is the part that would generate the more rewards when faming stable coins. However, this strategy may not be the most interesting one, and involves a lot of manipulations of several platforms. Finally, Augury is a fantastic tool that generates specific tokens that can be included in several strategies, but probably not stable farming solely. And as a side note, no deposit fees nor performance fees have been taken in consideration when calculating the final APY.
+Bu strateji gerçekten ilginç ve Mai Finance'in çoğu kasasını kullanıyor. Kılavuz çoğunlukla Eylül 2021'den itibaren stabil paralar üretirken daha fazla ödül kazanılabilecek stratejiler olduğunu göstermek için yazılmıştır. Ancak bu strateji en ilginç olanı olmayabilir ve çeşitli platformlarda çok sayıda manipülasyon içerir. Son olarak Augury çeşitli stratejilere dahil edilebilecek ancak muhtemelen yalnızca stabil çiftçilik yapmayan tokenlar üreten harika bir araçtır. Ve bir dip not olarak, nihai APY hesaplanırken hiçbir depozito ücreti veya performans ücreti dikkate alınmamıştır.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
