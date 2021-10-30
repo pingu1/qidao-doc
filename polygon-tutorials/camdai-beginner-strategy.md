@@ -1,105 +1,104 @@
 ---
-description: >-
-  DeFi doesn't need to be complicated. This article presents how you can enter
-  DeFi using Mai Finance with a low risk strategy and still get reasonable
-  interests.
+Açıklama: >-
+  DeFi stratejilerinin her zaman karmaşık olması gerekmez. Bu makale, Mai Finance kullanarak düşük risk stratejisiyle nasıl DeFi'ye girebileceğinizi ve nasıl makul faizler elde edebileceğinizi sunar.
 ---
 
-# camDAI beginner strategy
+# camDAI Başlangıç Stratejisi
 
-## Intro
+## Giriş
 
-Most people are scared when they think about DeFi. There's always a risk factor to take in account when using crypto currencies, the volatility of this market can make one loose a lot of money, and there are so many possibilities that finding a right strategy can be quite complex. However, when you're using the correct tools, some easy and low risk strategies can get good results, and can probably compete with more complex and risky options.
+Çoğu insan DeFi hakkında bir şeyler düşündüğünde korkmaya başlar. Kripto para birimlerini kullanırken her zaman dikkate alınması gereken bir risk faktörü vardır. Piyasanın oynaklığı çok para kaybetmenize neden olabilir ve doğru bir strateji bulmanın oldukça karmaşık olabileceği pek çok olasılık vardır. Ancak, doğru araçları kullandığınızda, bazı kolay ve düşük riskli stratejilerle iyi sonuçlar alabilir ve muhtemelen daha karmaşık ve riskli seçeneklerle rekabet edebilirsiniz.
 
-In this guide, we will try to present an investment strategy based on leveraged stable coin, with a touch of risk for higher interests.
+Bu kılavuzda, daha yüksek faizler için risk dokunuşuyla kaldıraçlı stabil paraya dayalı bir yatırım stratejisi sunmaya çalışacağız.
 
-## Understanding the concept of leverage
+## Kaldıraç Kavramını Keşfetme
 
-![Story of an unluQi gold miner](../.gitbook/assets/canDAI-farwest.png)
+![UnluQi altın madencisinin hikayesi](../.gitbook/assets/canDAI-farwest.png)
 
-We are in the far west, during the great gold rush. Banks want to buy gold to be able to lend money to people and get interests on these loans, and miners want to get rich by selling their gold to banks.
+Büyük altına hücum sırasında uzak batıdayız. Bankalar insanlara borç para verebilmek ve bu kredilerden faiz alabilmek için altın almak, madenciler de altınlarını bankalara satarak zengin olmak istiyor.
 
-You're a miner, but not very lucky. You only found a single nugget. However, you're super clever, and instead of mining, you have another plan!
+Madencisin ama çok şanslı değilsin. Sadece tek bir külçe buldun. Ancak, sen süper zekisin ve madencilik yapmak yerine başka bir planın var!
 
-You go to a bank and explain that you have gold. You can deposit the gold to the bank as a collateral, meaning that you let the bank use that gold for people who want to use it, and the bank will give you some interests on your deposit.
+Bir bankaya gidip altınınız olduğunu açıklıyorsunuz. Altını bankaya teminat olarak yatırabilirsiniz. Böylece bankanın o altını kullanmak isteyenler için kullanmasına izin verirsiniz ve banka mevduatınız üzerinden size bir miktar faiz verir.
 
-Also, because you lended some gold, the bank agrees to let you borrow money from them, and in case you cannot repay your loan with some interests. The bank will pay itself using the gold you deposited. Cool, now you are earning interests on the gold you have at the bank, and they gave you some cash.
+Ayrıca, bir miktar altın ödünç verdiğiniz için, banka onlardan ödünç para almanıza izin vermeyi ve kredinizi bir miktar faizle geri ödeyememeniz durumunda kabul eder. Banka yatırdığınız altınları kullanarak kendi kendine ödeme yapacaktır. Harika, şimdi bankadaki altının faizi kazanıyorsun ve sana biraz nakit verdiler.
 
-With that, you decide to go see a fellow miner and buy his gold with your cash. This is letting him focus on mining and he gets cash for the gold he found. Everybody is happy.
+Bununla, bir madenci arkadaşınızı görmeye ve paranızla altınını almaya karar veriyorsunuz. Bu onun madenciliğe odaklanmasını sağlıyor ve bulduğu altın için nakit alıyor. Herkes mutlu.
 
-You go back to the bank and deposit the gold you bought. This implies more interest, and now the bank lets you borrow more cash from the extra gold you deposited. You have more gold exposed to the bank's interests, and some more cash. Time to go back to see if your friend found more gold, then repeat again and again.
+Bankaya geri dönersiniz ve satın aldığınız altınları yatırırsınız. Altınları yatırınca daha fazla faiz anlamına gelir ve şimdi banka, yatırdığınız ekstra altından daha fazla nakit ödünç almanıza izin verir. Bankanın çıkarlarına maruz kalan daha fazla altınınız ve biraz daha nakitiniz var. Arkadaşınızın daha fazla altın bulup bulmadığını görmek için geri dönme zamanı, ardından tekrar tekrar.
 
-This is what is called leverage. Now imagine that you can find a bank that lets you borrow cash at 0% interest and you have a solid money printing machine only from the interests you're getting.
+İşte buna kaldıraç denir. Şimdi, %0 faizle nakit ödünç alabileceğiniz bir banka bulabileceğinizi ve sadece elde ettiğiniz faizlerden sağlam bir para basma makineniz olduğunu hayal edin.
 
-## Introducing the tools
+## Araçları Tanıyalım
 
 ### AAVE
 
-[AAVE](https://app.aave.com) is a lending and borrowing platform where you can deposit your assets. By lending on AAVE, your deposited tokens will earn yield. For our strategy, we'll be lending DAI, a stable coin (pegged to the US dollar). On AAVE, $100 worth of DAI will potentially generate between 4% and 10% rate of return over the span of 1 year.
+[AAVE](https://app.aave.com), varlıklarınızı yatırabileceğiniz bir ödünç verme ve ödünç alma platformudur. AAVE'de borç vererek, yatırılan tokenlarınız getiri elde edecektir. Stratejimiz için, sabit bir token olan (ABD dolarına sabitlenmiş) DAI'ye borç vereceğiz. AAVE'de 100 ABD doları değerindeki DAI, 1 yıllık süre boyunca potansiyel olarak %4 ila %10 arasında bir getiri oranı oluşturacaktır.
 
-![AAVE markets on Polygon as of October 2021](../.gitbook/assets/canDAI-aave.png)
+![AAVE, Ekim 2021 itibarıyla Polygon'da](../.gitbook/assets/canDAI-aave.png)
 
-When you deposit your assets on AAVE, you will receive a proof of deposit. In our example, since we are depositing DAI, we will get amDAI tokens in our wallet (**a**ave **m**arket DAI). You absolutely need to keep this receipt because you will need it to remove your DAI from AAVE. This is the bank that will accept your gold in our far west comparison.
+Varlıklarınızı AAVE'ye yatırdığınızda, bir depozito kanıtı alacaksınız. Örneğimizde, DAI yatırdığımız için cüzdanımıza amDAI jetonları alacağız (**a**ave **m**arket DAI). Bu makbuzu kesinlikle saklamanız gerekiyor çünkü DAI'nizi AAVE'den çıkarmak için buna ihtiyacınız olacak. Vahşi Batı karşılaştırmamızda altınlarınızı kabul edecek banka budur.
 
 ### Mai Finance
 
-[Mai Finance](https://app.mai.finance) is a lending platform that will let you deposit some assets in a vault, and borrow against the value of this deposit. If we go back to the bank analogy, it would be a bank that lets you take a loan, but the loan doesn't come from what other people are lending. Instead, the bank prints money corresponding to your personal deposit, so you only borrow against yourself.
+[Mai Finance](https://app.mai.finance), bazı varlıkları bir kasaya yatırmanıza ve bu mevduatın değerine karşı borç almanıza olanak tanıyan bir borç verme platformudur. Banka benzetmesine geri dönersek, kredi almanıza izin veren bir banka olurdu, ancak kredi diğer insanların borç verdiğinden gelmiyor. Bunun yerine, banka kişisel mevduatınıza karşılık gelen parayı basar, böylece sadece kendinize borç alırsınız.
 
-Mai finance will accept the amDAI on its [yield instrument](https://app.mai.finance/yield). The yield instrument is just an intermediate tool between AAVE and the vault on Mai Finance. As you can see in the AAVE screenshot, lending DAI will make you earn 8.75% in DAI (that is compounded), but also 2.01% reward in MATIC. The yield instrument on Mai Finance will harvest this MATIC reward and swap it for more DAI that will be added to your DAI deposit. The APY (**A**nnual **P**ercentage **Y**ield) on the Mai Finance site is hence showing the aggregated interests from AAVE.
+(https://app.mai.finance/yield) üzerinden amDAI'yi kabul edecektir. Getiri aracı, AAVE ile Mai Finance'teki kasa arasında yalnızca bir ara araçtır. AAVE ekran görüntüsünde görebileceğiniz gibi, DAI ödünç vermek, DAI'de (birleştirilmiş) %8,75 kazanmanızı sağlar, aynı zamanda MATIC'de %2,01 ödül kazanmanızı sağlar. Mai Finance'deki getiri aracı, bu MATIC ödülünü toplayacak ve DAI mevduatınıza eklenecek daha fazla DAI ile değiştirecektir. Mai Finance sitesindeki APY (**A**nnual **P**ercentage **Y**ield) bu nedenle AAVE'den alınan toplu faizleri göstermektedir.
 
-![Yield instrument on Mai Finance](../.gitbook/assets/camDAI-yield.png)
+![Mai Finance'de getiri aracı](../.gitbook/assets/camDAI-yield.png)
 
-Once you deposited your amDAI on the yield instrument, you will get some camDAI in your wallet (**c**ompounding amDAI). This is a receipt that indicates your share of the amDAI pool in the yield instrument. As a side note, because camDAI is a representation of your share of the amDAI pool, the ratio between amDAI and camDAI isn't 1:1. See [this article](leverage-aave-tokens.md#amtokens-vs-camtoken) for more details.
+AmDAI'nizi getiri aracına yatırdıktan sonra, cüzdanınızda bir miktar camDAI alacaksınız (**c** amDAI'yi birleştirir). Bu, getiri aracındaki amDAI havuzundaki payınızı gösteren bir makbuzdur. Bir yan not olarak, camDAI, amDAI havuzundaki payınızın bir temsili olduğundan, amDAI ve camDAI arasındaki oran 1:1 değildir. Daha fazla ayrıntı için [bu makaleye](leverage-aave-tokens.md#amtokens-vs-camtoken) bakın.
 
-You can now [deposit your camDAI](https://app.mai.finance/vaults) tokens in a vault on Mai Finance, and will then be able to borrow some MAI (a stable coin pegged to $1) against your collateral. In our far west comparison, this is a second bank that will let you take a cash loan based on the amount of gold you deposited in the first bank. This second bank accepts the receipt from the first bank as a guarantee in case you cannot repay your loan.
+Artık [camDAI'nizi yatırabilirsiniz](https://app.mai.finance/vaults) tokenlarınızı Mai Finance'te bir kasaya yerleştirebilir ve ardından teminatınız karşılığında bir miktar MAI (1$'a sabitlenmiş sabit bir madeni para) ödünç alabilirsiniz. Bizim Vahşi Batı karşılaştırmamızda bu, ilk bankaya yatırdığınız altın miktarına göre nakit kredi çekmenizi sağlayacak ikinci bir bankadır. Bu ikinci banka, kredinizi geri ödeyememeniz durumunda birinci bankadan alınan dekontu teminat olarak kabul eder.
 
 ### Zapper
 
-[Zapper](https://zapper.fi/dashboard) is a Swiss army knife of DeFi on Polygon. This platform will let you farm yields in liquidity pools, lend your assets on AAVE directly from their platform, presents a dashboard of your different investments, and will let you swap some currencies for other currencies. This is the last feature that we will be using in order to exchange the MAI stable coin we just borrowed for more DAI.
+[Zapper](https://zapper.fi/dashboard), Polygon'da  DeFi'nin bir İsviçre çakısıdır. Bu platform, likidite havuzlarında getiri elde etmenize, varlıklarınızı doğrudan kendi platformlarından AAVE'ye ödünç vermenize, farklı yatırımlarınızın bir gösterge tablosunu sunmanıza ve bazı para birimlerini diğer para birimleriyle değiştirmenize olanak tanır. Ödünç aldığımız MAI sabit parasını daha fazla DAI ile değiştirmek için kullanacağımız son özelliktir.
 
-![Swapping MAI for DAI](../.gitbook/assets/camDAI-zapper.png)
+![MAI'yi DAI ile swaplama](../.gitbook/assets/camDAI-zapper.png)
 
-In our far west example, Zapper is the gold miner that will accept your cash and will sell you gold.
+Vahşi Batı örneğimizde Zapper, paranızı kabul edecek ve size altın satacak olan altın madencisidir.
 
 ### Balancer
 
-As you can see in the screenshot above, Zapper is using Balancer has the protocol to operate the swap. [Balancer](https://polygon.balancer.fi/#/) is an automated portfolio manager, liquidity provider, and price sensor where you will be able to provide liquidity (and get fees from this) or swap currencies using the liquidity pools.
+Yukarıdaki ekran görüntüsünde görebileceğiniz gibi, Zapper, Balancer'ın swap işleminin yapılacağı protokole sahiptir. [Balancer](https://polygon.balancer.fi/#/), likidite sağlayabileceğiniz (ve bundan ücret alabileceğiniz) veya likiditeyi kullanarak para birimleri takas edebileceğiniz otomatik bir portföy yöneticisi, likidite sağlayıcısı ve fiyat sensörüdür. 
 
-For our guide, we will use Balancer to expose our investments to a little more volatility and get better interests. This is 100% optional though.
+Rehberimiz için, yatırımlarımızı biraz daha oynaklığa maruz bırakmak ve daha iyi çıkarlar elde etmek için Balancer'ı kullanacağız. Elbett tercihe göre değişebilir.
 
-## Strategy description
+## Strateji Detayları
 
-### Main strategy
+### Ana Strateji
 
-Even if we explained what AAVE is, our strategy will use a feature from Mai Finance to automate the DAI deposit on AAVE, the amDAI deposit in the yield instrument and the camDAI deposit in the camDAI vault.
+AAVE'nin ne olduğunu açıkladık ve stratejimiz AAVE'deki DAI mevduatını, getiri enstrümanındaki amDAI mevduatını ve camDAI kasasındaki camDAI mevduatını otomatikleştirmek için Mai Finance'den bir özellik kullanacak.
 
 ![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
 
-The `Zap in using DAI` button opens a popup that lets you deposit your DAI in the vault and operates the AAVE deposit under the hood. This is saving a lot of time, and some gas.
+The `Zap in using DAI` butonu, DAI'nizi kasaya yatırmanıza izin veren bir pencere açar ve elinizin altındaki AAVE mevduatını çalıştırır. Bu seçenek çok zaman kazandırırken gas tasarrufu sağlıyor.
 
-This will be our first step. Assuming we have $100 worth of DAI, we will deposit them on Mai Finance in a camDAI vault. This will allow us to borrow MAI against this initial deposit.
+Bu bizim ilk adımımız olacak. 100$ değerinde DAI'miz olduğunu varsayarsak, bunları bir camDAI kasasında Mai Finance'e yatıracağız. Bu, bu ilk yatırma karşılığında MAI ödünç almamızı sağlayacaktır.
 
-The minimal CDR (**C**ollateral to **D**ebt **R**atio) for camDAI is 110%. This means that the ratio between your collateral (the $100 worth of DAI) and the loan we're about to get needs to remain above 110%.
+camDAI için minimum CDR (**C**, **D**ebt **R**atio'nun tamamlayıcısı) %110'dur. Bu, teminatınız (100$ değerinde DAI) ile almak üzere olduğumuz kredi arasındaki oranın %110'un üzerinde kalması gerektiği anlamına gelir.
 
 {% hint style="danger" %}
-If this CRD ratio reaches the minimal value of 110%, it means that your collateral is losing value and your debt may become bigger than the value of your collateral. At this point, your vault can be liquidated: someone can repay a part of your debt and get a part of your collateral as a compensation. However, since both DAI and MAI are stable coins pegged to the US dollar, the risk of getting a big difference between the 2 assets is very low, which makes this strategy fairly safe.
+CRD oranı minimum %110 değerine ulaşırsa, teminatınızın değer kaybettiği ve borcunuzun teminatınızın değerinden daha büyük olabileceği anlamına gelir. Bu noktada kasanız likidasyon edilebilir. Birisi borcunuzun bir kısmını geri ödeyebilir ve tazminat olarak teminatınızın bir kısmını alabilir. Bununla birlikte, hem DAI hem de MAI  USD dolarına sabitlenmiş sabit paralar olduğundan, 2 varlık arasında büyük bir fark elde etme riski çok düşüktür. Bu durum stratejiyi oldukça güvenli kılar.
 {% endhint %}
 
-In order to maintain the liquidation risk fairly low, we will try to stick to a CDR of 115%. In order to know how much MAI we can borrow to stay at a 115% CDR, we will use this formula:
+Likidasyon riskini oldukça düşük tutmak için %115'lik bir CDR'ye bağlı kalmaya çalışacağız. %115'lik bir CDR'de kalmak için ne kadar MAI ödünç alabileceğimizi bilmek için şu formülü kullanacağız:
+
 
 $$
 MAI_{available} = \frac{Collateral_{value} - Debt_{value} * Target_{CDR}}{Target_{CDR}}
 $$
 
-With a collateral value of $100, no debt yet, and a target CDR of 115%, here's how much we can borrow:
+100$'lık teminat değeriyle, henüz borcumuz yok ve %115 hedef CDR ile, işte ne kadar borç alabileceğimiz:
 
 $$
 MAI_{available}=\frac{100 - 0*1.15}{1.15}=86.95
 $$
 
-​You can then swap the MAI you borrowed for DAI and repeat. Here's what your collateral and debt should look like:
+​Daha sonra ödünç aldığınız MAI'yi DAI ile değiştirebilir ve tekrarlayabilirsiniz. Teminatınız ve borcunuz şöyle görünmelidir:
 
-| Loop # | Collateral | Debt    | Available loan | Equivalent APY | DAI liquidation price |
+| Döngü# |  Teminat   | Borç    | Uygun Kiralama | Eş Değer APY   | DAI likidasyon fiyatı |
 | ------ | ---------- | ------- | -------------- | -------------- | --------------------- |
 | 1      | 100.000    | 0.000   | 86.956         | 10.42%         | 0                     |
 | 2      | 189.956    | 86.956  | 75.614         | 19.48%         | 0.512                 |
@@ -119,27 +118,27 @@ $$
 | 16     | 684.737    | 584.737 | 10.686         | 71.35%         | 0.939                 |
 | 17     | 695.423    | 595.423 | 9.293          | 72.46%         | 0.942                 |
 
-We're stopping at 17 loops but you can operate more if you want to.
+17 döngüde duruyoruz ama isterseniz daha fazlasını çalıştırabilirsiniz.
 
-At the end of the 17 loops, you'd get $695.423 of collateral and $595.423 of debt. This corresponds to a CDR 116.79% which should be safe enough to prevent liquidation.
+17 döngünün sonunda, 695.423$ teminat ve 595.423$ borç alırsınız. Bu, likidasyonu önlemek için yeterince güvenli olması gereken %116,79'luk bir CDR'ye karşılık gelir.
 
-If we consider the 10.42% APY granted by the yield instrument, this would generate
+Getiri enstrümanı tarafından verilen %10,42 APY'yi dikkate alırsak;
 
 $$
 Interests = Collateral_{value}*APY=695.423*10.42\%= \$72.463
 $$
 
-If we consider that the initial investment was only $100, that's an equivalent APY of 72.463% on single staking a stable coin!
+İlk yatırımın sadece 100$ olduğunu düşünürsek, bu, sabit bir coin'de tek bahiste %72.463'lük eşdeğer bir APY'dir!
 
-### Alternative strategy
+### Alternatif Strateji
 
-In order to get a little exposure to high volatility assets, you can use the same loop as above but only leverage 90% of the borrowed MAI, and use the 10% to buy something else. In this example, we will use the 10% to buy Qi (the native token of Mai Finance) and use the Qi-BAL pool on Balancer that currently has an APR (**A**nnual **P**ercentage **R**evenue) of 107.12%.
+Yüksek volatiliteli varlıkları değerlendirmek için, yukarıdakiyle aynı döngüyü kullanabilir. Ödünç alınan MAI'nin yalnızca %90'ını kaldıraç edebilir ve %10'unu başka bir şey satın almak için kullanabilirsiniz. Bu örnekte, %10'u Qi (Mai Finance'in yerel tokenı) satın almak için kullanacağız ve şu anda 107.12% APR (**A**nnual **P**ercentage **R**evenue) olan Balancer'da Qi-BAL havuzunu kullanacağız 
 
-![Qi-BAL pool state as of October 2021](../.gitbook/assets/camDAI-balancer.png)
+![Ekim 2021 itibarıyla Qi-BAL havuz durumu](../.gitbook/assets/camDAI-balancer.png)
 
-Since we're re-injecting less DAI in the camDAI vault, we will also operate less loops. The setup will look like this:
+camDAI kasasına yeniden daha az DAI enjekte ettiğimiz için daha az döngü çalıştıracağız. Kurulum şöyle görünecek:
 
-| Loop # | Collateral | Debt    | Qi     | Available loan | Equivalent APY | DAI liquidation price |
+| Döngü# |  Teminat   | Borç    | Qi     | Uygun Kiralama |  Eş Değer APY  | DAI likidasyon fiyatı |
 | ------ | ---------- | ------- | ------ | -------------- | -------------- | --------------------- |
 | 1      | 100.000    | 0.000   | 0.000  | 86.957         | 10.42%         | 0                     |
 | 2      | 178.261    | 86.957  | 8.696  | 68.053         | 35.22%         | 0.537                 |
@@ -152,29 +151,29 @@ Since we're re-injecting less DAI in the camDAI vault, we will also operate less
 | 9      | 409.341    | 343.712 | 34.371 | 12.237         | 108.45%        | 0.924                 |
 | 10     | 420.354    | 355.948 | 35.595 | 9.576          | 111.94%        | 0.931                 |
 
-At the end of the 10 loops, you'd get
+10 döngünün sonunda,
 
-* $420.354 of DAI as collateral
-* $355.948 of debt
-* $35.595 of Qi
+* Teminat olarak 420.354 $ DAI
+* 355.948 dolar borç
+* 35.595 $ Qi
 
-The same math as in the previous case gives the following results
+Önceki durumda olduğu gibi aynı matematik aşağıdaki sonuçları verir
 
-* A final CDR of 118.09%, which should be considered as safe enough to prevent liquidation
-* $43.800 of interests on DAI from the 10.42% APY granted by the yield instrument
-* $68.139 of interests on your Qi from the Balancer pool, if you assume you will be compounding the Qi and BAL rewards in the Qi-BAL pool
-* A total APY of 111.94%
+* Tasfiyeyi önlemek için yeterince güvenli kabul edilmesi gereken, %118,09'luk bir nihai CDR
+* Getiri enstrümanı tarafından verilen %10,42 APY'den DAI üzerindeki 43.800$ faiz
+* Qi ve BAL ödüllerini Qi-BAL havuzunda birleştireceğinizi varsayarsanız, Dengeleyici havuzundan Qi'nizde 68.139$ faiz
+* Toplam APY %111,94
 
-This strategy presents more risks in the sense that the investment in the Qi-BAL pool isn't guaranteed. However, you will get a little bit of exposure to Qi, which will let you participate to the QiDAO protocol. If you use the BAL reward on Mai Finance as a collateral and borrow against it, you will also be able to re-invest in the camDAI vault or in the Qi-BAL pool. If you do so, you will also be entitled to borrowing rewards paid in Qi every week.
+Bu strateji, Qi-BAL havuzuna yapılan yatırımın garanti edilmediği anlamında daha fazla risk sunar. Bununla birlikte, QiDAO protokolüne katılmanıza izin verecek olan Qi'ye sahip olursunuz. Mai Finance'deki BAL ödülünü teminat olarak kullanır ve buna karşı borç alırsanız, camDAI kasasına veya Qi-BAL havuzuna yeniden yatırım yapabilirsiniz. Bunu yaparsanız, her hafta Qi'de ödenen ödülleri ödünç almaya hak kazanacaksınız.
 
-## Conclusion
+## Sonuç
 
-With some minimal investment and low maintenance, you can get some pretty solid results simply by leveraging your DAI. Since DAI is a stable coin that has a lot of liquidity across multiple chains, the risk is relatively low for DAI to go off peg and for your vault to be liquidated. It's the kind of "set and forget" setup that can easily be a very good starting point for any DeFi beginner, and chances are this strategy will perform the same way in a bull market or in a bear market. Finally, we also explained how you can use the same strategy to grab a portion of your loan and test out the many possibilities that DeFi has on Polygon.
+Minimum yatırım ve düşük bakımla, yalnızca DAI'nizden yararlanarak oldukça sağlam sonuçlar elde edebilirsiniz. DAI, birden fazla zincirde çok fazla likiditeye sahip sabit bir madeni para olduğundan, DAI'nin sabitlenme ve kasanızın tasfiye edilme riski nispeten düşüktür. Bu, herhangi bir DeFi acemi için kolayca çok iyi bir başlangıç ​​noktası olabilecek bir tür "ayarla ve unut" kurulumudur ve bu stratejinin boğa piyasasında veya ayı piyasasında aynı şekilde performans göstermesi ihtimali vardır. Son olarak, kredinizin bir kısmını kapmak ve DeFi'nin Polygon'da sahip olduğu birçok olasılığı test etmek için aynı stratejiyi nasıl kullanabileceğinizi de açıkladık.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-Everything presented in this tutorial is educational content made to illustrate the leverage option proposed by Mai Finance. We didn't talk about debt repayment because there are articles dedicated to this on this site, but you need to keep in mind that Mai Finance charges a 0.5% repayment fee on the borrowed amount. As always, make your own researches and don't hesitate to ask question on the [Discord server of the DAO](https://discord.com/invite/qidaoprotocol) community.
+Bu eğitimde sunulan her şey, Mai Finance tarafından önerilen kaldıraç seçeneğini göstermek için hazırlanmış eğitim içeriğidir. Borç geri ödemesinden bahsetmedik çünkü bu sitede bununla ilgili makaleler var, ancak Mai Finance'in ödünç alınan miktar üzerinden %0,5 geri ödeme ücreti aldığını unutmamalısınız. Her zaman olduğu gibi, kendi araştırmalarınızı yapın ve [DAO'nun Discord sunucusu](https://discord.com/invite/qidaoprotocol) topluluğuna soru sormaktan çekinmeyin.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
