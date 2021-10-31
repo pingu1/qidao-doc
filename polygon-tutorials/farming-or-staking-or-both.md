@@ -3,7 +3,7 @@ Açıklama: >-
   Bu kılavuz, Mai Finance ve QuickSwap'ta yeni LP havuzlarının kullanıma açılmasından sonra Mai Finance, QuickSwap ve Adamant arasındaki şaşırtıcı etkileşimleri vurgulayan bir strateji sunacaktır.
 ---
 
-# FÇiftçilik (Farming) mi Staking mi? Yoksa her ikisi de mi?
+# Çiftçilik (Farming) mi Staking mi? Yoksa her ikisi de mi?
 
 ![](<../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
 
