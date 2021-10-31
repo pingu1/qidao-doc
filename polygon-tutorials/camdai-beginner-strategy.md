@@ -37,7 +37,7 @@ Bankaya geri dönersiniz ve satın aldığınız altınları yatırırsınız. A
 
 ![AAVE, Ekim 2021 itibarıyla Polygon'da](../.gitbook/assets/canDAI-aave.png)
 
-Varlıklarınızı AAVE'ye yatırdığınızda, bir depozito kanıtı alacaksınız. Örneğimizde, DAI yatırdığımız için cüzdanımıza amDAI jetonları alacağız (**a**ave **m**arket DAI). Bu makbuzu kesinlikle saklamanız gerekiyor çünkü DAI'nizi AAVE'den çıkarmak için buna ihtiyacınız olacak. Vahşi Batı karşılaştırmamızda altınlarınızı kabul edecek banka budur.
+Varlıklarınızı AAVE'ye yatırdığınızda, bir depozito kanıtı alacaksınız. Örneğimizde, DAI yatırdığımız için cüzdanımıza amDAI tokenları alacağız (**a**ave **m**arket DAI). Bu kanıtı kesinlikle saklamanız gerekiyor çünkü DAI'nizi AAVE'den çıkarmak için buna ihtiyacınız olacak. Vahşi Batı karşılaştırmamızda altınlarınızı kabul edecek banka budur.
 
 ### Mai Finance
 
@@ -161,19 +161,19 @@ camDAI kasasına yeniden daha az DAI enjekte ettiğimiz için daha az döngü ç
 
 * Tasfiyeyi önlemek için yeterince güvenli kabul edilmesi gereken, %118,09'luk bir nihai CDR
 * Getiri enstrümanı tarafından verilen %10,42 APY'den DAI üzerindeki 43.800$ faiz
-* Qi ve BAL ödüllerini Qi-BAL havuzunda birleştireceğinizi varsayarsanız, Dengeleyici havuzundan Qi'nizde 68.139$ faiz
+* Qi ve BAL ödüllerini Qi-BAL havuzunda birleştireceğinizi varsayarsanız, Balancer havuzundan Qi'nizde 68.139$ faiz
 * Toplam APY %111,94
 
 Bu strateji, Qi-BAL havuzuna yapılan yatırımın garanti edilmediği anlamında daha fazla risk sunar. Bununla birlikte, QiDAO protokolüne katılmanıza izin verecek olan Qi'ye sahip olursunuz. Mai Finance'deki BAL ödülünü teminat olarak kullanır ve buna karşı borç alırsanız, camDAI kasasına veya Qi-BAL havuzuna yeniden yatırım yapabilirsiniz. Bunu yaparsanız, her hafta Qi'de ödenen ödülleri ödünç almaya hak kazanacaksınız.
 
 ## Sonuç
 
-Minimum yatırım ve düşük bakımla, yalnızca DAI'nizden yararlanarak oldukça sağlam sonuçlar elde edebilirsiniz. DAI, birden fazla zincirde çok fazla likiditeye sahip sabit bir madeni para olduğundan, DAI'nin sabitlenme ve kasanızın tasfiye edilme riski nispeten düşüktür. Bu, herhangi bir DeFi acemi için kolayca çok iyi bir başlangıç ​​noktası olabilecek bir tür "ayarla ve unut" kurulumudur ve bu stratejinin boğa piyasasında veya ayı piyasasında aynı şekilde performans göstermesi ihtimali vardır. Son olarak, kredinizin bir kısmını kapmak ve DeFi'nin Polygon'da sahip olduğu birçok olasılığı test etmek için aynı stratejiyi nasıl kullanabileceğinizi de açıkladık.
+Minimum yatırım ve düşük ilgi ile yalnızca DAI'nizden yararlanarak oldukça sağlam sonuçlar elde edebilirsiniz. DAI, birden fazla zincirde çok fazla likiditeye sahip stabilcoin olduğundan, DAI'nin sabitlenme ve kasanızın likidasyona uğrama riski nispeten düşüktür. Bu, herhangi bir DeFi acemi için kolayca çok iyi bir başlangıç ​​noktası olabilecek bir tür "ayarla ve unut" kurulumudur ve stratejinin boğa piyasasında veya ayı piyasasında aynı şekilde performans göstermesi ihtimali vardır. Son olarak, kredinizin bir kısmını kapmak ve DeFi'nin Polygon'da sahip olduğu birçok olasılığı test etmek için aynı stratejiyi nasıl kullanabileceğinizi de açıkladık.
 
 ## Sorumluluk Reddi
 
-Bu eğitimde sunulan her şey, Mai Finance tarafından önerilen kaldıraç seçeneğini göstermek için hazırlanmış eğitim içeriğidir. Borç geri ödemesinden bahsetmedik çünkü bu sitede bununla ilgili makaleler var, ancak Mai Finance'in ödünç alınan miktar üzerinden %0,5 geri ödeme ücreti aldığını unutmamalısınız. Her zaman olduğu gibi, kendi araştırmalarınızı yapın ve [DAO'nun Discord sunucusu](https://discord.com/invite/qidaoprotocol) topluluğuna soru sormaktan çekinmeyin.
+Bu eğitimde sunulan her şey, Mai Finance tarafından önerilen kaldıraç seçeneğini göstermek için hazırlanmış eğitim içeriğidir. Borç geri ödemesinden bahsetmedik çünkü zaten bununla ilgili makaleler mevcut. Mai Finance'in ödünç alınan miktar üzerinden %0,5 geri ödeme ücreti aldığını unutmamalısınız. Her zaman olduğu gibi, kendi araştırmalarınızı yapın ve [DAO'nun Discord](https://discord.com/invite/qidaoprotocol) topluluğuna soru sormaktan çekinmeyin.
 
 {% hint style="info" %}
-Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen gözünüz açık olsun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
