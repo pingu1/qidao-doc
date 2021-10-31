@@ -112,7 +112,7 @@ Genel APR'nin Mai Finance'dekinden daha yüksek olması durumunda, bunun yalnız
 
 Bu %98,45 Qi ödülünün yarısı doğrudan WMATIC satın almak ve daha sonra çiftçiye verilecek ek LP tokenları oluşturmak için satılmaktadır.
 
-100$ değerinde LP jetonu ile APR-token fiyatlarının tam bir yıl boyunca aynı kaldığını ve bileşik olmadığını varsayarsak, bir yıllık çiftçiliğin ardından şunları elde edersiniz;
+100$ değerinde LP tokenı ile APR-token fiyatlarının tam bir yıl boyunca aynı kaldığını ve bileşik olmadığını varsayarsak, bir yıllık çiftçiliğin ardından şunları elde edersiniz;
 
 * Mai Finance'de 134,42 $ değerinde yeni Qi
 * 98,45 $ değerinde yeni Qi/WMATIC tokenı veya Adamant'ta 49,23 $ değerinde yeni Qi
