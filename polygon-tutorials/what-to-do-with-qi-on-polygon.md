@@ -25,7 +25,7 @@ Bu kısma çok fazla zaman ayırmayacağım. Zaten konuyla ilgili tam bir rehber
 
 ### LP token çiftçiliği
 
-Verim elde etmek ve farming tokenlarını asla satmayarak, Qi çiftçilik stratejinize nasıl dahil edebileceğinizi gösteren birkaç sayfa daha var. Örnek ayrıntılar için [DApps like Lego bricks](stack-dapps-like-lego-bricks.md) veya [Farming or Staking ?](tarım-or-stake-or-both.md) kılavuzlarına bakın.
+Verim elde etmek ve farming tokenlarını asla satmayarak, Qi çiftçilik stratejinize nasıl dahil edebileceğinizi gösteren birkaç sayfa daha var. Örnek ayrıntılar için [DApps like Lego bricks](stack-dapps-like-lego-bricks.md) veya [Farming or Staking?](tarım-or-stake-or-both.md) kılavuzlarına bakın.
 
 Hızlı bir hatırlatma olarak, Qi, [QuickSwap](https://quickswap.exchange/#/quick) üzerinde LP (**L**iquidity **P**rovider) çiftleri oluşturmak için farklı tokenlarla eşleştirilir.
 
@@ -57,7 +57,7 @@ Impermax'ta, pozisyonunuzu güçlendirmek için Qi ve WETH'i ödünç almak içi
 
 Bu durumda Qi'yi yalnızca Impermax'ta sağlayabileceğiniz ve örneğimizde içeriği yazım anında %43,73 APR alabileceğiniz anlamına gelir. Arz ve talep değiştikçe, arz APR'si de artacak/azalacaktır. Impermax'ta tek token tedarik ettiğinizde, sağladığınız token ile ödüllendirileceksiniz. Böylece stratejiniz zamanla daha fazla Qi biriktirmenizi sağlayacaktır.
 
-Impermax'tayken, IMX ödülleri almak için kaldıraç seçeneğini de kullanabilirsiniz. Çiftçilik stratejinize Impermax'ı nasıl dahil edebileceğiniz hakkında daha fazla bilgi almak için lütfen [bu kılavuzu](stack-dapps-like-lego-bricks.md)okuyun.
+Impermax'tayken, IMX ödülleri almak için kaldıraç seçeneğini de kullanabilirsiniz. Çiftçilik stratejinize Impermax'ı nasıl dahil edebileceğiniz hakkında daha fazla bilgi almak için lütfen [bu kılavuzu](stack-dapps-like-lego-bricks.md) okuyun.
 
 ### Balancer
 
