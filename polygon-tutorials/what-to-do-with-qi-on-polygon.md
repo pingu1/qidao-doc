@@ -17,7 +17,7 @@ Mütevazı çiftçiler bazen size alçakgönüllü kalmanız, hasat ettiğinizi 
 
 Bu yüzden oltalarınızı alın ve kılavuzu takip edin.
 
-## Polygon üzerinde Qi'nizle ne yapmalısınız?
+## Polygon üzerinde Qi ile ne yapmalısınız?
 
 ### Staking
 
