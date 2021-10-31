@@ -1,149 +1,148 @@
 ---
-description: >-
-  This guide will present a strategy that highlights amazing interactions
-  between Mai Finance, QuickSwap and Adamant after the launch of new LP pools on
-  Mai Finance and QuickSwap.
+Açıklama: >-
+  Bu kılavuz, Mai Finance ve QuickSwap'ta yeni LP havuzlarının kullanıma açılmasından sonra Mai Finance, QuickSwap ve Adamant arasındaki şaşırtıcı etkileşimleri vurgulayan bir strateji sunacaktır.
 ---
 
-# Farming or Staking? Or both?
+# FÇiftçilik (Farming) mi Staking mi? Yoksa her ikisi de mi?
 
 ![](<../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
 
-## Intro
+## Giriş
 
-When you are using DeFi (**De**centralize **Fi**nance) applications, especially when you are farming yields, you tend to end up with a bunch of native tokens granted by the farm. If most people are simply selling these tokens to buy more or their favourite coins, we will try to showcase some ways to actually keep and put them to work in order to increase your revenues.
+DeFi (**De**centralize **Fi**nance) uygulamalarını kullanırken, özellikle de ürün yetiştirirken, çiftlik tarafından verilen bir sürü platform tokenı elde etme eğilimindesiniz. Çoğu insan bu tokenları sevdikleri veya tercih ettikleri tokenları satın almak için satıyorsa, gelirlerinizi artırmak için onları gerçekten tutmanın ve çalıştırmanın bazı yollarını göstermeye çalışacağız.
 
-In order to do so, we will use new LP pools (**L**iquidity **P**roviding pools) launched on QuickSwap at the beginning of September 2021, that are using the Qi token from Mai Finance. If you need to get a good idea of what are QuickSwap and Adamant applications, please read the [Stacking DApps guide](stack-dapps-like-lego-bricks.md).
 
-## Application and pools presentation
+Stratejiyi uygulamak için, Eylül 2021'in başında QuickSwap'ta başlatılan ve Mai Finance'in Qi jetonunu kullanan yeni LP havuzlarını (**L**iquidity **P**rovider havuzları) kullanacağız. QuickSwap ve Adamant uygulamalarının ne olduğu hakkında iyi bir fikre ihtiyacınız varsa, lütfen [Stack DApp'leri kılavuzunu](stack-dapps-like-lego-bricks.md) okuyun.
 
-### Farming side
+## Uygulama ve Havuz Tanıtımı
 
-In order to maximize our gains, we will use 3 different applications
+### Farming Bölümü
+
+Kazanımlarımızı maksimize etmek için 3 farklı uygulama kullanacağız.
 
 * Mai Finance
 * QuickSwap
 * Adamant
 
-We will also be using the following LP pools
+Aşağıdaki LP havuzlarını da kullanacağız
 
-* Qi/MATIC on Mai Finance to generate Qi
-* Qi/WETH on QuickSwap to generate QUICK and ADDY
-* Qi/QUICK on Adamant to generate ADDY and MATIC
+* Qi için Mai Finance üzerinde Qi/MATIC
+* QUICK ve ADDY için QuickSwap üzerinde Qi/WETH
+* ADDY ve MATIC için Adamant'ta Qi/QUICK
 
-You can already see that each application is generating tokens that can feed the other pools used on the other applications. The idea is to use the Qi tokens harvested on Mai Finance in combination with the QUICK tokens harvested on QuickSwap and use the 2 on Adamant. Adamant will generate ADDY tokens that will let you claim MATIC dividends. The MATIC tokens can be locked on Mai Finance in the WMATIC vault to borrow MAI, and then buy MATIC and WETH that can then we used with Qi tokens to increase your positions on both Mai Finance and QuickSwap.
+Her uygulamanın, diğer uygulamalarda kullanılan diğer havuzları besleyebilecek tokenlar ürettiğini zaten görebilirsiniz. Buradaki fikir, Mai Finance'de hasat edilen Qi'yi QuickSwap'ta hasat edilen QUICK ile birlikte kullanmak ve Adamant'ta 2'yi kullanmaktır. Adamant, MATIC kazanımlarınızı talep etmenize izin verecek ADDY üretecektir. MATIC, MAI ödünç almak için WMATIC kasasındaki Mai Finance'e kilitlenebilir ve ardından hem Mai Finance hem de QuickSwap'taki pozisyonlarınızı artırmak için Qi kullanabileceğimiz MATIC ve WETH satın alınabilir.
 
-### Staking side
+### Staking Bölümü
 
-You also need to know that tokens generated in excess on Mai Finance and QuickSwap can be staked:
+Ayrıca Mai Finance ve QuickSwap'ta fazla üretilen tokenlerin stake edilebileceğini de bilmeniz gerekir:
 
-* Qi on Mai Finance **AND** QuickSwap can be used to vote on QIP (**Q**iDAO **I**mprovement **P**roposals).
-* Qi on Mai Finance can be locked. If you lock your Qis, you become eligible to protocols dividends that are paid in Qi and distributed every Wednesdays. More details on Qi staking soon.
-* QUICK on QuickSwap can also be staked to generate additional QUICK tokens in the Dragon's Lair.
-* locked QUICK (dQUICK) can also be used on QuickSwap to generate other tokens in the Dragon's Syrup, and the one we will be using is the farm generating ADDY tokens.
-* ADDY on Adamant are automatically vested (locked for 90 days), but will generate WMATIC dividends.
-* ADDY on Adamant can also be locked in order to boost your APRs/APYs (**A**nnual **P**ercentage **R**ewards / **A**nnual **P**ercentage **Y**ield) on the pools you entered on the site, as well as generating more ADDYs, and boosting your MATIC dividends.
+* Mai Finance'de Qi **VE** QuickSwap, QIP'de oy vermek için kullanılabilir (**Q**iDAO **I**mprovement **P**roposals).
+* Mai Finance'deki Qi kilitlenebilir. Qi'nizi kilitlerseniz, Qi olarak ödenen ve her Çarşamba dağıtılan protokol temettülerine hak kazanırsınız. Qi staking hakkında daha fazla ayrıntı yakında.
+* QuickSwap üzerinde QUICK, Dragon's Lair'de ek QUICK oluşturmak için de stake edilebilir.
+* kilitli QUICK (dQUICK), Dragon's Syrup'ta başka tokenlar oluşturmak için QuickSwap'ta da kullanılabilir ve kullanacağımız ADDY'leri üreten çiftliktir.
+* ADDY on Adamant otomatik olarak kazanılır (90 gün boyunca kilitlenir), WMATIC temettüleri oluşturur.
+* ADDY on Adamant, APR'lerinizi/APY'lerinizi artırmak için de kilitlenebilir (**A**nnual **P**ercentage **R**ewards / **A**annual **P**ercentage ** Y**ield) siteye girdiğiniz havuzlarda, daha fazla ADDY üreterek ve MATIC temettülerinizi artırabilirsiniz.
 
-## Bootstrapping the system
+## Sistemin Ateşlenmesi
 
 ![](<../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
 
-What follows is a simulation made with an initial investment of $1,000 worth of Qi/MATIC and Qi/WETH LP tokens, and the current APRs / APYs given by the different platforms on September 9th 2021. This is not a real application of what we described above. Rates will vary, token prices will vary, some programs will come to an end etc ... so the final results are just an estimation of what you could get if everything remained stable, which will never be the case.
+Aşağıda, 1.000 $ değerinde Qi/MATIC ve Qi/WETH LP tokenları ve 9 Eylül 2021'de farklı platformlar tarafından verilen mevcut APR'ler / APY'ler ile yapılan bir simülasyon yer almaktadır. Tanımladığımız şeyin gerçek bir uygulaması değildir. Oranlar değişecek, token fiyatları değişecek, bazı programlar sona erecek vs... bu nedenle nihai sonuçlar, her şey sabit kalırsa elde edebileceğinizin bir tahminidir, ki bu asla böyle olmayacak.
 
-### Day 1
+### 1. Gün
 
 {% hint style="info" %}
-**ATTENTION:** The pools used in this guide went live a few hours prior to the publication. APRs and APYs are obviously not going to stay the same, and some revision to the document will be made in a few days. Please, DYOR and take the guide with caution.
+**DİKKAT:** Bu kılavuzda kullanılan havuzlar, yayınlanmadan birkaç saat önce yayına girmiştir. APR'ler ve APY'ler açıkça aynı kalmayacak ve birkaç gün içinde bazı revizyonlar yapılacak. Lütfen, DYOR ve kılavuzu dikkatli bir şekilde inceleyin.
 {% endhint %}
 
-Since we have $500 worth of Qi/MATIC LP tokens and $500 of Qi/WETH LP tokens, we will deposit them on Mai Finance and QuickSwap. As a side note, if you have a preference for Qi or QuickSwap, you can simply put more LP tokens on one or the other platform to generate more of your favourite token and stake more. For our example, we'll stick to a strict 50% split.
+500$ değerinde Qi/MATIC LP tokenlarımız ve 500$ değerinde Qi/WETH LP tokenımız olduğundan bunları Mai Finance ve QuickSwap'a yatıracağız. Bir yan not olarak, Qi veya QuickSwap için bir tercihiniz varsa, favori tokenınızdan daha fazlasını oluşturmak ve daha fazla stake yapmak için bir veya diğer platforma daha fazla LP token koyabilirsiniz. Örneğimiz için, kesin bir %50'lik bölünmeye bağlı kalacağız.
 
-* $500 of Qi/MATIC will be on Mai Finance, with an APR of 1160.65%
-* $500 of Qi/WETH will be on QuickSwap, with an APR of 1817.44%
+* 500$ Qi/MATIC, %1160.65 APR ile Mai Finance'de olacak
+* 500$ Qi/WETH, %1817,44 APR ile QuickSwap'ta olacak
 
-We will also use the following APRs for the rest of the simulation
+Simülasyonun geri kalanı için aşağıdaki APR'leri de kullanacağız.
 
-* dQUICK APR from Dragon's Lair is 17.28%
-* ADDY APR from Dragon's Syrup is 17.08%
-* Qi/QUICK APR on Adamant for auto-compounded LP tokens is 133%
-* Qi/QUICK APR on Adamant for ADDY tokens is 131%
-* WMATIC APR on Adamant is 35% of the locked ADDY tokens
+* Dragon's Lair'den dQUICK APR %17,28
+* Dragon's Syrup'tan ADDY APR %17,08'dir.
+* Otomatik bileşik LP tokenları için Adamant'ta Qi/QUICK APR %133'tür
+* ADDY tokenleri için Adamant'ta Qi/QUICK APR %131'dir
+* Adamant'ta WMATIC APR, kilitli ADDY tokenlarının %35'idir
 
-Because the APR on Mai Finance is lower than the one on QuickSwap, we will be using 100% of the Qi generated on Mai Finance to generate additional Qi/QUICK tokens (not selling but combining with QUICK tokens received on QuickSwap), meaning that at the end of the day, we have 0 Qi left. Of course, if you balance your initial investment differently, you could get remaining Qi and 0 QUICK left.
+Mai Finance'deki APR QuickSwap'takinden daha düşük olduğundan, ek Qi/QUICK tokenları oluşturmak için Mai Finance'de üretilen Qi'nin %100'ünü kullanacağız (satmıyor, QuickSwap'ta alınan QUICK ile birleştiriyoruz), yani şu anlama geliyor: günün sonunda, elimizde 0 Qi kaldı. Tabii ki, ilk yatırımınızı farklı şekilde dengelerseniz, kalan Qi ve 0 QUICK'i elde edebilirsiniz.
 
-Hence, at the end of Day 1, we have in our portfolio
+Bu nedenle, 1. Günün sonunda portföyümüzde
 
-| Reward type         | Value in dollars |
+| Ödül Tipi           | Dolar Karşılığı  |
 | ------------------- | ---------------- |
-| dQUICK on QuickSwap | 8.997            |
-| ADDY on QuickSwap   | 0                |
-| Qi/QUICK on Adamant | 31.799           |
-| ADDY on Adamant     | 0                |
-| WMATIC on Adamant   | 0                |
+| QuickSwap'ta dQUICK | 8.997            |
+| QuickSwap'ta ADDY   | 0                |
+| Adamant'ta Qi/QUICK | 31.799           |
+| Adamant'ta ADDY     | 0                |
+| Adamant'ta WMATIC   | 0                |
 
-### Day 2
+### 2. Gün
 
-On Day 2, the dQUICK deposited on QuickSwap's Dragon's Syrup starts generating ADDY tokens, as well as the Qi/QUICK LP pair on Adamant. At the end of Day 2, we would get
+İkinci günde QuickSwap'ın Dragon's Syrup'una yatırılan dQUICK, ADDY tokenlarırının yanı sıra Adamant'ta Qi/QUICK LP çifti üretmeye başlar. 2. günün sonunda,
 
-| Reward type         | Value in dollars |
+| Ödül Tipi           | Dolar Karşılığı  |
 | ------------------- | ---------------- |
-| dQUICK on QuickSwap | 17.998           |
-| ADDY on QuickSwap   | 0.0042           |
-| Qi/QUICK on Adamant | 63.713           |
-| ADDY on Adamant     | 0.114            |
-| WMATIC on Adamant   | 0                |
+| QuickSwap'ta dQUIC  | 17.998           |
+| QuickSwap'ta ADDY   | 0.0042           |
+| Adamant'ta Qi/QUICK | 63.713           |
+| Adamant'ta ADDY     | 0.114            |
+| Adamant'ta WMATIC   | 0                |
 
-Don't forget to claim your rewards daily on Adamant in order to start generating WMATIC dividends!
+WMATIC temettüleri oluşturmaya başlamak için ödüllerinizi Adamant'ta her gün talep etmeyi unutmayın!
 
-### Day 3
+### 3. Gün
 
-On Day 3, the ADDY tokens collected on Adamant will start generating WMATIC dividends. This means that at the end of Day 3, we would get in our portfolio
+Üçüncü günde Adamant'ta toplanan ADDY, WMATIC temettüleri üretmeye başlayacak. Bu durumda 3. günün sonunda portföyümüze gireceğimiz anlamına gelir.
 
-| Reward type         | Value in dollars |
+|  Ödül Tipi          | Dolar Karşılığı  |
 | ------------------- | ---------------- |
-| dQUICK on QuickSwap | 27.004           |
-| ADDY on QuickSwap   | 0.025            |
-| Qi/QUICK on Adamant | 95.743           |
-| ADDY on Adamant     | 0.343            |
-| WMATIC on Adamant   | 0.0001           |
+| QuickSwap'ta dQUICK | 27.004           |
+| QuickSwap'ta ADDY   | 0.025            |
+| Adamant'ta Qi/QUICK | 95.743           |
+| Adamant'ta ADDY     | 0.343            |
+| Adamant'ta WMATIC   | 0.0001           |
 
-Starting on Day 4, we will be able to
+4. günden başlayarak yapılacaklar;
 
-* collect the WMATIC dividends
-* deposit a portion of the WMATIC on Mai Finance and borrow MAI against it
-* sell MAI to buy more WETH
-* pair the remaining MATIC with Qi, and the WETH with some more Qi generated on Mai Finance
-* deposit the additional Qi/WMATIC pair on Mai Finance and the Qi/WETH pair on QuickSwap
+* WMATIC temettülerini toplayın
+* WMATIC'in bir kısmını Mai Finance'e yatırın ve buna karşı MAI ödünç alın
+* daha fazla WETH almak için MAI sat
+* kalan MATIC'i Qi ile ve WETH'i Mai Finance'te oluşturulan biraz daha Qi ile eşleştirin
+* ek Qi/WMATIC çiftini Mai Finance'e ve Qi/WETH çiftini QuickSwap'a yatırın
 
-At that point, the farming system is fully primed, and we can start estimating revenues.
+Bu noktada, çiftçilik sistemi tamamen hazırdır ve gelirleri tahmin etmeye başlayabiliriz.
 
-## Farming results
+## Farming sonuçları
 
-### Daily routine
+### Günlük Rutin
 
-The daily routine is composed by the following transactions
+Günlük rutin aşağıdaki işlemlerden oluşur
 
-* Harvest Qi on Mai Finance
-* Harvest WMATIC on Adamant
-* Deposit 66% of WMATIC on Mai Finance
-* Borrow MAI for 50% of the deposit
-* Swap MAI for WETH
-* Create Qi/WMATIC pair on QuickSwap
-* Deposit the Qi/WMATIC on Mai Finance
-* Create Qi/WETH pair on QuickSwap
-* Deposit the Qi/WETH on QuickSwap
-* Harvest Quick on QuickSwap
-* Create Qi/QUICK pair on QuickSwap
-* Deposit remaining QUICK on Dragon's Lair
-* Deposit dQUICK on Dragon's Syrup
-* Harvest ADDY token from Dragon's Syrup
-* Harvest ADDY token from Adamant
-* Deposit new Qi/QUICK on Adamant
-* Deposit harvested ADDY on Adamant (lock)
+* Mai Finance'de Qi hasat edin
+* Adamant'ta WMATIC hasat edin
+* WMATIC'in %66'sını Mai Finance'e yatırın
+* Mevduatın %50'si için MAI ödünç alın
+* MAI'yi WETH ile değiştir
+* QuickSwap'ta Qi/WMATIC çifti oluşturun
+* Qi/WMATIC'i Mai Finance'e yatırın
+* QuickSwap'ta Qi/WETH çifti oluşturun
+* Qi/WETH'yi QuickSwap'a yatırın
+* QuickSwap'ta QUICK Hasat
+* QuickSwap'ta Qi/QUICK çifti oluşturun
+* Dragon's Lair'de kalan QUICK'leri yatırın
+* Dragon's Syrup'a dQUICK yatırın
+* Dragon's Syrup'tan ADDY hasat edin
+* Adamant'tan ADDY  hasat edin
+* Adamant'a yeni Qi/QUICK yatırın
+* ADDY'yi Adamant'ta toplayın (kilit)
 
-### Raw results month after month
+### Ay sonunda oluşan ham sonuçlar
 
-| Month | dQUICK    | Qi/QUICK   | ADDY       | Qi/MATIC Qi/WETH |
+| Ay    | dQUICK    | Qi/QUICK   | ADDY       | Qi/MATIC Qi/WETH |
 | ----- | --------- | ---------- | ---------- | ---------------- |
 | 1     | $280.96   | $1,040.78  | $54.97     | $0.91            |
 | 2     | $557.79   | $2,162.98  | $224.36    | $7.89            |
@@ -158,26 +157,26 @@ The daily routine is composed by the following transactions
 | 11    | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31        |
 | 12    | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79        |
 
-### Day 365
+### 365 gün sonunda
 
-After a complete year, the final state of our investment would be
+Tam bir yıl sonra yatırımımızın son hali
 
-| Reward type                   | Value in dollars |
+| Ödül Tipi                     | Dolar Karşılığı  |
 | ----------------------------- | ---------------- |
-| dQUICK on QuickSwap           | 5,628.29         |
-| ADDY on QuickSwap             | 365.25           |
-| Qi/QUICK on Adamant           | 29,733.58        |
-| ADDY on Adamant               | 13,587.56        |
-| Additional Qi/MATIC + Qi/WETH | 2,631.07         |
+| QuickSwap'ta dQUICK           | 5,628.29         |
+| QuickSwap'ta ADDY             | 365.25           |
+| Adamant'ta Qi/QUCK            | 29,733.58        |
+| Adamant'ta ADDY               | 13,587.56        |
+| Ek Qi/MATIC + Qi/WETH         | 2,631.07         |
 
-Note that the ADDY that have been generated via the QuickSwap farm haven't been harvested daily and added to boost the ADDY rewards on Adamant in this simulation (it is already complex enough). Also, we are only taking in account vested ADDY. After the initial vesting period of 90 days, if you claim the ADDY tokens and lock them, you will boost your ADDY rewards even more, and generate more WMATIC.
+QuickSwap çiftliği aracılığıyla oluşturulan ADDY'nin günlük olarak hasat edilmediğini ve bu simülasyonda Adamant'taki ADDY ödüllerini artırmak için eklenmediğini unutmayın (zaten yeterince karmaşıktır). Ayrıca, sadece kazanılmış ADDY'yi dikkate alıyoruz. 90 günlük ilk hak kazanma döneminden sonra, ADDY talep edip kilitlerseniz, ADDY ödüllerinizi daha da artıracak ve daha fazla WMATIC üreteceksiniz.
 
-Finally, after one year, the generated revenue is worth $51,580.50. If we consider the initial investment was $1,000 worth of Qi/MATIC and Qi/WETH, this leads to a final APY of 5,087.39%.
+Son olarak, bir yıl sonra elde edilen gelir 51.580,50 $ değerindedir. İlk yatırımın 1.000$ değerinde Qi/MATIC ve Qi/WETH olduğunu düşünürsek, bu, %5,087.39'luk bir nihai APY'ye yol açar.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Fiyat değişimlerine, arz ve talebe, ödül programlarının bitiş tarihlerine, kalıcı kayıplara vs. dikkat etmeniz gerekiyor... Amaç körü körüne takip edilebilecek tarifler önermek değildir. Lütfen kendi simülasyonunuzu yapın ve sadece kaybetmeye hazır olduğunuza yatırım yapın.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen farkında olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
