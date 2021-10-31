@@ -12,7 +12,7 @@ Açıklama: >-
 DeFi (**De**centralize **Fi**nance) uygulamalarını kullanırken, özellikle de ürün yetiştirirken, çiftlik tarafından verilen bir sürü platform tokenı elde etme imkanına sahipsiniz. Çoğu insan bu tokenları sevdikleri veya tercih ettikleri tokenları satın almak için satıyorsa, gelirlerinizi artırmak için onları gerçekten tutmanın ve çalıştırmanın bazı yollarını göstermeye çalışacağız.
 
 
-Stratejiyi uygulamak için, Eylül 2021'in başında QuickSwap'ta başlatılan ve Mai Finance'in Qi jetonunu kullanan yeni LP havuzlarını (**L**iquidity **P**rovider havuzları) kullanacağız. QuickSwap ve Adamant uygulamalarının ne olduğu hakkında iyi bir fikre ihtiyacınız varsa, lütfen [Stack DApp'leri kılavuzunu](stack-dapps-like-lego-bricks.md) okuyun.
+Stratejiyi uygulamak için, Eylül 2021'in başında QuickSwap'ta başlatılan ve Mai Finance'in Qi tokenını kullanan yeni LP havuzlarını (**L**iquidity **P**rovider havuzları) kullanacağız. QuickSwap ve Adamant uygulamalarının ne olduğu hakkında iyi bir fikre ihtiyacınız varsa, lütfen [Stack DApp'leri kılavuzunu](stack-dapps-like-lego-bricks.md) okuyun.
 
 ## Uygulama ve Havuz Tanıtımı
 
