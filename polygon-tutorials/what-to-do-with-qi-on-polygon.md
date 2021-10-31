@@ -1,170 +1,168 @@
 ---
-description: >-
-  This guide will explain in details how you can use your Qi, the native token
-  from Mai Finance, on Polygon. We will also analyze if Qi is a good investment
-  opportunity, and what drives its price.
+Açıklama: >-
+  Bu kılavuz, Mai Finance'in tokenı olan Qi'yi Polygon'da nasıl kullanabileceğinizi ayrıntılı olarak açıklayacaktır. Ayrıca Qi'nin iyi bir yatırım fırsatı olup olmadığını ve fiyatını neyin yönlendirdiğini de analiz edeceğiz.
 ---
 
-# What to do with Qi on Polygon
+# Polygon üzerinde Qi ile Neler Yapabiliriz?
 
-## Intro
+## Giriş
 
-Qi (\[tʃ Í] or _chee_), is the native token of Mai Finance. Some use it to vote and QIP (**Q**iDAO **I**mprovement **P**roposals), some stake it to get even more of them, and some simply farm with it. You can find some very good info on how you can use Qi on the Mai Finance plateforme in the [guide dedicated to passive income](../mai-university/earning-passive-income-with-qidao.md).
+Qi (\[tʃ Í] veya _chee_), Mai Finance'in tokenıdır. Bazıları onu oy vermek ve QIP (**Q**iDAO **I**geliştirme **P**roposallar) için kullanır, bazıları daha fazlasını elde etmek için riske atar ve bazıları basitçe onunla farmlar. [Pasif gelire ayrılmış kılavuzda](../mai-university/earning-passive-income-with-qidao.md) Mai Finance ile Qi'yi nasıl kullanabileceğiniz hakkında çok iyi bilgiler bulabilirsiniz.
 
-This guide, as most investment tutorials, will focus primarily on farming and harvesting yields, this time using the Qi token. We will see how you can generate a lot of Qi, and how you can use them on the different platforms on Polygon.
+Bu kılavuz, Qi kullanarak öncelikle çiftçilik ve hasat verimine (*yield farming*) odaklanacaktır. Nasıl çok sayıda Qi üretebileceğinizi ve bunları Polygon'daki farklı platformlarda nasıl kullanabileceğinizi göreceğiz.
 
-Humble farmers will sometimes tell you that you need to remain humble, sell what you harvest and take profits. But personally, I'll go with:
+Mütevazı çiftçiler bazen size alçakgönüllü kalmanız, hasat ettiğinizi satmanız ve kar etmeniz gerektiğini söyleyecektir. Ama kişisel olarak şunu söyleyeceğim:
 
-> Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime.
+> Bir adama balık verirsen onu bir gün beslersin. Bir adama balık tutmayı öğretirsen onu ömür boyu beslersin.
 
-So grab your fish rods, and follow the guide.
+Bu yüzden oltalarınızı alın ve kılavuzu takip edin.
 
-## What to do with your Qi on Polygon
+## Polygon üzerinde Qi'nizle ne yapmalısınız?
 
 ### Staking
 
-I will not spend too much time on this part, there's already a complete guide on the subject. Just keep in mind that Mai Finance is collecting revenues, and redistributes a very large portion to Qi stakers. Staking your Qi on Mai finance is one of the best use for the token, and as of September 2021, 23% of all circulating Qi is locked on average for 2 years.
+Bu kısma çok fazla zaman ayırmayacağım. Zaten konuyla ilgili tam bir rehber var. Mai Finance'in gelir topladığını ve çok büyük bir kısmı Qi stakerlarına yeniden dağıttığını unutmayın. Qi'nizi Mai finansında stake etmek, token için en iyi kullanımlardan biridir ve Eylül 2021 itibariyle, dolaşımdaki tüm Qi'nin %23'ü ortalama 2 yıl boyunca kilitlenmiştir.
 
-### LP pair Farming
+### LP token çiftçiliği
 
-Once again, there are already a few other pages presenting how you can include the Qi token in your farming strategy to generate yields and never sell any of your farm tokens. See [Stack DApps like Lego bricks](stack-dapps-like-lego-bricks.md) or [Farming or Staking ?](farming-or-staking-or-both.md) guides for details exampled.
+Verim elde etmek ve farming tokenlarını asla satmayarak, Qi çiftçilik stratejinize nasıl dahil edebileceğinizi gösteren birkaç sayfa daha var. Örnek ayrıntılar için [DApps like Lego bricks](stack-dapps-like-lego-bricks.md) veya [Farming or Staking ?](tarım-or-stake-or-both.md) kılavuzlarına bakın.
 
-As a quick reminder, Qi is paired to different tokens to form LP (**L**iquidity **P**rovider) pairs on [QuickSwap](https://quickswap.exchange/#/quick) so that you can farm
+Hızlı bir hatırlatma olarak, Qi, [QuickSwap](https://quickswap.exchange/#/quick) üzerinde LP (**L**iquidity **P**rovider) çiftleri oluşturmak için farklı tokenlarla eşleştirilir.
 
-* Qi-WMATIC on Mai Finance and get rewarded with Qi tokens
-* Qi-WETH on QuickSwap and get rewarded with QUICK tokens
-* Qi-QUICK on QuickSwap and get rewarded with QUICK tokens
+* Mai Finance'de Qi-WMATIC ve Qi tokenları ile ödüllendirin
+* QuickSwap'ta Qi-WETH ve QUICK tokenları ödüllendirin
+* QuickSwap'ta Qi-QUICK ve QUICK tokenları ödüllendirilin
 
-![LP pool on QuickSwap for the Qi-WETH pair](<../.gitbook/assets/image (19) (2).png>)
+![Qi-WETH çifti için QuickSwap'ta LP havuzu](<../.gitbook/assets/image (19) (2).png>)
 
-### Single Qi farming
+### Tek yönlü Qi çiftçiliği
 
-Qi can also be used solely on [Impermax](https://polygon.impermax.finance). Impermax is a platform where you will be able to leverage a specific LP pair several times in order to increase your gains from QuickSwap.
+Qi, yalnızca [Impermax](https://polygon.impermax.finance) üzerinde de kullanılabilir. Impermax, QuickSwap'tan kazancınızı artırmak için belirli bir LP çiftinden birkaç kez yararlanabileceğiniz bir platformdur.
 
-The way it works, is that you will borrow the 2 tokens forming the pair that you want to farm, combine them into more LP tokens, and farm with a much higher position. In most cases, borrowing rates are largely compensated by farming APR, giving you some net positive rewards.
+Çalışma şekli, farm yapmak istediğiniz çifti oluşturan 2 tokenı ödünç almanız, bunları daha fazla LP tokenında birleştirmeniz ve çok daha yüksek bir pozisyonda farm yapmanızdır. Çoğu durumda, borçlanma oranları büyük ölçüde farming APR'si ile telafi edilir ve size bazı net pozitif ödüller verir.
 
-![Leveraged Qi-WETH position on Impermax](<../.gitbook/assets/image (10).png>)
+![Impermax'ta kaldıraçlı Qi-WETH pozisyonu](<../.gitbook/assets/image (10).png>)
 
-We can see here that the final reward APR on Impermax is 393.88% after leveraging 5 times, based on an APY of 239.68% on QuickSwap.
+Burada, QuickSwap'ta %239.68'lik bir APY'ye dayalı olarak, 5 kez kaldıraç kullandıktan sonra Impermax'ta nihai ödül olan APR'nin %393.88 olduğunu görebiliriz.
 
 {% hint style="info" %}
-Note also that Impermax gives estimated APRs (**A**nnual **P**ercentage **R**ewards) while QuickSwap gives estimated APYs (**A**nnual **P**ercentage **Y**ields), meaning that QuickSwap assumes you compound your rewards daily. The 239.68% APY on QuickSwap corresponds to a 122.49% APR.
+Ayrıca Impermax'ın tahmini APR'leri (**A**nnual **P**ercentage **R**eward) verirken QuickSwap'in tahmini APY'leri (**A**annual **P**ercentage **Y**ields) verdiğini unutmayın. ields), yani QuickSwap, ödüllerinizi günlük olarak birleştirdiğinizi varsayar. QuickSwap'taki %239.68 APY, %122.49 APR'ye karşılık gelir.
 {% endhint %}
 
-But then, on Impermax, in order to borrow Qi and WETH to leverage your position, you need to get them from somewhere. This is possible only because some other users (or yourself) also supply both tokens separately. The more token is borrowed, the higher the borrowing rate becomes, and the lower the final APR, sometimes going in the negatives.
+Impermax'ta, pozisyonunuzu güçlendirmek için Qi ve WETH'i ödünç almak için, onları bir yerden almanız gerekir. Bu durum yalnızca bazı diğer kullanıcılar (veya sizin) her iki tokenı da ayrı olarak sağladığı için mümkündür. Ne kadar çok token ödünç alınırsa, borçlanma oranı o kadar yüksek olur ve nihai APR o kadar düşük olur, bazen negatif olur.
 
-![Qi and WETH statistics for the Qi-WETH market on Impermax](<../.gitbook/assets/image (11).png>)
+![Impermax'ta Qi-WETH için Qi ve WETH istatistikleri](<../.gitbook/assets/image (11).png>)
 
-For our example, we will focus on Qi. You can see that the total supply of Qi is $427.21 and the total amount used in leveraged position is $321.44, giving the utilization rate of 75.24%. Impermax has some internal mechanism that automatically calculates the supply APR (APR that people lending Qi will get) and the borrowing APR (percentage of the farmed reward that will be deduced to pay the loan).
+Örneğimiz için Qi'ye odaklanacağız. Toplam Qi arzının 427,21$ ve kaldıraçlı pozisyonda kullanılan toplam miktarın 321,44$ olduğunu ve %75,24 kullanım oranı sağladığını görebilirsiniz. Impermax, arz APR'sini (Qi'ye borç veren kişilerin alacağı APR) ve ödünç alma APR'sini (krediyi ödemek için kesilecek çiftlik ödülünün yüzdesi) otomatik olarak hesaplayan bazı dahili mekanizmalara sahiptir.
 
-This means that you can provide Qi solely on Impermax and get, in our example, 43.73% APR, at the moment of writing. As supply and demand varies, the supply APR will also increase / decrease. When you supply single tokens on Impermax, you will get rewarded with the token you provide, meaning that this strategy will make you accumulate more Qi over time.
+Bu durumda Qi'yi yalnızca Impermax'ta sağlayabileceğiniz ve örneğimizde içeriği yazım anında %43,73 APR alabileceğiniz anlamına gelir. Arz ve talep değiştikçe, arz APR'si de artacak/azalacaktır. Impermax'ta tek token tedarik ettiğinizde, sağladığınız token ile ödüllendirileceksiniz. Böylece stratejiniz zamanla daha fazla Qi biriktirmenizi sağlayacaktır.
 
-While you are on Impermax, you can also use the leverage option to get IMX rewards. Please read the [Stacking guide](stack-dapps-like-lego-bricks.md) to get more details on how you can include Impermax in your farming strategy.
+Impermax'tayken, IMX ödülleri almak için kaldıraç seçeneğini de kullanabilirsiniz. Çiftçilik stratejinize Impermax'ı nasıl dahil edebileceğiniz hakkında daha fazla bilgi almak için lütfen [bu kılavuzu](stack-dapps-like-lego-bricks.md)okuyun.
 
 ### Balancer
 
-Balancer is a really nice toolbox for any strategy, especially the ones that include Qi and/or MAI. Balancer proposes an equivalent of LP pair mining, but with more than 2 tokens provided in a 1:1 ratio. The pool can have 3, 4 or 5 tokens (sometimes even more) with different weight, and the algorithm in charge of the pool makes sure that the ratio for each token is always respected, selling some and buying others to keep it balanced.
+Balancer, özellikle Qi ve/veya MAI olmak üzere, herhangi bir strateji için gerçekten güzel bir araçtır. Balancer, LP çifti madenciliğine eşdeğer bir teklif sunar ancak 1:1 oranında 2'den fazla token sağlanır. Havuz, farklı ağırlıkta 3, 4 veya 5 tokena (bazen daha da fazla) sahip olabilir ve havuzdan sorumlu algoritma, her tokenın oranına her zaman saygı gösterilmesini sağlar. Bazılarını satar ve diğerlerini dengede tutmak için satın alır.
 
-The pool that we want to use here is a pool that contains Qi, WMATIC, BAL, USDC and MAI. This pool will reward you with both Qi and BAL tokens, and you can already see that you will be able to compound both into the pool. Because another amazing advantage of pools on Balancer is that you don't need to provide all tokens forming the pool in the proper ratio, the algorithm will do it for you. This means that you can indeed only deposit Qi in the pool and let the algorithm do the rest to rebalance everything.
+Burada kullanmak istediğimiz havuz Qi, WMATIC, BAL, USDC ve MAI içeren bir havuzdur. Bu havuz sizi hem Qi hem de BAL tokenları ile ödüllendirecek ve her ikisini de havuza dahil edebileceğinizi şimdiden görebilirsiniz. Balancer'daki havuzların bir başka şaşırtıcı avantajı da havuzu oluşturan tüm tokenları uygun oranda sağlamanız gerekmemesi olduğundan, algoritma bunu sizin için yapacaktır. Havuza yalnızca Qi yatırabileceğiniz ve her şeyi yeniden dengelemek için gerisini algoritmaya bırakabileceğiniz anlamına gelir.
 
-![Details of the pool as of September 2021](<../.gitbook/assets/image (12).png>)
+![Eylül 2021 itibariyle havuzun detayları](<../.gitbook/assets/image (12).png>)
 
-As a side note, BAL tokens can (or will soon be) usable as collateral on Mai Finance, which mean that you will have the option to store your BAL tokens on the BAL vault on Mai Finance, and borrow MAI against then. In addition to that, borrowing MAI against your BAL tokens will make you eligible for Qi rewards that will feed the pool on Balancer.
+Ek bir not olarak, BAL tokenları Mai Finance'de teminat olarak kullanılabilir (veya yakında olacak), bu da BAL tokenlarınızı Mai Finance'teki BAL kasasında saklama ve zamana karşı MAI ödünç alma seçeneğiniz olacağı anlamına gelir. Buna ek olarak, MAI'yi BAL tokenlarınıza karşı ödünç almak, sizi Balancer'daki havuzu besleyecek Qi ödülleri için uygun hale getirecektir.
 
-![Closed loop using Mai Finance and Balancer](<../.gitbook/assets/image (13).png>)
+![Mai Finance ve Balancer kullanarak döngü yaratmak](<../.gitbook/assets/image (13).png>)
 
-The APR of BAL vaults will highly dictates how interesting it is to have the vault in the loop, or if compounding your Qi into the Balancer's pool will be better.
+BAL kasalarının APR'si, kasanın döngüde olmasının ne kadar ilginç olduğunu veya Qi'nizi Balancer havuzunda birleştirmenin daha iyi olup olmayacağını büyük ölçüde belirleyecektir.
 
-## Understanding the price of Qi
+## Qi'nin Fiyatı Üzerine
 
-Getting a lot of Qi is one thing, however if the token loses value over time, is it really a good strategy to keep it? In this section, we will try to understand the different factors that impact directly the price of Qi so that, when you start investing your Qis, you will get a better idea of how its price may vary, and what impact you will get on the Qi ecosystem.
+Çok fazla Qi'ye sahip olmak iyi bir şeydir, ancak token zamanla değer kaybederse onu tutmak gerçekten iyi bir strateji midir? Bu bölümde, Qi'nizin fiyatını doğrudan etkileyen farklı faktörleri anlamaya çalışacağız. Böylece Qi'nize yatırım yapmaya başladığınızda, fiyatının nasıl değişebileceği ve bunun üzerinde ne gibi bir etki yaratacağınız hakkında daha iyi bir fikir edineceksiniz. 
 
-### Qi emission
+### Qi Emisyonu
 
-One of the main factor that will affect the price of Qi is the rate at which they are created. Indeed, price is always driven by demand and supply. If there's a lot of supply and very low demande, the price will naturally collapse. Hence understanding how Qi is generated is crucial to estimate its value over time.
+Qi'nin fiyatını etkileyecek ana faktörlerden biri, oluşturuldukları orandır. Gerçekten de fiyat her zaman talep ve arz tarafından yönlendirilir. Arz çok ve talep çok düşükse, fiyat doğal olarak çökecektir. Bu nedenle, Qi'nin nasıl üretildiğini anlamak, zaman içindeki değerini tahmin etmek için çok önemlidir.
 
-There are currently 2 sources of Qi emission: farming rewards and vault rewards.
+Şu anda 2 Qi emisyon kaynağı var: çiftçilik ödülleri ve kasa ödülleri.
 
-![LP farms on Mai Finance in September 2021](<../.gitbook/assets/image (16).png>)
+![Eylül 2021'de Mai Finance'te LP çiftlikleri](<../.gitbook/assets/image (16).png>)
 
-If you are farming yields on MAI finance, you have the choice between the MAI/USDC pair and the Qi/WMATIC pair (as of September 2021).
+MAI finansmanı üzerinden çiftçilik yapıyorsanız, MAI/USDC çifti ile Qi/WMATIC çifti (Eylül 2021 itibariyle) arasında seçim yapabilirsiniz.
 
-* The MAI/USDC pair is rewarded with 0.5 Qi / block
-* The Qi/WMATIC pair is rewarded with 1 Qi / block
+* MAI/USDC çifti 0,5 Qi/blok ile ödüllendirilir
+* Qi/WMATIC çifti 1 Qi / blok ile ödüllendirilir
 
-On Polygon, the expected block time is 2 seconds, and since there are 86,400 seconds in a day, this means that the MAI/USDC pool is rewarded with 21,600 Qi every day, and the Qi/WMATIC with 43,200 Qi.
+Polygon'da, beklenen blok süresi 2 saniyedir ve bir günde 86.400 saniye olduğundan MAI/USDC havuzunun her gün 21.600 Qi ile ve Qi/WMATIC'in 43.200 Qi ile ödüllendirildiği anlamına gelir.
 
-The pools of Mai Finance alone are responsible for 64,800 new Qi daily.
+Yalnızca Mai Finance havuzları günlük 64.800 yeni Qi'den sorumludur.
 
-As for Vaults, each vault gets an emission of 0.05 Qi / block, or a daily emission of 2,160 Qi, and there are currently 10 Vaults, for a total of 21,600 Qi allocated as Vault rewards.
+Kasalara gelince, her kasa 0,05 Qi / blok emisyon veya günlük 2,160 Qi emisyon alır ve şu anda kasa ödülleri olarak tahsis edilen toplam 21,600 Qi için 10 Kasa vardır.
 
-This means that each day, the equivalent of 86,400 new Qi are minted and distributed to users.
+Bu durum her gün 86.400 yeni Qi'nin basıldığı ve kullanıcılara dağıtıldığı anlamına gelir.
 
-### Yield optimizers
+### Getiri Optimizasyon Araçları
 
-Yield optimizers are platforms that will automatically compound the rewards with some pre-defined strategies, and allocate additional rewards for you to choose their site. However, a big part of the reward harvested is sold directly, and re-used in another way on these platforms.
+Getiri optimizasyon araçları, ödülleri önceden tanımlanmış bazı stratejilerle otomatik olarak birleştirecek ve stratejinizi seçmeniz için ek ödüller tahsis edecek platformlardır. Ancak, hasat edilen ödülün büyük bir kısmı doğrudan satılmakta ve bu platformlarda başka bir şekilde yeniden kullanılmaktadır.
 
-As an example, Adamant offers you to farm the Qi/WMATIC LP pair on their platform, with the following reward distribution
+Örnek olarak, Adamant size Qi/WMATIC LP çiftini aşağıdaki ödül dağıtımıyla kendi platformlarında toplamanızı önerir.
 
-![Qi-WMATIC pool on Adamant](<../.gitbook/assets/image (15).png>)
+![Adamant'taki Qi-WMATIC havuzu ](<../.gitbook/assets/image (15).png>)
 
-![Details of the 179.23% APR granted by Adamant](<../.gitbook/assets/image (14).png>)
+![Adamant tarafından verilen %179.23 APR'nin ayrıntıları](<../.gitbook/assets/image (14).png>)
 
-You will notice that if the overall APR is higher than on Mai Finance, it's solely because Adamant is allocating additional ADDY rewards to the farmers. The amount of Qi that is actually redistributed to the farmer is 98.45% compared to the 134.42% you can get on Mai Finance.
+Genel APR'nin Mai Finance'dekinden daha yüksek olması durumunda, bunun yalnızca Adamant'ın çiftçilere ek ADDY ödülleri tahsis etmesinden kaynaklandığını fark edeceksiniz. Çiftçiye gerçekte yeniden dağıtılan Qi miktarı, Mai Finance'de alabileceğiniz %134,42'ye kıyasla %98,45'tir.
 
-From these 98.45% Qi reward, half of it is directly sold to buy WMATIC and form additional LP tokens that is then given to the farmer.
+Bu %98,45 Qi ödülünün yarısı doğrudan WMATIC satın almak ve daha sonra çiftçiye verilecek ek LP tokenları oluşturmak için satılmaktadır.
 
-With 100$ worth of LP token, assuming the APR and the token prices remain the same for a complete year, and assuming there's no compounding, you would get after one year of farming
+100$ değerinde LP jetonu ile APR-token fiyatlarının tam bir yıl boyunca aynı kaldığını ve bileşik olmadığını varsayarsak, bir yıllık çiftçiliğin ardından şunları elde edersiniz;
 
-* $134.42 worth of new Qi on Mai Finance
-* $98.45 worth of new Qi/WMATIC token, or $49.23 worth of new Qi on Adamant
+* Mai Finance'de 134,42 $ değerinde yeni Qi
+* 98,45 $ değerinde yeni Qi/WMATIC tokenı veya Adamant'ta 49,23 $ değerinde yeni Qi
 
-This means that, in the process, $85.20 worth of Qi is simply sold directly on the market, which is more than 60% of the total emission allocated to the pool on Adamant.
+Bu süreçte 85.20 $ değerinde Qi'nin doğrudan piyasada satıldığı anlamına gelir. Adamant'ta havuza tahsis edilen toplam emisyonun %60'ından fazlasıdır.
 
-And Adamant isn't the only platform proposing the same type of service. Some other examples are Beefy Finance and Kogecoin. From the $4.9M TVL in the Qi/WMATIC farm on Mai Finance, $2.3M are coming directly from Adamant, $41k from Beefy and $12k from Kogecoin, representing for these 3 platforms more than 50% of the value locked on Mai Finance. A raw estimation is that more than 30% of the total daily Qi emission is dumped by these platforms, putting some very negative sell pressure on the token, decreasing its price, which partially explains why Qi has difficulties keeping a high price.
+Adamant bu hizmet türünü öneren tek platform değildir. Diğer bazı örnekler Beefy Finance ve Kogecoin'dir. Mai Finance'deki Qi/WMATIC çiftliğinde bulunan 4,9 milyon dolarlık TVL'den 2,3 milyon dolar doğrudan Adamant'tan, 41 bin dolar Beefy'den ve 12 bin dolar Kogecoin'den geliyor ve bu 3 platform için Mai Finance'e kilitlenen değerin %50'sinden fazlasını temsil ediyor. Ham bir tahmin, toplam günlük Qi emisyonunun %30'undan fazlasının bu platformlar tarafından boşaltılması, token üzerinde çok olumsuz bir satış baskısı oluşturması ve fiyatını düşürmesi, bu da kısmen Qi'nin neden yüksek bir fiyat tutmakta zorluk çektiğini açıklıyor.
 
-### Understanding LP pairs
+### LP Çiftleri Üzerine
 
-When you farm yields by providing LP pairs, the LP token is actually used to provide liquidity to users who are swapping one token for another. In our example of Qi/WETH, when someone is buying WETH, some of the token can be taken off the LP pool and sold to the user requiring it.
+LP çiftleri sağlayarak verimleri topladığınızda, LP tokenı aslında bir tokenı başka bir tokenla değiştiren kullanıcılara likidite sağlamak için kullanılır. Qi/WETH örneğimizde, birisi WETH satın aldığında, tokenın bir kısmı LP havuzundan alınabilir ve ihtiyacı olan kullanıcıya satılabilir.
 
-At that point, because some WETH has been taken off the pool, there is a balance mismatch: less WETH for the same amount of Qi. The algorithm in charge of maintaining the pool ratio to 1:1 will then sell some Qi from this pool to buy back some more WETH and recreate a perfect 1:1 ratio. The opposite things also happen when someone buys Qi, i.e. WETH is sold to buy back some Qi.
+Bu noktada, havuzdan bir miktar WETH alındığından, bir denge uyuşmazlığı vardır. Aynı miktarda Qi için daha az WETH. Havuz oranını 1:1 olarak tutmaktan sorumlu algoritma daha sonra biraz daha WETH geri almak ve mükemmel 1:1 oranını yeniden oluşturmak için bu havuzdan bir miktar Qi satacaktır. Birisi Qi satın aldığında, yani bazı Qi'leri geri almak için WETH satıldığında da bunun tersi olur.
 
-The same phenomenon occurs when one of the 2 tokens composing the pair gains or loses value. As an example, we will assume that Qi price is $1 and ETH price is $1,000, and that we have a pool that has $100 worth of Qi and $100 worth of WETH. It means that the pools contains 100 Qi and 0.1 WETH.
+Aynı fenomen, çifti oluşturan 2 tokendan biri değer kazandığında veya kaybettiğinde ortaya çıkar. Örnek olarak, Qi fiyatının 1$ ve ETH fiyatının 1.000$ olduğunu ve 100$ değerinde Qi ve 100$ değerinde WETH içeren bir havuzumuz olduğunu varsayacağız. Bu durum havuzların 100 Qi ve 0.1 WETH içerdiği anlamına gelir.
 
-Now, if the price of ETH goes up to $2,000, if the pool keeps the same amount of token, we would have $100 worth of Qi but $200 worth of WETH, and we would have lost the balance. Hence, the algorithm in charge of the pool will sell a little bit of ETH to buy some Qi. In our easy example, $50 worth of ETH will be sold to buy $50 worth of Qi, and the final state would be
+Şimdi ETH fiyatı 2.000 dolara çıkarsa, havuz aynı miktarda token tutarsa, 100 dolar değerinde Qi, ancak 200 dolar değerinde WETH olur ve bakiyeyi kaybederdik. Bu nedenle, havuzdan sorumlu algoritma, bir miktar Qi satın almak için biraz ETH satacaktır. Kolay örneğimizde, 50$ değerinde Qi satın almak için 50$ değerinde ETH satılacak ve son durum şu şekilde olacaktır.
 
-* 150 Qi with a value of $150$
-* 0.075 ETH with a value of $150
+* 150$ değerinde 150 Qi
+* 150$ değerinde 0,075 ETH
 
-This also means that when the price of one of the 2 token goes up, the pool creates some demande for the other, also driving its price up. The opposite is also true: if one token loses value, the other one will be sold to maintain a 1:1 ratio, driving the price down. This also partially explains the price fluctuation of Qi when compared to the price fluctuation of WEHT and WMATIC (the 2 main tokens to which Qi is paired).
+Bu aynı zamanda, 2 tokendan birinin fiyatı yükseldiğinde, havuzun diğeri için bir miktar talep yaratması ve aynı zamanda fiyatını yükseltmesi anlamına gelir. Bunun tersi de doğrudur. Mesela bir token değer kaybederse, diğeri 1:1 oranını korumak için satılarak fiyatı düşürür. Bu, WEHT ve WMATIC'in (Qi'nin eşleştirildiği 2 ana token) fiyat dalgalanmasıyla karşılaştırıldığında Qi'nin fiyat dalgalanmasını da kısmen açıklar.
 
-![Price of Qi (left) VS Price of WMATIC (right)](<../.gitbook/assets/image (17).png>)
+![Qi fiyatı (soldaki) ve WMATIC fiyatı (sağdaki)](<../.gitbook/assets/image (17).png>)
 
-### Lack of use case
+### Kullanım Eksikliği
 
-Finally, the lack of use for Qi, or the lack of known use cases, can explain why the price of the token is going down. People collecting Qi from Vault rewards and/or farming on Mai Finance will just sell it while it still has "some" value in order to realize a profit, with no long-term vision, which is actually a pretty reasonable strategy. This guide tries actually to promote different ways to use your Qi tokens without selling them, but if the price doesn't go up, or if you can't generate benefits in other tokens (a.k.a profit leak), there's very little advantages stacking them.
+Son olarak, Qi'nin kullanılmaması veya bilinen kullanım durumlarının olmaması, tokenin fiyatının neden düştüğünü açıklayabilir. Kasa ödüllerinden Qi toplayan ve/veya Mai Finance'de çiftçilik yapan insanlar, uzun vadeli bir vizyon olmadan, aslında oldukça makul bir strateji olan bir kar elde etmek için hala "bir miktar" değeri varken onu satacaklar. Bu kılavuz aslında Qi tokenlarınızı satmadan kullanmanın farklı yollarını tanıtmaya çalışır. Fiyat artmazsa veya diğer tokenlarda fayda sağlayamazsanız (yani karlı değilse), onları biriktirmenin çok az avantajı vardır.
 
-### How can we help price to go up?
+### Fiyatın yükselmesine nasıl yardımcı olabiliriz?
 
-If we want the price of Qi to go up (and who wouldn't want to), there are a few options.
+Qi'nin fiyatının artmasını istiyorsak (ki kim istemez ki), birkaç seçenek var.
 
-* Reduce emission: with 86,400 new Qi minted daily, the supply is very high. If we cut down this emission, the supply may be lower, and with less supply, price should in theory go up. However, the current emission for the farms need to remain the same because they're part of a current partnership with QuickSwap. Vault incentives have been launched, and are an amazing way to promote the lending platform, pushing people to take loans, so cutting these emissions is probably another bad idea.
-* Farm responsibly: I'm not saying that Adamant is the main culprit or is a bad product. Indeed, I include this platform in most of my strategies and use it on a daily basis. However, I try to farm in pools for which I have less concerns that the token will be dumped. If you want to farm yields on Adamant in a pool that is using the Mai Finance farm, keep in mind that you participate in the Qi depreciation. If you are ok with that, that's totally fine.
-* Understand how things work: prices of ALL crypto-currencies are highly volatile, and most of the time, the price of BTC and ETH dictate the price of all other tokens. This is not done magically. Also, please understand that when some people earn money, it's because some other are loosing some. There's no free money, and magical internet money is actually not that magical.
-* Find new ways to use your Qi tokens. This guide will always provide ideas that will help you increase the volume of your portfolio, and sell as few tokens as possible. Closed loops are the best because the output of one product feeds the input of the next one, creating a nice bubble that will only grow over time.
+* Emisyonu azaltın: Günlük basılan 86.400 yeni Qi ile arz çok yüksek. Bu emisyonu azaltırsak, arz daha düşük olabilir ve daha az arz ile fiyat teorik olarak yükselmelidir. Ancak, QuickSwap ile mevcut bir ortaklığın parçası oldukları için çiftlikler için mevcut emisyonun aynı kalması gerekiyor. Kasa teşvikleri başlatıldı ve kredi verme platformunu tanıtmanın harika bir yolu, insanları kredi almaya itiyor, bu nedenle bu emisyonları azaltmak muhtemelen kötü fikir.
+* Sorumlu bir şekilde çiftlik yapın: Adamant'ın asıl suçlu veya kötü bir ürün olduğunu söylemiyorum. Gerçekten de bu platformu stratejilerimin çoğuna dahil ediyorum ve günlük olarak kullanıyorum. Ancak, tokenın çöpe atılacağına dair daha az endişe duyduğum havuzlarda çiftçilik yapmaya çalışıyorum. Adamant'ta Mai Finance çiftliğini kullanan bir havuzda hasılat elde etmek istiyorsanız, Qi amortismanına katıldığınızı unutmayın. Eğer bu durumla barışıksan, bu tamamen iyi fikir.
+* İşlerin nasıl yürüdüğünü anlayın: TÜM kripto para birimlerinin fiyatları oldukça değişkendir ve çoğu zaman BTC ve ETH'nin fiyatı diğer tüm tokenların fiyatını belirler. Bu sihirli bir şekilde yapılmaz. Ayrıca, bazı insanlar para kazandığında, bazılarının biraz kaybetmesinden kaynaklandığını lütfen anlayın. Bedava para yok ve sihirli internet parası aslında o kadar da sihirli değil.
+* Qi kullanmanın yeni yollarını bulun. Bu kılavuz her zaman portföyünüzün hacmini artırmanıza ve mümkün olduğunca az tken satmanıza yardımcı olacak fikirler sağlayacaktır. Kapalı döngüler en iyisidir çünkü bir ürünün çıktısı bir sonrakinin girdisini besler ve zamanla büyüyecek güzel bir balon oluşturur.
 
-Keep also in mind that
+Şunu da unutmayın
 
 $$
-Value = Quantity * Price
+Değer = Miktar * Fiyat
 $$
 
-When the price go down but your quantity goes up, your value may increase, or at least it won't decrease as fast.
+Fiyat düştüğünde ancak miktarınız arttığında, değeriniz artabilir veya en azından o kadar hızlı düşmeyecektir.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-This guide is actually a result of many discussion about Qi price on the Discord channel. I realized that some people complaining about the price depreciation didn't fully understand the reasons about why the price of Qi was on a consistant down trend. This leads to frustration and delusion, which is very negative for Qi, the Mai Finance product, and the whole DeFi ecosystem in general. However, there's absolutely no guarantee that the price will ever go up, so if you want to keep your Qis and invest them, please do your own research and do it at your own risk. Plan your strategy properly and stick to it.
+Bu rehber aslında Discord kanalında Qi fiyatıyla ilgili birçok tartışmanın bir sonucudur. Fiyat düşüşünden şikayet eden bazı kişilerin, Qi fiyatının neden sürekli bir düşüş eğiliminde olduğunun nedenlerini tam olarak anlamadığını fark ettim. Qi, Mai Finance ürünü ve genel olarak tüm DeFi ekosistemi için çok olumsuz olan hayal kırıklığı ve yanılsamaya yol açar. Fiyatın artacağının kesinlikle garantisi yoktur. Q'larınızı korumak ve yatırım yapmak istiyorsanız, lütfen kendi araştırmanızı yapın ve riski size ait olmak üzere yapın. Stratejinizi doğru bir şekilde planlayın ve ona bağlı kalın.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen olan bitenden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
