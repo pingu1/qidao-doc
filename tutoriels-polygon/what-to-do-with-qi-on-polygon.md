@@ -1,170 +1,170 @@
 ---
 description: >-
-  This guide will explain in details how you can use your Qi, the native token
-  from Mai Finance, on Polygon. We will also analyze if Qi is a good investment
-  opportunity, and what drives its price.
+  Ce guide va présenter en détails comment utiliser vos Qi, le jeton natif
+  de Mai Finance, sur Polygon. Nous analyserons également si Qi est une bonne
+  opportunité d'investissement, ainsi que ce qui dicte son prix.
 ---
 
-# What to do with Qi on Polygon
+# Que faire de vos Qi sur Polygon
 
-## Intro
+## Introduction
 
-Qi (\[tʃ Í] or _chee_), is the native token of Mai Finance. Some use it to vote and QIP (**Q**iDAO **I**mprovement **P**roposals), some stake it to get even more of them, and some simply farm with it. You can find some very good info on how you can use Qi on the Mai Finance plateforme in the [guide dedicated to passive income](../universite-MAI/earning-passive-income-with-qidao.md).
+Qi (\[tʃ Í] or _chee_), est le jeton natif de la plateforme Mai Finance. Vous pourrez l'utiliser pour voter lors des QIP (**Q**iDAO **I**mprovement **P**roposals), vous pourrez les bloquer pour en gagner encore plus via la redistribution des revenus du protocole, et finalement vous pourrez les utiliser pour récolter des revenus dans des fermes de rendement. Vous pourrez trouver d'excellentes informations sur comment géneérer des revenus passifs avec vos Qi sur Mai Finance dans [le guide dédié](../universite-MAI/earning-passive-income-with-qidao.md).  
 
-This guide, as most investment tutorials, will focus primarily on farming and harvesting yields, this time using the Qi token. We will see how you can generate a lot of Qi, and how you can use them on the different platforms on Polygon.
+Ce guide, comme la plupart des tutoriels d'investissements, va mettre la lumière avant tout sur la façon de récolter des intérêts, mais cette fois-ci en utilisant vos jetons Qi. Nous verrons ainsi comment générer un grand nombre de Qi, et comment continuer à faire grossir votre investissement initial sur plusieurs plateformes sur Polygon.
 
-Humble farmers will sometimes tell you that you need to remain humble, sell what you harvest and take profits. But personally, I'll go with:
+Les fermiers humbles vous diront parfois qu'il vaut mieux rester humble, vendre vos récoltes de jetons natifs et profiter de vos gains. Ici nous partirons plutôt du principe que
 
-> Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime.
+> Si on donne un poisson à une personne, on peut le nourrir pour un jour. Si on lui apprend à pêcher, on peut le nourrir pour toute sa vie.
 
-So grab your fish rods, and follow the guide.
+Alors prenez vos cannes à pêche avec vous et suivez le guide.
 
-## What to do with your Qi on Polygon
+## Que faire de vos Qi sur Polygon
 
-### Staking
+### Bloquez vos Qi
 
-I will not spend too much time on this part, there's already a complete guide on the subject. Just keep in mind that Mai Finance is collecting revenues, and redistributes a very large portion to Qi stakers. Staking your Qi on Mai finance is one of the best use for the token, and as of September 2021, 23% of all circulating Qi is locked on average for 2 years.
+Dans ce guide, nous ne passerons pas beaucoup de temps à expliquer comment bloquer vos Qi sur Mai Finance afin de participer à la gouvernance du DAO (**D**ecentralized **A**utonomous **O**rganization, ou organisation décentralisée autonome) et percevoir les dividendes de la plateforme. Gardez simplement à l'esprit que le protocole collecte des frais qui sont alors redistribués à la communauté qui bloque ses Qi sur la plateforme. C'est d'ailleurs l'une des meilleures façons d'utiliser vos Qi sur Polygon, à tel point que fin septembre 2021, 23% des Qi en circulation étaient bloqués pour une période moyenne de 2 ans sur Mai Finance.
 
-### LP pair Farming
+### Cultivez vos gains avec des paires de liquidité
 
-Once again, there are already a few other pages presenting how you can include the Qi token in your farming strategy to generate yields and never sell any of your farm tokens. See [Stack DApps like Lego bricks](stack-dapps-like-lego-bricks.md) or [Farming or Staking ?](farming-ou-staking-ou-les-deux.md) guides for details exampled.
+Une fois encore, vous trouverez beaucoup d'autres articles présentant la façon d'inclure des Qi dans vos boucles d'investissement afin de générer des gains sans vendre vos tokens récoltés. Veuillez consulter l'article d'[emboîtage des protocoles DApps](stack-dapps-like-lego-bricks.md) ou celui sur le [Farming ou Staking](farming-ou-staking-ou-les-deux.md) pour avoir plus détails. 
 
-As a quick reminder, Qi is paired to different tokens to form LP (**L**iquidity **P**rovider) pairs on [QuickSwap](https://quickswap.exchange/#/quick) so that you can farm
+Veuillez simplement retenir que Qi est combiné à plusieurs autres crypto monnaies afin de former des jetons LP (**L**iquidity **P**rovider) sur [QuickSwap](https://quickswap.exchange/#/quick) pour que vous puissiez cultiver vos gains via
 
-* Qi-WMATIC on Mai Finance and get rewarded with Qi tokens
-* Qi-WETH on QuickSwap and get rewarded with QUICK tokens
-* Qi-QUICK on QuickSwap and get rewarded with QUICK tokens
+* Qi-WMATIC sur Mai Finance et recevoir des récompenses en Qi
+* Qi-WETH sur QuickSwap et recevoir des récompenses en dQUICK
+* Qi-QUICK sur QuickSwap et recevoir des récompenses en dQUICK
 
-![LP pool on QuickSwap for the Qi-WETH pair](<../.gitbook/assets/image (19).png>)
+![Réserve de jetons LP sur QuickSwap pour la paire Qi-WETH](<../.gitbook/assets/image (19).png>)
 
-### Single Qi farming
+### Cultivez uniquement à partir de Qi
 
-Qi can also be used solely on [Impermax](https://polygon.impermax.finance). Impermax is a platform where you will be able to leverage a specific LP pair several times in order to increase your gains from QuickSwap.
+Vous pouvez également utiliser vos Qi en solo sur [Impermax](https://polygon.impermax.finance). Impermax est une plateforme ou vous pourrez appliquer un effet de levier sur certaines paires de liquidité de façon à accroître votre exposition à certains gains proposés par plusieurs plateformes telles que QuickSwap.
 
-The way it works, is that you will borrow the 2 tokens forming the pair that you want to farm, combine them into more LP tokens, and farm with a much higher position. In most cases, borrowing rates are largely compensated by farming APR, giving you some net positive rewards.
+La façon dont Impermax fonctionne est la suivante: vous allez emprunter les 2 tokens formant une paire de liquidité, les combiner en jeton LP, et cultiver des gains avec cette nouvelle paire. Dans la plupart des cas, les taux d'emprunts sont largement compensés par les récompenses récoltées, vous donnant un résultat net positif.
 
-![Leveraged Qi-WETH position on Impermax](<../.gitbook/assets/image (10).png>)
+![Position Qi-WETH augmentée sur Impermax](<../.gitbook/assets/image (10).png>)
 
-We can see here that the final reward APR on Impermax is 393.88% after leveraging 5 times, based on an APY of 239.68% on QuickSwap.
+Vous pouvez voir ici que l'APR (**A**nnual **P**ercentage **R**evenue) final sur Impermax est de 393,88% après avoir appliqué un effet de levier 5x, et ce à partir d'un APY (**A**nnual **P**ercentage **Y**ield) sur QuickSwap de 239,68%.
 
 {% hint style="info" %}
-Note also that Impermax gives estimated APRs (**A**nnual **P**ercentage **R**ewards) while QuickSwap gives estimated APYs (**A**nnual **P**ercentage **Y**ields), meaning that QuickSwap assumes you compound your rewards daily. The 239.68% APY on QuickSwap corresponds to a 122.49% APR.
+Veuillez noter que Impermax donnes des estimations d'APRs alors que QuickSwap donne des estimations d'APYs, ce qui indique que QuickSwap part du principe que vous ré-injectez vos gains dans votre investissement de façon quotidienne. L'APY de 239,68% sur QuickSwap correspond en réalité à un APR de 122,49%.
 {% endhint %}
 
-But then, on Impermax, in order to borrow Qi and WETH to leverage your position, you need to get them from somewhere. This is possible only because some other users (or yourself) also supply both tokens separately. The more token is borrowed, the higher the borrowing rate becomes, and the lower the final APR, sometimes going in the negatives.
+Mais sur Impermax, pour pouvoir emprunter des Qi et des WETH afin d'appliquer un effet de levier sur notre position initiale, il faut bien que des utilisateurs les mettent à la disposition des emprunteurs. Il est également bon de noter que plus il y a de jetons empruntés, plus le taux d'emprunt est élevé, réduisant ainsi le rendement final, qui peut de ainsi parfois devenir négatif.
 
-![Qi and WETH statistics for the Qi-WETH market on Impermax](<../.gitbook/assets/image (11).png>)
+![Statistiques pour les jetons Qi et WETH pour la paire Qi-WETH sur Impermax](<../.gitbook/assets/image (11).png>)
 
-For our example, we will focus on Qi. You can see that the total supply of Qi is $427.21 and the total amount used in leveraged position is $321.44, giving the utilization rate of 75.24%. Impermax has some internal mechanism that automatically calculates the supply APR (APR that people lending Qi will get) and the borrowing APR (percentage of the farmed reward that will be deduced to pay the loan).
+Dans le cas qui nous intéresse, nous allons nous concentrer sur les Qi. Vous pouvez voir dans la capture d'écran ci-dessus que le montant total proposé est de 427,21$ et que le montant total utilisé est de 321,44$, ce qui donne un taux d'utilisation globale de 75,24%. Impermax a des mécaniques internes qui calcule automatiquement l'APR d'approvisionnement (revenu que les personnes proposant leurs Qi recevront) et l'APR d'emprunt (pourcentage d'intérêt que les personnes utilisant les Qi devront payer pour leur emprunt).
 
-This means that you can provide Qi solely on Impermax and get, in our example, 43.73% APR, at the moment of writing. As supply and demand varies, the supply APR will also increase / decrease. When you supply single tokens on Impermax, you will get rewarded with the token you provide, meaning that this strategy will make you accumulate more Qi over time.
+Tout cela pour illustrer le fait qu'il est possible de mettre des Qi uniquement à disposition sur Impermax et de recevoir, dans le cas qui nous concerne, 43,73% de gains au moment d'écrire de tutoriel. Comme la demande et l'offre sont en constante évolution sur Impermax, le taux de rendement pour la mise à disposition des Qi va également augmenter / diminuer. Lorsque vous mettez à disposition des jetons sur Impermax, vous obtiendrez vos récompenses sous la forme des jetons offerts, ce qui veut dire que dans notre cas vous obtiendrez encore plus de Qi avec le temps.
 
-While you are on Impermax, you can also use the leverage option to get IMX rewards. Please read the [Stacking guide](stack-dapps-like-lego-bricks.md) to get more details on how you can include Impermax in your farming strategy.
+Puisque vous êtes sur Impermax, vous pourrez aussi en profiter pour utiliser les effets de levier afin d'obtenir des jetons IMX. Veuillez vous reporter au guide sur les [empilages de DApps](stack-dapps-like-lego-bricks.md) pour plus de détails.
 
 ### Balancer
 
-Balancer is a really nice toolbox for any strategy, especially the ones that include Qi and/or MAI. Balancer proposes an equivalent of LP pair mining, but with more than 2 tokens provided in a 1:1 ratio. The pool can have 3, 4 or 5 tokens (sometimes even more) with different weight, and the algorithm in charge of the pool makes sure that the ratio for each token is always respected, selling some and buying others to keep it balanced.
+Balancer est vraiment un outil pratiquement indispensable dans n'importe quelle stratégie, et particulièrement celles qui utilisent des Qi ou des MAI. Balancer propose l'équivalent des paires de liquidités LP, mais dans des ratios non identiques, et parfois plusieurs jetons peuvent former un trio / quatuor / quintuor. L'algorithme qui se charge de maintenir la réserve de liquidité équilibrée va s'assurer que le ratio pré-défini pour la réserve est respecté, vendant et achetant des jetons dont il a besoin pour préserver l'équilibre.
 
-The pool that we want to use here is a pool that contains Qi, WMATIC, BAL, USDC and MAI. This pool will reward you with both Qi and BAL tokens, and you can already see that you will be able to compound both into the pool. Because another amazing advantage of pools on Balancer is that you don't need to provide all tokens forming the pool in the proper ratio, the algorithm will do it for you. This means that you can indeed only deposit Qi in the pool and let the algorithm do the rest to rebalance everything.
+La réserve de liquidité qui nous intéresse ici est composée de Qi, WMATIC, BAL, USDC et MAI. Cette réserve offre des récompenses sous forme de jetons Qi et BAL, et vous pouvez déjà vous rendre compte qu'il vous sera possible de composer les intérêts dans cette même réserve. L'autre avantage des réserves de Balancer est que vous pourrez fournir seulement un unique jeton sans respecter le ratio de la réserve. L'algoritme gérant l'équilibre va vendre une partie des jetons déposés pour acheter ceux qu'il manque pour rétablie l'équilibre.
 
-![Details of the pool as of September 2021](<../.gitbook/assets/image (12).png>)
+![Details de la réserve de liquidité sur Balancer en September 2021](<../.gitbook/assets/image (12).png>)
 
-As a side note, BAL tokens can (or will soon be) usable as collateral on Mai Finance, which mean that you will have the option to store your BAL tokens on the BAL vault on Mai Finance, and borrow MAI against then. In addition to that, borrowing MAI against your BAL tokens will make you eligible for Qi rewards that will feed the pool on Balancer.
+Il est bon de noter que les jetons BAL peuvent être également utilisés comme collatéral sur Mai Finance, ce qui veut dire que vous aurez la possibilité de les stoquer dans un coffre personnel et emprunter des MAI en échange. Si vous faites ainsi, vous serez éligible pour recevoir des Qi additionel en fonction du montant emprunté depuis votre coffre personnel BAL, et vous pourrez les ré-injecter dans la réserve sur Balancer.
 
-![Closed loop using Mai Finance and Balancer](<../.gitbook/assets/image (13).png>)
+![Boucle fermée utilisant Mai Finance et Balancer](<../.gitbook/assets/image (13).png>)
 
-The APR of BAL vaults will highly dictates how interesting it is to have the vault in the loop, or if compounding your Qi into the Balancer's pool will be better.
+L'APR des récompenses en Qi sur les emprunts depuis les coffres personnels BAL sur Mai Finance dictera s'il est plus intéressant de mettre le coffre dans la boucle, ou s'il est préférable de remettre les jetons BAL directement dans la réserve sur Balancer.
 
-## Understanding the price of Qi
+## Comprendre le prix du Qi
 
-Getting a lot of Qi is one thing, however if the token loses value over time, is it really a good strategy to keep it? In this section, we will try to understand the different factors that impact directly the price of Qi so that, when you start investing your Qis, you will get a better idea of how its price may vary, and what impact you will get on the Qi ecosystem.
+Collecter de nombreux jetons Qi est une chose, cependant si le jeton perd de la valeur avec le temps, est-ce nécessairement une bonne stratégie que des les accumuler et les conserver? Dans cette section, nous allons essayer de comprendre les différents facteurs impactant directement le prix du Qi, et ce dans le but de vous faire comprendre comment son prix varie, et quel impact vous allez avoir sur l'écosystème en fonction de la façon dont vous intestissez.
 
-### Qi emission
+### L'émission du Qi
 
-One of the main factor that will affect the price of Qi is the rate at which they are created. Indeed, price is always driven by demand and supply. If there's a lot of supply and very low demande, the price will naturally collapse. Hence understanding how Qi is generated is crucial to estimate its value over time.
+L'un des facteurs principaux qui va directement affecter le prix du Qi est la vitesse à laquelle les jetons sont créeés. En effet, le prix est tout le temps dicté par la demande et l'offre. Si il y a une offre très importante pour une très faible demande, le prix sera naturellement tiré vers le bas. Ainsi, il est crucial de comprendre comment les Qi sont générés pour bien estimer son prix.
 
-There are currently 2 sources of Qi emission: farming rewards and vault rewards.
+Il existe 2 principales sources d'émission de Qi: les récompenses pour les réserves de liquidité, et les récompenses d'emprunt.
 
-![LP farms on Mai Finance in September 2021](<../.gitbook/assets/image (16).png>)
+![Fermes de jetons LP sur Mai Finance em Septembre 2021](<../.gitbook/assets/image (16).png>)
 
-If you are farming yields on MAI finance, you have the choice between the MAI/USDC pair and the Qi/WMATIC pair (as of September 2021).
+Si vous cultivez des rendements sur Mai Finance, vous avez le choix entre les paires MAI/USDC et Qi/WMATIC (en Septembre 2021).
 
-* The MAI/USDC pair is rewarded with 0.5 Qi / block
-* The Qi/WMATIC pair is rewarded with 1 Qi / block
+* La paire MAI/USDC reçoit  0.5 Qi / block de récompenses
+* La paire Qi/WMATIC reçoit 1 Qi / block de récompenses.
 
-On Polygon, the expected block time is 2 seconds, and since there are 86,400 seconds in a day, this means that the MAI/USDC pool is rewarded with 21,600 Qi every day, and the Qi/WMATIC with 43,200 Qi.
+Sur Polygon, un block dure en moyenne 2 seconds, et comme il y a 86 400 secondes dans une journée, on peut en déduire que la réserve MAI/USDC reçoit 21 600 Qi par jour, et que la réserve Qi/WMATIC en reçoit 43 200.
 
-The pools of Mai Finance alone are responsible for 64,800 new Qi daily.
+Les réserves sur Mai Finance sont, à elles seules, responsable de l'émission de 64 800 nouveaux jetons chaque jour.
 
-As for Vaults, each vault gets an emission of 0.05 Qi / block, or a daily emission of 2,160 Qi, and there are currently 10 Vaults, for a total of 21,600 Qi allocated as Vault rewards.
+En ce qui concerne les coffres, chacun reçoit 0.05 Qi / block, soit une émission quotidienne de 2 160 Qi. Comme il y a 10 types de coffres, cela correspond a 21 600 Qi alloués aux récompenses d'emprunt.
 
-This means that each day, the equivalent of 86,400 new Qi are minted and distributed to users.
+Ainsi, chaque jour, l'équivalent de 86 400 nouveaux Qi sont fabriqués par la plateforme et distribués aux utilisateurs.
 
-### Yield optimizers
+### Optimisateurs de rendements
 
-Yield optimizers are platforms that will automatically compound the rewards with some pre-defined strategies, and allocate additional rewards for you to choose their site. However, a big part of the reward harvested is sold directly, and re-used in another way on these platforms.
+Les optimisateurs de rendement sont des plateformes qui vont automatiquement composer les récompenses avec des stratégies prédéfinies, et allouer des récompenses additionelles afin que vous choisissiez leur outil. Cependant, une bonne portion de ces récompenses est en général revendue directement ou ré-utilisée d'une autre façon.  
 
-As an example, Adamant offers you to farm the Qi/WMATIC LP pair on their platform, with the following reward distribution
+Par exemple, Adamant va vous offrir de cultiver la réserve de liquidité Qi/WMATIC sur leur plateforme, avec la distribution suivante pour les récompenses:
 
-![Qi-WMATIC pool on Adamant](<../.gitbook/assets/image (15).png>)
+![Réserve Qi-WMATIC sur Adamant](<../.gitbook/assets/image (15).png>)
 
-![Details of the 179.23% APR granted by Adamant](<../.gitbook/assets/image (14).png>)
+![Détails des 179.23% APR offerts par Adamant](<../.gitbook/assets/image (14).png>)
 
-You will notice that if the overall APR is higher than on Mai Finance, it's solely because Adamant is allocating additional ADDY rewards to the farmers. The amount of Qi that is actually redistributed to the farmer is 98.45% compared to the 134.42% you can get on Mai Finance.
+Vous noterez que si le rendement global est supérieur que sur Mai Finance, c'est uniquement parce qu'Adamant alloue des jetons ADDY supplémentaires aux utilisateurs. En réalité, seulement 98,45% des Qi sont redonnés aux utilisateurs contre 134,42% sur Mai Finance.
 
-From these 98.45% Qi reward, half of it is directly sold to buy WMATIC and form additional LP tokens that is then given to the farmer.
+Sur ces 98,45% de récompenses en Qi, la moitié sera directement vendue afin d'acheter des WMATIC et composer plus de jetons LP ensuite ajoutés à l'investissement initial de l'utilisateur.
 
-With 100$ worth of LP token, assuming the APR and the token prices remain the same for a complete year, and assuming there's no compounding, you would get after one year of farming
+Ainsi, pour 100$ de jetons LP, en partant du principe que l'APR et le prix de chacun des tokens reste le même pour une année complète, et en assumant que l'utilisateur ne compose pas ses intérêts, vous pourriez avoir après un an
 
-* $134.42 worth of new Qi on Mai Finance
-* $98.45 worth of new Qi/WMATIC token, or $49.23 worth of new Qi on Adamant
+* 134,42$ de nouveaux Qi sur Mai Finance
+* 98,45$ de nouvelle paires Qi/WMATIC, soit 49,23 $ de nouveaux Qi sur Adamant
 
-This means that, in the process, $85.20 worth of Qi is simply sold directly on the market, which is more than 60% of the total emission allocated to the pool on Adamant.
+Cela veut dire que, en utilisant Adamant, 85,20$ de Qi sont simplement revendus directement sur le marché, ce qui correspond à plus de 60% du montant total émis alloué à la réserver sur Adamant.
 
-And Adamant isn't the only platform proposing the same type of service. Some other examples are Beefy Finance and Kogecoin. From the $4.9M TVL in the Qi/WMATIC farm on Mai Finance, $2.3M are coming directly from Adamant, $41k from Beefy and $12k from Kogecoin, representing for these 3 platforms more than 50% of the value locked on Mai Finance. A raw estimation is that more than 30% of the total daily Qi emission is dumped by these platforms, putting some very negative sell pressure on the token, decreasing its price, which partially explains why Qi has difficulties keeping a high price.
+Et Adamant n'est pas la seule plateforme proposant ce type de service. Les autres exemples les plus connus sur Polygon sont Beefy Finance et Kogecoin. Ainsi, sur les 4,9M$ se trouvant dans la réserve de liquidité sur Mai Finance, 2,3M$ viennent directement de Adamant, 41k$ de Beefy et 12k$ de Kogecoin. Ces trois protocoles représentent à eux seuls plus de 50% de la liquidité présente sur Mai Finance. Une estimation rapide indique que plus de 30% des Qi émis quotidiennement par la réserve sont simplement revendus par ces protocoles, imposant une pression importante sur le jeton, et expliquant en partie pourquoi le Qi peut parfois avoir du mal à conserver un prix stable.
 
-### Understanding LP pairs
+### Comprendre le fonctionnement des paires LP
 
-When you farm yields by providing LP pairs, the LP token is actually used to provide liquidity to users who are swapping one token for another. In our example of Qi/WETH, when someone is buying WETH, some of the token can be taken off the LP pool and sold to the user requiring it.
+Lorsque vous utilisez des paires de liquidités LP, les jetons sont en réalité utilisés afin de fournir de la liquidité aux utilisateurs qui désirent échange une certain crypto contre une autre. Dans notre exemple qui utilise la paire Qi/WETH, lorsque quelqu'un achète des jetons WETH, des jetons sont retirés de la réserve et vendus à cet utilisateur.
 
-At that point, because some WETH has been taken off the pool, there is a balance mismatch: less WETH for the same amount of Qi. The algorithm in charge of maintaining the pool ratio to 1:1 will then sell some Qi from this pool to buy back some more WETH and recreate a perfect 1:1 ratio. The opposite things also happen when someone buys Qi, i.e. WETH is sold to buy back some Qi.
+Cependant, en faisant ceci, la balance originale 50/50 est brisée: il y a maintenant moins de WETH que de Qi dans la réserve. L'algorithme en charge de maintenir la balance de la réserve va donc vendre une suffisament de Qi présent dans la réserve afin d'acheter de nouveaux jetons WETH et rétablie l'équilibre 50:50. Il se passe exactement la même chose lorsque quelqu'un achète des Qi, c'est-à-dire qu'une petite portion de WETH est vendue pour racheter des Qi.
 
-The same phenomenon occurs when one of the 2 tokens composing the pair gains or loses value. As an example, we will assume that Qi price is $1 and ETH price is $1,000, and that we have a pool that has $100 worth of Qi and $100 worth of WETH. It means that the pools contains 100 Qi and 0.1 WETH.
+Le même phénomène survient également lorsqu'un des des jetons qui composent la paire gagne ou perd de la valeur. Par exemple, si on assume que le prix du Qi est de 1$ et le prix du WETH est de 1 000$, et que la réserve contient l'équivalent de 100$ de Qi et 100$ de WETH, on peut en déduire que la réserve est composée de 100 Qi et de 0,1 WETH. 
 
-Now, if the price of ETH goes up to $2,000, if the pool keeps the same amount of token, we would have $100 worth of Qi but $200 worth of WETH, and we would have lost the balance. Hence, the algorithm in charge of the pool will sell a little bit of ETH to buy some Qi. In our easy example, $50 worth of ETH will be sold to buy $50 worth of Qi, and the final state would be
+Maintenant, supposons que le prix de l'Ethereum monte à 2 000$. Si la réserve gardait le même montant de chaque token, on aurait 100$ de Qi et 200$ de WETH, et la balance serait brisée. C'est pour cela que l'algorithme en charge de la réserve va vendre une partie des WETH pour acheter des Qi. Dans notre exemple, c'est 50$ de WETH qui seront vendus, et 50$ de Qi qui seront achetés pour, au final, avoir:
 
-* 150 Qi with a value of $150$
-* 0.075 ETH with a value of $150
+* 150 Qi avec une valeur totale de 150$
+* 0.075 WETH avec une valeur totale de 150$
 
-This also means that when the price of one of the 2 token goes up, the pool creates some demande for the other, also driving its price up. The opposite is also true: if one token loses value, the other one will be sold to maintain a 1:1 ratio, driving the price down. This also partially explains the price fluctuation of Qi when compared to the price fluctuation of WEHT and WMATIC (the 2 main tokens to which Qi is paired).
+De ce fait, on peut facilement se rendre compte que lorsque le prix d'un des 2 jetons de la réserve monte, l'algorithme de balance va générer une certaine demande pour l'autre jeton, ce qui naturellement fera monter son prix également. L'inverse est également vrai: si un jeton perd de la valeur, l'autre sera nécessairement vendu afin de conserver le ratio 50:50, tirant de prix vers le bas. Ceci explique aussi les fluctuations du prix du Qi comparé au prix du WETH et du MATIC (les 2 jetons principaux jumelés au Qi).
 
-![Price of Qi (left) VS Price of WMATIC (right)](<../.gitbook/assets/image (17).png>)
+![Prix du Qi (gauche) VS Prix du WMATIC (droite)](<../.gitbook/assets/image (17).png>)
 
-### Lack of use case
+### Manque d'utilité
 
-Finally, the lack of use for Qi, or the lack of known use cases, can explain why the price of the token is going down. People collecting Qi from Vault rewards and/or farming on Mai Finance will just sell it while it still has "some" value in order to realize a profit, with no long-term vision, which is actually a pretty reasonable strategy. This guide tries actually to promote different ways to use your Qi tokens without selling them, but if the price doesn't go up, or if you can't generate benefits in other tokens (a.k.a profit leak), there's very little advantages stacking them.
+Finallement, le manque d'utilité du Qi (ou le manque de cas connus) peut aussi expliquer pourquoi le prix du jeton connait des hauts et des bas. Les personnes qui reçoivent des Qi via les réserves de liquidité ou les récompenses d'emprunt vont pour la plupart revendre leurs jetons directement afin de concrétiser leur profit, dans le but de simplement réaliser un gain à court terme, ce qui reste une stratégie parfaitement acceptable. Nos tutoriels tentent de promouvoir différentes façons d'utiliser vos Qi sans les vendres, mais si le prix ne remonte pas, ou si vous je parvenez pas à générer de profits en utilisant vos Qi, il y a très peu d'intérêts à les accumuler.
 
-### How can we help price to go up?
+### Comment aider le prix à se maintenir vers le haut?
 
-If we want the price of Qi to go up (and who wouldn't want to), there are a few options.
+Si vous souhaitez voir le prix du Qi monter (et qui ne le voudrait pas), il y a plusieurs options
 
-* Reduce emission: with 86,400 new Qi minted daily, the supply is very high. If we cut down this emission, the supply may be lower, and with less supply, price should in theory go up. However, the current emission for the farms need to remain the same because they're part of a current partnership with QuickSwap. Vault incentives have been launched, and are an amazing way to promote the lending platform, pushing people to take loans, so cutting these emissions is probably another bad idea.
-* Farm responsibly: I'm not saying that Adamant is the main culprit or is a bad product. Indeed, I include this platform in most of my strategies and use it on a daily basis. However, I try to farm in pools for which I have less concerns that the token will be dumped. If you want to farm yields on Adamant in a pool that is using the Mai Finance farm, keep in mind that you participate in the Qi depreciation. If you are ok with that, that's totally fine.
-* Understand how things work: prices of ALL crypto-currencies are highly volatile, and most of the time, the price of BTC and ETH dictate the price of all other tokens. This is not done magically. Also, please understand that when some people earn money, it's because some other are loosing some. There's no free money, and magical internet money is actually not that magical.
-* Find new ways to use your Qi tokens. This guide will always provide ideas that will help you increase the volume of your portfolio, and sell as few tokens as possible. Closed loops are the best because the output of one product feeds the input of the next one, creating a nice bubble that will only grow over time.
+* Réduire son émission: avec 86 400 nouveaux Qi générés chaque jour, l'offre est très importante. Si l'on réduit l'émission, on réduit l'offre, et avec une offre moindre, le prix devrait en théorie monter. Cependant, les Qi générés dans les réserves de liquidité sur Mai Finance doivent se maintenit car l'émission courante fait partie d'un partenariat avec QuickSwap. Les récompenses de coffres sont quant à elles une façon intelligente et responsable de promouvoir les emprunts sur Mai Finance, elles sont donc indispensables.
+* Investissez de façon responsable: le but de ce guide n'est pas de désigner Adamant comme responsable des performances du Qi. En effet, nous utilisons cette plateforme dans la plupart de nos guides. Cependant, vous devrez choisir les plateformes qui sont utilisées par Adamant afin de porter l'impact sur ces plateformes (et leurs jetons natifs). Si vous souhaitez continuer à utiliser Adamant avec une réserve de liquidité présente sur Mai Finance, veuillez garder à l'esprit que vous participez à la dépréciation du Qi. Si vous êtes conscient de cet impact et que vous l'assumez, c'est parfait.
+* Comprendre comment les choses fonctionnent: les prix de TOUTES les crypto monnaies sont volatiles, mais la plupart du temps, le BTC et l'ETH dictent la direction que prend le marché au complet. Ce n'est pas une corrélation magique. Veuillez également comprendre que lorsque quelqu'un gagne de l'argent, c'est parce que quelqu'un d'autre en perd. L'argent gratuit n'existe pas, il n'est pas généré magiqueemnt.
+* Trouvez d'autres moyens d'utiliser vos Qi. Ce guide tenter toujours de vous fournir des idées qui vous aideront à accroître le volume de votre portefeuille, tout en vendant le moins de jetons possible. Les boucles fermées sont les meilleures puisque chaque maillon alliment le suivant, créant une petite bulle qui ne peut que grossir avec le temps.
 
-Keep also in mind that
+Enfin, gardez toujours à l'esprit que
 
 $$
-Value = Quantity * Price
+Valeur = Quantité * Prix
 $$
 
-When the price go down but your quantity goes up, your value may increase, or at least it won't decrease as fast.
+Lorsque le prix va vers le bas mais que vous augmentez la quantité, la valeur finale peut tout de même croître, ou au moins baisser moins rapidement que le prix.
 
-## Disclaimer
+## Avertissement
 
-This guide is actually a result of many discussion about Qi price on the Discord channel. I realized that some people complaining about the price depreciation didn't fully understand the reasons about why the price of Qi was on a consistant down trend. This leads to frustration and delusion, which is very negative for Qi, the Mai Finance product, and the whole DeFi ecosystem in general. However, there's absolutely no guarantee that the price will ever go up, so if you want to keep your Qis and invest them, please do your own research and do it at your own risk. Plan your strategy properly and stick to it.
+Ce guide est en réalité le résultat de nombreuses discussions à propos du prix du Qi que les membres de la communauté de Mai Finance ont eu sur Discord. J'ai compris que certains utilisateurs se plaignaient du prix qui ne faisait que baisser sans comprendre la raison de cette baisse, et parfois même sans se rendre compte qu'il participaient activement à cette dépréciation. Cette situation mène innévitablement à de la frustration et de la déception, ce qui est négatif pour le jeton Qi, les produits proposés par Mai Finance, et toute l'industrie DeFi au complet. Cependant, il n'y a aucune garantie que le prix remonte à un moment (et c'est vrai pour n'importe quel jeton), donc avant d'investir activement dans une crypto monnaie en particulier, veuillez effectuer vos propres recherches et n'investissez qu'en conséquence de cause. Planifiez vos stratégies et tenez-vous y.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Veuillez garder à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut parfaitement performer lamentablement (voir vous faire perdre de l'argent) dans d'autres circonstances. Restez informés, vérifiez les marchés, gardez un oeil sur vos investissements, et comme toujours, faites vos propres recherches.
 {% endhint %}
