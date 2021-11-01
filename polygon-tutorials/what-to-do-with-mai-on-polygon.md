@@ -1,178 +1,177 @@
 ---
 description: >-
-  This tutorial will present the different options that will let you use your
-  freshly minted MAI on Polygon.
+  Bu eğitim, MAI'nizi Polygon'da farklı kullanım seçeneklerini size sunacaktır.
 ---
 
-# What to do with MAI on Polygon
+# Polygon'da MAI ile ne yapabilirim?
 
-## Goal of this tutorial
+## Eğitimin Amacı
 
-The goal of this tutorial is not to present in details what you can do with your MAI stable coin, but have a list of all the websites and DeFi application that you can use on Polygon that will let you use your MAI directly, or in combination with other stable coins. For more details about specific ways to use MAI, you can refer to other tutorials on this site, or get help on Discord or Telegram.
+Bu eğitimin amacı, MAI stable tokenınızla neler yapabileceğinizi ayrıntılı olarak sunmak değil, MAI'nizi Polygon'da doğrudan veya kombinasyon halinde kullanmanıza izin verecek fikirler vermek ve değerlendirebileceğiniz tüm web sitelerinin ve DeFi uygulamasının bir listesine sahip olmaktır. MAI'yi kullanmanın belirli yolları hakkında daha fazla ayrıntı için bu sitedeki diğer eğitimlere başvurabilir veya Discord veya Telegram'da yardım alabilirsiniz.
 
-Please note that the list is not complete, and will never be since there are new dapps launching every week on the network. I can't review them all, so I will only present the main options, or the most famous / most "secured" options.
+Lütfen listenin tam olmadığını ve ağda her hafta yeni dapp'ler başlatıldığı için listenin asla  güncel kalmayacağını unutmayın. Hepsini inceleyemiyorum, bu yüzden sadece ana seçenekleri veya en ünlü / en "güvenli" seçenekleri sunacağım.
 
-If you want a particular project to be listed, please join the Qi community on [Discord](https://discord.gg/mQq55j65xJ).
+Belirli bir projenin listelenmesini istiyorsanız lütfen [Discord](https://discord.gg/mQq55j65xJ) üzerindeki Qi topluluğuna katılın.
 
 {% hint style="info" %}
-I will not present Mai Finance farms. This subject deserves its own tutorial, because Qi is not like any other random farm token.
+Mai Finans çiftliklerini sunmayacağım. Bu konu başlı başına incelenmeyi hak ediyor çünkü Qi diğer rastgele çiftlik tokenlarına benzemiyor.
 {% endhint %}
 
-## Farming safely on bluechip projects
+## Bluechip projelerinde güvenle çiftçilik yapın
 
-Bluechip projects are the DeFi applications that proved to be solid and present a lower risk. They are usually audited and the team behind them have been working on then for a long time. They usually don't have huge APRs (**A**nnual **P**ercentage **R**ate) but they can be trusted.
+Bluechip projeleri, sağlam olduğu kanıtlanmış ve daha düşük risk arz eden DeFi uygulamalarıdır. Genellikle denetlenirler ve arkasındaki ekip uzun süredir üzerinde çalışmaktadır. Genellikle çok büyük APR'leri yoktur (**A**nnual **P**ercentage **R**ewards) ancak güvenilir olabilirler.
 
 ### Balancer
 
-[Balancer](https://polygon.balancer.fi/#/) is an automated portfolio manager, liquidity provider, and price sensor. On the platform, you will be able to lend your crypto and you collect fees from traders, who rebalance your portfolio by following arbitrage opportunities. If you need more details about Balancer, please go read [the official doc](https://docs.balancer.fi).
+[Balancer](https://polygon.balancer.fi/#/) otomatik bir portföy yöneticisi, likidite sağlayıcısı ve fiyat sensörüdür. Platformda kripto paranızı ödünç verebileceksiniz ve arbitraj fırsatlarını takip ederek portföyünüzü yeniden dengeleyen tüccarlardan ücret alacaksınız. Balancer hakkında daha fazla ayrıntıya ihtiyacınız varsa lütfen [resmi dokümanı](https://docs.balancer.fi) okuyun.
 
-On Polygon network, Balancer proposes a pool composed of the 4 main stable coins: DAI, USDC, USDT and MAI (miMATIC). This stable pool has currently a pretty steady APR of \~20%.
+Polygon ağında Balancer, 4 ana stabil tokendan oluşan bir havuz önerir: DAI, USDC, USDT ve MAI (miMATIC). Bu havuzun şu anda APR'ı \~%20'dir.
 
-![Stable coin pool state as of August 2021](<../.gitbook/assets/Screen Shot 2021-08-11 at 11.06.59 AM.png>)
+![Ağustos 2021 itibarıyla stabil para para havuzu durumu](<../.gitbook/assets/Screen Shot 2021-08-11 at 11.06.59 AM.png>)
 
-The best thing about Balancer is that you absolutely don't need to own the 4 coins to deposit into the pool. Balancer will automatically generate a balanced combination with whatever deposit you make. This means that if you have 100$ worth of MAI, you can simply deposit them into the Balancer pool and let the algorithm slip it properly to have a 25% ratio for each coin depending on their respective price at the moment of the deposit.
+Balancer'ın en iyi yanı, havuza yatırmak için kesinlikle 4 tokena sahip olmanıza gerek olmamasıdır. Dengeleyici, yaptığınız para yatırma işlemiyle otomatik olarak dengeli bir kombinasyon oluşturacaktır. Yani 100$ değerinde MAI'niz varsa, bunları Balancer havuzuna yatırabilir ve yatırma anındaki ilgili fiyatlarına bağlı olarak algoritmanın her madeni para için %25'lik bir orana sahip olacak şekilde doğru şekilde kaydırmasına izin verebilirsiniz.
 
-Rewards for the pool are paid using the BAL token, distributed on a weekly basis. In addition to the BAL token, additional rewards can be granted depending on the pool you entered. You can check the different [incentives program here](https://balancer-incentives.web.app). In our case, participating in the stable pool will also earn you MATIC and Qi rewards.
+Havuz ödülleri, haftalık olarak dağıtılan BAL tokenı kullanılarak ödenir. BAL'a ek olarak, girdiğiniz havuza bağlı olarak ek ödüller de verilebilir. Farklı [teşvik programını buradan](https://balancer-incentives.web.app) kontrol edebilirsiniz. Bizim durumumuzda bu havuza katılmak size MATIC ve Qi ödülleri de kazandıracak.
 
-The complete flow would be something like this
+Tam akış böyle bir şey olurdu
 
 ![](<../.gitbook/assets/Screen Shot 2021-08-11 at 11.34.45 AM.png>)
 
-If you need more details on how you can use Mai Finance to lend your crypto and borrow MAI (instead of selling your crypto to buy MAI), read other guides on this site. You can even [include AAVE into the loop](leverage-aave-tokens.md) to earn even more.
+Kriptonuzu ödünç vermek ve MAI ödünç almak için (MAI satın almak için kriptonuzu satmak yerine) Mai Finance'i nasıl kullanabileceğiniz konusunda daha fazla ayrıntıya ihtiyacınız varsa, bu sitedeki diğer kılavuzları okuyun. Hatta daha da fazla kazanmak için [döngüye AAVE'yi dahil edebilirsiniz](leverage-aave-tokens.md).
 
-### Curve finance
+### Curve Finance
 
-A little bit of click-bait here. [Curve](https://polygon.curve.fi) is another platform where you will be able to lend your crypto assets in pools that will generate revenues, but not MAI directly (not yet?). The pools we are interested in are
+Burada biraz tıklama işiniz var. [Curve](https://polygon.curve.fi), kripto varlıklarınızı doğrudan MAI değil (henüz değil mi?) gelir elde edecek havuzlarda ödünç verebileceğiniz başka bir platformdur. İlgilendiğimiz havuzlar
 
-* the AAVE pool that will generate between 5% and 15% APR (APR varies a lot) on a stable coins trio (DAI/USDC/USDT). The pool works exactly like Balancer in the way that you can enter the pool using a single asset that will be used on AAVE by the protocol.
-* the atricrypto pool that is composed of the stable coin trio and includes wETH and wBTC too to mitigate impermanent losses. This pool has an APR ranging between 25% and 30%. The Mai Finance team is currently trying to have MAI added to this pool too, meaning that you may be able to enter it with your minted MAI directly.
+* Stabil para üçlüsünde (DAI/USDC/USDT) %5 ile %15 arasında APR (APR çok değişir) oluşturacak AAVE havuzu. Havuz, protokol tarafından AAVE'de kullanılacak tek bir varlık kullanarak havuza girebileceğiniz şekilde tam olarak Balancer gibi çalışır.
+* Stabil para üçlüsünden oluşan ve kalıcı kayıpları azaltmak için wETH ve wBTC'yi de içeren atricrypto havuzu. Bu havuzun %25 ile %30 arasında değişen bir APR'si vardır. Mai Finans ekibi şu anda MAI'nin bu havuza eklenmesini sağlamaya çalışıyor.
 
-While waiting for the Curve protocol to accept MAI as a valid stable coin in their pools, you can still use your favourite crypto with Curve by following these steps (example with MATIC)
+Curve protokolünün MAI'yi havuzlarında geçerli bir stabil para olarak kabul etmesini beklerken, yine de aşağıdaki adımları izleyerek en sevdiğiniz kriptoyu Curve ile kullanabilirsiniz (örnek MATIC ile)
 
-* Deposit your MATIC token on AAVE and collect amWMATIC
-* Deposit your amWMATIC on Mai Finance and collect camWMATIC (the AAVE rewards will be compounded into the camWMATIC tokens)
-* Use the camWMATIC as a collateral on Mai Finance and borrow MAI against it
-* Use the [swap page](https://app.mai.finance/anchor) on Mai Finance to swap all of your MAI for USDC
-* Then you can
-  * Enter the atricrypto pool on Curve with your USDC and get 25% to 30% reward
-  * Enter the AAVE pool on Curve with your USDC and get 5% to 15% reward
+* MATIC'i AAVE'ye yatırın ve amWMATIC'i toplayın
+* AmWMATIC'inizi Mai Finance'e yatırın ve camWMATIC toplayın (AAVE ödülleri, camWMATIC tokenları ile birleştirilecektir)
+* CamWMATIC'i Mai Finance'te teminat olarak kullanın ve buna karşı MAI ödünç alın
+* Tüm MAI'nizi USDC ile değiştirmek için Mai Finance'deki [değişim sayfasını](https://app.mai.finance/anchor) kullanın
+* Bu durumda;
+  * USDC'nizle Curve'deki atricrypto havuzuna girin ve %25 ila %30 ödül kazanın
+  * USDC'nizle Curve'deki AAVE havuzuna girin ve %5 ila %15 arasında ödül kazanın
 
-Rewards on Curve are granted in
+Curve'deki ödüller şu şekilde verilir:
 
-* Auto-compounded USDC that increase your position in the pool (it will be a mix of USDC/USDT/DAI and possibly wBTC/wETH for the atricrypto pool)
-* WMATIC that you can then use to repeat the loop above and increase your loan and invested capital
-* CRV token, that can also be used as collateral on Mai Finance to borrow more MAI and increase your invested capital
+* Havuzdaki konumunuzu artıran otomatik bileşik USDC (atricrypto havuzu için USDC/USDT/DAI ve muhtemelen wBTC/wETH karışımı olacaktır)
+* Daha sonra yukarıdaki döngüyü tekrarlamak ve kredinizi ve yatırım sermayenizi artırmak için kullanabileceğiniz WMATIC
+* Daha fazla MAI ödünç almak ve yatırım sermayenizi artırmak için Mai Finance'te teminat olarak da kullanılabilen CRV tokenı
 
 ![](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.14.27 PM.png>)
 
 ### AAVE
 
-There's a complete guide on how you can use Mai Finance to [lever up your crypto on AAVE](leverage-aave-tokens.md). This is not doing a direct use of MAI stable coin, but we can imagine that, in the future, AAVE will also have a MAI pool where you will be able to lend your crypto.
+[Aave Market'ten Yararlanın](leverage-aave-tokens.md) için Mai Finance'i nasıl kullanabileceğinize dair eksiksiz bir kılavuz var. Aave, MAI'nin doğrudan kullanımını yapmıyor, ancak gelecekte AAVE'nin kriptonuzu ödünç verebileceğiniz bir MAI havuzuna sahip olacağını hayal edebiliyoruz.
 
 ### QuickSwap
 
-[QuickSwap](https://quickswap.exchange/#/) is probably one of the most famous DEX (Decentralized EXchange) on Polygon with SushiSwap and 1Inch. It's also an AMM (Automated Market Maker) that allows users to efficiently trade on the Polygon network using liquidity pools. Any trade on the exchange is subject to a fee that is partially redistributed to users who deposit their liquidity on the platform.
+[QuickSwap](https://quickswap.exchange/#/) muhtemelen SushiSwap ve 1Inch ile Polygon'daki en ünlü DEX'lerden (Merkezi Olmayan Değişim) biridir. Aynı zamanda, kullanıcıların likidite havuzlarını kullanarak Polygon ağında verimli bir şekilde işlem yapmalarını sağlayan bir AMM'dir (Otomatik Piyasa Yapıcı). Borsadaki herhangi bir işlem, likiditelerini platforma yatıran kullanıcılara kısmen yeniden dağıtılan bir ücrete tabidir.
 
-The way you can use MAI on QuickSwap is very similar to a [regular yield farm](secure-your-yield-farming-profits.md) so if you need to get exact steps to enter the MAI/USDC pool on QuickSwap, it's probably better for you to read this article.
+QuickSwap'ta MAI'yi kullanma şekliniz [düzenli verim çiftliğine](secure-your-get- farm-profits.md) çok benzer, bu nedenle QuickSwap'ta MAI/USDC havuzuna girmek için kesin adımlar atmanız gerekiyorsa bu makaleyi okumanız sizin için daha iyi olacaktır.
 
-Currently, if you enter the MAI/USDC LP (**L**iquidity **P**rovider) pool on QuickSwap, you will earn
+Şu anda QuickSwap'ta MAI/USDC LP (**L**iquidity**P**rovider) havuzuna girerseniz, neler kazanacaksınız;
 
-* trading fees
-* QUICK tokens
+* ticaret ücretleri
+* QUICK
 
-![Details of the MAI/USDC pool on QuickSwap as of August 2021](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![Ağustos 2021 itibarıyla QuickSwap'taki MAI/USDC havuzunun ayrıntıları](<../.gitbook/assets/Screen Shot 2021-08-11, 12.37.56 PM.png>)
 
-## Degen farms and aggregators
+## Degen Çiftlikleri ve Toplayıcılar
 
 ### Adamant
 
-[Adamant](https://adamant.finance/home) is an aggregator that is listing all the "best" farms on Polygon and let you enter them directly from their website. By depositing your assets (LP tokens) on a specific pool on Adamant, the algorithms will harvest the rewards granted by the pool and automatically compound part of the reward into your LP position. The rest of the reward is usually converted in WMATIC that is then redistributed to the holders of the ADDY token (native token of Adamant). Finally, you get a reward in ADDY tokens as well that you can harvest and vest for 90 days, earning you part of the WMATIC dividends.
+[Adamant](https://adamant.finance/home), Polygon'daki tüm "en iyi APR" çiftlikleri listeleyen ve doğrudan web sitelerinden girmenize izin veren bir toplayıcıdır. Varlıklarınızı (LP tokenları) Adamant'taki belirli bir havuza yatırarak, algoritmalar havuz tarafından verilen ödülleri toplar ve ödülün bir kısmını otomatik olarak LP pozisyonunuza ekler. Ödülün geri kalanı genellikle WMATIC'e dönüştürülür ve daha sonra ADDY'nin (Adamant'ın kendi tokenı) sahiplerine yeniden dağıtılır. Son olarak, WMATIC temettülerinin bir kısmını kazanarak 90 gün boyunca hasat edip yelek yapabileceğiniz ADDY ödülü alırsınız.
 
-In general, Adamant is a good place to go if you don't really care about the farm token, and if you don't want to compound your rewards manually several times a day. It also generates more revenue since you get some ADDY rewards in addition to the reward granted by the pool.
+Genel olarak, çiftlik tokenını gerçekten umursamıyorsanız ve ödüllerinizi günde birkaç kez manuel olarak birleştirmek istemiyorsanız, Adamant gitmek için iyi bir yerdir. Ayrıca, havuz tarafından verilen ödüle ek olarak bazı ADDY ödülleri aldığınız için daha fazla gelir sağlar.
 
-Adamant currently supports a few pools that accept the MAI/USDC LP pair. The pools are on
+Adamant şu anda MAI/USDC LP çiftini kabul eden birkaç havuzu desteklemektedir. Bu havuzlarda neler kazanırız;
 
-* QuickSwap: QUICK reward is swapped into more MAI/USDC LP and WMATIC rewards
-* DinoSwap: Dino reward is swapped into more MAI/USDC LP and WMATIC rewards
-* Mai Finance: Qi reward is swapped into more MAI/USDC LP and WMATIC rewards
+* QuickSwap: QUICK ödül, daha fazla MAI/USDC LP ve WMATIC ödülüyle değiştirildi
+* DinoSwap: Dino ödülü, daha fazla MAI/USDC LP ve WMATIC ödülüyle değiştirildi
+* Mai Finance: Qi ödülü, daha fazla MAI/USDC LP ve WMATIC ödülüyle değiştirildi
 
-![QuickSwap MAI/USDC pool on Adamant](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.51.12 PM.png>)
-
-{% hint style="info" %}
-The screenshots of the QuickSwap pool on QuickSwap website (see paragraph above) and Adamant have been taken the same day, but are showing different APYs (**A**nnual **P**ercentage **Y**ield).
-{% endhint %}
-
-You can see that the APY on Adamant is a little bit higher than on QuickSwap directly. The reward breakdown is as follows
-
-* 12.88% Auto-compounded QUICK (meaning the QUICK reward is transformed into more LP tokens)
-* 9.16% ADDY reward (not compounded)
-* 3.40% fee share dividend (claiming ADDY daily)
-
-This means that, out of the 20.92% granted by QuickSwap, only 12.88% is used to increase your LP position, the rest is swapped into WMATIC dividends. You will be able claim your ADDY reward daily (or anytime) and stake them, which will will in turn generate claimable WMATIC dividends. In other words, Adamant _seems_ a better option because it has better APYs and compound rewards automatically, but in reality it involves a lot of manual actions too.
+![Adamant'ta QuickSwap MAI/USDC havuzu](<../.gitbook/assets/Screen Shot 2021-08-11, 12.51.12 PM.png>)
 
 {% hint style="info" %}
-Using Adamant also has a strong impact of native token prices. Indeed, because Adamant is constantly selling the farm tokens to generate more LP pairs and WMATIC as dividends to their ADDY holders, the sell pressure is very high on farm tokens and can explain why their price is consistently decaying.
+QuickSwap web sitesindeki QuickSwap havuzunun ekran görüntüleri (yukarıdaki paragrafa bakın) ve Adamant aynı gün çekilmiştir, ancak farklı APY'leri göstermektedir (**A**nnual **P**ercentage **Y**ields).
 {% endhint %}
 
-### Other farms accepting MAI/USDC LP pair
+Adamant'taki APY'nin doğrudan QuickSwap'tan biraz daha yüksek olduğunu görebilirsiniz. Ödül dağılımı aşağıdaki gibidir
 
-MAI getting more and more popularity on Polygon, and because QuickSwap supports the MAI/USDC pair, a lot of farms are now supporting it too. The following list will present a few projects on which you can earn yield using MAI/USDC
+* %12.88 Otomatik birleştirilmiş QUICK (QUICK'lerin daha fazla LP tokena dönüştürüldüğü anlamına gelir)
+* %9.16 ADDY ödülü (bileşik değil)
+* %3.40 ücret payı temettü (günlük ADDY talep edilerek)
+
+Bu dağıtım QuickSwap tarafından verilen %20.92'den yalnızca %12.88'inin LP pozisiyonunuzu artırmak için kullanıldığı, geri kalanının WMATIC temettülerine dönüştürüldüğü anlamına gelir. ADDY ödülünüzü günlük olarak (veya istediğiniz zaman) talep edebilecek ve bunları stake edebileceksiniz. Bu da karşılığında talep edilebilir WMATIC temettüleri oluşturacaktır. Başka bir deyişle, Adamant otomatik olarak daha iyi APY'lere ve bileşik ödüllere sahip olduğu için daha iyi bir seçenek gibi görünmesine rağmen birçok manuel eylemi de içeriyor.
+
+{% hint style="info" %}
+Adamant'ı kullanmanın token fiyatları üzerinde de güçlü bir etkisi vardır. Gerçekten de Adamant, ADDY sahiplerine temettü olarak daha fazla LP çifti ve WMATIC üretmek için çiftlik tokenlerini sürekli olarak sattığından, çiftlik tokenleri üzerindeki satış baskısı çok yüksektir ve fiyatlarının neden sürekli olarak düştüğünü açıklayabilir.
+{% endhint %}
+
+### MAI/USDC LP çiftini kabul eden diğer çiftlikler
+
+MAI, Polygon'da giderek daha fazla popülerlik kazanıyor ve QuickSwap, MAI/USDC çiftini desteklediğinden, artık birçok çiftlik de onu destekliyor. Aşağıdaki liste, MAI/USDC kullanarak getiri elde edebileceğiniz birkaç proje sunacaktır.
 
 * DinoSwap
 * Augury
 * Polypup
 * ...
 
-Other farms may also accept the MAI/USDC pool. If you want to stay informed about new farms and their launch date, I strongly recommend taking a look at the [RugDoc.io calendar](https://rugdoc.io/calendar/) for Polygon farms, and possibly to the rest of their website which will present a very smart overview of each farm, as well as their potential risks.
+Diğer çiftlikler de MAI/USDC havuzunu kabul edebilir. Yeni çiftlikler ve bunların piyasaya sürülme tarihleri ​​hakkında bilgi sahibi olmak istiyorsanız, Polygon çiftlikleri ve muhtemelen diğer çiftlikler için [RugDoc.io takvimine](https://rugdoc.io/calendar/) bir göz atmanızı şiddetle tavsiye ederim. Her bir çiftliğin yanı sıra potansiyel riskleri hakkında çok akıllı bir genel bakış sunacak olan web siteleri.
 
 ## Impermax
 
-### A little bit of explanation
+### Ek Açıklama
 
-[Impermax](https://polygon.impermax.finance) is a platform that let users leverage their LP tokens for higher yields. The goal is very simple: by providing LP tokens and using them as collateral, one can then borrow more of the 2 underlying assets to generate more LP tokens and repeat the loop.
+[Impermax](https://polygon.impermax.finance), kullanıcıların daha yüksek getiri için LP tokenlardan yararlanmalarına olanak tanıyan bir platformdur. Amaç çok basit: LP token sağlayarak ve bunları teminat olarak kullanarak, daha fazla LP tokenı oluşturmak ve döngüyü tekrarlamak için 2 temel varlıktan daha fazlasını ödünç alabilir.
 
-![Impermax loop explained](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
+![Impermax döngüsü açıklaması](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
 
-When doing so, the user is exposed to impermanent loss, and the loss is magnified by the number of times the loop is repeated. The risk of liquidation is also multiplied when too many loops are applied. Indeed, if the APR is multiplied, the price variation of the two coins forming the pair is amplified by the lever effect, leading to faster liquidation.
+Bunu yaparken, kullanıcı kalıcı kayba maruz kalır ve kayıp, döngünün tekrarlanma sayısı kadar büyütülür. Çok fazla döngü uygulandığında likidasyon riski de katlanmaktadır. Gerçekten de, APR çarpılırsa, çifti oluşturan iki tokenın fiyat değişimi kaldıraç etkisi ile güçlendirilir ve bu da daha hızlı likidasyona yol açar.
 
-With stable coins, the risk of liquidation is lower though, because the price variation is negligible. This also means that the Collateral to Debt Ratio (CDR) can be very close to 100%, leading to a high number of loops, hence a high APR.
+Stabil tokenlarla fiyat değişimi ihmal edilebilir olduğu için likidasyon riski daha düşüktür. Bu aynı zamanda Teminat Borç Oranının (CDR) %100'e çok yakın olabileceği ve çok sayıda döngüye, dolayısıyla yüksek bir APR'ye yol açabileceği anlamına gelir.
 
-Note that Impermax is charging fees when you borrow and leverage your position. The fee corresponds to 0.1% of your final position. As an example, if I have $100 worth of MAI/USDC and I leverage 50x, my final position will worth $5,000 and I will pay a $4.90 fee corresponding to the $4,900 that I borrowed.
+Pozisyonunuzu ödünç aldığınızda ve kaldıraç kullandığınızda Impermax'ın ücret talep ettiğini unutmayın. Ücret, nihai pozisyonunuzun %0,1'ine karşılık gelir. Örnek olarak, 100$ değerinde MAI/USDC'ye sahipsem ve 50x kaldıraç kullanırsam, son pozisyonum 5.000$ değerinde olacak ve ödünç aldığım 4.900$'a karşılık gelen 4,90$ ücret ödeyeceğim.
 
-The effect of looping the lending/borrowing combination allows to multiply the final APY. With an initial APY of 20% for MAI/USDC pair with a CDR of 110%, operating the loop 50 times, and using the formula
+Borç verme/borç alma kombinasyonunu döngüye almanın etkisi, nihai APY'nin çoğaltılmasına izin verir. %110 CDR'ye sahip MAI/USDC çifti için %20'lik bir başlangıç ​​APY'si ile, döngüyü 50 kez çalıştırarak ve formülü kullanarak;
 
 $$
 Equivalent APR = Initial APR * \sum_{i=0}^{n}{\frac{100}{CDR}}^i
 $$
 
-We can easily get a 228% final APR. There are some other elements that will affect the final APR, namely the borrowing APR (loan interest for borrowing more LP tokens), and the supply/demand of both assets composing the LP pair (directly driving the borrowing APR).
+%228'lik bir son APR'yi kolayca alabiliriz. Nihai APR'yi etkileyecek diğer bazı unsurlar vardır. Ödünç alma APR'si (daha fazla LP tokenu ödünç almak için kredi faizi) ve LP çiftini oluşturan her iki varlığın arz/talebi (doğrudan ödünç alma APR'sini yönlendirir).
 
-Also, because all the rates are magnified by the number of times the loop is applied, the APR will vary drastically, and can sometimes become negative for short amount of times (your LP token will be used to repay the negative APR).
+Ayrıca, tüm oranlar, döngünün uygulanma sayısı ile büyütüldüğünden APR büyük ölçüde değişecektir ve bazen kısa süreler için negatif olabilir (LP tokenınız negatif APR'yi geri ödemek için kullanılacaktır).
 
-### Leveraged position of my MAI/USDC pair
+### MAI/USDC çiftinin kaldıraçlı pozisyonu
 
-In the end, you are using the base APR on a much bigger value, which is earning much bigger interests, increasing the APR of your initial position.
+Günün sonunda temel APR'yi çok daha büyük bir değerde kullanıyorsunuz, bu da çok daha büyük faizler kazandırıyor ve ilk konumunuzun APR'sini artırıyor.
 
-![An example of Impermax dashboard with an initial $70.52 MAI/USDC pair](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.38.33 PM.png>)
+![Başlangıçta 70,52$ MAI/USDC çifti olan bir Impermax panosu örneği](<../.gitbook/assets/Screen Shot 2021-08-11, 138.33 PM.png>)
 
-I can see very easily how much I'm using as collateral, how much I initially invested, what's the leverage ratio, and what are the liquidation values due to the leverage ratio. This position will give me the following ratios at the time of writing
+Ne kadar teminat kullandığımı, başlangıçta ne kadar yatırım yaptığımı, kaldıraç oranının ne olduğunu ve kaldıraç oranından dolayı likidasyon değerlerinin ne olduğunu çok rahat görebiliyorum. Bu pozisyon bana aşağıdaki oranları verecek
 
-![Earnings and spendings estimation at a given time](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.41.55 PM.png>)
+![Belirli bir zamanda kazanç ve harcama tahmini](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.41.55 PM.png>)
 
-The APR is granted in IMX token that can either be swapped for more MAI/USDC (use the power of Mai Finance to borrow at 0% interest, RFTM), or used to provide liquidity on specific pools accepting IMX on Impermax.
+APR, daha fazla MAI/USDC ile takas edilebilen (Mai Finance'in gücünü %0 faizle borç almak için kullanın, RFTM) veya Impermax'ta IMX'i kabul eden belirli havuzlarda likidite sağlamak için kullanılabilen IMX tokenı olarak verilir.
 
-### Supplying MAI to borrowers
+### Ödünç alanlara MAI sağlama
 
-Indeed, on the app you can also provide liquidity to those who want to apply leveraging loops to their positions (they will need underlying assets to generate more LP tokens). Lending assets is a great way to earn yield and let the borrowers take all the risks. Also, the more users are borrowing, the higher the supply APR will be.
+Aslında uygulamada pozisyonlarına kaldıraç döngüleri uygulamak isteyenlere de likidite sağlayabilirsiniz (daha fazla LP tokenı oluşturmak için temel varlıklara ihtiyaç duyacaklar). Varlıkları ödünç vermek, getiri elde etmenin ve borç alanların tüm riskleri almasına izin vermenin harika bir yoludur. Ayrıca ne kadar çok kullanıcı ödünç alırsa, arz APR'si o kadar yüksek olacaktır.
 
-![Rates for supplying and borrowing MAI on Impermax at a given time](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.47.56 PM.png>)
+![Belirli bir zamanda Impermax'ta MAI sağlama ve ödünç alma oranları](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.47.56 PM.png>)
 
-This is another great way to optimize your 0% loan on Mai Finance. Not only you don't have to pay anything to borrow MAI, but you can earn a lot of interest just by depositing it on Impermax.
+Bu yöntem Mai Finance'deki %0 kredinizi optimize etmenin başka bir harika yoludur. MAI ödünç almak için hiçbir şey ödemenize gerek yok. Aynı zamanda Impermax'a yatırarak çok fazla faiz kazanabilirsiniz.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-Everything is this tutorial is purely educational. The goal is to bring light to projects that I think are worthy for people evolving in the crypto world on Polygon. I obviously didn't talk about Mai Finance as a farm because a dedicated tutorial will be written very soon. Finally, this guide is ABSOLUTELY NOT meant to be applied as is, it's not any financial advice and you should not follow blindly what I wrote. Please read the docs of the different projects I mentioned before considering investing on their platforms.
+Bu içerik tamamen eğitim niteliği taşır. Amaç Polygon'da kripto dünyasında gelişen insanlara layık olduğunu düşündüğüm projelere ışık tutmak. Açıkçası Mai Finance'ten bir çiftlik olarak bahsetmedim çünkü çok yakında özel bir eğitim yazılacak. Son olarak bu kılavuzu KESİNLİKLE olduğu gibi uygulanmaya yönelik DEĞİLDİR. Herhangi bir finansal tavsiye değildir ve yazdıklarımı körü körüne takip etmemelisiniz. Lütfen platformlarına yatırım yapmayı düşünmeden önce bahsettiğim farklı projelerin belgelerini okuyun.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen olan bitenden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
