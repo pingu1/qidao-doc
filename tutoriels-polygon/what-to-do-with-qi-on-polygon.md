@@ -1,15 +1,15 @@
 ---
 description: >-
-  Ce guide va présenter en détails comment utiliser vos Qi, le jeton natif
-  de Mai Finance, sur Polygon. Nous analyserons également si Qi est une bonne
-  opportunité d'investissement, ainsi que ce qui dicte son prix.
+  Ce guide va présenter en détails comment utiliser vos Qi, le jeton natif de
+  Mai Finance, sur Polygon. Nous analyserons également si Qi est une bonne
+  opportunité d'investissement, ainsi que ce qui dict
 ---
 
 # Que faire de vos Qi sur Polygon
 
 ## Introduction
 
-Qi (\[tʃ Í] or _chee_), est le jeton natif de la plateforme Mai Finance. Vous pourrez l'utiliser pour voter lors des QIP (**Q**iDAO **I**mprovement **P**roposals), vous pourrez les bloquer pour en gagner encore plus via la redistribution des revenus du protocole, et finalement vous pourrez les utiliser pour récolter des revenus dans des fermes de rendement. Vous pourrez trouver d'excellentes informations sur comment géneérer des revenus passifs avec vos Qi sur Mai Finance dans [le guide dédié](../universite-MAI/earning-passive-income-with-qidao.md).  
+Qi (\[tʃ Í] or _chee_), est le jeton natif de la plateforme Mai Finance. Vous pourrez l'utiliser pour voter lors des QIP (**Q**iDAO **I**mprovement **P**roposals), vous pourrez les bloquer pour en gagner encore plus via la redistribution des revenus du protocole, et finalement vous pourrez les utiliser pour récolter des revenus dans des fermes de rendement. Vous pourrez trouver d'excellentes informations sur comment géneérer des revenus passifs avec vos Qi sur Mai Finance dans [le guide dédié](../universite-MAI/earning-passive-income-with-qidao.md).
 
 Ce guide, comme la plupart des tutoriels d'investissements, va mettre la lumière avant tout sur la façon de récolter des intérêts, mais cette fois-ci en utilisant vos jetons Qi. Nous verrons ainsi comment générer un grand nombre de Qi, et comment continuer à faire grossir votre investissement initial sur plusieurs plateformes sur Polygon.
 
@@ -27,7 +27,7 @@ Dans ce guide, nous ne passerons pas beaucoup de temps à expliquer comment bloq
 
 ### Cultivez vos gains avec des paires de liquidité
 
-Une fois encore, vous trouverez beaucoup d'autres articles présentant la façon d'inclure des Qi dans vos boucles d'investissement afin de générer des gains sans vendre vos tokens récoltés. Veuillez consulter l'article d'[emboîtage des protocoles DApps](stack-dapps-like-lego-bricks.md) ou celui sur le [Farming ou Staking](farming-ou-staking-ou-les-deux.md) pour avoir plus détails. 
+Une fois encore, vous trouverez beaucoup d'autres articles présentant la façon d'inclure des Qi dans vos boucles d'investissement afin de générer des gains sans vendre vos tokens récoltés. Veuillez consulter l'article d'[emboîtage des protocoles DApps](stack-dapps-like-lego-bricks.md) ou celui sur le [Farming ou Staking](farming-ou-staking-ou-les-deux.md) pour avoir plus détails.
 
 Veuillez simplement retenir que Qi est combiné à plusieurs autres crypto monnaies afin de former des jetons LP (**L**iquidity **P**rovider) sur [QuickSwap](https://quickswap.exchange/#/quick) pour que vous puissiez cultiver vos gains via
 
@@ -89,7 +89,7 @@ Il existe 2 principales sources d'émission de Qi: les récompenses pour les ré
 
 Si vous cultivez des rendements sur Mai Finance, vous avez le choix entre les paires MAI/USDC et Qi/WMATIC (en Septembre 2021).
 
-* La paire MAI/USDC reçoit  0.5 Qi / block de récompenses
+* La paire MAI/USDC reçoit 0.5 Qi / block de récompenses
 * La paire Qi/WMATIC reçoit 1 Qi / block de récompenses.
 
 Sur Polygon, un block dure en moyenne 2 seconds, et comme il y a 86 400 secondes dans une journée, on peut en déduire que la réserve MAI/USDC reçoit 21 600 Qi par jour, et que la réserve Qi/WMATIC en reçoit 43 200.
@@ -102,7 +102,7 @@ Ainsi, chaque jour, l'équivalent de 86 400 nouveaux Qi sont fabriqués par la p
 
 ### Optimisateurs de rendements
 
-Les optimisateurs de rendement sont des plateformes qui vont automatiquement composer les récompenses avec des stratégies prédéfinies, et allouer des récompenses additionelles afin que vous choisissiez leur outil. Cependant, une bonne portion de ces récompenses est en général revendue directement ou ré-utilisée d'une autre façon.  
+Les optimisateurs de rendement sont des plateformes qui vont automatiquement composer les récompenses avec des stratégies prédéfinies, et allouer des récompenses additionelles afin que vous choisissiez leur outil. Cependant, une bonne portion de ces récompenses est en général revendue directement ou ré-utilisée d'une autre façon.
 
 Par exemple, Adamant va vous offrir de cultiver la réserve de liquidité Qi/WMATIC sur leur plateforme, avec la distribution suivante pour les récompenses:
 
@@ -129,7 +129,7 @@ Lorsque vous utilisez des paires de liquidités LP, les jetons sont en réalité
 
 Cependant, en faisant ceci, la balance originale 50/50 est brisée: il y a maintenant moins de WETH que de Qi dans la réserve. L'algorithme en charge de maintenir la balance de la réserve va donc vendre une suffisament de Qi présent dans la réserve afin d'acheter de nouveaux jetons WETH et rétablie l'équilibre 50:50. Il se passe exactement la même chose lorsque quelqu'un achète des Qi, c'est-à-dire qu'une petite portion de WETH est vendue pour racheter des Qi.
 
-Le même phénomène survient également lorsqu'un des des jetons qui composent la paire gagne ou perd de la valeur. Par exemple, si on assume que le prix du Qi est de 1$ et le prix du WETH est de 1 000$, et que la réserve contient l'équivalent de 100$ de Qi et 100$ de WETH, on peut en déduire que la réserve est composée de 100 Qi et de 0,1 WETH. 
+Le même phénomène survient également lorsqu'un des des jetons qui composent la paire gagne ou perd de la valeur. Par exemple, si on assume que le prix du Qi est de 1$ et le prix du WETH est de 1 000$, et que la réserve contient l'équivalent de 100$ de Qi et 100$ de WETH, on peut en déduire que la réserve est composée de 100 Qi et de 0,1 WETH.
 
 Maintenant, supposons que le prix de l'Ethereum monte à 2 000$. Si la réserve gardait le même montant de chaque token, on aurait 100$ de Qi et 200$ de WETH, et la balance serait brisée. C'est pour cela que l'algorithme en charge de la réserve va vendre une partie des WETH pour acheter des Qi. Dans notre exemple, c'est 50$ de WETH qui seront vendus, et 50$ de Qi qui seront achetés pour, au final, avoir:
 
