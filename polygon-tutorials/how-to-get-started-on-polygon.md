@@ -91,7 +91,7 @@ Polygon blok zincirini kullanırken faydalı bulabileceğiniz bazı bağlantıla
 
 * [Quickswap](https://quickswap.exchange/#/swap)
 * [AAVE](https://app.aave.com)
-* [PolygonScan](https://polygonscan.com/gastracker/): this link will be useful to see the gas prices on the Polygon Network.
+* [PolygonScan](https://polygonscan.com/gastracker/)
 
 ## Sorumluluk Reddi
 
