@@ -1,76 +1,74 @@
 ---
-description: >-
-  Mai Finance proposes loans with 0% interest rates and a single 0.5% repayment
-  fee. This is particularly useful to leverage investments on DeFi on Polygon,
-  but you can use it in the real world too.
+AÇıklama: >-
+  Mai Finance, %0 faiz oranları ve tek bir %0,5 geri ödeme ücreti ile krediler önermektedir. Öneri özellikle Polygon'daki DeFi yatırımlarından yararlanmak için kullanışlıdır, ancak bunu gerçek dünyada da kullanabilirsiniz. 
 ---
 
-# How to use MAI in the real life
+# MAI gerçek hayatta nasıl kullanılır?
 
-## Case study for MAI
+## MAI için örnek olay incelemesi
 
-DogeOfWallStreet is very bullish on Ethereum. With all the craze revolving around the crypto, partially driven by the NFT hype and bullish case for Eth2.0, he wants to make sure he can get as much ETH as possible before the price really goes to the moon.
+DogeOfWallStreet, Ethereum için çok heyecanlı ve çok yükseleceğini düşünüyor. Kısmen NFT yutturmacası ve Eth2.0 için yükseliş davası tarafından yönlendirilen kripto etrafında dönen tüm çılgınlıkla, fiyat gerçekten uzaya gitmeden önce mümkün olduğunca çok ETH alabildiğinden emin olmak istiyor.
 
-In order to do so, our friend already invested in a small mining rig with 6 GPUs. He is mining ETH 24/7/365 and makes on average $40.00 a day with his 6 RTX 3080.
+Bunu yapmak için arkadaşımız zaten 6 GPU'lu küçük bir madencilik teçhizatına yatırım yaptı. 24/7/365 ETH madenciliği yapıyor ve 6 RTX 3080 ile günde ortalama 40,00 dolar kazanıyor.
 
-Today is THE day! His initial investment on GPUs is finally fully repaid, and now the rig is only generating profits. However, DogeOfWallStreet did his homework, and noticed a few things
+Bugün o gün! GPU'lara yaptığı ilk yatırım sonunda tamamen geri ödendi ve şimdi teçhizat sadece kar getiriyor. Ancak DogeOfWallStreet ödevini yaptı ve birkaç şey fark etti.
 
-* after EIP1559, his profit decreased, but only by 15% which isn't too bad
-* a lot of ETH miners are selling their cards because they think mining is no longer profitable
-* price of GPUs slightly dropped, and it's now possible to buy some on specialized websites and even in store
-* "The Merge" that would move Ethereum from P-o-W (Proof of Work) to P-o-S (Proof of Stake) will not occur before Q1 2022 and the Ethereum developers are famous for adding delays to what they are supposed to deliver
-* GPU and ASIC manufacturers are adding more ETH miners to the market, betting on the fact that ETH2.0 will be delayed by months, maybe years
+* EIP1559'dan sonra karı azaldı, ancak bu çok kötü olmayan şekilde yani  %15 oranında azaldı.
+* birçok ETH madenci madenciliğin artık karlı olmadığını düşündükleri için kartlarını satıyor
+* GPU'ların fiyatı biraz düştü ve artık bazılarını özel web sitelerinde ve hatta mağazalarda satın almak mümkün
+* Ethereum'u P-o-W'den (Proof of Work) P-o-S'ye (Proof of Stake) taşıyacak olan "Merge", 2022'nin ilk çeyreğinden önce gerçekleşmeyecek ve Ethereum geliştiricileri, teslim etmeleri gereken zamana gecikmeler eklemekle ünlüdür.
+* GPU ve ASIC üreticileri, ETH2.0'ın aylarca, belki yıllarca erteleneceği gerçeğine bahse girerek piyasaya daha fazla ETH madencisi ekliyor.
 
-So instead of sitting on his profits waiting for the price to sky rocket, DogeOfWallStreet decides that it's time to buy more graphic cards, and possibly increase his mining profits. In terms of costs, the _RTX 1660 super_ seems to be the most profitable card right now, and it only costs $500.00.
+DogeOfWallStreet, kârının üzerine oturup fiyatların hızla yükselmesini beklemek yerine, daha fazla grafik kartı satın almanın ve muhtemelen madencilik kârını artırmanın zamanının geldiğine karar verir. Maliyetler açısından, _RTX 1660 super_ şu anda en karlı kart gibi görünüyor ve sadece 500,00$'a mal oluyor.
 
 ![](<../.gitbook/assets/Screen Shot 2021-08-13 at 12.07.41 PM.png>)
 
-After 1 month of mining, the clever miner checks his portfolio on the ETH mainnet after the pool paid him. He has the equivalent of $1,340.00 worth of ETH (mining profit and ETH gained almost 12% in 4 weeks) , which should be way enough to buy the card ... but then, dilemma:
+1 aylık madencilikten sonra akıllı madenci, havuz kendisine ödeme yaptıktan sonra portföyünü ETH ana ağında kontrol eder. 1,340,00 dolar değerinde ETH'ye sahip (madencilik karı ve ETH 4 haftada neredeyse %12 kazandı) , bu kartı satın almak için yeterli olmalı ... ama sonra, ikilem:
 
-* should he keep his ETH because the price is on the rise?
-* should he sell his ETH because the sooner he buys his GPU, the sooner he will mine more ETH?
+* Fiyat artıyor diye ETH'ini tutmalı mı?
+* GPU'sunu ne kadar erken satın alırsa, o kadar erken ETH madenciliği yapacağı için ETH'ini satmalı mı?
 
-That's about when he discovered Mai Finance and the power of 0% interest loans.
+Bu an, Mai Finance'i ve %0 faizli kredilerin gücünü keşfettiği zamandı.
 
-## Getting the 0% interest / 0.5% repayment fee loan
+## %0 faiz / %0.5 geri ödemeli kredi almak
 
-After reading the different docs for Mai Finance, and getting some help from the [Discord](https://discord.gg/mQq55j65xJ) server and the amazing Qi community, DogeOfWallStreet sees a possibility to keep his Ethereum while still buying his graphic card.
+Mai Finance için farklı belgeleri okuduktan ve [Discord](https://discord.gg/mQq55j65xJ) sunucusundan ve muhteşem Qi topluluğundan biraz yardım aldıktan sonra DogeOfWallStreet, grafik kartını satın alırken Ethereum'unu elinde tutma olasılığını görüyor.
 
-The first step is to bridge the ETH to the Polygon network. This is easy using the [PoS bridge](https://wallet.matic.network/bridge), and bridging the assets when the network is cool is done at a "reasonable price" of $20,00 paid in ETH.
+İlk adım, ETH'yi Polygon ağına köprülemektir. Bu köprüyü [PoS köprüsünü](https://wallet.matic.network/bridge) kullanmak kolaydır ve ağ iyi durumdayken varlıklar arasında köprü oluşturmak ETH olarak ödenen 20,00 ABD doları "makul bir fiyatla" yapılır.
 
-DogeOfWallStreet deposits his ETH on AAVE and receives amWETH. He goes now to Mai Finance and deposits the amWETH to get camWETH tokens that will be used as collateral in the vaults. At that stage, he still owns all his ETH, and Mai Finance allows him to gain 1.39% APY on his asset. Not much, but still appreciated.
+DogeOfWallStreet, ETH'sini AAVE'ye yatırır ve amWETH alır. Şimdi Mai Finans'a gidiyor ve kasalarda teminat olarak kullanılacak camWETH jetonlarını almak için amWETH'i yatırıyor. Bu aşamada hala tüm ETH'ine sahip ve Mai Finance, varlığı üzerinden %1,39 APY kazanmasına izin veriyor. Çok değil, ama yine de takdir edilmesi gereken miktar.
 
-After depositing $1,320.00 worth of camWETH in the vault, our friend can now borrow MAI against his collateral. DogeOfWallStreet decides to stay above a 200% collateral to debt ratio, and only borrows 600 MAI. He then uses the swap page to get 594 USDC (1% swap fee) that he bridges back to the mainnet, paying once again a $20.00 fee. He doesn't really care about paying fees because a part of it is redistributed to miners, and he is one of them, and plans to make money from these fees.
+Kasaya 1.320,00$ değerinde camWETH yatırdıktan sonra arkadaşımız artık teminatı karşılığında MAI ödünç alabilir. DogeOfWallStreet, teminat/borç oranının %200'ün üzerinde kalmaya karar verir ve yalnızca 600 MAI borç alır. Daha sonra takas sayfasını kullanarak 594 USDC (%1 takas ücreti) alır ve ana ağa köprü kurar ve bir kez daha 20,00$ ücret öder. Ücret ödemeyi pek umursamıyor çünkü bunun bir kısmı madencilere yeniden dağıtılıyor ve o da onlardan biri ve bu ücretlerden para kazanmayı planlıyor.
 
-In order to get some USD out of his 574 USDC, DogeOfWallStreet moves the USDC to his Coinbase wallet where he can now sell them and transfer $562.00 USD (coinbase fee of 2%) to his paypal account, and finally to his bank account!
+DogeOfWallStreet, 574 USDC'sinden biraz USD almak için USDC'yi artık satabileceği Coinbase cüzdanına taşır ve 562,00 USD'yi (%2 stablecoin ücreti) paypal hesabına ve son olarak da banka hesabına aktarır!
 
-At this point, DogeOfWallStreet kept almost 100% of his ETH that is now generating 1.39% annually, AND he has 562.00 USD in his bank account. It's time to move to the next step!
+Bu noktada DogeOfWallStreet, şu anda yıllık %1,39 üreten ETH'sinin neredeyse %100'ünü elinde tuttu ve banka hesabında 562,00 USD var. Bir sonraki adıma geçme zamanı!
 
-## Investing in the real world
+## Gerçek dünyaya yatırım yapmak
 
-DogeOfWallStreet buys the 1660 super he wanted, paid some taxes and shipping fees for a grand total of $554.35. After a few days, he receives his GPU and installs it in his rig.
+DogeOfWallStreet istediği 1660 super'i satın aldı, toplamda 554,35 dolar gibi bazı vergiler ve nakliye ücretleri ödedi. Birkaç gün sonra GPU'sunu alır ve donanımına kurar.
 
-The extra GPU is increasing his mining revenue by $2.14 daily. It will take him 270 days to fully repay the card, which is an acceptable ROI according to him. Indeed, his $554.35 new investment will possibly generate a revenue of $781.10 ($2.14 \* 365) annually, which is an APR of 140.90%. This needs to be added to the $18.34 worth of camToken that the vault on Mai Finance is generating annually.
+Ekstra GPU, madencilik gelirini günlük 2,14$ artırıyor. Ona göre kabul edilebilir bir yatırım getirisi olan kartı tamamen geri ödemesi 270 gün sürecek. Gerçekten de, 554,35$'lık yeni yatırımı muhtemelen yıllık 781,10$ (2,14$ \* 365) gelir elde edecek ve bu da %140,90'lık bir APR'dir. Bunun, Mai Finance'teki kasanın yıllık olarak ürettiği 18.34 dolarlık camToken'a eklenmesi gerekiyor.
 
-Seeing those numbers, DogeOfWallStreet will certainly transfer all the ETH he is mining to Polygon and repeat the loop every month to acquire more cards, and mine more ETH.
+Bu sayıları gören DogeOfWallStreet, madenciliğini yaptığı tüm ETH'yi kesinlikle Polygon'a aktaracak ve daha fazla kart almak ve daha fazla ETH madenciliği yapmak için her ay döngüyü tekrarlayacaktır.
 
-At some point, if mining ETH becomes unprofitable, he can always switch to another coin (ETC, RVN, ERG...), but his mining rig is currently an amazing investment.
+Bir noktada, madencilik ETH'si kârsız hale gelirse, her zaman başka bir madeni paraya (ETC, RVN, ERG...) geçebilir. Ayrıca madencilik teçhizatı şu anda inanılmaz bir yatırımdır.
 
-## Initial investment and real life debt repayment strategies
+## İlk yatırım ve gerçek hayat borç geri ödeme stratejileri
 
-Thinking about it, DogeOfWallStreet is now sad that he didn't know Mai Finance existed before he bought his rig. Indeed, this is what he could have done
+Bunu düşününce DogeOfWallStreet, teçhizatını satın almadan önce Mai Finance'in varlığından haberdar olmadığı için üzgün. Aslında yapabilecekleri arasında;
 
-* Get a bank loan of $20,000.00 at 5% rate and a 2 years amortization ($877.43 repayment / mo)
-* Convert the USD to ETH, bridge it to Polygon, use AAVE and Mai Finance to borrow 10,000 MAI
-* Convert the MAI to USD and buy his rig + initial GPUs
-* Generate an average of $1,300.00 every month to repay his bank loan and keep the rest as ETH that can be used to repay his debt on Mai Finance, or increase his debt on Mai and invest into something else
+* %5 oranında 20.000,00$ banka kredisi ve 2 yıl amortisman (877,43$ geri ödeme/ay)
+* USD'yi ETH'ye dönüştürün, Polygon'a köprüleyin, 10.000 MAI ödünç almak için AAVE ve Mai Finance'i kullanın
+* MAI'yi USD'ye dönüştürün ve donanımını + ilk GPU'ları satın alın
+* Banka kredisini geri ödemek için her ay ortalama 1.300,00 $ oluşturun ve kalanını Mai Finance'deki borcunu ödemek için kullanılabilecek ETH olarak tutun veya Mai'deki borcunu artırın ve başka bir şeye yatırım yapın
 
-Alternatively, he could also split the $1,300.00 worth of ETH into
+Alternatif olarak, 1.300,00 dolar değerindeki ETH'yi de bölebilirsinç
 
-* A portion of ETH sold directly, but less than the amount owed every month to the bank
-* A portion of ETH bridged to Polygon and Mai Finance where he can borrow MAI and repay the rest of the bank loan
+* ETH'nin bir kısmı doğrudan satıldı, ancak her ay bankaya borçlu olunan miktardan daha az
+* ETH'nin bir kısmı, MAI'yi ödünç alabileceği ve banka kredisinin geri kalanını geri ödeyebileceği Polygon ve Mai Finance'e köprülendi
 
-Assuming you get _Earnings_ and need to repay a _Debt_ with _Earnings_ > _Debt_. Assuming that _Debt_ is also bigger than half of your _Earnings_. Let's assume _Fiat_ to be the portion of your _Earnings_ you need to use to repay your _Debt_, and _Crypto_ the portion that will be sent to Mai Finance to borrow MAI. We get the following equations
+_Kazanç_ elde ettiğinizi ve _Kazanç_ > _Borç_ ile bir _Borç_ ödemeniz gerektiğini varsayalım. _Borç_'un ayrıca _Kazançlarınızın_ yarısından büyük olduğunu varsayalım. Ayrıca _Fiat_'ın, _Borcunuzu_ ödemek için kullanmanız gereken _Kazançlarınızın_ kısmı olduğunu ve MAI'yi ödünç almak için Mai Finance'e gönderilecek olan kısmı _Crypto_ olarak varsayalım. Bu varsayımlarla aşağıdaki denklemleri elde ederiz.
 
 $$
 Earnings = Fiat + Crypto
@@ -80,7 +78,7 @@ $$
 Debt = Fiat+\frac{Crypto}{CDR}
 $$
 
-Which leads to the following results
+Şimdi sonuçları inceleyelim;
 
 $$
 Crypto=Earnings - \frac{Debt*CDR-Earnings}{CDR-1}
@@ -90,7 +88,7 @@ $$
 Fiat = \frac{Debt*CDR-Earnings}{CDR-1}
 $$
 
-In our example with $1,300.00 earned that need to pay a $878.00 debt, the math is
+1,300,00 $ kazanılan ve 878,00 $ borcunu ödemesi gereken örneğimizde, matematik şu şekildedir:
 
 $$
 Fiat=\frac{878*2-1300}{2-1}=\$456.00
@@ -100,20 +98,20 @@ $$
 Crypto=1300-\frac{878*2-1300}{2-1}=\$844.00
 $$
 
-Hence we need to sell $456.00 worth of ETH and use Mai Finance to borrow $422.00 of MAI from $844.00 worth of ETH deposited in the vault (assuming a collateral to debt ratio of 200%). It's clear that, by doing so, we're keeping more of our earnings and have to sell less crypto. It's a way to increase your savings while still repaying your debt outside of the crypto world.
+456,00$ değerinde ETH satmamız ve kasada yatırılan 844,00$ değerindeki ETH'den 422,00$ MAI ödünç almak için Mai Finance'i kullanmamız gerekiyor (%200'lük bir teminat/borç oranı varsayılarak). Bunu yaparak kazancımızın daha fazlasını elimizde tuttuğumuz ve daha az kripto satmamız gerektiği açık. Kripto dünyasının dışında borcunuzu ödemeye devam ederken tasarruflarınızı artırmanın bir yoludur.
 
-Of course, this is moving the debt that you need to repay to the bank to a debt you need to repay to Mai Finance. However, the fact that the bank has a high interest fee model, and that you need to repay monthly explains why it's better to move it to Mai Finance (0% interest, no time limit to repay).
+Tabii bu, bankaya geri ödemeniz gereken borcu, Mai Finance'e geri ödemeniz gereken bir borca ​​taşıyor. Ancak, bankanın yüksek faiz ücreti modeline sahip olması ve aylık olarak geri ödemeniz gerektiği gerçeği, onu Mai Finance'e taşımanın neden daha iyi olduğunu açıklıyor (%0 faiz, geri ödeme için zaman sınırı yok).
 
 {% hint style="info" %}
-If you want to use a more agressive Collateral to Debt ratio, you would be able to sell less crypto to fiat, and deposit/borrow more from Mai vaults. As an example, with a CDR of 175%, you would sell the equivalent of $316.00 of ETH and keep $984.00 in Mai Finance to borrow $562.00 of MAI, still repaying your $878.00 debt to the bank every month.
+Daha agresif bir Teminat Borç oranı kullanmak istiyorsanız, fiat'a daha az kripto satabilir ve Mai kasalarından daha fazla para yatırabilir/ödünç alabilirsiniz. Örnek olarak, %175'lik bir CDR ile, ETH'nin 316,00$ eşdeğerini satar ve 984,00$'ını Mai Finance'te tutarak 562,00$ MAI ödünç alırsınız, yine de her ay bankaya 878,00$ borcunuzu geri ödersiniz.
 {% endhint %}
 
-**Note**: All the math here is not including transaction fees.
+**Not**: Buradaki tüm matematik işlem ücretleri dahil değildir.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-This tutorial is absolutely not financial advice and should absolutely not be taken for granted. Mining Ethereum is a risky business. Hardware is still pretty expensive and there's no guarantee that mining will still be profitable in the near future. Investing in mining should be done at your own risk, please understand how mining works, and make sure the ROI is acceptable for you. Mining revenues are highly depending on the demand for transactions, and may become unprofitable before you could fully repay your initial investment.
+Bu eğitim kesinlikle finansal tavsiye değildir ve kesinlikle hafife alınmamalıdır. Ethereum madenciliği riskli bir iştir. Donanım hala oldukça pahalı ve madenciliğin yakın gelecekte hala karlı olacağının garantisi yok. Madenciliğe yatırım yapmak kendi sorumluluğunuzdadır, lütfen madenciliğin nasıl çalıştığını anlayın ve yatırım getirisinin sizin için kabul edilebilir olduğundan emin olun. Madencilik gelirleri büyük ölçüde işlem talebine bağlıdır ve ilk yatırımınızı tam olarak geri ödeyemeden önce kârsız hale gelebilir.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen gelişmelerden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
