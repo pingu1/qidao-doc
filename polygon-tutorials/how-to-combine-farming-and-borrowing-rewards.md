@@ -213,5 +213,5 @@ Stabil coin çiftçiliğinde %28 APY almak çok da kötü değil. Peki 1.000 $ d
 Bu strateji gerçekten ilginç ve Mai Finance'in çoğu kasasını kullanıyor. Kılavuz çoğunlukla Eylül 2021'den itibaren stabil paralar üretirken daha fazla ödül kazanılabilecek stratejiler olduğunu göstermek için yazılmıştır. Ancak bu strateji en ilginç olanı olmayabilir ve çeşitli platformlarda çok sayıda manipülasyon içerir. Son olarak Augury çeşitli stratejilere dahil edilebilecek ancak muhtemelen yalnızca stabil çiftçilik yapmayan tokenlar üreten harika bir araçtır. Ve bir dip not olarak, nihai APY hesaplanırken hiçbir depozito ücreti veya performans ücreti dikkate alınmamıştır.
 
 {% hint style="info" %}
-Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen gelişmelerden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
