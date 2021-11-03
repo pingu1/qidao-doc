@@ -148,7 +148,7 @@ camWMATIC daha sonra, MAI'yi ödünç almamıza ve basılmış MAI'nin bir kısm
 
 Aşağıda, 1.000 $ değerinde MAI/USDC LP tokenları ve farklı platformlar tarafından 30 Ağustos 2021'de verilen mevcut APR'ler / APY'ler ile yapılan bir simülasyon yer almaktadır. Bu strateji yukarıda tanımladığımız şeyin gerçek bir uygulaması değildir. Oranlar değişecek, token fiyatları değişecek, bazı programlar sona erecek vs... bu nedenle nihai sonuçlar, her şey sabit kalırsa elde edebileceğinizin bir tahminidir, ki bu asla böyle olmayacak.
 
-### Day 1
+### 1. gün
 
 1.000$ değerinde MAI/USDC'ye sahip olduğumuz için, LP tokenlarını QuickSwap ve Impermax arasında bölmek istiyoruz. Impermax, mevduatımızdan yararlanmamıza izin verdiği için, QuickSwap'a daha fazla token koyabilir ve QuickSwap'ta elde ettiğimizle eşleştirmek için Impermax'taki kaldıraç seçeneğini kullanabiliriz.
 
