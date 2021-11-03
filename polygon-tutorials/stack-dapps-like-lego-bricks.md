@@ -19,7 +19,7 @@ QuickSwap, Polygon'daki en büyük AMM'lerden biridir (**A**utomatic **M**arket 
 
 Bu alıştırma için QuickSwap'ta MAI/USDC çiftini kullanacağız. İstikrarlı bir havuz olan bu likidite havuzu, bir APY (**A**nnual **P**ercentage **Y**ield %20 ile %25 arasında değişen getiri) önerir. Getiri, işlem ücretlerinden (likidite havuzuna tahakkuk eden) ve QUICK ödüllerden oluşur
 
-![Ağustos 2021 itibariyle QuickSwap'ta MAI/USDC likidite havuzu](<../.gitbook/assets/Screen Shot 2021-08-11, 12.37.56 PM.png>)
+![Ağustos 2021 itibariyle QuickSwap'ta MAI/USDC likidite havuzu](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
 
 Havuz her gün sabit miktarda QUICK token alır ve daha sonra havuzdaki paylarına göre likidite sağlayıcılarına dağıtılır. Örnek olarak, havuzda 1.000.000$ değerinde likidite varsa ve zaten 1.000$ LP (**L**iquidity**P**rovider) tokenları yatırdıysanız, havuzun %0,1'ine sahip olursunuz ve bu da size hak kazandırır. günlük QUICK ödülünün %0,1'ine kadar. Girdiğiniz havuzu yönettiğinizde Quick ödülünüz talep edilebilir.
 
@@ -31,7 +31,7 @@ Quick'leri terkar işleme koymak için düzenli olarak talep edebilirsiniz. Nas�
 
 Dragon's Lair, QuickSwap'taki kazançlarınızı optimize etmenin bir yoludur. Likidite havuzlarından kazandığınız QUICK'leri Lair'e yatırabilirsiniz ve bunlar size ek QUICK ödüller kazandıracaktır. QUICK'leri satmak yerine saklamak istiyorsanız bence iyi bir fikir. QUICK tokenlarınızı Dragon's Lair'e yatırıldığında, ürettikleri ödüller otomatik olarak birleştirilir ve Lair'in APY'si yaklaşık %12'dir.
 
-![Ağustos 2021 itibarıyla Dragon's Lair APY](<../.gitbook/assets/Screen Shot 2021-08-30, 6.42.39 AM.png>)
+![Ağustos 2021 itibarıyla Dragon's Lair APY](../.gitbook/assets/Screen Shot 2021-08-30 at 6.42.39 AM.png>)
 
 QUICK'leri yatırdıktan sonra, sahip olduğunuz QUICK havuzunun payını temsil eden bazı dQUICK tokenı cüzdanınıza alacaksınız. dQUICK havuzdaki payınızı temsil ettiğinden QUICK:dQUICK oranının 1:1 olmadığını, havuza daha fazla ödül eklendikçe QUICK miktarının zamanla artacağını unutmayın.
 
@@ -229,7 +229,7 @@ Bu noktada, Mai Finance üzerindeki "borç", hem QuickSwap hem de Impermax'ta MA
 
 ## Çiftlilik Sonuçları
 
-![](<../.gitbook/assets/Screen Shot 2021-08-30, 11.33.34 AM.png>)
+![](<../.gitbook/assets/Screen Shot 2021-08-30 at 11.33.34 AM.png>)
 
 ### Günlük Rutin
 
