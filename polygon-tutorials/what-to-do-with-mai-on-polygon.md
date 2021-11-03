@@ -79,7 +79,7 @@ QuickSwap'ta MAI'yi kullanma şekliniz [düzenli verim çiftliğine](secure-your
 * ticaret ücretleri
 * QUICK
 
-![Ağustos 2021 itibarıyla QuickSwap'taki MAI/USDC havuzunun ayrıntıları](<../.gitbook/assets/Screen Shot 2021-08-11, 12.37.56 PM.png>)
+![Ağustos 2021 itibarıyla QuickSwap'taki MAI/USDC havuzunun ayrıntıları](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
 
 ## Degen Çiftlikleri ve Toplayıcılar
 
@@ -95,7 +95,7 @@ Adamant şu anda MAI/USDC LP çiftini kabul eden birkaç havuzu desteklemektedir
 * DinoSwap: Dino ödülü, daha fazla MAI/USDC LP ve WMATIC ödülüyle değiştirildi
 * Mai Finance: Qi ödülü, daha fazla MAI/USDC LP ve WMATIC ödülüyle değiştirildi
 
-![Adamant'ta QuickSwap MAI/USDC havuzu](<../.gitbook/assets/Screen Shot 2021-08-11, 12.51.12 PM.png>)
+![Adamant'ta QuickSwap MAI/USDC havuzu](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.51.12 PM.png>)
 
 {% hint style="info" %}
 QuickSwap web sitesindeki QuickSwap havuzunun ekran görüntüleri (yukarıdaki paragrafa bakın) ve Adamant aynı gün çekilmiştir, ancak farklı APY'leri göstermektedir (**A**nnual **P**ercentage **Y**ields).
@@ -152,7 +152,7 @@ Ayrıca, tüm oranlar, döngünün uygulanma sayısı ile büyütüldüğünden 
 
 Günün sonunda temel APR'yi çok daha büyük bir değerde kullanıyorsunuz, bu da çok daha büyük faizler kazandırıyor ve ilk konumunuzun APR'sini artırıyor.
 
-![Başlangıçta 70,52$ MAI/USDC çifti olan bir Impermax panosu örneği](<../.gitbook/assets/Screen Shot 2021-08-11, 138.33 PM.png>)
+![Başlangıçta 70,52$ MAI/USDC çifti olan bir Impermax panosu örneği](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.38.33 PM.png>)
 
 Ne kadar teminat kullandığımı, başlangıçta ne kadar yatırım yaptığımı, kaldıraç oranının ne olduğunu ve kaldıraç oranından dolayı likidasyon değerlerinin ne olduğunu çok rahat görebiliyorum. Bu pozisyon bana aşağıdaki oranları verecek
 
