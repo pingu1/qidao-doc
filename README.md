@@ -1,6 +1,12 @@
 ---
 description: >-
+<<<<<<< HEAD
   Bu site ve içerik, Mai Finance topluluğu tarafından yönetilir ve platformla ilişkili DeFi uygulamalarını keşfetmek için bir kaynak görevi üstlenir. Platformun sabit kripto parası MAI'dir.
+=======
+  Bu site ve içerik, Mai Finance topluluğu tarafından yönetilir ve platformla
+  ilişkili DeFi uygulamalarını keşfetmek için bir kaynak görevi üstlenir.
+  Platformun sabit kripto parası MAI'dir.
+>>>>>>> 43cfcfa (GitBook: [#3] Polygon section for TR)
 ---
 
 # Mai Finance için Topluluk Rehberi

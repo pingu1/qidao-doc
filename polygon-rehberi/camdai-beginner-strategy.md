@@ -53,7 +53,7 @@ Artık [camDAI'nizi yatırabilirsiniz](https://app.mai.finance/vaults) tokenlar�
 
 ### Zapper
 
-[Zapper](https://zapper.fi/dashboard), Polygon'da  DeFi'nin bir İsviçre çakısıdır. Bu platform, likidite havuzlarında getiri elde etmenize, varlıklarınızı doğrudan kendi platformlarından AAVE'ye ödünç vermenize, farklı yatırımlarınızın bir gösterge tablosunu sunmanıza ve bazı para birimlerini diğer para birimleriyle değiştirmenize olanak tanır. Ödünç aldığımız MAI sabit parasını daha fazla DAI ile değiştirmek için kullanacağımız son özelliktir.
+[Zapper](https://zapper.fi/dashboard), Polygon'da DeFi'nin bir İsviçre çakısıdır. Bu platform, likidite havuzlarında getiri elde etmenize, varlıklarınızı doğrudan kendi platformlarından AAVE'ye ödünç vermenize, farklı yatırımlarınızın bir gösterge tablosunu sunmanıza ve bazı para birimlerini diğer para birimleriyle değiştirmenize olanak tanır. Ödünç aldığımız MAI sabit parasını daha fazla DAI ile değiştirmek için kullanacağımız son özelliktir.
 
 ![MAI'yi DAI ile swaplama](../.gitbook/assets/camDAI-zapper.png)
 
@@ -61,7 +61,7 @@ Vahşi Batı örneğimizde Zapper, paranızı kabul edecek ve size altın sataca
 
 ### Balancer
 
-Yukarıdaki ekran görüntüsünde görebileceğiniz gibi, Zapper, Balancer'ın swap işleminin yapılacağı protokole sahiptir. [Balancer](https://polygon.balancer.fi/#/), likidite sağlayabileceğiniz (ve bundan ücret alabileceğiniz) veya likiditeyi kullanarak para birimleri takas edebileceğiniz otomatik bir portföy yöneticisi, likidite sağlayıcısı ve fiyat sensörüdür. 
+Yukarıdaki ekran görüntüsünde görebileceğiniz gibi, Zapper, Balancer'ın swap işleminin yapılacağı protokole sahiptir. [Balancer](https://polygon.balancer.fi/#/), likidite sağlayabileceğiniz (ve bundan ücret alabileceğiniz) veya likiditeyi kullanarak para birimleri takas edebileceğiniz otomatik bir portföy yöneticisi, likidite sağlayıcısı ve fiyat sensörüdür.
 
 Rehberimiz için, yatırımlarımızı biraz daha oynaklığa maruz bırakmak ve daha iyi çıkarlar elde etmek için Balancer'ı kullanacağız. Elbett tercihe göre değişebilir.
 
@@ -80,7 +80,7 @@ Bu bizim ilk adımımız olacak. 100$ değerinde DAI'miz olduğunu varsayarsak, 
 camDAI için minimum CDR (**C**, **D**ebt **R**atio'nun tamamlayıcısı) %110'dur. Bu, teminatınız (100$ değerinde DAI) ile almak üzere olduğumuz kredi arasındaki oranın %110'un üzerinde kalması gerektiği anlamına gelir.
 
 {% hint style="danger" %}
-CRD oranı minimum %110 değerine ulaşırsa, teminatınızın değer kaybettiği ve borcunuzun teminatınızın değerinden daha büyük olabileceği anlamına gelir. Bu noktada kasanız likidasyon edilebilir. Birisi borcunuzun bir kısmını geri ödeyebilir ve tazminat olarak teminatınızın bir kısmını alabilir. Bununla birlikte, hem DAI hem de MAI  USD dolarına sabitlenmiş sabit paralar olduğundan, 2 varlık arasında büyük bir fark elde etme riski çok düşüktür. Bu durum stratejiyi oldukça güvenli kılar.
+CRD oranı minimum %110 değerine ulaşırsa, teminatınızın değer kaybettiği ve borcunuzun teminatınızın değerinden daha büyük olabileceği anlamına gelir. Bu noktada kasanız likidasyon edilebilir. Birisi borcunuzun bir kısmını geri ödeyebilir ve tazminat olarak teminatınızın bir kısmını alabilir. Bununla birlikte, hem DAI hem de MAI USD dolarına sabitlenmiş sabit paralar olduğundan, 2 varlık arasında büyük bir fark elde etme riski çok düşüktür. Bu durum stratejiyi oldukça güvenli kılar.
 {% endhint %}
 
 Likidasyon riskini oldukça düşük tutmak için %115'lik bir CDR'ye bağlı kalmaya çalışacağız. %115'lik bir CDR'de kalmak için ne kadar MAI ödünç alabileceğimizi bilmek için şu formülü kullanacağız:
@@ -97,25 +97,25 @@ $$
 
 ​Daha sonra ödünç aldığınız MAI'yi DAI ile değiştirebilir ve tekrarlayabilirsiniz. Teminatınız ve borcunuz şöyle görünmelidir:
 
-| Döngü# |  Teminat   | Borç    | Uygun Kiralama | Eş Değer APY   | DAI likidasyon fiyatı |
-| ------ | ---------- | ------- | -------------- | -------------- | --------------------- |
-| 1      | 100.000    | 0.000   | 86.956         | 10.42%         | 0                     |
-| 2      | 189.956    | 86.956  | 75.614         | 19.48%         | 0.512                 |
-| 3      | 262.571    | 162.571 | 62.751         | 27.36%         | 0.681                 |
-| 4      | 328.323    | 228.323 | 57.175         | 34.21%         | 0.765                 |
-| 5      | 385.498    | 285.498 | 49.718         | 40.17%         | 0.815                 |
-| 6      | 435.216    | 335.216 | 43.233         | 45.35%         | 0.847                 |
-| 7      | 478.449    | 278.448 | 37.593         | 49.85%         | 0.870                 |
-| 8      | 516.042    | 416.042 | 32.690         | 53.77%         | 0.887                 |
-| 9      | 548.732    | 448.732 | 28.426         | 57.18%         | 0.899                 |
-| 10     | 577.158    | 477.158 | 24.718         | 60.14%         | 0.909                 |
-| 11     | 601.877    | 501.877 | 21.494         | 62.72%         | 0.917                 |
-| 12     | 623.371    | 523.371 | 18.691         | 64.96%         | 0.924                 |
-| 13     | 642.062    | 542.062 | 16.253         | 66.90%         | 0.929                 |
-| 14     | 658.315    | 558.315 | 14.133         | 68.60%         | 0.933                 |
-| 15     | 672.448    | 572.448 | 12.289         | 70.07%         | 0.936                 |
-| 16     | 684.737    | 584.737 | 10.686         | 71.35%         | 0.939                 |
-| 17     | 695.423    | 595.423 | 9.293          | 72.46%         | 0.942                 |
+| Döngü# | Teminat | Borç    | Uygun Kiralama | Eş Değer APY | DAI likidasyon fiyatı |
+| ------ | ------- | ------- | -------------- | ------------ | --------------------- |
+| 1      | 100.000 | 0.000   | 86.956         | 10.42%       | 0                     |
+| 2      | 189.956 | 86.956  | 75.614         | 19.48%       | 0.512                 |
+| 3      | 262.571 | 162.571 | 62.751         | 27.36%       | 0.681                 |
+| 4      | 328.323 | 228.323 | 57.175         | 34.21%       | 0.765                 |
+| 5      | 385.498 | 285.498 | 49.718         | 40.17%       | 0.815                 |
+| 6      | 435.216 | 335.216 | 43.233         | 45.35%       | 0.847                 |
+| 7      | 478.449 | 278.448 | 37.593         | 49.85%       | 0.870                 |
+| 8      | 516.042 | 416.042 | 32.690         | 53.77%       | 0.887                 |
+| 9      | 548.732 | 448.732 | 28.426         | 57.18%       | 0.899                 |
+| 10     | 577.158 | 477.158 | 24.718         | 60.14%       | 0.909                 |
+| 11     | 601.877 | 501.877 | 21.494         | 62.72%       | 0.917                 |
+| 12     | 623.371 | 523.371 | 18.691         | 64.96%       | 0.924                 |
+| 13     | 642.062 | 542.062 | 16.253         | 66.90%       | 0.929                 |
+| 14     | 658.315 | 558.315 | 14.133         | 68.60%       | 0.933                 |
+| 15     | 672.448 | 572.448 | 12.289         | 70.07%       | 0.936                 |
+| 16     | 684.737 | 584.737 | 10.686         | 71.35%       | 0.939                 |
+| 17     | 695.423 | 595.423 | 9.293          | 72.46%       | 0.942                 |
 
 17 döngüde duruyoruz ama isterseniz daha fazlasını çalıştırabilirsiniz.
 
@@ -131,24 +131,24 @@ $$
 
 ### Alternatif Strateji
 
-Yüksek volatiliteli varlıkları değerlendirmek için, yukarıdakiyle aynı döngüyü kullanabilir. Ödünç alınan MAI'nin yalnızca %90'ını kaldıraç edebilir ve %10'unu başka bir şey satın almak için kullanabilirsiniz. Bu örnekte, %10'u Qi (Mai Finance'in yerel tokenı) satın almak için kullanacağız ve şu anda 107.12% APR (**A**nnual **P**ercentage **R**evenue) olan Balancer'da Qi-BAL havuzunu kullanacağız 
+Yüksek volatiliteli varlıkları değerlendirmek için, yukarıdakiyle aynı döngüyü kullanabilir. Ödünç alınan MAI'nin yalnızca %90'ını kaldıraç edebilir ve %10'unu başka bir şey satın almak için kullanabilirsiniz. Bu örnekte, %10'u Qi (Mai Finance'in yerel tokenı) satın almak için kullanacağız ve şu anda 107.12% APR (**A**nnual **P**ercentage **R**evenue) olan Balancer'da Qi-BAL havuzunu kullanacağız
 
 ![Ekim 2021 itibarıyla Qi-BAL havuz durumu](../.gitbook/assets/camDAI-balancer.png)
 
 camDAI kasasına yeniden daha az DAI enjekte ettiğimiz için daha az döngü çalıştıracağız. Kurulum şöyle görünecek:
 
-| Döngü# |  Teminat   | Borç    | Qi     | Uygun Kiralama |  Eş Değer APY  | DAI likidasyon fiyatı |
-| ------ | ---------- | ------- | ------ | -------------- | -------------- | --------------------- |
-| 1      | 100.000    | 0.000   | 0.000  | 86.957         | 10.42%         | 0                     |
-| 2      | 178.261    | 86.957  | 8.696  | 68.053         | 35.22%         | 0.537                 |
-| 3      | 239.509    | 155.009 | 15.501 | 53.259         | 54.63%         | 0.712                 |
-| 4      | 287.441    | 208.268 | 20.827 | 41.681         | 69.82%         | 0.797                 |
-| 5      | 324.954    | 249.949 | 24.995 | 32.620         | 81.71%         | 0.846                 |
-| 6      | 354.312    | 282.569 | 28.257 | 25.529         | 91.01%         | 0.877                 |
-| 7      | 377.288    | 308.097 | 30.810 | 19.979         | 98.29%         | 0.898                 |
-| 8      | 395.269    | 328.076 | 32.808 | 15.636         | 103.99%        | 0.913                 |
-| 9      | 409.341    | 343.712 | 34.371 | 12.237         | 108.45%        | 0.924                 |
-| 10     | 420.354    | 355.948 | 35.595 | 9.576          | 111.94%        | 0.931                 |
+| Döngü# | Teminat | Borç    | Qi     | Uygun Kiralama | Eş Değer APY | DAI likidasyon fiyatı |
+| ------ | ------- | ------- | ------ | -------------- | ------------ | --------------------- |
+| 1      | 100.000 | 0.000   | 0.000  | 86.957         | 10.42%       | 0                     |
+| 2      | 178.261 | 86.957  | 8.696  | 68.053         | 35.22%       | 0.537                 |
+| 3      | 239.509 | 155.009 | 15.501 | 53.259         | 54.63%       | 0.712                 |
+| 4      | 287.441 | 208.268 | 20.827 | 41.681         | 69.82%       | 0.797                 |
+| 5      | 324.954 | 249.949 | 24.995 | 32.620         | 81.71%       | 0.846                 |
+| 6      | 354.312 | 282.569 | 28.257 | 25.529         | 91.01%       | 0.877                 |
+| 7      | 377.288 | 308.097 | 30.810 | 19.979         | 98.29%       | 0.898                 |
+| 8      | 395.269 | 328.076 | 32.808 | 15.636         | 103.99%      | 0.913                 |
+| 9      | 409.341 | 343.712 | 34.371 | 12.237         | 108.45%      | 0.924                 |
+| 10     | 420.354 | 355.948 | 35.595 | 9.576          | 111.94%      | 0.931                 |
 
 10 döngünün sonunda,
 

@@ -9,7 +9,7 @@ description: >-
 
 Qi (\[tʃ Í] veya _chee_), Mai Finance'in tokenıdır. Bazıları onu oy vermek ve QIP (**Q**iDAO **I**geliştirme **P**roposallar) için kullanır, bazıları daha fazlasını elde etmek için riske atar ve bazıları basitçe onunla farmlar. [Pasif gelire ayrılmış kılavuzda](../mai-university/earning-passive-income-with-qidao.md) Mai Finance ile Qi'yi nasıl kullanabileceğiniz hakkında çok iyi bilgiler bulabilirsiniz.
 
-Bu kılavuz, Qi kullanarak öncelikle çiftçilik ve hasat verimine (*yield farming*) odaklanacaktır. Nasıl çok sayıda Qi üretebileceğinizi ve bunları Polygon'daki farklı platformlarda nasıl kullanabileceğinizi göreceğiz.
+Bu kılavuz, Qi kullanarak öncelikle çiftçilik ve hasat verimine (_yield farming_) odaklanacaktır. Nasıl çok sayıda Qi üretebileceğinizi ve bunları Polygon'daki farklı platformlarda nasıl kullanabileceğinizi göreceğiz.
 
 Mütevazı çiftçiler bazen size alçakgönüllü kalmanız, hasat ettiğinizi satmanız ve kar etmeniz gerektiğini söyleyecektir. Ama kişisel olarak şunu söyleyeceğim:
 
@@ -25,7 +25,7 @@ Bu kısma çok fazla zaman ayırmayacağım. Zaten konuyla ilgili tam bir rehber
 
 ### LP token çiftçiliği
 
-Verim elde etmek ve farming tokenlarını asla satmayarak, Qi çiftçilik stratejinize nasıl dahil edebileceğinizi gösteren birkaç sayfa daha var. Örnek ayrıntılar için [DApps like Lego bricks](stack-dapps-like-lego-bricks.md) veya [Farming or Staking?](tarım-or-stake-or-both.md) kılavuzlarına bakın.
+Verim elde etmek ve farming tokenlarını asla satmayarak, Qi çiftçilik stratejinize nasıl dahil edebileceğinizi gösteren birkaç sayfa daha var. Örnek ayrıntılar için [DApps like Lego bricks](stack-dapps-like-lego-bricks.md) veya [Farming or Staking?](../polygon-tutorials/tar%C4%B1m-or-stake-or-both.md) kılavuzlarına bakın.
 
 Hızlı bir hatırlatma olarak, Qi, [QuickSwap](https://quickswap.exchange/#/quick) üzerinde LP (**L**iquidity **P**rovider) çiftleri oluşturmak için farklı tokenlarla eşleştirilir.
 
@@ -75,7 +75,7 @@ BAL kasalarının APR'si, kasanın döngüde olmasının ne kadar ilginç olduğ
 
 ## Qi'nin Fiyatı Üzerine
 
-Çok fazla Qi'ye sahip olmak iyi bir şeydir, ancak token zamanla değer kaybederse onu tutmak gerçekten iyi bir strateji midir? Bu bölümde, Qi'nizin fiyatını doğrudan etkileyen farklı faktörleri anlamaya çalışacağız. Böylece Qi'nize yatırım yapmaya başladığınızda, fiyatının nasıl değişebileceği ve bunun üzerinde ne gibi bir etki yaratacağınız hakkında daha iyi bir fikir edineceksiniz. 
+Çok fazla Qi'ye sahip olmak iyi bir şeydir, ancak token zamanla değer kaybederse onu tutmak gerçekten iyi bir strateji midir? Bu bölümde, Qi'nizin fiyatını doğrudan etkileyen farklı faktörleri anlamaya çalışacağız. Böylece Qi'nize yatırım yapmaya başladığınızda, fiyatının nasıl değişebileceği ve bunun üzerinde ne gibi bir etki yaratacağınız hakkında daha iyi bir fikir edineceksiniz.
 
 ### Qi Emisyonu
 
@@ -104,7 +104,7 @@ Getiri optimizasyon araçları, ödülleri önceden tanımlanmış bazı stratej
 
 Örnek olarak, Adamant size Qi/WMATIC LP çiftini aşağıdaki ödül dağıtımıyla kendi platformlarında toplamanızı önerir.
 
-![Adamant'taki Qi-WMATIC havuzu ](<../.gitbook/assets/image (15).png>)
+![Adamant'taki Qi-WMATIC havuzu](<../.gitbook/assets/image (15).png>)
 
 ![Adamant tarafından verilen %179.23 APR'nin ayrıntıları](<../.gitbook/assets/image (14).png>)
 

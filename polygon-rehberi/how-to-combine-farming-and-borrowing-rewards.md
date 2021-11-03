@@ -41,7 +41,7 @@ Stratejimizde, kullanıcıları bir WETH/WBTC/LINK/WMATIC/USDC karışımı ile 
 
 ### Curve
 
-Curve, *blue chip* tokenları ödünç veren kullanıcıları ödüllendiren bir projedir. Ödül, Mai Finance'te teminat olarak kabul edilen 2 token olan otomatik olarak birleştirilmiş tokenlarıdan (yatırıma geri eklenir), WMATIC tokenlarından ve CRV tokenlarından oluşur.
+Curve, _blue chip_ tokenları ödünç veren kullanıcıları ödüllendiren bir projedir. Ödül, Mai Finance'te teminat olarak kabul edilen 2 token olan otomatik olarak birleştirilmiş tokenlarıdan (yatırıma geri eklenir), WMATIC tokenlarından ve CRV tokenlarından oluşur.
 
 Curve ve havuzları hakkında dikkat edilmesi gereken çok ilginç şeylerden biri, belirli bir havuz için her tokenın kesin bir miktarını yatırmak zorunda olmamasıdır. Bunun yerine, tek bir token sağlanabilir ve havuzu yöneten algoritma, yatırdığınız miktarın bir kısmını satarak diğer tokenları otomatik olarak ayarlayacak ve havuzda doğru bir oranı korumak için diğer tokenları satın alacaktır.
 
@@ -57,7 +57,7 @@ Augury ile ilgili paragrafta bahsedildiği gibi, AAVE, Augury'de yetiştirilen t
 
 ### Balancer
 
-Balancer, Curve gibi başka bir *blue chip* projesidir. 2'den fazla tokendan oluşan havuzlara belirli tokenları yatırabileceksiniz ve aynı zamanda tek bir token yatırabileceksiniz. Havuz, içeriği oluşturan her tokenın eşit bir oranını elde etmek için otomatik olarak dengelenecektir.
+Balancer, Curve gibi başka bir _blue chip_ projesidir. 2'den fazla tokendan oluşan havuzlara belirli tokenları yatırabileceksiniz ve aynı zamanda tek bir token yatırabileceksiniz. Havuz, içeriği oluşturan her tokenın eşit bir oranını elde etmek için otomatik olarak dengelenecektir.
 
 Stratejimiz için WETH/BAL/Qi/MAI/USDC havuzunu kullanacağız. Bu havuz, Mai Finance'deki kasalardan toplanacak Qi tokenını kabul edecek ve bizi ek Qi ile ödüllendirecek ve BAL kasasında Mai Finance'e yatırabileceğimiz BAL tokenları ile daha fazla MAI elde ederek Augury'de pozisyonumuzu artıracağız.
 
@@ -87,20 +87,20 @@ Bu APR'lerin tümü farklı platformlarda değişebilir ve bir yıl boyunca deva
 
 ### Birinci Gün
 
-1000$ değerinde WETH'niz varsa amWETH almak için AAVE'ye yatırın, ardından camWETH almak için amWETH'inizi [Mai Finance](https://app.mai.finance/yield)'e yatırın ve son olarak camWETH'inizi 500 MAI ödünç alabilmek ilgili kasaya yatırın. 
+1000$ değerinde WETH'niz varsa amWETH almak için AAVE'ye yatırın, ardından camWETH almak için amWETH'inizi [Mai Finance](https://app.mai.finance/yield)'e yatırın ve son olarak camWETH'inizi 500 MAI ödünç alabilmek ilgili kasaya yatırın.
 
 MAI'nizi USDT'ye dönüştürmek için [Anchor](https://app.mai.finance/anchor) kullanın (veya varsa [QuickSwap](https://quickswap.exchange/#/) gibi başka bir DEX kullanabilirsiniz. Bağlantıda likidite yoksa o zaman USDT'nizin %50'sini UST'ye takas etmek için [DFYN](https://exchange.dfyn.network/#/) kullanabilir ve daha sonra para yatırabileceğiniz bir USDT-UST çifti oluşturabilirsiniz. [Ağustos](https://augury.finance/infusions/). QuickSwap üzerinden satın alabileceğiniz bazı OMEN'lere de ihtiyacınız olacağını unutmayın.
 
 Birinci günün sonunda aşağıdaki ödülleri toplarız
 
-| Ödül Tipi                | Dolar karşılığı  |
-| ----------------------   | ---------------- |
-| WBTC çiftçiliğinden      | 0.123            |
-| WETH çiftçiliğinden      | 0.031            |
-| WMATIC çiftçiliğinden    | 0.031            |
-| LINK çiftçiliğinden      | 0.031            |
-| USDC çiftçiliğinden      | 0.092            |
-| Qi kasa ödülü            | 0.295            |
+| Ödül Tipi             | Dolar karşılığı |
+| --------------------- | --------------- |
+| WBTC çiftçiliğinden   | 0.123           |
+| WETH çiftçiliğinden   | 0.031           |
+| WMATIC çiftçiliğinden | 0.031           |
+| LINK çiftçiliğinden   | 0.031           |
+| USDC çiftçiliğinden   | 0.092           |
+| Qi kasa ödülü         | 0.295           |
 
 Bunlar sadece ilk günün sonunda çiftçilikten ve borçlanarak elde ettiğimiz ödüller.
 
@@ -110,16 +110,16 @@ Bunlar sadece ilk günün sonunda çiftçilikten ve borçlanarak elde ettiğimiz
 
 İkinci günün sonunda aşağıdaki ödülleri toplarız
 
-| Ödül Tipi                   |  Dolar karşılığı |
-| --------------------------- | ---------------- |
-| WBTC çiftçiliğinden         | 0.123            |
-| WETH çiftçiliğinden         | 0.031            |
-| WMATIC çiftçiliği + Curve   | 0.031            |
-| LINK çiftçiliğinden         | 0.031            |
-| USDC çiftçiliğinden         | 0.093            |
-| CRV Curve'den ödül          | 0.00004          |
-| BAL ödülü                   | 0.00005          |
-| Qi kasa ödülü               | 0.296            |
+| Ödül Tipi                 | Dolar karşılığı |
+| ------------------------- | --------------- |
+| WBTC çiftçiliğinden       | 0.123           |
+| WETH çiftçiliğinden       | 0.031           |
+| WMATIC çiftçiliği + Curve | 0.031           |
+| LINK çiftçiliğinden       | 0.031           |
+| USDC çiftçiliğinden       | 0.093           |
+| CRV Curve'den ödül        | 0.00004         |
+| BAL ödülü                 | 0.00005         |
+| Qi kasa ödülü             | 0.296           |
 
 Sistem tıkır tıkır çalışıyor, ödülleri topluyoruz ve her adım bir sonrakini besleyecek akışa sahip. Güzel ve küçük bir döngü oluşturduk.
 
@@ -153,20 +153,20 @@ Ek olarak, BAL (Balancerdaki Qi yatırımınızdan) ve Qi tokenlarından (kasa �
 
 ### Aylık Ham Sonuçlar
 
-|   Ay  | USDT-UST | atricrypto3 | Balancer | camWBTC | camWETH  | camWMATIC | LINK  | CRV   | BAL  |   |
-| ----- | -------- | ----------- | -------- | ------- | -------- | --------- | ----- | ----- | ---- | - |
-| 1     | 503.84   | 2.79        | 9.01     | 3.72    | 1,002.34 | 0.94      | 0.93  | 0.001 | 0.02 |   |
-| 2     | 507.88   | 5.66        | 18.39    | 7.47    | 1,004.68 | 1.93      | 1.87  | 0.003 | 0.09 |   |
-| 3     | 511.99   | 8.47        | 28.14    | 11.24   | 1,007.04 | 2.96      | 2.81  | 0.004 | 0.21 |   |
-| 4     | 516.18   | 11.36       | 38.28    | 15.06   | 1,009.41 | 4.02      | 3.76  | 0.005 | 0.38 |   |
-| 5     | 520.43   | 14.28       | 48.83    | 18.90   | 1,011.79 | 5.13      | 4.72  | 0.007 | 0.60 |   |
-| 6     | 524.76   | 17.23       | 59.79    | 22.78   | 1,014.18 | 6.29      | 5.69  | 0.008 | 0.87 |   |
-| 7     | 529.17   | 20.21       | 71.18    | 26.69   | 1,016.58 | 7.48      | 6.67  | 0.010 | 1.21 |   |
-| 8     | 533.66   | 23.24       | 83.03    | 30.63   | 1,018,99 | 8.72      | 7.65  | 0.011 | 1.60 |   |
-| 9     | 538.22   | 26.29       | 95.34    | 34.61   | 1,021.42 | 10.01     | 8.64  | 0.013 | 2.05 |   |
-| 10    | 542.87   | 29.38       | 108.14   | 38.63   | 1,023.86 | 11.34     | 9.64  | 0.014 | 2.57 |   |
-| 11    | 547.61   | 32.51       | 121.44   | 42.68   | 1,026.31 | 12.72     | 10.65 | 0.016 | 3.16 |   |
-| 12    | 552.43   | 35.67       | 135.26   | 47.45   | 1,028.78 | 14.15     | 11.67 | 0.017 | 3.81 |   |
+| Ay | USDT-UST | atricrypto3 | Balancer | camWBTC | camWETH  | camWMATIC | LINK  | CRV   | BAL  |   |
+| -- | -------- | ----------- | -------- | ------- | -------- | --------- | ----- | ----- | ---- | - |
+| 1  | 503.84   | 2.79        | 9.01     | 3.72    | 1,002.34 | 0.94      | 0.93  | 0.001 | 0.02 |   |
+| 2  | 507.88   | 5.66        | 18.39    | 7.47    | 1,004.68 | 1.93      | 1.87  | 0.003 | 0.09 |   |
+| 3  | 511.99   | 8.47        | 28.14    | 11.24   | 1,007.04 | 2.96      | 2.81  | 0.004 | 0.21 |   |
+| 4  | 516.18   | 11.36       | 38.28    | 15.06   | 1,009.41 | 4.02      | 3.76  | 0.005 | 0.38 |   |
+| 5  | 520.43   | 14.28       | 48.83    | 18.90   | 1,011.79 | 5.13      | 4.72  | 0.007 | 0.60 |   |
+| 6  | 524.76   | 17.23       | 59.79    | 22.78   | 1,014.18 | 6.29      | 5.69  | 0.008 | 0.87 |   |
+| 7  | 529.17   | 20.21       | 71.18    | 26.69   | 1,016.58 | 7.48      | 6.67  | 0.010 | 1.21 |   |
+| 8  | 533.66   | 23.24       | 83.03    | 30.63   | 1,018,99 | 8.72      | 7.65  | 0.011 | 1.60 |   |
+| 9  | 538.22   | 26.29       | 95.34    | 34.61   | 1,021.42 | 10.01     | 8.64  | 0.013 | 2.05 |   |
+| 10 | 542.87   | 29.38       | 108.14   | 38.63   | 1,023.86 | 11.34     | 9.64  | 0.014 | 2.57 |   |
+| 11 | 547.61   | 32.51       | 121.44   | 42.68   | 1,026.31 | 12.72     | 10.65 | 0.016 | 3.16 |   |
+| 12 | 552.43   | 35.67       | 135.26   | 47.45   | 1,028.78 | 14.15     | 11.67 | 0.017 | 3.81 |   |
 
 Birkaç not:
 
@@ -179,17 +179,17 @@ Birkaç not:
 
 Tam bir yıl sonra yatırımımızın son hali;
 
-| Pozisyon    | Dolar Karşılığı  |
-| ----------- | ---------------- |
-| USDT-UST    | 553.24           |
-| atricrypto3 | 36.20            |
-| Balancer    | 137.62           |
-| camWBTC     | 47.45            |
-| camWETH     | 1,029.19         |
-| camWMATIC   | 14.39            |
-| LINK        | 11.84            |
-| CRV         | 0.017            |
-| BAL         | 3.93             |
+| Pozisyon    | Dolar Karşılığı |
+| ----------- | --------------- |
+| USDT-UST    | 553.24          |
+| atricrypto3 | 36.20           |
+| Balancer    | 137.62          |
+| camWBTC     | 47.45           |
+| camWETH     | 1,029.19        |
+| camWMATIC   | 14.39           |
+| LINK        | 11.84           |
+| CRV         | 0.017           |
+| BAL         | 3.93            |
 
 Toplam borç aslında USDT-UST pozisyonunun tamamıdır, yani 553.24$ ve üretilen toplam ödül 280.63$'dır, bu da %28.06'lık bir nihai APY'ye karşılık gelir.
 
@@ -201,12 +201,12 @@ Stabil coin çiftçiliğinde %28 APY almak çok da kötü değil. Peki 1.000 $ d
 * Augury'de stable coin çiftçilik: Bu strateji için, WETH'i satıyoruz ve Augury'de aynı infüzyonda 1.000 $ değerinde USDT-UST ile çiftliği satıyoruz
 * QuickSwap'ta stabil coin çiftçilik: Bu strateji için, kasa ödülünden yararlanmak için camWETH kasasını kullanacağız ve Mai Finance'deki dQUICK kasasını kullanarak QuickSwap'ta 500$ değerinde MAI ile çiftlik yapacağız (MAI-DAI %19.78 APY'de) ek MAI ödünç almak ve çiftçilik havuzuna yeniden yatırım yapmak (%55,72 APR ile dQUICK kasaları)
 
-| Strateji                         |  Son APY  |
-| -------------------------------- | --------- |
-| Bu kılavuzda sunulan strateji    | 28.06%    |
-|  AAVE'den 8x yararlanma          | 46.46%    |
-| Sadece Augury'de stabil çiftçilik| 22.53%    |
-| Quickswap çiftçiliği + dQUICK    | 35.96%    |
+| Strateji                          | Son APY |
+| --------------------------------- | ------- |
+| Bu kılavuzda sunulan strateji     | 28.06%  |
+| AAVE'den 8x yararlanma            | 46.46%  |
+| Sadece Augury'de stabil çiftçilik | 22.53%  |
+| Quickswap çiftçiliği + dQUICK     | 35.96%  |
 
 ## Sorumluluk Reddi
 

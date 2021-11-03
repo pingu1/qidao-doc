@@ -4,15 +4,15 @@
 
 ## Polygon Rehberi
 
-* [Polygon'u Nasıl Kullanırım?](polygon-tutorials/how-to-get-started-on-polygon.md)
-* [Aave Market'ten Yararlanın](polygon-tutorials/leverage-aave-tokens.md)
-* [camDAI Başlangıç Stratejisi](polygon-tutorials/camdai-beginner-strategy.md)
-* [Sadece stablecoin kullanarak çiftçilik stratejisi](polygon-tutorials/secure-your-yield-farming-profits.md)
-* [Polygon'da MAI ile ne yapabilirim?](polygon-tutorials/what-to-do-with-mai-on-polygon.md)
-* [Polygon üzerinde Qi ile Neler Yapabiliriz?](polygon-tutorials/what-to-do-with-qi-on-polygon.md)
-* [DApp'leri Lego gibi kullanın](polygon-tutorials/stack-dapps-like-lego-bricks.md)
-* [Çiftçilik (Farming) mi Staking mi? Yoksa her ikisi de mi?](polygon-tutorials/farming-or-staking-or-both.md)
-* [Çiftçilik ve Borçlanma (Borrowing) Ödülleri Nasıl Birleştirilir?](polygon-tutorials/how-to-combine-farming-and-borrowing-rewards.md)
+* [Polygon'u Nasıl Kullanırım?](polygon-rehberi/how-to-get-started-on-polygon.md)
+* [Aave Market'ten Yararlanın](polygon-rehberi/leverage-aave-tokens.md)
+* [camDAI Başlangıç Stratejisi](polygon-rehberi/camdai-beginner-strategy.md)
+* [Sadece stablecoin kullanarak çiftçilik stratejisi](polygon-rehberi/secure-your-yield-farming-profits.md)
+* [Polygon'da MAI ile ne yapabilirim?](polygon-rehberi/what-to-do-with-mai-on-polygon.md)
+* [Polygon üzerinde Qi ile Neler Yapabiliriz?](polygon-rehberi/what-to-do-with-qi-on-polygon.md)
+* [DApp'leri Lego gibi kullanın](polygon-rehberi/stack-dapps-like-lego-bricks.md)
+* [Çiftçilik (Farming) mi Staking mi? Yoksa her ikisi de mi?](polygon-rehberi/farming-or-staking-or-both.md)
+* [Çiftçilik ve Borçlanma (Borrowing) Ödülleri Nasıl Birleştirilir?](polygon-rehberi/how-to-combine-farming-and-borrowing-rewards.md)
 
 ## Avalanche Rehberi
 

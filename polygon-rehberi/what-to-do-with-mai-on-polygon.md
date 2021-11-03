@@ -9,7 +9,7 @@ description: >-
 
 Bu eğitimin amacı, MAI stable tokenınızla neler yapabileceğinizi ayrıntılı olarak sunmak değil, MAI'nizi Polygon'da doğrudan veya kombinasyon halinde kullanmanıza izin verecek fikirler vermek ve değerlendirebileceğiniz tüm web sitelerinin ve DeFi uygulamasının bir listesine sahip olmaktır. MAI'yi kullanmanın belirli yolları hakkında daha fazla ayrıntı için bu sitedeki diğer eğitimlere başvurabilir veya Discord veya Telegram'da yardım alabilirsiniz.
 
-Lütfen listenin tam olmadığını ve ağda her hafta yeni dapp'ler başlatıldığı için listenin asla  güncel kalmayacağını unutmayın. Hepsini inceleyemiyorum, bu yüzden sadece ana seçenekleri veya en ünlü / en "güvenli" seçenekleri sunacağım.
+Lütfen listenin tam olmadığını ve ağda her hafta yeni dapp'ler başlatıldığı için listenin asla güncel kalmayacağını unutmayın. Hepsini inceleyemiyorum, bu yüzden sadece ana seçenekleri veya en ünlü / en "güvenli" seçenekleri sunacağım.
 
 Belirli bir projenin listelenmesini istiyorsanız lütfen [Discord](https://discord.gg/mQq55j65xJ) üzerindeki Qi topluluğuna katılın.
 
@@ -72,7 +72,7 @@ Curve'deki ödüller şu şekilde verilir:
 
 [QuickSwap](https://quickswap.exchange/#/) muhtemelen SushiSwap ve 1Inch ile Polygon'daki en ünlü DEX'lerden (Merkezi Olmayan Değişim) biridir. Aynı zamanda, kullanıcıların likidite havuzlarını kullanarak Polygon ağında verimli bir şekilde işlem yapmalarını sağlayan bir AMM'dir (Otomatik Piyasa Yapıcı). Borsadaki herhangi bir işlem, likiditelerini platforma yatıran kullanıcılara kısmen yeniden dağıtılan bir ücrete tabidir.
 
-QuickSwap'ta MAI'yi kullanma şekliniz [düzenli verim çiftliğine](secure-your-get- farm-profits.md) çok benzer, bu nedenle QuickSwap'ta MAI/USDC havuzuna girmek için kesin adımlar atmanız gerekiyorsa bu makaleyi okumanız sizin için daha iyi olacaktır.
+QuickSwap'ta MAI'yi kullanma şekliniz \[düzenli verim çiftliğine]\(secure-your-get- farm-profits.md) çok benzer, bu nedenle QuickSwap'ta MAI/USDC havuzuna girmek için kesin adımlar atmanız gerekiyorsa bu makaleyi okumanız sizin için daha iyi olacaktır.
 
 Şu anda QuickSwap'ta MAI/USDC LP (**L**iquidity**P**rovider) havuzuna girerseniz, neler kazanacaksınız;
 

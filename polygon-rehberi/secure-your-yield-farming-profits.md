@@ -5,7 +5,6 @@ description: >-
 
 # Sadece stablecoin kullanarak çiftçilik stratejisi
 
-
 ## Genel Fikir
 
 Polygon'da bir verim çiftliğine girdiğinizde, yatırımlarınızı çiftliğin başarısına veya başarısızlığına maruz bırakırsınız. Bu kılavuz, Verim Çiftliğinin ne olduğunu veya bunlarla nasıl çiftlik yapmanız gerektiğini ayrıntılı olarak sunmamaktadır. Bu konuda yardıma ihtiyacınız varsa, internette her yerde eğitici ve öğretici bilgiler var. [Discord](https://discord.gg/mQq55j65xJ) üzerinden QiDAO topluluğundan da yardım alabilirsiniz.
@@ -88,35 +87,38 @@ Aşağıda sunulan tüm sonuçlar birkaç şeyi varsayıyor
 
 Bu varsayımın gerçek hayat için geçerli olmadığı açıktır, havuza daha fazla likidite sağlandıkça ve çiftlik jetonunun fiyatı değiştikçe APR zamanla yavaş yavaş azalacaktır.
 
-
 ### Tahmini ham sonuçlar
 
-| Gün | LP değeri| Ödül Değeri  |  Bileşik MATIC   | Yeni LP değeri |
-| :-: | -------: | -----------: | ---------------: | -------------: |
-|  1  |   $57.60 |       $0.279 |           $0.279 |         $0.139 |
-|  2  |  $57.734 |       $0.280 |           $0.559 |         $0.140 |
-|  3  |  $57.874 |       $0.280 |           $0.840 |         $0.140 |
-|  4  |  $58.014 |       $0.281 |           $1.121 |         $0.141 |
-|  5  |  $58.155 |       $0.282 |           $1.403 |         $0.141 |
-|  6  |  $58.296 |       $0.282 |           $1.686 |         $0.141 |
-|  7  |  $58.437 |       $0.283 |           $1.969 |         $0.142 |
-|  8  |  $58.579 |       $0.284 |           $2.253 |         $0.142 |
-|  9  |  $58.721 |       $0.285 |           $2.538 |         $0.142 |
-|  10 |  $58.863 |       $0.285 |           $2.823 |         $0.143 |
-|  11 |  $59.006 |       $0.286 |           $3.109 |         $0.143 |
-|  12 |  $59.149 |       $0.287 |           $3.396 |         $0.143 |
-|  13 |  $59.292 |       $0.287 |           $3.684 |         $0.144 |
-|  14 |  $59.436 |       $0.288 |           $3.972 |         $0.144 |
-|  15 |  $59.580 |       $0.289 |           $4.261 |         $0.144 |
-|  16 |  $59.725 |       $0.289 |           $4.551 |         $0.145 |
-|  17 |  $59.870 |       $0.290 |           $4.841 |         $0.145 |
-|  18 |  $60.015 |       $0.291 |           $5.132 |         $0.145 |
+| Gün | LP değeri | Ödül Değeri | Bileşik MATIC | Yeni LP değeri |
+| :-: | --------: | ----------: | ------------: | -------------: |
+|  1  |    $57.60 |      $0.279 |        $0.279 |         $0.139 |
+|  2  |   $57.734 |      $0.280 |        $0.559 |         $0.140 |
+|  3  |   $57.874 |      $0.280 |        $0.840 |         $0.140 |
+|  4  |   $58.014 |      $0.281 |        $1.121 |         $0.141 |
+|  5  |   $58.155 |      $0.282 |        $1.403 |         $0.141 |
+|  6  |   $58.296 |      $0.282 |        $1.686 |         $0.141 |
+|  7  |   $58.437 |      $0.283 |        $1.969 |         $0.142 |
+|  8  |   $58.579 |      $0.284 |        $2.253 |         $0.142 |
+|  9  |   $58.721 |      $0.285 |        $2.538 |         $0.142 |
+|  10 |   $58.863 |      $0.285 |        $2.823 |         $0.143 |
+|  11 |   $59.006 |      $0.286 |        $3.109 |         $0.143 |
+|  12 |   $59.149 |      $0.287 |        $3.396 |         $0.143 |
+|  13 |   $59.292 |      $0.287 |        $3.684 |         $0.144 |
+|  14 |   $59.436 |      $0.288 |        $3.972 |         $0.144 |
+|  15 |   $59.580 |      $0.289 |        $4.261 |         $0.144 |
+|  16 |   $59.725 |      $0.289 |        $4.551 |         $0.145 |
+|  17 |   $59.870 |      $0.290 |        $4.841 |         $0.145 |
+|  18 |   $60.015 |      $0.291 |        $5.132 |         $0.145 |
 
-* 1. günde, ilk 60$ değerindeki MAI/USDC çiftimize %4 ücret uygulanır.
-* 1. günün sonunda, elde edilen gelir (0,279$) tamamen MATIC kasasına aktarılır
-* 1. günün sonunda, kasaya biraz para eklediğimiz için daha fazla MAI ödünç alabiliriz.
+*
+  1. günde, ilk 60$ değerindeki MAI/USDC çiftimize %4 ücret uygulanır.
+*
+  1. günün sonunda, elde edilen gelir (0,279$) tamamen MATIC kasasına aktarılır
+*
+  1. günün sonunda, kasaya biraz para eklediğimiz için daha fazla MAI ödünç alabiliriz.
 * %200 Teminat Borç oranını korumak için yatırılan MATIC'in sadece %50'sini (0.139$) ödünç alıyoruz.
-* 2. günün başında çiftliğe yeniden 0.139 dolar enjekte ediyoruz (ve çiftlik %4 depozito ücreti alıyor)
+*
+  1. günün başında çiftliğe yeniden 0.139 dolar enjekte ediyoruz (ve çiftlik %4 depozito ücreti alıyor)
 * Fay 2'nin başında, 0.134 $ değerinde ek bir LP tokenı ile tekrar başlıyoruz
 
 ### APR'leri, APY'leri ve gelir artışını tahmin etme
@@ -168,7 +170,6 @@ ROI_{Day365} = [60 * (1 + 0.00242)^{365} - 60]*0.96*2=$163.6150585
 $$
 
 Bu sayı, 60$ değerinde MAI/USDC'lik bir başlangıç ​​yatırımıyla, çiftliğin APR'sinin aynı kaldığını varsayarak, bir yıl boyunca çiftlikte kalarak üreteceğimiz MATIC sayısıdır. Aynı zamanda, kabaca çiftliğin reklamını yaptığı APR olan %272.69'luk bir APY verir (çiftlik genellikle görüntülenen APR'deki %4 depozito ücretini dikkate almaz).
-
 
 ### Stablecoinlerle 1 yıllık çiftçiliğin ardından değerlendirme
 
