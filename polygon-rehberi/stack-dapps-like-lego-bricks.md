@@ -1,6 +1,7 @@
 ---
-Açıklama: >-
-  Bu eğitim, stablecoin stratejinizin avantajlarını artırmak için Polygon'da farklı DApp'leri nasıl kullanabileceğinizi ayrıntılı olarak sunacaktır.
+description: >-
+  Bu eğitim, stablecoin stratejinizin avantajlarını artırmak için Polygon'da
+  farklı DApp'leri nasıl kullanabileceğinizi ayrıntılı olarak sunacaktır.
 ---
 
 # DApp'leri Lego gibi kullanın
@@ -31,7 +32,7 @@ Quick'leri terkar işleme koymak için düzenli olarak talep edebilirsiniz. Nas�
 
 Dragon's Lair, QuickSwap'taki kazançlarınızı optimize etmenin bir yoludur. Likidite havuzlarından kazandığınız QUICK'leri Lair'e yatırabilirsiniz ve bunlar size ek QUICK ödüller kazandıracaktır. QUICK'leri satmak yerine saklamak istiyorsanız bence iyi bir fikir. QUICK tokenlarınızı Dragon's Lair'e yatırıldığında, ürettikleri ödüller otomatik olarak birleştirilir ve Lair'in APY'si yaklaşık %12'dir.
 
-![Ağustos 2021 itibarıyla Dragon's Lair APY](../.gitbook/assets/Screen Shot 2021-08-30 at 6.42.39 AM.png>)
+!\[Ağustos 2021 itibarıyla Dragon's Lair APY]\(../.gitbook/assets/Screen Shot 2021-08-30 at 6.42.39 AM.png>)
 
 QUICK'leri yatırdıktan sonra, sahip olduğunuz QUICK havuzunun payını temsil eden bazı dQUICK tokenı cüzdanınıza alacaksınız. dQUICK havuzdaki payınızı temsil ettiğinden QUICK:dQUICK oranının 1:1 olmadığını, havuza daha fazla ödül eklendikçe QUICK miktarının zamanla artacağını unutmayın.
 
@@ -123,7 +124,6 @@ IMX/QUICK havuzundaki LP pozisyonunuzdan kazanılan ADDY'yi hasat ettiğinizde, 
 
 90 günlük yetki süresinden sonra, kasalardan kazanılan ADDY'leri artırmak ve ilave ADDY kazanmak için onları en az 90 gün daha kilitleme olanağına sahip olacaksınız.
 
-
 WMATIC temettüleri, peşinde olduğumuz QuickSwap + Impermax + Adamant üçlüsünün asıl çıktısıdır. Bu tokenları hem QuickSwap hem de Impermax'a ek LP tokenların yeniden enjekte etmek için kullanabileceğiz.
 
 ### Hızlı özet
@@ -159,8 +159,8 @@ Impermax'ta negatif faiz riskini azaltmak için, bölünme aşağıdaki gibi ola
 
 Simülasyonun geri kalanı için, QuickSwap'ın QUICK ile ödenen MAI/USDC üzerinde %25.56 APR verdiğini ve Impermax'ın sadece IMX ile ödenen MAI/USDC'de x9'da %20 ortalama APR verdiğini dikkate alacağız. Bu günlük bir orana karşılık gelir.
 
-* QuickSwap'ta \+%0.07
-* Impermax'ta \+0.05%
+* QuickSwap'ta +%0.07
+* Impermax'ta +0.05%
 
 1. Günün sonunda ne topladık
 
@@ -169,15 +169,15 @@ Simülasyonun geri kalanı için, QuickSwap'ın QUICK ile ödenen MAI/USDC üzer
 
 Oradan, QUICK ödülünün bir kısmı ile aldığımız tüm IMX'leri Adamant'a yatırılacak IMX/QUICK LP çiftinde birleştirebiliriz. LP çiftinin değeri 0,98 dolar ve dQUICK karşılığında Dragons's Lair'e yatırdığımız 0,14 dolar değerinde QUICK'imiz var. Daha sonra dQUICK, 2. Günde ADDY toplamaya başlamak için Dragon's Syrup'ta kullanılır.
 
-| Ödül türü                | Dolar karşılığı  |
-| ------------------------ | ---------------- |
-| QuickSwap'ta dQUICK      | 0.14             |
-| QuickSwap'ta ADDY        | 0                |
-| Adamant'ta IMX/QUICK     | 0.98             |
-| Adamant'ta ADDY          | 0                |
-| Adamant'ta WMATIC        | 0                |
-| Mai Finance'ta camWMATIC | 0                |
-| Mai Finance'e borç       | 0                |
+| Ödül türü                | Dolar karşılığı |
+| ------------------------ | --------------- |
+| QuickSwap'ta dQUICK      | 0.14            |
+| QuickSwap'ta ADDY        | 0               |
+| Adamant'ta IMX/QUICK     | 0.98            |
+| Adamant'ta ADDY          | 0               |
+| Adamant'ta WMATIC        | 0               |
+| Mai Finance'ta camWMATIC | 0               |
+| Mai Finance'e borç       | 0               |
 
 ### 2. gün
 
@@ -187,43 +187,43 @@ Ancak Adamant'taki IMX/QUICK pozisyonu, IMX/QUICK'te %151.96 APR (veya günlük 
 
 QuickSwap'ta, Dragon's Syrup'a yatırdığımız dQUICK, %12,26 Nisan'da (günlük +%0,03) ek QUICK ve %17,08 Nisan'da (günlük +%0,05) ADDY üretiyor. Bu, 0,18 ABD Doları değerindeki QUICK'e uygulanır, yani 2. Günün sonunda zaten 0,0006 ABD Doları değerinde ADDY ve 0,000054 ABD Doları değerinde QUICK üretmişizdir. ADDY ödülü talep edilebilir ve IMX/QUICK pozisyonunun ADDY APR'sini artırmaya başlamak için Adamant'a eklenebilir.
 
-| Ödül türü                | Dolar karşılığı  |
-| ------------------------ | ---------------- |
-| QuickSwap'ta dQUICK      | 0.274            |
-| QuickSwap'ta ADDY        | 0.00006          |
-| Adamant'ta IMX/QUICK     | 1.98             |
-| Adamant'ta ADDY          | 0.005            |
-| Adamant'ta WMATIC        | 0                |
-| Mai Finance'ta camWMATIC | 0                |
-| Mai Finance'e borç       | 0                |
+| Ödül türü                | Dolar karşılığı |
+| ------------------------ | --------------- |
+| QuickSwap'ta dQUICK      | 0.274           |
+| QuickSwap'ta ADDY        | 0.00006         |
+| Adamant'ta IMX/QUICK     | 1.98            |
+| Adamant'ta ADDY          | 0.005           |
+| Adamant'ta WMATIC        | 0               |
+| Mai Finance'ta camWMATIC | 0               |
+| Mai Finance'e borç       | 0               |
 
 ### 3. gün
 
 Devam edersek, Adamant'ta talep edilen ADDY ödülü şimdi bir miktar WMATIC ödülü üretiyor. Toplanan ilk 0,005 ABD doları değerindeki ADDY, %56 Nisan (günlük %0,15) veya 0,000007 ABD doları değerinde WMATIC'e tekabül eden WMATIC temettüleri kazanır. Burada sadece motoru çalıştırdığımızı unutmayın
 
 | Ödül türü                | Dolar karşılığı |
-| ------------------------ | ---------------- |
-| QuickSwap'ta dQUICK      | 0.411            |
-| QuickSwap'ta ADDY        | 0.00019          |
-| Adamant'ta IMX/QUICK     | 2.971            |
-| Adamant'ta ADDY          | 0.014            |
-| Adamant'ta WMATIC        | 0.000007         |
-| Mai Finance'ta camWMATIC | 0                |
-| Mai Finance'e borç       | 0                |
+| ------------------------ | --------------- |
+| QuickSwap'ta dQUICK      | 0.411           |
+| QuickSwap'ta ADDY        | 0.00019         |
+| Adamant'ta IMX/QUICK     | 2.971           |
+| Adamant'ta ADDY          | 0.014           |
+| Adamant'ta WMATIC        | 0.000007        |
+| Mai Finance'ta camWMATIC | 0               |
+| Mai Finance'e borç       | 0               |
 
 ### 4. gün
 
 Artık WMATIC'i döngüye ekleyebiliriz. Temettü AAVE'ye yatırılacak, ardından Mai Finance'de yeni MAI ödünç almak için kullanılacak.
 
-| Ödül türü                | Dolar karşılığı  |
-| ------------------------ | ---------------- |
-| QuickSwap'ta dQUICK      | 0.548            |
-| QuickSwap'ta ADDY        | 0.00038          |
-| Adamant'ta IMX/QUICK     | 3.969            |
-| Adamant'ta ADDY          | 0.029            |
-| Adamant'ta WMATIC        | 0.000029         |
-| Mai Finance'ta camWMATIC | 0.000007         |
-| Mai Finance'e borç       | 0.0000035        |
+| Ödül türü                | Dolar karşılığı |
+| ------------------------ | --------------- |
+| QuickSwap'ta dQUICK      | 0.548           |
+| QuickSwap'ta ADDY        | 0.00038         |
+| Adamant'ta IMX/QUICK     | 3.969           |
+| Adamant'ta ADDY          | 0.029           |
+| Adamant'ta WMATIC        | 0.000029        |
+| Mai Finance'ta camWMATIC | 0.000007        |
+| Mai Finance'e borç       | 0.0000035       |
 
 Bu noktada, Mai Finance üzerindeki "borç", hem QuickSwap hem de Impermax'ta MAI/USDC LP pozisyonlarını artırmak için kullanılacak ve sistem tamamen hazır hale geldi.
 
@@ -257,34 +257,34 @@ Günlük rutin aşağıdaki işlemlerden oluşur
 
 ### Aylar sonra oluşan ham sonuçlar
 
-| Ay    | dQUICK | IMX/QUICK | ADDY    | WMATIC | Borç   |
-| ----- | ------ | --------- | ------- | ------ | ------ |
-| 1     | $4.25  | $32.56    | $2.32   | $0.03  | $0.02  |
-| 2     | $8.36  | $68.34    | $9.65   | $0.28  | $0.15  |
-| 3     | $12.48 | $108.86   | $22.30  | $0.98  | $0.49  |
-| 4     | $16.59 | $154.78   | $41.34  | $2.41  | $1.20  |
-| 5     | $20.71 | $206.83   | $67.50  | $4.86  | $2.42  |
-| 6     | $24.84 | $265.83   | $101.73 | $8.70  | $4.34  |
-| 7     | $28.97 | $332.74   | $145.11 | $14.31 | $7.15  |
-| 8     | $33.12 | $408.63   | $198.87 | $22.14 | $11.06 |
-| 9     | $37.29 | $494.73   | $264.40 | $32.70 | $16.34 |
-| 10    | $41.48 | $592.45   | $343.28 | $46.57 | $23.26 |
-| 11    | $45.71 | $703.39   | $437.33 | $64.40 | $32.19 |
-| 12    | $49.97 | $829.37   | $548.59 | $86.94 | $43.46 |
+| Ay | dQUICK | IMX/QUICK | ADDY    | WMATIC | Borç   |
+| -- | ------ | --------- | ------- | ------ | ------ |
+| 1  | $4.25  | $32.56    | $2.32   | $0.03  | $0.02  |
+| 2  | $8.36  | $68.34    | $9.65   | $0.28  | $0.15  |
+| 3  | $12.48 | $108.86   | $22.30  | $0.98  | $0.49  |
+| 4  | $16.59 | $154.78   | $41.34  | $2.41  | $1.20  |
+| 5  | $20.71 | $206.83   | $67.50  | $4.86  | $2.42  |
+| 6  | $24.84 | $265.83   | $101.73 | $8.70  | $4.34  |
+| 7  | $28.97 | $332.74   | $145.11 | $14.31 | $7.15  |
+| 8  | $33.12 | $408.63   | $198.87 | $22.14 | $11.06 |
+| 9  | $37.29 | $494.73   | $264.40 | $32.70 | $16.34 |
+| 10 | $41.48 | $592.45   | $343.28 | $46.57 | $23.26 |
+| 11 | $45.71 | $703.39   | $437.33 | $64.40 | $32.19 |
+| 12 | $49.97 | $829.37   | $548.59 | $86.94 | $43.46 |
 
 ### 365. gün
 
 Tam bir yıl sonra yatırımımızın son hali
-  
-| Ödül türü                | Dolar karşılığı  |
-| ------------------------ | ---------------- |
-| QuickSwap'ta dQUICK      | 50.689           |
-| QuickSwap'ta ADDY        | 4.325            |
-| Adamant'ta IMX/QUICK     | 851.968          |
-| ADDY Adamant'ta          | 568.972          |
-| Adamant üzerinde WMATIC  | 91.209           |
-| Mai Finans'ta camWMATIC  | 91.220           |
-| Mai Finance'e borç       | 44.30            |
+
+| Ödül türü               | Dolar karşılığı |
+| ----------------------- | --------------- |
+| QuickSwap'ta dQUICK     | 50.689          |
+| QuickSwap'ta ADDY       | 4.325           |
+| Adamant'ta IMX/QUICK    | 851.968         |
+| ADDY Adamant'ta         | 568.972         |
+| Adamant üzerinde WMATIC | 91.209          |
+| Mai Finans'ta camWMATIC | 91.220          |
+| Mai Finance'e borç      | 44.30           |
 
 Adamant'taki WMATIC'in ve günlük olarak toplandığını unutmayın. Ayrıca, QuickSwap çiftliği aracılığıyla oluşturulan ADDY, bu simülasyonda Adamant'ta ADDY ödüllerini artırmak için günlük olarak hasat edilmedi (zaten yeterince karmaşık).
 
@@ -297,7 +297,6 @@ Bu Lego oyunu çok az riske maruz kalarak stablecoin çiftçiliğinden etkileyic
 ## Sorumluluk Reddi
 
 Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Fiyat değişimlerine, arz ve talebe, ödül programlarının bitiş tarihlerine, kalıcı kayıplara vs. dikkat etmeniz gerekiyor. Amaç körü körüne takip edilebilecek tarifler önermek değildi, bu yüzden lütfen stratejinizi ve kendi simülasyonunuzu yapın. Son olarak sadece kaybetmeye hazır olduğunuza yatırım yapın.
-
 
 {% hint style="info" %}
 Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen olan bitenden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.

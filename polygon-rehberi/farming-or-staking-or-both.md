@@ -1,6 +1,8 @@
 ---
-Açıklama: >-
-  Bu kılavuz, Mai Finance ve QuickSwap'ta yeni LP havuzlarının kullanıma açılmasından sonra Mai Finance, QuickSwap ve Adamant arasındaki şaşırtıcı etkileşimleri vurgulayan bir strateji sunacaktır.
+description: >-
+  Bu kılavuz, Mai Finance ve QuickSwap'ta yeni LP havuzlarının kullanıma
+  açılmasından sonra Mai Finance, QuickSwap ve Adamant arasındaki şaşırtıcı
+  etkileşimleri vurgulayan bir strateji sunacaktır.
 ---
 
 # Çiftçilik (Farming) mi Staking mi? Yoksa her ikisi de mi?
@@ -10,7 +12,6 @@ Açıklama: >-
 ## Giriş
 
 DeFi (**De**centralize **Fi**nance) uygulamalarını kullanırken, özellikle de ürün yetiştirirken, çiftlik tarafından verilen bir sürü platform tokenı elde etme imkanına sahipsiniz. Çoğu insan bu tokenları sevdikleri veya tercih ettikleri tokenları satın almak için satıyorsa, gelirlerinizi artırmak için onları gerçekten tutmanın ve çalıştırmanın bazı yollarını göstermeye çalışacağız.
-
 
 Stratejiyi uygulamak için, Eylül 2021'in başında QuickSwap'ta başlatılan ve Mai Finance'in Qi tokenını kullanan yeni LP havuzlarını (**L**iquidity **P**rovider havuzları) kullanacağız. QuickSwap ve Adamant uygulamalarının ne olduğu hakkında iyi bir fikre ihtiyacınız varsa, lütfen [Stack DApp'leri kılavuzunu](stack-dapps-like-lego-bricks.md) okuyun.
 
@@ -41,7 +42,7 @@ Ayrıca Mai Finance ve QuickSwap'ta fazla üretilen tokenlerin stake edilebilece
 * QuickSwap üzerinde QUICK, Dragon's Lair'de ek QUICK oluşturmak için de stake edilebilir.
 * kilitli QUICK (dQUICK), Dragon's Syrup'ta başka tokenlar oluşturmak için QuickSwap'ta da kullanılabilir ve kullanacağımız ADDY'leri üreten çiftliktir.
 * ADDY on Adamant otomatik olarak kazanılır (90 gün boyunca kilitlenir), WMATIC temettüleri oluşturur.
-* ADDY on Adamant, APR'lerinizi/APY'lerinizi artırmak için de kilitlenebilir (**A**nnual **P**ercentage **R**ewards / **A**annual **P**ercentage ** Y**ield) siteye girdiğiniz havuzlarda, daha fazla ADDY üreterek ve MATIC temettülerinizi artırabilirsiniz.
+* ADDY on Adamant, APR'lerinizi/APY'lerinizi artırmak için de kilitlenebilir (**A**nnual **P**ercentage **R**ewards / **A**annual **P**ercentage \*\* Y\*\*ield) siteye girdiğiniz havuzlarda, daha fazla ADDY üreterek ve MATIC temettülerinizi artırabilirsiniz.
 
 ## Sistemin Ateşlenmesi
 
@@ -72,25 +73,25 @@ Mai Finance'deki APR QuickSwap'takinden daha düşük olduğundan, ek Qi/QUICK t
 
 Bu nedenle, 1. Günün sonunda portföyümüzde
 
-| Ödül Tipi           | Dolar Karşılığı  |
-| ------------------- | ---------------- |
-| QuickSwap'ta dQUICK | 8.997            |
-| QuickSwap'ta ADDY   | 0                |
-| Adamant'ta Qi/QUICK | 31.799           |
-| Adamant'ta ADDY     | 0                |
-| Adamant'ta WMATIC   | 0                |
+| Ödül Tipi           | Dolar Karşılığı |
+| ------------------- | --------------- |
+| QuickSwap'ta dQUICK | 8.997           |
+| QuickSwap'ta ADDY   | 0               |
+| Adamant'ta Qi/QUICK | 31.799          |
+| Adamant'ta ADDY     | 0               |
+| Adamant'ta WMATIC   | 0               |
 
 ### 2. Gün
 
 İkinci günde QuickSwap'ın Dragon's Syrup'una yatırılan dQUICK, ADDY tokenlarırının yanı sıra Adamant'ta Qi/QUICK LP çifti üretmeye başlar. 2. günün sonunda,
 
-| Ödül Tipi           | Dolar Karşılığı  |
-| ------------------- | ---------------- |
-| QuickSwap'ta dQUIC  | 17.998           |
-| QuickSwap'ta ADDY   | 0.0042           |
-| Adamant'ta Qi/QUICK | 63.713           |
-| Adamant'ta ADDY     | 0.114            |
-| Adamant'ta WMATIC   | 0                |
+| Ödül Tipi           | Dolar Karşılığı |
+| ------------------- | --------------- |
+| QuickSwap'ta dQUIC  | 17.998          |
+| QuickSwap'ta ADDY   | 0.0042          |
+| Adamant'ta Qi/QUICK | 63.713          |
+| Adamant'ta ADDY     | 0.114           |
+| Adamant'ta WMATIC   | 0               |
 
 WMATIC temettüleri oluşturmaya başlamak için ödüllerinizi Adamant'ta her gün talep etmeyi unutmayın!
 
@@ -98,15 +99,15 @@ WMATIC temettüleri oluşturmaya başlamak için ödüllerinizi Adamant'ta her g
 
 Üçüncü günde Adamant'ta toplanan ADDY, WMATIC temettüleri üretmeye başlayacak. Bu durumda 3. günün sonunda portföyümüze gireceğimiz anlamına gelir.
 
-|  Ödül Tipi          | Dolar Karşılığı  |
-| ------------------- | ---------------- |
-| QuickSwap'ta dQUICK | 27.004           |
-| QuickSwap'ta ADDY   | 0.025            |
-| Adamant'ta Qi/QUICK | 95.743           |
-| Adamant'ta ADDY     | 0.343            |
-| Adamant'ta WMATIC   | 0.0001           |
+| Ödül Tipi           | Dolar Karşılığı |
+| ------------------- | --------------- |
+| QuickSwap'ta dQUICK | 27.004          |
+| QuickSwap'ta ADDY   | 0.025           |
+| Adamant'ta Qi/QUICK | 95.743          |
+| Adamant'ta ADDY     | 0.343           |
+| Adamant'ta WMATIC   | 0.0001          |
 
-4. günden başlayarak yapılacaklar;
+1. günden başlayarak yapılacaklar;
 
 * WMATIC temettülerini toplayın
 * WMATIC'in bir kısmını Mai Finance'e yatırın ve buna karşı MAI ödünç alın
@@ -136,38 +137,38 @@ Günlük rutin aşağıdaki işlemlerden oluşur
 * Dragon's Lair'de kalan QUICK'leri yatırın
 * Dragon's Syrup'a dQUICK yatırın
 * Dragon's Syrup'tan ADDY hasat edin
-* Adamant'tan ADDY  hasat edin
+* Adamant'tan ADDY hasat edin
 * Adamant'a yeni Qi/QUICK yatırın
 * ADDY'yi Adamant'ta toplayın (kilit)
 
 ### Ay sonunda oluşan ham sonuçlar
 
-| Ay    | dQUICK    | Qi/QUICK   | ADDY       | Qi/MATIC Qi/WETH |
-| ----- | --------- | ---------- | ---------- | ---------------- |
-| 1     | $280.96   | $1,040.78  | $54.97     | $0.91            |
-| 2     | $557.79   | $2,162.98  | $224.36    | $7.89            |
-| 3     | $842.08   | $3,413.73  | $521.09    | $27.85           |
-| 4     | $1,138.60 | $4,816.62  | $960.17    | $68.48           |
-| 5     | $1,454.30 | $6,405.18  | $1,559.60  | $138.44          |
-| 6     | $1,798.77 | $8,224.86  | $2,341.64  | $247.49          |
-| 7     | $2,184.58 | $10,335.38 | $3,334.13  | $406.84          |
-| 8     | $2,627.76 | $12,813.60 | $4,572.23  | $629.47          |
-| 9     | $3,148.40 | $15,757.01 | $6,100.39  | $930.60          |
-| 10    | $3,771.42 | $19,288.05 | $7,974.83  | $1,328.32        |
-| 11    | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31        |
-| 12    | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79        |
+| Ay | dQUICK    | Qi/QUICK   | ADDY       | Qi/MATIC Qi/WETH |
+| -- | --------- | ---------- | ---------- | ---------------- |
+| 1  | $280.96   | $1,040.78  | $54.97     | $0.91            |
+| 2  | $557.79   | $2,162.98  | $224.36    | $7.89            |
+| 3  | $842.08   | $3,413.73  | $521.09    | $27.85           |
+| 4  | $1,138.60 | $4,816.62  | $960.17    | $68.48           |
+| 5  | $1,454.30 | $6,405.18  | $1,559.60  | $138.44          |
+| 6  | $1,798.77 | $8,224.86  | $2,341.64  | $247.49          |
+| 7  | $2,184.58 | $10,335.38 | $3,334.13  | $406.84          |
+| 8  | $2,627.76 | $12,813.60 | $4,572.23  | $629.47          |
+| 9  | $3,148.40 | $15,757.01 | $6,100.39  | $930.60          |
+| 10 | $3,771.42 | $19,288.05 | $7,974.83  | $1,328.32        |
+| 11 | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31        |
+| 12 | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79        |
 
 ### 365 gün sonunda
 
 Tam bir yıl sonra yatırımımızın son hali
 
-| Ödül Tipi                     | Dolar Karşılığı  |
-| ----------------------------- | ---------------- |
-| QuickSwap'ta dQUICK           | 5,628.29         |
-| QuickSwap'ta ADDY             | 365.25           |
-| Adamant'ta Qi/QUCK            | 29,733.58        |
-| Adamant'ta ADDY               | 13,587.56        |
-| Ek Qi/MATIC + Qi/WETH         | 2,631.07         |
+| Ödül Tipi             | Dolar Karşılığı |
+| --------------------- | --------------- |
+| QuickSwap'ta dQUICK   | 5,628.29        |
+| QuickSwap'ta ADDY     | 365.25          |
+| Adamant'ta Qi/QUCK    | 29,733.58       |
+| Adamant'ta ADDY       | 13,587.56       |
+| Ek Qi/MATIC + Qi/WETH | 2,631.07        |
 
 QuickSwap çiftliği aracılığıyla oluşturulan ADDY'nin günlük olarak hasat edilmediğini ve bu simülasyonda Adamant'taki ADDY ödüllerini artırmak için eklenmediğini unutmayın (zaten yeterince karmaşıktır). Ayrıca, sadece kazanılmış ADDY'yi dikkate alıyoruz. 90 günlük ilk hak kazanma döneminden sonra, ADDY talep edip kilitlerseniz, ADDY ödüllerinizi daha da artıracak ve daha fazla WMATIC üreteceksiniz.
 

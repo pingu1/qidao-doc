@@ -16,7 +16,7 @@ Avalanche is 100% EVM compatible with the existing Ethereum toolchain, and its C
 
 Before using the Avalanche network, you will need to create a wallet address. There are different wallet types that can be used including \*\*software wallets \*\*such as Metamask or the native [Avalanche Wallet](https://wallet.avax.network), as well as \*\*hardware wallets \*\*such as [Trezor](https://trezor.io/coins/) or [Ledger](https://support.ledger.com/hc/en-us/articles/360020765779-Avalanche-AVAX-?docs=true).
 
-For the purpose of this tutorial, we'll be using Metamask. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon-tutorials/how-to-get-started-on-polygon.md#downloading-metamask).
+For the purpose of this tutorial, we'll be using Metamask. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon-rehberi/how-to-get-started-on-polygon.md#downloading-metamask).
 
 ### Adding Avalanche to Metamask
 

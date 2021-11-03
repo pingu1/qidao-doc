@@ -93,7 +93,7 @@ It's very important to keep an eye on your CDR and keep a healthy ratio to
 * prevent liquidation
 * increase the health of the whole Mai Finance platform by ensuring the MAI volume in circulation is properly backed
 
-The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest](../polygon-tutorials/leverage-aave-tokens.md#examples-with-numbers) in other projects, or [repay your debt](debt-repayment-how.md#repayment-using-your-collateral) using your debt.
+The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest](../polygon-rehberi/leverage-aave-tokens.md#examples-with-numbers) in other projects, or [repay your debt](debt-repayment-how.md#repayment-using-your-collateral) using your debt.
 
 ## Vault incentives
 

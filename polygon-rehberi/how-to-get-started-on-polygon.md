@@ -1,7 +1,7 @@
 ---
-Açıklama: >-
-  Bu kılavuzda, Polygon'un blok zincirinde bulunan farklı DApp'leri kullanmaya başlamak için bilmeniz gereken her şeyi açıklayacağız.
-
+description: >-
+  Bu kılavuzda, Polygon'un blok zincirinde bulunan farklı DApp'leri kullanmaya
+  başlamak için bilmeniz gereken her şeyi açıklayacağız.
 ---
 
 # Polygon'u Nasıl Kullanırım?
@@ -22,7 +22,7 @@ Polygon ayrıca ekosisteme ve Ethereum ağına güvenilir bir alternatif olduğu
 
 Polygon Blockchain'i kullanmadan önce bir cüzdan adresi oluşturmanız gerekir. Farklı cüzdan türleri, yazılımlar (Metamask, TrustWallet...) ve donanımlar (Trezor veya Ledger) vardır. Ancak bu kılavuzda, Polygon Blockchain'e nasıl erişileceğini açıklamak için Metamask kullanacağız.
 
-### Metamask'ı İndirme 
+### Metamask'ı İndirme
 
 Polygon Blockchain'i kullanmak için tamamlamanız gereken ilk adım, web tarayıcınıza Metamask uzantısını indirmektir. Resmi siteden indirebilirsiniz. Metamask, iOS ve Android cihazlarda da kullanılabilir.
 
@@ -30,8 +30,7 @@ Bunu yaptıktan sonra, tarayıcınızda Metamask logolu bir uzantınız olmalıd
 
 1. Her şeyden önce, Metamask hesabınız için bir şifre seçmeniz gerekecek.
 2. Daha sonra cüzdanınızı nasıl koruyacağınız ve **seed** kelimelerin önemi ile ilgili videoyu izlemelisiniz.
-3. **Seed** kelimeleri göreceksiniz. Yeni bir cüzdan oluştururken Seed kelimeleriz en önemli şeydir, çünkü **seed** kelimelerinizi kaybederseniz ve bilgisayarınız bozulursa Metamask hesabınıza erişemezsiniz. Bu yüzden lütfen **seed** kelimelerinize dikkat edin ve kimseyle paylaşmayın.
-İşiniz bittiğinde, tarayıcınızda şunu görmelisiniz:
+3. **Seed** kelimeleri göreceksiniz. Yeni bir cüzdan oluştururken Seed kelimeleriz en önemli şeydir, çünkü **seed** kelimelerinizi kaybederseniz ve bilgisayarınız bozulursa Metamask hesabınıza erişemezsiniz. Bu yüzden lütfen **seed** kelimelerinize dikkat edin ve kimseyle paylaşmayın. İşiniz bittiğinde, tarayıcınızda şunu görmelisiniz:
 
 ![Metamask'ın Arayüzü](<../.gitbook/assets/image (18).png>)
 
@@ -41,13 +40,13 @@ Yukarıdaki resimde de görebileceğiniz gibi Ethereum Mainnet kullanıyoruz, an
 
 ![](<../.gitbook/assets/image (20).png>)
 
-İşiniz bittiğinde, Polygon Blockchain'deki Metamask cüzdanını kullanmaya neredeyse hazırsınız, geriye kalan tek adım Ethereum Mainnet'i Polygon Mainnet'e geçirmek. Bunu yapmak için Metamask'ın üstündeki açılır menüye tıklamanız gerekiyor. 
+İşiniz bittiğinde, Polygon Blockchain'deki Metamask cüzdanını kullanmaya neredeyse hazırsınız, geriye kalan tek adım Ethereum Mainnet'i Polygon Mainnet'e geçirmek. Bunu yapmak için Metamask'ın üstündeki açılır menüye tıklamanız gerekiyor.
 
 ## Ücretsiz MATIC Alma
 
 Artık Polygon Blockchain'i kullanmak için ayarlanmış her şeye sahipsiniz, ancak cüzdanınızda herhangi bir MATIC yok. Bu nedenle Polygon blok zincirinde herhangi bir işlem yapamazsınız. Bir işlem, temelde 2 adres arasındaki, işlenmesi biraz zaman gerektiren (bu işlem, Polygon'un sahip olduğu farklı doğrulayıcılar tarafından yapılır) ve bir ücreti olan (**gas** olarak da bilinir ve MATIC tokenları ile ödenir) bir değişimdir.
 
-Neyse ki, [bu sayfa](https://matic.supply) size Polygon ağındaki ilk işlemlerinizi yapmak için ücretsiz MATIC sağlar (bu tür sayfalara musluk denilebilir). Yapmanız gereken tek şey cüzdanınızı sayfaya bağlamak ve captcha'yı tamamlamak. Bu 0,002 MATIC (~0,00223$), Polygon Ağı kullanarak birkaç işlem yapmamızı sağlayacaktır.
+Neyse ki, [bu sayfa](https://matic.supply) size Polygon ağındaki ilk işlemlerinizi yapmak için ücretsiz MATIC sağlar (bu tür sayfalara musluk denilebilir). Yapmanız gereken tek şey cüzdanınızı sayfaya bağlamak ve captcha'yı tamamlamak. Bu 0,002 MATIC (\~0,00223$), Polygon Ağı kullanarak birkaç işlem yapmamızı sağlayacaktır.
 
 ![ÜCRETSİZ MATIC Alma](<../.gitbook/assets/image (23).png>)
 
@@ -83,7 +82,7 @@ Cüzdanınızın geçmişini nasıl kontrol edeceğinizi bilmek önemlidir, bunu
 
 ![All the transactions made in our new Metamask address](<../.gitbook/assets/image (27).png>)
 
-Gördüğünüz gibi, cüzdanımda 800.000 DxDex.io var ama bu  cüzdanımda olması için hiçbir şey yapmadım. Bu tür dolandırıcılıkların farkında olmanız ve bilmediğiniz hiçbir coin ile asla etkileşime girmemeniz gerekir. Onlara erişim izni vermeniz durumunda, Debank bunu iptal etmenize izin verecektir. Lütfen dikkatli olun ve tokenı bilmiyorsanız ona dokunmayın.
+Gördüğünüz gibi, cüzdanımda 800.000 DxDex.io var ama bu cüzdanımda olması için hiçbir şey yapmadım. Bu tür dolandırıcılıkların farkında olmanız ve bilmediğiniz hiçbir coin ile asla etkileşime girmemeniz gerekir. Onlara erişim izni vermeniz durumunda, Debank bunu iptal etmenize izin verecektir. Lütfen dikkatli olun ve tokenı bilmiyorsanız ona dokunmayın.
 
 ## Yararlı Bağlantılar
 

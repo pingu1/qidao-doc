@@ -1,25 +1,27 @@
 ---
-Açıklama: >-
-  Bu eğitim, kullanıcıların Mai Finance'in %0 faizli kredileri ve Aave protokolünün akıllı kombinasyonu aracılığıyla mevcut kripto yatırımlarını  nasıl daha iyi yönetebileceğine dair fikirkleri ayrıntılı şekilde sunar. 
+description: >-
+  Bu eğitim, kullanıcıların Mai Finance'in %0 faizli kredileri ve Aave
+  protokolünün akıllı kombinasyonu aracılığıyla mevcut kripto yatırımlarını 
+  nasıl daha iyi yönetebileceğine dair fikirkleri ayrıntıl
 ---
 
 # Aave Market'ten Yararlanın
 
-## Bazen bir görsel bin kelimeye bedeldir 
+## Bazen bir görsel bin kelimeye bedeldir
 
 ![](<../.gitbook/assets/image (21) (1).png>)
 
-## Ama bin kelime de o kadar kötü değildir! 
+## Ama bin kelime de o kadar kötü değildir!
 
 Yukarıdaki görsel, kripto yatırımlarınızın kazanç gücünü artırmak için Mai Finance'i nasıl kullanabileceğinizi gösteriyor.
 
-MATIC'i gerçekten sevdiğinizi varsayalım ve şu anda değerinin düşük olduğunu düşünelim. Token başına 2$, 5$ ve hatta 10$'a ulaşma potansiyeline sahip olduğunu düşünüyorsunuz (ve aslında tamamen haklı olabilirsiniz). Ancak küçük bir yatırımcı olarak, Polygon'daki cüzdanınızda yalnızca 100$ değerinde MATIC tokenınız var. Bu eğitimde, mevcut tokenlarınızdan nasıl daha fazla MATIC üretebileceğinizi göstereceğiz. Hodling iyidir, ancak yatırımınızı işletmek daha iyidir. 
+MATIC'i gerçekten sevdiğinizi varsayalım ve şu anda değerinin düşük olduğunu düşünelim. Token başına 2$, 5$ ve hatta 10$'a ulaşma potansiyeline sahip olduğunu düşünüyorsunuz (ve aslında tamamen haklı olabilirsiniz). Ancak küçük bir yatırımcı olarak, Polygon'daki cüzdanınızda yalnızca 100$ değerinde MATIC tokenınız var. Bu eğitimde, mevcut tokenlarınızdan nasıl daha fazla MATIC üretebileceğinizi göstereceğiz. Hodling iyidir, ancak yatırımınızı işletmek daha iyidir.
 
-### Aave'yi Sermayenizi Artırmak için Kullanın 
+### Aave'yi Sermayenizi Artırmak için Kullanın
 
 [Aave](https://app.aave.com) MATIC tokenlarınızı (diğer tokenların yanı sıra) yatırabileceğiniz bir ödünç verme ve borç ödünç alma platformudur. Aave'de borç vererek, yatırılan tokenlarınız getiri elde edecektir. Örnek olarak, 100$'lık MATIC'iniz potansiyel olarak 1 yıllık süre boyunca (APY) %1,2'lik bir getiri oranı oluşturacaktır. Bazen, Aave, temel kredi APY'lerine ek olarak ek ödüller sağlayan özel programlara da sahip olabilir.
 
-MATIC tokenlarınız Aave havuzunda olduğundan, oluşturulan faiz otomatik olarak birleştirilir, Bu birleştirme sayesinde sahip olduğunuz MATIC miktarının zamanla artacağı anlamına gelir. 
+MATIC tokenlarınız Aave havuzunda olduğundan, oluşturulan faiz otomatik olarak birleştirilir, Bu birleştirme sayesinde sahip olduğunuz MATIC miktarının zamanla artacağı anlamına gelir.
 
 ![On this example, I lended 0.2 MATIC](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.29.53 PM.png>)
 
@@ -93,37 +95,37 @@ Aşağıdaki örnekler, Mai Finance kullanarak pozisyonlarınızdan nasıl yarar
 
 ### %200 Teminat-Borç Oranı
 
-| Döngü Yineleme |   Yatırım  |   Borç  |   Tahmini Kazanç  |  Eş Değer APY  |
-| :------------: | :--------: | :-----: | :---------------: | :------------: |
-|        1       |  $1,000.00 | $500.00 |       $49.30      |     4.930%     |
-|        2       |  $1,500.00 | $750.00 |       $73.95      |     7.395%     |
-|        3       |  $1,750.00 | $875.00 |       $86.75      |     8.628%     |
-|        4       |  $1,875.00 | $937.50 |       $92.44      |     9.244%     |
-|        5       |  $1,937.50 | $968.75 |       $95.52      |     9.552%     |
-|        6       |  $1,968.75 | $984.38 |       $97.06      |     9.706%     |
-|        7       |  $1,984.38 | $992.19 |       $97.83      |     9.783%     |
-|        8       |  $1,992.19 |    -    |       $98.21      |     9.821%     |
+| Döngü Yineleme |  Yatırım  |   Borç  | Tahmini Kazanç | Eş Değer APY |
+| :------------: | :-------: | :-----: | :------------: | :----------: |
+|        1       | $1,000.00 | $500.00 |     $49.30     |    4.930%    |
+|        2       | $1,500.00 | $750.00 |     $73.95     |    7.395%    |
+|        3       | $1,750.00 | $875.00 |     $86.75     |    8.628%    |
+|        4       | $1,875.00 | $937.50 |     $92.44     |    9.244%    |
+|        5       | $1,937.50 | $968.75 |     $95.52     |    9.552%    |
+|        6       | $1,968.75 | $984.38 |     $97.06     |    9.706%    |
+|        7       | $1,984.38 | $992.19 |     $97.83     |    9.783%    |
+|        8       | $1,992.19 |    -    |     $98.21     |    9.821%    |
 
-7. döngüden sonra daha fazla borç eklemek, yatırımımı yalnızca 10 dolardan (ilk yatırımımın %1'i) daha az artıracaktır, bu nedenle bu aralık durmak için uygun zamandır. APY'deki artış bu aşamada göz ardı edilebilir ve teminat / borç oranını 200,79'da tutuyorum, ki yeterince güvenli görünüyor.
+1. döngüden sonra daha fazla borç eklemek, yatırımımı yalnızca 10 dolardan (ilk yatırımımın %1'i) daha az artıracaktır, bu nedenle bu aralık durmak için uygun zamandır. APY'deki artış bu aşamada göz ardı edilebilir ve teminat / borç oranını 200,79'da tutuyorum, ki yeterince güvenli görünüyor.
 
 Kolayca görebileceğiniz gibi, Aave ve Mai Finance'in bir kombinasyonunu kullanmak, Aave'yi tek başına tutmak veya kullanmakla karşılaştırıldığında, ilk APY'nin neredeyse 2 katı ve seçilen tokenının önemli ölçüde daha fazla pazarda daha iyi pozisyon elde etmesi ile sonuçlanır.
 
 ### %175 Teminat-Borç Oranı
 
-| Döngü Yineleme |   Yatırım  |    Borç   |   Tahmini Kazanç  |  EEş Değer APY |
-| :------------: | :--------: | :-------: | :---------------: | :------------: |
-|        1       |  $1,000.00 |  $571.43  |       $49.30      |     4.930%     |
-|        2       |  $1,571.43 |  $897.96  |       $77.47      |     7.747%     |
-|        3       |  $1,897.96 | $1,084.55 |       $93.57      |     9.357%     |
-|        4       |  $2,084.55 | $1,191.17 |      $102.77      |     10.277%    |
-|        5       |  $2,191.17 | $1,252.10 |      $108.02      |     10.802%    |
-|        6       |  $2,252.10 | $1,286.91 |      $111.03      |     11.103%    |
-|        7       |  $2,286.91 | $1,306.81 |      $112.74      |     11.274%    |
-|        8       |  $2,306.81 | $1,318.18 |      $113.73      |     11.373%    |
-|        9       |  $2,318.18 | $1,324.67 |      $114.29      |     11.429%    |
-|       10       |  $2,324.67 |     -     |      $114.61      |     11.461%    |
+| Döngü Yineleme |  Yatırım  |    Borç   | Tahmini Kazanç | EEş Değer APY |
+| :------------: | :-------: | :-------: | :------------: | :-----------: |
+|        1       | $1,000.00 |  $571.43  |     $49.30     |     4.930%    |
+|        2       | $1,571.43 |  $897.96  |     $77.47     |     7.747%    |
+|        3       | $1,897.96 | $1,084.55 |     $93.57     |     9.357%    |
+|        4       | $2,084.55 | $1,191.17 |     $102.77    |    10.277%    |
+|        5       | $2,191.17 | $1,252.10 |     $108.02    |    10.802%    |
+|        6       | $2,252.10 | $1,286.91 |     $111.03    |    11.103%    |
+|        7       | $2,286.91 | $1,306.81 |     $112.74    |    11.274%    |
+|        8       | $2,306.81 | $1,318.18 |     $113.73    |    11.373%    |
+|        9       | $2,318.18 | $1,324.67 |     $114.29    |    11.429%    |
+|       10       | $2,324.67 |     -     |     $114.61    |    11.461%    |
 
-9. döngüden sonra daha fazla borç eklemek, yatırımımı 10 dolardan fazla artırmaz, bu yüzden bu uygun bir durma noktasıdır. 9 döngüden elde edilen CDR, %175,49'dur.
+1. döngüden sonra daha fazla borç eklemek, yatırımımı 10 dolardan fazla artırmaz, bu yüzden bu uygun bir durma noktasıdır. 9 döngüden elde edilen CDR, %175,49'dur.
 
 Agresif bir yaklaşımla nihai APY'nin de daha çekici olduğunu kolayca görebiliriz. Bu genellikle herhangi bir DeFi stratejisi için geçerlidir: risk ne kadar büyükse, potansiyel ödül de o kadar büyük olur.
 
@@ -135,7 +137,7 @@ $$
 Final Investment = Initial Investment *\sum_{i=0}^{n}{\frac{100}{CDR}}^i
 $$
 
-Burada _n_ uygulamak istediğiniz döngü sayısını temsil eder ve _CDR_  yüzde olarak hedeflenen teminat/borç oranınızdır.
+Burada _n_ uygulamak istediğiniz döngü sayısını temsil eder ve _CDR_ yüzde olarak hedeflenen teminat/borç oranınızdır.
 
 7 döngülü %200 hedefli CDR örneğinde hesaplama aşağıdaki gibidir:
 
