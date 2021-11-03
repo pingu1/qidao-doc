@@ -7,7 +7,7 @@ Açıklama: >-
 
 ## Giriş
 
-Belirli bir çiftlikte hasılat yaptığınızda, genellikle platformun tokenlarını ödül olarak alırsınız. Daha sonra bunları satmak ya da saklamak ve zaman içinde bir miktar değer kazanmalarını ummak arasında seçim yapabilirsiniz. Bu kılavuz, çıkarları birleştirirken hiçbir şey satmadan getirilerinizi en üst düzeye çıkarmak için birkaç farklı DApp (**D**ecentralized **A**pplication) sunacaktır. Makaledede giriş stablecoinlerden başlayacak çünkü bu nispeten güvenli bir strateji olarak kabul ediliyor. Ancak bunun finansal bir tavsiye olmadığını ve sonuçların kesinlikle garanti edilmediği için bu kılavuzun dikkatle takip edilmesi gerektiğini unutmamalısınız. Her zaman olduğu gibi, kendi araştırmanızı yapın.
+Belirli bir çiftlikte hasat yaptığınızda, genellikle platformun tokenlarını ödül olarak alırsınız. Daha sonra bunları satmak ya da saklamak ve zaman içinde bir miktar değer kazanmalarını ummak arasında seçim yapabilirsiniz. Bu kılavuz, çıkarları birleştirirken hiçbir şey satmadan getirilerinizi en üst düzeye çıkarmak için birkaç farklı DApp (**D**ecentralized **A**pplication) sunacaktır. Makaledede giriş stablecoinlerden başlayacak çünkü bu nispeten güvenli bir strateji olarak kabul ediliyor. Ancak bunun finansal bir tavsiye olmadığını ve sonuçların kesinlikle garanti edilmediği için bu kılavuzun dikkatle takip edilmesi gerektiğini unutmamalısınız. Her zaman olduğu gibi, kendi araştırmanızı yapın.
 
 ![](<../.gitbook/assets/Screen Shot 2021-08-30 at 10.52.20 AM.png>)
 
