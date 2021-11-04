@@ -1,118 +1,116 @@
 ---
 description: >-
-  This guide will present an overview of the different chains where the MAI
-  stable coin can be used, and how you can bridge the native coin to other
-  networks.
+  Bu kılavuz, MAI'nin kullanılabileceği farklı zincirleri ve diğer ağlara nasıl bağlayabileceğinize dair bir genel bakış sunacaktır.
 ---
 
 # MAI Metaverse
 
 ![](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.06.42 PM.png>)
 
-## Intro
+## Giriş
 
-MAI, sometimes referenced as miMATIC, is the first stable coin native from the Polygon network. It's soft pegged to $1.00, and its value can possibly fluctuate between $0.99 and $1.01. You can get more details on how the peg is maintained in [the official documentation](https://docs.mai.finance/stablecoin-economics). But it's not because MAI is native to Polygon that it's only found on that network. Indeed, the same way as you can find DAI on different networks (DAI is actually another stable coin coming from the Ethereum Mainnet), MAI is slowly but surely expanding to other networks too. This article will highlight the different networks where you can find it, and how you can transfer your MAI from one network to the other.
+Bazen miMATIC olarak adlandırılan MAI, Polygon ağından gelen ilk stablecoindir. 1,00 ABD dolarına sabitlenmiştir ve değeri muhtemelen 0,99 ABD Doları ile 1,01 ABD Doları arasında dalgalanabilir. Sabitlemenin nasıl muhafaza edildiği hakkında daha fazla bilgiyi [resmi belgelerde](https://docs.mai.finance/stablecoin- economics) bulabilirsiniz. MAI'nin yalnızca bu ağda bulunmasının Polygon'a özgü olması değildir. Aslında, DAI'yi farklı ağlarda bulabildiğiniz gibi (DAI aslında Ethereum Mainnet'ten gelen başka bir stablecoindir), MAI yavaş ama emin adımlarla diğer ağlara da yayılıyor. Bu makale, MAI'yi bulabileceğiniz farklı ağları ve MAI'nizi bir ağdan diğerine nasıl aktarabileceğinizi vurgulayacaktır.
 
 ## Polygon
 
-### Getting MAI on Polygon
+### Polygonda MAI Alma
 
-As explained, MAI is native to Polygon, and that's the only place (as for September 2021) where you will be able to mint MAI.This is done either by
+Açıklandığı gibi, MAI Polygon'a özgüdür ve MAI'yi basabileceğiniz tek yer (Eylül 2021'de olduğu gibi) burasdır.
 
-* borrowing MAI against some collateral you previously deposited in a vault on Mai Finance
-* swapping USDC for MAI on [Mai Finance](https://app.mai.finance/anchor)
-* selling another asset and buying MAI on any DEX (**D**ecentralized **EX**change) on Polygon, the most efficient being [Zapper](https://zapper.fi/exchange), [Balancer](https://polygon.balancer.fi/#/trade) or [1Inch](https://app.1inch.io/#/137/classic/swap).
+* daha önce Mai Finance'te bir kasaya yatırdığınız bazı teminatlara karşı MAI ödünç almak
+* [Mai Finance](https://app.mai.finance/anchor) üzerinde MAI için USDC'yi değiştirme
+* Polygon'daki herhangi bir DEX'te (**D**ecentralized **EX**change) başka bir varlık satmak ve MAI satın almak, en verimli olanı [Zapper](https://zapper.fi/exchange), [Dengeleyici]( https://polygon.balancer.fi/#/trade) veya [1Inch](https://app.1inch.io/#/137/classic/swap).
 
-### Using MAI on Polygon
+### Polygon'da MAI Kullanımı
 
-The MAI stable coin is being used in more and more projects on Polygon, especially now that it's used as other stable coins on big projects like QuickSwap. As of September 2021, there are 3 stable farms on QuickSwap with a grand total of $18,327,604:
+MAI, özellikle QuickSwap gibi büyük projelerde diğer stablecoin olarak kullanıldığından, Polygon'daki daha fazla projede kullanılıyor. Eylül 2021 itibarıyla, QuickSwap'ta toplam 18.327.604 ABD doları tutarında 3 stable çiftlik vardır:
 
-* MAI-DAI with $6,553,255
-* MAI-USDT with $6,316,026
-* MAI-USDC with $5,458,323
+* 6.553.255 $ ile MAI-DAI
+* 6.316.026 $ ile MAI-USDT
+* 5.458.323$ ile MAI-USDC
 
-Additional pools can be found on other projects / yield farms / yield optimizers. You can read more on what to do with your MAI stable coin in [the dedicated article](../polygon-tutorials/what-to-do-with-mai-on-polygon.md).
+Diğer projelerde / verim çiftliklerinde / verim optimize edicilerde ek havuzlar bulunabilir. MAI ile ne yapacağınızla ilgili daha fazla bilgiyi [özel makalede](../polygon-tutorials/what-to-with-mai-on-polygon.md) okuyabilirsiniz.
 
 ## Solana
 
-### Getting MAI on Solana
+### Solana'da MAI Alma
 
-Solana is a blockchain platform for decentralized apps. The goal of the network is to propose low fees (less than $0.01) and fast (less than 400ms) transactions. The idea behind this is to create some alternative to the Ethereum Mainnet and its side chains. However, it's not because Solana is a direct competitor to the Ethereum network that it doesn't support the same assets. Indeed, Solana now supports the MAI stable coin that can be bridged from Polygon (where it can be minted).
+Solana, merkezi olmayan uygulamalar için bir blok zinciri platformudur. Ağın amacı, düşük ücretler (0.01$'dan az) ve hızlı (400ms'den az) işlemler önermektir. Bunun arkasındaki fikir, Ethereum Mainnet ve yan zincirlerine bir alternatif yaratmaktır. Solana'nın aynı varlıkları desteklememesi Ethereum ağının doğrudan rakibi olduğu için değildir. Gerçekten de, Solana artık Polygon'dan köprülenebilen MAI sabit parasını destekliyor (burada basılabilir).
 
-In order to send your MAI tokens to Solana, you can use [AllBridge](https://allbridge.io), a bridging platform that allows you to transfer tokens from one chain to another. AllBridge supports the following networks:
+MAI tokenlarınızı Solana'ya göndermek için tokenları bir zincirden diğerine aktarmanıza izin veren bir köprü platformu olan [AllBridge](https://allbridge.io) kullanabilirsiniz. AllBridge aşağıdaki ağları destekler:
 
-* Ethereum Mainnet
+* Ethereum Ana Ağı
 * Polygon
 * Solana
 * Huobi
 * Binance Smart Chain
 
-The interface is really intuitive in the sense you simply have to select the two networks and the asset you want to transfer between the 2.
+Arayüz, iki ağı ve ikisi arasında aktarmak istediğiniz varlığı seçmeniz gerektiği anlamında gerçekten sezgiseldir.
 
-![Bridging MAI from Polygon to Solana](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.52.23 PM.png>)
+![MAI'den Solana'ya Köprü Oluşturma](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.52.23 PM.png>)
 
-The next step is to indicate the address of your Solana wallet and the amount you want to transfer. Be aware that MetaMask doesn't support Solana wallets (yet?), you will have to create a separate wallet on that network. It can be either a web wallet like MetaMask, or an app wallet. Please read the [official recommendations from Solana](https://docs.solana.com/wallet-guide) before choosing one.
+Bir sonraki adım, Solana cüzdanınızın adresini ve aktarmak istediğiniz tutarı belirtmektir. MetaMask'in Solana cüzdanlarını desteklemediğini unutmayın (henüz?), bu ağda ayrı bir cüzdan oluşturmanız gerekecek. MetaMask gibi bir web cüzdanı veya bir uygulama cüzdanı olabilir. Lütfen birini seçmeden önce [Solana'nın resmi önerilerini](https://docs.solana.com/wallet-guide) okuyun.
 
 {% hint style="info" %}
-Be aware that Solana does not offers any faucet where you will get your first SOL (native token used to pay for transactions). You need to buy some SOL first and have them in your wallet so that you can transfer MAI to your wallet.
+Bir sonraki adım, Solana cüzdanınızın adresini ve aktarmak istediğiniz tutarı belirtmektir. MetaMask'in Solana cüzdanlarını desteklemediğini unutmayın (henüz?), bu ağda ayrı bir cüzdan oluşturmanız gerekecek. MetaMask gibi bir web cüzdanı veya bir uygulama cüzdanı olabilir. Lütfen birini seçmeden önce [Solana'nın resmi önerilerini](https://docs.solana.com/wallet-guide) okuyun.
 {% endhint %}
 
-### Using MAI on Solana
+### Solana'da MAI Kullanma
 
-The same way you can use MAI on Polygon to provide liquidity and farm yields, you can do the same on Solana. The main place where you can use MAI is [Saber](https://app.saber.so), in the MAI/USDC pool.
+Likidite ve çiftlik verimi sağlamak için MAI'yi Polygon'da nasıl kullanabiliyorsanız, aynısını Solana'da da yapabilirsiniz. MAI'yi kullanabileceğiniz ana yer MAI/USDC havuzundaki [Saber](https://app.saber.so)'dur.
 
-![State of the MAI/USDC pool on Saber as of Sept. 2021](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.11.10 PM.png>)
+![Saber'deki MAI/USDC havuzunun Eylül 2021 itibarıyla durumu](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.11.10 PM.png>)
 
-One of the good thing to know about the MAI/USDC pool on saber is that, unlike LP (**L**iquidity **P**roviding) pools on QuickSwap, you don't need to provide LP pairs with a ratio 1:1. You can simply deposit a single asset (**MAI** or **USDC**) or an (un)balanced ratio of both stable coins.
+Saber'daki MAI/USDC havuzu hakkında bilinmesi gereken iyi şeylerden biri, QuickSwap'taki LP (**L**iquidity**P**roviding) havuzlarının aksine, bir oran ile LP çiftleri sağlamanız gerekmemesidir. 1:1. Tek bir varlık (**MAI** veya **USDC**) veya her iki stablecoinin bir oranını basitçe yatırabilirsiniz.
 
-![MAI and USDC are unbalanced in the Saber pool](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.13.51 PM.png>)
+![Saber havuzunda MAI ve USDC](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.13.51 PM.png>)
 
-This means that you can actually use 100% MAI deposits from Mai Finance without having to swap any for USDC. It's particularly convenient and prevents getting impacted by small price differences between the 2 stable coins. Note that you will get rewards paid in the native farm token, the same way as you would get paid in QUICK if you're farming on QuickSwap on Polygon. You can then sell your saber tokens to increase your MAI/USDC position.
+Bu durum, USDC ile takas etmek zorunda kalmadan Mai Finance'ten %100 MAI mevduatı kullanabileceğiniz anlamına gelir. Oldukça kullanışlıdır ve 2 stablecoin arasındaki küçük fiyat farklılıklarından etkilenmeyi önler. Polygon üzerinde QuickSwap'ta çiftçilik yapıyorsanız, QUICK olarak ödenecek ödüllerle aynı şekilde çiftlik tokenında ödenen ödüller alacağınızı unutmayın. Ardından, MAI/USDC pozisyonunuzu artırmak için tokenlerinizi satabilirsiniz.
 
 {% hint style="info" %}
-On Solana, you can also use [Sunny](https://app.sunny.ag), an aggregator that will auto-compound the rewards from Saber. Note that the Sunny aggregator is not validated by the Mai Finance team. AllBridge and Saber have been official partners of Mai Finance, but results are not guaranteed. Please, as usual, do your own researches.
+Solana'da, Sabre'in ödüllerini otomatik olarak birleştirecek bir toplayıcı olan [Sunny](https://app.sunny.ag) kullanabilirsiniz. Sunny toplayıcının Mai Finance ekibi tarafından doğrulanmadığını unutmayın. AllBridge ve Sabre, Mai Finance'in resmi ortaklarıdır. Ancak sonuçlar garanti edilmez. Lütfen her zamanki gibi kendi araştırmalarınızı yapın.
 {% endhint %}
 
 ## Avalanche
 
-### Getting MAI on Avax
+### Avax'ta MAI Alma
 
-Avalanche is a blockchain network, designed to provide an open-source platform and a layer 1 protocol for launching DeFi applications and enterprise blockchain solutions. It's another alternative solution to Ethereum Mainnet that also supports the same assets as Ethereum Mainnet, Polygon and Solana. As such, you can now send your MAI from Polygon (the only place, as of September 2021, where you can mint MAI) to Avax using [Relay Chain](https://app.relaychain.com/#/transfer).
+Avalanche, açık kaynaklı bir platform ve DeFi uygulamalarına ve kurumsal blok zinciri çözümlerine katman 1 protokolü sağlamak üzere tasarlanmış bir blok zinciri ağıdır. Ethereum Mainnet, Polygon ve Solana ile aynı varlıkları da destekleyen Ethereum Mainnet'e başka bir alternatif çözüm diyebiliriz. Artık MAI'nizi Polygon'dan (Eylül 2021 itibariyle MAI basabileceğiniz tek yer) [Relay Chain](https://app.relaychain.com/#/transfer) kullanarak Avax'a gönderebilirsiniz.
 
-As for AllBridge, the UI is quite simple. You simply select the network from which the asset will be bridge, its destination, and the asset to transfer.
+AllBridge'e gelince, kullanıcı arayüzü oldukça basittir. Varlığın köprü olacağı ağı, hedefini ve aktarılacak varlığı seçmeniz yeterlidir.
 
-![Bridging MAI from Polygon to Avalanche](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.52.31 PM.png>)
+![MAI'yi Polygon'dan Avalanche'e Köprüleme](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.52.31 PM.png>)
 
-Metamask **does** support [Avax wallets](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche), so you won't need any additional wallet like for Solana.
+Metamask, [Avax cüzdanlarını](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche) **destekler**, yani Solana gibi ek bir cüzdana ihtiyacınız yoktur.
 
-### Using MAI on Avax
+### MAI'yi Avax'ta Kullanma
 
-The same way you can use MAI to farm yields on Polygon, you can use MAI on Avalanche. The main place to do so is [Trader Joe's farms](https://www.traderjoexyz.com/#/farm), where you will find a MAI/USDC pool.
+MAI'yi Polygon'da verim toplamak için kullanabileceğiniz gibi, MAI'yi Avalanche'da da kullanabilirsiniz. Bunu yapmak için ana yer, bir MAI/USDC havuzu bulacağınız [Trader Joe'nun çiftlikleri](https://www.traderjoexyz.com/#/farm).
 
-![State of the MAI/USDC pool on Trader Joe as of Sept. 2021](<../.gitbook/assets/Screen Shot 2021-09-13 at 3.07.19 PM.png>)
+![Trader Joe'daki MAI/USDC havuzunun Eylül 2021 itibarıyla durumu](<../.gitbook/assets/Screen Shot 2021-09-13 at 3.07.19 PM.png>)
 
-The farms on Avalanche work very closely to what you can find on Polygon. Hence, you can use Trader Joe's app the same way you would use QuickSwap. You first need to create an LP pair on the site using the same ratio of MAI and USDC, then deposit the LP pair on the farm. The same way you would get paid in QUICK when farming on QuickSwap, you will get rewarded in JOE tokens when farming on Trader Joe. You can then use these tokens in other pools, or sell them to increase your MAI/USDC pair.
+Avalanche'daki çiftlikler, Polygon'da bulabileceklerinize çok yakın çalışır. Bu nedenle, Trader Joe'nun uygulamasını QuickSwap'ı kullandığınız şekilde kullanabilirsiniz. Önce sitede aynı MAI ve USDC oranını kullanarak bir LP çifti oluşturmanız, ardından LP çiftini çiftliğe yatırmanız gerekir. QuickSwap'ta çiftçilik yaparken QUICK olarak ödeme aldığınız gibi, Trader Joe'da çiftçilik yaparken JOE tokenları ile ödüllendirileceksiniz. Daha sonra bu tokenları diğer havuzlarda kullanabilir veya MAI/USDC çiftinizi artırmak için satabilirsiniz.
 
 ## Fantom
 
-### Getting MAI on Fantom
+### Fantom'da MAI Alma
 
-Fantom is a blockchain / smart contract platform which purpose is to solve the scalability issues of other networks, namely the Ethereum blockchain. Developers can create their DApps (**D**ecentralized **App**lications) on that network and use the same assets as on other network. As such, you can already bridge MAI from Polygon to Fantom using the [AnySwap](https://anyswap.exchange/#/bridge)'s bridge.
+Fantom, amacı diğer ağların yani Ethereum blok zincirinin ölçeklenebilirlik sorunlarını çözmek olan bir blok zinciri / akıllı sözleşme platformudur. Geliştiriciler, DApp'lerini (**D**ecentralized **A**pplication) bu ağda oluşturabilir ve diğer ağdakiyle aynı varlıkları kullanabilir. Bu nedenle, [AnySwap](https://anyswap.exchange/#/bridge)'nin köprüsünü kullanarak MAI'yi Polygon'dan Fantom'a köprüleyebilirsiniz.
 
-If AnySwap is another bridging solution, its UI is very similar to the one of AllBridge and Relay Chain. When on Polygon, you will have to connect your MetaMask wallet first, then select the asset you want to bridge (MAI) and the destination network (Fantom).
+AnySwap başka bir köprüleme çözümüyse, kullanıcı arayüzü AllBridge ve Relay Chain'inkine çok benzer. Polygon'dayken, önce MetaMask cüzdanınızı bağlamanız, ardından köprülemek istediğiniz varlığı (MAI) ve hedef ağı (Fantom) seçmeniz gerekecektir.
 
-![Bridging MAI from Polygon to Fantom](../.gitbook/assets/image.png)
+![MAI ile Fantom arasında köprü oluşturma](../.gitbook/assets/image.png)
 
-Metamask **does** support [fantom wallets](https://docs.fantom.foundation/tutorials/set-up-metamask), so it's very easy to set it up to get your MAI on Fantom and start using it right away.
+Metamask, [fantom cüzdanlarını](https://docs.fantom.foundation/tutorials/set-up-metamask) **destekler**, bu nedenle MAI'nizi Fantom'a almak ve doğru kullanmaya başlamak için ayarlamak oldukça kolaydır.
 
-### Using MAI on Fantom
+### MAI'yi Fantom'da Kullanma
 
-Currently, the Mai Finance team does not have any partnership with any yield farm on Fantom. Once the team is aware of projects that are using MAI, this documentation will be updated. Stay tuned.
+Şu anda, Mai Finance ekibinin Fantom'daki herhangi bir verim çiftliği ile herhangi bir ortaklığı bulunmamaktadır. Ekip, MAI kullanan projelerden haberdar olduğunda bu belgeler güncellenecektir. Bizi izlemeye devam edin.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-The details presented in this guide are purely educational and have not been tested directly by the team maintaining this guide. A few users on the discord server have already tried bridging their assets to Solana and/or Avalanche, so you can join the Discord community to ask your questions. Please don't forget to do your own researches, different networks will have different transaction fees and execution times, different reward programs, bridging fees etc ... If you send your MAI to other networks, make sure you can bridge them back in case you need it on Polygon.
+Bu kılavuzda sunulan ayrıntılar tamamen eğiticidir ve bu kılavuzun bakımını yapan ekip tarafından doğrudan test edilmemiştir. Discord sunucusundaki birkaç kullanıcı, varlıklarını Solana ve/veya Avalanche'a bağlamayı denedi, böylece sorularınızı sormak için Discord topluluğuna katılabilirsiniz. Lütfen kendi araştırmalarınızı yapmayı unutmayınız, farklı ağların farklı işlem ücretleri ve uygulama süreleri, farklı ödül programları, köprüleme ücretleri vb. olacaktır... MAI'nizi başka ağlara gönderirseniz, herhangi bir durumda onları geri gönderebileceğinizden emin olun.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen gelişmelerden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
