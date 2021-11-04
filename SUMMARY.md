@@ -1,40 +1,40 @@
-# Table of contents
+# İçindekiler
 
-* [The Unofficial Guide to Mai Finance](README.md)
+* [Mai Finance için Topluluk Rehberi](README.md)
 
-## polygon tutorials
+## Polygon Rehberi
 
-* [How to get started on Polygon](polygon-tutorials/how-to-get-started-on-polygon.md)
-* [Leverage Your Aave Market Tokens](polygon-tutorials/leverage-aave-tokens.md)
-* [camDAI beginner strategy](polygon-tutorials/camdai-beginner-strategy.md)
-* [Farming using only stable coins](polygon-tutorials/secure-your-yield-farming-profits.md)
-* [What to do with MAI on Polygon](polygon-tutorials/what-to-do-with-mai-on-polygon.md)
-* [What to do with Qi on Polygon](polygon-tutorials/what-to-do-with-qi-on-polygon.md)
-* [Stack DApps like Lego bricks](polygon-tutorials/stack-dapps-like-lego-bricks.md)
-* [Farming or Staking? Or both?](polygon-tutorials/farming-or-staking-or-both.md)
-* [How to combine farming and borrowing rewards](polygon-tutorials/how-to-combine-farming-and-borrowing-rewards.md)
+* [Polygon'u Nasıl Kullanırım?](polygon-tutorials/how-to-get-started-on-polygon.md)
+* [Aave Market'ten Yararlanın](polygon-tutorials/leverage-aave-tokens.md)
+* [camDAI Başlangıç Stratejisi](polygon-tutorials/camdai-beginner-strategy.md)
+* [Sadece stablecoin kullanarak çiftçilik stratejisi](polygon-tutorials/secure-your-yield-farming-profits.md)
+* [Polygon'da MAI ile ne yapabilirim?](polygon-tutorials/what-to-do-with-mai-on-polygon.md)
+* [Polygon üzerinde Qi ile Neler Yapabiliriz?](polygon-tutorials/what-to-do-with-qi-on-polygon.md)
+* [DApp'leri Lego gibi kullanın](polygon-tutorials/stack-dapps-like-lego-bricks.md)
+* [Çiftçilik (Farming) mi Staking mi? Yoksa her ikisi de mi?](polygon-tutorials/farming-or-staking-or-both.md)
+* [Çiftçilik ve Borçlanma (Borrowing) Ödülleri Nasıl Birleştirilir?](polygon-tutorials/how-to-combine-farming-and-borrowing-rewards.md)
 
-## avalanche tutorials
+## Avalanche Rehberi
 
-* [How to get started on Avalanche](avalanche-tutorials/how-to-get-started-on-avalanche.md)
+* [Avalanche'ı Nasıl Kullanırım?](avalanche-tutorials/how-to-get-started-on-avalanche.md)
 
-## Fantom tutorials
+## Fantom Rehberi
 
-* [How to get started on Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
+* [Fantom'u Nasıl Kullanırım?](fantom-tutorials/how-to-get-started-on-fantom.md)
 
-## MAI University
+## MAI Üniversitesi
 
-* [Earning Passive Income with QiDAO](mai-university/earning-passive-income-with-qidao.md)
-* [How does MAI work?](mai-university/how-does-mai-work.md)
-* [MAI loans and Vaults incentives](mai-university/mai-loans-and-vaults-incentives.md)
-* [Debt repayment - Why and When?](mai-university/debt-repayment-why-and-when.md)
-* [Debt repayment - How?](mai-university/debt-repayment-how.md)
+* [QiDAO ile Pasif Gelir Kazanma](mai-university/earning-passive-income-with-qidao.md)
+* [MAI nasıl çalışır?](mai-university/how-does-mai-work.md)
+* [MAI kredileri ve Kasa teşvikleri](mai-university/mai-loans-and-vaults-incentives.md)
+* [Borç geri ödemesi - Neden ve Ne Zaman?](mai-university/debt-repayment-why-and-when.md)
+* [Borç geri ödemesi - Nasıl?](mai-university/debt-repayment-how.md)
 * [MAI Metaverse](mai-university/mai-metaverse.md)
-* [How to use MAI in the real life](mai-university/how-to-use-mai-in-the-real-life.md)
+* [MAI gerçek hayatta nasıl kullanılır?](mai-university/how-to-use-mai-in-the-real-life.md)
 
-## Join the Community <a href="community" id="community"></a>
+## Topluluğa Katılın <a href="community" id="community"></a>
 
 * [Discord](https://discord.gg/qidaoprotocol)
 * [Telegram](https://t.me/QiDaoProtocol)
 * [Twitter](https://twitter.com/OhMaiGuide)
-* [Use the app](https://app.mai.finance)
+* [Uygulamayı kullanın](https://app.mai.finance)
