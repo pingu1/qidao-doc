@@ -1,8 +1,6 @@
 ---
 description: >-
-  Bu kılavuz, Mai Finance'in tokenı olan Qi'yi Polygon'da nasıl
-  kullanabileceğinizi ayrıntılı olarak açıklayacaktır. Ayrıca Qi'nin iyi bir
-  yatırım fırsatı olup olmadığını ve fiyatını neyin yönlendirdiği
+  Bu kılavuz, Mai Finance'in tokenı olan Qi'yi Polygon'da nasıl kullanabileceğinizi ayrıntılı olarak açıklayacaktır. Ayrıca Qi'nin iyi bir yatırım fırsatı olup olmadığını ve fiyatını neyin yönlendirdiğini de analiz edeceğiz.
 ---
 
 # Polygon üzerinde Qi ile Neler Yapabiliriz?

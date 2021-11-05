@@ -1,125 +1,125 @@
 ---
 description: >-
-  Passive income is the art of making money which flows in regular interval of
-  time by doing minimal work for it. Now, Qi DAO lets you do the same by locking
-  your QI tokens.
+  Pasif gelir, minimum iş yaparak düzenli para kazanma sanatıdır. Qi DAO, QI kilitleyerek bu sanatı icra etmenizi sağlar.
+
 ---
 
-# Earning Passive Income with QiDAO
+# QiDAO ile Pasif Gelir Kazanma
 
-## Passive income through QI DAO?
+## QI DAO aracılığıyla pasif gelir nasıl kazanılır?
 
-Qi DAO lets you earn weekly share of the revenue earned by the protocol, precisely:
+Qi DAO, protokol tarafından kazanılan gelirin haftalık payını kullanıcılarına sunar:
 
-* 30% of weekly repayment fee revenue (plus a 25% boost).
-* 100% of LP rewards received from using deposit fee revenue to farm on QuickSwap
-* 30% of weekly USDC Swap fees.
+* Haftalık geri ödeme ücreti gelirinin %30'u (artı %25 artış).
+* QuickSwap'ta çiftlik yapmak için depozito ücreti gelirini kullanmaktan elde edilen LP ödüllerinin %100'ü
+* Haftalık USDC Swap ücretlerinin %30'u.
 
-This share of revenue is distributed to the people who stake and lock their QI tokens for a certain period of time, the rewards are then distributed in the form of QI tokens which is airdropped to your wallets directly. These rewards will be airdropped each Wednesday, and you can check your previous rewards [here](https://app.mai.finance/rewards).
+Bu gelir payı, QI tokenlarını belirli bir süreliğine stake eden ve kilitleyen kişilere dağıtılır. Ödüller daha sonra doğrudan cüzdanlarınıza airdrop ile bırakılan QI tokenları şeklinde dağıtılır. Ödüller her Çarşamba günü airdrop yapılacak ve önceki ödüllerinizi [buradan](https://app.mai.finance/rewards) kontrol edebilirsiniz.
 
-## Introduction to snapshots
+## Anlık görüntülere giriş
 
-A snapshot is basically a recording of the the state of a blockchain on a particular block height, this means that the snapshot will record the contents of the entire blockchain ledger, which includes all existing addresses and their associated data (transactions, fees, balance, so on). Since Qi is on the Polygon blockchain we can check when the next snapshot is going to take place in [Polygonscan](https://polygonscan.com).
+Anlık görüntü, temel olarak belirli bir blok yüksekliğinde bir blok zincirinin durumunun bir kaydıdır. Anlık görüntünün, mevcut tüm adresleri ve bunlarla ilişkili verileri (işlemler, ücretler, bakiye, vb) içeren tüm blok zinciri defterinin içeriğini kaydedeceği anlamına gelir. Qi, Polygon blok zincirinde olduğundan, bir sonraki anlık görüntünün ne zaman gerçekleşeceğini [Polygonscan](https://polygonscan.com) kontrol edebiliriz.
 
-You become eligible for the rewards if you stake your Qi tokens for at least \~10 days depending on when you lock your tokens. In other words, a valid staking period should contain at least 2 snapshots, so you'll get paid the Wednesday following the 2nd snapshot.
+Qi'leri ne zaman kilitlediğinize bağlı olarak en az \~10 gün boyunca stake ederseniz, ödüller için hak kazanırsınız. Başka bir deyişle, geçerli bir stake süresi en az 2 anlık görüntü içermelidir. Böylece 2. anlık görüntüyü izleyen Çarşamba günü size ödeme yapılır.
 
-![How to become eligible for the Qi rewards](../.gitbook/assets/unknown.png)
+![Qi ödüllerine nasıl hak kazanılır](../.gitbook/assets/unknown.png)
 
-This is an example of a bare minimal staking period. Of course, you can stake for a longer period of time, and there are actually benefits locking your Qi for a long period. The longer you lock, the bigger the reward boost will be (see [What is Qi Powah](earning-passive-income-with-qidao.md#what-is-qi-powah) and the [FAQ](earning-passive-income-with-qidao.md#faqs-of-qi-staking) for more details).
+Bu gördüğünüz minimum stake süresinin bir örneğidir. Tabii ki, daha uzun bir süre için stake yapabilirsiniz ve aslında Qi'nizi uzun bir süre kilitlemenin oldukça faydası vardır. Ne kadar uzun süre kilitlerseniz, ödül artışı o kadar büyük olur (daha fazla detay için [What is Qi Powah](earning-passive-income-with-qidao.md#what-is-qi-powah) ve [FAQ](earning-passive-income-with-qidao.md#faqs-of-qi-staking) 
 
-## Understanding Qi Boost and Qi Powah
+## Qi Boost ve Qi Powah
 
-Now that we know what a snapshot is, we are ready to start earning some passive income using Qi. In order to do so, we have to go to the [boost ](https://app.mai.finance/boost)page in Mai Finance.
+Artık anlık görüntünün ne olduğunu bildiğimize göre, Qi kullanarak pasif gelir elde etmeye hazırız. Bunu yapmak için Mai Finance'deki [boost ](https://app.mai.finance/boost)sayfasına gitmeliyiz.
 
-### What is Qi Boost and Qi Powah?
+### Qi Boost ve Qi Powah nedir?
 
-Qi Boost is your opportunity to increase the power and rewards of your Qi. The longer you lock your Qi the greater your voting power (Qi Powah) and weekly reward share will be. You can boost up to 4x by locking Qi for 4 years. Your boosts slowly reduces over your locking period, eventually unlocking your Qi, however you can always increase your boost to maintain your boosted level. Your boosted Qi is represented in eQi (escrowed Qi) and will remain in escrow until your unlock date (non-transferable).
+Qi Boost, Qi'nizin gücünü ve ödüllerini artırma fırsatınızdır. Qi'nizi ne kadar uzun süre kilitlerseniz, oylama gücünüz (Qi Powah) ve haftalık ödül payınız o kadar büyük olur. Qi'yi 4 yıl boyunca kilitleyerek 4 kata kadar artırabilirsiniz. Takviyeleriniz, kilitleme süreniz boyunca yavaş yavaş azalır ve sonunda Qi'nizin kilidini açar. Takviye seviyenizi korumak için takviyenizi her zaman artırabilirsiniz. Yükseltilmiş Qi'niz eQi'de (emanet Qi) temsil edilir ve kilit açma tarihinize kadar emanette kalır (aktarılamaz).
 
-This can means that locking Qi have the following advantages:
+Bu, Qi'yi kilitlemenin aşağıdaki avantajlara sahip olduğu anlamına gelebilir:
 
-* You can start earning weekly rewards just by locking your Qi tokens.
-* As a DAO, your voice will matter and depending on how many Qi tokens you lock, and how much time it is locked, you'll have more voting power of what will happen in the community. You can check the currents proposals of Qi DAO [here](https://snapshot.org/#/qidao.eth).
+* Sadece Qi kilitleyerek haftalık ödüller kazanmaya başlayabilirsiniz.
+* Bir DAO olarak sesiniz önemli olacak ve kaç Qi jetonunu kilitlediğinize ve ne kadar süreyle kilitlendiğine bağlı olarak, toplulukta ne olacağına dair daha fazla oy hakkınız olacak. Qi DAO'nun akım tekliflerini [buradan](https://snapshot.org/#/qidao.eth) kontrol edebilirsiniz.
 
-### Locking your Qi
+### Qi Kilitleme
 
-To lock your Qi tokens you need to go the Qi Powah Boost lock bar and select how many tokens do you want to lock and the time period for which you want to lock your Qi tokens. The longer the time period the more **eQi** you will get, remember that eQi is just how many Qi tokens you will have once the locking period is over.
+Qi kilitlemek için Qi Powah Boost kilit çubuğuna gitmeniz ve kaç tane token kilitlemek istediğinizi ve kilitlemek istediğiniz süreyi seçmeniz gerekir. Süre ne kadar uzun olursa, o kadar fazla **eQi** elde edersiniz, eQi'nin kilitleme süresi sona erdikten sonra kaç Qi olacağını unutmayın.
 
-![Qi Powah Boost Lock](../.gitbook/assets/Captura.JPG)
+![Qi Powah Boost Kilidi](../.gitbook/assets/Captura.JPG)
 
-Once you have decided all that, click on approve and approve the transaction, then click on `Increase locked QI and lock time` and confirm the transaction.
+Tüm bunlara karar verdikten sonra, işlemi onayla ve onayla'ya tıklayın, ardından `Kilitli QI ve kilitleme süresini artır'a tıklayın ve işlemi onaylayın.
 
 {% hint style="info" %}
-Please be aware that once you lock your Qi tokens for a given period, there's no way to unlock them before the lock period is over. Please be very cautious and aware when using this feature.
+Lütfen Qi'lerinizi belirli bir süre kilitlediğinizde, kilit süresi bitmeden onları açmanın bir yolu olmadığını unutmayın. Lütfen bu özelliği kullanırken çok dikkatli olun ve bilinçli kullanın.
 {% endhint %}
 
-Congratulations, now you are officially a Qi staker you will receive on the following weeks a weekly pay check. If you have any doubt wether you are qualified for the next week's revenue sharing, you can see on the boost page if you are qualified or not.
+Tebrikler, artık resmi olarak Qi staker'ı oldunuz, sonraki haftalarda haftalık maaş çeki alacaksınız. Gelecek haftanın gelir paylaşımı için kalifiye olup olmadığınız konusunda herhangi bir şüpheniz varsa, kalifiye olup olmadığınızı destek sayfasında görebilirsiniz.
 
 ![](<../.gitbook/assets/Captura (1).JPG>)
 
-### Stats of the Qi Powah
+### Qi Powah İstatistikleri
 
-If you want to check the stats of the Qi Boosting, you can go to this [page ](https://app.mai.finance/boost/stats)to check the amount of Qi locked, as well as the average lock time or the revenue that the protocol earn each week.
+Qi Boost'un istatistiklerini kontrol etmek istiyorsanız, kilitlenen Qi miktarını ve ortalama kilit süresini kontrol etmek için bu [sayfaya ](https://app.mai.finance/boost/stats) gidebilirsiniz. veya protokolün her hafta kazandığı gelir.
 
-## FAQs of Qi Staking
+## Qi Staking Hakkında SSS
 
-* **When do I have to lock my QI?**
+* **QI'mi ne zaman kilitlemem gerekiyor?**
 
-Snapshots are on Sunday and they record who has locked their $QI for at least a week at the time of the snapshot. If you do, you qualify for a share of the revenue for the upcoming week
+Anlık görüntüler Pazar günüdür ve anlık görüntü sırasında en az bir hafta boyunca $QI'lerini kimin kilitlediğini kaydederler. Bu yöntemle gelecek hafta için gelirden pay almaya hak kazanırsınız.
 
-* **Where can I see when is the snapshot?**
+* **Anlık görüntünün ne zaman olduğunu nerede görebilirim?**
 
-Check the boost page, copy the “Next blocks” first number and paste it on Polygonscan. It will tell you the exact estimation time of the snapshot.
+Destek sayfasını kontrol edin, "Sonraki bloklar"ın ilk numarasını kopyalayın ve Polygonscan'a yapıştırın. Size anlık görüntünün tam tahmin süresini söyleyecektir.
 
-* **For how long do I have to lock my QI?**
+* **QI'mi ne kadar süreyle kilitlemem gerekiyor?**
 
-At he moment of the snapshot it has to be locked at least 1 full week. If you want to make 100% sure that you will be eligible, we recommend to lock for 2 weeks or more.
+Anlık görüntü anında en az 1 tam hafta kilitlenmelidir. Uygun olacağınızdan %100 emin olmak istiyorsanız, 2 hafta veya daha uzun süre kilitlemenizi öneririz.
 
-* **When do I receive my rewards?**
+* **Ödüllerimi ne zaman alırım?**
 
-Every Wednesday, they will be either airdropped to your wallet or collectable from rewards page. Timing might be somewhat flexible, please be patient as the team has to verify before release them.
+Her Çarşamba, ya cüzdanınıza airdrop yapılacak ya da ödül sayfasından toplanacak. Zamanlama biraz esnek olabilir. Lütfen sabırlı olun çünkü ekip bunları yayınlamadan önce doğrulamalıdır.
 
-* **But I locked almost 2 weeks ago and I didn’t receive anything yet!**
+* **Neredeyse 2 hafta önce kilitledim ve henüz hiçbir şey almadım!**
 
-There’s a few possibilities here: Either everything is fine but you still have to wait until next Wednesday, or at the moment of the snapshot it was locked for less than a week. Rewards are distributed roughly 10 days after snapshots.
+Burada birkaç olasılık var: Ya her şey yolunda ama yine de gelecek çarşambaya kadar beklemeniz gerekiyor ya da anlık görüntü anında bir haftadan daha az bir süre kilitlendi. Ödüller, anlık görüntülerden yaklaşık 10 gün sonra dağıtılır.
 
-* **What tokens will I receive?**
+* **Hangi tokenları alacağım?**
 
-$QI staking rewards are distributed in $QI.
+$QI stake ödülleri $QI olarak dağıtılır.
 
-* **Where do these rewards come from?**
-  * 100% gains from farming deposit fee revenue ($2,245,681 used to farm as of week 14)
-  * 30% of repayment fee revenue ($18,362 average weekly revenue)
-  * 30% of Anchor/Swap fee revenue ($178,365 average weekly revenue)
-* **What is eQI and what can I do with it?**
+* **Bu ödüller nereden geliyor?**
+  * Çiftçilik yatırma ücreti gelirinden %100 kazanç (14. hafta itibariyle 2.245.681 $ çiftçilik için kullanılır)
+  * Geri ödeme ücreti gelirinin %30'u (18,362 $ haftalık ortalama gelir)
+  * Anchor/Takas ücreti gelirinin %30'u (haftalık ortalama 178.365$ gelir)
 
-eQI (escrowed QI) represents the boost that you're getting on your voting power and Qi rewards. So for the purposes of voting and getting Qi rewards, 1 eQi counts as 1 Qi
+* **eQI nedir ve onunla ne yapabilirim?**
 
-* **But wait, I locked to get rewards. What’s this voting power?**
+eQI (emanet QI), oylama gücünüzde ve Qi ödüllerinde elde ettiğiniz artışı temsil eder. Bu nedenle oylama ve Qi ödülleri alma amacıyla 1 eQi, 1 Qi olarak sayılır.
 
-QiDao is a DAO (Decentralized Autonomous Organization) and the future of the protocol is decided by the community. As a holder of $QI you are entitled to vote on QIP (QiDao Improvement Proposals) published on Governance page.
+* **Ödülleri almak için Qi kilitledim. Bu oylama gücü nedir?**
 
-* **What APR can I expect by locking $QI?**
+QiDao bir DAO'dur (Merkezi Olmayan Otonom Organizasyon) ve protokolün geleceğine topluluk tarafından karar verilir. $QI sahibi olarak, Yönetişim sayfasında yayınlanan QIP'de (QiDao İyileştirme Önerileri) oy kullanma hakkınız vardır.
 
-Every week is different as the rewards depends on how much eQI there is and how much revenue did the protocol collect that week. You can get some estimates from the eQI APY on boost page, the boost stats and the weekly updates where we share past revenues.
+* **$QI'yi kilitleyerek hangi APR'yi bekleyebilirim?**
 
-* **Can I add more QI to my current staking or make it last longer?**
+Ödüller, ne kadar eQI olduğuna ve protokolün o hafta ne kadar gelir elde ettiğine bağlı olduğundan her hafta farklıdır. Boost sayfasındaki eQI APY'den, boost istatistiklerinden ve geçmiş gelirleri paylaştığımız haftalık güncellemelerden bazı tahminler alabilirsiniz.
 
-Yes, you can do both without affecting your current staking. Just select the amount, the time to add, click increase and confirm.
+* **Mevcut stake'ime daha fazla QI ekleyebilir miyim veya daha uzun süre dayanmasını sağlayabilir miyim?**
 
-* **Can I lock my QI for different amounts of time?**
+Evet, mevcut bahis miktarınızı etkilemeden her ikisini de yapabilirsiniz. Sadece miktarı, eklenecek zamanı seçin, artır'ı tıklayın ve onaylayın.
 
-Currently that’s not possible within the same account. However, you can quickly do that by adding a new account to your wallet. That way you can lock for a long time with your main one and for shorter periods of time with a secondary address.
+* **QI'mi farklı süreler için kilitleyebilir miyim?**
 
-* **What will happen when the lock time is due?**
+Şu anda aynı hesapta bu mümkün değil. Cüzdanınıza yeni bir hesap ekleyerek bunu hızlı bir şekilde yapabilirsiniz. Bu şekilde ana adresinizle uzun süre ve ikincil bir adresle daha kısa sürelerle kilitleyebilirsiniz.
 
-You will have to click withdraw and will receive in your wallet the same amount you initially locked. But I locked for 4 years and see that I have 4 times more eQI than QI locked That’s normal. eQI will gradually decrease as time passes by and in the end it will be equal to your initial QI. In the meantime you will enjoy a boost on your voting power and weekly rewards.
+* **Kilitlenme zamanı geldiğinde ne olacak?**
 
-## Disclaimer
+Para çekmeyi tıklamanız gerekecek ve başlangıçta kilitlediğiniz miktarı cüzdanınıza alacaksınız. Ama 4 yıl boyunca kilitlendim ve QI kilitlendiğinden 4 kat daha fazla eQI'ye sahip olduğumu görüyorum Bu normal. eQI zaman geçtikçe kademeli olarak azalacaktır ve sonunda ilk QI'nize eşit olacaktır. Bu arada oy verme gücünüzün ve haftalık ödüllerin artmasının keyfini çıkaracaksınız.
 
-You can find an article on a similar topic covered by Genkham [here](https://medium.com/@GenKham/earning-passive-income-with-qi-dao-b92a6a3721bd).
+## Sorumluluk Reddi
 
-This guide is definitely not financial advice, it was made with an educational goal in mind. The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Genkham'ın kapsadığı benzer bir konuyla ilgili bir makaleyi [burada](https://medium.com/@GenKham/earning-passive-income-with-qi-dao-b92a6a3721bd) bulabilirsiniz.
+
+Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Amaç, körü körüne takip edilebilecek tarifler önermek değildi, bu yüzden lütfen çalışmanızı yapın ve kendi simülasyonunuzu yapın ve yalnızca kaybetmeye hazır olduğunuz kadar yatırım yapın.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen gelişmelerden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}

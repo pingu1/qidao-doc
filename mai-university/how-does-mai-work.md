@@ -1,82 +1,79 @@
 ---
 description: >-
-  Getting a good understanding about how MAI works is crucial for any investor
-  that really wants to understand Mai Finance, so in this article you will
-  understand how MAI works.
----
+  Mai Finance'i gerçekten anlamak isteyen herhangi bir yatırımcı için MAI'nin nasıl çalıştığını iyi anlamak çok önemlidir. Bu makalede MAI'nin nasıl çalıştığını anlatacağız.
 
-# How does MAI work?
+# MAI nasıl çalışır?
 
-## What is a stable coin?
+## Stablecoin nedir?
 
-Before getting into what is MAI, we have to understand what is a stable coin, a stable coin is a type of cryptocurrency that is designed to maintain a stable market price. Most of the stable coins are pegged (a currency where the price is designed to remain the same as a designated asset) to the US dollar, but you can find other stable coins pegged to other commodities such as gold (like EGold) or silver (SilverCoin).
+MAI'nin ne olduğuna girmeden önce, stablecoin'in ne olduğunu anlamalıyız. Stablecoin istikrarlı bir şekilde piyasa fiyatını korumak için tasarlanmış bir tür kripto para birimidir. Stabilcoinlerin çoğu (fiyatın belirlenmiş bir varlıkla aynı kalacak şekilde tasarlandığı bir para birimi) ABD dolarına sabitlenir, ancak altın (EGold gibi) veya gümüş gibi diğer emtialara sabitlenmiş diğer sabit madeni paraları da bulabilirsiniz (Silvercoin).
 
-However, there are 2 main categories in which all stable coins can fit, **collateralized** or **non-collateralized.** The **collateralized** stable coins are those that hold the assets against which their coin is pegged, meanwhile the **non-collateralized** make use of algorithms to control the supply of tokens in order to keep the price fixed at a predetermined level.
+Bununla birlikte, tüm stabilcoinlerin tanımlanabileceği 2 ana kategori vardır, **teminatlı** veya **teminatsız**. **Teminatlı** stablecoinler, paralarının sabitlendiği varlıkları tutanlardır. **teminatsız**, fiyatı önceden belirlenmiş bir seviyede sabit tutmak için token arzını kontrol etmek için algoritmalar kullanır.
 
-## The IRON Finance disaster
+## IRON Finance felaketi
 
-If you've been around in crypto for some time, you may remember the disaster of the **TITAN** and **IRON** token, but for those of you who don't, here is a quick recap. IRON Finance was a project that had 2 tokens, the _IRON_ stable coin and the _TITAN_ token, however the IRON stable coin **wasn't fully backed** with stable coins, the proportion to mint IRON was **75% USDC** and **25% TITAN** token. So it was basically a recipe for disaster.
+Bir süredir kriptodaysanız, **TITAN** ve **IRON** token felaketini hatırlayabilirsiniz. Bu çılgınlığı yapmayanlarınız için kısa bir özet geçelim. IRON Finance, _IRON_ stablecoin ve _TITAN_ token olmak üzere 2 tokena sahip bir projeydi. Fakat IRON **tam olarak stablecoinlerle desteklenmedi**, IRON'un darphanesine oran **%75 USDC** ve **%25 TITAN** şeklindeydi. Yani temelde felaket için muazzam bir reçeteydi.
 
-In June of 2021 the TITAN token reached an ATH of $65, which caused that a bunch of investors, who invested heavily in the coin, decided to sell. This caused a problem because TITAN is priced based on supply and demand. So as the available supply of TITAN increased, the price began to decrease. This caused a huge sell pressure so the price of TITAN fell even faster, so when TITAN began to fall rapidly, IRON lost its backing and eventually its peg.
+Haziran 2021'de TITAN tokeni 65 $'lık bir ATH'ye ulaştı ve bu da tokena büyük yatırım yapan bir grup yatırımcının satmaya karar vermesine neden oldu. Bu bir soruna neden oldu çünkü TITAN arz ve talebe göre fiyatlandırılmaktaydı. TITAN'ın mevcut arzı arttıkça fiyat düşmeye başladı. Bu da büyük bir satış baskısına neden oldu ve bu yüzden TITAN'ın fiyatı daha da hızlı düştü. TITAN anormal hızla düşmeye başladığında IRON desteğini ve sonunda sabitleyicisini kaybetti.
 
 ![Price chart of the TITAN token](../.gitbook/assets/Iron.JPG)
 
 ![Price chart of the IRON stablecoin](../.gitbook/assets/titan.JPG)
 
-People started buying the IRON stable coin to sell it for USDC and earn some quick bucks, in a huge arbitrage opportunity (this means profiting in the price variations of tokens) Long story short, it's been calculated that almost $1.75 billion were lost in this incident. Now, is there a difference between the IRON stable coin and the MAI stable coin?
+İnsanlar, büyük bir arbitraj fırsatıyla USDC'ye satmak ve hızlı paralar kazanmak için IRON satın almaya başladılar (bu, tokenların fiyat değişikliklerinden kâr etmek anlamına gelir) Uzun lafın kısası, bu olayda yaklaşık 1,75 milyar doların kaybedildiği hesaplandı. Şimdi, IRON stablecoin ile MAI arasında bir fark var mı birlikte inceleyelim.
 
-## What is MAI?
+## MAI nedir?
 
-MAI is a stable coin that is backed by locked collateral tokens, the minting of MAI can be done either through depositing **approved collateral** in vaults or through using **Anchor.**
+MAI, kilitli teminat tokenlar tarafından desteklenen fiyat istikrarına sahip bir tokendırç MAI'nin basımı, kasalara **onaylı teminat** yatırılarak veya **Anchor** kullanılarak yapılabilir.
 
-When minting MAI depositing approved collateral, the **CDR** (Collateral to Debt Ratio) needs to be between 150%, this means that if you deposit $100 worth of collateral, the newly minted MAI can be at most worth $66.6667. We'll get to the reason behind this later in this article.
+MAI yatırma onaylı teminatı basarken, **CDR** (Borç Oranına Teminat) %150 arasında olmalıdır. Yani 100$ değerinde teminat yatırırsanız, yeni basılan MAI'nin en fazla 66.6667$ değerinde olabileceği anlamına gelir.Yazının devamında bunun arkasındaki nedene geleceğiz.
 
-Another way to mint MAI is through the [Anchor](https://app.mai.finance/anchor), this means that when you swap a stable coin (as of September 2021 you can mint MAI using **DAI**, **USDC** and **USDT**) for MAI, new MAI is minted by the treasury and the deposited stablecoin is held in the treasury as collateral. Meanwhile, when you swap back your stablecoins, the MAI that you provide will be burned.
+MAI'yi basmanın başka bir yolu da [Anchor](https://app.mai.finance/anchor) aracılığıyladır. Stablecoin değiştirdiğinizde (Eylül 2021'den itibaren MAI'yi **DAI** kullanarak basabilirsiniz, **USDC** ve **USDT**), MAI için yeni MAI hazine tarafından basılıyor ve yatırılan stabilcoin hazinede teminat olarak tutuluyor. Bu arada, stablecoin'lerinizi geri değiştirdiğinizde, sağladığınız MAI yakılacaktır.
 
 ![Stablecoins that can be swaped to mint MAI](<../.gitbook/assets/image (5).png>)
 
-As you can see on the picture below, the price of the MAI stable coin it's almost always close to $1, this is because as the [official documentation](https://docs.mai.finance/stablecoin-economics) says, the MAI stable coin allows users to engage in risk-free arbitrage through Anchor when the price of MAI falls below $0.99 or rises above $1.01.
+Aşağıdaki resimde görebileceğiniz gibi, MAI fiyatı neredeyse her zaman 1$'a yakındır, çünkü [resmi belgelerde](https://docs.mai.finance/stablecoin-economics) belirtildiği gibi, MAI fiyatı 0,99 ABD dolarının altına düştüğünde veya 1,01 ABD dolarının üzerine çıktığında kullanıcıların Anchor aracılığıyla risksiz arbitraj yapmalarına olanak tanır.
 
 ![Price chart of the MAI token in the last 90 days](<../.gitbook/assets/image (7) (1) (1) (2).png>)
 
-## Why is it always close to $1?
+## Neden her zaman 1$'a yakın?
 
-The peg to $1 is maintained by 2 mechanisms, via **Anchor** or by **depositing collatera**l in the vaults, in this section of the article, you'll understand why
+$1'a sabitleme, **Anchor** aracılığıyla veya kasalara **teminat yatırılarakk** olmak üzere 2 mekanizma tarafından korunur. Makalenin bu bölümünde nedenini anlayacaksınız.
 
 ### Anchor
 
-Anchor allows users to mint MAI with stable coins and redeem stable coins from MAI. Also, as you can see on the picture below, there's a 1% fee when swapping your stable coins for MAI or vice versa, there are two main reasons for these fee:
+Anchor, kullanıcıların MAI'yi basmasına ve MAI'den stablecoin kullanmasına olanak tanır. Ayrıca, aşağıdaki resimde de görebileceğiniz gibi, stabil coinlerinizi MAI ile değiştirirken ya da tam tersi için %1 ücret alınır, bu ücretin iki ana nedeni vardır:
 
-* The 1% minting fee to create MAI sets a price ceiling of $1.01.
-* The 1% fee to redeem stable coins from MAI sets a price floor of $0.99
+* MAI oluşturmak için %1 para basma ücreti 1,01$'lık bir tavan fiyat belirler.
+* MAI'den sabit paraları kullanmak için %1'lik ücret, 0,99 $'lık bir taban fiyat belirler
 
 ![](<../.gitbook/assets/image (9).png>)
 
-Having a price ceiling and a price floor helps MAI to not diverge from its peg too much, however as you've seen on the picture of the MAI chart, you can participate on low- risk arbitrage opportunities (meaning that you can sell your stable coins when MAI is under $1 or sell MAI when is above $1 to earn some quick bucks).
+Bir fiyat tavanı ve taban tabana sahip olmak, MAI'nin sabitinden çok fazla uzaklaşmamasına yardımcı olur, ancak MAI grafiğinin resminde gördüğünüz gibi, düşük riskli arbitraj fırsatlarına katılabilirsiniz (yani ahırınızı satabilirsiniz). MAI 1 doların altındayken farklı tokenlar veya hızlı para kazanmak için 1 doların üzerindeyken MAI satar).
 
-About what causes the fluctuation of the price of MAI, there could be two main reasons for this:
+MAI fiyatının dalgalanmasına neden olan şey hakkında, bunun iki ana nedeni olabilir:
 
-* If the **market is in a bearish trend**: people will sell their volatile assets and buy more stable coins to avoid losing value of volatile assets. This means that people want to buy MAI, increasing its price.
-* If the **market is in a bullish trend**: people buy more volatile assets when their price is low, using their stable coins. This means that people sell their MAI, driving its price down.
+* **Piyasa düşüş eğilimindeyse**: insanlar değişken varlıklarını satacak ve değişken varlıkların değerini kaybetmemek için daha istikrarlı paralar alacak. Bu, insanların MAI'yi satın almak ve fiyatını artırmak istedikleri anlamına gelir.
+* Eğer **piyasa yükseliş eğilimindeyse**: insanlar fiyatları düşükken istikrarlı paralarını kullanarak daha değişken varlıklar satın alırlar. Bu, insanların MAI'lerini satarak fiyatını düşürdüğü anlamına gelir.
 
-### Depositing collaterals in vaults
+### Teminatların kasalara yatırılması
 
-In order to mint MAI using the vaults in Mai Finance, you need to deposit some collateral in there and have a **CDR** (Collateral to Debt Ratio) above a certain threshold, in this case is 150% (however this percentage can change in the future if the community decides so). This means that the vaults will always be over-collateralized (by 150%) to ensure that there is always collateral value to back the stable coins minted. Remember that if a vault has less than a 150% CDR it could be partially liquidated by the community, so somebody could loose some of their collateral if a liquitador pays some of their debt.
+Mai Finance'deki kasaları kullanarak MAI basmak için, oraya bir miktar teminat yatırmanız ve belirli bir eşiğin üzerinde bir **CDR** (Borç Teminat Oranı) olması gerekir. Oran %150'dir (ancak bu yüzdeye topluluk karar verirse gelecekte değişir).Basılan stablecoinleri desteklemek için her zaman teminat değeri olduğundan emin olmak için kasaların her zaman aşırı teminatlandırılacağı (%150) anlamına gelir. Bir kasanın %150'den az CDR'si varsa, topluluk tarafından kısmen tasfiye edilebileceğini, böylece bir tasfiye memuru borcunun bir kısmını öderse birilerinin teminatlarının bir kısmını kaybedebileceğini unutmayın.
 
-As the value of the collateral rises, more stable coins can be issued as a rise in collateral price will increase your collateral to debt ratio. Conversely, as the value of the collateral falls, fewer stable coins can be issued, this is done to prevent that the CDR falls below the 150% mark.
+Teminatın değeri arttıkça, teminat fiyatındaki artış teminat / borç oranınızı artıracağından daha fazla stablecoin basılabilir. Tersine, teminatın değeri düştükçe, daha az stablecoin basılabilir. Basım CDR'nin %150 işaretinin altına düşmesini önlemek için yapılır.
 
-## Afterword
+##  Son Söz
 
-As you've seen throughout this article, the MAI stable coin is a type of stable coin that is **over-collateralized,** meaning that there will always be enough collateral to back the price of the MAI token. This should give enough relief to those investors who hesitate about investing in projects that mint stable coins. Also, keep in mind that as MAI is expanding to other blockchains, there'll be more MAI in the market, resulting in less volatily in MAI's price.
+Bu makale boyunca gördüğünüz gibi, MAI stabilcoin, **fazla teminatlandırılmış** bir stabilcoin türüdür. MAI fiyatını desteklemek için her zaman yeterli teminat olacaktır. Makalenin amacı stablecoin basan projelere yatırım yapmaktan çekinen yatırımcılara yeterince rahatlama sağlamalıdır. Ayrıca, MAI diğer blok zincirlerine genişledikçe, piyasada daha fazla MAI olacağını ve bunun sonucunda MAI'nin fiyatında daha az oynaklık olacağını unutmayın.
 
-Recently, the vaults incentives have been introduced to Mai Finance, if you want to understand what that is, stay tuned because there'll be an article about this topic. This will help even more to the stability of the MAI price.
+Son zamanlarda, Mai Finance'e bazı teşvikler tanıtıldı. Bunun ne olduğunu anlamak istiyorsanız, bizi izlemeye devam edin çünkü bu konuyla ilgili bir makale olacak. İçerik MAI fiyatının istikrarına daha da yardımcı olacaktır.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-You can find[ ](https://docs.mai.finance/stablecoin-economics)the original article of the Mai Finance team about MAI [here](https://docs.mai.finance/stablecoin-economics).
+Mai Finance ekibinin MAI hakkındaki orijinal makalesini [burada](https://docs.mai.finance/stablecoin-economics) bulabilirsiniz.
 
-This guide is definitely not financial advice, it was made with an educational goal in mind.
+Bu rehber kesinlikle finansal tavsiye değildi. Eğitim amaçlı hazırlanmıştır.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen olan bitenden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}

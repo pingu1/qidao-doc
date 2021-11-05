@@ -1,7 +1,6 @@
 ---
 description: >-
-  Bu sayfa, yatırımlarınızı büyütmek için verim çiftçiliğini, Mai Finance
-  tarafından sağlanan borçlanma ödülleriyle nasıl birleştireceğinizi sunar.
+  Bu sayfa, yatırımlarınızı büyütmek için verim çiftçiliğini, Mai Finance tarafından sağlanan borçlanma ödülleriyle nasıl birleştireceğinizi sunar.
 ---
 
 # Çiftçilik ve Borçlanma (Borrowing) Ödülleri Nasıl Birleştirilir?
@@ -52,7 +51,7 @@ Herhangi bir WBTC/WETH/USDC/USDT/DAI kombinasyonunu kabul eden atricrypto3 havuz
 
 ### AAVE
 
-Augury ile ilgili paragrafta bahsedildiği gibi, AAVE, Augury'de yetiştirilen tokenlara Mai Finance'de kullanmadan önce küçük bir ödül eklemek için kullanılır. WBTC, WETH ve WMATIC'imizi doğrudan Mai Finance'e koymak yerine, bu tokenları AAVE'ye yatıracağız ve AAVE'den gelen ödülleri amToken havuzlarında otomatik olarak birleştirmek için Mai Finance'in getiri aracını kullanacağız ve camToken'ı kasalarda teminat olarak kullanacağız. [AAVE hakkında içeriğimizi](leverage-aave-tokens.md) bölümünü okuyarak fazla bilgi alabilirsiniz.
+Augury ile ilgili paragrafta bahsedildiği gibi, AAVE, Augury'de yetiştirilen tokenlara Mai Finance'de kullanmadan önce küçük bir ödül eklemek için kullanılır. WBTC, WETH ve WMATIC'imizi doğrudan Mai Finance'e koymak yerine, bu tokenları AAVE'ye yatıracağız ve AAVE'den gelen ödülleri amToken havuzlarında otomatik olarak birleştirmek için Mai Finance'in getiri aracını kullanacağız ve camToken'ı kasalarda teminat olarak kullanacağız. [AAVE](leverage-aave-tokens.md) bölümünü okuyarak fazla bilgi alabilirsiniz. 
 
 ![Eylül 2021 itibarıyla AAVE kredi ödülleri](<../.gitbook/assets/image (33).png>)
 

@@ -1,8 +1,6 @@
 ---
 description: >-
-  DeFi stratejilerinin her zaman karmaşık olması gerekmez. Bu makale, Mai
-  Finance kullanarak düşük risk stratejisiyle nasıl DeFi'ye girebileceğinizi ve
-  nasıl makul faizler elde edebileceğinizi sunar.
+  DeFi stratejilerinin her zaman karmaşık olması gerekmez. Bu makale, Mai Finance kullanarak düşük risk stratejisiyle nasıl DeFi'ye girebileceğinizi ve nasıl makul faizler elde edebileceğinizi sunar.
 ---
 
 # camDAI Başlangıç Stratejisi

@@ -1,5 +1,6 @@
 ---
-description: Bu eğitim, MAI'nizi Polygon'da farklı kullanım seçeneklerini size sunacaktır.
+description: >-
+  Bu eğitim, MAI'nizi Polygon'da farklı kullanım seçeneklerini size sunacaktır.
 ---
 
 # Polygon'da MAI ile ne yapabilirim?

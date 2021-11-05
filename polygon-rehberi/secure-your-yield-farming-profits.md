@@ -1,12 +1,11 @@
 ---
 description: >-
-  Bu sayfa, çiftçiliği biraz daha az karlı ama çok daha güvenli hale getirmek
-  için "güvenli" bir stratejiyi ayrıntılı olarak sunar
+  Bu sayfa, çiftçiliği biraz daha az karlı ama çok daha güvenli hale getirmek için "güvenli" bir stratejiyi ayrıntılı olarak sunar
 ---
 
 # Sadece stablecoin kullanarak çiftçilik stratejisi
 
-## General idea
+## Genel Fikir
 
 Polygon'da bir verim çiftliğine girdiğinizde, yatırımlarınızı çiftliğin başarısına veya başarısızlığına maruz bırakırsınız. Bu kılavuz, Verim Çiftliğinin ne olduğunu veya bunlarla nasıl çiftlik yapmanız gerektiğini ayrıntılı olarak sunmamaktadır. Bu konuda yardıma ihtiyacınız varsa, internette her yerde eğitici ve öğretici bilgiler var. [Discord](https://discord.gg/mQq55j65xJ) üzerinden QiDAO topluluğundan da yardım alabilirsiniz.
 
@@ -31,15 +30,15 @@ Mütevazı bir çiftçinin bir keresinde bana söylediği gibi
 
 > _**Kazanabileceğiniz şeyleri asla satın almamalısınız**_
 
-Kılavuzda, mümkün olduğunca finansal güvenlik seçeneklerini uygulamaya çalışacağız. Bunu yapmak için, yatırımımızı herhangi bir kalıcı kayıptan korumak için yalnızca sabit paralar kullanarak çiftçilik yapacağız. Çoğu çiftlik, likidite havuzlarında (LP) stablecoin çiftleri önerir ve MAI giderek daha fazla görünürlük kazanır. MAI/USDC havuzları öneren çiftlikler bulabilirsiniz. Bu içerikte odaklanacağımız stablecoin çiftleri olacak.
+Kılavuzda, mümkün olduğunca finansal güvenlik seçeneklerini uygulamaya çalışacağız. Bunu yapmak için, yatırımımızı herhangi bir kalıcı kayıptan korumak için yalnızca stablecoinler kullanarak çiftçilik yapacağız. Çoğu çiftlik, likidite havuzlarında (LP) stablecoin çiftleri önerir ve MAI giderek daha fazla görünürlük kazanır. MAI/USDC havuzları öneren çiftlikler bulabilirsiniz. Bu içerikte odaklanacağımız stablecoin çiftleri olacak.
 
-MAI/USDC çiftini kullanarak çiftçiliğe başlamak için bazı stablecoinler edinmeniz gerekir. Mai Finance, favori kripto para biriminizi yatırarak MAI sabit parasını ödünç almanıza olanak tanır. Bizim durumumuzda, cüzdanımızda kullanıma hazır bir sürü MATIC var. MATIC'imi Mai Finance'de [MATIC kasasına](https://app.mai.finance/vaults/matic) yatırarak MAI ödünç alabilirim. Bunu yapmak için yardıma ihtiyacınız varsa, lütfen Discord sunucusuna katılın ve topluluğa sorun. Bunun nasıl yapılacağını bulabileceğiniz bu sitedeki diğer öğreticileri de okuyabilirsiniz.
+MAI/USDC çiftini kullanarak çiftçiliğe başlamak için bazı stablecoinler edinmeniz gerekir. Mai Finance, favori kripto para biriminizi yatırarak MAI ödünç almanıza olanak tanır. Bizim durumumuzda, cüzdanımızda kullanıma hazır bir sürü MATIC var. MATIC'imi Mai Finance'de [MATIC kasasına](https://app.mai.finance/vaults/matic) yatırarak MAI ödünç alabilirim. Bunu yapmak için yardıma ihtiyacınız varsa, lütfen Discord sunucusuna katılın ve topluluğa sorun. Bunun nasıl yapılacağını bulabileceğiniz bu sitedeki diğer öğreticileri de okuyabilirsiniz.
 
 {% hint style="info" %}
 MATIC tokenlerinizi MATIC kasanıza yatırabilirsiniz, ancak amWMATIC almak için AAVE'ye yatırabilir, camWMATIC almak için getiri sayfasındaki Mai Finance'e yatırabilir ve bu camWMATIC'i teminat olarak kullanabilirsiniz. Aynı miktarda MAI ödünç alabileceksiniz, ancak aynı zamanda MATIC'inizden ek getiri elde edeceksiniz. Bunun nasıl yapılacağı hakkında daha fazla ayrıntı almak için [AAVE Market'ten yararlanın](leverage-aave-tokens.md) konusuna bakın.
 {% endhint %}
 
-MAI sabit paralarını ödünç aldıktan sonra, kredinizin yarısını USDC'ye dönüştürmek için Mai Finance'deki [Anchor sayfasını](https://app.mai.finance/anchor) kullanabilirsiniz. Gerçekten de, LP çiftleri kullanarak farm yaptığınızda, çiftin iki parçasının 1:1 oranında sağlanması gerekir.
+MAI ödünç aldıktan sonra, kredinizin yarısını USDC'ye dönüştürmek için Mai Finance'deki [Anchor sayfasını](https://app.mai.finance/anchor) kullanabilirsiniz. Gerçekten de, LP çiftleri kullanarak farm yaptığınızda, çiftin iki parçasının 1:1 oranında sağlanması gerekir.
 
 ![30 MAI'mi USDC'ye dönüştürmek için takas sayfasını kullanma](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
 
@@ -61,7 +60,7 @@ Artık bazı LP tokenlarınız olduğuna göre, çiftlik web sitesine gidebilir 
 LP tokenlarınızı yatırdığınızda, çoğu çiftliğin doğrudan yatırdığınız tokenlardan alınan %2 ila %4 arasında ücret alacağını unutmamak çok önemlidir. Bunun çok farkında olun ve ücreti potansiyel olarak kaybetmeye veya tamamen geri alamamaya zihinsel olarak hazır olduğunuzdan emin olun.
 {% endhint %}
 
-Artık sabit paralarınız havuza yatırıldığına göre, istediğiniz zaman hasat edebileceğiniz bazı çiftlik tokenları kazanacaksınız. Çiftlik tokenı fiyatının büyük olasılıkla çok değişken olacağını unutmayın. Bu nedenle tokenın bir değeri olduğunda düzenli olarak hasat ettiğinizden emin olun. Ne kadar çok beklerseniz, hiçbir değeri olmayan büyük bir token çantası alma riskiniz o kadar artar. Yukarıdaki ekran görüntüsünde, Hasat tokenı tıklamanız ve BAL'larınızı toplamanız yeterlidir.
+Artık stablecoinleriniz havuza yatırıldığına göre, istediğiniz zaman hasat edebileceğiniz bazı çiftlik tokenları kazanacaksınız. Çiftlik tokenı fiyatının büyük olasılıkla çok değişken olacağını unutmayın. Bu nedenle tokenın bir değeri olduğunda düzenli olarak hasat ettiğinizden emin olun. Ne kadar çok beklerseniz, hiçbir değeri olmayan büyük bir token çantası alma riskiniz o kadar artar. Yukarıdaki ekran görüntüsünde, Hasat tokenı tıklamanız ve BAL'larınızı toplamanız yeterlidir.
 
 ### Çiftlik tokenlarınızdan yararlanın
 
@@ -172,7 +171,7 @@ $$
 
 Bu sayı, 60$ değerinde MAI/USDC'lik bir başlangıç ​​yatırımıyla, çiftliğin APR'sinin aynı kaldığını varsayarak, bir yıl boyunca çiftlikte kalarak üreteceğimiz MATIC sayısıdır. Aynı zamanda, kabaca çiftliğin reklamını yaptığı APR olan %272.69'luk bir APY verir (çiftlik genellikle görüntülenen APR'deki %4 depozito ücretini dikkate almaz).
 
-### Sabit madeni paralarla 1 yıllık çiftçiliğin ardından değerlendirme
+### Stablecoinlerle 1 yıllık çiftçiliğin ardından değerlendirme
 
 Yıl sonunda alacağımız
 

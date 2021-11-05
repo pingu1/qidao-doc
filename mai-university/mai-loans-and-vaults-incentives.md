@@ -1,31 +1,29 @@
 ---
 description: >-
-  This article is a detailed explanation of how you can use Mai Finance to
-  borrow MAI at 0% interest, and get paid to do so, transforming your 0%
-  interest loan into a negative interest loan.
+  Bu makale, MAI'yi %0 faizle ödünç almak için Mai Finance'i nasıl kullanabileceğinizin, bunun için nasıl ödeme alacağınızın, %0 faizli kredinizi negatif faizli krediye nasıl dönüştürebileceğinizin ayrıntılı bir kılavuzudur.
 ---
 
-# MAI loans and Vaults incentives
+# MAI kredileri ve Kasa teşvikleri
 
-## Intro
+## Giriş
 
-The core business of Mai Finance is a lending platform. Instead of selling their crypto to buy other assets, people are able to lock their funds on Mai Finance and borrow against them. This presents the opportunity to keep high value assets (WBTC, WETH ...) while still being able to get other assets and farm yields. In that case, the loan is used to generate revenue, while the collateral is gaining value.
+Mai Finance'in ana işi bir borç verme platformudur. İnsanlar diğer varlıkları satın almak için kriptolarını satmak yerine, fonlarını Mai Finance'e kilitleyebilir ve onlara karşı borç alabilir. Bu sayede yüksek değerli varlıkları (WBTC, WETH ...) korurken diğer varlıkları ve çiftlik verimini elde etme fırsatı sunar. Kullanıcılar krediler ile gelir elde ederken, teminatları değer kazanır.
 
-One of the other big advantage of using Mai Finance is that there's no repayment schedule. In other words, you borrow MAI stable coin against your crypto, you don't pay any interests, and you can repay your debt whenever you want. See the different articles on [debt management](debt-repayment-why-and-when.md) for more details. The only fee that you would ever pay is a repayment fee corresponding to 0.5% of the money you borrowed that you pay when you repay your loan, and that is taken out of your collateral.
+Mai Finance kullanmanın diğer büyük avantajlarından biri de geri ödeme planının olmamasıdır. Yani kripto paranız karşılığında MAI stabilcoin ödünç alıyorsunuz, faiz ödemiyorsunuz ve borcunuzu istediğiniz zaman geri ödeyebiliyorsunuz. Daha fazla ayrıntı için [borç yönetimi](debt-repayment-why-and-while.md) hakkındaki farklı makalelere bakın. Ödeyeceğiniz tek ücret, kredinizi geri ödediğinizde ödediğiniz borç paranın %0,5'i kadar olan ve teminatınızdan kesilen bir geri ödeme ücretidir.
 
-As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, when you repay your loan you would have to pay a fee of $0.50 directly taken out of your WETH deposit.
+Örnek olarak, 100$ değerinde MAI ödünç almak için 200$ değerinde WETH yatırdıysanız, kredinizi geri ödediğinizde WETH depozitonuzdan doğrudan 0,50$'lık bir ücret ödemeniz gerekir.
 
-If that wasn't already an amazing opportunity, the Mai Finance team introduced in September 2021 Vault incentives paid in Qi, the native token of Mai Finance. In other words, by depositing your assets on Mai Finance in a vault to borrow MAI, you will also get paid to do it. This articles presents in details how this functionality works.
+Bu zaten harika bir fırsat değilse, Mai Finance ekibi Eylül 2021'de Mai Finance'in platform tokenı olan Qi'de ödenen Vault teşviklerini tanıttı. Başka bir deyişle, MAI'yi ödünç almak için varlıklarınızı Mai Finance'e bir kasaya yatırarak, bunu yapmak için de ödeme alacaksınız. Bu makaleler, fonksiyonların işlevin çalıştığını ayrıntılı olarak sunar.
 
-## Vaults - What they are and how they work
+##  Kasalar - Nedir, nasıl çalışır
 
-### Vault creation
+### Kasa oluşturma
 
-On Mai Finance, vaults are special storages where one can deposit their assets. Currently, there are 10 types of vaults:
+Mai Finance'de kasalar, varlıklarını yatırabilecekleri özel depolardır. Şu anda 10 tip kasa vardır:
 
-![The different vault types you can create on Mai Finance](<../.gitbook/assets/image (1).png>)
+![Mai Finance'te oluşturabileceğiniz farklı kasa türleri](<../.gitbook/assets/image (1).png>)
 
-There are 2 different types of vaults:
+2 farklı kasa tipi vardır:
 
 * WETH
 * WBTC
@@ -41,115 +39,115 @@ and
 * camWMATIC
 * camAAVE
 
-The first 6 vaults in the list are for simple assets while the 4 last ones are for camTokens. camTokens are compounding AAVE market tokens, a representation of a deposit that you could have done on AAVE and then deposited on the yield pools of Mai Finance. While you assets is generating yields on AAVE (and while the rewards are automatically compounded by the yield pool), you can still borrow MAI stable coins against these tokens.
+Listedeki ilk 6 kasa basit varlıklar içindir, son 4 kasa ise camTokens içindir. camTokens, AAVE'de yapabileceğiniz ve ardından Mai Finance'in getiri havuzlarına yatırabileceğiniz bir mevduatın temsili olan AAVE piyasa tokenlarını birleştiriyor. Varlıklarınız AAVE'de getiri üretirken (ve ödüller getiri havuzu tarafından otomatik olarak birleştirilirken), yine de bu tokenlara karşı MAI  ödünç alabilirsiniz.
 
-As a side note, you can see on the screenshot above that the creation page shows some very important informations:
+Bir yan not olarak, yukarıdaki ekran görüntüsünde, oluşturma sayfasının bazı çok önemli bilgileri gösterdiğini görebilirsiniz:
 
-* MAI available: this corresponds to the maximum debt ceiling, the maximum number of MAI that can be minted from vault deposits.
-* Min Coll. ratio: this is the minimum Collateral to Debt ratio (CDR) for that vault
-* Vault incentives APR
+* MAI mevcut: bu maksimum borç tavanına, kasa mevduatlarından basılabilecek maksimum MAI sayısına karşılık gelir.
+* Min Kol. oran: bu, o kasa için minimum Teminat-Borç oranıdır (CDR)
+* Kasa teşvikleri APR
 
-### Understanding Debt Ceiling
+### Borç Tavanını Anlama
 
-The maximum number of MAI that one can mint on a specific vault depends on how much assets is deposited on that vault. Debt ceiling are implemented in order to make sure that the market isn't flooded with MAI in a very short time, which may affect the price of the stable coin.
+Belirli bir kasada basılabilecek maksimum MAI sayısı, o kasaya ne kadar varlık yatırıldığına bağlıdır. Piyasanın çok kısa sürede MAI ile dolup taşmamasını sağlamak için borç tavanı uygulanmaktadır. Borç tavanı stabil coinin fiyatını etkileyebilir.
 
-As an example, if a big institution would deposit 5,000 WBTC at once and was able to borrow $100,000,000 worth of MAI, swapping the totality for more WBTC, this could drive the price of MAI down so much that the price would deviate too much from its peg, putting the whole platform at risk. Debt ceiling is the mechanism that prevents this from happening: there's a maximum amount of MAI that can be minted for a given vault type.
+Örnek olarak, büyük bir kurum bir kerede 5.000 WBTC yatırırsa ve toplamını daha fazla WBTC ile takas ederek 100.000.000$ değerinde MAI ödünç alabilseydi MAI'nin fiyatını o kadar aşağı çekebilir ki fiyat kendi değerinden çok fazla sapabilirdi. Bu durum yani 'peg' tüm platformu riske atıyor. Borç tavanı bunun olmasını engelleyen mekanizmadır: belirli bir kasa tipi için basılabilecek maksimum MAI miktarı vardır.
 
-When the debt ceiling is reached, the time at which there aren't any more available MAI to mint is recorded, and the system automatically increases the debt ceiling after 48 hours. This is considered enough time for the MAI price to stabilize (in case of high sell pressure following a big sell off of MAI).
+Borç tavanına ulaşıldığında, basılacak MAI'nin kalmadığı zaman kaydedilir ve sistem 48 saat sonra borç tavanını otomatik olarak artırır. 48 saat MAI fiyatının dengelenmesi için yeterli bir süre olarak kabul edilir (MAI'nin büyük bir satışını takiben yüksek satış baskısı olması durumunda).
 
-This means that for 48h, nobody will be able to borrow more MAI from a vault that reached its debt ceiling, unless a debt is repaid.
+48 saat ayrıca borç geri ödenmedikçe, borç tavanına ulaşan bir kasadan 48 saat boyunca hiç kimsenin daha fazla MAI ödünç alamayacağı anlamına gelir.
 
-As a side note, the more MAI on the market, the more stable the price is. Indeed, a massive sell of MAI is less invasive if there are more MAI in circulation.
+Bir yan not düşelim, piyasada ne kadar çok MAI varsa fiyat o kadar istikrarlı olur. Gerçekten de, dolaşımda daha fazla MAI varsa büyük bir MAI satışı daha az istilacı olur.
 
-* If someone sells 1,000 MAI while there are only 10,000 MAI in circulation, the sell corresponds to 10%
-* If someone sells 1,000 MAI while there are 10,000,000 MAI in circulation, the sell corresponds to 0.01%
+* Dolaşımda sadece 10.000 MAI varken biri 1.000 MAI satarsa, satış %10'a tekabül eder.
+* Dolaşımda 10.000.000 MAI varken biri 1.000 MAI satarsa, satış %0.01'e tekabül eder.
 
-Hence, the debt ceiling isn't increased incrementally, but exponentially: the more MAI in circulation, the less impact a big sell would have, so the debt ceiling can be increased by a lot more.
+Bu nedenle, borç tavanı kademeli olarak değil, katlanarak artırılır: dolaşımda daha fazla MAI, büyük bir satışın daha az etkisi olur. Böylece borç tavanı çok daha fazla artırılabilir.
 
 {% hint style="info" %}
-When you borrow MAI, it can happen that the maximum amount of MAI that you can borrow is capped by the debt ceiling, regardless of the current value of your collateral and the current amount of MAI you already borrowed. When that's the case, you may wait up for 48h before you can actually borrow more MAI.
+MAI ödünç aldığınızda, teminatınızın cari değeri ve halihazırda ödünç almış olduğunuz MAI miktarı ne olursa olsun, ödünç alabileceğiniz maksimum MAI miktarı borç tavanıyla sınırlanabilir. Bu durumda, gerçekten daha fazla MAI ödünç almadan önce 48 saat bekleyebilirsiniz.
 {% endhint %}
 
-### Understanding Collateral to Debt Ratio
+### Teminatın Borç Oranını Anlama
 
-The CDR, or **C**ollateral to **D**ebt **R**atio is the ratio between the value of the deposited assets in your vault compared to the amount of MAI you borrowed.
+CDR veya **D**ebt **R**atio **C**ollateral, kasanıza yatırılan varlıkların değeri ile ödünç aldığınız MAI miktarı arasındaki orandır.
 
-As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, your CDR would be
+Örnek olarak, 100$ değerinde MAI ödünç almak için 200$ değerinde WETH yatırdıysanız, CDR'niz
 
 $$
 CDR=\frac{CollateralValue}{DebtValue}=\frac{200}{100}=200\%
 $$
 
-Maintaining a CDR above 100% means that, at any point, there are more collateral than debt. This is mandatory to ensure that the MAI stable coin is over-collateralized, and is one of the foundations of the Mai Finance tokenomics. You can get more details from the official [Mai Finance documentation](https://docs.mai.finance/stablecoin-economics).
+CDR'yi %100'ün üzerinde tutmak, herhangi bir noktada borçtan daha fazla teminat olduğu anlamına gelir. Bu, MAI istikrarlı parasının aşırı teminatlandırılmasını sağlamak için zorunludur ve Mai Finance tokenomiklerinin temellerinden biridir. Resmi [Mai Finance belgelerinden](https://docs.mai.finance/stablecoin-economics) daha fazla ayrıntı alabilirsiniz.
 
-Each vault type has a minimum CDR ratio accepted, a threshold under which the vault is considered at risk because the borrowed amount may not be backed by enough collateral. At this point, anyone can liquidate the vault, meaning a part of the debt is repaid by the liquidator that can then get a portion of the deposited collateral in repayment. Once again, you can find more details about liquidation process in the official documentation.
+Her kasa tipinin kabul edilen bir minimum CDR oranı vardır.Ödünç alınan miktar yeterli teminatla desteklenmeyebileceğinden kasanın risk altında olduğu kabul edilen bir eşik değerine sahiptir. Bu noktada, herkes kasayı likidasyona maruz bırakabilir. Yani borcun bir kısmı likidasyon memuru tarafından geri ödenir ve daha sonra yatırılan teminatın bir kısmını geri ödeme olarak alabilir. Likidasyon süreciyle ilgili daha fazla ayrıntıyı yine resmi belgelerde bulabilirsiniz.
 
-When you borrow MAI against a given collateral, you will get some hints on what's the maximum amount of MAI you can borrow, and what would be the impact on your health ratio depending on the amount borrowed, as you can see in the screenshot bellow:
+MAI'yi belirli bir teminat karşılığında ödünç aldığınızda, ödünç alabileceğiniz maksimum MAI miktarı ve ödünç alınan miktara bağlı olarak sağlık oranınız üzerindeki etkisinin ne olacağı konusunda bazı ipuçları alacaksınız. Aşağıdaki ekran görüntüsünde de görebilirsiniz:
 
-![Health mitigation depending on borrowed amount](<../.gitbook/assets/image (2).png>)
+![Ödünç alınan miktara bağlı olarak sağlığın azaltılması](<../.gitbook/assets/image (2).png>)
 
-It's very important to keep an eye on your CDR and keep a healthy ratio to
+CDR'nize dikkat etmek ve sağlıklı bir oran tutmak çok önemlidir.
 
-* prevent liquidation
-* increase the health of the whole Mai Finance platform by ensuring the MAI volume in circulation is properly backed
+* Likidasyonu önlemek
+* dolaşımdaki MAI hacminin uygun şekilde desteklenmesini sağlayarak tüm Mai Finance platformunun sağlığını artırmak
 
-The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest](../polygon-rehberi/leverage-aave-tokens.md#examples-with-numbers) in other projects, or [repay your debt](debt-repayment-how.md#repayment-using-your-collateral) using your debt.
+Mai Finance ekibi tarafından tanımlanan "sağlıklı" CDR, minimum CDR değerinin %25 ila %270 üzerindedir. Ek bir not olarak, diğerlerine [yatırım yapmak](../polygon-tutorials/leverage-aave-tokens.md#examples-with-numbers) için pasif/agresif CDR'leri nasıl kullanabileceğinizi görmek için strateji kılavuzlarımıza da göz atabilirsiniz. Borcunuzu kullanarak [borcunuzu geri ödeyin](debt-repayment-how.md#repayment-using-your-collateral).
 
-## Vault incentives
+## Kasa teşvikleri
 
-### Understanding Vaults incentives APRs
+### Apps Kasası teşviklerini anlama ve APR
 
-In September 2021, Mai Finance introduced vault incentives. This is a reward allocated by the Mai Finance platform to anyone borrowing MAI and participating in the growth of the platform.
+Eylül 2021'de Mai Finance, kasa teşviklerini uygulamaya koydu. Bu teşvikler Mai Finance platformu tarafından MAI ödünç alan ve platformun büyümesine katılan herkese tahsis edilen bir ödüldür.
 
-Each Vault type (among the 10 different types) receives 0.05 Qi per block, that is then distributed between all the users who have a healthy Collateral to Debt Ratio. The APR of the vault is defined by the current amount of MAI borrowed.
+Her Kasa türü (10 farklı tür arasında) blok başına 0,05 Qi alır, bu daha sonra sağlıklı bir Teminat Borç Oranına sahip tüm kullanıcılar arasında dağıtılır. Kasanın APR'si, ödünç alınan MAI'nin mevcut miktarı ile tanımlanır.
 
-As an example, Ben and Kila are 2 friends who deposited their ETH in the WETH vaults on Mai Finance.
+Örnek olarak, Ben ve Kila, ETH'lerini Mai Finance'deki WETH kasalarına yatıran 2 arkadaştır.
 
-* Ben deposited the equivalent of $2,000 worth of ETH and borrowed 1,000 MAI
-* Kila deposited the equivalent of $10,000 worth of ETH and borrowed 6,000 MAI
+* Ben, 2.000 $ değerinde ETH yatırdı ve 1.000 MAI ödünç aldı
+* Kila, 10.000 dolar değerinde ETH yatırdı ve 6.000 MAI ödünç aldı
 
-The current amount of MAI borrowed by users who deposited WETH in the vault is 1,000,000 MAI.
+Kasaya WETH yatıran kullanıcılar tarafından ödünç alınan mevcut MAI miktarı 1.000.000 MAI'dir.
 
-Both Ben and Kila qualify for the vault incentives because Ben has a CDR of 200% and Kila a CDR of 166.67%. Ben, with his loan, owns 0.1% of the total amount borrowed, while Kila owns 0.6%.
+Hem Ben hem de Kila kasa teşviklerine hak kazanır çünkü Ben'in CDR'si %200 ve Kila'nın CDR'si %166,67'dir. Ben, aldığı krediyle, ödünç alınan toplam tutarın %0,1'ine, Kila ise %0,6'sına sahiptir.
 
-The total amount of Qi allocated to the WETH vault (or any vault) is
+WETH kasasına (veya herhangi bir kasaya) tahsis edilen toplam Qi miktarı
 
 $$
 Qi=0.05*\frac{86400}{2}=2160
 $$
 
 {% hint style="info" %}
-86,400 is the number of seconds in a day, and on Polygon, the block time is 2 seconds, meaning that the expected number of blocks every day is 86,400 / 2 = 43,200. Hence, the emission for each Vault is 2,160 Qi / day.
+86.400, bir gündeki saniye sayısıdır ve Polygon'da blok süresi 2 saniyedir. Yani her gün beklenen blok sayısı 86.400 / 2 = 43.200'dür. Bu nedenle, her bir Kasa için emisyon 2.160 Qi / gün'dür.
 
-**Note:** Block time has increased lately and is around 2.6 seconds. However, all APRs and APYs displayed on all apps are assuming a block time of 2 seconds. Please DYOR and check the current [block time on PolygonScan](https://polygonscan.com/chart/blocktime).
+**Not:** Blok süresi son zamanlarda arttı. Şu sıralar 2,6 saniye civarında. Ancak, tüm uygulamalarda görüntülenen tüm APR'ler ve APY'ler, 2 saniyelik bir blok süresi varsaymaktadır. Lütfen DYOR yapın ve mevcut [PolygonScan'deki engelleme süresini](https://polygonscan.com/chart/blocktime) kontrol edin.
 {% endhint %}
 
-Hence, if the state of the Vault remains the same, Ben will get 0.1% of the 2,160 Qi distributed, while Kila will get 0.6% of the granted reward.
+Dolayısıyla kasanın durumu aynı kalırsa Ben, dağıtılan 2.160 Qi'nin %0.1'ini alırken, Kila verilen ödülün %0.6'sını alacak.
 
-* Ben will get 2.16 Qi every day, which is a daily reward of 0.216%, or an APR of 78.84%
-* Kila will get 12.96 Qi every day, which is also a daily reward of 0.216%, or an APR of 78.84%
+* Ben, her gün %0.216'lık bir günlük ödül veya %78.84'lük bir APR olan 2.16 Qi alacak
+* Kila her gün 12.96 Qi alacak, bu da günlük %0.216 ödül veya %78.84 APR
 
-On a side note, 2,160 Qi for 1,000,000 MAI is a daily reward of 0.216%, or 78.84%, which is the Vault's APR.
+Bir yan not ekleyelim, 1.000.000 MAI için 2.160 Qi, kasanın APR'si olan %0.216 veya %78.84'lük bir günlük ödüldür.
 
 {% hint style="info" %}
-It's easy to see that the Vault's APR is directly linked to the amount of MAI borrowed. The more MAI is borrowed, the lower the APR. As a side note, the amount of MAI that can be borrowed is also capped by the debt ceiling, which is increased with the demand for MAI.
+Kasanın APR'sinin doğrudan ödünç alınan MAI miktarıyla bağlantılı olduğunu görmek kolaydır. MAI ne kadar çok ödünç alınırsa, APR o kadar düşük olur. Bir dip not olarak, ödünç alınabilecek MAI miktarı da MAI talebiyle artan borç tavanı ile sınırlandırılmıştır.
 {% endhint %}
 
-As a verification, we can calculate the theoretical APR for the MATIC vault based on numbers published on the [analytics page](https://app.mai.finance/analytics) on Mai Finance. The amount of MAI borrowed from the MATIC vault is 799,328. The reward is 216 Qi per day for that vault. That corresponds to a APR of
+Doğrulama olarak, Mai Finance'de [analitik sayfasında](https://app.mai.finance/analytics) yayınlanan sayılara dayalı olarak MATIC kasası için teorik APR'yi hesaplayabiliriz. MATIC kasasından ödünç alınan MAI miktarı 799.328'dir. Bu kasa için ödül günde 216 Qi'dir. Bu, bir APR'ye karşılık gelir
 
 $$
 APR=\frac{QiReward*Qi_{Price}}{MAI_{borrowed}}*365=\frac{2160*0.441}{785008}*365=44.29\%
 $$
 
-This corresponds more or less to the APR of the MATIC Vault, as displayed in the following screenshot:
+Aşağıdaki ekran görüntüsünde gösterildiği gibi, aşağı yukarı MATIC Kasasının APR'sine karşılık gelir:
 
-![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](<../.gitbook/assets/image (23) (2) (3) (4).png>)
+![Kasa ödüllerinin başlatılmasından sonra Mai Finance'te bir MATIC kasasının Nisan ayı görünümü](<../.gitbook/assets/image (23) (2) (3) (4).png>)
 
-### Calculating starting vaults' APRs
+### Başlangıç ​​kasalarının APR'larını hesaplama
 
-With the same data as the example above, it's possible to calculate the starting APRs for all vaults
+Yukarıdaki örnekle aynı verilerle, tüm kasalar için başlangıç ​​APR'larını hesaplamak mümkündür.
 
-| Vault type | Starting APR |
+| Kasa Tipi  | Başlangıç APR|
 | ---------- | ------------ |
 | MATIC      | 44.29%       |
 | WETH       | 24.03%       |
@@ -163,60 +161,60 @@ With the same data as the example above, it's possible to calculate the starting
 | camWBTC    | 47.38%       |
 
 {% hint style="info" %}
-As you can see, some vaults will generate more rewards than others. Also, you can see that it's super important to deposit your assets as soon as possible to benefit from high APRs before the debt ceiling is increased and more loan is taken (lowering the APR).
+Gördüğünüz gibi bazı kasalar diğerlerinden daha fazla ödül üretecek. Ayrıca, yüksek APR'lerden yararlanmak için varlıklarınızı borç tavanı yükseltilmeden ve daha fazla kredi alınmadan (APR'yi düşürmeden) önce mümkün olan en kısa sürede yatırmanın çok önemli olduğunu görebilirsiniz.
 
-You can also see that if you keep your loan for one year of more, the 0.5% repayment fee will easily be compensated by the reward program.
+Ayrıca kredinizi bir yıl daha saklarsanız, %0,5 geri ödeme ücretinin ödül programı tarafından kolayca telafi edileceğini görebilirsiniz.
 {% endhint %}
 
-### Incentives distribution
+### Teşvik dağıtımı
 
-Rewards allocated by the vault incentives will be distributed the same way as for staked Qi. Every Wednesday, the Qi allocated by the Vaults incentives program will be airdropped / claimed for the week prior to the pay day.
+Kasa teşvikleri tarafından tahsis edilen ödüller, stake edilen Qi ile aynı şekilde dağıtılacaktır. Her Çarşamba, kasa teşvik programı tarafından tahsis edilen Qi, ödeme gününden önceki hafta için havadan düşürülecek / talep edilecektir.
 
-## Vaults incentives FAQs
+## Apps Kasası teşvikleriyle ilgili SSS
 
-If you want to know more about the way Vault incentives are working, here's an official FAQ from the Discord server.
+Apps Kasası teşviklerinin çalışma şekli hakkında daha fazla bilgi edinmek istiyorsanız, Discord sunucusundan resmi bir SSS hazırladık.
 
-* **What vaults are receiving rewards?**
+* **Ödülleri hangi kasalar alıyor?**
 
-Right now all the vault types have been allocated Qi rewards
+Şu anda tüm kasa türlerine Qi ödülleri verildi
 
-* **How much rewards are given out for the borrowing incentives?**
+* **Borçlanma teşvikleri için ne kadar ödül veriliyor?**
 
-0.05 Qi/block for each vault type
+Her kasa tipi için 0,05 Qi/blok
 
-*   **How much MAI do I need to borrow to earn rewards?**
+* **Ödül kazanmak için ne kadar MAI ödünç almam gerekiyor?**
 
-    For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:
-* _Matic_ - Liquidation ratio 150% - Eligible for Incentives between 175% and 420%
-* _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400%
-* _CamTokens_: - Liquidation ratio 135% - Eligible for Incentives between 160% and 405%
-*   **How can I see if my vault is earning rewards?**
+    Kasa Ödünç Alma Teşvikleri için, QI airdrop almak için tasfiye oranının %25 ila %270 üzerinde kalın. Bu şu anlama gelir:
+* _Matic_ - Likidasyon oranı %150 - %175 ile %420 arası Teşviklere Uygun
+* _Tokens_: - Tasfiye oranı %130 - %155 ile %400 arası Teşvikler için uygun
+* _CamTokens_: - Tasfiye oranı %135 - %160 ile %405 arası Teşvikler için Uygun
+* **Kasamın ödül kazanıp kazanmadığını nasıl görebilirim?**
 
-    If you see the fire emoji on your vault overview page that means that vault is earning rewards
-* **How much will I earn?**
+    Kasaya genel bakış sayfanızda yangın emojisini görüyorsanız bu kasanın ödül kazandığı anlamına gelir.
+* **Ne kadar kazanacağım?**
 
-Your percent of the reward pool is based on the percentage of MAI you borrowed compared to the total amount of MAI borrowed from that vault type.
+Ödül havuzunun yüzdesi, o kasa türünden ödünç alınan MAI'nin toplam miktarına kıyasla ödünç aldığınız MAI yüzdesine dayanır.
 
-* **How long will the incentives program last?**
+* **Teşvik programı ne kadar sürecek?**
 
-The scheduled length of the borrowing incentives program is to last 3 months. The DAO can vote to stop incentives before the 3 months is over or vote to extend the program.
+Borçlanma teşvik programının planlanan süresi 3 ay sürecektir. DAO, 3 ay dolmadan teşvikleri durdurmak için oy kullanabilir veya programı uzatmak için oy kullanabilir.
 
-* **How will we receive rewards?**
+* **Ödülleri nasıl alacağız?**
 
-Qi will be airdropped to eligible vault holders.
+Qi, uygun kasa sahiplerine havadan indirilecek.
 
-* **How is eligibility for rewards gathered?**
+* **Ödüller için uygunluk nasıl toplanır?**
 
-Eligibility for rewards is calculated per block. You will earn rewards for the blocks you were eligible during the week.
+Ödüller için uygunluk, blok başına hesaplanır. Hafta boyunca hak ettiğiniz bloklar için ödüller kazanacaksınız.
 
-* **When do tracking rewards for the week start?**
+* **Haftanın takip ödülleri ne zaman başlıyor?**
 
-We will follow the same schedule as eQi. You can find the block numbers on the boost page.
+eQi ile aynı programı takip edeceğiz. Blok numaralarını destek sayfasında bulabilirsiniz.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-This guide has been written **prior** to the launch of Vault incentives, meaning that the APRs promoted in this document (as well as this document) are subject to modifications, and/or may not be accurate. The amount of MAI borrowed, the debt ceiling and the value of the Qi token will highly impact the final APR of each vault type. Please, make sure that you invest responsibly.
+Bu kılavuz, Apps Kasası teşviklerinin başlatılmasından **önce** yazılmıştır; bu, bu belgede (ve bu belgede) tanıtılan APR'lerin değişikliğe tabi olduğu ve/veya doğru olmayabileceği anlamına gelir. Ödünç alınan MAI miktarı, borç tavanı ve Qi değeri, her kasa tipinin nihai APR'sini büyük ölçüde etkileyecektir. Lütfen sorumlu bir şekilde yatırım yaptığınızdan emin olun.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen gelişmelerden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
