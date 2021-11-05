@@ -1,28 +1,27 @@
 ---
-description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the Fantom chain.
+Açıklama: >-
+  Bu kılavuzda Fantom zincirini kullanmaya başlamak için bilmeniz gereken her şeyi açıklayacağız.
 ---
 
-# How to get started on Fantom
+# Fantom'a Başlarken
 
-## What is Fantom
+## Fantom Nedir?
 
-Fantom is an Ethereum alternative for blockchain designers. As an open-source smart contract enabled blockchain, it allows designers to develop secure, comprehensive and modular DApps (**D**ecentralized **App**lications).
+Fantom, blockchain tasarımcıları için bir Ethereum alternatifidir. Açık kaynaklı akıllı sözleşme destekli bir blok zinciri olarak, tasarımcıların güvenli, kapsamlı ve modüler DApp'ler (**D**ecentralized **A**pplication) geliştirmesine olanak tanır.
 
-The chain has been designed to overcome all the limitations of the previous generation of blockchain platforms, sometimes referenced as the blockchain trilemma: decentralization, security and scalability. To improve on one of these aspects, it will have to come at the expense of one of the other two. Fantom tried to solve this thanks to its DAG (Directed Acyclic Graphs) based Lachesis aBFT (Asynchronous Byzantine Fault Tolerant) consensus mechanism, allowing it to be high-performance, scalable and secure. Initial benchmarks showed that Fantom can easily handle over 20,000 transactions per second.
+Zincir, bazen blok zincir trilemması olarak adlandırılan önceki nesil blok zinciri platformlarının tüm sınırlamalarının üstesinden gelmek için tasarlanmıştır: ademi merkeziyetçilik, güvenlik ve ölçeklenebilirlik. Bu yönlerden birini geliştirmek için, diğer ikisinden birinin üste gelmesi gerekecek. Fantom, DAG (Yönlendirilmiş Asiklik Grafikler) tabanlı Lachesis aBFT konsensüs mekanizması sayesinde bunu çözmeye çalıştı ve yüksek performanslı, ölçeklenebilir ve güvenli olmasını sağladı. İlk karşılaştırmalar, Fantom'un saniyede 20.000'den fazla işlemi kolayca gerçekleştirebileceğini gösterdi.
 
-Finally, Fantom is 100% EVM (**E**thereum **V**irtual **M**achine) compatible, meaning that DApps that have been developed on EVM compatible networks will be deployable on Fantom too. This also brings another advantages for users since MetaMask and other web3 applications are also compatible with Fantom. You will be able to switch seamlessly from Polygon or Avalanche to Fantom within the same wallet.
+Son olarak, Fantom %100 EVM (**E**thereum **V**irtual **M**achine) uyumludur, yani EVM uyumlu ağlarda geliştirilen DApp'ler Fantom'da da konuşlandırılabilir. MetaMask ve diğer web3 uygulamalarının da Fantom ile uyumlu olması nedeniyle kullanıcılar için başka avantajlar da getiriyor. Aynı cüzdan içinde Polygon veya Avalanche'dan Fantom'a sorunsuz bir şekilde geçebileceksiniz.
 
-## Getting on Fantom
+## Fantom'a Başlarken
 
-Fantom being EVM compatible, if you already have a wallet for other EVM chains (Ethereum Mainnet, Polygon or Avalanche), you will be able to use it. Else, it's time to create wallet address. There are different wallet types that can be used: **software wallets** like Metamask or [fWallet](https://pwawallet.fantom.network/#/), or **hardware wallets** like [Trezor](https://trezor.io/coins/) or [Ledger](https://fantom.foundation/blog/how-to-set-up-your-ledger-nano-s-x-with-fantom/).
+Fantom, EVM uyumlu olduğundan, diğer EVM zincirleri (Ethereum Mainnet, Polygon veya Avalanche) için zaten bir cüzdanınız varsa rahatça kullanabileceksiniz. Aksi takdirde, cüzdan adresi oluşturma gerekecekti. Kullanılabilecek farklı cüzdan türleri vardır: Metamask veya [fWallet](https://pwawallet.fantom.network/#/) gibi **yazılım cüzdanları** veya [Trezor](https gibi) **donanım cüzdanları** ://trezor.io/coins/) veya [Ledger](https://fantom.foundation/blog/how-to-set-up-your-ledger-nano-sx-with-fantom/).
 
-For this guide, and because we're using Metamask in all our other guides, we'll be using Metamask, but feel free to use any other software/hardware wallet you like. If you need instruction on how you can install Metamask, you can find instruction on [the polygon guide](../polygon-tutorials/how-to-get-started-on-polygon.md#downloading-metamask).
+Bu kılavuz için ve diğer tüm kılavuzlarımızda Metamask kullandığımız gibi yine Metamask kullanacağız. Dilerseniz istediğiniz diğer yazılım/donanım cüzdanlarını kullanmaktan çekinmeyin. Metamask'ı nasıl kuracağınızla ilgili talimata ihtiyacınız varsa, [polygon kılavuzunda](../polygon-tutorials/how-to-get-started-on-polygon.md#downloading-metamask) talimatları bulabilirsiniz.
 
 ### Adding Fantom to Metamask
 
-In order to use the Fantom network, you will have to manually configure it into Metamask. To do so, click on the Network dropdown at the top of the Metamask window (where it indicates the network you're currently using, Ethereum Mainnet by default), then select `Custom RPC`. The following informations are the ones that will let you connect to Fantom:
+Fantom ağını kullanmak için Metamask'ta manuel olarak yapılandırmanız gerekecektir. Bunu yapmak için Metamask penceresinin üst kısmındaki Ağ açılır menüsüne tıklayın (burada şu anda kullanmakta olduğunuz ağı, varsayılan olarak Ethereum Mainnet'i gösterir), ardından "Custom RPC"yi seçin. Aşağıdaki bilgiler Fantom'a bağlanmanızı sağlayacak bilgilerdir:
 
 * **Network Name**: Fantom Opera
 * **RPC URL**: https://rpc.ftm.tools/
@@ -30,79 +29,79 @@ In order to use the Fantom network, you will have to manually configure it into 
 * **Symbol**: FTM
 * **Explorer**: https://ftmscan.com
 
-After saving your changes, Metamask will automatically switch to the Fantom network.
+Değişikliklerinizi kaydettikten sonra Metamask otomatik olarak Fantom ağına geçecektir.
 
-![Good job! You're on Fantom!](<../.gitbook/assets/image (41).png>)
+![Aferin! Fantom'dasınız!](<../.gitbook/assets/image (41).png>)
 
-If you need more details to setup Metamask, you will find additional info on the [official Fantom guide](https://docs.fantom.foundation/tutorials/set-up-metamask).
+Metamask'ı kurmak için daha fazla ayrıntıya ihtiyacınız varsa [resmi Fantom kılavuzunda](https://docs.fantom.foundation/tutorials/set-up-metamask) ek bilgiler bulacaksınız.
 
 ### FTM faucet
 
-Now that you are on FTM, you will need some FTM (native token used to cover gas costs). You can either bridge some FTM tokens from other chains, or use a faucet that will deposit enough FTM tokens in your wallet to perform a few transactions. The [main faucet on Fantom](https://docs.spookyswap.finance/getting-started/how-to-get-fantom-gas) can be found on SpookySwap, one of the main DEXes there (**D**ecentralized **Ex**change). Note that it's a service offered by SpookySwap that relies on Discord, and that will require a valid Discord Account active for more than 30 days (it's not required to be on the SpookySwap Discord server for 30 days though).
+Artık FTM'de olduğunuza göre, bir miktar FTM'ye (gas maliyetlerini karşılamak için kullanılan token) ihtiyacınız olacak. Diğer zincirlerden bazı FTM'leri köprüleyebilir veya birkaç işlem gerçekleştirmek için cüzdanınıza yeterli FTM tokenı bırakacak bir faucet kullanabilirsiniz. [Fantom'daki ana faucet](https://docs.spookyswap.finance/getting-started/how-to-get-fantom-gas), Fantom'daki DEX'lerden biri olan SpookySwap'ta bulunabilir (**D**ecentralized **E**xchange). Bu işlemi gerçekleştirmek için SpookySwap tarafından sunulan ve Discord'a dayanan bir hizmet olduğunu ve 30 günden fazla etkin bir Discord Hesabı gerektireceğini unutmayın (30 gün boyunca SpookySwap Discord sunucusunda olması gerekmez).
 
-* Once you joined the [SpookySwap Discord](http://discord.gg/AqbsWsWDgn) server, and verified your account, head to the #faucet section.
+* [SpookySwap Discord](http://discord.gg/AqbsWsWDgn) sunucusuna katıldıktan ve hesabınızı doğruladıktan sonra #faucet bölümüne gidin.
 
 ![](https://github.com/pingu1/qidao-doc/blob/en/.gitbook/assets/image%20\(42\)%20\(1\).png)
 
-* In the #faucet channel, simply type the `!faucet` command and the bot will send you some $FTM. Note that you'll be limited to 1 interaction every 30 days.
-* If you want to verify that you properly received your FTM token, you can click the Fantom Tip Bot name to interact directly with it and type `!balance`
+* #faucet kanalında `!faucet` komutunu yazmanız yeterlidir, bot size bir miktar $FTM gönderecektir. Her 30 günde bir 1 etkileşimle sınırlı olacağınızı unutmayın.
+* FTM'i düzgün bir şekilde aldığınızı doğrulamak istiyorsanız, onunla doğrudan etkileşim kurmak için Fantom Tip Bot adına tıklayabilir ve `!balance` yazabilirsiniz.
 
-![Thank you Fantom Tip Bot and SpookySwap](https://github.com/pingu1/qidao-doc/blob/en/.gitbook/assets/image%20\(45\)%20\(1\).png)
+![Teşekkürler Fantom Tip Bot ve SpookySwap](https://github.com/pingu1/qidao-doc/blob/en/.gitbook/assets/image%20\(45\)%20\(1\).png)
 
-* All you need to do now is to send your FTM tokens to your wallet address using the command `!withdraw <your_wallet_address>`. You will find your wallet address at the top of Metamask window.
+* Şimdi yapmanız gereken tek şey, `!withdraw <your_wallet_address>` komutunu kullanarak FTM'lerinizi cüzdan adresinize göndermek. Cüzdan adresinizi Metamask penceresinin en üstünde bulacaksınız.
 
-![Withdrawing from Discord account](<../.gitbook/assets/image (40).png>)
+![Discord hesabından çekme](<../.gitbook/assets/image (40).png>)
 
-![Fresh deposit in my Metamask wallet](<../.gitbook/assets/image (37).png>)
+![Metamask cüzdanımda yeni para yatırma](<../.gitbook/assets/image (37).png>)
 
-## Bridging to Fantom
+## Fantom'a Köprü Oluşturma
 
-### Bridging stable coins / ETH / BTC
+### Stablecoinler / ETH / BTC arasında köprü oluşturma
 
-If you want to bridge stable coins to Fantom, you can use the following list of bridges:
+Stablecoinleri Fantom'a köprülemek istiyorsanız, aşağıdaki köprü listesini kullanabilirsiniz:
 
-* [AnySwap](https://anyswap.exchange/#/bridge): This is the officially supported bridge to send the MAI you minted on Polygon to Fantom (see the [MAI metaverse](../mai-university/mai-metaverse.md#fantom) guide for details). This solution supports many assets and many chains so that it will be easy for you to send your crypto currencies to Fantom. Please check the Reminder notes at the bottom of the bridging UI for transaction fees and expected execution time.
+* [AnySwap](https://anyswap.exchange/#/bridge): Bu, Polygon'da bastığınız MAI'yi Fantom'a göndermek için resmi olarak desteklenen köprüdür (bkz. [MAI metaverse](../mai-university/mai -metaverse.md#fantom) ayrıntılar için kılavuz). Bu çözüm, birçok varlığı ve birçok zinciri destekler, böylece kripto varlıklarınızı Fantom'a göndermeniz sizin için kolay olacaktır. İşlem ücretleri ve beklenen yürütme süresi için lütfen köprüleme kullanıcı arayüzünün altındaki Hatırlatma notlarına bakın.
 
-![Bridging some MAI from Polygon to Fantom](https://github.com/pingu1/qidao-doc/blob/en/.gitbook/assets/image%20\(43\)%20\(1\).png)
+![Polygon'dan Fantom'a MAI arasında köprü kurma](https://github.com/pingu1/qidao-doc/blob/en/.gitbook/assets/image%20\(43\)%20\(1\).png)
 
-* [Celer Bridge](https://cbridge.celer.network/#/): offers bridging services for many chains for most stable coins, with fees ranging from 0.04% to 0.19% to bridge to Fantom (DYOR).
-* [xpollinate](https://www.xpollinate.io): low fees, and ensures that there's enough liquidity on the target chain for the token you want to bridge. The lower the liquidity (or the large the amount to bridge), the longer the transfer.
+* [Celer Bridge](https://cbridge.celer.network/#/): Köprüden Fantom'a (DYOR) kadar %0,04 ile %0,19 arasında değişen ücretlerle çoğu stabilcoin için birçok zincir için köprüleme hizmetleri sunar.
+* [xpollinate](https://www.xpollinate.io): düşük ücretler ve köprülemek istediğiniz token için hedef zincirde yeterli likidite olmasını sağlar. Likidite ne kadar düşükse (veya köprülenecek miktar ne kadar büyükse), transfer o kadar uzun olur..
 
-### Bridging other assets
+### Diğer varlıklar arasında köprü oluşturma
 
-* Binance CEX: You will be able to buy the FTM token on Binance and bridge it directly to Fantom, but this is the only token you will be able to transfer.
-* [SpookySwap](https://spookyswap.finance/bridge): supports many networks and many tokens that you will be able to send to Fantom.
-* AnySwap: see description made in the stable coin section.
+* Binance CEX: Binance'de FTM tokenini satın alabilecek ve onu doğrudan Fantom'a bağlayabileceksiniz.
+* [SpookySwap](https://spookyswap.finance/bridge): Fantom'a gönderebileceğiniz birçok ağı ve birçok tokenı destekler.
+* AnySwap: Stablecoin bölümünde yapılan açıklamaya bakın.
 
-## DeFi on Fantom
+## Fantom'da DeFi Uygulamaları
 
-Fantom has seen a pretty impressive expansion at the end of the summer 2021, especially with reward programs that helped attracting investors and developers on the chain. The growth has also been supported by blue chip projects that deployed their DApps on Fantom in September 2021, including Curve and SushiSwap.
+Fantom, 2021 yazının sonunda, özellikle zincirdeki yatırımcıları ve geliştiricileri çekmeye yardımcı olan ödül programlarıyla oldukça etkileyici bir genişleme gördü. Büyüme, Curve ve SushiSwap dahil olmak üzere Eylül 2021'de DApp'lerini Fantom'da kullanan bluechip projeleri tarafından da desteklendi.
 
-* [BeethovenX](https://app.beethovenx.io/#/): This application is very similar to Balancer. You will be able to trade some tokens for others, and also enter balanced pools composed of multiple tokens. This is also the first official partner of Mai Finance on Fantom, and the only place where you will be able to swap your MAI, or use them in a MAI-USDC pool.
+* [BeethovenX](https://app.beethovenx.io/#/): Bu uygulama Balancer'a çok benzer. Bazı tokenları diğerleri için takas edebilecek ve ayrıca birden fazla tokendan oluşan dengeli havuzlara girebileceksiniz. Burası aynı zamanda Mai Finance'in Fantom'daki ilk resmi ortağı ve MAI'nizi değiştirebileceğiniz veya MAI-USDC havuzunda kullanabileceğiniz tek yer.
 
-![Swapping MAI for a little more FTM](https://github.com/pingu1/qidao-doc/blob/en/.gitbook/assets/image%20\(44\)%20\(1\).png)
+![MAI'yi FTM ile değiştirme](https://github.com/pingu1/qidao-doc/blob/en/.gitbook/assets/image%20\(44\)%20\(1\).png)
 
-* [SpookySwap](https://spookyswap.finance): This is the biggest DEX (**D**ecentralized **Ex**change) on Fantom where you will be able to swap your tokens for others, deposit liquidity and farm yields, pretty much the same way you would do it on QuickSwap on Polygon. SpookySwap will reward you using the BOO token, the native token of the platform. As a side note, when you stake your BOO tokens, you will get xBOO, a yield baring token, in exchange, and you can use them to earn extra rewards (same principle as the dragon syrup on QuickSwap).
-* [SpiritSwap](https://app.spiritswap.finance): Traditional AMM and yield farming platform where you'll be able to swap tokens, create LP tokens and farm yields in liquidity pools. SpiritSwap will pay you with SPIRIT tokens that you can stake on the platform and get inSPIRIT tokens (SPIRIT will be locked for a certain period of time), the pendent of veCRV tokens. You can also use SpiritSwap for lending and borrowing while waiting for Mai Finance on Fantom.
-* [Tarot](https://www.tarot.to): Tarot is the Fantom version of Impermax, where you will be able to use your LP tokens from SpookySwap (or other DEXs/AMM) and use them to farm on the platform. You can also deposit single tokens and lend them on the specific pools where people will be able to borrow them to generate new LP tokens and leverage their farming amount. Be aware of liquidations if you leverage your LPs in a pool where the utilization is high.
-* [Scream](https://scream.sh): This is a clone of Compound where you will be able to lend your tokens and borrow against them. Lending your tokens will make you earn rewards in the token you lend, as well as SCREAM tokens that you will be able to use on other platforms.
-* [Curve](how-to-get-started-on-fantom.md#bridging-stable-coins-eth-btc): Curve is the blue chip project everyone knows well, where you will be able to deposit your tokens in specific pools (no need to deposit a balanced amount) and you will be rewarded in the tokens you lend, as well as CRV and wFTM tokens.
+* [SpookySwap](https://spookyswap.finance): Bu, Fantom'daki en büyük DEX'tir (**D**ecentralized **E**xchange), burada tokenlarınızı başkalarıyla takas edebileceğiniz, likidite yatırabileceğiniz ve çiftlik verimi gibi hemen hemen aynı şekilde QuickSwap on Polygon'da yaptığınız faaliyetleri uygulayabilirsiniz. SpookySwap platformun tokenı olan BOO kullanarak sizi ödüllendirecek. Bir yan not olarak ekleyelim, BOO stake ettiğinizde, karşılığında xBOO alacaksınız ve bunları ekstra ödüller kazanmak için kullanabilirsiniz (QuickSwap'taki Dragon's Syrup ile aynı prensip).
+* [SpiritSwap](https://app.spiritswap.finance): Token değiş tokuş edebileceğiniz, LP tokenları oluşturabileceğiniz ve likidite havuzlarında çiftlik getirisi yapabileceğiniz geleneksel AMM ve getiri çiftçiliği platformu. SpiritSwap, platformda stake edebileceğiniz ve inSPIRIT tokenlarını (SPIRIT belirli bir süre için kilitlenecektir), veCRV bağlı olarak alabileceğiniz SPIRIT ile size ödeme yapacaktır. Fantom'da Mai Finance'i beklerken ödünç vermek ve ödünç almak için SpiritSwap'ı da kullanabilirsiniz.
+* [Tarot](https://www.tarot.to): Tarot, Impermax'ın Fantom versiyonudur. Burada SpookySwap'tan (veya diğer DEX'ler/AMM'den) LP tokenlarınızı kullanabilecek ve bunları çiftlikte kullanmak için değerlendirebileceksiniz. Ayrıca, single token yatırabilir ve insanların yeni LP tokenları oluşturmak ve çiftçilik miktarlarından yararlanmak için ödünç alabilecekleri belirli havuzlara ödünç verebilirsiniz. LP'lerinizi kullanımın yüksek olduğu bir havuzda kullanırsanız, likidasyonun farkında olun.
+* [Scream](https://scream.sh): Scream tokenlarınızı ödünç alabileceğiniz ve onlara karşı ödünç alabileceğiniz bir Compound klonudur. Tokenlarınızı ödünç vermek, ödünç verdiğiniz tokena ve diğer platformlarda kullanabileceğiniz SCREAM şeklinde ödüller kazanmanızı sağlayacaktır.
+* [Curve](nasıl-başlangıç-on-fantom.md#bridging-stable-coins-eth-btc): Curve, herkesin iyi bildiği, tokenlarınızı yatırabileceğiniz bluechip projesidir belirli havuzlar (eşit miktar yatırmanıza gerek yoktur) ve ödünç verdiğiniz tokenların yanı sıra CRV ve wFTM ile ödüllendirileceksiniz.
 
-![DAI+USDC dual pool on Curve on Fantom](<../.gitbook/assets/image (36).png>)
+![Fantom'daki Curve'de DAI+USDC ikili havuzu](<../.gitbook/assets/image (36).png>)
 
-There are plenty of other opportunities on Fantom that will be described in other guides.
+Fantom'da diğer kılavuzlarda anlatılacak olan pek çok başka fırsat var.
 
-## Other useful links
+## Diğer faydalı bağlantılar
 
-* [Fantom explorer](https://explorer.fantom.network)
-* [Fantom gas checker](https://ftmscan.com/gastracker)
-* Official [Fantom Discord](how-to-get-started-on-fantom.md#ftm-faucet) server
-* [DeBank](https://debank.com) portfolio managed
+* [Fantom Explorer](https://explorer.fantom.network)
+* [Fantom Gas Tracker](https://ftmscan.com/gastracker)
+* Resmi [Fantom Discord](fantom.md#ftm-faucet-nasıl-başlatılır) sunucusu
+* [DeBank](https://debank.com) portföy yönetimi
 
-## Disclaimer
+## Sorumluluk Reddi
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Projects presented in this guide or just showcasing the possibilities on the network, and you should not be taken as an endorsement of the project.
+Bu kılavuz finansal tavsiye DEĞİLDİR ve sadece bir eğitim aracı olarak görülmelidir. Her zaman kendi araştırmanızı yapın. Bu kılavuzda sunulan veya sadece ağdaki olasılıkları gösteren projeler ve projeyi onaylayan biri olarak görülmemelisiniz.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
