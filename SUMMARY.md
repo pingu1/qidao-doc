@@ -25,7 +25,7 @@
 ## L'Université du MAI <a href="universite-mai" id="universite-mai"></a>
 
 * [Earning Passive Income with QiDAO](universite-MAI/earning-passive-income-with-qidao.md)
-* [How does MAI work](universite-MAI/how-does-mai-work.md)
+* [Qu'est-ce que le MAI et comment fonctionne-t-il](universite-MAI/how-does-mai-work.md)
 * [MAI loans and Vault incentives](universite-MAI/mai-loans-and-vault-incentives.md)
 * [Rembourser sa dette - Pourquoi et quand?](universite-MAI/debt-repayment-why-and-when.md)
 * [Rembourser sa dette - Comment?](universite-MAI/debt-repayment-how.md)

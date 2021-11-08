@@ -1,83 +1,88 @@
 ---
 description: >-
-  Getting a good understanding about how MAI works is crucial for any investor
-  that really wants to understand Mai Finance, so in this article you will
-  understand how MAI works.
+  Bien comprendre comment la monnaie stable MAI fonctionne est en réalité une
+  part essentielle pour tout investisseur qui souhaite comprendre les mécaniques
+  qui gèrent Mai Finance. C'est ce que nous allons faire dans cet article.
 ---
 
-# How does MAI work
+# Qu'est-ce que le MAI et comment fonctionne-t-il
 
-## What is a stable coin?
+## Qu'est-ce qu'une monnaie stable?
 
-Before getting into what is MAI, we have to understand what is a stable coin, a stable coin is a type of cryptocurrency that is designed to maintain a stable market price. Most of the stable coins are pegged (a currency where the price is designed to remain the same as a designated asset) to the US dollar, but you can find other stable coins pegged to other commodities such as gold (like EGold) or silver (SilverCoin).
+Avant de rentrer dans les détails concernant le MAI, il est important de se pencher sur la notion de monnaie stable, ou _stable coin_. Il s'agit d'un type de crypto monnaie qui est planifiée dans le but de conserver un prix stable sur le marché. La plupart des monnaies stables sont indexées (_pegged_ en anglais dans le texte) sur la valeur du dollar US, mais il existe également quelques monnaies stables qui sont indexées sur d'autres actifs comme l'or (c'est le cas de EGold) ou l'argent (c'est le cas de SilverCoin).
 
-However, there are 2 main categories in which all stable coins can fit, **collateralized** or **non-collateralized. **The **collateralized** stable coins are those that hold the assets against which their coin is pegged, meanwhile the **non-collateralized **make use of algorithms to control the supply of tokens in order to keep the price fixed at a predetermined level. 
+Cependant, toutes les monnaies stables ne sont pas créées et gérées de la même façon. On retrouve des monnaies stables partiellement collatéralisées ou entièrement collatéralisées. Les monnaies entièrement collatéralisées ont l'intégralité de leur valeur sur le marché soutenue par des actifs, alors que les monnaies partiellement collatéralisées vont utiliser des algorithmes complexes pour contrôler le montant de monnaie émis, et conserver une valeur fixe.
 
-## The IRON Finance disaster
+## Le fiasco de IRON Finance v1
 
-If you've been around in crypto for some time, you may remember the disaster of the **TITAN** and **IRON **token, but for those of you who don't, here is a quick recap. IRON Finance was a project that had 2 tokens, the _IRON _stable coin and the _TITAN _token, however the IRON stable coin **wasn't fully backed** with stable coins, the proportion to mint IRON was **75% USDC** and **25% TITAN** token. So it was basically a recipe for disaster.
+Si vous étiez déjà dans la crypto au printemps 2021, vous avez peut-être entendu parler du fiasco des tokens **TITAN** et **IRON** de IRON Finance. Pour ceux qui souhaitent un bref récapitulatif, voici ce qui s'est passé. IRON Finance v1 était un projet avec 2 jetons:
 
-In June of 2021 the TITAN token reached an ATH of $65, which caused that a bunch of investors, who invested heavily in the coin, decided to sell. This caused a problem because TITAN is priced based on supply and demand. So as the available supply of TITAN increased, the price began to decrease. This caused a huge sell pressure so the price of TITAN fell even faster, so when TITAN began to fall rapidly, IRON lost its backing and eventually its peg.
+- Le jeton **IRON**, une monnaie stable maintenue par un algorithme
+- Le jeton natif **TITAN** propre à la plateforme IRON Finance
 
-![Price chart of the TITAN token](../.gitbook/assets/Iron.JPG)
+Le jeton IRON était une monnaie stable qui n'était pas entièrement collatéralisée par des actifs stables ou performants. Pour créer 1 IRON, il suffisait de 75% de USDC et 25% de TITAN, ce qui prouva être une excellente recette pour un désastre financier. 
 
-![Price chart of the IRON stablecoin](../.gitbook/assets/titan.JPG)
+En juin 2021, le jeton TITAN a atteint la valeur de 65$. À ce point, plusieurs investisseurs ont décidé de revendre leurs jetons TITAN afin d'encaisser les bénéfices. Comme toute crypto monnaie, le prix du TITAN suit le marché de l'offre et de la demande. Si l'offre se met à exploser, le prix s'effondre. Et donc, alors que l'offre de jetons TITAN gonflait, le prix s'est mis à chuter, entraînant un effet de panique dans lequel tous les détenteurs de TITAN se sont mis à vendre leurs jetons afin de limiter leurs pertes. Le jeton IRON quant à lui s'est vu priver de 25% de son support et a donc perdu son ancrage au dollar américain.
 
-People started buying the IRON stable coin to sell it for USDC and earn some quick bucks, in a huge arbitrage opportunity (this means profiting in the price variations of tokens) Long story short, it's been calculated that almost $1.75 billion were lost in this incident. Now, is there a difference between the IRON stable coin and the MAI stable coin?
+![Diagramme du prix du TITAN](../.gitbook/assets/Iron.JPG)
 
-## What is MAI?
+![Diagramme du prix du IRON](../.gitbook/assets/titan.JPG)
 
-MAI is a stable coin that is backed by locked collateral tokens, the minting of MAI can be done either through **approved collateral** in vaults or through **Anchor. **
+Le jeton IRON ayant perdu 25% de sa valeur, plusieurs personnes se sont mises à en acheter puisque, en tant que monnaie stable, il était possible de les revendre pour 1 USDC et effectuer un gain d'arbitrage très facile. Ainsi, les pertes estimées se sont chiffrées quasiment à 1,75 milliards de dollars. Il est donc important de faire la distinction entre les différentes monnaies stables, car elles ne sont effectivement pas toutes identiques.
 
-When minting MAI depositing approved collateral, the **CDR **(Collateral to Debt Ratio) needs to be above 150%, this means that if you deposit $100 worth of collateral, the newly minted MAI can be at most worth $66.6667. We'll get to the reason behind this later in this article.
+## Qu'est-ce que le MAI?
 
-Another way to mint MAI is through the [Anchor](https://app.mai.finance/anchor),  this means that when you swap an stable coin (as September of 2021 you can mint MAI using **DAI**, **USDC **and **USDT**) for MAI, new MAI is minted by the treasury and the deposited USDC is held in the treasury as collateral. Meanwhile, when you swap back your USDC, the MAI  that you provide will be burned.
+Le MAI est une monnaies stable qui est entièrement collatéralisée par des actifs vérouillés, et sa création est supportée en intégralité par ces actifs validés déposés dans les coffres sur Mai Finance, ou via l'ancre (mécanisme d'échange sur Mai Finance).
 
-![Stablecoins that can be swaped to mint MAI](<../.gitbook/assets/image (5).png>)
+Il est également important de noter que la collatéralisation est toujours sur-évaluée. En effet, lorsque vous déposez vos actifs sur Mai Finance dans le but d'emprunter la monnaie stable MAI, vous aurez toujours à conserver un rapport Collatéral / Dette (**C**ollateral to **D**ebt **R**atio, ou CDR) supérieur à 100%, 135% en moyenne en fonction du type d'actif. Par exemple, si vous déposez pour 100$ d'actif, vous ne pourrez pas emprunter plus de 66,67$ de MAI si vous souhaitez conserver un CDR de 150%. Nous reviendrons sur cette notion un peu plus loin dans l'article.
 
-As you can see on the picture below, the price of the MAI stable coin it's almost always close to $1, this is because as the [official documentation](https://docs.mai.finance/stablecoin-economics) says, the MAI stable coin allows users to engage in risk-free arbitrage through Anchor when  the price of MAI falls below $0.99 or rises above $1.01. 
+L'autre façon de fabriquer des MAI est d'utiliser l'[ancre](https://app.mai.finance/anchor), un moyen mis en place afin d'échanger des MAI contre d'autres monnaies stables, principalement du USDC (et des USDT et DAI depuis Septembre 2021). Si vous déposez des USDC dans la trésorerie de Mai Finance, vous pourrez recevoir des MAI, et donc la monnaie stable créée est entièrement supportée par des USDC (dans ce processus). Si vous faites l'opération inverse, les USDC sont retirés de la trésorerie de Mai Finance et les MAI déposés sont détuits.
 
-![Price chart of the MAI token in the last 90 days](<../.gitbook/assets/image (7) (1) (1).png>)
+![Monnaies stables pouvant être échangées contre des MAI](<../.gitbook/assets/image (5).png>)
 
-## Why is it always close to $1?
+Comme vous pouvez le remarquer sur le graphique ci-dessous, le prix du MAI est toujours proche de 1$. Ceci est expliqué plus en détails dans la [doc technique officielle](https://docs.mai.finance/stablecoin-economics), mais pour faire simple, la monnaie stable conserve sa valeur de 1$ grâce à l'opportunité d'arbitrage offerte par l'ancre, permettant à tout moment d'échanger des MAI contres des USDC à prix fixe, ce qui permet de conserver un valeur du MAI entre 0,99$ et 1,01$.
 
-The peg to $1 is maintained by 2 mechanisms, via **Anchor **or by **depositing collatera**l in the vaults, in this section of the article, you'll understand why
+![Prix du MAI durant les derniers 90 jours](<../.gitbook/assets/image (7) (1) (1).png>)
 
-### Anchor
+## Pourquoi le prix reste-t-il proche de 1$?
 
-Anchor allows users to mint MAI with stable coins and redeem stable coins from MAI. Also, as you can see on the picture below, there's a 1% fee when swapping your stable coins for MAI or vice versa, there are two main reasons for these fee:
+L'indexation au dollar US est maintenue par 2 mécanismes. Nous allons approfondir ces mécanismes dans les sections suivantes.
 
-* The 1% minting fee to create MAI sets a price ceiling of $1.01.
-* The 1% fee to redeem stable coins from MAI sets a price floor of $0.99
+### L'Ancre
+
+L'ancre tient son nom des ancres de bateau: c'est un mécanisme qui permet au MAI de conserver une position stable quelque soit le courant du marché. Elle permet de créer des MAI ou d'en échanger contre d'autres monnaies stables. Vous pourrez remarquer sur la capture d'écran ci-dessous qu'il y a un frais fixe de 1% qui permet de:
+
+* Le 1% de frais lors de la création de MAI définit le pallier haut du prix à 1,01$
+* Le 1% de frais lors de la récupération de monnaie stable définit le pallier bas à 0,99$
 
 ![](<../.gitbook/assets/image (9).png>)
 
-Having a price ceiling and a price floor helps MAI to not diverge from its peg too much, however as you've seen on the picture of the MAI chart, you can participate on low- risk arbitrage opportunities (meaning that you can sell your stable coins when MAI is under $1 or sell MAI when is above $1 to earn some quick bucks). 
+Avec un prix plafond et un prix plancher, le MAI ne peut pas diverger de son prix cible. En effet, grâce à l'ancre, il est possible de faire de l'arbitrage avec très peu de risques, c'est-à-dire qu'il est possible d'acheter des MAI quand son prix est sous 0,99$, ou en vendre quand il est au dessus de 1,01$. 
 
-About what causes the fluctuation of the price of MAI, there could be two main reasons for this:
+Mais quand est-ce que le prix peut passer sous les 0,99$ ou au dessus de 1,01$? Comme pour toute monnaie stable, les fluctuations de prix sont liées au marché: 
 
-* If the** market is in a bearish trend**: people will sell their volatile assets and buy more stable coins to avoid losing value of volatile assets. This means that people want to buy MAI, increasing its price.
-* If the **market is in a bullish trend**: people buy more volatile assets when their price is low, using their stable coins. This means that people sell their MAI, driving its price down.
+* Si le marché est plutôt dans une période frileuse (_bearish market_): Les utilisateurs vont vendre leurs actifs les plus volatiles afin d'éviter les pertes. Les actifs plus stables, y compris les monnaies stables, seront donc achetées comme valeur refuge, créant une forte demande et tirant le prix vers le haut.
+* Si le marché est dans une forte frénésie acheteuse (_bullish market_): Les utilisateurs vont vendre leurs actifs stables pour pouvoir effectuer de forts gains sur des actifs beaucoup plus volatiles, ce qui va créer une forte offre de monnaies stables, tirant leurs prix vers le bas.
 
-### Depositing collaterals in vaults
+### Déposer des actifs comme collatéral dans votre coffre
 
-In order to mint MAI using the vaults in Mai Finance, you need to deposit some collateral in there and have a **CDR **(Collateral to Debt Ratio) above a certain threshold, in this case is 150% (however this percentage can change in the future if the community decides so). This means that the vaults will always be over-collateralized (by 150%) to ensure that there is always collateral value to back the stable coins minted. Remember that if a vault has less than a 150% CDR it could be partially liquidated by the community, so somebody could loose some of their collateral if a liquitador pays some of their debt.
+Afin de créer des MAI en utilisant les coffres sur MAI finance, il vous faudra commencer par déposer des actifs comme collatéral dans votre coffre et conserver un CDR (**C**ollateral to **D**ebt **R**atio) au dessus d'un certain seuil appelé seuil de liquidation, et qui varie en fonction du type d'actif. Ceci implique que votre coffre sera **TOUJOURS** sur-collatéralisé et permet de supporter la valeur du MAI. Si la valeur de vos actifs dans votre coffre descend sous le seuil de liquidation, cela veut dire que votre dette risque alors d'avoir plus de valeur que vos actifs, ce qui poserait un soucis pour la valeur du MAI. A ce moment, d'autres utilisateurs pourront racheter une partie de votre dette et se payer avec une partie de vos actifs afin de rendre votre CDR à un niveau acceptable. C'est ce qu'on appelle une liquidation.
 
-As the value of the collateral rises, more stable coins can be issued as a rise in collateral price will increase your collateral to debt ratio. Conversely, as the value of the collateral falls, fewer stable coins can be issued, this is done to prevent that the CDR falls below the 150% mark.
+Si la valeur de vos actifs augmente, vous aurez l'occasion de créer des MAI supplémentaires puisque le ratio dette/collatéral augmente avec la valeur monnaitaire de votre coffre. L'inverse est également vrai, si la valeur de vos actifs chute, le CDR est réduit, et il vous faudra au choix repayer une partie de votre dette ou rajouter de nouveaux actifs afin d'éviter une liquidation lorsque votre coffre passe sous le seuil de liquidation.
 
-## Afterword
+## Conclusion
 
-As you've seen throughout this article, the MAI stable coin is a type of stable coin that is **over-collateralized, **meaning that there will always be enough collateral to back the price of the MAI token. This should give enough relief to those investors who hesitate about investing in projects that mint stable coins. Also, keep in mind that if there is more MAI in the market, the more stable the price of MAI will be.
+Vous aurez noté dans cet article que la monnaie stable MAI est une monnaie stable sur-collatéralisée, ce qui implique qu'il y aura à tout moment assez d'actifs pour supporter la valeur des MAI en circulation sur le marché. Cet aspect devrait soulager les utilisateurs un peu frileux à propos des projets proposant des monnaies stables telles qu'IRON Finance. Il est aussi bon de noter que plus il y aura de MAI sur le marché, plus le prix sera stable.
 
-Recently, the vaults incentives have been introduced to Mai Finance, if you want to understand what that is, you can check this [article](mai-loans-and-vault-incentives.md). This will help even more to the stability of the MAI price.
+Depuis peu, les récompenses d'emprunts ont été mises en place, favorisant encore plus les emprunts sur Mai Finance et la création de MAI. Plus d'informations dans [l'article dédié](mai-loans-and-vault-incentives.md).
 
-## Disclaimer 
+## Avertissement
 
-You can find[ ](https://docs.mai.finance/stablecoin-economics)the original article of the Mai Finance team about MAI [here](https://docs.mai.finance/stablecoin-economics).
+Vous pourrez trouver un article expliquant le fonctionnement de MAI dans [la documentation officielle](https://docs.mai.finance/stablecoin-economics). 
 
-This guide is definitely not financial advice, it was made with an educational goal in mind. 
+Bien entendu, ce guide est donné à titre purement éducatif et ne peut en aucun cas être considéré comme un conseil financier.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Veuillez garder à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut parfaitement performer lamentablement (voir vous faire perdre de l'argent) dans d'autres circonstances. Restez informés, vérifiez les marchés, gardez un oeil sur vos investissements, et comme toujours, faites vos propres recherches.
 {% endhint %}
 
