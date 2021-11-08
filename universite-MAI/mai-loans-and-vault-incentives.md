@@ -1,31 +1,31 @@
 ---
 description: >-
-  This article is a detailed explanation of how you can use Mai Finance to
-  borrow MAI at 0% interest, and get paid to do so, transforming your 0%
-  interest loan into a negative interest loan.
+  Cet article présente une explication détaillée de la façon dont vous pourrez
+  utiliser Mai Finance pour emprunter à 0% tout en étant payé pour le faire, ce
+  qui transforme votre emprunt à 0% en un emprunt à taux négatif.
 ---
 
-# MAI loans and Vault incentives
+# Les emprunts de MAI et leurs récompenses
 
-## Intro
+## Introduction
 
-The core business of Mai Finance is a lending platform. Instead of selling their crypto to buy other assets, people are able to lock their funds on Mai Finance and borrow against them. This presents the opportunity to keep high value assets (WBTC, WETH ...) while still being able to get other assets and farm yields. In that case, the loan is used to generate revenue, while the collateral is gaining value.
+Le coeur de métier de Mai Finance est d'être une plateforme de prêts. Au lieu de vendre vos crypto monnaies pour en acheter d'autres, il vous suffit simplement de les déposer dans un coffre sur Mai Finance et emprunter de la monnaie stable. Ceci présente l'opportunité de conserver vos actifs de valeur (WBTC, WETH ...) tout en étant capable d'utiliser d'autres actifs et d'obtenir des gains de liquidité. Dans ce cas particulier, c'est l'emprunt qui génère du revenu et l'actif utilisé comme collatéral gagne de la valeur. 
 
-One of the other big advantage of using Mai Finance is that there's no repayment schedule. In other words, you borrow MAI stable coin against your crypto, you don't pay any interests, and you can repay your debt whenever you want. See the different articles on [debt management](debt-repayment-why-and-when.md) for more details. The only fee that you would ever pay is a repayment fee corresponding to 0.5% of the money you borrowed that you pay when you repay your loan, and that is taken out of your collateral.
+Un des autres gros avantages de Mai Finance est qu'il n'y a pas d'échéance de remboursement. En d'autres termes, vous empruntez des MAI en fonction de votre dépôt de crypto, vous ne payez pas d'intérêts, et vous avez la possibilité de rembourser uniquement lorsque vous le souhaitez. Veuillez vous référer aux articles liés aux [remboursement de vos dettes](debt-repayment-why-and-when.md) pour plus de détails. Les seuls frais que vous aurez à payer sont des frais fixes de 0,5% du montant de votre emprunt, et ils vous seront prélevés uniquement au moment du remboursement de votre dette et payés avec une partie de votre collatéral. 
 
-As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, when you repay your loan you would have to pay a fee of $0.50 directly taken out of your WETH deposit.
+Par exemple, si vous déposez l'équivalent de 200$ de WETH et empruntez pour 100$ de MAI, lorsque vous rembourserez votre dette, vous devrez payer 0,50$ qui seront prélevés de votre dépôt de WETH.
 
-If that wasn't already an amazing opportunity, the Mai Finance team introduced in September 2021 Vault incentives paid in Qi, the native token of Mai Finance. In other words, by depositing your assets on Mai Finance in a vault to borrow MAI, you will also get paid to do it. This articles presents in details how this functionality works.
+Si cette opportunité n'était déjà pas suffisament avantageuse, l'équipe de Mai Finance a introduit en septembre 2021 des récompenses d'emprunts payées en Qi, le jeton natif de Mai Finance. En d'autres termes, vous serez payés en fonction du montant de votre emprunt sur Mai Finance. Cet article présente en détails le fonctionnement de css récompenses.
 
-## Vaults - What they are and how they work
+## Les coffres - Que sont-ils et comment fonctionnent-ils
 
-### Vault creation
+### Création d'un coffre
 
-On Mai Finance, vaults are special storages where one can deposit their assets. Currently, there are 10 types of vaults:
+Sur Mai Finance, les coffres sont des contenants spécifiques ou un utilisateur va pouvoir déposer un certain type d'actif. Il y a pour le moment 10 types de coffres disponibles sur Polygon:
 
-![The different vault types you can create on Mai Finance](<../.gitbook/assets/image (1).png>)
+![Les différents types de coffre disponibles à la création sur Mai Finance](<../.gitbook/assets/image (1).png>)
 
-There are 2 different types of vaults:
+Il existe 2 types de coffres:
 
 * WETH
 * WBTC
@@ -34,194 +34,192 @@ There are 2 different types of vaults:
 * CRV
 * AAVE
 
-and
+et
 
 * camWETH
 * camWBTC
 * camWMATIC
 * camAAVE
 
-The first 6 vaults in the list are for simple assets while the 4 last ones are for camTokens. camTokens are compounding AAVE market tokens, a representation of a deposit that you could have done on AAVE and then deposited on the yield pools of Mai Finance. While you assets is generating yields on AAVE (and while the rewards are automatically compounded by the yield pool), you can still borrow MAI stable coins against these tokens.
+Les 6 premiers coffres de la liste sont reéservés à des actifs simples alors que les 4 derniers sont pour les "camTokens". Les camTokens sont des jetons qui vont composer les récompenses offertes par AAVE, et sont des représentations de votre dépôt sur AAVE. Alors que vos actifs génèrent des intérêts sur AAVE (et que ces intérêts sont composés pour augmenter ces actifs), vous pouvez tout de même emprunter des MAI en utilisant les camTokens comme collatéral.
 
-As a side note, you can see on the screenshot above that the creation page shows some very important informations:
+Il est bon de noter que dans la capture d'écran ci-dessus, la page de création de coffre contient quelques informations très importantes: 
 
-* MAI available: this corresponds to the maximum debt ceiling, the maximum number of MAI that can be minted from vault deposits.
-* Min Coll. ratio: this is the minimum Collateral to Debt ratio (CDR) for that vault
-* Vault incentives APR
+* MAI available: c'est ce qui correspond aux MAI qui sont disponibles comparativement au plafond de sécurité d'emprunt, ou le nombre maximum de MAI qu'il reste à emprunter pour ce type de coffre.
+* Min. Coll. ratio: c'est le seuil de liquidation, ou la valeur minumal que le ratio entre la valeur de votre collatéral et la valeur de votre dette peut avoir
+* Vault incentives APR: les intérêts que rapporteront votre emprunt
 
-### Understanding Debt Ceiling
+### Comprendre le plafonnement des emprunts
 
-The maximum number of MAI that one can mint on a specific vault depends on how much assets is deposited on that vault. Debt ceiling are implemented in order to make sure that the market isn't flooded with MAI in a very short time, which may affect the price of the stable coin.
+Le nombre maximum de MAI qu'un utilisateur pourra emprunter pour un coffre donné dépend principalement de la valeur des actifs déposés dans ce coffre. Le plafonnement de la dette est mis en place pour prévenir la situation dans laquelle le marché serait innondé d'une très grosse quantité de MAI dans un laps de temps très court, ce qui aurait un impact négatif sur son prix.
 
-As an example, if a big institution would deposit 5,000 WBTC at once and was able to borrow $100,000,000 worth of MAI, swapping the totality for more WBTC, this could drive the price of MAI down so much that the price would deviate too much from its peg, putting the whole platform at risk. Debt ceiling is the mechanism that prevents this from happening: there's a maximum amount of MAI that can be minted for a given vault type.
+Par exemple, si une très grosse institution dépose 5 000 WBTC d'un coup et emprunte l'équivalent de 100 000 000$ de MAI, échanger la totalité des MAI pour acheter plus de WBTC pourrait tirer le prix du MAI vers le bas à tel point que l'ancrage au dollar US serait mis en question, et mettrait toute la plateforme en danger. Le plafonnement des emprunts est le mécanisme qui permet justement à cette situation de ne jamais être rencontrée: il y a un maximum de MAI empruntable à la fois qui correspond plus ou moins à ce que le marché est capable d'absorber dans impacter le prix du MAI.
 
-When the debt ceiling is reached, the time at which there aren't any more available MAI to mint is recorded, and the system automatically increases the debt ceiling after 48 hours. This is considered enough time for the MAI price to stabilize (in case of high sell pressure following a big sell off of MAI). 
+Lorsque le plafond de la dette est atteint, ou pour faire simple, le moment ou il ne reste plus de MAI à créer, la date est enregistrée dans le système et le plafond est augmenté automatiquement après 48h. C'est le temps jugé suffisant pour que le prix du MAI se soit stabilisé (en cas d'une très grosse vente de MAI).
 
-This means that for 48h, nobody will be able to borrow more MAI from a vault that reached its debt ceiling, unless a debt is repaid.
+Ceci veut dire que pendant 48h, personne ne pourra emprunter des MAI supplémentaires pour un type de coffre donné, à mois que quelqu'un ne repaye partiellement ou entièrement sa dette.
 
-As a side note, the more MAI on the market, the more stable the price is. Indeed, a massive sell of MAI is less invasive if there are more MAI in circulation.
+Veuillez noter que plus il y a de MAI sur le marché, plus le MAI devient stable. En effet, une vente massive de MAI a moins d'impact s'il y a plus de MAI en circulation.
 
-* If someone sells 1,000 MAI while there are only 10,000 MAI in circulation, the sell corresponds to 10%
-* If someone sells 1,000 MAI while there are 10,000,000 MAI in circulation, the sell corresponds to 0.01%
+* Si quelqu'un vend 1 000 MAI alors qu'il y a seulement 10 000 MAI en circulation, la vente correspond à 10% du volume et peut avoir un impact important
+* Si quelqu'un vend 1 000 MAI alors qu'il y a 10 000 000 MAI en cricluation, la vente correspond à 0.01% du volume et aura moins d'impact
 
-Hence, the debt ceiling isn't increased incrementally, but exponentially: the more MAI in circulation, the less impact a big sell would have, so the debt ceiling can be increased by a lot more.
+Ainsi, le plafond n'est pas augmenté de façon incrémentale, mais exponentielle: plus il y a de MAI sur le marché, moins l'impact est important, et donc le plafond peut être augmenter de façon beaucoup plus importante.
 
 {% hint style="info" %}
-When you borrow MAI, it can happen that the maximum amount of MAI that you can borrow is capped by the debt ceiling, regardless of the current value of your collateral and the current amount of MAI you already borrowed. When that's the case, you may wait up for 48h before you can actually borrow more MAI.
+Quand vous empruntez des MAI, il se peut que le montant maximum de MAI que vous souhaitiez emprunter soit limité par le plafond d'emprunt global, quelque soit la valeur courrante de votre collatéral ou le montant de votre dette. Lorsque c'est le cas, il suffit simplement d'attendre jusqu'à 48h pour que le plafond soit revu à la hausse.
 {% endhint %}
 
-### Understanding Collateral to Debt Ratio
+### Comprendre la ratio Collatéral / Dette
 
-The CDR, or **C**ollateral to **D**ebt **R**atio is the ratio between the value of the deposited assets in your vault compared to the amount of MAI you borrowed.
+Le CDR, ou **C**ollateral to **D**ebt **R**atio est le ratio entre la valeur des actifs déposés qui vous servent de collatéral dans votre coffre, et la valeur de votre dette correspondant aux MAI que vous avez empruntés.
 
-As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, your CDR would be
-
-$$
-CDR=\frac{CollateralValue}{DebtValue}=\frac{200}{100}=200\%
-$$
-
-Maintaining a CDR above 100% means that, at any point, there are more collateral than debt. This is mandatory to ensure that the MAI stable coin is over-collateralized, and is one of the foundations of the Mai Finance tokenomics. You can get more details from the official [Mai Finance documentation](https://docs.mai.finance/stablecoin-economics).
-
-Each vault type has a minimum CDR ratio accepted, a threshold under which the vault is considered at risk because the borrowed amount may not be backed by enough collateral. At this point, anyone can liquidate the vault, meaning a part of the debt is repaid by the liquidator that can then get a portion of the deposited collateral in repayment. Once again, you can find more details about liquidation process in the official documentation.
-
-When you borrow MAI against a given collateral, you will get some hints on what's the maximum amount of MAI you can borrow, and what would be the impact on your health ratio depending on the amount borrowed, as you can see in the screenshot bellow:
-
-![Health mitigation depending on borrowed amount](<../.gitbook/assets/image (2).png>)
-
-It's very important to keep an eye on your CDR and keep a healthy ratio to
-
-* prevent liquidation
-* increase the health of the whole Mai Finance platform by ensuring the MAI volume in circulation is properly backed
-
-The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest](../tutoriels-polygon/tirez-parti-aave-tokens.md#exemples-chiffres) in other projects, or [repay your debt](debt-repayment-how.md) using your debt.
-
-## Vault incentives
-
-### Understanding Vaults incentives APRs
-
-In September 2021, Mai Finance introduced vault incentives. This is a reward allocated by the Mai Finance platform to anyone borrowing MAI and participating in the growth of the platform.
-
-Each Vault type (among the 10 different types) receives 0.05 Qi per block, that is then distributed between all the users who have a healthy Collateral to Debt Ratio. The APR of the vault is defined by the current amount of MAI borrowed.
-
-As an example, Ben and Kila are 2 friends who deposited their ETH in the WETH vaults on Mai Finance.
-
-* Ben deposited the equivalent of $2,000 worth of ETH and borrowed 1,000 MAI
-* Kila deposited the equivalent of $10,000 worth of ETH and borrowed 6,000 MAI
-
-The current amount of MAI borrowed by users who deposited WETH in the vault is 1,000,000 MAI.
-
-Both Ben and Kila qualify for the vault incentives because Ben has a CDR of 200% and Kila a CDR of 166.67%. Ben, with his loan, owns 0.1% of the total amount borrowed, while Kila owns 0.6%.
-
-The total amount of Qi allocated to the WETH vault (or any vault) is
+Par exemple, si vous déposez l'équivalent de 200$ d'ETH et que vous empruntez 100$ de MAI, votre CDR sera de
 
 $$
-Qi=0.05*\frac{86400}{2}=2160
+CDR=\frac{ValeurDeCollatéral}{ValeurDeDette}=\frac{200}{100}=200\%
+$$
+
+Maintenir un CDR au dessus de 100% vous permet d'avoir à tout moment plus de collatéral que de dette. C'est un point essentiel pour assurer que la valeur de la monnaie stable MAI ne s'effondre pas. On parle de monnaie stable sur-collatéralisée, et c'est l'un des fondements du MAI. Vous pourrez retrouver plus de détails dans la [documentation officielle de Mai Finance](https://docs.mai.finance/stablecoin-economics).
+
+Chaque type de coffre accepte un CDR minimum (aussi appelé seuil de liquidation). Il s'agit du taux en dessous duquel votre coffre est considéré comme étant à risque puisque le montant emprunté ne sera plus assuré par suffisament de collatéral. A partir de là, n'importe quel utilisateur pourra liquider votre coffre, c'est-à-dire rembourser une partie de votre dette et prendre en compensation une partie de votre collatéral. Une fois encore, vous trouverez toutes les informations importantes dans la documentation officielle. 
+
+Lorsque vous empruntez des MAI à partir d'actifs en collatéral, vous aurez également quelques informations relatives au montant maximal de MAI que vous pourrez emprunter, ainsi que l'impact qu'aura votre emprunt sur votre CDR comme vous pouvez le voir sur la capture d'écran ci-dessous:
+
+![Mitigation du risque en fonction du montant emprunté](<../.gitbook/assets/image (2).png>)
+
+C'est très important de garder un oeil sur votre CDR et de conserver un ratio sain afin de
+
+* prévenir les évènements de liquidation
+* accroître la santé de l'intégralité de la plateforme Mai Finance en assurant que le volume de MAI en circulation reste correctement assurée par assez d'actifs 
+
+Un "CDR" sain, si on se base sur la définition proposée par l'équipe derrière la plateforme Mai Finance, se trouve entre 25% et 270% au dessus du seuil de liquidation. A noter que vous pouvez également vous reporter à nos autre tutoriels pour comprendre comment un [CDR aggrésif/conservateur](../tutoriels-polygon/tirez-parti-aave-tokens.md#exemples-chiffres) peut impacter votre stratégie d'investissement, ou comment [repayer votre dette](debt-repayment-how.md) en fonction de votre CDR.
+
+## Les récompenses d'emprunt
+
+### Comprendre les intérêts sur les récompenses d'emprunt
+
+En septembre 2021, Mai Finance a introduit les récompenses d'emprunt. Il s'agit d'intérêts alloués par la plateforme Mai Finance aux utilisateurs qui empruntent des MAI et participent ainsi à la croissance du projet.
+
+Chaque type de coffre (parmi les 10 coffres différents) reçoivent chacun 0,05 Qi par bloc, qui sont ensuite redistribués à chaque utilisateur ayant un CDR sain. Le rendement du coffre est basé sur le montant emprunté.
+
+Par exemple, Ben et Kila sont 2 amis ayant déposé leurs ETH dans le coffre WETH sur Mai Finance.
+
+* Ben a déposé l'équivalent de 2 000$ d'Ehtereum et a emprunté 1 000 MAI.
+* Kila a déposé l'équivalent de 10 000$ d'ETH et a emprunté 6 000MAI.
+
+Le montant actuel de MAI empruntés par tous les utilisateurs de coffre WETH s'élève a 1 000 000MAI.
+
+Ben et Kila sont tous les deux qualifiés pour recevoir des intérêts sur leur dette puisque Ben a un CDR de 200% et Kila un CDR de 166.67%. Ben, avec son emprunt, possède 0.1% du montant total emprunté, et Kila en possède 0.6%.
+
+Le montant total de Qi alloué pour l'intégralité des coffres WETH (ou n'importe quel type de coffre) est de
+
+$$
+Qi=0,05*\frac{86 400}{2}=2 160
 $$
 
 {% hint style="info" %}
-86,400 is the number of seconds in a day, and on Polygon, the block time is 2 seconds, meaning that the expected number of blocks every day is 86,400 / 2 = 43,200. Hence, the emission for each Vault is 2,160 Qi / day.
+86 400 est le nombre de secondes dans une journée, et sur Polygon, il y a un nouveau bloc toutes les 2 secondes, ce qui veut dire que le nombre théorique de blocs quotidien est de 86 400 / 2 = 43 200. D'ouù une émission de 2 160 Qi / jour.
 
-**Note:** Block time has increased lately and is around 2.6 seconds. However, all APRs and APYs displayed on all apps are assuming a block time of 2 seconds. Please DYOR and check the current [block time on PolygonScan](https://polygonscan.com/chart/blocktime).
+**Note:** Le temps séparant chaque bloc a augmenté, et est d'environ 2,6 secondes. Cependant, tous les APRs (**A**nnual **P**ercentage **R**evenue) affichés sur Polygon partent du principe de 2 secondes par bloc. Veuillez faire vos propres recherches à ce sujet, et vérifier le [temps moyen sur Polygonscan](https://polygonscan.com/chart/blocktime).
 {% endhint %}
 
-Hence, if the state of the Vault remains the same, Ben will get 0.1% of the 2,160 Qi distributed, while Kila will get 0.6% of the granted reward.
+Ainsi, si l'état des coffres WETH se maintient, Ben recevra 0,1% des 2 160 Qi distribués quotidiennement, et Kila en recevra 0,6%.
 
-* Ben will get 2.16 Qi every day, which is a daily reward of 0.216%, or an APR of 78.84%
-* Kila will get 12.96 Qi every day, which is also a daily reward of 0.216%, or an APR of 78.84%
+* Ben recevra 2,16 Qi chaque jour, ce qui représente 0,216% de son emprunt, ou un APR de 78,84%
+* Kila recevra 12,96 Qi chaque jour, ce qui représente 0,216% de sa dette, ou un APR de 78,84%
 
-On a side note, 2,160 Qi for 1,000,000 MAI is a daily reward of 0.216%, or 78.84%, which is the Vault's APR.
+A noter que 2 160 Qi pour 1 000 000 MAI correspond à un rendement de 0,216% quotidien, ou 78,84% total, ce que recevra chaque utilisateur ayant emprunté.
 
 {% hint style="info" %}
-It's easy to see that the Vault's APR is directly linked to the amount of MAI borrowed. The more MAI is borrowed, the lower the APR. As a side note, the amount of MAI that can be borrowed is also capped by the debt ceiling, which is increased with the demand for MAI.
+Il est facile de se rendre compte que le rendement d'un coffre est directement impacté par le volume total de MAI emprunté. Plus il y aura de MAI empruntés et plus l'APR va diminuer. Il est bon de noter que le volume de dette est également limité par le plafond de la dette globale.
 {% endhint %}
 
-As a verification, we can calculate the theoretical APR for the MATIC vault based on numbers published on the [analytics page](https://app.mai.finance/analytics) on Mai Finance. The amount of MAI borrowed from the MATIC vault is 799,328. The reward is 216 Qi per day for that vault. That corresponds to a APR of
+Dans le but de vérifier nos calculs, il est possible d'obtenir la valeur théorique de l'APR pour le coffre MATIC en fonction des chiffres publiés sur [la page d'analytics](https://app.mai.finance/analytics) de Mai Finance. Le montant total de MAI empruntés pour le coffre MATIC s'élève à 799 328. La récompense étant de 2 160 Qi par jour nous donne un APR de
 
 $$
-APR=\frac{QiReward*Qi_{Price}}{MAI_{borrowed}}*365=\frac{2160*0.441}{785008}*365=44.29\%
+APR=\frac{RecompenseQi*Qi_{prix}}{MAI_{empruntés}}*365=\frac{2160*0.441}{785008}*365=44.29\%
 $$
 
-This corresponds more or less to the APR of the MATIC Vault, as displayed in the following screenshot:
+Ceci correspond plus ou moins à l'APR affiché pour un coffre MATIC, comme le confirme la capture d'écran ci-dessous:
 
-![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](<../.gitbook/assets/image (23) (2) (3).png>)
+![APR d'un coffre MATIC sur Mai Finance après le lancement des récompenses d'emprunts](<../.gitbook/assets/image (23) (2) (3).png>)
 
-### Calculating starting vaults' APRs
+### Calcul des rendements de départ de chaque coffre
 
-With the same data as the example above, it's possible to calculate the starting APRs for all vaults
+Avec le même exemple que ci-dessus, il est possible de calculer chaque rendement de coffre en fonction du volume total emprunté
 
-| Vault type | Starting APR |
-| ---------- | ------------ |
-| MATIC      | 44.29%       |
-| WETH       | 24.03%       |
-| LINK       | 27.41%       |
-| AAVE       | 164.14%      |
-| CRV        | 159.96%      |
-| WBTC       | 36.92%       |
-| camWETH    | 25.46%       |
-| camWMATIC  | 44.33%       |
-| camAAVE    | 167.23%      |
-| camWBTC    | 47.38%       |
+| Type de coffre | APR initial |
+| -------------- | ----------- |
+| MATIC          | 44.29%      |
+| WETH           | 24.03%      |
+| LINK           | 27.41%      |
+| AAVE           | 164.14%     |
+| CRV            | 159.96%     |
+| WBTC           | 36.92%      |
+| camWETH        | 25.46%      |
+| camWMATIC      | 44.33%      |
+| camAAVE        | 167.23%     |
+| camWBTC        | 47.38%      |
 
 {% hint style="info" %}
-As you can see, some vaults will generate more rewards than others. Also, you can see that it's super important to deposit your assets as soon as possible to benefit from high APRs before the debt ceiling is increased and more loan is taken (lowering the APR).
+Comme vous pouvez le constater, certains coffres vont générer beaucoup plus de rendement que d'autres. Vous remarquerez également qu'il est très important de déposer vos actifs le plus tôt possible afin de bénéficier d'intérêts élevés avant que le plafond d'emprunt ne soit augmenté et que plus de dette ne soit contractée (diminuant ainsi le rendement).
 
-You can also see that if you keep your loan for one year of more, the 0.5% repayment fee will easily be compensated by the reward program.
+Vous pouvez enfin voir que si vous conservez votre emprunt pour une année complète, les frais de remboursement de 0.5% seront largement compensés par le programme de récompenses.
 {% endhint %}
 
-### Incentives distribution
+### Distribution des intérêts
 
-Rewards allocated by the vault incentives will be distributed the same way as for staked Qi. Every Wednesday, the Qi allocated by the Vaults incentives program will be airdropped / claimed for the week prior to the pay day.
+Les récompenses allouées à chaque type de coffre seront distribuées de la même façon que celles données aux utilisateurs ayant bloqués leurs Qi sur la plateforme (staking). Chaque mercredi, les Qi alloués aux coffres seront envoyés directement dans le portefeuille des détenteurs de dette pour la période correspondant à la semaine précédant la distribution.
 
-## Vaults incentives FAQs
+## FAQ sur les récompenses d'emprunts
 
-If you want to know more about the way Vault incentives are working, here's an official FAQ from the Discord server.
+Si vous souhaitez en apprendre plus sur la façon dont les récompenses d'emprunts fonctionnent, voici la FAQ officielle présente sur le serveur Discord.
 
-*  **What vaults are receiving rewards?**
+* **Quels coffres reçoivent des récompenses?**
 
-Right now all the vault types have been allocated Qi rewards
+ Pour le moment, tous les types de coffre reçoivent des récompenses sous forme de Qi
 
-*  **How much rewards are given out for the borrowing incentives?**
+* **À combien s'élèvent les récompenses d'emprunt?**
 
-0.05 Qi/block for each vault type
+ 0,05 Qi/bloc pour chaque type de coffre
 
-*  **How much MAI do I need to borrow to earn rewards?**
+* **Combien de MAI dois-je emprunter afin de me qualifier pour les récompenses?**
 
- For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:
+ Pour les récompenses d'emprunt, il suffit de conserver un CRD compris entre 25% et 270% au dessus du seuil de liquidation pour recevoir les récompenses en Qi. Cela correspon à:
 
-*  _Matic_ - Liquidation ratio 150% - Eligible for Incentives between 175% and 420% 
-* _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400% 
-* _CamTokens_: - Liquidation ratio 135% - Eligible for Incentives between 160% and 405%
+* _MATIC_: - seuil de liquidation de 150% - CDR qualifiés entre 175% et 450%
+* _Tokens_: - seuil de liquidation de 130% - CDR qualifiés entre 155% et 400%
+* _CamTokens_: - seuil de liquidation de 135% - CDR qualifiés entre 160% et 405%
 
+* **Comment puis-je savoir si mon coffre se qualifie?**
 
+ Si vous voyez une petite emoji flamme sur votre coffre dans la page listant vos coffres, c'est qu'il se qualifie pour les récompenses.
 
-*  **How can I see if my vault is earning rewards?**
+* **Combien vais-je gagner?**
 
- If you see the fire emoji on your vault overview page that means that vault is earning rewards
+ Votre pourcentage de récompenses correspond au ratio entre le montant de votre dette en MAI et le montant total de la dette pour le type de coffre.
 
-*  **How much will I earn?**
+* **Combien de temps vont durer les récompenses d'emprunt?**
 
-Your percent of the reward pool is based on the percentage of MAI you borrowed compared to the total amount of MAI borrowed from that vault type.
+ Pour le moment, la planification des récompenses d'emprunts est pour une durée de 3 mois. La DAO peut voter d'arrêter ces récompenses avant la fin des 3 mois, ou voter pour une extension à la fin de la période.
 
-*  **How long will the incentives program last?**
+* **Comment allons-nous recevoir les récompenses?**
 
-The scheduled length of the borrowing incentives program is to last 3 months. The DAO can vote to stop incentives before the 3 months is over or vote to extend the program.
+ Les Qi seront distribués directement dans les portefeuilles des détenteurs de dette éligible.
 
-* **How will we receive rewards?**
+* **Comment est-ce que l'éligibilité est prise en compte?**
 
-Qi will be airdropped to eligible vault holders.
+ L'éligibilité d'un coffre est calculée à chaque bloc. Vous recevrez des récompenses pour chaque bloc pendant lequel votre niveau de dette est éligible au long de la semaine.
 
-* **How is eligibility for rewards gathered?**
+* **Quand est-ce que la période d'éligibilité démarre-t-elle?**
 
-Eligibility for rewards is calculated per block. You will earn rewards for the blocks you were eligible during the week.
+ Le même calendrier que les récompenses de staking sera respecté. Vous pouvez vous baser sur les numéros de blocs affichés sur la page de boost.
 
-* **When do tracking rewards for the week start?**
+## Avertissement
 
-We will follow the same schedule as eQi. You can find the block numbers on the boost page.
-
-## Disclaimer
-
-This guide has been written **prior** to the launch of Vault incentives, meaning that the APRs promoted in this document (as well as this document) are subject to modifications, and/or may not be accurate. The amount of MAI borrowed, the debt ceiling and the value of the Qi token will highly impact the final APR of each vault type. Please, make sure that you invest responsibly.
+Ce guide a été écrite **avant** que les récompenses d'emprunts ne soient démarrées, ce qui veut dire que certains des APRs affichés dans ce document (ainsi que le document au complet) peut être sujet à des modifications, et pourraient ne pas être justes. Le montant de MAI empruntés, le plafond de dette globale et la valeur du jeton Qi impactera grandement le rendement final pour chaque coffre. Veuillez s'il vous plaît investir de façon responsable.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Veuillez garder à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut parfaitement performer lamentablement (voir vous faire perdre de l'argent) dans d'autres circonstances. Restez informés, vérifiez les marchés, gardez un oeil sur vos investissements, et comme toujours, faites vos propres recherches.
 {% endhint %}
