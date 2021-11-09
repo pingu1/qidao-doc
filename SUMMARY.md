@@ -21,6 +21,7 @@
 ## Fantom toàn tập
 
 * [Cách bắt đầu trên mạng Fantom](fantom-toan-tap/how-to-get-started-on-fantom.md)
+* [Leverage your crypto on Fantom](fantom-toan-tap/leverage-your-crypto-on-fantom.md)
 
 ## Học viện MAI <a href="debt-management-tutorials" id="debt-management-tutorials"></a>
 
