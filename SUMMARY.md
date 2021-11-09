@@ -21,6 +21,7 @@
 ## Tutorial di Fantom
 
 * [Come iniziare con Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
+* [Leverage your crypto on Fantom](fantom-tutorials/leverage-your-crypto-on-fantom.md)
 
 ## Università di MAI
 
