@@ -5,7 +5,7 @@
 ## Polygon Rehberi
 
 * [Polygon'u Nasıl Kullanırım?](polygon-rehberi/how-to-get-started-on-polygon.md)
-* [Aave Market'ten Yararlanın](polygon-rehberi/leverage-aave-tokens.md)
+* [Aave Market'ten Kaldıraçlı Yararlanın](polygon-rehberi/leverage-aave-tokens.md)
 * [camDAI Başlangıç Stratejisi](polygon-rehberi/camdai-beginner-strategy.md)
 * [Sadece stablecoin kullanarak çiftçilik stratejisi](polygon-rehberi/secure-your-yield-farming-profits.md)
 * [Polygon'da MAI ile ne yapabilirim?](polygon-rehberi/what-to-do-with-mai-on-polygon.md)
@@ -21,7 +21,7 @@
 ## Fantom Rehberi
 
 * [Fantom'u Nasıl Kullanırım?](fantom-tutorials/how-to-get-started-on-fantom.md)
-* [Leverage your crypto on Fantom](fantom-tutorials/leverage-your-crypto-on-fantom.md)
+* [Fantom'dan Kaldıraçlı yararlanın](fantom-tutorials/leverage-your-crypto-on-fantom.md)
 
 ## MAI Üniversitesi
 
