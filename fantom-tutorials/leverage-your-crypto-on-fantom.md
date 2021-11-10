@@ -1,125 +1,123 @@
 ---
-description: >-
-  This guide is proposing a complete analysis of the different leverage options
-  proposed by Mai Finance on Fantom, using Yearn vaults and Beefy vaults.
+Açıklama: >-
+  Bu kılavuz, Yearn kasaları ve Beefy kasaları kullanılarak Fantom'da Mai Finance tarafından önerilen farklı kaldıraç seçeneklerinin eksiksiz bir analizini sunmaktadır.
 ---
 
-# Leverage your crypto on Fantom
+# Fantom'dan Kaldıraçlı Yararlanın
 
-## Introduction
+## Giriş
 
-Mai Finance has launched its lending platform on Fantom with many different vault types, enabling the possibility to mint the MAI stable coin based on the assets you will deposit in a vault. The idea is that you will be able to keep your crypto currencies and benefit from their price appreciation, while still being able to buy other coins and farm yields with high APRs. If you use your loan to buy more of the same asset you already deposited, this is what is called leveraging your tokens. We will show you the benefits of this strategy using 2 different lending platforms on Fantom to leverage our DAI tokens.
+Mai Finance, Fantom'da birçok farklı kasa tipiyle kredi verme platformunu başlattı ve bir kasaya yatıracağınız varlıklara dayalı olarak MAI basma olanağını sağladı. Buradaki fikir, yüksek APR'lerle diğer paraları ve çiftlik getirilerini satın almaya devam ederken, kripto para birimlerinizi koruyabilecek ve fiyat değerlerinden yararlanabilecek olmanızdır. Kredinizi, daha önce yatırmış olduğunuz aynı varlığın daha fazlasını satın almak için kullanırsanız, buna tokenlarınızı kaldırmak denir. DAI tokenlarımızdan yararlanmak için Fantom'da 2 farklı borç verme platformunu kullanarak bu stratejinin faydalarını size göstereceğiz.
 
-## Leverage your Yearn Vault tokens
+## Yearn Vault tokenlarınızdan yararlanın
 
-### Deposit your assets on Yearn Finance
+### Varlıklarınızı Yearn Finance'e yatırın
 
-[Yearn Finance](https://beta.yearn.finance/#/home) is a group of protocols running on the Ethereum Mainnet and other blockchains that allow users to optimize their earnings on crypto assets through lending and trading services. On Fantom, the product that we will be using is the vaults on yearn finance. This is a tool that will accept single token deposits and will make you earn yields on this deposit. As a proof of deposit, you will receive a yvToken. In our case, we will deposit DAI and will get yvDAI in exchange.
+[Fantom ağındaki Yearn Finance kasaları](https://beta.yearn.finance/#/home), Ethereum Mainnet ve diğer blok zincirlerinde çalışan ve kullanıcıların kredi verme ve ticaret hizmetleri yoluyla kripto varlıklarındaki kazançlarını optimize etmelerine olanak tanıyan bir protokol grubudur. Fantom'da kullanacağımız ürün, özlem finansmanındaki kasalar. Bu, tek tokenlı para yatırma işlemlerini kabul edecek ve bu para yatırma işleminde getiri elde etmenizi sağlayacak bir araçtır. Para yatırma kanıtı olarak bir yvToken alacaksınız. Bizim durumumuzda, DAI yatıracağız ve karşılığında yvDAI alacağız.
 
-![yearn vaults on Fantom network](../.gitbook/assets/ftm-leverage-yv1.png)
+![Fantom ağındaki Yearn Finance kasaları](../.gitbook/assets/ftm-leverage-yv1.png)
 
 {% hint style="info" %}
-The yearn finance website is still in beta mode on Fantom. The team is still working on the platform and APRs/APYs aren't showing. If you head to the Iron Bank tab, which is the lending/borrowing protocol on yearn platform, you'll see that lending DAI is getting \~8% APR. Please invest at your own risk.
+Yearn Finance web sitesi Fantom'da hala beta modunda. Ekip hala platform üzerinde çalışıyor ve APR'ler/APY'ler görünmüyor. Yearn platformunda ödünç verme/ödünç alma protokolü olan Iron Bank sekmesine giderseniz, ödünç verme DAI'sinin %8 APR aldığını göreceksiniz. Lütfen riski size ait olmak üzere yatırım yapın.
 {% endhint %}
 
-### Deposit your yvToken on Mai Finance
+### yvToken'ınızı Mai Finance'e yatırın
 
-Once you deposited your DAI on yearn finance, you should have yvDAI in your wallet. This is what we call a yield bearing token: it's a token that doesn't have any value per se, but represents your share of a pool where your assets are earning yields and in which rewards are automatically compounded. In other words, if your DAI doesn't change in value because the DAI is pegged to the US dollar, the underlying value of your yvDAI token increases anyway.
+DAI'nizi Yearn Finance'a yatırdıktan sonra, cüzdanınızda yvDAI olmalıdır. Getiri getiren token dediğimiz şey budur: Kendi başına herhangi bir değeri olmayan, ancak varlıklarınızın getiri elde ettiği ve ödüllerin otomatik olarak birleştirildiği bir havuzdaki payınızı temsil eden bir tokendır. Başka bir deyişle, DAI ABD dolarına sabitlendiği için DAI'nizin değeri değişmezse, yvDAI simgenizin temel değeri yine de artar.
 
-Mai Finance accepts a lot of different yield bearing tokens as collateral, including yvDAI. You can now deposit this token and borrow MAI against it.
+Mai Finance, yvDAI dahil olmak üzere birçok farklı getiri sağlayan tokenı teminat olarak kabul eder. Artık bu tokenı yatırabilir ve karşılığında MAI ödünç alabilirsiniz.
 
-![Deposit your yvToken on Mai Finance](../.gitbook/assets/ftm-leverage-yv2.png)
+![yvToken'ınızı Mai Finance'e yatırın](../.gitbook/assets/ftm-leverage-yv2.png)
 
-The yvDAI vault has a liquidation threshold of 110%, this means that you can borrow MAI so that the ratio between your collateral value and the debt value is 110%. Be careful that 110% is actually the ratio at which your vault will be liquidated. You need to keep the ratio above this minimum threshold. Since DAI doesn't vary much in price (less than a few cents up or down) it's possible to keep a "safe" CDR (**C**ollateral to **D**ebt **R**atio) of 115%, but feel free to keep something higher.
+yvDAI kasasının likidasyon eşiği %110'dur, yani teminat değeriniz ile borç değeri arasındaki oran %110 olacak şekilde MAI ödünç alabilirsiniz. %110'un aslında kasanızın likidasyon edileceği oran olduğuna dikkat edin. Oranı bu minimum eşiğin üzerinde tutmanız gerekir. DAI'nin fiyatı çok fazla değişmediği için (birkaç sentten daha az yukarı veya aşağı), "güvenli" bir CDR (**C**ollateral to **D**ebt**R**atio) tutmak mümkündür. %115, ancak daha yüksek bir şey tutmaktan çekinmeyin.
 
-As always, to calculate the loan value we can get based on the value of our collateral and the target CDR we want to get, we will use the following formula:
+Her zaman olduğu gibi, teminatımızın değerine ve almak istediğimiz hedef CDR'ye göre alabileceğimiz kredi değerini hesaplamak için aşağıdaki formülü kullanacağız:
 
 $$
 MAI_{available} = \frac{Collateral_{value} - Debt_{value} * Target_{CDR}}{Target_{CDR}}
 $$
 
-​With a collateral value of $100 and no debt, if we want to keep a healthy CDR of 115% we can borrow up to
+​100$'lık bir teminat değeriyle ve borcumuz olmadan, %115'lik sağlıklı bir CDR'yi korumak istiyorsak,
 
 $$
 MAI_{available}=\frac{100-0*1.15}{1.15}=86.95
 $$
 
-​You are now in a position where you have your DAI earning yields in a Yearn vault, and you also have some MAI stable coin ready to use. Since we want to leverage our DAI position, we will now swap our MAI for more DAI.
+​Artık bir Yearn kasasında DAI kazanç getirilerine sahip olduğunuz bir konumdasınız ve ayrıca kullanıma hazır bir miktar MAI'niz var. DAI konumumuzu güçlendirmek istediğimizden, şimdi MAI'mizi daha fazla DAI ile değiştireceğiz.
 
-### Swapping your MAI on BeethovenX
+### MAI'nizi BeethovenX'te değiştirme
 
-On Fantom, the main source of liquidity for MAI is [BeethovenX](https://app.beets.fi/#/trade). This is the main place where you will be able to swap your MAI tokens for more DAI for our strategy.
+Fantom'da MAI için ana likidite kaynağı [BeethovenX](https://app.beets.fi/#/trade). Stratejimiz için MAI tokenlerinizi daha fazla DAI ile değiştirebileceğiniz ana yer burasıdır.
 
-![Swapping MAI for more DAI](../.gitbook/assets/ftm-leverage-yv3.png)
+![MAI'yi daha fazla DAI için değiştirme](../.gitbook/assets/ftm-leverage-yv3.png)
 
-This is the last step of our loop. Now that you have more DAI you can deposit them in a Yearn vault and repeat the loop. Doing so increases the amount of assets you have in the Yearn vault, meaning that you will collect more rewards by lending your DAI on that platform. The APR/APY remains the same, but because you have more assets, you earn more yield, and if you compare to your initial investment, it's your APR that increases. If you want to get more examples on what APR you can achieve using the yvDAI loops, please go read our [camDAI token guide](../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) for Polygon that uses the exact same strategy but different tools.
+Bu işlem döngümüzün son adımıdır. Artık daha fazla DAI'ye sahip olduğunuza göre, bunları bir Yearn kasasına yatırabilir ve döngüyü tekrarlayabilirsiniz. Böylece Yearn kasasında sahip olduğunuz varlık miktarını artırır, yani DAI'nizi bu platformda ödünç vererek daha fazla ödül toplayacağınız anlamına gelir. APR/APY aynı kalır, ancak daha fazla varlığa sahip olduğunuz için daha fazla getiri elde edersiniz ve ilk yatırımınızla karşılaştırırsanız, artan APR'nizdir. yvDAI döngülerini kullanarak hangi APR'yi elde edebileceğinize dair daha fazla örnek almak istiyorsanız, lütfen Polygon için [camDAI token kılavuzumuzu](../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) okuyun. Tamamen aynı stratejiyi ancak farklı araçları kullanır.
 
 {% hint style="success" %}
-BeethovenX is actually a fantastic opportunity to farm yields with your borrowed MAI. Simply deposit your MAI in the MAI-DAI-USDC pool (APR of \~30% as of November 2021) if you cannot achieve a better APR using leveraged loops.
+BeethovenX aslında ödünç aldığınız MAI'niz ile verim elde etmek için harika bir fırsattır. MAI'nizi MAI-DAI-USDC havuzuna (Kasım 2021 itibarıyla \~%30 APR) yatırmanız yeterlidir.
 {% endhint %}
 
 $$
 MAI_
 $$
 
-## Leverage your mooScreamTokens on Mai Finance
+## Mai Finance'de mooScreamTokens'ınızı kullanın
 
-### Deposit your assets on Beefy Finance
+### Varlıklarınızı Beefy Finance'e yatırın
 
-[Beefy Finance](https://app.beefy.finance/#/fantom) is a Decentralized, Multi-Chain Yield Optimizer platform that allows its users to earn compound interest on their crypto holdings. In other words, you can deposit some assets or LP tokens from other platforms on Beefy Finance and let the auto-compounder harvest farm tokens and compound them into more of your deposited asset / LP token. For our exemple, we will use single DAI deposits on Beefy and use [Scream](https://scream.sh/lend) as the underlying platform. Scream is a Compound fork on the Fantom network on which you will be able to lend your assets and collect SCREAM tokens. Beefy will then sell the SCREAM tokens for more DAI.
+[Beefy Finance](https://app.beefy.finance/#/fantom), kullanıcılarının kripto varlıkları üzerinde bileşik faiz kazanmalarını sağlayan bir Merkeziyetsiz Çok Zincirli Getiri Optimize Edici platformudur. Başka bir deyişle, Beefy Finance'deki diğer platformlardan bazı varlıkları veya LP tokenlarını yatırabilir ve otomatik birleştiricinin çiftlik jetonlarını toplamasına ve bunları yatırdığınız varlık / LP tokenınızdan daha fazlasını birleştirmesine izin verebilirsiniz. Örneğimiz için, Beefy'de tekli DAI mevduatlarını kullanacağız ve temel platform olarak [Scream](https://scream.sh/lend) kullanacağız. Scream, Fantom ağındaki varlıklarınızı ödünç verebileceğiniz ve SCREAM tokenlarını toplayabileceğiniz bir Compound klonudur. Beefy daha sonra daha fazla DAI karşılığında SCREAM tokenlerini satacak.
 
-To deposit our DAI, we will visit the Beefy Finance app and select Scream as the platform on which we will farm yields. You can also add the DAI filter in order to get the direct DAI deposit.
+DAI'mizi yatırmak için Beefy Finance uygulamasını ziyaret edeceğiz ve verimleri artıracağımız platform olarak Scream'i seçeceğiz. Doğrudan DAI depozitosu almak için DAI filtresini de ekleyebilirsiniz.
 
-![Deposit your DAI on Beefy using Scream](../.gitbook/assets/ftm-leverage-beefy1.png)
+![DAI'nizi Scream kullanarak Beefy'ye yatırın](../.gitbook/assets/ftm-leverage-beefy1.png)
 
-As you can see, Beefy is already giving an unbelievable APY on DAI single deposits. Once you have your DAI deposited on Beefy, you should have a proof of deposit in your wallet under the form of mooScreamDAI tokens. As for the yvDAI token, the mooScreamDAI token is a yield bearing deposit, meaning that you asset is still used on Scream and compounded on Beefy, earning yields. But you will be able to use this token on Mai Finance to borrow MAI against them.
+Gördüğünüz gibi, Beefy, DAI tekli mevduatlarda zaten inanılmaz bir APY veriyor. DAI'nizi Beefy'ye yatırdıktan sonra, cüzdanınızda mooScreamDAI şeklinde bir para yatırma kanıtınız olmalıdır. yvDAI tokenına gelince, mooScreamDAI getiri taşıyan bir depozitodur, yani varlığınızın hala Scream'de kullanıldığı ve Beefy'de birleştirilerek getiri elde edildiği anlamına gelir. Ancak MAI'yi onlara karşı ödünç almak için bu tokenı Mai Finance'de kullanabileceksiniz.
 
-### Deposit your mooScreamToken on Mai Finance
+### mooScreamToken'ınızı Mai Finance'e yatırın
 
-Once you deposited your DAI on yearn finance, you should have mooScreamDAI in your wallet. You can use the exact same steps as for the Yearn Vault strategy above, the only difference is that the mooScreamDAI liquidation ratio is 135%. Since DAI is a stable coin, it's still possible to borrow MAI and keep a CDR very close to the liquidation ration. For our exemple, we will aim at a 140% CDR, and with the same formula as above, we can calculate the amount of MAI we can mint with 100$ worth of DAI.
-
+DAI'nizi Yearn Finance'a yatırdıktan sonra, cüzdanınızda mooScreamDAI olmalıdır. Yukarıdaki Yearn Vault stratejisiyle aynı adımları kullanabilirsiniz, tek fark mooScreamDAI likidasyon oranının %135 olmasıdır. DAI stablecoin olduğundan, MAI ödünç almak ve bir CDR'yi likidasyon oranına çok yakın tutmak hala mümkündür. Örneğimiz için %140'lık bir CDR hedefleyeceğiz ve yukarıdakiyle aynı formülle, 100$ değerinde DAI ile basabileceğimiz MAI miktarını hesaplayabiliriz.
 
 
 $$
 MAI_{available}=\frac{100-0*1.4}{1.4}=71.43
 $$
 
-​Since we are borrowing less, we will be able to perform less loops and the final equivalent APY will also be lower, however this is still a pretty good beginner strategy.
+Daha az ödünç aldığımız için daha az döngü gerçekleştirebileceğiz ve nihai eşdeğer APY de daha düşük olacaktır, ancak bu yine de oldukça iyi bir başlangıç ​​stratejisidir.
 
-The rest of the loop is the same as for yvDAI, meaning you will have to swap your MAI for DAI on BeethovenX and repeat until you're satisfied.
+Döngünün geri kalanı yvDAI ile aynıdır, yani MAI'nizi BeethovenX'te DAI ile değiştirmeniz ve memnun kalana kadar tekrarlamanız gerekecek.
 
-## Some notes on leveraging strategies
+## Stratejilerden yararlanmayla ilgili bazı notlar
 
-Leverage DAI is considered a beginner strategy in the sense that it presents very little risk (you are working with stable coins) and you can get some nice yields using at most 3 protocols. However, there's still _some_ risk.
+Kaldıraç DAI, çok az risk sunduğu (sabit paralarla çalışıyorsunuz) ve en fazla 3 protokol kullanarak bazı güzel getiriler elde edebileceğiniz anlamında başlangıç ​​stratejisi olarak kabul edilir. Ancak yine de _bazı_ risk var.
 
-### Liquidation risk
+### Likidasyon riski
 
-The more loops you will perform, the higher the liquidation risk. Indeed, even a small variation of the DAI price will be magnified by the leverage you applied, and even if you keep a CDR 5 points above the liquidation ratio, your vault can be at risk. It's always a good idea to stop the leverage loops at the step where you deposit your assets on MAI finance and don't borrow additional MAI in order to keep a better CDR.
+Ne kadar çok döngü gerçekleştirirseniz, likidasyon riski o kadar yüksek olur. Aslında, DAI fiyatındaki küçük bir değişiklik bile uyguladığınız kaldıraçla büyüyecektir ve likidasyon oranının 5 puan üzerinde bir CDR tutsanız bile kasanız risk altında olabilir. Varlıklarınızı MAI finansmanına yatırdığınız ve daha iyi bir CDR elde etmek için ek MAI ödünç almadığınız adımda kaldıraç döngülerini durdurmak her zaman iyi bir fikirdir.
 
-Also, in case of a liquidation, because your vault on MAI finance contains a lot more assets, a liquidation will also have a bigger impact than if you didn't levered your position, simply because the debt you have to repay is also much bigger.
+Ayrıca, bir likidasyon durumunda, MAI Finance'taki kasanız çok daha fazla varlık içerdiğinden, bir likidasyonun pozisyonunuzu kaldırmamış olmanıza göre daha büyük bir etkisi olacaktır. Çünkü ödemeniz gereken borç da çok daha büyüktür.
 
-### Technology risk
+### Teknoloji riski
 
-If you use a lot of protocols for your investment legos, you need to make sure that these protocols are safe. Indeed, in our leveraging strategy, if a single protocol gets hacked, the entire strategy may collapse. Make sure you do your due diligence before investing in DeFi projects.
+Yatırım legolarınız için çok sayıda protokol kullanıyorsanız, bu protokollerin güvenli olduğundan emin olmanız gerekir. Gerçekten de, bizim kaldıraç stratejimizde tek bir protokol saldırıya uğrarsa tüm strateji çökebilir. DeFi projelerine yatırım yapmadan önce gerekli özeni gösterdiğinizden emin olun.
 
-### Hitting debt ceilings
+### Borç tavanlarına ulaşmak
 
-Because these strategies are easy to set and present low risks, there's a very high demand for them. However, you certainly noticed that in the leverage process, borrowed MAI is swapped for DAI (or other tokens). If too much MAI is sold on Beethoven, its price will decrease slowly and there is a risk for MAI to lose its peg, which is pretty bad for a stable coin. In order to let time for the price to stabilize, Mai Finance has security mechanisms in place, and the most important one is a debt ceiling for each vault.
+Bu stratejilerin belirlenmesi kolay olduğundan ve düşük riskler sunduğundan, onlara çok yüksek talep vardır. Ancak, kaldıraç sürecinde ödünç alınan MAI'nin DAI (veya diğer tokenlar) ile değiştirildiğini kesinlikle fark etmişsinizdir. Beethoven'da çok fazla MAI satılırsa, fiyatı yavaş yavaş düşecek ve MAI'nin oldukça kötü olan sabitini kaybetme riski var. Fiyatın istikrar kazanması için zaman tanımak için Mai Finance'in güvenlik mekanizmaları vardır ve en önemlisi her kasa için bir borç tavanıdır.
 
-A debt ceiling represents the maximum number of MAI that can be minted for a given vault. Once the ceiling is reached, no more MAI can be borrowed. Then the core team in charge of MAI finance can decide to increase the ceiling or wait a little more for a better price for MAI.
+Borç tavanı, belirli bir kasa için basılabilecek maksimum MAI sayısını temsil eder. Tavana ulaşıldığında, artık MAI ödünç alınamaz. Ardından, MAI Finance'taki sorumlu çekirdek ekip, tavanı artırmaya veya MAI için daha iyi bir fiyat için biraz daha beklemeye karar verebilir.
 
-You can at all time verify the amount of MAI that can be minted on the [vault creation page](https://app.mai.finance/vaults/create), but you will usually notice that there aren't any more MAI if you get the following error message:
+Basılabilecek MAI miktarını [kasa oluşturma sayfasında](https://app.mai.finance/vaults/create) her zaman doğrulayabilirsiniz, ancak genellikle başka MAI olmadığını fark edeceksiniz. aşağıdaki hata mesajını alırsanız:
 
-![Error message received when debt ceiling is reached](../.gitbook/assets/ftm-leverage-error.png)
+![Borç tavanına ulaşıldığında alınan hata mesajı](../.gitbook/assets/ftm-leverage-error.png)
 
-This error message will appear even if your health factor is correct. In most cases, waiting for the ceiling to be increased is the only solution. Keep an eye on twitter or on Discord to know when this happen.
+Sağlık faktörünüz doğru olsa bile bu hata mesajı görünecektir. Çoğu durumda tavanın yükseltilmesini beklemek tek çözümdür. Bunun ne zaman olduğunu öğrenmek için gözünü Twitter'da veya Discord'da tut.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-This guide presented some of the ways you can use your assets on Fantom and include Mai Finance to your strategy in order to increase your gains. However, as usual, this tutorial isn't a financial advice and you should always DYOR before applying an investment strategy, and invest in a responsible manner.
+Bu kılavuz, varlıklarınızı Fantom'da kullanmanın bazı yollarını sunar ve kazançlarınızı artırmak için Mai Finans'ı stratejinize dahil eder. Ancak, her zamanki gibi, bu eğitim finansal bir tavsiye değildir ve bir yatırım stratejisi uygulamadan önce her zaman kendi araştırmanızı yapmalı ve tecrübeli kullanıcılara başvurmalı ve sorumlu bir şekilde yatırım yapmalısınız.
 
-Keep also in mind that this solution may not be the best strategy depending on when you plan to use it. We just highlighted that BeethovenX has pretty interesting APRs too for your MAI, and you can also use Beefy Finance to compound the BEETS rewards into more stable coins.
+Ayrıca, ne zaman kullanmayı planladığınıza bağlı olarak bu çözümün en iyi strateji olmayabileceğini de unutmayın. BeethovenX'in MAI'niz için de oldukça ilginç APR'leri olduğunu vurguladık ve BEETS ödüllerini stablecoine dönüştürmek için Beefy Finance'i de kullanabilirsiniz.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen gelişmelerden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
