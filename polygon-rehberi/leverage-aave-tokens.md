@@ -3,7 +3,7 @@ description: >-
   Bu eğitim, kullanıcıların Mai Finance'in %0 faizli kredileri ve Aave protokolünün akıllı kombinasyonu aracılığıyla mevcut kripto yatırımlarını  nasıl daha iyi yönetebileceğine dair fikirkleri ayrıntılı şekilde sunar. 
 ---
 
-# Aave Market'ten Yararlanın
+# Aave Market'ten Kaldıraçlı Yararlanın
 
 ## Bazen bir görsel bin kelimeye bedeldir
 
