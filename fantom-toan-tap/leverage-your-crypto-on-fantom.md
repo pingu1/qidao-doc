@@ -1,125 +1,128 @@
 ---
 description: >-
-  This guide is proposing a complete analysis of the different leverage options
-  proposed by Mai Finance on Fantom, using Yearn vaults and Beefy vaults.
+  Hướng dẫn này đề xuất phân tích đầy đủ về các lựa chọn sử dụng đòn bẩy khác
+  nhau trên chuỗi khối Fantom bằng cách sử dụng các hầm tiền trên Yearn và
+  Beefy.
 ---
 
-# Leverage your crypto on Fantom
+# Chiến lược tạo đòn bẩy trên Fantom
 
-## Introduction
+## Giới thiệu
 
-Mai Finance has launched its lending platform on Fantom with many different vault types, enabling the possibility to mint the MAI stable coin based on the assets you will deposit in a vault. The idea is that you will be able to keep your crypto currencies and benefit from their price appreciation, while still being able to buy other coins and farm yields with high APRs. If you use your loan to buy more of the same asset you already deposited, this is what is called leveraging your tokens. We will show you the benefits of this strategy using 2 different lending platforms on Fantom to leverage our DAI tokens.
+Mai Finance đã ra mắt nền tảng cho vay của mình trên Fantom với nhiều loại hầm tiền khác nhau cho phép đúc đồng ổn định MAI bằng tài sản mã hóa được dùng làm thế chấp trong kho tiền. Ý tưởng là bạn vẫn có thể giữ tài sản mã hóa của bạn để hưởng lợi từ việc tăng giá trong khi vẫn có thể mua những tài sản khác hoặc canh tác lợi nhuận. Bạn có thể mua thêm tài sản mã hóa để tiếp tục gửi vào kho tiền nhằm tạo đòn bẩy tối đa cho khoản đầu tư của bạn. Trong hướng dẫn này chúng tôi sẽ sử dụng 2 nền tảng cho vay khác nhau để tạo đòn bẩy cho DAI của bạn.
 
-## Leverage your Yearn Vault tokens
+## Tạo đòn bằng token từ Yearn Finance
 
-### Deposit your assets on Yearn Finance
+### Gửi tài sản trên Yearn Finance
 
-[Yearn Finance](https://beta.yearn.finance/#/home) is a group of protocols running on the Ethereum Mainnet and other blockchains that allow users to optimize their earnings on crypto assets through lending and trading services. On Fantom, the product that we will be using is the vaults on yearn finance. This is a tool that will accept single token deposits and will make you earn yields on this deposit. As a proof of deposit, you will receive a yvToken. In our case, we will deposit DAI and will get yvDAI in exchange.
+[Yearn Finance](https://beta.yearn.finance/#/home) là một nhóm giao thức chạy trên mạng Ethereum và một số mạng khác cho phép người dùng tối đa hóa tài sản mã hóa thông qua hoạt động cho vay và giao dịch. Tại hướng dẫn này, chúng tôi sẽ gửi mã token đơn lẻ vào các hầm tiền trên Yearn để nhận lại yvToken như là bằng chứng cho việc gửi tiền. Tại trường hợp này, chúng ta sẽ nhận lại yvDAI khi ký gửi DAI
 
 ![yearn vaults on Fantom network](../.gitbook/assets/ftm-leverage-yv1.png)
 
 {% hint style="info" %}
-The yearn finance website is still in beta mode on Fantom. The team is still working on the platform and APRs/APYs aren't showing. If you head to the Iron Bank tab, which is the lending/borrowing protocol on yearn platform, you'll see that lending DAI is getting \~8% APR. Please invest at your own risk.
+Trang web của Yearn hiện tại đang trong giai đoạn thử nghiệm trên chuỗi khối Fantom nên chỉ số APR/APY không được hiển thị trên giao diện. Tuy nhiên, bạn có thể thấy APR của DAI trên tab Iron Bank là 8%. Hãy luôn nghiên cứu trước khi đầu tư.
 {% endhint %}
 
-### Deposit your yvToken on Mai Finance
+### Gửi yvToken vào Mai Finance
 
-Once you deposited your DAI on yearn finance, you should have yvDAI in your wallet. This is what we call a yield bearing token: it's a token that doesn't have any value per se, but represents your share of a pool where your assets are earning yields and in which rewards are automatically compounded. In other words, if your DAI doesn't change in value because the DAI is pegged to the US dollar, the underlying value of your yvDAI token increases anyway.
+Khi bạn đã gửi DAI của mình vào Yearn Finance, bạn sẽ có yvDAI trong ví của mình. Đây là những gì chúng tôi gọi là mã thông báo mang lại lợi nhuận: đó là mã thông báo không có bất kỳ giá trị nào, nhưng đại diện cho phần của bạn trong bể cụ thể nơi tài sản của bạn đang kiếm được lợi nhuận và trong đó phần thưởng được tự động cộng lại. Nói cách khác, nếu DAI của bạn không thay đổi giá trị vì DAI được gắn với đô la Mỹ, thì giá trị cơ bản của mã thông báo yvDAI của bạn vẫn tăng.
 
-Mai Finance accepts a lot of different yield bearing tokens as collateral, including yvDAI. You can now deposit this token and borrow MAI against it.
+Mai Finance chấp nhận rất nhiều mã thông báo lợi nhuận đến từ các hầm tiền của Yearn như một loại thế chấp để có thể vay MAI từ đó.&#x20;
 
 ![Deposit your yvToken on Mai Finance](../.gitbook/assets/ftm-leverage-yv2.png)
 
-The yvDAI vault has a liquidation threshold of 110%, this means that you can borrow MAI so that the ratio between your collateral value and the debt value is 110%. Be careful that 110% is actually the ratio at which your vault will be liquidated. You need to keep the ratio above this minimum threshold. Since DAI doesn't vary much in price (less than a few cents up or down) it's possible to keep a "safe" CDR (**C**ollateral to **D**ebt **R**atio) of 115%, but feel free to keep something higher.
+Hiện tại kho tiền yvDAI có ngưỡng thanh lý là 110%, điều này có nghĩa là bạn có thể vay MAI để tỷ lệ giữa giá trị tài sản thế chấp của bạn và giá trị nợ là 110%. Hãy cẩn thận rằng 110% thực sự là tỷ lệ mà kho tiền của bạn sẽ được thanh lý. Bạn cần giữ tỷ lệ trên ngưỡng tối thiểu này. Vì DAI không thay đổi nhiều về giá (lên hoặc xuống dưới vài xu) nên có thể giữ CDR (Tỷ lệ tài sản đảm bảo trên nợ) "an toàn" là 115%, nhưng hãy thoải mái giữ mức cao hơn nếu bạn muốn.
 
-As always, to calculate the loan value we can get based on the value of our collateral and the target CDR we want to get, we will use the following formula:
+Như thường lệ, để tính toán giá trị khoản vay mà chúng ta có thể nhận được dựa trên giá trị tài sản thế chấp và CDR mục tiêu chúng ta sẽ sử dụng công thức sau:
 
-$$
-MAI_{available} = \frac{Collateral_{value} - Debt_{value} * Target_{CDR}}{Target_{CDR}}
-$$
 
-​With a collateral value of $100 and no debt, if we want to keep a healthy CDR of 115% we can borrow up to
 
 $$
-MAI_{available}=\frac{100-0*1.15}{1.15}=86.95
+MAI_{Khả.dụng} = \frac{Giá.trị_{Thế.chấp} - Giá.trị_{Nợ} * CDR_{Mục.tiêu}}{CDR_{Mục.tiêu}}
 $$
 
-​You are now in a position where you have your DAI earning yields in a Yearn vault, and you also have some MAI stable coin ready to use. Since we want to leverage our DAI position, we will now swap our MAI for more DAI.
+​Với giá trị tài sản thế chấp là 100 đô la và không có nợ, nếu chúng ta muốn giữ CDR hợp lý là 115%, chúng ta có thể vay tối đa
 
-### Swapping your MAI on BeethovenX
+$$
+MAI_{khả.dụng}=\frac{100-0*1.15}{1.15}=86.95
+$$
 
-On Fantom, the main source of liquidity for MAI is [BeethovenX](https://app.beets.fi/#/trade). This is the main place where you will be able to swap your MAI tokens for more DAI for our strategy.
+​Trong khi số DAI trên Yearn vẫn đang sinh lời, chúng ta có thể swap số MAI sang DAI và tiếp tục vòng lặp.
 
-![Swapping MAI for more DAI](../.gitbook/assets/ftm-leverage-yv3.png)
+### Hoán đổi MAI trên BeethovenX
 
-This is the last step of our loop. Now that you have more DAI you can deposit them in a Yearn vault and repeat the loop. Doing so increases the amount of assets you have in the Yearn vault, meaning that you will collect more rewards by lending your DAI on that platform. The APR/APY remains the same, but because you have more assets, you earn more yield, and if you compare to your initial investment, it's your APR that increases. If you want to get more examples on what APR you can achieve using the yvDAI loops, please go read our [camDAI token guide](../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) for Polygon that uses the exact same strategy but different tools.
+Trên mạng Fantom [BeethovenX](https://app.beets.fi/#/trade) là nguồn thanh khoản chính của MAI. Tại đây bạn có thể hoán đổi số MAI sang DAI với tỷ lệ trượt giá thấp.
+
+![Hoán đổi MAi sang DAI](../.gitbook/assets/ftm-leverage-yv3.png)
+
+Đây là bước cuối cùng của vòng lặp để có nhiều DAI hơn, bạn có thể gửi chúng vào kho tiền của Yearn và lặp lại vòng lặp. Làm như vậy sẽ tăng số lượng tài sản bạn có trong kho tiền của Yearn nhiều hơn, vì vậy bạn kiếm được nhiều lợi nhuận hơn và nếu bạn so sánh với khoản đầu tư ban đầu, thì APR của bạn sẽ tăng lên. Nếu bạn muốn có thêm ví dụ về APR bạn có thể đạt được bằng cách sử dụng vòng lặp yvDAI, vui lòng đọc hướng dẫn camDAI trên mạng Polygon sử dụng cùng một chiến lược nhưng các công cụ khác nhau.
 
 {% hint style="success" %}
-BeethovenX is actually a fantastic opportunity to farm yields with your borrowed MAI. Simply deposit your MAI in the MAI-DAI-USDC pool (APR of \~30% as of November 2021) if you cannot achieve a better APR using leveraged loops.
+BeethovenX thực sự là một cơ hội tuyệt vời để canh tác với MAI, chỉ cần gửi MAI của bạn vào bể MAI-DAI-USDC (APR \~ 30% tính đến tháng 11 năm 2021) nếu bạn không thể đạt được APR tốt hơn bằng cách sử dụng các vòng đòn bẩy.
 {% endhint %}
 
 $$
 MAI_
 $$
 
-## Leverage your mooScreamTokens on Mai Finance
+## Tạo đòn bẩy với mooScreamTokens trên Mai Finance
 
-### Deposit your assets on Beefy Finance
+### Gửi tài sản của bạn trên Beefy Finance
 
-[Beefy Finance](https://app.beefy.finance/#/fantom) is a Decentralized, Multi-Chain Yield Optimizer platform that allows its users to earn compound interest on their crypto holdings. In other words, you can deposit some assets or LP tokens from other platforms on Beefy Finance and let the auto-compounder harvest farm tokens and compound them into more of your deposited asset / LP token. For our exemple, we will use single DAI deposits on Beefy and use [Scream](https://scream.sh/lend) as the underlying platform. Scream is a Compound fork on the Fantom network on which you will be able to lend your assets and collect SCREAM tokens. Beefy will then sell the SCREAM tokens for more DAI.
+[Beefy Finance](https://app.beefy.finance/#/fantom) là một nền tảng  tối ưu hóa lợi nhuận đa chuỗi, phi tập trung cho phép người dùng kiếm được lãi kép từ việc nắm giữ tiền điện tử của họ. Nói cách khác, bạn có thể ký gửi một số tài sản hoặc mã thông báo LP từ các nền tảng khác trên Beefy Finance và để Beefy tự động cộng dồn mã thông báo trang trại và kết hợp chúng thành nhiều tài sản ký gửi / mã thông báo LP của bạn. Đối với hướng dẫn này chúng ta sẽ sử dụng các khoản tiền gửi DAI duy nhất trên Beefy và sử dụng Scream làm nền tảng farming. Scream là một nền tảng cho vay trên mạng Fantom mà trên đó bạn có thể cho mượn tài sản của mình và thu thập mã thông báo SCREAM. Beefy sau đó sẽ bán mã thông báo SCREAM để có thêm DAI
 
-To deposit our DAI, we will visit the Beefy Finance app and select Scream as the platform on which we will farm yields. You can also add the DAI filter in order to get the direct DAI deposit.
+Để gửi DAI chúng ta sẽ truy cập ứng dụng Beefy Finance và chọn Scream làm nền tảng mà chúng tôi sẽ thu được lợi nhuận.&#x20;
 
-![Deposit your DAI on Beefy using Scream](../.gitbook/assets/ftm-leverage-beefy1.png)
+![Gửi DAI trên Beefy bằng Scream](../.gitbook/assets/ftm-leverage-beefy1.png)
 
-As you can see, Beefy is already giving an unbelievable APY on DAI single deposits. Once you have your DAI deposited on Beefy, you should have a proof of deposit in your wallet under the form of mooScreamDAI tokens. As for the yvDAI token, the mooScreamDAI token is a yield bearing deposit, meaning that you asset is still used on Scream and compounded on Beefy, earning yields. But you will be able to use this token on Mai Finance to borrow MAI against them.
+Như bạn có thể thấy, Beefy đã mang lại một APY không thể tin được cho các khoản tiền gửi  DAI. Khi bạn đã gửi DAI của mình trên Beefy, bạn được cung cấp bằng chứng gửi tiền trong ví của mình dưới dạng mã thông báo mooScreamDAI. Đối với mã thông báo yvDAI, mã thông báo mooScreamDAI là một khoản tiền gửi mang lại lợi nhuận, có nghĩa là tài sản của bạn vẫn được sử dụng trên Scream và được kết hợp trên Beefy, kiếm được lợi nhuận. Nhưng bạn sẽ có thể sử dụng mã thông báo này trên Mai Finance để vay MAI.
 
-### Deposit your mooScreamToken on Mai Finance
+### Gửi mooScreamToken trên Mai Finance
 
-Once you deposited your DAI on yearn finance, you should have mooScreamDAI in your wallet. You can use the exact same steps as for the Yearn Vault strategy above, the only difference is that the mooScreamDAI liquidation ratio is 135%. Since DAI is a stable coin, it's still possible to borrow MAI and keep a CDR very close to the liquidation ration. For our exemple, we will aim at a 140% CDR, and with the same formula as above, we can calculate the amount of MAI we can mint with 100$ worth of DAI.
-
-
+Sau khi bạn gửi DAI của mình trên tài chính Beefy, bạn sẽ có mooScreamDAI trong ví của mình. Bạn có thể sử dụng các bước tương tự như đối với chiến lược Yearn Vault ở trên, điểm khác biệt duy nhất là tỷ lệ thanh lý của mooScreamDAI là 135%. Vì DAI là một đồng tiền ổn định, nên vẫn có thể vay MAI và giữ một CDR rất gần với tỷ lệ thanh lý. Đối với ví dụ này chúng ta sẽ nhắm đến CDR 140% và với công thức tương tự như trên, chúng ta có thể tính số lượng MAI mà chúng tôi có thể đúc với DAI trị giá 100 đô la.
 
 $$
 MAI_{available}=\frac{100-0*1.4}{1.4}=71.43
 $$
 
-​Since we are borrowing less, we will be able to perform less loops and the final equivalent APY will also be lower, however this is still a pretty good beginner strategy.
+​Vì chúng ta vay ít hơn, chúng ta sẽ có thể thực hiện ít vòng lặp hơn và APY tương đương cuối cùng cũng sẽ thấp hơn, tuy nhiên đây vẫn là một chiến lược khá tốt cho người mới bắt đầu.&#x20;
 
-The rest of the loop is the same as for yvDAI, meaning you will have to swap your MAI for DAI on BeethovenX and repeat until you're satisfied.
+Phần còn lại của vòng lặp tương tự như đối với yvDAI, có nghĩa là bạn sẽ phải hoán đổi MAI của mình cho DAI trên BeethovenX và lặp lại cho đến khi bạn hài lòng.
 
-## Some notes on leveraging strategies
+## Một số chú ý cho chiến lược dùng đòn bẩy  trên Fantom
 
-Leverage DAI is considered a beginner strategy in the sense that it presents very little risk (you are working with stable coins) and you can get some nice yields using at most 3 protocols. However, there's still _some_ risk.
+Tạo đòn bẩy cho DAI được coi là một chiến lược khá an toàn  dành cho người mới bắt đầu và bạn có thể nhận được một số lợi suất tốt bằng cách sử dụng nhiều nhất 3 giao thức. Tuy nhiên, vẫn có một số _rủi ro_ cần lưu ý.&#x20;
 
-### Liquidation risk
 
-The more loops you will perform, the higher the liquidation risk. Indeed, even a small variation of the DAI price will be magnified by the leverage you applied, and even if you keep a CDR 5 points above the liquidation ratio, your vault can be at risk. It's always a good idea to stop the leverage loops at the step where you deposit your assets on MAI finance and don't borrow additional MAI in order to keep a better CDR.
 
-Also, in case of a liquidation, because your vault on MAI finance contains a lot more assets, a liquidation will also have a bigger impact than if you didn't levered your position, simply because the debt you have to repay is also much bigger.
+### Rủi ro thanh lý&#x20;
 
-### Technology risk
+Bạn càng thực hiện nhiều vòng, rủi ro thanh lý càng cao. Thật vậy, ngay cả một sự thay đổi nhỏ của giá DAI cũng sẽ được tăng lên bởi đòn bẩy bạn đã áp dụng và ngay cả khi bạn giữ CDR cao hơn 5 điểm so với tỷ lệ thanh lý, kho tiền của bạn có thể gặp rủi ro. Bạn nên dừng các vòng lặp đòn bẩy ở bước mà bạn gửi tài sản của mình vào tài chính MAI và không vay thêm MAI để giữ CDR tốt hơn.&#x20;
 
-If you use a lot of protocols for your investment legos, you need to make sure that these protocols are safe. Indeed, in our leveraging strategy, if a single protocol gets hacked, the entire strategy may collapse. Make sure you do your due diligence before investing in DeFi projects.
+Ngoài ra, trong trường hợp thanh lý, vì kho tiền của bạn trên tài chính MAI chứa nhiều tài sản hơn, nên việc thanh lý cũng sẽ có tác động lớn hơn so với việc bạn không cho mượn vị trí của mình, đơn giản vì khoản nợ bạn phải trả cũng lớn hơn nhiều. ..
 
-### Hitting debt ceilings
+### Rủi ro kỹ thuật
 
-Because these strategies are easy to set and present low risks, there's a very high demand for them. However, you certainly noticed that in the leverage process, borrowed MAI is swapped for DAI (or other tokens). If too much MAI is sold on Beethoven, its price will decrease slowly and there is a risk for MAI to lose its peg, which is pretty bad for a stable coin. In order to let time for the price to stabilize, Mai Finance has security mechanisms in place, and the most important one is a debt ceiling for each vault.
+Nếu bạn sử dụng nhiều giao thức cho hợp đồng đầu tư của mình, bạn cần đảm bảo rằng các giao thức này an toàn.  Trong chiến lược đòn bẩy của chúng ta, nếu một giao thức duy nhất bị tấn công, toàn bộ chiến lược có thể sụp đổ. Đảm bảo rằng bạn đã thẩm định trước khi đầu tư vào các dự án DeFi.
 
-A debt ceiling represents the maximum number of MAI that can be minted for a given vault. Once the ceiling is reached, no more MAI can be borrowed. Then the core team in charge of MAI finance can decide to increase the ceiling or wait a little more for a better price for MAI.
+### Chạm mức nợ trần
 
-You can at all time verify the amount of MAI that can be minted on the [vault creation page](https://app.mai.finance/vaults/create), but you will usually notice that there aren't any more MAI if you get the following error message:
+Bởi vì những chiến lược này dễ thiết lập và ít rủi ro, nên có nhu cầu sử dụng rất cao. Tuy nhiên, bạn chắc chắn nhận thấy rằng trong quá trình đòn bẩy, MAI mượn được đổi lấy DAI (hoặc các mã thông báo khác). Nếu quá nhiều MAI được bán trên Beethoven, giá của nó sẽ giảm từ từ và có nguy cơ MAI mất chốt, điều này khá tệ đối với một đồng tiền ổn định. Để có thời gian bình ổn giá, Tài chính Mai có cơ chế bảo đảm, trong đó quan trọng nhất là trần nợ cho từng kho tiền.
 
-![Error message received when debt ceiling is reached](../.gitbook/assets/ftm-leverage-error.png)
+Mức trần nợ đại diện cho số lượng MAI tối đa có thể được đúc cho một kho tiền nhất định. Khi đã đạt đến mức trần, không thể mượn MAI nữa. Sau đó, nhóm cốt lõi phụ trách tài chính của MAI có thể quyết định tăng trần hoặc đợi thêm một chút để MAI có thể điều chỉnh về mức giá tốt hơn.
 
-This error message will appear even if your health factor is correct. In most cases, waiting for the ceiling to be increased is the only solution. Keep an eye on twitter or on Discord to know when this happen.
+Bạn luôn có thể xác minh số lượng MAI có thể được đúc trên trang tạo vault, nhưng bạn thường sẽ nhận thấy rằng không còn MAI nữa nếu bạn nhận được thông báo lỗi sau:
 
-## Disclaimer
+![Tin nhắn báo lỗi khi chạm nợ trần](../.gitbook/assets/ftm-leverage-error.png)
 
-This guide presented some of the ways you can use your assets on Fantom and include Mai Finance to your strategy in order to increase your gains. However, as usual, this tutorial isn't a financial advice and you should always DYOR before applying an investment strategy, and invest in a responsible manner.
+Trong hầu hết các trường hợp, chờ đợi tăng trần là giải pháp duy nhất. Hãy theo dõi twitter hoặc Discord để biết khi nào điều này xảy ra.
 
-Keep also in mind that this solution may not be the best strategy depending on when you plan to use it. We just highlighted that BeethovenX has pretty interesting APRs too for your MAI, and you can also use Beefy Finance to compound the BEETS rewards into more stable coins.
+## Tuyên bố từ chối trách nhiệm
+
+Hướng dẫn này đã trình bày một số cách bạn có thể sử dụng tài sản của mình trên Fantom và đưa Mai Finance vào chiến lược nhằm tăng lợi nhuận của bạn. Tuy nhiên, như thường lệ, hướng dẫn này không phải là một lời khuyên tài chính và bạn phải luôn nghiên cứu kỹ lưỡng trước khi áp dụng chiến lược đầu tư và đầu tư một cách có trách nhiệm.
+
+Cũng nên nhớ rằng chiến lược này có thể không phải là chiến lược tốt nhất tùy thuộc vào thời điểm bạn định sử dụng. Chúng tôi vừa nhấn mạnh rằng BeethovenX cũng có APR khá thú vị cho MAI của bạn và bạn cũng có thể sử dụng Beefy Finance để gộp phần thưởng BEETS thành các đồng tiền ổn định hơn.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}
