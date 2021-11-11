@@ -49,7 +49,7 @@ Mai Finance'te amToken havuzu oluşturulduğunda, 1.000 amToken olduğunu ve bun
 
 ### MAI Sabit Para Ödünç Alın
 
-Mai Finance, teminat yatırdığınızda MAI sabit parasını ödünç almanıza olanak tanır. Şu anda Mai Finance, devam eden örneğimizden camWMATIC dahil olmak üzere çok çeşitli teminatları kabul etmektedir. Mai Finance'de, kam-token teminatlarınız teminat olarak yatırılırken getiri üretmeye devam edecek, bu da dayanak varlığınızın miktarının zaman içinde artmaya devam edeceği anlamına geliyor.
+Mai Finance, teminat yatırdığınızda MAI sabit parasını ödünç almanıza olanak tanır. Şu anda Mai Finance, devam eden örneğimizden camWMATIC dahil olmak üzere çok çeşitli teminatları kabul etmektedir. Mai Finance'de, cam-token teminatlarınız teminat olarak yatırılırken getiri üretmeye devam edecek, bu da dayanak varlığınızın miktarının zaman içinde artmaya devam edeceği anlamına geliyor.
 
 {% hint style="info" %}
 camWMATIC bir Kasaya yatırıldığında, Getiri sayfasındaki bakiye 0 olacaktır. Ancak bu, AAVE ilgi alanlarınızı ve ödüllerinizi birleştirmediği anlamına gelmez.
