@@ -1,125 +1,123 @@
 ---
 description: >-
-  This guide is proposing a complete analysis of the different leverage options
-  proposed by Mai Finance on Fantom, using Yearn vaults and Beefy vaults.
+  Questa guida propone un'analisi completa delle diverse opzioni di leva
+  proposte da Mai Finance su Fantom, utilizzando i vault Yearn e i vault Beefy.
 ---
 
-# Leverage your crypto on Fantom
+# Come far fruttare i tuoi token su Fantom
 
-## Introduction
+## Introduzione
 
-Mai Finance has launched its lending platform on Fantom with many different vault types, enabling the possibility to mint the MAI stable coin based on the assets you will deposit in a vault. The idea is that you will be able to keep your crypto currencies and benefit from their price appreciation, while still being able to buy other coins and farm yields with high APRs. If you use your loan to buy more of the same asset you already deposited, this is what is called leveraging your tokens. We will show you the benefits of this strategy using 2 different lending platforms on Fantom to leverage our DAI tokens.
+Mai Finance ha lanciato la sua piattaforma di prestito su Fantom con diversi tipi di Vaults, consentendo la possibilità di coniare la stable coin $MAI in base agli assets che depositerai.            Il principio è che potrai tenere le tue crypto valute e beneficiare del loro valore e contemporaneamente acquistare altre coin e farmare con APR elevati. Usare il tuo prestito per acquistare lo stesso asset che hai già depositato viene definito far fruttare i tuoi token. Ti mostreremo i vantaggi di questa strategia utilizzando 2 diverse piattaforme di prestito su Fantom per sfruttare i nostri token $DAI.
 
-## Leverage your Yearn Vault tokens
+## Mettere in leva i token di un vault Yearn
 
-### Deposit your assets on Yearn Finance
+### Depositare i tuoi assets su Yearn Finance
 
-[Yearn Finance](https://beta.yearn.finance/#/home) is a group of protocols running on the Ethereum Mainnet and other blockchains that allow users to optimize their earnings on crypto assets through lending and trading services. On Fantom, the product that we will be using is the vaults on yearn finance. This is a tool that will accept single token deposits and will make you earn yields on this deposit. As a proof of deposit, you will receive a yvToken. In our case, we will deposit DAI and will get yvDAI in exchange.
+[Yearn Finance](https://beta.yearn.finance/#/home) è un insieme di protocolli su Ethereum Mainnet ed altre blockchain che consentono agli utenti di ottimizzare i propri guadagni sulle crypto valute attraverso servizi di prestito e trading. Su Fantom, il prodotto che utilizzeremo sono i Vaults. Questo è uno strumento in cui potrai depositare token singoli e ottenere rendimenti su questo deposito. Come certificato di deposito, riceverai un $yvToken. Nel nostro caso, depositeremo $DAI e riceveremo in cambio $yvDAI.
 
-![yearn vaults on Fantom network](../.gitbook/assets/ftm-leverage-yv1.png)
+![Vaults Yearn su Fantom](../.gitbook/assets/ftm-leverage-yv1.png)
 
 {% hint style="info" %}
-The yearn finance website is still in beta mode on Fantom. The team is still working on the platform and APRs/APYs aren't showing. If you head to the Iron Bank tab, which is the lending/borrowing protocol on yearn platform, you'll see that lending DAI is getting \~8% APR. Please invest at your own risk.
+Il sito Yearn finance è ancora in modalità beta su Fantom. Il team sta ancora lavorando sulla piattaforma e gli APR/APY non vengono visualizzati. Se vai alla scheda Iron Bank, che è il protocollo di deposito/prestito sulla piattaforma, vedrai che il prestito di $DAI sta ottenendo \~ 8% di APR. Si prega di investire a proprio rischio.
 {% endhint %}
 
-### Deposit your yvToken on Mai Finance
+### Depositare il tuo yvToken su Mai Finance
 
-Once you deposited your DAI on yearn finance, you should have yvDAI in your wallet. This is what we call a yield bearing token: it's a token that doesn't have any value per se, but represents your share of a pool where your assets are earning yields and in which rewards are automatically compounded. In other words, if your DAI doesn't change in value because the DAI is pegged to the US dollar, the underlying value of your yvDAI token increases anyway.
+Una volta depositati i tuoi $DAI su Yearn Finance, dovresti avere $yvDAI nel tuo portafoglio. Questo è ciò che chiamiamo un token con rendimento: è un token che non ha alcun valore di per sé ma certifica la tua quota di un pool in cui i tuoi assets stanno guadagnando e in cui i premi vengono automaticamente reinvestiti. In altre parole, $DAI non cambia di valore perché è ancorato al dollaro USA ma il valore sottostante del tuo token $yvDAI aumenta.
 
-Mai Finance accepts a lot of different yield bearing tokens as collateral, including yvDAI. You can now deposit this token and borrow MAI against it.
+Mai Finance accetta molti token con rendimento come garanzia, incluso $yvDAI. Ora puoi depositare questo token e prendere in prestito $MAI.
 
-![Deposit your yvToken on Mai Finance](../.gitbook/assets/ftm-leverage-yv2.png)
+![Depositare il tuo yvToken su Mai Finance](../.gitbook/assets/ftm-leverage-yv2.png)
 
-The yvDAI vault has a liquidation threshold of 110%, this means that you can borrow MAI so that the ratio between your collateral value and the debt value is 110%. Be careful that 110% is actually the ratio at which your vault will be liquidated. You need to keep the ratio above this minimum threshold. Since DAI doesn't vary much in price (less than a few cents up or down) it's possible to keep a "safe" CDR (**C**ollateral to **D**ebt **R**atio) of 115%, but feel free to keep something higher.
+Il Vault $yvDAI ha una soglia di liquidazione del 110%, questo significa che puoi prendere in prestito $MAI con un rapporto tra il valore della tua garanzia e il valore del debito che non può scendere sotto il 110%. Attenzione, il 110% è effettivamente il rapporto raggiunto il quale il tuo Vault verrà liquidato. È necessario mantenere il rapporto al di sopra di questa soglia minima. Dato che $DAI non varia molto nel prezzo (meno di qualche centesimo in più o in meno) è possibile restare relativamente sicuri con un CDR (**C**ollateral to **D**ebt **R**atio) del 115%, ma sei libero di tenerlo più alto se preferisci.
 
-As always, to calculate the loan value we can get based on the value of our collateral and the target CDR we want to get, we will use the following formula:
-
-$$
-MAI_{available} = \frac{Collateral_{value} - Debt_{value} * Target_{CDR}}{Target_{CDR}}
-$$
-
-​With a collateral value of $100 and no debt, if we want to keep a healthy CDR of 115% we can borrow up to
+Come sempre, per calcolare il valore del prestito che possiamo ottenere in base al valore del nostro collaterale a garanzia e al CDR target che vogliamo ottenere, utilizzeremo la seguente formula:
 
 $$
-MAI_{available}=\frac{100-0*1.15}{1.15}=86.95
+MAI_{disponibile} = \frac{Collaterale_{valore} - Debito_{valore} * Target_{CDR}}{Target_{CDR}}
 $$
 
-​You are now in a position where you have your DAI earning yields in a Yearn vault, and you also have some MAI stable coin ready to use. Since we want to leverage our DAI position, we will now swap our MAI for more DAI.
+​Con un valore del collaterale di $100 e nessun debito, se vogliamo mantenere un CDR sano del 115% possiamo prendere in prestito fino a
 
-### Swapping your MAI on BeethovenX
+$$
+MAI_{disponibile}=\frac{100-0*1.15}{1.15}=86.95
+$$
 
-On Fantom, the main source of liquidity for MAI is [BeethovenX](https://app.beets.fi/#/trade). This is the main place where you will be able to swap your MAI tokens for more DAI for our strategy.
+Ora sei in una posizione in cui hai i tuoi guadagni $DAI in un Vault Yearn e hai anche alcune stable coins $MAI pronte per l'uso. Dato che vogliamo sfruttare la nostra posizione $DAI, scambieremo i nostri $MAI con più $DAI.
 
-![Swapping MAI for more DAI](../.gitbook/assets/ftm-leverage-yv3.png)
+### Scambiare i tuoi $MAI su BeethovenX
 
-This is the last step of our loop. Now that you have more DAI you can deposit them in a Yearn vault and repeat the loop. Doing so increases the amount of assets you have in the Yearn vault, meaning that you will collect more rewards by lending your DAI on that platform. The APR/APY remains the same, but because you have more assets, you earn more yield, and if you compare to your initial investment, it's your APR that increases. If you want to get more examples on what APR you can achieve using the yvDAI loops, please go read our [camDAI token guide](../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) for Polygon that uses the exact same strategy but different tools.
+Su Fantom, la principale fonte di liquidità per $MAI è [BeethovenX](https://app.beets.fi/#/trade). Questo è il protocollo principale in cui potrai scambiare i tuoi token $MAI con più $DAI, per eseguire la nostra strategia.
+
+![Swap di $MAI per $DAI](../.gitbook/assets/ftm-leverage-yv3.png)
+
+Questo è l'ultimo passaggio del nostro ciclo. Ora che hai più $DAI puoi depositarli nel Vault Yearn e ripetere il ciclo. In questo modo aumenta la quantità di assets che hai nel Vault di Yearn, il che significa che raccoglierai più ricompense prestando i tuoi $DAI su quella piattaforma. L'APR/APY rimane lo stesso, ma poiché hai più assets, guadagni più rendimento e se confrontato con il tuo investimento iniziale, il tuo APR aumenta. Se vuoi avere ulteriori esempi sull'APR che puoi ottenere usando i loop yvDAI, leggi il nostro [Strategia camDAI per principianti](../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) per Polygon che utilizza la stessa identica strategia ma strumenti diversi.
 
 {% hint style="success" %}
-BeethovenX is actually a fantastic opportunity to farm yields with your borrowed MAI. Simply deposit your MAI in the MAI-DAI-USDC pool (APR of \~30% as of November 2021) if you cannot achieve a better APR using leveraged loops.
+BeethovenX è in realtà una fantastica opportunità per fare farming con i tuoi $MAI presi in prestito. Deposita semplicemente i tuoi $MAI nel pool $MAI-$DAI-$USDC (APR di \~ 30% a partire da novembre 2021) se non puoi ottenere un APR migliore utilizzando il loop.
 {% endhint %}
 
 $$
 MAI_
 $$
 
-## Leverage your mooScreamTokens on Mai Finance
+## Far fruttare i tuoi mooScreamTokens su Mai Finance
 
-### Deposit your assets on Beefy Finance
+### Depositare i tuoi assets su Beefy Finance
 
-[Beefy Finance](https://app.beefy.finance/#/fantom) is a Decentralized, Multi-Chain Yield Optimizer platform that allows its users to earn compound interest on their crypto holdings. In other words, you can deposit some assets or LP tokens from other platforms on Beefy Finance and let the auto-compounder harvest farm tokens and compound them into more of your deposited asset / LP token. For our exemple, we will use single DAI deposits on Beefy and use [Scream](https://scream.sh/lend) as the underlying platform. Scream is a Compound fork on the Fantom network on which you will be able to lend your assets and collect SCREAM tokens. Beefy will then sell the SCREAM tokens for more DAI.
+[Beefy Finance](https://app.beefy.finance/#/fantom) è una piattaforma decentralizzata Multi-Chain di ottimizzazione dei rendimenti che consente ai suoi utenti di guadagnare interessi composti sulle loro crypto valute. In altre parole, puoi depositare alcuni assets o token LP da altre piattaforme su Beefy Finance e lasciare che il compounder automatico raccolga i token della farm e li reinvesta in più assets / token LP depositati. Per il nostro esempio, utilizzeremo singoli depositi $DAI su Beefy e useremo [Scream](https://scream.sh/lend) come piattaforma sottostante. Scream è un fork di Compound sul network Fantom su cui potrai prestare i tuoi asset e ottenere il token $SCREAM. Beefy venderà quindi i token $SCREAM per più $DAI.
 
-To deposit our DAI, we will visit the Beefy Finance app and select Scream as the platform on which we will farm yields. You can also add the DAI filter in order to get the direct DAI deposit.
+Per depositare i nostri $DAI, visiteremo l'app Beefy Finance e selezioneremo Scream come piattaforma su cui farmare. Puoi anche aggiungere il filtro $DAI per vedere il deposito $DAI diretto.
 
-![Deposit your DAI on Beefy using Scream](../.gitbook/assets/ftm-leverage-beefy1.png)
+![Deposito dei tuoi $DAI su Beefy utilizzando Scream](../.gitbook/assets/ftm-leverage-beefy1.png)
 
-As you can see, Beefy is already giving an unbelievable APY on DAI single deposits. Once you have your DAI deposited on Beefy, you should have a proof of deposit in your wallet under the form of mooScreamDAI tokens. As for the yvDAI token, the mooScreamDAI token is a yield bearing deposit, meaning that you asset is still used on Scream and compounded on Beefy, earning yields. But you will be able to use this token on Mai Finance to borrow MAI against them.
+Come puoi vedere, Beefy sta già dando un incredibile APY sui singoli depositi $DAI. Una volta depositato $DAI su Beefy, dovresti avere una prova di deposito nel tuo portafoglio sotto forma di token $mooScreamDAI. Come il token $yvDAI, il token $mooScreamDAI è un deposito con rendimento, il che significa che il tuo asset è ancora utilizzato su Scream e auto reinvestito su Beefy, generando ulteriori rendimenti. Ma sarai in grado di utilizzare questo token su Mai Finance per prendere in prestito $MAI.
 
-### Deposit your mooScreamToken on Mai Finance
+### Depositare i mooScreamToken su Mai Finance
 
-Once you deposited your DAI on yearn finance, you should have mooScreamDAI in your wallet. You can use the exact same steps as for the Yearn Vault strategy above, the only difference is that the mooScreamDAI liquidation ratio is 135%. Since DAI is a stable coin, it's still possible to borrow MAI and keep a CDR very close to the liquidation ration. For our exemple, we will aim at a 140% CDR, and with the same formula as above, we can calculate the amount of MAI we can mint with 100$ worth of DAI.
-
-
+Una volta depositato il tuo $DAI su Beefy, dovresti avere $mooScreamDAI nel tuo portafoglio. Puoi utilizzare esattamente gli stessi passaggi della strategia Yearn Vault, l'unica differenza è che il rapporto di liquidazione minimo di $mooScreamDAI è del 135%. Dato che $DAI è una stable coin, è ancora possibile prendere in prestito $MAI e mantenere un CDR molto vicino al limite di liquidazione. Per il nostro esempio, punteremo a un CDR del 140% e con la stessa formula di cui sopra, possiamo calcolare la quantità di $MAI che possiamo coniare con 100$ di $DAI.
 
 $$
-MAI_{available}=\frac{100-0*1.4}{1.4}=71.43
+MAI_{disponibile}=\frac{100-0*1.4}{1.4}=71.43
 $$
 
-​Since we are borrowing less, we will be able to perform less loops and the final equivalent APY will also be lower, however this is still a pretty good beginner strategy.
+​Dato che stiamo prendendo in prestito meno, potremo eseguire meno loop e l'APY equivalente finale sarà inferiore, tuttavia questa è ancora una strategia per principianti piuttosto buona.
 
-The rest of the loop is the same as for yvDAI, meaning you will have to swap your MAI for DAI on BeethovenX and repeat until you're satisfied.
+Il resto del ciclo è lo stesso di yvDAI, il che significa che dovrai scambiare i tuoi $MAI con $DAI su BeethovenX e ripetere finché non sei soddisfatto.
 
-## Some notes on leveraging strategies
+## Alcune considerazioni sulle strategie in leva
 
-Leverage DAI is considered a beginner strategy in the sense that it presents very little risk (you are working with stable coins) and you can get some nice yields using at most 3 protocols. However, there's still _some_ risk.
+Mettere in leva $DAI è considerata una strategia per principianti, nel senso che presenta pochissimi rischi (stai lavorando con stable coin) e puoi ottenere dei buoni rendimenti utilizzando al massimo 3 protocolli. Tuttavia, c'è ancora qualche rischio.
 
-### Liquidation risk
+### Rischio di liquidazione
 
-The more loops you will perform, the higher the liquidation risk. Indeed, even a small variation of the DAI price will be magnified by the leverage you applied, and even if you keep a CDR 5 points above the liquidation ratio, your vault can be at risk. It's always a good idea to stop the leverage loops at the step where you deposit your assets on MAI finance and don't borrow additional MAI in order to keep a better CDR.
+Più cicli eseguirai, maggiore sarà il rischio di liquidazione. Infatti, anche una piccola variazione del prezzo $DAI sarà amplificata dalla leva che hai applicato e anche se mantieni un CDR 5 punti al di sopra del rapporto minimo di liquidazione, il tuo Vault può essere a rischio. È sempre una buona idea interrompere i cicli di leva finanziaria nel momento in cui depositi i tuoi assets su MAI Finance e non prendere in prestito $MAI aggiuntivo per mantenere un CDR migliore.
 
-Also, in case of a liquidation, because your vault on MAI finance contains a lot more assets, a liquidation will also have a bigger impact than if you didn't levered your position, simply because the debt you have to repay is also much bigger.
+Inoltre, in caso di liquidazione, dato il tuo Vault su MAI Finance contiene molti più assets, una liquidazione avrà anche un impatto maggiore rispetto al non aver fatto leva sulla tua posizione, semplicemente perché anche il debito che devi rimborsare è più grande.
 
-### Technology risk
+### Rischio Tecnologico
 
-If you use a lot of protocols for your investment legos, you need to make sure that these protocols are safe. Indeed, in our leveraging strategy, if a single protocol gets hacked, the entire strategy may collapse. Make sure you do your due diligence before investing in DeFi projects.
+Se usi molti protocolli, devi assicurarti che questi protocolli siano sicuri. In effetti, nella nostra strategia di leva finanziaria, se un singolo protocollo viene violato, l'intera strategia potrebbe crollare. Assicurati di fare le dovute ricerche prima di investire in progetti DeFi.
 
-### Hitting debt ceilings
+### Raggiungere il tetto di debito
 
-Because these strategies are easy to set and present low risks, there's a very high demand for them. However, you certainly noticed that in the leverage process, borrowed MAI is swapped for DAI (or other tokens). If too much MAI is sold on Beethoven, its price will decrease slowly and there is a risk for MAI to lose its peg, which is pretty bad for a stable coin. In order to let time for the price to stabilize, Mai Finance has security mechanisms in place, and the most important one is a debt ceiling for each vault.
+Dato che queste strategie sono facili da impostare e presentano rischi bassi, c'è una domanda molto alta. Tuttavia, avrai sicuramente notato che nel processo di leva finanziaria, il $MAI preso in prestito viene scambiato con $DAI (o altri token). Se viene venduto troppo $MAI su Beethoven, il suo prezzo diminuirà lentamente e c'è il rischio che $MAI perda il suo peg, il che è piuttosto negativo per una stable coin. Per lasciare che il prezzo si stabilizzi, Mai Finance ha messo in atto diversi meccanismi di sicurezza e il più importante è il tetto del debito per ogni Vault.
 
-A debt ceiling represents the maximum number of MAI that can be minted for a given vault. Once the ceiling is reached, no more MAI can be borrowed. Then the core team in charge of MAI finance can decide to increase the ceiling or wait a little more for a better price for MAI.
+Il tetto del debito rappresenta il numero massimo di $MAI che può essere coniato per un determinato Vault. Una volta raggiunto il massimale, non è più possibile prendere in prestito $MAI. Successivamente il core team responsabile di Mai Finance può decidere di aumentare il tetto o aspettare un po' di più per stabilizzare il prezzo di $MAI.
 
-You can at all time verify the amount of MAI that can be minted on the [vault creation page](https://app.mai.finance/vaults/create), but you will usually notice that there aren't any more MAI if you get the following error message:
+Puoi verificare in ogni momento la quantità di $MAI che può essere coniata nella [pagina di creazione del Vault](https://app.mai.finance/vaults/create), potrai quindi vedere subito quando non ci sono più $MAI coniabili e vedrai il seguente messaggio di errore:
 
-![Error message received when debt ceiling is reached](../.gitbook/assets/ftm-leverage-error.png)
+![Messaggio di errore quando il tetto del debito è stato raggiunto](../.gitbook/assets/ftm-leverage-error.png)
 
-This error message will appear even if your health factor is correct. In most cases, waiting for the ceiling to be increased is the only solution. Keep an eye on twitter or on Discord to know when this happen.
+Questo messaggio di errore apparirà anche se il tuo fattore di salute è corretto. Nella maggior parte dei casi, l'unica soluzione è aspettare che il tetto venga aumentato. Tieni d'occhio Twitter o Discord per sapere quando succede.
 
 ## Disclaimer
 
-This guide presented some of the ways you can use your assets on Fantom and include Mai Finance to your strategy in order to increase your gains. However, as usual, this tutorial isn't a financial advice and you should always DYOR before applying an investment strategy, and invest in a responsible manner.
+Questa guida presenta alcuni dei modi in cui puoi utilizzare i tuoi assets su Fantom e includere Mai Finance nella tua strategia per aumentare i rendimenti. Tuttavia, come al solito, questo tutorial non è un consiglio finanziario e dovresti sempre fare le tue ricerche prima di applicare una strategia di investimento e investire in modo responsabile.
 
-Keep also in mind that this solution may not be the best strategy depending on when you plan to use it. We just highlighted that BeethovenX has pretty interesting APRs too for your MAI, and you can also use Beefy Finance to compound the BEETS rewards into more stable coins.
+Tieni inoltre presente che questa soluzione potrebbe non essere la strategia migliore a seconda di quando prevedi di utilizzarla. Abbiamo appena evidenziato che BeethovenX ha APR piuttosto interessanti per i tuoi $MAI e puoi anche usare Beefy Finance per combinare i premi $BEETS in monete più stabili.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
 {% endhint %}
