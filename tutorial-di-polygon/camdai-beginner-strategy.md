@@ -29,7 +29,7 @@ Quindi decidi di andare a trovare un collega minatore e comprare il suo oro con 
 
 Torni in banca e depositi l'oro che hai comprato. Questo genera maggiore interesse e ora la banca ti consente di prendere in prestito altro denaro coperto dall'oro in più che hai depositato. Hai più oro che matura interessi dalla banca e qualche soldo in più. È ora di tornare indietro per vedere se il tuo amico ha trovato più oro e ripetere ancora e ancora.
 
-Ciò che abbiamo visto in questo esempio viene definito in gergo leva. Ora immagina di poter trovare una banca che ti permetta di prendere in prestito contanti a un interesse dello 0% e ti renderari conto di avere tra le mani una macchina che genera denaro grazie agli interessi che stai ricevendo.
+Ciò che abbiamo visto in questo esempio viene definito in gergo leva. Ora immagina di poter trovare una banca che ti permetta di prendere in prestito contanti a un interesse dello 0% e ti renderai conto di avere tra le mani una macchina che genera denaro grazie agli interessi che stai ricevendo.
 
 ## Presentazione degli strumenti
 
