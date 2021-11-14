@@ -1,8 +1,8 @@
 ---
 description: >-
-  This guide will present an overview of the different chains where the MAI
-  stable coin can be used, and how you can bridge the native coin to other
-  networks.
+  Dieser Leitfaden gibt einen Überblick über die verschiedenen Chains, auf denen
+  der MAI Stable Coin verwendet werden kann, und wie du den nativen Coin auf
+  andere Netzwerke übertragen kannst.
 ---
 
 # MAI Metaverse
@@ -11,35 +11,39 @@ description: >-
 
 ## Intro
 
-MAI, sometimes referenced as miMATIC, is the first stable coin native from the Polygon network. It's soft pegged to $1.00, and its value can possibly fluctuate between $0.99 and $1.01. You can get more details on how the peg is maintained in [the official documentation](https://docs.mai.finance/stablecoin-economics). But it's not because MAI is native to Polygon that it's only found on that network. Indeed, the same way as you can find DAI on different networks (DAI is actually another stable coin coming from the Ethereum Mainnet), MAI is slowly but surely expanding to other networks too. This article will highlight the different networks where you can find it, and how you can transfer your MAI from one network to the other.
+MAI, manchmal auch als miMATIC bezeichnet, ist der erste Stable Coin aus dem Polygon-Netzwerk. Er ist an den Preis von 1,00 $ gebunden und sein Wert kann zwischen 0,99 $ und 1,01 $ schwanken. Wie die Preisbindung aufrechterhalten wird, erfährst du in der [offiziellen Dokumentation](https://docs.mai.finance/stablecoin-economics). Allerdings gibt es MAI nicht nur auf Polygon, weil es dort beheimatet ist. Genauso wie DAI in verschiedenen Netzwerken zu finden ist (DAI ist ein weiterer Stable Coin aus dem Ethereum Mainnet), breitet sich MAI langsam aber sicher auch auf andere Netzwerke aus. In diesem Artikel stellen wir dir die verschiedenen Netzwerke vor, in denen du MAI finden kannst, und zeigen dir, wie du deinen MAI von einem Netzwerk in ein anderes übertragen kannst.
 
 ## Polygon
 
-### Getting MAI on Polygon
+### MAI auf Polygon erhalten
 
-As explained, MAI is native to Polygon, and that's the only place (as for September 2021) where you will be able to mint MAI.This is done either by
 
-* borrowing MAI against some collateral you previously deposited in a vault on Mai Finance
-* swapping USDC for MAI on [Mai Finance](https://app.mai.finance/anchor)
-* selling another asset and buying MAI on any DEX (**D**ecentralized **EX**change) on Polygon, the most efficient being [Zapper](https://zapper.fi/exchange), [Balancer](https://polygon.balancer.fi/#/trade) or [1Inch](https://app.1inch.io/#/137/classic/swap).
 
-### Using MAI on Polygon
 
-The MAI stable coin is being used in more and more projects on Polygon, especially now that it's used as other stable coins on big projects like QuickSwap. As of September 2021, there are 3 stable farms on QuickSwap with a grand total of $18,327,604:
 
-* MAI-DAI with $6,553,255
-* MAI-USDT with $6,316,026
-* MAI-USDC with $5,458,323
+Wie bereits erklärt, ist MAI in Polygon beheimatet und das ist der einzige Ort ( Stand September 2021), an dem du MAI prägen kannst, indem du entweder
 
-Additional pools can be found on other projects / yield farms / yield optimizers. You can read more on what to do with your MAI stable coin in [the dedicated article](../investment-tutorials/what-to-do-with-mai-on-polygon.md).
+* MAI gegen Sicherheiten leihen, die du zuvor in einem Vault bei Mai Finance hinterlegt hast
+* Tausch von USDC gegen MAI auf [Mai Finance](https://app.mai.finance/anchor)
+* einen anderen Vermögenswert verkaufst und MAI auf einem DEX (**D**ezentralisierte **EX**-Börse) auf Polygon kaufst. Die effizientesten sind [Zapper](https://zapper.fi/exchange), [Balancer](https://polygon.balancer.fi/#/trade) oder [1Inch](https://app.1inch.io/#/137/classic/swap).
+
+### MAI auf Polygon nutzen
+
+Der MAI Stable Coin wird in immer mehr Projekten auf Polygon eingesetzt, vor allem jetzt, wo er wie andere Stable Coins in großen Projekten wie QuickSwap verwendet wird. Im September 2021 gibt es 3 Stable Farms auf QuickSwap mit einer Gesamtsumme von 18.327.604 $:
+
+* MAI-DAI mit $6.553.255
+* MAI-USDT mit $6.316.026
+* MAI-USDC mit 5.458.323 $
+
+Weitere Pools findest du bei anderen Projekten / Ertragsfarmen / Ertragsoptimierern. Was du mit deinem MAI Stable Coin machen kannst, erfährst du in dem entsprechenden Artikel.
 
 ## Solana
 
-### Getting MAI on Solana
+### MAI auf Solana übertragen
 
-Solana is a blockchain platform for decentralized apps. The goal of the network is to propose low fees (less than $0.01) and fast (less than 400ms) transactions. The idea behind this is to create some alternative to the Ethereum Mainnet and its side chains. However, it's not because Solana is a direct competitor to the Ethereum network that it doesn't support the same assets. Indeed, Solana now supports the MAI stable coin that can be bridged from Polygon (where it can be minted).
+Solana ist eine Blockchain-Plattform für dezentralisierte Apps. Das Ziel des Netzwerks ist es, niedrige Gebühren (weniger als $0,01) und schnelle (weniger als 400ms) Transaktionen anzubieten. Die Idee dahinter ist, eine Alternative zum Ethereum Mainnet und seinen Side Chains zu schaffen. Solana ist jedoch nicht deshalb ein direkter Konkurrent des Ethereum-Netzwerks, weil es nicht die gleichen Assets unterstützt. Tatsächlich unterstützt Solana jetzt den Stable Coin MAI, der von Polygon aus überbrückt werden kann (wo er geprägt werden kann).
 
-In order to send your MAI tokens to Solana, you can use [AllBridge](https://allbridge.io), a bridging platform that allows you to transfer tokens from one chain to another. AllBridge supports the following networks:
+Um deine MAI-Token nach Solana zu schicken, kannst du [AllBridge](https://allbridge.io) nutzen, eine Bridging-Plattform, mit der du Token von einer Chain zur anderen übertragen kannst. AllBridge unterstützt die folgenden Netzwerke:
 
 * Ethereum Mainnet
 * Polygon
@@ -47,72 +51,72 @@ In order to send your MAI tokens to Solana, you can use [AllBridge](https://allb
 * Huobi
 * Binance Smart Chain
 
-The interface is really intuitive in the sense you simply have to select the two networks and the asset you want to transfer between the 2.
+Die Benutzeroberfläche ist wirklich intuitiv, denn du musst nur die beiden Netzwerke und den Vermögenswert auswählen, den du zwischen den beiden transferieren möchtest.
 
-![Bridging MAI from Polygon to Solana](../.gitbook/assets/screen-shot-2021-09-13-at-1.52.23-pm.png)
+![MAI von Polygon nach Solana senden](../.gitbook/assets/screen-shot-2021-09-13-at-1.52.23-pm.png)
 
-The next step is to indicate the address of your Solana wallet and the amount you want to transfer. Be aware that MetaMask doesn't support Solana wallets (yet?), you will have to create a separate wallet on that network. It can be either a web wallet like MetaMask, or an app wallet. Please read the [official recommendations from Solana](https://docs.solana.com/wallet-guide) before choosing one.
+Im nächsten Schritt gibst du die Adresse deiner Solana Wallet und den Betrag an, den du überweisen möchtest. Beachte, dass MetaMask (noch?) keine Solana-Wallets unterstützt, du musst also eine eigene Wallet in diesem Netzwerk erstellen. Dabei kann es sich entweder um eine Web-Wallet wie MetaMask oder um eine App-Wallet handeln. Bitte lies die [offiziellen Empfehlungen von Solana](https://docs.solana.com/wallet-guide), bevor du dich für eine entscheidest.
 
 {% hint style="info" %}
-Be aware that Solana does not offers any faucet where you will get your first SOL (native token used to pay for transactions). You need to buy some SOL first and have them in your wallet so that you can transfer MAI to your wallet.
+Beachte, dass Solana keinen Faucet anbietet, an dem du dein erstes SOL (natives Token, das zur Bezahlung von Transaktionen verwendet wird) bekommst. Du musst zuerst einige SOL kaufen und sie in deiner Wallet haben, damit du MAI auf deine Wallet übertragen kannst.
 {% endhint %}
 
-### Using MAI on Solana
+### MAI auf Solana nutzen
 
-The same way you can use MAI on Polygon to provide liquidity and farm yields, you can do the same on Solana. The main place where you can use MAI is [Saber](https://app.saber.so), in the MAI/USDC pool.
+Genauso wie du MAI auf Polygon einsetzen kannst, um Liquidität zu schaffen und Erträge zu erwirtschaften, kannst du das auch auf Solana tun. Der wichtigste Ort, an dem du MAI einsetzen kannst, ist [Saber](https://app.saber.so), im MAI/USDC-Pool.
 
-![State of the MAI/USDC pool on Saber as of Sept. 2021](../.gitbook/assets/screen-shot-2021-09-13-at-2.11.10-pm.png)
+![MAI/USDC pool auf Saber, Stand Sept. 2021](../.gitbook/assets/screen-shot-2021-09-13-at-2.11.10-pm.png)
 
-One of the good thing to know about the MAI/USDC pool on saber is that, unlike LP (**L**iquidity **P**roviding) pools on QuickSwap, you don't need to provide LP pairs with a ratio 1:1. You can simply deposit a single asset (**MAI** or **USDC**) or an (un)balanced ratio of both stable coins.
+Das Gute am MAI/USDC-Pool auf saber ist, dass du im Gegensatz zu LP-Pools (**L**iquidität **P**providing) auf QuickSwap keine LP-Paare mit einer Ratio 1:1 bereitstellen musst. Du kannst einfach einen einzelnen Vermögenswert (**MAI** oder **USDC**) oder eine (un)ausgewogene Ratio der beiden Stable Coins hinterlegen.
 
-![MAI and USDC are unbalanced in the Saber pool](../.gitbook/assets/screen-shot-2021-09-13-at-2.13.51-pm.png)
+![MAI und USDC sind im Saberpool nicht ausgeglichen](../.gitbook/assets/screen-shot-2021-09-13-at-2.13.51-pm.png)
 
-This means that you can actually use 100% MAI deposits from Mai Finance without having to swap any for USDC. It's particularly convenient and prevents getting impacted by small price differences between the 2 stable coins. Note that you will get rewards paid in the native farm token, the same way as you would get paid in QUICK if you're farming on QuickSwap on Polygon. You can then sell your saber tokens to increase your MAI/USDC position.
+Das bedeutet, dass du tatsächlich 100% MAI-Einlagen von Mai Finance nutzen kannst, ohne sie in USDC tauschen zu müssen. Das ist besonders praktisch und verhindert, dass du durch kleine Preisunterschiede zwischen den beiden Stable Coins beeinträchtigt wirst. Beachte, dass du Belohnungen in dem nativen Farm-Token ausbezahlt bekommst, genauso wie du in QUICK bezahlt wirst, wenn du auf QuickSwap auf Polygon farmst. Du kannst deine Saber-Tokens dann verkaufen, um deine MAI/USDC-Position zu erhöhen.
 
 {% hint style="info" %}
-On Solana, you can also use [Sunny](https://app.sunny.ag), an aggregator that will auto-compound the rewards from Saber. Note that the Sunny aggregator is not validated by the Mai Finance team. AllBridge and Saber have been official partners of Mai Finance, but results are not guaranteed. Please, as usual, do your own researches.
+Auf Solana kannst du auch [Sunny](https://app.sunny.ag) verwenden, einen Aggregator, der die Belohnungen von Saber automatisch aufstockt. Beachte, dass der Sunny-Aggregator nicht vom Mai-Finance-Team validiert wurde. AllBridge und Saber sind offizielle Partner von Mai Finance, aber die Ergebnisse sind nicht garantiert. Bitte recherchiere wie immer selbst.
 {% endhint %}
 
 ## Avalanche
 
-### Getting MAI on Avax
+### MAI auf Avax übertragen
 
-Avalanche is a blockchain network, designed to provide an open-source platform and a layer 1 protocol for launching DeFi applications and enterprise blockchain solutions. It's another alternative solution to Ethereum Mainnet that also supports the same assets as Ethereum Mainnet, Polygon and Solana. As such, you can now send your MAI from Polygon (the only place, as of September 2021, where you can mint MAI) to Avax using [Relay Chain](https://app.relaychain.com/#/transfer).
+Avalanche ist ein Blockchain-Netzwerk, das eine Open-Source-Plattform und ein Layer-1-Protokoll für die Einführung von DeFi-Anwendungen und Blockchain-Lösungen für Unternehmen bietet. Es ist eine weitere Alternative zum Ethereum Mainnet, die die gleichen Assets wie Ethereum Mainnet, Polygon und Solana unterstützt. So kannst du jetzt deine MAI von Polygon (ab September 2021 der einzige Ort, an dem du MAI prägen kannst) über [Relay Chain](https://app.relaychain.com/#/transfer) an Avax senden.
 
-As for AllBridge, the UI is quite simple. You simply select the network from which the asset will be bridge, its destination, and the asset to transfer.
+Was AllBridge angeht, ist die Benutzeroberfläche recht einfach. Du wählst einfach das Netzwerk aus, aus dem das Asset überbrückt werden soll, das Ziel und das zu übertragende Asset.
 
-![Bridging MAI from Polygon to Avalanche](../.gitbook/assets/screen-shot-2021-09-13-at-2.52.31-pm.png)
+![MAI von Polygon auf Avalanche übertragen](../.gitbook/assets/screen-shot-2021-09-13-at-2.52.31-pm.png)
 
-Metamask **does** support [Avax wallets](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche), so you won't need any additional wallet like for Solana.
+Metamask **unterstützt** [Avax-Wallets](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche), du brauchst also keine zusätzliche Wallet wie für Solana.
 
-### Using MAI on Avax
+### MAI auf Avax nutzen
 
-The same way you can use MAI to farm yields on Polygon, you can use MAI on Avalanche. The main place to do so is [Trader Joe's farms](https://www.traderjoexyz.com/#/farm), where you will find a MAI/USDC pool.
+Genauso wie du MAI zum Farmen von Erträgen auf Polygon verwenden kannst, kannst du MAI auf Avalanche verwenden. Der wichtigste Ort dafür ist [Trader Joe's Farmen](https://www.traderjoexyz.com/#/farm), wo du einen MAI/USDC-Pool findest.
 
-![State of the MAI/USDC pool on Trader Joe as of Sept. 2021](../.gitbook/assets/screen-shot-2021-09-13-at-3.07.19-pm.png)
+![MAI/USDC Pool bei Trader Joe; Stand: Sept. 2021](../.gitbook/assets/screen-shot-2021-09-13-at-3.07.19-pm.png)
 
-The farms on Avalanche work very closely to what you can find on Polygon. Hence, you can use Trader Joe's app the same way you would use QuickSwap. You first need to create an LP pair on the site using the same ratio of MAI and USDC, then deposit the LP pair on the farm. The same way you would get paid in QUICK when farming on QuickSwap, you will get rewarded in JOE tokens when farming on Trader Joe. You can then use these tokens in other pools, or sell them to increase your MAI/USDC pair.
+Die Farmen auf Avalanche funktionieren sehr ähnlich wie die auf Polygon. Du kannst Trader Joe's App also genauso nutzen wie QuickSwap. Du musst zuerst ein LP-Paar auf der Website mit der gleichen Ratio von MAI und USDC erstellen und dann das LP-Paar auf der Farm einzahlen. Genauso wie du bei QuickSwap in QUICK bezahlt wirst, erhältst du bei Trader Joe eine Belohnung in Form von JOE-Tokens. Du kannst diese Token dann in anderen Pools einsetzen oder sie verkaufen, um dein MAI/USDC-Paar zu erhöhen.
 
 ## Fantom
 
-### Getting MAI on Fantom
+### MAI auf Fantom übertragen
 
-Fantom is a blockchain / smart contract platform which purpose is to solve the scalability issues of other networks, namely the Ethereum blockchain. Developers can create their DApps (**D**ecentralized **App**lications) on that network and use the same assets as on other network. As such, you can already bridge MAI from Polygon to Fantom using the [AnySwap](https://anyswap.exchange/#/bridge)'s bridge.
+Fantom ist eine Blockchain-/Smart-Contract-Plattform, deren Ziel es ist, die Skalierbarkeitsprobleme anderer Netzwerke zu lösen, insbesondere der Ethereum-Blockchain. Entwickler können ihre DApps (\*\*Dezentrale **App**Anwendungen) auf diesem Netzwerk erstellen und die gleichen Assets wie auf anderen Netzwerken verwenden. So kannst du schon jetzt MAI von Polygon zu Fantom übertragen, indem du die Brücke von [AnySwap](https://anyswap.exchange/#/bridge) benutzt.
 
-If AnySwap is another bridging solution, its UI is very similar to the one of AllBridge and Relay Chain. When on Polygon, you will have to connect your MetaMask wallet first, then select the asset you want to bridge (MAI) and the destination network (Fantom).
+AnySwap ist eine weitere Bridging-Lösung, deren Benutzeroberfläche der von AllBridge und Relay Chain sehr ähnlich ist. Auf Polygon musst du zuerst deine MetaMask Wallet verbinden und dann das zu überbrückende Asset (MAI) und das Zielnetzwerk (Fantom) auswählen.
 
-![Bridging MAI from Polygon to Fantom](../.gitbook/assets/image.png)
+![MAI von Polygon auf Fantom übertragen](../.gitbook/assets/image.png)
 
-Metamask **does** support [fantom wallets](https://docs.fantom.foundation/tutorials/set-up-metamask), so it's very easy to set it up to get your MAI on Fantom and start using it right away.
+Metamask **unterstützt** [fantom wallets](https://docs.fantom.foundation/tutorials/set-up-metamask), also ist es sehr einfach, dein MAI auf Fantom einzurichten und es sofort zu benutzen.
 
-### Using MAI on Fantom
+### MAI auf Fantom nutzen
 
-Currently, the Mai Finance team does not have any partnership with any yield farm on Fantom. Once the team is aware of projects that are using MAI, this documentation will be updated. Stay tuned.
+Derzeit hat das Mai Finance Team keine Partnerschaft mit einer Yield Farm auf Fantom. Sobald das Team von Projekten erfährt, die MAI nutzen, wird diese Dokumentation aktualisiert. Warte noch etwas ab.
 
-## Disclaimer
+## Haftungsausschluss
 
-The details presented in this guide are purely educational and have not been tested directly by the team maintaining this guide. A few users on the discord server have already tried bridging their assets to Solana and/or Avalanche, so you can join the Discord community to ask your questions. Please don't forget to do your own researches, different networks will have different transaction fees and execution times, different reward programs, bridging fees etc ... If you send your MAI to other networks, make sure you can bridge them back in case you need it on Polygon.
+Die Details in diesem Leitfaden sind rein informativ und wurden nicht direkt von dem Team, das diesen Leitfaden erstellt, getestet. Einige Nutzer auf dem Discord-Server haben bereits versucht, ihr Vermögen zu Solana und/oder Avalanche zu überbrücken, also kannst du der Discord-Community beitreten und deine Fragen stellen. Bitte vergiss nicht, deine eigenen Nachforschungen anzustellen, denn verschiedene Netzwerke haben unterschiedliche Transaktionsgebühren und Ausführungszeiten, verschiedene Belohnungsprogramme, Überbrückungsgebühren usw. Wenn du deine MAI an andere Netzwerke sendest, stelle sicher, dass du sie zurückbrücken kannst, falls du sie auf Polygon brauchst.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Denke daran, dass eine Strategie, die zu einem bestimmten Zeitpunkt gut funktioniert, zu einem anderen Zeitpunkt schlecht abschneiden (oder Geldverluste erzeugen) kann. Bitte bleibe informiert, beobachte die Märkte, behalte deine Investitionen im Auge und recherchiere wie immer selbst.
 {% endhint %}
