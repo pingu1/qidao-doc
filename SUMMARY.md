@@ -22,6 +22,7 @@
 
 * [Cách bắt đầu trên mạng Fantom](fantom-toan-tap/how-to-get-started-on-fantom.md)
 * [Chiến lược tạo đòn bẩy trên Fantom](fantom-toan-tap/leverage-your-crypto-on-fantom.md)
+* [What to do with MAI on Fantom](fantom-toan-tap/what-to-do-with-mai-on-fantom.md)
 
 ## Học viện MAI <a href="debt-management-tutorials" id="debt-management-tutorials"></a>
 
