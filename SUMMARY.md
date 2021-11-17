@@ -22,7 +22,7 @@
 
 * [Fantom'u Nasıl Kullanırım?](fantom-tutorials/how-to-get-started-on-fantom.md)
 * [Fantom'dan Kaldıraçlı yararlanın](fantom-tutorials/leverage-your-crypto-on-fantom.md)
-* [WFantom'da MAI ile ne yapılır?](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
+* [Fantom'da MAI ile ne yapılır?](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
 
 ## MAI Üniversitesi
 
