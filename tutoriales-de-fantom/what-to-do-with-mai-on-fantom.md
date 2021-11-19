@@ -1,97 +1,96 @@
 ---
-description: >-
-  This tutorial will present the different options that will let you use your freshly minted MAI on Fantom.
+description: Este artículo te enseñará que podrás hacer con tu MAI en la red de Fantom.
 ---
 
-# What to do with MAI on Fantom
+# ¿Qué hacer con MAI en Fantom?
 
-## Goal of this tutorial
+## Objetivo de este artículo
 
-The goal of this tutorial is not to present in details what you can do with your MAI stable coin, but have a list of all the websites and DeFi application that you can use on Fantom that will let you use your MAI directly, or in combination with other stable coins. For more details about specific ways to use MAI, you can refer to other tutorials on this site, or get help on Discord or Telegram.
+El objetivo de este tutorial no es presentar en detalle lo que puedes hacer con tu moneda estable MAI, sino tener una lista de todos los sitios web y aplicaciones DeFi en la que puedes usar en usar tu MAI directamente, o en combinación con otras monedas estables. Para más detalles sobre formas específicas de usar MAI, puedes consultar otros tutoriales en este sitio, u obtener ayuda en Discord o Telegram.&#x20;
 
-Please note that the list is not complete, and will never be since there are new dapps launching every week on the network. I can't review them all, so I will only present the main options, or the most famous / most "secured" options.
+Ten en cuenta que la lista no está completa, y nunca lo estará ya que hay nuevas DApps que se lanzan cada semana en la red. No puedo revisarlas todas, así que sólo presentaré las opciones principales, o las más famosas / más "seguras".&#x20;
 
-If you want a particular project to be listed, please join the Qi community on [Discord](https://discord.gg/mQq55j65xJ).
+Si quieres que un proyecto en particular aparezca en la lista, por favor únete a la comunidad Qi en [Discord](https://discord.gg/mQq55j65xJ).
 
-## Farming safely on bluechip projects
+## Haciendo farming en proyectos Bluechip&#x20;
 
-Bluechip projects are the DeFi applications that proved to be solid and present a lower risk. They are usually audited and the team behind them have been working on them for a long time. They usually don't have huge APRs (**A**nnual **P**ercentage **R**ate) but they can be trusted.
+Los proyectos Bluechip son las aplicaciones DeFi que han demostrado ser sólidas y presentan un riesgo menor. Suelen estar auditados y el equipo que los respalda lleva mucho tiempo trabajando en ellos. No suelen tener grandes TAE (Tasa Anual Equivalente), pero se puede confiar en ellos.
 
 ### BeethovenX
 
-[BeethovenX](https://app.beets.fi/#/) is a fork of Balancer, a project that has not launched on Fantom, but which presence is well established on other networks. Like Balancer, BeethovenX is an automated portfolio manager, liquidity provider, and price sensor. On the platform, you will be able to lend your crypto and you collect fees from trades. If you need more info about the projcets, please visit [their official doc](https://docs.beethovenx.io/).
+[BeethovenX](https://app.beets.fi/#/) es un fork de Balancer, un proyecto que no se ha lanzado en Fantom, pero cuya presencia está bien establecida en otras redes. Al igual que Balancer, BeethovenX es un gestor de carteras automatizado, proveedor de liquidez y sensor de precios. En la plataforma, podrás prestar tus criptomonedas y cobrarás comisiones por las operaciones. Si necesita más información sobre los proyectos, visite [su documentación oficial](https://docs.beethovenx.io).
 
-The BeethovenX team not only forked the Balancer project, it also built amazing additional features (portfolio management, native token BEETS tracking, rewards that can be claimed anytime). And all this with a fantastic universe and story, which helped them create a fantastic community.
+El equipo de BeethovenX no sólo ha construido por encima del proyecto Balancer, sino que también  tienes algunas características adicionales (gestión de carteras, seguimiento nativo de tokens BEETS, recompensas que se pueden reclamar en cualquier momento). Y todo ello con un universo y una historia fantásticos, que les ayudaron a crear una comunidad fantástica.
 
-On Fantom, you will be able to add your MAI in the `Guqin Qi V2` pool that is composed by MAI (65% of the pool), DAI (17.5% of the pool) and USDC (17.5% of the pool), and the APR (**A**nnual **P**ercentage **R**evenue) is fluctuating between 20% and 30%, paid in BEETS and the swap fees.
+En Fantom, podrás usar tu MAI en su pool `Guqin Qi V2` que se compone de MAI (65% del pool), DAI (17,5% del pool) y USDC (17,5% del pool), y el APR (Renta Anual Equivalente) fluctúa entre el 20% y el 30%, pagada en BEETS y las comisiones de los swaps.
 
-![Guqin Qi pool as of November 2021](<../.gitbook/assets/MAI-on-FTM.png>)
+![Guqin Qi pool a Noviembre de 2021](../.gitbook/assets/MAI-on-FTM.png)
 
-As for Balancer, the best thing about BeethovenX is probably the fact that you don't need to provide the exact ratio for the pool. The algorithm that is keeping the correct balance between the 3 assets will take whatever deposit you have and will sell/buy tokens to make sure the balance is maintained. This way, you can simply deposit MAI and let the pool do the rest.
+En cuanto a Balancer, lo mejor de BeethovenX es probablemente el hecho de que no necesitas proporcionar la proporción exacta para el pool. El algoritmo que mantiene el equilibrio correcto entre los 3 activos tomará el depósito que tengas y venderá o comprará tokens para asegurarse de que se mantiene el equilibrio. De esta manera, puedes simplemente depositar MAI y dejar que el pool haga el resto.
 
-BeethovenX is also the best application if you want to swap your MAI for another currency using the swap feature.
+BeethovenX es también la mejor aplicación si quieres cambiar tu MAI por otra moneda utilizando la función de intercambio
 
 ### SpookySwap
 
-[SpookySwap](https://spookyswap.finance/) is probably one of the best DEX on Fantom where you will be able to swap your ERC20 tokens, provide liquidity and farm yields, create LP (**L**iquidity **P**rovider) tokens, stake their native BOO token, and you can even bridge some assets from Fantom to other chains (and vice versa). It's a fork of Uniswap v2 on top of which the team built additional amazing features.
+[SpookySwap](https://spookyswap.finance) es probablemente uno de los mejores DEX de Fantom, donde podrás intercambiar tus tokens ERC20, proporcionar liquidez y rendimientos de granja, crear tokens LP (Proveedor de Liquidez), apostar su token nativo BOO, e incluso puedes puentear algunos activos de Fantom a otras cadenas (y viceversa). Es una aplicación construida encima de Uniswap v2 en la que el equipo construyó características adicionales sorprendentes.
 
-SpookySwap recently introduced a MAI-USDC pair that people can now farm and gain BOO tokens with an average APR between 25% and 30%.
+SpookySwap ha introducido recientemente un par MAI-USDC que la gente puede cultivar y ganar tokens BOO con una media de entre el 25% y el 30%.
 
-![MAI-USDC pool on SpookySwap as of November 2021](<../.gitbook/assets/MAI-on-FTM-SpookySwap.png>)
+![MAI-USDC pool en SpookySwap a Noviembre de 2021](../.gitbook/assets/MAI-on-FTM-SpookySwap.png)
 
-You will be able to stake your BOO tokens to get an extra ~20% APR which is a great way to use your reward token. As a side note, by staking the BOO token, you will receive a sBOO proof of deposit that may be accepted as a valid collateral on Mai Finance later. This would actually create a nice little loop where people will be able to deposit MAI-USDC, earn and stake BOO, deposit sBOO on Mai Finance and borrow MAI to add to the MAI-USDC pool.
+Podrás hacer staking de tus tokens BOO para obtener un \~20% APR adicional, lo cual es una gran manera de utilizar tu token de recompensa. Además, al hacer staking del token de BOO, recibirás una prueba de depósito de sBOO que podrá ser aceptada como garantía válida en Mai Finance en un futuro. Esto crearía un bonito bucle en el que la gente podría depositar MAI-USDC, ganar y apostar BOO, depositar sBOO en Mai Finance y pedir prestado MAI para añadirlo al fondo de MAI-USDC.
 
 ### Mai Finance
 
-[Mai Finance](https://app.mai.finance/farm) is a lending and borrowing platform, and the main project that we all love. In order to support the peg of MAI and have more use cases for MAI on the Fantom network, additional pools have been added to the Mai Finance platform. Hence, you will be able to deposit MAI-USDC LP token previously created on BeethovenX (search for the MAI Concerto pool there) and get rewards in Qi tokens.
+[Mai Finance](https://app.mai.finance/farm) es una plataforma de préstamos y es el principal proyecto que todos amamos. Con el fin de apoyar el peg de MAI y tener más casos de uso para MAI en la red Fantom, se han añadido pools adicionales a la plataforma Mai Finance. Por lo tanto, podrá depositar el token MAI-USDC LP creado previamente en BeethovenX (busque el pool MAI Concerto allí) y obtener recompensas en tokens Qi.
 
-![MAI-USDC pool on Mai Finance as of November 2021](<../.gitbook/assets/MAI-on-FTM-Mai-Finance.png>)
+![MAI-USDC pool en Mai Finance a Noviembre 2021](../.gitbook/assets/MAI-on-FTM-Mai-Finance.png)
 
-The Qi token you will get by farming directly on Mai Finance can be used in the Qi-FTM pool that is also present on Mai Finance (you can create the LP en BeethovenX too) and on which you will be able to earn even more Qi. You can also use [AnySwap's router](https://anyswap.exchange/#/router) to send your Qi harvested on Fantom to Polygon. Then you can stake Qi on Mai Finance,participate in the governance and collect dividends from the protocol.
+El token Qi que obtendrás cultivando directamente en Mai Finance puede ser utilizado en el pool Qi-FTM que también está presente en Mai Finance (puedes crear el LP en BeethovenX también) y en el que podrás ganar aún más Qi. También puedes utilizar [el router de AnySwap's](https://anyswap.exchange/#/router) para enviar tu Qi cosechado en Fantom a Polygon. A continuación, puedes hacer staking de Qi en Mai Finance, participar en la gobernanza y cobrar dividendos del protocolo.
 
-![Bridging Qi from Fantom to Polygon using AnySwap](<../.gitbook/assets/MAI-on-FTM-Qi-Bridge.png>)
+![Transfiriendo Qi desde Fantom a Polygon usando AnySwap](../.gitbook/assets/MAI-on-FTM-Qi-Bridge.png)
 
-## Degen farms and aggregator
+## Granjas _degen _y agregadores
 
 ### Beefy Finance
 
-[Beefy Finance](https://app.beefy.finance/#/fantom) is an aggregator present on all the major platforms, including Fantom. You will be able to deposit some LP tokens on Beefy and the algorithms will take care of harvesting your rewards, sell them and aggregate them into more of your deposited LP tokens.
+[Beefy Finance](https://app.beefy.finance/#/fantom) es un agregador presente en las principales plataformas, incluida Fantom. Podrás depositar algunos tokens LP en Beefy y los algoritmos se encargarán de cosechar tus recompensas, venderlas y agregarlas en más tokens LP depositados.
 
-You can use some specific Beefy tokens as collateral on Mai Finance, please check the corresponding [article on this site](leverage-your-crypto-on-fantom.md#Leverage-your-mooScreamTokens-on-Mai-Finance). When it comes to using MAI on beefy, you will be able to deposit the LP tokens you created on BeethovenX or SpookySwap:
+Puede utilizar algunos tokens específicos de Beefy como garantía en Mai Finance, por favor, leáse el siguiente [artículo](leverage-your-crypto-on-fantom.md#Leverage-your-mooScreamTokens-on-Mai-Finance) si quiere obtener mas información. Cuando se trata de usar MAI en beefy, podrás depositar los tokens LP que creaste en BeethovenX o SpookySwap:
 
-![MAI pools on Beefy Finance as of November 2021](<../.gitbook/assets/MAI-on-FTM-Beefy.png>)
+![MAI pools en Beefy Finance a fecha de Noviembre 2021](../.gitbook/assets/MAI-on-FTM-Beefy.png)
 
-Beefy will sell your BEETS and BOO rewards to add more of your MAI-DAI-USDC or MAI-USDC positions. Pay attention to the fact that Beefy is displaying APY (**A**nnual **P**ercentage **Y**ield) when BeethovenX and SpookySwap are using APR. This is a crucial point when you want to choose a given platform for the reward VS the simplicity of use.
+Beefy venderá sus recompensas BEETS y BOO para añadir más de sus posiciones MAI-DAI-USDC o MAI-USDC. Preste atención al hecho de que Beefy está mostrando APY (Annual Percentage Yield) cuando BeethovenX y SpookySwap están utilizando APR. Este es un punto crucial cuando se quiere elegir una determinada plataforma por la recompensa VS la simplicidad de uso.
 
 ### Beluga
 
-Beluga is another aggregator on Fantom that will target specific platforms, and in our case, we can use Beluga for the BeethovenX pool. Instead of selling the BEETS token granted by BeethovenX to increase the MAI-DAI-USDC position, the BEETS will be deposited in the BEETS-FTM pool that is getting 350% APR as of November 2021. BEETS will be harvested regularly and compounded in the BEETS-FTM pool, and you will be able to harvest this LP token and remove the liquidity directly on BeethovenX. As a side note, because Beluga is using the BEETS-FTM pool that has a very high APR, the final APY for the MAI-DAI-USDC is very high too.
+Beluga es otro agregador en Fantom que se dirigirá a plataformas específicas, y en nuestro caso, podemos utilizar Beluga para el pool de BeethovenX. En lugar de vender el token BEETS otorgado por BeethovenX para aumentar la posición de MAI-DAI-USDC, los BEETS se depositarán en el pool BEETS-FTM que está obteniendo un 350% de APR a fecha de Noviembre de 2021. Los BEETS serán cosechados regularmente y compuestos en el pool BEETS-FTM, y usted podrá cosechar este token LP y retirar la liquidez directamente en BeethovenX. Como nota al margen, debido a que Beluga está utilizando el pool BEETS-FTM que tiene una APR muy alta, el APY final para el MAI-DAI-USDC es muy alto también.
 
-![MAI-DAI-USDC pool on Beluga as of November 2021](<../.gitbook/assets/MAI-on-FTM-Beluga.png>)
+![MAI-DAI-USDC pool en Beluga a Noviembre 2021](../.gitbook/assets/MAI-on-FTM-Beluga.png)
 
 {% hint style="info" %}
-Please note that Beluga will not help you grow your stable position. The final APY is highly dependent on the price of BEETS and on the APR of the BEETS-FTM pool. The reward value will not be captured and saved in your stable LP, so you will have to manually break the BEETS-FTM LP and sell for whatever you want.
+Tenga en cuenta que Beluga no le ayudará a aumentar su posición estable. El APY final depende en gran medida del precio de las BEETS y de la APR del pool BEETS-FTM. El valor de la recompensa no será capturado y guardado en tu LP estable, por lo que tendrás que romper manualmente la LP de BEETS-FTM y vender por lo que quieras.
 {% endhint %}
 
-### Degen farms
+### Granjas Degen
 
-A lot of degen farms are using LP tokens created on SpookySwap and SpiritSwap. SpookySwap only added MAI-USDC mid-November 2021 and SpiritSwap whitelisted MAI but does not have any MAI pool. This means that most degen farms don't have MAI LPs, but you may see MAI-USDC pairs pop on these sites very soon.
+Muchas granjas degen están usando tokens LP creados en SpookySwap y SpiritSwap. SpookySwap sólo añadió MAI-USDC a mediados de noviembre de 2021 y SpiritSwap incluyó a MAI en la lista blanca pero no tiene ninguna reserva de MAI. Esto significa que la mayoría de las granjas degen no tienen LPs de MAI, pero puede que veas pares MAI-USDC en estos sitios muy pronto.
 
-To stay aware of the new farms launching every day / every week, please follow the [list regularly updated on RugDoc.io](https://rugdoc.io/chain/fantom/). Also, make sure you're doing your own researches when using degen farms, this guide cannot be taken as financial advice and isn't promoting any specific farm or application aside Mai Finance.
+Para estar al tanto de las nuevas granjas que se lanzan cada día / cada semana, siga el siguiente listado sobre los Rug [aquí](https://rugdoc.io/chain/fantom/). Además, asegúrese de hacer sus propias investigaciones cuando utilice las granjas degen, esta guía no puede ser tomada como un consejo financiero y no está promoviendo ninguna granja o aplicación específica aparte de Mai Finance.
 
 ### Tarot
 
-Tarot is a very specific application, and is a fork of Impermax Finance. It allows user to
+Tarot es una aplicación muy específica, y es un fork de Impermax Finance. Permite al usuario prestar:
 
-- lend single assets and gain reward paid in the asset they are lending
-- borrow 2 assets to form LP tokens and farm on specific platforms, with the option to leverage their position to magnify their rewards
+* Activos individuales y obtener recompensas pagadas en el activo que están prestando
+* Prestar 2 activos para formar tokens LP y cultivar en plataformas específicas, con la opción de aprovechar su posición para magnificar sus recompensas&#x20;
 
-Tarot accepts certain pairs from SpookySwap, SpiritSwap and SushiSwap. However, because these platform are only starting to accept MAI and to propose LP pairs with MAI, Tarot does not currently propose these pairs. We can easily imagine that in a very near future, you will be able to lend your MAI on Tarot, or use MAI LP pairs to farm yields on a levered position. For more details about how the platform works, please read the [dedicated section on Impermax](<../polygon-tutorials/what-to-do-with-mai-on-polygon.md#Impermax>) in the Polygon guide.
+Tarot acepta ciertos pares de SpookySwap, SpiritSwap y SushiSwap. Sin embargo, debido a que estas plataformas están empezando a aceptar MAI y a proponer pares de LP con MAI, Tarot no propone actualmente estos pares. Podemos imaginar fácilmente que en un futuro muy cercano, usted podrá prestar su MAI en Tarot, o utilizar pares de LP con MAI para cultivar los rendimientos en una posición apalancada. Para más detalles sobre el funcionamiento de la plataforma, lea e[l siguiente artículo sobre Impermax](../polygon-tutorials/what-to-do-with-mai-on-polygon.md#Impermax).
 
-## Disclaimer
+## Descargo de Responsabilidad
 
-Everything is this tutorial is purely educational. The goal is to bring light to projects that I think are worthy for people evolving in the crypto world on Fantom. Mai Finance also proposes a MAI-USDC pool (create your LP token on BeethovenX) that will reward you with the Qi token. Finally, this guide is ABSOLUTELY NOT meant to be applied as is, it's not any financial advice and you should not follow blindly what I wrote. Please read the docs of the different projects I mentioned before considering investing on their platforms.
+Todo este tutorial es puramente educativo. El objetivo es dar luz a proyectos que creo que merecen la pena para la gente que quiere introducirse en el mundo de las criptomonedas en Fantom. Mai Finance también propone un pool MAI-USDC (crea tu token LP en BeethovenX) que te recompensará con el token Qi. Por último, esta guía NO ha sido escrita para ser aplicada tal cual, no es ningún consejo financiero y no debes seguir ciegamente lo que he escrito. Por favor, lee los documentos de los diferentes proyectos que he mencionado antes de considerar invertir en sus plataformas.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenga en cuenta que una estrategia que funciona bien en un momento dado puede dar malos resultados (o hacerle perder dinero) en otro momento. Manténgase informado, controle los mercados, vigile sus inversiones y, como siempre, investigue por su cuenta.
 {% endhint %}
