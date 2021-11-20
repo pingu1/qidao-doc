@@ -22,7 +22,7 @@
 
 * [Come iniziare con Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
 * [Come far fruttare i tuoi token su Fantom](fantom-tutorials/leverage-your-crypto-on-fantom.md)
-* [What to do with MAI on Fantom](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
+* [Cosa fare con MAI su Fantom](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
 
 ## Università di MAI
 
