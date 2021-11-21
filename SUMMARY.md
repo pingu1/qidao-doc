@@ -16,7 +16,7 @@
 
 ## Avalanche tutorials
 
-* [How to get started on Avalanche](avalanche-tutorials/how-to-get-started-on-avalanche.md)
+* [Einstieg in Avalanche](avalanche-tutorials/how-to-get-started-on-avalanche.md)
 
 ## Fantom tutorials
 
