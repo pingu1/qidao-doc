@@ -13,6 +13,7 @@
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
 * [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
 * [How to combine farming and borrowing rewards](investment-tutorials/how-to-combine-farming-and-borrowing-rewards.md)
+* [OHM forks on Polygon: The case of KLIMA](investment-tutorials/ohm-forks-on-polygon-the-case-of-klima.md)
 
 ## Avalanche tutorials
 
