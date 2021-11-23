@@ -13,6 +13,7 @@
 * [DApp'leri Lego gibi kullanın](polygon-rehberi/stack-dapps-like-lego-bricks.md)
 * [Çiftçilik (Farming) mi Staking mi? Yoksa her ikisi de mi?](polygon-rehberi/farming-or-staking-or-both.md)
 * [Çiftçilik ve Borçlanma (Borrowing) Ödülleri Nasıl Birleştirilir?](polygon-rehberi/how-to-combine-farming-and-borrowing-rewards.md)
+* [OHM forks on Polygon: The case of KLIMA](polygon-rehberi/ohm-forks-on-polygon-the-case-of-klima.md)
 
 ## Avalanche Rehberi
 
