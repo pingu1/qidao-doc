@@ -13,6 +13,7 @@
 * [Stack DApps like Lego bricks](tutoriais-para-polygon/stack-dapps-like-lego-bricks.md)
 * [Farming or Staking? Or both?](tutoriais-para-polygon/farming-or-staking-or-both.md)
 * [How to combine farming and borrowing rewards](tutoriais-para-polygon/how-to-combine-farming-and-borrowing-rewards.md)
+* [OHM forks on Polygon: The case of KLIMA](tutoriais-para-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
 
 ## tutoriais para avalanche
 
