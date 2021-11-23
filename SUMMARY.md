@@ -13,6 +13,7 @@
 * [Impilare le dApp come mattoncini Lego](impilare-le-dapp-come-mattoncini-lego.md)
 * [Farmare o mettere in Stake? O entrambe le cose?](farmare-o-mettere-in-stake-o-entrambe.md)
 * [Come combinare Farming e ricompense dei prestiti](how-to-combine-farming-and-borrowing-rewards.md)
+* [OHM forks on Polygon: The case of KLIMA](tutorial-di-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
 
 ## Tutorial di Avalanche
 
