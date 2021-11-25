@@ -1,19 +1,21 @@
 ---
 description: >-
-  DeFi doesn't need to be complicated. This article presents how you can enter
-  DeFi using Mai Finance with a low risk strategy and still get reasonable
-  interests.
+  DeFi não precisa de ser complicado. Este artigo mostra como podes começar a
+  aventurar-te no espaço DeFi utilizando a plataforma Mai Finance com uma
+  estratégia de baixo risco e taxas de interesse razoá
 ---
 
-# camDAI beginner strategy
+# Estratégia de principiante camDAI
 
-## Intro
+## Introdução
 
-Most people are scared when they think about DeFi. There's always a risk factor to take in account when using crypto currencies, the volatility of this market can make one loose a lot of money, and there are so many possibilities that finding a right strategy can be quite complex. However, when you're using the correct tools, some easy and low risk strategies can get good results, and can probably compete with more complex and risky options.
+A maior parte das pessoas assusta-se quando pensam em DeFi. Existe sempre fatores de risco a considerar quando estamos a falar de criptomoedas, a volatilidade do mercado pode resultar na perda de dinheiro para algumas pessoas e existam tantas possibilidades disponíveis o que dificulta a tarefa de encontrar uma estratégia adequada para a tua métrica de risco. No entanto, se utilizares as ferramentas corretas, algumas estratégias fáceis e de baixo risco podem conseguir arranjar-te bons resultados, podendo até competir com estratégias mais complexas e arriscadas.
 
-In this guide, we will try to present an investment strategy based on leveraged stable coin, with a touch of risk for higher interests.
+Neste guia, vamos apresentar uma estratégia de investimento com base na alavancagem de uma moeda estável, com uma pitada de risco para obter maiores taxas de interesse.
 
-## Understanding the concept of leverage
+## Entender o conceito de alavancagem
+
+
 
 ![Story of an unluQi gold miner](../.gitbook/assets/canDAI-farwest.png)
 
