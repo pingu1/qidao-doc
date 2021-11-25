@@ -17,11 +17,15 @@ Neste guia, vamos apresentar uma estratégia de investimento com base na alavanc
 
 
 
-![Story of an unluQi gold miner](../.gitbook/assets/canDAI-farwest.png)
+![A história de um mineiro azarado](../.gitbook/assets/canDAI-farwest.png)
 
-We are in the far west, during the great gold rush. Banks want to buy gold to be able to lend money to people and get interests on these loans, and miners want to get rich by selling their gold to banks.
+Estamos no faroeste, durante a grande corrida do ouro. Os bancos querem comprar ouro para oferecerem como empréstimo aos clientes e recebem taxas de juros nesses empréstimos, enquanto que os mineiros querem ficar ricos ao vender ouro aos bancos.
 
-You're a miner, but not very lucky. You only found a single nugget. However, you're super clever, and instead of mining, you have another plan!
+Vamos considerar que és um mineiro, mas sem grande sorte. Apenas encontras-te uma pepita de ouro. No entanto, como és super inteligente, em vez de minar, tens outro plano me mente!
+
+Vais a um banco e dizes que tens ouro. Podes depositar o ouro no banco como colateral, o que significa que o banco pode utilizar aquele ouro para empréstimos, fornecendo-te em troca taxas de interesse pelo teu depósito.
+
+
 
 You go to a bank and explain that you have gold. You can deposit the gold to the bank as a collateral, meaning that you let the bank use that gold for people who want to use it, and the bank will give you some interests on your deposit.
 
