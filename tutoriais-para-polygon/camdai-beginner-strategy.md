@@ -9,7 +9,7 @@ description: >-
 
 ## Intro
 
-Most people are scared when they think about DeFi. There's always a risk factor to take in account when using crypto currencies, the volatility of this market can make one loose a lot of money, and there are so many possibilities that finding a right strategy can be quite complex.  However, when you're using the correct tools, some easy and low risk strategies can get good results, and can probably compete with more complex and risky options.
+Most people are scared when they think about DeFi. There's always a risk factor to take in account when using crypto currencies, the volatility of this market can make one loose a lot of money, and there are so many possibilities that finding a right strategy can be quite complex. However, when you're using the correct tools, some easy and low risk strategies can get good results, and can probably compete with more complex and risky options.
 
 In this guide, we will try to present an investment strategy based on leveraged stable coin, with a touch of risk for higher interests.
 
@@ -49,7 +49,7 @@ Mai finance will accept the amDAI on its [yield instrument](https://app.mai.fina
 
 ![Yield instrument on Mai Finance](../.gitbook/assets/camDAI-yield.png)
 
-Once you deposited your amDAI on the yield instrument, you will get some camDAI in your wallet (**c**ompounding amDAI). This is a receipt that indicates your share of the amDAI pool in the yield instrument. As a side note, because camDAI is a representation of your share of the amDAI pool, the ratio between amDAI and camDAI isn't 1:1. See [this article](leverage-aave-tokens.md#amtokens-vs-camtoken) for more details.
+Once you deposited your amDAI on the yield instrument, you will get some camDAI in your wallet (**c**ompounding amDAI). This is a receipt that indicates your share of the amDAI pool in the yield instrument. As a side note, because camDAI is a representation of your share of the amDAI pool, the ratio between amDAI and camDAI isn't 1:1. See [this article](../investment-tutorials/leverage-aave-tokens.md#amtokens-vs-camtoken) for more details.
 
 You can now [deposit your camDAI](https://app.mai.finance/vaults) tokens in a vault on Mai Finance, and will then be able to borrow some MAI (a stable coin pegged to $1) against your collateral. In our far west comparison, this is a second bank that will let you take a cash loan based on the amount of gold you deposited in the first bank. This second bank accepts the receipt from the first bank as a guarantee in case you cannot repay your loan.
 
@@ -73,13 +73,13 @@ For our guide, we will use Balancer to expose our investments to a little more v
 
 Even if we explained what AAVE is, our strategy will use a feature from Mai Finance to automate the DAI deposit on AAVE, the amDAI deposit in the yield instrument and the camDAI deposit in the camDAI vault.
 
-![](../.gitbook/assets/camDAI-zapDAI.png)![](../.gitbook/assets/camDAI-zapdeposit.png)
+![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
 
 The `Zap in using DAI` button opens a popup that lets you deposit your DAI in the vault and operates the AAVE deposit under the hood. This is saving a lot of time, and some gas.
 
 This will be our first step. Assuming we have $100 worth of DAI, we will deposit them on Mai Finance in a camDAI vault. This will allow us to borrow MAI against this initial deposit.
 
-The minimal CDR (**C**ollateral to **D**ebt **R**atio) for camDAI is 110%. This means that the ratio between your collateral (the $100 worth of DAI) and the loan we're about to get needs to remain above 110%.&#x20;
+The minimal CDR (**C**ollateral to **D**ebt **R**atio) for camDAI is 110%. This means that the ratio between your collateral (the $100 worth of DAI) and the loan we're about to get needs to remain above 110%.
 
 {% hint style="danger" %}
 If this CRD ratio reaches the minimal value of 110%, it means that your collateral is losing value and your debt may become bigger than the value of your collateral. At this point, your vault can be liquidated: someone can repay a part of your debt and get a part of your collateral as a compensation. However, since both DAI and MAI are stable coins pegged to the US dollar, the risk of getting a big difference between the 2 assets is very low, which makes this strategy fairly safe.
@@ -129,7 +129,7 @@ $$
 Interests = Collateral_{value}*APY=695.423*10.42\%= \$72.463
 $$
 
-&#x20;If we consider that the initial investment was only $100, that's an equivalent APY of 72.463% on single staking a stable coin!
+If we consider that the initial investment was only $100, that's an equivalent APY of 72.463% on single staking a stable coin!
 
 ### Alternative strategy
 

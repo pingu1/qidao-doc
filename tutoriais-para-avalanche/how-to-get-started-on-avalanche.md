@@ -16,7 +16,7 @@ A rede Avalanche é 100% EVM compativel com as ferramentas existentes na rede Et
 
 Antes de utilizar a rede Avalanche precisas de criar um endereço para uma carteira. Existem diferentes carteiras disponíveis, tanto de software (Metamask ou a carteira nativa [Avalanche Wallet](https://wallet.avax.network)) ou hardware ( [Trezor](https://trezor.io/coins/) ou [Ledger](https://support.ledger.com/hc/en-us/articles/360020765779-Avalanche-AVAX-?docs=true).)
 
-Para o propósito deste tutorial, vamos usar a carteira Metamask. Se ainda não tens uma carteira instalada, podes encontrar as instruções no guia [Como começar a tua jornada na rede Polygon.](../tutoriais-para-polygon/how-to-get-started-on-polygon.md)
+Para o propósito deste tutorial, vamos usar a carteira Metamask. Se ainda não tens uma carteira instalada, podes encontrar as instruções no guia [Como começar a tua jornada na rede Polygon.](../investment-tutorials/how-to-get-started-on-polygon.md)
 
 ### Adicionar a rede Avalanche na carteira Metamask
 
@@ -30,7 +30,7 @@ Para conseguires aceder à rede Avalanche, precisas de a adicionar à carteira M
 
 Guarda as mudanças e a carteira Metamask mudará automaticamente para a rede Avalanche.
 
-![Successo! Tens acesso à rede Avalanche!](../.gitbook/assets/avax_MM.png)
+![Successo! Tens acesso à rede Avalanche!](../.gitbook/assets/avax\_MM.png)
 
 ## Transferindo fundos para a rede Avalanche
 
@@ -43,14 +43,14 @@ De momento não existem torneiras disponiveis na rede Avalanche. Se precisas de 
 * [Ponte oficial Avalanche](https://bridge.avax.network):  A rede Avalanche fornece uma ponte para transferir os teus tokens da rede Ethereum. As taxas de transação são pagas com o token a ser transferido, podendo ser elevadas tendo em conta que estás a transferir da rede Ethereum.
 * [Anyswap](https://anyswap.exchange/#/bridge): Ponte que permite a transferência de tokens para várias redes.  Existe um número minimo de tokens a ser transferidos que varia consoante o token, mas o custo de transação é geralmente baixo.
 * [Celer Bridge](https://cbridge.celer.network/#/transfer): Ponte que oferece transferência de tokens entre várias redes. A taxa de transação é de 3% para a rede Avalanche.
-* [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer): Ponte que oferece uma interface intuitiva com baixos custos de transação. Adicionalmente, esta ponte é a solução oficialmente suportada para transferir tokens MAI para a rede avalanche. 
+* [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer): Ponte que oferece uma interface intuitiva com baixos custos de transação. Adicionalmente, esta ponte é a solução oficialmente suportada para transferir tokens MAI para a rede avalanche.&#x20;
 * [Elknet](https://app.elk.finance/#/elknet): Serviço de transferência oferecido pela plataforma ElK Finance, uma plataforma descentralizada disponivel em várias redes como Avalanche, Binance, Fantom, Polygon e xDai. O que diferencia esta plataforma das outras pontes é que não precisas de AVAX para fazer a transferência, existindo no entanto pormenores  técnicos que vamos descrever a seguir:
   * De forma a transferires os teus tokens através da ponte Elknet, primeiro tens que converter os  teus tokens para o token **Elk**, o token nativo da plataforma Elk Finance.
   * Podes depois utilizar a ponte para transferior os teus tokens Elk para outras redes como a  rede Avalanche. Se clicares na caixa "Swap $ELK 1 for gas" uma porção da tua transferência é convertida em AVAX para pagar os custos da transação na rede Avalanche.
   * Após a transferência estar concluída (geralmente leva menos de 10 minutos) podes trocar a tua carteira para rede Avalanche e poderás ver os teus tokens ELK e tokens AVAX prontos a serem utilizados. Podes agora trocar os tokens ELK para os tokens da tua escolha.
   * O mesmo pode ser feito no sentido inverso em qualquer rede suportada.
 
-![Interface Elknet](../.gitbook/assets/AVAX_elkswap.png)
+![Interface Elknet](../.gitbook/assets/AVAX\_elkswap.png)
 
 ## DeFI na rede Avalanche
 
@@ -60,15 +60,15 @@ A rede Avalanche viu um grande crescimento nos últimos meses o que resultou no 
 * [Beefy Finance](https://app.beefy.finance/#/avax) é conhecido pela maior parte dos utilizadores DeFi e está disponível em várias cadeias como Binance, Fantom, Harmony, Polygon e muitas mais. Esta app é conhecida como um "autocompounder" que fornece valores de APY elevados tanto para "farms" de token único ou duplo. De momento podes utilizar a plataforma Beefy para fazer "autocompounding" dos tokens [MAI/AVAX](https://app.beefy.finance/#/avax/vault/joe-mai-wavax) e [MAI/USDC.e ](https://app.beefy.finance/#/avax/vault/joe-mai-usdc.e)encontradas na plataforma Trader Joe.
 * [Benqi](https://app.benqi.fi/markets) é um protocolo semelhante à plataforma Aave e foi o primeiro a depor na rede. Os tokens aceites como colateral são Avalanche, Dai, Link, Tether, USDC, WBTC, e WETH.
 
-![Interface BenQI](../.gitbook/assets/AVAX_benqi.png)
+![Interface BenQI](../.gitbook/assets/AVAX\_benqi.png)
 
 * [TraderJoe](https://www.traderjoexyz.com/#/home) é uma plataforma descentralizada que se tornou um dos projetos mais conceituados da rede Avalanche com uma interface de usuário intuitiva e um recurso de troca de tokens que permite a sua conversão diretamente para "liquidity pools". A plataforma TraderJoe é também um dos parceiros oficiais da plataforma Mai Finance com um LP de MAI-USDC.
 
-![](../.gitbook/assets/AVAX_joe.png)
+![](../.gitbook/assets/AVAX\_joe.png)
 
 * [YieldYak](https://yieldyak.com/farms) é outro "autocompounder" que oferece APYs elevados. As "farms" de tokens únicos trabalham em conjunto com a app BenQI par aumentar os retornos sendo assim considerado uma jogada de risco elevado.
 
-![Interface YieldYak](../.gitbook/assets/avax_yak.png)
+![Interface YieldYak](../.gitbook/assets/avax\_yak.png)
 
 ## Outros links úteis
 

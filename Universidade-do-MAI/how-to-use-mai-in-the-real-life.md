@@ -23,7 +23,7 @@ Today is THE day! His initial investment on GPUs is finally fully repaid, and no
 
 So instead of sitting on his profits waiting for the price to sky rocket, DogeOfWallStreet decides that it's time to buy more graphic cards, and possibly increase his mining profits. In terms of costs, the _RTX 1660 super_ seems to be the most profitable card right now, and it only costs $500.00.
 
-![](<../.gitbook/assets/Screen Shot 2021-08-13 at 12.07.41 PM.png>)
+![](../.gitbook/assets/screen-shot-2021-08-13-at-12.07.41-pm.png)
 
 After 1 month of mining, the clever miner checks his portfolio on the ETH mainnet after the pool paid him. He has the equivalent of $1,340.00 worth of ETH (mining profit and ETH gained almost 12% in 4 weeks) , which should be way enough to buy the card ... but then, dilemma:
 

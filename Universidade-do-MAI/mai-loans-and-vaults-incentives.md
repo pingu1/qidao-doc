@@ -11,7 +11,7 @@ description: >-
 
 The core business of Mai Finance is a lending platform. Instead of selling their crypto to buy other assets, people are able to lock their funds on Mai Finance and borrow against them. This presents the opportunity to keep high value assets (WBTC, WETH ...) while still being able to get other assets and farm yields. In that case, the loan is used to generate revenue, while the collateral is gaining value.
 
-One of the other big advantage of using Mai Finance is that there's no repayment schedule. In other words, you borrow MAI stable coin against your crypto, you don't pay any interests, and you can repay your debt whenever you want. See the different articles on [debt management](debt-repayment-why-and-when.md) for more details. The only fee that you would ever pay is a repayment fee corresponding to 0.5% of the money you borrowed that you pay when you repay your loan, and that is taken out of your collateral.
+One of the other big advantage of using Mai Finance is that there's no repayment schedule. In other words, you borrow MAI stable coin against your crypto, you don't pay any interests, and you can repay your debt whenever you want. See the different articles on [debt management](../debt-management-tutorials/debt-repayment-why-and-when.md) for more details. The only fee that you would ever pay is a repayment fee corresponding to 0.5% of the money you borrowed that you pay when you repay your loan, and that is taken out of your collateral.
 
 As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, when you repay your loan you would have to pay a fee of $0.50 directly taken out of your WETH deposit.
 
@@ -86,14 +86,14 @@ Each vault type has a minimum CDR ratio accepted, a threshold under which the va
 
 When you borrow MAI against a given collateral, you will get some hints on what's the maximum amount of MAI you can borrow, and what would be the impact on your health ratio depending on the amount borrowed, as you can see in the screenshot bellow:
 
-![Health mitigation depending on borrowed amount](<../.gitbook/assets/image (2).png>)
+![Health mitigation depending on borrowed amount](<../.gitbook/assets/image (4).png>)
 
 It's very important to keep an eye on your CDR and keep a healthy ratio to
 
 * prevent liquidation
 * increase the health of the whole Mai Finance platform by ensuring the MAI volume in circulation is properly backed
 
-The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest](../tutoriais-para-polygon/leverage-aave-tokens.md#examples-with-numbers) in other projects, or [repay your debt](debt-repayment-how.md#repayment-using-your-collateral) using your debt.
+The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest](../investment-tutorials/leverage-aave-tokens.md#examples-with-numbers) in other projects, or [repay your debt](../debt-management-tutorials/debt-repayment-how.md#repayment-using-your-collateral) using your debt.
 
 ## Vault incentives
 
@@ -143,7 +143,7 @@ $$
 
 This corresponds more or less to the APR of the MATIC Vault, as displayed in the following screenshot:
 
-![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](<../.gitbook/assets/image (23) (2).png>)
+![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](<../.gitbook/assets/image (23) (2) (3) (4).png>)
 
 ### Calculating starting vaults' APRs
 
@@ -188,7 +188,7 @@ Right now all the vault types have been allocated Qi rewards
 
     For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:
 * _Matic_ - Liquidation ratio 150% - Eligible for Incentives between 175% and 420%
-* _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400% 
+* _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400%&#x20;
 * _CamTokens_: - Liquidation ratio 135% - Eligible for Incentives between 160% and 405%
 *   **How can I see if my vault is earning rewards?**
 

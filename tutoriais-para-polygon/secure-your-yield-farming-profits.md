@@ -21,7 +21,7 @@ The guide will present step by step how to use Mai Finance to actually secure yo
 To illustrate in more details how you can do that, I will use the [latest PolyPup](https://ball.polypup.finance) farm. This is for educational purpose only, and should absolutely not be used as a financial advice. Also, the term "secure" here is solely based on my personal appreciation. As always, do your own research. Finally, I personally don't recommend this farm.
 {% endhint %}
 
-![](<../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)
+![](../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
 
 ## Farming life cycle
 
@@ -36,16 +36,16 @@ In the guide, we will try to implement as much financial security as possible. T
 In order to start farming using MAI/USDC pair, you need to acquire some stable coins. Mai Finance allows you to borrow the MAI stable coin by depositing your favorite crypto currency. In our case, we have a bunch of MATIC in our wallet, ready to be used. By depositing my MATIC into the [MATIC vault](https://app.mai.finance/vaults/matic) on Mai Finance, I can borrow MAI. If you need assistance doing that, please join the Discord server and ask the community. You can also read other tutorials on this site where you may find how to do this.
 
 {% hint style="info" %}
-You can deposit your MATIC tokens in your MATIC vault, but you can also deposit them into AAVE to get amWMATIC, deposit them on Mai Finance on the yield page to get camWMATIC, and use these camWMATIC as collateral. You will be able to borrow the same amount of MAI, but you will also earn additional yield on your MATIC. See [Leverage your AAVE tokens](leverage-aave-tokens.md) to get more details on how to do this.
+You can deposit your MATIC tokens in your MATIC vault, but you can also deposit them into AAVE to get amWMATIC, deposit them on Mai Finance on the yield page to get camWMATIC, and use these camWMATIC as collateral. You will be able to borrow the same amount of MAI, but you will also earn additional yield on your MATIC. See [Leverage your AAVE tokens](../investment-tutorials/leverage-aave-tokens.md) to get more details on how to do this.
 {% endhint %}
 
 Once you borrowed MAI stable coins, you can use the [anchor page](https://app.mai.finance/anchor) on Mai Finance to convert half of your loan into USDC. Indeed, when you farm using LP pairs, the two parts of the pair need to be provided in a 1:1 ratio.
 
-![Using the swap page to convert 30 of my MAI into USDC](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
+![Using the swap page to convert 30 of my MAI into USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
 
 Now depending on the farm you want to farm on, you need to combine your 2 stable coins (MAI and USDC) into a valid LP pair on a DEX platform. Since my plan is to enter Polypup, and that farm accepts QuickSwap LPs, I need to go to [QuickSwap](https://quickswap.exchange/#/) and generate my pair there.
 
-![Generate some LP tokens using MAI and USDC](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
+![Generate some LP tokens using MAI and USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
 
 I am now ready to enter the farm.
 
@@ -53,7 +53,7 @@ I am now ready to enter the farm.
 
 Now that you have some LP tokens, you can go to the farm website and deposit them to start collecting the farm tokens. In our example, I deposited my MAI/USDC tokens into the correct pool, and started collecting BALL tokens.
 
-![Earning BALLs in the pool](<../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
+![Earning BALLs in the pool](../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
 
 As of right now, you can see that farming MAI/USDC is granting me 176.99% APR. Based on how much liquidity is provided in the pool, and on the price of the BALL token, this APR will change over time.
 
@@ -72,7 +72,7 @@ Now that you have some farm tokens, usually you have the choice between
 
 Mai Finance presents a third option that lets you do both. Once you harvested your reward, simply go to your favorite DEX that support the farm token. Usually, you can find a link to a DEX in the menu of the farm. The link will include the token address which will help you trade it easily.
 
-![Swapping my reward for more MATIC](<../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
+![Swapping my reward for more MATIC](../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
 
 At that point, I am back at the step where we have MATIC tokens in my wallet, ready to be deposited on Mai Finance as a collateral. If I do that, I can borrow MAI, swap a portion of it into USDC, create a LP pair and re-deposit it into the farm. By doing this conversion, I "secure" 100% of my rewards by swapping them into a more stable crypto (here MATIC) and I re-inject 50% of my reward into the farming pool (or actually, in this example, 46% because of the 4% deposit fee).
 

@@ -10,7 +10,7 @@ description: >-
 
 When you farm yields on a given farm, you usually get rewards under the form of native farm tokens. You then have the choice between either selling those, or keep them and hope they will gain some value over time. This guide will present a few different DApps (**D**ecentralized **App**lications) to maximize your yields without selling anything, while still compounding interests. This articles will also start from stable coins, because this is considered as a relatively safe strategy. However, you need to keep in mind that this is not a financial advice, and that this guide should be followed with caution as results are absolutely not guaranteed. As always, do your own research.
 
-![](<../.gitbook/assets/Screen Shot 2021-08-30 at 10.52.20 AM.png>)
+![](../.gitbook/assets/screen-shot-2021-08-30-at-10.52.20-am.png)
 
 ## QuickSwap
 
@@ -20,11 +20,11 @@ QuickSwap is one of the biggest AMM (**A**utomated **M**arket **M**aker) on Poly
 
 For this exercise, we will use the MAI/USDC pair on QuickSwap. This liquidity pool, a stable pool, proposes an APY (**A**nnual **P**ercentage **Y**ield that varies between 20% and 25%). The yield is composed of the transaction fees (that are accrued into the liquidity pool) and QUICK rewards.
 
-![MAI/USDC liquidity pool on QuickSwap as of August 2021](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![MAI/USDC liquidity pool on QuickSwap as of August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
 The pool gets a fix amount of QUICK tokens every day, and they are then distributed to liquidity providers according to their share of the pool. As an example, if the pool has the equivalent of $1,000,000 worth of liquidity, and you already deposited $1,000 of LP (**L**iquidity **P**rovider) tokens, you own 0.1% of the pool, which entitles you to 0.1% of the daily QUICK reward. Your Quick reward will then be claimable when you manage the pool you entered.
 
-![Claiming my QUICK reward for a $20 deposit](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.39.44 AM.png>)
+![Claiming my QUICK reward for a $20 deposit](../.gitbook/assets/screen-shot-2021-08-30-at-6.39.44-am.png)
 
 You can claim them regularly in order to put them at work. Let's see how.
 
@@ -32,7 +32,7 @@ You can claim them regularly in order to put them at work. Let's see how.
 
 The Dragon's Lair is a way to optimize your gains on QuickSwap. You can deposit the QUICK tokens that you earn from liquidity pools into the Lair, and they will earn you additional QUICK rewards. This is a good idea if you want to keep the QUICK tokens instead of selling them. When your QUICK tokens are staked into the Dragon's Lair, the rewards they generate are automatically compounded, and the APY of the Lair is around 12%.
 
-![Dragon's Lair APY as of August 2021](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.42.39 AM.png>)
+![Dragon's Lair APY as of August 2021](../.gitbook/assets/screen-shot-2021-08-30-at-6.42.39-am.png)
 
 After you deposited your QUICK tokens, you will get in your wallet some dQUICK tokens that represent the share of the QUICK pool that you own. Note that the ratio QUICK:dQUICK isn't 1:1 since the dQUICK represent your share of the pool, while the amount of QUICK will increase over time as more rewards are added to the pool.
 
@@ -42,7 +42,7 @@ Now you have your stable coins deposited in the liquidity pool, and they generat
 
 The Dragon's Syrup is an additional way that QuickSwap offers to reward even more users who are holding QUICK tokens. The QuickSwap team set up a program where partners can promote their products by granting their own token to the users of the QuickSwap platform. You can then deposit your dQUICK tokens into one of the farm in order to earn these exotic tokens on top of the Dragon's Lair rewards. The one we are interested in is the ADDY farm.
 
-![Dragon's Syrup, a farm to collect ADDY token via dQUICK deposits](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.49.25 AM.png>)
+![Dragon's Syrup, a farm to collect ADDY token via dQUICK deposits](../.gitbook/assets/screen-shot-2021-08-30-at-6.49.25-am.png)
 
 When you deposit your dQUICK into the farm, they will disappear from the Dragon's Lair (pretty much the same way your camTokens disappear from the Yield page on Mai Finance when you deposit them into a Vault). But you can clearly see that the dQUICK APY from the Lair is still applied, and that you will also get additional ADDY reward. Here, the APR (**A**nnual **P**ercentage **R**eward) is currently 21.36%.
 
@@ -78,7 +78,7 @@ For this exercise, we will also use the MAI/USDC pool in Impermax. By depositing
 
 On QuickSwap, I deposited $20 worth of MAI/USDC pair. On Impermax, I will deposit only $10 worth of MAI/USDC and will apply a x2 lever on it to get a $20 exposure.
 
-![Leverage window on Impermax at a given time](<../.gitbook/assets/Screen Shot 2021-08-30 at 7.11.10 AM.png>)
+![Leverage window on Impermax at a given time](../.gitbook/assets/screen-shot-2021-08-30-at-7.11.10-am.png)
 
 You can see on the screenshot above that, if I increase my leverage to x2.1, I would borrow
 
@@ -106,7 +106,7 @@ Adamant is a yield optimizer platform that automates harvesting into liquidity p
 
 We earn QUICK tokens on QuickSwap, and we earn IMX tokens on Impermax. Let's use Adamant to farm the QUICK/IMX pool from QuickSwap. Why do that? Because the farm is actually very profitable, as you can see here:
 
-![IMX/QUICK pool from QuickSwap on Adamant](<../.gitbook/assets/Screen Shot 2021-08-30 at 7.27.26 AM.png>)
+![IMX/QUICK pool from QuickSwap on Adamant](../.gitbook/assets/screen-shot-2021-08-30-at-7.27.26-am.png)
 
 As this article is being written, the current APY of the IMX/QUICK pool on Adamant is 417.25%. The reward is composed of
 
@@ -229,7 +229,7 @@ At this point, the "debt" on Mai Finance will be used to increase the MAI/USDC L
 
 ## Farming results
 
-![](<../.gitbook/assets/Screen Shot 2021-08-30 at 11.33.34 AM.png>)
+![](../.gitbook/assets/screen-shot-2021-08-30-at-11.33.34-am.png)
 
 ### Daily routine
 

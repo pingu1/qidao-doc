@@ -28,7 +28,7 @@ Bluechip projects are the DeFi applications that proved to be solid and present 
 
 On Polygon network, Balancer proposes a pool composed of the 4 main stable coins: DAI, USDC, USDT and MAI (miMATIC). This stable pool has currently a pretty steady APR of \~20%.
 
-![Stable coin pool state as of August 2021](<../.gitbook/assets/Screen Shot 2021-08-11 at 11.06.59 AM.png>)
+![Stable coin pool state as of August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
 
 The best thing about Balancer is that you absolutely don't need to own the 4 coins to deposit into the pool. Balancer will automatically generate a balanced combination with whatever deposit you make. This means that if you have 100$ worth of MAI, you can simply deposit them into the Balancer pool and let the algorithm slip it properly to have a 25% ratio for each coin depending on their respective price at the moment of the deposit.
 
@@ -36,9 +36,9 @@ Rewards for the pool are paid using the BAL token, distributed on a weekly basis
 
 The complete flow would be something like this
 
-![](<../.gitbook/assets/Screen Shot 2021-08-11 at 11.34.45 AM.png>)
+![](../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
-If you need more details on how you can use Mai Finance to lend your crypto and borrow MAI (instead of selling your crypto to buy MAI), read other guides on this site. You can even [include AAVE into the loop](leverage-aave-tokens.md) to earn even more.
+If you need more details on how you can use Mai Finance to lend your crypto and borrow MAI (instead of selling your crypto to buy MAI), read other guides on this site. You can even [include AAVE into the loop](../investment-tutorials/leverage-aave-tokens.md) to earn even more.
 
 ### Curve finance
 
@@ -63,11 +63,11 @@ Rewards on Curve are granted in
 * WMATIC that you can then use to repeat the loop above and increase your loan and invested capital
 * CRV token, that can also be used as collateral on Mai Finance to borrow more MAI and increase your invested capital
 
-![](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.14.27 PM.png>)
+![](../.gitbook/assets/screen-shot-2021-08-11-at-12.14.27-pm.png)
 
 ### AAVE
 
-There's a complete guide on how you can use Mai Finance to [lever up your crypto on AAVE](leverage-aave-tokens.md). This is not doing a direct use of MAI stable coin, but we can imagine that, in the future, AAVE will also have a MAI pool where you will be able to lend your crypto.
+There's a complete guide on how you can use Mai Finance to [lever up your crypto on AAVE](../investment-tutorials/leverage-aave-tokens.md). This is not doing a direct use of MAI stable coin, but we can imagine that, in the future, AAVE will also have a MAI pool where you will be able to lend your crypto.
 
 ### QuickSwap
 
@@ -80,7 +80,7 @@ Currently, if you enter the MAI/USDC LP (**L**iquidity **P**rovider) pool on Qui
 * trading fees
 * QUICK tokens
 
-![Details of the MAI/USDC pool on QuickSwap as of August 2021](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![Details of the MAI/USDC pool on QuickSwap as of August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
 ## Degen farms and aggregators
 
@@ -96,7 +96,7 @@ Adamant currently supports a few pools that accept the MAI/USDC LP pair. The poo
 * DinoSwap: Dino reward is swapped into more MAI/USDC LP and WMATIC rewards
 * Mai Finance: Qi reward is swapped into more MAI/USDC LP and WMATIC rewards
 
-![QuickSwap MAI/USDC pool on Adamant](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.51.12 PM.png>)
+![QuickSwap MAI/USDC pool on Adamant](../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
 
 {% hint style="info" %}
 The screenshots of the QuickSwap pool on QuickSwap website (see paragraph above) and Adamant have been taken the same day, but are showing different APYs (**A**nnual **P**ercentage **Y**ield).
@@ -131,7 +131,7 @@ Other farms may also accept the MAI/USDC pool. If you want to stay informed abou
 
 [Impermax](https://polygon.impermax.finance) is a platform that let users leverage their LP tokens for higher yields. The goal is very simple: by providing LP tokens and using them as collateral, one can then borrow more of the 2 underlying assets to generate more LP tokens and repeat the loop.
 
-![Impermax loop explained](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
+![Impermax loop explained](../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
 
 When doing so, the user is exposed to impermanent loss, and the loss is magnified by the number of times the loop is repeated. The risk of liquidation is also multiplied when too many loops are applied. Indeed, if the APR is multiplied, the price variation of the two coins forming the pair is amplified by the lever effect, leading to faster liquidation.
 
@@ -153,11 +153,11 @@ Also, because all the rates are magnified by the number of times the loop is app
 
 In the end, you are using the base APR on a much bigger value, which is earning much bigger interests, increasing the APR of your initial position.
 
-![An example of Impermax dashboard with an initial $70.52 MAI/USDC pair](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.38.33 PM.png>)
+![An example of Impermax dashboard with an initial $70.52 MAI/USDC pair](../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
 
 I can see very easily how much I'm using as collateral, how much I initially invested, what's the leverage ratio, and what are the liquidation values due to the leverage ratio. This position will give me the following ratios at the time of writing
 
-![Earnings and spendings estimation at a given time](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.41.55 PM.png>)
+![Earnings and spendings estimation at a given time](../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
 
 The APR is granted in IMX token that can either be swapped for more MAI/USDC (use the power of Mai Finance to borrow at 0% interest, RFTM), or used to provide liquidity on specific pools accepting IMX on Impermax.
 
@@ -165,7 +165,7 @@ The APR is granted in IMX token that can either be swapped for more MAI/USDC (us
 
 Indeed, on the app you can also provide liquidity to those who want to apply leveraging loops to their positions (they will need underlying assets to generate more LP tokens). Lending assets is a great way to earn yield and let the borrowers take all the risks. Also, the more users are borrowing, the higher the supply APR will be.
 
-![Rates for supplying and borrowing MAI on Impermax at a given time](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.47.56 PM.png>)
+![Rates for supplying and borrowing MAI on Impermax at a given time](../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
 
 This is another great way to optimize your 0% loan on Mai Finance. Not only you don't have to pay anything to borrow MAI, but you can earn a lot of interest just by depositing it on Impermax.
 

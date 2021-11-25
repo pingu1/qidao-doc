@@ -4,15 +4,15 @@
 
 ## tutoriais para Polygon
 
-* [Como começar a tua jornada na rede Polygon](tutoriais-para-polygon/how-to-get-started-on-polygon.md)
-* [Alavancagem dos Tokens da plataforma Aave](tutoriais-para-polygon/leverage-aave-tokens.md)
+* [Como começar a tua jornada na rede Polygon](investment-tutorials/how-to-get-started-on-polygon.md)
+* [Alavancagem dos Tokens da plataforma Aave](investment-tutorials/leverage-aave-tokens.md)
 * [camDAI beginner strategy](tutoriais-para-polygon/camdai-beginner-strategy.md)
 * [Farming using only stable coins](tutoriais-para-polygon/secure-your-yield-farming-profits.md)
 * [What to do with MAI on Polygon](tutoriais-para-polygon/what-to-do-with-mai-on-polygon.md)
 * [What to do with Qi on Polygon](tutoriais-para-polygon/what-to-do-with-qi-on-polygon.md)
-* [Stack DApps like Lego bricks](tutoriais-para-polygon/stack-dapps-like-lego-bricks.md)
-* [Farming or Staking? Or both?](tutoriais-para-polygon/farming-or-staking-or-both.md)
-* [How to combine farming and borrowing rewards](tutoriais-para-polygon/how-to-combine-farming-and-borrowing-rewards.md)
+* [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
+* [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
+* [How to combine farming and borrowing rewards](investment-tutorials/how-to-combine-farming-and-borrowing-rewards.md)
 * [OHM forks on Polygon: The case of KLIMA](tutoriais-para-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
 
 ## tutoriais para avalanche
@@ -30,8 +30,8 @@
 * [Earning Passive Income with QiDAO](Universidade-do-MAI/earning-passive-income-with-qidao.md)
 * [How does MAI work?](Universidade-do-MAI/how-does-mai-work.md)
 * [MAI loans and Vaults incentives](Universidade-do-MAI/mai-loans-and-vaults-incentives.md)
-* [Debt repayment - Why and When?](Universidade-do-MAI/debt-repayment-why-and-when.md)
-* [Debt repayment - How?](Universidade-do-MAI/debt-repayment-how.md)
+* [Debt repayment - Why and When?](debt-management-tutorials/debt-repayment-why-and-when.md)
+* [Debt repayment - How?](debt-management-tutorials/debt-repayment-how.md)
 * [MAI Metaverse](Universidade-do-MAI/mai-metaverse.md)
 * [How to use MAI in the real life](Universidade-do-MAI/how-to-use-mai-in-the-real-life.md)
 
