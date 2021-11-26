@@ -13,7 +13,7 @@
 * [Xếp DApps giống xếp Lego](huong-dan/stack-dapps-like-lego-bricks.md)
 * [Farming hoặc Staking? Hoặc cả hai?](huong-dan/farming-or-staking-or-both.md)
 * [Cách để kết hợp giữa phần thưởng đi vay và farming](huong-dan/how-to-combine-farming-and-borrowing-rewards.md)
-* [OHM forks on Polygon: The case of KLIMA](huong-dan/ohm-forks-on-polygon-the-case-of-klima.md)
+* [Bản sao chép OHM trên Polygon: Trường hợp của KlimaDAO](huong-dan/ohm-forks-on-polygon-the-case-of-klima.md)
 
 ## Avalanche toàn tập <a href="mai-eqi-qi-tutorials" id="mai-eqi-qi-tutorials"></a>
 

@@ -1,132 +1,132 @@
 ---
 description: >-
-  This guide will present an overly simplified presentation of OHM-forks and
-  related projects, and how you can benefit from them on Polygon with the
-  special case of Klima DAO.
+  Hướng dẫn này sẽ trình bày đơn giản hóa các bản fork của Olympus DAO và cách
+  bạn có thể hưởng  lợi từ chúng bắng cách sử dụng MAI Finance và trường hợp cụ
+  thể là KlimaDAO trên Polygon.
 ---
 
-# OHM forks on Polygon: The case of KLIMA
+# Bản sao chép OHM trên Polygon: Trường hợp của KlimaDAO
 
-If you've been following the crypto news for the past few months, you certainly noticed a lot of (3,3) references, and heard about Ohm-related projects. I will try to present quickly what these projects are, what are the principle rules from their core, and how you can actually use them as part of your investment strategies. For this last part, we'll be focusing on Klima DAO, one of the most successful ohm-forks on Polygon, that also has a very interesting story and goal.
+Nếu bạn theo dõi tin tức tiền điện tử trong vài tháng gần đây, bạn chắc chẵn đã nghe qua dự án Olympus DAO và các bản fork của nó trên các hệ sinh thái khác nhau. Tôi sẽ cố trình bày nhanh các dự án này là gì, các giao thức cốt lõi của chúng cũng như cách mà bạn có thể sử dụng chúng như một phần trong chiến lược đầu tư của mình. Đến phần cuối của phần này, chúng ta sẽ tập trung vào một trường hợp cụ thể là Klima DAO, một trong những bản fork thành công nhất của Olympus DAO trên mạng  lưới Polygon. &#x20;
 
-## What are OHM-forks
+## Những bản nhánh của Olympus DAO là gì?
 
-### What is OHM and what is a fork?
+### OHM là gì và bản nhánh là gì?
 
-Everything started on the Ethereum Mainnet with Olympus DAO. Their goal is to create a new reserve currency to compete with the dollar, except that unless other stable coins, this new currency would have a floating value. The native token (Ohm) needs to be fully backed by a basket of different assets, however the tokenomics of the project make the value Ohm is defined by the market.
+Tất cả mọi thứ bắt đầu trên Ethereum Mainnet với sự ra đời của Olympus DAO. Mục tiêu của họ ra tạo ra một loại tiền tệ mới có thể cạnh tranh với đồng USD với giá trị được thả nổi theo thị trường. Đồng bản vị của Olympus DAO là OHM được hỗ trợ hoàn toàn bởi tập hợp các loại tài sản mã hóa khác nhau.
 
-Olympus DAO launched in March 2021 and is still a very successful project on Mainnet. The TVL is denominated in dozens of millions of dollars, and the Ohm price is keeping a very high price. Because of this success, the project has been forked (copied) and multiple Olympus DAO clones popped on many chains.
+Olympus DAO được ra mắt vào tháng 3 năm 2021 và hiện vẫn là một dự án thành công trên mainnet với TVL lên đến hàng chục triệu đô trong khi giá của token OHM vẫn ở mức cao. Chính vì sự thành công này nên đã có rất nhiều bản sao chép của Olympus DAO xuất hiện ở nhiều chuỗi khác nhau.&#x20;
 
-### Overview of the tokenomics
+### Tổng quan về Tokenomics
 
-This section will be a little more technical than what we use to present in our other guides, but to understand the success of Olympus and other Ohm-forks, it's important to understand how they work.
+Phần này sẽ có lượng kiến thức kỹ thuật nhiều hơn những hướng dẫn trước đây tuy nhiên để có thể hiểu được thành công của Olympus DAO, chúng ta phải hiểu được cách nó hoạt động.
 
-The base idea of the Olympus protocol is to increase the treasury as much as possible by selling the native token at a discount, while maintaining a circulating supply as low as possible to maintain a high price. This is done by providing very high rewards to stakers, and having almost full control of the liquidity.
+Ý tưởng cơ bản của giao thức Olympus là tăng kho bạc nhiều nhất có thể bằng cách bán mã thông báo gốc với giá chiết khấu, đồng thời duy trì nguồn cung lưu hành ở mức thấp nhất có thể để duy trì mức giá cao. Điều này được thực hiện bằng cách cung cấp phần thưởng rất cao cho các nhà đầu tư và có gần như toàn quyền kiểm soát thanh khoản.
 
-* **Bonding:** the protocol will propose native tokens at a discounted price. The price is paid using specific assets that are used to back the native token. In the example of Olympus DAO, the OHM token is 100% backed by a few tokens that include mostly DAI, so bonds can be purchased using DAI directly, or using DAI-OHM LP tokens (and lately additional tokens including FRAX). When people buy the native tokens using the backing assets or LP tokens, the payment goes directly in the treasury, allowing the protocol to mint more tokens, hence being able to run for a longer period of time. The only thing is that the discounted token is released over a vesting period, meaning the user who bought the native token using bonding will not be able to fully use it right away.
-* **Staking:** after bonding, users will collect the native tokens and will have the choice between selling them or staking them. In order to make sure that the latter option will be chosen, the protocol offers insanely high rewards to stakers (we're talking about 1.2% daily gains !!!). The goal behind these high APRs is to get a staking ratio as close as possible to 100%. If there aren't a lot of tokens circulating, the price is driven up, and coupled with high rewards, it makes it even more interesting to stake. As a side note, a price that goes up will also help keep high reward rates.
-* **Increasing the treasury and control the liquidity:** Treasury is increased from bonding, and from the fact that native tokens can be bonded with LP tokens that are almost completely controlled by the protocol. These LP tokens are used to collect swap fees for users who prefer buying the native token on the market at full price over bonding (see next chapter for details).
-* **Buy back and burn:** Most OHM-like projects include a mechanism that will buy back the native tokens and burn them on very specific occasions. Problems occur when users are selling the native token, driving the price down. However, if people sell their tokens, the APY goes up since the number of minted tokens remains the same for less staked tokens. But even with higher APY, if nobody buys and stakes the sold tokens, the protocol can possibly buy them back from the market in order to apply buying pressure, drive the price up and keep the circulating supply low. Tokens that are bought back are simply destroyed. Indeed, since part of the treasury has been used to acquire these tokens, keeping them in the treasury or distributing them would actually dilute the treasury, which would either reduce the rewards rate, or affect periods of time during which the protocol can run.
+* **Trái phiếu:** giao thức sẽ đề xuất các mã thông báo gốc ở mức giá chiết khấu. Giá được trả bằng cách sử dụng các tài sản cụ thể được sử dụng để hỗ trợ mã thông báo gốc. Trong ví dụ về Olympus DAO, mã thông báo OHM được hỗ trợ 100% bởi một số mã thông báo bao gồm chủ yếu là DAI, do đó, trái phiếu có thể được mua trực tiếp bằng DAI hoặc sử dụng cặp DAI-OHM LP (và gần đây là các mã thông báo FRAX). Khi mọi người mua mã thông báo gốc bằng cách sử dụng tài sản hỗ trợ hoặc mã thông báo LP, khoản thanh toán sẽ được chuyển trực tiếp vào kho bạc, cho phép giao thức đúc nhiều mã thông báo hơn, do đó có thể chạy trong một khoảng thời gian dài hơn. Điều duy nhất là mã thông báo chiết khấu được phát hành trong thời gian vesting, có nghĩa là người dùng đã mua mã thông báo gốc bằng cách sử dụng trái phiếu sẽ không thể sử dụng ngay lập tức.
+* **Gửi cố phần:** sau khi mua trái phiếu, người dùng sẽ thu thập các mã thông báo gốc và sẽ có sự lựa chọn giữa việc bán chúng hoặc đặt cố phần. Để đảm bảo rằng tùy chọn thứ hai sẽ được chọn, giao thức cung cấp phần thưởng cực kỳ cao cho những người đặt cược (chúng ta đang nói về mức lãi lên đến 1,2% hàng ngày !!!). Mục tiêu đằng sau những APR cao này là đạt được tỷ lệ đặt cổ phần gần 100% nhất có thể. Nếu không có nhiều token lưu hành, giá sẽ tăng và cùng với phần thưởng cao, thì việc đặt cổ phần thậm chí còn hấp dẫn hơn thế. Một lưu ý nhỏ là giá tăng cũng sẽ giúp giữ tỷ lệ phần thưởng cao.
+* **Tăng ngân quỹ và kiểm soát thanh khoản:** Lưu trữ kho bạc được tăng lên từ việc bán trái phiếu và từ thực tế là các mã thông báo gốc có thể được liên kết với các mã thông báo LP hầu như được kiểm soát hoàn toàn bởi giao thức. Các mã thông báo LP này được sử dụng để thu phí hoán đổi cho những người dùng thích mua mã thông báo gốc trên thị trường với giá đầy đủ so với việc mua bằng trái phiếu (xem chương tiếp theo để biết chi tiết).
+* **Mua lại và đốt:** Hầu hết các dự án giống OHM bao gồm một cơ chế sẽ mua lại các mã thông báo gốc và đốt chúng vào những dịp rất cụ thể. Vấn đề xảy ra khi người dùng bắt đầu bán các mã thông báo gốc, khiến giá bắt đầu giảm xuống. Tuy nhiên, nếu mọi người bán mã thông báo của họ, APY sẽ tăng lên vì số lượng mã thông báo được đúc vẫn giữ nguyên đối với các mã thông báo đặt cổ phần ít hơn. Nhưng ngay cả với APY cao hơn, nếu không có ai mua và đặt cổ phần các mã thông báo đã bán, giao thức cũng có thể mua lại chúng từ thị trường để tạo áp lực mua, đẩy giá lên và giữ cho nguồn cung lưu hành ở mức thấp. Các token được mua lại chỉ đơn giản là bị đốt. Thật vậy, vì một phần của kho bạc đã được sử dụng để mua những mã thông báo này, việc giữ chúng trong kho bạc hoặc phân phối chúng sẽ thực sự làm loãng kho bạc, điều này sẽ làm giảm tỷ lệ phần thưởng hoặc ảnh hưởng đến khoảng thời gian mà giao thức có thể chạy.
 
-You can find additional resources about the concept of Olympus DAO and its tokenomics here:
+Bạn có thể tìm thấy nguồn thông tin bổ sung về Olympus DAO tại đây:
 
 * [DeFi 2.0 - A new Narrative? Olympus DAO, Tokemak Explained](https://www.youtube.com/watch?v=l0vRTi8\_FRk)
 * [WTF is Olympus DAO](https://newsletter.banklesshq.com/p/wtf-is-olympus-dao)
 
-### Bonding VS Staking
+### Trái phiếu VS Gửi cổ phần
 
-Why would someone pay for a token when there's a discounted version available through a bond? This is a legitimate question, and the answer will depend on the discount offered by the bond.
+Tại sao ai đó sẵn sàng mua một mã thông báo trong khi có một phiên bản có giá thấp hơn bằng trái phiếu. Đây hoàn toàn là câu hỏi chính đáng và câu trả lời phụ thuộc vào mức chiết khấu mà trái phiếu đưa ra.
 
-Since we'll be working with Klima DAO, let's compare the buying + staking VS bonding:
+Vì chúng ta đang làm việc với Klima DAO, hãy so sánh giữa mua và đặt cổ phần với trái phiếu:
 
-![Klima staking reward as of November 2021](../.gitbook/assets/Klima-1.png)
+![Phần thưởng đặt cổ phần Klima tháng 11 năm 2021](../.gitbook/assets/Klima-1.png)
 
-![Klima bonding ROI as of November 2021](../.gitbook/assets/Klima-2.png)
+![Mức ROI của trái phiếu trên Klima tại thời điểm 11/2021](../.gitbook/assets/Klima-2.png)
 
-If one buys directly Klima from the market and stake it for 5 days (the actual vesting period for bonding), the ROI (**R**eturn **O**n **I**nvestment) will be 8.51%. If one buys a bond instead, the maximal ROI would be 5.47% by providing BCT/KLIMA.
+Nếu một người mua trực tiếp Klima từ thị trường và đặt cổ phần trong 5 ngày (thời gian thực tế của trái phiếu, ROI (Lợi tức đầu tư) sẽ là 8,51%. Nếu một người mua trái phiếu thay thế, ROI tối đa sẽ là 5,47% bằng cách cung cấp cặp BCT / KLIMA.
 
-This means that, with the equivalent of $100, you would get after 5 days
+Điều này có nghĩa là, với số tiền tương đương 100 đô la, bạn sẽ nhận được sau 5 ngày
 
-* $108.51 with the 1st option
-* $105.47 with the 2nd option
+* $108.51 với lựa chọn 1
+* $105.47 với lựa chọn 2
 
-However, it's important to understand that bonded Klima are released over the vesting period. Hence you can harvest the vested Klima and stake it in order to profit from rebases (reward distribution). Since you will only get rewards for whatever you staked during the vesting period, and since there are 15 rebases during the 5 days for the bond to be fully released, we can assume that you can potentially harvest 6.67% before each one of the 15 rebases. Assuming you will harvest and stake at the beginning of each rebase, you would get this:
+Tuy nhiên, điều quan trọng là phải hiểu rằng trái phiếu Klima được phát hành trong thời gian chuyển biến. Do đó, bạn có thể thu hoạch Klima được trao và đặt cược nó để kiếm lợi nhuận từ các đợt phân phối phần thưởng. Vì bạn sẽ chỉ nhận được phần thưởng cho bất cứ thứ gì bạn đã đặt cược trong thời gian chuyển biến và vì có 15 đợt phân phối phần thưởng trong 5 ngày để trái phiếu được phát hành hoàn toàn, chúng ta có thể giả định rằng bạn có khả năng thu được 6,67% trước mỗi một trong số 15 khoản bồi hoàn. Giả sử bạn sẽ thu hoạch và đặt cổ phần vào đầu mỗi đợt bồi hoàn, bạn sẽ nhận được:
 
-| rebase # | Amount staked | Reward | Total reward |
-| -------- | ------------- | ------ | ------------ |
-| 1        | 7.031         | 0.038  | 0.038        |
-| 2        | 14.063        | 0.077  | 0.116        |
-| 3        | 21.094        | 0.116  | 0.232        |
-| 4        | 28.125        | 0.155  | 0.397        |
-| 5        | 35.157        | 0.193  | 0.580        |
-| 6        | 42.188        | 0.232  | 0.812        |
-| 7        | 49.219        | 0.271  | 1.083        |
-| 8        | 56.251        | 0.309  | 1.392        |
-| 9        | 63.282        | 0.348  | 1.740        |
-| 10       | 70.313        | 0.387  | 2.127        |
-| 11       | 77.345        | 0.425  | 2.552        |
-| 12       | 84.376        | 0.464  | 3.016        |
-| 13       | 91.407        | 0.503  | 3.519        |
-| 14       | 98.439        | 0.514  | 4.061        |
-| 15       | 105.470       | 0.580  | 4.651        |
+| # Các đợt trả thưởng | Số lượng được đặt  | Phần thưởng  | Tổng phần thưởng |
+| -------------------- | ------------------ | ------------ | ---------------- |
+| 1                    | 7.031              | 0.038        | 0.038            |
+| 2                    | 14.063             | 0.077        | 0.116            |
+| 3                    | 21.094             | 0.116        | 0.232            |
+| 4                    | 28.125             | 0.155        | 0.397            |
+| 5                    | 35.157             | 0.193        | 0.580            |
+| 6                    | 42.188             | 0.232        | 0.812            |
+| 7                    | 49.219             | 0.271        | 1.083            |
+| 8                    | 56.251             | 0.309        | 1.392            |
+| 9                    | 63.282             | 0.348        | 1.740            |
+| 10                   | 70.313             | 0.387        | 2.127            |
+| 11                   | 77.345             | 0.425        | 2.552            |
+| 12                   | 84.376             | 0.464        | 3.016            |
+| 13                   | 91.407             | 0.503        | 3.519            |
+| 14                   | 98.439             | 0.514        | 4.061            |
+| 15                   | 105.470            | 0.580        | 4.651            |
 
-At the end of the vesting period, the 5.47% ROI is respected, but staking rewards also added an extra 4.65% (that haven't been compounded for simplicity), resulting in a 10.12% ROI. This means that bonding is actually more interesting than staking directly, even if the bonding ROI seems lower than the staking ROI.
+Vào cuối mỗi giai đoạn chuyển đổi, ROI 5,47% được ghi nhận, nhưng phần thưởng đặt cổ phần cũng tăng thêm 4,65% (chưa được cộng lại), dẫn đến ROI 10,12%. Điều này có nghĩa là trái phiếu thực sự thú vị hơn đặt cổ phần trực tiếp, ngay cả khi ROI trái phiếu có vẻ thấp hơn ROI đặt cổ phần.
 
-The total reward you will get by staking N times over the vesting period (with Nmax = 15 at most) is:
+Tổng phần thưởng bạn sẽ nhận được khi đặt cược N lần trong khoảng thời gian chuyển đổi (với Nmax tối đa = 15) là:
 
-$$Reward_{total} = \sum_{i=1}^{N}{\frac{Investment * i * (1 + APR_{Vesting})}{N} * APR_{staking}}$$
+$$Tổng_{phần.thưởng} = \sum_{i=1}^{N}{\frac{Vốn.đầu.tư * i * (1 + APR_{Thời.gian.chuyển.đỏi})}{N} * APR_{Đặt.cổ.phần}}$$
 
-You can then run your own simulations in order to verify if it's better to buy and stake, or to bond. For our example, with a staking ROI of 8.51% over 5 days, a bonding discount of 3.95% with 15 rebases would be better (giving an equivalent ROI of 8.52%).
+Sau đó, bạn có thể chạy các mô phỏng của riêng mình để xác minh xem liệu tốt hơn nên mua và đặt cược hay gửi trái phiếu. Trong ví dụ, với ROI đặt cược là 8,51% trong 5 ngày, chiết khấu liên kết 3,95% với 15 lần tăng giá sẽ tốt hơn (cho ROI tương đương là 8,52%).
 
 {% hint style="info" %}
-You can run the same simulation with harvest + stake only once a day instead of 3 times a day before each rebase. For the same APY as above, you would need a bonding discount of 6.76% to get a better ROI than staking.
+Bạn có thể chạy mô phỏng tương tự với thu hoạch + đặt cổ phần chỉ một lần một ngày thay vì 3 lần một ngày trước mỗi lần rebase. Đối với cùng một APY như trên, bạn sẽ cần chiết khấu trái phiếu là 6,76% để có được ROI tốt hơn so với đặt cổ phần.
 {% endhint %}
 
 {% hint style="success" %}
-You can find a simulator for your bonding VS staking calculation under the form of [a google spreadsheet](https://docs.google.com/spreadsheets/d/1MTKTbf-ZAihGbEax3WEwkxToG7IlPKlwmYq59O3KG2o/edit#gid=0) you can copy and edit at your will. Note that this page is NOT maintained nor provided by the QiDAO community.
+Bạn có thể tìm thấy một trình mô phỏng để tính toán gửi trái phiếu VS đặt cổ phần của mình dưới [dạng bảng tính google](https://docs.google.com/spreadsheets/d/1MTKTbf-ZAihGbEax3WEwkxToG7IlPKlwmYq59O3KG2o/edit#gid=0), bạn có thể sao chép và chỉnh sửa theo ý mình. Lưu ý rằng trang này KHÔNG được duy trì cũng như không được cung cấp bởi cộng đồng QiDAO.
 {% endhint %}
 
-### The special case of Klima DAO
+### Trường hợp đặc biệt của Klima DAO
 
-The specificity that makes Klima DAO different from other Ohm-forks is the main asset backing the Klima token: the BCT token, provided by the [Toucan Protocol](https://toucan.earth). The BCT (**B**ase **C**arbon **T**onne) is actually representing investments in the real world to decarbonize the earth, turning carbon offsets from the real world into tokens. You can read a lot more about how it works in the [official documentation](https://docs.toucan.earth/protocol/introduction/defi-refi) of Toucan.
+Đặc điểm cụ thể khiến Klima DAO khác với các Ohm-fork khác là tài sản chính hỗ trợ mã thông báo gốc Klima: mã thông báo BCT, được cung cấp bởi [Toucan Protocol](https://toucan.earth). BCT (Base Carbon Tonne) thực sự đại diện cho các khoản đầu tư vào thế giới thực để khử carbon trên trái đất, biến lượng carbon bù đắp từ thế giới thực thành token. Bạn có thể đọc thêm nhiều điều về cách nó hoạt động trong [tài liệu chính thức ](https://docs.toucan.earth/protocol/introduction/defi-refi)của Toucan
 
-BCT is then used by the [Klima DAO app](https://dapp.klimadao.finance) to mint the KLIMA tokens, the same way DAI is used by the Olympus DAO to mint OHM. In other words, Klima acts like a Carbon sink, providing real life funds to fight climate change. More info can be found on the [Klima website](https://www.klimadao.finance) and [documentation](https://klima-dao.gitbook.io/klima-dao/), and you can come and discuss ways to make crypto greener on the Discord server of QiDAO.
+BCT sau đó được [ứng dụng Klima DAO ](https://dapp.klimadao.finance/#/stake)sử dụng để đúc mã thông báo KLIMA, giống như cách DAI được Olympus DAO sử dụng để đúc OHM. Nói cách khác, Klima hoạt động giống như một bể chứa Carbon, cung cấp nguồn vốn thực tế để chống lại biến đổi khí hậu. Bạn có thể tìm thấy thêm thông tin trên [trang web ](https://www.klimadao.finance)và [tài liệu ](https://docs.klimadao.finance)của Klima, đồng thời bạn có thể đến và thảo luận về các cách làm cho tiền điện tử trở nên xanh hơn trên máy chủ Discord của QiDAO.
 
 {% hint style="info" %}
-One of the main differences between Olympus and Klima is that BCT doesn't have a stable price. This presents a higher risk than for forks using stable coins to build their treasury, however it's assumed that environmental problems will be more and more important, and there will be more and more projects trying to extract carbon from the atmosphere, which would in turn increase the overall value of BCT.
+Một trong những điểm khác biệt chính giữa Olympus và Klima là BCT không có giá ổn định. Điều này mang lại rủi ro cao hơn so với các fork sử dụng tiền xu ổn định để xây dựng kho bạc của họ, tuy nhiên, người ta cho rằng các vấn đề môi trường sẽ ngày càng quan trọng hơn và sẽ có ngày càng nhiều dự án cố gắng khai thác carbon từ khí quyển, điều này sẽ làm tăng giá trị tổng thể của BCT.
 {% endhint %}
 
-## Strategy 1: sKLIMA leverage, or full (9,9)
+## Chiến lược 1: Tạo đòn bẩy chosKLIMA , or full (9,9)
 
-Without going deep into the [(3,3) game theory](https://en.wikipedia.org/wiki/Nash\_equilibrium), (9,9) represent a situation where one is leveraging a staked position. This is actually possible because Klima DAO will provide a sKLIMA token as a proof of deposit that some platform will accept as a collateral for a possible loan. Let's see the details of it.
+Nếu không đi sâu vào[ lý thuyết trò chơi (3,3)](https://en.wikipedia.org/wiki/Nash\_equilibrium), (9,9) đại diện cho một tình huống trong đó một người đang tận dụng một vị thế đặt cược. Điều này thực sự có thể thực hiện được vì Klima DAO sẽ cung cấp mã thông báo sKLIMA làm bằng chứng ký quỹ mà một số nền tảng sẽ chấp nhận làm tài sản thế chấp cho một khoản vay khả thi. Hãy cùng xem chi tiết.
 
-### The leverage loop using MarketXYZ and Klima
+### Vòng lặp đòn bẩy sử dụng Klima và MarketXYZ
 
-![Leverage your Klima position](../.gitbook/assets/Klima-3.png)
+![Tạo đòn bẩy cho vị thế Klima ](../.gitbook/assets/Klima-3.png)
 
-The idea is to get an initial amount of KLIMA token that you can deposit on Klima DAO. This will allow you to get very high APY (as of writing, the APY is 38,873.08%, or 601% APR or a daily gain of 1.68%) and by depositing your KLIMA token, you will get sKLIMA as a proof of deposit.
+Ý tưởng là nhận được một lượng mã thông báo KLIMA ban đầu mà bạn có thể gửi trên Klima DAO. Điều này sẽ cho phép bạn nhận được APY rất cao (kể từ khi viết, APY là 38.873,08%, hoặc 601% APR hoặc mức lợi nhuận hàng ngày là 1,68%) và bằng cách gửi mã thông báo KLIMA của bạn, bạn sẽ nhận được sKLIMA làm bằng chứng gửi tiền.
 
-This sKLIMA token can be used on Market XYZ in the [Green Leverage Locker](https://polygon.market.xyz/pool/5) which will allow you to take a loan against this deposit.
+Mã thông báo sKLIMA này có thể được sử dụng trên Market XYZ trong [Tủ khóa đòn bẩy xanh](https://polygon.market.xyz/pool/5), điều này sẽ cho phép bạn vay theo khoản tiền gửi này.
 
 {% hint style="info" %}
-As a side note, Mai Finance partnered with Market XYZ and seeded the green locker pool with 1M MAI to guarantee low interest rates when you borrow MAI against your sKLIMA.
+Xin lưu ý thêm, Mai Finance đã hợp tác với Market XYZ và tạo ra quỹ khóa xanh với 1M MAI để đảm bảo lãi suất thấp khi bạn vay MAI đối với sKLIMA của mình.
 {% endhint %}
 
-![Green locker on Market XYZ as of november 2021](../.gitbook/assets/Klima-Marketxyz.png)
+![Tủ khóa màu xanh lá cây trên MarketXYZ tháng 11 năm 2021](../.gitbook/assets/Klima-Marketxyz.png)
 
-It's not an obligation for you to borrow MAI, you can actually borrow whatever token with the lowest interest rate, but you need to keep in mind that you will have to pay fees on your loan, and the faster you repay your loan, the less fees you will pay.
+Bạn không có nghĩa vụ phải vay MAI, bạn thực sự có thể vay bất kỳ mã thông báo nào với lãi suất thấp nhất, nhưng bạn cần lưu ý rằng bạn sẽ phải trả phí cho khoản vay của mình và bạn trả khoản vay càng nhanh thì càng ít phí bạn sẽ trả.
 
-With your loan, you will be able to buy more KLIMA tokens and repeat the loop.
+Với khoản vay của mình, bạn sẽ có thể mua thêm mã thông báo KLIMA và lặp lại vòng lặp.
 
-You will notice that the APY on sKLIMA will largely compensate the interests on your loan.
+Bạn sẽ nhận thấy rằng APY trên sKLIMA sẽ bù đắp phần lớn các khoản lãi cho khoản vay của bạn.
 
 {% hint style="warning" %}
-There's a minimum amount to borrow on Market.xyz, please check the  limit when you want to apply this strategy.
+Có một số tiền tối thiểu để vay trên Market.xyz, vui lòng kiểm tra giới hạn khi bạn muốn áp dụng chiến lược này.
 {% endhint %}
 
-### Expected results
+### Kết quả mong đợi
 
-Market XYZ will also have some liquidation levels, meaning that if your collateral value goes below the liquidation level, there's a risk for you to lose your collateral. In order to lower the risk of liquidation, the following simulation assumes that you will keep an C/D ratio of 250%, and that you invest an initial $1,000 of KLIMA tokens at 38,873% APY to borrow MAI at 20.49% interest
+Thị trường XYZ cũng sẽ có một số mức thanh lý, có nghĩa là nếu giá trị tài sản thế chấp của bạn thấp hơn mức thanh lý, bạn sẽ có nguy cơ mất tài sản thế chấp của mình. Để giảm rủi ro thanh lý, mô phỏng sau giả định rằng bạn sẽ giữ tỷ lệ C / D là 250% và bạn đầu tư 1.000 đô la ban đầu của mã thông báo KLIMA ở mức 38,873% APY để vay MAI với lãi suất 20,49%
 
 | sKLIMA ($) | MAI loan ($) | eq. APY (%) | interests ($) |
 | ---------- | ------------ | ----------- | ------------- |
@@ -138,42 +138,42 @@ Market XYZ will also have some liquidation levels, meaning that if your collater
 | 1,659.84   | 663.94       | 64,523      | 136.04        |
 | 1,663.94   | 665.57       | 64,682      | 136.38        |
 
-Of course, it's possibly enough to stop after 3 loops since the equivalent APY won't grow much past that.
+Tất nhiên, nó có thể đủ để dừng sau 3 vòng vì APY tương đương sẽ không tăng quá nhiều so với thời gian đó.
 
-As a side note, because the initial investment is $1,000,the value you will get at the end of 1 year would be $646,820.00, assuming everything stays the same. In other words, you invest $1,000, you will need to repay $665.57 with an additional $136.38 (an accumulated debt of $801.95) but you will also earn $646,820.
+Lưu ý thêm, vì khoản đầu tư ban đầu là 1.000 đô la, giá trị bạn sẽ nhận được vào cuối 1 năm sẽ là 646.820,00 đô la, giả sử mọi thứ vẫn như cũ. Nói cách khác, bạn đầu tư 1.000 đô la, bạn sẽ cần phải trả lại 665,57 đô la và thêm 136,38 đô la (khoản nợ tích lũy là 801,95 đô la) nhưng bạn cũng sẽ kiếm được 646.820 đô la.
 
-You can also see that the value of your sKLIMA position is growing very quickly (around 8% every 5 days), which means you can also increase your debt at this point and leverage even more for additional gains.
+Bạn cũng có thể thấy rằng giá trị của vị thế sKLIMA của bạn đang tăng rất nhanh (khoảng 8% sau mỗi 5 ngày), có nghĩa là bạn cũng có thể tăng khoản nợ của mình tại thời điểm này và tận dụng nhiều hơn nữa để có thêm lợi nhuận.
 
-### Capturing benefits value and repaying your loan
+### Nhận lợi ích và hoàn trả khoản vay của bạn
 
-One of the main issues with Ohm-fork projects is that it assumes that everybody is staking and nobody sells. But, if nobody sells, nobody gets any benefits, and in most cases, the first to sell will get the cake.
+Một trong những vấn đề chính của các dự án OHM-fork là nó giả định rằng mọi người đều đặt cổ phần và không ai bán. Nhưng, nếu không ai bán, thì không ai nhận được bất kỳ lợi ích nào, và trong hầu hết các trường hợp, người bán đầu tiên sẽ nhận được nhiều lợi ích nhất.
 
-For any investment strategy, it's important to capture the value of your gains. You can do it by withdrawing a part of your sKLIMA position on Market XYZ and get back KLIMA that you can sell.
+Đối với bất kỳ chiến lược đầu tư nào, điều quan trọng là phải nắm bắt được giá trị thu được của bạn. Bạn có thể làm điều đó bằng cách rút một phần vị trí sKLIMA của mình trên MarketXYZ và nhận lại KLIMA mà bạn có thể bán.
 
-If you invest $100 and operate the 7 loops as above, your investment in KLIMA would have generated $67.11 after 31 days, which means you can fully repay your loan with interest in 1 single month. If you do so, you will start again with 166$ the next month and no outstanding debt. Just keep an eye on the borrowing APR that can get pretty high on Market XYZ.
+Nếu bạn đầu tư 100 đô la và vận hành 7 vòng  lặp như trên, khoản đầu tư của bạn vào KLIMA sẽ tạo ra 67,11 đô la sau 31 ngày, có nghĩa là bạn có thể hoàn trả đầy đủ khoản vay của mình với lãi suất trong 1 tháng. Nếu bạn làm như vậy, bạn sẽ bắt đầu lại với 166 đô la vào tháng tiếp theo và không còn nợ. Chỉ cần theo dõi lãi suất đi vay có thể khá cao trên Market XYZ.
 
-## Strategy 2: Continuous Investment, or full (4,4)
+## Chiến lược 2: Đầu tư liên tục, hoặc toàn bộ (4,4)
 
-Once again, (4,4) is related to game theory and reserve currencies, and indicate people who bond their tokens then stake them. In this strategy, we will see how we can use Klima and Augury to purchase bonds regularly, and stake them continuously.
+Một lần nữa, (4,4) có liên quan đến lý thuyết trò chơi và tiền tệ dự trữ, và những người mua trái phiếu mã thông báo của họ sau đó đặt cổ phần chúng. Trong chiến lược này,  chúng ta có thể sử dụng Klima và Augury để mua trái phiếu và đặt cổ phần liên tục.
 
-### The investment loop using Augury and Mai Finance
+### Vòng lặp đầu tư sử dụng Augury và Mai Finance
 
-![Continuous investment using Augury Finance and Mai Finance](../.gitbook/assets/Klima-4.png)
+![Đầu tư liên tục bằng Augury Finance và Mai Finance](../.gitbook/assets/Klima-4.png)
 
-We are still using Klima, but this time we're using an [infusion from Augury Finance](https://augury.finance/infusions) in order to automate the extraction of the value of Klima. By depositing your KLIMA tokens in the infusion, the algorithm in charge of the infusion will perform the following actions after each rebase:
+Chúng ta vẫn đang sử dụng Klima, nhưng lần này chúng ta đang sử dụng nguồn cung cấp từ Augury Finance để tự động hóa việc trích xuất giá trị của Klima. Bằng cách gửi mã thông báo KLIMA của bạn vào [Infusion](https://augury.finance/infusions), thuật toán phụ trách sẽ thực hiện các tác vụ sau sau mỗi lần rebase:
 
-* 50% of the KLIMA harvested is restaked to increase your sKLIMA position
-* 50% of the KLIMA harvested is sold for USDC added to the NFTM pool on Augury, and distributed to you as NFTM tokens
+* 50% KLIMA thu hoạch được đặt lại để tăng vị thế sKLIMA của bạn
+* 50% KLIMA thu được được bán với USDC được thêm vào bể NFTM trên Augury và được phân phối cho bạn dưới dạng mã thông báo NFTM
 
-![Augury Infusion with 0% performance fee and 0% deposit fee](../.gitbook/assets/Klima-Augury.png)
+![Augury Infusion với 0% phí thực hiện và 0% phí gửi](../.gitbook/assets/Klima-Augury.png)
 
-NFTM can then either be held while it increases in value, or redeemed for its USDC value. In other words, it doesn't matter if the KLIMA token loses value after a rebase since its value is captured and stored as NFTM.
+NFTM sau đó có thể được giữ lại khi nó tăng giá trị hoặc đổi lấy USDC của nó. Nói cách khác, không quan trọng nếu mã thông báo KLIMA mất giá trị sau khi rebase vì giá trị của nó được ghi lại và lưu trữ dưới dạng NFTM.
 
-After redeeming the USDC value of your NFTM rewards, you can then buy the token of your choice and store it in a vault in Mai Finance. The example above is using a camWETH vault, but you can really use any vault you like. The idea is to be able to use the vaults on Mai Finance to borrow MAI and buy new bonds on Klima DAO to repeat the loop. Then you can harvest the KLIMA tokens and inject them in Augury. Keep in mind that bonds are vesting little at a time, so it's totally possible to harvest regularly and stake on Augury before your bond is totally vested.
+Sau khi quy đổi giá trị USDC của phần thưởng NFTM, bạn có thể mua mã thông báo mà mình chọn và cất giữ trong kho của Mai Finance. Ví dụ trên đang sử dụng một vault camWETH, nhưng bạn thực sự có thể sử dụng bất kỳ vault nào bạn thích. Ý tưởng là có thể sử dụng kho tiền trên Mai Finance để vay MAI và mua trái phiếu mới trên Klima DAO để lặp lại vòng lặp. Sau đó, bạn có thể thu hoạch mã thông báo KLIMA và đưa chúng trở lại trong Augury. Hãy nhớ rằng trái phiếu đang cạnh tranh rất ít tại một thời điểm, vì vậy bạn hoàn toàn có thể thu hoạch thường xuyên và đặt vào Augury trước khi trái phiếu của bạn được trao hoàn toàn.
 
-### Expected results
+### Kết quả mong đợi
 
-Assuming you invest $100 like in the previous example, and place it directly in the Augury infusion, that the APR of the Klima infusion is 552.94% (current value as of writing), and that you want to keep a C/D ratio on the camWETH vault of 240% and a APY of 2.19% on the camWETH vault, here are the results over one year:
+Giả sử bạn đầu tư 100 đô la như trong ví dụ trước và đặt nó trực tiếp vào Infusion trên Augury, APR của  Klima Infusion là 552,94% (giá trị hiện tại khi viết bài) và bạn muốn giữ tỷ lệ C / D trên camWETH vault là 240% và APY là 2,19% trên camWETH vault, đây là kết quả trong một năm:
 
 | day | sKLIMA ($) | wETH ($)  | MAI loan ($) |
 | --- | ---------- | --------- | ------------ |
@@ -190,28 +190,28 @@ Assuming you invest $100 like in the previous example, and place it directly in 
 | 330 | 3,400.140  | 2,363.625 | 984.844      |
 | 360 | 4,685.775  | 3,284.424 | 1,368.510    |
 
-Once again, assuming that all rates and prices stay the same, at the end of the year you would have
+Một lần nữa, giả sử rằng tất cả các tỷ giá và giá cả không đổi, vào cuối năm, bạn sẽ có
 
-* $4,684.775 worth of KLIMA tokens
-* $3,284.424 worth of wETH
-* and outstanding debt of $1,368.510
+* $4,684.775 giá trị của mã thông báo KLIMA
+* $3,284.424 giá trị của wETH
+* và dư nợ của $1,368.510
 
-Which is an equivalent APY of 6,866.46%. This is far from the 38,705.13% advertised by KLIMA, but still pretty impressive for a $100 investment. Also, a good load of your gains have been converted into wETH in a vault on Mai Finance, and your loan on the application will get you some additional Qi Tokens.
+Đó là một APY tương đương là 6,866,46%. Con số này khác xa so với 38,705,13% được quảng cáo bởi KLIMA, nhưng vẫn khá ấn tượng đối với khoản đầu tư 100 đô la. Ngoài ra, phần lớn lợi nhuận của bạn đã được chuyển đổi thành WETH trong một kho tiền trên Mai Finance và khoản vay của bạn trên ứng dụng này sẽ giúp bạn nhận được một số Token Qi bổ sung.
 
 {% hint style="info" %}
-If this strategy has a much lower APY than pure (9,9), it's also a relatively affordable one since you can enter the loop with as much as KLIMA you want.
+Nếu chiến lược này có APY thấp hơn nhiều so với thuần túy (9,9), thì nó cũng là một chiến lược tương đối hợp lý vì bạn có thể tham gia vòng lặp với bao nhiêu KLIMA bạn muốn.
 {% endhint %}
 
-## Disclaimer
+## Tuyên bố từ chối trách nhiệm
 
-Everything presented in this document is pure theory and is proposed for educational purposes. The biggest issue with projects like Olympus and Klima is that, once again, the first user to sell will profit from the high price. If the first sell is massive (because gains are massive), it can snowball quickly into a panic effect that can very well kill the price of the KlIMA token. However, in this case, the APY would skyrocket, meaning that users who don't sell will benefit from very high rewards, so that when the APY attracts new users, the ones who held will be big winners.
+Mọi thứ được trình bày trong tài liệu này là lý thuyết thuần túy và được đề xuất cho các mục đích giáo dục. Vấn đề lớn nhất với các dự án như Olympus và Klima là, một lần nữa, người dùng đầu tiên bán sẽ thu được lợi nhuận từ mức giá cao. Nếu lần bán đầu tiên là lớn (vì lợi nhuận thu được là lớn), nó có thể tạo ra hiệu ứng cầu tuyết nhanh chóng thành hiệu ứng hoảng sợ, rất có thể giết chết giá của mã thông báo KlIMA. Tuy nhiên, trong trường hợp này, APY sẽ tăng vọt, có nghĩa là những người dùng không bán hàng sẽ được hưởng lợi từ phần thưởng rất cao, do đó khi APY thu hút người dùng mới, những người nắm giữ sẽ là người chiến thắng lớn.
 
-It's also good to note that the project can only continue to print tokens as long as additional funds are injected into the treasury.
+Cũng cần lưu ý rằng dự án chỉ có thể tiếp tục in mã thông báo miễn là có thêm tiền vào kho bạc.
 
-So the risk can be very high if you don't extract some benefits from time to time in order to lower the risks.
+Vì vậy, rủi ro có thể rất cao nếu bạn không trích xuất một số lợi ích theo thời gian để giảm rủi ro.
 
-As a final note, pay attention that ohm-forks are the new trend, but most projects may fail, and a lot of these forks are not solid projects. Because of their nature, they are not verified by RugDoc yet, and it may be very complicated to identify real applications from pure scam.
+Lưu ý cuối cùng, hãy chú ý rằng ohm-fork là xu hướng mới, nhưng hầu hết các dự án có thể thất bại và rất nhiều fork trong số này không phải là những dự án vững chắc. Vì bản chất của chúng, chúng chưa được RugDoc xác minh và có thể rất phức tạp để xác định các ứng dụng thực sự từ lừa đảo thuần túy.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}
