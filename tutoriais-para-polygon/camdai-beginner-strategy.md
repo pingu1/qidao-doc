@@ -33,15 +33,15 @@ Você volta ao banco e deposita o ouro que comprou. Isso resulta em juros maiore
 
 Isso é o que nós chamamos de alavancagem. Agora, imagine encontrar um banco que permite você tomar emprestado, a juros de 0%. Uma excelente maquina de imprimir dinheiro, de fato. E tudo graças aos juros que você esta recebendo.
 
-## Introducing the tools
+## Introduzindo as ferramentas
 
 ### AAVE
 
-[AAVE](https://app.aave.com) is a lending and borrowing platform where you can deposit your assets. By lending on AAVE, your deposited tokens will earn yield. For our strategy, we'll be lending DAI, a stable coin (pegged to the US dollar). On AAVE, $100 worth of DAI will potentially generate between 4% and 10% rate of return over the span of 1 year.
+[AAVE](https://app.aave.com) é uma plataforma de empréstimos onde você consegue depositar seus ativos. Emprestando na AAVE, seus tokens depositados te geram juros. Para a nosa estratégia nós iremos depositar DAI, uma stable coin (pareada ao dolar americano). Na AAVE, 100$ de DAI, podem geram entre 4% a 10% de retorno ao seu investimento em um prazo de 1 ano.
 
-![AAVE markets on Polygon as of October 2021](../.gitbook/assets/canDAI-aave.png)
+![Mercados da AAVE na Polygon em Outubro de 2021](../.gitbook/assets/canDAI-aave.png)
 
-When you deposit your assets on AAVE, you will receive a proof of deposit. In our example, since we are depositing DAI, we will get amDAI tokens in our wallet (**a**ave **m**arket DAI). You absolutely need to keep this receipt because you will need it to remove your DAI from AAVE. This is the bank that will accept your gold in our far west comparison.
+Ao depositar seus ativos na AAVE, você receberá uma prova de deposito. Nos nossos exemplos, como nós estamos depositando DAI, nós iremos receber tokens amDAI em nossa carteira. Você precisa guardar este comprovante pois é somente com ele que você pode posteriormente retirar os seus tokens DAI da AAVE. Esse é o banco que irá aceitar o seu ouro no nosso exemplo do faroeste.
 
 ### Mai Finance
 
