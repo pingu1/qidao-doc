@@ -45,9 +45,9 @@ Ao depositar seus ativos na AAVE, você receberá uma prova de deposito. Nos nos
 
 ### Mai Finance
 
-[Mai Finance](https://app.mai.finance) is a lending platform that will let you deposit some assets in a vault, and borrow against the value of this deposit. If we go back to the bank analogy, it would be a bank that lets you take a loan, but the loan doesn't come from what other people are lending. Instead, the bank prints money corresponding to your personal deposit, so you only borrow against yourself.
+[Mai Finance](https://app.mai.finance) é uma plataforma de emprestimentos que permite a você depositar ativos em um cofre, e transforma-los em colateral, para assim receber emprestimos do mesmo valor do cofre. Se nós voltarmos a analogia do banco, este seria o banco que permite a você tomar emprestado. Mas este emprestimo não vem do que as outras pessoas estão emprestando. Ao invez, o banco imprime dinheiro correspondente ao seu depósito pessoal, então você apenas pega emprestado sobre o que você depositou.
 
-Mai finance will accept the amDAI on its [yield instrument](https://app.mai.finance/yield). The yield instrument is just an intermediate tool between AAVE and the vault on Mai Finance. As you can see in the AAVE screenshot, lending DAI will make you earn 8.75% in DAI (that is compounded), but also 2.01% reward in MATIC. The yield instrument on Mai Finance will harvest this MATIC reward and swap it for more DAI that will be added to your DAI deposit. The APY (**A**nnual **P**ercentage **Y**ield) on the Mai Finance site is hence showing the aggregated interests from AAVE.
+Mai finance aceitará o amDAI como seu [instrumento de rendimento](https://app.mai.finance/yield). O instrumento de rendimentos é apenas um intermediario entre a AAVE a o cofre na Mai Finance. Como você pode observar na foto acima, emprestar DAI irá garantir a você um retorno de 8.75% em DAI (como juros compostos), e também 2.01% de recompensas em MATIC. O instrumento de rendimento na Mai Finance irá produzir esta recompensa em MATIC e trocar por mais DAI, que será adicionado ao seu deposito de DAI. O _APY_ (_**A**nnual **P**ercentag_e _**Y**ield_, rendimento percentual anual em inglês) na Mai Finance está, portanto, mostrand os juros agregados da AAVE.
 
 ![Yield instrument on Mai Finance](../.gitbook/assets/camDAI-yield.png)
 
