@@ -1,10 +1,10 @@
 # Table of contents
 
-* [O Guia Não Oficial de Mai Finance](README.md)
+* [O Guia Não Oficial da Mai Finance](README.md)
 
 ## tutoriais para Polygon
 
-* [Como começar a tua jornada na rede Polygon](investment-tutorials/how-to-get-started-on-polygon.md)
+* [Como começar a sua jornada na Polygon](investment-tutorials/how-to-get-started-on-polygon.md)
 * [Alavancagem dos Tokens da plataforma Aave](investment-tutorials/leverage-aave-tokens.md)
 * [Estratégia de principiante camDAI](tutoriais-para-polygon/camdai-beginner-strategy.md)
 * [Farming using only stable coins](tutoriais-para-polygon/secure-your-yield-farming-profits.md)
@@ -35,7 +35,7 @@
 * [MAI Metaverse](Universidade-do-MAI/mai-metaverse.md)
 * [How to use MAI in the real life](Universidade-do-MAI/how-to-use-mai-in-the-real-life.md)
 
-## Junta-te à comunidade <a href="community" id="community"></a>
+## Junta-te à comunidade <a href="#community" id="community"></a>
 
 * [Discord](https://discord.gg/qidaoprotocol)
 * [Telegram](https://t.me/QiDaoProtocol)
