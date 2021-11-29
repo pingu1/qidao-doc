@@ -13,7 +13,7 @@ A maioria das pessoas se assusta quando pensam em DeFi. Existem sempre fatores d
 
 Neste guia, vamos apresentar uma estratégia de investimento com base na alavancagem de uma _stable coin_, moeda estavel em inglês, com uma pitada de risco para obter maiores taxas de juros.
 
-## Entender o conceito de alavancagem
+## Entendendo o conceito de alavancagem
 
 
 
@@ -21,21 +21,17 @@ Neste guia, vamos apresentar uma estratégia de investimento com base na alavanc
 
 Estamos no faroeste, durante a grande corrida do ouro. Os bancos querem comprar ouro para oferecerem como empréstimo aos clientes e recebem taxas de juros nesses empréstimos, enquanto que os mineiros querem ficar ricos ao vender ouro aos bancos.
 
-Vamos considerar que és um mineiro, mas sem grande sorte. Apenas encontras-te uma pepita de ouro. No entanto, como és super inteligente, em vez de minar, tens outro plano me mente!
+Vamos considerar que você é um mineiro, mas sem grande sorte. Apenas encontra uma pepita de ouro. No entanto, como é super inteligente, em vez de minerar, tem outro plano em mente!
 
-Vais a um banco e dizes que tens ouro. Podes depositar o ouro no banco como colateral, o que significa que o banco pode utilizar aquele ouro para empréstimos, fornecendo-te em troca taxas de interesse pelo teu depósito.
+Você vai a um banco e diz que tem ouro. Você pode depositar o ouro no banco como colateral, o que significa que o banco pode utilizar aquele ouro para empréstimos, fornecendo-te em troca taxas de juros pelo teu depósito.
 
+E agora, porque você depositou ouro, o banco aceita te emprestar dinheiro, e no caso de você não conseguir pagar o emprestimo, o banco pagará a si mesmo, utilizando o ouro que você depositou. Agora, você recebe juros do ouro que depositou, e também consegue dinheiro.
 
+Com isso, você decide visitar um colega minerador e comprar o seu ouro com teu dinheiro. Assim, ele pode focar na mineração e ele ganha dinheiro pelo ouro que ele encontrou. Todos ficam felizes.&#x20;
 
-You go to a bank and explain that you have gold. You can deposit the gold to the bank as a collateral, meaning that you let the bank use that gold for people who want to use it, and the bank will give you some interests on your deposit.
+Você volta ao banco e deposita o ouro que comprou. Isso resulta em juros maiores, e agora o banco permite você pegar emprestado mais dinheiro, pelo ouro adicional que você depositou. Você possui mais ouro exposto ao juros bancarios, e agora um pouco mais de dinheiro. Hora de voltar e visitar novamente o seu amigo para ver se ele encontrou mais ouro, então repete-se o processo várias e várias vezes.&#x20;
 
-Also, because you lended some gold, the bank agrees to let you borrow money from them, and in case you cannot repay your loan with some interests. The bank will pay itself using the gold you deposited. Cool, now you are earning interests on the gold you have at the bank, and they gave you some cash.
-
-With that, you decide to go see a fellow miner and buy his gold with your cash. This is letting him focus on mining and he gets cash for the gold he found. Everybody is happy.
-
-You go back to the bank and deposit the gold you bought. This implies more interest, and now the bank lets you borrow more cash from the extra gold you deposited. You have more gold exposed to the bank's interests, and some more cash. Time to go back to see if your friend found more gold, then repeat again and again.
-
-This is what is called leverage. Now imagine that you can find a bank that lets you borrow cash at 0% interest and you have a solid money printing machine only from the interests you're getting.
+Isso é o que nós chamamos de alavancagem. Agora, imagine que você pode encontrar um banco que permite você tomar emprestado, a juros de 0%. Isso é uma excelente maquina de imprimir dinheiro, apenas pelos juros que você esta recebendo.
 
 ## Introducing the tools
 
