@@ -1,17 +1,17 @@
 ---
 description: >-
-  DeFi não precisa de ser complicado. Este artigo mostra como podes começar a
+  DeFi não precisa ser complicado. Este artigo mostra como podes começar a
   aventurar-te no espaço DeFi utilizando a plataforma Mai Finance com uma
-  estratégia de baixo risco e taxas de interesse razoá
+  estratégia de baixo risco e taxas de juros razoáveis.
 ---
 
 # Estratégia de principiante camDAI
 
 ## Introdução
 
-A maior parte das pessoas assusta-se quando pensam em DeFi. Existe sempre fatores de risco a considerar quando estamos a falar de criptomoedas, a volatilidade do mercado pode resultar na perda de dinheiro para algumas pessoas e existam tantas possibilidades disponíveis o que dificulta a tarefa de encontrar uma estratégia adequada para a tua métrica de risco. No entanto, se utilizares as ferramentas corretas, algumas estratégias fáceis e de baixo risco podem conseguir arranjar-te bons resultados, podendo até competir com estratégias mais complexas e arriscadas.
+A maioria das pessoas se assusta quando pensam em DeFi. Existem sempre fatores de risco a considerar quando estamos a falar de criptomoedas, a volatilidade do mercado pode resultar na perda de dinheiro para algumas pessoas e existem tantas possibilidades disponíveis, o que dificulta a tarefa de encontrar uma estratégia adequada para a tua métrica de risco. No entanto, se você utilizar as ferramentas corretas, algumas estratégias fáceis e de baixo risco podem te garantir bons resultados, podendo até competir com estratégias mais complexas e arriscadas.
 
-Neste guia, vamos apresentar uma estratégia de investimento com base na alavancagem de uma moeda estável, com uma pitada de risco para obter maiores taxas de interesse.
+Neste guia, vamos apresentar uma estratégia de investimento com base na alavancagem de uma _stable coin_, moeda estavel em inglês, com uma pitada de risco para obter maiores taxas de juros.
 
 ## Entender o conceito de alavancagem
 
