@@ -29,9 +29,9 @@ E agora, porque você depositou ouro, o banco aceita te emprestar dinheiro, e no
 
 Com isso, você decide visitar um colega minerador e comprar o seu ouro com teu dinheiro. Assim, ele pode focar na mineração e ele ganha dinheiro pelo ouro que ele encontrou. Todos ficam felizes.&#x20;
 
-Você volta ao banco e deposita o ouro que comprou. Isso resulta em juros maiores, e agora o banco permite você pegar emprestado mais dinheiro, pelo ouro adicional que você depositou. Você possui mais ouro exposto ao juros bancarios, e agora um pouco mais de dinheiro. Hora de voltar e visitar novamente o seu amigo para ver se ele encontrou mais ouro, então repete-se o processo várias e várias vezes.&#x20;
+Você volta ao banco e deposita o ouro que comprou. Isso resulta em juros maiores, e agora o banco permite você pegar emprestado mais dinheiro, pelo ouro adicional que você depositou. Você possui mais ouro exposto ao juros bancários, e agora um pouco mais de dinheiro. Hora de voltar e visitar novamente o seu amigo para ver se ele encontrou mais ouro, e então repete-se o processo várias e várias vezes.&#x20;
 
-Isso é o que nós chamamos de alavancagem. Agora, imagine que você pode encontrar um banco que permite você tomar emprestado, a juros de 0%. Isso é uma excelente maquina de imprimir dinheiro, apenas pelos juros que você esta recebendo.
+Isso é o que nós chamamos de alavancagem. Agora, imagine encontrar um banco que permite você tomar emprestado, a juros de 0%. Uma excelente maquina de imprimir dinheiro, de fato. E tudo graças aos juros que você esta recebendo.
 
 ## Introducing the tools
 
