@@ -23,7 +23,7 @@ Estamos no faroeste, durante a grande corrida do ouro. Os bancos querem comprar 
 
 Vamos considerar que você é um mineiro, mas sem grande sorte. Apenas encontra uma pepita de ouro. No entanto, como é super inteligente, em vez de minerar, tem outro plano em mente!
 
-Você vai a um banco e diz que tem ouro. Você pode depositar o ouro no banco como colateral, o que significa que o banco pode utilizar aquele ouro para empréstimos, fornecendo-te em troca taxas de juros pelo teu depósito.
+Você vai a um banco e diz que tem ouro. Você pode depositar o ouro no banco como garantia, o que significa que o banco pode utilizar aquele ouro para empréstimos, fornecendo-te em troca taxas de juros pelo teu depósito.
 
 E agora, porque você depositou ouro, o banco aceita te emprestar dinheiro, e no caso de você não conseguir pagar o emprestimo, o banco pagará a si mesmo, utilizando o ouro que você depositou. Agora, você recebe juros do ouro que depositou, e também consegue dinheiro.
 
@@ -45,7 +45,7 @@ Ao depositar seus ativos na AAVE, você receberá uma prova de deposito. Nos nos
 
 ### Mai Finance
 
-[Mai Finance](https://app.mai.finance) é uma plataforma de emprestimentos que permite a você depositar ativos em um cofre, e transforma-los em colateral, para assim receber emprestimos do mesmo valor do cofre. Se nós voltarmos a analogia do banco, este seria o banco que permite a você tomar emprestado. Mas este emprestimo não vem do que as outras pessoas estão emprestando. Ao invez, o banco imprime dinheiro correspondente ao seu depósito pessoal, então você apenas pega emprestado sobre o que você depositou.
+[Mai Finance](https://app.mai.finance) é uma plataforma de emprestimentos que permite a você depositar ativos em um cofre, e transforma-los em garantia, para assim receber emprestimos do mesmo valor do cofre. Se nós voltarmos a analogia do banco, este seria o banco que permite a você tomar emprestado. Mas este emprestimo não vem do que as outras pessoas estão emprestando. Ao invez, o banco imprime dinheiro correspondente ao seu depósito pessoal, então você apenas pega emprestado sobre o que você depositou.
 
 Mai finance aceitará o amDAI como seu [instrumento de rendimento](https://app.mai.finance/yield). O instrumento de rendimentos é apenas um intermediario entre a AAVE a o cofre na Mai Finance. Como você pode observar na foto acima, emprestar DAI irá garantir a você um retorno de 8.75% em DAI (como juros compostos), e também 2.01% de recompensas em MATIC. O instrumento de rendimento na Mai Finance irá produzir esta recompensa em MATIC e trocar por mais DAI, que será adicionado ao seu deposito de DAI. O _APY_ (_**A**nnual **P**ercentag_e _**Y**ield_, ou rendimento percentual anual) na Mai Finance está, portanto, mostrand os juros agregados da AAVE.
 
@@ -53,7 +53,7 @@ Mai finance aceitará o amDAI como seu [instrumento de rendimento](https://app.m
 
 Após você depositar seu amDAI no instrumento de rendimento, você irá receber camDAI na sua carteira (**c**ompounding amDAI, ou amDAI com juros **c**ompostos). Este é o comprovante que indica a sua parcela na _pool_ (ou piscina de liquidez) amDAI do instrumento de rendimento. Uma observação, porque o camDAI é uma representação da sua parcela na _pool_ amDAI, a razão entre amDAI e camDAi não é de 1:1. Leia [este artigo](../investment-tutorials/leverage-aave-tokens.md#amtokens-vs-camtoken) para maiores informaçoes.
 
-Agora, você pode [depositar seus tokens camDAI](https://app.mai.finance/vaults) em um cofre na Mai Finance, e então será possível pegar emprestado mais MAI (uma stablecoin pareada ao dolar) graças ao seu colateral. No nosso exemplo do faroeste, este é o segundo banco que permite você pegar um empréstimo em dinheiro baseado na quantidade de ouro que você tem depositado no primeiro banco. Este segundo banco aceita o comprovante do primeiro banco como uma garantia em caso de você não poder pagar o empréstimo.&#x20;
+Agora, você pode [depositar seus tokens camDAI](https://app.mai.finance/vaults) em um cofre na Mai Finance, e então será possível pegar emprestado mais MAI (uma stablecoin pareada ao dolar) graças a sua garantia. No nosso exemplo do faroeste, este é o segundo banco que permite você pegar um empréstimo em dinheiro baseado na quantidade de ouro que você tem depositado no primeiro banco. Este segundo banco aceita o comprovante do primeiro banco como uma garantia em caso de você não poder pagar o empréstimo.&#x20;
 
 ### Zapper
 
