@@ -11,7 +11,7 @@ description: >-
 
 A maioria das pessoas se assusta quando pensam em DeFi. Existem sempre fatores de risco a considerar quando estamos a falar de criptomoedas, a volatilidade do mercado pode resultar na perda de dinheiro para algumas pessoas e existem tantas possibilidades disponíveis, o que dificulta a tarefa de encontrar uma estratégia adequada para a tua métrica de risco. No entanto, se você utilizar as ferramentas corretas, algumas estratégias fáceis e de baixo risco podem te garantir bons resultados, podendo até competir com estratégias mais complexas e arriscadas.
 
-Neste guia, vamos apresentar uma estratégia de investimento com base na alavancagem de uma _stablecoin_, moeda estavel em inglês, com uma pitada de risco para obter maiores taxas de juros.
+Neste guia, vamos apresentar uma estratégia de investimento com base na alavancagem de uma _stablecoin_, ou moeda estavel, com uma pitada de risco para obter maiores taxas de juros.
 
 ## Entendendo o conceito de alavancagem
 
@@ -47,11 +47,11 @@ Ao depositar seus ativos na AAVE, você receberá uma prova de deposito. Nos nos
 
 [Mai Finance](https://app.mai.finance) é uma plataforma de emprestimentos que permite a você depositar ativos em um cofre, e transforma-los em colateral, para assim receber emprestimos do mesmo valor do cofre. Se nós voltarmos a analogia do banco, este seria o banco que permite a você tomar emprestado. Mas este emprestimo não vem do que as outras pessoas estão emprestando. Ao invez, o banco imprime dinheiro correspondente ao seu depósito pessoal, então você apenas pega emprestado sobre o que você depositou.
 
-Mai finance aceitará o amDAI como seu [instrumento de rendimento](https://app.mai.finance/yield). O instrumento de rendimentos é apenas um intermediario entre a AAVE a o cofre na Mai Finance. Como você pode observar na foto acima, emprestar DAI irá garantir a você um retorno de 8.75% em DAI (como juros compostos), e também 2.01% de recompensas em MATIC. O instrumento de rendimento na Mai Finance irá produzir esta recompensa em MATIC e trocar por mais DAI, que será adicionado ao seu deposito de DAI. O _APY_ (_**A**nnual **P**ercentag_e _**Y**ield_, rendimento percentual anual em inglês) na Mai Finance está, portanto, mostrand os juros agregados da AAVE.
+Mai finance aceitará o amDAI como seu [instrumento de rendimento](https://app.mai.finance/yield). O instrumento de rendimentos é apenas um intermediario entre a AAVE a o cofre na Mai Finance. Como você pode observar na foto acima, emprestar DAI irá garantir a você um retorno de 8.75% em DAI (como juros compostos), e também 2.01% de recompensas em MATIC. O instrumento de rendimento na Mai Finance irá produzir esta recompensa em MATIC e trocar por mais DAI, que será adicionado ao seu deposito de DAI. O _APY_ (_**A**nnual **P**ercentag_e _**Y**ield_, ou rendimento percentual anual) na Mai Finance está, portanto, mostrand os juros agregados da AAVE.
 
 ![Instrumento de Rendimento na Mai Finance](../.gitbook/assets/camDAI-yield.png)
 
-Após você depositar seu amDAI no instrumento de rendimento, você irá receber camDAI na sua carteira (**c**ompounding amDAI, amDAI com juros **c**ompostos em inglês). Este é o comprovante que indica a sua parcela na _pool_ (piscina de liquidez, em inglês) amDAI do instrumento de rendimento. Uma observação, porque o camDAI é uma representação da sua parcela na _pool_ amDAI, a razão entre amDAI e camDAi não é de 1:1. Leia [este artigo](../investment-tutorials/leverage-aave-tokens.md#amtokens-vs-camtoken) para maiores informaçoes.
+Após você depositar seu amDAI no instrumento de rendimento, você irá receber camDAI na sua carteira (**c**ompounding amDAI, ou amDAI com juros **c**ompostos). Este é o comprovante que indica a sua parcela na _pool_ (ou piscina de liquidez) amDAI do instrumento de rendimento. Uma observação, porque o camDAI é uma representação da sua parcela na _pool_ amDAI, a razão entre amDAI e camDAi não é de 1:1. Leia [este artigo](../investment-tutorials/leverage-aave-tokens.md#amtokens-vs-camtoken) para maiores informaçoes.
 
 Agora, você pode [depositar seus tokens camDAI](https://app.mai.finance/vaults) em um cofre na Mai Finance, e então será possível pegar emprestado mais MAI (uma stablecoin pareada ao dolar) graças ao seu colateral. No nosso exemplo do faroeste, este é o segundo banco que permite você pegar um empréstimo em dinheiro baseado na quantidade de ouro que você tem depositado no primeiro banco. Este segundo banco aceita o comprovante do primeiro banco como uma garantia em caso de você não poder pagar o empréstimo.&#x20;
 
@@ -81,7 +81,7 @@ O botão `Zap in using DAI` abre uma janela popup que te permite depositar seu D
 
 Essa será a nossa primeira etapa. Assumindo que nós tempos 100$ de DAI, nós iremos depositá-los na Mai Finance em um cofre camDAI. Isso irá nos permitir pegar mais MAI emprestado, de acordo com o emprestimo inicial.&#x20;
 
-A CDR mínima (**C**ollateral to **D**ebt **R**atio, ou Relação entre Garantia e Dívida em inglês) para a camDAI é de 110%. Isso significa que a relação entre a sua garantia (os 100$ de DAI) e o emprestimo que pegaremos precisa manter-se acima de 110%.
+A CDR mínima (**C**ollateral to **D**ebt **R**atio, ou Relação entre Garantia e Dívida) para a camDAI é de 110%. Isso significa que a relação entre a sua garantia (os 100$ de DAI) e o emprestimo que pegaremos precisa manter-se acima de 110%.
 
 {% hint style="danger" %}
 If this CRD ratio reaches the minimal value of 110%, it means that your collateral is losing value and your debt may become bigger than the value of your collateral. At this point, your vault can be liquidated: someone can repay a part of your debt and get a part of your collateral as a compensation. However, since both DAI and MAI are stable coins pegged to the US dollar, the risk of getting a big difference between the 2 assets is very low, which makes this strategy fairly safe.
