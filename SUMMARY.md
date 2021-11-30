@@ -14,6 +14,7 @@
 * [¿Farmear o hacer staking? ¿O Ambas?](tutoriales-de-polygon/farming-or-staking-or-both.md)
 * [¿Cómo combinar el farmeo con los préstamos incentivados?](tutoriales-de-polygon/how-to-combine-farming-and-borrowing-rewards.md)
 * [OHM forks on Polygon: The case of KLIMA](tutoriales-de-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
+* [MAI single-staking with Ethalend](tutoriales-de-polygon/ethalend-single-staking.md)
 
 ## Tutoriales de Avalanche
 
