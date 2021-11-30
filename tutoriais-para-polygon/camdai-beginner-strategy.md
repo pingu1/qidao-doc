@@ -11,7 +11,7 @@ description: >-
 
 A maioria das pessoas se assusta quando pensam em DeFi. Existem sempre fatores de risco a considerar quando estamos a falar de criptomoedas, a volatilidade do mercado pode resultar na perda de dinheiro para algumas pessoas e existem tantas possibilidades disponíveis, o que dificulta a tarefa de encontrar uma estratégia adequada para a tua métrica de risco. No entanto, se você utilizar as ferramentas corretas, algumas estratégias fáceis e de baixo risco podem te garantir bons resultados, podendo até competir com estratégias mais complexas e arriscadas.
 
-Neste guia, vamos apresentar uma estratégia de investimento com base na alavancagem de uma _stable coin_, moeda estavel em inglês, com uma pitada de risco para obter maiores taxas de juros.
+Neste guia, vamos apresentar uma estratégia de investimento com base na alavancagem de uma _stablecoin_, moeda estavel em inglês, com uma pitada de risco para obter maiores taxas de juros.
 
 ## Entendendo o conceito de alavancagem
 
@@ -37,7 +37,7 @@ Isso é o que nós chamamos de alavancagem. Agora, imagine encontrar um banco qu
 
 ### AAVE
 
-[AAVE](https://app.aave.com) é uma plataforma de empréstimos onde você consegue depositar seus ativos. Emprestando na AAVE, seus tokens depositados te geram juros. Para a nosa estratégia nós iremos depositar DAI, uma stable coin (pareada ao dolar americano). Na AAVE, 100$ de DAI, podem geram entre 4% a 10% de retorno ao seu investimento em um prazo de 1 ano.
+[AAVE](https://app.aave.com) é uma plataforma de empréstimos onde você consegue depositar seus ativos. Emprestando na AAVE, seus tokens depositados te geram juros. Para a nosa estratégia nós iremos depositar DAI, uma stablecoin (pareada ao dolar americano). Na AAVE, 100$ de DAI, podem geram entre 4% a 10% de retorno ao seu investimento em um prazo de 1 ano.
 
 ![Mercados da AAVE na Polygon em Outubro de 2021](../.gitbook/assets/canDAI-aave.png)
 
@@ -53,11 +53,11 @@ Mai finance aceitará o amDAI como seu [instrumento de rendimento](https://app.m
 
 Após você depositar seu amDAI no instrumento de rendimento, você irá receber camDAI na sua carteira (**c**ompounding amDAI, amDAI com juros **c**ompostos em inglês). Este é o comprovante que indica a sua parcela na _pool_ (piscina de liquidez, em inglês) amDAI do instrumento de rendimento. Uma observação, porque o camDAI é uma representação da sua parcela na _pool_ amDAI, a razão entre amDAI e camDAi não é de 1:1. Leia [este artigo](../investment-tutorials/leverage-aave-tokens.md#amtokens-vs-camtoken) para maiores informaçoes.
 
-Agora, você pode [depositar seus tokens camDAI](https://app.mai.finance/vaults) em um cofre na Mai Finance, e então será possível pegar emprestado mais MAI (uma stable coin pareada ao dolar) graças ao seu colateral. No nosso exemplo do faroeste, este é o segundo banco que permite você pegar um empréstimo em dinheiro baseado na quantidade de ouro que você tem depositado no primeiro banco. Este segundo banco aceita o comprovante do primeiro banco como uma garantia em caso de você não poder pagar o empréstimo.&#x20;
+Agora, você pode [depositar seus tokens camDAI](https://app.mai.finance/vaults) em um cofre na Mai Finance, e então será possível pegar emprestado mais MAI (uma stablecoin pareada ao dolar) graças ao seu colateral. No nosso exemplo do faroeste, este é o segundo banco que permite você pegar um empréstimo em dinheiro baseado na quantidade de ouro que você tem depositado no primeiro banco. Este segundo banco aceita o comprovante do primeiro banco como uma garantia em caso de você não poder pagar o empréstimo.&#x20;
 
 ### Zapper
 
-[Zapper](https://zapper.fi/dashboard) is a Swiss army knife of DeFi on Polygon. This platform will let you farm yields in liquidity pools, lend your assets on AAVE directly from their platform, presents a dashboard of your different investments, and will let you swap some currencies for other currencies. This is the last feature that we will be using in order to exchange the MAI stable coin we just borrowed for more DAI.
+[Zapper](https://zapper.fi/dashboard) é um canivete suiço de DeFi na rede Polygon. Esta plataforma permite a você obter rendimento em pools de liquidez, emprestar os seus ativos na AAVE diretamente de sua plataforma, e permite a você trocar algumas moedas por outras. Está é o ultimo recurso que nós utilizaremos para trocar a stablecoin MAI, que acabamos de pegar emprestado, para obter mais DAI.&#x20;
 
 ![Swapping MAI for DAI](../.gitbook/assets/camDAI-zapper.png)
 
@@ -171,7 +171,7 @@ This strategy presents more risks in the sense that the investment in the Qi-BAL
 
 ## Conclusion
 
-With some minimal investment and low maintenance, you can get some pretty solid results simply by leveraging your DAI. Since DAI is a stable coin that has a lot of liquidity across multiple chains, the risk is relatively low for DAI to go off peg and for your vault to be liquidated. It's the kind of "set and forget" setup that can easily be a very good starting point for any DeFi beginner, and chances are this strategy will perform the same way in a bull market or in a bear market. Finally, we also explained how you can use the same strategy to grab a portion of your loan and test out the many possibilities that DeFi has on Polygon.
+With some minimal investment and low maintenance, you can get some pretty solid results simply by leveraging your DAI. Since DAI is a stablecoin that has a lot of liquidity across multiple chains, the risk is relatively low for DAI to go off peg and for your vault to be liquidated. It's the kind of "set and forget" setup that can easily be a very good starting point for any DeFi beginner, and chances are this strategy will perform the same way in a bull market or in a bear market. Finally, we also explained how you can use the same strategy to grab a portion of your loan and test out the many possibilities that DeFi has on Polygon.
 
 ## Disclaimer
 
