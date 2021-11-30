@@ -59,7 +59,7 @@ Agora, você pode [depositar seus tokens camDAI](https://app.mai.finance/vaults)
 
 [Zapper](https://zapper.fi/dashboard) é um canivete suiço de DeFi na rede Polygon. Esta plataforma permite a você obter rendimento em pools de liquidez, emprestar os seus ativos na AAVE diretamente de sua plataforma, e permite a você trocar algumas moedas por outras. Este é o ultimo recurso que nós utilizaremos para trocar a stablecoin MAI, que acabamos de pegar emprestado, para obter mais DAI.&#x20;
 
-![Swapping MAI for DAI](../.gitbook/assets/camDAI-zapper.png)
+![Trocando MAI for DAI](../.gitbook/assets/camDAI-zapper.png)
 
 No nosso exemplo do faroeste, a Zapper seria o minerador que aceita o nosso dinheiro, em troca de mais ouro.
 
@@ -69,15 +69,15 @@ Como você pode ver na foto acima, a Zapper está utilizando o Balancer, como pr
 
 Para o nosso guia, nós utilizaremos o Balancer para expor os nossos investimentos a um pouco mais de volatilidade e ganhar taxas de juros maiores. Porém, isso é totalmente opcional.
 
-## Strategy description
+## Explicando a estratégia
 
-### Main strategy
+### Estratégia principal
 
-Even if we explained what AAVE is, our strategy will use a feature from Mai Finance to automate the DAI deposit on AAVE, the amDAI deposit in the yield instrument and the camDAI deposit in the camDAI vault.
+Mesmo após explicador o que é a AAVE, preferimos utilizar na nossa estratégia, uma função da Mai Finance para automatizar o depósito de DAI na AAVE, o depósito de amDAI no instrumento de rendimento e o depósito de camDAI no cofre.
 
 ![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
 
-The `Zap in using DAI` button opens a popup that lets you deposit your DAI in the vault and operates the AAVE deposit under the hood. This is saving a lot of time, and some gas.
+O botão `Zap in using DAI` button opens a popup that lets you deposit your DAI in the vault and operates the AAVE deposit under the hood. This is saving a lot of time, and some gas.
 
 This will be our first step. Assuming we have $100 worth of DAI, we will deposit them on Mai Finance in a camDAI vault. This will allow us to borrow MAI against this initial deposit.
 
