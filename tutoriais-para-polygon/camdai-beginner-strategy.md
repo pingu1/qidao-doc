@@ -57,17 +57,17 @@ Agora, você pode [depositar seus tokens camDAI](https://app.mai.finance/vaults)
 
 ### Zapper
 
-[Zapper](https://zapper.fi/dashboard) é um canivete suiço de DeFi na rede Polygon. Esta plataforma permite a você obter rendimento em pools de liquidez, emprestar os seus ativos na AAVE diretamente de sua plataforma, e permite a você trocar algumas moedas por outras. Está é o ultimo recurso que nós utilizaremos para trocar a stablecoin MAI, que acabamos de pegar emprestado, para obter mais DAI.&#x20;
+[Zapper](https://zapper.fi/dashboard) é um canivete suiço de DeFi na rede Polygon. Esta plataforma permite a você obter rendimento em pools de liquidez, emprestar os seus ativos na AAVE diretamente de sua plataforma, e permite a você trocar algumas moedas por outras. Este é o ultimo recurso que nós utilizaremos para trocar a stablecoin MAI, que acabamos de pegar emprestado, para obter mais DAI.&#x20;
 
 ![Swapping MAI for DAI](../.gitbook/assets/camDAI-zapper.png)
 
-In our far west example, Zapper is the gold miner that will accept your cash and will sell you gold.
+No nosso exemplo do faroeste, a Zapper seria o minerador que aceita o nosso dinheiro, em troca de mais ouro.
 
 ### Balancer
 
-As you can see in the screenshot above, Zapper is using Balancer has the protocol to operate the swap. [Balancer](https://polygon.balancer.fi/#/) is an automated portfolio manager, liquidity provider, and price sensor where you will be able to provide liquidity (and get fees from this) or swap currencies using the liquidity pools.
+Como você pode ver na foto acima, a Zapper está utilizando o Balancer, como protocolo para operar o _swap_, ou troca em inglês. [Balancer](https://polygon.balancer.fi/#/) é um gerenciador automatizado de portfólio, provedor de liquidez, e detector de preços onde você será capaz de prover liquidez (e com isso receber taxa) ou trocar moedas utilizando as pools de liquidez.&#x20;
 
-For our guide, we will use Balancer to expose our investments to a little more volatility and get better interests. This is 100% optional though.
+Para o nosso guia, nós utilizaremos o Balancer para expor os nossos investimentos a um pouco mais de volatilidade e ganhar taxas de juros maiores. Porém, isso é totalmente opcional.
 
 ## Strategy description
 
