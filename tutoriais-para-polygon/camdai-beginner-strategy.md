@@ -93,13 +93,13 @@ $$
 MAI_{disponível} = \frac{Garantia_{valor} - Dívida_{valor} * Alvo_{CDR}}{Alvo_{CDR}}
 $$
 
-With a collateral value of $100, no debt yet, and a target CDR of 115%, here's how much we can borrow:
+Com uma garantia de 100$, sem dívida ainda, e uma taxa CDR com alvo de 115%, aqui está o quanto podemos tomar emprestado:
 
 $$
-MAI_{available}=\frac{100 - 0*1.15}{1.15}=86.95
+MAI_{disponível}=\frac{100 - 0*1.15}{1.15}=86.95
 $$
 
-​You can then swap the MAI you borrowed for DAI and repeat. Here's what your collateral and debt should look like:
+​Você pode então trocar o MAI que você pegou emprestado por DAI e repetir o processo. Veja agora como será a relação entre sua garantia e dívida:
 
 | Loop # | Collateral | Debt    | Available loan | Equivalent APY | DAI liquidation price |
 | ------ | ---------- | ------- | -------------- | -------------- | --------------------- |
