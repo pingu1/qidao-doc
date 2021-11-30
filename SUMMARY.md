@@ -14,6 +14,7 @@
 * [Farming ou Staking? Ou les deux?](tutoriels-polygon/farming-ou-staking-ou-les-deux.md)
 * [Comment combiner les récompenses de fermes et d'emprunts](tutoriels-polygon/untitled.md)
 * [OHM forks on Polygon: The case of KLIMA](tutoriels-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
+* [MAI single-staking with Ethalend](tutoriels-polygon/ethalend-single-staking.md)
 
 ## Tutoriels pour Avalanche <a href="tutoriels-avalanche" id="tutoriels-avalanche"></a>
 
