@@ -73,15 +73,15 @@ Para o nosso guia, nós utilizaremos o Balancer para expor os nossos investiment
 
 ### Estratégia principal
 
-Mesmo após explicador o que é a AAVE, preferimos utilizar na nossa estratégia, uma função da Mai Finance para automatizar o depósito de DAI na AAVE, o depósito de amDAI no instrumento de rendimento e o depósito de camDAI no cofre.
+Mesmo após explicar como funciona a AAVE, preferimos utilizar na nossa estratégia uma função da Mai Finance para automatizar o depósito de DAI na AAVE, o depósito de amDAI no instrumento de rendimento e o depósito de camDAI no cofre.
 
 ![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
 
-O botão `Zap in using DAI` button opens a popup that lets you deposit your DAI in the vault and operates the AAVE deposit under the hood. This is saving a lot of time, and some gas.
+O botão `Zap in using DAI` abre uma janela popup que te permite depositar seu DAI no cofre e operar o deposito na AAVE por baixo dos panos. Isso garante uma grande economia de tempo de de gas.
 
-This will be our first step. Assuming we have $100 worth of DAI, we will deposit them on Mai Finance in a camDAI vault. This will allow us to borrow MAI against this initial deposit.
+Essa será a nossa primeira etapa. Assumindo que nós tempos 100$ de DAI, nós iremos depositá-los na Mai Finance em um cofre camDAI. Isso irá nos permitir pegar mais MAI emprestado, de acordo com o emprestimo inicial.&#x20;
 
-The minimal CDR (**C**ollateral to **D**ebt **R**atio) for camDAI is 110%. This means that the ratio between your collateral (the $100 worth of DAI) and the loan we're about to get needs to remain above 110%.
+A CDR mínima (**C**ollateral to **D**ebt **R**atio, ou Relação entre Garantia e Dívida em inglês) para a camDAI é de 110%. Isso significa que a relação entre a sua garantia (os 100$ de DAI) e o emprestimo que pegaremos precisa manter-se acima de 110%.
 
 {% hint style="danger" %}
 If this CRD ratio reaches the minimal value of 110%, it means that your collateral is losing value and your debt may become bigger than the value of your collateral. At this point, your vault can be liquidated: someone can repay a part of your debt and get a part of your collateral as a compensation. However, since both DAI and MAI are stable coins pegged to the US dollar, the risk of getting a big difference between the 2 assets is very low, which makes this strategy fairly safe.
