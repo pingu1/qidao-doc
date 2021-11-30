@@ -84,10 +84,10 @@ Essa será a nossa primeira etapa. Assumindo que nós tempos 100$ de DAI, nós i
 A CDR mínima (**C**ollateral to **D**ebt **R**atio, ou Relação entre Garantia e Dívida) para a camDAI é de 110%. Isso significa que a relação entre a sua garantia (os 100$ de DAI) e o emprestimo que pegaremos precisa manter-se acima de 110%.
 
 {% hint style="danger" %}
-If this CRD ratio reaches the minimal value of 110%, it means that your collateral is losing value and your debt may become bigger than the value of your collateral. At this point, your vault can be liquidated: someone can repay a part of your debt and get a part of your collateral as a compensation. However, since both DAI and MAI are stable coins pegged to the US dollar, the risk of getting a big difference between the 2 assets is very low, which makes this strategy fairly safe.
+Caso a taxa CRD alcance o valor mínimo de 110%, entende-se que a sua garantia está perdendo valor e a sua dívida pode ser maior do que o valor da garantia. Nessa hora, seu cofre pode ser liquidado: alguém pode repagar parte da tua dívida e obter parte da sua garantia como recompensa. Entretanto, como ambos DAI e MAI são moedas pareadas ao dolar americano, o risco de obter uma grande diferença entre estes 2 ativos e muito pequeno, o que faz esta estratégia ser bem segura.
 {% endhint %}
 
-In order to maintain the liquidation risk fairly low, we will try to stick to a CDR of 115%. In order to know how much MAI we can borrow to stay at a 115% CDR, we will use this formula:
+Para manter o risco de liquidação razoavelmente baixo, nós tentaremos manter a taxa CDR em 115%. Para saber o quanto de MAI podemos pegar emprestado para mantermos a taxa em 115%, nós utilizaremos a seguinte fórmula:
 
 $$
 MAI_{available} = \frac{Collateral_{value} - Debt_{value} * Target_{CDR}}{Target_{CDR}}
