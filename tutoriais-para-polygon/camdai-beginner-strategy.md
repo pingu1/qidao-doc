@@ -90,7 +90,7 @@ Caso a taxa CRD alcance o valor mínimo de 110%, entende-se que a sua garantia e
 Para manter o risco de liquidação razoavelmente baixo, nós tentaremos manter a taxa CDR em 115%. Para saber o quanto de MAI podemos pegar emprestado para mantermos a taxa em 115%, nós utilizaremos a seguinte fórmula:
 
 $$
-MAI_{available} = \frac{Collateral_{value} - Debt_{value} * Target_{CDR}}{Target_{CDR}}
+MAI_{disponível} = \frac{Garantia_{valor} - Dívida_{valor} * Alvo_{CDR}}{Alvo_{CDR}}
 $$
 
 With a collateral value of $100, no debt yet, and a target CDR of 115%, here's how much we can borrow:
