@@ -1,7 +1,7 @@
 ---
 description: >-
-  DeFi não precisa ser complicado. Este artigo mostra como podes começar a
-  aventurar-te no espaço DeFi utilizando a plataforma Mai Finance com uma
+  DeFi não precisa ser complicado. Este artigo mostra como começar a se
+  aventurar no espaço DeFi utilizando a plataforma Mai Finance com uma
   estratégia de baixo risco e taxas de juros razoáveis.
 ---
 
@@ -37,7 +37,7 @@ Isso é o que nós chamamos de alavancagem. Agora, imagine encontrar um banco qu
 
 ### AAVE
 
-[AAVE](https://app.aave.com) é uma plataforma de empréstimos onde você consegue depositar seus ativos. Emprestando na AAVE, seus tokens depositados te geram juros. Para a nosa estratégia nós iremos depositar DAI, uma stablecoin (pareada ao dolar americano). Na AAVE, 100$ de DAI, podem geram entre 4% a 10% de retorno ao seu investimento em um prazo de 1 ano.
+[AAVE](https://app.aave.com) é uma plataforma de empréstimos onde você consegue depositar seus ativos. Emprestando na AAVE, seus tokens depositados te geram juros. Para a nosa estratégia, nós iremos depositar DAI, uma stablecoin (pareada ao dolar americano). Na AAVE, 100$ de DAI podem geram entre 4% a 10% de retorno ao seu investimento em um prazo de 1 ano.
 
 ![Mercados da AAVE na Polygon em Outubro de 2021](../.gitbook/assets/canDAI-aave.png)
 
@@ -121,7 +121,7 @@ $$
 | 16     | 684.737  | 584.737 | 10.686                | 71.35%          | 0.939                      |
 | 17     | 695.423  | 595.423 | 9.293                 | 72.46%          | 0.942                      |
 
-Nós iremos para em 17 loops mas você pode continuar se quiser.&#x20;
+Nós iremos parar em 17 loops, mas você pode continuar se quiser.&#x20;
 
 No final dos 17 loops, voce teria $695.243 como garantia e $595.423 de dívida. Isso corresponde a uma taxa CDR de 116.79%, o que deve ser suficiente para nos prevenir de sermos liquidados.
 
@@ -131,7 +131,7 @@ $$
 Juros = Garantia_{valor}*APY=695.423*10.42\%= \$72.463
 $$
 
-Se nós considerarmos o investimento inicial de apenas 100$, temos um retorno com APY de 72.463% em apenas uma única stablecoin!
+Se nós considerarmos o investimento inicial de apenas 100$, temos um retorno com APY de 72.463% com apenas uma única stablecoin!
 
 ### Estratégia alternativa
 
@@ -171,11 +171,11 @@ Esta estratégia apresenta mais riscos já que o investimento na pool de Qi-BAL 
 
 ## Conclusão
 
-Com um investimento mínimo e pouca manutenção, você pode conseguir excelentes resultados simplesmente por alavancar seu DAI. Como a DAI é uma stablecoin que possui muita liquidez em diversas redes, o risco dela se descolar do dolar, e com isso você ser liquidado, é relativamente baixo. Este é o tipo de estratégia que você "configura e esqueçe", podendo ser facilmente uma excelente porta de entrada para qualquer iniciante em DeFi, além de que muito provavelmente essa estratégia apresentará os mesmos resultados em um mercado de alta ou de baixa. Por último, nós também explicamos como utilizar a mesma estratégia, e com um pedaço do teu empréstimo, testar as diversas possibilidades do mundo DeFi na rede Polygon.
+Com um investimento mínimo e pouca manutenção, você pode conseguir excelentes resultados simplesmente por alavancar seu DAI. Como a DAI é uma stablecoin que possui muita liquidez em diversas redes, o risco dela se descolar do dolar, e com isso você ser liquidado, é relativamente baixo. Este é o tipo de estratégia que você "deixa lá e esqueçe", podendo ser facilmente uma excelente porta de entrada para qualquer iniciante em DeFi, além de que muito provavelmente essa estratégia apresentará os mesmos resultados em um mercado de alta ou de baixa. Por último, nós também explicamos como utilizar a mesma estratégia, e com um pedaço do teu empréstimo, testar as diversas possibilidades do mundo DeFi na rede Polygon.
 
 ## Aviso legal
 
-Tudo apresentado neste tutorial é de cunho educacional feito para ilustral as opçōes de alavancagem propostas pela Mai Finance. Nos não conversamos sobre reembolso de dívida, pois já há artigos destinados a isto neste website, mas você deve ter em mente que a Mai Finance cobra uma taxa de 0.5% pelo reembolso da dívida, sobre a quantia emprestada. Como sempre, faça as suas proprias pesqusias e não hesite em fazer perguntas no [Servidor do Discord ](https://discord.com/invite/qidaoprotocol)da Comunidade DAO.
+Tudo apresentado neste tutorial é de cunho educacional feito para ilustrar as opçōes de alavancagem propostas pela Mai Finance. Nos não conversamos sobre reembolso de dívida, pois já há artigos destinados a isto neste website, mas você deve ter em mente que a Mai Finance cobra uma taxa de 0.5% pelo reembolso da dívida, sobre a quantia emprestada. Como sempre, faça as suas proprias pesquisas e não hesite em fazer perguntas no [Servidor do Discord ](https://discord.com/invite/qidaoprotocol)da Comunidade DAO.
 
 {% hint style="info" %}
 Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua propria pesquisa.
