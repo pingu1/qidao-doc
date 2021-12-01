@@ -32,23 +32,23 @@ Um fazendeiro humilde uma vez me disse:
 
 > _**Você nunca deve comprar o que pode ganhar**_
 
-Neste tutorial, nos tentaremos aplicar o máximo de segurança financeira possível. Para fazer isso, nós faremos farming utilizando apenas stablecoins, para proteger nosso investimento de qualquer _impermanent loss, ou_ prejuizo impermanente. A maioria das farms dispoe de pares de stablecoins para suas pools de liquidez (LP), e como a MAI tem ganhado mais e mais visibilidade, você pode encontrar farms dispondo de pools de MAI/USDC. Este é o par de stablecoins que nós focaremos a nossa atenção.
+Neste tutorial, nos tentaremos aplicar o máximo de segurança financeira possível. Para fazer isso, nós faremos farming utilizando apenas stablecoins, para proteger nosso investimento de qualquer _impermanent loss, ou_ prejuizo impermanente. A maioria das farms dispōe de pares de stablecoins para suas pools de liquidez (LP), e como a MAI tem ganhado mais e mais visibilidade, você pode encontrar farms contendo pools de MAI/USDC. Este é o par de stablecoins que nós focaremos a nossa atenção.
 
-In order to start farming using MAI/USDC pair, you need to acquire some stable coins. Mai Finance allows you to borrow the MAI stable coin by depositing your favorite crypto currency. In our case, we have a bunch of MATIC in our wallet, ready to be used. By depositing my MATIC into the [MATIC vault](https://app.mai.finance/vaults/matic) on Mai Finance, I can borrow MAI. If you need assistance doing that, please join the Discord server and ask the community. You can also read other tutorials on this site where you may find how to do this.
+Para começar o _farming_ utilizando par de MAI/USDC, você precisa adquirir algumas stablecoins. A Mai Finance permite a você tomar emprestado a stablecoin MAI de acordo com o depósito da sua criptomoeda favorita. No nosso caso, nós temos algumas MATIC na nossa carteira, prontas para serem usadas. Ao depositar meu MATIC dentro do [cofre da MATIC](https://app.mai.finance/vaults/matic) na Mai Finance, eu posso tomar emprestado MAI. Se você precisar de ajuda para fazer isso, por favor entre no servidor do Discord e pergunte à comunidade. Você também pode aprender a fazer isto lendo outros tutoriais neste site.
 
 {% hint style="info" %}
-You can deposit your MATIC tokens in your MATIC vault, but you can also deposit them into AAVE to get amWMATIC, deposit them on Mai Finance on the yield page to get camWMATIC, and use these camWMATIC as collateral. You will be able to borrow the same amount of MAI, but you will also earn additional yield on your MATIC. See [Leverage your AAVE tokens](../investment-tutorials/leverage-aave-tokens.md) to get more details on how to do this.
+Você pode depositar seus tokens MATIC no cofre de MATIC, mas você também pode depositá-los na AAVE para obter amWMATIC, depositá-los na Mai Finance na página de rendimento para obter camWMATIC, e utilizar esse camWMATIC como garantia. Você poderá tomar emprestado a mesma quantia de MAI, mas você também ganhará rendimento adicional no seu matic. Veja aqui [como alavancar seus tokens AAVE](../investment-tutorials/leverage-aave-tokens.md) para obter mais detalhes sobre o assunto.
 {% endhint %}
 
-Once you borrowed MAI stable coins, you can use the [anchor page](https://app.mai.finance/anchor) on Mai Finance to convert half of your loan into USDC. Indeed, when you farm using LP pairs, the two parts of the pair need to be provided in a 1:1 ratio.
+Após você tomar emprestado MAI, você pode usar a pagina [página ancora](https://app.mai.finance/anchor) na Mai Finance para converter metade do seu empréstimo a USDC. De fato, quando você faz farm utilizando pares de liquidez (LP), as duas partes do par precisam ser providenciado em uma razão de 1:1.&#x20;
 
-![Using the swap page to convert 30 of my MAI into USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
+![Utilizando a página de swap para converter 30 MAI em USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
 
-Now depending on the farm you want to farm on, you need to combine your 2 stable coins (MAI and USDC) into a valid LP pair on a DEX platform. Since my plan is to enter Polypup, and that farm accepts QuickSwap LPs, I need to go to [QuickSwap](https://quickswap.exchange/#/) and generate my pair there.
+Agora dependendo da farm que você pretende utilizar, você precisa combinar as suas duas stable coins (MAI e USDC) em um par LP válido na plataforma da DEX. Como o meu plano é entrar na Polyup, e esta farm aceita LP's da QuickSwap, eu preciso ir a [QuickSwap](https://quickswap.exchange/#/) e gerar o meu par lá dentro.
 
-![Generate some LP tokens using MAI and USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
+![Gerando alguns tokens LP utilizando MAI e USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
 
-I am now ready to enter the farm.
+Eu estou pronto para entrar na farm agora.
 
 ### Deposit and harvest farm tokens
 
