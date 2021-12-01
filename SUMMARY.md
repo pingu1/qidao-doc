@@ -14,7 +14,7 @@
 * [Çiftçilik (Farming) mi Staking mi? Yoksa her ikisi de mi?](polygon-rehberi/farming-or-staking-or-both.md)
 * [Çiftçilik ve Borçlanma (Borrowing) Ödülleri Nasıl Birleştirilir?](polygon-rehberi/how-to-combine-farming-and-borrowing-rewards.md)
 * [Polygon'daki OHM kopyaları: KLIMA örneği](polygon-rehberi/ohm-forks-on-polygon-the-case-of-klima.md)
-* [MAI single-staking with Ethalend](polygon-rehberi/ethalend-single-staking.md)
+* [Ethalend ile MAI Tek Yönlü Stake](polygon-rehberi/ethalend-single-staking.md)
 
 ## Avalanche Rehberi
 
