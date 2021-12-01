@@ -101,37 +101,37 @@ $$
 
 ​Você pode então trocar o MAI que você pegou emprestado por DAI e repetir o processo. Veja agora como será a relação entre sua garantia e dívida:
 
-| Loop # | Collateral | Debt    | Available loan | Equivalent APY | DAI liquidation price |
-| ------ | ---------- | ------- | -------------- | -------------- | --------------------- |
-| 1      | 100.000    | 0.000   | 86.956         | 10.42%         | 0                     |
-| 2      | 189.956    | 86.956  | 75.614         | 19.48%         | 0.512                 |
-| 3      | 262.571    | 162.571 | 62.751         | 27.36%         | 0.681                 |
-| 4      | 328.323    | 228.323 | 57.175         | 34.21%         | 0.765                 |
-| 5      | 385.498    | 285.498 | 49.718         | 40.17%         | 0.815                 |
-| 6      | 435.216    | 335.216 | 43.233         | 45.35%         | 0.847                 |
-| 7      | 478.449    | 278.448 | 37.593         | 49.85%         | 0.870                 |
-| 8      | 516.042    | 416.042 | 32.690         | 53.77%         | 0.887                 |
-| 9      | 548.732    | 448.732 | 28.426         | 57.18%         | 0.899                 |
-| 10     | 577.158    | 477.158 | 24.718         | 60.14%         | 0.909                 |
-| 11     | 601.877    | 501.877 | 21.494         | 62.72%         | 0.917                 |
-| 12     | 623.371    | 523.371 | 18.691         | 64.96%         | 0.924                 |
-| 13     | 642.062    | 542.062 | 16.253         | 66.90%         | 0.929                 |
-| 14     | 658.315    | 558.315 | 14.133         | 68.60%         | 0.933                 |
-| 15     | 672.448    | 572.448 | 12.289         | 70.07%         | 0.936                 |
-| 16     | 684.737    | 584.737 | 10.686         | 71.35%         | 0.939                 |
-| 17     | 695.423    | 595.423 | 9.293          | 72.46%         | 0.942                 |
+| Loop # | Garantia | Dívida  | Empréstimo disponível | APY equivalente | Preço de liquidação da DAI |
+| ------ | -------- | ------- | --------------------- | --------------- | -------------------------- |
+| 1      | 100.000  | 0.000   | 86.956                | 10.42%          | 0                          |
+| 2      | 189.956  | 86.956  | 75.614                | 19.48%          | 0.512                      |
+| 3      | 262.571  | 162.571 | 62.751                | 27.36%          | 0.681                      |
+| 4      | 328.323  | 228.323 | 57.175                | 34.21%          | 0.765                      |
+| 5      | 385.498  | 285.498 | 49.718                | 40.17%          | 0.815                      |
+| 6      | 435.216  | 335.216 | 43.233                | 45.35%          | 0.847                      |
+| 7      | 478.449  | 278.448 | 37.593                | 49.85%          | 0.870                      |
+| 8      | 516.042  | 416.042 | 32.690                | 53.77%          | 0.887                      |
+| 9      | 548.732  | 448.732 | 28.426                | 57.18%          | 0.899                      |
+| 10     | 577.158  | 477.158 | 24.718                | 60.14%          | 0.909                      |
+| 11     | 601.877  | 501.877 | 21.494                | 62.72%          | 0.917                      |
+| 12     | 623.371  | 523.371 | 18.691                | 64.96%          | 0.924                      |
+| 13     | 642.062  | 542.062 | 16.253                | 66.90%          | 0.929                      |
+| 14     | 658.315  | 558.315 | 14.133                | 68.60%          | 0.933                      |
+| 15     | 672.448  | 572.448 | 12.289                | 70.07%          | 0.936                      |
+| 16     | 684.737  | 584.737 | 10.686                | 71.35%          | 0.939                      |
+| 17     | 695.423  | 595.423 | 9.293                 | 72.46%          | 0.942                      |
 
-We're stopping at 17 loops but you can operate more if you want to.
+Nós iremos para em 17 loops mas você pode continuar se quiser.&#x20;
 
-At the end of the 17 loops, you'd get $695.423 of collateral and $595.423 of debt. This corresponds to a CDR 116.79% which should be safe enough to prevent liquidation.
+No final dos 17 loops, voce teria $695.243 como garantia e $595.423 de dívida. Isso corresponde a uma taxa CDR de 116.79%, o que deve ser suficiente para nos prevenir de sermos liquidados.
 
-If we consider the 10.42% APY granted by the yield instrument, this would generate
+Se nós considerarmos o APY de 10.42% garantido pelo instrumento de rendimento, então teremos:
 
 $$
-Interests = Collateral_{value}*APY=695.423*10.42\%= \$72.463
+Juros = Garantia_{valor}*APY=695.423*10.42\%= \$72.463
 $$
 
-If we consider that the initial investment was only $100, that's an equivalent APY of 72.463% on single staking a stable coin!
+Se nós considerarmos o investimento inicial de apenas 100$, temos um retorno com APY de 72.463% em apenas uma única stablecoin!
 
 ### Alternative strategy
 
