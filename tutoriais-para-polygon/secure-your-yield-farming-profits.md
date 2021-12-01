@@ -1,24 +1,25 @@
 ---
 description: >-
-  This page presents in details a "safe" strategy to make yield farming a little
-  less profitable, but a lot more secure.
+  Esta pagina ensina, em detalhes, como modificar de maneira "segura" a yield
+  farming, uma estratégia DeFi, em uma estratégia um pouco menos rentável mas
+  muito mais segura.
 ---
 
-# Farming using only stable coins
+# Farming utilizando apenas stablecoins
 
-## General idea
+## Ideia Geral
 
-When you enter a yield farm on Polygon, you expose your investments to the success or failure of the farm. This guide isn't presenting in details what is a Yield Farm, or how you should farm on them. If you need help on that there are tutorials everywhere on internet. You can also get some help from the QiDAO community on [Discord](https://discord.gg/mQq55j65xJ).
+Ao entrar em uma y_ield farm,_ fazenda em inglês, você passa a expor seus investimentos ao sucesso ou fracasso da farm. Este guia não tem como objetivo explicar em detalhes **o que é** uma yield farm, ou como você deve trabalhar com elas. Se você de ajuda sobre isso, saiba que há tutorias em todos os lugares da internet. Você também pode conseguir ajudar pela comunidade da QiDAO no [Discord](https://discord.gg/mQq55j65xJ).
 
-The main issue when you are farming is that you have to make a choice between
+O problema principal ao fazer farming é ter de escolher entre:
 
-* selling the native token and convert them into "secured" assets that will represent your gains
-* re-invest them to generate even more profits (also known as hyper-compounding)
+* vender o token nativo e convertê-lo em ativos "assegurados" que representaram o seu lucro&#x20;
+* reinvestí-los para gerar ainda mais lucro (também conhecido como juros hipercompostos)
 
-The guide will present step by step how to use Mai Finance to actually secure your gains while still re-investing a portion of it into the farm.
+Este guia irá te apresentar, passo a passo, como utilizar a Mai Finance para assegurar os teus lucros, e ao mesmo tempo reinveistir uma porção deles na farm.&#x20;
 
 {% hint style="info" %}
-To illustrate in more details how you can do that, I will use the [latest PolyPup](https://ball.polypup.finance) farm. This is for educational purpose only, and should absolutely not be used as a financial advice. Also, the term "secure" here is solely based on my personal appreciation. As always, do your own research. Finally, I personally don't recommend this farm.
+Para ilustrar em mais detalhes como você pode fazer isso, utilizaremos a ultima farm da[ PolyPup](https://ball.polypup.finance). Isso será feito com objetivo meramente educacional, e não deve ser visto como conselho financeiro. A propósito, o termo "seguro" aqui utilizado é baseado em minha própria avaliação. Como sempre, faça a sua propria pesquisa. Por ultimo, eu particularmente não recomendo esta farm.&#x20;
 {% endhint %}
 
 ![](../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
