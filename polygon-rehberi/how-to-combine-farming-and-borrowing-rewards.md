@@ -1,6 +1,7 @@
 ---
 description: >-
-  Bu sayfa, yatırımlarınızı büyütmek için verim çiftçiliğini, Mai Finance tarafından sağlanan borçlanma ödülleriyle nasıl birleştireceğinizi sunar.
+  Bu sayfa, yatırımlarınızı büyütmek için verim çiftçiliğini, Mai Finance
+  tarafından sağlanan borçlanma ödülleriyle nasıl birleştireceğinizi sunar.
 ---
 
 # Çiftçilik ve Borçlanma (Borrowing) Ödülleri Nasıl Birleştirilir?
@@ -51,7 +52,7 @@ Herhangi bir WBTC/WETH/USDC/USDT/DAI kombinasyonunu kabul eden atricrypto3 havuz
 
 ### AAVE
 
-Augury ile ilgili paragrafta bahsedildiği gibi, AAVE, Augury'de yetiştirilen tokenlara Mai Finance'de kullanmadan önce küçük bir ödül eklemek için kullanılır. WBTC, WETH ve WMATIC'imizi doğrudan Mai Finance'e koymak yerine, bu tokenları AAVE'ye yatıracağız ve AAVE'den gelen ödülleri amToken havuzlarında otomatik olarak birleştirmek için Mai Finance'in getiri aracını kullanacağız ve camToken'ı kasalarda teminat olarak kullanacağız. [AAVE](leverage-aave-tokens.md) bölümünü okuyarak fazla bilgi alabilirsiniz. 
+Augury ile ilgili paragrafta bahsedildiği gibi, AAVE, Augury'de yetiştirilen tokenlara Mai Finance'de kullanmadan önce küçük bir ödül eklemek için kullanılır. WBTC, WETH ve WMATIC'imizi doğrudan Mai Finance'e koymak yerine, bu tokenları AAVE'ye yatıracağız ve AAVE'den gelen ödülleri amToken havuzlarında otomatik olarak birleştirmek için Mai Finance'in getiri aracını kullanacağız ve camToken'ı kasalarda teminat olarak kullanacağız. [AAVE](broken-reference) bölümünü okuyarak fazla bilgi alabilirsiniz.
 
 ![Eylül 2021 itibarıyla AAVE kredi ödülleri](<../.gitbook/assets/image (33).png>)
 
@@ -197,7 +198,7 @@ Toplam borç aslında USDT-UST pozisyonunun tamamıdır, yani 553.24$ ve üretil
 
 Stabil coin çiftçiliğinde %28 APY almak çok da kötü değil. Peki 1.000 $ değerinde ETH ile uygulayabileceğimiz diğer daha kolay stratejilerle nasıl karşılaştırabiliriz? Aşağıdaki stratejiler için son APY'yi kontrol edelim
 
-* AAVE aracılığıyla 8 kez amWETH'den yararlanın: bunun için [AAVE token kılavuzunda](leverage-aave-tokens.md) açıklanan tam akışı kullanacağız.
+* AAVE aracılığıyla 8 kez amWETH'den yararlanın: bunun için [AAVE token kılavuzunda](broken-reference) açıklanan tam akışı kullanacağız.
 * Augury'de stable coin çiftçilik: Bu strateji için, WETH'i satıyoruz ve Augury'de aynı infüzyonda 1.000 $ değerinde USDT-UST ile çiftliği satıyoruz
 * QuickSwap'ta stabil coin çiftçilik: Bu strateji için, kasa ödülünden yararlanmak için camWETH kasasını kullanacağız ve Mai Finance'deki dQUICK kasasını kullanarak QuickSwap'ta 500$ değerinde MAI ile çiftlik yapacağız (MAI-DAI %19.78 APY'de) ek MAI ödünç almak ve çiftçilik havuzuna yeniden yatırım yapmak (%55,72 APR ile dQUICK kasaları)
 

@@ -1,6 +1,8 @@
 ---
 description: >-
-  DeFi stratejilerinin her zaman karmaşık olması gerekmez. Bu makale, Mai Finance kullanarak düşük risk stratejisiyle nasıl DeFi'ye girebileceğinizi ve nasıl makul faizler elde edebileceğinizi sunar.
+  DeFi stratejilerinin her zaman karmaşık olması gerekmez. Bu makale, Mai
+  Finance kullanarak düşük risk stratejisiyle nasıl DeFi'ye girebileceğinizi ve
+  nasıl makul faizler elde edebileceğinizi sunar.
 ---
 
 # camDAI Başlangıç Stratejisi
@@ -47,7 +49,7 @@ Varlıklarınızı AAVE'ye yatırdığınızda, bir depozito kanıtı alacaksın
 
 ![Mai Finance'de getiri aracı](../.gitbook/assets/camDAI-yield.png)
 
-AmDAI'nizi getiri aracına yatırdıktan sonra, cüzdanınızda bir miktar camDAI alacaksınız (**c** amDAI'yi birleştirir). Bu, getiri aracındaki amDAI havuzundaki payınızı gösteren bir makbuzdur. Bir yan not olarak, camDAI, amDAI havuzundaki payınızın bir temsili olduğundan, amDAI ve camDAI arasındaki oran 1:1 değildir. Daha fazla ayrıntı için [bu makaleye](leverage-aave-tokens.md#amtokens-vs-camtoken) bakın.
+AmDAI'nizi getiri aracına yatırdıktan sonra, cüzdanınızda bir miktar camDAI alacaksınız (**c** amDAI'yi birleştirir). Bu, getiri aracındaki amDAI havuzundaki payınızı gösteren bir makbuzdur. Bir yan not olarak, camDAI, amDAI havuzundaki payınızın bir temsili olduğundan, amDAI ve camDAI arasındaki oran 1:1 değildir. Daha fazla ayrıntı için [bu makaleye](broken-reference) bakın.
 
 Artık [camDAI'nizi yatırabilirsiniz](https://app.mai.finance/vaults) tokenlarınızı Mai Finance'te bir kasaya yerleştirebilir ve ardından teminatınız karşılığında bir miktar MAI (1$'a sabitlenmiş sabit bir madeni para) ödünç alabilirsiniz. Bizim Vahşi Batı karşılaştırmamızda bu, ilk bankaya yatırdığınız altın miktarına göre nakit kredi çekmenizi sağlayacak ikinci bir bankadır. Bu ikinci banka, kredinizi geri ödeyememeniz durumunda birinci bankadan alınan dekontu teminat olarak kabul eder.
 

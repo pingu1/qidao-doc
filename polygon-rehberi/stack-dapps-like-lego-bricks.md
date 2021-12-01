@@ -1,6 +1,7 @@
 ---
 description: >-
-  Bu eğitim, stablecoin stratejinizin avantajlarını artırmak için Polygon'da farklı DApp'leri nasıl kullanabileceğinizi ayrıntılı olarak sunacaktır.
+  Bu eğitim, stablecoin stratejinizin avantajlarını artırmak için Polygon'da
+  farklı DApp'leri nasıl kullanabileceğinizi ayrıntılı olarak sunacaktır.
 ---
 
 # DApp'leri Lego gibi kullanın
@@ -135,13 +136,13 @@ Impermax ve QuickSwap'tan kazanılan IMX ve QUICK tokenlarını IMX/QUICK LP tok
 
 ## AAVE
 
-Adamant'ta kazanılan WMATIC ile artık biraz verim almak için onları AAVE'ye yatırabiliriz. Bu, [özel makalede](leverage-aave-tokens.md) belirtilen normal AAVE kaldıracıdır.
+Adamant'ta kazanılan WMATIC ile artık biraz verim almak için onları AAVE'ye yatırabiliriz. Bu, [özel makalede](broken-reference) belirtilen normal AAVE kaldıracıdır.
 
 ## Mai Finance
 
 AAVE depozitosunu takiben, cüzdanımıza amWMATIC alıyoruz. AAVE tarafından sağlanan ödülü Matic teşvikinden elde edilen ödüllerle otomatik olarak birleştirmek ve Adamant'ta kazanılan MATIC'imizden ek %4 almak için Mai Finance'deki getiri sayfasını kullanabiliriz.
 
-camWMATIC daha sonra, MAI'yi ödünç almamıza ve basılmış MAI'nin bir kısmını USDC'ye değiştirmemize izin veren camWMATIC kasasına yatırılarak Mai Finans'ta teminat olarak kullanılabilir. Cüzdanımızda daha fazla MAI ve USDC olduğunda, 2 sabit tokenı QuickSwap ve Impermax'a yatırılacak ek LP tokenları ile birleştirebiliriz. Bir kez daha, bunu nasıl yapabileceğinize ilişkin ayrıntılara ihtiyacınız varsa, lütfen [özel makaleyi](leverage-aave-tokens.md) okuyun.
+camWMATIC daha sonra, MAI'yi ödünç almamıza ve basılmış MAI'nin bir kısmını USDC'ye değiştirmemize izin veren camWMATIC kasasına yatırılarak Mai Finans'ta teminat olarak kullanılabilir. Cüzdanımızda daha fazla MAI ve USDC olduğunda, 2 sabit tokenı QuickSwap ve Impermax'a yatırılacak ek LP tokenları ile birleştirebiliriz. Bir kez daha, bunu nasıl yapabileceğinize ilişkin ayrıntılara ihtiyacınız varsa, lütfen [özel makaleyi](broken-reference) okuyun.
 
 ## Sistemin Ateşlenmesi
 

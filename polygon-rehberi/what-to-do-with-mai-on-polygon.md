@@ -1,6 +1,5 @@
 ---
-description: >-
-  Bu eğitim, MAI'nizi Polygon'da farklı kullanım seçeneklerini size sunacaktır.
+description: Bu eğitim, MAI'nizi Polygon'da farklı kullanım seçeneklerini size sunacaktır.
 ---
 
 # Polygon'da MAI ile ne yapabilirim?
@@ -37,7 +36,7 @@ Tam akış böyle bir şey olurdu
 
 ![](<../.gitbook/assets/Screen Shot 2021-08-11 at 11.34.45 AM.png>)
 
-Kriptonuzu ödünç vermek ve MAI ödünç almak için (MAI satın almak için kriptonuzu satmak yerine) Mai Finance'i nasıl kullanabileceğiniz konusunda daha fazla ayrıntıya ihtiyacınız varsa, bu sitedeki diğer kılavuzları okuyun. Hatta daha da fazla kazanmak için [döngüye AAVE'yi dahil edebilirsiniz](leverage-aave-tokens.md).
+Kriptonuzu ödünç vermek ve MAI ödünç almak için (MAI satın almak için kriptonuzu satmak yerine) Mai Finance'i nasıl kullanabileceğiniz konusunda daha fazla ayrıntıya ihtiyacınız varsa, bu sitedeki diğer kılavuzları okuyun. Hatta daha da fazla kazanmak için [döngüye AAVE'yi dahil edebilirsiniz](broken-reference).
 
 ### Curve Finance
 
@@ -66,7 +65,7 @@ Curve'deki ödüller şu şekilde verilir:
 
 ### AAVE
 
-[Aave Market'ten Yararlanın](leverage-aave-tokens.md) için Mai Finance'i nasıl kullanabileceğinize dair eksiksiz bir kılavuz var. Aave, MAI'nin doğrudan kullanımını yapmıyor, ancak gelecekte AAVE'nin kriptonuzu ödünç verebileceğiniz bir MAI havuzuna sahip olacağını hayal edebiliyoruz.
+[Aave Market'ten Yararlanın](broken-reference) için Mai Finance'i nasıl kullanabileceğinize dair eksiksiz bir kılavuz var. Aave, MAI'nin doğrudan kullanımını yapmıyor, ancak gelecekte AAVE'nin kriptonuzu ödünç verebileceğiniz bir MAI havuzuna sahip olacağını hayal edebiliyoruz.
 
 ### QuickSwap
 

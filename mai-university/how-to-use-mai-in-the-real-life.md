@@ -1,6 +1,8 @@
 ---
 description: >-
-  Mai Finance, %0 faiz oranı ve tek bir %0,5 geri ödeme ücreti ile krediler önermektedir. Öneri özellikle Polygon'daki DeFi yatırımlarından yararlanmak için kullanışlıdır, ancak bunu gerçek dünyada da kullanabilirsiniz. 
+  Mai Finance, %0 faiz oranı ve tek bir %0,5 geri ödeme ücreti ile krediler
+  önermektedir. Öneri özellikle Polygon'daki DeFi yatırımlarından yararlanmak
+  için kullanışlıdır, ancak bunu gerçek dünyada da k
 ---
 
 # MAI gerçek hayatta nasıl kullanılır?
@@ -13,7 +15,7 @@ Bunu yapmak için arkadaşımız zaten 6 GPU'lu küçük bir madencilik teçhiza
 
 Bugün o gün! GPU'lara yaptığı ilk yatırım sonunda tamamen geri ödendi ve şimdi teçhizat sadece kar getiriyor. Ancak DogeOfWallStreet ödevini yaptı ve birkaç şey fark etti.
 
-* EIP1559'dan sonra karı azaldı, ancak bu çok kötü olmayan şekilde yani  %15 oranında azaldı.
+* EIP1559'dan sonra karı azaldı, ancak bu çok kötü olmayan şekilde yani %15 oranında azaldı.
 * birçok ETH madenci madenciliğin artık karlı olmadığını düşündükleri için kartlarını satıyor
 * GPU'ların fiyatı biraz düştü ve artık bazılarını özel web sitelerinde ve hatta mağazalarda satın almak mümkün
 * Ethereum'u P-o-W'den (Proof of Work) P-o-S'ye (Proof of Stake) taşıyacak olan "Merge", 2022'nin ilk çeyreğinden önce gerçekleşmeyecek ve Ethereum geliştiricileri, teslim etmeleri gereken zamana gecikmeler eklemekle ünlüdür.

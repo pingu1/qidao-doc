@@ -1,6 +1,8 @@
 ---
 description: >-
-  Bu sayfa, Mai Finance'deki borcunuzu geri ödemeniz için farklı seçenekler sunacaktır. Kredinizi elinizde tutmak istediğiniz ve teminata ihtiyacınız olmadığı sürece, borcunuzu ödemenin asla zorunlu olmadığını unutmayın.al.
+  Bu sayfa, Mai Finance'deki borcunuzu geri ödemeniz için farklı seçenekler
+  sunacaktır. Kredinizi elinizde tutmak istediğiniz ve teminata ihtiyacınız
+  olmadığı sürece, borcunuzu ödemenin asla zorunlu olm
 ---
 
 # Borç geri ödemesi - Nasıl?

@@ -1,6 +1,7 @@
 ---
 description: >-
-  Bu sayfa, çiftçiliği biraz daha az karlı ama çok daha güvenli hale getirmek için "güvenli" bir stratejiyi ayrıntılı olarak sunar
+  Bu sayfa, çiftçiliği biraz daha az karlı ama çok daha güvenli hale getirmek
+  için "güvenli" bir stratejiyi ayrıntılı olarak sunar
 ---
 
 # Sadece stablecoin kullanarak çiftçilik stratejisi
@@ -35,7 +36,7 @@ Kılavuzda, mümkün olduğunca finansal güvenlik seçeneklerini uygulamaya ça
 MAI/USDC çiftini kullanarak çiftçiliğe başlamak için bazı stablecoinler edinmeniz gerekir. Mai Finance, favori kripto para biriminizi yatırarak MAI ödünç almanıza olanak tanır. Bizim durumumuzda, cüzdanımızda kullanıma hazır bir sürü MATIC var. MATIC'imi Mai Finance'de [MATIC kasasına](https://app.mai.finance/vaults/matic) yatırarak MAI ödünç alabilirim. Bunu yapmak için yardıma ihtiyacınız varsa, lütfen Discord sunucusuna katılın ve topluluğa sorun. Bunun nasıl yapılacağını bulabileceğiniz bu sitedeki diğer öğreticileri de okuyabilirsiniz.
 
 {% hint style="info" %}
-MATIC tokenlerinizi MATIC kasanıza yatırabilirsiniz, ancak amWMATIC almak için AAVE'ye yatırabilir, camWMATIC almak için getiri sayfasındaki Mai Finance'e yatırabilir ve bu camWMATIC'i teminat olarak kullanabilirsiniz. Aynı miktarda MAI ödünç alabileceksiniz, ancak aynı zamanda MATIC'inizden ek getiri elde edeceksiniz. Bunun nasıl yapılacağı hakkında daha fazla ayrıntı almak için [AAVE Market'ten yararlanın](leverage-aave-tokens.md) konusuna bakın.
+MATIC tokenlerinizi MATIC kasanıza yatırabilirsiniz, ancak amWMATIC almak için AAVE'ye yatırabilir, camWMATIC almak için getiri sayfasındaki Mai Finance'e yatırabilir ve bu camWMATIC'i teminat olarak kullanabilirsiniz. Aynı miktarda MAI ödünç alabileceksiniz, ancak aynı zamanda MATIC'inizden ek getiri elde edeceksiniz. Bunun nasıl yapılacağı hakkında daha fazla ayrıntı almak için [AAVE Market'ten yararlanın](broken-reference) konusuna bakın.
 {% endhint %}
 
 MAI ödünç aldıktan sonra, kredinizin yarısını USDC'ye dönüştürmek için Mai Finance'deki [Anchor sayfasını](https://app.mai.finance/anchor) kullanabilirsiniz. Gerçekten de, LP çiftleri kullanarak farm yaptığınızda, çiftin iki parçasının 1:1 oranında sağlanması gerekir.

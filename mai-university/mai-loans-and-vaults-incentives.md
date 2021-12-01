@@ -1,6 +1,8 @@
 ---
 description: >-
-  Bu makale, MAI'yi %0 faizle ödünç almak için Mai Finance'i nasıl kullanabileceğinizin, bunun için nasıl ödeme alacağınızın, %0 faizli kredinizi negatif faizli krediye nasıl dönüştürebileceğinizin ayrıntılı bir kılavuzudur.
+  Bu makale, MAI'yi %0 faizle ödünç almak için Mai Finance'i nasıl
+  kullanabileceğinizin, bunun için nasıl ödeme alacağınızın, %0 faizli kredinizi
+  negatif faizli krediye nasıl dönüştürebileceğinizin ayrı
 ---
 
 # MAI kredileri ve Kasa teşvikleri
@@ -15,7 +17,7 @@ Mai Finance kullanmanın diğer büyük avantajlarından biri de geri ödeme pla
 
 Bu zaten harika bir fırsat değilse, Mai Finance ekibi Eylül 2021'de Mai Finance'in platform tokenı olan Qi'de ödenen Vault teşviklerini tanıttı. Başka bir deyişle, MAI'yi ödünç almak için varlıklarınızı Mai Finance'e bir kasaya yatırarak, bunu yapmak için de ödeme alacaksınız. Bu makaleler, fonksiyonların işlevin çalıştığını ayrıntılı olarak sunar.
 
-##  Kasalar - Nedir, nasıl çalışır
+## Kasalar - Nedir, nasıl çalışır
 
 ### Kasa oluşturma
 
@@ -39,7 +41,7 @@ and
 * camWMATIC
 * camAAVE
 
-Listedeki ilk 6 kasa basit varlıklar içindir, son 4 kasa ise camTokens içindir. camTokens, AAVE'de yapabileceğiniz ve ardından Mai Finance'in getiri havuzlarına yatırabileceğiniz bir mevduatın temsili olan AAVE piyasa tokenlarını birleştiriyor. Varlıklarınız AAVE'de getiri üretirken (ve ödüller getiri havuzu tarafından otomatik olarak birleştirilirken), yine de bu tokenlara karşı MAI  ödünç alabilirsiniz.
+Listedeki ilk 6 kasa basit varlıklar içindir, son 4 kasa ise camTokens içindir. camTokens, AAVE'de yapabileceğiniz ve ardından Mai Finance'in getiri havuzlarına yatırabileceğiniz bir mevduatın temsili olan AAVE piyasa tokenlarını birleştiriyor. Varlıklarınız AAVE'de getiri üretirken (ve ödüller getiri havuzu tarafından otomatik olarak birleştirilirken), yine de bu tokenlara karşı MAI ödünç alabilirsiniz.
 
 Bir yan not olarak, yukarıdaki ekran görüntüsünde, oluşturma sayfasının bazı çok önemli bilgileri gösterdiğini görebilirsiniz:
 
@@ -147,18 +149,18 @@ Aşağıdaki ekran görüntüsünde gösterildiği gibi, aşağı yukarı MATIC 
 
 Yukarıdaki örnekle aynı verilerle, tüm kasalar için başlangıç ​​APR'larını hesaplamak mümkündür.
 
-| Kasa Tipi  | Başlangıç APR|
-| ---------- | ------------ |
-| MATIC      | 44.29%       |
-| WETH       | 24.03%       |
-| LINK       | 27.41%       |
-| AAVE       | 164.14%      |
-| CRV        | 159.96%      |
-| WBTC       | 36.92%       |
-| camWETH    | 25.46%       |
-| camWMATIC  | 44.33%       |
-| camAAVE    | 167.23%      |
-| camWBTC    | 47.38%       |
+| Kasa Tipi | Başlangıç APR |
+| --------- | ------------- |
+| MATIC     | 44.29%        |
+| WETH      | 24.03%        |
+| LINK      | 27.41%        |
+| AAVE      | 164.14%       |
+| CRV       | 159.96%       |
+| WBTC      | 36.92%        |
+| camWETH   | 25.46%        |
+| camWMATIC | 44.33%        |
+| camAAVE   | 167.23%       |
+| camWBTC   | 47.38%        |
 
 {% hint style="info" %}
 Gördüğünüz gibi bazı kasalar diğerlerinden daha fazla ödül üretecek. Ayrıca, yüksek APR'lerden yararlanmak için varlıklarınızı borç tavanı yükseltilmeden ve daha fazla kredi alınmadan (APR'yi düşürmeden) önce mümkün olan en kısa sürede yatırmanın çok önemli olduğunu görebilirsiniz.
@@ -182,13 +184,13 @@ Apps Kasası teşviklerinin çalışma şekli hakkında daha fazla bilgi edinmek
 
 Her kasa tipi için 0,05 Qi/blok
 
-* **Ödül kazanmak için ne kadar MAI ödünç almam gerekiyor?**
+*   **Ödül kazanmak için ne kadar MAI ödünç almam gerekiyor?**
 
     Kasa Ödünç Alma Teşvikleri için, QI airdrop almak için tasfiye oranının %25 ila %270 üzerinde kalın. Bu şu anlama gelir:
 * _Matic_ - Likidasyon oranı %150 - %175 ile %420 arası Teşviklere Uygun
 * _Tokens_: - Tasfiye oranı %130 - %155 ile %400 arası Teşvikler için uygun
 * _CamTokens_: - Tasfiye oranı %135 - %160 ile %405 arası Teşvikler için Uygun
-* **Kasamın ödül kazanıp kazanmadığını nasıl görebilirim?**
+*   **Kasamın ödül kazanıp kazanmadığını nasıl görebilirim?**
 
     Kasaya genel bakış sayfanızda yangın emojisini görüyorsanız bu kasanın ödül kazandığı anlamına gelir.
 * **Ne kadar kazanacağım?**
