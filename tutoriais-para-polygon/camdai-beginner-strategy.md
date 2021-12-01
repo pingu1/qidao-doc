@@ -175,7 +175,7 @@ Com um investimento mínimo e pouca manutenção, você pode conseguir excelente
 
 ## Aviso legal
 
-Tudo apresentado neste tutorial é de cunho educacional feito para ilustrar as opçōes de alavancagem propostas pela Mai Finance. Nos não conversamos sobre reembolso de dívida, pois já há artigos destinados a isto neste website, mas você deve ter em mente que a Mai Finance cobra uma taxa de 0.5% pelo reembolso da dívida, sobre a quantia emprestada. Como sempre, faça as suas proprias pesquisas e não hesite em fazer perguntas no [Servidor do Discord ](https://discord.com/invite/qidaoprotocol)da Comunidade DAO.
+Tudo apresentado neste tutorial é de cunho educacional feito para ilustrar as opçōes de alavancagem propostas pela Mai Finance. Nos não conversamos sobre reembolso de dívida, pois já há artigos destinados a isto neste website, mas você deve ter em mente que a Mai Finance cobra uma taxa de 0.5% pelo reembolso da dívida, sobre a quantia emprestada. Como sempre, faça as suas próprias pesquisas e não hesite em fazer perguntas no [Servidor do Discord ](https://discord.com/invite/qidaoprotocol)da Comunidade DAO.
 
 {% hint style="info" %}
 Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua propria pesquisa.
