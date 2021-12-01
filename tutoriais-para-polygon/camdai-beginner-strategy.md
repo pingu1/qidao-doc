@@ -167,11 +167,11 @@ A mesma matemática do caso anterior irá providenciar os seguintes resultados:
 * $68.139 de juros em Qi da pool de liquidez do Balancer, se nós assumirmos que você re-investir as recompensas de Qi e BAL da pool, o que resulta em juros compostos
 * Um APY total de 111.94%
 
-Esta estratégia apresenta mais riscos já que o investimento na pool de Qi-BAL pool não é garantido. Entretanto, você conseguirá certa exposição ao Qi, que te permitirá participar do protocol QiDAO. Se você utilizar as recompendas BAL na Mai Finance como garantia e pegar emprestado, você também poderá reinvestir no cofre camDAI ou na pool Qi-BAL. Se você assim fizer, você também estaria entitulado a receberer recompensas pagas em Qi toda semana.
+Esta estratégia apresenta mais riscos já que o investimento na pool de Qi-BAL pool não é garantido. Entretanto, você conseguirá certa exposição ao Qi, que te permitirá participar do protocolo QiDAO. Se você utilizar as recompendas BAL na Mai Finance como garantia e pegar emprestado, você também poderá reinvestir no cofre camDAI ou na pool Qi-BAL. Se você assim fizer, você também estaria entitulado a receberer recompensas de empréstimo pagas em Qi toda semana.
 
-## Conclusion
+## Conclusão
 
-With some minimal investment and low maintenance, you can get some pretty solid results simply by leveraging your DAI. Since DAI is a stablecoin that has a lot of liquidity across multiple chains, the risk is relatively low for DAI to go off peg and for your vault to be liquidated. It's the kind of "set and forget" setup that can easily be a very good starting point for any DeFi beginner, and chances are this strategy will perform the same way in a bull market or in a bear market. Finally, we also explained how you can use the same strategy to grab a portion of your loan and test out the many possibilities that DeFi has on Polygon.
+Com um investimento mínimo e pouca manutenção, você pode conseguir excelentes resultados simplesmente por alavancar seu DAI. Como a DAI é uma stablecoin que possuia muita liquidez em diversas redes, o risco é relativamente baixo para a DAI perder seu lastro com o dolar, e com isso o seu cofre ser liquidado. É o tipo de estratégia "configure e esqueça" que pode você facilmente ser um ponto de entrada para qualquer iniciante em DeFi, e provavelmente essa estratégia apresentará os mesmos resultados em um mercado de alta ou de baixa. Finalmente, nós também explicamos como utilizar a mesma estratégia, e com um pedaço do teu empréstimo, testar as diversas possibilidades do mundo DeFi na rede Polygon.
 
 ## Disclaimer
 
