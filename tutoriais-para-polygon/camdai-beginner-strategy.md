@@ -101,7 +101,7 @@ $$
 
 ​Você pode então trocar o MAI que você pegou emprestado por DAI e repetir o processo. Veja agora como será a relação entre sua garantia e dívida:
 
-| Loop # | Garantia | Dívida  | Empréstimo disponível | APY equivalente | Preço de liquidação da DAI |
+| Loop # | Garantia | Dívida  | Empréstimo disponível | APY equivalente | Preço de liquidação de DAI |
 | ------ | -------- | ------- | --------------------- | --------------- | -------------------------- |
 | 1      | 100.000  | 0.000   | 86.956                | 10.42%          | 0                          |
 | 2      | 189.956  | 86.956  | 75.614                | 19.48%          | 0.512                      |
@@ -133,41 +133,41 @@ $$
 
 Se nós considerarmos o investimento inicial de apenas 100$, temos um retorno com APY de 72.463% em apenas uma única stablecoin!
 
-### Alternative strategy
+### Estratégia alternativa
 
-In order to get a little exposure to high volatility assets, you can use the same loop as above but only leverage 90% of the borrowed MAI, and use the 10% to buy something else. In this example, we will use the 10% to buy Qi (the native token of Mai Finance) and use the Qi-BAL pool on Balancer that currently has an APR (**A**nnual **P**ercentage **R**evenue) of 107.12%.
+Para conseguir um pouco de exposição a ativos de maior volatilidade, você pode utilizar o mesmo loop acima, mas alavancar apenas 90% do MAI emprestado, e utilizar os 10% restantes para comprar outro ativo. Neste exemplo, nós iremos utilizar os 10% para comprar Qi (o token nativo da Mai Finance), e utilizar a pool de liquidez Qi-BAL no Balancer que atualmente possui um APR  (**R**eceita **P**ercentual **A**nual) de 107.12%.
 
-![Qi-BAL pool state as of October 2021](../.gitbook/assets/camDAI-balancer.png)
+![ Pool de liquidez Qi-BAL em Outubro de 2021](../.gitbook/assets/camDAI-balancer.png)
 
-Since we're re-injecting less DAI in the camDAI vault, we will also operate less loops. The setup will look like this:
+Como nós estamos re-injetando menos DAI no cofre camDAI, nós também faremos menos loops. A operação se paracerá com isto:
 
-| Loop # | Collateral | Debt    | Qi     | Available loan | Equivalent APY | DAI liquidation price |
-| ------ | ---------- | ------- | ------ | -------------- | -------------- | --------------------- |
-| 1      | 100.000    | 0.000   | 0.000  | 86.957         | 10.42%         | 0                     |
-| 2      | 178.261    | 86.957  | 8.696  | 68.053         | 35.22%         | 0.537                 |
-| 3      | 239.509    | 155.009 | 15.501 | 53.259         | 54.63%         | 0.712                 |
-| 4      | 287.441    | 208.268 | 20.827 | 41.681         | 69.82%         | 0.797                 |
-| 5      | 324.954    | 249.949 | 24.995 | 32.620         | 81.71%         | 0.846                 |
-| 6      | 354.312    | 282.569 | 28.257 | 25.529         | 91.01%         | 0.877                 |
-| 7      | 377.288    | 308.097 | 30.810 | 19.979         | 98.29%         | 0.898                 |
-| 8      | 395.269    | 328.076 | 32.808 | 15.636         | 103.99%        | 0.913                 |
-| 9      | 409.341    | 343.712 | 34.371 | 12.237         | 108.45%        | 0.924                 |
-| 10     | 420.354    | 355.948 | 35.595 | 9.576          | 111.94%        | 0.931                 |
+| Loop # | Garantia | Dívida  | Qi     | Empréstimo disponível | APY equivalente | Preço de liquidação de DAI |
+| ------ | -------- | ------- | ------ | --------------------- | --------------- | -------------------------- |
+| 1      | 100.000  | 0.000   | 0.000  | 86.957                | 10.42%          | 0                          |
+| 2      | 178.261  | 86.957  | 8.696  | 68.053                | 35.22%          | 0.537                      |
+| 3      | 239.509  | 155.009 | 15.501 | 53.259                | 54.63%          | 0.712                      |
+| 4      | 287.441  | 208.268 | 20.827 | 41.681                | 69.82%          | 0.797                      |
+| 5      | 324.954  | 249.949 | 24.995 | 32.620                | 81.71%          | 0.846                      |
+| 6      | 354.312  | 282.569 | 28.257 | 25.529                | 91.01%          | 0.877                      |
+| 7      | 377.288  | 308.097 | 30.810 | 19.979                | 98.29%          | 0.898                      |
+| 8      | 395.269  | 328.076 | 32.808 | 15.636                | 103.99%         | 0.913                      |
+| 9      | 409.341  | 343.712 | 34.371 | 12.237                | 108.45%         | 0.924                      |
+| 10     | 420.354  | 355.948 | 35.595 | 9.576                 | 111.94%         | 0.931                      |
 
-At the end of the 10 loops, you'd get
+No final dos 10 loops, você terá:
 
-* $420.354 of DAI as collateral
-* $355.948 of debt
-* $35.595 of Qi
+* $420.354 de DAI como garantia
+* $355.948 de dívida
+* $35.595 de Qi
 
-The same math as in the previous case gives the following results
+A mesma matemática do caso anterior irá providenciar os seguintes resultados:
 
-* A final CDR of 118.09%, which should be considered as safe enough to prevent liquidation
-* $43.800 of interests on DAI from the 10.42% APY granted by the yield instrument
-* $68.139 of interests on your Qi from the Balancer pool, if you assume you will be compounding the Qi and BAL rewards in the Qi-BAL pool
-* A total APY of 111.94%
+* Uma taxa CDR final de 118.09%, que deve ser considerada segura o suficiente pra prevenir liquidação
+* $43.800 de juros em DAI, graças ao APY de 10.42% APY garantidos pelo instrumento de rendimento
+* $68.139 de juros em Qi da pool de liquidez do Balancer, se nós assumirmos que você re-investir as recompensas de Qi e BAL da pool, o que resulta em juros compostos
+* Um APY total de 111.94%
 
-This strategy presents more risks in the sense that the investment in the Qi-BAL pool isn't guaranteed. However, you will get a little bit of exposure to Qi, which will let you participate to the QiDAO protocol. If you use the BAL reward on Mai Finance as a collateral and borrow against it, you will also be able to re-invest in the camDAI vault or in the Qi-BAL pool. If you do so, you will also be entitled to borrowing rewards paid in Qi every week.
+Esta estratégia apresenta mais riscos já que o investimento na pool de Qi-BAL pool não é garantido. Entretanto, você conseguirá certa exposição ao Qi, que te permitirá participar do protocol QiDAO. Se você utilizar as recompendas BAL na Mai Finance como garantia e pegar emprestado, você também poderá reinvestir no cofre camDAI ou na pool Qi-BAL. Se você assim fizer, você também estaria entitulado a receberer recompensas pagas em Qi toda semana.
 
 ## Conclusion
 
