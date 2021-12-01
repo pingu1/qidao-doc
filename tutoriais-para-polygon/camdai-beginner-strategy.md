@@ -171,7 +171,7 @@ Esta estratégia apresenta mais riscos já que o investimento na pool de Qi-BAL 
 
 ## Conclusão
 
-Com um investimento mínimo e pouca manutenção, você pode conseguir excelentes resultados simplesmente por alavancar seu DAI. Como a DAI é uma stablecoin que possuia muita liquidez em diversas redes, o risco é relativamente baixo para a DAI perder seu lastro com o dolar, e com isso o seu cofre ser liquidado. É o tipo de estratégia "configure e esqueça" que pode você facilmente ser um ponto de entrada para qualquer iniciante em DeFi, e provavelmente essa estratégia apresentará os mesmos resultados em um mercado de alta ou de baixa. Finalmente, nós também explicamos como utilizar a mesma estratégia, e com um pedaço do teu empréstimo, testar as diversas possibilidades do mundo DeFi na rede Polygon.
+Com um investimento mínimo e pouca manutenção, você pode conseguir excelentes resultados simplesmente por alavancar seu DAI. Como a DAI é uma stablecoin que possui muita liquidez em diversas redes, o risco dela se descolar do dolar, e com isso você ser liquidado, é relativamente baixo. Este é o tipo de estratégia que você "configura e esqueçe", podendo ser facilmente uma excelente porta de entrada para qualquer iniciante em DeFi, além de que muito provavelmente essa estratégia apresentará os mesmos resultados em um mercado de alta ou de baixa. Por último, nós também explicamos como utilizar a mesma estratégia, e com um pedaço do teu empréstimo, testar as diversas possibilidades do mundo DeFi na rede Polygon.
 
 ## Aviso legal
 
