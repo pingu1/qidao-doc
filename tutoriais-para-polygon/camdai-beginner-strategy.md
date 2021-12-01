@@ -173,10 +173,10 @@ Esta estratégia apresenta mais riscos já que o investimento na pool de Qi-BAL 
 
 Com um investimento mínimo e pouca manutenção, você pode conseguir excelentes resultados simplesmente por alavancar seu DAI. Como a DAI é uma stablecoin que possuia muita liquidez em diversas redes, o risco é relativamente baixo para a DAI perder seu lastro com o dolar, e com isso o seu cofre ser liquidado. É o tipo de estratégia "configure e esqueça" que pode você facilmente ser um ponto de entrada para qualquer iniciante em DeFi, e provavelmente essa estratégia apresentará os mesmos resultados em um mercado de alta ou de baixa. Finalmente, nós também explicamos como utilizar a mesma estratégia, e com um pedaço do teu empréstimo, testar as diversas possibilidades do mundo DeFi na rede Polygon.
 
-## Disclaimer
+## Aviso legal
 
-Everything presented in this tutorial is educational content made to illustrate the leverage option proposed by Mai Finance. We didn't talk about debt repayment because there are articles dedicated to this on this site, but you need to keep in mind that Mai Finance charges a 0.5% repayment fee on the borrowed amount. As always, make your own researches and don't hesitate to ask question on the [Discord server of the DAO](https://discord.com/invite/qidaoprotocol) community.
+Tudo apresentado neste tutorial é de cunho educacional feito para ilustral as opçōes de alavancagem propostas pela Mai Finance. Nos não conversamos sobre reembolso de dívida, pois já há artigos destinados a isto neste website, mas você deve ter em mente que a Mai Finance cobra uma taxa de 0.5% pelo reembolso da dívida, sobre a quantia emprestada. Como sempre, faça as suas proprias pesqusias e não hesite em fazer perguntas no [Servidor do Discord ](https://discord.com/invite/qidaoprotocol)da Comunidade DAO.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua propria pesquisa.
 {% endhint %}
