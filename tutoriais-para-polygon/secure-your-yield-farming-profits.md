@@ -9,7 +9,7 @@ description: >-
 
 ## Ideia Geral
 
-Ao entrar em uma y_ield farm,_ fazenda em inglês, você passa a expor seus investimentos ao sucesso ou fracasso da farm. Este guia não tem como objetivo explicar em detalhes **o que é** uma yield farm, ou como você deve trabalhar com elas. Se você de ajuda sobre isso, saiba que há tutorias em todos os lugares da internet. Você também pode conseguir ajudar pela comunidade da QiDAO no [Discord](https://discord.gg/mQq55j65xJ).
+Ao entrar em uma y_ield farm,_ fazenda em inglês, você passa a expor seus investimentos ao sucesso ou fracasso da farm. Este guia não tem como objetivo explicar em detalhes **o que é** uma yield farm, ou como você deve trabalhar com elas. Se você precisa de ajuda sobre isso, há tutoriais disponíveis em todos os lugares da internet. Você também pode conseguir ajudar pela comunidade da QiDAO no [Discord](https://discord.gg/mQq55j65xJ).
 
 O problema principal ao fazer farming é ter de escolher entre:
 
@@ -24,15 +24,15 @@ Para ilustrar em mais detalhes como você pode fazer isso, utilizaremos a ultima
 
 ![](../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
 
-## Farming life cycle
+## Ciclo de vida do farming
 
-### Getting prepared to farm
+### Preparando-se para a farm
 
-As a humble farmer once told me
+Um fazendeiro humilde uma vez me disse:
 
-> _**You should never buy what you can earn**_
+> _**Você nunca deve comprar o que pode ganhar**_
 
-In the guide, we will try to implement as much financial security as possible. To do so, we will farm using stable coins only, in order to protect our investment from any impermanent loss. Most farms are proposing stable coins pairs in their liquidity pools (LP), and MAI gaining more and more visibility, you can find farms proposing MAI/USDC pools. This is the stable coins pair we will be focusing on.
+Neste tutorial, nos tentaremos aplicar o máximo de segurança financeira possível. Para fazer isso, nós faremos farming utilizando apenas stablecoins, para proteger nosso investimento de qualquer _impermanent loss, ou_ prejuizo impermanente. A maioria das farms dispoe de pares de stablecoins para suas pools de liquidez (LP), e como a MAI tem ganhado mais e mais visibilidade, você pode encontrar farms dispondo de pools de MAI/USDC. Este é o par de stablecoins que nós focaremos a nossa atenção.
 
 In order to start farming using MAI/USDC pair, you need to acquire some stable coins. Mai Finance allows you to borrow the MAI stable coin by depositing your favorite crypto currency. In our case, we have a bunch of MATIC in our wallet, ready to be used. By depositing my MATIC into the [MATIC vault](https://app.mai.finance/vaults/matic) on Mai Finance, I can borrow MAI. If you need assistance doing that, please join the Discord server and ask the community. You can also read other tutorials on this site where you may find how to do this.
 
