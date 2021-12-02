@@ -44,25 +44,25 @@ Após você tomar emprestado MAI, você pode usar a pagina [página ancora](http
 
 ![Utilizando a página de swap para converter 30 MAI em USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
 
-Agora dependendo da farm que você pretende utilizar, você precisa combinar as suas duas stable coins (MAI e USDC) em um par LP válido na plataforma da DEX. Como o meu plano é entrar na Polyup, e esta farm aceita LP's da QuickSwap, eu preciso ir a [QuickSwap](https://quickswap.exchange/#/) e gerar o meu par lá dentro.
+Agora, dependendo da farm que você pretende utilizar, você precisa combinar as suas duas stable coins (MAI e USDC) em um par LP válido na plataforma da DEX. Como o meu plano é entrar na Polyup, e esta farm aceita LP's da QuickSwap, eu preciso ir a [QuickSwap](https://quickswap.exchange/#/) e gerar o meu par lá dentro.
 
 ![Gerando alguns tokens LP utilizando MAI e USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
 
 Eu estou pronto para entrar na farm agora.
 
-### Deposit and harvest farm tokens
+### Depositando e colhendo tokens de farm
 
-Now that you have some LP tokens, you can go to the farm website and deposit them to start collecting the farm tokens. In our example, I deposited my MAI/USDC tokens into the correct pool, and started collecting BALL tokens.
+Agora que você possui alguns tokens da LP, você pode ir ao site da farm e depositá-los para começar a coletar os tokens da farm. No nosso exemplo, eu depositei meus tokens MAI/USDC dentro da pool respectiva, e comecei a coletar os meus tokens BALL.&#x20;
 
-![Earning BALLs in the pool](../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
+![Recebendo tokens BALLs na pool](../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
 
-As of right now, you can see that farming MAI/USDC is granting me 176.99% APR. Based on how much liquidity is provided in the pool, and on the price of the BALL token, this APR will change over time.
+No momento, você pode ver que o farming de MAI/USDC está me gerando um APR de 176.99%. Dependendo da liquidez presente na pool, e do preço do token BALL, este APR pode mudar com o passar do tempo.
 
 {% hint style="info" %}
-It's very important to note that when you deposit your LP tokens, most farm will charge anywhere between 2% and 4% fees directly taken from the tokens you deposit. Be very aware of this, and make sure you are mentally ready to potentially lose the fee, or not fully get it back.
+É muito importante entender que ao depositar seus tokens LP, a maioria das farms irá te cobrar uma taxa entre 2% a 4%, tomada diretamente do valor do seu depósito. Esteja atento a isso, e tenha certeza que você está confortavel em perder esta taxa, e que não irá consegui-la de volta.&#x20;
 {% endhint %}
 
-Now that your stable coins are deposited in the pool, you will earn some farm tokens that you can harvest whenever you want. Note that the price of the farm token will likely be very volatile, so make sure you harvest regularly when the token has some value. The more you wait, the more risk you have to get a big bag of tokens that worth totally nothing. In the screenshot above, simply click the Harvest token and collect your BALLs.
+Agora que suas stablecoins foram depositadas na pool, você receberá alguns tokens de farm, que você pode colher quando quiser. Saiba porém que o preço to token da farm será provavelmente muito volátil, então faça questão de colher regularmente, quando o token tiver mais valor. Quanto mais você esperar, maior o risco de você ter uma porção de tokens que valem absolutamente nada. Na foto acima, clique em Harvest para obter os seus BALLs.&#x20;
 
 ### Leverage your farm tokens
 
