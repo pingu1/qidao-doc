@@ -2,7 +2,7 @@
 
 * [Le guide non-officiel d'utilisation de Mai Finance](README.md)
 
-## Tutoriels pour Polygon <a href="tutoriels-polygon" id="tutoriels-polygon"></a>
+## Tutoriels pour Polygon <a href="#tutoriels-polygon" id="tutoriels-polygon"></a>
 
 * [Comment bien démarrer sur Polygon](tutoriels-polygon/how-to-get-started-on-polygon.md)
 * [Appliquez un effet de levier sur vos tokens AAVE](tutoriels-polygon/tirez-parti-aave-tokens.md)
@@ -16,17 +16,17 @@
 * [OHM forks on Polygon: The case of KLIMA](tutoriels-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
 * [MAI single-staking with Ethalend](tutoriels-polygon/ethalend-single-staking.md)
 
-## Tutoriels pour Avalanche <a href="tutoriels-avalanche" id="tutoriels-avalanche"></a>
+## Tutoriels pour Avalanche <a href="#tutoriels-avalanche" id="tutoriels-avalanche"></a>
 
 * [Comment démarrer sur Avalanche](tutoriels-avalanche/how-to-get-started-on-avalanche.md)
 
 ## Fantom tutorials
 
-* [How to get started on Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
-* [Leverage your crypto on Fantom](fantom-tutorials/leverage-your-crypto-on-fantom.md)
-* [What to do with MAI on Fantom](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
+* [Comment démarrer sur Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
+* [Appliquer un effet de levier à vos cryptos sur Fantom](fantom-tutorials/leverage-your-crypto-on-fantom.md)
+* [Que faire avec MAI sur Fantom](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
 
-## L'Université du MAI <a href="universite-mai" id="universite-mai"></a>
+## L'Université du MAI <a href="#universite-mai" id="universite-mai"></a>
 
 * [Obtenez des gains passifs avec QiDAO](universite-MAI/earning-passive-income-with-qidao.md)
 * [Qu'est-ce que le MAI et comment fonctionne-t-il](universite-MAI/how-does-mai-work.md)
@@ -36,7 +36,7 @@
 * [MAI dans le metaverse](universite-MAI/mai-dans-le-metaverse.md)
 * [Comment utiliser MAI dans la "vraie" vie](universite-MAI/how-to-use-mai-in-the-real-life.md)
 
-## Rejoignez la Communauté <a href="communaute" id="communaute"></a>
+## Rejoignez la Communauté <a href="#communaute" id="communaute"></a>
 
 * [Telegram](https://t.me/QiDaoProtocol)
 * [Discord](https://discord.gg/qidaoprotocol)
