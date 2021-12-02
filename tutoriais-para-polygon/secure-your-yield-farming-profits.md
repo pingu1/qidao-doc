@@ -89,35 +89,35 @@ Todos os resultados apresentados abaixo dependem de assumirmos algumas coisas:
 
 Essas suposiçōes obviamente não são aplicaveis na vida real ja que o APR deve cair lentamente conforme mais liquidez é injetada na pool, e que os tokens da farm variam em preço
 
-### Resultados brutos estimados
+### Resultado bruto estimado
 
-| Dia | Valor do LP | Valor da recompensa | MATIC acumulado | Nova LP criada |
-| :-: | ----------: | ------------------: | --------------: | -------------: |
-|  1  |      $57.60 |              $0.279 |          $0.279 |         $0.139 |
-|  2  |     $57.734 |              $0.280 |          $0.559 |         $0.140 |
-|  3  |     $57.874 |              $0.280 |          $0.840 |         $0.140 |
-|  4  |     $58.014 |              $0.281 |          $1.121 |         $0.141 |
-|  5  |     $58.155 |              $0.282 |          $1.403 |         $0.141 |
-|  6  |     $58.296 |              $0.282 |          $1.686 |         $0.141 |
-|  7  |     $58.437 |              $0.283 |          $1.969 |         $0.142 |
-|  8  |     $58.579 |              $0.284 |          $2.253 |         $0.142 |
-|  9  |     $58.721 |              $0.285 |          $2.538 |         $0.142 |
-|  10 |     $58.863 |              $0.285 |          $2.823 |         $0.143 |
-|  11 |     $59.006 |              $0.286 |          $3.109 |         $0.143 |
-|  12 |     $59.149 |              $0.287 |          $3.396 |         $0.143 |
-|  13 |     $59.292 |              $0.287 |          $3.684 |         $0.144 |
-|  14 |     $59.436 |              $0.288 |          $3.972 |         $0.144 |
-|  15 |     $59.580 |              $0.289 |          $4.261 |         $0.144 |
-|  16 |     $59.725 |              $0.289 |          $4.551 |         $0.145 |
-|  17 |     $59.870 |              $0.290 |          $4.841 |         $0.145 |
-|  18 |     $60.015 |              $0.291 |          $5.132 |         $0.145 |
+| Dia | Valor da LP | Valor da recompensa | MATIC acumulados | Nova LP criada |
+| :-: | ----------: | ------------------: | ---------------: | -------------: |
+|  1  |      $57.60 |              $0.279 |           $0.279 |         $0.139 |
+|  2  |     $57.734 |              $0.280 |           $0.559 |         $0.140 |
+|  3  |     $57.874 |              $0.280 |           $0.840 |         $0.140 |
+|  4  |     $58.014 |              $0.281 |           $1.121 |         $0.141 |
+|  5  |     $58.155 |              $0.282 |           $1.403 |         $0.141 |
+|  6  |     $58.296 |              $0.282 |           $1.686 |         $0.141 |
+|  7  |     $58.437 |              $0.283 |           $1.969 |         $0.142 |
+|  8  |     $58.579 |              $0.284 |           $2.253 |         $0.142 |
+|  9  |     $58.721 |              $0.285 |           $2.538 |         $0.142 |
+|  10 |     $58.863 |              $0.285 |           $2.823 |         $0.143 |
+|  11 |     $59.006 |              $0.286 |           $3.109 |         $0.143 |
+|  12 |     $59.149 |              $0.287 |           $3.396 |         $0.143 |
+|  13 |     $59.292 |              $0.287 |           $3.684 |         $0.144 |
+|  14 |     $59.436 |              $0.288 |           $3.972 |         $0.144 |
+|  15 |     $59.580 |              $0.289 |           $4.261 |         $0.144 |
+|  16 |     $59.725 |              $0.289 |           $4.551 |         $0.145 |
+|  17 |     $59.870 |              $0.290 |           $4.841 |         $0.145 |
+|  18 |     $60.015 |              $0.291 |           $5.132 |         $0.145 |
 
-* On day 1, the 4% fee is applied to our initial 60$ worth of MAI/USDC pair
-* At the end of day 1, the generated revenue ($0.279) is fully transferred into the MATIC vault
-* At the end of day 1, since we added some funds to the vault we can borrow more MAI
-* In order to keep a 200% Collateral to Debt ratio, we only borrow 50% of the deposited MATIC ($0.139)
-* At the beginning of day 2, we re-inject $0.139 into the farm (and the farm takes out 4% deposit fee)
-* At the beginning of fay 2, we start again with an additional $0.134 worth of LP token
+* No dia 1, a taxa de 4% é aplicada no nosso investimento inicial de 60$ do par MAI/USDC
+* No final do dia 1, a receita gerada ($0.279) é totalmente transferida no cofre de MATIC
+* No final do dia 1, como nos adicionamos mais fundos ao cofre, nós podemos tomar emprestado mais MAI
+* Para manter uma razão Garantia / Divida de 200%, nós apenas pegaremos emprestado 50% do nosso MATIC depositado ($0.139)
+* No inicio do dia 2, nós reinvestimos $0.139 na farm (e a farm detem 4% de taxas de deposito)&#x20;
+* No inicio do dia 2, nós começamos novamente, com um valor adicional de $0.134 de tokens LP&#x20;
 
 ### Estimating APRs, APYs and revenue growth
 
