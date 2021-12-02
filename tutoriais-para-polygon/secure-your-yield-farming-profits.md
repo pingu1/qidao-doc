@@ -62,22 +62,22 @@ No momento, você pode ver que o farming de MAI/USDC está me gerando um APR de 
 É muito importante entender que ao depositar seus tokens LP, a maioria das farms irá te cobrar uma taxa entre 2% a 4%, tomada diretamente do valor do seu depósito. Esteja atento a isso, e tenha certeza que você está confortavel em perder esta taxa, e que não irá consegui-la de volta.&#x20;
 {% endhint %}
 
-Agora que suas stablecoins foram depositadas na pool, você receberá alguns tokens de farm, que você pode colher quando quiser. Saiba porém que o preço to token da farm será provavelmente muito volátil, então faça questão de colher regularmente, quando o token tiver mais valor. Quanto mais você esperar, maior o risco de você ter uma porção de tokens que valem absolutamente nada. Na foto acima, clique em Harvest para obter os seus BALLs.&#x20;
+Agora que suas stablecoins foram depositadas na pool, você receberá alguns tokens de farm, que você pode colher quando quiser. Saiba porém que o preço to token da farm será provavelmente muito volátil, então faça questão de colher regularmente, quando o token tiver mais valor. Quanto mais você esperar, maior o risco de você ter uma porção de tokens que valem absolutamente nada. Na foto acima, você pode ver a opção Harvest, que deve ser clicada para obter os seus BALLs.&#x20;
 
-### Leverage your farm tokens
+### Alavanque os seus tokens de farm
 
-Now that you have some farm tokens, usually you have the choice between
+Tendo em conta que agora você possui alguns tokens de farm, geralmente você pode escolher entre:
 
-* selling them to buy something of greater value (your favorite crypto is a good example)
-* re-inject them into the pool
+* vendê-los para comprar algo de maior valor (sua criptomoeda favorita é um bom exemplo)
+* reinvesti-los na pool&#x20;
 
-Mai Finance presents a third option that lets you do both. Once you harvested your reward, simply go to your favorite DEX that support the farm token. Usually, you can find a link to a DEX in the menu of the farm. The link will include the token address which will help you trade it easily.
+A Mai Finance te apresenta uma terceira opção que ter permite fazer ambos. Após você ter colhido sua recompensa, simplesmente visite a sua DEX favorita, desde que ela suporte o token da farm. Geralmente, você pode encontrar um link para uma DEX no menu da farm. Este link incluirá o endereço do token, o que te ajudará a trocá-lo facilmente.&#x20;
 
-![Swapping my reward for more MATIC](../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
+![Trocando minha recompensa para mais MATIC](../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
 
-At that point, I am back at the step where we have MATIC tokens in my wallet, ready to be deposited on Mai Finance as a collateral. If I do that, I can borrow MAI, swap a portion of it into USDC, create a LP pair and re-deposit it into the farm. By doing this conversion, I "secure" 100% of my rewards by swapping them into a more stable crypto (here MATIC) and I re-inject 50% of my reward into the farming pool (or actually, in this example, 46% because of the 4% deposit fee).
+Neste momento, eu volto para a etapa em que nós temos tokens MATIC em nossa carteira, prontos para serem depositados na Mai Finance como garantia. Se eu assim fizer, eu posso tomar emprestado MAI, trocar uma parte por USDC, criar um par LP e redepositá-los na farm. Fazendo esta conversão, eu "asseguro" 100% das minhas recompensas ao trocá-los por uma criptomoeda mais estavel (MATIC, no caso). Eu reinvesto, então, 50% da minha recompensa na pool de liquidez (ou na verdade, neste exemplo, 46%, devido as taxas de deposito de 4%).
 
-If you think about it from a different perspective, the APR is 100% applied to your main crypto. If you are depositing new LP tokens into the pool (compounding), you get 50% of the APY advertised by the pool.
+Se você pensar por uma outra perspectiva, o APR é aplicado totalmente sobre sua criptomoeda principal. Se você está depositando novos tokens lP na pool (com juros compostos), você terá 50% do APY anunciado pela pool.
 
 ## Gains estimation
 
