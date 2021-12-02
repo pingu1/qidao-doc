@@ -116,7 +116,7 @@ These assumption are obviously not applying to the real life, the APR will slowl
 * At the end of day 1, since we added some funds to the vault we can borrow more MAI
 * In order to keep a 200% Collateral to Debt ratio, we only borrow 50% of the deposited MATIC ($0.139)
 * At the beginning of day 2, we re-inject $0.139 into the farm (and the farm takes out 4% deposit fee)
-* At the beginning of fay 2, we start again with an additional $0.134 worth of LP token
+* At the beginning of day 2, we start again with an additional $0.134 worth of LP token
 
 ### Estimating APRs, APYs and revenue growth
 
