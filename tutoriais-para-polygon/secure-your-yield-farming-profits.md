@@ -79,38 +79,38 @@ Neste momento, eu volto para a etapa em que nós temos tokens MATIC em nossa car
 
 Se você pensar por uma outra perspectiva, o APR é aplicado totalmente sobre sua criptomoeda principal. Se você está depositando novos tokens lP na pool (com juros compostos), você terá 50% do APY anunciado pela pool.
 
-## Gains estimation
+## Estimativa de ganhos
 
-All the results presented below are assuming a few things
+Todos os resultados apresentados abaixo dependem de assumirmos algumas coisas:
 
-* We started with the equivalent of 60 MAI borrowed against the equivalent of $120.00 worth of MATIC
-* The APR of the farm is staying at 176.99% for the period of time, translating to a 0.484% daily gain
-* The value of MATIC and BALL stay the same for the period of time
+* Nós começamos com o equivalente de 60 MAI, que tomamos emprestado com garantia de $120.00 de MATIC
+* O APR da farm permanece constante em 176.99%, o que resulta em um ganho diario de 0.484%
+* O valor de MATIC e BALL permanecem os mesmos durante o mesmo período
 
-These assumption are obviously not applying to the real life, the APR will slowly decay over time as more liquidity is provided to the pool, and as the farm token varies in price.
+Essas suposiçōes obviamente não são aplicaveis na vida real ja que o APR deve cair lentamente conforme mais liquidez é injetada na pool, e que os tokens da farm variam em preço
 
-### Estimated raw results
+### Resultados brutos estimados
 
-| Day | LP value | Reward value | Compounded MATIC | New LP created |
-| :-: | -------: | -----------: | ---------------: | -------------: |
-|  1  |   $57.60 |       $0.279 |           $0.279 |         $0.139 |
-|  2  |  $57.734 |       $0.280 |           $0.559 |         $0.140 |
-|  3  |  $57.874 |       $0.280 |           $0.840 |         $0.140 |
-|  4  |  $58.014 |       $0.281 |           $1.121 |         $0.141 |
-|  5  |  $58.155 |       $0.282 |           $1.403 |         $0.141 |
-|  6  |  $58.296 |       $0.282 |           $1.686 |         $0.141 |
-|  7  |  $58.437 |       $0.283 |           $1.969 |         $0.142 |
-|  8  |  $58.579 |       $0.284 |           $2.253 |         $0.142 |
-|  9  |  $58.721 |       $0.285 |           $2.538 |         $0.142 |
-|  10 |  $58.863 |       $0.285 |           $2.823 |         $0.143 |
-|  11 |  $59.006 |       $0.286 |           $3.109 |         $0.143 |
-|  12 |  $59.149 |       $0.287 |           $3.396 |         $0.143 |
-|  13 |  $59.292 |       $0.287 |           $3.684 |         $0.144 |
-|  14 |  $59.436 |       $0.288 |           $3.972 |         $0.144 |
-|  15 |  $59.580 |       $0.289 |           $4.261 |         $0.144 |
-|  16 |  $59.725 |       $0.289 |           $4.551 |         $0.145 |
-|  17 |  $59.870 |       $0.290 |           $4.841 |         $0.145 |
-|  18 |  $60.015 |       $0.291 |           $5.132 |         $0.145 |
+| Dia | Valor do LP | Valor da recompensa | MATIC acumulado | Nova LP criada |
+| :-: | ----------: | ------------------: | --------------: | -------------: |
+|  1  |      $57.60 |              $0.279 |          $0.279 |         $0.139 |
+|  2  |     $57.734 |              $0.280 |          $0.559 |         $0.140 |
+|  3  |     $57.874 |              $0.280 |          $0.840 |         $0.140 |
+|  4  |     $58.014 |              $0.281 |          $1.121 |         $0.141 |
+|  5  |     $58.155 |              $0.282 |          $1.403 |         $0.141 |
+|  6  |     $58.296 |              $0.282 |          $1.686 |         $0.141 |
+|  7  |     $58.437 |              $0.283 |          $1.969 |         $0.142 |
+|  8  |     $58.579 |              $0.284 |          $2.253 |         $0.142 |
+|  9  |     $58.721 |              $0.285 |          $2.538 |         $0.142 |
+|  10 |     $58.863 |              $0.285 |          $2.823 |         $0.143 |
+|  11 |     $59.006 |              $0.286 |          $3.109 |         $0.143 |
+|  12 |     $59.149 |              $0.287 |          $3.396 |         $0.143 |
+|  13 |     $59.292 |              $0.287 |          $3.684 |         $0.144 |
+|  14 |     $59.436 |              $0.288 |          $3.972 |         $0.144 |
+|  15 |     $59.580 |              $0.289 |          $4.261 |         $0.144 |
+|  16 |     $59.725 |              $0.289 |          $4.551 |         $0.145 |
+|  17 |     $59.870 |              $0.290 |          $4.841 |         $0.145 |
+|  18 |     $60.015 |              $0.291 |          $5.132 |         $0.145 |
 
 * On day 1, the 4% fee is applied to our initial 60$ worth of MAI/USDC pair
 * At the end of day 1, the generated revenue ($0.279) is fully transferred into the MATIC vault
