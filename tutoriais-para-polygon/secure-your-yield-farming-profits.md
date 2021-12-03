@@ -132,10 +132,10 @@ Se tratando de ganhso, a recompenda que se torna acumulada na farm é apenas 50%
 Também é possivel calcular o ganho exato que foi acumulado em um dia especificod a farm, assumindo que você esta acumulando diariamente, utilizando a seguinte formula para obter o **ROI**, sigla em inglês para **Retorno Sobre Investimento**,&#x20;
 
 $$
-ROI_{DayN}=InitialInvestment*(1+DailyAPR)^{DayN}-InitialInvestment
+ROI_{DiaN}=InvestimentoInicial*(1+APRDiario)^{DiaN}-InvestimentoInicial
 $$
 
-In the case of a farm that takes 4% deposit fee, you need to multiply the above result by 96%. In our case, we can quickly verify that the formula works by comparing its result to the table above
+No ca In the case of a farm that takes 4% deposit fee, you need to multiply the above result by 96%. In our case, we can quickly verify that the formula works by comparing its result to the table above
 
 $$
 ROI_{Day1} = [60 * (1+0.00242)^{1}-60]*0.96=$0.1396523836
