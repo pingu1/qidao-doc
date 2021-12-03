@@ -179,17 +179,17 @@ No final do ano, nós teriamos:
 
 ## Aviso legal
 
-Tudo apresentado nesta estrategia depende de assumirmos que:&#x20;
+Tudo apresentado nesta estratégia depende de assumirmos que:&#x20;
 
-* The farm is keeping a constant APR on your pool (which is totally wrong)
-* It is possible to farm for a whole year (which is not possible, all farms are ending their farming session sooner or later)
+* A farm mantém o APR constante durante o período (o que é impossível)
+* É possivel utilizar a farm durante o ano todo (o que tambem é impossível, pois todas as farms encerrão suas atividades cedo ou tarde)
 
-As a side note, the APR of the MAI/USDC pool on Polypup after 24h of farming is 128.13%, mostly because of the price of BALL slowly decaying.
+Como uma observação, o APR da pool MAI/USDC na Polyup após 24h de farming é de 128.13%, principalmente por conta da queda do preço do token BALL.
 
-Also, farming with stable coins _**may**_ be the most "secured" way to earn yields because you're not exposed to impermanent loss. However, there is absolutely no guarantee that you will be able to get your 4% deposit back. You can find some websites that have stable coin pools with 0% to 1% deposit fees, even on the non-native pools (pools that accept LP pairs without the native farm token).
+A propósito, realizar farming com stablecoins _**pode**_ ser a maneira mais segura de garantir rendimentos pois você não fica exposto a impermenant loss. Entretando, não há qualquer garantia que você possa receber a sua taxa de depósito de 4% de volta. You você pode encontrar, inclusive, alguns websites que possuem stablecoins com taxas ente 0% e 1%, até mesmo em tokens nao nativos (pools que aceitam pares LP diferentes dos nativos).
 
-Harvesting the rewards and swapping them for something valuable is considered the best strategy when farming yields. Borrowing MAI to re-inject a portion of stable coin in the pool and increase your farming revenues exposes your benefits to the 4% deposit fee that the farm is taking off your LP pair, which may not be the best thing to do if you are unsure to get it back, and it's probably better to use another strategy to re-invest your earnings (invest in native pools / pools with 0% interest / pools with high APRs).
+Colher as recompensas e trocá-las por algo valioso é considerada a melhor estratégia nas farms. Tomar emprestado MAI para reinvestir uma porção de stablecoins na pool e aumentar sua receita expoe seus beneficios à taxa de 4% que a farm detem do seu par LP, o que pode não ser a melhor coisa a se fazer se você está em duvidas de recebe-los novamente, e é provavelmente melhor utilizar outra estrategia para reinvestir os seus lucros (investir em pools nativas / pools com juros de 0% / pools com APR alto).&#x20;
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua propria pesquisa.
 {% endhint %}
