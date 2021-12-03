@@ -119,17 +119,17 @@ Essas suposiçōes obviamente não são aplicaveis na vida real ja que o APR dev
 * No inicio do dia 2, nós reinvestimos $0.139 na farm (e a farm detem 4% de taxas de deposito)&#x20;
 * No inicio do dia 2, nós começamos novamente, com um valor adicional de $0.134 de tokens LP&#x20;
 
-### Estimating APRs, APYs and revenue growth
+### Estimando o APR, APY e o crescimento da receita
 
-The estimation was stopped after 18 days because passed that date, you can see that we are back at a value of $60 worth of LP tokens. This means that I farmed enough to repay the initial deposit fees, which is the minimum goal that any farmer should aim for.
+A estimativa parou após 18 dias, porque passado esta data, você pode ver voltamos ao valor de 60$ em tokens LP. Isto significa que eu produzi o suficiente para reembolsar as taxas de deposito iniciais, o que seria o minimo que um fazendeiro deve pretender obter.&#x20;
 
-Passed that date, staying in the farm will only generate benefits. And because we're farming using stable coins, there's literally 0% impermanent loss on the liquidity I provide, meaning that there's no risk of losing money by staying in the pool.
+Passado esta data, permanecer na farm gerará apenas beneficios. E porque nós estamos utilizando stablecoins, ha literalmente um rsico de 0% de impermaent loss na liquidez que eu providenciei, significado que nao ha risco de perder dinheiro ao permanecer na pool.&#x20;
 
-However, I can also consider that I repaid the initial $2.40 deposit fee on day 9 because it's the time when the value of the profit in my MATIC wallet reached that amount. If I was just selling the farm token to make profit and not re-invest into the farming pool, that would actually be the moment I would only generate benefits.
+Entretanto, eu tambem posso considar que eu reembolsei a taxa de deposito inicial de $2.40 no dia 9, pois foi o momento que o lucro da minha carteira MATIC alcancou esta quantidade. Se eu apenas estivesse vendendo o token da farm para obter lucro, e não re-investi-lo na pool, este seria o momento, de fato, a partir de que eu geraria apenas beneficios.&#x20;
 
-In terms of gains, the reward that gets compounded into the farm is only 50% of the farm APR. This means that with a farm APR rated at 176.99%, the actual growth rate is only 88.495% annually, or 0.242% daily.
+Se tratando de ganhso, a recompenda que se torna acumulada na farm é apenas 50% do APR da farm. Isto significa que com um APR de 176.99%, a verdadeira taxa de crescimento anual é de apeans 88.495% anualmente, ou 0.242% diariamente.
 
-It's also possible to calculate the exact gain that was accrued on a specific day on the farm, assuming you are compounding daily, using the following formula for the **R**eturn **O**n **I**nvestment
+Também é possivel calcular o ganho exato que foi acumulado em um dia especificod a farm, assumindo que você esta acumulando diariamente, utilizando a seguinte formula para obter o **ROI**, sigla em inglês para **Retorno Sobre Investimento**,&#x20;
 
 $$
 ROI_{DayN}=InitialInvestment*(1+DailyAPR)^{DayN}-InitialInvestment
