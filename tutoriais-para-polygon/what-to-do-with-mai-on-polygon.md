@@ -24,15 +24,15 @@ Projetos bluechip são aplicaçōes de DeFi que mostram-se excelentes, e que apr
 
 ### Balancer
 
-O [Balancer](https://polygon.balancer.fi/#/) é um gerenciador automatizado de portfólios, provedor de liquidez, e detector de preços. Nesta plataforma, você poderá emprestar suas criptomoedas, e receber taxas dos traders, que reorganizam seu portfolio seguindo oportunidade de arbitragem. Se você precisar de mais informaçōes sobre o balancer, por favor leia o [guia oficial](https://docs.balancer.fi).
+[Balancer](https://polygon.balancer.fi/#/) é um gerenciador automatizado de portfólios, provedor de liquidez, e detector de preços. Nesta plataforma, você poderá emprestar suas criptomoedas, e receber taxas dos traders, que reorganizam seu portfolio seguindo oportunidade de arbitragem. Se você precisar de mais informaçōes sobre o balancer, por favor leia o [guia oficial](https://docs.balancer.fi).
 
 Na rede Polygon, o Balancer possui uma pool composta de 4 principais stablecoins: DAI, USDC, USDT e MAI (miMATIC). Esta pool possui atualmente uma taxa APR de aproximadamente 20%, que tem se mostrado estável.
 
 ![Pool de stablecoins em Agosto de 2021](../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
 
-The best thing about Balancer is that you absolutely don't need to own the 4 coins to deposit into the pool. Balancer will automatically generate a balanced combination with whatever deposit you make. This means that if you have 100$ worth of MAI, you can simply deposit them into the Balancer pool and let the algorithm slip it properly to have a 25% ratio for each coin depending on their respective price at the moment of the deposit.
+A melhor coisa da Balancer é que você não precisa necessariamente possuir as 4 moedas para depositá-las na pool. A Balancer irá gerar automaticamente uma combinação equilibrada com qualquer seja o depósito que você fizer. Isso significa que se você tem 100$ de MAI, você pode simplesmente depositá-los na pool da Balancer e deixar o algoritmo introduzi-los corretamente para obter uma razão de 25% para cada moeda, dependendo de seu preço no momento do depósito.
 
-Rewards for the pool are paid using the BAL token, distributed on a weekly basis. In addition to the BAL token, additional rewards can be granted depending on the pool you entered. You can check the different [incentives program here](https://balancer-incentives.web.app). In our case, participating in the stable pool will also earn you MATIC and Qi rewards.
+Recompensas para a poolRewards for the pool are paid using the BAL token, distributed on a weekly basis. In addition to the BAL token, additional rewards can be granted depending on the pool you entered. You can check the different [incentives program here](https://balancer-incentives.web.app). In our case, participating in the stable pool will also earn you MATIC and Qi rewards.
 
 The complete flow would be something like this
 
