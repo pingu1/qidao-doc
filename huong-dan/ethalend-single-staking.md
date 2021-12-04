@@ -1,185 +1,185 @@
 ---
 description: >-
-  Most people will use their MAI loan to buy other assets. However, some
-  very interesting strategies can be used with MAI directly, and the one
-  using Ethalend is a very good one.
+  Hầu hết mọi người sẽ sử dụng khoản vay MAI của họ để mua các tài sản khác. Tuy
+  nhiên, một số chiến lược thú vị sử dụng trực tiếp MAI, và chiến lược sử dụng
+  Ethalend là một chiến lược rất đáng chú ý.
 ---
 
-# MAI single staking with Ethalend
+# Sử dụng MAI tại Ethalend
 
-## Intro
+## Giới thiệu
 
-One of the missions of this website and the collection of tutorials that are offered is to make DeFi user friendly by demystifying the most complex protocols. This vision is also shared by the team behind [Ethalend](https://www.ethalend.org/), and this guide will present a perfect way to use this platform in conjunction with Mai Finance to amplify your stable farming yields.
+Một trong những sứ mệnh của bộ hướng dẫn này cung cấp là làm cho Defi thân thiện với người dùng bằng cách làm đơn giản hóa các giao thức phức tạp nhất. Tầm nhìn này cũng được chia sẻ bởi đội ngũ đằng sau [Ethalen](https://www.ethalend.org)[d](https://www.ethalend.org) và hướng dẫn này sẽ trình  bày một cách hoàn hảo cách để sử dụng nền tảng này với Mai Finance để nâng cao năng suất đồng ổn định của bạn.
 
-## Ethalend presentation
+## Trình bày Ethalend&#x20;
 
-![](<../.gitbook/assets/Ethalend-1.png>)
+![](../.gitbook/assets/Ethalend-1.png)
 
-### What is Ethalend
+### Ethalend là gì?
 
-Ethalend is a composable protocol that abstracts the complexity in DeFi to provide algorithmically optimal yield. It is not a yield aggregagor, but a yield optimizer. You will be able to deposit your assets on the platform, and the algorithm in charge of the pool in which you deposit your assets will actually invest them in the best way possible. Yields are then distributed in the native token of Ethalend, the ETHA token, as well as some partner tokens, including Qi from Mai Finance that you can get by depositing your MAI in the MAI-USDT eVault. You can read more about Ethalend via their [official documentation](https://docs.ethalend.org/), or by reading this excellent [interview of the co-founder](https://ambcrypto.com/un-complicating-defi-an-interview-with-ethalend-co-founder-danny-b/).
+Ethalend là một giao thức có thể kết hợp để tóm lược độ phức tạp trong DeFi nhằm cung cấp năng suất tối ưu về mặt thuật toán. Nó không phải là một công cụ tổng hợp năng suất, mà là một công cụ tối ưu hóa lợi nhuận. Bạn sẽ có thể gửi tài sản của mình trên nền tảng và thuật toán phụ trách bể sẽ thực sự đầu tư chúng theo cách tốt nhất có thể. Sau đó, lợi nhuận được phân bằng mã thông báo gốc của Ethalend, mã thông báo ETHA, cũng như một số mã thông báo đối tác, bao gồm Qi từ Mai Finance mà bạn có thể nhận được bằng cách gửi MAI của mình vào MAI-USDT eVault. Bạn có thể đọc thêm về Ethalend qua [tài liệu chính thức](https://docs.ethalend.org) của họ hoặc bằng cách[ đọc bài phỏng vấn ](ethalend-single-staking.md#intro)tuyệt vời này của người đồng sáng lập
 
-### Create your Ethalend wallet from your web3 wallet
+### Tạo ví Ethalend bằng ví web 3
 
-One of the very interesting things about Ethalend is that the application is using a dedicated on-chain wallet that is not linked to your web3 wallet. This can be considered as
+Một trong những điều rất thú vị về Ethalend là ứng dụng đang sử dụng ví trực tuyến trên chuỗi khối chuyên dụng không được liên kết với ví web3 của bạn. Đây có thể coi là
 
-* an advantage since all contract risk is limited to what is exposed in this private wallet. Also, some interaction between the Ethalend application and the private wallet are directly included into the platform use, which may save you some transaction fees. As a side note, the ETHA smart wallet is non-custodial, meaning that only you will have access to the wallet, it's not like a master centralized wallet controlling the share corresponding to your wallet.
-* a disadvantage, because it adds complexity in your routine, and the ETHA smart wallet isn't compatible with physical devices.
+* một lợi thế vì tất cả rủi ro hợp đồng được giới hạn ở những gì được hiển thị trong ví riêng tư này. Ngoài ra, một số tương tác giữa ứng dụng Ethalend và ví cá nhân được đưa trực tiếp vào việc sử dụng nền tảng, điều này có thể giúp bạn tiết kiệm một số phí giao dịch. Xin lưu ý thêm, ví thông minh ETHA không bị giám sát, có nghĩa là chỉ bạn mới có quyền truy cập vào ví, nó không giống như một ví tập trung chính kiểm soát  ví của bạn.
+* một bất lợi, vì nó làm tăng thêm sự phức tạp trong quy trình của bạn và ví thông minh ETHA không tương thích với các thiết bị lưu trữ vật lý.&#x20;
 
-It's going to be up to you to decide if the pros are bringing enough value to surpass the cons. When you are ready to create your wallet, simply click on the `Create Wallet` button in the top right corner of your screen.
+Bạn sẽ quyết định xem ưu điểm có mang lại đủ giá trị để vượt qua nhược điểm hay không. Khi bạn đã sẵn sàng tạo ví, chỉ cần nhấp vào nút `Create Wallet` ở góc trên cùng bên phải của màn hình.
 
-![Create your ETHA smart wallet](<../.gitbook/assets/Ethalend-2.png>)
+![Tạo ví Etha ](../.gitbook/assets/Ethalend-2.png)
 
-There you go, ready to use the protocol!
+Bây giờ là lúc khám phá giao thức
 
-## Strategy overview
+## Chiến lược tổng quan
 
-This strategy can be added to your bucket of relatively  safe strategies since it will be using stable coin farming at its root, and additional yields will be provided thanks to more volatile assets from the rewards of the stable position.
+Chiến lược này có thể được thêm vào nhóm các chiến lược tương đối an toàn của bạn vì nó sẽ sử dụng cách canh tác đồng ổn định tận gốc và lợi nhuận bổ sung sẽ được cung cấp nhờ có nhiều tài sản biến động hơn từ phần thưởng của vị thế ổn định.
 
-### MAI single staking and gains
+### Đặt cổ phần MAI đơn và kết quả
 
-![Ethalend MAI-USDT eVault as of November 2021](<../.gitbook/assets/Ethalend-3.png>)
+![Bể MAI-USDT trên Ethalend tại thời điểm tháng 11 năm 2021](../.gitbook/assets/Ethalend-3.png)
 
-One of the big advantages of Ethalend, and one of the key feature that allows DeFi simplification, is that you don't need to provide a LP (**L**iquidity **P**roviding) pair composed of 2 assets with a ratio of 1:1. The algorithm that manages the pool (or eVault in our case) will do it automatically for you. Also, once you deposit your assets in a eVault, they will be re-routed automatically to the best protocol that will maximize your yield. The reward tokens will be farmed and converted for you regularly.
+Một trong những lợi thế lớn của Ethalend và cũng la tính năng chính cho phép đơn giản hóa DeFi là bạn không cần cung cấp cặp LP (Cung cấp thanh khoản) bao gồm 2 tài sản với tỷ lệ 1: 1. Thuật toán quản lý bể (hoặc eVault trong trường hợp của chúng ta) sẽ tự động làm điều đó cho bạn. Ngoài ra, sau khi bạn gửi tài sản của mình vào eVault, chúng sẽ được tự động định tuyến lại sang giao thức tốt nhất sẽ tối đa hóa lợi nhuận. Các mã thông báo phần thưởng sẽ được tiếp tục canh tác và chuyển đổi cho bạn thường xuyên.
 
-![Depositing 100 MAI in the MAI-USDT eVault from our MetaMask wallet](<../.gitbook/assets/Ethalend-4.png>)
+![Gửi 100 MAI vào MAI-USDT eVault từ ví Metamask](../.gitbook/assets/Ethalend-4.png)
 
-As you can see, details of the rewards are displayed in the right part of the screen. The ETHA rewards are not displayed, but you get an estimation of the Qi rewards associated with your deposit. If you scroll down the page, you will also get a good understanding of the underlying strategy that is using QuickSwap in our case. QUICK rewards will be converted into Qi rewards. ETHA rewards are minted by the protocol to incentive you to use their platform instead of QuickSwap.
+Như bạn có thể thấy, thông tin chi tiết về phần thưởng được hiển thị ở phần bên phải của màn hình. Phần thưởng ETHA không được hiển thị, nhưng bạn sẽ nhận được ước tính về phần thưởng Qi liên quan đến khoản tiền gửi của bạn. Nếu bạn kéo xuống trang, bạn cũng sẽ hiểu rõ về chiến lược cơ bản đang sử dụng QuickSwap trong trường hợp này. Phần thưởng QUICK sẽ được chuyển thành phần thưởng Qi. Phần thưởng ETHA được tạo ra bởi giao thức để khuyến khích bạn sử dụng nền tảng của họ thay vì QuickSwap.
 
 {% hint style="info" %}
-Pay attention to the 0.10% withdrawing fees. As of writing, with a deposit of 100 MAI, I will have to pay a 0.1 MAI exit fee, which roughly corresponds to 10 days of farming in the eVault. Make sure you understand this point before investing anything.
+Chú ý đến phí rút tiền 0,10%. Như đã viết, với số tiền đặt cọc là 100 MAI, chúng ta sẽ phải trả phí rút là 0,1 MAI, tương ứng với 10 ngày farm trong eVault. Hãy chắc chắn rằng bạn hiểu rõ điểm này trước khi đầu tư bất cứ thứ gì.
 {% endhint %}
 
-### Staking ETHA: Ethalend or QuickSwap
+### Gửi ETHA: Ethalend hay QuickSwap
 
-The main reward you will get by lending your MAI on Ethalend will be paid in ETHA, the native token from Ethalend. One of the main advantage of Ethalend is that you  will be able to  single stake your ETHA tokens directly on the platform and magnify your yields.
+Phần thưởng chính bạn sẽ nhận được bằng cách cho mượn MAI của bạn trên Ethalend sẽ được thanh toán bằng ETHA, mã thông báo gốc từ Ethalend. Một trong những lợi thế chính của Ethalend là bạn sẽ có thể đặt cược một lần vào mã thông báo ETHA của mình trực tiếp trên nền tảng và tăng lợi nhuận của bạn.
 
-![Staking your ETHA on Ethalend directly](<../.gitbook/assets/Ethalend-5.png>)
+![Gửi ETHA của bạn trực tiếp trên Ethalend](../.gitbook/assets/Ethalend-5.png)
 
-As you can see, the best option is to deposit the ETHA you earned in the ETHA-QUICK pool. Because of the nature of the 2 assets (very volatile), the reward is really high. You can possibly reduce the impermanent losses by depositing your ETHA in the ETHA-USDT pool if you prefer. In both  cases, you  will be rewarded with QUICK tokens. And of course, if you are really bullish on ETHA, you can stake your rewards in the ETHA pool for additional ETHA.
+Như bạn có thể thấy, lựa chọn tốt nhất là gửi ETHA bạn kiếm được vào bể ETHA-QUICK. Vì bản chất của 2 tài sản (rất dễ bay hơi) nên phần thưởng thực sự rất cao. Bạn có thể giảm các khoản lỗ vô thường bằng cách gửi ETHA của mình vào bể ETHA-USDT nếu bạn muốn. Trong cả hai trường hợp, bạn sẽ được thưởng bằng mã thông báo QUICK. Và tất nhiên, nếu bạn thực sự lạc quan về ETHA, bạn có thể đặt phần thưởng của mình vào nhóm ETHA để có thêm ETHA.
 
-The staking vaults on Ethaland are actually a convenience offered by Ethalend. When you deposit your tokens in the pool, the balancing algorithm will sell a few of the deposited tokens to buy the other side of the LP pair, and use this pair in QuickSwap. As a side note, you can totally do this manually: claim your ETHA tokens, withdraw in your web3 wallet, sell 50% for QUICK tokens, create some LP tokens, and deposit them in the QuickSwap pool:
+Các hầm gửi tiền trên Ethaland thực sự là một tiện ích được cung cấp bởi Ethalend. Khi bạn gửi mã thông báo của mình vào bể, thuật toán cân bằng sẽ bán một số mã thông báo đã gửi để mua mặt còn lại của cặp LP và sử dụng cặp này trong QuickSwap. Một lưu ý nhỏ là bạn hoàn toàn có thể thực hiện việc này theo cách thủ công: yêu cầu mã thông báo ETHA của bạn, rút ​​tiền trong ví web3 của bạn, bán 50% cho mã thông báo QUICK, tạo một số mã thông báo LP và gửi chúng vào bể QuickSwap:
 
-![QuickSwap pools for ETHA as of November 2021](<../.gitbook/assets/Ethalend-6.png>)
+![Bể Quickswap cho ETHA tại thời điểm tháng 11 năm 2021](../.gitbook/assets/Ethalend-6.png)
 
 {% hint style="info" %}
-QuickSwap promotes a 223.1% APY on the ETHA-QUICK pair, while Ethalend displays a 116.73% APR on the same pair. This is due to the difference between APY (**A**nnual **P**ercentage **Y**ield, or autocompounded rewards) and APR (**A**nnual **P**ercentage **R**evenue, or rewards without auto-compounding). The 2 percentages are actually exactly the same, so it doesn't matter which platform you chose to use your ETHA tokens.
+QuickSwap cấp cho bạn APY 223,1% trên cặp ETHA-QUICK, trong khi Ethalend hiển thị APR 116,73% trên cùng một cặp. Điều này là do sự khác biệt giữa APY (Lợi nhuận phần trăm hàng năm hoặc phần thưởng được cộng gộp tự động) và APR (Doanh thu phần trăm hàng năm hoặc phần thưởng không có hệ số cộng gộp tự động). 2 phần trăm thực sự hoàn toàn giống nhau, vì vậy không quan trọng bạn đã chọn nền tảng nào để sử dụng mã thông báo ETHA của mình.
 {% endhint %}
 
-### The dQUICK Mai Vault
+### Hầm dQUICK Mai
 
-The best way to use the QUICK rewards you will get from staking your ETHA is to convert them into dQUICK. dQUICK can be created in the Dragon's Lair on QuickSwap. It's the way QuickSwap is incentivizing users to stake their QUICK by rewarding them with additional QUICK: by locking your QUICK tokens on QuickSwap, you will earn extra tokens.
+Cách tốt nhất để sử dụng phần thưởng QUICK mà bạn sẽ nhận được từ việc đặt cược ETHA của mình là chuyển chúng thành dQUICK. dQUICK có thể được tạo trong Dragon's Lair trên QuickSwap. Đó là cách QuickSwap khuyến khích người dùng gửi  QUICK của họ bằng cách thưởng cho họ thêm QUICK: bằng cách khóa mã thông báo QUICK của bạn trên QuickSwap, bạn sẽ kiếm được thêm mã thông báo
 
-![Dragon's Lair APY on QuickSwap as of November 2021](<../.gitbook/assets/Ethalend-7.png>)
+![Dragon's Lair APY trên QuickSwap kể từ tháng 11 năm 2021](../.gitbook/assets/Ethalend-7.png)
 
 {% hint style="info" %}
-The dQUICK APY varies a lot between 20% and 40%, depending on the amount of QUICK tokens that are actually staked on the Platform
+APY DQUICK dao động từ 20% đến 40%, tùy thuộc vào số lượng QUICK thực sự được gửi trên Nền tảng
 {% endhint %}
 
-But one of the best thing about dQUICK is that it's a "proof of deposit" token that can be used on Mai Finance as a collateral. This means that, after you deposited your QUICK rewards from Ethalend on QuickSwap and received dQUICK, you can head to Mai Finance and deposit the dQUICK tokens into a dQUICK Vault to borrow MAI against them.
+Nhưng một trong những điều tốt nhất về dQUICK là đó là mã thông báo "bằng chứng ký gửi" có thể được sử dụng trên Mai Finance làm tài sản thế chấp. Điều này có nghĩa là, sau khi bạn gửi phần thưởng QUICK của mình từ Ethalend trên QuickSwap và nhận được dQUICK, bạn có thể đến Mai Finance và gửi mã thông báo DQUICK vào một Kho tiền DQUICK để mượn MAI.
 
-![dQUICK Vault on Mai Finance as of November 2021](<../.gitbook/assets/Ethalend-8.png>)
+![dQUICK Vault trên Mai Finance kể từ tháng 11 năm 2021](../.gitbook/assets/Ethalend-8.png)
 
-A few things about the dQUICK vaults:
+Một số điều về kho dQUICK:
 
-* They have a liquidation ratio of 130%, which means you will be able to borrow a lot of MAI against your dQUICK tokens. However, if you want to collect borrowing rewards too, you will need to keep a CDR (**C**ollateral to **D**ebt **R**atio) between 155% and 400%. This is a good idea since the QUICK token is pretty volatile, and as a general rule, this website strongly promote a CRD 100% above the liquidation ratio (or 230% for dQUICK).
-* dQUICK Vaults are among the ones with the highest APR when you borrow MAI against dQUICK. As of writing, you can get up to 39.40% APR paid in Qi tokens based on the amount of MAI you  will borrow against your MAI.
+* Chúng có tỷ lệ thanh lý là 130%, có nghĩa là bạn sẽ có thể vay rất nhiều MAI so với mã thông báo dQUICK của mình. Tuy nhiên, nếu bạn cũng muốn nhận phần thưởng đi vay, bạn sẽ cần phải giữ CDR (Tỷ lệ tài sản đảm bảo trên Nợ) từ 155% đến 400%. Đây là một ý tưởng hay vì mã thông báo QUICK khá dễ bay hơi và theo nguyên tắc chung, trang web này cho phép  CRD cao hơn 100% so với tỷ lệ thanh lý (hoặc 230% đối với dQUICK).
+* Hầm dQUICK là một trong số những hầm có APR cao nhất khi bạn vay MAI so với dQUICK. Như đã viết, bạn có thể nhận được tới 39,40% APR được thanh toán bằng mã thông báo Qi dựa trên số tiền MAI.&#x20;
 
-You can already see that, providing dQUICK is very interesting since you will have an asset that gets compounded QUICK rewards from QuickSwap, you will get Qi rewards for your loan, and you will be mint MAI that can then be added back into the eVault on Ethalend, increasing your stable farming position.
+Bạn đã có thể thấy rằng, việc cung cấp dQUICK là rất thú vị vì bạn sẽ có một tài sản nhận được phần thưởng QUICK kép từ QuickSwap, bạn sẽ nhận được phần thưởng Qi cho khoản vay của mình và bạn sẽ có được MAI, sau đó có thể được thêm lại vào eVault trên Ethalend, tăng vị trí farm ổn định của bạn.
 
-### What to do with your Qi rewards
+### Làm gì với phần thưởng QI
 
-This subject is explained in [a dedicated article](./what-to-do-with-qi-on-polygon.md). For the sake of this tutorial, we will simply deposit your Qi in the Qi-BAL pool on Balancer to benefit from a solid APR, paid in additional Qi and BAL tokens that you can compound in the exact same pool.
+Chủ đề này được giải thích trong một [bài dành riêng](what-to-do-with-qi-on-polygon.md). Vì lợi ích của hướng dẫn này, chúng tôi sẽ chỉ cần gửi Qi của bạn vào bể Qi-BAL trên Balancer để hưởng lợi từ APR vững chắc, được thanh toán bằng mã thông báo Qi và BAL bổ sung mà bạn có thể kết hợp trong cùng một nhóm.
 
-![State of the Qi-BAL pool on Balancer as of November 2021](<../.gitbook/assets/Ethalend-9.png>)
+![Trạng thái của bể Qi-BALL trên Balancer kể từ tháng 11 năm 2021](../.gitbook/assets/Ethalend-9.png)
 
-## Bootstrapping the system
+## Khởi động hệ thống
 
-![](<../.gitbook/assets/Ethalend-10.png>)
+![](../.gitbook/assets/Ethalend-10.png)
 
-What follows is a simulation made with an initial investment of $100 worth of MAI that you can either borrow from an existing vault, or buy from a DEX platform. It assumes that all current APRs and APYs stay the same over the span of 1 year, and that all tokens keep the same price, which will (of course) never be the case.
+Sau đây là một mô phỏng được thực hiện với khoản đầu tư ban đầu là 100 đô la MAI mà bạn có thể vay từ một kho tiền hiện có hoặc mua từ nền tảng DEX. Nó giả định rằng tất cả các APR và APY hiện tại đều giữ nguyên trong khoảng thời gian 1 năm và tất cả các mã thông báo đều giữ cùng một mức giá, điều này (tất nhiên) sẽ không bao giờ đúng như vậy.
 
-### Day 1
+### Ngày 1
 
-On day 1, you will deposit your MAI on Ethalend in the MAI-USDT pool, then you will get the reward in both Qi and ETHA at the end of the day.
+Vào ngày 1, bạn sẽ gửi MAI của mình trên Ethalend trong bể MAI-USDT, sau đó bạn sẽ nhận được phần thưởng bằng cả Qi và ETHA vào cuối ngày.
 
-|     Reward type    | Value in dollars |
-|--------------------|------------------|
-| Mai on Ethalend    |          100.000 |
-| Qi+BAL on Balancer |            0.032 |
-| ETHA on Ethalend   |            0.070 |
-| dQUICK on Mai      |            0.000 |
-| debt on Mai        |            0.000 |
+| Dạng phần thưởng     | Giá trị bằng Đô la |
+| -------------------- | ------------------ |
+| Mai trên Ethalend    | 100.000            |
+| Qi+BAL trên Balancer | 0.032              |
+| ETHA trên Ethalend   | 0.070              |
+| dQUICK trên Mai      | 0.000              |
+| nợ trên Mai Finance  | 0.000              |
 
-### Day 2
+### Ngày 2
 
-On day 2, you can stake your ETHA from day 1 on Ethalend, which will generate QUICK rewards that you can then convert to dQUICK on QuickSwap, deposit on Mai Finance, and you will be able to borrow MAI against these tokens. You can also deposit your Qi in the Balancer pool. At the end of day 2 you will get:
+Vào ngày thứ 2, bạn có thể đặt  ETHA của mình từ ngày đầu tiên trên Ethalend, điều này sẽ tạo ra phần thưởng QUICK mà bạn có thể chuyển đổi sang dQUICK trên QuickSwap, gửi tiền trên Mai Finance và bạn sẽ có thể vay MAI để lấy các mã thông báo này. Bạn cũng có thể gửi Qi của mình vào nhóm Balancer. Vào cuối ngày thứ 2, bạn sẽ nhận được:
 
-|     Reward type    | Value in dollars |
-|--------------------|------------------|
-| Mai on Ethalend    |          100.000 |
-| Qi+BAL on Balancer |            0.065 |
-| ETHA on Ethalend   |            0.141 |
-| dQUICK on Mai      |            0.000 |
-| debt on Mai        |            0.000 |
+| Dạng phần thưởng     | Giá trị bằng Đô la |
+| -------------------- | ------------------ |
+| Mai trên Ethalend    | 100.000            |
+| Qi+BAL trên Balancer | 0.065              |
+| ETHA trên Ethalend   | 0.141              |
+| dQUICK trên Mai      | 0.000              |
+| Nợ MAI               | 0.000              |
 
-From there, the system is bootstrapped, and you will be able to  grow your stable position of MAI, as well as get rewards in Qi, BAL, ETHA and dQUICK. Note that some values are too low to be significant at this point, and since you won't be able to borrow less than 0.01 MAI, you will have to accumulate dQUICK for 14 days before being able to  borrow MAI.
+Từ đó, hệ thống được khởi động và bạn sẽ có thể phát triển vị thế MAI ổn định của mình, cũng như nhận được phần thưởng bằng Qi, BAL, ETHA và dQUICK. Lưu ý rằng một số giá trị quá thấp để vay dưới 0,01 MAI, bạn sẽ phải tích lũy dQUICK trong 14 ngày trước khi có thể vay MAI.
 
-## Farming Results
+## Kết quả canh tác
 
-### Daily routine
+### Công việc hàng ngày
 
-The daily farming routine is composed of
+Công việc hàng ngày bao gồm:
 
-* Harvesting the Qi and ETHA rewards from the MAI-USDT pool on Ethalend
-* Deposit the Qi tokens in the Balancer pool on Balancer
-* Deposit the ETHA tokens in the ETHA-QUICK pool on Ethalend
-* Harvest QUICK rewards from the ETHA-QUICK pool on Ethalend
-* Convert QUICK into dQUICK on QuickSwap
-* Deposit dQUICK into the dQUICK vault on Mai Finance
-* Borrow MAI from the dQUICK vault on Mai Finance
-* Deposit additional MAI borrowed in the MAI-USDT pool on Ethalend
+* Thu phần thưởng Qi và ETHA từ bể MAI-USDT trên Ethalend&#x20;
+* Gửi mã thông báo Qi vào bể Balancer trên Balancer&#x20;
+* Gửi mã thông báo ETHA vào bể ETHA-QUICK trên Ethalend&#x20;
+* Thu thập phần thưởng QUICK từ nhóm ETHA-QUICK trên Ethalend&#x20;
+* Chuyển đổi QUICK thành dQUICK trên QuickSwap&#x20;
+* Gửi  dQUICK vào kho tiền dQUICK trên Mai Finance&#x20;
+* Vay MAI từ kho tiền DQUICK trên Mai Finance&#x20;
+* Gửi thêm MAI đã vay vào bể MAI-USDT trên Ethalend
 
-Additionally, you will be able to harvest and compound the Qi and BAL rewards weekly.
+Ngoài ra, bạn sẽ có thể thu hoạch và gộp phần thưởng Qi và BAL hàng tuần.
 
-### Raw results month after month
+### Kết quả sau một tháng
 
-Below are the raw results at the end of each month:
+Dưới đây là kết quả sau cuối mỗi tháng:
 
-| day | Mai on Ethalend | Qi on Balancer | ETHA on Ethalend | dQUICK on Mai | MAI  debt |
-|-----|-----------------|----------------|------------------|---------------|-----------|
-|  30 |         100.046 |          1.015 |            2.186 |         0.099 |     0.049 |
-|  60 |         100.196 |          2.116 |            4.303 |         0.406 |     0.203 |
-|  90 |         100.453 |          3.315 |            6.424 |         0.926 |     0.463 |
-| 120 |         100.819 |          4.624 |            8.553 |         1.666 |     0.833 |
-| 150 |         101.297 |          6.058 |           10.690 |         2.631 |     1.315 |
-| 180 |         101.892 |          7.632 |           12.838 |         3.828 |     1.914 |
-| 210 |         102.606 |          9.361 |           15.001 |         5.263 |     2.632 |
-| 240 |         103.443 |         11.264 |           17.179 |         6.945 |     3.473 |
-| 270 |         104.406 |         13.360 |           19.377 |         8.881 |     4.441 |
-| 300 |         105.501 |         15.671 |           21.597 |        11.079 |     5.540 |
-| 330 |         106.731 |         18.220 |           23.841 |        13.548 |     6.774 |
-| 360 |         108.100 |         21.032 |           26.113 |        16.297 |     8.149 |
-| 365 |         108.343 |         21.528 |           26.495 |        16.783 |     8.392 |
+| ngày | Mai trên Ethalend | Qi trên Balancer | ETHA trên Ethalend | dQUICK trên Mai | Nợ MAI  |
+| ---- | ----------------- | ---------------- | ------------------ | --------------- | ------- |
+| 30   | 100.046           | 1.015            | 2.186              | 0.099           | 0.049   |
+| 60   | 100.196           | 2.116            | 4.303              | 0.406           | 0.203   |
+| 90   | 100.453           | 3.315            | 6.424              | 0.926           | 0.463   |
+| 120  | 100.819           | 4.624            | 8.553              | 1.666           | 0.833   |
+| 150  | 101.297           | 6.058            | 10.690             | 2.631           | 1.315   |
+| 180  | 101.892           | 7.632            | 12.838             | 3.828           | 1.914   |
+| 210  | 102.606           | 9.361            | 15.001             | 5.263           | 2.632   |
+| 240  | 103.443           | 11.264           | 17.179             | 6.945           | 3.473   |
+| 270  | 104.406           | 13.360           | 19.377             | 8.881           | 4.441   |
+| 300  | 105.501           | 15.671           | 21.597             | 11.079          | 5.540   |
+| 330  | 106.731           | 18.220           | 23.841             | 13.548          | 6.774   |
+| 360  | 108.100           | 21.032           | 26.113             | 16.297          | 8.149   |
+| 365  | 108.343           | 21.528           | 26.495             | 16.783          | 8.392   |
 
-### Day 365
+### Ngày thứ 365
 
-At the end of one year, you would have
+Tai thời điểm cuối năm bạn sẽ nhận được:
 
-* $108.343 worth of MAI in the MAI-USDT pool on Ethalend
-* $26.495 worth of ETHA in the ETHA-QUICK pool on Ethalend
-* $21.528 worth of Qi in the  Qi-BAL pool on Balancher
-* $16.783 worth of dQUICK in the dQUICK vault on Mai Finance
-* $8.392 worth of MAI debt on Mai Finance
+* MAI trị giá 108,343 đô la trong bể MAI-USDT trên Ethalend
+* ETHA trị giá $ 26,495 trong bể ETHA-NHANH trên Ethalend
+* Qi trị giá $ 21,528 trên bể Qi-BAL trên Balancer
+* bQUICK trị giá 16,783 đô la trong kho tiền dQUICK trên Mai Finance
+* Khoản nợ MAI trị giá 8,392 đô la trên Mai Finance
 
-This sums up as $173.149 worth of assets, and an outstanding debt of $8.392, which corresponds to an equivalent APY of 64.757%. This is achieved with an initial investment of $100 worth of MAI and using a stable pool as basis for farming. Note that transaction fees haven't been taken in account, but may influence the final result. This is also assuming you are compounding daily for 1 complete year.
+Tổng cộng là tài sản trị giá 173,149 đô la và khoản nợ chưa thanh toán là 8,392 đô la, tương ứng với APY là 64,757%. Điều này đạt được với khoản đầu tư ban đầu là 100 đô la MAI và sử dụng nguồn vốn ổn định làm cơ sở để canh tác. Lưu ý rằng phí giao dịch chưa được tính đến nhưng có thể ảnh hưởng đến kết quả cuối cùng. Điều này cũng giả sử bạn đang lãi kép hàng ngày trong 1 năm hoàn chỉnh.
 
-## Disclaimer
+## Tuyên bố từ bỏ trách nhiệm
 
-Everything presented in this tutorial is educational content made to illustrate how you can use your MAI without selling them, and still generate an APY of more than 60% using different protocols as lego bricks. However, this tutorial should not be considered as financial advice.
+Mọi thứ được trình bày trong hướng dẫn này là nội dung giáo dục được thực hiện để minh họa cách bạn có thể sử dụng MAI của mình mà không cần bán chúng và vẫn tạo ra APY hơn 60% bằng cách sử dụng các giao thức khác nhau dưới dạng khối xếp hình lego. Tuy nhiên, hướng dẫn này không nên được coi là lời khuyên tài chính.
 
-Also, the strategy here is presenting a closed loop that doesn't sell any token and each system is feeding the next one. However, as you can see, the dQUICK final position isn't very high, and the MAI loan will probably not generate a lot of Qi. You can probably achieve the same equivalent APY (if not better) by selling the QUICK rewards granted by the ETHA-QUICK pool, buy MAI and add it to your MAI-USDT position.
+Ngoài ra, chiến lược ở đây là trình bày một vòng lặp khép kín không bán bất kỳ mã thông báo nào và mỗi hệ thống đang cung cấp cho hệ thống tiếp theo. Tuy nhiên, như bạn có thể thấy, vị thế cuối cùng của dQUICK không cao lắm, và khoản vay MAI có thể sẽ không tạo ra nhiều Qi. Bạn có thể đạt được cùng một APY tương đương (nếu không tốt hơn) bằng cách bán phần thưởng IQUICK được cấp bởi bể ETHA-QUICK, mua MAI và thêm nó vào vị trí MAI-USDT của bạn.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}
