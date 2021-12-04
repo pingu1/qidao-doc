@@ -67,20 +67,20 @@ Recompensas na Curve são garantidas em:
 
 ### AAVE
 
-There's a complete guide on how you can use Mai Finance to [lever up your crypto on AAVE](../investment-tutorials/leverage-aave-tokens.md). This is not doing a direct use of MAI stable coin, but we can imagine that, in the future, AAVE will also have a MAI pool where you will be able to lend your crypto.
+Há um guia completo sobre como utilizar a Mai Finance para [alavancar tokens na AAVE](../investment-tutorials/leverage-aave-tokens.md). Isso é realizado sem utilizar a stablecoin MAI diretamente, mas nós podemos imaginar que, no futuro, a AAVE também incorporará MAI em uma de suas pools, onde você poderá emprestar suas criptomoedas.
 
 ### QuickSwap
 
-[QuickSwap](https://quickswap.exchange/#/) is probably one of the most famous DEX (Decentralized EXchange) on Polygon with SushiSwap and 1Inch. It's also an AMM (Automated Market Maker) that allows users to efficiently trade on the Polygon network using liquidity pools. Any trade on the exchange is subject to a fee that is partially redistributed to users who deposit their liquidity on the platform.
+[QuickSwap](https://quickswap.exchange/#/) é provavelmente uma das DEX mais famosas na rede Polygon, junto a SushiSwap e 1Inch. Ela é também uma _AMM_ (Automated Market Maker, Agente de Mercado Automatizado) que permite aos seus usuários fazer operaçōes eficientemente na rede Polygon, utilizando pools de liquidez. Qualquer operação feita na corretora é sujeita a uma taxa que é parcialmente redistribuida aos usuarios que injetam liquidez na plataforma.
 
-The way you can use MAI on QuickSwap is very similar to a [regular yield farm](secure-your-yield-farming-profits.md) so if you need to get exact steps to enter the MAI/USDC pool on QuickSwap, it's probably better for you to read this article.
+A maneira como você pode usar MAI na QuickSwap é muito semelhante a uma [yield farm](secure-your-yield-farming-profits.md) normal. Então, se você precisa de informaçōes sobre como entrar na pool de MAI/USDC da QuickSwap, é provavelmente melhor para você ler este artigo.
 
-Currently, if you enter the MAI/USDC LP (**L**iquidity **P**rovider) pool on QuickSwap, you will earn
+Atualmente, ao entrar em uma pool LP (**L**iquidity **P**rovider, Provedor de Liquidez) de MAI/USDC na QuickSwap, você receberá:
 
-* trading fees
-* QUICK tokens
+* Taxas das operaçōes
+* Tokens QUICK
 
-![Details of the MAI/USDC pool on QuickSwap as of August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
+![Detalhes da pool de MAI/USDC na QuickSwap em Agosto de 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
 ## Degen farms and aggregators
 
