@@ -40,28 +40,28 @@ O fluxo completo seria algo semelhante a esta foto:&#x20;
 
 Se você precisa de mais informações sobre como usar a Mai Finance para emprestar suas criptomoedas e tomar emprestado MAI (ao invés de vendê-las para fazer isto), leia os outros tutoriais neste site. Você pode até mesmo [incluir a AAVE no loop ](../investment-tutorials/leverage-aave-tokens.md)para ganhar ainda mais dinheiro.&#x20;
 
-### Curve finance
+### Curve Finance
 
-A little bit of click-bait here. [Curve](https://polygon.curve.fi) is another platform where you will be able to lend your crypto assets in pools that will generate revenues, but not MAI directly (not yet?). The pools we are interested in are
+Um certo click-bait aqui. [Curve](https://polygon.curve.fi) é outra plataforma onde voce é capaz de emprestar suas criptomoedas em pools que ter geram rendimento, mas não em MAI diretamente, pelos menos ainda. As pools que nós estamos interessadas são:&#x20;
 
-* the AAVE pool that will generate between 5% and 15% APR (APR varies a lot) on a stable coins trio (DAI/USDC/USDT). The pool works exactly like Balancer in the way that you can enter the pool using a single asset that will be used on AAVE by the protocol.
-* the atricrypto pool that is composed of the stable coin trio and includes wETH and wBTC too to mitigate impermanent losses. This pool has an APR ranging between 25% and 30%. The Mai Finance team is currently trying to have MAI added to this pool too, meaning that you may be able to enter it with your minted MAI directly.
+* A pool AAVE que gera entre 5% e 15% de APR (o APR varia bastante) no trio de stablecoins (DAI/USDC/USDT). Esta pool funciona exatamente como a Balancar, de modo que você participar da pool com apenas um ativo, que será utilizado na AAVE pelo protocolo.
+* A pool Atricrypto que é composta do trio de stablecoins e também inclui wETH e wBTC para mitigar impermanent loss. Esta pool possui um APR que varia entre 25% e 35%. No momento, o time da Mai Finance está tentando adicionar MAI a essa pool, o que significa que você poderia entrar com o seu MAI diretamente.
 
-While waiting for the Curve protocol to accept MAI as a valid stable coin in their pools, you can still use your favourite crypto with Curve by following these steps (example with MATIC)
+Enquanto esperamos o protocolo Curve aceitar MAI como uma stablecoin válida para as suas pools, você já pode usar a sua criptomoeda favorita, seguindo as seguintes etapas, exemplificadas com MATIC:&#x20;
 
-* Deposit your MATIC token on AAVE and collect amWMATIC
-* Deposit your amWMATIC on Mai Finance and collect camWMATIC (the AAVE rewards will be compounded into the camWMATIC tokens)
-* Use the camWMATIC as a collateral on Mai Finance and borrow MAI against it
-* Use the [swap page](https://app.mai.finance/anchor) on Mai Finance to swap all of your MAI for USDC
-* Then you can
-  * Enter the atricrypto pool on Curve with your USDC and get 25% to 30% reward
-  * Enter the AAVE pool on Curve with your USDC and get 5% to 15% reward
+* Deposite seu token MATIC na AAVE e colete amWMATIC&#x20;
+* Deposite seu amWMATIC na Mai Finance e colete camWMATIC (as recompensas da AAVE serão acumuladas em camWMATIC)&#x20;
+* Utilize o camWMATIC como garantia na Mai Finance e tome emprestado MAI
+* Utilize a [pagina](https://app.mai.finance/anchor) na Mai Finance para trocar todo o seu MAI por USDC
+* Então, você poderá:
+  * Entrar na pool Atricrypto na Curve com o seu USDC e receber recompensas de 25% a 30%&#x20;
+  * Entrar na pool da AAVE na Curve com o seu USDC receber recompensas de 5% a 15%
 
-Rewards on Curve are granted in
+Recompensas na Curve são garantidas em:
 
-* Auto-compounded USDC that increase your position in the pool (it will be a mix of USDC/USDT/DAI and possibly wBTC/wETH for the atricrypto pool)
-* WMATIC that you can then use to repeat the loop above and increase your loan and invested capital
-* CRV token, that can also be used as collateral on Mai Finance to borrow more MAI and increase your invested capital
+* USDC auto acumulado, que aumenta a sua posição na pool (uma misture entre USDC/USDT/DAI e possivelmente wBTC/wETH para a pool Atricrypto)
+* WMATIC, que pode ser utilizado para repetir o loop acima e aumentar o seu emprestimo e capital investido
+* Token CRV, que pode também ser utilizado como garantia na Mai Finance para tomar emprestado mais MAI e aumentar seu capital investido
 
 ![](../.gitbook/assets/screen-shot-2021-08-11-at-12.14.27-pm.png)
 
