@@ -32,13 +32,13 @@ Na rede Polygon, o Balancer possui uma pool composta de 4 principais stablecoins
 
 A melhor coisa da Balancer é que você não precisa necessariamente possuir as 4 moedas para depositá-las na pool. A Balancer irá gerar automaticamente uma combinação equilibrada com qualquer seja o depósito que você fizer. Isso significa que se você tem 100$ de MAI, você pode simplesmente depositá-los na pool da Balancer e deixar o algoritmo introduzi-los corretamente para obter uma razão de 25% para cada moeda, dependendo de seu preço no momento do depósito.
 
-Recompensas para a poolRewards for the pool are paid using the BAL token, distributed on a weekly basis. In addition to the BAL token, additional rewards can be granted depending on the pool you entered. You can check the different [incentives program here](https://balancer-incentives.web.app). In our case, participating in the stable pool will also earn you MATIC and Qi rewards.
+Recompensas para a pool são pagas utilizando o token BAL, distribuidas semanalmente. Somado ao token BAL, recompensas adicionais podem ser garantidas dependendo da pool que você investiu. Você pode conferir os diferentes programas de incentivo[ aqui](https://balancer-incentives.web.app). No nosso caso, participar da pool de stablecoins tambem nos gerará recompensas em MATIC e Qi.
 
-The complete flow would be something like this
+O fluxo completo seria algo semelhante a esta foto:&#x20;
 
 ![](../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
-If you need more details on how you can use Mai Finance to lend your crypto and borrow MAI (instead of selling your crypto to buy MAI), read other guides on this site. You can even [include AAVE into the loop](../investment-tutorials/leverage-aave-tokens.md) to earn even more.
+Se você precisa de mais informações sobre como usar a Mai Finance para emprestar suas criptomoedas e tomar emprestado MAI (ao invés de vendê-las para fazer isto), leia os outros tutoriais neste site. Você pode até mesmo [incluir a AAVE no loop ](../investment-tutorials/leverage-aave-tokens.md)para ganhar ainda mais dinheiro.&#x20;
 
 ### Curve finance
 
