@@ -82,11 +82,11 @@ Atualmente, ao entrar em uma pool LP (**L**iquidity **P**rovider, Provedor de Li
 
 ![Detalhes da pool de MAI/USDC na QuickSwap em Agosto de 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
-## Degen farms and aggregators
+## Farms degen e agregadorees
 
 ### Adamant
 
-[Adamant](https://adamant.finance/home) is an aggregator that is listing all the "best" farms on Polygon and let you enter them directly from their website. By depositing your assets (LP tokens) on a specific pool on Adamant, the algorithms will harvest the rewards granted by the pool and automatically compound part of the reward into your LP position. The rest of the reward is usually converted in WMATIC that is then redistributed to the holders of the ADDY token (native token of Adamant). Finally, you get a reward in ADDY tokens as well that you can harvest and vest for 90 days, earning you part of the WMATIC dividends.
+[Adamant](https://adamant.finance/home) é um agregador que lista as "melhores" farms da Polygon e que permite você entrar nelas diretamente de seu website. Depositando seus ativos (tokens LP) em uma pool especifica na Adamant, o algoritmo irá colher as recompensas garantidas pela pool e automaticamente acumular parte das recompensas na sua posição LP. O resto da recompensa é geralmente convertido para WMATIC, que é então redistribuido aos _holders_ do token ADDY (token nativo da Adamant). Por último, você recebe uma recompensa em tokens ADDY, assim como você faz e faz vesting por 90 dias, recebendo parte dos seus dividendos de WMATIC.&#x20;
 
 In general, Adamant is a good place to go if you don't really care about the farm token, and if you don't want to compound your rewards manually several times a day. It also generates more revenue since you get some ADDY rewards in addition to the reward granted by the pool.
 
