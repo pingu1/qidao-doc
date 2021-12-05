@@ -5,7 +5,7 @@
 ## Polygon tutorials
 
 * [Der Start auf Polygon](investment-tutorials/how-to-get-started-on-polygon.md)
-* [Leverage Your Aave Market Tokens](investment-tutorials/leverage-aave-tokens.md)
+* [Hebel deine Aave Market Tokens](investment-tutorials/leverage-aave-tokens.md)
 * [camDAI beginner strategy](investment-tutorials/camdai-beginner-strategy.md)
 * [Farming using only stable coins](investment-tutorials/secure-your-yield-farming-profits.md)
 * [What to do with MAI on Polygon](investment-tutorials/what-to-do-with-mai-on-polygon.md)
@@ -36,7 +36,7 @@
 * [MAI Metaverse](MAI-university/mai-metaverse.md)
 * [Wie man MAI außerhalb der Kryptowelt nutzen kann](MAI-university/how-to-use-mai-in-the-real-life.md)
 
-## Join the Community <a href="community" id="community"></a>
+## Join the Community <a href="#community" id="community"></a>
 
 * [Discord](https://discord.gg/qidaoprotocol)
 * [Telegram](https://t.me/QiDaoProtocol)
