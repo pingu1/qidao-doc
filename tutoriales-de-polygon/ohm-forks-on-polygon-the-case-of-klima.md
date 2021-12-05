@@ -1,217 +1,220 @@
 ---
 description: >-
-  This guide will present an overly simplified presentation of OHM-forks and
-  related projects, and how you can benefit from them on Polygon with the
-  special case of Klima DAO.
+  Este artículo explicara en que consisten los forks de OHM y cómo puede
+  beneficiarse de ellos usando KLIMA en la red de Polygon.
 ---
 
-# OHM forks on Polygon: The case of KLIMA
+# Fork de OHM en Polygon: Entendiendo KLIMA
 
-If you've been following the crypto news for the past few months, you certainly noticed a lot of (3,3) references, and heard about Ohm-related projects. I will try to present quickly what these projects are, what are the principle rules from their core, and how you can actually use them as part of your investment strategies. For this last part, we'll be focusing on Klima DAO, one of the most successful ohm-forks on Polygon, that also has a very interesting story and goal.
+Si has estado al día con las noticias sobre criptomonedas durante los últimos meses, seguramente habrás notado muchas referencias a (3,3), y habrás oído hablar de proyectos relacionados con OHM. Intentaré introducir rápidamente lo que son estos proyectos, cuáles son las reglas principales del proyecto, y cómo puedes utilizarlos realmente como parte de tus estrategias de inversión. Para esta última parte, nos centraremos en Klima DAO, uno de los más exitosos forks de OHM en Polygon, que también tiene una historia y un objetivo muy interesante.
 
-## What are OHM-forks
+## ¿Qué son los forks de OHM?
 
-### What is OHM and what is a fork?
+### ¿Qué es OHM y qué es un fork?
 
-Everything started on the Ethereum Mainnet with Olympus DAO. Their goal is to create a new reserve currency to compete with the dollar, except that unless other stable coins, this new currency would have a floating value. The native token (Ohm) needs to be fully backed by a basket of different assets, however the tokenomics of the project make the value Ohm is defined by the market.
+Todo comenzó en la Mainnet de Ethereum con Olympus DAO. Su objetivo es crear una nueva moneda de reserva para competir con el dólar, salvo que, a diferencia de otras monedas estables, esta nueva moneda tendría un valor flotante. El token nativo (Ohm) necesita estar totalmente respaldado por diferentes activos, sin embargo los tokenomics del proyecto hace que el valor de Ohm sea definido por el mercado.&#x20;
 
-Olympus DAO launched in March 2021 and is still a very successful project on Mainnet. The TVL is denominated in dozens of millions of dollars, and the Ohm price is keeping a very high price. Because of this success, the project has been forked (copied) and multiple Olympus DAO clones popped on many chains.
+Olympus DAO se lanzó en marzo de 2021 y sigue siendo tdavía un proyecto muy exitoso en Mainnet de Ethereum. El TVL (Total Value Locked) está denominado en decenas de millones de dólares, y el precio del Ohm mantiene un precio muy alto. Debido a este éxito, el proyecto ha sido forkeado(copiado) y múltiples clones de Olympus DAO han aparecido en muchas cadenas.
 
-### Overview of the tokenomics
 
-This section will be a little more technical than what we use to present in our other guides, but to understand the success of Olympus and other Ohm-forks, it's important to understand how they work.
 
-The base idea of the Olympus protocol is to increase the treasury as much as possible by selling the native token at a discount, while maintaining a circulating supply as low as possible to maintain a high price. This is done by providing very high rewards to stakers, and having almost full control of the liquidity.
+### Desglose de sus tokenomics
 
-* **Bonding:** the protocol will propose native tokens at a discounted price. The price is paid using specific assets that are used to back the native token. In the example of Olympus DAO, the OHM token is 100% backed by a few tokens that include mostly DAI, so bonds can be purchased using DAI directly, or using DAI-OHM LP tokens (and lately additional tokens including FRAX). When people buy the native tokens using the backing assets or LP tokens, the payment goes directly in the treasury, allowing the protocol to mint more tokens, hence being able to run for a longer period of time. The only thing is that the discounted token is released over a vesting period, meaning the user who bought the native token using bonding will not be able to fully use it right away.
-* **Staking:** after bonding, users will collect the native tokens and will have the choice between selling them or staking them. In order to make sure that the latter option will be chosen, the protocol offers insanely high rewards to stakers (we're talking about 1.2% daily gains !!!). The goal behind these high APRs is to get a staking ratio as close as possible to 100%. If there aren't a lot of tokens circulating, the price is driven up, and coupled with high rewards, it makes it even more interesting to stake. As a side note, a price that goes up will also help keep high reward rates.
-* **Increasing the treasury and control the liquidity:** Treasury is increased from bonding, and from the fact that native tokens can be bonded with LP tokens that are almost completely controlled by the protocol. These LP tokens are used to collect swap fees for users who prefer buying the native token on the market at full price over bonding (see next chapter for details).
-* **Buy back and burn:** Most OHM-like projects include a mechanism that will buy back the native tokens and burn them on very specific occasions. Problems occur when users are selling the native token, driving the price down. However, if people sell their tokens, the APY goes up since the number of minted tokens remains the same for less staked tokens. But even with higher APY, if nobody buys and stakes the sold tokens, the protocol can possibly buy them back from the market in order to apply buying pressure, drive the price up and keep the circulating supply low. Tokens that are bought back are simply destroyed. Indeed, since part of the treasury has been used to acquire these tokens, keeping them in the treasury or distributing them would actually dilute the treasury, which would either reduce the rewards rate, or affect periods of time during which the protocol can run.
+Esta sección será un poco más técnica de lo que solemos presentar en nuestras otras guías, pero para entender el éxito de Olympus y otros forks de OHM, es importante entender cómo funcionan.
 
-You can find additional resources about the concept of Olympus DAO and its tokenomics here:
+La idea base del protocolo Olympus es aumentar la tesorería lo máximo posible vendiendo el token nativo con descuento, mientras se mantiene una oferta circulante lo más baja posible para mantener un precio alto. Esto se hace proporcionando recompensas muy altas a los stakers, y teniendo un control casi total de la liquidez.
+
+* **Bonding:** el protocolo propondrá tokens nativos a un precio reducido. El precio se paga utilizando activos específicos que se utilizan para respaldar el token nativo. En el ejemplo de Olympus DAO, el token OHM está respaldado al 100% por unos pocos tokens que incluyen principalmente DAI, por lo que los bonos se pueden comprar usando DAI directamente, o usando tokens LP DAI-OHM (y últimamente tokens adicionales incluyendo FRAX). Cuando la gente compra los tokens nativos utilizando los activos respaldados o los tokens LP, el pago va directamente a la tesorería, lo que permite al protocolo generar más tokens, pudiendo así funcionar durante un periodo de tiempo más largo. Lo único es que el token descontado se liberará una vez transcurrido un periodo de bloqueo.
+* **Staking:** Después de la vinculación, los usuarios recogerán los tokens nativos y podrán elegir entre venderlos o hacer staking. Para asegurarse de que se elige esta última opción, el protocolo ofrece recompensas increíblemente altas a los stakers (¡¡hablamos de un 1,2% de ganancias diarias!!). El objetivo detrás de estos altos APR es conseguir un ratio de staking lo más cercano posible al 100%. Si no hay muchos tokens circulando, el precio sube, y junto con las altas recompensas, hace que sea aún más interesante apostar. Como nota al margen, un precio que sube ayuda a mantener tasas de recompensa altas.
+* **Aumentando la tesorería y controlando la liquidez:** La tesorería se incrementa por el bonding, y por el hecho de que los tokens nativos pueden ser enlazados con tokens LP que están casi completamente controlados por el protocolo. Estos tokens LP se utilizan para recaudar cuotas de intercambio para los usuarios que prefieren comprar el token nativo en el mercado a precio completo en lugar de la vinculación (esto estará explicado con mayor detalle a continuación).
+* **Compra de tokens y quema:** La mayoría de los proyectos de tipo OHM incluyen un mecanismo que recomprará los tokens nativos y los quemará en ocasiones muy específicas. Los problemas surgen cuando los usuarios venden el token nativo, lo que hace bajar el precio. Sin embargo, si la gente vende sus tokens, el APY sube ya que el número de tokens generados sigue siendo el mismo para la cantidad reducida de tokens bloqueados. Pero incluso con un APY más alto, si nadie compra y hace staking de los tokens vendidos, el protocolo puede recomprarlos en el mercado para ejercer presión de compra, hacer subir el precio y mantener baja la oferta en circulación. Los tokens que se recompran simplemente se destruyen. De hecho, dado que parte de la tesorería se ha utilizado para adquirir estos tokens, mantenerlos en la tesorería o distribuirlos realmente diluiría la tesorería, lo que reduciría la tasa de recompensas o afectaría a los periodos de tiempo durante los que el protocolo puede funcionar.
+
+Puedes encontrar más información acerca de OHM en estos artículos (aunque están en inglés):
 
 * [DeFi 2.0 - A new Narrative? Olympus DAO, Tokemak Explained](https://www.youtube.com/watch?v=l0vRTi8\_FRk)
 * [WTF is Olympus DAO](https://newsletter.banklesshq.com/p/wtf-is-olympus-dao)
 
 ### Bonding VS Staking
 
-Why would someone pay for a token when there's a discounted version available through a bond? This is a legitimate question, and the answer will depend on the discount offered by the bond.
+¿Por qué alguien pagaría por un token cuando hay una versión con descuento disponible a través de un bono? Esta es una pregunta válida, y la respuesta dependerá del descuento ofrecido por el bono.&#x20;
 
-Since we'll be working with Klima DAO, let's compare the buying + staking VS bonding:
+Como vamos a trabajar con Klima DAO, comparemos la compra + staking VS bono:
 
-![Klima staking reward as of November 2021](../.gitbook/assets/Klima-1.png)
+![Recompensas de Staking de Klima a Noviembre del 2021](../.gitbook/assets/Klima-1.png)
 
-![Klima bonding ROI as of November 2021](../.gitbook/assets/Klima-2.png)
+![Los bonos de Klima a Noviembre de 2021](../.gitbook/assets/Klima-2.png)
 
-If one buys directly Klima from the market and stake it for 5 days (the actual vesting period for bonding), the ROI (**R**eturn **O**n **I**nvestment) will be 8.51%. If one buys a bond instead, the maximal ROI would be 5.47% by providing BCT/KLIMA.
+Si se compra directamente Klima en el mercado y hace staking del token durante 5 días (el periodo real de bloqueo de los bonos), el ROI (Return On Investment) será del 8,51%. Si, por el contrario, se compra un bono, el máximo rendimiento de la inversión sería del 5,47% mediante la aportación de la BCT/KLIMA.&#x20;
 
-This means that, with the equivalent of $100, you would get after 5 days
+Esto significa que, con el equivalente a 100 dólares, se obtendría al cabo de 5 días&#x20;
 
-* $108.51 with the 1st option
-* $105.47 with the 2nd option
+* 108,51 dólares con la 1ª opción
+* 105,47 dólares con la 2ª opción&#x20;
 
-However, it's important to understand that bonded Klima are released over the vesting period. Hence you can harvest the vested Klima and stake it in order to profit from rebases (reward distribution). Since you will only get rewards for whatever you staked during the vesting period, and since there are 15 rebases during the 5 days for the bond to be fully released, we can assume that you can potentially harvest 6.67% before each one of the 15 rebases. Assuming you will harvest and stake at the beginning of each rebase, you would get this:
+Sin embargo, es importante entender que el Klima vinculado se libera a lo largo del periodo de bloqueo. Por lo tanto, puede cosechar el Klima generado y apostarlo para beneficiarse de los rebases (distribución de recompensas). Dado que sólo obtendrá recompensas por lo que haya bloqueado durante el periodo de vesting, y dado que hay 15 rebases durante los 5 días para que el bono se libere completamente, podemos asumir que puede cosechar potencialmente un 6,67% antes de cada uno de los 15 rebases. Suponiendo que coseche y apueste al principio de cada reenganche, obtendría esto:
 
-| rebase # | Amount staked | Reward | Total reward |
-| -------- | ------------- | ------ | ------------ |
-| 1        | 7.031         | 0.038  | 0.038        |
-| 2        | 14.063        | 0.077  | 0.116        |
-| 3        | 21.094        | 0.116  | 0.232        |
-| 4        | 28.125        | 0.155  | 0.397        |
-| 5        | 35.157        | 0.193  | 0.580        |
-| 6        | 42.188        | 0.232  | 0.812        |
-| 7        | 49.219        | 0.271  | 1.083        |
-| 8        | 56.251        | 0.309  | 1.392        |
-| 9        | 63.282        | 0.348  | 1.740        |
-| 10       | 70.313        | 0.387  | 2.127        |
-| 11       | 77.345        | 0.425  | 2.552        |
-| 12       | 84.376        | 0.464  | 3.016        |
-| 13       | 91.407        | 0.503  | 3.519        |
-| 14       | 98.439        | 0.514  | 4.061        |
-| 15       | 105.470       | 0.580  | 4.651        |
+| Rebase # | Cantidad Stakeada | Recompensa | Recompensa Total |
+| -------- | ----------------- | ---------- | ---------------- |
+| 1        | 7.031             | 0.038      | 0.038            |
+| 2        | 14.063            | 0.077      | 0.116            |
+| 3        | 21.094            | 0.116      | 0.232            |
+| 4        | 28.125            | 0.155      | 0.397            |
+| 5        | 35.157            | 0.193      | 0.580            |
+| 6        | 42.188            | 0.232      | 0.812            |
+| 7        | 49.219            | 0.271      | 1.083            |
+| 8        | 56.251            | 0.309      | 1.392            |
+| 9        | 63.282            | 0.348      | 1.740            |
+| 10       | 70.313            | 0.387      | 2.127            |
+| 11       | 77.345            | 0.425      | 2.552            |
+| 12       | 84.376            | 0.464      | 3.016            |
+| 13       | 91.407            | 0.503      | 3.519            |
+| 14       | 98.439            | 0.514      | 4.061            |
+| 15       | 105.470           | 0.580      | 4.651            |
 
-At the end of the vesting period, the 5.47% ROI is respected, but staking rewards also added an extra 4.65% (that haven't been compounded for simplicity), resulting in a 10.12% ROI. This means that bonding is actually more interesting than staking directly, even if the bonding ROI seems lower than the staking ROI.
+Al final del periodo de bloqueo, se respeta el 5,47% de ROI, pero las recompensas por hacer staking también añaden un 4,65% adicional (que no se ha compuesto para simplificar), lo que da como resultado un 10,12% de ROI. Esto significa que hacer bonding es en realidad más interesante que apostar directamente, aunque el ROI de la vinculación parezca menor que el ROI de la apuesta.&#x20;
 
-The total reward you will get by staking N times over the vesting period (with Nmax = 15 at most) is:
+La recompensa total que obtendrá apostando N veces durante el periodo de carencia (con Nmax = 15 como máximo) es:
 
-$$Reward_{total} = \sum_{i=1}^{N}{\frac{Investment * i * (1 + APR_{Vesting})}{N} * APR_{staking}}$$
+$$
+Reward_{total} = \sum_{i=1}^{N}{\frac{Investment * i * (1 + APR_{Vesting})}{N} * APR_{staking}}
+$$
 
-You can then run your own simulations in order to verify if it's better to buy and stake, or to bond. For our example, with a staking ROI of 8.51% over 5 days, a bonding discount of 3.95% with 15 rebases would be better (giving an equivalent ROI of 8.52%).
+A continuación, puede realizar sus propias simulaciones para comprobar si es mejor comprar y hacer staking, o bien, hacer bonding. Para nuestro ejemplo, con un ROI de staking del 8,51% en 5 días, sería mejor un descuento de bono del 3,95% con 15 rebases (dando un ROI equivalente del 8,52%).
 
 {% hint style="info" %}
-You can run the same simulation with harvest + stake only once a day instead of 3 times a day before each rebase. For the same APY as above, you would need a bonding discount of 6.76% to get a better ROI than staking.
+Puede realizar la misma simulación recolectando+ haciendo staking sólo una vez al día en lugar de 3 veces al día antes de cada rebase. Para el mismo APY que en el caso anterior, necesitaría un descuento de vinculación del 6,76% para obtener un mejor rendimiento de la inversión que con la estaca.
 {% endhint %}
 
 {% hint style="success" %}
-You can find a simulator for your bonding VS staking calculation under the form of [a google spreadsheet](https://docs.google.com/spreadsheets/d/1MTKTbf-ZAihGbEax3WEwkxToG7IlPKlwmYq59O3KG2o/edit#gid=0) you can copy and edit at your will. Note that this page is NOT maintained nor provided by the QiDAO community.
+Puedes encontrar un simulador que compara el bonding VS staking en este [google spreadsheet](https://docs.google.com/spreadsheets/d/1MTKTbf-ZAihGbEax3WEwkxToG7IlPKlwmYq59O3KG2o/edit#gid=0). Esta hoja puede ser editada perfectamente aunque cabe destacar que no ésta es una colaboración oficial con el equipo de QiDAO
 {% endhint %}
 
-### The special case of Klima DAO
+### Estudiando el caso de Klima DAO
 
-The specificity that makes Klima DAO different from other Ohm-forks is the main asset backing the Klima token: the BCT token, provided by the [Toucan Protocol](https://toucan.earth). The BCT (**B**ase **C**arbon **T**onne) is actually representing investments in the real world to decarbonize the earth, turning carbon offsets from the real world into tokens. You can read a lot more about how it works in the [official documentation](https://docs.toucan.earth/protocol/introduction/defi-refi) of Toucan.
+La especificidad que diferencia a Klima DAO de otros Ohm-forks es el principal activo que respalda el token Klima: el token BCT, proporcionado por [Toucan Protocol](https://toucan.earth). El BCT (**B**ase **C**arbon **T**onne) representa en realidad inversiones en el mundo real para descarbonizar la tierra, convirtiendo las compensaciones de carbono del mundo real en tokens. Puede leer mucho más sobre su funcionamiento en la [documentació oficial](https://docs.toucan.earth/protocol/introduction/defi-refi) de Toucan.
 
-BCT is then used by the [Klima DAO app](https://dapp.klimadao.finance) to mint the KLIMA tokens, the same way DAI is used by the Olympus DAO to mint OHM. In other words, Klima acts like a Carbon sink, providing real life funds to fight climate change. More info can be found on the [Klima website](https://www.klimadao.finance) and [documentation](https://klima-dao.gitbook.io/klima-dao/), and you can come and discuss ways to make crypto greener on the Discord server of QiDAO.
+BCT es utilizado por [Klima DAO ](https://dapp.klimadao.finance)para acuñar KLIMA, de la misma manera que el DAI es utilizado por el DAO de Olympus para acuñar el OHM. En otras palabras, Klima actúa como un sumidero de carbono, proporcionando fondos reales para luchar contra el cambio climático. Se puede encontrar más información en la página web de [Klima](https://www.klimadao.finance) y en su [documentación](https://klima-dao.gitbook.io/klima-dao/), además, puedes unirte al Discord de QiDAO para discutir acerca de cómo podemos convertir a MAI en una crypto verde
 
 {% hint style="info" %}
-One of the main differences between Olympus and Klima is that BCT doesn't have a stable price. This presents a higher risk than for forks using stable coins to build their treasury, however it's assumed that environmental problems will be more and more important, and there will be more and more projects trying to extract carbon from the atmosphere, which would in turn increase the overall value of BCT.
+Una de las principales diferencias entre Olympus y Klima es que BCT no tiene un precio estable. Esto supone un mayor riesgo que para los forks que utilizan monedas estables para construir su tesorería, sin embargo se supone que los problemas medioambientales serán cada vez más importantes, y habrá cada vez más proyectos que intenten extraer carbono de la atmósfera, lo que a su vez aumentaría el valor global de BCT.
 {% endhint %}
 
-## Strategy 1: sKLIMA leverage, or full (9,9)
+## Estrategia 1: Apalancamiento de sKLIMA, o (9,9)
 
-Without going deep into the [(3,3) game theory](https://en.wikipedia.org/wiki/Nash\_equilibrium), (9,9) represent a situation where one is leveraging a staked position. This is actually possible because Klima DAO will provide a sKLIMA token as a proof of deposit that some platform will accept as a collateral for a possible loan. Let's see the details of it.
+Sin entrar en mucho detalle en la[ teoría de juegos (3,3)](https://es.wikipedia.org/wiki/Equilibrio\_de\_Nash), (9,9) representan una situación en la que se está apalancando una posición stakeada. Esto es realmente posible porque Klima DAO proporcionará un token sKLIMA como prueba de depósito que alguna plataforma aceptará como garantía para un posible préstamo. Veamos los detalles al respecto.
 
-### The leverage loop using MarketXYZ and Klima
+### Un bucle de apalancamiento con MarketXYZ y Klima
 
 ![Leverage your Klima position](../.gitbook/assets/Klima-3.png)
 
-The idea is to get an initial amount of KLIMA token that you can deposit on Klima DAO. This will allow you to get very high APY (as of writing, the APY is 38,873.08%, or 601% APR or a daily gain of 1.68%) and by depositing your KLIMA token, you will get sKLIMA as a proof of deposit.
+La idea es conseguir una cantidad inicial de KLIMA token que puedes depositar en Klima DAO. Esto le permitirá obtener un APY muy alto (en el momento de escribir este artículo, el APY es de 38.873,08%, o 601% APR o una ganancia diaria de 1,68%) y al depositar su token KLIMA, obtendrá sKLIMA como prueba de depósito.
 
-This sKLIMA token can be used on Market XYZ in the [Green Leverage Locker](https://polygon.market.xyz/pool/5) which will allow you to take a loan against this deposit.
-
-{% hint style="info" %}
-As a side note, Mai Finance partnered with Market XYZ and seeded the green locker pool with 1M MAI to guarantee low interest rates when you borrow MAI against your sKLIMA.
-{% endhint %}
-
-![Green locker on Market XYZ as of november 2021](../.gitbook/assets/Klima-Marketxyz.png)
-
-It's not an obligation for you to borrow MAI, you can actually borrow whatever token with the lowest interest rate, but you need to keep in mind that you will have to pay fees on your loan, and the faster you repay your loan, the less fees you will pay.
-
-With your loan, you will be able to buy more KLIMA tokens and repeat the loop.
-
-You will notice that the APY on sKLIMA will largely compensate the interests on your loan.
-
-{% hint style="warning" %}
-There's a minimum amount to borrow on Market.xyz, please check the  limit when you want to apply this strategy.
-{% endhint %}
-
-### Expected results
-
-Market XYZ will also have some liquidation levels, meaning that if your collateral value goes below the liquidation level, there's a risk for you to lose your collateral. In order to lower the risk of liquidation, the following simulation assumes that you will keep an C/D ratio of 250%, and that you invest an initial $1,000 of KLIMA tokens at 38,873% APY to borrow MAI at 20.49% interest
-
-| sKLIMA ($) | MAI loan ($) | eq. APY (%) | interests ($) |
-| ---------- | ------------ | ----------- | ------------- |
-| 1,000.00   | 400.00       | 38,873      | 81.96         |
-| 1,500.00   | 560.00       | 54,455      | 114.74        |
-| 1,560.00   | 624.00       | 60,642      | 127.86        |
-| 1,624.00   | 649.60       | 63,129      | 133.10        |
-| 1,649.60   | 659.84       | 64,125      | 135.20        |
-| 1,659.84   | 663.94       | 64,523      | 136.04        |
-| 1,663.94   | 665.57       | 64,682      | 136.38        |
-
-Of course, it's possibly enough to stop after 3 loops since the equivalent APY won't grow much past that.
-
-As a side note, because the initial investment is $1,000,the value you will get at the end of 1 year would be $646,820.00, assuming everything stays the same. In other words, you invest $1,000, you will need to repay $665.57 with an additional $136.38 (an accumulated debt of $801.95) but you will also earn $646,820.
-
-You can also see that the value of your sKLIMA position is growing very quickly (around 8% every 5 days), which means you can also increase your debt at this point and leverage even more for additional gains.
-
-### Capturing benefits value and repaying your loan
-
-One of the main issues with Ohm-fork projects is that it assumes that everybody is staking and nobody sells. But, if nobody sells, nobody gets any benefits, and in most cases, the first to sell will get the cake.
-
-For any investment strategy, it's important to capture the value of your gains. You can do it by withdrawing a part of your sKLIMA position on Market XYZ and get back KLIMA that you can sell.
-
-If you invest $100 and operate the 7 loops as above, your investment in KLIMA would have generated $67.11 after 31 days, which means you can fully repay your loan with interest in 1 single month. If you do so, you will start again with 166$ the next month and no outstanding debt. Just keep an eye on the borrowing APR that can get pretty high on Market XYZ.
-
-## Strategy 2: Continuous Investment, or full (4,4)
-
-Once again, (4,4) is related to game theory and reserve currencies, and indicate people who bond their tokens then stake them. In this strategy, we will see how we can use Klima and Augury to purchase bonds regularly, and stake them continuously.
-
-### The investment loop using Augury and Mai Finance
-
-![Continuous investment using Augury Finance and Mai Finance](../.gitbook/assets/Klima-4.png)
-
-We are still using Klima, but this time we're using an [infusion from Augury Finance](https://augury.finance/infusions) in order to automate the extraction of the value of Klima. By depositing your KLIMA tokens in the infusion, the algorithm in charge of the infusion will perform the following actions after each rebase:
-
-* 50% of the KLIMA harvested is restaked to increase your sKLIMA position
-* 50% of the KLIMA harvested is sold for USDC added to the NFTM pool on Augury, and distributed to you as NFTM tokens
-
-![Augury Infusion with 0% performance fee and 0% deposit fee](../.gitbook/assets/Klima-Augury.png)
-
-NFTM can then either be held while it increases in value, or redeemed for its USDC value. In other words, it doesn't matter if the KLIMA token loses value after a rebase since its value is captured and stored as NFTM.
-
-After redeeming the USDC value of your NFTM rewards, you can then buy the token of your choice and store it in a vault in Mai Finance. The example above is using a camWETH vault, but you can really use any vault you like. The idea is to be able to use the vaults on Mai Finance to borrow MAI and buy new bonds on Klima DAO to repeat the loop. Then you can harvest the KLIMA tokens and inject them in Augury. Keep in mind that bonds are vesting little at a time, so it's totally possible to harvest regularly and stake on Augury before your bond is totally vested.
-
-### Expected results
-
-Assuming you invest $100 like in the previous example, and place it directly in the Augury infusion, that the APR of the Klima infusion is 552.94% (current value as of writing), and that you want to keep a C/D ratio on the camWETH vault of 240% and a APY of 2.19% on the camWETH vault, here are the results over one year:
-
-| day | sKLIMA ($) | wETH ($)  | MAI loan ($) |
-| --- | ---------- | --------- | ------------ |
-| 30  | 137.751    | 27.708    | 11.545       |
-| 60  | 189.776    | 64.883    | 27.035       |
-| 90  | 261.474    | 116.150   | 48.396       |
-| 120 | 360.282    | 186.835   | 77.848       |
-| 150 | 496.453    | 284.283   | 118.451      |
-| 180 | 684.115    | 418.613   | 174.422      |
-| 210 | 942.737    | 603.771   | 251.571      |
-| 240 | 1,299.152  | 858.978   | 357.907      |
-| 270 | 1,790.339  | 1,210.720 | 504.466      |
-| 300 | 2,467.258  | 1,695.500 | 706.458      |
-| 330 | 3,400.140  | 2,363.625 | 984.844      |
-| 360 | 4,685.775  | 3,284.424 | 1,368.510    |
-
-Once again, assuming that all rates and prices stay the same, at the end of the year you would have
-
-* $4,684.775 worth of KLIMA tokens
-* $3,284.424 worth of wETH
-* and outstanding debt of $1,368.510
-
-Which is an equivalent APY of 6,866.46%. This is far from the 38,705.13% advertised by KLIMA, but still pretty impressive for a $100 investment. Also, a good load of your gains have been converted into wETH in a vault on Mai Finance, and your loan on the application will get you some additional Qi Tokens.
+El token de sKlima puede ser usado en el  [Green Leverage Locker](https://polygon.market.xyz/pool/5) de MarketXYZ lo que te permitirá pedir un préstamo contra el colateral depostiado
 
 {% hint style="info" %}
-If this strategy has a much lower APY than pure (9,9), it's also a relatively affordable one since you can enter the loop with as much as KLIMA you want.
+Como nota adicional, Mai Finance se asoció con el mercado XYZ y participó en el seed de Green Locker con 1 millón de MAI para garantizar tipos de interés bajos cuando se toman préstamos de MAI contra su sKLIMA.
 {% endhint %}
 
-## Disclaimer
+![Green locker en Market XYZ a Noviembre 2021](../.gitbook/assets/Klima-Marketxyz.png)
 
-Everything presented in this document is pure theory and is proposed for educational purposes. The biggest issue with projects like Olympus and Klima is that, once again, the first user to sell will profit from the high price. If the first sell is massive (because gains are massive), it can snowball quickly into a panic effect that can very well kill the price of the KlIMA token. However, in this case, the APY would skyrocket, meaning that users who don't sell will benefit from very high rewards, so that when the APY attracts new users, the ones who held will be big winners.
+No es una obligación que pidas prestado MAI, de hecho puedes pedir prestado cualquier token con el tipo de interés más bajo, pero tienes que tener en cuenta que tendrás que pagar comisiones por tu préstamo, y cuanto más rápido devuelvas tu préstamo, menos comisiones pagarás.&#x20;
 
-It's also good to note that the project can only continue to print tokens as long as additional funds are injected into the treasury.
+Con su préstamo, podrá comprar más fichas KLIMA y repetir el bucle.&#x20;
 
-So the risk can be very high if you don't extract some benefits from time to time in order to lower the risks.
-
-As a final note, pay attention that ohm-forks are the new trend, but most projects may fail, and a lot of these forks are not solid projects. Because of their nature, they are not verified by RugDoc yet, and it may be very complicated to identify real applications from pure scam.
+Verás que el APY de sKLIMA compensará en gran medida los intereses de tu préstamo
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Cabe destacar, que antes de pedir prestado en MarketXYZ tenga en cuenta de que hay una cantidad mínima a pedir prestada, por lo que compruebe el limite antes de aplicar esta estrategia
+{% endhint %}
+
+### Resultados aproximados
+
+El mercado XYZ también tendrá algunos niveles de liquidación, lo que significa que si el valor de su garantía cae por debajo del nivel de liquidación, existe el riesgo de que pierda su garantía. Para reducir el riesgo de liquidación, la siguiente simulación asume que usted mantendrá un ratio C/D del 250%, y que invierte 1.000$ iniciales de tokens KLIMA al 38,873% APY para pedir prestado MAI al 20,49% de interés
+
+| sKLIMA ($) | Prestamo MAI ($) | eq. APY (%) | intereses ($) |
+| ---------- | ---------------- | ----------- | ------------- |
+| 1,000.00   | 400.00           | 38,873      | 81.96         |
+| 1,500.00   | 560.00           | 54,455      | 114.74        |
+| 1,560.00   | 624.00           | 60,642      | 127.86        |
+| 1,624.00   | 649.60           | 63,129      | 133.10        |
+| 1,649.60   | 659.84           | 64,125      | 135.20        |
+| 1,659.84   | 663.94           | 64,523      | 136.04        |
+| 1,663.94   | 665.57           | 64,682      | 136.38        |
+
+Por supuesto, es posible que se detenga después de 3 bucles, ya que el APY equivalente no crecerá mucho más allá de eso.&#x20;
+
+Además, debido a que la inversión inicial es de $1,000, el valor que obtendrá al final de 1 año sería de $646,820.00, asumiendo que todo se mantiene igual. En otras palabras, inviertes $1,000, tendrás que pagar $665.57 con $136.38 adicionales (una deuda acumulada de $801.95) pero también ganarás $646,820.&#x20;
+
+También puede ver que el valor de su posición en sKLIMA está creciendo muy rápidamente (alrededor del 8% cada 5 días), lo que significa que también puede aumentar su deuda en este punto y apalancarse aún más para obtener ganancias adicionales.
+
+### Recogiendo beneficios y pagando la deuda
+
+Uno de los principales problemas de los proyectos de Ohm-fork es que se supone que todo el mundo está apostando y nadie vende. Pero, si nadie vende, nadie obtiene beneficios y, en la mayoría de los casos, el primero en vender se llevará el pastel.
+
+&#x20;Para cualquier estrategia de inversión, es importante capturar el valor de las ganancias. Puedes hacerlo retirando una parte de tu posición de sKLIMA en el mercado XYZ y recuperar KLIMA que puedes vender.
+
+&#x20;Si inviertes 100 dólares y operas los 7 bucles como se indica más arriba, tu inversión en KLIMA habría generado 67,11 dólares al cabo de 31 días, lo que significa que puedes devolver completamente tu préstamo con intereses en un solo mes. Si lo haces, empezarás de nuevo con 166$ al mes siguiente y sin deuda pendiente. Sólo hay que vigilar la APR del préstamo que puede llegar a ser bastante alta en el mercado XYZ.
+
+## Estrategia 2: Inversión Continua o (4,4) entero
+
+Una vez más, (4,4) está relacionado con la teoría de juegos y las monedas de reserva, e indica que las personas que adquieren sus bonos luego los stakean. En esta estrategia, veremos cómo podemos usar Klima y Augury para comprar bonos regularmente, y apostarlos continuamente.
+
+### El bucle de inversión usando Augury y Mai Finance
+
+![Inversión continua usando Augury Finance y Mai Finance](../.gitbook/assets/Klima-4.png)
+
+Seguimos usando Klima, pero esta vez utilizamos una [infusion de Augury Finance](https://augury.finance/infusions) con el fin de automatizar la extracción del valor de Klima. Al depositar tus tokens KLIMA en la infusión, el algoritmo encargado de la infusión realizará las siguientes acciones después de cada rebase:
+
+* El 50% de los KLIMA cosechados se reestablece para aumentar su posición sKLIMA&#x20;
+* El 50% del KLIMA cosechado se vende por USDC que se añade al pool de NFTM en Augury, y se le distribuye a usted como tokens NFTM
+
+![Augury Infusion con 0% de comisión de performance y 0% de comisión de depósito](../.gitbook/assets/Klima-Augury.png)
+
+El NFTM puede entonces conservarse mientras aumenta su valor, o canjearse por su valor en USDC. En otras palabras, no importa si el token KLIMA pierde valor después de un reajuste, ya que su valor se captura y se almacena como NFTM.&#x20;
+
+Después de canjear el valor USDC de sus recompensas NFTM, puede comprar el token de su elección y almacenarlo en una bóveda en Mai Finance. El ejemplo anterior utiliza una bóveda de camWETH, pero en realidad puedes utilizar cualquiera. La idea es poder utilizar las bóvedas en Mai Finance para pedir prestado MAI y comprar nuevos bonos en Klima DAO para repetir el bucle. Luego puedes cosechar los tokens de KLIMA e inyectarlos en Augury. Ten en cuenta que los bonos se van adquiriendo poco a poco, por lo que es totalmente posible cosechar regularmente y apostar en Augury antes de que tu bono sea totalmente adquirido.
+
+### Resultados Esperados
+
+Suponiendo que invierte 100 dólares como en el ejemplo anterior, y que los coloca directamente en la infusión Augury, que la APR de la infusión Klima es del 552,94% (valor actual en el momento de escribir este artículo), y que desea mantener una relación C/D en la cámara acorazada camWETH del 240% y un APY del 2,19% en la cámara acorazada camWETH, he aquí los resultados a un año:
+
+| Día | sKLIMA ($) | wETH ($)  | Préstamo MAI ($) |
+| --- | ---------- | --------- | ---------------- |
+| 30  | 137.751    | 27.708    | 11.545           |
+| 60  | 189.776    | 64.883    | 27.035           |
+| 90  | 261.474    | 116.150   | 48.396           |
+| 120 | 360.282    | 186.835   | 77.848           |
+| 150 | 496.453    | 284.283   | 118.451          |
+| 180 | 684.115    | 418.613   | 174.422          |
+| 210 | 942.737    | 603.771   | 251.571          |
+| 240 | 1,299.152  | 858.978   | 357.907          |
+| 270 | 1,790.339  | 1,210.720 | 504.466          |
+| 300 | 2,467.258  | 1,695.500 | 706.458          |
+| 330 | 3,400.140  | 2,363.625 | 984.844          |
+| 360 | 4,685.775  | 3,284.424 | 1,368.510        |
+
+Una vez más, suponiendo que todas las tasas y precios se mantienen igual, al final del año usted tendría:
+
+* 4.684,775 dólares en tokens KLIMA
+* &#x20;3.284,424 dólares en wETH&#x20;
+* Una deuda pendiente de $1,368.510&#x20;
+
+Esto supondría un APY equivalente del 6,866,46%. Esto está lejos del 38.705,13% anunciado por KLIMA, pero sigue siendo bastante impresionante para una inversión de 100 dólares. Además, una buena carga de sus ganancias se han convertido en wETH en una bóveda en Mai Finance, y su préstamo en la aplicación le conseguirá algunos Qi Tokens adicionales.
+
+{% hint style="info" %}
+Si esta estrategia tiene un APY mucho más bajo que el puro (9,9), también es una estrategia relativamente asequible ya que puede entrar en el bucle con la cantidad de KLIMA que desee.
+{% endhint %}
+
+## Descargo de Responsabilidad
+
+Todo lo que se presenta en este documento es pura teoría y se propone con fines educativos. El mayor problema con proyectos como Olympus y Klima es que, una vez más, el primer usuario que venda se beneficiará del precio superior. Si la primera venta es masiva (porque las ganancias tambien lo son), puede convertirse rápidamente en un efecto de pánico que puede matar el precio del token KLIMA. Sin embargo, en este caso, el APY se dispararía, lo que significa que los usuarios que no vendan se beneficiarán de recompensas muy elevadas, de modo que cuando el APY atraiga a nuevos usuarios, los que hayan aguantado serán los verdaderos ganadores.&#x20;
+
+También es bueno tener en cuenta que el proyecto sólo puede seguir imprimiendo tokens mientras se inyecten fondos adicionales en la tesorería.&#x20;
+
+Así que el riesgo puede ser muy alto si no se extraen algunos beneficios de vez en cuando para disminuir los riesgos.&#x20;
+
+Como nota final, presta atención a que los ohm-forks son la nueva tendencia, pero la mayoría de los proyectos pueden fracasar, y muchos de estos forks no son proyectos sólidos. Debido a su naturaleza, aún no han sido verificados por RugDoc, y puede ser muy complicado identificar las aplicaciones reales de las puras estafas.
+
+{% hint style="info" %}
+Tenga en cuenta que una estrategia que funciona bien en un momento dado puede dar malos resultados (o hacerle perder dinero) en otro momento. Manténgase informado, controle los mercados, vigile sus inversiones y, como siempre, investigue por su cuenta.
 {% endhint %}

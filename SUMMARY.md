@@ -13,7 +13,7 @@
 * [Acumula DApps como si fueran cromos](tutoriales-de-polygon/acumula-dapps-como-cromos.md)
 * [¿Farmear o hacer staking? ¿O Ambas?](tutoriales-de-polygon/farming-or-staking-or-both.md)
 * [¿Cómo combinar el farmeo con los préstamos incentivados?](tutoriales-de-polygon/how-to-combine-farming-and-borrowing-rewards.md)
-* [OHM forks on Polygon: The case of KLIMA](tutoriales-de-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
+* [Fork de OHM en Polygon: Entendiendo KLIMA](tutoriales-de-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
 * [MAI single-staking with Ethalend](tutoriales-de-polygon/ethalend-single-staking.md)
 
 ## Tutoriales de Avalanche
@@ -26,7 +26,7 @@
 * [Apalanca tus crypto en Fantom](tutoriales-de-fantom/leverage-your-crypto-on-fantom.md)
 * [¿Qué hacer con MAI en Fantom?](tutoriales-de-fantom/what-to-do-with-mai-on-fantom.md)
 
-## Artículos sobre MAI <a href="universidade-de-mai" id="universidade-de-mai"></a>
+## Artículos sobre MAI <a href="#universidade-de-mai" id="universidade-de-mai"></a>
 
 * [Genera Ingresos Pasivos con Qi DAO](earning-passive-income-with-qidao.md)
 * [¿Cómo funciona MAI?](how-does-mai-work.md)
@@ -36,7 +36,7 @@
 * [Universo MAI](mai-metaverse.md)
 * [Como usar MAI en la vida real](how-to-use-mai-in-the-real-life.md)
 
-## Únete a la comunidad <a href="comunidad" id="comunidad"></a>
+## Únete a la comunidad <a href="#comunidad" id="comunidad"></a>
 
 * [Telegram](https://t.me/QiDaoProtocol)
 * [Discord](https://discord.gg/qidaoprotocol)
