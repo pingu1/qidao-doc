@@ -26,6 +26,10 @@
 * [Come far fruttare i tuoi token su Fantom](fantom-tutorials/leverage-your-crypto-on-fantom.md)
 * [Cosa fare con MAI su Fantom](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
 
+## Tutorial di Moonriver
+
+* [How to get started on Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
+
 ## Università di MAI
 
 * [Ottenere una rendita passiva con QiDAO](Universita-di-MAI/ottenere-una-rendita-passiva-con-qidao.md)
