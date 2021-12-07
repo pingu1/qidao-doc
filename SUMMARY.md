@@ -34,6 +34,7 @@
 * [Schuldentilgung - Wann und warum?](debt-management-tutorials/debt-repayment-why-and-when.md)
 * [Wie du deine Schulden tilgen kannst](debt-management-tutorials/debt-repayment-how.md)
 * [MAI Metaverse](MAI-university/mai-metaverse.md)
+* [MAI Metaverse Pt.2](MAI-university/mai-metaverse-pt.2.md)
 * [Wie man MAI außerhalb der Kryptowelt nutzen kann](MAI-university/how-to-use-mai-in-the-real-life.md)
 
 ## Join the Community <a href="#community" id="community"></a>
@@ -42,3 +43,4 @@
 * [Telegram](https://t.me/QiDaoProtocol)
 * [Twitter](https://twitter.com/OhMaiGuide)
 * [Use the app](https://app.mai.finance)
+
