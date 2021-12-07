@@ -12,7 +12,7 @@ Avalanche è una blockchain di primo livello (Layer-1) che funziona come piattaf
 
 Avalanche è compatibile al 100% compatibile EVM e con la toolchain Ethereum esistente e la sua C-Chain offre le stesse funzionalità di Ethereum ma con un capacità di calcolo più elevato, un tempo di esecuzione ridotto e commissioni di transazione molto più basse. AVAX è il token gas nativo della rete Avalanche.
 
-## Come iniziare con Avalanche
+## Primi passi con Avalanche
 
 Prima di utilizzare la rete Avalanche, è necessario creare un portafoglio. Esistono diversi tipi di portafoglio che possono essere utilizzati, inclusi \*\*portafogli software\*\* come Metamask o quello nativo della rete [Avalanche Wallet](https://wallet.avax.network), oltre agli \*\*hardware wallets \*\* come [Trezor](https://trezor.io/coins/) o [Ledger](https://support.ledger.com/hc/en-us/articles/360020765779-Avalanche-AVAX-?docs=true).
 

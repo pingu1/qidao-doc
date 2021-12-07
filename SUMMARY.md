@@ -28,7 +28,7 @@
 
 ## Tutorial di Moonriver
 
-* [How to get started on Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
+* [Come iniziare con Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
 
 ## Università di MAI
 
@@ -41,7 +41,7 @@
 * [MAI Metaverse Pt.2](Universita-di-MAI/mai-metaverse-pt.2.md)
 * [Come usare MAI nella vita reale](Universita-di-MAI/come-usare-mai-nella-vita-reale.md)
 
-## Entra nella Community <a href="community" id="community"></a>
+## Entra nella Community <a href="#community" id="community"></a>
 
 * [Discord](https://discord.gg/qidaoprotocol)
 * [Telegram](https://t.me/QiDaoProtocol)

@@ -14,7 +14,7 @@ La chain è stata progettata per superare tutte le limitazioni della precedente 
 
 Infine, Fantom è 100% EVM (**E**thereum **V**irtual **M**achine) compatibile, ciò significa che le DApp che sono state sviluppate su reti compatibili con EVM sono facilmente implementabili anche su Fantom. Questo porta anche altri vantaggi per gli utenti dato che MetaMask e altre applicazioni web3 sono già compatibili con Fantom. E' quindi immediato passare senza problemi da Polygon o Avalanche a Fantom all'interno dello stesso portafoglio.
 
-## Iniziare con Fantom
+## Primi passi con Fantom
 
 Essendo Fantom compatibile con EVM, se hai già un portafoglio per altre chain EVM (Ethereum Mainnet, Polygon o Avalanche), potrai utilizzarlo da subito. Se sei ai primi passi, è il momento di creare il tuo portafoglio. Esistono diversi tipi di portafoglio che possono essere utilizzati: **software wallets** come [Metamask](how-to-get-started-on-fantom.md#what-is-fantom) e [fWallet](https://pwawallet.fantom.network/#/) oppure **hardware wallets** come [Trezor](https://trezor.io/coins/) e [Ledger](https://fantom.foundation/blog/how-to-set-up-your-ledger-nano-s-x-with-fantom/).
 
@@ -96,7 +96,7 @@ Ci sono molte altre opportunità su Fantom che non mancheremo di descrivere in a
 
 * [Fantom explorer](https://explorer.fantom.network)
 * [Fantom gas checker](https://ftmscan.com/gastracker)
-* [Fantom Discord](how-to-get-started-on-fantom.md#ftm-faucet) 
+* [Fantom Discord](how-to-get-started-on-fantom.md#ftm-faucet)&#x20;
 * [DeBank](https://debank.com), gestione portafoglio multi-chain
 
 ## Disclaimer
