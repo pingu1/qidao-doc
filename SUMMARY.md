@@ -34,9 +34,10 @@
 * [Debt repayment - Why and When?](MAI-university/debt-repayment-why-and-when.md)
 * [Debt repayment - How?](MAI-university/debt-repayment-how.md)
 * [MAI Metaverse](MAI-university/mai-metaverse.md)
+* [MAI Metaverse Pt.2](MAI-university/mai-metaverse-pt.2.md)
 * [How to use MAI in the real life](MAI-university/how-to-use-mai-in-the-real-life.md)
 
-## Join the Community <a href="community" id="community"></a>
+## Join the Community <a href="#community" id="community"></a>
 
 * [Discord](https://discord.gg/qidaoprotocol)
 * [Telegram](https://t.me/QiDaoProtocol)
