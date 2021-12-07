@@ -26,6 +26,10 @@
 * [Fantom'dan Kaldıraçlı yararlanın](fantom-tutorials/leverage-your-crypto-on-fantom.md)
 * [Fantom'da MAI ile ne yapılır?](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
 
+## Moonriver Rehberi
+
+* [How to get started on Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
+
 ## MAI Üniversitesi
 
 * [QiDAO ile Pasif Gelir Kazanma](mai-university/earning-passive-income-with-qidao.md)
