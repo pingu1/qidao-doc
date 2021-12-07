@@ -26,6 +26,10 @@
 * [Chiến lược tạo đòn bẩy trên Fantom](fantom-toan-tap/leverage-your-crypto-on-fantom.md)
 * [Tận dụng MAI trên mạng Fantom](fantom-toan-tap/what-to-do-with-mai-on-fantom.md)
 
+## Moonriver toàn tập
+
+* [How to get started on Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
+
 ## Học viện MAI <a href="#debt-management-tutorials" id="debt-management-tutorials"></a>
 
 * [Thu nhập thụ động với QiDao](debt-management-tutorials/earning-passive-income-with-qidao.md)
