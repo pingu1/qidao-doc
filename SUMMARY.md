@@ -34,6 +34,7 @@
 * [Rembourser sa dette - Pourquoi et quand?](universite-MAI/debt-repayment-why-and-when.md)
 * [Rembourser sa dette - Comment?](universite-MAI/debt-repayment-how.md)
 * [MAI dans le metaverse](universite-MAI/mai-dans-le-metaverse.md)
+* [MAI Metaverse Pt.2](universite-MAI/mai-metaverse-pt.2.md)
 * [Comment utiliser MAI dans la "vraie" vie](universite-MAI/how-to-use-mai-in-the-real-life.md)
 
 ## Rejoignez la Communauté <a href="#communaute" id="communaute"></a>
