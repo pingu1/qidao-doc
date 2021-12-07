@@ -26,6 +26,10 @@
 * [Leverage your crypto on Fantom](fantom-tutorials/leverage-your-crypto-on-fantom.md)
 * [What to do with MAI on Fantom](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
 
+## Moonriver tutorials
+
+* [How to get started on Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
+
 ## MAI University
 
 * [Passives Einkommen mit QiDAO](MAI-university/earning-passive-income-with-qidao.md)
