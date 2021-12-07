@@ -34,6 +34,7 @@
 * [Borç geri ödemesi - Neden ve Ne Zaman?](mai-university/debt-repayment-why-and-when.md)
 * [Borç geri ödemesi - Nasıl?](mai-university/debt-repayment-how.md)
 * [MAI Metaverse](mai-university/mai-metaverse.md)
+* [MAI Metaverse Pt.2](mai-university/mai-metaverse-pt.2.md)
 * [MAI gerçek hayatta nasıl kullanılır?](mai-university/how-to-use-mai-in-the-real-life.md)
 
 ## Topluluğa Katılın <a href="community" id="community"></a>
