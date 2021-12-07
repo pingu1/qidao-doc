@@ -34,6 +34,7 @@
 * [Debt repayment - Why and When?](debt-management-tutorials/debt-repayment-why-and-when.md)
 * [Debt repayment - How?](debt-management-tutorials/debt-repayment-how.md)
 * [MAI Metaverse](Universidade-do-MAI/mai-metaverse.md)
+* [MAI Metaverse Pt.2](Universidade-do-MAI/mai-metaverse-pt.2.md)
 * [How to use MAI in the real life](Universidade-do-MAI/how-to-use-mai-in-the-real-life.md)
 
 ## Junta-te à comunidade <a href="#community" id="community"></a>
