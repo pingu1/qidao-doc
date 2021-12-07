@@ -34,6 +34,7 @@
 * [Rimborso del debito - Perchè e quando?](Universita-di-MAI/rimborso-del-debito-perche-e-quando.md)
 * [Rimborso del debito - Come?](Universita-di-MAI/rimborso-del-debito-come.md)
 * [MAI Metaverse](Universita-di-MAI/mai-metaverse.md)
+* [MAI Metaverse Pt.2](Universita-di-MAI/mai-metaverse-pt.2.md)
 * [Come usare MAI nella vita reale](Universita-di-MAI/come-usare-mai-nella-vita-reale.md)
 
 ## Entra nella Community <a href="community" id="community"></a>
