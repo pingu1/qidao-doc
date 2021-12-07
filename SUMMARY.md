@@ -26,6 +26,10 @@
 * [Appliquer un effet de levier à vos cryptos sur Fantom](fantom-tutorials/leverage-your-crypto-on-fantom.md)
 * [Que faire avec MAI sur Fantom](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
 
+## Tutoriels pour Moonriver
+
+* [How to get started on Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
+
 ## L'Université du MAI <a href="#universite-mai" id="universite-mai"></a>
 
 * [Obtenez des gains passifs avec QiDAO](universite-MAI/earning-passive-income-with-qidao.md)
