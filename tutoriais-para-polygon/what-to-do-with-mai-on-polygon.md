@@ -86,15 +86,15 @@ Atualmente, ao entrar em uma pool LP (**L**iquidity **P**rovider, Provedor de Li
 
 ### Adamant
 
-[Adamant](https://adamant.finance/home) é um agregador que lista as "melhores" farms da Polygon e que permite você entrar nelas diretamente de seu website. Depositando seus ativos (tokens LP) em uma pool especifica na Adamant, o algoritmo irá colher as recompensas garantidas pela pool e automaticamente acumular parte das recompensas na sua posição LP. O resto da recompensa é geralmente convertido para WMATIC, que é então redistribuido aos _holders_ do token ADDY (token nativo da Adamant). Por último, você recebe uma recompensa em tokens ADDY, assim como você faz e faz vesting por 90 dias, recebendo parte dos seus dividendos de WMATIC.&#x20;
+[Adamant](https://adamant.finance/home) é um agregador que lista as "melhores" farms da Polygon e que permite você entrar nelas diretamente de seu website. Depositando seus ativos (tokens LP) em uma pool especifica na Adamant, o algoritmo irá colher as recompensas garantidas pela pool e automaticamente acumular parte das recompensas na sua posição LP. O resto da recompensa é geralmente convertido para WMATIC, que é então redistribuindo aos _holders_ do token ADDY (token nativo da Adamant). Por último, você recebe uma recompensa em tokens ADDY, assim como você faz e faz vesting por 90 dias, recebendo parte dos seus dividendos de WMATIC.&#x20;
 
-In general, Adamant is a good place to go if you don't really care about the farm token, and if you don't want to compound your rewards manually several times a day. It also generates more revenue since you get some ADDY rewards in addition to the reward granted by the pool.
+No geral, Adamant é um bom lugar para visitar se você não liga muito para o token da farm, e se você não reacumular suas recompensas manualmente varias vezes ao dia. Também gera mais rendimento já que você ganha recompensas em ADDY somadas as recompensas garantidas pela pool.
 
-Adamant currently supports a few pools that accept the MAI/USDC LP pair. The pools are on
+A Adamant atualmente suporta algumas pools que aceitam o par de LP MAI/USDC. As pools estão em:
 
-* QuickSwap: QUICK reward is swapped into more MAI/USDC LP and WMATIC rewards
-* DinoSwap: Dino reward is swapped into more MAI/USDC LP and WMATIC rewards
-* Mai Finance: Qi reward is swapped into more MAI/USDC LP and WMATIC rewards
+* QuickSwap: Recompensas em QUICK são trocadas por mais LP MAI/USDC e WMATIC
+* DinoSwap: Recompensas em DINO são trocadas por mais LP MAI/USDC e WMATIC
+* Mai Finance: Recompensas Qi são trocadas por mais LP MAI/USDC e WMATIC
 
 ![QuickSwap MAI/USDC pool on Adamant](../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
 
