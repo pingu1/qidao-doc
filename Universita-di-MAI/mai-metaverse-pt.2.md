@@ -46,7 +46,7 @@ Moonriver è un percorso facile per sfruttare la chain Kusama\*\*.\*\* Consente 
 
 Per trasferire $MAI a Moonriver, useremo la piattaforma [Relaychain](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer). La sua interfaccia utente è molto simile a quella di Anyswap. Quando desiderate trasferire $MAI da Polygon, dovrete prima connettere il vostro portafoglio MetaMask, quindi selezionare l'asset che desiderate trasferire ($MAI) e la rete di destinazione (Moonriver).
 
-![Trasferire $MAI da Polygon a Moonriver](<../.gitbook/assets/relay movr.JPG>)
+![Trasferimento di $MAI da Polygon a Moonriver](<../.gitbook/assets/relay movr.JPG>)
 
 ### Usare MAI su Moonriver
 
@@ -70,7 +70,7 @@ Cronos funziona su un algoritmo di consenso Proof of Authority (PoA) ed è alime
 
 Per trasferire $MAI a Cronos, utilizzeremo la piattaforma [Relaychain](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer). I passaggi sono gli stessi del caso Moonriver, basta selezionare la rete da cui si sta trasferendo $MAI (Polygon), la rete a cui si desidera inviarlo (Cronos) e l'asset che si desidera inviare ($MAI).
 
-![Trasferire $MAI da Polygon a Cronos](../.gitbook/assets/cronos.JPG)
+![Trasferimento di $MAI da Polygon a Cronos](../.gitbook/assets/cronos.JPG)
 
 ### Usare MAI su Cronos
 
