@@ -14,7 +14,7 @@
 * [Farmare o mettere in Stake? O entrambe le cose?](farmare-o-mettere-in-stake-o-entrambe.md)
 * [Come combinare Farming e ricompense dei prestiti](how-to-combine-farming-and-borrowing-rewards.md)
 * [Forks di OHM su Polygon: l'esempio di KLIMA](tutorial-di-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
-* [MAI single-staking with Ethalend](tutorial-di-polygon/ethalend-single-staking.md)
+* [Staking singolo di MAI su Ethalend](tutorial-di-polygon/ethalend-single-staking.md)
 
 ## Tutorial di Avalanche
 
