@@ -96,10 +96,10 @@ A Adamant atualmente suporta algumas pools que aceitam o par de LP MAI/USDC. As 
 * DinoSwap: Recompensas em DINO são trocadas por mais LP MAI/USDC e WMATIC
 * Mai Finance: Recompensas Qi são trocadas por mais LP MAI/USDC e WMATIC
 
-![QuickSwap MAI/USDC pool on Adamant](../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
+![Pool de MAI/USDC da QuickSwap na Adamant](../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
 
 {% hint style="info" %}
-The screenshots of the QuickSwap pool on QuickSwap website (see paragraph above) and Adamant have been taken the same day, but are showing different APYs (**A**nnual **P**ercentage **Y**ield).
+Os screenshots da pool da QuickSwap no website da QuickSwap (veja paragrafo acima) e Adamant foram tirados no mesmo dia, mas estão exibindo APY's (**A**nnual **P**ercentage **Y**ield).
 {% endhint %}
 
 You can see that the APY on Adamant is a little bit higher than on QuickSwap directly. The reward breakdown is as follows
