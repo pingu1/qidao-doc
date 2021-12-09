@@ -86,7 +86,7 @@ Atualmente, ao entrar em uma pool LP (**L**iquidity **P**rovider, Provedor de Li
 
 ### Adamant
 
-[Adamant](https://adamant.finance/home) é um agregador que lista as "melhores" farms da Polygon e que permite você entrar nelas diretamente de seu website. Depositando seus ativos (tokens LP) em uma pool especifica na Adamant, o algoritmo irá colher as recompensas garantidas pela pool e automaticamente acumular parte das recompensas na sua posição LP. O resto da recompensa é geralmente convertido para WMATIC, que é então redistribuindo aos _holders_ do token ADDY (token nativo da Adamant). Por último, você recebe uma recompensa em tokens ADDY, assim como você faz e faz vesting por 90 dias, recebendo parte dos seus dividendos de WMATIC.&#x20;
+[Adamant](https://adamant.finance/home) é um agregador que lista as "melhores" farms da Polygon e que permite você entrar nelas diretamente pelo seu website. Depositando seus ativos (tokens LP) em uma pool específica na Adamant, o algoritmo irá colher as recompensas garantidas pela pool e automaticamente acumular parte das recompensas na sua posição LP. O resto da recompensa é geralmente convertido para WMATIC, que é então redistribuido aos _holders_ do token ADDY (token nativo da Adamant). Por último, você recebe uma recompensa em tokens ADDY, enquanto você faz vesting por 90 dias, recebendo parte dos seus dividendos de WMATIC.&#x20;
 
 No geral, Adamant é um bom lugar para visitar se você não liga muito para o token da farm, e se você não reacumular suas recompensas manualmente varias vezes ao dia. Também gera mais rendimento já que você ganha recompensas em ADDY somadas as recompensas garantidas pela pool.
 
@@ -99,19 +99,19 @@ A Adamant atualmente suporta algumas pools que aceitam o par de LP MAI/USDC. As 
 ![Pool de MAI/USDC da QuickSwap na Adamant](../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
 
 {% hint style="info" %}
-Os screenshots da pool da QuickSwap no website da QuickSwap (veja paragrafo acima) e Adamant foram tirados no mesmo dia, mas estão exibindo APY's (**A**nnual **P**ercentage **Y**ield).
+Os screenshots da pool da QuickSwap no website da QuickSwap (veja parágrafo acima) e Adamant foram tirados no mesmo dia, mas estão exibindo APY's (**A**nnual **P**ercentage **Y**ield).
 {% endhint %}
 
-Você pode ver que o APY na Adamant é um pouco mais alto do que diretamente na QuickSwap. A repartição das recompensas está logo abaixo:
+Você pode ver que o APY na Adamant é um pouco mais alto do que teriamos diretamente na QuickSwap. A repartição das recompensas fica assim:
 
 * 12.88% em QUICK reacumulados automaticamente (o que significa que a recompensa QUICK é transformada em mais tokens LP)
 * 9.16% em recompensas ADDY (não reacumuladas)
 * 3.40% em dividendos pelas taxas (reinvidicando ADDY diariamente)
 
-Isso significa que, dos 20.92% garantidos pela QuickSwap, apenas 12.88% são usados para aumentar a sua posição em LP, o resto é trocado por mais dividendos em WMATIC. Você será capaz de reinvidicar sua recompensa ADDY diária (ou em qualquer período) e fazer stake nela, que irá, por vez, gerar dividendos WMATIC reivindicáveis. Em outras palavras, Adamant parece ser uma melhor opção porque possui melhores APYs e recompensas reacumuladas automaticametne, mas na verdade envolve muitas açōes manuais também.
+Isso significa que, dos 20.92% garantidos pela QuickSwap, apenas 12.88% são usados para aumentar a sua posição em LP, o resto é trocado por mais dividendos em WMATIC. Você será capaz de reinvidicar sua recompensa ADDY diária (ou em qualquer período) e fazer stake nela, que irá, por vez, gerar dividendos WMATIC reivindicáveis. Em outras palavras, a Adamant parece ser uma opção superior porque possui melhores APYs e recompensas reacumuladas automaticamente, embora involva também muitas açōes manuais.
 
 {% hint style="info" %}
-Adamant também possui um impacto forte sobre os preços dos tokens nativos. De fato, porque a Adamant está constantemente vendendo os tokens da farm para gerar mais pares LP e WMATIC como dividendos aos seus investidores (holders) em ADDY, a pressão vendedora é muita alta em tokens de farm e com isso podemos explicar porque os seus preços estão consistentemente caindo.
+A Adamant também cria um forte impacto sobre os preços dos tokens nativos. De fato, porque a Adamant está constantemente vendendo os tokens da farm para gerar mais pares LP e WMATIC como dividendos aos seus investidores (holders) em ADDY, a pressão vendedora é muita alta em tokens de farm e com isso podemos explicar porque os seus preços estão consistentemente caindo.
 {% endhint %}
 
 ### Other farms accepting MAI/USDC LP pair
