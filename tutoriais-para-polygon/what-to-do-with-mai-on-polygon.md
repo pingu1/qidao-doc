@@ -75,7 +75,7 @@ Há um guia completo sobre como utilizar a Mai Finance para [alavancar tokens na
 
 A maneira como você pode usar MAI na QuickSwap é muito semelhante a uma [yield farm](secure-your-yield-farming-profits.md) normal. Então, se você precisa de informaçōes sobre como entrar na pool de MAI/USDC da QuickSwap, é provavelmente melhor para você ler este artigo.
 
-Atualmente, ao entrar em uma pool LP (**L**iquidity **P**rovider, Provedor de Liquidez) de MAI/USDC na QuickSwap, você receberá:
+Atualmente, ao entrar em uma LP pool (**L**iquidity **P**rovider, Provedor de Liquidez) de MAI/USDC na QuickSwap, você receberá:
 
 * Taxas das operaçōes
 * Tokens QUICK
@@ -86,15 +86,15 @@ Atualmente, ao entrar em uma pool LP (**L**iquidity **P**rovider, Provedor de Li
 
 ### Adamant
 
-[Adamant](https://adamant.finance/home) é um agregador que lista as "melhores" farms da Polygon e que permite você entrar nelas diretamente pelo seu website. Depositando seus ativos (tokens LP) em uma pool específica na Adamant, o algoritmo irá colher as recompensas garantidas pela pool e automaticamente acumular parte das recompensas na sua posição LP. O resto da recompensa é geralmente convertido para WMATIC, que é então redistribuido aos _holders_ do token ADDY (token nativo da Adamant). Por último, você recebe recompensas em tokens ADDY, que podem ser utilizadas em harvesting e vesting por 90 dias, gerando lucro com dividendos em WMATIC.&#x20;
+[Adamant](https://adamant.finance/home) é um agregador que lista as "melhores" farms da Polygon e que permite você entrar nelas diretamente pelo seu website. Depositando seus ativos (tokens P) em uma pool específica na Adamant, o algoritmo irá colher as recompensas garantidas pela pool e automaticamente acumular parte das recompensas na sua posição LP. O resto da recompensa é geralmente convertido para WMATIC, que é então redistribuido aos _holders_ do token ADDY (token nativo da Adamant). Por último, você recebe recompensas em tokens ADDY, que podem ser utilizadas em harvesting e vesting por 90 dias, gerando lucro com dividendos em WMATIC.&#x20;
 
-No geral, Adamant é um bom lugar para visitar se você não liga muito para o token da farm, e se você prefere não reacumular suas recompensas manualmente varias vezes ao dia. Também gera mais rendimento já que você ganha recompensas em ADDY somadas as recompensas garantidas pela pool.
+No geral, a Adamant é um bom lugar para visitar se você não liga muito para o token da farm, e se você prefere não reacumular suas recompensas manualmente varias vezes ao dia. Também gera mais rendimento já que você ganha recompensas em ADDY somadas as recompensas garantidas pela pool.
 
-A Adamant atualmente suporta algumas pools que aceitam o par de LP MAI/USDC. As pools são:
+A Adamant atualmente suporta algumas pools que aceitam o par de MAI/USDC LP. As pools são:
 
-* QuickSwap: Recompensas em QUICK são trocadas por mais LP MAI/USDC e WMATIC
-* DinoSwap: Recompensas em DINO são trocadas por mais LP MAI/USDC e WMATIC
-* Mai Finance: Recompensas Qi são trocadas por mais LP MAI/USDC e WMATIC
+* QuickSwap: Recompensas em QUICK são trocadas por mais MAI/USDC LP e WMATIC
+* DinoSwap: Recompensas em DINO são trocadas por mais MAI/USDC LP e WMATIC
+* Mai Finance: Recompensas Qi são trocadas por mais MAI/USDC LP e WMATIC
 
 ![Pool de MAI/USDC da QuickSwap na Adamant](../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
 
@@ -104,7 +104,7 @@ Os screenshots da pool da QuickSwap no website da QuickSwap (veja parágrafo aci
 
 Você pode ver que o APY na Adamant é um pouco mais alto do que teriamos diretamente na QuickSwap. A repartição das recompensas fica assim:
 
-* 12.88% em QUICK reacumulados automaticamente (o que significa que a recompensa QUICK é transformada em mais tokens LP)
+* 12.88% em QUICK reacumulados automaticamente (o que significa que a recompensa QUICK é transformada em mais LP tokens)
 * 9.16% em recompensas ADDY (não reacumuladas)
 * 3.40% em dividendos pelas taxas (reinvidicando ADDY diariamente)
 
@@ -114,7 +114,7 @@ Isso significa que, dos 20.92% garantidos pela QuickSwap, apenas 12.88% são usa
 A Adamant também cria um forte impacto sobre os preços dos tokens nativos. De fato, porque a Adamant está constantemente vendendo os tokens da farm para gerar mais pares LP e WMATIC como dividendos aos seus investidores (holders) em ADDY, a pressão vendedora é muita alta em tokens de farm e com isso podemos explicar porque os seus preços estão consistentemente caindo.
 {% endhint %}
 
-### Other farms accepting MAI/USDC LP pair
+### Outras farms que aceitam o par MAI/USDC LP
 
 MAI getting more and more popularity on Polygon, and because QuickSwap supports the MAI/USDC pair, a lot of farms are now supporting it too. The following list will present a few projects on which you can earn yield using MAI/USDC
 
