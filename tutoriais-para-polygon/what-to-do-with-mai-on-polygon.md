@@ -116,14 +116,14 @@ A Adamant também cria um forte impacto sobre os preços dos tokens nativos. De 
 
 ### Outras farms que aceitam o par MAI/USDC LP
 
-MAI getting more and more popularity on Polygon, and because QuickSwap supports the MAI/USDC pair, a lot of farms are now supporting it too. The following list will present a few projects on which you can earn yield using MAI/USDC
+A MAI está se tornando, a cada dia, mais popular na rede Polygon, e como a QuickSwap já suporta o par MAI/USDC, muitas outras farms passaram a suportar também. A lista abaixo mostra alguns desses projetos em que você pode obter rendimentos utilizando o par MAI/USDC:
 
 * DinoSwap
 * Augury
 * Polypup
 * ...
 
-Other farms may also accept the MAI/USDC pool. If you want to stay informed about new farms and their launch date, I strongly recommend taking a look at the [RugDoc.io calendar](https://rugdoc.io/calendar/) for Polygon farms, and possibly to the rest of their website which will present a very smart overview of each farm, as well as their potential risks.
+Outras farms provavelmente já possuem pools de MAI/USDC. Se você deseja ficar informado sobre novas farms e sua data de lançamento, eu recomendo fortemente que você dê uma olhada no [Calendario RugDoc.io](https://rugdoc.io/calendar/) para as farms na rede Polygon. Recomendamos também olhar o resto do website, que mostra uma visão geral muito inteligente sobre cada farm, assim como possíveis riscos associados a elas.
 
 ## Impermax
 
