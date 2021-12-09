@@ -82,7 +82,7 @@ Atualmente, ao entrar em uma LP pool (**L**iquidity **P**rovider, Provedor de Li
 
 ![Detalhes da pool de MAI/USDC na QuickSwap em Agosto de 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
-## Farms degen e agregadorees
+## Degen farming e agregadorees
 
 ### Adamant
 
