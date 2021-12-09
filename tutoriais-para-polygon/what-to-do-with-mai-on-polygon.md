@@ -127,19 +127,19 @@ Outras farms provavelmente já possuem pools de MAI/USDC. Se você deseja ficar 
 
 ## Impermax
 
-### A little bit of explanation
+### Uma pequena explicação
 
-[Impermax](https://polygon.impermax.finance) is a platform that let users leverage their LP tokens for higher yields. The goal is very simple: by providing LP tokens and using them as collateral, one can then borrow more of the 2 underlying assets to generate more LP tokens and repeat the loop.
+A [Impermax](https://polygon.impermax.finance) é uma plataforma que permite aos seus usuarios alavancarem seus LP tokens para obterem rendimentos maiores. O objetivo é muito simples: ao providenciar LP tokens e utilizá-los como garantia, você poderá tomar emprestado mais dos 2 ativos subjacentes para gerar mais LP tokens e repetir o loop.
 
-![Impermax loop explained](../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
+![Loop da Impermax explicado](../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
 
-When doing so, the user is exposed to impermanent loss, and the loss is magnified by the number of times the loop is repeated. The risk of liquidation is also multiplied when too many loops are applied. Indeed, if the APR is multiplied, the price variation of the two coins forming the pair is amplified by the lever effect, leading to faster liquidation.
+Fazendo isto, o usuário é exposto a _impermanent loss (_prejuízo impermanente_)_, e o prejuízo é aumentado pelo número de loops repetidos. O risco de liquidação é também multiplicado ao serem aplicado muitos loops. De fato, se o APR é multiplicado, a variação de preço das duas moedas adjacentes do par é amplificada pelo efeito de alavanca, levando a uma liquidação mais rapidamente.
 
-With stable coins, the risk of liquidation is lower though, because the price variation is negligible. This also means that the Collateral to Debt Ratio (CDR) can be very close to 100%, leading to a high number of loops, hence a high APR.
+Com stablecoins, porém, o risco de liquidação é menor, porque a variação de preço é insignificante. Isso também significa que a Collateral to Debt Ratio (CDR, ou Razão de Garantia para Dívida) pode ficar proxima aos 100%, permitindo um número maior de loops, e com isso um maior APR.
 
-Note that Impermax is charging fees when you borrow and leverage your position. The fee corresponds to 0.1% of your final position. As an example, if I have $100 worth of MAI/USDC and I leverage 50x, my final position will worth $5,000 and I will pay a $4.90 fee corresponding to the $4,900 that I borrowed.
+Perceba que a Impermax cobra taxas quando você toma emprestado e alavanca sua posição. A taxa corresponde a 0.1% da sua posição final. Como exemplo, se eu tenho $100 em MAI/USDC e eu alavanco 50 vezes, minha posição final valerá $5,000 e eu irei pagar uma taxa de $4.90 correspondente aos $4,900 que eu tomei emprestado.&#x20;
 
-The effect of looping the lending/borrowing combination allows to multiply the final APY. With an initial APY of 20% for MAI/USDC pair with a CDR of 110%, operating the loop 50 times, and using the formula
+O efeito de fazer looping com a combinação emprestar/tomar emprestado permite multiplicar o APY final. Com um APY inicial de 20% para o par MAI/USDC com uma CDR de 110%, operando o loop 50 vezes, e utilizando a fórmula
 
 $$
 Equivalent APR = Initial APR * \sum_{i=0}^{n}{\frac{100}{CDR}}^i
