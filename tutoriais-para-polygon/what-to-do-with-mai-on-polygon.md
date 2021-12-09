@@ -133,21 +133,21 @@ A [Impermax](https://polygon.impermax.finance) é uma plataforma que permite aos
 
 ![Loop da Impermax explicado](../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
 
-Fazendo isto, o usuário é exposto a _impermanent loss (_prejuízo impermanente_)_, e o prejuízo é aumentado pelo número de loops repetidos. O risco de liquidação é também multiplicado ao serem aplicado muitos loops. De fato, se o APR é multiplicado, a variação de preço das duas moedas adjacentes do par é amplificada pelo efeito de alavanca, levando a uma liquidação mais rapidamente.
+Fazendo isto, o usuário é exposto a _impermanent loss (_prejuízo impermanente_)_, e o prejuízo é amplificado pelo número de loops repetidos. O risco de liquidação é também multiplicado ao serem aplicados muitos loops. De fato, se o APR é multiplicado, a variação de preço das duas moedas adjacentes do par é amplificada pelo efeito de alavanca, levando a uma liquidação mais rapidamente.
 
 Com stablecoins, porém, o risco de liquidação é menor, porque a variação de preço é insignificante. Isso também significa que a Collateral to Debt Ratio (CDR, ou Razão de Garantia para Dívida) pode ficar proxima aos 100%, permitindo um número maior de loops, e com isso um maior APR.
 
 Perceba que a Impermax cobra taxas quando você toma emprestado e alavanca sua posição. A taxa corresponde a 0.1% da sua posição final. Como exemplo, se eu tenho $100 em MAI/USDC e eu alavanco 50 vezes, minha posição final valerá $5,000 e eu irei pagar uma taxa de $4.90 correspondente aos $4,900 que eu tomei emprestado.&#x20;
 
-O efeito de fazer looping com a combinação emprestar/tomar emprestado permite multiplicar o APY final. Com um APY inicial de 20% para o par MAI/USDC com uma CDR de 110%, operando o loop 50 vezes, e utilizando a fórmula
+O efeito de fazer looping com a combinação emprestar/tomar emprestado permite multiplicar o APY final. Com um APY inicial de 20% para o par MAI/USDC, com uma CDR de 110%, operando o loop 50 vezes, e utilizando a fórmula
 
 $$
-Equivalent APR = Initial APR * \sum_{i=0}^{n}{\frac{100}{CDR}}^i
+APR Equivalente = APR Inicial * \sum_{i=0}^{n}{\frac{100}{CDR}}^i
 $$
 
-We can easily get a 228% final APR. There are some other elements that will affect the final APR, namely the borrowing APR (loan interest for borrowing more LP tokens), and the supply/demand of both assets composing the LP pair (directly driving the borrowing APR).
+Nós conseguimos facilmente um APR de 228%. Há outros elementos que afetarão o APR final, entre eles o APR do empréstimo (juros por tomar emprestado mais LP tokens), e a oferta/demanda de ambos ativos compondo o par LP (diretamente influenciando o APR do empréstimo).
 
-Also, because all the rates are magnified by the number of times the loop is applied, the APR will vary drastically, and can sometimes become negative for short amount of times (your LP token will be used to repay the negative APR).
+Também, porque todas as taxas são amplificadas pelo numero de loops aplicados, o APR irá variar drasticamente, e pode as vezes se tornar negativo por um pequeno período de tempo (seu LP token será usado para reembolsar o APR negativo).
 
 ### Leveraged position of my MAI/USDC pair
 
