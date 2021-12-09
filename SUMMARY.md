@@ -28,7 +28,7 @@
 
 ## Moonriver Rehberi
 
-* [How to get started on Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
+* [Moonriver'ı Nasıl Kullanırım?](moonriver-tutorials/how-to-get-started-on-moonriver.md)
 
 ## MAI Üniversitesi
 
