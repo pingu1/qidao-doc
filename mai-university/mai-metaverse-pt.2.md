@@ -1,89 +1,87 @@
 ---
-description: >-
-  Lately, MAI has been growing at such a quick pace that it's time for a second
-  article on the same topic. You will find the new chains where you can use the
-  MAI stablecoin.
+Açıklama: >-
+  Son zamanlarda, MAI o kadar hızlı büyüyor ki, aynı konuda ikinci bir makalenin zamanı geldi. Bu makalede MAI kullanabileceğiniz yeni zincirleri detaylandıracağız.
 ---
 
-# MAI Metaverse Pt.2
+# MAI Metaverse Bölüm 2
 
 ![](../.gitbook/assets/MAI.png)
 
 ## Harmony
 
-### What's Harmony?
+### Harmony nedir?
 
-Harmony (ONE) is a decentralized blockchain platform designed as a bridge between scalability and decentralization efforts. Its development went under the motto of “decentralization at scale” with the focus on data sharing and the creation of marketplaces of fungible tokens and non-fungible assets. Furthermore, Harmony comes with an additional promise of delivering high throughput accompanied by two “lows”: latency and fees. Combined, they are supposed to put the platform at the heart of the efforts to lay the foundation of the future decentralized trustless economies.
+Harmony (ONE), ölçeklenebilirlik ve merkeziyetsizlik çabaları arasında bir köprü olarak tasarlanmış merkeziyetsiz bir blok zincir platformudur. Gelişimi, veri paylaşımına ve değiştirilebilir tokenlar ve değiştirilebilir olmayan varlıkların pazar yerlerinin yaratılmasına odaklanarak “ölçekte merkeziyetçilikten uzaklaşma” sloganı altında gerçekleşti. Ayrıca, Harmony, iki "düşük" ile birlikte yüksek verim sağlama konusunda ek bir vaatle birlikte gelir: gecikme ve ücretler. Birlikte ele alarak, platformu gelecekteki ademi merkeziyetçi ve güvenilmez ekonomilerin temelini atma çabalarının merkezine koymaları gerekiyor.
 
-However, what makes the Harmony blockchain unique, its their deep sharding system. A shard **** is a synonym for a piece or a part. By sharding **** Harmony means dividing its nodes in four equal groups. Hence, there are 1 000 nodes total divided into four shards making one shard consisting of 250 nodes. Moreover, the exact nodes within shards are regularly and randomly mixed. This number is set to be exactly so to increase the security of the system and to add more scalability. If you want to learn more about this chain, you can read this [article](https://guarda.com/academy/crypto/what-is-harmony/).
+Ancak Harmony blok zincirini benzersiz yapan şey, derin sharding sistemidir. Sharding veya shard ile eşanlamlıdır. Sharding  Harmony, nodeları dört eşit gruba bölmek anlamına gelir. Dolayısıyla, 250 nodedan oluşarak bir parça oluşturan dört parçaya bölünmüş toplam 1 000 node vardır. Ayrıca, shardlar içindeki full nodelar düzenli ve rastgele karıştırılır. Bu sayı, sistemin güvenliğini artırmak ve daha fazla ölçeklenebilirlik eklemek için tam olarak bu şekilde ayarlanmıştır. Harmony hakkında daha fazla bilgi edinmek istiyorsanız [bu](https://guarda.com/academy/crypto/what-is-harmony/) makaleyi okuyabilirsiniz. 
 
-### Getting MAI on Harmony
+### Harmony'de MAI Alma
 
-To send MAI from Polygon to Harmony, you can use the [AnySwap ](https://anyswap.exchange/#/router)platform. The UI is pretty straightforward, the only thing that you will need to do is select the chain where you have the MAI and where do you want to send it.
+MAI'yi Polygon'dan Harmony'ye göndermek için [AnySwap ](https://anyswap.exchange/#/router) platformunu kullanabilirsiniz. Kullanıcı arayüzü oldukça basittir. Yapmanız gereken tek şey MAI'nin bulunduğu zinciri ve onu nereye göndermek istediğinizi seçmektir.
 
-![Sending MAI from Polygon to Harmony](<../.gitbook/assets/MAI - Harmony.JPG>)
+![Polygon'dan Harmony'ye MAI gönderme](<../.gitbook/assets/MAI - Harmony.JPG>)
 
 {% hint style="info" %}
-Be aware that at the bottom of the Anyswap's page, there's some important information about bridging MAI, so check it out before doing any transaction.
+Anyswap sayfasının alt kısmında, MAI arasında köprü oluşturma hakkında bazı önemli bilgiler olduğunu unutmayın ve herhangi bir işlem yapmadan önce kontrol edin.
 {% endhint %}
 
-### Using MAI on Harmony
+### Harmony'de MAI Kullanımı
 
-Currently, the Mai Finance team does not have any partnership with any yield farm on Harmony. Once the team is aware of projects that are using MAI, this documentation will be updated. Stay tuned.
+Şu anda, Mai Finance ekibinin Harmony'deki herhangi bir verim çiftliği ile herhangi bir ortaklığı bulunmamaktadır. Ekip, MAI kullanan projelerden haberdar olduğunda, belgeler güncellenecektir. Bizi izlemeye devam edin.
 
 ## Moonriver
 
-### What's Moonriver?
+### Moonriver nedir?
 
-Moonriver is a sister network of **Moonbeam**. Similar to its sister, Moonriver is a full Ethereum-like environment and works with industry-standard Ethereum tools, DApps, and protocols. The only difference between Moonriver and Moonbeam is that:
+Moonriver, Moonbeam'in kardeş ağıdır. Kardeşine benzer şekilde Moonriver, Ethereum benzeri bir ortamdır ve endüstri standardı Ethereum araçları, DApp'ler ve protokollerle çalışır. Moonriver ve Moonbeam arasındaki tek fark şudur:
 
-* Moonriver is a parachain built on Kusama Relay Chain.
-* Moonbeam belongs to the Polkadot Relay Chain.
+* Moonriver, Kusama Relay Chain üzerine kurulmuş bir parachaindir.
+* Moonbeam, Polkadot Relay Chain'e aittir.
 
-Moonriver is an easy route to Kusama Relay Chain**.** It allows teams and developers ,who are familiar with Ethereum, access to the Kusama Network with little or no barriers. It minimizes the changes required to run existing Solidity smart contracts on the network. Therefore, Ethereum projects can simply replicate their DApp and deploy it to Moonriver using popular deployment tools.
+Moonriver, Kusama Relay Chain'e giden kolay bir yoldur**.** Ethereum'a aşina olan ekiplerin ve geliştiricilerin, çok az veya hiç engel olmadan Kusama'ya erişmesine izin verir. Ağ üzerinde mevcut Solidity akıllı sözleşmelerini çalıştırmak için gereken değişiklikleri en aza indirir. Bu nedenle, Ethereum projeleri DApp'lerini kolayca çoğaltabilir ve popüler dağıtım araçlarını kullanarak Moonriver'a dağıtabilir.
 
-### Getting MAI on Moonriver
+### Moonriver'da MAI Alma
 
-To send MAI to Moonriver, we'll use the [Relaychain ](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer)platform. its UI is very similar to the one of Anyswap. When you want to transfer MAI from Polygon, you will have to connect your MetaMask wallet first, then select the asset you want to bridge (MAI) and the destination network (Moonriver).&#x20;
+MAI'yi Moonriver'a göndermek için [Relaychain ](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer) platformunu kullanacağız. kullanıcı arayüzü Anyswap'ınkine çok benzer. MAI'yi Polygon'dan aktarmak istediğinizde, önce MetaMask cüzdanınızı bağlamanız, ardından köprülemek istediğiniz varlığı (MAI) ve hedef ağı (Moonriver) seçmeniz gerekecektir.&#x20;
 
-![Transfering MAI from Polygon to Moonriver](<../.gitbook/assets/relay movr.JPG>)
+![MAI'yi Polygon'dan Moonriver'a Aktarma](<../.gitbook/assets/relay movr.JPG>)
 
-### Using MAI on Moonriver
+### Moonriver'da MAI kullanma
 
-The same way you can use MAI to farm yields on Polygon, you can use MAI on Moonriver. The main place to do so is [Solarbeam](https://app.solarbeam.io/farm). As for the time of writing, the only available pool that uses MAI is the MOVR/MAI.
+MAI'yi Polygon'da verim toplamak için kullanabileceğiniz şekilde, Moonriver'da MAI kullanabilirsiniz. Bunu yapmak için ana yer [Solarbeam](https://app.solarbeam.io/farm) platformudur. Şu an MAI kullanan tek mevcut havuz MOVR/MAI'dir.
 
-![MOVR-MAI pool on Solarbeam as of December 2021](../.gitbook/assets/MOVR-MAI.JPG)
+![Aralık 2021 itibariyle Solarbeam'de MOVR-MAI havuzu](../.gitbook/assets/MOVR-MAI.JPG)
 
 {% hint style="info" %}
-Remember that to use this farm, you will have to deposit the same ratio of MOVR and MAI to create a LP token.
+Bu çiftliği kullanmak için, bir LP tokenı oluşturmalı ve aynı oranda MOVR ve MAI yatırmanız gerektiğini unutmayın.
 {% endhint %}
 
 ## Cronos
 
-### What's Cronos?
+### Cronos nedir?
 
-Cronos is an EVM compatible sidechain running in parallel with the Crypto.org Chain. Before launching Cronos, the Crypto.com ecosystem encompasses the Crypto.com chain and Crypto.com centralized exchange.
+Cronos, Crypto.org zinciri ile paralel olarak çalışan EVM uyumlu bir yan zincirdir. Cronos'u başlatmadan önce, Crypto.com ekosistemi Crypto.com zincirini ve Crypto.com merkezi alışverişini kapsar.
 
-Cronos is running on a Proof of Authority (PoA) consensus algorithm and is powered by Ethermint - a PoS chain interoperable with Ethereum. It aims to massively scale the Chain DeFi ecosystem, by allowing developers to rapidly port apps & smart contracts from Ethereum and other EVM-compatible chains.
+Cronos, bir Proof of Authority (PoA) konsensüs algoritması üzerinde çalışıyor ve Ethereum ile birlikte çalışabilen bir PoS zinciri olan Ethermint tarafından destekleniyor. Geliştiricilerin Ethereum ve diğer EVM uyumlu zincirlerden uygulamaları ve akıllı sözleşmeleri hızla taşımasına izin vererek Chain DeFi ekosistemini büyük ölçüde ölçeklendirmeyi amaçlıyor.
 
-### Getting MAI on Cronos
+### MAI'yi Cronos'ta Kullanma
 
-To send MAI to Cronos, we'll use the [Relaychain ](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer)platform. The steps are the same as in the Moonriver case, just select the network where you are sending the MAI (Polygon), the network where you want to receive it (Cronos) and the asset that you want to send (MAI).
+MAI'yi Cronos'a göndermek için [Relaychain ](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer) platformunu kullanacağız. Adımlar Moonriver durumundaki ile aynıdır  Sadece MAI'yi (Polygon) gönderdiğiniz ağı, onu almak istediğiniz ağı (Cronos) ve göndermek istediğiniz varlığı (MAI) seçin.
 
-![Sending MAI from Polygon to Cronos](../.gitbook/assets/cronos.JPG)
+![MAI'yi Polygon'dan Cronos'a gönderme](../.gitbook/assets/cronos.JPG)
 
-### Using MAI on Cronos
+### MAI'yi Cronos'ta Kullanma
 
-The main place where you can farm yields on Cronos using MAI, is on the [Crodex ](https://swap.crodex.app/#/rewards/pair)platform. In this case, there are two pairs available, the CRO-MAI pair and the MAI-USDC pair.
+MAI kullanarak Cronos'ta verim alabileceğiniz ana yer [Crodex ](https://swap.crodex.app/#/rewards/pair) platformunda. Bu durumda, CRO-MAI çifti ve MAI-USDC çifti olmak üzere iki çift mevcuttur.
 
-![MAI pairs on Crodex as of December 2021](../.gitbook/assets/crodex.JPG)
+![Aralık 2021 itibariyle Crodex'te MAI çiftleri](../.gitbook/assets/crodex.JPG)
 
-The UI on Crodex is really similar to Quickswap, just remember that if you want to use this farms, you will have to deposit the same ratio of tokens to create a LP token. Also, don't forget to have some spare CRO to pay the fees of the network.
+Crodex'teki kullanıcı arayüzü Quickswap'a gerçekten benziyor, sadece bu çiftlikleri kullanmak istiyorsanız, bir LP tokenı oluşturmak için aynı oranda token yatırmanız gerekeceğini unutmayın. Ayrıca, ağın ücretlerini ödemek için biraz yedek CRO'ya sahip olmayı unutmayın.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-The details presented in this guide are purely educational and have not been tested directly by the team maintaining this guide. A few users on the discord server have already tried bridging their assets to Moonriver and/or Cronos, so you can join the Discord community to ask your questions. Please don't forget to do your own researches, different networks will have different transaction fees and execution times, different reward programs, bridging fees etc ... If you send your MAI to other networks, make sure you can bridge them back in case you need it on Polygon.
+Bu kılavuzda sunulan ayrıntılar tamamen eğiticidir ve bu kılavuzun bakımını yapan ekip tarafından doğrudan test edilmemiştir. Discord sunucusundaki birkaç kullanıcı varlıklarını Moonriver ve/veya Cronos'a bağlamayı denedi. Worularınızı sormak için Discord topluluğuna katılabilirsiniz. Lütfen kendi araştırmalarınızı yapmayı unutmayınız, farklı ağların farklı işlem ücretleri ve uygulama süreleri, farklı ödül programları, köprüleme ücretleri vb. olacaktır... MAI'nizi başka ağlara gönderirseniz, her ihtimale karşı onları geri bağlayabildiğinizden emin olun. Polygon'da buna ihtiyacınız var.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen gelişmelerden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
