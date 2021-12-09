@@ -149,27 +149,27 @@ Nós conseguimos facilmente um APR de 228%. Há outros elementos que afetarão o
 
 Também, porque todas as taxas são amplificadas pelo numero de loops aplicados, o APR irá variar drasticamente, e pode as vezes se tornar negativo por um pequeno período de tempo (seu LP token será usado para reembolsar o APR negativo).
 
-### Leveraged position of my MAI/USDC pair
+### Posição alavancada do meu par MAI/USDC
 
-In the end, you are using the base APR on a much bigger value, which is earning much bigger interests, increasing the APR of your initial position.
+No final, você esta usufruindo do APR base em um valor muito maior, que está recebendo maiores juros, aumentando o APR da sua posição inicial.
 
-![An example of Impermax dashboard with an initial $70.52 MAI/USDC pair](../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
+![Um exemplo do painel de controle da Impermax com um par MAI/USDC inicial de $70.52](../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
 
-I can see very easily how much I'm using as collateral, how much I initially invested, what's the leverage ratio, and what are the liquidation values due to the leverage ratio. This position will give me the following ratios at the time of writing
+Eu posso ver muito facilmente o quanto eu estou utilizando como garantia, o quanto eu investi inicialmente, qual a proporção de alavancagem, e quais são os valores de liquidação devido à proporção de alavancagem. Esta posição me dá as seguintes proporçōes no momento em que escrevo:&#x20;
 
-![Earnings and spendings estimation at a given time](../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
+![Ganhos e gastos estimados em um dado momento](../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
 
-The APR is granted in IMX token that can either be swapped for more MAI/USDC (use the power of Mai Finance to borrow at 0% interest, RFTM), or used to provide liquidity on specific pools accepting IMX on Impermax.
+O APR é garantido no token IMX que pode ser trocado por mais MAI/USDC (aproveite o poder da Mai Finance para poder tomar emprestado com juros a 0%), ou ser usado para prover liquidez em pools específicas que aceitam IMX na Impermax.
 
-### Supplying MAI to borrowers
+### Fornecendo MAI ao mutuário
 
-Indeed, on the app you can also provide liquidity to those who want to apply leveraging loops to their positions (they will need underlying assets to generate more LP tokens). Lending assets is a great way to earn yield and let the borrowers take all the risks. Also, the more users are borrowing, the higher the supply APR will be.
+De fato, pelo aplicativo você também pode prover liquidez àqueles que querem se aplicar loops de alavancagem às suas posiçōes (eles precisarão de ativos subjacentes para produzir mais LP tokens). Emprestar ativos é uma excelente maneira de obter rendimentos deixando os mutuários correrem todos os riscos. Também, quanto mais os usuários estiverem tomando emprestado, maior será o APR de fornecimento.&#x20;
 
-![Rates for supplying and borrowing MAI on Impermax at a given time](../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
+![Taxas por fornecer e tomar emprestado MAI na Impermax em um dado periodo](../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
 
-This is another great way to optimize your 0% loan on Mai Finance. Not only you don't have to pay anything to borrow MAI, but you can earn a lot of interest just by depositing it on Impermax.
+Esta é outra excelente maneira de otimizar seu empréstimo a 0% na Mai Finance. Você não somente não precisa pagar nada para tomar emprestado MAI, como pode também receber muitos juros simplesmente por despositá-los na Impermax.&#x20;
 
-## Disclaimer
+## Aviso Legal
 
 Everything is this tutorial is purely educational. The goal is to bring light to projects that I think are worthy for people evolving in the crypto world on Polygon. I obviously didn't talk about Mai Finance as a farm because a dedicated tutorial will be written very soon. Finally, this guide is ABSOLUTELY NOT meant to be applied as is, it's not any financial advice and you should not follow blindly what I wrote. Please read the docs of the different projects I mentioned before considering investing on their platforms.
 
