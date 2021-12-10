@@ -69,11 +69,11 @@ A pool que nós queremos usar aqui é a pool que contém Qi, WMATIC, BAL, USDC a
 
 ![Details of the pool as of September 2021](<../.gitbook/assets/image (17).png>)
 
-Uma observação é que tokens BAL podem (ou logo poderão) ser usados como garantia na Mai Finance, o que significa que você tem a opçao de guardar o seus tokens BAL no cofre BAL da Mai Finance, utilizá-los como garantia, e tomar emprestado MAI. Somado a isso, tomar emprestado MAI, com BAL como garantia, te fará elegível para receber recompensas em Qi que irão alimentar a pool na Balancer.
+Uma observação é que tokens BAL podem (ou logo poderão) ser usados como garantia na Mai Finance, o que significa que você tem a opçao de guardar o seus tokens BAL na _vault_, ou cofre, BAL da Mai Finance, utilizá-los como garantia, e tomar emprestado MAI. Somado a isso, tomar emprestado MAI, com BAL como garantia, te fará elegível para receber recompensas em Qi que irão alimentar a pool na Balancer.
 
 ![Loop fechado usando a Mai Finance e a Balancer](<../.gitbook/assets/image (18).png>)
 
-O APR dos cofres BAL irá responder se vale mais a pena ter o cofre no loop, ou se é melhor reacumular seu Qi na pool da Balancer.
+O APR das vaults BAL irá responder se vale mais a pena ter a vault no loop, ou se é melhor reacumular seu Qi na pool da Balancer.
 
 ## Entendendo o preço do Qi
 
@@ -81,47 +81,47 @@ Ter bastante Qi é uma coisa, porém se o token perde valor ao longo do tempo, s
 
 ### Emissão de Qi
 
-Um dos principais fatores que afetarão o preço de Qi é o ritmo no qual eles sãos criados. De fato, preço é sempre o resultado de oferta e demanda. Se há muita oferta e pouca demanda, o preço irá naturalmente colapsar. of the main factor that will affect the price of Qi is the rate at which they are created. Indeed, price is always driven by demand and supply. If there's a lot of supply and very low demande, the price will naturally collapse. Hence understanding how Qi is generated is crucial to estimate its value over time.
+Um dos principais fatores que afetarão o preço de Qi é o ritmo no qual eles sãos criados. De fato, o preço é sempre o resultado de oferta e demanda. Se há muita oferta e pouca demanda, o preço irá naturalmente colapsar. Por isso é crucial entender como o Qi é produzido para estimar o seu valor ao longo do tempo.
 
-There are currently 2 sources of Qi emission: farming rewards and vault rewards.
+Há atualmente 2 fontes de emissão de Qi: recompensas de farming e recompensas da vault.
 
-![LP farms on Mai Finance in September 2021](<../.gitbook/assets/image (12).png>)
+![LP farms na Mai Finance em Setembro de 2021](<../.gitbook/assets/image (12).png>)
 
-If you are farming yields on MAI finance, you have the choice between the MAI/USDC pair and the Qi/WMATIC pair (as of September 2021).
+Se você busca obter rendimentos de farms na Mai finance, você pode escolher entre o par MAI/USDC e o par Qi/WMATIC (em Setembro de 2021).
 
-* The MAI/USDC pair is rewarded with 0.5 Qi / block
-* The Qi/WMATIC pair is rewarded with 1 Qi / block
+* O par MAI/USDC é recompensado com 0.5 Qi / bloco
+* O par Qi/WMATIC é recompensado com 1 Qi / bloco
 
-On Polygon, the expected block time is 2 seconds, and since there are 86,400 seconds in a day, this means that the MAI/USDC pool is rewarded with 21,600 Qi every day, and the Qi/WMATIC with 43,200 Qi.
+Na Polygon, o tempo esperado para um bloco é de 2 segundos, e como há 86,400 segundos em um dia, isso significa que a pool MAI/USDC é recompensada com 21,600 Qi todos os dias, e a pool Qi/WMATIC com 43,200 Qi.
 
-The pools of Mai Finance alone are responsible for 64,800 new Qi daily.
+As pools na Mai Finance, sozinhas, são responsaveis por 64,800 de Qi diariamente.
 
-As for Vaults, each vault gets an emission of 0.05 Qi / block, or a daily emission of 2,160 Qi, and there are currently 10 Vaults, for a total of 21,600 Qi allocated as Vault rewards.
+Já as vaults, possuem uma emissão de 0.05 Qi / bloco cada, ou uma emissão diario de 2,160 Qi, e há atualmente 10 vaults, que resultam em um total de 21,600 Qi alocados como recompensa.
 
-This means that each day, the equivalent of 86,400 new Qi are minted and distributed to users.
+Isso significa que, todos os dias, o equivalente a 86,400 de novos Qi são cunhados e distribuídos aos usuários.
 
-### Yield optimizers
+### Otimizadores de rendimento
 
-Yield optimizers are platforms that will automatically compound the rewards with some pre-defined strategies, and allocate additional rewards for you to choose their site. However, a big part of the reward harvested is sold directly, and re-used in another way on these platforms.
+Otimizadores de rendimento são plataformas que automaticamente reacumulam as recompensas de acordo com algumas estratégias pré-definidas, e alocam recompensas adicionais para voce escolher em seu website. Entretanto, uma grande parte da recompensas é vendida diretamente, e reutilizada de outra forma nestas plataformas.
 
-As an example, Adamant offers you to farm the Qi/WMATIC LP pair on their platform, with the following reward distribution
+Como exemplo, a Adamant oferece a você o farming do par LP Qi/WMATIC em sua plataforma, com a seguinte distribuição de recompensas:&#x20;
 
-![Qi-WMATIC pool on Adamant](<../.gitbook/assets/image (15).png>)
+![Pool Qi-WMATIC na Adamant](<../.gitbook/assets/image (15).png>)
 
-![Details of the 179.23% APR granted by Adamant](<../.gitbook/assets/image (14).png>)
+![Detalhes do APR de 179.23% APR garantido pela Adamant](<../.gitbook/assets/image (14).png>)
 
-You will notice that if the overall APR is higher than on Mai Finance, it's solely because Adamant is allocating additional ADDY rewards to the farmers. The amount of Qi that is actually redistributed to the farmer is 98.45% compared to the 134.42% you can get on Mai Finance.
+Você irá perceber que o APR total é maior do que na Mai Finance, somente porque a Adamant aloca recompensas ADDY adicionais aos farmers, ou fazendeiro. A quantidade de Qi é redistribuída é de 98.45% comparada aos 134.42% que você pode obter na Mai Finance.
 
-From these 98.45% Qi reward, half of it is directly sold to buy WMATIC and form additional LP tokens that is then given to the farmer.
+Dessa recompensa em Qi de 98.45%, metade dela é vendida diretamente para comprar WMATIC e formar LP tokens adicionais, que são então dados aos farmer.
 
-With 100$ worth of LP token, assuming the APR and the token prices remain the same for a complete year, and assuming there's no compounding, you would get after one year of farming
+Com 100$ de LP token, assumindo que APR e o preço dos tokens permanecem os mesmo durante o ano todo, e assumindo que não haja reacumulação, você teria apos um ano de farming:&#x20;
 
-* $134.42 worth of new Qi on Mai Finance
-* $98.45 worth of new Qi/WMATIC token, or $49.23 worth of new Qi on Adamant
+* $134.42 de novos Qi na Finance
+* $98.45 de novos tokens Qi/WMATIC, ou $49.23 de novos Qi na Adamant
 
-This means that, in the process, $85.20 worth of Qi is simply sold directly on the market, which is more than 60% of the total emission allocated to the pool on Adamant.
+Isto significa que, no processo, $85.20 de Qi são simplesmente vendidos no mercado, que é mais de 60% da emissão total alocada na pool da Adamant.
 
-And Adamant isn't the only platform proposing the same type of service. Some other examples are Beefy Finance and Kogecoin. From the $4.9M TVL in the Qi/WMATIC farm on Mai Finance, $2.3M are coming directly from Adamant, $41k from Beefy and $12k from Kogecoin, representing for these 3 platforms more than 50% of the value locked on Mai Finance. A raw estimation is that more than 30% of the total daily Qi emission is dumped by these platforms, putting some very negative sell pressure on the token, decreasing its price, which partially explains why Qi has difficulties keeping a high price.
+E a Adamant não é a unica plataforma disponibilzando este tipo de serviço. Outros exemplos são a Beefy Finance e Kogecoin. Dos $4.9M em TVL (Total Value Locked, ou Valor Total Bloqueado) na farm de Qi/WMATIC na Mai Finance, $2.3M estão vindo diretamente da Adamant, $41k da Beefy e $12k da Kogecoin, representado para essas 3 plataformas mais de 50% do valor bloqueado na Mai Finance. Uma estimativa bruta é que mais de 30% da emissão total diario de Qi é despejada por essas plataformas, causando uma grande pressão vendedora no token, diminuindo o seu preço, o que explica parcialmente o porque Qi tem dificuldade em manter um preço elevado.
 
 ### Understanding LP pairs
 
