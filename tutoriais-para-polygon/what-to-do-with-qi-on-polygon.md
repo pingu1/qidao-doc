@@ -25,7 +25,7 @@ Então pegue sua vara de pescar, e siga o guia.
 
 Eu não irei gastar muito tempo aqui, pois já há um guia completo sobre assunto. Mas tenha em mente que a Mai Finance coleta os rendimentos, e redistribui uma grande porção aos stakers de Qi. Staking de Qi na Mai Finance é um dos melhores usos para o token, e no momento, em Setembro de 2021, 23% de todo o Qi em circulação fica travado em média por 2 anos.
 
-### Farming com par LP
+### Farming com pares LP
 
 Mais uma vez, já há algumas outras páginas explicando como você pode incluir o token Qi na sua estrategia de farming para gerar rendimentos e nunca vender qualquer um de seus tokens de farm. Por exemplo, temos os guias [Empilhe DApps como peças de Lego ](../investment-tutorials/stack-dapps-like-lego-bricks.md)e [Farming ou Staking?](../investment-tutorials/farming-or-staking-or-both.md) para maiores detalhes.
 
@@ -123,26 +123,26 @@ Isto significa que, no processo, $85.20 de Qi são simplesmente vendidos no merc
 
 E a Adamant não é a unica plataforma disponibilzando este tipo de serviço. Outros exemplos são a Beefy Finance e Kogecoin. Dos $4.9M em TVL (Total Value Locked, ou Valor Total Bloqueado) na farm de Qi/WMATIC na Mai Finance, $2.3M estão vindo diretamente da Adamant, $41k da Beefy e $12k da Kogecoin, representado para essas 3 plataformas mais de 50% do valor bloqueado na Mai Finance. Uma estimativa bruta é que mais de 30% da emissão total diario de Qi é despejada por essas plataformas, causando uma grande pressão vendedora no token, diminuindo o seu preço, o que explica parcialmente o porque Qi tem dificuldade em manter um preço elevado.
 
-### Understanding LP pairs
+### Entendendo os pares LP
 
-When you farm yields by providing LP pairs, the LP token is actually used to provide liquidity to users who are swapping one token for another. In our example of Qi/WETH, when someone is buying WETH, some of the token can be taken off the LP pool and sold to the user requiring it.
+Quando você obtém rendimentos por meio de farms por providenciar pares LP, o token LP é na verdade usado para prover liquidez aos usarios que estão trocando um token pelo outro. No nosso exemplo de Qi/WETH, quando alguém compra WETH, parte do token pode ser obtido da LP pool e vendido ao usuário que requeriu.
 
-At that point, because some WETH has been taken off the pool, there is a balance mismatch: less WETH for the same amount of Qi. The algorithm in charge of maintaining the pool ratio to 1:1 will then sell some Qi from this pool to buy back some more WETH and recreate a perfect 1:1 ratio. The opposite things also happen when someone buys Qi, i.e. WETH is sold to buy back some Qi.
+Neste momento, porque um pouco de WETH foi tirado da pool, há uma incompatibilidade no balanço: menos WETH para a mesma quantidade de Qi. O algoritmo encarregado de manter a razão em 1:1 irá então vender um pouco de  Qi dessa pool para comprar de volta mais WETH e restaurar a razão 1:1. O oposto também ocorre quando alguém compra Qi, ou seja, WETH é vendido para comprar mais Qi.
 
-The same phenomenon occurs when one of the 2 tokens composing the pair gains or loses value. As an example, we will assume that Qi price is $1 and ETH price is $1,000, and that we have a pool that has $100 worth of Qi and $100 worth of WETH. It means that the pools contains 100 Qi and 0.1 WETH.
+O mesmo fenomeno ocorre quando um dos 2 tokens compondo o par ganha ou perde valor. Como um exemplo, nós iremos assumir que o preço de Qi é de $1 e o preço de ETH é de $1,000, e que nós temos uma pool que contém $100 de Qi e $100 de WETH. Isso significa que a pool contém 100 Qi e 0.1 WETH.
 
-Now, if the price of ETH goes up to $2,000, if the pool keeps the same amount of token, we would have $100 worth of Qi but $200 worth of WETH, and we would have lost the balance. Hence, the algorithm in charge of the pool will sell a little bit of ETH to buy some Qi. In our easy example, $50 worth of ETH will be sold to buy $50 worth of Qi, and the final state would be
+Agora, se o preço de ETH for a $2,000, se a pool manter a mesma quantidade de tokens, nós teriamos $100 de Qi mas $200 de WETH, e nós teriamos perdido o balanço. Dai, o algoritmo no controle da pool irá vender um pouco de ETH e comprar mais Qi. No nosso simples exemplo, $50 de ETH serão vendidos para comprar $50 de Qi, e o estado final será de:
 
-* 150 Qi with a value of $150$
-* 0.075 ETH with a value of $150
+* 150 Qi com um valor de $150$
+* 0.075 ETH com um valor de $150
 
-This also means that when the price of one of the 2 token goes up, the pool creates some demande for the other, also driving its price up. The opposite is also true: if one token loses value, the other one will be sold to maintain a 1:1 ratio, driving the price down. This also partially explains the price fluctuation of Qi when compared to the price fluctuation of WEHT and WMATIC (the 2 main tokens to which Qi is paired).
+Isto também significa que quando o preço de um dos dois tokens sobre, a pool cria demanda para o outro, também levantando o seu preço. O oposto também é verdade: se um token perde valor, o o outro será vendido para manter uma proporção de 1:1, jogando o preço para baixo. Isso também explica parcialmente a flutuação de preço de Qi quando comparada à flutuação de preço de WEHT e WMATIC (os 2 principais tokens aos quais Qi é pareado).
 
-![Price of Qi (left) VS Price of WMATIC (right)](<../.gitbook/assets/image (13).png>)
+![Preço de Qi (à esquerda) vs preço de WMATIC (à direita)](<../.gitbook/assets/image (13).png>)
 
-### Lack of use case
+### A questão da falta de uso
 
-Finally, the lack of use for Qi, or the lack of known use cases, can explain why the price of the token is going down. People collecting Qi from Vault rewards and/or farming on Mai Finance will just sell it while it still has "some" value in order to realize a profit, with no long-term vision, which is actually a pretty reasonable strategy. This guide tries actually to promote different ways to use your Qi tokens without selling them, but if the price doesn't go up, or if you can't generate benefits in other tokens (a.k.a profit leak), there's very little advantages stacking them.
+Por ultimo, a falta de uso de Qi, ou a falta de usos conhecidos, pode explicar porque o preço do token está caindo. Pessoas coletando Qi das recompensas da vault e/ou farm na Mai Finance irão simplesmente vendê-lo enquanto possui algum valor para realizar seu lucro, sem visão de longo-prazo, o que na verdade é uma estratégia bem sensata. Este guia, na verdade, tenta promover diferentes maneiras de utilizar seus tokens Qi sem vendê-los, mas se o preço não sobe, ou se você não consegue gerar benefícios por outros otkens (conhecido como  explain why the price of the token is going down. People collecting Qi from Vault rewards and/or farming on Mai Finance will just sell it while it still has "some" value in order to realize a profit, with no long-term vision, which is actually a pretty reasonable strategy. This guide tries actually to promote different ways to use your Qi tokens without selling them, but if the price doesn't go up, or if you can't generate benefits in other tokens (a.k.a profit leak), there's very little advantages stacking them.
 
 ### How can we help price to go up?
 
