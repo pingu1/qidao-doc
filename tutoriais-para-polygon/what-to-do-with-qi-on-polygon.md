@@ -55,11 +55,11 @@ De qualquer forma, na Impermax, para você tomar Qi e WETH emprestados para alav
 
 ![Estatísticas de Qi e WETH para o mercado de Qi-WETH na Impermax](<../.gitbook/assets/image (11).png>)
 
-For our example, we will focus on Qi. You can see that the total supply of Qi is $427.21 and the total amount used in leveraged position is $321.44, giving the utilization rate of 75.24%. Impermax has some internal mechanism that automatically calculates the supply APR (APR that people lending Qi will get) and the borrowing APR (percentage of the farmed reward that will be deduced to pay the loan).
+Para o nosso exemplo, nós iremos nos concentrar em Qi. Você também pode ver que o fornecimento total de Qi é de $427.21 e a quantidade total usada em posiçōes alavancadas é de $321.44, que nos dá uma taxa de utilização de 75.24%. A Impermax possui um mecanismo interno que automaticamente calcula o APR de fornecimento (APR para as pessoas quem emprestam QI) e o APR de empréstimo (porcentagem da recompensa deduzida para pagar a dívida).
 
-This means that you can provide Qi solely on Impermax and get, in our example, 43.73% APR, at the moment of writing. As supply and demand varies, the supply APR will also increase / decrease. When you supply single tokens on Impermax, you will get rewarded with the token you provide, meaning that this strategy will make you accumulate more Qi over time.
+Isso significa que você pode prover apenas Qi na Impermax e obter, no nosso exemplo, um APR de 43.73%, no momento em que escrevo. Conforme a oferta e demanda variam, o APR de fornecimento também irá aumentar ou diminuir. Quando você fornece tokens na Impermax, você é recompensado com o token que você forneceu, o que significa que essa estratégia fará você acumular mais e mais Qi ao longo do tempo.&#x20;
 
-While you are on Impermax, you can also use the leverage option to get IMX rewards. Please read the [Stacking guide](../investment-tutorials/stack-dapps-like-lego-bricks.md) to get more details on how you can include Impermax in your farming strategy.
+Na Impermax, você também pode utilizar a opção de alavancagem e receber recompensas IMX. Por favor, leia o [guia sobre como empilhar DApps](../investment-tutorials/stack-dapps-like-lego-bricks.md) para obter mais detalhes sobre como você pode incluir Impermax na sua estratégia de farming.
 
 ### Balancer
 
