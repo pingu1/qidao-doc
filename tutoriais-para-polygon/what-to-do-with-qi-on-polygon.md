@@ -39,9 +39,9 @@ Um lembrete rápido, Qi é pareado a diferentes tokens para formar pares LP (**L
 
 ### Farming apenas com Qi
 
-Qi can also be used solely on [Impermax](https://polygon.impermax.finance). Impermax is a platform where you will be able to leverage a specific LP pair several times in order to increase your gains from QuickSwap.
+Qi também pode ser usado sozinho na [Impermax](https://polygon.impermax.finance). Impermax é uma platforma onde você pode alavancar um par LP varias vezes no intuito de aumentar seus ganhos da QuickSwap.
 
-The way it works, is that you will borrow the 2 tokens forming the pair that you want to farm, combine them into more LP tokens, and farm with a much higher position. In most cases, borrowing rates are largely compensated by farming APR, giving you some net positive rewards.
+Ela funciona da seguinte maneira: você tomara emprestado os 2 tokens que compoem o par que você pretende utilizar na farm, irá combina-los em mais LP tokensyou will borrow the 2 tokens forming the pair that you want to farm, combine them into more LP tokens, and farm with a much higher position. In most cases, borrowing rates are largely compensated by farming APR, giving you some net positive rewards.
 
 ![Leveraged Qi-WETH position on Impermax](<../.gitbook/assets/image (20).png>)
 
