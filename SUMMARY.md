@@ -9,7 +9,7 @@
 * [Estratégia de principiante camDAI](tutoriais-para-polygon/camdai-beginner-strategy.md)
 * [Farming utilizando apenas stablecoins](tutoriais-para-polygon/secure-your-yield-farming-profits.md)
 * [O que fazer com MAI na Polygon](tutoriais-para-polygon/what-to-do-with-mai-on-polygon.md)
-* [What to do with Qi on Polygon](tutoriais-para-polygon/what-to-do-with-qi-on-polygon.md)
+* [O que fazer com Qi na Polygon](tutoriais-para-polygon/what-to-do-with-qi-on-polygon.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)
 * [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
 * [How to combine farming and borrowing rewards](investment-tutorials/how-to-combine-farming-and-borrowing-rewards.md)

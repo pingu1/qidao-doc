@@ -1,23 +1,23 @@
 ---
 description: >-
-  This guide will explain in details how you can use your Qi, the native token
-  from Mai Finance, on Polygon. We will also analyze if Qi is a good investment
-  opportunity, and what drives its price.
+  Este guia irá explicar em detalhes como voce pode usar QI, o token nativo da
+  Mai Finance, na Polygon. Nós também iremos analisar se Qi é uma boa
+  oportunidade de investimento, e o que guia o seu preço.
 ---
 
-# What to do with Qi on Polygon
+# O que fazer com Qi na Polygon
 
-## Intro
+## Introdução
 
-Qi (\[tʃ Í] or _chee_), is the native token of Mai Finance. Some use it to vote and QIP (**Q**iDAO **I**mprovement **P**roposals), some stake it to get even more of them, and some simply farm with it. You can find some very good info on how you can use Qi on the Mai Finance plateforme in the [guide dedicated to passive income](../Universidade-do-MAI/earning-passive-income-with-qidao.md).
+Qi (\[tʃ Í] ou _chee_), é o token nativo da Mai Finance. Alguns o utilizam para votar e participar das QIP (**Q**iDAO **I**mprovement **P**roposals, ou Propostas de Melhoria QiDAO), alguns fazem stake com ele para conseguir ainda mais tokens, e alguns simplesmente fazem farming. Você pode encontrar excelentes informaçōes sobre como utilizar seu Qi na plataforma Mai Finance neste [tutorial dedicado a renda passiva](../Universidade-do-MAI/earning-passive-income-with-qidao.md).
 
-This guide, as most investment tutorials, will focus primarily on farming and harvesting yields, this time using the Qi token. We will see how you can generate a lot of Qi, and how you can use them on the different platforms on Polygon.
+Este guia, como a maioria dos tutoriais de investimento, irá focar principalmente em farming e rendimentos de harvesting, esta vez utilizando o token Qi. Nós mostraremos como você pode gerar bastante Qi, e como usá-los nas diferentes plataformas da rede Polygon.
 
-Humble farmers will sometimes tell you that you need to remain humble, sell what you harvest and take profits. But personally, I'll go with:
+Fazendeiros humildes irão, às vezes, te dizer que você precisa se manter humilde, vender o que você colheu e realizar lucros. Mas pessoalmente, eu prefiro:
 
-> Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime.
+> Dê ao homem um peixe e ele se alimentará por um dia. Ensine um homem a pescar e ele se alimentará por toda a vida.
 
-So grab your fish rods, and follow the guide.
+Então pegue sua vara de pescar, e siga o guia.
 
 ## What to do with your Qi on Polygon
 
