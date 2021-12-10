@@ -35,25 +35,25 @@ Um lembrete rápido, Qi é pareado a diferentes tokens para formar pares LP (**L
 * Qi-WETH na QuickSwap e receber recompensas em tokens QUICK
 * Qi-QUICK na QuickSwap e receber recompensas em tokens QUICK
 
-![Pool LP na QuickSwap para o par Qi-WETH](<../.gitbook/assets/image (19) (2).png>)
+![LP Pool na QuickSwap para o par Qi-WETH](<../.gitbook/assets/image (19) (2).png>)
 
 ### Farming apenas com Qi
 
 Qi também pode ser usado sozinho na [Impermax](https://polygon.impermax.finance). Impermax é uma platforma onde você pode alavancar um par LP varias vezes no intuito de aumentar seus ganhos da QuickSwap.
 
-Ela funciona da seguinte maneira: você tomara emprestado os 2 tokens que compoem o par que você pretende utilizar na farm, irá combina-los em mais LP tokensyou will borrow the 2 tokens forming the pair that you want to farm, combine them into more LP tokens, and farm with a much higher position. In most cases, borrowing rates are largely compensated by farming APR, giving you some net positive rewards.
+Ela funciona da seguinte maneira: você deve tomar emprestado os 2 tokens que compōem o par que você pretende utilizar na farm, então combiná-los em mais LP tokens, e fazer o farming com uma posição muito maior. Na maioria dos casos, as taxas de emprestimo são compensados pelo APR do farming, entregando a você um bom lucro líquido.&#x20;
 
-![Leveraged Qi-WETH position on Impermax](<../.gitbook/assets/image (20).png>)
+![Posição em Qi-WETH alavancada na Impermax](<../.gitbook/assets/image (20).png>)
 
-We can see here that the final reward APR on Impermax is 393.88% after leveraging 5 times, based on an APY of 239.68% on QuickSwap.
+Nós podemos ver aqui que o APR final na Impermax é de 393.88% após alavancarmos 5 vezes, baseado no APY de 239.68% da QuickSwap.
 
 {% hint style="info" %}
-Note also that Impermax gives estimated APRs (**A**nnual **P**ercentage **R**ewards) while QuickSwap gives estimated APYs (**A**nnual **P**ercentage **Y**ields), meaning that QuickSwap assumes you compound your rewards daily. The 239.68% APY on QuickSwap corresponds to a 122.49% APR.
+Note que a Impermax te fornece as taxas APRs (**A**nnual **P**ercentage **R**ewards, ou Taxa de Percentual Anual) enquanto a QuickSwap te mostra os APYs (**A**nnual **P**ercentage **Y**ields, ou Rendimento Percentual Anual), o que significa que a QuickSwap assume que você reacumulará suas recompensas diariamente. O APY de 239.68% na QuickSwap corresponde a um APR 122.49%.
 {% endhint %}
 
-But then, on Impermax, in order to borrow Qi and WETH to leverage your position, you need to get them from somewhere. This is possible only because some other users (or yourself) also supply both tokens separately. The more token is borrowed, the higher the borrowing rate becomes, and the lower the final APR, sometimes going in the negatives.
+De qualquer forma, na Impermax, para você tomar Qi e WETH emprestados para alavancar sua posição, você precisa obtê-los de algum algum. Isso é possível apenas porque alguns outros usuários (ou você mesmo) também fornecem ambos os tokens separadamente. Quanto mais tomarmos emprestado, maior a taxa de juros, e com isso menor o APR final, que pode se tornar até mesmo negativo.&#x20;
 
-![Qi and WETH statistics for the Qi-WETH market on Impermax](<../.gitbook/assets/image (11).png>)
+![Estatísticas de Qi e WETH para o mercado de Qi-WETH na Impermax](<../.gitbook/assets/image (11).png>)
 
 For our example, we will focus on Qi. You can see that the total supply of Qi is $427.21 and the total amount used in leveraged position is $321.44, giving the utilization rate of 75.24%. Impermax has some internal mechanism that automatically calculates the supply APR (APR that people lending Qi will get) and the borrowing APR (percentage of the farmed reward that will be deduced to pay the loan).
 
