@@ -19,11 +19,11 @@ Fazendeiros humildes irão, às vezes, te dizer que você precisa se manter humi
 
 Então pegue sua vara de pescar, e siga o guia.
 
-## What to do with your Qi on Polygon
+## O que fazer com seu Qi na Polygon
 
 ### Staking
 
-I will not spend too much time on this part, there's already a complete guide on the subject. Just keep in mind that Mai Finance is collecting revenues, and redistributes a very large portion to Qi stakers. Staking your Qi on Mai finance is one of the best use for the token, and as of September 2021, 23% of all circulating Qi is locked on average for 2 years.
+Eu não irei gastar muito tempo aqui, pois já há um guia completo sobre assunto. Mas tenha em mente que a Mai Finance coleta os rendimentos, e redistribui uma grande porção aos stakers de Qi. Staking de Qi na Mai Finance é um dos melhores usos para o token, e no momento, em Setembro de 2021, 23% de todo o Qi em circulação fica travado em média por 2 anos.
 
 ### LP pair Farming
 
