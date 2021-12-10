@@ -171,8 +171,8 @@ Esta é outra excelente maneira de otimizar seu empréstimo a 0% na Mai Finance.
 
 ## Aviso Legal
 
-Everything is this tutorial is purely educational. The goal is to bring light to projects that I think are worthy for people evolving in the crypto world on Polygon. I obviously didn't talk about Mai Finance as a farm because a dedicated tutorial will be written very soon. Finally, this guide is ABSOLUTELY NOT meant to be applied as is, it's not any financial advice and you should not follow blindly what I wrote. Please read the docs of the different projects I mentioned before considering investing on their platforms.
+Tudo descrito neste tutorial é de cunho meramente educacional. O objetivo é trazer luz a projetos que eu penso serem dignos de reconhecimento pelas pessoas que buscam evoluir no mundo cripto na rede Polygon. Eu obviamente não conversei sobre a Mai Finance como uma farm porque um tutorial dedicado será escrito em breve. Por ultimo, este guia DEFINITIVAMENTE não foi feito para ser aplicado ao pé da letra, não representa conselho financeiro e você não deve segui-lo cegamente. Por favor, leia os documentos dos varios projetos que eu mencionei antes de considerar a investir em usas plataformas.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua propria pesquisa.
 {% endhint %}
