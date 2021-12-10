@@ -81,7 +81,7 @@ Getting a lot of Qi is one thing, however if the token loses value over time, is
 
 ### Qi emission
 
-One of the main factor that will affect the price of Qi is the rate at which they are created. Indeed, price is always driven by demand and supply. If there's a lot of supply and very low demande, the price will naturally collapse. Hence understanding how Qi is generated is crucial to estimate its value over time.
+One of the main factor that will affect the price of Qi is the rate at which they are created. Indeed, price is always driven by demand and supply. If there's a lot of supply and very low demand, the price will naturally collapse. Hence understanding how Qi is generated is crucial to estimate its value over time.
 
 There are currently 2 sources of Qi emission: farming rewards and vault rewards.
 
