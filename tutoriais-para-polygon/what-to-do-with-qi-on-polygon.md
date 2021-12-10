@@ -25,19 +25,19 @@ Então pegue sua vara de pescar, e siga o guia.
 
 Eu não irei gastar muito tempo aqui, pois já há um guia completo sobre assunto. Mas tenha em mente que a Mai Finance coleta os rendimentos, e redistribui uma grande porção aos stakers de Qi. Staking de Qi na Mai Finance é um dos melhores usos para o token, e no momento, em Setembro de 2021, 23% de todo o Qi em circulação fica travado em média por 2 anos.
 
-### LP pair Farming
+### Farming com par LP
 
-Once again, there are already a few other pages presenting how you can include the Qi token in your farming strategy to generate yields and never sell any of your farm tokens. See [Stack DApps like Lego bricks](../investment-tutorials/stack-dapps-like-lego-bricks.md) or [Farming or Staking ?](../investment-tutorials/farming-or-staking-or-both.md) guides for details exampled.
+Mais uma vez, já há algumas outras páginas explicando como você pode incluir o token Qi na sua estrategia de farming para gerar rendimentos e nunca vender qualquer um de seus tokens de farm. Por exemplo, temos os guias [Empilhe DApps como peças de Lego ](../investment-tutorials/stack-dapps-like-lego-bricks.md)e [Farming ou Staking?](../investment-tutorials/farming-or-staking-or-both.md) para maiores detalhes.
 
-As a quick reminder, Qi is paired to different tokens to form LP (**L**iquidity **P**rovider) pairs on [QuickSwap](https://quickswap.exchange/#/quick) so that you can farm
+Um lembrete rápido, Qi é pareado a diferentes tokens para formar pares LP (**L**iquidity **P**rovider, ou Provedor de Liquidez) na [QuickSwap](https://quickswap.exchange/#/quick) para que você possa fazer o farm de:
 
-* Qi-WMATIC on Mai Finance and get rewarded with Qi tokens
-* Qi-WETH on QuickSwap and get rewarded with QUICK tokens
-* Qi-QUICK on QuickSwap and get rewarded with QUICK tokens
+* Qi-WMATIC na Mai Finance e receber recompensas em tokens Qi
+* Qi-WETH na QuickSwap e receber recompensas em tokens QUICK
+* Qi-QUICK na QuickSwap e receber recompensas em tokens QUICK
 
-![LP pool on QuickSwap for the Qi-WETH pair](<../.gitbook/assets/image (19) (2).png>)
+![Pool LP na QuickSwap para o par Qi-WETH](<../.gitbook/assets/image (19) (2).png>)
 
-### Single Qi farming
+### Farming apenas com Qi
 
 Qi can also be used solely on [Impermax](https://polygon.impermax.finance). Impermax is a platform where you will be able to leverage a specific LP pair several times in order to increase your gains from QuickSwap.
 
