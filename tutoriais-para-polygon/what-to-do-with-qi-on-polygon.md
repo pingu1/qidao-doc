@@ -69,19 +69,19 @@ A pool que nós queremos usar aqui é a pool que contém Qi, WMATIC, BAL, USDC a
 
 ![Details of the pool as of September 2021](<../.gitbook/assets/image (17).png>)
 
-As a side note, BAL tokens can (or will soon be) usable as collateral on Mai Finance, which mean that you will have the option to store your BAL tokens on the BAL vault on Mai Finance, and borrow MAI against then. In addition to that, borrowing MAI against your BAL tokens will make you eligible for Qi rewards that will feed the pool on Balancer.
+Uma observação é que tokens BAL podem (ou logo poderão) ser usados como garantia na Mai Finance, o que significa que você tem a opçao de guardar o seus tokens BAL no cofre BAL da Mai Finance, utilizá-los como garantia, e tomar emprestado MAI. Somado a isso, tomar emprestado MAI, com BAL como garantia, te fará elegível para receber recompensas em Qi que irão alimentar a pool na Balancer.
 
-![Closed loop using Mai Finance and Balancer](<../.gitbook/assets/image (18).png>)
+![Loop fechado usando a Mai Finance e a Balancer](<../.gitbook/assets/image (18).png>)
 
-The APR of BAL vaults will highly dictates how interesting it is to have the vault in the loop, or if compounding your Qi into the Balancer's pool will be better.
+O APR dos cofres BAL irá responder se vale mais a pena ter o cofre no loop, ou se é melhor reacumular seu Qi na pool da Balancer.
 
-## Understanding the price of Qi
+## Entendendo o preço do Qi
 
-Getting a lot of Qi is one thing, however if the token loses value over time, is it really a good strategy to keep it? In this section, we will try to understand the different factors that impact directly the price of Qi so that, when you start investing your Qis, you will get a better idea of how its price may vary, and what impact you will get on the Qi ecosystem.
+Ter bastante Qi é uma coisa, porém se o token perde valor ao longo do tempo, será mesmo uma boa estratégia mantê-lo? Nessa seção, nós iremos tentar entender como diferentes fatores impactam o preço do Qi, para que, ao investir os seus Qis, você possa ter uma ideia mais clara de como o preço pode variar, e que impacto você terá no ecosistema Qi.
 
-### Qi emission
+### Emissão de Qi
 
-One of the main factor that will affect the price of Qi is the rate at which they are created. Indeed, price is always driven by demand and supply. If there's a lot of supply and very low demande, the price will naturally collapse. Hence understanding how Qi is generated is crucial to estimate its value over time.
+Um dos principais fatores que afetarão o preço de Qi é o ritmo no qual eles sãos criados. De fato, preço é sempre o resultado de oferta e demanda. Se há muita oferta e pouca demanda, o preço irá naturalmente colapsar. of the main factor that will affect the price of Qi is the rate at which they are created. Indeed, price is always driven by demand and supply. If there's a lot of supply and very low demande, the price will naturally collapse. Hence understanding how Qi is generated is crucial to estimate its value over time.
 
 There are currently 2 sources of Qi emission: farming rewards and vault rewards.
 
