@@ -63,9 +63,9 @@ Na Impermax, você também pode utilizar a opção de alavancagem e receber reco
 
 ### Balancer
 
-Balancer is a really nice toolbox for any strategy, especially the ones that include Qi and/or MAI. Balancer proposes an equivalent of LP pair mining, but with more than 2 tokens provided in a 1:1 ratio. The pool can have 3, 4 or 5 tokens (sometimes even more) with different weight, and the algorithm in charge of the pool makes sure that the ratio for each token is always respected, selling some and buying others to keep it balanced.
+Balancer é uma caixa de ferramentas muito boa para qualquer estratégia, especialmente para aquelas que incluem Qi e/ou MAI. A balancer propōe algo aquivalente à mineração de um par LP, mas com mais de 2 tokens sendo providos em uma proporção 1:1. A pool pode ter 3, 4 ou 5 tokens (às vezes até mais) com pesos diferentes, e o algoritmo que controla a pool garante que a proporção para cada token é sempre respeitada, vendendo algums e comprando outros para mantê-la equilibrada.
 
-The pool that we want to use here is a pool that contains Qi, WMATIC, BAL, USDC and MAI. This pool will reward you with both Qi and BAL tokens, and you can already see that you will be able to compound both into the pool. Because another amazing advantage of pools on Balancer is that you don't need to provide all tokens forming the pool in the proper ratio, the algorithm will do it for you. This means that you can indeed only deposit Qi in the pool and let the algorithm do the rest to rebalance everything.
+A pool que nós queremos usar aqui é a pool que contém Qi, WMATIC, BAL, USDC a MAI. Esta pool irá te recompensar com ambos Qi e BAL, e você já pode ver que será capaz de reacumular ambos na pool. E devido à outra incrivel vantagem das pools na Balancer, você não irá precisar prover os tokens que formam a pool na proporção correta, o algoritmo já faz isso para você. Isso significa que você pode depositar apenas QI na pool e deixar o algoritmo fazer o resto, equilibrando tudo.
 
 ![Details of the pool as of September 2021](<../.gitbook/assets/image (17).png>)
 
