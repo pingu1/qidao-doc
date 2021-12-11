@@ -1,145 +1,145 @@
 ---
 description: >-
-  DeFi doesn't need to be complicated. This article presents how you can enter
-  DeFi using Mai Finance with a low risk strategy and still get reasonable
-  interests.
+  DeFi muss nicht kompliziert sein. In diesem Artikel erfährst du, wie du mit
+  einer risikoarmen Strategie über Mai Finance in die DeFi einsteigen und
+  trotzdem angemessene Zinsen bekommen kannst.
 ---
 
-# camDAI beginner strategy
+# camDAI Starterguide
 
-## Intro
+## Einleitung
 
-Most people are scared when they think about DeFi. There's always a risk factor to take in account when using crypto currencies, the volatility of this market can make one loose a lot of money, and there are so many possibilities that finding a right strategy can be quite complex.  However, when you're using the correct tools, some easy and low risk strategies can get good results, and can probably compete with more complex and risky options.
+Die meisten Menschen haben Angst, wenn sie an DeFi denken. Die Volatilität dieses Marktes kann dazu führen, dass man eine Menge Geld verliert, und es gibt so viele Möglichkeiten, dass die Suche nach der richtigen Strategie ziemlich komplex sein kann. Wenn du jedoch die richtigen Werkzeuge verwendest, kannst du mit einigen einfachen und risikoarmen Strategien gute Ergebnisse erzielen und wahrscheinlich mit komplexeren und riskanteren Optionen konkurrieren.
 
-In this guide, we will try to present an investment strategy based on leveraged stable coin, with a touch of risk for higher interests.
+In diesem Leitfaden stellen wir dir eine Anlagestrategie vor, die auf Stable Coin mit Hebelwirkung basiert und ein gewisses Risiko für höhere Zinsen beinhaltet.
 
-## Understanding the concept of leverage
+## Was bedeutet es zu hebeln?
 
-![Story of an unluQi gold miner](../.gitbook/assets/canDAI-farwest.png)
+![Die Geschichte des Goldschürfes unluQi ](../.gitbook/assets/canDAI-farwest.png)
 
-We are in the far west, during the great gold rush. Banks want to buy gold to be able to lend money to people and get interests on these loans, and miners want to get rich by selling their gold to banks.
+Wir befinden uns im fernen Westen, während des großen Goldrausches. Die Banken wollen Gold kaufen, um den Leuten Geld zu leihen und dafür Zinsen zu bekommen, und die Bergleute wollen reich werden, indem sie ihr Gold an die Banken verkaufen.
 
-You're a miner, but not very lucky. You only found a single nugget. However, you're super clever, and instead of mining, you have another plan!
+Du bist ein Bergarbeiter, hast aber nicht viel Glück. Du hast nur ein einziges Nugget gefunden. Aber du bist superschlau und anstatt zu schürfen, hast du einen anderen Plan!
 
-You go to a bank and explain that you have gold. You can deposit the gold to the bank as a collateral, meaning that you let the bank use that gold for people who want to use it, and the bank will give you some interests on your deposit.
+Du triffst eine Bank und erklärst ihr, dass du Gold hast. Du kannst das Gold bei der Bank als Sicherheit hinterlegen, d.h. du überlässt es der Bank, das Gold für Leute zu verwenden, die es brauchen, und die Bank gibt dir Zinsen auf deine Einlage.
 
-Also, because you lended some gold, the bank agrees to let you borrow money from them, and in case you cannot repay your loan with some interests. The bank will pay itself using the gold you deposited. Cool, now you are earning interests on the gold you have at the bank, and they gave you some cash.
+Weil du das Gold verliehen hast, erklärt sich die Bank außerdem bereit, dir Geld zu leihen, und falls du dein Darlehen nicht zurückzahlen kannst, erhältst du Zinsen. Die Bank wird sich selbst mit dem Gold bezahlen, das du eingezahlt hast. Cool, jetzt bekommst du Zinsen für das Gold, das du bei der Bank hast, und sie hat dir etwas Geld gegeben.
 
-With that, you decide to go see a fellow miner and buy his gold with your cash. This is letting him focus on mining and he gets cash for the gold he found. Everybody is happy.
+Damit beschließt du, einen Bergmannskollegen zu treffen und sein Gold mit deinem Bargeld zu kaufen. So kann er sich auf den Abbau konzentrieren und bekommt Bargeld für das gefundene Gold. Alle sind glücklich.
 
-You go back to the bank and deposit the gold you bought. This implies more interest, and now the bank lets you borrow more cash from the extra gold you deposited. You have more gold exposed to the bank's interests, and some more cash. Time to go back to see if your friend found more gold, then repeat again and again.
+Du triffst dich wieder mit der Bank und zahlst das gekaufte Gold ein. Das bedeutet, dass du mehr Zinsen bekommst und die Bank dir mit dem zusätzlichen Gold, das du eingezahlt hast, mehr Geld leihen kann. Du hast mehr Gold, das den Zinsen der Bank ausgesetzt ist, und etwas mehr Bargeld. Es wird Zeit, dass du zurückkommst, um zu sehen, ob dein Freund noch mehr Gold gefunden hat, und dann wiederholst du das Ganze immer wieder.
 
-This is what is called leverage. Now imagine that you can find a bank that lets you borrow cash at 0% interest and you have a solid money printing machine only from the interests you're getting.
+Das nennt man Hebelwirkung. Stell dir vor, du findest eine Bank, bei der du dir Bargeld zu 0 % Zinsen leihen kannst, und du hast eine solide Gelddruckmaschine nur durch die Zinsen, die du bekommst.
 
-## Introducing the tools
+## Unsere Hebelwerkeuge
 
 ### AAVE
 
-[AAVE](https://app.aave.com) is a lending and borrowing platform where you can deposit your assets. By lending on AAVE, your deposited tokens will earn yield. For our strategy, we'll be lending DAI, a stable coin (pegged to the US dollar). On AAVE, $100 worth of DAI will potentially generate between 4% and 10% rate of return over the span of 1 year.
+[AAVE](https://app.aave.com) ist eine Plattform zum Verleihen und Ausleihen, auf der du dein Vermögen hinterlegen kannst. Wenn du auf AAVE leihst, erhalten deine hinterlegten Token eine Rendite. Für unsere Strategie verleihen wir DAI, einen Stable Coin (mit Preisbindung an den US-Dollar). Auf AAVE können DAI im Wert von 100 US-Dollar über einen Zeitraum von einem Jahr eine Rendite zwischen 4 und 10 % erzielen.
 
-![AAVE markets on Polygon as of October 2021](../.gitbook/assets/canDAI-aave.png)
+![AAVE Markt auf Polygon, Stand Oktober 2021](../.gitbook/assets/canDAI-aave.png)
 
-When you deposit your assets on AAVE, you will receive a proof of deposit. In our example, since we are depositing DAI, we will get amDAI tokens in our wallet (**a**ave **m**arket DAI). You absolutely need to keep this receipt because you will need it to remove your DAI from AAVE. This is the bank that will accept your gold in our far west comparison.
+Wenn du dein Vermögen auf AAVE einzahlst, erhältst du einen Einzahlungsnachweis. In unserem Beispiel erhalten wir, da wir DAI einzahlen, amDAI-Token in unserer Wallet (aave market DAI). Diese Quittung musst du unbedingt aufbewahren, denn du brauchst sie, um deine DAI von AAVE abzuheben. Das ist die Bank, die dein Gold in unserem Far-West-Vergleich annehmen wird.
 
 ### Mai Finance
 
-[Mai Finance](https://app.mai.finance) is a lending platform that will let you deposit some assets in a vault, and borrow against the value of this deposit. If we go back to the bank analogy, it would be a bank that lets you take a loan, but the loan doesn't come from what other people are lending. Instead, the bank prints money corresponding to your personal deposit, so you only borrow against yourself.
+[Mai Finance](https://app.mai.finance) ist eine Kreditplattform, die es dir ermöglicht, Vermögenswerte in einem Vault zu hinterlegen und gegen den Wert dieser Einlage einen Kredit aufzunehmen. Wenn wir auf den Vergleich mit der Bank zurückkommen, wäre es eine Bank, bei der du einen Kredit aufnehmen kannst, aber der Kredit kommt nicht von dem, was andere Leute verleihen. Stattdessen druckt die Bank Geld, das deiner persönlichen Einlage entspricht, so dass du nur gegen dich selbst einen Kredit aufnimmst.
 
-Mai finance will accept the amDAI on its [yield instrument](https://app.mai.finance/yield). The yield instrument is just an intermediate tool between AAVE and the vault on Mai Finance. As you can see in the AAVE screenshot, lending DAI will make you earn 8.75% in DAI (that is compounded), but also 2.01% reward in MATIC. The yield instrument on Mai Finance will harvest this MATIC reward and swap it for more DAI that will be added to your DAI deposit. The APY (**A**nnual **P**ercentage **Y**ield) on the Mai Finance site is hence showing the aggregated interests from AAVE.
+Mai Finance wird den amDAI auf seinem [Renditeinstrument](https://app.mai.finance/yield) akzeptieren. Das Rendite-Instrument ist nur ein Zwischeninstrument zwischen AAVE und dem Vault von Mai Finance. Wie du auf dem AAVE-Screenshot sehen kannst, erzeugt das Ausleihen von DAI eine Belohnung von 8,75% in DAI (mit Zinseszins), aber auch 2,01% in MATIC. Das Renditeinstrument von Mai Finance sammelt diese MATIC-Belohnung ein und tauscht sie gegen mehr DAI ein, die dann deinem DAI-Depot hinzugefügt werden. Der APY (**A**nnual **P**ercentage **Y**ield) auf der Mai Finance Seite zeigt daher die aggregierten Zinsen von AAVE.
 
-![Yield instrument on Mai Finance](../.gitbook/assets/camDAI-yield.png)
+![Rendite auf Mai Finance](../.gitbook/assets/camDAI-yield.png)
 
-Once you deposited your amDAI on the yield instrument, you will get some camDAI in your wallet (**c**ompounding amDAI). This is a receipt that indicates your share of the amDAI pool in the yield instrument. As a side note, because camDAI is a representation of your share of the amDAI pool, the ratio between amDAI and camDAI isn't 1:1. See [this article](leverage-aave-tokens.md#amtokens-vs-camtoken) for more details.
+Sobald du deinen amDAI auf dem Renditeinstrument hinterlegt hast, erhältst du etwas camDAI in deinem Wallet (compounding amDAI). Das ist eine Quittung, die deinen Anteil am amDAI-Pool des Renditeinstruments angibt. Übrigens: Da camDAI deinen Anteil am amDAI-Pool darstellt, ist das Verhältnis zwischen amDAI und camDAI nicht 1:1. In diesem Artikel siehst du weitere Details.
 
-You can now [deposit your camDAI](https://app.mai.finance/vaults) tokens in a vault on Mai Finance, and will then be able to borrow some MAI (a stable coin pegged to $1) against your collateral. In our far west comparison, this is a second bank that will let you take a cash loan based on the amount of gold you deposited in the first bank. This second bank accepts the receipt from the first bank as a guarantee in case you cannot repay your loan.
+Du kannst deine camDAI-Token in einem Vault bei Mai Finance deponieren und dir dann MAI (eine Stable Coin mit Preisbindung an $1) gegen deine Sicherheiten leihen. In unserem Vergleich aus dem fernen Westen handelt es sich um eine zweite Bank, bei der du einen Barkredit aufnehmen kannst, der auf der Menge Gold basiert, die du bei der ersten Bank eingezahlt hast. Diese zweite Bank akzeptiert die Quittung der ersten Bank als Garantie, falls du deinen Kredit nicht zurückzahlen kannst.
 
 ### Zapper
 
-[Zapper](https://zapper.fi/dashboard) is a Swiss army knife of DeFi on Polygon. This platform will let you farm yields in liquidity pools, lend your assets on AAVE directly from their platform, presents a dashboard of your different investments, and will let you swap some currencies for other currencies. This is the last feature that we will be using in order to exchange the MAI stable coin we just borrowed for more DAI.
+[Zapper](https://zapper.fi/dashboard) ist ein Schweizer Taschenmesser von DeFi auf Polygon. Diese Plattform ermöglicht es dir, Renditen in Liquiditätspools zu farmen, dein Vermögen direkt von der Plattform aus an AAVE zu verleihen, ein Dashboard deiner verschiedenen Investitionen zu präsentieren und einige Währungen in andere Währungen zu tauschen. Das ist die letzte Funktion, die wir nutzen werden, um den MAI Stable Coin, den wir gerade geliehen haben, in mehr DAI zu tauschen.
 
-![Swapping MAI for DAI](../.gitbook/assets/camDAI-zapper.png)
+![Taushe MAI gegen DAI](../.gitbook/assets/camDAI-zapper.png)
 
-In our far west example, Zapper is the gold miner that will accept your cash and will sell you gold.
+In unserem Beispiel aus dem fernen Westen ist Zapper der Goldschürfer, der dein Geld annimmt und dir Gold verkauft.
 
 ### Balancer
 
-As you can see in the screenshot above, Zapper is using Balancer has the protocol to operate the swap. [Balancer](https://polygon.balancer.fi/#/) is an automated portfolio manager, liquidity provider, and price sensor where you will be able to provide liquidity (and get fees from this) or swap currencies using the liquidity pools.
+Wie du im Screenshot oben sehen kannst, verwendet Zapper Balancer das Protokoll, um den Swap zu betreiben. [Balancer](https://polygon.balancer.fi/#/) ist ein automatisierter Portfoliomanager, Liquiditätsanbieter und Preissensor, mit dem du Liquidität bereitstellen (und dafür Gebühren erhalten) oder Währungen mit Hilfe der Liquiditätspools tauschen kannst.
 
-For our guide, we will use Balancer to expose our investments to a little more volatility and get better interests. This is 100% optional though.
+Für unseren Leitfaden werden wir Balancer nutzen, um unsere Investitionen etwas mehr Volatilität auszusetzen und bessere Zinsen zu erhalten. Dies ist jedoch zu 100 % optional.
 
-## Strategy description
+## Strategiebeschreibung
 
-### Main strategy
+### Hauptstrategie
 
-Even if we explained what AAVE is, our strategy will use a feature from Mai Finance to automate the DAI deposit on AAVE, the amDAI deposit in the yield instrument and the camDAI deposit in the camDAI vault.
+Auch wenn wir erklärt haben, was AAVE ist, wird unsere Strategie eine Funktion von Mai Finance nutzen, um die DAI-Hinterlegung auf AAVE, die amDAI-Hinterlegung im Renditeinstrument und die camDAI-Hinterlegung im camDAI-Vault zu automatisieren.
 
-![](../.gitbook/assets/camDAI-zapDAI.png)![](../.gitbook/assets/camDAI-zapdeposit.png)
+![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
 
-The `Zap in using DAI` button opens a popup that lets you deposit your DAI in the vault and operates the AAVE deposit under the hood. This is saving a lot of time, and some gas.
+Die Schaltfläche `Zap in using DAI` öffnet ein Popup-Fenster, mit dem du dein DAI in den Vault einzahlen kannst und die AAVE-Einzahlung im Hintergrund durchführst. Das spart eine Menge Zeit und etwas Gas.
 
-This will be our first step. Assuming we have $100 worth of DAI, we will deposit them on Mai Finance in a camDAI vault. This will allow us to borrow MAI against this initial deposit.
+Das wird unser erster Schritt sein. Angenommen, wir haben DAI im Wert von 100 Dollar, dann werden wir sie bei Mai Finance in einem camDAI Vault hinterlegen. So können wir uns gegen diese erste Einzahlung MAI leihen.
 
-The minimal CDR (**C**ollateral to **D**ebt **R**atio) for camDAI is 110%. This means that the ratio between your collateral (the $100 worth of DAI) and the loan we're about to get needs to remain above 110%.&#x20;
+Der minimale CDR (**C**Sicherheiten zu **D**Schulden **R**atio) für camDAI beträgt 110%. Das bedeutet, dass die Ratio zwischen deinen Sicherheiten (den DAI im Wert von $100) und dem Kredit, den wir bekommen, über 110% bleiben muss.
 
 {% hint style="danger" %}
-If this CRD ratio reaches the minimal value of 110%, it means that your collateral is losing value and your debt may become bigger than the value of your collateral. At this point, your vault can be liquidated: someone can repay a part of your debt and get a part of your collateral as a compensation. However, since both DAI and MAI are stable coins pegged to the US dollar, the risk of getting a big difference between the 2 assets is very low, which makes this strategy fairly safe.
+Wenn diese CRD Ratio den Mindestwert von 110% erreicht, bedeutet das, dass deine Sicherheiten an Wert verlieren und deine Schulden möglicherweise größer werden als der Wert deiner Sicherheiten. An diesem Punkt kann dein Vault liquidiert werden: Jemand kann einen Teil deiner Schulden zurückzahlen und einen Teil deiner Sicherheiten als Entschädigung erhalten. Da aber sowohl DAI als auch MAI Stable Coins sind, die an den US-Dollar gebunden sind, ist das Risiko einer großen Differenz zwischen den beiden Vermögenswerten sehr gering, was diese Strategie ziemlich sicher macht.
 {% endhint %}
 
-In order to maintain the liquidation risk fairly low, we will try to stick to a CDR of 115%. In order to know how much MAI we can borrow to stay at a 115% CDR, we will use this formula:
+Um das Liquidationsrisiko möglichst gering zu halten, werden wir versuchen, einen CDR von 115% einzuhalten. Um herauszufinden, wie viel MAI wir leihen können, um bei einem CDR von 115% zu bleiben, verwenden wir diese Formel:
 
 $$
 MAI_{available} = \frac{Collateral_{value} - Debt_{value} * Target_{CDR}}{Target_{CDR}}
 $$
 
-With a collateral value of $100, no debt yet, and a target CDR of 115%, here's how much we can borrow:
+Bei einem Beleihungswert von 100 USD, noch keinen Schulden und einem angestrebten CDR von 115%, können wir uns wie folgt einen Kredit aufnehmen:
 
 $$
 MAI_{available}=\frac{100 - 0*1.15}{1.15}=86.95
 $$
 
-​You can then swap the MAI you borrowed for DAI and repeat. Here's what your collateral and debt should look like:
+​Dann kannst du die geliehenen MAI gegen DAI tauschen und den Vorgang wiederholen. So sollten deine Sicherheiten und Schulden aussehen:
 
-| Loop # | Collateral | Debt    | Available loan | Equivalent APY | DAI liquidation price |
-| ------ | ---------- | ------- | -------------- | -------------- | --------------------- |
-| 1      | 100.000    | 0.000   | 86.956         | 10.42%         | 0                     |
-| 2      | 189.956    | 86.956  | 75.614         | 19.48%         | 0.512                 |
-| 3      | 262.571    | 162.571 | 62.751         | 27.36%         | 0.681                 |
-| 4      | 328.323    | 228.323 | 57.175         | 34.21%         | 0.765                 |
-| 5      | 385.498    | 285.498 | 49.718         | 40.17%         | 0.815                 |
-| 6      | 435.216    | 335.216 | 43.233         | 45.35%         | 0.847                 |
-| 7      | 478.449    | 278.448 | 37.593         | 49.85%         | 0.870                 |
-| 8      | 516.042    | 416.042 | 32.690         | 53.77%         | 0.887                 |
-| 9      | 548.732    | 448.732 | 28.426         | 57.18%         | 0.899                 |
-| 10     | 577.158    | 477.158 | 24.718         | 60.14%         | 0.909                 |
-| 11     | 601.877    | 501.877 | 21.494         | 62.72%         | 0.917                 |
-| 12     | 623.371    | 523.371 | 18.691         | 64.96%         | 0.924                 |
-| 13     | 642.062    | 542.062 | 16.253         | 66.90%         | 0.929                 |
-| 14     | 658.315    | 558.315 | 14.133         | 68.60%         | 0.933                 |
-| 15     | 672.448    | 572.448 | 12.289         | 70.07%         | 0.936                 |
-| 16     | 684.737    | 584.737 | 10.686         | 71.35%         | 0.939                 |
-| 17     | 695.423    | 595.423 | 9.293          | 72.46%         | 0.942                 |
+| Loop # | Sicherheit | Schulden | Kreditrahmen | Equivalent APY | DAI liquidation price |
+| ------ | ---------- | -------- | ------------ | -------------- | --------------------- |
+| 1      | 100.000    | 0.000    | 86.956       | 10.42%         | 0                     |
+| 2      | 189.956    | 86.956   | 75.614       | 19.48%         | 0.512                 |
+| 3      | 262.571    | 162.571  | 62.751       | 27.36%         | 0.681                 |
+| 4      | 328.323    | 228.323  | 57.175       | 34.21%         | 0.765                 |
+| 5      | 385.498    | 285.498  | 49.718       | 40.17%         | 0.815                 |
+| 6      | 435.216    | 335.216  | 43.233       | 45.35%         | 0.847                 |
+| 7      | 478.449    | 278.448  | 37.593       | 49.85%         | 0.870                 |
+| 8      | 516.042    | 416.042  | 32.690       | 53.77%         | 0.887                 |
+| 9      | 548.732    | 448.732  | 28.426       | 57.18%         | 0.899                 |
+| 10     | 577.158    | 477.158  | 24.718       | 60.14%         | 0.909                 |
+| 11     | 601.877    | 501.877  | 21.494       | 62.72%         | 0.917                 |
+| 12     | 623.371    | 523.371  | 18.691       | 64.96%         | 0.924                 |
+| 13     | 642.062    | 542.062  | 16.253       | 66.90%         | 0.929                 |
+| 14     | 658.315    | 558.315  | 14.133       | 68.60%         | 0.933                 |
+| 15     | 672.448    | 572.448  | 12.289       | 70.07%         | 0.936                 |
+| 16     | 684.737    | 584.737  | 10.686       | 71.35%         | 0.939                 |
+| 17     | 695.423    | 595.423  | 9.293        | 72.46%         | 0.942                 |
 
-We're stopping at 17 loops but you can operate more if you want to.
+Wir hören bei 17 Schleifen auf, aber du kannst auch mehr machen, wenn du willst.
 
-At the end of the 17 loops, you'd get $695.423 of collateral and $595.423 of debt. This corresponds to a CDR 116.79% which should be safe enough to prevent liquidation.
+Am Ende der 17 Schleifen hättest du 695,423 $ an Sicherheiten und 595,423 $ an Schulden. Das entspricht einem CDR von 116,79%, was sicher genug sein sollte, um eine Liquidation zu verhindern.
 
-If we consider the 10.42% APY granted by the yield instrument, this would generate
+Wenn wir die 10,42% APY berücksichtigen, die das Renditeinstrument gewährt, würde dies Folgendes ergeben
 
 $$
 Interests = Collateral_{value}*APY=695.423*10.42\%= \$72.463
 $$
 
-&#x20;If we consider that the initial investment was only $100, that's an equivalent APY of 72.463% on single staking a stable coin!
+Wenn wir bedenken, dass die anfängliche Investition nur $100 betrug, entspricht das einem APY von 72,463% beim einmaligen Staken eines Stable Coins!
 
-### Alternative strategy
+### Alternative Strategie
 
-In order to get a little exposure to high volatility assets, you can use the same loop as above but only leverage 90% of the borrowed MAI, and use the 10% to buy something else. In this example, we will use the 10% to buy Qi (the native token of Mai Finance) and use the Qi-BAL pool on Balancer that currently has an APR (**A**nnual **P**ercentage **R**evenue) of 107.12%.
+Um ein wenig in hochvolatile Anlagen zu investieren, kannst du die gleiche Schleife wie oben verwenden, aber nur 90 % des geliehenen MAI hebeln und die 10 % verwenden, um etwas anderes zu kaufen. In diesem Beispiel verwenden wir die 10%, um Qi (den nativen Token von Mai Finance) zu kaufen und den Qi-BAL-Pool auf Balancer zu nutzen, der derzeit einen APR (**A**nnual **P**ercentage **R**evenue) von 107,12% hat.
 
 ![Qi-BAL pool state as of October 2021](../.gitbook/assets/camDAI-balancer.png)
 
-Since we're re-injecting less DAI in the camDAI vault, we will also operate less loops. The setup will look like this:
+Da wir weniger DAI in den camDAI Vault einspeisen, werden wir auch weniger Schleifen betreiben. Der Ablauf wird folgendermaßen aussehen:
 
-| Loop # | Collateral | Debt    | Qi     | Available loan | Equivalent APY | DAI liquidation price |
+| Loop # | Sicherheit | Schuld  | Qi     | Available loan | Equivalent APY | DAI liquidation price |
 | ------ | ---------- | ------- | ------ | -------------- | -------------- | --------------------- |
 | 1      | 100.000    | 0.000   | 0.000  | 86.957         | 10.42%         | 0                     |
 | 2      | 178.261    | 86.957  | 8.696  | 68.053         | 35.22%         | 0.537                 |
@@ -152,29 +152,31 @@ Since we're re-injecting less DAI in the camDAI vault, we will also operate less
 | 9      | 409.341    | 343.712 | 34.371 | 12.237         | 108.45%        | 0.924                 |
 | 10     | 420.354    | 355.948 | 35.595 | 9.576          | 111.94%        | 0.931                 |
 
-At the end of the 10 loops, you'd get
 
-* $420.354 of DAI as collateral
-* $355.948 of debt
-* $35.595 of Qi
 
-The same math as in the previous case gives the following results
+Am Ende der 10 Schleifen erhältst du
 
-* A final CDR of 118.09%, which should be considered as safe enough to prevent liquidation
-* $43.800 of interests on DAI from the 10.42% APY granted by the yield instrument
-* $68.139 of interests on your Qi from the Balancer pool, if you assume you will be compounding the Qi and BAL rewards in the Qi-BAL pool
-* A total APY of 111.94%
+* 420.354 USD an DAI als Sicherheiten
+* 355.948 $ an Schulden
+* 35,595 $ Qi
 
-This strategy presents more risks in the sense that the investment in the Qi-BAL pool isn't guaranteed. However, you will get a little bit of exposure to Qi, which will let you participate to the QiDAO protocol. If you use the BAL reward on Mai Finance as a collateral and borrow against it, you will also be able to re-invest in the camDAI vault or in the Qi-BAL pool. If you do so, you will also be entitled to borrowing rewards paid in Qi every week.
+Die gleichen Berechnungen wie im vorherigen Fall führen zu den folgenden Ergebnissen
 
-## Conclusion
+* Ein endgültiger CDR von 118,09%, der als sicher genug angesehen werden sollte, um eine Liquidation zu verhindern
+* $43.800 an Zinsen auf DAI aus den 10,42% APY, die das Zinsinstrument gewährt
+* $68.139 an Zinsen auf deine Qi aus dem Balancer-Pool, wenn du davon ausgehst, dass du die Qi- und BAL-Belohnungen im Qi-BAL-Pool aufzählen wirst
+* Ein Gesamt-APY von 111,94%
 
-With some minimal investment and low maintenance, you can get some pretty solid results simply by leveraging your DAI. Since DAI is a stable coin that has a lot of liquidity across multiple chains, the risk is relatively low for DAI to go off peg and for your vault to be liquidated. It's the kind of "set and forget" setup that can easily be a very good starting point for any DeFi beginner, and chances are this strategy will perform the same way in a bull market or in a bear market. Finally, we also explained how you can use the same strategy to grab a portion of your loan and test out the many possibilities that DeFi has on Polygon.
+Diese Strategie birgt insofern mehr Risiken, als dass die Investition in den Qi-BAL-Pool nicht garantiert ist. Allerdings bekommst du ein kleines Stückchen Qi, das dich am QiDAO-Protokoll teilhaben lässt. Wenn du die BAL-Belohnung bei Mai Finance als Sicherheit verwendest und einen Kredit aufnimmst, kannst du auch wieder in den camDAI Vault oder in den Qi-BAL-Pool investieren. Wenn du das tust, hast du auch Anspruch auf Belohnungen, die jede Woche in Qi ausgezahlt werden.
 
-## Disclaimer
+## Zusammenfassung
 
-Everything presented in this tutorial is educational content made to illustrate the leverage option proposed by Mai Finance. We didn't talk about debt repayment because there are articles dedicated to this on this site, but you need to keep in mind that Mai Finance charges a 0.5% repayment fee on the borrowed amount. As always, make your own researches and don't hesitate to ask question on the [Discord server of the DAO](https://discord.com/invite/qidaoprotocol) community.
+Mit minimalen Investitionen und geringem Wartungsaufwand kannst du mit deinem DAI ziemlich solide Ergebnisse erzielen, indem du es hebelst. Da DAI ein Stable Coin ist, der über mehrere Chains hinweg eine hohe Liquidität aufweist, ist das Risiko relativ gering, dass DAI aus der Preisbindung fällt und dein Vault liquidiert wird. Diese Art von "Set and Forget"-Setup ist ein guter Ausgangspunkt für jeden DeFi-Anfänger und die Chancen stehen gut, dass diese Strategie in einem Bullenmarkt genauso funktioniert wie in einem Bärenmarkt. Zum Schluss haben wir noch erklärt, wie du dieselbe Strategie nutzen kannst, um einen Teil deines Kredits zu übernehmen und die vielen Möglichkeiten von DeFi auf Polygon auszuprobieren.
+
+## Haftungsauschluss
+
+Alles, was in diesem Tutorial vorgestellt wird, ist ein Bildungsinhalt, der die von Mai Finance angebotene Hebelwirkung veranschaulichen soll. Wir haben nicht über die Rückzahlung der Schulden gesprochen, weil es dazu bereits Artikel auf dieser Seite gibt, aber du solltest bedenken, dass Mai Finance eine Rückzahlungsgebühr von 0,5 % auf den geliehenen Betrag erhebt. Wie immer gilt: Mach deine eigenen Nachforschungen und zögere nicht, Fragen auf dem [Discord-Server der DAO](https://discord.com/invite/qidaoprotocol) Community zu stellen.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Denke daran, dass eine Strategie, die zu einem bestimmten Zeitpunkt gut funktioniert, zu einem anderen Zeitpunkt schlecht abschneiden (oder Geldverluste erzeugen) kann. Bitte bleibe informiert, beobachte die Märkte, behalte deine Investitionen im Auge und recherchiere wie immer selbst.
 {% endhint %}
