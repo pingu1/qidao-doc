@@ -28,7 +28,7 @@
 
 ## Moonriver toàn tập
 
-* [How to get started on Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
+* [Các bước bắt đầu trên Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
 
 ## Học viện MAI <a href="#debt-management-tutorials" id="debt-management-tutorials"></a>
 
@@ -38,7 +38,7 @@
 * [Hoàn trả nợ - Tại sao và khi nào?](debt-management-tutorials/debt-repayment-why-and-when.md)
 * [Hoàn trả nợ - Như thế nào?](debt-management-tutorials/debt-repayment-how.md)
 * [Vũ trụ MAI](debt-management-tutorials/mai-metaverse.md)
-* [MAI Metaverse Pt.2](debt-management-tutorials/mai-metaverse-pt.2.md)
+* [Vũ trụ ảo MAI phần 2](debt-management-tutorials/mai-metaverse-pt.2.md)
 * [Cách sử dụng MAI ngoài thực tế](debt-management-tutorials/how-to-use-mai-in-the-real-life.md)
 
 ## Join the Community <a href="#community" id="community"></a>

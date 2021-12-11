@@ -1,89 +1,91 @@
 ---
 description: >-
-  Lately, MAI has been growing at such a quick pace that it's time for a second
-  article on the same topic. You will find the new chains where you can use the
-  MAI stablecoin.
+  Gần đây, MAI đã phát triển với tốc độ nhanh chóng đến mức đã đến lúc cho một
+  bài viết thứ hai về cùng chủ đề. Bạn sẽ tìm thấy các chuỗi mới nơi bạn có thể
+  sử dụng MAI.
 ---
 
-# MAI Metaverse Pt.2
+# Vũ trụ ảo MAI phần 2
+
+
 
 ![](../.gitbook/assets/MAI.png)
 
 ## Harmony
 
-### What's Harmony?
+### Harmony là gì?
 
-Harmony (ONE) is a decentralized blockchain platform designed as a bridge between scalability and decentralization efforts. Its development went under the motto of “decentralization at scale” with the focus on data sharing and the creation of marketplaces of fungible tokens and non-fungible assets. Furthermore, Harmony comes with an additional promise of delivering high throughput accompanied by two “lows”: latency and fees. Combined, they are supposed to put the platform at the heart of the efforts to lay the foundation of the future decentralized trustless economies.
+Harmony (ONE) là một nền tảng blockchain phi tập trung được thiết kế như một cầu nối giữa các nỗ lực mở rộng và phi tập trung. Sự phát triển của nó theo phương châm “phân quyền theo quy mô” với trọng tâm là chia sẻ dữ liệu và tạo ra các thị trường của các mã thông báo có thể thay thế và tài sản không thể thay thế. Hơn nữa, Harmony đi kèm với một lời hứa bổ sung là cung cấp thông lượng cao kèm theo hai “mức thấp”: độ trễ và phí. Kết hợp lại, họ được cho là đặt nền tảng này làm trọng tâm của những nỗ lực nhằm tạo nền tảng cho các nền kinh tế phi tập trung trong tương lai.
 
-However, what makes the Harmony blockchain unique, its their deep sharding system. A shard **** is a synonym for a piece or a part. By sharding **** Harmony means dividing its nodes in four equal groups. Hence, there are 1 000 nodes total divided into four shards making one shard consisting of 250 nodes. Moreover, the exact nodes within shards are regularly and randomly mixed. This number is set to be exactly so to increase the security of the system and to add more scalability. If you want to learn more about this chain, you can read this [article](https://guarda.com/academy/crypto/what-is-harmony/).
+Tuy nhiên, điều làm cho chuỗi khối Harmony trở nên độc đáo, đó là hệ thống sharding sâu của nó. Sharding là một từ đồng nghĩa với một phần hoặc một bộ phận. Bằng cách chia nhỏ Harmony có nghĩa là chia các nút của nó thành bốn nhóm bằng nhau. Do đó, có tổng số 1000 nút được chia thành bốn phân đoạn tạo nên một phân đoạn bao gồm 250 nút. Hơn nữa, các nút chính xác trong các phân đoạn được trộn đều đặn và ngẫu nhiên. Con số này được đặt chính xác như vậy để tăng tính bảo mật của hệ thống và thêm khả năng mở rộng. Nếu bạn muốn tìm hiểu thêm về chuỗi này, bạn có thể đọc [bài viết này.](https://guarda.com/academy/crypto/what-is-harmony/)
 
-### Getting MAI on Harmony
+### Cách đưa MAI lên Harmony
 
-To send MAI from Polygon to Harmony, you can use the [AnySwap ](https://anyswap.exchange/#/router)platform. The UI is pretty straightforward, the only thing that you will need to do is select the chain where you have the MAI and where do you want to send it.
+Để gửi MAI từ Polygon đến Harmony, bạn có thể sử dụng nền tảng AnySwap. Giao diện người dùng khá đơn giản, điều duy nhất bạn cần làm là chọn chuỗi nơi bạn có MAI và nơi bạn muốn gửi nó đến.
 
-![Sending MAI from Polygon to Harmony](<../.gitbook/assets/MAI - Harmony.JPG>)
+![Gửi MAI từ Polygon lên Harmony](<../.gitbook/assets/MAI - Harmony.JPG>)
 
 {% hint style="info" %}
-Be aware that at the bottom of the Anyswap's page, there's some important information about bridging MAI, so check it out before doing any transaction.
+Hãy lưu ý rằng ở cuối trang của Anyswap, có một số thông tin quan trọng về cầu nối MAI, vì vậy hãy kiểm tra trước khi thực hiện bất kỳ giao dịch nào.
 {% endhint %}
 
-### Using MAI on Harmony
+### Sử dụng MAI trên Harmony
 
-Currently, the Mai Finance team does not have any partnership with any yield farm on Harmony. Once the team is aware of projects that are using MAI, this documentation will be updated. Stay tuned.
+Hiện tại, nhóm Mai Finance không có bất kỳ quan hệ đối tác nào với bất kỳ nền tảng farming nào trên Harmony. Sau khi nhóm biết về các dự án đang sử dụng MAI, tài liệu này sẽ được cập nhật.
 
 ## Moonriver
 
-### What's Moonriver?
+### Moonriver là gì?
 
-Moonriver is a sister network of **Moonbeam**. Similar to its sister, Moonriver is a full Ethereum-like environment and works with industry-standard Ethereum tools, DApps, and protocols. The only difference between Moonriver and Moonbeam is that:
+Moonriver là một mạng chị em của Moonbeam. Tương tự như người chị em của nó, Moonriver là một môi trường hoàn toàn giống Ethereum và hoạt động với các công cụ Ethereum, DApp và giao thức tiêu chuẩn của ngành. Sự khác biệt duy nhất giữa Moonriver và Moonbeam là:
 
-* Moonriver is a parachain built on Kusama Relay Chain.
-* Moonbeam belongs to the Polkadot Relay Chain.
+* Moonriver là một parachain được xây dựng trên Kusama Relay Chain.
+* Moonbeam thuộc về Polkadot Relay Chain.
 
-Moonriver is an easy route to Kusama Relay Chain**.** It allows teams and developers ,who are familiar with Ethereum, access to the Kusama Network with little or no barriers. It minimizes the changes required to run existing Solidity smart contracts on the network. Therefore, Ethereum projects can simply replicate their DApp and deploy it to Moonriver using popular deployment tools.
+Moonriver là một cách tiện lợi để tiếp cận Kusama Relay Chain. Nó cho phép các nhóm và nhà phát triển, những người đã quen thuộc với Ethereum, truy cập vào Mạng Kusama mà không có hoặc không có rào cản. Nó giảm thiểu các thay đổi cần thiết để chạy các hợp đồng thông minh Solidity hiện có trên mạng. Do đó, các dự án Ethereum có thể chỉ cần sao chép DApp của họ và triển khai nó lên Moonriver bằng cách sử dụng các công cụ triển khai phổ biến.
 
-### Getting MAI on Moonriver
+### Đưa MAI lên Moonriver
 
-To send MAI to Moonriver, we'll use the [Relaychain ](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer)platform. its UI is very similar to the one of Anyswap. When you want to transfer MAI from Polygon, you will have to connect your MetaMask wallet first, then select the asset you want to bridge (MAI) and the destination network (Moonriver).&#x20;
+Để gửi MAI đến Moonriver, chúng tôi sẽ sử dụng nền tảng [Relaychain](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer). Giao diện người dùng của nó rất giống với giao diện của Anyswap. Khi bạn muốn chuyển MAI từ Polygon, bạn sẽ phải kết nối ví MetaMask của mình trước, sau đó chọn tài sản bạn muốn làm cầu nối (MAI) và mạng đích (Moonriver).
 
-![Transfering MAI from Polygon to Moonriver](<../.gitbook/assets/relay movr.JPG>)
+![Gửi MAI từ Polygon đến Moonriver](<../.gitbook/assets/relay movr.JPG>)
 
-### Using MAI on Moonriver
+### Sử dụng MAI trên Moonriver
 
-The same way you can use MAI to farm yields on Polygon, you can use MAI on Moonriver. The main place to do so is [Solarbeam](https://app.solarbeam.io/farm). As for the time of writing, the only available pool that uses MAI is the MOVR/MAI.
+Tương tự như cách bạn có thể sử dụng MAI để cung cấp thanh khoản trên Polygon, bạn có thể sử dụng MAI trên Moonriver. Nơi chính để làm như vậy là [Solarbeam](https://app.solarbeam.io/farm). Đối với thời điểm viết bài, bể duy nhất có sẵn sử dụng MAI là MOVR / MAI.
 
-![MOVR-MAI pool on Solarbeam as of December 2021](../.gitbook/assets/MOVR-MAI.JPG)
+![Bể MOVR-MAI trên Solarbeam tại thời điểm tháng 2021](../.gitbook/assets/MOVR-MAI.JPG)
 
 {% hint style="info" %}
-Remember that to use this farm, you will have to deposit the same ratio of MOVR and MAI to create a LP token.
+Hãy nhớ rằng để sử dụng trang trại này, bạn sẽ phải gửi cùng một tỷ lệ MOVR và MAI để tạo mã thông báo LP.
 {% endhint %}
 
 ## Cronos
 
-### What's Cronos?
+### Cronos là gì?
 
-Cronos is an EVM compatible sidechain running in parallel with the Crypto.org Chain. Before launching Cronos, the Crypto.com ecosystem encompasses the Crypto.com chain and Crypto.com centralized exchange.
+Cronos là một sidechain tương thích EVM chạy song song với Chuỗi Crypto.org. Trước khi ra mắt Cronos, hệ sinh thái Crypto.com bao gồm chuỗi Crypto.com và sàn giao dịch tập trung Crypto.com.&#x20;
 
-Cronos is running on a Proof of Authority (PoA) consensus algorithm and is powered by Ethermint - a PoS chain interoperable with Ethereum. It aims to massively scale the Chain DeFi ecosystem, by allowing developers to rapidly port apps & smart contracts from Ethereum and other EVM-compatible chains.
+Cronos đang chạy trên thuật toán đồng thuận Proof of Authority (PoA) và được cung cấp bởi Ethermint - một chuỗi PoS có thể tương tác với Ethereum. Nó nhằm mục đích mở rộng quy mô lớn hệ sinh thái Chain DeFi, bằng cách cho phép các nhà phát triển nhanh chóng chuyển các ứng dụng và hợp đồng thông minh từ Ethereum và các chuỗi tương thích với EVM khác.
 
-### Getting MAI on Cronos
+### Đưa MAI lên Cronos
 
-To send MAI to Cronos, we'll use the [Relaychain ](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer)platform. The steps are the same as in the Moonriver case, just select the network where you are sending the MAI (Polygon), the network where you want to receive it (Cronos) and the asset that you want to send (MAI).
+Để gửi MAI đến Cronos, chúng tôi sẽ sử dụng nền tảng [Relaychain](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer). Các bước tương tự như trong trường hợp Moonriver, chỉ cần chọn mạng mà bạn đang gửi MAI (Polygon), mạng mà bạn muốn nhận (Cronos) và mã thông báo bạn muốn gửi (MAI).
 
-![Sending MAI from Polygon to Cronos](../.gitbook/assets/cronos.JPG)
+![Gửi MAI từ Polygon sang Cronos](../.gitbook/assets/cronos.JPG)
 
-### Using MAI on Cronos
+### Sử dụng MAI trên Cronos
 
-The main place where you can farm yields on Cronos using MAI, is on the [Crodex ](https://swap.crodex.app/#/rewards/pair)platform. In this case, there are two pairs available, the CRO-MAI pair and the MAI-USDC pair.
+Nơi chính mà bạn có thể thu được lợi nhuận trên Cronos bằng cách sử dụng MAI, là trên nền tảng [Crodex](https://swap.crodex.app/#/rewards/pair). Trong trường hợp này, có sẵn hai cặp, cặp CRO-MAI và cặp MAI-USDC.
 
-![MAI pairs on Crodex as of December 2021](../.gitbook/assets/crodex.JPG)
+![Các cặp MAI trên Crodex tại thời điểm tháng 12 2021](../.gitbook/assets/crodex.JPG)
 
-The UI on Crodex is really similar to Quickswap, just remember that if you want to use this farms, you will have to deposit the same ratio of tokens to create a LP token. Also, don't forget to have some spare CRO to pay the fees of the network.
+Giao diện người dùng trên Crodex thực sự tương tự như Quickswap, chỉ cần nhớ rằng nếu bạn muốn sử dụng các bể này, bạn sẽ phải đặt cổ phần cùng một tỷ lệ mã thông báo để tạo mã thông báo LP. Ngoài ra, đừng quên có một số CRO dự phòng để thanh toán phí gas.
 
-## Disclaimer
+## Tuyên bố từ bỏ trách nhiệm
 
-The details presented in this guide are purely educational and have not been tested directly by the team maintaining this guide. A few users on the discord server have already tried bridging their assets to Moonriver and/or Cronos, so you can join the Discord community to ask your questions. Please don't forget to do your own researches, different networks will have different transaction fees and execution times, different reward programs, bridging fees etc ... If you send your MAI to other networks, make sure you can bridge them back in case you need it on Polygon.
+Các chi tiết được trình bày trong hướng dẫn này hoàn toàn là giáo dục và chưa được kiểm tra trực tiếp. Một số người dùng trên Discord đã thử bắc cầu tài sản của họ với Moonriver và / hoặc Cronos, vì vậy bạn có thể tham gia cộng đồng Discord để đặt câu hỏi. Xin đừng quên tự nghiên cứu, các mạng khác nhau sẽ có phí giao dịch và thời gian thực hiện khác nhau, các chương trình phần thưởng khác nhau, phí bắc cầu, v.v. Nếu bạn gửi MAI của mình đến các mạng khác, hãy đảm bảo rằng bạn có thể kết nối chúng trở lại trong trường hợp bạn cần đến Polygon
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}

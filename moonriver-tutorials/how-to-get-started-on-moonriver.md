@@ -1,110 +1,107 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the Moonriver chain.
+  Trong hướng dẫn này, chúng tôi sẽ giải thích tất cả những gì bạn cần phải biết
+  để bắt đầu trên mạng Moonriver.
 ---
 
-# How to get started on Moonriver
+# Các bước bắt đầu trên Moonriver
 
-## What is Moonriver
+## Moonriver là gì?
 
-It is going to be complex to explain what is Moonriver without talking about a few other chains too, including MoonBeam, Kusama and Polkadot.
+Sẽ rất phức tạp để hiểu rõ Moonriver là gì nếu không đề cập đến Polkadot, Moonbeam và Kusama.
 
-Polkadot is a L1 block chain that directly competes with Ethereum, Cosmos or Eos, and the goal of the chain is to grow a complete ecosystem of cryptocurrencies and applications. One of the main point that makes Polkadot different from other L1 is its separation into a main chain (the relay chain) and user-created networks (parachains). The Relay Chain benefits from low requirements in terms of computing resources since most developments and tests are made on parachains. On the other hand, parachains inherit from the same security as the relay chain. This also creates isolated environments that can work in an autonomous fashion and won't disclose user data to the main chain.
+Polkadot là chuỗi khối lớp 1 được tạo nhằm cạnh tranh trực tiếp với Ethereum, Cosmos hay EOS trong việc phát triển và hoàn thiện hệ sinh thái hoàn chỉnh cho tiền điện tử và các ứng dụng liên quan. Một trong những khác biệt chính khiến Polkadot khác biệt với các chuỗi khối lớp 1 khác là sự tách biệt giữa chuỗi chính, chuỗi chuyển tiếp(relay chain) và các chuỗi khối do người dùng tạo nên (Parachains). Chuỗi chuyển tiếp thừa hưởng từ các lợi thế từ các yêu cầu thấp về tài nguyên tính toán vì hầu hết các phát triển và nâng cấp được thực hiện trên các parachain này. Mặt khác, các parachain này thừa hưởng trọn vẹn tính bảo mật từ mạng chuyển tiếp. Điều này cũng tạo ra các môi trường biệt lập có thể hoạt động độc lập mà không cần thiết phải tiết lộ thông tin người dùng cho chuỗi chính.&#x20;
 
-Kusama is a pre-production environment for Polkadot, a separate chain that mimics the main Relay Chain of Polkadot, and where all the developments and updates for the main chain are tested first. However, as a pre-production environment, Kusama operates with real crypto-currencies and real transactions, but with looser rules than on Polkadot. However, the goal of the applications and side chains developed on Kusama is to be migrated to Polkadot at some point. Because of the looser rules, it's easier for a project to test things and grow a community while developing the protocol. Once the final product is ready, everything can migrate to the production environment.
+Kusama là môi trường tiền thử nghiệm cho cho chuỗi Polkadot,  một chuỗi tách biệt được mô phỏng chuỗi chuyển tiếp của Polkadot nơi tất cả các phát triển và nâng cấp cho chuỗi chính được thử nghiệm đầu tiên. Tuy nhiên Kusama vận hành bằng tiền thực và các giao dịch cũng là thực nhưng với quy tắc "dễ thở" hơn so với Polkadot. Tuy nhiên, mục tiêu cuối cùng của các ứng dụng là được chuyển sang Polkadot tại một thời điểm nào đó. Với các nguyên tắc "dễ thở" này, các dự án vẫn có thể thử nghiệm giao thức của mình trong khi xây dựng cộng đồng. Một khi sản phẩm cuối cùng được hoàn thiện thì nó sẽ được chuyển sang môi trường chính.&#x20;
 
-Moonriver is actually a parachain on Kusama. Code that is deployed to Moonriver is a test version of the code that can be deployed on Moonbeam, the production version of Moonriver on Polkadot. Once the code is validated on Moonriver, it can ship to Moonbeam. Moonbeam and Moonriver are 2 chains that are EVM compatible, meaning that they accept the same smart contracts as other chains compatible with the Ethereum network. Because of this, Moonriver quickly become the entry point of many DApps (**D**ecentralized **App**lications) that wanted to expand from the Ethereum network (Eth Mainnet, Polygon, Avalanche, Fantom ...) to the Polkadot network.
+Moonriver thực sự là một parachain trên Kusama. Các mã triển khai trên Moonriver chính là bản thử nghiệm có thể được triển khai chính thức trên Moonbeam, sản phẩm hoàn thiện trên Polkadot. Bởi vì cả Moonbeam và Moonriver là 2 chuỗi tương thích với EVM nên sẽ chấp nhận tất cả các hợp đồng thông minh từ các chuỗi tương thích với Ethereum. Chính đặc trưng này khiến Moonriver và Moonbeam trở thành điểm đến của nhiều Daap từ các chuỗi tương thích với Ethereum khác như Polygon, Avalanche, Fantom để mở rộng sang Polkadot thông qua các parachain này.&#x20;
 
-As other EVM compatible chains, Moonriver uses a gas token used to verify transactions: the MOVR token.
+Cũng như các chuỗi khối EVM tương thích khác, Moonriver sử dụng mã thông báo MOVR làm phí gas để xác nhận giao dịch.&#x20;
 
-## Getting started on Moonriver
+## Bắt đầu trên Moonriver
 
-Before usign the Moonriver network, you will need a wallet address. Because Moonriver is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network. You can find a very clear step by step guide on the [official moonbeam foundation doc](https://moonbeam.foundation/tutorials/how-to-create-moonriver-ethereum-address/).
+Trước khi sử dụng Moonriver bạn cần một địa chỉ ví, bởi vì chuỗi Moonriver là EVM tương thích nên nó chấp nhận các ví tương tự trên các chuỗi EVM khác bao gồm cả ví mềm như Metamask hoặc Nifty và ví cứng như Trezor và Ledger. Tuy nhiên bạn cần một số bước để kết nối ví lạnh.  Bạn có thể tìm thấy hướng dẫn từng bước rất rõ ràng trên [tài liệu của Moonbeam.](https://moonbeam.foundation/tutorials/how-to-create-moonriver-ethereum-address/)
 
-For this tutorial, we will stick to Metamask like for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](<../polygon-tutorials/how-to-get-started-on-polygon.md>).
+Đối với hướng dẫn này, chúng ta sẽ sử dụng Metamask giống như tất cả các hướng dẫn khác. Nếu bạn chưa cài đặt Metamask, bạn có thể tìm hướng dẫn về[ Cách bắt đầu với Polygon.](how-to-get-started-on-moonriver.md#moonriver-la-gi)
 
-### Adding Moonriver to Metamask
+### Thêm Moonriver vào Metamask
 
-In theory, Moonriver comes pre-installed with MetaMask, meaning that you should not have to add the chain information for Metamask to work. However, it may be a good idea to verify that your setup is correct by double checking the values saved into your local wallet. Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Moonriver`. The data you should get are as follows:
+Về lý thuyết, Moonriver được cài đặt sẵn MetaMask, có nghĩa là bạn không cần phải thêm thông tin chuỗi để Metamask hoạt động. Tuy nhiên, có thể là một ý tưởng hay để xác minh rằng thiết lập của bạn là chính xác bằng cách kiểm tra kỹ các giá trị được lưu vào ví cục bộ của bạn. Mở cửa sổ bật lên Metamask, nhấp vào biểu tượng ví của bạn, điều hướng đến Cài đặt, sau đó chọn Mạng và tìm Moonriver. Dữ liệu bạn sẽ nhận được như sau:
 
-* **Network Name:** Moonriver
+* **Tên mạng:** Moonriver
 * **New RPC URL:** https://rpc.moonriver.moonbeam.network
-* **Chain ID:** 1285
-* **Currency Symbol:** MOVR
-* **Block Explorer URL:** https://blockscout.moonriver.moonbeam.network/
+* &#x20;**ID chuỗi:** 1285
+* **Mã thông báo:** MOVR
+* **Trình khám phá chuỗi URL:** https://blockscout.moonriver.moonbeam.network/
 
-Save the changes, and Metamask will automatically switch you over to the Moonriver network:
+Lưu các thay đổi và Metamask sẽ tự động chuyển bạn sang mạng Moonriver:
 
-![Success!! You're now on Moonriver!](<../.gitbook/assets/Moonriver-setup-MM.png>)
+![Xin chúc mứng. Bạn đã ở mạng Moonriver](../.gitbook/assets/Moonriver-setup-MM.png)
 
-## Bridging to Moonriver
+## Bắc cầu sang Moonriver
 
 ### Faucets
 
-One of the biggest DEX on Moonriver, SolarBeam, offers [a gasless transaction swap](https://app.solarbeam.io/bridge/gas-swap) in case you're left without gas. This also assumes you have some funds on Moonriver, but cannot do anything because you have 0 MOVR in your wallet.
+Một trong những DEX lớn nhất trên Moonriver, SolarBeam, cung cấp [hoán đổi giao dịch không cần gas](how-to-get-started-on-moonriver.md#moonriver-la-gi) trong trường hợp bạn không có gas. Điều này cũng giả sử bạn có một số tiền trên Moonriver, nhưng không thể làm gì vì bạn có 0 MOVR trong ví của mình.
 
-![Gasless transaction that will allow you to swap for gas](<../.gitbook/assets/Moonriver-faucet.png>)
+![Giao dịch không cần gas cho phép bạn đổi lấy gas](../.gitbook/assets/Moonriver-faucet.png)
 
-Note that only certain assets are accepted for this gasless transaction, and MAI isn't part of the supported coins.
+Lưu ý rằng chỉ một số tài sản nhất định mới được chấp nhận cho giao dịch không cần gas này và MAI không phải là một phần của các đồng tiền được hỗ trỗi
 
-### Bridges
+### Các cầu nối
 
-* [Relay Chain](https://app.relaychain.com/transfer#/) is the official partner of Mai Finance if you want to transfer your MAI to Moonriver from Polygon. When you're connected to Polygon, you can simply chose the destination chain (Moonriver) and the asset you want to send (MAI or miMATIC) with the correct amount, and click on the `Transfer` button. Pay attention to the transfer fees.
+* [Relay Chain](https://app.relaychain.com/transfer#/) là đối tác chính thức của Mai Finance nếu bạn muốn chuyển MAI của mình sang Moonriver từ Polygon. Khi bạn đã kết nối với Polygon, bạn có thể chỉ cần chọn chuỗi đích (Moonriver) và tài sản bạn muốn gửi (MAI hoặc miMATIC) với số tiền chính xác và nhấp vào nút Transfer. Cần lưu ý đến phí chuyển tiền.
 
-![Bridging MAI from Polygon to Moonriver using Relay Chain](<../.gitbook/assets/Moonriver-relaychain.png>)
+![Bắc cầu MAI từ Polygon sang Moonriver](../.gitbook/assets/Moonriver-relaychain.png)
 
-* If you need to bridge other assets from other network, you can use Relay Chain (see above), [AnySwap](https://anyswap.exchange/#/bridge) will work if you want to bridge from Eth Mainnet to Moonriver, and of course you can also use the bridge feature from [Solarbeam](https://app.solarbeam.io/bridge).
-* A special note for [Elknet](https://app.elk.finance/#/elknet) that will act both as a bridge and as a faucet when you transfer the ELK token between 2 networks. You will be able to bridge your ELK and on the receiving end, you can have a small portion of your ELK directly available as the gas token, MOVR in our case.
+* Nếu bạn cần kết nối các tài sản khác từ mạng khác, bạn có thể sử dụng Relay Chain (xem ở trên),[ AnySwap](https://anyswap.exchange/#/bridge) nếu bạn muốn kết nối từ ETH Mainnet đến Moonriver và tất nhiên bạn cũng có thể sử dụng tính năng [cầu nối](https://app.solarbeam.io/bridge) từ Solarbeam.
+* Một lưu ý đặc biệt cho [Elknet](https://app.elk.finance/#/elknet) sẽ hoạt động như một cầu nối và một nguồn faucet khi bạn chuyển mã thông báo ELK giữa 2 mạng. Bạn sẽ có thể làm cầu nối ELK của mình và ở đầu nhận, bạn có thể có một phần nhỏ ELK của mình trực tiếp dưới dạng mã thông báo gas, MOVR trong trường hợp của chúng tôi.
 
-### Hub
+### Trung tâm trung chuyển
 
-In case you bridge some MAI from Polygon to Moonriver via Relay Chain, you will get the RelayChain version of MAI instead of the native MAI minted by the application on Moonriver. The 2 tokens (the one from RelayChain and the one from Mai Finance) have the same value and the same name, but different contract addresses, and the only one that will be accepted to farm yields on Moonriver is the one from Mai Finance.
+Trong trường hợp bạn bắc cầu một số MAI từ Polygon đến Moonriver thông qua Relay Chain, bạn sẽ nhận được phiên bản RelayChain của MAI thay vì MAI gốc do ứng dụng trên Moonriver tạo ra. Hai mã thông báo (một từ RelayChain và một từ Mai Finance) có cùng giá trị và cùng tên, nhưng địa chỉ hợp đồng khác nhau, và mã duy nhất sẽ được chấp nhận để farming trên Moonriver là từ Mai Finance.
 
-You can swap your MAI from Relay Chain using [the hub on Mai Finance](https://app.mai.finance/hub) with a 1:1 ratio, then you'll be able to use your true MAI on other platforms.
+Bạn có thể hoán đổi MAI của mình từ Relay Chain bằng cách sử dụng [trung tâm trung chuyển](https://app.mai.finance/hub) trên Mai Finance với tỷ lệ 1: 1, sau đó bạn sẽ có thể sử dụng MAI thực sự của mình trên các nền tảng khác.
 
-![Using the hub to swpa MAI(RelayChain) to true MAI](<../.gitbook/assets/Moonriver-hub.png>)
+![Sử dụng trung tâm trung chuyển để chuyển MAI (RelayChain) thành MAI từ Mai Finance](../.gitbook/assets/Moonriver-hub.png)
 
 {% hint style="info" %}
-As a side note, if you want to bridge your MAI from Moonriver to Polygon or other chains, you will have to convert them first into their RelayChain version.
+Xin lưu ý thêm, nếu bạn muốn chuyển MAI của mình từ Moonriver sang Polygon hoặc các chuỗi khác, trước tiên bạn sẽ phải chuyển đổi chúng thành phiên bản RelayChain.
 {% endhint %}
 
-## DeFi on Moonriver
+## DeFi trên Moonriver
 
-Moonriver is getting a lot of traction and more and more applications are moving to this new chain, with a potential to fully migrate to Polkadot. As such, you will be able to farm yields on the following platform (list isn't complete):
+Moonriver đang nhận được rất nhiều sức hấp và ngày càng có nhiều ứng dụng chuyển sang chuỗi mới này, với tiềm năng chuyển hoàn toàn sang Polkadot. Như vậy, bạn sẽ có thể cung cấp thanh khoản trên nền tảng sau (danh sách hiện chưa đầy đủ):
 
-* [Solarbeam](https://app.solarbeam.io): This is the main DEX and AMM on Moonriver. You will be able to swap your assets, participate in liquidity mining by providing LP (**L**iquidity **P**roviding) pairs in farms, or stake the native token of the platform. Solarbeam is also one of the first partner of Mai Finance on Moonriver, and you will be able to farm the MAI-MOVR pair. You will also find a MAI-USDC pool that isn't getting any rewards but may get some trading fees.
+* [Solarbeam](https://app.solarbeam.io): Đây là DEX và AMM chính trên Moonriver. Bạn sẽ có thể hoán đổi tài sản của mình, tham gia khai thác thanh khoản bằng cách cung cấp các cặp LP (Cung cấp tính thanh khoản) trong các bể hoặc gửi cổ phần mã thông báo gốc của nền tảng. Solarbeam cũng là một trong những đối tác đầu tiên của Mai Finance trên Moonriver, và bạn sẽ có thể farm cặp MAI-MOVR. Bạn cũng sẽ tìm thấy nhóm MAI-USDC không nhận được bất kỳ phần thưởng nào nhưng có thể nhận được một số phí giao dịch.
 
-![LP pools that include MAI on solarbeam as of December 2021](<../.gitbook/assets/Moonriver-solarbeam.png>)
+![Các bể LP bao gồm MAI trên Solarbeam kể từ tháng 12 năm 2021](../.gitbook/assets/Moonriver-solarbeam.png)
 
-When you farm on Solarbeam, you will be rewarded in SOLAR tokens that you can then stake in a Vault for a certain vesting period and earn additional SOLAR tokens, or stake to gain other tokens exotic to the platform.
+Khi bạn farm trên Solarbeam, bạn sẽ được thưởng bằng mã thông báo SOLAR mà sau đó bạn có thể đặt  vào Vault trong một khoảng thời gian nhất định và nhận thêm mã thông báo SOLAR hoặc đặt cổ phần để đạt được các mã thông báo khác trên nền tảng.
 
-* [Huckleberry Finance](https://www.huckleberry.finance/): This is another DEX/AMM on Moonriver where you will be able to farm yiels, and possible use Beefy to compound your gains.
+* [Huckleberry Finance](https://www.huckleberry.finance): Đây là một DEX / AMM khác trên Moonriver, nơi bạn sẽ có thể thu được sản lợi nhuận và có thể sử dụng Beefy để cộng dồn lợi nhuận.
+* [Beefy Finance](https://app.beefy.finance/#/moonriver): Công cụ cộng dồn tự động nổi tiếng cũng có trên Moonriver và sẽ giúp bạn gộp số tiền kiếm được từ cả Solarbeam và Huckleberry. Lưu ý thêm, Beefy không đề xuất cặp MAI-MOVR khi viết bài, nhưng bạn có thể sớm sử dụng Beefy để thu thập mã thông báo SOLAR và nhận thêm MAI-MOVR.
+* [Sushiswap](https://app.sushi.com): Không cần trình bày nhiều về SushiSwap! Bạn sẽ có thể hoán đổi tài sản và cung cấp thanh khỏa của mình cho một số mã thông báo LP nhất định giống như bạn làm trên bất kỳ chuỗi nào khác. Phần thưởng được cấp trong SUSHI và MOVR.
+* [Rome DAO](https://romedao.finance): Đây là OHM-fork đầu tiên trên Moonriver. Liên kết tài sản của bạn để nhận mã thông báo ROME chiết khấu mà bạn có thể đặt cổ phầntrên để đạt được APY rất cao. Tại thời điểm viết bài, ROI trong 5 ngày là khoảng 10,6%. RomeDAO hiện chấp nhận FRAX và MIM trong kho quỹ của mình, nhưng cũng có thể sớm chấp nhận MAI.
 
-* [Beefy Finance](https://app.beefy.finance/#/moonriver): The famous auto-compounder is also on Moonriver and will help you compound your gains from both Solarbeam and Huckleberry. As a side note, Beefy doesn't propose the MAI-MOVR pair as of writing, but you may soon be able to use Beefy to harvest the SOLAR tokens and get more MAI-MOVR from the compounder.
+## Mai Finance trên Moonriver
 
-* [Sushiswap](https://app.sushi.com/): No need to present SushiSwap! You'll be able to swap your assets and farm yields for certain LP tokens like you would do on any other chains. Rewards are granted in SUSHI and MOVR.
+Nền tảng cho vay đã có sẵn trên Moonriver, nơi bạn sẽ có thể đặt mã thông báo mooSolarETH-USDC của mình vào một kho tiền và mượn MAI. Để làm như vậy
 
-* [Rome DAO](https://romedao.finance/): This is the first OHM-fork on Moonriver. Bond your assets to get discounted ROME tokens that you can stake to gain very high APY. As time of writing, the 5-Day ROI is around 10.6%. RomeDAO currently accepts FRAX and MIM in its treasury, but may soon accept MAI also.
+* Tạo một cặp ETH-USDC trên Solarbeam
+* Gửi cặp ETH-USDC trên Beefy và nhận mã thông báo mooSolarETH-USDC
+* Gửi số mooToken của bạn trên Mai Finance tại hầm tiền thích hợp
 
-## Mai Finance on Moonriver
+![Hầm tiên Mai Finance  Moonriver kể từ tháng 12 năm 2021](../.gitbook/assets/Moonriver-vaults.png)
 
-The lending platform is already available on Moonriver where you will be able to put your mooSolarETH-USDC tokens in a vault and borrow MAI against it. In order to do so:
+Hầm ETH cũng là một lựa chọn tốt.
 
-* Create a ETH-USDC pair on Solarbeam
-* Deposit the ETH-USDC pair on Beefy and get a mooSolarETH-USDC receipt token
-* Deposit your mooToken on Mai Finance in [the appropriate vault](https://app.mai.finance/vaults/create)
+Trong khi tài sản thế chấp của bạn đang kiếm được 44,08% APY từ Beefy Finance (tính đến thời điểm viết bài), bạn sẽ có thể vay MAI và farming cặp MAI-MOVR và nhận được 128% APR trên Solarbeam, hoặc 158,058% APY trên RomeDAO.
 
-![Mai Finance vaults on Moonriver as of December 2021](<../.gitbook/assets/Moonriver-vaults.png>)
+## Từ chối trách nhiệm
 
-Single ETH vault is also an option.
-
-While your collateral is earning 44.08% APY from Beefy Finance (as of time of writing), you will be able to borrow MAI and farm the MAI-MOVR pool and get 128% APR on Solarbeam, or soon 158,058% APY on RomeDAO.
-
-## Disclaimer
-
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Hướng dẫn này KHÔNG phải là lời khuyên tài chính, và chỉ nên được coi là một công cụ giáo dục. Luôn luôn nghiên cứu riêng của bạn. Thảo luận về một dự án trong hướng dẫn này không nên được coi là sự chứng thực của dự án.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}
