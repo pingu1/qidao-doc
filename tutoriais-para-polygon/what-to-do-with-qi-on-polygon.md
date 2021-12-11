@@ -142,29 +142,29 @@ Isto também significa que quando o preço de um dos dois tokens sobre, a pool c
 
 ### A questão da falta de uso
 
-Por ultimo, a falta de uso de Qi, ou a falta de usos conhecidos, pode explicar porque o preço do token está caindo. Pessoas coletando Qi das recompensas da vault e/ou farm na Mai Finance irão simplesmente vendê-lo enquanto possui algum valor para realizar seu lucro, sem visão de longo-prazo, o que na verdade é uma estratégia bem sensata. Este guia, na verdade, tenta promover diferentes maneiras de utilizar seus tokens Qi sem vendê-los, mas se o preço não sobe, ou se você não consegue gerar benefícios por outros otkens (conhecido como  explain why the price of the token is going down. People collecting Qi from Vault rewards and/or farming on Mai Finance will just sell it while it still has "some" value in order to realize a profit, with no long-term vision, which is actually a pretty reasonable strategy. This guide tries actually to promote different ways to use your Qi tokens without selling them, but if the price doesn't go up, or if you can't generate benefits in other tokens (a.k.a profit leak), there's very little advantages stacking them.
+Por ultimo, a falta de uso de Qi, ou a falta de usos conhecidos, pode explicar porque o preço do token está caindo. Pessoas coletando Qi das recompensas da vault e/ou farm na Mai Finance irão simplesmente vendê-lo enquanto possuem valor para realizar seu lucro, sem visão de longo-prazo, o que na verdade é uma estratégia bem sensata. Este guia, na verdade, tenta promover diferentes maneiras de utilizar seus tokens Qi sem vendê-los, mas se o preço não sobe, ou se você não consegue gerar benefícios por outros tokens (conhecido como vazamento de lucro), há pouca vantagem em acumulá-los.
 
-### How can we help price to go up?
+### Como podemos ajudar o preço a subir?
 
-If we want the price of Qi to go up (and who wouldn't want to), there are a few options.
+Se nós queremos que o preço de Qi suba (e quem não quer isso?), há algumas opçōes:
 
-* Reduce emission: with 86,400 new Qi minted daily, the supply is very high. If we cut down this emission, the supply may be lower, and with less supply, price should in theory go up. However, the current emission for the farms need to remain the same because they're part of a current partnership with QuickSwap. Vault incentives have been launched, and are an amazing way to promote the lending platform, pushing people to take loans, so cutting these emissions is probably another bad idea.
-* Farm responsibly: I'm not saying that Adamant is the main culprit or is a bad product. Indeed, I include this platform in most of my strategies and use it on a daily basis. However, I try to farm in pools for which I have less concerns that the token will be dumped. If you want to farm yields on Adamant in a pool that is using the Mai Finance farm, keep in mind that you participate in the Qi depreciation. If you are ok with that, that's totally fine.
-* Understand how things work: prices of ALL crypto-currencies are highly volatile, and most of the time, the price of BTC and ETH dictate the price of all other tokens. This is not done magically. Also, please understand that when some people earn money, it's because some other are loosing some. There's no free money, and magical internet money is actually not that magical.
-* Find new ways to use your Qi tokens. This guide will always provide ideas that will help you increase the volume of your portfolio, and sell as few tokens as possible. Closed loops are the best because the output of one product feeds the input of the next one, creating a nice bubble that will only grow over time.
+* Reduzir a emissão: com novos 86,400 Qi sendo cunhados diariamente, a oferta é muito grande. Se nós cortarmos esta emissão, a oferta pode diminuir, e com menor oferta, o preço deve, em teoria, subir. Entretanto, emissão atual para as farms precisa permanecer a mesma porque elas  são parte de uma atual parceria com a QuickSwap. Incentivos de vault já foram lançados, e são uma maneira incrível de promover a plataforma de empréstimos, levando as pessoas a tomarem emprestado, então cortar essas emissōes é provavelmente outra má ideia.
+* Responsabilidade com a farm: Eu não estou dizendo que a Adamant é o principal culpado ou que é um mau produto. De fato, eu incluo essa plataforma na maioria das minhas estratégias e a uso diariamente. Entretanto, eu tento fazer farm em pools que eu tenho menor preocupação em saber que o token será despejado. Se você quer rendimentos de farm na Adamant em uma pool que usa a farm da Mai Finance, tenha em mente que você contribuiu para a depreciação de Qi. Se você não tem problema com isso, não há problema algum.
+* Entenda como as coisas funcionam: os preços de todas as criptomoedas são altamente voláteis, e na maioria das vezes, os preços do BTC e ETH determinam os preços de todos os outros tokens. Isso não é feito magicamente. Também, entenda que quando alguém faz dinheiro é porque outra pessoa esta perdendo. Não há dinheiro grátis, e dinheiro mágico da internet não é tão mágico assim.
+* Encontre novos usos para os tokens Qi. Este guia irá sempre prover ideias que irão te ajudar a aumentar o volume do seu portfólio. E raramente venda os seus tokens. Loops fechados são os melhores porque a saída de um produto alimenta a entrada do próximo, criando uma bela bolha que apenas crescerá ao longo do tempo.
 
-Keep also in mind that
+Também tenha em mente que:
 
 $$
-Value = Quantity * Price
+Valor = Quantidade * Preço
 $$
 
-When the price go down but your quantity goes up, your value may increase, or at least it won't decrease as fast.
+Quando o preço diminuí mas a quantidade sobe, seu valor pode aumentar, ou pelo menos não irá diminuir tão rapidamente.
 
-## Disclaimer
+## Aviso legal
 
-This guide is actually a result of many discussion about Qi price on the Discord channel. I realized that some people complaining about the price depreciation didn't fully understand the reasons about why the price of Qi was on a consistant down trend. This leads to frustration and delusion, which is very negative for Qi, the Mai Finance product, and the whole DeFi ecosystem in general. However, there's absolutely no guarantee that the price will ever go up, so if you want to keep your Qis and invest them, please do your own research and do it at your own risk. Plan your strategy properly and stick to it.
+Este guia é, na verdade, um resultado de muitas discussōes sobre o preço de Qi no servidor do Discord. Eu entendi que algumas pessoas reclamando sobre a depreciação do preço não entendiam completamente as razōes por trás da constante tendencia de baixa de Qi. Isso causa frustração e delírio, o que é muito negativo para Qi, o produto da Mai Finance, e todo o ecosistema DeFi no geral. Entretanto, não há garantia se quer que o preço irá subir algum dia, então se você quer manter seus Qis e investí-los, por favor, faça a sua própria pesquisa e corra os seus próprios riscos. Planeje a sua estratégia corretamente e cumpra com ela.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua propria pesquisa.
 {% endhint %}
