@@ -7,7 +7,7 @@
 * [Der Start auf Polygon](investment-tutorials/how-to-get-started-on-polygon.md)
 * [Hebel deine Aave Market Tokens](investment-tutorials/leverage-aave-tokens.md)
 * [camDAI Starterguide](investment-tutorials/camdai-beginner-strategy.md)
-* [Farming using only stable coins](investment-tutorials/secure-your-yield-farming-profits.md)
+* [Farmen mit Stablecoins](investment-tutorials/secure-your-yield-farming-profits.md)
 * [What to do with MAI on Polygon](investment-tutorials/what-to-do-with-mai-on-polygon.md)
 * [What to do with Qi on Polygon](investment-tutorials/what-to-do-with-qi-on-polygon.md)
 * [Stack DApps like Lego bricks](investment-tutorials/stack-dapps-like-lego-bricks.md)

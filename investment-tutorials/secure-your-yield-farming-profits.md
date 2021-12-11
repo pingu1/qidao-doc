@@ -1,194 +1,198 @@
 ---
 description: >-
-  This page presents in details a "safe" strategy to make yield farming a little
-  less profitable, but a lot more secure.
+  Auf dieser Seite wird eine "sichere" Strategie vorgestellt, mit der du Yield
+  Farming etwas weniger profitabel, dafür aber viel sicherer gestalten kannst.
 ---
 
-# Farming using only stable coins
+# Farmen mit Stablecoins
 
-## General idea
+## Die Idee
 
-When you enter a yield farm on Polygon, you expose your investments to the success or failure of the farm. This guide isn't presenting in details what is a Yield Farm, or how you should farm on them. If you need help on that there are tutorials everywhere on internet. You can also get some help from the QiDAO community on [Discord](https://discord.gg/mQq55j65xJ).
+Wenn du eine Yield Farm auf Polygon betrittst, setzt du deine Investitionen dem Erfolg oder Misserfolg der Farm aus. In diesem Leitfaden wird nicht im Detail erklärt, was eine Yield Farm ist oder wie du sie bewirtschaften solltest. Wenn du dazu Hilfe brauchst, findest du überall im Internet Tutorials. Du kannst dir auch Hilfe von der QiDAO-Community auf [Discord](https://discord.gg/mQq55j65xJ) holen.
 
-The main issue when you are farming is that you have to make a choice between
+Das Hauptproblem beim Farmen ist, dass du eine Entscheidung treffen musst zwischen:
 
-* selling the native token and convert them into "secured" assets that will represent your gains
-* re-invest them to generate even more profits (also known as hyper-compounding)
+* die nativen Token verkaufen und sie in "gesicherte" Vermögenswerte umwandeln, die deine Gewinne darstellen
+* sie zu re-investieren, um noch mehr Gewinne zu erzielen (auch bekannt als Hyper-Compounding)
 
-The guide will present step by step how to use Mai Finance to actually secure your gains while still re-investing a portion of it into the farm.
+Dieser Leitfaden zeigt dir Schritt für Schritt, wie du Mai Finance nutzen kannst, um deine Gewinne zu sichern und gleichzeitig einen Teil davon wieder in die Farm zu investieren.
 
 {% hint style="info" %}
-To illustrate in more details how you can do that, I will use the [latest PolyPup](https://ball.polypup.finance) farm. This is for educational purpose only, and should absolutely not be used as a financial advice. Also, the term "secure" here is solely based on my personal appreciation. As always, do your own research. Finally, I personally don't recommend this farm.
+Um genauer zu veranschaulichen, wie du das machen kannst, werde ich die neueste PolyPup-Farm verwenden. Dies dient nur zu Bildungszwecken und sollte auf keinen Fall als Finanzberatung verwendet werden. Außerdem basiert der Begriff "sicher" hier nur auf meiner persönlichen Einschätzung. Wie immer solltest du dich selbst informieren. Abschließend möchte ich sagen, dass ich persönlich diese Farm nicht empfehle.
 {% endhint %}
 
 ![](../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
 
-## Farming life cycle
+## Farming Lebenszyklus
 
-### Getting prepared to farm
+### Die Vorbereitungen
 
-As a humble farmer once told me
+Wie ein bescheidener Bauer mir einmal sagte
 
-> _**You should never buy what you can earn**_
+> Du solltest nie kaufen, was du verdienen kannst
 
-In the guide, we will try to implement as much financial security as possible. To do so, we will farm using stable coins only, in order to protect our investment from any impermanent loss. Most farms are proposing stable coins pairs in their liquidity pools (LP), and MAI gaining more and more visibility, you can find farms proposing MAI/USDC pools. This is the stable coins pair we will be focusing on.
+In diesem Leitfaden werden wir versuchen, so viel finanzielle Sicherheit wie möglich zu erreichen. Dazu werden wir nur mit Stable Coins farmen, um unsere Investitionen vor unvorhergesehenen Verlusten zu schützen. Die meisten Farmen bieten Stable Coin-Paare in ihren Liquiditätspools (LP) an, und da MAI immer mehr an Bekanntheit gewinnt, findest du auch Farmen, die MAI/USDC-Pools anbieten. Dies ist das Stable Coin-Paar, auf das wir uns konzentrieren werden.
 
-In order to start farming using MAI/USDC pair, you need to acquire some stable coins. Mai Finance allows you to borrow the MAI stable coin by depositing your favorite crypto currency. In our case, we have a bunch of MATIC in our wallet, ready to be used. By depositing my MATIC into the [MATIC vault](https://app.mai.finance/vaults/matic) on Mai Finance, I can borrow MAI. If you need assistance doing that, please join the Discord server and ask the community. You can also read other tutorials on this site where you may find how to do this.
-
-{% hint style="info" %}
-You can deposit your MATIC tokens in your MATIC vault, but you can also deposit them into AAVE to get amWMATIC, deposit them on Mai Finance on the yield page to get camWMATIC, and use these camWMATIC as collateral. You will be able to borrow the same amount of MAI, but you will also earn additional yield on your MATIC. See [Leverage your AAVE tokens](https://qidao-qimps.gitbook.io/mai-finance-tutorials/investment-tutorials/leverage-aave-tokens) to get more details on how to do this.
-{% endhint %}
-
-Once you borrowed MAI stable coins, you can use the [anchor page](https://app.mai.finance/anchor) on Mai Finance to convert half of your loan into USDC. Indeed, when you farm using LP pairs, the two parts of the pair need to be provided in a 1:1 ratio.
-
-![Using the swap page to convert 30 of my MAI into USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
-
-Now depending on the farm you want to farm on, you need to combine your 2 stable coins (MAI and USDC) into a valid LP pair on a DEX platform. Since my plan is to enter Polypup, and that farm accepts QuickSwap LPs, I need to go to [QuickSwap](https://quickswap.exchange/#/) and generate my pair there.
-
-![Generate some LP tokens using MAI and USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
-
-I am now ready to enter the farm.
-
-### Deposit and harvest farm tokens
-
-Now that you have some LP tokens, you can go to the farm website and deposit them to start collecting the farm tokens. In our example, I deposited my MAI/USDC tokens into the correct pool, and started collecting BALL tokens.
-
-![Earning BALLs in the pool](../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
-
-As of right now, you can see that farming MAI/USDC is granting me 176.99% APR. Based on how much liquidity is provided in the pool, and on the price of the BALL token, this APR will change over time.
+Um mit dem MAI/USDC-Paar zu farmen, musst du einige Stable Coins erwerben. Bei Mai Finance kannst du dir den MAI Stable Coin leihen, indem du deine bevorzugte Kryptowährung einzahlst. In unserem Fall haben wir einen Haufen MATIC in unserer Wallet, die wir sofort verwenden können. Wenn ich meine MATIC in den [MATIC Vault](https://app.mai.finance/vaults/matic) bei Mai Finance einlege, kann ich mir MAI leihen. Wenn du dabei Hilfe brauchst, tritt bitte dem Discord-Server bei und frage die Community. Du kannst auch andere Tutorials auf dieser Seite lesen, in denen du erfährst, wie du das machen kannst.
 
 {% hint style="info" %}
-It's very important to note that when you deposit your LP tokens, most farm will charge anywhere between 2% and 4% fees directly taken from the tokens you deposit. Be very aware of this, and make sure you are mentally ready to potentially lose the fee, or not fully get it back.
+Du kannst deine MATIC-Token in deinem Vault deponieren, aber du kannst sie auch in AAVE deponieren, um amWMATIC zu erhalten, sie bei Mai Finance auf der Ertragsseite deponieren, um camWMATIC zu erhalten, und diese camWMATIC als Sicherheit verwenden. Du kannst dir die gleiche Menge an MAI leihen, aber du erhältst auch eine zusätzliche Rendite auf deine MATIC. Siehe [Hebel deine AAVE Tokens](leverage-aave-tokens.md), um mehr darüber zu erfahren, wie du das machst.
 {% endhint %}
 
-Now that your stable coins are deposited in the pool, you will earn some farm tokens that you can harvest whenever you want. Note that the price of the farm token will likely be very volatile, so make sure you harvest regularly when the token has some value. The more you wait, the more risk you have to get a big bag of tokens that worth totally nothing. In the screenshot above, simply click the Harvest token and collect your BALLs.
+Wenn du MAI Stable Coins geliehen hast, kannst du die [Anchor-Seite](https://app.mai.finance/anchor) auf Mai Finance nutzen, um die Hälfte deines Kredits in USDC umzuwandeln. Wenn du nämlich mit LP-Paaren farmst, müssen die beiden Teile des Paares im Verhältnis 1:1 bereitgestellt werden.
 
-### Leverage your farm tokens
+![Nutze den Anchor Swap um 30 MAI in USDC zu tauschen](../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
 
-Now that you have some farm tokens, usually you have the choice between
+Je nachdem, auf welcher Farm du farmen willst, musst du deine beiden Stable Coins (MAI und USDC) auf einer DEX-Plattform zu einem gültigen LP-Paar kombinieren. Da ich bei Polypup einsteigen will und diese Farm QuickSwap-LPs akzeptiert, muss ich [QuickSwap](https://quickswap.exchange/#/) aufrufen und dort mein Paar erstellen.
 
-* selling them to buy something of greater value (your favorite crypto is a good example)
-* re-inject them into the pool
+![ LP tokens mit MAI USDC erzeugen](../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
 
-Mai Finance presents a third option that lets you do both. Once you harvested your reward, simply go to your favorite DEX that support the farm token. Usually, you can find a link to a DEX in the menu of the farm. The link will include the token address which will help you trade it easily.
+Jetzt kann gefarmt werden.
 
-![Swapping my reward for more MATIC](../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
+### Sähe deine LP und ernte deine Belohnung
 
-At that point, I am back at the step where we have MATIC tokens in my wallet, ready to be deposited on Mai Finance as a collateral. If I do that, I can borrow MAI, swap a portion of it into USDC, create a LP pair and re-deposit it into the farm. By doing this conversion, I "secure" 100% of my rewards by swapping them into a more stable crypto (here MATIC) and I re-inject 50% of my reward into the farming pool (or actually, in this example, 46% because of the 4% deposit fee).
+Jetzt, wo du ein paar LP-Token hast, kannst du auf die Farm-Website gehen und sie einzahlen, um mit dem Sammeln der Farm-Token zu beginnen. In unserem Beispiel habe ich meine MAI/USDC-Münzen in den richtigen Pool eingezahlt und angefangen, BALL-Münzen zu sammeln.
 
-If you think about it from a different perspective, the APR is 100% applied to your main crypto. If you are depositing new LP tokens into the pool (compounding), you get 50% of the APY advertised by the pool.
+![BALLs in dem Pool verdienen](../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
 
-## Gains estimation
+Im Moment kannst du sehen, dass ich mit MAI/USDC 176,99% APR erhalte. Je nachdem, wie viel Liquidität im Pool vorhanden ist und wie hoch der Preis des BALL-Tokens ist, wird sich dieser effektive Jahreszins im Laufe der Zeit ändern.
 
-All the results presented below are assuming a few things
+{% hint style="info" %}
+Es ist sehr wichtig zu wissen, dass die meisten Farmen bei der Einzahlung deiner LP-Token zwischen 2 und 4 % Gebühren verlangen, die direkt von den eingezahlten Token abgezogen werden. Sei dir dessen bewusst und stelle sicher, dass du mental darauf vorbereitet bist, die Gebühr möglicherweise zu verlieren oder sie nicht vollständig zurückzubekommen.
+{% endhint %}
 
-* We started with the equivalent of 60 MAI borrowed against the equivalent of $120.00 worth of MATIC
-* The APR of the farm is staying at 176.99% for the period of time, translating to a 0.484% daily gain
-* The value of MATIC and BALL stay the same for the period of time
+Nachdem du deine Stable Coins in den Pool eingezahlt hast, erhältst du einige Farm-Token, die du ernten kannst, wann immer du willst. Beachte, dass der Preis des Farm-Tokens wahrscheinlich sehr volatil sein wird, also stelle sicher, dass du regelmäßig erntest, wenn der Token einen gewissen Wert hat. Je länger du wartest, desto größer ist das Risiko, dass du einen großen Sack mit Token bekommst, der nichts wert ist. Im Screenshot oben klickst du einfach auf das Ernte-Token und sammelst deine BALLs ein.
 
-These assumption are obviously not applying to the real life, the APR will slowly decay over time as more liquidity is provided to the pool, and as the farm token varies in price.
+### Nutze deine Farm-Token
 
-### Estimated raw results
+Jetzt, wo du einige Farm-Tokens hast, hast du normalerweise die Wahl zwischen
 
-| Day | LP value | Reward value | Compounded MATIC | New LP created |
-| :-: | -------: | -----------: | ---------------: | -------------: |
-|  1  |   $57.60 |       $0.279 |           $0.279 |         $0.139 |
-|  2  |  $57.734 |       $0.280 |           $0.559 |         $0.140 |
-|  3  |  $57.874 |       $0.280 |           $0.840 |         $0.140 |
-|  4  |  $58.014 |       $0.281 |           $1.121 |         $0.141 |
-|  5  |  $58.155 |       $0.282 |           $1.403 |         $0.141 |
-|  6  |  $58.296 |       $0.282 |           $1.686 |         $0.141 |
-|  7  |  $58.437 |       $0.283 |           $1.969 |         $0.142 |
-|  8  |  $58.579 |       $0.284 |           $2.253 |         $0.142 |
-|  9  |  $58.721 |       $0.285 |           $2.538 |         $0.142 |
-|  10 |  $58.863 |       $0.285 |           $2.823 |         $0.143 |
-|  11 |  $59.006 |       $0.286 |           $3.109 |         $0.143 |
-|  12 |  $59.149 |       $0.287 |           $3.396 |         $0.143 |
-|  13 |  $59.292 |       $0.287 |           $3.684 |         $0.144 |
-|  14 |  $59.436 |       $0.288 |           $3.972 |         $0.144 |
-|  15 |  $59.580 |       $0.289 |           $4.261 |         $0.144 |
-|  16 |  $59.725 |       $0.289 |           $4.551 |         $0.145 |
-|  17 |  $59.870 |       $0.290 |           $4.841 |         $0.145 |
-|  18 |  $60.015 |       $0.291 |           $5.132 |         $0.145 |
+* sie zu verkaufen, um etwas von größerem Wert zu kaufen (dein Lieblingskrypto ist ein gutes Beispiel)
+* sie wieder in den Pool einzahlen
 
-* On day 1, the 4% fee is applied to our initial 60$ worth of MAI/USDC pair
-* At the end of day 1, the generated revenue ($0.279) is fully transferred into the MATIC vault
-* At the end of day 1, since we added some funds to the vault we can borrow more MAI
-* In order to keep a 200% Collateral to Debt ratio, we only borrow 50% of the deposited MATIC ($0.139)
-* At the beginning of day 2, we re-inject $0.139 into the farm (and the farm takes out 4% deposit fee)
-* At the beginning of fay 2, we start again with an additional $0.134 worth of LP token
+Mai Finance bietet eine dritte Option, mit der du beides tun kannst. Sobald du deine Belohnung geerntet hast, triffst du einfach deinen bevorzugten DEX, der den Farm-Token unterstützt. Normalerweise findest du einen Link zu einem DEX im Menü der Farm. Der Link enthält die Adresse des Tokens, mit der du ihn leicht handeln kannst.
 
-### Estimating APRs, APYs and revenue growth
+![Tausche BALL gegen MATIC](../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
 
-The estimation was stopped after 18 days because passed that date, you can see that we are back at a value of $60 worth of LP tokens. This means that I farmed enough to repay the initial deposit fees, which is the minimum goal that any farmer should aim for.
+Dann bin ich wieder an dem Punkt, an dem ich MATIC-Tokens in meiner Wallet habe, die ich bei Mai Finance als Sicherheit hinterlegen kann. Wenn ich das tue, kann ich mir MAI leihen, einen Teil davon in USDC umtauschen, ein LP-Paar erstellen und es wieder in die Farm einzahlen. Durch diese Umwandlung "sichere" ich mir 100 % meiner Belohnung, indem ich sie in eine stabilere Kryptowährung (hier MATIC) tausche und 50 % meiner Belohnung wieder in den Farming-Pool einführe (bzw. in diesem Beispiel 46 % wegen der 4 % Einzahlungsgebühr).
 
-Passed that date, staying in the farm will only generate benefits. And because we're farming using stable coins, there's literally 0% impermanent loss on the liquidity I provide, meaning that there's no risk of losing money by staying in the pool.
+Wenn du es aus einer anderen Perspektive betrachtest, wird der effektive Jahreszins zu 100% auf deine Hauptkryptowährung angewendet. Wenn du neue LP-Token in den Pool einzahlst (Compounding), erhältst du 50% des vom Pool beworbenen effektiven Jahreszinses.
 
-However, I can also consider that I repaid the initial $2.40 deposit fee on day 9 because it's the time when the value of the profit in my MATIC wallet reached that amount. If I was just selling the farm token to make profit and not re-invest into the farming pool, that would actually be the moment I would only generate benefits.
+## Gewinnprognose
 
-In terms of gains, the reward that gets compounded into the farm is only 50% of the farm APR. This means that with a farm APR rated at 176.99%, the actual growth rate is only 88.495% annually, or 0.242% daily.
+Alle im Folgenden dargestellten Ergebnisse gehen von einigen Annahmen aus
 
-It's also possible to calculate the exact gain that was accrued on a specific day on the farm, assuming you are compounding daily, using the following formula for the **R**eturn **O**n **I**nvestment
+* Wir haben mit dem Äquivalent von 60 MAI begonnen, die wir gegen MATIC im Wert von 120,00 $ geliehen haben.
+* Der effektive Jahreszins der Farm bleibt während des gesamten Zeitraums bei 176,99%, was einem täglichen Gewinn von 0,484% entspricht.
+* Der Wert von MATIC und BALL bleibt während des Zeitraums gleich.
+
+Diese Annahmen treffen natürlich nicht auf das wirkliche Leben zu. Der effektive Jahreszins wird im Laufe der Zeit langsam sinken, wenn dem Pool mehr Liquidität zugeführt wird und der Preis des Farm-Tokens schwankt.
+
+### Rohergebnisse
+
+| Tag | LP Wert | Belohnung | Compounded MATIC | New LP created |
+| :-: | ------: | --------: | ---------------: | -------------: |
+|  1  |  $57.60 |    $0.279 |           $0.279 |         $0.139 |
+|  2  | $57.734 |    $0.280 |           $0.559 |         $0.140 |
+|  3  | $57.874 |    $0.280 |           $0.840 |         $0.140 |
+|  4  | $58.014 |    $0.281 |           $1.121 |         $0.141 |
+|  5  | $58.155 |    $0.282 |           $1.403 |         $0.141 |
+|  6  | $58.296 |    $0.282 |           $1.686 |         $0.141 |
+|  7  | $58.437 |    $0.283 |           $1.969 |         $0.142 |
+|  8  | $58.579 |    $0.284 |           $2.253 |         $0.142 |
+|  9  | $58.721 |    $0.285 |           $2.538 |         $0.142 |
+|  10 | $58.863 |    $0.285 |           $2.823 |         $0.143 |
+|  11 | $59.006 |    $0.286 |           $3.109 |         $0.143 |
+|  12 | $59.149 |    $0.287 |           $3.396 |         $0.143 |
+|  13 | $59.292 |    $0.287 |           $3.684 |         $0.144 |
+|  14 | $59.436 |    $0.288 |           $3.972 |         $0.144 |
+|  15 | $59.580 |    $0.289 |           $4.261 |         $0.144 |
+|  16 | $59.725 |    $0.289 |           $4.551 |         $0.145 |
+|  17 | $59.870 |    $0.290 |           $4.841 |         $0.145 |
+|  18 | $60.015 |    $0.291 |           $5.132 |         $0.145 |
+
+
+
+* Am ersten Tag wird die 4%ige Gebühr auf unser MAI/USDC-Paar im Wert von 60$ angewandt.
+* Am Ende von Tag 1 werden die generierten Einnahmen (0,279$) vollständig in den MATIC Vault übertragen.
+* Am Ende von Tag 1 können wir, da wir dem Vault etwas Geld hinzugefügt haben, mehr MAI leihen.
+* Um ein Verhältnis von 200% Sicherheiten zu Schulden einzuhalten, leihen wir uns nur 50% der eingezahlten MATIC ($0,139)
+* Zu Beginn von Tag 2 zahlen wir $0,139 wieder in die Farm ein (und die Farm nimmt 4% Einzahlungsgebühr heraus)
+* Zu Beginn von Tag 2 starten wir erneut mit zusätzlichen LP-Token im Wert von $0,134
+
+### Ungefähre APRs, APYs und Gewinnwachstum
+
+Die Schätzung wurde nach 18 Tagen gestoppt, denn nach diesem Datum kannst du sehen, dass wir wieder bei einem Wert von $60 in LP-Tokens sind. Das bedeutet, dass ich genug gefarmt habe, um die anfänglichen Einzahlungsgebühren zurückzuzahlen - das ist das Mindestziel, das jeder Farmer anstreben sollte.
+
+Ist dieses Ziel überschritten, bringt es nur noch Vorteile, auf der Farm zu bleiben. Und da wir mit Stable Coins farmen, gibt es buchstäblich 0 % Verlust auf die von mir bereitgestellte Liquidität, d.h. es besteht kein Risiko, Geld zu verlieren, wenn ich im Pool bleibe.
+
+Ich kann aber auch davon ausgehen, dass ich die anfängliche Einzahlungsgebühr von 2,40 $ an Tag 9 zurückgezahlt habe, weil der Wert des Gewinns in meiner MATIC Wallet diesen Betrag erreicht hat. Wenn ich den Farm-Token nur verkaufen würde, um Gewinn zu erzeugen, und nicht wieder in den Farming-Pool investieren würde, wäre das tatsächlich der Moment, in dem ich nur Vorteile erzielen würde.
+
+Was die Gewinne angeht, so beträgt die Belohnung, die in die Farm fließt, nur 50% des Farm-APR. Das bedeutet, dass bei einem Farm-APR von 176,99% die tatsächliche Wachstumsrate nur 88,495% jährlich oder 0,242% täglich beträgt.
+
+Es ist auch möglich, den genauen Gewinn zu berechnen, der an einem bestimmten Tag auf der Farm angefallen ist, vorausgesetzt du zählst täglich auf, indem du die folgende Formel für die **R**Rendite **O**n **I**Investition verwendest
 
 $$
 ROI_{DayN}=InitialInvestment*(1+DailyAPR)^{DayN}-InitialInvestment
 $$
 
-In the case of a farm that takes 4% deposit fee, you need to multiply the above result by 96%. In our case, we can quickly verify that the formula works by comparing its result to the table above
+Im Falle einer Farm, die 4% Einzahlungsgebühr nimmt, musst du das obige Ergebnis mit 96% multiplizieren. In unserem Fall können wir schnell überprüfen, dass die Formel funktioniert, indem wir ihr Ergebnis mit der obigen Tabelle vergleichen
 
 $$
 ROI_{Day1} = [60 * (1+0.00242)^{1}-60]*0.96=$0.1396523836
 $$
 
+
+
 $$
 ROI_{Day365}=[60*(1+0.00242)^{365}-60]*0.96=$81.80752927
 $$
 
-Starting from $60.00 and generating $81.81 after 1 year gives an APY of 136.34%.
+If you start with $60.00 and get $81.81 after 1 year, that gives you an APR of 136.34%.
 
-If we compare this to the theoretical APY given by a 88.495% APR using the formula
+Let's compare this to the theoretical APR that results from an APR of 88.495% by using the formula
 
 $$
 APY = ( 1 + \frac{APR}{N})^N-1
 $$
 
-This gives with an APR of 88.495% and N = 365 (compounding daily)
+Dies ergibt bei einem effektiven Jahreszins von 88,495% und N = 365 (täglicher Zinseszins)
 
 $$
 APY = ( 1 + \frac{0.88495}{365})^{365}-1=142.02\%
 $$
 
-Note that the estimation above doesn't take into consideration the 4% deposit fee, hence the small discrepancy.
+Beachten Sie, dass die obige Schätzung die 4 % Einzahlungsgebühr nicht berücksichtigt, daher die kleine Diskrepanz.
 
-The gains in the MATIC wallet are simply twice the gains from the farm and we can calculate the ROI on a given day using the same formula as above and multiply the result by 2.
+Die Gewinne in der MATIC Wallet sind einfach doppelt so hoch wie die Gewinne aus der Farm und wir können die Rendite an einem bestimmten Tag mit der gleichen Formel wie oben berechnen und das Ergebnis mit 2 multiplizieren.
 
 $$
 ROI_{Day365} = [60 * (1 + 0.00242)^{365} - 60]*0.96*2=$163.6150585
 $$
 
-This is the number of MATIC that we would generate by staying into the farm for one year, with an initial investment of 60$ worth of MAI/USDC, assuming the APR of the farm remains the same. This also gives an APY of 272.69%, which is roughly the APR that the farm advertised (the farm usually don't take into consideration the 4% deposit fee in the displayed APR).
+Dies ist die Anzahl der MATIC, die wir generieren würden, wenn wir ein Jahr lang in der Farm bleiben würden, mit einer anfänglichen Investition von 60$ in MAI/USDC, unter der Annahme, dass der effektive Jahreszins der Farm gleich bleibt. Dies ergibt auch einen effektiven Jahreszins von 272,69%, was ungefähr dem von der Farm beworbenen effektiven Jahreszins entspricht (die Farm berücksichtigt in der Regel nicht die 4% Einzahlungsgebühr im angezeigten effektiven Jahreszins).
 
-### Recap after 1 year farming with stable coins
+### **Zusammenfassung nach einem Jahr farmen**&#x20;
 
-At the end of the year we would get
+Am Ende des Jahres hätten wir dann
 
-* $283.62 MATIC in the Vault (initial $120.00 + $163.62 generated by the farm)
-* $141.82 of debt (initial $60.00 + $81.82 borrowed and re-invested)
-* $141.82 of MAI/USDC tokens on the farm
+* 283,62 $ MATIC im Vault (anfänglich 120,00 $ + 163,62 $, die durch die Farm erwirtschaftet wurden)
+* $141,82 Schulden (anfänglich $60,00 + $81,82 geliehen und reinvestiert)
+* $141,82 an MAI/USDC-Token auf der Farm
 
-## Disclaimer
+## Haftungsausschluss
 
-Everything presented in this strategy is assuming that
+Alles, was in dieser Strategie vorgestellt wird, geht davon aus, dass
 
-* The farm is keeping a constant APR on your pool (which is totally wrong)
-* It is possible to farm for a whole year (which is not possible, all farms are ending their farming session sooner or later)
+* Die Farm hält eine konstante APR auf deinen Pool (was völlig falsch ist)
+* es möglich ist, ein ganzes Jahr lang zu farmen (was nicht möglich ist, da alle Farmen ihre Farmsession früher oder später beenden)
 
-As a side note, the APR of the MAI/USDC pool on Polypup after 24h of farming is 128.13%, mostly because of the price of BALL slowly decaying.
+Nebenbei bemerkt liegt der APR des MAI/USDC-Pools auf Polypup nach 24 Stunden Farming bei 128,13%, was vor allem daran liegt, dass der Preis für BALL langsam sinkt.
 
-Also, farming with stable coins _**may**_ be the most "secured" way to earn yields because you're not exposed to impermanent loss. However, there is absolutely no guarantee that you will be able to get your 4% deposit back. You can find some websites that have stable coin pools with 0% to 1% deposit fees, even on the non-native pools (pools that accept LP pairs without the native farm token).
+Außerdem ist das Farmen mit Stable Coins _**vielleicht**_ der "sicherste" Weg, um Erträge zu erwirtschaften, weil du keinen ständigen Verlusten ausgesetzt bist. Allerdings gibt es keine Garantie, dass du deine 4% Einzahlung zurückbekommst. Auf einigen Websites findest du Stable Coin Pools mit 0 % bis 1 % Einzahlungsgebühren, sogar bei den nicht-nativen Pools (Pools, die LP-Paare ohne den nativen Farm-Token akzeptieren).
 
-Harvesting the rewards and swapping them for something valuable is considered the best strategy when farming yields. Borrowing MAI to re-inject a portion of stable coin in the pool and increase your farming revenues exposes your benefits to the 4% deposit fee that the farm is taking off your LP pair, which may not be the best thing to do if you are unsure to get it back, and it's probably better to use another strategy to re-invest your earnings (invest in native pools / pools with 0% interest / pools with high APRs).
+Die Belohnungen zu ernten und gegen etwas Wertvolles einzutauschen, gilt als die beste Strategie beim Farmen von Renditen. Wenn du dir MAI leihst, um einen Teil der Stable Coin wieder in den Pool zu stecken und deine Farming-Einnahmen zu erhöhen, setzt du deine Gewinne der 4%igen Einzahlungsgebühr aus, die die Farm von deinem LP-Paar abzieht. Das ist vielleicht nicht die beste Strategie, wenn du dir nicht sicher bist, ob du sie zurückbekommst, und es ist wahrscheinlich besser, eine andere Strategie zu verwenden, um deine Erträge zu reinvestieren (in native Pools / Pools mit 0% Zinsen / Pools mit hohem effektiven Jahreszins).
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Denke daran, dass eine Strategie, die zu einem bestimmten Zeitpunkt gut funktioniert, zu einem anderen Zeitpunkt schlecht abschneiden (oder Geldverluste erzeugen) kann. Bitte bleibe informiert, beobachte die Märkte, behalte deine Investitionen im Auge und recherchiere wie immer selbst.
 {% endhint %}
