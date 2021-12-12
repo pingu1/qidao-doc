@@ -1,32 +1,32 @@
 ---
 description: >-
-  This tutorial will presents in details how you can use different DApps on 
-  Polygon to increase your benefits when farming stable coins.
+  Este guia mostra em detahles como você pode usar diferentes DApps na rede
+  Polygon para aumentar seus ganhos ao fazer farming de stablecoins.
 ---
 
-# Stack DApps like Lego bricks
+# Montando DApps como peças de Lego
 
-## Intro
+## Introdução
 
-When you farm yields on a given farm, you usually get rewards under the form of native farm tokens. You then have the choice between either selling those, or keep them and hope they will gain some value over time. This guide will present a few different DApps (**D**ecentralized **App**lications) to maximize your yields without selling anything, while still compounding interests. This articles will also start from stable coins, because this is considered as a relatively safe strategy. However, you need to keep in mind that this is not a financial advice, and that this guide should be followed with caution as results are absolutely not guaranteed. As always, do your own research.
+Ao buscar rendimentos em alguma farm, você geralmente recebe as suas recompensas na forma do token nativo da farm. Você então pode escolher entre vendê-los, ou mantê-los com a esperança de que irão valorizar ao longo do tempo. Este guia apresenta alguns diferentes DApps (**D**ecentralized **App**lications, ou Aplicaçōes Decentralizadas) para maximizar seus rendimentos sem que você precise vender qualquer coisa, enquanto ainda recebe juros compostos. Este artigo também irá começar com stablecoins, pois essa é considerada uma estratégia relativamente segura. Porém, você precisa ter em mente que isto não é conselheiro financeiro, e que este guia deve ser seguido com caução já que os resultados não são garantidos. Como sempre, faça a sua própria pesquisa.
 
 ![](../.gitbook/assets/screen-shot-2021-08-30-at-10.52.20-am.png)
 
 ## QuickSwap
 
-QuickSwap is one of the biggest AMM (**A**utomated **M**arket **M**aker) on Polygon. People deposit pairs of tokens into liquidity pools and earn transaction fees from other users who use the platform to swap their tokens. During a swap, QuickSwap automatically choses the best route using the different liquidity pools, and each jump from one pool to the other is subject to transaction fees that are redistributed to the liquidity suppliers.
+A QuickSwap é uma das maiores AMM (**A**utomated **M**arket **M**aker, Agente Automatizado de Mercado) na rede Polygon. Pessoas depositam pares de tokens em pools de liquidez e recebem taxas das transaçōes dos outros usários que usam a plataforma para trocar seus tokens. Durante uma troca, a QuickSwap automaticamente escolhe a melhor rota utilizando diferentes pools de liquidez, e cada pulo de uma pool a outra é sujeito às taxas das transaçōes, que são redistribuídas aos fornecedores de liquidez.
 
-### Stable coin farming
+### Farming com Stablecoins
 
-For this exercise, we will use the MAI/USDC pair on QuickSwap. This liquidity pool, a stable pool, proposes an APY (**A**nnual **P**ercentage **Y**ield that varies between 20% and 25%). The yield is composed of the transaction fees (that are accrued into the liquidity pool) and QUICK rewards.
+Para este exemplo, iremos utilizar o par MAI/USDC na QuickSwap. Esta pool de liquidez, uma stable pool, entrega um APY (**A**nnual **P**ercentage **Y**ield, Rendimento Percentual Anual) que varia entre 20% e 25%. O rendimento é composto de taxas de transaçōes (que são acumuladas na pool de liquidez) e recompensas em QUICK.
 
-![MAI/USDC liquidity pool on QuickSwap as of August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
+![Pool de liquidez MAI/USDC na QuickSwap em Agosto de 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
-The pool gets a fix amount of QUICK tokens every day, and they are then distributed to liquidity providers according to their share of the pool. As an example, if the pool has the equivalent of $1,000,000 worth of liquidity, and you already deposited $1,000 of LP (**L**iquidity **P**rovider) tokens, you own 0.1% of the pool, which entitles you to 0.1% of the daily QUICK reward. Your Quick reward will then be claimable when you manage the pool you entered.
+A pool recebe uma quantidade fixa de tokens QUICK todos os dias, então, eles são distribuídos aos fornecedores de liquidez de acordo com sua fatia da pool. Por exemplo, se a pool tem o equivalente a $1,000,000 de liquidez, e você já depositou $1,000 de LP tokens (**L**iquidity **P**rovider, fornecedor de liquidez), você possui 0.1% da pool, o que te entitula a 0.1% das recompensas diárias de QUICK. Sua recompensa será então exigível quando você gerenciar a pool que você entrou.
 
-![Claiming my QUICK reward for a $20 deposit](../.gitbook/assets/screen-shot-2021-08-30-at-6.39.44-am.png)
+![Reivindicando minhas recompensas em QUICK por um depósito de $20](../.gitbook/assets/screen-shot-2021-08-30-at-6.39.44-am.png)
 
-You can claim them regularly in order to put them at work. Let's see how.
+Você pode reinvidicá-las frequentemente para fazê-las trabalhar. Vamos ver como fazer isso.
 
 ### Dragon's Lair
 
