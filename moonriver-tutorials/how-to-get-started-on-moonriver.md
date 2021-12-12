@@ -1,105 +1,110 @@
 ---
 description: >-
-  En este artículo encontrarás toda la información necesaria para comenzar a
-  operar en la blockchain Moonriver
+  In this guide we'll explain everything you need to know in order to start
+  using the Moonriver chain.
 ---
 
-# Cómo comenzar en Moonriver
+# How to get started on Moonriver
 
-## ¿Qué es Moonriver?
+## What is Moonriver
 
-Va a ser complicado explicar qué es Moonriver sin hablar también de otras cadenas, como MoonBeam, Kusama y Polkadot.
+It is going to be complex to explain what is Moonriver without talking about a few other chains too, including MoonBeam, Kusama and Polkadot.
 
-Polkadot es una cadena de bloques L1 que compite directamente con Ethereum, Cosmos o Eos, y el objetivo de la cadena es hacer crecer un ecosistema completo de criptomonedas y aplicaciones. Uno de los puntos principales que diferencia a Polkadot de otras L1 es su separación en una cadena principal (la cadena de relevo) y redes creadas por los usuarios (parachains). La cadena de relevo se beneficia de los bajos requisitos en términos de recursos informáticos, ya que la mayoría de los desarrollos y pruebas se realizan en las parachains. Por otro lado, las parachains heredan la misma seguridad que la cadena de relevo. Esto también crea entornos aislados que pueden trabajar de forma autónoma y no revelan los datos del usuario a la cadena principal.&#x20;
+Polkadot is a L1 block chain that directly competes with Ethereum, Cosmos or Eos, and the goal of the chain is to grow a complete ecosystem of cryptocurrencies and applications. One of the main point that makes Polkadot different from other L1 is its separation into a main chain (the relay chain) and user-created networks (parachains). The Relay Chain benefits from low requirements in terms of computing resources since most developments and tests are made on parachains. On the other hand, parachains inherit from the same security as the relay chain. This also creates isolated environments that can work in an autonomous fashion and won't disclose user data to the main chain.
 
-Kusama es un entorno de preproducción para Polkadot, una cadena separada que imita a la cadena de relevo principal de Polkadot, y donde se prueban primero todos los desarrollos y actualizaciones para la cadena principal. Sin embargo, como entorno de preproducción, Kusama opera con criptomonedas reales y transacciones reales, pero con reglas más laxas que en Polkadot. Sin embargo, el objetivo de las aplicaciones y cadenas laterales desarrolladas en Kusama es migrar a Polkadot en algún momento. Debido a las reglas más laxas, es más fácil para un proyecto probar cosas y hacer crecer una comunidad mientras se desarrolla el protocolo. Una vez que el producto final está listo, todo puede migrar al entorno de producción.&#x20;
+Kusama is a pre-production environment for Polkadot, a separate chain that mimics the main Relay Chain of Polkadot, and where all the developments and updates for the main chain are tested first. However, as a pre-production environment, Kusama operates with real crypto-currencies and real transactions, but with looser rules than on Polkadot. However, the goal of the applications and side chains developed on Kusama is to be migrated to Polkadot at some point. Because of the looser rules, it's easier for a project to test things and grow a community while developing the protocol. Once the final product is ready, everything can migrate to the production environment.
 
-Moonriver es, en realidad, una parachainde Kusama. El código que se despliega en Moonriver es una versión de prueba del código que puede desplegarse en Moonbeam, la versión de producción de Moonriver en Polkadot. Una vez que el código es validado en Moonriver, puede ser enviado a Moonbeam. Moonbeam y Moonriver son dos cadenas compatibles con EVM, lo que significa que aceptan los mismos contratos inteligentes que otras cadenas compatibles con la red Ethereum. Debido a esto, Moonriver se convirtió rápidamente en el punto de entrada de muchas DApps (Aplicaciones Descentralizadas) que querían expandirse desde la red Ethereum (Mainnet Ethereum, Polygon, Avalanche, Fantom...) a la red Polkadot.&#x20;
+Moonriver is actually a parachain on Kusama. Code that is deployed to Moonriver is a test version of the code that can be deployed on Moonbeam, the production version of Moonriver on Polkadot. Once the code is validated on Moonriver, it can ship to Moonbeam. Moonbeam and Moonriver are 2 chains that are EVM compatible, meaning that they accept the same smart contracts as other chains compatible with the Ethereum network. Because of this, Moonriver quickly become the entry point of many DApps (**D**ecentralized **App**lications) that wanted to expand from the Ethereum network (Eth Mainnet, Polygon, Avalanche, Fantom ...) to the Polkadot network.
 
-Al igual que otras cadenas compatibles con EVM, Moonriver utiliza un token de gas para verificar las transacciones: el token MOVR.
+As other EVM compatible chains, Moonriver uses a gas token used to verify transactions: the MOVR token.
 
-## ¿Cómo comenzar en Moonriver?
+## Getting started on Moonriver
 
-Antes de utilizar la red Moonriver, necesitarás una dirección de monedero. Dado que Moonriver es una red EVM, aceptará los mismos monederos que en otras cadenas EVM, incluyendo monederos web como Metamask o Nifty, y podrás utilizar tu monedero hardware como Trezor o Ledger, pero puede que tengas que seguir pasos adicionales para poder conectar tu monedero frío a la red. Puedes encontrar una guía paso a paso muy clara en la [ documentación oficial de Moonbeam](https://moonbeam.foundation/tutorials/how-to-create-moonriver-ethereum-address/).
+Before usign the Moonriver network, you will need a wallet address. Because Moonriver is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network. You can find a very clear step by step guide on the [official moonbeam foundation doc](https://moonbeam.foundation/tutorials/how-to-create-moonriver-ethereum-address/).
 
-Para este tutorial, nos ceñiremos a Metamask como para todas las demás guías de este sitio. Si no tiene Metamask instalado, puede encontrar instrucciones en [Cómo comenzar en Polygon.](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/espanol/tutoriales-de-polygon/how-to-get-started-on-polygon)
+For this tutorial, we will stick to Metamask like for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](<../polygon-tutorials/how-to-get-started-on-polygon.md>).
 
-### Añadiendo Moonriver a Metamask
+### Adding Moonriver to Metamask
 
-En teoría, Moonriver viene preinstalado con MetaMask, lo que significa que no deberías tener que añadir la información de la cadena para que Metamask funcione. Sin embargo, puede ser una buena idea verificar que tu configuración es correcta comprobando dos veces los valores guardados en tu monedero local. Abre la ventana emergente de Metamask, haz clic en el icono de tu monedero, vaya a `Configuración`, luego elija `Redes` y encuentra `Moonriver`. Los datos que deberías encontrar son los siguientes&#x20;
+In theory, Moonriver comes pre-installed with MetaMask, meaning that you should not have to add the chain information for Metamask to work. However, it may be a good idea to verify that your setup is correct by double checking the values saved into your local wallet. Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Moonriver`. The data you should get are as follows:
 
-* **Nombre de la Red:** Moonriver
-* **Nuevo URL RPC:** https://rpc.moonriver.moonbeam.network
-* **ID de Cadena:** 1285
-* **Simbolo de Moneda:** MOVR
-* **URL de explorador de bloques:** https://blockscout.moonriver.moonbeam.network/
+* **Network Name:** Moonriver
+* **New RPC URL:** https://rpc.moonriver.moonbeam.network
+* **Chain ID:** 1285
+* **Currency Symbol:** MOVR
+* **Block Explorer URL:** https://blockscout.moonriver.moonbeam.network/
 
-Guarde los cambios y Metamask le cambiará automáticamente a la red Moonriver:
+Save the changes, and Metamask will automatically switch you over to the Moonriver network:
 
-![¡Felicidades, ya puedes usar la red Moonriver!](../.gitbook/assets/Moonriver-setup-MM.png)
+![Success!! You're now on Moonriver!](<../.gitbook/assets/Moonriver-setup-MM.png>)
 
-## Transfieriendo activos a Moonriver
+## Bridging to Moonriver
 
 ### Faucets
 
-Uno de los mayores DEX en Moonriver, SolarBeam, ofrece [una transaccion sin coste de gas](https://app.solarbeam.io/bridge/gas-swap) en caso de que te quedes sin gasolina. Esto también supone que tienes algunos fondos en Moonriver, pero no puedes hacer nada porque tienes 0 MOVR en tu cartera.
+One of the biggest DEX on Moonriver, SolarBeam, offers [a gasless transaction swap](https://app.solarbeam.io/bridge/gas-swap) in case you're left without gas. This also assumes you have some funds on Moonriver, but cannot do anything because you have 0 MOVR in your wallet.
 
-![Transacción sin comisión en Moonriver](../.gitbook/assets/Moonriver-faucet.png)
+![Gasless transaction that will allow you to swap for gas](<../.gitbook/assets/Moonriver-faucet.png>)
 
-Tenga en cuenta que sólo se aceptan ciertos activos para esta transacción sin gas, y MAI no forma parte de las monedas admitidas.
+Note that only certain assets are accepted for this gasless transaction, and MAI isn't part of the supported coins.
 
-### Puentes&#x20;
+### Bridges
 
-* [Relay Chain](https://app.relaychain.com/transfer#/) es el socio oficial de Mai Finance si quieres transferir tu MAI a Moonriver desde Polygon. Cuando esté conectado a Polygon, sólo tiene que elegir la cadena de destino (Moonriver) y el activo que desea enviar (MAI o miMATIC) con la cantidad correcta, y hacer clic en el botón `Transfer` .Preste atención a las comisiones de transacción.
+* [Relay Chain](https://app.relaychain.com/transfer#/) is the official partner of Mai Finance if you want to transfer your MAI to Moonriver from Polygon. When you're connected to Polygon, you can simply chose the destination chain (Moonriver) and the asset you want to send (MAI or miMATIC) with the correct amount, and click on the `Transfer` button. Pay attention to the transfer fees.
 
-![Transfieriendo MAI de Polygon a Moonriver usando Relay Chain](../.gitbook/assets/Moonriver-relaychain.png)
+![Bridging MAI from Polygon to Moonriver using Relay Chain](<../.gitbook/assets/Moonriver-relaychain.png>)
 
-* Si necesita hacer un puente con otros activos de otra red, puede utilizar la Relay Chain (véase más arriba), [AnySwap](https://anyswap.exchange/#/bridge) funcionará si quieres transferir desde Eth Mainnet a Moonriver, y por supuesto también puedes usar la función de puente desde [Solarbeam](https://app.solarbeam.io/bridge).
-* Por último, cabe destacar que [Elknet](https://app.elk.finance/#/elknet) actuará tanto de puente como de grifo (faucet) cuando transfieras el token ELK entre 2 redes. Podrás hacer un puente con tu ELK y en el extremo receptor, podrás tener una pequeña porción de tu ELK directamente disponible como el token de gas, MOVR en nuestro caso.
+* If you need to bridge other assets from other network, you can use Relay Chain (see above), [AnySwap](https://anyswap.exchange/#/bridge) will work if you want to bridge from Eth Mainnet to Moonriver, and of course you can also use the bridge feature from [Solarbeam](https://app.solarbeam.io/bridge).
+* A special note for [Elknet](https://app.elk.finance/#/elknet) that will act both as a bridge and as a faucet when you transfer the ELK token between 2 networks. You will be able to bridge your ELK and on the receiving end, you can have a small portion of your ELK directly available as the gas token, MOVR in our case.
 
 ### Hub
 
-En el caso de que hagas un puente entre MAI de Polygon y Moonriver a través de Relay Chain, obtendrás la versión de MAI de RelayChain en lugar del MAI nativo acuñado por la aplicación en Moonriver. Los 2 tokens (el de RelayChain y el de Mai Finance) tienen el mismo valor y el mismo nombre, pero diferentes direcciones de contrato, y el único que será aceptado para cultivar rendimientos en Moonriver es el de Mai Finance.
+In case you bridge some MAI from Polygon to Moonriver via Relay Chain, you will get the RelayChain version of MAI instead of the native MAI minted by the application on Moonriver. The 2 tokens (the one from RelayChain and the one from Mai Finance) have the same value and the same name, but different contract addresses, and the only one that will be accepted to farm yields on Moonriver is the one from Mai Finance.
 
-Puedes cambiar tu MAI de Relay Chain usando el [hub en Mai Finance](https://app.mai.finance/hub) con una proporción de 1:1, entonces podrá utilizar verdadero MAI en otras plataformas.
+You can swap your MAI from Relay Chain using [the hub on Mai Finance](https://app.mai.finance/hub) with a 1:1 ratio, then you'll be able to use your true MAI on other platforms.
 
-![Usando el hub para intercambiar el MAI de Relay Chain por MAI nativo](../.gitbook/assets/Moonriver-hub.png)
+![Using the hub to swpa MAI(RelayChain) to true MAI](<../.gitbook/assets/Moonriver-hub.png>)
 
 {% hint style="info" %}
-Como nota al margen, si quieres pasar tu MAI de Moonriver a Polygon u otras cadenas, tendrás que convertirlas primero en su versión RelayChain.
+As a side note, if you want to bridge your MAI from Moonriver to Polygon or other chains, you will have to convert them first into their RelayChain version.
 {% endhint %}
 
-## DeFi en Moonriver
+## DeFi on Moonriver
 
-Moonriver está consiguiendo mucha tracción y cada vez más aplicaciones se están moviendo a esta nueva cadena, con un potencial para migrar completamente a Polkadot. Así, podrá farmear rendimientos en la siguiente plataforma (la lista no está completa):
+Moonriver is getting a lot of traction and more and more applications are moving to this new chain, with a potential to fully migrate to Polkadot. As such, you will be able to farm yields on the following platform (list isn't complete):
 
-* [Solarbeam](https://app.solarbeam.io): Esta es el principal DEX y AMM en Moonriver. Podrás intercambiar tus activos, participar en la minería de liquidez proporcionando pares LP (Liquidity Providing) en granjas, o stakear el token nativo de la plataforma. Solarbeam es también uno de los primeros socios de Mai Finance en Moonriver, y podrás hacer farming con el par MAI-MOVR. También encontrarás un pool de MAI-USDC que no recibe recompensas, pero que puede obtener algunas comisiones de operación.
+* [Solarbeam](https://app.solarbeam.io): This is the main DEX and AMM on Moonriver. You will be able to swap your assets, participate in liquidity mining by providing LP (**L**iquidity **P**roviding) pairs in farms, or stake the native token of the platform. Solarbeam is also one of the first partner of Mai Finance on Moonriver, and you will be able to farm the MAI-MOVR pair. You will also find a MAI-USDC pool that isn't getting any rewards but may get some trading fees.
 
-![Pares LP que incluyen MAI en solarbeam en Diciembre de 2021](../.gitbook/assets/Moonriver-solarbeam.png)
+![LP pools that include MAI on solarbeam as of December 2021](<../.gitbook/assets/Moonriver-solarbeam.png>)
 
-Cuando farmees en Solarbeam, serás recompensado en tokens SOLAR que luego podrás stakear en una Bóveda durante un determinado periodo de carencia y ganar tokens SOLAR adicionales, o stakear para ganar otros tokens exóticos para la plataforma.
+When you farm on Solarbeam, you will be rewarded in SOLAR tokens that you can then stake in a Vault for a certain vesting period and earn additional SOLAR tokens, or stake to gain other tokens exotic to the platform.
 
-* [Huckleberry Finance](https://www.huckleberry.finance): Este es otro DEX/AMM en Moonriver donde podrás cultivar yieles, y posiblemente usar a Beefy para aumentar tus ganancias.
-* [Beefy Finance](https://app.beefy.finance/#/moonriver): El famoso autocompensador también está en Moonriver y te ayudará a componer tus ganancias tanto de Solarbeam como de Huckleberry. Como nota al margen, Beefy no propone el par MAI-MOVR en el momento de escribir este artículo, pero es posible que pronto puedas usar a Beefy para cosechar los tokens SOLAR y obtener más MAI-MOVR del compounder.
-* [Sushiswap](https://app.sushi.com): ¡No es necesario presentar SushiSwap! Podrás intercambiar tus activos y los rendimientos de las granjas por ciertos tokens de LP como lo harías en cualquier otra cadena. Las recompensas se conceden en SUSHI y MOVR.
-* [Rome DAO](https://romedao.finance): Este es el primer tenedor OHM en Moonriver. Vincula tus activos para obtener tokens de ROMA con descuento que puedes apostar para ganar un APY muy alto. En el momento de escribir este artículo, el ROI de 5 días es de alrededor del 10,6%. RomeDAO acepta actualmente FRAX y MIM en su tesorería, pero pronto podría aceptar también MAIe
+* [Huckleberry Finance](https://www.huckleberry.finance/): This is another DEX/AMM on Moonriver where you will be able to farm yiels, and possible use Beefy to compound your gains.
 
-## Mai Finance en Moonriver
+* [Beefy Finance](https://app.beefy.finance/#/moonriver): The famous auto-compounder is also on Moonriver and will help you compound your gains from both Solarbeam and Huckleberry. As a side note, Beefy doesn't propose the MAI-MOVR pair as of writing, but you may soon be able to use Beefy to harvest the SOLAR tokens and get more MAI-MOVR from the compounder.
 
-La plataforma de préstamos ya está disponible en Moonriver, donde podrás poner tus tokens mooSolarETH-USDC en una cámara acorazada y tomar prestados MAI contra ella. Para ello:
+* [Sushiswap](https://app.sushi.com/): No need to present SushiSwap! You'll be able to swap your assets and farm yields for certain LP tokens like you would do on any other chains. Rewards are granted in SUSHI and MOVR.
 
-* Crear un par ETH-USDC en Solarbeam
-* Depositar el ETH-USDC en Beefy y obtén el token mooSolarETH-USDC como recibo
-* Deposita tu mooToken en Mai Finance en [su vault correspondiente](https://app.mai.finance/vaults/create)
+* [Rome DAO](https://romedao.finance/): This is the first OHM-fork on Moonriver. Bond your assets to get discounted ROME tokens that you can stake to gain very high APY. As time of writing, the 5-Day ROI is around 10.6%. RomeDAO currently accepts FRAX and MIM in its treasury, but may soon accept MAI also.
 
-![Mai Finance vaults on Moonriver as of December 2021](../.gitbook/assets/Moonriver-vaults.png)
+## Mai Finance on Moonriver
 
-La bóveda de ETH simple también es una opción. Mientras que su colateral está ganando 44,08% APY de Beefy Finance (en el momento de escribir), usted será capaz de pedir prestado MAI y hacer farming con el par MAI-MOVR y obtener 128% APRs en Solarbeam, o pronto 158,058% APY en RomeDAO.al&#x20;
+The lending platform is already available on Moonriver where you will be able to put your mooSolarETH-USDC tokens in a vault and borrow MAI against it. In order to do so:
 
-## Descargo de Responsabilidad
+* Create a ETH-USDC pair on Solarbeam
+* Deposit the ETH-USDC pair on Beefy and get a mooSolarETH-USDC receipt token
+* Deposit your mooToken on Mai Finance in [the appropriate vault](https://app.mai.finance/vaults/create)
 
-Esta guía NO es un consejo financiero, y debe considerarse simplemente como una herramienta educativa. Haga siempre su propia investigación. La discusión de un proyecto en esta guía no debe considerarse como un respaldo al proyecto.
+![Mai Finance vaults on Moonriver as of December 2021](<../.gitbook/assets/Moonriver-vaults.png>)
+
+Single ETH vault is also an option.
+
+While your collateral is earning 44.08% APY from Beefy Finance (as of time of writing), you will be able to borrow MAI and farm the MAI-MOVR pool and get 128% APR on Solarbeam, or soon 158,058% APY on RomeDAO.
+
+## Disclaimer
+
+This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
 
 {% hint style="info" %}
-Tenga en cuenta que una estrategia que funciona bien en un momento dado puede dar malos resultados (o hacerle perder dinero) en otro momento. Manténgase informado, controle los mercados, vigile sus inversiones y, como siempre, investigue por su cuenta.
+Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
 {% endhint %}

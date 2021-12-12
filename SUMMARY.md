@@ -38,7 +38,7 @@
 * [Pago de la Deuda - ¿Cuándo y Por Qué?](debt-repayment-why-and-when.md)
 * [Pago de la Deuda - ¿Cómo?](debt-repayment-how.md)
 * [Universo MAI](mai-metaverse.md)
-* [MAI Metaverse Pt.2](mai-metaverse-pt.2.md)
+* [Universo MAI Pt.2](mai-metaverse-pt.2.md)
 * [Como usar MAI en la vida real](how-to-use-mai-in-the-real-life.md)
 
 ## Únete a la comunidad <a href="#comunidad" id="comunidad"></a>
