@@ -30,27 +30,27 @@ Você pode reinvidicá-las frequentemente para fazê-las trabalhar. Vamos ver co
 
 ### Dragon's Lair
 
-The Dragon's Lair is a way to optimize your gains on QuickSwap. You can deposit the QUICK tokens that you earn from liquidity pools into the Lair, and they will earn you additional QUICK rewards. This is a good idea if you want to keep the QUICK tokens instead of selling them. When your QUICK tokens are staked into the Dragon's Lair, the rewards they generate are automatically compounded, and the APY of the Lair is around 12%.
+A Dragon's Lair é uma maneira de otimizar seus ganhos na QuickSwap. Você pode depositar os tokens QUICK que você recebe das pools de liquidez na Lair, e eles então irão te render recompensas QUICK adicionais. Esta é uma ótima ideia se você prefere guardar os tokens QUCIK ao invés de vendê-los. Ao fazer staking de seus tokens QUICK na Dragon's Lair, as recompensas que eles geram são automaticamente reacumuladas, e o APY da Lair é de cerca de 12%.
 
-![Dragon's Lair APY as of August 2021](../.gitbook/assets/screen-shot-2021-08-30-at-6.42.39-am.png)
+![APY da Dragon's Lair em Agosto de 2021](../.gitbook/assets/screen-shot-2021-08-30-at-6.42.39-am.png)
 
-After you deposited your QUICK tokens, you will get in your wallet some dQUICK tokens that represent the share of the QUICK pool that you own. Note that the ratio QUICK:dQUICK isn't 1:1 since the dQUICK represent your share of the pool, while the amount of QUICK will increase over time as more rewards are added to the pool.
+Após depositar seus tokens QUICK, você irá receber em sua carteira tokens dQUICK que representam a sua fatia da pool de QUICK. Note que a razão QUICK:dQUICK não é de 1:1 já que o token dQUICK representa a sua fatia na pool, enquanto a quantidade de QUICK que você possui aumenta ao longo do tempo com mais recompensas sendo adicionadas a pool.&#x20;
 
-Now you have your stable coins deposited in the liquidity pool, and they generate QUICK rewards. The rewards are generating more rewards thanks to the Dragon's Lair. But wait, there's more ...
+Agora você tem suas stablecoins depositadas na pool de liquidez, e elas geram recompensas QUICK. As recompensas geram mais recompensas graças a Dragon's Lair. Mas espera, tem mais...
 
 ### Dragon's Syrup
 
-The Dragon's Syrup is an additional way that QuickSwap offers to reward even more users who are holding QUICK tokens. The QuickSwap team set up a program where partners can promote their products by granting their own token to the users of the QuickSwap platform. You can then deposit your dQUICK tokens into one of the farm in order to earn these exotic tokens on top of the Dragon's Lair rewards. The one we are interested in is the ADDY farm.
+A Dragon's Syrup é uma maneira adicional que a QuickSwap oferece para recompensar ainda mais usuários que estão segurando tokens QUICK. O time da QuickSwap criou um programa onde parceiros podem promover seus produtos ao garantir seus tokens aos usuários da plataforma QuickSwap. Você pode então depositar seus tokens dQUICK em uma das farms para receber esses tokens exóticos somados a suas recompensas da Dragon's Lair. A que nos temos interesse está na farm de ADDY.
 
-![Dragon's Syrup, a farm to collect ADDY token via dQUICK deposits](../.gitbook/assets/screen-shot-2021-08-30-at-6.49.25-am.png)
+![Dragon's Syrup, uma farm para coletar tokens ADDY através de depositos de dQUICK](../.gitbook/assets/screen-shot-2021-08-30-at-6.49.25-am.png)
 
-When you deposit your dQUICK into the farm, they will disappear from the Dragon's Lair (pretty much the same way your camTokens disappear from the Yield page on Mai Finance when you deposit them into a Vault). But you can clearly see that the dQUICK APY from the Lair is still applied, and that you will also get additional ADDY reward. Here, the APR (**A**nnual **P**ercentage **R**eward) is currently 21.36%.
+Quando você deposita seus tokens dQUICK na farm, eles desaparecem da Dragon's Lair (da mesma maneira como seus camTokens desaparecem da página de rendimentos na Mai Finance quando você os deposita na Vault). Mas você pode ver claramente que o APY dQUICK da Lair ainda é aplicado, e que você também recebe recompensas ADDY adicionais. Aqui, o APR (**A**nnual **P**ercentage **R**eward, Taxa de Percentual Anual) é de 21.36% atualmente.
 
 {% hint style="info" %}
-You will notice that the Syrup farms have an expiration date. Here, the ADDY farm will expire in 50 days and 11 hours. Some new farms will show up as some older disappear.
+Você irá notar que as farms da Syrup possuem data de validade. Aqui, a farm ADDY irá expirar em 50 dias e 11 horas. Algumas novas farms irão ser exibidas conforme outras vão desaparecendo.
 {% endhint %}
 
-In our case, the ADDY reward that we get can be claimed manually. You can note that the rate at which we will collect ADDY reward can only accelerate if we compound manually our QUICK rewards into dQUICK that we then deposit into the ADDY farm on QuickSwap.
+No nosso caso, as recompensas em ADDY que nós recebemos podem ser reinvidicadas manualmente. Você pode notar que a taxa pela qual colhemos as recompensas ADDY that we get can be claimed manually. You can note that the rate at which we will collect ADDY reward can only accelerate if we compound manually our QUICK rewards into dQUICK that we then deposit into the ADDY farm on QuickSwap.
 
 ### Quick recap
 
