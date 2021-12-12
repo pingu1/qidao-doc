@@ -27,7 +27,7 @@ Eu não irei gastar muito tempo aqui, pois já há um guia completo sobre assunt
 
 ### Farming com pares LP
 
-Mais uma vez, já há algumas outras páginas explicando como você pode incluir o token Qi na sua estrategia de farming para gerar rendimentos e nunca vender qualquer um de seus tokens de farm. Por exemplo, temos os guias [Empilhe DApps como peças de Lego ](../investment-tutorials/stack-dapps-like-lego-bricks.md)e [Farming ou Staking?](../investment-tutorials/farming-or-staking-or-both.md) para maiores detalhes.
+Mais uma vez, já há algumas outras páginas explicando como você pode incluir o token Qi na sua estrategia de farming para gerar rendimentos e nunca vender qualquer um de seus tokens de farm. Por exemplo, temos os guias [Montando DApps como peças de Lego ](../investment-tutorials/stack-dapps-like-lego-bricks.md)e [Farming ou Staking?](../investment-tutorials/farming-or-staking-or-both.md) para maiores detalhes.
 
 Um lembrete rápido, Qi é pareado a diferentes tokens para formar pares LP (**L**iquidity **P**rovider, ou Provedor de Liquidez) na [QuickSwap](https://quickswap.exchange/#/quick) para que você possa fazer o farm de:
 
@@ -59,7 +59,7 @@ Para o nosso exemplo, nós iremos nos concentrar em Qi. Você também pode ver q
 
 Isso significa que você pode prover apenas Qi na Impermax e obter, no nosso exemplo, um APR de 43.73%, no momento em que escrevo. Conforme a oferta e demanda variam, o APR de fornecimento também irá aumentar ou diminuir. Quando você fornece tokens na Impermax, você é recompensado com o token que você forneceu, o que significa que essa estratégia fará você acumular mais e mais Qi ao longo do tempo.&#x20;
 
-Na Impermax, você também pode utilizar a opção de alavancagem e receber recompensas IMX. Por favor, leia o [guia sobre como empilhar DApps](../investment-tutorials/stack-dapps-like-lego-bricks.md) para obter mais detalhes sobre como você pode incluir Impermax na sua estratégia de farming.
+Na Impermax, você também pode utilizar a opção de alavancagem e receber recompensas IMX. Por favor, leia o [guia sobre como montar DApps](../investment-tutorials/stack-dapps-like-lego-bricks.md) para obter mais detalhes sobre como você pode incluir Impermax na sua estratégia de farming.
 
 ### Balancer
 
