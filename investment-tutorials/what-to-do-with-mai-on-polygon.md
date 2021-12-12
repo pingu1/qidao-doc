@@ -1,178 +1,182 @@
 ---
 description: >-
-  This tutorial will present the different options that will let you use your
-  freshly minted MAI on Polygon.
+  In diesem Tutorial werden die verschiedenen Optionen vorgestellt, mit denen du
+  deinen frisch erworbenen MAI auf Polygon verwenden kannst.
 ---
 
-# What to do with MAI on Polygon
+# Was du mit MAI auf Polygon machen kannst
 
-## Goal of this tutorial
+## Ziel des Tutorials
 
-The goal of this tutorial is not to present in details what you can do with your MAI stable coin, but have a list of all the websites and DeFi application that you can use on Polygon that will let you use your MAI directly, or in combination with other stable coins. For more details about specific ways to use MAI, you can refer to other tutorials on this site, or get help on Discord or Telegram.
+Das Ziel dieses Tutorials ist es nicht, im Detail zu zeigen, was du mit deinem MAI Stable Coin machen kannst, sondern eine Liste aller Webseiten und DeFi-Anwendungen zu erstellen, die du auf Polygon nutzen kannst, um deinen MAI direkt oder in Kombination mit anderen Stable Coins zu verwenden. Wenn du mehr über bestimmte Möglichkeiten zur Verwendung von MAI wissen willst, kannst du dir andere Anleitungen auf dieser Seite ansehen oder dir auf Discord oder Telegram Hilfe holen.
 
-Please note that the list is not complete, and will never be since there are new dapps launching every week on the network. I can't review them all, so I will only present the main options, or the most famous / most "secured" options.
+Bitte beachte, dass diese Liste nicht vollständig ist und es auch nie sein wird, da jede Woche neue Dapps im Netzwerk auftauchen. Ich kann sie nicht alle überprüfen, also werde ich nur die wichtigsten Optionen oder die bekanntesten / am meisten "gesicherten" Optionen vorstellen.
 
-If you want a particular project to be listed, please join the Qi community on [Discord](https://discord.gg/mQq55j65xJ).
+Wenn du möchtest, dass ein bestimmtes Projekt aufgelistet wird, tritt bitte der Qi-Community auf [Discord](https://discord.gg/mQq55j65xJ) bei.
 
 {% hint style="info" %}
-I will not present Mai Finance farms. This subject deserves its own tutorial, because Qi is not like any other random farm token.
+Ich werde keine Mai Finance-Farmen vorstellen. Dieses Thema verdient ein eigenes Tutorial, denn Qi ist nicht wie jeder andere beliebige Farm-Token.
 {% endhint %}
 
-## Farming safely on bluechip projects
+## Farme Bluechip-Projekte
 
-Bluechip projects are the DeFi applications that proved to be solid and present a lower risk. They are usually audited and the team behind them have been working on then for a long time. They usually don't have huge APRs (**A**nnual **P**ercentage **R**ate) but they can be trusted.
+Bluechip-Projekte sind die DeFi-Anwendungen, die sich als solide erwiesen haben und ein geringeres Risiko darstellen. Sie sind in der Regel auditiert und das Team, das hinter ihnen steht, arbeitet schon lange an ihnen. Sie haben in der Regel keinen hohen effektiven Jahreszins, aber man kann ihnen trauen.
 
 ### Balancer
 
-[Balancer](https://polygon.balancer.fi/#/) is an automated portfolio manager, liquidity provider, and price sensor. On the platform, you will be able to lend your crypto and you collect fees from traders, who rebalance your portfolio by following arbitrage opportunities. If you need more details about Balancer, please go read [the official doc](https://docs.balancer.fi).
+[Balancer](https://polygon.balancer.fi/#/) ist ein automatisierter Portfoliomanager, Liquiditätsanbieter und Preissensor. Auf der Plattform kannst du deine Kryptowährungen verleihen und Gebühren von Händlern kassieren, die dein Portfolio nach Arbitragemöglichkeiten neu ausbalancieren. Wenn du mehr über Balancer wissen willst, dann lies bitte die offizielle Dokumentation]\(https://docs.balancer.fi).
 
-On Polygon network, Balancer proposes a pool composed of the 4 main stable coins: DAI, USDC, USDT and MAI (miMATIC). This stable pool has currently a pretty steady APR of \~20%.
+Im Polygon-Netzwerk bietet Balancer einen Pool an, der aus den 4 wichtigsten Stable Coins besteht: DAI, USDC, USDT und MAI (miMATIC). Dieser stabile Pool hat derzeit einen ziemlich stabilen APR von \~20%.
 
-![Stable coin pool state as of August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
+![Stable coin pool, August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
 
-The best thing about Balancer is that you absolutely don't need to own the 4 coins to deposit into the pool. Balancer will automatically generate a balanced combination with whatever deposit you make. This means that if you have 100$ worth of MAI, you can simply deposit them into the Balancer pool and let the algorithm slip it properly to have a 25% ratio for each coin depending on their respective price at the moment of the deposit.
+Das Beste an Balancer ist, dass du die 4 Token gar nicht besitzen musst, um in den Pool einzuzahlen. Balancer generiert automatisch eine ausgewogene Kombination mit jeder Einzahlung, die du tätigst. Das heißt, wenn du MAI im Wert von 100$ hast, kannst du sie einfach in den Balancer-Pool einzahlen und den Algorithmus sie so verteilen lassen, dass ein Verhältnis von 25% für jeden Coin entsteht, abhängig von ihrem jeweiligen Preis zum Zeitpunkt der Einzahlung.
 
-Rewards for the pool are paid using the BAL token, distributed on a weekly basis. In addition to the BAL token, additional rewards can be granted depending on the pool you entered. You can check the different [incentives program here](https://balancer-incentives.web.app). In our case, participating in the stable pool will also earn you MATIC and Qi rewards.
+Die Belohnung für den Pool wird mit dem BAL-Token ausgezahlt, der wöchentlich verteilt wird. Zusätzlich zum BAL-Token können weitere Belohnungen gewährt werden, je nachdem, an welchem Pool du teilgenommen hast. Du kannst die verschiedenen [Anreizprogramme hier](https://balancer-incentives.web.app) einsehen. In unserem Fall bringt dir die Teilnahme am stabilen Pool auch Belohnungen in Form von MATIC und Qi ein.
 
-The complete flow would be something like this
+Der komplette Ablauf würde in etwa so aussehen
 
 ![](../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
-If you need more details on how you can use Mai Finance to lend your crypto and borrow MAI (instead of selling your crypto to buy MAI), read other guides on this site. You can even [include AAVE into the loop](leverage-aave-tokens.md) to earn even more.
+Wenn du mehr darüber wissen willst, wie du Mai Finance nutzen kannst, um deine Kryptowährung zu verleihen und MAI zu leihen (anstatt deine Kryptowährung zu verkaufen, um MAI zu kaufen), lies andere Anleitungen auf dieser Seite. Du kannst sogar AAVE in den Kreislauf einbeziehen, um noch mehr zu verdienen.
 
 ### Curve finance
 
-A little bit of click-bait here. [Curve](https://polygon.curve.fi) is another platform where you will be able to lend your crypto assets in pools that will generate revenues, but not MAI directly (not yet?). The pools we are interested in are
 
-* the AAVE pool that will generate between 5% and 15% APR (APR varies a lot) on a stable coins trio (DAI/USDC/USDT). The pool works exactly like Balancer in the way that you can enter the pool using a single asset that will be used on AAVE by the protocol.
-* the atricrypto pool that is composed of the stable coin trio and includes wETH and wBTC too to mitigate impermanent losses. This pool has an APR ranging between 25% and 30%. The Mai Finance team is currently trying to have MAI added to this pool too, meaning that you may be able to enter it with your minted MAI directly.
 
-While waiting for the Curve protocol to accept MAI as a valid stable coin in their pools, you can still use your favourite crypto with Curve by following these steps (example with MATIC)
+Ein kleiner Click-Bait hier. [Curve](https://polygon.curve.fi) ist eine weitere Plattform, auf der du dein Krypto-Vermögen in Pools verleihen kannst, die Einnahmen generieren, aber nicht direkt MAI (noch nicht?). Die Pools, an denen wir interessiert sind, sind
 
-* Deposit your MATIC token on AAVE and collect amWMATIC
-* Deposit your amWMATIC on Mai Finance and collect camWMATIC (the AAVE rewards will be compounded into the camWMATIC tokens)
-* Use the camWMATIC as a collateral on Mai Finance and borrow MAI against it
-* Use the [swap page](https://app.mai.finance/swap) on Mai Finance to swap all of your MAI for USDC
-* Then you can
-  * Enter the atricrypto pool on Curve with your USDC and get 25% to 30% reward
-  * Enter the AAVE pool on Curve with your USDC and get 5% to 15% reward
+* der AAVE-Pool, der zwischen 5% und 15% APR (APR variiert stark) auf ein Stable Coin-Trio (DAI/USDC/USDT) generiert. Der Pool funktioniert genau wie Balancer in der Weise, dass du dem Pool mit einem einzigen Asset beitreten kannst, das vom Protokoll auf AAVE verwendet wird.
+* der atricrypto-Pool, der sich aus dem Stable Coin-Trio zusammensetzt und auch wETH und wBTC enthält, um unbeständige Verluste abzufedern. Dieser Pool hat einen APR zwischen 25% und 30%. Das Team von Mai Finance bemüht sich derzeit darum, dass auch MAI in diesen Pool aufgenommen wird, so dass du mit deinem geprägten MAI direkt in diesen Pool einsteigen kannst.
 
-Rewards on Curve are granted in
+Während du darauf wartest, dass das Curve-Protokoll MAI als gültigen Stable Coin in seine Pools aufnimmt, kannst du deine Lieblingskryptowährung mit Curve nutzen, indem du folgende Schritte befolgst (Beispiel mit MATIC)
 
-* Auto-compounded USDC that increase your position in the pool (it will be a mix of USDC/USDT/DAI and possibly wBTC/wETH for the atricrypto pool)
-* WMATIC that you can then use to repeat the loop above and increase your loan and invested capital
-* CRV token, that can also be used as collateral on Mai Finance to borrow more MAI and increase your invested capital
+* Hinterlege deinen MATIC-Token bei AAVE und sammle amWMATIC
+* Hinterlege deine amWMATIC bei Mai Finance und sammle camWMATIC (die Belohnungen von AAVE werden in die camWMATIC-Tokens umgewandelt)
+* Verwende die camWMATIC als Sicherheit bei Mai Finance und leihe dir MAI dafür.
+* Verwende die [Tauschseite](https://app.mai.finance/swap) auf Mai Finance, um alle deine MAI in USDC zu tauschen.
+* Dann kannst du
+  * Mit deinen USDC in den atricrypto-Pool auf Curve einsteigen und 25 bis 30 % Belohnung erhalten
+  * Dem AAVE-Pool auf Curve mit deinen USDC beitreten und eine Belohnung von 5% bis 15% erhalten
+
+Belohnungen auf Curve werden gewährt in
+
+* Automatisch zusammengesetzte USDC, die deine Position im Pool erhöhen (es wird eine Mischung aus USDC/USDT/DAI und möglicherweise wBTC/wETH für den Atricrypto-Pool sein)
+* WMATIC, mit denen du dann die obige Schleife wiederholen und dein Darlehen und dein investiertes Kapital erhöhen kannst
+* CRV-Token, der auch als Sicherheit bei Mai Finance verwendet werden kann, um mehr MAI zu leihen und dein investiertes Kapital zu erhöhen
 
 ![](../.gitbook/assets/screen-shot-2021-08-11-at-12.14.27-pm.png)
 
 ### AAVE
 
-There's a complete guide on how you can use Mai Finance to [lever up your crypto on AAVE](leverage-aave-tokens.md). This is not doing a direct use of MAI stable coin, but we can imagine that, in the future, AAVE will also have a MAI pool where you will be able to lend your crypto.
+Es gibt eine vollständige Anleitung, wie du Mai Finance nutzen kannst, um deine [Aave Token zu hebeln](leverage-aave-tokens.md). Das ist zwar keine direkte Nutzung von MAI Stable Coin, aber wir können uns vorstellen, dass AAVE in Zukunft auch einen MAI-Pool haben wird, in dem du deine Kryptowährung verleihen kannst.
 
 ### QuickSwap
 
-[QuickSwap](https://quickswap.exchange/#/) is probably one of the most famous DEX (Decentralized EXchange) on Polygon with SushiSwap and 1Inch. It's also an AMM (Automated Market Maker) that allows users to efficiently trade on the Polygon network using liquidity pools. Any trade on the exchange is subject to a fee that is partially redistributed to users who deposit their liquidity on the platform.
+[QuickSwap](https://quickswap.exchange/#/) ist wahrscheinlich eine der bekanntesten DEX (Decentralized EXchange) auf Polygon mit SushiSwap und 1Inch. Es ist auch ein AMM (Automated Market Maker), der es den Nutzern ermöglicht, im Polygon-Netzwerk mithilfe von Liquiditätspools effizient zu handeln. Für jeden Handel an der Börse fällt eine Gebühr an, die teilweise an die Nutzer/innen umverteilt wird, die ihre Liquidität auf der Plattform hinterlegen.
 
-The way you can use MAI on QuickSwap is very similar to a [regular yield farm](secure-your-yield-farming-profits.md) so if you need to get exact steps to enter the MAI/USDC pool on QuickSwap, it's probably better for you to read this article.
+Die Art und Weise, wie du MAI auf QuickSwap nutzen kannst, ähnelt sehr einer [regulären Yield Farm](secure-your-yield-farming-profits.md). Wenn du also die genauen Schritte für den Eintritt in den MAI/USDC-Pool auf QuickSwap benötigst, ist es wahrscheinlich besser, diesen Artikel zu lesen.
 
-Currently, if you enter the MAI/USDC LP (**L**iquidity **P**rovider) pool on QuickSwap, you will earn
+Wenn du derzeit dem MAI/USDC LP (**L**iquidität **P**rovider) Pool auf QuickSwap beitrittst, erhältst du
 
-* trading fees
-* QUICK tokens
+* Handelsgebühren
+* QUICK-Tokens
 
-![Details of the MAI/USDC pool on QuickSwap as of August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
+![MAI/USDC pool auf QuickSwap, August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
-## Degen farms and aggregators
+## Degen Farmenand aggregators
 
 ### Adamant
 
-[Adamant](https://adamant.finance/home) is an aggregator that is listing all the "best" farms on Polygon and let you enter them directly from their website. By depositing your assets (LP tokens) on a specific pool on Adamant, the algorithms will harvest the rewards granted by the pool and automatically compound part of the reward into your LP position. The rest of the reward is usually converted in WMATIC that is then redistributed to the holders of the ADDY token (native token of Adamant). Finally, you get a reward in ADDY tokens as well that you can harvest and vest for 90 days, earning you part of the WMATIC dividends.
 
-In general, Adamant is a good place to go if you don't really care about the farm token, and if you don't want to compound your rewards manually several times a day. It also generates more revenue since you get some ADDY rewards in addition to the reward granted by the pool.
 
-Adamant currently supports a few pools that accept the MAI/USDC LP pair. The pools are on
+[Adamant](https://adamant.finance/home) ist ein Aggregator, der alle "besten" Farmen auf Polygon auflistet und dich direkt über seine Website teilnehmen lässt. Wenn du dein Vermögen (LP-Token) in einen bestimmten Pool auf Adamant einzahlst, ernten die Algorithmen die Belohnungen, die der Pool gewährt, und setzen einen Teil der Belohnung automatisch in deine LP-Position um. Der Rest der Belohnung wird in der Regel in WMATIC umgewandelt, das dann an die Inhaber des ADDY-Tokens (natives Token von Adamant) weiterverteilt wird. Schließlich erhältst du auch eine Belohnung in Form von ADDY-Tokens, die du ernten und 90 Tage lang halten kannst, um einen Teil der WMATIC-Dividenden zu erhalten.
 
-* QuickSwap: QUICK reward is swapped into more MAI/USDC LP and WMATIC rewards
-* DinoSwap: Dino reward is swapped into more MAI/USDC LP and WMATIC rewards
-* Mai Finance: Qi reward is swapped into more MAI/USDC LP and WMATIC rewards
+Generell ist Adamant eine gute Wahl, wenn dir der Farm-Token egal ist und du deine Belohnungen nicht mehrmals am Tag manuell zusammensetzen möchtest. Außerdem generiert es mehr Einnahmen, da du zusätzlich zu den Belohnungen des Pools einige ADDY-Belohnungen erhältst.
 
-![QuickSwap MAI/USDC pool on Adamant](../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
+Adamant unterstützt derzeit ein paar Pools, die das MAI/USDC LP-Paar akzeptieren. Die Pools sind auf
 
-{% hint style="info" %}
-The screenshots of the QuickSwap pool on QuickSwap website (see paragraph above) and Adamant have been taken the same day, but are showing different APYs (**A**nnual **P**ercentage **Y**ield).
-{% endhint %}
+* QuickSwap: QUICK Belohnung wird in mehr MAI/USDC LP und WMATIC Belohnungen getauscht
+* DinoSwap: Die Dino Belohnung wird in mehr MAI/USDC LP und WMATIC Belohnungen getauscht
+* Mai Finance: Qi Belohnung wird in mehr MAI/USDC LP und WMATIC Rewards getauscht
 
-You can see that the APY on Adamant is a little bit higher than on QuickSwap directly. The reward breakdown is as follows
-
-* 12.88% Auto-compounded QUICK (meaning the QUICK reward is transformed into more LP tokens)
-* 9.16% ADDY reward (not compounded)
-* 3.40% fee share dividend (claiming ADDY daily)
-
-This means that, out of the 20.92% granted by QuickSwap, only 12.88% is used to increase your LP position, the rest is swapped into WMATIC dividends. You will be able claim your ADDY reward daily (or anytime) and stake them, which will will in turn generate claimable WMATIC dividends. In other words, Adamant _seems_ a better option because it has better APYs and compound rewards automatically, but in reality it involves a lot of manual actions too.
+![QuickSwap MAI/USDC Pool auf Adamant](../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
 
 {% hint style="info" %}
-Using Adamant also has a strong impact of native token prices. Indeed, because Adamant is constantly selling the farm tokens to generate more LP pairs and WMATIC as dividends to their ADDY holders, the sell pressure is very high on farm tokens and can explain why their price is consistently decaying.
+Die Screenshots des QuickSwap-Pools auf der QuickSwap-Website (siehe Absatz oben) und von Adamant wurden am selben Tag aufgenommen, zeigen aber unterschiedliche APYs (Annual Percentage Yield).
 {% endhint %}
 
-### Other farms accepting MAI/USDC LP pair
+Du kannst sehen, dass der APY bei Adamant etwas höher ist als bei QuickSwap direkt. Die Aufschlüsselung der Belohnung sieht wie folgt aus
 
-MAI getting more and more popularity on Polygon, and because QuickSwap supports the MAI/USDC pair, a lot of farms are now supporting it too. The following list will present a few projects on which you can earn yield using MAI/USDC
+* 12,88% QUICK mit automatischer Aufzinsung (d.h. die QUICK Belohnung wird in mehr LP Token umgewandelt)
+* 9,16% ADDY Belohnung (nicht aufgezinst)
+* 3,40% Gebührenanteil-Dividende (ADDY wird täglich eingefordert)
+
+Das bedeutet, dass von den 20,92%, die QuickSwap gewährt, nur 12,88% zur Erhöhung deiner LP-Position verwendet werden, der Rest wird in WMATIC-Dividenden umgewandelt. Du kannst deine ADDY-Belohnung täglich (oder jederzeit) einfordern und sie staken, was wiederum anforderbare WMATIC-Dividenden generiert. Mit anderen Worten: Adamant _scheint_ die bessere Option zu sein, weil es bessere APYs und automatisch zusammengesetzte Belohnungen bietet, aber in Wirklichkeit sind auch hier viele manuelle Aktionen erforderlich.
+
+{% hint style="info" %}
+Die Nutzung von Adamant hat auch einen starken Einfluss auf die Preise der nativen Token. Da Adamant die Farm-Token ständig verkauft, um mehr LP-Paare und WMATIC als Dividenden an ihre ADDY-Inhaber zu generieren, ist der Verkaufsdruck auf Farm-Token sehr hoch und kann erklären, warum ihr Preis ständig sinkt.
+{% endhint %}
+
+### Andere MAI/USDC LP Farmen
+
+MAI wird auf Polygon immer beliebter und da QuickSwap das MAI/USDC-Paar unterstützt, wird es jetzt auch von vielen Farmen unterstützt. In der folgenden Liste werden einige Projekte vorgestellt, bei denen du mit MAI/USDC Erträge erzielen kannst
 
 * DinoSwap
 * Augury
 * Polypup
 * ...
 
-Other farms may also accept the MAI/USDC pool. If you want to stay informed about new farms and their launch date, I strongly recommend taking a look at the [RugDoc.io calendar](https://rugdoc.io/calendar/) for Polygon farms, and possibly to the rest of their website which will present a very smart overview of each farm, as well as their potential risks.
+Andere Farmen akzeptieren möglicherweise auch den MAI/USDC-Pool. Wenn du über neue Farmen und ihr Startdatum informiert bleiben willst, empfehle ich dir, einen Blick auf den [RugDoc.io-Kalender](https://rugdoc.io/calendar/) für Polygon-Farmen zu werfen und möglicherweise auch auf den Rest ihrer Website, die einen sehr klugen Überblick über jede Farm sowie ihre potenziellen Risiken bietet.
 
 ## Impermax
 
-### A little bit of explanation
+### Etwas Erklärung vorab
 
-[Impermax](https://polygon.impermax.finance) is a platform that let users leverage their LP tokens for higher yields. The goal is very simple: by providing LP tokens and using them as collateral, one can then borrow more of the 2 underlying assets to generate more LP tokens and repeat the loop.
+[Impermax](https://polygon.impermax.finance) ist eine Plattform, die es Nutzern ermöglicht, ihre LP-Tokens für höhere Renditen zu nutzen. Das Ziel ist ganz einfach: Indem man LP-Token zur Verfügung stellt und sie als Sicherheit verwendet, kann man mehr von den 2 Basiswerten leihen, um mehr LP-Token zu generieren und den Kreislauf zu wiederholen.
 
-![Impermax loop explained](../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
+![Impermax loop](../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
 
-When doing so, the user is exposed to impermanent loss, and the loss is magnified by the number of times the loop is repeated. The risk of liquidation is also multiplied when too many loops are applied. Indeed, if the APR is multiplied, the price variation of the two coins forming the pair is amplified by the lever effect, leading to faster liquidation.
+Dabei ist der/die Nutzer/in einem impermanenten Verlust ausgesetzt, der durch die Anzahl der Wiederholungen der Schleife noch vergrößert wird. Auch das Risiko eines Totalverlusts wird vervielfacht, wenn zu viele Schleifen angewendet werden. Wenn nämlich der APR vervielfacht wird, werden die Preisschwankungen der beiden Coins, die das Paar bilden, durch die Hebelwirkung verstärkt, was zu einer schnelleren Liquidation führt.
 
-With stable coins, the risk of liquidation is lower though, because the price variation is negligible. This also means that the Collateral to Debt Ratio (CDR) can be very close to 100%, leading to a high number of loops, hence a high APR.
+Bei Stable Coins ist das Risiko einer Liquidation jedoch geringer, da die Preisschwankungen vernachlässigbar sind. Das bedeutet auch, dass die Collateral to Debt Ratio (CDR) sehr nahe bei 100% liegen kann, was zu einer hohen Anzahl von Schleifen und damit zu einem hohen effektiven Jahreszins führt.
 
-Note that Impermax is charging fees when you borrow and leverage your position. The fee corresponds to 0.1% of your final position. As an example, if I have $100 worth of MAI/USDC and I leverage 50x, my final position will worth $5,000 and I will pay a $4.90 fee corresponding to the $4,900 that I borrowed.
+Beachte, dass Impermax Gebühren erhebt, wenn du einen Kredit aufnimmst und deine Position hebelst. Die Gebühr entspricht 0,1 % deiner endgültigen Position. Wenn ich z.B. MAI/USDC im Wert von 100 USD habe und das 50-fache hebele, ist meine endgültige Position 5.000 USD wert und ich zahle eine Gebühr von 4,90 USD für die 4.900 USD, die ich geliehen habe.
 
-The effect of looping the lending/borrowing combination allows to multiply the final APY. With an initial APY of 20% for MAI/USDC pair with a CDR of 110%, operating the loop 50 times, and using the formula
+Der Effekt der Schleifenbildung bei der Kombination von Krediten und Darlehen ermöglicht es, den endgültigen effektiven Jahreszins zu vervielfachen. Bei einem anfänglichen effektiven Jahreszins von 20 % für das Paar MAI/USDC mit einem CDR von 110 %, der 50-maligen Durchführung der Schleife und der Verwendung der Formel
 
 $$
 Equivalent APR = Initial APR * \sum_{i=0}^{n}{\frac{100}{CDR}}^i
 $$
 
-We can easily get a 228% final APR. There are some other elements that will affect the final APR, namely the borrowing APR (loan interest for borrowing more LP tokens), and the supply/demand of both assets composing the LP pair (directly driving the borrowing APR).
+Wir können leicht einen endgültigen effektiven Jahreszins von 228% erhalten. Es gibt noch einige andere Faktoren, die sich auf den endgültigen effektiven Jahreszins auswirken, nämlich der Leihzins (Kreditzinsen für das Ausleihen weiterer LP-Token) und das Angebot bzw. die Nachfrage nach den beiden Vermögenswerten, aus denen sich das LP-Paar zusammensetzt (was sich direkt auf den Leihzins auswirkt).
 
-Also, because all the rates are magnified by the number of times the loop is applied, the APR will vary drastically, and can sometimes become negative for short amount of times (your LP token will be used to repay the negative APR).
+Da alle Zinssätze durch die Anzahl der Anwendungen der Schleife vergrößert werden, variiert der effektive Jahreszins drastisch und kann manchmal für kurze Zeit negativ werden (dein LP-Token wird dann zur Rückzahlung des negativen effektiven Jahreszinses verwendet).
 
-### Leveraged position of my MAI/USDC pair
+### Hebeln des MAI/USDC Paars
 
-In the end, you are using the base APR on a much bigger value, which is earning much bigger interests, increasing the APR of your initial position.
+Am Ende verwendest du den Basiszins auf einen viel größeren Wert, der viel größere Zinsen einbringt und damit den effektiven Jahreszins deiner ursprünglichen Position erhöht.
 
-![An example of Impermax dashboard with an initial $70.52 MAI/USDC pair](../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
+![Ein Beispiel des Impermax Dashboards mit einem anfänglichen $70.52 MAI/USDC Paar](../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
 
-I can see very easily how much I'm using as collateral, how much I initially invested, what's the leverage ratio, and what are the liquidation values due to the leverage ratio. This position will give me the following ratios at the time of writing
+Ich kann ganz einfach sehen, wie viel ich als Sicherheit einsetze, wie viel ich ursprünglich investiert habe, wie hoch die Leverage Ratio ist und wie hoch die Liquidationswerte aufgrund der Leverage Ratio sind. Mit dieser Position erhalte ich zum Zeitpunkt der Erstellung dieses Artikels die folgenden Ratios
 
-![Earnings and spendings estimation at a given time](../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
+![Gewinne und Verluste zum Zeitpunkt des Hebelns](../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
 
-The APR is granted in IMX token that can either be swapped for more MAI/USDC (use the power of Mai Finance to borrow at 0% interest, RFTM), or used to provide liquidity on specific pools accepting IMX on Impermax.
+Der effektive Jahreszins wird in IMX-Token gewährt, die entweder in mehr MAI/USDC getauscht werden können (nutze die Macht von Mai Finance, um Kredite zu 0 % Zinsen aufzunehmen, RFTM) oder um Liquidität in bestimmten Pools zu schaffen, die IMX auf Impermax akzeptieren.
 
-### Supplying MAI to borrowers
+### MAI zum Leihen bereitstellen
 
-Indeed, on the app you can also provide liquidity to those who want to apply leveraging loops to their positions (they will need underlying assets to generate more LP tokens). Lending assets is a great way to earn yield and let the borrowers take all the risks. Also, the more users are borrowing, the higher the supply APR will be.
+In der App kannst du auch Liquidität für diejenigen bereitstellen, die ihre Positionen hebeln wollen (sie brauchen Basiswerte, um mehr LP-Token zu generieren). Das Verleihen von Vermögenswerten ist eine großartige Möglichkeit, um Rendite zu erzielen und den Kreditnehmern das gesamte Risiko zu überlassen. Je mehr Nutzerinnen und Nutzer leihen, desto höher ist auch der APR des Angebots.
 
-![Rates for supplying and borrowing MAI on Impermax at a given time](../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
+![Raten für MAI auf Impermax zum Zeitpunkt des Tutorials](../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
 
-This is another great way to optimize your 0% loan on Mai Finance. Not only you don't have to pay anything to borrow MAI, but you can earn a lot of interest just by depositing it on Impermax.
+Dies ist eine weitere tolle Möglichkeit, deinen 0%-Kredit bei Mai Finance zu optimieren. Du musst nicht nur nichts bezahlen, um dir MAI zu leihen, sondern kannst auch eine Menge Zinsen verdienen, indem du es einfach auf Impermax einzahlst.
 
-## Disclaimer
+## Haftungsausschluss
 
-Everything is this tutorial is purely educational. The goal is to bring light to projects that I think are worthy for people evolving in the crypto world on Polygon. I obviously didn't talk about Mai Finance as a farm because a dedicated tutorial will be written very soon. Finally, this guide is ABSOLUTELY NOT meant to be applied as is, it's not any financial advice and you should not follow blindly what I wrote. Please read the docs of the different projects I mentioned before considering investing on their platforms.
+Alles an diesem Tutorial ist rein informativ. Das Ziel ist es, Projekte vorzustellen, die ich für wertvoll halte, damit sich die Kryptowelt auf Polygon weiterentwickeln kann. Ich habe natürlich nicht über Mai Finance als Farm gesprochen, denn dafür wird es bald ein eigenes Tutorial geben. Abschließend sei gesagt, dass dieser Leitfaden ABSOLUT NICHT dafür gedacht ist, einfach so angewendet zu werden, er ist keine Finanzberatung und du solltest nicht blindlings dem folgen, was ich geschrieben habe. Bitte lies die Dokumente der verschiedenen Projekte, die ich erwähnt habe, bevor du in ihre Plattformen investierst.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Denke daran, dass eine Strategie, die zu einem bestimmten Zeitpunkt gut funktioniert, zu einem anderen Zeitpunkt schlecht abschneiden (oder Geldverluste erzeugen) kann. Bitte bleibe informiert, beobachte die Märkte, behalte deine Investitionen im Auge und recherchiere wie immer selbst.
 {% endhint %}
