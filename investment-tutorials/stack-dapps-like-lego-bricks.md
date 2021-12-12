@@ -50,16 +50,16 @@ Quando você deposita seus tokens dQUICK na farm, eles desaparecem da Dragon's L
 Você irá notar que as farms da Syrup possuem data de validade. Aqui, a farm ADDY irá expirar em 50 dias e 11 horas. Algumas novas farms irão ser exibidas conforme outras vão desaparecendo.
 {% endhint %}
 
-No nosso caso, as recompensas em ADDY que nós recebemos podem ser reinvidicadas manualmente. Você pode notar que a taxa pela qual colhemos as recompensas ADDY that we get can be claimed manually. You can note that the rate at which we will collect ADDY reward can only accelerate if we compound manually our QUICK rewards into dQUICK that we then deposit into the ADDY farm on QuickSwap.
+No nosso caso, as recompensas em ADDY que nós recebemos podem ser reinvidicadas manualmente. Você pode notar que a taxa pela qual colhemos as recompensas ADDY pode apenas acelerar se nós reacumulamos manualmente as nossas recompensas QUICK em dQUICK que então depositamos na farm de ADDY na QuickSwap.
 
-### Quick recap
+### Recapitulando
 
-We have MAI/USDC LP tokens deposited in the liquidity pool, and we earn
+Nós temos tokens LP MAI/USDC depositados na pool de liquidez, e nós ganhamos:
 
-* swapping fees
-* QUICK rewards from the pool that we need to claim manually and add to the Dragon's Lair
-* QUICK rewards from the Dragon's Lair that are auto-compounded in our existing rewards
-* ADDY rewards from the Dragon's Syrup that we can claim
+* Taxas das trocas
+* Recompensas em QUICK da pool, que precisamos reinvidicar manualmente e adicionar à Dragon's Lair
+* Recompensas em QUICK da Dragon's Lair que são automaticamente reacumuladas com as nossas recompensas existentes
+* Recompensas ADDY da Dragon's Syrup que nós podemos reivindicar
 
 ## Impermax
 
