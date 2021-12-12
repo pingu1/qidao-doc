@@ -28,7 +28,7 @@
 
 ## Tutoriales de Moonriver
 
-* [How to get started on Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
+* [Cómo comenzar en Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
 
 ## Artículos sobre MAI <a href="#universidade-de-mai" id="universidade-de-mai"></a>
 
