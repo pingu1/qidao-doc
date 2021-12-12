@@ -63,31 +63,31 @@ Nós temos tokens LP MAI/USDC depositados na pool de liquidez, e nós ganhamos:
 
 ## Impermax
 
-Impermax is an application that allows their user to leverage automatically their assets in order to amplify their positions in liquidity pools. This is done by borrowing additional assets supplied on the Impermax platform.
+Impermax é uma aplicação que permite seu usuário alavancar automaticamente seus ativos para amplificar suas posiçoes nas pools de liquidez. Isso é feito adicionando ativos adicionais fornecidos na plataforma da Impermax.&#x20;
 
-### Stable coin farmin
+### Farming com stablecoins
 
-For this exercise, we will also use the MAI/USDC pool in Impermax. By depositing some LP tokens into the MAI/USDC pool, we now have the option to leverage this deposit a certain number of times in order to increase our exposed capital, and gain more rewards. You need to pay attention to a few things when you're using Impermax though
+Para este exemplo, nós também utilizaremos a pool de MAI/USDC na Impermax. Depositando alguns LP tokens na pool MAI/USDC, nós agora temos a opção de alavancar este deposito um certo numero de vezes para aumentar o nosso cpaital exposto, e com isso ganhar mais recompensas. Porém, você precisa prestar atenção a algumas coisas quando você utilizar a Impermax:
 
-* You can only borrow what other users supply
-* The more assets are borrowed, the higher the borrowing rate
-* If the borrowing rate becomes too high, your final APR can become negative, and then you will lose some of your LP
-* The more you leverage, the higher the APR, but the higher the borrowing rate
+* Você pode apenas tomar emprestado o que outros usuários fornecem
+* Quanto mais ativos tomar emprestado, maior a taxa de empréstimo
+* Se a taxa do empréstimo ficar muito alta, seu APR final pode se tornar negativo, então você perderá parte da sua LP&#x20;
+* Quanto mais você se alavncar, maior será o APR, mas também maior a taxa deo empréstimo&#x20;
 
-### Levered position
+### Posição alavancada
 
-On QuickSwap, I deposited $20 worth of MAI/USDC pair. On Impermax, I will deposit only $10 worth of MAI/USDC and will apply a x2 lever on it to get a $20 exposure.
+Na QuickSwap, eu depositei $20 do par MAI/USDC. Na Impermax, eu irei depositar apenas $10 de MAI/USDC e irei aplicar alavancagem de 2 vezes para obter exposiçāo de $20.
 
-![Leverage window on Impermax at a given time](../.gitbook/assets/screen-shot-2021-08-30-at-7.11.10-am.png)
+![Janela de alavancagem na Impermax em um dado período](../.gitbook/assets/screen-shot-2021-08-30-at-7.11.10-am.png)
 
-You can see on the screenshot above that, if I increase my leverage to x2.1, I would borrow
+Você pode ver na foto acima que se aumento minha alavancagem para 2.1 vezes, eu tomaria emprestado:&#x20;
 
 * 0.481269 USDC
 * 0.487593 MAI
 
-We can also see by how much the trading fees I collect would increase (+3.45%), as well as the increase in QUICK rewards (+36.83%), IMX rewards (+23.05%) and the borrowing rate (-37.20%) for a final estimated APR of 26.13%.
+Nós podemos ver também o quanto as taxas das operaçōes que eu coleto iriam aumentar (+3.45%), assim como o aumento de recompensas QUICK (+36.83%), recompensas IMX (+23.05%) e a taxa de empréstimo (-37.20%) para um APR final estimado em 26.13%.
 
-Note in this example that the Borrowing fees are paid using the QUICK rewards and the trading fees in case the QUICK rewards aren't enough. Then the IMX reward goes to the supplier if the borrowing fee isn't yet paid, and finally the deposit is used to pay the supplier if there's still something to pay.
+Perceba neste exemplo que as taxas de empréstimo são pagas utilizando das recompensas QUICK e as taxas das operaçōes, no caso em QUICK, não são suficiente. in this example that the Borrowing fees are paid using the QUICK rewards and the trading fees in case the QUICK rewards aren't enough. Then the IMX reward goes to the supplier if the borrowing fee isn't yet paid, and finally the deposit is used to pay the supplier if there's still something to pay.
 
 Our goal here is to match the deposit we have on QuickSwap, so we'll stick to a x2 leverage. This also ensures that we don't get the risk of going into negative APRs. Our goal is not to collect as much reward as possible, but to increase our position over time, and collect IMX tokens.
 
