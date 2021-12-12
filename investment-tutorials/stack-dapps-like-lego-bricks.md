@@ -87,16 +87,16 @@ Você pode ver na foto acima que se aumento minha alavancagem para 2.1 vezes, eu
 
 Nós podemos ver também o quanto as taxas das operaçōes que eu coleto iriam aumentar (+3.45%), assim como o aumento de recompensas QUICK (+36.83%), recompensas IMX (+23.05%) e a taxa de empréstimo (-37.20%) para um APR final estimado em 26.13%.
 
-Perceba neste exemplo que as taxas de empréstimo são pagas utilizando das recompensas QUICK e as taxas das operaçōes, no caso em QUICK, não são suficiente. in this example that the Borrowing fees are paid using the QUICK rewards and the trading fees in case the QUICK rewards aren't enough. Then the IMX reward goes to the supplier if the borrowing fee isn't yet paid, and finally the deposit is used to pay the supplier if there's still something to pay.
+Perceba neste exemplo que as taxas de empréstimo são pagas com as recompensas QUICK e as taxas das operaçōes, caso as recompensas QUICK sozinhas não sejam o suficiente. Se a taxa de empréstimo ainda não for paga, as recompensas IMX são usadas para isso, e por último, se ainda houver algo a ser pago, o depósito.
 
-Our goal here is to match the deposit we have on QuickSwap, so we'll stick to a x2 leverage. This also ensures that we don't get the risk of going into negative APRs. Our goal is not to collect as much reward as possible, but to increase our position over time, and collect IMX tokens.
+Nosso objetivo aqui é igualar o depósito que temos com o da QuickSwap, então nós permaneceremos com uma alavancagem de duas vezes. Isso também garante que nós não teremos o risco de atingir APRs negativo. Nosso objetivo não é coletar a maior quantidade de recompensas possível, mas aumentar nossa posiçāo ao longo do tempo, e coletar tokens IMX.
 
-### Quick recap
+### Recapitulaçāo
 
-We have MAI/USDC tokens deposited in the appropriate pool
+Nōs temos tokens MAI/USDC depositados na pool apropriada:
 
-* Our position is levered two times in order to match the amount deposited in QuickSwap
-* We collect IMX tokens
+* Nossa posição é alavancada duas vezes para corresponder com a quantidade depositada na QuickSwap
+* Nós coletamos tokens IMX
 
 ## Adamant
 
