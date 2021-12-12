@@ -100,23 +100,23 @@ Nōs temos tokens MAI/USDC depositados na pool apropriada:
 
 ## Adamant
 
-Adamant is a yield optimizer platform that automates harvesting into liquidity pools and auto-compound rewards into additional LP tokens. Most of the pools present on Adamant are popular pools from big liquidity providers like QuickSwap, SushiSwap and others. Let's see how we can use Adamant to optimize our yields.
+A Adamant é uma plataforma otimizadora de rendimentos que automatiza a colheita nas pools de liquidez e reacumula automaticamente as recompensas em LP tokens adicionais. A maioria das pools presentes nas Adamant são pools populares de grandes provedores de liquidez como a QuickSwap, SushiSwap e outros. Vejamos como podemos utilizar a Adamant para otimizar nossos rendimentos.
 
-### QUICK/IMX farming
+### Farming de QUICK/IMX
 
-We earn QUICK tokens on QuickSwap, and we earn IMX tokens on Impermax. Let's use Adamant to farm the QUICK/IMX pool from QuickSwap. Why do that? Because the farm is actually very profitable, as you can see here:
+Nós recebemos tokens QUICK na QuickSwap, e tokens IMX na Impermax. Vamos usar a Adamant para o farm de QUICK/IMX na pool da QuickSwap. Por que fazer isto? Porque esta farm é, de fato, muito rentável, como você pode ver abaixo:
 
-![IMX/QUICK pool from QuickSwap on Adamant](../.gitbook/assets/screen-shot-2021-08-30-at-7.27.26-am.png)
+![Pool de IMX/QUICK da QuickSwap na Adamant](../.gitbook/assets/screen-shot-2021-08-30-at-7.27.26-am.png)
 
-As this article is being written, the current APY of the IMX/QUICK pool on Adamant is 417.25%. The reward is composed of
+Enquanto este artigo é escrito, o atual APY da pool de IMX/QUICK na Adamant é de 417.25%. A recompensa é composta de:
 
-* 168.49% auto-compounded QUICK (QUICK rewards from QuickSwap are sold to buy additional IMX/QUICK LP tokens that are added to your position)
-* 212.85% ADDY tokens that you can claim on Adamant (they are vested for 90 days so you can't access them right away)
-* 35.91% fee dividends paid in WMATIC if you claim your ADDY daily
+* 168.49% em tokens QUICK reacumulados automaticamente (recompensas QUICK da QuickSwap são vendidas para comprar LP tokens IMX/QUICK LP adicionais que são adicionados a sua posição)
+* 212.85% em tokens ADDY que você pode reinvidicar na Adamant (eles passam por vesting durante 90 dias, então você não pode acessá-los imediatamente)
+* 35.91% em dividendos de taxas pagos em WMATIC se você reivindicar seu ADDY diariamente
 
-This means that your IMX/QUICK position will grow over time, and that you will collect ADDY rewards. The more ADDY you hold, the more dividend (WMATIC) you will collect.
+Isso significa que a sua posição IMX/QUICK irá crescer com o tempo, e que você irá coletar suas recompensas ADDY. Quanto mais ADDY você segurar, mais dividendos (WMATIC) você irá coletar.&#x20;
 
-You can also see that the APY on Adamant is _Boostable_. This means that if you stake additional ADDY tokens (not the vested ones), you will apply an additional multiplier to the reward you get. And that's actually a good thing, because we DO get additional ADDY tokens from the Dragon's Syrup on QuickSwap!
+Você também pode ver que o APY na Adamant é _Boostable (_impulsionável_)_. Isso significa que se fizer staking de mais tokens ADDY (não os que passam pelo vesting), você irá aplicar um multiplicador adicional à recompensa que você recebe. Isso é de fato muito bom, porque nós CONSEGUIMOS mais ADDY da Dragon's Syrup na QuickSwap!
 
 ### Harvesting ADDY and WMATIC
 
