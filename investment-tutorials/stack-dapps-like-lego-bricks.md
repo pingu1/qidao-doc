@@ -142,7 +142,7 @@ Com os tokens WMATIC ganhados na Adamant, nós podemos agora depositá-los na AA
 
 Seguindo o depósito na AAVE, nós recebemos amWMATIC em nossa carteira. Nós podemos utilizar a página de rendimentos na Mai Finance para reacumular automaticamente a recompensa gerada pela AAVE com as recompensas de incentivo MATIC e receber mais 4% no nosso MATIC ganhado na Adamant.
 
-O camWMATIC pode então ser usado como garantia na Mai Finance, sendo depositado no cofre camWMATIC, que nos permite tomar emprestado MAI, e trocar uma parte do MAI cunhado em USDC. Quando tivermos mais MAI e USDC em nossa carteira, nós podemos combinar as 2 stablecoins em LP tokens adicionais que serão depositados na QuickSwap e Impermax. Mais uma vez, se você precisa de ajuda sobre como fazer isso, por favor, leia o [artigo dedicado](leverage-aave-tokens.md).
+O camWMATIC pode então ser usado como garantia na Mai Finance, sendo depositado na Vault de camWMATIC, que nos permite tomar emprestado MAI, e trocar uma parte do MAI cunhado em USDC. Quando tivermos mais MAI e USDC em nossa carteira, nós podemos combinar as 2 stablecoins em LP tokens adicionais que serão depositados na QuickSwap e Impermax. Mais uma vez, se você precisa de ajuda sobre como fazer isso, por favor, leia o [artigo dedicado](leverage-aave-tokens.md).
 
 ## Bootstrapping
 
@@ -167,7 +167,7 @@ Isso significa que no final do primeiro dia, nós ja coletamos:
 * $0.63 de QUICK
 * $0.49 de IMX
 
-Dai, nós podemos combinar todo o IMX que recebemos com uma porção de recompensas QUICK no par LP IMX/QUICK que será depositado na Adamant. O par LP possui um valor de $0.98 e nós ainda temos $0.14 de QUICK que nós depositamos na Dragons's Lair para dQUICK. Então, dQUICK é usado na Dragon's Syrup para começar a coletar ADDY no segundo dia.
+Dai, nós podemos combinar todo o IMX que recebemos com uma porção de recompensas QUICK no par LP de IMX/QUICK que será depositado na Adamant. O par LP possui um valor de $0.98 e nós ainda temos $0.14 de QUICK que nós depositamos na Dragons's Lair para dQUICK. Então, dQUICK é usado na Dragon's Syrup para começar a coletar ADDY no segundo dia.
 
 | Tipo de recompensa       | Valor em dolares |
 | ------------------------ | ---------------- |
@@ -227,35 +227,35 @@ Agora, nós podemos adicionar WMATIC no loop. Este dividendo será depositado na
 
 Neste ponto, a "dívida" na Mai Finance será usada para aumentar as posiçōes de MAI/USDC LP em ambas QuickSwap e Impermax, e com isso, o sistema fica totalmente armado.
 
-## Farming results
+## Resultados do Farming
 
 ![](../.gitbook/assets/screen-shot-2021-08-30-at-11.33.34-am.png)
 
-### Daily routine
+### Rotina diario
 
-The daily routine is composed by the following transactions
+A rotina diária é composta das seguintes transaçōes:
 
-* Harvest IMX on Impermax
-* Harvest QUICK on QuickSwap
-* Create new IMX/QUICK LP pair on QuickSwap
-* Deposit the remaining QUICK on Dragon's Lair to get dQUICK
-* Deposit dQUICK on Dragon's Syrup to get additional ADDY
-* Harvest ADDY on Dragon's Syrup
-* Deposit harvested ADDY on Adamant vault
-* Deposit IMX/QUICK LP tokens on Adamant
-* Harvest ADDY on Adamant from LP pair
-* Harvest WMATIC dividends on Adamant
-* Deposit WMATIC on AAVE and get amWMATIC
-* Deposit amWMATIC on Mai Finance and get camWMATIC
-* Deposit camWMATIC on Mai Finance's vault
-* Borrow 50% of the deposit as MAI stable coin on Mai Finance
-* Swap 50% of the minted MAI for USDC on Mai Finance
-* Create new MAI/USDC LP pair on QuickSwap
-* Deposit 90% of the new LP tokens on QuickSwap liquidity pool
-* Deposit 10% of the new LP tokens on Impermax liquidity pool
-* Leverage the new position on Impermax to match the position on QuickSwap
+* Colher IMX na Impermax
+* Colher QUICK na QuickSwap
+* Criar um novo par LP de IMX/QUICK na QuickSwap
+* Depositar o QUICK restante na Dragon's Lair para obter dQUICK
+* Depositar dQUICK na Dragon's Syrup para obter mais ADDY
+* Colher ADDY na Dragon's Syrup
+* Depositar ADDY que foi colhido na Vault da Adamant
+* Depositar LP tokens IMX/QUICK na Adamant
+* Colher ADDY na Adamant do par LP
+* Colher dividendos em WMATIC na Adamant
+* Depositar WMATIC na AAVE e receber amWMATIC
+* Depositar amWMATIC na Mai Finance e receber camWMATIC
+* Depositar camWMATIC na Vault da Mai Finance
+* Tomar emprestado 50% do depósito em stablecoin MAI na Mai Finance
+* Trocar 50% de MAI cunhado por USDC na Mai Finance
+* Criar um novo par LP de MAI/USDC na QuickSwap
+* Depositar 90% dos novos tokens LP na pool de liquidez da QuickSwap
+* Depositar 10% dos novos tokens LP na pool de liquidez da Impermax
+* Alavancar a nova posição na Impermax para coincidir com a posição da QuickSwap
 
-### Raw results month after month
+### Resultados brutos mensais
 
 | Month | dQUICK | IMX/QUICK | ADDY    | WMATIC | Debt   |
 | ----- | ------ | --------- | ------- | ------ | ------ |
