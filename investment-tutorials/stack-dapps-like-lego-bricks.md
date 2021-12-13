@@ -91,7 +91,7 @@ Perceba neste exemplo que as taxas de empréstimo são pagas com as recompensas 
 
 Nosso objetivo aqui é igualar o depósito que temos com o da QuickSwap, então nós permaneceremos com uma alavancagem de duas vezes. Isso também garante que nós não teremos o risco de atingir APRs negativo. Nosso objetivo não é coletar a maior quantidade de recompensas possível, mas aumentar nossa posiçāo ao longo do tempo, e coletar tokens IMX.
 
-### Recapitulaçāo
+### Recapitulando
 
 Nōs temos tokens MAI/USDC depositados na pool apropriada:
 
@@ -116,23 +116,23 @@ Enquanto este artigo é escrito, o atual APY da pool de IMX/QUICK na Adamant é 
 
 Isso significa que a sua posição IMX/QUICK irá crescer com o tempo, e que você irá coletar suas recompensas ADDY. Quanto mais ADDY você segurar, mais dividendos (WMATIC) você irá coletar.&#x20;
 
-Você também pode ver que o APY na Adamant é _Boostable (_impulsionável_)_. Isso significa que se fizer staking de mais tokens ADDY (não os que passam pelo vesting), você irá aplicar um multiplicador adicional à recompensa que você recebe. Isso é de fato muito bom, porque nós CONSEGUIMOS mais ADDY da Dragon's Syrup na QuickSwap!
+Você também pode ver que o APY na Adamant é _Boostable (_impulsionável_)_. Isso significa que ao fazer staking de mais tokens ADDY (não os que passam pelo vesting), você irá aplicar um multiplicador adicional à recompensa que você recebe. Isso é de fato muito bom, porque nós CONSEGUIMOS mais ADDY da Dragon's Syrup na QuickSwap!
 
-### Harvesting ADDY and WMATIC
+### Harvesting de ADDY e WMATIC
 
-When you harvest the ADDY earned from your LP position in the IMX/QUICK pool, they will be locked for 90 days, but will allow you to get some dividends in the form of WMATIC. The current APR for dividends is 34% based on your vested ADDY tokens.
+Para você colher os tokens ADDY respectivos à sua posição na pool de IMX/QUICK pool, você deve esperar por 90 dias, pois eles estarão bloqueados devido ao vesting. Entretanto, é permitido a você receber dividendos na forma de WMATIC. Atualmente, o APR para dividendos é de 34% baseado nos seus tokens ADDY em vesting.
 
-After the 90 days vest period, you will have the possibility to lock them for at least an additional 90 days in order to boost the ADDY tokens earned from vaults and earn additional ADDY tokens.
+Após o periodo de 90 dias, você terá a possibilidade de bloqueá-los por mais 90 dias e com isso fazer um boost nos tokens ADDY recebidos da vault, para receber ainda mais tokens.
 
-WMATIC dividends are the actual output of the QuickSwap + Impermax + Adamant trio we're after, because we'll be able to use them to re-inject additional LP tokens into both QuickSwap and Impermax.
+Dividendos WMATIC são o verdadeiro produto final do trio QuickSwap + Impermax + Adamant que nós buscamos, porque nós podemos utilizá-los para reinvestir LP tokens adicionais na QuickSwap e Impermax.
 
-### Quick recap
+### Recapitulando
 
-We deposit IMX and QUICK tokens earned from Impermax and QuickSwap under the form of IMX/QUICK LP tokens. Adamant is earning
+Nós depositamos tokens IMX e QUICK recebidos da Impermax e QuickSwap na farm de LP tokens IMX/QUICK. A Adamant está rendendo:
 
-* more LP tokens by auto-compounding a part of the QUICK tokens granted by QuickSwap for the IMX/QUICK pool
-* ADDY tokens that are used to boost the IMX/QUICK rewards, and makes us eligible to dividends
-* WMATIC dividends
+* mais LP tokens por reacumular uma parte dos tokens QUICK garantidos pela QuickSwap para a pool IMX/QUICK
+* tokens ADDY que são usados para fazer um boost nas recompensas de IMX/QUICK, e que nos torna elegíveis a receber dividendos
+* dividendos em WMATIC
 
 ## AAVE
 
