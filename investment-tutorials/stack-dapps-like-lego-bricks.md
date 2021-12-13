@@ -136,38 +136,39 @@ Nós depositamos tokens IMX e QUICK recebidos da Impermax e QuickSwap na farm de
 
 ## AAVE
 
-With the WMATIC tokens earned on Adamant, we now can deposit them on AAVE in order to get some yield. This is the regular AAVE token leverage mentioned in [the dedicated article](leverage-aave-tokens.md).
+Com os tokens WMATIC ganhados na Adamant, nós podemos agora depositá-los na AAVE para fazê-los render. Essa é a alavancagem padrão com tokens AAVE mencionada [neste artigo](leverage-aave-tokens.md).
 
 ## Mai Finance
 
-Following the AAVE deposit, we get amWMATIC in our wallet. We can use the yield page on Mai Finance to auto-compound the reward provided by AAVE with the rewards from the Matic incentive and get an additional 4% on our MATIC earned on Adamant.
+Seguindo o depósito na AAVE, nós recebemos amWMATIC em nossa carteira. Nós podemos utilizar a página de rendimentos na Mai Finance para reacumular automaticamente a recompensa gerada pela AAVE com as recompensas de incentivo MATIC e receber mais 4% no nosso MATIC ganhado na Adamant.
 
-The camWMATIC can then be used as collateral on Mai Finance by depositing them in the camWMATIC vault, which allows us to borrow MAI, and swap a part of the minted MAI into USDC. Once we have more MAI and USDC in our wallet, we can combine the 2 stable coins into additional LP tokens that will be deposited on QuickSwap and Impermax. Once again, if you need details on how you can do that, please read [the dedicated article](leverage-aave-tokens.md).
+O camWMATIC pode então ser usado como garantia na Mai Finance, sendo depositado no cofre camWMATIC, que nos permite tomar emprestado MAI, e trocar uma parte do MAI cunhado em USDC. Quando tivermos mais MAI e USDC em nossa carteira, nós podemos combinar as 2 stablecoins em LP tokens adicionais que serão depositados na QuickSwap e Impermax. Mais uma vez, se você precisa de ajuda sobre como fazer isso, por favor, leia o [artigo dedicado](leverage-aave-tokens.md).
 
-## Bootstrapping the system
+## Bootstrapping
 
-What follows is a simulation made with an initial investment of $1,000 worth of MAI/USDC LP tokens, and the current APRs / APYs given by the different platforms on August 30th 2021. This is not a real application of what we described above. Rates will vary, token prices will vary, some programs will come to an end etc ... so the final results are just an estimation of what you could get if everything remained stable, which will never be the case.
+A seguir, veremos uma simulação feita com um investimento inicial de $1,000 de LP tokens MAI/USDC e os APRs / APYs atuais dados pelas plataformas diferentes em 30 de Agosto de 2021. Isso não é uma aplicação real do que nós descrevemos acima. As taxas irão variar, os preços dos tokens irão variar, alguns programas serão encerrados, etc. Portanto, os resultados finais aqui são apenas uma estimativa do que você pode alcançar se tudo permanecer estável, o que nunca é o caso.
 
-### Day 1
+### Primeiro Dia
 
-Since we have $1,000 worth of MAI/USDC, we want to split the LP tokens between QuickSwap and Impermax. Because Impermax allows us to leverage our deposit, we can actually put more tokens on QuickSwap and use the leverage option on Impermax to match what we get on QuickSwap.
+Como nós temos $1,000 de MAI/USDC, nós queremos dividir os LP tokens entre a QuickSwap e Impermax. Já que a Impermax nos permite alavancar nosso depósito, nós podemos então colocar mais tokens na QuickSwap e utilizar a opção de alavancagem na Impermax para coincidir com o que temos na QuickSwap.
 
-In order to lower the risk of negative interests on Impermax, the split will be as follows:
+Para diminir o risco de juros negativos na Impermax, a divisão será feita da seguinte maneira:
 
-* $900 worth of MAI/USDC on QuickSwap
-* $100 worth of MAI/USDC on Impermax with a x9 lever to expose $900 in the MAI/USDC pool
+* $900 de MAI/USDC na QuickSwap
+* $100 de MAI/USDC na Impermax, alavancando 9 vezes, para nos expormos a $900 na pool de MAI/USDC
 
-For the rest of the simulation, we will consider that QuickSwap grants a 25.56% APR on MAI/USDC paid in QUICK tokens, and Impermax gives a 20% average APR on MAI/USDC at x9, only paid in IMX tokens. This corresponds to a daily rate of
+Para o resto da simulação, nós consideraremos que a QuickSwap nos garante um APR de 25.56% em MAI/USDC pago em tokens QUICK, e a Impermax nos garante, em média, um APR de 20% em MAIS/USDC, alavancando 9 vezes, pago em tokens IMX. Isso corresponde a uma taxa diária de:&#x20;
 
-* \+0.07% on QuickSwap
-* \+0.05% on Impermax
+* \+0.07% na QuickSwap
+* \+0.05% na Impermax
 
-This means that at the end of Day 1, we already collected
+Isso significa que no final do primeiro dia, nós ja coletamos:
 
-* $0.63 worth of QUICK
-* $0.49 worth of IMX
+* $0.63 de QUICK
+* $0.49 de IMX
 
-From there, we can combine all the IMX we get with a portion of the QUICK reward into IMX/QUICK LP pair that will be deposited on Adamant. The LP pair has a value of $0.98 and we still have $0.14 worth of QUICK that we deposit on the Dragons's Lair for dQUICK. dQUICK are then used on Dragon's Syrup to start collecting ADDY on Day 2.
+Dai, nós podemos combinar todo o IMX que recebemos com uma porção de recompensas QUICK no par LP IMX/QUICK que será depositado na Adamant. O par LP possui um valor de $0.98 e nós ainda temos $0.14 de QUICK que nós depositamos na Dragons's Lair para dQUICK. Então, dQUICK é usado na Dragon's Syrup para começar a coletar ADDY no segundo dia.\
+
 
 | Reward type              | Value in dollars |
 | ------------------------ | ---------------- |
