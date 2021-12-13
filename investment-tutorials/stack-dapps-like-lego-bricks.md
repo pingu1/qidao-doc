@@ -286,18 +286,18 @@ Após um ano completo, o resultado final do nosso investimento seria:
 | camWMATIC na Mai Finance | 91.220           |
 | dívida na Mai Finance    | 44.30            |
 
-Perceba que o WMATIC na Adamant é coletado diariamente collected daily so they're not part of the final revenue generated via this process. Also, the ADDY that have been generated via the QuickSwap farm haven't been harvested daily and added to boost the ADDY rewards on Adamant in this simulation (it is already complex enough).
+Perceba que o WMATIC na Adamant é coletado diariamente então ele não faz parte do rendimento final gerado por este processo. E nesta simulação, o ADDY que foi gerado pela farm da QuickSwap não foi colhido diariamente e adicionado como boost às recompensas da ADDY na Adamant (pois tudo já esta muito complexo).&#x20;
 
-Finally, after one year, the generated revenue is worth $1,567.174. If we consider the initial investment was $1,000 worth of MAI/USDC, this leads to a final APY of 156.71% on our stable pair.
+Por último, após um ano, o rendimento gerado terá o valor de $1,567.174. Se nós considerarmos o investimento inicial de $1,000 em MAI/USDC, isso nos leva a um APY final de 156.71% ao nosso par de stablecoins.
 
-## Conclusion
+## Conclusão
 
-This Lego game allowed us to generate an impressive APY from stable coin farming, with very little risk exposure. Of course, this simulation makes a few assumptions that are 100% incorrect, but it illustrates how we can combine different DApps to maximize yield farming. It also showcases that it's not a necessity to sell tokens that we farm, and that there's certainly a was to use them efficiently if you take the time to research possibilities.
+Este jogo de Lego nos permitiu gerar um APY impressionante através do farming com stablecoins, com pouquíssima exposição a riscos. Obviamente, esta simulação assume algumas coisas que são completamente impossíveis, mas faz isto para ilustrar como nós podemos combinar diferentes DApps para maximizar rendimentos em farms. Também mostra que não é necessário vender os tokens que colhemos, e que há como usá-los com maior eficiência se você gastar tempo pesquisando as possibilidades.
 
-## Disclaimer
+## Aviso legal
 
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Este guia não representa conselho financeiro, mas tem cunho inteiramente educacional. Você precisa prestar atenção às variaçōes de preço, oferta e demanda, à data de validade dos programas de recompensas, impermanent loss, etc. O objetivo aqui não é propor uma receita de bolo a ser seguida cegamente, então, por favor, faça o seu dever de casa e sua própria simulação, e apenas invista uma quantia que você pode perder confortavelmente.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua própria pesquisa.
 {% endhint %}
