@@ -15,25 +15,25 @@ Ao trabalhar com aplicaçōes DeFi (**De**centralize **Fi**nance, Finanças Dece
 
 Para fazer isso, nós vamos usar novas LP Pools (**L**iquidity **P**roviding Pools, Piscinas de Fornecimento de Liquidez) lançadas na QuickSwap no início de Setembro de 2021, que estão utilizando o token Qi da Mai Finance. Para uma idéia melhor do que funcionam as aplicaçōes da QuickSwap e da Adamant, por favor, leia [este guia.](stack-dapps-like-lego-bricks.md)
 
-## Application and pools presentation
+## Apresentando as aplicaçōes e pools
 
-### Farming side
+### No lado do Farming
 
-In order to maximize our gains, we will use 3 different applications
+Para maximizar nossos ganhos, nós iremos usar 3 aplicaçōes diferentes:
 
 * Mai Finance
 * QuickSwap
 * Adamant
 
-We will also be using the following LP pools
+Nós também utilizaremos as seguintes LP pools
 
-* Qi/MATIC on Mai Finance to generate Qi
-* Qi/WETH on QuickSwap to generate QUICK and ADDY
-* Qi/QUICK on Adamant to generate ADDY and MATIC
+* Qi/MATIC na Mai Finance para gerar Qi
+* Qi/WETH na QuickSwap para gerar QUICK e ADDY
+* Qi/QUICK na Adamant para gerar ADDY e MATIC
 
-You can already see that each application is generating tokens that can feed the other pools used on the other applications. The idea is to use the Qi tokens harvested on Mai Finance in combination with the QUICK tokens harvested on QuickSwap and use the 2 on Adamant. Adamant will generate ADDY tokens that will let you claim MATIC dividends. The MATIC tokens can be locked on Mai Finance in the WMATIC vault to borrow MAI, and then buy MATIC and WETH that can then we used with Qi tokens to increase your positions on both Mai Finance and QuickSwap.
+Você já pode ver que cada aplicação está gerando tokens que podem alimentar as outras pools usadas em outras aplicaçōes. A ideia é usar os tokens Qi colhidos na Mai Finance em combinação com os tokens QUICK colhidos na QuickSwap e usar os dois na Adamant. A Adamant irá gerar tokens ADDY que irão permitir a você reivindicar dividendos em MATIC. Os tokens MATIC podem ser trancados na Mai Finance no Vault de WMATIC para tomar emprestado MAI, e então comprar MATIC e WETH que podem então ser usados with token Qi para aumentar suas posiçōes em ambas Mai Finance e QuickSwap.
 
-### Staking side
+### No lado do Staking
 
 You also need to know that tokens generated in excess on Mai Finance and QuickSwap can be staked:
 
