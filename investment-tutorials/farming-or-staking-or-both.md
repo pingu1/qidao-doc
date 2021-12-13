@@ -1,19 +1,19 @@
 ---
 description: >-
-  This guide will present a strategy that highlights amazing interactions
-  between Mai Finance, QuickSwap and Adamant after the launch of new LP pools on
-  Mai Finance and QuickSwap.
+  Este guia irá apresentar uma estratégia que salienta interaçōes incriveis
+  entre a Mai Finance, QuickSwap e Adamant após o lançamento de novas LP Pools
+  na Mai Finance e na QuickSwap.
 ---
 
-# Farming or Staking? Or both?
+# Farming, staking, ou ambos?
 
 ![](../.gitbook/assets/screen-shot-2021-09-03-at-9.24.12-am.png)
 
-## Intro
+## Introdução
 
-When you are using DeFi (**De**centralize **Fi**nance) applications, especially when you are farming yields, you tend to end up with a bunch of native tokens granted by the farm. If most people are simply selling these tokens to buy more or their favourite coins, we will try to showcase some ways to actually keep and put them to work in order to increase your revenues.
+Ao trabalhar com aplicaçōes DeFi (**De**centralize **Fi**nance, Finanças Decentralizadas), especialmente farms de rendimento, é normal que você acabe ficando com um monte de tokens nativos da farm. Se a maioria das pessoas simplesmente vende esses tokens para comprar mais de suas moedas favoritas, aqui nós tentaremos mostrar algumas maneiras de, na verdade, mantê-los e colocá-los para trabalhar para aumentar os seus rendimentos.
 
-In order to do so, we will use new LP pools (**L**iquidity **P**roviding pools) launched on QuickSwap at the beginning of September 2021, that are using the Qi token from Mai Finance. If you need to get a good idea of what are QuickSwap and Adamant applications, please read the [Stacking DApps guide](stack-dapps-like-lego-bricks.md).
+Para fazer isso, nós vamos usar novas LP Pools (**L**iquidity **P**roviding Pools, Piscinas de Fornecimento de Liquidez) lançadas na QuickSwap no início de Setembro de 2021, que estão utilizando o token Qi da Mai Finance. Para uma idéia melhor do que funcionam as aplicaçōes da QuickSwap e da Adamant, por favor, leia [este guia.](stack-dapps-like-lego-bricks.md)
 
 ## Application and pools presentation
 

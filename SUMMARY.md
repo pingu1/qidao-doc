@@ -11,7 +11,7 @@
 * [O que fazer com MAI na Polygon](tutoriais-para-polygon/what-to-do-with-mai-on-polygon.md)
 * [O que fazer com Qi na Polygon](tutoriais-para-polygon/what-to-do-with-qi-on-polygon.md)
 * [Montando DApps como peças de Lego](investment-tutorials/stack-dapps-like-lego-bricks.md)
-* [Farming or Staking? Or both?](investment-tutorials/farming-or-staking-or-both.md)
+* [Farming, staking, ou ambos?](investment-tutorials/farming-or-staking-or-both.md)
 * [How to combine farming and borrowing rewards](investment-tutorials/how-to-combine-farming-and-borrowing-rewards.md)
 * [OHM forks on Polygon: The case of KLIMA](tutoriais-para-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
 * [MAI single-staking with Ethalend](tutoriais-para-polygon/ethalend-single-staking.md)
