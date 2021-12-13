@@ -177,55 +177,55 @@ Dai, nós podemos combinar todo o IMX que recebemos com uma porção de recompen
 | ADDY na Adamant          | 0                |
 | WMATIC na Adamant        | 0                |
 | camWMATIC na Mai Finance | 0                |
-| debt na Mai Finance      | 0                |
+| dívida na Mai Finance    | 0                |
 
-### Day 2
+### Segundo dia
 
-We still have the same position on QuickSwap and Impermax, nothing changes and we once again get $0.63 worth of QUICK and $0.49 worth of IMX that are used to get $0.98 worth of IMX/QUICK and $0.14 of dQUICK deposited in the ADDY farm on QuickSwap.
+Nós ainda temos a mesma posição na QuickSwap e Impermax, nada mudou e nós, mais uma vez, recebemos $0.63 de QUICK e $0.49 de IMX que são usados para recebermos $0.98 de IMX/QUICK e $0.14 de dQUICK depositados na farm de ADDY na QuickSwap.
 
-However, the IMX/QUICK position on Adamant is earning 151.96% APR in IMX/QUICK (or +0.42% daily). This means that our original $0.98 deposit is now at $0.984, and we're adding $0.98 from farming on QuickSwap and Impermax. It also generated 177.43% APR (or +0.49% daily) ADDY, corresponding to $0.005.
+Entretanto, a posição IMX/QUICK na Adamant produz um APR de 151.96% em IMX/QUICK (ou +0.42% diariamente). Isso significa que nosso depósito original de $0.98 vale agora $0.984, e nós estamos adicionando $0.98 pelo farming na QuickSwap e Impermax. Também foi gerado um APR de 177.43% APR (ou +0.49% diariamente) em ADDY, correspondente a $0.005.
 
-On QuickSwap, the dQUICK we deposited in Dragon's Syrup is generating additional QUICK tokens at 12.26% APR (+0.03% daily) and ADDY tokens at 17.08% APR (+0.05% daily). This is applied to the $0.18 worth of QUICK, meaning that at the end of Day 2 we already generated $0.00006 worth of ADDY and $0.000054 worth of QUICK. The ADDY reward can be claimed and added into Adamant to start boosting the ADDY APR of the IMX/QUICK position.
+Na QuickSwap, o dQUICK que nós depositamos na Dragon's Syrup está gerando mais tokens QUICK a um APR de 12.26% (+0.03% diariamente) e tokens ADDY a um APR de 17.08% (+0.05% diariamente). Isto é aplicado aos $0.18 de QUICK, o que significa que no final do segundo dia nós já geramos $0.00006 de ADDY e $0.000054 de QUICK. A recompensa ADDY pode ser reivindicada e adicionada a Adamant para começar o boosting do APR em ADDY na posição IMX/QUICK.
 
-| Reward type              | Value in dollars |
+| Tipo de recompensa       | Valor em dolares |
 | ------------------------ | ---------------- |
-| dQUICK on QuickSwap      | 0.274            |
-| ADDY on QuickSwap        | 0.00006          |
-| IMX/QUICK on Adamant     | 1.98             |
-| ADDY on Adamant          | 0.005            |
-| WMATIC on Adamant        | 0                |
-| camWMATIC on Mai Finance | 0                |
-| debt on Mai Finance      | 0                |
+| dQUICK na QuickSwap      | 0.274            |
+| ADDY na QuickSwap        | 0.00006          |
+| IMX/QUICK na Adamant     | 1.98             |
+| ADDY na Adamant          | 0.005            |
+| WMATIC na Adamant        | 0                |
+| camWMATIC na Mai Finance | 0                |
+| dívida na Mai Finance    | 0                |
 
-### Day 3
+### Terceiro dia
 
-Moving on, the ADDY reward claimed on Adamant are now generating some WMATIC reward. The first $0.005 worth of ADDY collected earn 56% APR (0.15% daily) or WMATIC dividends, which corresponds to $0.000007 worth of WMATIC. Keep in mind we're only starting the engine here.
+Seguindo, a recompensa em ADDY reivindicada na Adamant está agora gerando recompensas em WMATIC. Os primeiros $0.005 de ADDY coletados geram um APR de 56% (+0.15% diariamente) ou dividendos em WMATIC, o que corresponde a $0.000007 de WMATIC. Tenha em mente que nós estamos apenas dando patida no motor aqui.
 
-| Reward type              | Value in dollars |
+| Tipo de recompensa       | Valor em dolares |
 | ------------------------ | ---------------- |
-| dQUICK on QuickSwap      | 0.411            |
-| ADDY on QuickSwap        | 0.00019          |
-| IMX/QUICK on Adamant     | 2.971            |
-| ADDY on Adamant          | 0.014            |
-| WMATIC on Adamant        | 0.000007         |
-| camWMATIC on Mai Finance | 0                |
-| debt on Mai Finance      | 0                |
+| dQUICK na QuickSwap      | 0.411            |
+| ADDY na QuickSwap        | 0.00019          |
+| IMX/QUICK na Adamant     | 2.971            |
+| ADDY na Adamant          | 0.014            |
+| WMATIC na Adamant        | 0.000007         |
+| camWMATIC na Mai Finance | 0                |
+| dívida na Mai Finance    | 0                |
 
-### Day 4
+### Quarto dia
 
-We can now add the WMATIC in the loop. This dividend will be deposited on AAVE, then used on Mai Finance to borrow new MAI.
+Agora, nós podemos adicionar WMATIC no loop. Este dividendo será depositado na AAVE, então usado na Mai Finance para tomar emprestado mais MAI.
 
-| Reward type              | Value in dollars |
+| Tipo de recompensa       | Valor em dolares |
 | ------------------------ | ---------------- |
-| dQUICK on QuickSwap      | 0.548            |
-| ADDY on QuickSwap        | 0.00038          |
-| IMX/QUICK on Adamant     | 3.969            |
-| ADDY on Adamant          | 0.029            |
-| WMATIC on Adamant        | 0.000029         |
-| camWMATIC on Mai Finance | 0.000007         |
-| debt on Mai Finance      | 0.0000035        |
+| dQUICK na QuickSwap      | 0.548            |
+| ADDY na QuickSwap        | 0.00038          |
+| IMX/QUICK na Adamant     | 3.969            |
+| ADDY na Adamant          | 0.029            |
+| WMATIC na Adamant        | 0.000029         |
+| camWMATIC na Mai Finance | 0.000007         |
+| dívida on Mai Finance    | 0.0000035        |
 
-At this point, the "debt" on Mai Finance will be used to increase the MAI/USDC LP positions on both QuickSwap and Impermax, and the system is completely primed.
+Neste ponto, a "dívida" na Mai Finance será usada para aumentar as posiçōes de MAI/USDC LP em ambas QuickSwap e Impermax, e com isso, o sistema fica totalmente armado.
 
 ## Farming results
 
