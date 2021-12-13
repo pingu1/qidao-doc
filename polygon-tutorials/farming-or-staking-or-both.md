@@ -31,7 +31,7 @@ We will also be using the following LP pools
 * Qi/WETH on QuickSwap to generate QUICK and ADDY
 * Qi/QUICK on Adamant to generate ADDY and MATIC
 
-You can already see that each application is generating tokens that can feed the other pools used on the other applications. The idea is to use the Qi tokens harvested on Mai Finance in combination with the QUICK tokens harvested on QuickSwap and use the 2 on Adamant. Adamant will generate ADDY tokens that will let you claim MATIC dividends. The MATIC tokens can be locked on Mai Finance in the WMATIC vault to borrow MAI, and then buy MATIC and WETH that can then we used with Qi tokens to increase your positions on both Mai Finance and QuickSwap.
+You can already see that each application is generating tokens that can feed the other pools used on the other applications. The idea is to use the Qi tokens harvested on Mai Finance in combination with the QUICK tokens harvested on QuickSwap and use the 2 on Adamant. Adamant will generate ADDY tokens that will let you claim MATIC dividends. The MATIC tokens can be locked on Mai Finance in the WMATIC vault to borrow MAI, and then buy MATIC and WETH that can then be used with Qi tokens to increase your positions on both Mai Finance and QuickSwap.
 
 ### Staking side
 
@@ -143,20 +143,20 @@ The daily routine is composed by the following transactions
 
 ### Raw results month after month
 
-| Month | dQUICK    | Qi/QUICK   | ADDY       | Qi/MATIC  Qi/WETH |
-| ----- | --------- | ---------- | ---------- | ----------------- |
-| 1     | $280.96   | $1,040.78  | $54.97     | $0.91             |
-| 2     | $557.79   | $2,162.98  | $224.36    | $7.89             |
-| 3     | $842.08   | $3,413.73  | $521.09    | $27.85            |
-| 4     | $1,138.60 | $4,816.62  | $960.17    | $68.48            |
-| 5     | $1,454.30 | $6,405.18  | $1,559.60  | $138.44           |
-| 6     | $1,798.77 | $8,224.86  | $2,341.64  | $247.49           |
-| 7     | $2,184.58 | $10,335.38 | $3,334.13  | $406.84           |
-| 8     | $2,627.76 | $12,813.60 | $4,572.23  | $629.47           |
-| 9     | $3,148.40 | $15,757.01 | $6,100.39  | $930.60           |
-| 10    | $3,771.42 | $19,288.05 | $7,974.83  | $1,328.32         |
-| 11    | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31         |
-| 12    | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79         |
+| Month | dQUICK    | Qi/QUICK   | ADDY       | Qi/MATIC Qi/WETH |
+| ----- | --------- | ---------- | ---------- | ---------------- |
+| 1     | $280.96   | $1,040.78  | $54.97     | $0.91            |
+| 2     | $557.79   | $2,162.98  | $224.36    | $7.89            |
+| 3     | $842.08   | $3,413.73  | $521.09    | $27.85           |
+| 4     | $1,138.60 | $4,816.62  | $960.17    | $68.48           |
+| 5     | $1,454.30 | $6,405.18  | $1,559.60  | $138.44          |
+| 6     | $1,798.77 | $8,224.86  | $2,341.64  | $247.49          |
+| 7     | $2,184.58 | $10,335.38 | $3,334.13  | $406.84          |
+| 8     | $2,627.76 | $12,813.60 | $4,572.23  | $629.47          |
+| 9     | $3,148.40 | $15,757.01 | $6,100.39  | $930.60          |
+| 10    | $3,771.42 | $19,288.05 | $7,974.83  | $1,328.32        |
+| 11    | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31        |
+| 12    | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79        |
 
 ### Day 365
 
