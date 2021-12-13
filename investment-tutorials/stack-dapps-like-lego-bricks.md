@@ -148,7 +148,7 @@ O camWMATIC pode então ser usado como garantia na Mai Finance, sendo depositado
 
 A seguir, veremos uma simulação feita com um investimento inicial de $1,000 de LP tokens MAI/USDC e os APRs / APYs atuais dados pelas plataformas diferentes em 30 de Agosto de 2021. Isso não é uma aplicação real do que nós descrevemos acima. As taxas irão variar, os preços dos tokens irão variar, alguns programas serão encerrados, etc. Portanto, os resultados finais aqui são apenas uma estimativa do que você pode alcançar se tudo permanecer estável, o que nunca é o caso.
 
-### Primeiro Dia
+### 1.º Dia
 
 Como nós temos $1,000 de MAI/USDC, nós queremos dividir os LP tokens entre a QuickSwap e Impermax. Já que a Impermax nos permite alavancar nosso depósito, nós podemos então colocar mais tokens na QuickSwap e utilizar a opção de alavancagem na Impermax para coincidir com o que temos na QuickSwap.
 
@@ -179,7 +179,7 @@ Dai, nós podemos combinar todo o IMX que recebemos com uma porção de recompen
 | camWMATIC na Mai Finance | 0                |
 | dívida na Mai Finance    | 0                |
 
-### Segundo dia
+### 2.º dia
 
 Nós ainda temos a mesma posição na QuickSwap e Impermax, nada mudou e nós, mais uma vez, recebemos $0.63 de QUICK e $0.49 de IMX que são usados para recebermos $0.98 de IMX/QUICK e $0.14 de dQUICK depositados na farm de ADDY na QuickSwap.
 
@@ -197,7 +197,7 @@ Na QuickSwap, o dQUICK que nós depositamos na Dragon's Syrup está gerando mais
 | camWMATIC na Mai Finance | 0                |
 | dívida na Mai Finance    | 0                |
 
-### Terceiro dia
+### 3.º dia
 
 Seguindo, a recompensa em ADDY reivindicada na Adamant está agora gerando recompensas em WMATIC. Os primeiros $0.005 de ADDY coletados geram um APR de 56% (+0.15% diariamente) ou dividendos em WMATIC, o que corresponde a $0.000007 de WMATIC. Tenha em mente que nós estamos apenas dando patida no motor aqui.
 
@@ -211,7 +211,7 @@ Seguindo, a recompensa em ADDY reivindicada na Adamant está agora gerando recom
 | camWMATIC na Mai Finance | 0                |
 | dívida na Mai Finance    | 0                |
 
-### Quarto dia
+### 4.º dia
 
 Agora, nós podemos adicionar WMATIC no loop. Este dividendo será depositado na AAVE, então usado na Mai Finance para tomar emprestado mais MAI.
 
@@ -231,7 +231,7 @@ Neste ponto, a "dívida" na Mai Finance será usada para aumentar as posiçōes 
 
 ![](../.gitbook/assets/screen-shot-2021-08-30-at-11.33.34-am.png)
 
-### Rotina diario
+### Rotina diária
 
 A rotina diária é composta das seguintes transaçōes:
 
@@ -255,38 +255,38 @@ A rotina diária é composta das seguintes transaçōes:
 * Depositar 10% dos novos tokens LP na pool de liquidez da Impermax
 * Alavancar a nova posição na Impermax para coincidir com a posição da QuickSwap
 
-### Resultados brutos mensais
+### Resultados mensais brutos
 
-| Month | dQUICK | IMX/QUICK | ADDY    | WMATIC | Debt   |
-| ----- | ------ | --------- | ------- | ------ | ------ |
-| 1     | $4.25  | $32.56    | $2.32   | $0.03  | $0.02  |
-| 2     | $8.36  | $68.34    | $9.65   | $0.28  | $0.15  |
-| 3     | $12.48 | $108.86   | $22.30  | $0.98  | $0.49  |
-| 4     | $16.59 | $154.78   | $41.34  | $2.41  | $1.20  |
-| 5     | $20.71 | $206.83   | $67.50  | $4.86  | $2.42  |
-| 6     | $24.84 | $265.83   | $101.73 | $8.70  | $4.34  |
-| 7     | $28.97 | $332.74   | $145.11 | $14.31 | $7.15  |
-| 8     | $33.12 | $408.63   | $198.87 | $22.14 | $11.06 |
-| 9     | $37.29 | $494.73   | $264.40 | $32.70 | $16.34 |
-| 10    | $41.48 | $592.45   | $343.28 | $46.57 | $23.26 |
-| 11    | $45.71 | $703.39   | $437.33 | $64.40 | $32.19 |
-| 12    | $49.97 | $829.37   | $548.59 | $86.94 | $43.46 |
+| Mês | dQUICK | IMX/QUICK | ADDY    | WMATIC | Debt   |
+| --- | ------ | --------- | ------- | ------ | ------ |
+| 1   | $4.25  | $32.56    | $2.32   | $0.03  | $0.02  |
+| 2   | $8.36  | $68.34    | $9.65   | $0.28  | $0.15  |
+| 3   | $12.48 | $108.86   | $22.30  | $0.98  | $0.49  |
+| 4   | $16.59 | $154.78   | $41.34  | $2.41  | $1.20  |
+| 5   | $20.71 | $206.83   | $67.50  | $4.86  | $2.42  |
+| 6   | $24.84 | $265.83   | $101.73 | $8.70  | $4.34  |
+| 7   | $28.97 | $332.74   | $145.11 | $14.31 | $7.15  |
+| 8   | $33.12 | $408.63   | $198.87 | $22.14 | $11.06 |
+| 9   | $37.29 | $494.73   | $264.40 | $32.70 | $16.34 |
+| 10  | $41.48 | $592.45   | $343.28 | $46.57 | $23.26 |
+| 11  | $45.71 | $703.39   | $437.33 | $64.40 | $32.19 |
+| 12  | $49.97 | $829.37   | $548.59 | $86.94 | $43.46 |
 
-### Day 365
+### 365.º Dia
 
-After a complete year, the final state of our investment would be
+Após um ano completo, o resultado final do nosso investimento seria:
 
-| Reward type              | Value in dollars |
+| Tipo de recompensa       | Valor em dolares |
 | ------------------------ | ---------------- |
-| dQUICK on QuickSwap      | 50.689           |
-| ADDY on QuickSwap        | 4.325            |
-| IMX/QUICK on Adamant     | 851.968          |
-| ADDY on Adamant          | 568.972          |
-| WMATIC on Adamant        | 91.209           |
-| camWMATIC on Mai Finance | 91.220           |
-| debt on Mai Finance      | 44.30            |
+| dQUICK na QuickSwap      | 50.689           |
+| ADDY na QuickSwap        | 4.325            |
+| IMX/QUICK na Adamant     | 851.968          |
+| ADDY na Adamant          | 568.972          |
+| WMATIC na Adamant        | 91.209           |
+| camWMATIC na Mai Finance | 91.220           |
+| dívida na Mai Finance    | 44.30            |
 
-Note that the WMATIC in Adamant and collected daily so they're not part of the final revenue generated via this process. Also, the ADDY that have been generated via the QuickSwap farm haven't been harvested daily and added to boost the ADDY rewards on Adamant in this simulation (it is already complex enough).
+Perceba que o WMATIC na Adamant é coletado diariamente collected daily so they're not part of the final revenue generated via this process. Also, the ADDY that have been generated via the QuickSwap farm haven't been harvested daily and added to boost the ADDY rewards on Adamant in this simulation (it is already complex enough).
 
 Finally, after one year, the generated revenue is worth $1,567.174. If we consider the initial investment was $1,000 worth of MAI/USDC, this leads to a final APY of 156.71% on our stable pair.
 
