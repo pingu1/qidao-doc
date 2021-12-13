@@ -167,18 +167,17 @@ Isso significa que no final do primeiro dia, nós ja coletamos:
 * $0.63 de QUICK
 * $0.49 de IMX
 
-Dai, nós podemos combinar todo o IMX que recebemos com uma porção de recompensas QUICK no par LP IMX/QUICK que será depositado na Adamant. O par LP possui um valor de $0.98 e nós ainda temos $0.14 de QUICK que nós depositamos na Dragons's Lair para dQUICK. Então, dQUICK é usado na Dragon's Syrup para começar a coletar ADDY no segundo dia.\
+Dai, nós podemos combinar todo o IMX que recebemos com uma porção de recompensas QUICK no par LP IMX/QUICK que será depositado na Adamant. O par LP possui um valor de $0.98 e nós ainda temos $0.14 de QUICK que nós depositamos na Dragons's Lair para dQUICK. Então, dQUICK é usado na Dragon's Syrup para começar a coletar ADDY no segundo dia.
 
-
-| Reward type              | Value in dollars |
+| Tipo de recompensa       | Valor em dolares |
 | ------------------------ | ---------------- |
-| dQUICK on QuickSwap      | 0.14             |
-| ADDY on QuickSwap        | 0                |
-| IMX/QUICK on Adamant     | 0.98             |
-| ADDY on Adamant          | 0                |
-| WMATIC on Adamant        | 0                |
-| camWMATIC on Mai Finance | 0                |
-| debt on Mai Finance      | 0                |
+| dQUICK na QuickSwap      | 0.14             |
+| ADDY na QuickSwap        | 0                |
+| IMX/QUICK na Adamant     | 0.98             |
+| ADDY na Adamant          | 0                |
+| WMATIC na Adamant        | 0                |
+| camWMATIC na Mai Finance | 0                |
+| debt na Mai Finance      | 0                |
 
 ### Day 2
 
