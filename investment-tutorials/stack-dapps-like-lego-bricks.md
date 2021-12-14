@@ -169,7 +169,7 @@ Isso significa que no final do primeiro dia, nós ja coletamos:
 
 Dai, nós podemos combinar todo o IMX que recebemos com uma porção de recompensas QUICK no par LP de IMX/QUICK que será depositado na Adamant. O par LP possui um valor de $0.98 e nós ainda temos $0.14 de QUICK que nós depositamos na Dragons's Lair para dQUICK. Então, dQUICK é usado na Dragon's Syrup para começar a coletar ADDY no segundo dia.
 
-| Tipo de recompensa       | Valor em dolares |
+| Tipo de recompensa       | Valor em dólares |
 | ------------------------ | ---------------- |
 | dQUICK na QuickSwap      | 0.14             |
 | ADDY na QuickSwap        | 0                |
@@ -187,7 +187,7 @@ Entretanto, a posição IMX/QUICK na Adamant produz um APR de 151.96% em IMX/QUI
 
 Na QuickSwap, o dQUICK que nós depositamos na Dragon's Syrup está gerando mais tokens QUICK a um APR de 12.26% (+0.03% diariamente) e tokens ADDY a um APR de 17.08% (+0.05% diariamente). Isto é aplicado aos $0.18 de QUICK, o que significa que no final do segundo dia nós já geramos $0.00006 de ADDY e $0.000054 de QUICK. A recompensa ADDY pode ser reivindicada e adicionada a Adamant para começar o boosting do APR em ADDY na posição IMX/QUICK.
 
-| Tipo de recompensa       | Valor em dolares |
+| Tipo de recompensa       | Valor em dólares |
 | ------------------------ | ---------------- |
 | dQUICK na QuickSwap      | 0.274            |
 | ADDY na QuickSwap        | 0.00006          |
@@ -201,7 +201,7 @@ Na QuickSwap, o dQUICK que nós depositamos na Dragon's Syrup está gerando mais
 
 Seguindo, a recompensa em ADDY reivindicada na Adamant está agora gerando recompensas em WMATIC. Os primeiros $0.005 de ADDY coletados geram um APR de 56% (+0.15% diariamente) ou dividendos em WMATIC, o que corresponde a $0.000007 de WMATIC. Tenha em mente que nós estamos apenas dando patida no motor aqui.
 
-| Tipo de recompensa       | Valor em dolares |
+| Tipo de recompensa       | Valor em dólares |
 | ------------------------ | ---------------- |
 | dQUICK na QuickSwap      | 0.411            |
 | ADDY na QuickSwap        | 0.00019          |
@@ -215,7 +215,7 @@ Seguindo, a recompensa em ADDY reivindicada na Adamant está agora gerando recom
 
 Agora, nós podemos adicionar WMATIC no loop. Este dividendo será depositado na AAVE, então usado na Mai Finance para tomar emprestado mais MAI.
 
-| Tipo de recompensa       | Valor em dolares |
+| Tipo de recompensa       | Valor em dólares |
 | ------------------------ | ---------------- |
 | dQUICK na QuickSwap      | 0.548            |
 | ADDY na QuickSwap        | 0.00038          |
@@ -257,7 +257,7 @@ A rotina diária é composta das seguintes transaçōes:
 
 ### Resultados mensais brutos
 
-| Mês | dQUICK | IMX/QUICK | ADDY    | WMATIC | Debt   |
+| Mês | dQUICK | IMX/QUICK | ADDY    | WMATIC | Dívida |
 | --- | ------ | --------- | ------- | ------ | ------ |
 | 1   | $4.25  | $32.56    | $2.32   | $0.03  | $0.02  |
 | 2   | $8.36  | $68.34    | $9.65   | $0.28  | $0.15  |
@@ -276,7 +276,7 @@ A rotina diária é composta das seguintes transaçōes:
 
 Após um ano completo, o resultado final do nosso investimento seria:
 
-| Tipo de recompensa       | Valor em dolares |
+| Tipo de recompensa       | Valor em dólares |
 | ------------------------ | ---------------- |
 | dQUICK na QuickSwap      | 50.689           |
 | ADDY na QuickSwap        | 4.325            |
