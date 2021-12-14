@@ -160,24 +160,24 @@ A rotina diária é composta das seguintes transaçōes:
 
 ### 365.º Dia
 
-Após um ano completo, o resultado final do nosso investimento seria:
+Após um ano completo, o estado final do nosso investimento seria:
 
-| Tipo de recompensa            | Valor em dólares |
+| Reward type                   | Value in dollars |
 | ----------------------------- | ---------------- |
-| dQUICK na QuickSwap           | 5,628.29         |
-| ADDY na QuickSwap             | 365.25           |
-| Qi/QUICK na Adamant           | 29,733.58        |
-| ADDY na Adamant               | 13,587.56        |
-| Qi/MATIC adicionais + Qi/WETH | 2,631.07         |
+| dQUICK on QuickSwap           | 5,628.29         |
+| ADDY on QuickSwap             | 365.25           |
+| Qi/QUICK on Adamant           | 29,733.58        |
+| ADDY on Adamant               | 13,587.56        |
+| Additional Qi/MATIC + Qi/WETH | 2,631.07         |
 
-Perceba que, nesta simulação, o ADDY que foi gerado através da farm da QuickSwap não foi colhido diariamente e adicionando para fazer boost às recompensas ADDY na Adamant (pois tudo já é complexo o bastante). Além disso, nós apenas estamos considerando o ADDY que passou pelo Vesting. Após o periodo inicial de vesting de 90 dias, se você reivindicar os tokens ADDY e bloqueá-los, você irá aumentar suas recompensas ADDY ainda mais, e gerar mais WMATIC.
+Note that the ADDY that have been generated via the QuickSwap farm haven't been harvested daily and added to boost the ADDY rewards on Adamant in this simulation (it is already complex enough). Also, we are only taking in account vested ADDY. After the initial vesting period of 90 days, if you claim the ADDY tokens and lock them, you will boost your ADDY rewards even more, and generate more WMATIC.
 
-Por último, após um ano, a renda gerada é de $51,580.50. Se nós considerarmos que o investimento inicial era de $1,000 de Qi/MATIC e Qi/WETH, isso nos dá um APY final de 5,087.39%.
+Finally, after one year, the generated revenue is worth $51,580.50. If we consider the initial investment was $1,000 worth of Qi/MATIC and Qi/WETH, this leads to a final APY of 5,087.39%.
 
-## Aviso legal
+## Disclaimer
 
-Este guia não representa conselho financeiro, mas tem cunho inteiramente educacional. Você precisa prestar atenção às variaçōes de preço, oferta e demanda, à data de validade dos programas de recompensas, impermanent loss, etc. O objetivo aqui não é propor uma receita de bolo a ser seguida cegamente, então, por favor, faça o seu dever de casa e sua própria simulação, e apenas invista uma quantia que você pode perder confortavelmente.
+This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
 
 {% hint style="info" %}
-Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua própria pesquisa.
+Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
 {% endhint %}
