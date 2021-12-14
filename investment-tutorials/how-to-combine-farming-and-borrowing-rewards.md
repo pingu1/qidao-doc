@@ -1,10 +1,10 @@
 ---
 description: >-
-  This page presents how to combine yield farming with the borrowing rewards
-  provided by Mai Finance to increase your overall interests.
+  Este guia ensina como combinar rendimentos de farming com juros de empréstimos
+  fornecidos pela Mai Finance para aumentar sua receita total.
 ---
 
-# How to combine farming and borrowing rewards
+# Como combinar recompensas de farming e empréstimos
 
 ## Intro
 
