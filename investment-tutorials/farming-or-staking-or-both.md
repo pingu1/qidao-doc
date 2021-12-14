@@ -119,48 +119,48 @@ Neste momento, o sistema de farming está totalmente armado, e nós podemos come
 
 ## Resultados de Farming
 
-### Daily routine
+### Rotina diária
 
-The daily routine is composed by the following transactions
+A rotina diária é composta das seguintes transaçōes:
 
-* Harvest Qi on Mai Finance
-* Harvest WMATIC on Adamant
-* Deposit 66% of WMATIC on Mai Finance
-* Borrow MAI for 50% of the deposit
-* Swap MAI for WETH
-* Create Qi/WMATIC pair on QuickSwap
-* Deposit the Qi/WMATIC on Mai Finance
-* Create Qi/WETH pair on QuickSwap
-* Deposit the Qi/WETH on QuickSwap
-* Harvest Quick on QuickSwap
-* Create Qi/QUICK pair on QuickSwap
-* Deposit remaining QUICK on Dragon's Lair
-* Deposit dQUICK on Dragon's Syrup
-* Harvest ADDY token from Dragon's Syrup
-* Harvest ADDY token from Adamant
-* Deposit new Qi/QUICK on Adamant
-* Deposit harvested ADDY on Adamant (lock)
+* Colher Qi na Mai Finance
+* Colher WMATIC na Adamant
+* Depositar 66% de WMATIC na Mai Finance
+* Tomar MAI emprestado para 50% do depósito
+* Trocar MAI por WETH
+* Criar um par de Qi/WMATIC na QuickSwap
+* Depositar o Qi/WMATIC na Mai Finance
+* Criar um par de Qi/WETH na QuickSwap
+* Depositar o Qi/WETH na QuickSwap
+* Colher Quick na QuickSwap
+* Criar um par de Qi/QUICK na QuickSwap
+* Depositar o QUICK restante na Dragon's Lair
+* Depositar dQUICK na Dragon's Syrup
+* Colher o token ADDY da Dragon's Syrup
+* Colher o token ADDY da Adamant
+* Depositar novos Qi/QUICK na Adamant
+* Depositar o ADDY colhido na Adamant (bloqueio)
 
-### Raw results month after month
+### Resultados mensais brutos
 
-| Month | dQUICK    | Qi/QUICK   | ADDY       | Qi/MATIC Qi/WETH |
-| ----- | --------- | ---------- | ---------- | ---------------- |
-| 1     | $280.96   | $1,040.78  | $54.97     | $0.91            |
-| 2     | $557.79   | $2,162.98  | $224.36    | $7.89            |
-| 3     | $842.08   | $3,413.73  | $521.09    | $27.85           |
-| 4     | $1,138.60 | $4,816.62  | $960.17    | $68.48           |
-| 5     | $1,454.30 | $6,405.18  | $1,559.60  | $138.44          |
-| 6     | $1,798.77 | $8,224.86  | $2,341.64  | $247.49          |
-| 7     | $2,184.58 | $10,335.38 | $3,334.13  | $406.84          |
-| 8     | $2,627.76 | $12,813.60 | $4,572.23  | $629.47          |
-| 9     | $3,148.40 | $15,757.01 | $6,100.39  | $930.60          |
-| 10    | $3,771.42 | $19,288.05 | $7,974.83  | $1,328.32        |
-| 11    | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31        |
-| 12    | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79        |
+| Mês | dQUICK    | Qi/QUICK   | ADDY       | Qi/MATIC Qi/WETH |
+| --- | --------- | ---------- | ---------- | ---------------- |
+| 1   | $280.96   | $1,040.78  | $54.97     | $0.91            |
+| 2   | $557.79   | $2,162.98  | $224.36    | $7.89            |
+| 3   | $842.08   | $3,413.73  | $521.09    | $27.85           |
+| 4   | $1,138.60 | $4,816.62  | $960.17    | $68.48           |
+| 5   | $1,454.30 | $6,405.18  | $1,559.60  | $138.44          |
+| 6   | $1,798.77 | $8,224.86  | $2,341.64  | $247.49          |
+| 7   | $2,184.58 | $10,335.38 | $3,334.13  | $406.84          |
+| 8   | $2,627.76 | $12,813.60 | $4,572.23  | $629.47          |
+| 9   | $3,148.40 | $15,757.01 | $6,100.39  | $930.60          |
+| 10  | $3,771.42 | $19,288.05 | $7,974.83  | $1,328.32        |
+| 11  | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31        |
+| 12  | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79        |
 
-### Day 365
+### 365.º Dia
 
-After a complete year, the final state of our investment would be
+Após um ano completo, o estado final do nosso investimento seria:
 
 | Reward type                   | Value in dollars |
 | ----------------------------- | ---------------- |
