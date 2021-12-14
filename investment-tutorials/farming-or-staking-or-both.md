@@ -44,34 +44,34 @@ Você também precisa saber que os tokens gerados em excesso na Mai Finance e Qu
 * ADDY na Adamant passam automaticamente por vesting (bloqueados por 90 dias), mas irão gerar dividendos em WMATIC.
 * ADDY na Adamant também podem ser travados para fazer um boost no seu APR/APY (**A**nnual **P**ercentage **R**ewards / **A**nnual **P**ercentage **Y**ield) das pools que você participa, assim como gerar mais ADDY, e fazer um boost nos seus dividendos em MATIC.
 
-## Bootstrapping the system
+## Bootstrapping
 
 ![](../.gitbook/assets/screen-shot-2021-09-08-at-6.54.08-am.png)
 
-What follows is a simulation made with an initial investment of $1,000 worth of Qi/MATIC and Qi/WETH LP tokens, and the current APRs / APYs given by the different platforms on September 9th 2021. This is not a real application of what we described above. Rates will vary, token prices will vary, some programs will come to an end etc ... so the final results are just an estimation of what you could get if everything remained stable, which will never be the case.
+A seguir veremos uma simulação feita com um investimento inicial de $1,000 de LP tokens Qi/MATIC e Qi/WETH, e os atuais APRs/APYs fornecidos pelas diferentes plataformas em 9 de Setembro de 2021. Isso não é uma aplicação real do que foi descrito acima. As taxas e os preços dos tokens irão variar, alguns programs serão encerrados, etc. Portanto, os resultados finais são apenas uma estimativa do que você conseguiria se tudo permanecesse estável, o que nunca será o caso.
 
-### Day 1
+### 1.º
 
 {% hint style="info" %}
-**ATTENTION:** The pools used in this guide went live a few hours prior to the publication. APRs and APYs are obviously not going to stay the same, and some revision to the document will be made in a few days. Please, DYOR and take the guide with caution.
+**ATENÇÃO:** As pools usadas neste guia foram ao ar algumas horas antes da publicação. Os APRs e APYs obviamente não serão os mesmos, e este artigo precisará passar por revisão após alguns dais. Por favor, faça a sua própria pesquisa e interprete esse guia com cautela.
 {% endhint %}
 
-Since we have $500 worth of Qi/MATIC LP tokens and $500 of Qi/WETH LP tokens, we will deposit them on Mai Finance and QuickSwap. As a side note, if you have a preference for Qi or QuickSwap, you can simply put more LP tokens on one or the other platform to generate more of your favourite token and stake more. For our example, we'll stick to a strict 50% split.
+Como nós temos $500 de LP tokens Qi/MATIC e $500 de LP tokens Qi/WETH, nós iremos depositá-los na Mai Finance e QuickSwap. Além disso, se você tem preferência pela Mai ou QuickSwap, você pode simplesmente depositar mais LP tokens na plataforma que preferir, para gerar mais do seu tokens favorito e fazer staking com eles. Para o nosso exemplo nós preferimos uma divisão de 50% para cada token.
 
-* $500 of Qi/MATIC will be on Mai Finance, with an APR of 1160.65%
-* $500 of Qi/WETH will be on QuickSwap, with an APR of 1817.44%
+* $500 de Qi/MATIC estará na Mai Finance, com um APR de 1160.65%
+* $500 de Qi/WETH estará na QuickSwap, com um APR de 1817.44%
 
-We will also use the following APRs for the rest of the simulation
+Nós também iremos usar os seguintes APRs para o resto da simulação:
 
-* dQUICK APR from Dragon's Lair is 17.28%
-* ADDY APR from Dragon's Syrup is 17.08%
-* Qi/QUICK APR on Adamant for auto-compounded LP tokens is 133%
-* Qi/QUICK APR on Adamant for ADDY tokens is 131%
-* WMATIC APR on Adamant is 35% of the locked ADDY tokens
+* APR em dQUICK da Dragon's Lair é de 17.28%
+* APR em ADDY da Dragon's Syrup é de 17.08%
+* APR em Qi/QUICK na Adamant para LP tokens reacumulados automaticamente é de 133%
+* APR em Qi/QUICK na Adamant para tokens ADDY é de 131%
+* APR em WMATIC na Adamant é de 35% dos tokens ADDY bloqueados
 
-Because the APR on Mai Finance is lower than the one on QuickSwap, we will be using 100% of the Qi generated on Mai Finance to generate additional Qi/QUICK tokens (not selling but combining with QUICK tokens received on QuickSwap), meaning that at the end of the day, we have 0 Qi left. Of course, if you balance your initial investment differently, you could get remaining Qi and 0 QUICK left.
+Porque o APR na Mai Finance é menor do que na QuickSwap, nós iremos usar 100% do Qi gerado na Mai Finance para gerar mais tokens Qi/QUICK. Não iremos vendê-los, mas combiná-los com tokens QUICK recebidos na QuickSwap, o que significa que no final do dia, nos restará 0 Qi. Obviamente, se você pesar seu investimento inicial diferentemente, você pode terminar o dia com Qi, mas nenhum QUICK.
 
-Hence, at the end of Day 1, we have in our portfolio
+Portanto, no final do primeiro dia, nós teremos em nosso portfólio:
 
 | Reward type         | Value in dollars |
 | ------------------- | ---------------- |
@@ -143,20 +143,20 @@ The daily routine is composed by the following transactions
 
 ### Raw results month after month
 
-| Month | dQUICK    | Qi/QUICK   | ADDY       | Qi/MATIC  Qi/WETH |
-| ----- | --------- | ---------- | ---------- | ----------------- |
-| 1     | $280.96   | $1,040.78  | $54.97     | $0.91             |
-| 2     | $557.79   | $2,162.98  | $224.36    | $7.89             |
-| 3     | $842.08   | $3,413.73  | $521.09    | $27.85            |
-| 4     | $1,138.60 | $4,816.62  | $960.17    | $68.48            |
-| 5     | $1,454.30 | $6,405.18  | $1,559.60  | $138.44           |
-| 6     | $1,798.77 | $8,224.86  | $2,341.64  | $247.49           |
-| 7     | $2,184.58 | $10,335.38 | $3,334.13  | $406.84           |
-| 8     | $2,627.76 | $12,813.60 | $4,572.23  | $629.47           |
-| 9     | $3,148.40 | $15,757.01 | $6,100.39  | $930.60           |
-| 10    | $3,771.42 | $19,288.05 | $7,974.83  | $1,328.32         |
-| 11    | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31         |
-| 12    | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79         |
+| Month | dQUICK    | Qi/QUICK   | ADDY       | Qi/MATIC Qi/WETH |
+| ----- | --------- | ---------- | ---------- | ---------------- |
+| 1     | $280.96   | $1,040.78  | $54.97     | $0.91            |
+| 2     | $557.79   | $2,162.98  | $224.36    | $7.89            |
+| 3     | $842.08   | $3,413.73  | $521.09    | $27.85           |
+| 4     | $1,138.60 | $4,816.62  | $960.17    | $68.48           |
+| 5     | $1,454.30 | $6,405.18  | $1,559.60  | $138.44          |
+| 6     | $1,798.77 | $8,224.86  | $2,341.64  | $247.49          |
+| 7     | $2,184.58 | $10,335.38 | $3,334.13  | $406.84          |
+| 8     | $2,627.76 | $12,813.60 | $4,572.23  | $629.47          |
+| 9     | $3,148.40 | $15,757.01 | $6,100.39  | $930.60          |
+| 10    | $3,771.42 | $19,288.05 | $7,974.83  | $1,328.32        |
+| 11    | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31        |
+| 12    | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79        |
 
 ### Day 365
 
