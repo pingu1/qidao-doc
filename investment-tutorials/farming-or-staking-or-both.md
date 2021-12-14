@@ -35,14 +35,14 @@ Você já pode ver que cada aplicação está gerando tokens que podem alimentar
 
 ### No lado do Staking
 
-You also need to know that tokens generated in excess on Mai Finance and QuickSwap can be staked:
+Você também precisa saber que os tokens gerados em excesso na Mai Finance e Quickswap podem ser utilizados em staking:
 
-* Qi on Mai Finance **AND** QuickSwap can be used to vote on QIP (**Q**iDAO **I**mprovement **P**roposals).
-* Qi on Mai Finance can be locked. If you lock your Qis, you become eligible to protocols dividends that are paid in Qi and distributed every Wednesdays. More details on Qi staking soon.
-* QUICK on QuickSwap can also be staked to generate additional QUICK tokens in the Dragon's Lair.
-* locked QUICK (dQUICK) can also be used on QuickSwap to generate other tokens in the Dragon's Syrup, and the one we will be using is the farm generating ADDY tokens.
-* ADDY on Adamant are automatically vested (locked for 90 days), but will generate WMATIC dividends.
-* ADDY on Adamant can also be locked in order to boost your APRs/APYs (**A**nnual **P**ercentage **R**ewards / **A**nnual **P**ercentage **Y**ield) on the pools you entered on the site, as well as generating more ADDYs, and boosting your MATIC dividends.
+* Qi na Mai Finance **E** QuickSwap podem ser usados para votar no QIP (**Q**iDAO **I**mprovement **P**roposals, Propostas de Melhorias da QiDAO).
+* Qi na Mai Finance podem ser bloqueados. Se você bloquear seu Qi, você se torna elegível a receber dividendos de protocolos que são pagos em Qi e distribuidos todas as quartas-feiras. Mais detalhes sobre staking de Qi em breve.
+* QUICK na QuickSwap também podem ser usados em staking para gerar mais tokens QUICK na Dragon's Lair.
+* QUICK bloqueados (dQUICK) também podem ser usados na QuickSwap para gerar outros tokens na Dragon's Syrup, e o que nós utilizaremos é o token ADDY, gerado na farm
+* ADDY na Adamant passam automaticamente por vesting (bloqueados por 90 dias), mas irão gerar dividendos em WMATIC.
+* ADDY na Adamant também podem ser travados para fazer um boost no seu APR/APY (**A**nnual **P**ercentage **R**ewards / **A**nnual **P**ercentage **Y**ield) das pools que você participa, assim como gerar mais ADDY, e fazer um boost nos seus dividendos em MATIC.
 
 ## Bootstrapping the system
 
