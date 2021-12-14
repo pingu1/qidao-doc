@@ -50,7 +50,7 @@ Você também precisa saber que os tokens gerados em excesso na Mai Finance e Qu
 
 A seguir veremos uma simulação feita com um investimento inicial de $1,000 de LP tokens Qi/MATIC e Qi/WETH, e os atuais APRs/APYs fornecidos pelas diferentes plataformas em 9 de Setembro de 2021. Isso não é uma aplicação real do que foi descrito acima. As taxas e os preços dos tokens irão variar, alguns programs serão encerrados, etc. Portanto, os resultados finais são apenas uma estimativa do que você conseguiria se tudo permanecesse estável, o que nunca será o caso.
 
-### 1.º
+### 1.º Dia
 
 {% hint style="info" %}
 **ATENÇÃO:** As pools usadas neste guia foram ao ar algumas horas antes da publicação. Os APRs e APYs obviamente não serão os mesmos, e este artigo precisará passar por revisão após alguns dais. Por favor, faça a sua própria pesquisa e interprete esse guia com cautela.
@@ -69,29 +69,29 @@ Nós também iremos usar os seguintes APRs para o resto da simulação:
 * APR em Qi/QUICK na Adamant para tokens ADDY é de 131%
 * APR em WMATIC na Adamant é de 35% dos tokens ADDY bloqueados
 
-Porque o APR na Mai Finance é menor do que na QuickSwap, nós iremos usar 100% do Qi gerado na Mai Finance para gerar mais tokens Qi/QUICK. Não iremos vendê-los, mas combiná-los com tokens QUICK recebidos na QuickSwap, o que significa que no final do dia, nos restará 0 Qi. Obviamente, se você pesar seu investimento inicial diferentemente, você pode terminar o dia com Qi, mas nenhum QUICK.
+Como o APR na Mai Finance é menor do que na QuickSwap, nós iremos usar 100% do Qi gerado na Mai Finance para gerar mais tokens Qi/QUICK. Não iremos vendê-los, mas combiná-los com tokens QUICK recebidos na QuickSwap, o que significa que no final do dia, nos restará 0 Qi. Obviamente, se você pesar seu investimento inicial diferentemente, você pode terminar o dia com Qi, mas nenhum QUICK.
 
 Portanto, no final do primeiro dia, nós teremos em nosso portfólio:
 
-| Reward type         | Value in dollars |
+| Tipo de recompensa  | Valor em dolares |
 | ------------------- | ---------------- |
-| dQUICK on QuickSwap | 8.997            |
-| ADDY on QuickSwap   | 0                |
-| Qi/QUICK on Adamant | 31.799           |
-| ADDY on Adamant     | 0                |
-| WMATIC on Adamant   | 0                |
+| dQUICK na QuickSwap | 8.997            |
+| ADDY na QuickSwap   | 0                |
+| Qi/QUICK na Adamant | 31.799           |
+| ADDY na Adamant     | 0                |
+| WMATIC na Adamant   | 0                |
 
-### Day 2
+### 2.º Dia
 
-On Day 2, the dQUICK deposited on QuickSwap's Dragon's Syrup starts generating ADDY tokens, as well as the Qi/QUICK LP pair on Adamant. At the end of Day 2, we would get
+No segundo dia, o dQUICK depositado na Dragon's Syrup da QuickSwap começar a gerar tokens ADDY, assim como o Par LP Qi/QUICK na Adamant. No final do segundo dia, nós teremos:
 
-| Reward type         | Value in dollars |
+| Tipo de recompensa  | Valor em dólares |
 | ------------------- | ---------------- |
-| dQUICK on QuickSwap | 17.998           |
-| ADDY on QuickSwap   | 0.0042           |
-| Qi/QUICK on Adamant | 63.713           |
-| ADDY on Adamant     | 0.114            |
-| WMATIC on Adamant   | 0                |
+| dQUICK na QuickSwap | 17.998           |
+| ADDY na QuickSwap   | 0.0042           |
+| Qi/QUICK na Adamant | 63.713           |
+| ADDY na Adamant     | 0.114            |
+| WMATIC na Adamant   | 0                |
 
 Don't forget to claim your rewards daily on Adamant in order to start generating WMATIC dividends!
 
