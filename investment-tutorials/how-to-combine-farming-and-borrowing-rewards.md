@@ -6,29 +6,29 @@ description: >-
 
 # Como combinar recompensas de farming e empréstimos
 
-## Intro
+## Introdução
 
-In September 2021, Mai Finance introduced vault rewards in order to promote its borrowing business and have people use their tokens to borrow MAI. It's not only taking a 0% interest loan with a small repayment fee, now people can also get paid to borrow money. This guide will propose a strategy based on stable coin farming using Augury Finance as a source of tokens that will feed the vaults on Mai Finance, leading to high borrowing incentives, and additional MAI that will then be re-injected in the farm.
+Em Setembro de 2021, a Mai Finance introduziu o sistema de recompensas em Vaults para promover seu negócio de empréstimos, e atrair pessoas a depositarem seus tokens para tomar MAI emprestado. Não se trata apenas de tomar um empréstimo a 0% de juros, agora pessoas também podem ser pagas para tomar dinheiro emprestado. Este guia irá propor uma estratégia baseada em farming de stablecoins usando a Augury Finance como uma fonte de tokens que irá alimentar os cofres na Mai Finance, incentivando empréstimos maiores, e mais MAI que será então reinvestido na farm.
 
 ![](<../.gitbook/assets/image (7).png>)
 
-## Application and pools presentation
+## Apresentação das pools e das aplicaçōes
 
 ### Augury Finance
 
-Augury Finance is a yield aggregator that doesn't focus on auto-compounding your LP (**L**iquidity **P**ool) tokens. Instead, Augury will automatically sell the farm tokens of the farms it uses to buy other tokens in their _Infusions._
+Augury Finance é um agregador de rendimento que não foca em reacumular automaticamente seus tokens LP (**L**iquidity **P**ool). Ao invés, Augury irá automaticemente vender os tokens da farm que são usados para comprar outros tokens em suas infusions (infusōes)_._
 
-As an example, you can farm the DFYN-WETH pair on Augury
+Por exemplo, você pode fazer farming com o par DFYN-WETH na Augury:
 
-![Example of the DFYN-WETH mining pool on Augury Finance](<../.gitbook/assets/image (32).png>)
+![Exemplo da pool de mineração de DFYN-WETH na Augury Finance](<../.gitbook/assets/image (32).png>)
 
-This Infusion is using DinoSwap as the underlying farm, and a LP token that one can get on DFYN. With an APR of 123.43%, users who deposit liquidity in this pool will be rewarded with
+Essa infusão usa a DinoSwap como a farm subjacente, e um token LP que pode ser obtido na DFYN. Com um APR de 123.43%, usuários que fornecerem liquidez a essa pool serão recompensados com:
 
-* 30% of WETH
-* 20% of LINK
-* 20% of WBTC
-* 15% of USDT
-* 15% of WMATIC
+* 30% de WETH
+* 20% de LINK
+* 20% de WBTC
+* 15% de USDT
+* 15% de WMATIC
 
 If you farm on DinoSwap, you will be paid with DINO tokens, which price is very volatile. On other aggregator like Adamant or Beefy, you would increase your LP position, but with Augury you "secure" your position by getting tokens that are less likely to have very high volatility. The drawback is that your initial position won't grow over time since 100% of the harvest DINO is converted into the set of tokens composing the reward on Augury.
 
