@@ -30,6 +30,10 @@
 
 * [Moonriver'ı Nasıl Kullanırım?](moonriver-tutorials/how-to-get-started-on-moonriver.md)
 
+## Cronos Rehberi
+
+* [How to get started on Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
+
 ## MAI Üniversitesi
 
 * [QiDAO ile Pasif Gelir Kazanma](mai-university/earning-passive-income-with-qidao.md)
