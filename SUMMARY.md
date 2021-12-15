@@ -30,6 +30,10 @@
 
 * [Come iniziare con Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
 
+## Tutorial di Cronos
+
+* [How to get started on Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
+
 ## Università di MAI
 
 * [Ottenere una rendita passiva con QiDAO](Universita-di-MAI/ottenere-una-rendita-passiva-con-qidao.md)
