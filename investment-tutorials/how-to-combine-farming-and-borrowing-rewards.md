@@ -58,41 +58,41 @@ Como mencionado no parágrafo sobre a Augury, a AAVE é usada para adicionar uma
 
 ### Balancer
 
-A Balancer é outro projeto blue chip como a Curve. Você será capaz de depositar certos tokens nas pools compostas de mais de 2 tokens, de is another blue-chip project like Curve. You will be able to deposit certain tokens in pools composed of more than 2 tokens,  and you deposit a single token. The pool will automatically be balanced to get an equal proportion of each token that composes the pool.
+A Balancer é outro projeto blue chip como a Curve. Nele, você é capaz de participar de pools compostas de mais de dois tokens, apenas depositando um. A pool irá automaticamente ser equilibrada para obter a mesma proporção para cade token que compōe a pool.&#x20;
 
-For our strategy, we will be using the WETH/BAL/Qi/MAI/USDC pool. This pool will accept the Qi token that will be collected from vaults on Mai Finance, and will reward us with additional Qi, and BAL tokens that we will be able to deposit on Mai Finance in the BAL vault, allowing us to mint more MAI and increase our farming position on Augury.
+Para nossa estratégia, nós usaremos a pool WETH/BAL/Qi/MAI/USDC. Esta pool aceitará o token Qi que será coletado das Vaults na Mai Finance, e nos recompensará com mais Qi e tokens BAL que nós poderemos depositar na Mai Finance no Vault BAL, nos permitindo cunhar mais MAI e aumentar nossa posição de farming na Augury.
 
-![Balancer 5-pool as of September 2021](<../.gitbook/assets/image (23).png>)
+![5-pool da Balancer em Setembro de 2021](<../.gitbook/assets/image (23).png>)
 
-## Bootstrapping the system
+## Bootstrapping
 
 ![](<../.gitbook/assets/image (19).png>)
 
-What follows is a simulation made with an initial investment of $1,000 worth of ETH that is deposited in the camWETH vault to borrow $500 worth of MAI, converted in $500 worth of USDT-UST. This simulation assumes the following rewards for the different systems
+Em seguir veremos uma simulação feita com um investimento inicial de $1,000 de ETH que são depositados no Vault camWETH para tomar emprestado $500 de MAI, convertidos em $500 de USDT-UST. Esta simulação assume as seguintes recompensas para os diferentes sistemas:
 
-* USDT-UST farming APR of 22.53%
-* amWBTC APR of 0.39%
-* amWETH APR of 1.71%
-* amWMATIC APR of 3.80%
-* atricrypto3 APR of 3.86% auto-compounded LP token, 13.09% WMATIC and 17.63% CRV
-* 5-tokens Balancer pool with APR of 43.46% with a BAL:Qi ratio of 1:6
-* Vault rewards APRs of
-  * 23.28% for camWBTC
-  * 21.52% for camWETH
-  * 32.93% for camWMATIC
-  * 24.51% for LINK
-  * 116.71% for CRV
-  * 62.38% for BAL
+* APR em farming de USDT-UST de 22.53%
+* APR em amWBTC de 0.39%
+* APR em amWETH APR de 1.71%
+* APR em amWMATIC de 3.80%
+* APR em atricrypto3 de 3.86% para o LP token reacumulado automaticamente, 13.09% de WMATIC e 17.63% de CRV
+* Pool "5-tokens" na Balancer com APR de 43.46% com uma proporção de 1:6 sobre BAL:Qi
+* APRs das recompensas em Vault de
+  * 23.28% em camWBTC
+  * 21.52% em camWETH
+  * 32.93% em camWMATIC
+  * 24.51% em LINK
+  * 116.71% em CRV
+  * 62.38% em BAL
 
-These APRs are all subject to change on the different platforms, and there's no guarantee that they will continue for a whole year, however we will take them as is for this simulation in order to get an idea of the possible overall APR of the system. In order to further "simplify" the simulation, we will not take in account price variations, nor transaction fees. Also note that this simulation is taking into account that the Vault Rewards on Mai Finance and the Balancer rewards are compounded daily instead of weekly, but these rewards are currently airdropped weekly to the users' wallet. Finally, for the sake of this simulation, we will assume the CDR (**C**ollateral to **D**ebt **R**atio) is always 200%, meaning we're only borrowing half of what we deposit to keep getting the rewards, but prevent easy liquidations.
+Todos estes APRs estão sujeitos a mudar nas diferentes plataformas, e não há garantia que eles continuarão assim durante o ano todo, entretanto nós os consideraremos estáticos nesta simulação, para conseguirmos uma ideia do possível APR geral do sistema. Para simplificar a simulação, nós não levaremos em consideração as variaçōes de preço, nem as taxas de transaçōes. Também perceba que esta simulação leva em consideração que as recompensas do Vault na Mai Finance e na Balancer são reacumuladas diariamente ao invés de semanalmente, mas, atualmente, estas recompensas são depositadas nas carteiras dos usuários semanalmente por meio de _Airdrops_. Por último, para o funcionamento desta simulação, nós assumiremos que a taxa CDR (_**C**ollateral to **D**ebt **R**atio_, ou Proporção de Garantia para Dívida) é sempre de 200%, o que significa que nós estamos apenas tomando emprestado metade do que nós depositamos para continuar recebendo as recompensas, mas prevenindo de sermos liquidados facilmente.
 
-### Day 1
+### 1.º Dia
 
-If you still have your $1,000 worth of WETH, deposit it in on AAVE to get amWETH, then deposit your amWETH on [Mai Finance](https://app.mai.finance/yield) to get camWETH, and finally deposit your camWETH into the corresponding vault to be able to borrow 500 MAI.
+Se você ainda tiver seus $1,000 de WETH, deposite-os na AAVE para obter amWETH, então deposite seus amWETH na [Mai Finance](https://app.mai.finance/yield) para obter camWETH, e por último deposite seu camWETH dentro do vault correspondente para poder tomar emprestado 500 MAI.
 
-Use the [anchor](https://app.mai.finance/anchor) to convert your MAI into USDT (or you can use another DEX like [QuickSwap](https://quickswap.exchange/#/) if there is no liquidity in the anchor), then you can use [DFYN](https://exchange.dfyn.network/#/) to swap 50% of your USDT into UST and form a USDT-UST pair that you can then deposit on [Augury](https://augury.finance/infusions/). Note that you will also need some OMEN that you can buy on QuickSwap too.
+Use a [anchor](https://app.mai.finance/anchor) para converter seu MAI em USDT (ou você pode usar outra DEX como a QuickSwap se não houve liquidez na Anchor), então você pode usar a [DFYN](https://exchange.dfyn.network/#/) para trocar 50% de seu USDT em UST e formar um par USDT-UST que você pode então depositar na [Augury](https://augury.finance/infusions/). Perceba que você também precisará de um pouco de OMEN, que pode ser comprado na QuickSwap.
 
-Hence, at the end of Day 1, we harvest the following rewards
+Portanto, no final do primeiro dia, nós colheremos as seguintes recompensas:
 
 | Reward type            | Value in dollars |
 | ---------------------- | ---------------- |
