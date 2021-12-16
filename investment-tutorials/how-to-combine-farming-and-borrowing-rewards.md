@@ -211,9 +211,9 @@ Obter um APY de 28% com farming de stablecoins não é nada mal, mas como isso s
 
 ## Aviso legal
 
-This strategy is really interesting and uses most vaults from Mai Finance, and this guide has been written mostly to showcase that, as of September 2021, this is the part that would generate the more rewards when faming stable coins. However, this strategy may not be the most interesting one, and involves a lot of manipulations of several platforms. Finally, Augury is a fantastic tool that generates specific tokens that can be included in several strategies, but probably not stable farming solely. And as a side note, no deposit fees nor performance fees have been taken in consideration when calculating the final APY.
+Esta estratégia é muito interessante e usa a maioria das vaults da Mai Finance, e este guia foi escrito principalmente para mostrar que, em setembro de 2021, esta é a parte que geraria mais recompensas ao fazer farming com stablecoins. Entretanto, esta estratégia pode não ser a mais interessante, e involve muita manipulação em diferentes plataformas. Por último, a Augury é uma fantástica ferramenta que gera tokens específicos que podem ser incluídos em diversas estratégias, mas provavelmente não apenas em farming de stablecoins. Como última observação, as taxas de depósito não foram consideradas para calcular o APY final.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua própria pesquisa.
 {% endhint %}
 
