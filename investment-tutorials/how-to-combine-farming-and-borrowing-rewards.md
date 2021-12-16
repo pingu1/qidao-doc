@@ -154,33 +154,33 @@ Além disso, você irá obter recompensas semanais em BAL (do seu deposito em Qi
 
 ### Resultados mensais brutos
 
-| Mês | USDT-UST | atricrypto3 | Balancer | camWBTC | camWETH  | camWMATIC | LINK  | CRV   | BAL  |   |
-| --- | -------- | ----------- | -------- | ------- | -------- | --------- | ----- | ----- | ---- | - |
-| 1   | 503.84   | 2.79        | 9.01     | 3.72    | 1,002.34 | 0.94      | 0.93  | 0.001 | 0.02 |   |
-| 2   | 507.88   | 5.66        | 18.39    | 7.47    | 1,004.68 | 1.93      | 1.87  | 0.003 | 0.09 |   |
-| 3   | 511.99   | 8.47        | 28.14    | 11.24   | 1,007.04 | 2.96      | 2.81  | 0.004 | 0.21 |   |
-| 4   | 516.18   | 11.36       | 38.28    | 15.06   | 1,009.41 | 4.02      | 3.76  | 0.005 | 0.38 |   |
-| 5   | 520.43   | 14.28       | 48.83    | 18.90   | 1,011.79 | 5.13      | 4.72  | 0.007 | 0.60 |   |
-| 6   | 524.76   | 17.23       | 59.79    | 22.78   | 1,014.18 | 6.29      | 5.69  | 0.008 | 0.87 |   |
-| 7   | 529.17   | 20.21       | 71.18    | 26.69   | 1,016.58 | 7.48      | 6.67  | 0.010 | 1.21 |   |
-| 8   | 533.66   | 23.24       | 83.03    | 30.63   | 1,018,99 | 8.72      | 7.65  | 0.011 | 1.60 |   |
-| 9   | 538.22   | 26.29       | 95.34    | 34.61   | 1,021.42 | 10.01     | 8.64  | 0.013 | 2.05 |   |
-| 10  | 542.87   | 29.38       | 108.14   | 38.63   | 1,023.86 | 11.34     | 9.64  | 0.014 | 2.57 |   |
-| 11  | 547.61   | 32.51       | 121.44   | 42.68   | 1,026.31 | 12.72     | 10.65 | 0.016 | 3.16 |   |
-| 12  | 552.43   | 35.67       | 135.26   | 47.45   | 1,028.78 | 14.15     | 11.67 | 0.017 | 3.81 |   |
+| Mês | USDT-UST | atricrypto3 | Balancer | camWBTC | camWETH  | camWMATIC | LINK  | CRV   | BAL  |
+| --- | -------- | ----------- | -------- | ------- | -------- | --------- | ----- | ----- | ---- |
+| 1   | 503.84   | 2.79        | 9.01     | 3.72    | 1,002.34 | 0.94      | 0.93  | 0.001 | 0.02 |
+| 2   | 507.88   | 5.66        | 18.39    | 7.47    | 1,004.68 | 1.93      | 1.87  | 0.003 | 0.09 |
+| 3   | 511.99   | 8.47        | 28.14    | 11.24   | 1,007.04 | 2.96      | 2.81  | 0.004 | 0.21 |
+| 4   | 516.18   | 11.36       | 38.28    | 15.06   | 1,009.41 | 4.02      | 3.76  | 0.005 | 0.38 |
+| 5   | 520.43   | 14.28       | 48.83    | 18.90   | 1,011.79 | 5.13      | 4.72  | 0.007 | 0.60 |
+| 6   | 524.76   | 17.23       | 59.79    | 22.78   | 1,014.18 | 6.29      | 5.69  | 0.008 | 0.87 |
+| 7   | 529.17   | 20.21       | 71.18    | 26.69   | 1,016.58 | 7.48      | 6.67  | 0.010 | 1.21 |
+| 8   | 533.66   | 23.24       | 83.03    | 30.63   | 1,018,99 | 8.72      | 7.65  | 0.011 | 1.60 |
+| 9   | 538.22   | 26.29       | 95.34    | 34.61   | 1,021.42 | 10.01     | 8.64  | 0.013 | 2.05 |
+| 10  | 542.87   | 29.38       | 108.14   | 38.63   | 1,023.86 | 11.34     | 9.64  | 0.014 | 2.57 |
+| 11  | 547.61   | 32.51       | 121.44   | 42.68   | 1,026.31 | 12.72     | 10.65 | 0.016 | 3.16 |
+| 12  | 552.43   | 35.67       | 135.26   | 47.45   | 1,028.78 | 14.15     | 11.67 | 0.017 | 3.81 |
 
-A few notes:
+Algumas observaçōes:
 
-* The growth of the USDT-UST pool is the only result of additional MAI borrowed from vaults
-* The CRV pool is almost inexistant due to the very low amount of USDC deposited on Curve
-* The BAL vault is not important due to the fact that 14.28% of the Balancer reward is paid in BAL tokens, the rest being paid in Qi tokens
-* The amount in the Balancer pool is the biggest gain, and is only the result of Vault rewards and Balancer rewards
+* O crescimento da pool USDT-UST é o unico resultado do MAI adicional emprestado das Vaults.
+* A pool CRV é praticamente inexistente devido à pequena quantia de USDC depositada na Curve.
+* O Vault BAL não é importante devido ao fato de que 14.28% das recompensas da Balancer são pagas em BAL, o restante sendo pago em tokens Qi.
+* A quantia na pool da Balancer é a de maior ganho, e é apenas o resultado das recompensas das Vaults e da Balancer.
 
-### Day 365
+### 365.º Dia
 
-After a complete year, the final state of our investment would be
+Após um ano completo, o resultado final do nosso investimento será de:&#x20;
 
-| Position    | Value in dollars |
+| Posição     | Valor em dólares |
 | ----------- | ---------------- |
 | USDT-UST    | 553.24           |
 | atricrypto3 | 36.20            |
@@ -192,24 +192,24 @@ After a complete year, the final state of our investment would be
 | CRV         | 0.017            |
 | BAL         | 3.93             |
 
-The total debt is actually the entire USDT-UST position, so $553.24, and the total reward generated is $280.63, corresponding to a final APY of 28.06%.
+A dívida total é na verdade a posição USDT-UST, ou seja, $553.24, e o lucro total gerado é de $280.63, correspondente a um APY final de 28.06%.
 
-### Comparison with other strategies
+### Comparando com outras estratégias
 
-Getting a 28% APY on stable coin farming isn't too bad, but how does this compare to other easier strategies we could apply with the initial $1,000 worth of ETH? Let's check the final APY fo the following strategies
+Obter um APY de 28% com farming de stablecoins não é nada mal, mas como isso se compara a outras estratégias em que poderiamos aplicar o mesmo investimento inicial de $1,000 de ETH? Vamos conferir o APY final das seguintes estratégias:
 
-* Leverage amWETH 8 times via AAVE: for this, we will use the exact flow described in the [AAVE token guide](broken-reference).
-* Full stable farming on Augury: for this strategy, we sell the WETH and farm with $1,000 worth of USDT-UST on the same infusion on Augury
-* Full stable farming on QuickSwap: for this strategy, we will use the camWETH vault to benefit from the vault reward, and farm with $500 worth of MAI on QuickSwap (MAI-DAI at 19.78% APY), using the dQUICK vault on Mai Finance to borrow additional MAI and re-invest into the farming pool (dQUICK vaults with an APR of 55.72%)
+* Alavancar amWETH 8 vezes pela AAVE: para isso, nós seguiremos o exato caminho já demonstrado no [guia to token AAVE](broken-reference).
+* Farming apenas com stablecoins na Augury: para esta estratégia, nós venderemos o WETH e faremos farming com $1,000 de USDT-UST na mesma infusão na Augury.
+* Farming apenas com stablecoins na QuickSwap: para esta estratégia, nós usaremos o Vault camWETH para nos beneficiar da recompensa, e fazer farming com $500 de MAI na QuickSwap (MAI-DAI com APY de 19.78%), usando o Vault dQUICK na Mai Finance para tomare emprestado mais MAI e reinvestir na farming pool (Vaults dQUICK com APR de 55.72%)
 
-| Strategy                         | Final APY |
-| -------------------------------- | --------- |
-| Strategy presented in this guide | 28.06%    |
-| Leverage AAVE token 8x           | 46.46%    |
-| Only stable farming on Augury    | 22.53%    |
-| Quickswap farming + dQUICK vault | 35.96%    |
+| Estratégia                                         | APY final |
+| -------------------------------------------------- | --------- |
+| Estratégia apresentada neste tutorial              | 28.06%    |
+| Alavancar o token 8 vezes pela AAVE                | 46.46%    |
+| Farming de stablecoins na Augury                   | 22.53%    |
+| Farming de stablecoins na Quickswap + Vault dQUICK | 35.96%    |
 
-## Disclaimer
+## Aviso legal
 
 This strategy is really interesting and uses most vaults from Mai Finance, and this guide has been written mostly to showcase that, as of September 2021, this is the part that would generate the more rewards when faming stable coins. However, this strategy may not be the most interesting one, and involves a lot of manipulations of several platforms. Finally, Augury is a fantastic tool that generates specific tokens that can be included in several strategies, but probably not stable farming solely. And as a side note, no deposit fees nor performance fees have been taken in consideration when calculating the final APY.
 
