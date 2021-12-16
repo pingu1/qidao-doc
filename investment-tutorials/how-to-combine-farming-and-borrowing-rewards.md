@@ -36,7 +36,7 @@ Se você fizer farming na DinoSwap, você será pago em tokens DINO, cujo preço
 A Augury Finance usa 3 diferentes tiers (niveis) de infusão que possuem taxas de deposito e de performance diferentes. Por favor leia sobre os tipos de tiers que quer usar e tenha certeza que entende o seu impacto na sua estratégia de farming.
 {% endhint %}
 
-Em nossa estratégia, nós usaremos a farm de tier 2 USDT-UST que recompensa os usuários com uma mistura de WETH/WBTC/LINK/WMATIC/USDC, porque a Mai Finance oferece 4 vaults para 4 dos 5 tokens que nós receberemos como recompensa. Para maximizar nossos lucros, nós adicionaremos AAVE entre o output (saída) da Augury e os Vaults da Mai Finance, já que 3 dos 5 tokens que nós iremos colher podem ser emprestados na AAVE.&#x20;
+Em nossa estratégia, nós usaremos a farm de tier 2 USDT-UST que recompensa os usuários com uma mistura de WETH/WBTC/LINK/WMATIC/USDC, porque a Mai Finance oferece 4 Vaults para 4 dos 5 tokens que nós receberemos como recompensa. Para maximizar nossos lucros, nós adicionaremos AAVE entre o output (saída) da Augury e os Vaults da Mai Finance, já que 3 dos 5 tokens que nós iremos colher podem ser emprestados na AAVE.&#x20;
 
 ![Farming de stablecoins USDT-UST para a nossa estratégia](<../.gitbook/assets/image (31).png>)
 
@@ -52,7 +52,7 @@ Nós usaremos a pool atricrypto3 que aceita qualquer combinação de WBTC/WETH/U
 
 ### AAVE
 
-Como mencionado no parágrafo sobre a Augury, a AAVE é usada para adicionar uma pequena recompensa aos tokens de farming na Augury antes de usá-los na Mai Finance. Ao invés de depositar nosso WBTC, WETH e WMATIC diretamente na Mai Finance, nós iremos depositar estes tokens na AAVE e usar o instrumento de rendimento na Mai Finane para reacumular automaticamente as recompensas da AAVE nas pools amToken, e usar o camToken como garantia nas Vaults. Você pode obter mais detalhes sobre esta parte lendo o [tutorial sobre tokens AAVE](leverage-aave-tokens.md).
+Como mencionado no parágrafo sobre a Augury, a AAVE é usada para adicionar uma pequena recompensa aos tokens de farming na Augury antes de usá-los na Mai Finance. Ao invés de depositar nosso WBTC, WETH e WMATIC diretamente na Mai Finance, nós iremos depositar estes tokens na AAVE e usar o instrumento de rendimento na Mai Finane para reacumular automaticamente as recompensas da AAVE nas pools amToken, e usar o camToken como garantia nos Vaults. Você pode obter mais detalhes sobre esta parte lendo o [tutorial sobre tokens AAVE](leverage-aave-tokens.md).
 
 ![Recompensas de empréstimsos da AAVE em Setembro de 2021](<../.gitbook/assets/image (29).png>)
 
@@ -60,7 +60,7 @@ Como mencionado no parágrafo sobre a Augury, a AAVE é usada para adicionar uma
 
 A Balancer é outro projeto blue chip como a Curve. Nele, você é capaz de participar de pools compostas de mais de dois tokens, apenas depositando um. A pool irá automaticamente ser equilibrada para obter a mesma proporção para cade token que compōe a pool.&#x20;
 
-Para nossa estratégia, nós usaremos a pool WETH/BAL/Qi/MAI/USDC. Esta pool aceitará o token Qi que será coletado das Vaults na Mai Finance, e nos recompensará com mais Qi e tokens BAL que nós poderemos depositar na Mai Finance no Vault BAL, nos permitindo cunhar mais MAI e aumentar nossa posição de farming na Augury.
+Para nossa estratégia, nós usaremos a pool WETH/BAL/Qi/MAI/USDC. Esta pool aceitará o token Qi que será coletado dos Vaults na Mai Finance, e nos recompensará com mais Qi e tokens BAL que nós poderemos depositar na Mai Finance no Vault BAL, nos permitindo cunhar mais MAI e aumentar nossa posição de farming na Augury.
 
 ![5-pool da Balancer em Setembro de 2021](<../.gitbook/assets/image (23).png>)
 
@@ -88,86 +88,86 @@ Todos estes APRs estão sujeitos a mudar nas diferentes plataformas, e não há 
 
 ### 1.º Dia
 
-Se você ainda tiver seus $1,000 de WETH, deposite-os na AAVE para obter amWETH, então deposite seus amWETH na [Mai Finance](https://app.mai.finance/yield) para obter camWETH, e por último deposite seu camWETH dentro do vault correspondente para poder tomar emprestado 500 MAI.
+Se você ainda tiver seus $1,000 de WETH, deposite-os na AAVE para obter amWETH, então deposite seus amWETH na [Mai Finance](https://app.mai.finance/yield) para obter camWETH, e por último deposite seu camWETH dentro do Vault correspondente para poder tomar emprestado 500 MAI.
 
 Use a [anchor](https://app.mai.finance/anchor) para converter seu MAI em USDT (ou você pode usar outra DEX como a QuickSwap se não houve liquidez na Anchor), então você pode usar a [DFYN](https://exchange.dfyn.network/#/) para trocar 50% de seu USDT em UST e formar um par USDT-UST que você pode então depositar na [Augury](https://augury.finance/infusions/). Perceba que você também precisará de um pouco de OMEN, que pode ser comprado na QuickSwap.
 
 Portanto, no final do primeiro dia, nós colheremos as seguintes recompensas:
 
-| Reward type            | Value in dollars |
-| ---------------------- | ---------------- |
-| WBTC from farming      | 0.123            |
-| WETH from farming      | 0.031            |
-| WMATIC from farming    | 0.031            |
-| LINK from farming      | 0.031            |
-| USDC from farming      | 0.092            |
-| Qi rewards from vaults | 0.295            |
+| Tipo de recompensa        | Valor em dólares |
+| ------------------------- | ---------------- |
+| WBTC de farming           | 0.123            |
+| WETH de farming           | 0.031            |
+| WMATIC de farming         | 0.031            |
+| LINK de farming           | 0.031            |
+| USDC de farming           | 0.092            |
+| Recompensas Qi dos Vaults | 0.295            |
 
-These are only the rewards we get from farming and borrowing at the end of the first day.
+Estas são apenas as recompensas que nós conseguimos do farming e empréstimos no fim do primeiro dia.
 
-### Day 2
+### 2.º Dia
 
-Rewards are harvested, WBTC, WETH and WMATIC are sent to corresponding vaults on Mai finance after they went through AAVE and the yield instrument on Mai. LINK are directly deposited in the LINK vault, and USDC sent to Curve in the atricrypto3 pool. The Qi reward is sent to Balancer. At this point, we can borrow more MAI from the 3 camToken vaults and the LINK vault ($0.13 worth of MAI to be exact) and we can create more USDT-UST pair from the MAI we borrowed.
+Recompensas são colhidas, WBTC, WETH e WMATIC são enviados aos Vaults respectivos na Mai Finance após eles passarem pela AAVE e o instrumento de rendimento na Mai. LINK é depositado diretamente no Vault LINK, e USDC enviado a Curve na pool atricrypto3. A recompensa Qi é enviada a Balancer. Neste ponto, nós podemos tomar mais MAI emprestado dos 3 Vaults camToken e do Vault LINK ($0.13 de MAI para ser preciso) e criar mais pares USDT-UST com o MAI emprestado.
 
-Hence, at the end of Day 2, we harvest the following rewards
+Portanto, no final do segundo dia, nós colheremos as seguintes recompensas:
 
-| Reward type                 | Value in dollars |
-| --------------------------- | ---------------- |
-| WBTC from farming           | 0.123            |
-| WETH from farming           | 0.031            |
-| WMATIC from farming + Curve | 0.031            |
-| LINK from farming           | 0.031            |
-| USDC from farming           | 0.093            |
-| CRV rewards on Curve        | 0.00004          |
-| BAL rewards                 | 0.00005          |
-| Qi rewards from vaults      | 0.296            |
+| Tipo de recompensa        | Valor em dólares |
+| ------------------------- | ---------------- |
+| WBTC de farming           | 0.123            |
+| WETH de farming           | 0.031            |
+| WMATIC de farming + Curve | 0.031            |
+| LINK de farming           | 0.031            |
+| USDC de farming           | 0.093            |
+| Recompensas CRV na Curve  | 0.00004          |
+| Recompensas BAL           | 0.00005          |
+| Recompensas Qi dos Vaults | 0.296            |
 
-At this point, the system is primed and rewards are flowing in a way that each step is feeding the next one, creating some nice little loop.
+A partir deste ponto, o sistema está armado e as recompensas estão fluindo de uma maneira que cada etapa alimenta a próxima, o que acaba criando um pequeno loop bem legal.
 
-## Farming results
+## Resultados do Farming
 
-### Daily routine
+### Rotina diária
 
-The daily routine is composed by the following transactions
+A rotina diária é composta pelas seguintes transaçōes:
 
-* Harvest rewards on Augury
-* Deposit WBTC, WETH and WMATIC on AAVE
-* Deposit amWBTC, amWETH and amWMATIC on Mai Finance in the yield instrument
-* Deposit camWBTC, camWETH and camWMATIC in the respective vaults on Mai Finance
-* Deposit LINK in the LINK vault on Mai Finance
-* Deposit USDC in the atricrypto3 pool on Curve
-* Harvest WMATIC from Curve and use them in the camWMATIC vault
-* Harvest CRV from Curve and use them in the CRV vault
-* Borrow MAI from the different vaults
-* Convert MAI into USDT on Mai Finance via the anchor
-* Convert 50% of the USDT into UST on DFYN
-* Create new USDT-UST LP pair on DFYN
-* Deposit the new LP tokens on Augury
+* Colher as recompensas na Augury
+* Depositar WBTC, WETH e WMATIC na AAVE
+* Depositar amWBTC, amWETH e amWMATIC na Mai Finance no instrumento de rendimento
+* Depositar camWBTC, camWETH e camWMATIC nos respectivos Vaults na Mai Finance
+* Depositar LINK no Vault de LINK na Mai Finance
+* Depositar USDC na pool atricrypto3 na Curve
+* Colher WMATIC da Curve e usá-lo no Vault da camWMATIC
+* Colher CRV da Curve e usá-lo no Vault CRV
+* Tomar MAI emprestado dos diferentes Vaults
+* Converter MAI em USDT na Mai Finance pela Anchor
+* Converter 50% do USDT em UST na DFYN
+* Criar um novo par LP de USDT-UST na DFYN
+* Depositar os novos LP tokens na Augury
 
-### Weekly routine
+### Rotina semanal
 
-Additionally, you will get weekly rewards in BAL (from your Qi deposit on Balancer) and Qi tokens (from vault rewards). You will have to
+Além disso, você irá obter recompensas semanais em BAL (do seu deposito em Qi na Balancer) e tokens Qi (das recompensas dos Vaults). Você precisará:
 
-* Deposit the Qi token on Balancer
-* Deposit the BAL token on Mai Finance in the BAL vault
-* Borrow MAI from your additional BAL deposit and convert them in USDT-UST pair to farm on Augury
+* Depositar o token Qi na Balancer
+* Depositar o token BAL na Mai Finance no Vault BAL
+* Tomar MAI emprestado do seu depósito adicional de BAL e o converter em um par USDT-UST para fazer farming na Augury
 
-### Raw results month after month
+### Resultados mensais brutos
 
-| Month | USDT-UST | atricrypto3 | Balancer | camWBTC | camWETH  | camWMATIC | LINK  | CRV   | BAL  |   |
-| ----- | -------- | ----------- | -------- | ------- | -------- | --------- | ----- | ----- | ---- | - |
-| 1     | 503.84   | 2.79        | 9.01     | 3.72    | 1,002.34 | 0.94      | 0.93  | 0.001 | 0.02 |   |
-| 2     | 507.88   | 5.66        | 18.39    | 7.47    | 1,004.68 | 1.93      | 1.87  | 0.003 | 0.09 |   |
-| 3     | 511.99   | 8.47        | 28.14    | 11.24   | 1,007.04 | 2.96      | 2.81  | 0.004 | 0.21 |   |
-| 4     | 516.18   | 11.36       | 38.28    | 15.06   | 1,009.41 | 4.02      | 3.76  | 0.005 | 0.38 |   |
-| 5     | 520.43   | 14.28       | 48.83    | 18.90   | 1,011.79 | 5.13      | 4.72  | 0.007 | 0.60 |   |
-| 6     | 524.76   | 17.23       | 59.79    | 22.78   | 1,014.18 | 6.29      | 5.69  | 0.008 | 0.87 |   |
-| 7     | 529.17   | 20.21       | 71.18    | 26.69   | 1,016.58 | 7.48      | 6.67  | 0.010 | 1.21 |   |
-| 8     | 533.66   | 23.24       | 83.03    | 30.63   | 1,018,99 | 8.72      | 7.65  | 0.011 | 1.60 |   |
-| 9     | 538.22   | 26.29       | 95.34    | 34.61   | 1,021.42 | 10.01     | 8.64  | 0.013 | 2.05 |   |
-| 10    | 542.87   | 29.38       | 108.14   | 38.63   | 1,023.86 | 11.34     | 9.64  | 0.014 | 2.57 |   |
-| 11    | 547.61   | 32.51       | 121.44   | 42.68   | 1,026.31 | 12.72     | 10.65 | 0.016 | 3.16 |   |
-| 12    | 552.43   | 35.67       | 135.26   | 47.45   | 1,028.78 | 14.15     | 11.67 | 0.017 | 3.81 |   |
+| Mês | USDT-UST | atricrypto3 | Balancer | camWBTC | camWETH  | camWMATIC | LINK  | CRV   | BAL  |   |
+| --- | -------- | ----------- | -------- | ------- | -------- | --------- | ----- | ----- | ---- | - |
+| 1   | 503.84   | 2.79        | 9.01     | 3.72    | 1,002.34 | 0.94      | 0.93  | 0.001 | 0.02 |   |
+| 2   | 507.88   | 5.66        | 18.39    | 7.47    | 1,004.68 | 1.93      | 1.87  | 0.003 | 0.09 |   |
+| 3   | 511.99   | 8.47        | 28.14    | 11.24   | 1,007.04 | 2.96      | 2.81  | 0.004 | 0.21 |   |
+| 4   | 516.18   | 11.36       | 38.28    | 15.06   | 1,009.41 | 4.02      | 3.76  | 0.005 | 0.38 |   |
+| 5   | 520.43   | 14.28       | 48.83    | 18.90   | 1,011.79 | 5.13      | 4.72  | 0.007 | 0.60 |   |
+| 6   | 524.76   | 17.23       | 59.79    | 22.78   | 1,014.18 | 6.29      | 5.69  | 0.008 | 0.87 |   |
+| 7   | 529.17   | 20.21       | 71.18    | 26.69   | 1,016.58 | 7.48      | 6.67  | 0.010 | 1.21 |   |
+| 8   | 533.66   | 23.24       | 83.03    | 30.63   | 1,018,99 | 8.72      | 7.65  | 0.011 | 1.60 |   |
+| 9   | 538.22   | 26.29       | 95.34    | 34.61   | 1,021.42 | 10.01     | 8.64  | 0.013 | 2.05 |   |
+| 10  | 542.87   | 29.38       | 108.14   | 38.63   | 1,023.86 | 11.34     | 9.64  | 0.014 | 2.57 |   |
+| 11  | 547.61   | 32.51       | 121.44   | 42.68   | 1,026.31 | 12.72     | 10.65 | 0.016 | 3.16 |   |
+| 12  | 552.43   | 35.67       | 135.26   | 47.45   | 1,028.78 | 14.15     | 11.67 | 0.017 | 3.81 |   |
 
 A few notes:
 
@@ -198,7 +198,7 @@ The total debt is actually the entire USDT-UST position, so $553.24, and the tot
 
 Getting a 28% APY on stable coin farming isn't too bad, but how does this compare to other easier strategies we could apply with the initial $1,000 worth of ETH? Let's check the final APY fo the following strategies
 
-* Leverage amWETH 8 times via AAVE: for this, we will use the exact flow described in the [AAVE token guide](leverage-aave-tokens.md).
+* Leverage amWETH 8 times via AAVE: for this, we will use the exact flow described in the [AAVE token guide](broken-reference).
 * Full stable farming on Augury: for this strategy, we sell the WETH and farm with $1,000 worth of USDT-UST on the same infusion on Augury
 * Full stable farming on QuickSwap: for this strategy, we will use the camWETH vault to benefit from the vault reward, and farm with $500 worth of MAI on QuickSwap (MAI-DAI at 19.78% APY), using the dQUICK vault on Mai Finance to borrow additional MAI and re-invest into the farming pool (dQUICK vaults with an APR of 55.72%)
 
@@ -216,3 +216,4 @@ This strategy is really interesting and uses most vaults from Mai Finance, and t
 {% hint style="info" %}
 Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
 {% endhint %}
+
