@@ -1,13 +1,13 @@
 ---
 description: >-
-  This guide will present an overly simplified presentation of OHM-forks and
-  related projects, and how you can benefit from them on Polygon with the
-  special case of Klima DAO.
+  Este guia irá apresentar simplificadamente forks e projetos baseados na
+  OlympusDAO (OHM), e como você pode se beneficiar deles na rede Polygon com o
+  caso especial da Klima DAO.
 ---
 
-# OHM forks on Polygon: The case of KLIMA
+# Forks da OHM na rede Polygon: o caso da KLIMA
 
-If you've been following the crypto news for the past few months, you certainly noticed a lot of (3,3) references, and heard about Ohm-related projects. I will try to present quickly what these projects are, what are the principle rules from their core, and how you can actually use them as part of your investment strategies. For this last part, we'll be focusing on Klima DAO, one of the most successful ohm-forks on Polygon, that also has a very interesting story and goal.
+Se você tem seguido as notícias do mundo cripto nos últimos meses, você certamente notou muitas referencias a (3,3), e ouviu sobre projetos relacionados à OlympusDAO. Eu tentarei apresentar rapidamente o que esses projetos são, quais são as regras e princípios essenciais deles, e como você pode integrá-los às suas estratégias de investimento. Para essa última parte, nós focaremos na Klima DAO, um dos forks mais bem sucedidos na rede Polygon, que também possui uma história e objetivo interessantes.
 
 ## What are OHM-forks
 
@@ -121,7 +121,7 @@ With your loan, you will be able to buy more KLIMA tokens and repeat the loop.
 You will notice that the APY on sKLIMA will largely compensate the interests on your loan.
 
 {% hint style="warning" %}
-There's a minimum amount to borrow on Market.xyz, please check the  limit when you want to apply this strategy.
+There's a minimum amount to borrow on Market.xyz, please check the limit when you want to apply this strategy.
 {% endhint %}
 
 ### Expected results

@@ -13,7 +13,7 @@
 * [Montando DApps como peças de Lego](investment-tutorials/stack-dapps-like-lego-bricks.md)
 * [Farming, staking, ou ambos?](investment-tutorials/farming-or-staking-or-both.md)
 * [Como combinar recompensas de farming e empréstimos](investment-tutorials/how-to-combine-farming-and-borrowing-rewards.md)
-* [OHM forks on Polygon: The case of KLIMA](tutoriais-para-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
+* [Forks da OHM na rede Polygon: o caso da KLIMA](tutoriais-para-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
 * [MAI single-staking with Ethalend](tutoriais-para-polygon/ethalend-single-staking.md)
 
 ## tutoriais para avalanche
