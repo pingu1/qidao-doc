@@ -33,6 +33,7 @@
 ## Tutoriels pour Cronos
 
 * [How to get started on Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
+* [Farming Legos with CroDex](cronos-tutorials/farming-legos-with-crodex.md)
 
 ## L'Université du MAI <a href="#universite-mai" id="universite-mai"></a>
 
