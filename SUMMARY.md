@@ -33,6 +33,7 @@
 ## Cronos Rehberi
 
 * [Cronos'u Nasıl Kullanırım?](cronos-tutorials/how-to-get-started-on-cronos.md)
+* [Farming Legos with CroDex](cronos-tutorials/farming-legos-with-crodex.md)
 
 ## MAI Üniversitesi
 
