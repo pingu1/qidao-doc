@@ -9,15 +9,15 @@ description: >-
 
 Se você tem seguido as notícias do mundo cripto nos últimos meses, você certamente notou muitas referencias a (3,3), e ouviu sobre projetos relacionados à OlympusDAO. Eu tentarei apresentar rapidamente o que esses projetos são, quais são as regras e princípios essenciais deles, e como você pode integrá-los às suas estratégias de investimento. Para essa última parte, nós focaremos na Klima DAO, um dos forks mais bem sucedidos na rede Polygon, que também possui uma história e objetivo interessantes.
 
-## What are OHM-forks
+## O que são forks da OHM
 
-### What is OHM and what is a fork?
+### O que é OHM e o que é um fork?
 
-Everything started on the Ethereum Mainnet with Olympus DAO. Their goal is to create a new reserve currency to compete with the dollar, except that unless other stable coins, this new currency would have a floating value. The native token (Ohm) needs to be fully backed by a basket of different assets, however the tokenomics of the project make the value Ohm is defined by the market.
+Tudo começou na rede Ethereum Mainnet com a Olympus DAO. O seu objetivo era criar uma nova moeda de reserva para competir com o dolar, exceto que diferente das outras stablecoins, esta nova moeda teria um valor flutuante. O token nativo (OHM) precisa ser respaldado por uma cesta de diferentes ativos, entretanto o tokenomics (economia de token) do projeto faz o valor da OHM ser definido pelo mercado.
 
-Olympus DAO launched in March 2021 and is still a very successful project on Mainnet. The TVL is denominated in dozens of millions of dollars, and the Ohm price is keeping a very high price. Because of this success, the project has been forked (copied) and multiple Olympus DAO clones popped on many chains.
+A Olympus DAO foi lançada em Março de 2021 e ainda é um projeto muito bem sucedido na Mainnet. O TVL é representado em duzias de milhōes de dólares, e o preço de OHM tem se mantido bem alto. Por conta deste sucesso, o projeto foi copiado, e varios forks (ou seja, cópias) da Olympus DAO apareceram em varias blockchains.
 
-### Overview of the tokenomics
+### Visão geral do tokenomics
 
 This section will be a little more technical than what we use to present in our other guides, but to understand the success of Olympus and other Ohm-forks, it's important to understand how they work.
 
