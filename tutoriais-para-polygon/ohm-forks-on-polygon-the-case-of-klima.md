@@ -35,22 +35,22 @@ Você pode encontrar mais conteúdo sobre o conceito da Olympus DAO e seu tokeno
 
 ### Bonding VS Staking
 
-Why would someone pay for a token when there's a discounted version available through a bond? This is a legitimate question, and the answer will depend on the discount offered by the bond.
+Porque alguém pagaria por um token se há uma versão mais barata dele por meio de um bond? Isso é uma pergunta legítima, e a resposta irá depender do desconto oferecido pelo bond.
 
-Since we'll be working with Klima DAO, let's compare the buying + staking VS bonding:
+Como nós iremos trabalhar com a KlimaDAO, vamos comparar o ato de comprar e fazer staking com o bonding:
 
-![Klima staking reward as of November 2021](../.gitbook/assets/Klima-1.png)
+![Recompensas de staking na Klima, Novembro de 2021](../.gitbook/assets/Klima-1.png)
 
-![Klima bonding ROI as of November 2021](../.gitbook/assets/Klima-2.png)
+![Retorno sobre investimento em bonds na Klima, Novembro 2021](../.gitbook/assets/Klima-2.png)
 
-If one buys directly Klima from the market and stake it for 5 days (the actual vesting period for bonding), the ROI (**R**eturn **O**n **I**nvestment) will be 8.51%. If one buys a bond instead, the maximal ROI would be 5.47% by providing BCT/KLIMA.
+Se alguém compra Klima diretamente do mercado e faz staking por 5 dias (a duração do periodo de vesting do bond), o ROI (**R**eturn **O**n **I**nvestment, Retorno Sobre Investimento) será de 8.51%. Se alguém preferir o bond, o ROI máximo seria de 5.47% ao prover BCT/KLIMA.
 
-This means that, with the equivalent of $100, you would get after 5 days
+Isso significa que, com uma quantia de $100, você teria após 5 dias:
 
-* $108.51 with the 1st option
-* $105.47 with the 2nd option
+* $108.51 com a primeira opção
+* $105.47 com a segunda opção
 
-However, it's important to understand that bonded Klima are released over the vesting period. Hence you can harvest the vested Klima and stake it in order to profit from rebases (reward distribution). Since you will only get rewards for whatever you staked during the vesting period, and since there are 15 rebases during the 5 days for the bond to be fully released, we can assume that you can potentially harvest 6.67% before each one of the 15 rebases. Assuming you will harvest and stake at the beginning of each rebase, you would get this:
+Entretanto, é importante entender que Klima que passa por bonding é liberada ao longo do período de vesting. Portanto, você pode colher a Klima do vesting e fazer staking com elait's important to understand that bonded Klima are released over the vesting period. Hence you can harvest the vested Klima and stake it in order to profit from rebases (reward distribution). Since you will only get rewards for whatever you staked during the vesting period, and since there are 15 rebases during the 5 days for the bond to be fully released, we can assume that you can potentially harvest 6.67% before each one of the 15 rebases. Assuming you will harvest and stake at the beginning of each rebase, you would get this:
 
 | rebase # | Amount staked | Reward | Total reward |
 | -------- | ------------- | ------ | ------------ |
