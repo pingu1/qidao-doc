@@ -33,7 +33,7 @@ Değişiklikleri kaydedin, Metamask sizi otomatik olarak Cronos ağına geçirec
 
 ## Cronos'a Köprüleme
 
-### Faucets
+### Başlangıç Tokenı
 
 İlk işlemlerinizde ilk CRO tokenlarınızı almak için resmi bir musluk yoktur. Bununla birlikte bazı uygulamalar Cronos'a bazı fonları köprülerseniz veya sadece biraz gas’a ihtiyacınız varsa bu hizmeti sağlayacaktır.
 
