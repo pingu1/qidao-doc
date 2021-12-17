@@ -76,19 +76,19 @@ A recompensa total que você obterá pelo staking em um numero N de vezes durant
 
 $$Recompensa_{total} = \sum_{i=1}^{N}{\frac{Investimento * i * (1 + APR_{Vesting})}{N} * APR_{staking}}$$
 
-You can then run your own simulations in order to verify if it's better to buy and stake, or to bond. For our example, with a staking ROI of 8.51% over 5 days, a bonding discount of 3.95% with 15 rebases would be better (giving an equivalent ROI of 8.52%).
+Você pode então rodar suas próprias simulaçōes para verificar se é melhor comprar e fazer staking, ou bonding. No nosso exemplo, com um ROI de 8.51% em 5 dias, um desconto de bonding a 3.95% com 15 rebases seria melhor (dando um ROI equivalente de 8.52%).
 
 {% hint style="info" %}
-You can run the same simulation with harvest + stake only once a day instead of 3 times a day before each rebase. For the same APY as above, you would need a bonding discount of 6.76% to get a better ROI than staking.
+Você pode rodar a mesma simulação colhendo e fazendo staking diariamente, ao invés de três vezes por dia antes de cada rebase. Para o mesmo APY acima, você precisaria de um desconto de 6.76% para obter um rendimento superior ao do staking.
 {% endhint %}
 
 {% hint style="success" %}
-You can find a simulator for your bonding VS staking calculation under the form of [a google spreadsheet](https://docs.google.com/spreadsheets/d/1MTKTbf-ZAihGbEax3WEwkxToG7IlPKlwmYq59O3KG2o/edit#gid=0) you can copy and edit at your will. Note that this page is NOT maintained nor provided by the QiDAO community.
+Você pode encontrar uma calculadora para bonding x staking nesta [planillha google](https://docs.google.com/spreadsheets/d/1MTKTbf-ZAihGbEax3WEwkxToG7IlPKlwmYq59O3KG2o/edit#gid=0), que pode ser copiada e editada, se preferir. Obs: esta planilha não é fornecida ou admnistrada pela comunidade QiDAO.
 {% endhint %}
 
-### The special case of Klima DAO
+### O caso especial da KlimaDAO
 
-The specificity that makes Klima DAO different from other Ohm-forks is the main asset backing the Klima token: the BCT token, provided by the [Toucan Protocol](https://toucan.earth). The BCT (**B**ase **C**arbon **T**onne) is actually representing investments in the real world to decarbonize the earth, turning carbon offsets from the real world into tokens. You can read a lot more about how it works in the [official documentation](https://docs.toucan.earth/protocol/introduction/defi-refi) of Toucan.
+A particularidade que faz a KlimaDAO diferente dos outros forks da Olympus é o ativo principal de sua reserva respaldando o token Klima: o token BCT, fornecido pelo [Toucan Protocol](https://toucan.earth). The BCT (**B**ase **C**arbon **T**onne) is actually representing investments in the real world to decarbonize the earth, turning carbon offsets from the real world into tokens. You can read a lot more about how it works in the [official documentation](https://docs.toucan.earth/protocol/introduction/defi-refi) of Toucan.
 
 BCT is then used by the [Klima DAO app](https://dapp.klimadao.finance) to mint the KLIMA tokens, the same way DAI is used by the Olympus DAO to mint OHM. In other words, Klima acts like a Carbon sink, providing real life funds to fight climate change. More info can be found on the [Klima website](https://www.klimadao.finance) and [documentation](https://klima-dao.gitbook.io/klima-dao/), and you can come and discuss ways to make crypto greener on the Discord server of QiDAO.
 
