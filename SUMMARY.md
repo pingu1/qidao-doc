@@ -32,7 +32,7 @@
 
 ## Cronos Rehberi
 
-* [How to get started on Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
+* [Cronos'u Nasıl Kullanırım?](cronos-tutorials/how-to-get-started-on-cronos.md)
 
 ## MAI Üniversitesi
 
