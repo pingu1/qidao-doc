@@ -70,11 +70,11 @@ Entretanto, é importante entender que a Klima que passa por bonding é liberada
 | 14               | 98.439                | 0.514       | 4.061              |
 | 15               | 105.470               | 0.580       | 4.651              |
 
-At the end of the vesting period, the 5.47% ROI is respected, but staking rewards also added an extra 4.65% (that haven't been compounded for simplicity), resulting in a 10.12% ROI. This means that bonding is actually more interesting than staking directly, even if the bonding ROI seems lower than the staking ROI.
+No fim do periodo de vesting, o ROI de 5.47% foi respeitado, mas as recompensas em staking adicionaram 4.65% de lucro (que não foi reacumulado para ficar simples), resultando em um ROI total de 10.12%. Isso significa que o bonding é mais interessante do que fazer staking diretamente, mesmo que o ROI de bonding seja inferior ao de staking.
 
-The total reward you will get by staking N times over the vesting period (with Nmax = 15 at most) is:
+A recompensa total que você obterá pelo staking em um numero N de vezes durante o período de vesting (com o Nmax = 15 no máximo) é:
 
-$$Reward_{total} = \sum_{i=1}^{N}{\frac{Investment * i * (1 + APR_{Vesting})}{N} * APR_{staking}}$$
+$$Recompensa_{total} = \sum_{i=1}^{N}{\frac{Investimento * i * (1 + APR_{Vesting})}{N} * APR_{staking}}$$
 
 You can then run your own simulations in order to verify if it's better to buy and stake, or to bond. For our example, with a staking ROI of 8.51% over 5 days, a bonding discount of 3.95% with 15 rebases would be better (giving an equivalent ROI of 8.52%).
 
