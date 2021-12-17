@@ -35,6 +35,10 @@
 * [How to get started on Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
 * [Farming Legos with CroDex](cronos-tutorials/farming-legos-with-crodex.md)
 
+## Harmony toàn tập
+
+* [How to get started on Harmony](harmony-tutorials/how-to-get-started-on-harmony.md)
+
 ## Học viện MAI <a href="#debt-management-tutorials" id="debt-management-tutorials"></a>
 
 * [Thu nhập thụ động với QiDao](debt-management-tutorials/earning-passive-income-with-qidao.md)
