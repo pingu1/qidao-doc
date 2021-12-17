@@ -152,43 +152,43 @@ Para qualquer estratégia de investimento, é importante capturar o lucro. Você
 
 Se você investir $100 e trabalhar com os 7 loops de cima, seu investimento em KLIMA gerará $67.11 após 31 dias, o que significa que você pode reembolsar seu empréstimo em um único mês. Se você assim fizer, você começará novamente com com 166$ no próximo mês e sem dívidas excpecionais. Somente fique atento ao APR de empréstimo, que pode se tornar bem alto na Market XYZ.
 
-## Strategy 2: Continuous Investment, or full (4,4)
+## Estratégia 2: Investimento continuo, ou (4,4)
 
-Once again, (4,4) is related to game theory and reserve currencies, and indicate people who bond their tokens then stake them. In this strategy, we will see how we can use Klima and Augury to purchase bonds regularly, and stake them continuously.
+Mais uma vez, (4,4) está relacionado a Teoria dos Jogos e moedas de reserva, e no caso, indica pessoas que emprestam seus tokens e fazem stake com eles. Nesta estratégia, nós veremos como usar a Klima e Augury para comprar Bonds regularmente, e fazer stake neles.
 
-### The investment loop using Augury and Mai Finance
+### Loop de investimento com Augury e Mai Finance
 
-![Continuous investment using Augury Finance and Mai Finance](../.gitbook/assets/Klima-4.png)
+![Investimento continuo usando a Augury Finance e Mai Finance](../.gitbook/assets/Klima-4.png)
 
-We are still using Klima, but this time we're using an [infusion from Augury Finance](https://augury.finance/infusions) in order to automate the extraction of the value of Klima. By depositing your KLIMA tokens in the infusion, the algorithm in charge of the infusion will perform the following actions after each rebase:
+Nós ainda estamos utilizando Klima, mas desta vez nós usaremos uma [infusão da Augury Finance](https://augury.finance/infusions) para automatizar a extração do valor de Klima. Ao depositar seus tokens KLIMA na infusão, o algoritmo encarregado da infusão irá realizar as seguintes açōes após cada rebase:
 
-* 50% of the KLIMA harvested is restaked to increase your sKLIMA position
-* 50% of the KLIMA harvested is sold for USDC added to the NFTM pool on Augury, and distributed to you as NFTM tokens
+* 50% da KLIMA colhida passa por staking novamente para aumentar sua posição em sKLIMA
+* 50% da KLIMA colhida é vendida por USDC, adicionada a pool NFTM na Augury, e distribuida para você como tokens NFTM.
 
-![Augury Infusion with 0% performance fee and 0% deposit fee](../.gitbook/assets/Klima-Augury.png)
+![Infusão na Augury com taxa de desempenho e de depósito de 0%](../.gitbook/assets/Klima-Augury.png)
 
-NFTM can then either be held while it increases in value, or redeemed for its USDC value. In other words, it doesn't matter if the KLIMA token loses value after a rebase since its value is captured and stored as NFTM.
+NFTM pode então ser mantida, enquanto aumenta em valor, ou resgatada em seu valor USDC. Em outras palavras, não importa se o token KLIMA perde valor após um rebase, já que o valor é capturado e armazenado em NFTM.
 
-After redeeming the USDC value of your NFTM rewards, you can then buy the token of your choice and store it in a vault in Mai Finance. The example above is using a camWETH vault, but you can really use any vault you like. The idea is to be able to use the vaults on Mai Finance to borrow MAI and buy new bonds on Klima DAO to repeat the loop. Then you can harvest the KLIMA tokens and inject them in Augury. Keep in mind that bonds are vesting little at a time, so it's totally possible to harvest regularly and stake on Augury before your bond is totally vested.
+Após resgatar o valor em USDC de seus recompensas NFTM, você pode então comprar o token que preferir e guardar em um vault na Mai Finance. O exemplo acima usa o vault camWETH, mas você pode usar o vault que preferir. A ideia é pode usar os vaults na Mai Finance para tomar MAi emprestado e comprar novos Bonds na KimaDAO para repetir o loop. Então você pode colher os tokens KLIMA e injetá-los na Augury. Tenha em mente que Bonds passam por vesting, aos poucos, então é completamente possível colher regularmente e fazer staking na Augury antes do Bond estar totalmente pronto.
 
-### Expected results
+### Resultados esperados
 
-Assuming you invest $100 like in the previous example, and place it directly in the Augury infusion, that the APR of the Klima infusion is 552.94% (current value as of writing), and that you want to keep a C/D ratio on the camWETH vault of 240% and a APY of 2.19% on the camWETH vault, here are the results over one year:
+Assumindo que você tenha investido $100 como no exemplo anterior, e os colocado diretamente na infusão da Augury, que o APR da infusão de Klima é de 552.94% (valor no momento atual), e que você quer manter uma proporção C/D no vault camWETH de 240% e um APY de 2.19% no vault camWETH, aqui estão os resultados após 1 ano:
 
-| day | sKLIMA ($) | wETH ($)  | MAI loan ($) |
-| --- | ---------- | --------- | ------------ |
-| 30  | 137.751    | 27.708    | 11.545       |
-| 60  | 189.776    | 64.883    | 27.035       |
-| 90  | 261.474    | 116.150   | 48.396       |
-| 120 | 360.282    | 186.835   | 77.848       |
-| 150 | 496.453    | 284.283   | 118.451      |
-| 180 | 684.115    | 418.613   | 174.422      |
-| 210 | 942.737    | 603.771   | 251.571      |
-| 240 | 1,299.152  | 858.978   | 357.907      |
-| 270 | 1,790.339  | 1,210.720 | 504.466      |
-| 300 | 2,467.258  | 1,695.500 | 706.458      |
-| 330 | 3,400.140  | 2,363.625 | 984.844      |
-| 360 | 4,685.775  | 3,284.424 | 1,368.510    |
+| Dia | sKLIMA ($) | wETH ($)  | Empréstimo na MAI ($) |
+| --- | ---------- | --------- | --------------------- |
+| 30  | 137.751    | 27.708    | 11.545                |
+| 60  | 189.776    | 64.883    | 27.035                |
+| 90  | 261.474    | 116.150   | 48.396                |
+| 120 | 360.282    | 186.835   | 77.848                |
+| 150 | 496.453    | 284.283   | 118.451               |
+| 180 | 684.115    | 418.613   | 174.422               |
+| 210 | 942.737    | 603.771   | 251.571               |
+| 240 | 1,299.152  | 858.978   | 357.907               |
+| 270 | 1,790.339  | 1,210.720 | 504.466               |
+| 300 | 2,467.258  | 1,695.500 | 706.458               |
+| 330 | 3,400.140  | 2,363.625 | 984.844               |
+| 360 | 4,685.775  | 3,284.424 | 1,368.510             |
 
 Once again, assuming that all rates and prices stay the same, at the end of the year you would have
 
