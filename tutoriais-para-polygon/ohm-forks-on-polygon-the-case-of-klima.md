@@ -88,61 +88,61 @@ Você pode encontrar uma calculadora para bonding x staking nesta [planillha goo
 
 ### O caso especial da KlimaDAO
 
-A particularidade que faz a KlimaDAO ser diferente dos outros forks da Olympus é o ativo principal de sua reserva respaldando o token Klima: o token BCT, fornecido pelo [Toucan Protocol](https://toucan.earth). O token BCT (**B**ase **C**arbon **T**onne) representa, na verdade, investimentos no mundo real que descarbonizam a Terra, transfromando offsets de carbono do mundo real em tokens. Você pode ler muito mais sobre como isso funciona na [documentação oficial](https://docs.toucan.earth/protocol/introduction/defi-refi) da Toucan.
+A particularidade que faz a KlimaDAO ser diferente dos outros forks da Olympus é o ativo principal de sua reserva respaldando o token Klima: o token BCT, fornecido pelo [Toucan Protocol](https://toucan.earth). O token BCT (**B**ase **C**arbon **T**onne) representa, na verdade, investimentos no mundo real que descarbonizam a Terra, transformando offsets de carbono do mundo real em tokens. Você pode ler muito mais sobre como isso funciona na [documentação oficial](https://docs.toucan.earth/protocol/introduction/defi-refi) da Toucan.
 
-BCT é então usado pelo [app da KlimaDAO](https://dapp.klimadao.finance) para cunhar tokens KLIMA, da mesma maneira que DAI é usado pela OlympusDAO para cunhar OHM. Em outras palavras, Klima funciona como um sequestro de carbono, provendo fundos das vida real para lutar contra o aquecimento global. Mais informação pode ser encontrada no [website da Klima](https://www.klimadao.finance) e na [documentção](https://klima-dao.gitbook.io/klima-dao/), assim como você pode discutir maneiras de tornar criptomoedas mais verde, participando do servidor do Discord da QiDAO. &#x20;
-
-{% hint style="info" %}
-One of the main differences between Olympus and Klima is that BCT doesn't have a stable price. This presents a higher risk than for forks using stable coins to build their treasury, however it's assumed that environmental problems will be more and more important, and there will be more and more projects trying to extract carbon from the atmosphere, which would in turn increase the overall value of BCT.
-{% endhint %}
-
-## Strategy 1: sKLIMA leverage, or full (9,9)
-
-Without going deep into the [(3,3) game theory](https://en.wikipedia.org/wiki/Nash\_equilibrium), (9,9) represent a situation where one is leveraging a staked position. This is actually possible because Klima DAO will provide a sKLIMA token as a proof of deposit that some platform will accept as a collateral for a possible loan. Let's see the details of it.
-
-### The leverage loop using MarketXYZ and Klima
-
-![Leverage your Klima position](../.gitbook/assets/Klima-3.png)
-
-The idea is to get an initial amount of KLIMA token that you can deposit on Klima DAO. This will allow you to get very high APY (as of writing, the APY is 38,873.08%, or 601% APR or a daily gain of 1.68%) and by depositing your KLIMA token, you will get sKLIMA as a proof of deposit.
-
-This sKLIMA token can be used on Market XYZ in the [Green Leverage Locker](https://polygon.market.xyz/pool/5) which will allow you to take a loan against this deposit.
+BCT é então usado pelo [app da KlimaDAO](https://dapp.klimadao.finance) para cunhar tokens KLIMA, da mesma maneira que DAI é usado pela OlympusDAO para cunhar OHM. Em outras palavras, Klima funciona como um sequestro de carbono, provendo fundos da vida real para lutar contra o aquecimento global. Mais informaçōes podem ser encontradas no [website da Klima](https://www.klimadao.finance) e na [documentção](https://klima-dao.gitbook.io/klima-dao/), assim como você pode discutir sobre maneiras de tornar as criptomoedas mais "verdes" participando do servidor do Discord da QiDAO. &#x20;
 
 {% hint style="info" %}
-As a side note, Mai Finance partnered with Market XYZ and seeded the green locker pool with 1M MAI to guarantee low interest rates when you borrow MAI against your sKLIMA.
+Uma das principais diferenças entre a Olympus e a Klima é que BCT não possui um preço estável. Isso resulta em um risco maior do que o que é visto na maioria dos forks que utilizam stablecoins em seu tesouro, entretanto é assumido que problemas ambientais serão mais importantes ao longo do tempo, e haverá mais projetos tentando extrair carbono da atomosfera, o que resultaria em um aumento no valor do BCT.
 {% endhint %}
 
-![Green locker on Market XYZ as of november 2021](../.gitbook/assets/Klima-Marketxyz.png)
+## Estratégia 1: Alavancagem em sKLIMA leverage, ou (9,9)
 
-It's not an obligation for you to borrow MAI, you can actually borrow whatever token with the lowest interest rate, but you need to keep in mind that you will have to pay fees on your loan, and the faster you repay your loan, the less fees you will pay.
+Sem aprofundar demais em [(3,3) na Teoria dos Jogos](https://en.wikipedia.org/wiki/Nash\_equilibrium), (9,9) representa uma situação onde alguém alavanca a sua posição de staking. Isso é, de fato, possível porque a KlimaDAO nos entrega um token sKLIMA como prova de nosso depósito, o que algumas plataformas aceitam como garantia para possíveis empréstimos. Vejamos em detalhes:
 
-With your loan, you will be able to buy more KLIMA tokens and repeat the loop.
+### Loop de alavancagem com MarketXYZ e Klima
 
-You will notice that the APY on sKLIMA will largely compensate the interests on your loan.
+![Alavanque sua posição em Klima](../.gitbook/assets/Klima-3.png)
+
+A ideia é obter uma quantia inicial de tokens KLIMA que você pode depositar na KlimaDAO. Isso ta garantirá um imenso APY (no momento, de 38,873.08%, ou um APR de 601%, ou 1.68% diariamente) e tokens sKLIMA como prova de seu depósito.
+
+Esse token sKLIMA pode ser usado na Market XYZ no [Baú de Alavancagem Verde](https://polygon.market.xyz/pool/5) que irá te permitir um empréstimo com este depósito como garantia.
+
+{% hint style="info" %}
+Como observação, a Mai Finance fez uma parceria com a Market XYZ e semeou o Green Locker Pool (Baú de Alavancagem Verde) com 1M de MAI para garantir taxas de empréstimo baixas ao tomar emprestado MAI, tendo sua sKLIMA de garantia.
+{% endhint %}
+
+![Green Locker na Market XYZ, November de 2021](../.gitbook/assets/Klima-Marketxyz.png)
+
+Não é obrigatório que voce tome emprestado MAI, você pode, na verdade, tomar emprestado o token que você quiser, com a menor taixa de juros, mas você precisa entender que você pagará taxas sobre seu empréstimo, e quanto mais rápido você pagá-lo, menores serão as taxas.
+
+Com o seu empréstimo, você poderá comprar mais tokens KLIMA e repetir o loop.
+
+Você irá notar que o APY em sKLIMA irá cobrir grandemente os juros de seu empréstimo.
 
 {% hint style="warning" %}
-There's a minimum amount to borrow on Market.xyz, please check the limit when you want to apply this strategy.
+Não há uma quantidade mínima para tomar emprestado na Market.xyz, por favor, respeite o seu limite ao aplicar esta estratégia.
 {% endhint %}
 
-### Expected results
+### Resultados esperados
 
-Market XYZ will also have some liquidation levels, meaning that if your collateral value goes below the liquidation level, there's a risk for you to lose your collateral. In order to lower the risk of liquidation, the following simulation assumes that you will keep an C/D ratio of 250%, and that you invest an initial $1,000 of KLIMA tokens at 38,873% APY to borrow MAI at 20.49% interest
+Market XYZ também apresentará níveis de liquidação, o que significa que se o valor da garantia cair abaixo do nível de liquidação, há o risco de você ser liquidado. Para diminuir o risco de liquidação, a simulação a seguir assume que você manterá uma proporção C/D (Garantia/Dívida)  de 250%, e que você investirá inicialmente $1,000 de tokens KLIMA ao APY de 38,873% APY para tomar MAI emprestado a juros de 20.49%.
 
-| sKLIMA ($) | MAI loan ($) | eq. APY (%) | interests ($) |
-| ---------- | ------------ | ----------- | ------------- |
-| 1,000.00   | 400.00       | 38,873      | 81.96         |
-| 1,500.00   | 560.00       | 54,455      | 114.74        |
-| 1,560.00   | 624.00       | 60,642      | 127.86        |
-| 1,624.00   | 649.60       | 63,129      | 133.10        |
-| 1,649.60   | 659.84       | 64,125      | 135.20        |
-| 1,659.84   | 663.94       | 64,523      | 136.04        |
-| 1,663.94   | 665.57       | 64,682      | 136.38        |
+| sKLIMA ($) | Empréstimo de MAI ($) | APY eq. (%) | Juros ($) |
+| ---------- | --------------------- | ----------- | --------- |
+| 1,000.00   | 400.00                | 38,873      | 81.96     |
+| 1,500.00   | 560.00                | 54,455      | 114.74    |
+| 1,560.00   | 624.00                | 60,642      | 127.86    |
+| 1,624.00   | 649.60                | 63,129      | 133.10    |
+| 1,649.60   | 659.84                | 64,125      | 135.20    |
+| 1,659.84   | 663.94                | 64,523      | 136.04    |
+| 1,663.94   | 665.57                | 64,682      | 136.38    |
 
-Of course, it's possibly enough to stop after 3 loops since the equivalent APY won't grow much past that.
+Obviamente, é plenamente possível pararmos após 3 loops, já que o APY equivalente nã irá crescer muito após este ponto..
 
-As a side note, because the initial investment is $1,000,the value you will get at the end of 1 year would be $646,820.00, assuming everything stays the same. In other words, you invest $1,000, you will need to repay $665.57 with an additional $136.38 (an accumulated debt of $801.95) but you will also earn $646,820.
+Além disso, como o investimento inicial é de $1,000, o valor que você receberá após 1 ano será de $646,820.00, assumindo que tudo permaneça constante. Em outras palavras, você investe $1,000, você precisará reembolsar $665.57 mais $136.38 (uma dívida acumulada de $801.95) mas você também receberá $646,820.
 
-You can also see that the value of your sKLIMA position is growing very quickly (around 8% every 5 days), which means you can also increase your debt at this point and leverage even more for additional gains.
+Você também pode notar que o valor da sua posição em sKlima cresce rapidamente (cerca de 8% a cada 5 dias), o que significa que você também pode aumentar a sua dívida neste ponto, e alavancar ainda mais para obter ainda mais lucros.
 
 ### Capturing benefits value and repaying your loan
 
