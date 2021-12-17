@@ -30,10 +30,14 @@
 
 * [Cómo comenzar en Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
 
-## Cronos tutorials
+## Tutoriales de Cronos
 
 * [How to get started on Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
 * [Farming Legos with CroDex](cronos-tutorials/farming-legos-with-crodex.md)
+
+## Tutoriales de Harmony
+
+* [How to get started on Harmony](harmony-tutorials/how-to-get-started-on-harmony.md)
 
 ## Artículos sobre MAI <a href="#universidade-de-mai" id="universidade-de-mai"></a>
 
