@@ -144,13 +144,13 @@ Além disso, como o investimento inicial é de $1,000, o valor que você receber
 
 Você também pode notar que o valor da sua posição em sKlima cresce rapidamente (cerca de 8% a cada 5 dias), o que significa que você também pode aumentar a sua dívida neste ponto, e alavancar ainda mais para obter ainda mais lucros.
 
-### Capturing benefits value and repaying your loan
+### Capturando o lucro e reembolsando o empréstimo
 
-One of the main issues with Ohm-fork projects is that it assumes that everybody is staking and nobody sells. But, if nobody sells, nobody gets any benefits, and in most cases, the first to sell will get the cake.
+Um dos maiores problemas com forks da Olympus é que assume-se que todos fazem stake, e ninguém vende. Mas se ninguém vende, ninguém lucra, e na maioria dos casos, o primeiro a vender fica o bolo.
 
-For any investment strategy, it's important to capture the value of your gains. You can do it by withdrawing a part of your sKLIMA position on Market XYZ and get back KLIMA that you can sell.
+Para qualquer estratégia de investimento, é importante capturar o lucro. Você pode fazer isso, retirando uma parte da sua posição em sKLIMA na Market XYZ e tomando de volta KLIMA, que você pode vender.
 
-If you invest $100 and operate the 7 loops as above, your investment in KLIMA would have generated $67.11 after 31 days, which means you can fully repay your loan with interest in 1 single month. If you do so, you will start again with 166$ the next month and no outstanding debt. Just keep an eye on the borrowing APR that can get pretty high on Market XYZ.
+Se você investir $100 e trabalhar com os 7 loops de cima, seu investimento em KLIMA gerará $67.11 após 31 dias, o que significa que você pode reembolsar seu empréstimo em um único mês. Se você assim fizer, você começará novamente com com 166$ no próximo mês e sem dívidas excpecionais. Somente fique atento ao APR de empréstimo, que pode se tornar bem alto na Market XYZ.
 
 ## Strategy 2: Continuous Investment, or full (4,4)
 
