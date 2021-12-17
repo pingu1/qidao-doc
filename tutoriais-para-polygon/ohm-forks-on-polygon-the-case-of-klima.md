@@ -150,7 +150,7 @@ Um dos maiores problemas com forks da Olympus é que assume-se que todos fazem s
 
 Para qualquer estratégia de investimento, é importante capturar o lucro. Você pode fazer isso, retirando uma parte da sua posição em sKLIMA na Market XYZ e tomando de volta KLIMA, que você pode vender.
 
-Se você investir $100 e trabalhar com os 7 loops de cima, seu investimento em KLIMA gerará $67.11 após 31 dias, o que significa que você pode reembolsar seu empréstimo em um único mês. Se você assim fizer, você começará novamente com com 166$ no próximo mês e sem dívidas excpecionais. Somente fique atento ao APR de empréstimo, que pode se tornar bem alto na Market XYZ.
+Se você investir $100 e trabalhar com os 7 loops de cima, seu investimento em KLIMA gerará $67.11 após 31 dias, o que significa que você pode reembolsar seu empréstimo em um único mês. Se você assim fizer, você começará novamente com com 166$ no próximo mês e sem dívida pendente. Somente fique atento ao APR de empréstimo, que pode se tornar bem alto na Market XYZ.
 
 ## Estratégia 2: Investimento continuo, ou (4,4)
 
@@ -190,27 +190,27 @@ Assumindo que você tenha investido $100 como no exemplo anterior, e os colocado
 | 330 | 3,400.140  | 2,363.625 | 984.844               |
 | 360 | 4,685.775  | 3,284.424 | 1,368.510             |
 
-Once again, assuming that all rates and prices stay the same, at the end of the year you would have
+Mais uma vez, assumindo que todas as taxas e preço permaneçam os mesmos, no final do ano você teria:
 
-* $4,684.775 worth of KLIMA tokens
-* $3,284.424 worth of wETH
-* and outstanding debt of $1,368.510
+* $4,684.775 em tokens KLIMA
+* $3,284.424 em wETH
+* divida pendente de $1,368.510
 
-Which is an equivalent APY of 6,866.46%. This is far from the 38,705.13% advertised by KLIMA, but still pretty impressive for a $100 investment. Also, a good load of your gains have been converted into wETH in a vault on Mai Finance, and your loan on the application will get you some additional Qi Tokens.
+O que é equivalente a um APY de 6,866.46%. Isso está longe dos 38,705.13% anunciados pela KlimaDAO, mas ainda assim impressionante para um investimento de $100. Além disso, uma grande parte de seus ganhos foram convertidos em wETH em um vault na Mai Finance, e seu empréstimo na aplicação te renderá Qi Tokens adicionais.
 
 {% hint style="info" %}
-If this strategy has a much lower APY than pure (9,9), it's also a relatively affordable one since you can enter the loop with as much as KLIMA you want.
+Embora esta estratégia entregue um APY menor do que simplesmente a (9,9), é de se notar porém que ela é relativamente mais acessiva já que você pode entrar no loop com quanto de KLIMA você preferir.
 {% endhint %}
 
-## Disclaimer
+## Aviso legal
 
-Everything presented in this document is pure theory and is proposed for educational purposes. The biggest issue with projects like Olympus and Klima is that, once again, the first user to sell will profit from the high price. If the first sell is massive (because gains are massive), it can snowball quickly into a panic effect that can very well kill the price of the KlIMA token. However, in this case, the APY would skyrocket, meaning that users who don't sell will benefit from very high rewards, so that when the APY attracts new users, the ones who held will be big winners.
+Tudo apresentado neste documento é pura teoria e de cunho educacional. O maior problemas com projetos como Olympus e Klima é que, mais uma vez, o primeiro usuário que vender terá lucro graças ao preço alto. Se a primeira venda for enorme (porque os ganhos também são), poderia se criar um efeito bola de neve que geraria pânico, matando o preço do ativo. Entretanto, neste caso, o APY iria às nuvens, o que significa que usuários que não venderem seus tokens irão ser recompensados grandemente, para que quando então o APY atrair novos usuários, aqueles que segurarem serão os grandes vitoriosos.
 
-It's also good to note that the project can only continue to print tokens as long as additional funds are injected into the treasury.
+É também bom lembrar que o projeto só pode continuar a cunhar tokens enquanto dinheiro for injetado no tesouro.
 
-So the risk can be very high if you don't extract some benefits from time to time in order to lower the risks.
+Então o risco pode ser bem alto, se você não capturar o lucro de vez em quando.
 
-As a final note, pay attention that ohm-forks are the new trend, but most projects may fail, and a lot of these forks are not solid projects. Because of their nature, they are not verified by RugDoc yet, and it may be very complicated to identify real applications from pure scam.
+Como última observação, entenda que forks da Olympus são a nova tendência, mas a maioria dos projetos irá fracassar, e muitos destes forks não são projetos sólidos. Por conta de sua natureza, eles ainda não são verificado pela RugDoc, e pode ser muito dificil diferenciar projetos reais de golpes.
 
 {% hint style="info" %}
 Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
