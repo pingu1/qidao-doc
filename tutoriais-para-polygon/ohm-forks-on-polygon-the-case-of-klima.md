@@ -50,25 +50,25 @@ Isso significa que, com uma quantia de $100, você teria após 5 dias:
 * $108.51 com a primeira opção
 * $105.47 com a segunda opção
 
-Entretanto, é importante entender que Klima que passa por bonding é liberada ao longo do período de vesting. Portanto, você pode colher a Klima do vesting e fazer staking com elait's important to understand that bonded Klima are released over the vesting period. Hence you can harvest the vested Klima and stake it in order to profit from rebases (reward distribution). Since you will only get rewards for whatever you staked during the vesting period, and since there are 15 rebases during the 5 days for the bond to be fully released, we can assume that you can potentially harvest 6.67% before each one of the 15 rebases. Assuming you will harvest and stake at the beginning of each rebase, you would get this:
+Entretanto, é importante entender que a Klima que passa por bonding é liberada ao longo do período de vesting. Portanto, você pode colher a Klima do vesting e fazer staking com ela para lucrar com as rebases (distribuição de recompensas). Como você apenas receberá recompensas pelo staking que fez durante o período de vesting, e como há 15 rebases durante os 5 dias para o bond ser totalmente liberado, nós podemos assumir que você pode colher 6.67% antes de cada um dos 15 rebases. Assumindo que você colherá e fará staking no inicio de cada rebase, você terá:
 
-| rebase # | Amount staked | Reward | Total reward |
-| -------- | ------------- | ------ | ------------ |
-| 1        | 7.031         | 0.038  | 0.038        |
-| 2        | 14.063        | 0.077  | 0.116        |
-| 3        | 21.094        | 0.116  | 0.232        |
-| 4        | 28.125        | 0.155  | 0.397        |
-| 5        | 35.157        | 0.193  | 0.580        |
-| 6        | 42.188        | 0.232  | 0.812        |
-| 7        | 49.219        | 0.271  | 1.083        |
-| 8        | 56.251        | 0.309  | 1.392        |
-| 9        | 63.282        | 0.348  | 1.740        |
-| 10       | 70.313        | 0.387  | 2.127        |
-| 11       | 77.345        | 0.425  | 2.552        |
-| 12       | 84.376        | 0.464  | 3.016        |
-| 13       | 91.407        | 0.503  | 3.519        |
-| 14       | 98.439        | 0.514  | 4.061        |
-| 15       | 105.470       | 0.580  | 4.651        |
+| Número do rebase | Quantidade em Staking | Recompensas | Recompensas Totais |
+| ---------------- | --------------------- | ----------- | ------------------ |
+| 1                | 7.031                 | 0.038       | 0.038              |
+| 2                | 14.063                | 0.077       | 0.116              |
+| 3                | 21.094                | 0.116       | 0.232              |
+| 4                | 28.125                | 0.155       | 0.397              |
+| 5                | 35.157                | 0.193       | 0.580              |
+| 6                | 42.188                | 0.232       | 0.812              |
+| 7                | 49.219                | 0.271       | 1.083              |
+| 8                | 56.251                | 0.309       | 1.392              |
+| 9                | 63.282                | 0.348       | 1.740              |
+| 10               | 70.313                | 0.387       | 2.127              |
+| 11               | 77.345                | 0.425       | 2.552              |
+| 12               | 84.376                | 0.464       | 3.016              |
+| 13               | 91.407                | 0.503       | 3.519              |
+| 14               | 98.439                | 0.514       | 4.061              |
+| 15               | 105.470               | 0.580       | 4.651              |
 
 At the end of the vesting period, the 5.47% ROI is respected, but staking rewards also added an extra 4.65% (that haven't been compounded for simplicity), resulting in a 10.12% ROI. This means that bonding is actually more interesting than staking directly, even if the bonding ROI seems lower than the staking ROI.
 
