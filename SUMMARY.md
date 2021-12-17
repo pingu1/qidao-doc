@@ -35,6 +35,10 @@
 * [Cronos'u Nasıl Kullanırım?](cronos-tutorials/how-to-get-started-on-cronos.md)
 * [Farming Legos with CroDex](cronos-tutorials/farming-legos-with-crodex.md)
 
+## Harmony Rehberi
+
+* [How to get started on Harmony](harmony-tutorials/how-to-get-started-on-harmony.md)
+
 ## MAI Üniversitesi
 
 * [QiDAO ile Pasif Gelir Kazanma](mai-university/earning-passive-income-with-qidao.md)
