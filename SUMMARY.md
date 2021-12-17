@@ -35,6 +35,10 @@
 * [How to get started on Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
 * [Farming Legos with CroDex](cronos-tutorials/farming-legos-with-crodex.md)
 
+## Harmony tutorials
+
+* [How to get started on Harmony](harmony-tutorials/how-to-get-started-on-harmony.md)
+
 ## MAI University <a href="MAI-university" id="MAI-university"></a>
 
 * [Earning Passive Income with QiDAO](MAI-university/earning-passive-income-with-qidao.md)
