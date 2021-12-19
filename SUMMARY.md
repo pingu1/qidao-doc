@@ -32,7 +32,7 @@
 
 ## Tutoriales de Cronos
 
-* [How to get started on Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
+* [Cómo comenzar en Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
 * [Farming Legos with CroDex](cronos-tutorials/farming-legos-with-crodex.md)
 
 ## Tutoriales de Harmony

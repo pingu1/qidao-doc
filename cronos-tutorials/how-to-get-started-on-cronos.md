@@ -1,103 +1,100 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the Cronos chain.
+  En este artículo te explicaremos todo lo que necesitas saber para poder
+  utilizar la red de Crono
 ---
 
-# How to get started on Cronos
+# Cómo comenzar en Cronos
 
-## What is Cronos
+## ¿Qué es Cronos?
 
-It will be hard to explain what Cronos is without mentioning Crypto.com. Crypto.com is one of the biggest centralized exchanges (also known as CEX) and is building its own set of chains, including Crypto.org Chain and Cronos. Crypto.org Chain is a chain with a proprietary technology while Cronos is its EVM (Ethereum Virtual Machine) compatible sister. It's pretty much the same thing as the Binance Chain dedicated to the CEX, and Binance Smart Chain that is EVM compatible.
+Será difícil explicar qué es Cronos sin mencionar a Crypto.com. Crypto.com es uno de los mayores intercambios centralizados (también conocido como CEX) y está construyendo su propio conjunto de cadenas, incluyendo Crypto.org Chain y Cronos. Crypto.org Chain es una cadena con tecnología propia mientras que Cronos es su hermana compatible con EVM (Ethereum Virtual Machine).&#x20;
 
-Among other advantages, Cronos presents **EVM-compatibility**, which means that most applications that launched on other EVM chains can also be deployed to Cronos, including Mai Finance, and **Scalability**: Cronos is faster and cheaper than the Ethereum Mainnet.
+Es prácticamente lo mismo que la cadena de Binance dedicada a la CEX, y la cadena inteligente de Binance que es compatible con EVM. Entre otras ventajas, Cronos presenta compatibilidad con EVM, lo que significa que la mayoría de las aplicaciones que se lanzaron en otras cadenas EVM también pueden ser desplegadas en Cronos, incluyendo Mai Finance, y Scalability: Cronos es más rápido y más barato que la Mainnet de Ethereum.
 
-## Getting started on Cronos
+## ¿Cómo comenzar a usar Cronos?
 
-In order to use the Cronos network, you will need a wallet address. Because Cronos is an EVM-compatible network, it will accept the same wallets as on other EVM-compatible chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger.
+Para utilizar la red Cronos, necesitarás una dirección de monedero. Dado que Cronos es una red compatible con EVM, aceptará los mismos monederos que en otras cadenas compatibles con EVM, incluyendo monederos web como Metamask o Nifty, y podrás utilizar tu monedero hardware como Trezor o Ledger.
 
-For this tutorial, we will stick to Metamask like for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](<../polygon-tutorials/how-to-get-started-on-polygon.md>).
+&#x20;Para este tutorial, nos ceñiremos a Metamask como con el resto de guías de esta página web. Si no tienes Metamask instalado, puedes encontrar instrucciones en [Cómo comenzar en Polygon](https://guide.qidao.community/v/espanol/tutoriales-de-polygon/how-to-get-started-on-polygon).
 
-### Adding Cronos to Metamask
+### Añadiendo Cronos a Metamask
 
-If you have installed the latest version of Metamask, you should already have access to the Cronos chain and there's nothing else for you to de besides selecting Cronos in the network dropdown at the top of Metamask. You can also set a new RPC yourself to access Cronos using these steps. Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Cronos`. The data you should get are as follows:
+Si has instalado la última versión de Metamask, ya deberías tener acceso a la cadena Cronos y no tienes que hacer nada más que seleccionar Cronos en el menú desplegable de la red en la parte superior de Metamask. También puedes establecer una nueva RPC para acceder a Cronos siguiendo estos pasos. Abre la ventana emergente de Metamask, haz clic en el icono de tu cartera, vaya a `Configuración` ,entonces elija `Redes` y busque `Cronos`. Los datos que deberías obtener son los siguientes:
 
-* **Network Name:** Cronos
-* **New RPC URL:** https://evm-cronos.crypto.org
-* **Chain ID:** 25
-* **Currency Symbol:** CRO
-* **Block Explorer URL:** https://cronos.crypto.org/explorer/
+* **Nombre de la Red:** Cronos
+* **URL del RPC:** https://evm-cronos.crypto.org
+* **ID de la cadena:** 25
+* **Simbolo del activo:** CRO
+* **URL del explorador de bloques:** https://cronos.crypto.org/explorer/
 
-Save the changes, and Metamask will automatically switch you over to the Cronos network:
+Guarde los cambios y Metamask le cambiará automáticamente a la red Cronos:
 
-![Congratulations!! You're now on Cronos](<../.gitbook/assets/Cronos-onboarding-1.png>)
+![¡Felicidades, ya puede utilizar la red de Cronos!](../.gitbook/assets/Cronos-onboarding-1.png)
 
-## Bridging to Cronos
+## Transfiriendo activos a Cronos
 
 ### Faucets
 
-There isn't any official faucet to get your first CRO tokens for your first few transactions. However, some application will provide this service if you bridge some funds to Cronos, or simply if you require some gas:
+No hay ningún grifo oficial para conseguir tus primeros tokens de CRO para tus primeras transacciones. Sin embargo, alguna aplicación te proporcionará este servicio si haces un puente con algunos fondos a Cronos, o simplemente si necesitas algun token para pagar el gas:
 
-* [Crystl Finance Faucet](https://cronos.crystl.finance/faucet): After connecting your wallet and completing the captcha, you may be able to request some CRO to that will be sent to your wallet.
-* [Elk Finance](https://app.elk.finance/#/elknet): When you're bridging your ELK tokens from one chain to another, you will have the option to swap a small portion of the transferred ELK into the native gas token of the destination chain. This is particularly useful if you're bridging assets for the first time to a new chain.
+* [Faucet de Crystl Finance](https://cronos.crystl.finance/faucet): Después de conectar tu monedero y completar el captcha, podrás solicitar algún CRO que será enviado a tu monedero.
+* [Elk Finance](https://app.elk.finance/#/elknet): Cuando esté pasando sus tokens ELK de una cadena a otra, tendrá la opción de cambiar una pequeña parte de los ELK transferidos al token de gas nativo de la cadena de destino. Esto es especialmente útil si es la primera vez que se transfieren activos a una nueva cadena.
 
-![Using the ElkNet bridge and convert $1 into gas token](<../.gitbook/assets/Cronos-onboarding-2.png>)
+![Usando el puente de ElkNet y convirtiendo $1 para poder pagar el gas](../.gitbook/assets/Cronos-onboarding-2.png)
 
-* [Crypto.com](https://crypto.com/): Don't forget that Cronos is a chain deeply linked to Crypto.com. You can create an account there, purchase your CRO tokens directly by linking a bank account, and send them to Cronos.
+* [Crypto.com](https://crypto.com): No olvides que Cronos es una cadena profundamente vinculada a Crypto.com. Puedes crear una cuenta allí, comprar tus tokens CRO directamente vinculando una cuenta bancaria y enviarlos a Cronos.
 
 {% hint style="info" %}
-Keep in mind that you will need some gas token to be able to make transactions. This means that if you bridge assets from another chain to Cronos in an account without CRO tokens, you'll be stuck and will not be able to do anything. Make sure your wallet has enough funds to perform at least one swap transaction for gas token.
+Ten en cuenta que necesitarás algún token de gas para poder realizar transacciones. Esto significa que si haces un puente de activos de otra cadena a Cronos en una cuenta sin tokens CRO, estarás atascado y no podrás hacer nada. Asegúrate de que tu cartera tiene fondos suficientes para realizar al menos una transacción de intercambio de tokens de gas.
 {% endhint %}
 
-### Bridges
+### Puentes
 
-* [Relay Chain](https://app.relaychain.com/transfer#/) is the official partner of Mai Finance if you want to bridge your MAI to Cronos. RelayChain support bridging of MAI from a few different chains now, so you'll be able to send your assets from Polygon, Moonriver, Avalanche or Shiden to Cronos. Simply select the destination chain as Cronos, and the token to send (it is most of the time denominated as MAI, but sometimes it's also under miMATIC). Select the amount to transfer and initiate the transfer that shouldn't take more than 10 minutes. Pay attention to transfer fees. However, one good thing about RelayChain is that it will give you some CRO on the receiving side so that you can swap some MAI for CRO.
+* [Relay Chain](https://app.relaychain.com/transfer#/) es el socio oficial de Mai Finance si quieres puentear tu MAI a Cronos. RelayChain soporta ahora el puenteo de MAI desde unas cuantas cadenas diferentes, por lo que podrás enviar tus activos desde Polygon, Moonriver, Avalanche o Shiden a Cronos. Simplemente selecciona la cadena de destino como Cronos, y el token a enviar (la mayoría de las veces está denominado como MAI, pero a veces también lo puedes encontrar como miMATIC). Selecciona la cantidad a transferir e inicia la transferencia, ésta no debería tardar más de 10 minutos. No olvide de prestar atención a las tarifas de transferencia. Sin embargo, una cosa buena de RelayChain es que te dará algo de CRO en el lado receptor para que puedas cambiar algo de MAI por CRO.
 
-![Bridging MAI from Polygon to Cronos using RelayChain](<../.gitbook/assets/Cronos-onboarding-3.png>)
+![Transfiriendo MAI desde Polygon a Cronos usando RelayChain](../.gitbook/assets/Cronos-onboarding-3.png)
 
-* [AnySwap](https://anyswap.exchange/#/router) is also a possibility for most chains if you want to transfer some assets to Cronos. As a side note, AnySwap also supports the transfer of MAI from Polygon to Cronos.
-* [ElkNet](https://app.elk.finance/#/elknet) is a particular case since the bridge from Elk Finance will let you bridge the ELK token from any EVM-compatible chain to any other EVM-compatible chain where they're deployed with the possibility to swap a small portion of the transferred amount into gas token (see the section dedicated to Faucets just above).
+* [AnySwap](https://anyswap.exchange/#/router) es también una posibilidad para la mayoría de las cadenas si quieres transferir algunos activos a Cronos. Como nota adicional, AnySwap también soporta la transferencia de MAI de Polygon a Cronos.
+* [ElkNet](https://app.elk.finance/#/elknet) es un caso particular, ya que el puente de Elk Finance le permitirá puentear el token ELK de cualquier cadena compatible con EVM a cualquier otra cadena compatible con EVM en la que estén desplegados con la posibilidad de intercambiar una pequeña porción de la cantidad transferida en token de gas (véase la sección dedicada a los faucets justo arriba).
 
-### MAI Hub
+### Hub de MAI
 
-In case you bridge some MAI from Polygon to Cronos via Relay Chain, you will get the RelayChain version of MAI instead of the native MAI minted by the application on Cronos. The 2 tokens (the one from RelayChain and the one from Mai Finance) have the same value and the same name, but different contract addresses, and the only one that will be accepted to farm yields on Cronos is the one from Mai Finance.
+En el caso de que hagas un puente entre MAI de Polygon y Cronos a través de Relay Chain, obtendrás la versión de MAI de RelayChain en lugar del MAI nativo acuñado por la aplicación en Cronos. Los 2 tokens (el de RelayChain y el de Mai Finance) tienen el mismo valor y el mismo nombre, pero diferentes direcciones de contrato, y el único que será aceptado para cultivar rendimientos en Cronos es el de Mai Finance.
 
-You can swap your MAI from Relay Chain using [the hub on Mai Finance](https://app.mai.finance/hub) with a 1:1 ratio, then you'll be able to use your true MAI on other platforms.
+Puedes intercambiar el MAI obtenido de Relay Chain en [el hub de Mai Finance](https://app.mai.finance/hub) con una proporción de 1:1, entonces podrá utilizar su verdadero MAI en otras plataformas.
 
-![Swapping MAI(RelayChain) for true MAI on Cronos in the Hub](<../.gitbook/assets/Cronos-onboarding-4.png>)
+![Intercambiando MAI(RelayChain) por MAI en Cronos usando el Hub](../.gitbook/assets/Cronos-onboarding-4.png)
 
-Don't forget that you will have to convert your true MAI into the Relay Chain version if you want to bridge them from Cronos to another chain.
+No olvides que tendrás que convertir tus MAI verdaderos en la versión de la cadena de relevo si quieres pasarlos de Cronos a otra cadena.
 
 {% hint style="info" %}
-It looks like AnySwap supports transfers of MAI from Polygon to Cronos, but you'll receive the AnySwap version of MAI that you will not be able to swap via the hub. You may be stuck with an unusable token, so make sure you're using the right bridge.
+Parece que AnySwap soporta las transferencias de MAI de Polygon a Cronos, pero recibirás la versión AnySwap de MAI que no podrás intercambiar a través del puente. Puede que te quedes con un token inutilizable, así que asegúrate de que estás usando el puente correcto.
 {% endhint %}
 
-## DeFi on Cronos
+## DeFi en Cronos
 
-Cronos being linked to Crypto.com, a lot of investments are flowing into the chain and DeFi applications are there to support liquidity. As such, you may be able to farm yields on the following platforms:
+Al estar Cronos vinculado a Crypto.com, una gran cantidad de inversiones están fluyendo en la cadena y las aplicaciones DeFi están ahí para apoyar la liquidez. Como tal, puede ser capaz de farmear rendimientos en las siguientes plataformas:
 
-* [CroDex](https://swap.crodex.app/#/swap): This is one of the top DEXes (**D**ecentralized **Ex** changes) and AMMs (**A**utomated **M**arket **M**aker) on Cronos, and is a Uniswap v2 fork like QuickSwap. You will be able to swap your assets, participate in liquidity mining by providing LP (**L**iquidity **P**roviding) pairs in farms, or stake the native token of the platform to earn more rewards. CroDex is also the first official partner of Mai Finance on Cronos, and the only place where you'll be able to swap MAI for other assets, as well as participating in liquidity mining programs by farming the MAI-USDC and the MAI-CRO pairs.
+* [CroDex](https://swap.crodex.app/#/swap): Se trata de uno de los principales DEX (Exchanges descentralizados) y AMM (Automated Market Maker) en Cronos, y es un fork de Uniswap v2 como QuickSwap. Podrás intercambiar tus activos, participar en la minería de liquidez proporcionando pares LP (Liquidity Providing) en granjas, o apostar el token nativo de la plataforma para ganar más recompensas. CroDex es también el primer socio oficial de Mai Finance en Cronos, y el único lugar donde podrás intercambiar MAI por otros activos, así como participar en programas de farmeo de liquidez con los pares MAI-USDC y MAI-CRO.
 
-![Farming with MAI on CroDex](<../.gitbook/assets/Cronos-onboarding-5.png>)
+![Farmeando con MAI en CroDex](../.gitbook/assets/Cronos-onboarding-5.png)
 
-When you farm on CroDex, you will get rewards on CRX tokens that you can stake in a Vault to get more CRX tokens, but there are other (better) options that will be presented in a future tutorial.
+Cuando cultives en CroDex, obtendrás recompensas en tokens CRX que puedes apostar en una Bóveda para obtener más tokens CRX, pero hay otras opciones (mejores) que serán presentadas en un futuro tutorial.
 
-* [VVS](https://vvs.finance/) and [CronaSwap](https://app.cronaswap.org/): These are other DEXes/AMMs that are forks of PancakeSwap (another Uniswap fork) where you'll get the same features as on CroDex.
+* [VVS](https://vvs.finance) y [CronaSwap](https://app.cronaswap.org): Estos son otros DEXs/AMMs que son forks de PancakeSwap (otro fork de Uniswap) donde obtendrás las mismas características que en CroDex.
+* [Beefy Finance](https://app.beefy.finance/#/cronos), [Adamant](https://adamant.finance) y [Autofarm](https://autofarm.network/cronos/) son famosos agregadores / optimizadores de rendimiento que están presentes en muchas redes, y donde podrás depositar tus tokens LP desde la mayoría de los DEX, y dejar que los algoritmos a cargo de los pools cosechen los tokens de la granja y compongan las recompensas en más tokens LP.
+* [Crystl Finance](https://cronos.crystl.finance) es una fork que se lanzó primero en Polygon y ahora también está disponible en Cronos. Los usuarios podrán depositar tokens LP en bóvedas para ganar tokens CRYSTL que pueden ser apostados o cultivados (o intercambiados).
+* [Fortune DAO](https://www.fortunedao.com/#/) es el principal fork de Ohm (Olympus) en Cronos que acepta DAI y USDC.
 
-* [Beefy Finance](https://app.beefy.finance/#/cronos), [Adamant](https://adamant.finance/) and [Autofarm](https://autofarm.network/cronos/) are famous aggregators / yield optimizers that are present on many networks, and where you'll be able to deposit your LP tokens from most DEXes, and let the algorithms in charge of the pools harvest the farm tokens and compound the rewards into more LP tokens.
+## Mai Finance en Cronos
 
-* [Crystl Finance](https://cronos.crystl.finance) is a straight goose fork that launched on Polygon first and is now also available on Cronos. Users will be able to deposit LP tokens in vaults in order to earn CRYSTL tokens that can be staked or farmed (or swapped).
+Actualmente la aplicación aún no se ha lanzado por completo y se está esperando principalmente a que ChainLink acepte esos tokens como colaterales. El Hub ya está presente, por lo que se puede esperar un lanzamiento en el primer trimestre de 2022.
 
-* [Fortune DAO](https://www.fortunedao.com/#/) is the main Ohm (Olympus) fork on Cronos that accepts DAI and USDC.
+## Descargo de Responsabilidad
 
-## Mai Finance on Cronos
-
-Currently the application is not fully launched yet and is mostly waiting for ChainLink Oracles to accept tokens as collaterals. The Hub is already present, so you can expect a launch in the first quarter of 2022.
-
-## Disclaimer
-
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Esta guía NO es un consejo financiero, y debe considerarse simplemente como una herramienta educativa. Haga siempre su propia investigación. La mención de un proyecto en esta guía no debe considerarse como una aprobación del mismo.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenga en cuenta que una estrategia que funciona bien en un momento dado puede dar malos resultados (o hacerle perder dinero) en otro momento. Manténgase informado, controle los mercados, vigile sus inversiones y, como siempre, investigue por su cuenta.
 {% endhint %}
