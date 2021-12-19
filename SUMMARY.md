@@ -37,7 +37,7 @@
 
 ## Harmony toàn tập
 
-* [How to get started on Harmony](harmony-tutorials/how-to-get-started-on-harmony.md)
+* [Khởi động trên Harmony](harmony-tutorials/how-to-get-started-on-harmony.md)
 
 ## Học viện MAI <a href="#debt-management-tutorials" id="debt-management-tutorials"></a>
 
