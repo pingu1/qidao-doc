@@ -37,7 +37,7 @@
 
 ## Tutoriales de Harmony
 
-* [How to get started on Harmony](harmony-tutorials/how-to-get-started-on-harmony.md)
+* [Cómo comenzar en Harmony](harmony-tutorials/how-to-get-started-on-harmony.md)
 
 ## Artículos sobre MAI <a href="#universidade-de-mai" id="universidade-de-mai"></a>
 
