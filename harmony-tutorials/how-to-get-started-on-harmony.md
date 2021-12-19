@@ -32,7 +32,7 @@ Guarde los cambios y Metamask le cambiará automáticamente a la red Harmony:
 
 ### Faucets
 
-No hay ninguna pagina oficial para conseguir tus primeros tokens ONE gratis para tus primeras transacciones. En la mayoría de los casos, tendrá que hacer un puente con algunos tokens de otra cadena utilizando el sistema oficial del [bridg de Harmony](https://bridge.harmony.one/erc20) que te permitirán puentear algunos activos específicos desde Ehtereum Mainnet o Binance a Harmony. También puede obtener una lista de proyectos que le permitirán obtener algún ONE a través de Fiat Gateways o Exchanges desde [esta list](https://docs.harmony.one/home/developers/harmony-stack#bridges-fiat-gateways-exchanges)a creada por el equipo de Harmony.
+No hay ninguna pagina oficial para conseguir tus primeros tokens ONE gratis para tus primeras transacciones. En la mayoría de los casos, tendrá que hacer un puente con algunos tokens de otra cadena utilizando el sistema oficial del [bridge de Harmony](https://bridge.harmony.one/erc20) que te permitirán puentear algunos activos específicos desde Ehtereum Mainnet o Binance a Harmony. También puede obtener una lista de proyectos que le permitirán obtener algún ONE a través de Fiat Gateways o Exchanges desde [esta list](https://docs.harmony.one/home/developers/harmony-stack#bridges-fiat-gateways-exchanges)a creada por el equipo de Harmony.
 
 Además, puedes usar [ElkNet](https://app.elk.finance/#/elknet) para transferir algunos tokens ELK de otras cadenas a Harmony. Si lo hace, asegúrese de marcar la casilla `Swap $ELK 1 for gas` que intercambiará una parte de sus tokens transferidos a ONE, lo que también le permitirá intercambiar el resto de sus tokens ELK por más ONE, u otros activos.
 
