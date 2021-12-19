@@ -32,8 +32,8 @@
 
 ## Cronos toàn tập
 
-* [How to get started on Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
-* [Farming Legos with CroDex](cronos-tutorials/farming-legos-with-crodex.md)
+* [Khởi động trên Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
+* [Xếp Legos với CroDex](cronos-tutorials/farming-legos-with-crodex.md)
 
 ## Harmony toàn tập
 
