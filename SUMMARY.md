@@ -24,6 +24,7 @@
   * [Tận dụng MAI trên mạng Fantom](toan-tap/fantom/what-to-do-with-mai-on-fantom.md)
 * [Moonriver](toan-tap/moonriver/README.md)
   * [Các bước bắt đầu trên Moonriver](toan-tap/moonriver/how-to-get-started-on-moonriver.md)
+  * [Farming MAI on SolarBeam](toan-tap/moonriver/farming-mai-on-solarbeam.md)
 * [Cronos](toan-tap/cronos/README.md)
   * [Khởi động trên Cronos](toan-tap/cronos/how-to-get-started-on-cronos.md)
   * [Xếp Legos với CroDex](toan-tap/cronos/farming-legos-with-crodex.md)
