@@ -15,9 +15,9 @@ Quindi, in pratica, Mai Finance è il tuo banco dei pegni crypto.
 
 D'altra parte, la tua crypto valuta depositata può aumentare di valore, il che ti consente di prendere in prestito di più. Inoltre, su Mai Finance, puoi utilizzare altri protocolli come AAVE per assicurarti che i tuoi assets depositati lavori per te e ti restituiscano un rendimento pur essendo ancora utilizzati come collaterale. E questo non avrà alcun impatto sull'importo o sul valore del tuo debito né sul rimborso dello stesso.
 
-Infine, a partire da metà Agosto 2021, il team di sviluppo di Mai Finance sta lavorando attivamente per aggiungere incentivi ai prestiti il che renderebbe effettivamente il prestito MAI un prestito a interessi negativi (vieni pagato per prendere in prestito denaro). 
+Infine, a partire da metà Agosto 2021, il team di sviluppo di Mai Finance sta lavorando attivamente per aggiungere incentivi ai prestiti il che renderebbe effettivamente il prestito MAI un prestito a interessi negativi (vieni pagato per prendere in prestito denaro).&#x20;
 
-**NOTA: **ad oggi, Ottobre 2021, gli incentivi per i prestiti sono stati lanciati e ti permettono effettivamente di prendere in prestito con interesse negativo.
+**NOTA:** ad oggi, Ottobre 2021, gli incentivi per i prestiti sono stati lanciati e ti permettono effettivamente di prendere in prestito con interesse negativo.
 
 Quindi, utilizzando Mai Finance e i suoi Vault, proteggi i tuoi assets e metti a rischio solo i soldi presi in prestito. Idealmente cercherai di fare dei profitti o quantomeno non perdere totalmente il tuo prestito, il che significa che dovresti sempre essere in grado di ripagare il tuo debito e recuperare i tuoi collaterali.
 

@@ -13,7 +13,7 @@ Una delle missioni di questo sito Web e della raccolta di tutorial offerti è qu
 
 ## Presentazione Ethalend
 
-![](../.gitbook/assets/Ethalend-1.png)
+![](../../.gitbook/assets/Ethalend-1.png)
 
 ### Che cos'è Ethalend
 
@@ -28,7 +28,7 @@ Una delle cose molto interessanti di Ethalend è che l'applicazione utilizza un 
 
 Sta a voi decidere se i pro stanno apportando un valore sufficiente per superare i contro. Quando siete pronti a creare il portafoglio, fate semplicemente clic sul pulsante Create Wallet nell'angolo in alto a destra dello schermo.
 
-![Creazione del vostro smart wallet ETHA](../.gitbook/assets/Ethalend-2.png)
+![Creazione del vostro smart wallet ETHA](../../.gitbook/assets/Ethalend-2.png)
 
 Ecco fatto, siete pronti ad usare il protocollo!
 
@@ -38,11 +38,11 @@ Questa strategia può essere aggiunta al tuo paniere di strategie relativamente 
 
 ### MAI staking singolo e rendimenti
 
-![Ethalend MAI-USDT eVault a Novembre 2021](../.gitbook/assets/Ethalend-3.png)
+![Ethalend MAI-USDT eVault a Novembre 2021](../../.gitbook/assets/Ethalend-3.png)
 
 Uno dei grandi vantaggi di Ethalend e una delle caratteristiche chiave che consente la semplificazione della DeFi, è che non è necessario fornire una coppia LP (**L**iquidity **P**roviding) composta da 2 assets con un rapporto di 1:1. L'algoritmo che gestisce il pool (o eVault nel nostro caso) lo farà automaticamente per voi. Inoltre, una volta depositati i vostri assets in un eVault, verranno reindirizzati automaticamente al protocollo migliore che massimizzerà il tuo rendimento. I token ricompensa verranno raccolti e convertiti regolarmente per voi.
 
-![Deposito di 100 SMAI nel eVault $MAI-$USDT dal nostro wallet MetaMask](../.gitbook/assets/Ethalend-4.png)
+![Deposito di 100 SMAI nel eVault $MAI-$USDT dal nostro wallet MetaMask](../../.gitbook/assets/Ethalend-4.png)
 
 Come potete vedere, i dettagli delle ricompense sono visualizzati nella parte destra dello schermo. I premi $ETHA non vengono visualizzati, ma otterrete una stima delle ricompense $Qi associate al  deposito. Se scorrete la pagina verso il basso, otterrete anche una buona comprensione della strategia sottostante che utilizza QuickSwap nel nostro caso. Le ricompense $QUICK verranno convertite in ricompense $Qi. I premi $ETHA sono coniati dal protocollo per incentivarvi a utilizzare la loro piattaforma invece di QuickSwap.
 
@@ -54,13 +54,13 @@ Prestate attenzione alle commissioni di prelievo dello 0,10%. Al momento della s
 
 La ricompensa principale che otterrete prestando $MAI su Ethalend sarà pagata in $ETHA, il token nativo di Ethalend. Uno dei principali vantaggi di Ethalend è che sarete in grado di mettere in stake singolarmente i token $ETHA direttamente sulla piattaforma e aumentare i vostri rendimenti.
 
-![Staking diretto di $ETHA su Ethalend](../.gitbook/assets/Ethalend-5.png)
+![Staking diretto di $ETHA su Ethalend](../../.gitbook/assets/Ethalend-5.png)
 
 Come potete vedere, l'opzione migliore è depositare l'$ETHA che avete guadagnato nel pool $ETHA-$QUICK. A causa della natura dei 2 assets (molto volatili), la ricompensa è davvero alta. Se preferite, potete ridurre l'impermanent loss depositando $ETHA nel pool $ETHA-$USDT. In entrambi i casi, sarete ricompensati con token $QUICK. E, naturalmente, se siete davvero ottimisti su $ETHA, potete mettere in stake le ricompense nel pool $ETHA per ottenere $ETHA aggiuntivi.
 
 I vaults su Ethaland sono in realtà una comodità offerta da Ethalend. Quando depositate i vostri token nel pool, l'algoritmo di bilanciamento venderà alcuni dei token depositati per acquistare l'altro lato della coppia LP e utilizzerà questa coppia in QuickSwap. Come nota a margine, potete farlo anche completamente manualmente: richiedete i vostri token $ETHA, prelevate nel vostro portafoglio web3, vendete il 50% per i token $QUICK, create alcuni token LP e depositate nel pool QuickSwap:
 
-![Pools di QuickSwap per ETHA a Novembre 2021](../.gitbook/assets/Ethalend-6.png)
+![Pools di QuickSwap per ETHA a Novembre 2021](../../.gitbook/assets/Ethalend-6.png)
 
 {% hint style="info" %}
 QuickSwap pubblicizza un APY del 223,1% sulla coppia $ETHA-$QUICK, mentre Ethalend mostra un APR del 116,73% sulla stessa coppia. Ciò è dovuto alla differenza tra APY (rendimento percentuale annuo o ricompense auto-reinvestite) e APR (entrate percentuali annuali o ricompense non auto-reinvestite). Le 2 percentuali sono in realtà esattamente le stesse, quindi non importa quale piattaforma avete scelto di utilizzare per i token $ETHA.
@@ -70,7 +70,7 @@ QuickSwap pubblicizza un APY del 223,1% sulla coppia $ETHA-$QUICK, mentre Ethale
 
 Il modo migliore per utilizzare le ricompense $QUICK che otterrete dallo staking di $ETHA è convertirli in $dQUICK. $dQUICK può essere creato su Dragon's Lair di QuickSwap. È il modo in cui QuickSwap incentiva gli utenti a mettere in stake $QUICK premiandoli con $QUICK aggiuntivi: bloccando i tuoi token $QUICK su QuickSwap, guadagnerete token extra.
 
-![APY di Dragon's Lair su QuickSwap a Novembre 2021](../.gitbook/assets/Ethalend-7.png)
+![APY di Dragon's Lair su QuickSwap a Novembre 2021](../../.gitbook/assets/Ethalend-7.png)
 
 {% hint style="info" %}
 L'APY di $dQUICK varia molto tra il 20% e il 40% a seconda della quantità di token $QUICK che vengono effettivamente messi in stake sulla piattaforma
@@ -78,7 +78,7 @@ L'APY di $dQUICK varia molto tra il 20% e il 40% a seconda della quantità di to
 
 Ma una delle cose migliori di $dQUICK è che è un token "ricevuta di deposito" che può essere utilizzato su Mai Finance come garanzia. Ciò significa che, dopo aver depositato le tue ricompense $QUICK da Ethalend su QuickSwap e ricevuto $dQUICK, potete andare su Mai Finance e depositare i token $dQUICK in un Vault $dQUICK e prendere in prestito $MAI a fronte del collaterale.
 
-![Vault dQUICK su Mai Finance a Novembre 2021](../.gitbook/assets/Ethalend-8.png)
+![Vault dQUICK su Mai Finance a Novembre 2021](../../.gitbook/assets/Ethalend-8.png)
 
 Alcune precisazioni sui depositi nei Vaults $dQUICK:
 
@@ -89,13 +89,13 @@ Potete già vederlo, fornire $dQUICK è molto interessante dato che avrete un as
 
 ### Cosa fare con le ricompense in Qi
 
-Questo argomento è spiegato in [un articolo dedicato](what-to-do-with-qi-on-polygon.md). Per questo tutorial, depositeremo semplicemente i Qi nel pool $Qi-$BAL su Balancer per beneficiare di un solido APR, pagato in token $Qi e $BAL aggiuntivi che potete ricombinare nello stesso identico pool.
+Questo argomento è spiegato in [un articolo dedicato](../../tutorial-di-polygon/what-to-do-with-qi-on-polygon.md). Per questo tutorial, depositeremo semplicemente i Qi nel pool $Qi-$BAL su Balancer per beneficiare di un solido APR, pagato in token $Qi e $BAL aggiuntivi che potete ricombinare nello stesso identico pool.
 
-![Stato del pool Qi-BAL su Balancer a Novembre 2021](../.gitbook/assets/Ethalend-9.png)
+![Stato del pool Qi-BAL su Balancer a Novembre 2021](../../.gitbook/assets/Ethalend-9.png)
 
 ## Avvio della strategia
 
-![](../.gitbook/assets/Ethalend-10.png)
+![](../../.gitbook/assets/Ethalend-10.png)
 
 Quella che segue è una simulazione realizzata con un investimento iniziale di $100 di $MAI che potete prendere in prestito da un Vault esistente o acquistare da una piattaforma DEX. Presuppone che tutti gli APR e APY attuali rimangano gli stessi nell'arco di 1 anno e che tutti i token mantengano lo stesso prezzo, il che (ovviamente) non potrà mai accadere.
 

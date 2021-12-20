@@ -9,7 +9,7 @@ description: >-
 
 ## Introduzione
 
-Qi (\[tʃ Í] o _chee_), è il token nativo di Mai Finance. Alcuni lo usano per votare e per il QIP (Proposte di miglioramento QiDAO), alcuni lo mettono a rendita per ottenerne ancora di più e alcuni semplicemente lo usano per farmare. Puoi trovare alcune ottime informazioni su come utilizzare il Qi sulla piattaforma Mai Finance nella [guida dedicata alla rendita passiva](Universita-di-MAI/ottenere-una-rendita-passiva-con-qidao.md).
+Qi (\[tʃ Í] o _chee_), è il token nativo di Mai Finance. Alcuni lo usano per votare e per il QIP (Proposte di miglioramento QiDAO), alcuni lo mettono a rendita per ottenerne ancora di più e alcuni semplicemente lo usano per farmare. Puoi trovare alcune ottime informazioni su come utilizzare il Qi sulla piattaforma Mai Finance nella [guida dedicata alla rendita passiva](../../Universita-di-MAI/ottenere-una-rendita-passiva-con-qidao.md).
 
 Questa guida, come la maggior parte dei tutorial sugli investimenti, si concentrerà principalmente sul farming e la messa a rendita, questa volta utilizzando il token Qi. Vedremo come è possibile ottenere molti Qi e come utilizzarli sulle diverse piattaforme di Polygon.
 
@@ -35,7 +35,7 @@ Come rapido promemoria, Qi è abbinato a diversi token per formare coppie LP (Li
 * Qi-WETH su QuickSwap ed ottenere ricompense in token QUICK
 * Qi-QUICK su QuickSwap ed ottenere ricompense in token QUICK
 
-![LP pool su QuickSwap per la coppia Qi-WETH](<.gitbook/assets/image (19) (2) (1).png>)
+![LP pool su QuickSwap per la coppia Qi-WETH](<../../.gitbook/assets/image (19) (2) (1).png>)
 
 ### Farm singolo di Qi
 
@@ -43,7 +43,7 @@ Qi può essere utilizzato anche su [Impermax](https://polygon.impermax.finance).
 
 Funziona in questa maniera, prenderai in prestito i 2 token che formano la coppia che vuoi farmare, li combinerai in più token LP e farmerai in leva, con una posizione di un valore molto più alto. Nella maggior parte dei casi, i tassi di prestito sono ampiamente compensati dall' APR della farm, dandoti dei premi netti positivi.
 
-![Posizione in leva(5x) di Qi-WETH su Impermax](<.gitbook/assets/image (10).png>)
+![Posizione in leva(5x) di Qi-WETH su Impermax](<../../.gitbook/assets/image (10).png>)
 
 Possiamo vedere che l'APR finale su Impermax è 393,88% sfruttando la leva 5x a fronte di un APY base del 239,68% su QuickSwap.
 
@@ -53,7 +53,7 @@ Nota bene che Impermax fornisce APR stimati (premi percentuali annuali) mentre Q
 
 Ma ovviamente per prendere in prestito Qi e WETH per mettere in leva la tua posizione su Impermax, devi prenderli da qualche parte. Ciò viene reseo possibile perché altri utenti (o te stesso) forniscono entrambi i token separatamente. Più token vengono presi in prestito, più alto diventa il tasso di prestito e più basso è l'APR finale, a volte negativo.
 
-![Statistiche di Qi e WETH per il mercato Qi-WETH su Impermax](<.gitbook/assets/image (11).png>)
+![Statistiche di Qi e WETH per il mercato Qi-WETH su Impermax](<../../.gitbook/assets/image (11).png>)
 
 Per il nostro esempio ci concentreremo su Qi. Puoi notare che la supply totale di Qi è di $427,21 e l'importo totale preso in prestito nelle posizioni con leva è di $321,44, con un tasso di utilizzo del 75,24%. Impermax ha un meccanismo interno che calcola automaticamente l'APR di fornitura (APR che otterranno gli utenti che prestano Qi) e l'APR di prestito (percentuale della ricompensa da farming che verrà sottratta quando si ripaga il prestito).
 
@@ -63,31 +63,31 @@ Mentre sei su Impermax, puoi anche utilizzare l'opzione leva per ottenere premi 
 
 ### Balancer
 
-Balancer è davvero una bella cassetta degli attrezzi per qualsiasi strategia, specialmente quelle che includono Qi e/o MAI. Balancer propone un equivalente del farming di coppie LP ma con più di 2 token forniti in un rapporto 1:1. Il pool può avere 3, 4 o 5 token (a volte anche di più) con peso diverso, e l'algoritmo che gestisce il pool fa in modo che il rapporto per ogni token sia sempre rispettato, vendendone alcuni e acquistandone altri per mantenere l'equilibrio previsto. 
+Balancer è davvero una bella cassetta degli attrezzi per qualsiasi strategia, specialmente quelle che includono Qi e/o MAI. Balancer propone un equivalente del farming di coppie LP ma con più di 2 token forniti in un rapporto 1:1. Il pool può avere 3, 4 o 5 token (a volte anche di più) con peso diverso, e l'algoritmo che gestisce il pool fa in modo che il rapporto per ogni token sia sempre rispettato, vendendone alcuni e acquistandone altri per mantenere l'equilibrio previsto.&#x20;
 
 Il pool che vogliamo usare qui è un pool che contiene Qi, WMATIC, BAL, USDC e MAI. Questo pool ti ricompenserà con entrambi i token Qi e BAL e puoi già vedere che sarai in grado di combinare entrambi nel pool. Lo straordinario vantaggio dei pool su Balancer è che non è necessario fornire tutti i token che formano il pool nel rapporto corretto, l'algoritmo lo farà per te. Ciò significa che puoi effettivamente depositare solo Qi nel pool e lasciare che l'algoritmo faccia il resto per riequilibrare tutto.
 
-![](<.gitbook/assets/Schermata 2021-10-03 alle 20.23.02.png>)
+![](<../../.gitbook/assets/Schermata 2021-10-03 alle 20.23.02.png>)
 
 Come nota a margine, i token BAL possono (o saranno presto) essere utilizzati come garanzia su Mai Finance, il che significa che avrai la possibilità di depositare i tuoi token BAL nel Vault BAL su Mai Finance e prendere in prestito MAI. Inoltre, prendere in prestito MAI a fronte dei tuoi BAL ti renderà idoneo per i premi Qi che alimenteranno il pool su Balancer.
 
-![Ciclo completo tra Mai Finance e Balancer](<.gitbook/assets/image (13).png>)
+![Ciclo completo tra Mai Finance e Balancer](<../../.gitbook/assets/image (13).png>)
 
 L'APR del vault BAL determinerà quanto sia interessante avere il vault nel ciclo o se sarà meglio depositare i tuoi Qi nel pool di Balancer.
 
 ## Capire il prezzo di Qi
 
-Ottenere molti Qi è un conto ma se il token perde valore nel tempo, è davvero una buona strategia tenerlo? 
+Ottenere molti Qi è un conto ma se il token perde valore nel tempo, è davvero una buona strategia tenerlo?&#x20;
 
 In questa sezione, cercheremo di capire i diversi fattori che incidono direttamente sul prezzo di Qi in modo che quando inizierai a investire i tuoi Qi avrai un'idea migliore di come il suo prezzo può variare e quale impatto avrà sull'ecosistema Qi.
 
 ### Emissione di Qi
 
-Uno dei principali fattori che influenzerà il prezzo del Qi è la velocità con cui verranno creati. Come ben sai il prezzo è sempre guidato dalla domanda e dall'offerta. Se c'è molta offerta e domanda molto bassa, il prezzo scenderà naturalmente. Quindi capire come viene generato il Qi è fondamentale per stimarne il valore nel tempo. 
+Uno dei principali fattori che influenzerà il prezzo del Qi è la velocità con cui verranno creati. Come ben sai il prezzo è sempre guidato dalla domanda e dall'offerta. Se c'è molta offerta e domanda molto bassa, il prezzo scenderà naturalmente. Quindi capire come viene generato il Qi è fondamentale per stimarne il valore nel tempo.&#x20;
 
 Attualmente ci sono 2 fonti di emissione di Qi: ricompense per il farming e ricompense per i vault.
 
-![LP Farm su Mai Finance ad Ottobre 2021](<.gitbook/assets/Schermata 2021-10-03 alle 20.32.00.png>)
+![LP Farm su Mai Finance ad Ottobre 2021](<../../.gitbook/assets/Schermata 2021-10-03 alle 20.32.00.png>)
 
 Se vuoi farmare su MAI Finance puoi scegliere tra la coppia MAI/USDC e la coppia Qi/WMATIC ( ad Ottobre 2021).
 
@@ -108,9 +108,9 @@ Gli ottimizzatori dei rendimenti sono piattaforme che reinvestono automaticament
 
 Ad esempio, Adamant offre il farming della coppia di LP Qi/WMATIC sulla loro piattaforma, con la seguente distribuzione di ricompense:
 
-![Qi-WMATIC pool su Adamant](<.gitbook/assets/image (15).png>)
+![Qi-WMATIC pool su Adamant](<../../.gitbook/assets/image (15).png>)
 
-![Dettaglio dell' APR del 179.23% offerto da Adamant](<.gitbook/assets/image (14).png>)
+![Dettaglio dell' APR del 179.23% offerto da Adamant](<../../.gitbook/assets/image (14).png>)
 
 Noterai che l'APR complessivo è superiore a quello di Mai Finance ma solo perché Adamant sta assegnando ulteriori premi ADDY agli utenti. La quantità di Qi che viene effettivamente ridistribuita è del 98,45% rispetto al 134,42% che si può ottenere su Mai Finance.
 
@@ -140,7 +140,7 @@ Ora, se il prezzo di ETH sale a $2.000 e se il pool rimane con la stessa quantit
 
 Ciò significa che quando il prezzo di uno dei 2 token sale, il pool crea una certa domanda per l'altro, aumentando anche il suo prezzo. È però vero anche il contrario: se un token perde valore, l'altro verrà venduto per mantenere un rapporto 1:1, facendo scendere il prezzo. Questo spiega anche in parte la fluttuazione del prezzo del Qi rispetto alla fluttuazione del prezzo di WETH e WMATIC (i 2 token principali a cui è abbinato il Qi).
 
-![Prezzo di Qi (sinistra) VS Prezzo di WMATIC (destra)](<.gitbook/assets/image (17).png>)
+![Prezzo di Qi (sinistra) VS Prezzo di WMATIC (destra)](<../../.gitbook/assets/image (17).png>)
 
 ### Mancanza di casi d'uso
 

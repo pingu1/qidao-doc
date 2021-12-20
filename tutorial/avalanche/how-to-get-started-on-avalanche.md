@@ -30,7 +30,7 @@ Per utilizzare la rete Avalanche, dovrai aggiungerla a Metamask. Per farlo, dovr
 
 Salva le modifiche e Metamask selezionerà automaticamente la rete Avalanche. Se così non fosse cliccando sul menu a tendina potrai selezionarla manualmente.
 
-![Ottimo lavoro! Ora sei su Avalanche!](<../.gitbook/assets/image (40).png>)
+![Ottimo lavoro! Ora sei su Avalanche!](<../../.gitbook/assets/image (40).png>)
 
 ## Trasferire assets da un'altra blockchain verso Avalanche (Bridging)
 
@@ -43,14 +43,14 @@ Al momento non ci sono faucets (contratti che ti "regalano" qualche $AVAX per le
 * [Official Avalanche bridge](https://bridge.avax.network) - Avalanche ha un proprio bridge che può essere utilizzato per trasferire gli assets dalla rete principale di Ethereum ad Avalanche. Le commissioni vengono pagate nel token di origine e possono essere abbastanza elevate visto che stiamo partendo da Ethereum.
 * [Anyswap](https://anyswap.exchange/#/bridge) consente di trasferire gli assets tra molteplici chain diverse. Ci sono importi minimi richiesti per il trasferimento e variano a seconda del token ma il costo del bridging è a tariffa fissa.
 * [Celer Bridge](https://cbridge.celer.network/#/transfer) offre trasferimenti da e verso molte chain con un' interfaccia utente semplice e curata. La commissione di bridging è di circa il 3% verso Avalanche.
-* [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer) offre un'interfaccia intuitiva e facile da usare e commissioni basse. Come nota a margine, Relay Chain è la soluzione ufficialmente supportata per [trasferire MAI ad Avalanche](../Universita-di-MAI/mai-metaverse.md#avalanche).
+* [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer) offre un'interfaccia intuitiva e facile da usare e commissioni basse. Come nota a margine, Relay Chain è la soluzione ufficialmente supportata per [trasferire MAI ad Avalanche](../../Universita-di-MAI/mai-metaverse.md#avalanche).
 * [Elknet](https://app.elk.finance/#/elknet) è un servizio di bridging offerto da Elk Finance, è un exchange decentralizzato disponibile su più reti tra cui Avalanche, Binance Smart Chain, Fantom, Polygon e xDai. Ciò che distingue Elknet dagli altri bridge in questo elenco è che non è richiesto AVAX per il bridging, ma c'è un problema che vedremo di seguito. La commissione di trasferimento è solo il costo del gas per la transazione.
   * Per spostare i tuoi token su Avalanche tramite Elknet, dovrai prima convertirli in $ELK, il token nativo di Elk Finance.
   * Potrai quindi utilizzare il bridge per spostare gli $ELK dalla chain di partenza ad Avalanche, inoltre selezionando "Swap $ELK 1 for gas", un $ELK sarà convertito in $AVAX per permetterti di coprire i costi delle prime transazioni su Avalanche.
   * Una volta completato il bridging (di solito meno di 5 minuti), dovrai selezionare la rete Avalanche nel tuo portafoglio Metamask e vedrai i tuoi $ELK e un po' di $AVAX pronti per essere usati. Ora potrai scambiare i tuoi $ELK con qualsiasi token supportato su Avalanche, direttamente da Elk Finance.
   * Lo stessa cosa può essere fatta al contrario per tornare a Polygon o a qualsiasi altra chain supportata.
 
-![Interfaccia Elknet](<../.gitbook/assets/image (37).png>)
+![Interfaccia Elknet](<../../.gitbook/assets/image (37).png>)
 
 ## DeFI su Avalanche
 
@@ -60,15 +60,15 @@ Avalanche ha visto una grande crescita negli ultimi mesi che ha portato non solo
 * [Beefy Finance](https://app.beefy.finance/#/avax) è ben noto alla maggior parte degli utenti deFI in quanto è disponibile su altre chain tra cui Binance Smart Chain,Polygon, Fantom e Harmony. Beefy è noto come un auto compounder (reinveste automaticamente le rewards delle farms) e attualmente fornisce ottimi APY sia per il farm single token che dual token. Beefy offre funzionalità di auto reinvestimento per le coppie [MAI/AVAX](https://app.beefy.finance/#/avax/vault/joe-mai-wavax) e [MAI/USDC.e ](https://app.beefy.finance/#/avax/vault/joe-mai-usdc.e)LPs che trovate sulla piattaforma Trader Joe.
 * [Benqi](https://app.benqi.fi/markets) è un protocollo di mercato simile ad Aave ed è stato il primo del suo genere sulla rete Avalanche. I token collaterali supportati includono $AVAX, $DAI, $LINK, $USDT, $USDC, $WBTC e $WETH.
 
-![Interfaccia di BenQI](<../.gitbook/assets/image (36).png>)
+![Interfaccia di BenQI](<../../.gitbook/assets/image (36).png>)
 
-* [TraderJoe](https://www.traderjoexyz.com/#/home) è un exchange decentralizzato ed è diventato uno dei migliori progetti su Avalanche con un'interfaccia utente intuitiva e una innovativa funzionalità di zapping che consente agli utenti di convertire un token direttamente in un pool di liquidità. TraderJoe è anche partner ufficiale del pool [MAI-USDC LP Avalanche](../Universita-di-MAI/mai-metaverse.md#usare-mai-su-avax).
+* [TraderJoe](https://www.traderjoexyz.com/#/home) è un exchange decentralizzato ed è diventato uno dei migliori progetti su Avalanche con un'interfaccia utente intuitiva e una innovativa funzionalità di zapping che consente agli utenti di convertire un token direttamente in un pool di liquidità. TraderJoe è anche partner ufficiale del pool [MAI-USDC LP Avalanche](../../Universita-di-MAI/mai-metaverse.md#usare-mai-su-avax).
 
-![Interfaccia di TraderJoe](<../.gitbook/assets/image (39).png>)
+![Interfaccia di TraderJoe](<../../.gitbook/assets/image (39).png>)
 
 * [YieldYak](https://yieldyak.com/farms) è un altro auto compounder che fornisce alti APY sul farming. Le sue farm single token  sono create sulla base di BenQI per sfruttare rendimenti più elevati e sono quindi da considerarsi rischiose.
 
-![Interfaccia di YieldYak](<../.gitbook/assets/image (41).png>)
+![Interfaccia di YieldYak](<../../.gitbook/assets/image (41).png>)
 
 ## Altri link utili
 

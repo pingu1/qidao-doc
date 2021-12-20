@@ -16,7 +16,7 @@ Mai Finance ha lanciato la sua piattaforma di prestito su Fantom con diversi tip
 
 [Yearn Finance](https://beta.yearn.finance/#/home) è un insieme di protocolli su Ethereum Mainnet ed altre blockchain che consentono agli utenti di ottimizzare i propri guadagni sulle crypto valute attraverso servizi di prestito e trading. Su Fantom, il prodotto che utilizzeremo sono i Vaults. Questo è uno strumento in cui potrai depositare token singoli e ottenere rendimenti su questo deposito. Come certificato di deposito, riceverai un $yvToken. Nel nostro caso, depositeremo $DAI e riceveremo in cambio $yvDAI.
 
-![Vaults Yearn su Fantom](../.gitbook/assets/ftm-leverage-yv1.png)
+![Vaults Yearn su Fantom](../../.gitbook/assets/ftm-leverage-yv1.png)
 
 {% hint style="info" %}
 Il sito Yearn finance è ancora in modalità beta su Fantom. Il team sta ancora lavorando sulla piattaforma e gli APR/APY non vengono visualizzati. Se vai alla scheda Iron Bank, che è il protocollo di deposito/prestito sulla piattaforma, vedrai che il prestito di $DAI sta ottenendo \~ 8% di APR. Si prega di investire a proprio rischio.
@@ -28,7 +28,7 @@ Una volta depositati i tuoi $DAI su Yearn Finance, dovresti avere $yvDAI nel tuo
 
 Mai Finance accetta molti token con rendimento come garanzia, incluso $yvDAI. Ora puoi depositare questo token e prendere in prestito $MAI.
 
-![Depositare il tuo yvToken su Mai Finance](../.gitbook/assets/ftm-leverage-yv2.png)
+![Depositare il tuo yvToken su Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
 
 Il Vault $yvDAI ha una soglia di liquidazione del 110%, questo significa che puoi prendere in prestito $MAI con un rapporto tra il valore della tua garanzia e il valore del debito che non può scendere sotto il 110%. Attenzione, il 110% è effettivamente il rapporto raggiunto il quale il tuo Vault verrà liquidato. È necessario mantenere il rapporto al di sopra di questa soglia minima. Dato che $DAI non varia molto nel prezzo (meno di qualche centesimo in più o in meno) è possibile restare relativamente sicuri con un CDR (**C**ollateral to **D**ebt **R**atio) del 115%, ma sei libero di tenerlo più alto se preferisci.
 
@@ -50,9 +50,9 @@ Ora sei in una posizione in cui hai i tuoi guadagni $DAI in un Vault Yearn e hai
 
 Su Fantom, la principale fonte di liquidità per $MAI è [BeethovenX](https://app.beets.fi/#/trade). Questo è il protocollo principale in cui potrai scambiare i tuoi token $MAI con più $DAI, per eseguire la nostra strategia.
 
-![Swap di $MAI per $DAI](../.gitbook/assets/ftm-leverage-yv3.png)
+![Swap di $MAI per $DAI](../../.gitbook/assets/ftm-leverage-yv3.png)
 
-Questo è l'ultimo passaggio del nostro ciclo. Ora che hai più $DAI puoi depositarli nel Vault Yearn e ripetere il ciclo. In questo modo aumenta la quantità di assets che hai nel Vault di Yearn, il che significa che raccoglierai più ricompense prestando i tuoi $DAI su quella piattaforma. L'APR/APY rimane lo stesso, ma poiché hai più assets, guadagni più rendimento e se confrontato con il tuo investimento iniziale, il tuo APR aumenta. Se vuoi avere ulteriori esempi sull'APR che puoi ottenere usando i loop yvDAI, leggi il nostro [Strategia camDAI per principianti](../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) per Polygon che utilizza la stessa identica strategia ma strumenti diversi.
+Questo è l'ultimo passaggio del nostro ciclo. Ora che hai più $DAI puoi depositarli nel Vault Yearn e ripetere il ciclo. In questo modo aumenta la quantità di assets che hai nel Vault di Yearn, il che significa che raccoglierai più ricompense prestando i tuoi $DAI su quella piattaforma. L'APR/APY rimane lo stesso, ma poiché hai più assets, guadagni più rendimento e se confrontato con il tuo investimento iniziale, il tuo APR aumenta. Se vuoi avere ulteriori esempi sull'APR che puoi ottenere usando i loop yvDAI, leggi il nostro [Strategia camDAI per principianti](../../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) per Polygon che utilizza la stessa identica strategia ma strumenti diversi.
 
 {% hint style="success" %}
 BeethovenX è in realtà una fantastica opportunità per fare farming con i tuoi $MAI presi in prestito. Deposita semplicemente i tuoi $MAI nel pool $MAI-$DAI-$USDC (APR di \~ 30% a partire da novembre 2021) se non puoi ottenere un APR migliore utilizzando il loop.
@@ -70,7 +70,7 @@ $$
 
 Per depositare i nostri $DAI, visiteremo l'app Beefy Finance e selezioneremo Scream come piattaforma su cui farmare. Puoi anche aggiungere il filtro $DAI per vedere il deposito $DAI diretto.
 
-![Deposito dei tuoi $DAI su Beefy utilizzando Scream](../.gitbook/assets/ftm-leverage-beefy1.png)
+![Deposito dei tuoi $DAI su Beefy utilizzando Scream](../../.gitbook/assets/ftm-leverage-beefy1.png)
 
 Come puoi vedere, Beefy sta già dando un incredibile APY sui singoli depositi $DAI. Una volta depositato $DAI su Beefy, dovresti avere una prova di deposito nel tuo portafoglio sotto forma di token $mooScreamDAI. Come il token $yvDAI, il token $mooScreamDAI è un deposito con rendimento, il che significa che il tuo asset è ancora utilizzato su Scream e auto reinvestito su Beefy, generando ulteriori rendimenti. Ma sarai in grado di utilizzare questo token su Mai Finance per prendere in prestito $MAI.
 
@@ -108,7 +108,7 @@ Il tetto del debito rappresenta il numero massimo di $MAI che può essere coniat
 
 Puoi verificare in ogni momento la quantità di $MAI che può essere coniata nella [pagina di creazione del Vault](https://app.mai.finance/vaults/create), potrai quindi vedere subito quando non ci sono più $MAI coniabili e vedrai il seguente messaggio di errore:
 
-![Messaggio di errore quando il tetto del debito è stato raggiunto](../.gitbook/assets/ftm-leverage-error.png)
+![Messaggio di errore quando il tetto del debito è stato raggiunto](../../.gitbook/assets/ftm-leverage-error.png)
 
 Questo messaggio di errore apparirà anche se il tuo fattore di salute è corretto. Nella maggior parte dei casi, l'unica soluzione è aspettare che il tetto venga aumentato. Tieni d'occhio Twitter o Discord per sapere quando succede.
 

@@ -18,7 +18,7 @@ Infine, Fantom è 100% EVM (**E**thereum **V**irtual **M**achine) compatibile, c
 
 Essendo Fantom compatibile con EVM, se hai già un portafoglio per altre chain EVM (Ethereum Mainnet, Polygon o Avalanche), potrai utilizzarlo da subito. Se sei ai primi passi, è il momento di creare il tuo portafoglio. Esistono diversi tipi di portafoglio che possono essere utilizzati: **software wallets** come [Metamask](how-to-get-started-on-fantom.md#what-is-fantom) e [fWallet](https://pwawallet.fantom.network/#/) oppure **hardware wallets** come [Trezor](https://trezor.io/coins/) e [Ledger](https://fantom.foundation/blog/how-to-set-up-your-ledger-nano-s-x-with-fantom/).
 
-Per questa guida e per essere allineati alle altre nostre guide basate su Metamask utilizzeremo Metamask, ma sentiti libero di utilizzare qualsiasi altro portafoglio software/hardware che preferisci. Se hai bisogno di istruzioni su come installare Metamask, puoi trovarle nella guida [come iniziare con Polygon](../tutorial-di-polygon/come-iniziare-con-polygon.md).
+Per questa guida e per essere allineati alle altre nostre guide basate su Metamask utilizzeremo Metamask, ma sentiti libero di utilizzare qualsiasi altro portafoglio software/hardware che preferisci. Se hai bisogno di istruzioni su come installare Metamask, puoi trovarle nella guida [come iniziare con Polygon](../polygon/come-iniziare-con-polygon.md).
 
 ### Aggiungere la rete Fantom a Metamask
 
@@ -32,7 +32,7 @@ Per utilizzare la rete Fantom, dovrai aggiungerla a Metamask. Per farlo, dovrai 
 
 Salva le modifiche e Metamask selezionerà automaticamente la rete Avalanche. Se così non fosse cliccando sul menu a tendina potrai selezionarla manualmente.
 
-![Ottimo lavoro! Ora sei su Fantom!](../.gitbook/assets/ftm-mm0.png)
+![Ottimo lavoro! Ora sei su Fantom!](../../.gitbook/assets/ftm-mm0.png)
 
 Se hai bisogno di maggiori dettagli per configurare Metamask, troverai ulteriori informazioni nella guida ufficiale del team [Fantom](https://docs.fantom.foundation/tutorials/set-up-metamask).
 
@@ -42,18 +42,18 @@ Ora che sei su FTM, avrai bisogno di $FTM (token nativo utilizzato per pagare le
 
 * Una volta entrato nel server di [SpookySwap Discord](http://discord.gg/AqbsWsWDgn) ed esserti verificato col bot, vedrai vari canali, entra in  #faucet.
 
-![Canale #faucet all'interno del server Discord di SpookySwap](<../.gitbook/assets/image (42).png>)
+![Canale #faucet all'interno del server Discord di SpookySwap](<../../.gitbook/assets/image (42).png>)
 
 * Nel canale #faucet, dovrai inviare il comando`!faucet` ed il bot interagirà con te e ti garantirà qualche $FTM. Il limite massimo è di una richiesta ogni 30 giorni.
 * Se vuoi verificare di aver ricevuto correttamente i tuoi token $FTM, puoi fare clic sul nome "Bot Fantom Tip" per interagire direttamente col bot e digitare `!balance`
 
-![Grazie Fantom Tip Bot e SpookySwap](<../.gitbook/assets/image (45).png>)
+![Grazie Fantom Tip Bot e SpookySwap](<../../.gitbook/assets/image (45).png>)
 
 * Tutto quello che devi fare ora è ricevere i tuoi token $FTM all'indirizzo del tuo portafoglio usando il comando `!withdraw <indirizzo del tuo portafoglio>`. L'indirizzo del tuo portafoglio si trova nella parte superiore della finestra di Metamask.
 
-![Ritirare i tuoi token dal tuo account Discord](../.gitbook/assets/ftm-faucet.png)
+![Ritirare i tuoi token dal tuo account Discord](../../.gitbook/assets/ftm-faucet.png)
 
-![Deposito ricevuto dal faucet al wallet Metamask](../.gitbook/assets/ftm-mm.png)
+![Deposito ricevuto dal faucet al wallet Metamask](../../.gitbook/assets/ftm-mm.png)
 
 ## Trasferire assets da un'altra blockchain verso Fantom (Bridging)
 
@@ -61,9 +61,9 @@ Ora che sei su FTM, avrai bisogno di $FTM (token nativo utilizzato per pagare le
 
 Se vuoi trasferire stable coin su Fantom, puoi utilizzare il seguente elenco di bridge:
 
-* [AnySwap](https://anyswap.exchange/#/bridge): Questo è il bridge ufficialmente supportato per il trasferimento dei $MAI coniati su Polygon a Fantom(guarda la guida [MAI metaverse](../Universita-di-MAI/mai-metaverse.md) per maggiori dettagli). Questa soluzione supporta numerosi assets e diverse chain in modo da facilitare il più possibile il trasferimento di crypto valute a Fantom. Vi invitiamo a controllare **sempre** le note nella parte inferiore dell'interfaccia utente di bridging per conoscere le commissioni di transazione e il tempo di esecuzione previsto aggiornati.
+* [AnySwap](https://anyswap.exchange/#/bridge): Questo è il bridge ufficialmente supportato per il trasferimento dei $MAI coniati su Polygon a Fantom(guarda la guida [MAI metaverse](../../Universita-di-MAI/mai-metaverse.md) per maggiori dettagli). Questa soluzione supporta numerosi assets e diverse chain in modo da facilitare il più possibile il trasferimento di crypto valute a Fantom. Vi invitiamo a controllare **sempre** le note nella parte inferiore dell'interfaccia utente di bridging per conoscere le commissioni di transazione e il tempo di esecuzione previsto aggiornati.
 
-![Trasferimento di MAI da Polygon a Fantom](<../.gitbook/assets/image (43).png>)
+![Trasferimento di MAI da Polygon a Fantom](<../../.gitbook/assets/image (43).png>)
 
 * [Celer Bridge](https://cbridge.celer.network/#/): offre servizi di bridging per molte chain e per la maggior parte delle stable coins, con commissioni che vanno dallo 0.04% allo 0.19% per il trasferimento verso Fantom (DYOR).
 * [xpollinate](https://www.xpollinate.io): propone commissioni basse e garantisce che ci sia abbastanza liquidità sulla chain di destinazione per il token che trasferire. Minore è la liquidità (o maggiore è l'importo da coprire), più si allunga il tempo necessario al trasferimento.
@@ -80,7 +80,7 @@ Fantom ha visto un'espansione piuttosto impressionante alla fine dell'estate 202
 
 * [BeethovenX](https://app.beethovenx.io/#/): Questa applicazione è molto simile a Balancer. Sarai in grado di scambiare alcuni token per altri e anche depositare in pool di farming bilanciati composti da più token. Balancer è il primo partner ufficiale di Mai Finance su Fantom nonchè l'unico posto (ad Ottobre 2021) dove potrai scambiare i tuoi $MAI o depositarli in un pool MAI-USDC.
 
-![Scambiare MAI per FTM](<../.gitbook/assets/image (44).png>)
+![Scambiare MAI per FTM](<../../.gitbook/assets/image (44).png>)
 
 * [SpookySwap](https://spookyswap.finance): Questo è il DEX più grande (**D**ecentralized **Ex**change) su Fantom in cui sarai in grado di scambiare i tuoi token con altri, depositare liquidità e farmare più o meno nello stesso modo in cui lo faresti su QuickSwap su Polygon. SpookySwap ti ricompenserà con il token $BOO, il token nativo della piattaforma. Come nota a margine, quando metti in stake i tuoi token $BOO, otterrai in cambio $xBOO, un token di rendimento, e potrai usarli per guadagnare ricompense extra (stesso principio del Dragon's Syrup su QuickSwap).
 * [SpiritSwap](https://app.spiritswap.finance): Automatic Marker Maker tradizionale e piattaforma di farming in cui sarai in grado di scambiare token, creare token LP e farmare in pool di liquidità. SpiritSwap ti pagherà con i token $SPIRIT che puoi mettere in stake sulla piattaforma ottenendo in cambio i token $inSPIRIT ($SPIRIT sarà bloccato per un certo periodo di tempo), ispirandosi al modello di veCRV. Puoi anche usare SpiritSwap per prestare e prendere in prestito, in attesa che  Mai Finance approdi su Fantom.
@@ -88,7 +88,7 @@ Fantom ha visto un'espansione piuttosto impressionante alla fine dell'estate 202
 * [Scream](https://scream.sh): Scream è un clone di Compound in cui potrai prestare i tuoi token e prenderli in prestito usandoli come collaterale. Prestare i tuoi token ti farà guadagnare ricompense nel token prestato oltre ai token $SCREAM che potrai utilizzare come meglio ritieni opportuno.
 * [Curve](how-to-get-started-on-fantom.md#bridging-stable-coins-eth-btc): Curve è il progetto blue chip che tutti ben conosciamo dove potrai depositare i tuoi token in pool specifici (non è necessario depositare un importo bilanciato) e sarai ricompensato nei token prestati oltre ai token $CRV e $wFTM.
 
-![Pool DAI+USDC di Curve su Fantom](../.gitbook/assets/ftm-crv.png)
+![Pool DAI+USDC di Curve su Fantom](../../.gitbook/assets/ftm-crv.png)
 
 Ci sono molte altre opportunità su Fantom che non mancheremo di descrivere in altre guide.
 

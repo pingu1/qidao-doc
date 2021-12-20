@@ -10,9 +10,9 @@ description: >-
 
 Qi DAO ti permette di guadagnare una quota settimanale dei ricavi guadagnati dal protocollo:
 
-* 30% delle entrate generate dalle commissioni dai prestiti ripagati settimanali (più un boost del 25%). 
+* 30% delle entrate generate dalle commissioni dai prestiti ripagati settimanali (più un boost del 25%).&#x20;
 * 100% delle ricompense dai Liquidity Pool ottenute dalle entrate generate dalle commissioni per il farming su QuickSwap.
-* 30% delle commissioni ottenute dagli swap in USDC settimanali. 
+* 30% delle commissioni ottenute dagli swap in USDC settimanali.&#x20;
 
 Questa quota di entrate viene distribuita alle persone che mettono in stake i loro token QI per un certo periodo di tempo, le ricompense vengono quindi distribuite sotto forma di token QI che vengono inviati direttamente al tuo portafoglio. Queste ricompense vengono inviate ogni mercoledì e puoi controllare lo storico delle ricompense [qui](https://app.mai.finance/rewards).
 
@@ -61,55 +61,55 @@ Se vuoi controllare le statistiche del Qi Boosting, puoi visitare questa [pagina
 
 ## FAQs dello Staking di Qi
 
-* **Quando dovrei mettere in stake i miei QI?** 
+* **Quando dovrei mettere in stake i miei QI?**&#x20;
 
 Le istantanee sono di domenica e registrano chi ha bloccato i propri $QI per almeno una settimana al momento dell'istantanea. Se lo hai fatto, sei idoneo per una quota delle entrate per la prossima settimana
 
-* **Dove posso verificare quando sarà l'istantanea?** 
+* **Dove posso verificare quando sarà l'istantanea?**&#x20;
 
 Controlla la pagina "Boost", copia il primo numero su "Next Blocks" e incollalo su Polygonscan. Ti dirà l'ora esatta stimata per l'istantanea.
 
-* **Per quanto tempo devo bloccare i miei QI?** 
+* **Per quanto tempo devo bloccare i miei QI?**&#x20;
 
 Al momento dell'istantanea devono essere stati bloccati almeno 1 settimana intera. Se vuoi essere sicuro al 100% di essere idoneo, ti consigliamo di bloccarli per 2 settimane o più.
 
-* **Quando riceverò le mie ricompense?** 
+* **Quando riceverò le mie ricompense?**&#x20;
 
 Ogni mercoledì, verranno trasferiti nel tuo portafoglio o riscattati dalla pagina dei premi. Le tempistiche potrebbero variare leggermente , per favore sii paziente poiché il team deve completare diverse verifiche prima di trasferirli.
 
-* **Ma li ho bloccati quasi 2 settimane fa e non ho ancora ricevuto nulla!** 
+* **Ma li ho bloccati quasi 2 settimane fa e non ho ancora ricevuto nulla!**&#x20;
 
 Possono esserci un paio di ragioni in questo caso: o è tutto corretto ma devi ancora aspettare fino a mercoledì prossimo oppure al momento dell'istantanea erano bloccati da meno di una settimana. I premi vengono distribuiti circa 10 giorni dopo l'istantanea.
 
-* **Che tokens riceverò?** 
+* **Che tokens riceverò?**&#x20;
 
 Le ricompense per lo staking di QI sono distribuite in QI.
 
-* **Da dove arrivano queste ricompense!?** 
-  * 100% dei guadagni dalle entrate derivanti dalle commissioni deposito delle farm ($2,245,681 usati per farmare alla settimana 14) 
+* **Da dove arrivano queste ricompense!?**&#x20;
+  * 100% dei guadagni dalle entrate derivanti dalle commissioni deposito delle farm ($2,245,681 usati per farmare alla settimana 14)&#x20;
   * 30% delle entrate derivanti dalle commissioni di pagamento del debito ($18,362 settimanali di entrate in media)
   * 30% Anchor/Swap delle entrate derivanti dalle commissioni di swap, Anchor incluso ($178,365 settimanali di entrate in media)
-* **Cos'è eQI e cosa ci posso fare?** 
+* **Cos'è eQI e cosa ci posso fare?**&#x20;
 
 eQI (QI su escrow) rappresenta il boost che stai ottenendo sul tuo potere di voto e sulle ricompense Qi. Quindi, ai fini di voto e dell'ottenimento delle ricompense Qi, 1 eQi conta come 1 Qi
 
-* **Aspetta io ho messo in stake per ottenere ricompense. Cos'è questo potere di voto?** 
+* **Aspetta io ho messo in stake per ottenere ricompense. Cos'è questo potere di voto?**&#x20;
 
 QiDao è una DAO (Organizzazione Autonoma Decentralizzata) e il futuro del protocollo è deciso dalla comunità. In qualità di titolare di $QI hai diritto a votare i QIP (QiDao Improvement Proposals) pubblicati sulla pagina Governance.
 
-* **Che APR posso attendermi mettendo in stake $QI?** 
+* **Che APR posso attendermi mettendo in stake $QI?**&#x20;
 
 Ogni settimana è diversa dato che i premi dipendono da quanto eQI c'è e da quante entrate ha raccolto il protocollo quella settimana. Puoi ottenere alcune stime sull' APY sulla pagina boost, le statistiche boost e gli aggiornamenti settimanali in cui condividiamo i ricavi passati.
 
-* **Posso aggiungere più QI al mio staking attuale o farlo durare più a lungo?** 
+* **Posso aggiungere più QI al mio staking attuale o farlo durare più a lungo?**&#x20;
 
 Sì, puoi fare entrambe le cose senza influenzare il tuo attuale staking. Basta selezionare l'importo, il tempo da aggiungere, fare clic su aumenta e confermare.
 
-* **Posso bloccare i miei QI per periodi di tempo diversi?? **
+* **Posso bloccare i miei QI per periodi di tempo diversi??**&#x20;
 
 Attualmente non è possibile all'interno dello stesso account. Tuttavia, puoi farlo rapidamente aggiungendo un nuovo account al tuo portafoglio. In questo modo puoi bloccare a lungo con quello principale e per periodi più brevi con un indirizzo secondario.
 
-* **Cosa succederà quando scadrà il periodo di stake?** 
+* **Cosa succederà quando scadrà il periodo di stake?**&#x20;
 
 Dovrai cliccare su withdraw e riceverai nel tuo portafoglio lo stesso importo che hai bloccato inizialmente. Ma ho bloccato per 4 anni e vedo che ho 4 volte più eQI di QI bloccati. È normale. L' eQI diminuirà gradualmente con il passare del tempo e alla fine sarà uguale al tuo QI iniziale. Nel frattempo godrai di un aumento del tuo potere di voto e dei premi settimanali.
 

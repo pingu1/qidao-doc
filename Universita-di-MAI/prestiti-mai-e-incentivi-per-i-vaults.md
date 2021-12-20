@@ -72,7 +72,7 @@ Quando prendi in prestito MAI, può succedere che l'importo massimo di MAI che p
 
 ### Capire il rapporto Collaterale - Debito
 
-Il CDR o **C**ollateral to **D**ebt **R**atio è il rapporto tra il valore degli assets depositati nel Vault rispetto all'importo di MAI che hai preso in prestito. 
+Il CDR o **C**ollateral to **D**ebt **R**atio è il rapporto tra il valore degli assets depositati nel Vault rispetto all'importo di MAI che hai preso in prestito.&#x20;
 
 Ad esempio, se hai depositato $200 di WETH per prendere in prestito $100 di MAI, il tuo CDR sarebbe
 
@@ -93,15 +93,15 @@ Quando prendi in prestito MAI a fronte di un determinato collaterale, riceverai 
 * evitare di essere liquidati
 * contribuire alla salute dell'intera piattaforma Mai Finance assicurando che il volume MAI in circolazione sia adeguatamente supportato
 
-Il CDR "sano", come definito dal team di Mai Finance, è compreso tra il 25% e il 270% oltre al valore CDR minimo. Come nota a margine, puoi anche controllare le nostre guide strategiche per vedere come puoi essere più conservativo/aggressivo nell'operare in altri progetti o [ripagare il tuo debito](../tutorial-di-polygon/come-far-fruttare-i-tuoi-token-su-aave.md#esempio-con-numeri) facendo rendere il tuo prestito.
+Il CDR "sano", come definito dal team di Mai Finance, è compreso tra il 25% e il 270% oltre al valore CDR minimo. Come nota a margine, puoi anche controllare le nostre guide strategiche per vedere come puoi essere più conservativo/aggressivo nell'operare in altri progetti o [ripagare il tuo debito](../tutorial/polygon/come-far-fruttare-i-tuoi-token-su-aave.md#esempio-con-numeri) facendo rendere il tuo prestito.
 
 ## Incentivi per i Vaults
 
 ### Capire gli incentivi per i Vaults
 
-Nel settembre 2021, Mai Finance ha introdotto gli incentivi per i Vaults. Si tratta di una ricompensa assegnata dalla piattaforma Mai Finance a chiunque prenda in prestito MAI e partecipi alla crescita della piattaforma. 
+Nel settembre 2021, Mai Finance ha introdotto gli incentivi per i Vaults. Si tratta di una ricompensa assegnata dalla piattaforma Mai Finance a chiunque prenda in prestito MAI e partecipi alla crescita della piattaforma.&#x20;
 
-Ogni tipo di Vault (tra i 10 disponibili) riceve 0,05 Qi per blocco, che viene poi distribuito tra tutti gli utenti che hanno un buon rapporto Collateral to Debt. L'APR del Vault è definito dall'importo corrente di MAI preso in prestito. 
+Ogni tipo di Vault (tra i 10 disponibili) riceve 0,05 Qi per blocco, che viene poi distribuito tra tutti gli utenti che hanno un buon rapporto Collateral to Debt. L'APR del Vault è definito dall'importo corrente di MAI preso in prestito.&#x20;
 
 Ad esempio, Ben e Kila sono 2 amici che hanno depositato i loro ETH nei Vault WETH su Mai Finance.
 
@@ -188,7 +188,7 @@ In questo momento a tutti i tipi di Vaults sono state assegnate ricompense Qi
 
     Per gli incentivi al prestito dei Vault, devi restare tra il 25% e il 270% sopra al rapporto di liquidazione per essere idoneo a ricevere le ricompense in token QI. Questo significa:
 * _Matic_ - Rapporto di liquidazione minimo 150% - Idoneo agli incentivi con rapporto tra il 175% e 420%
-* _Tokens_: - Rapporto di liquidazione minimo 130% - Idoneo agli incentivi con rapporto tra il 155% e 400% 
+* _Tokens_: - Rapporto di liquidazione minimo 130% - Idoneo agli incentivi con rapporto tra il 155% e 400%&#x20;
 * _CamTokens_: - Rapporto di liquidazione minimo 135% - Idoneo agli incentivi con rapporto tra i 160% e 405%
 *   **Come posso vedere se il mio Vault sta guadagnando ricompense?**
 

@@ -10,7 +10,7 @@ description: >-
 
 A Settembre 2021, Mai Finance ha introdotto i premi dei Vaults al fine di promuovere la propria attività di prestito e consentire alle persone di utilizzare i propri token per prendere in prestito MAI. Non si tratta solo di prendere un prestito a interesse 0% con una piccola commissione di rimborso, ora le persone possono anche essere pagate per prendere in prestito denaro. Questa guida proporrà una strategia basata sul farming di stable coin utilizzando Augury Finance farm di base per i token che andranno depositati nel Vault di Mai Finance, generando ricompense sui prestiti elevate e MAI aggiuntivi che verranno poi reinvestiti nella farm.
 
-![](<.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (29).png>)
 
 ## Applicazione e presentazione dei pools
 
@@ -20,7 +20,7 @@ Augury Finance è un aggregatore di rendimenti che non si concentra sulla compos
 
 Ad esempio, puoi farmare la coppia DFYN-WETH su Augury
 
-![Esempio di mining pool DFYN-WETH su Augury Finance](<.gitbook/assets/image (30).png>)
+![Esempio di mining pool DFYN-WETH su Augury Finance](<../../.gitbook/assets/image (30).png>)
 
 Questo Infusion utilizza DinoSwap come farm di base e un token LP che si può ottenere su DFYN. Con un APR del 123,43%, gli utenti che depositano liquidità in questo pool verranno ricompensati con:
 
@@ -38,7 +38,7 @@ Augury Finance utilizza 3 diversi livelli di "Infusion" che hanno commissioni di
 
 Nella nostra strategia, utilizzeremo la farm "tier2" USDT-UST che ricompensa gli utenti con un mix di WETH/WBTC/LINK/WMATIC/USDC, dato che Mai Finance propone 4 Vault per 4 dei 5 token che otterremo come ricompensa. Per massimizzare i nostri profitti, inseriremo AAVE tra le ricompense di Augury e i Vaults su Mai Finance poiché 3 dei 5 token che raccoglieremo possono essere depositati su AAVE.
 
-![Farm di stable coin USDT-UST per la nostra strategia](<.gitbook/assets/image (31).png>)
+![Farm di stable coin USDT-UST per la nostra strategia](<../../.gitbook/assets/image (31).png>)
 
 ### Curve
 
@@ -48,15 +48,15 @@ Una delle cose più interessanti da notare su Curve e che sui suoi pool non è n
 
 Utilizzeremo il pool "atricrypto3" che accetta qualsiasi combinazione di WBTC/WETH/USDC/USDT/DAI e aggiungeremo a questo pool l'USDC che verrà generato dal pool su Augury.
 
-![Dettaglio del pool atricrypto3 su Curve al Settembre 2021](<.gitbook/assets/image (32).png>)
+![Dettaglio del pool atricrypto3 su Curve al Settembre 2021](<../../.gitbook/assets/image (32).png>)
 
 ### AAVE
 
-Come accennato nel paragrafo su Augury, AAVE viene utilizzato per aggiungere una piccola ricompensa ai token farmati ​​su Augury prima di utilizzarli su Mai Finance. Invece di mettere i nostri WBTC, WETH e WMATIC direttamente su Mai Finance, depositeremo questi token su AAVE e utilizzeremo lo strumento di rendimento di Mai Finance per reinvestire automaticamente le ricompense di AAVE nei pool amToken e utilizzeremo il camToken come garanzia nei Vaults . 
+Come accennato nel paragrafo su Augury, AAVE viene utilizzato per aggiungere una piccola ricompensa ai token farmati ​​su Augury prima di utilizzarli su Mai Finance. Invece di mettere i nostri WBTC, WETH e WMATIC direttamente su Mai Finance, depositeremo questi token su AAVE e utilizzeremo lo strumento di rendimento di Mai Finance per reinvestire automaticamente le ricompense di AAVE nei pool amToken e utilizzeremo il camToken come garanzia nei Vaults .&#x20;
 
-Puoi ottenere maggiori dettagli su questa parte leggendo il tutorial [come far fruttare i tuoi token su AAVE](tutorial-di-polygon/come-far-fruttare-i-tuoi-token-su-aave.md).
+Puoi ottenere maggiori dettagli su questa parte leggendo il tutorial [come far fruttare i tuoi token su AAVE](come-far-fruttare-i-tuoi-token-su-aave.md).
 
-![Ricompense per i depositi su AAVE al Settembre 2021](<.gitbook/assets/image (33).png>)
+![Ricompense per i depositi su AAVE al Settembre 2021](<../../.gitbook/assets/image (33).png>)
 
 ### Balancer
 
@@ -64,11 +64,11 @@ Balancer è un altro progetto di punta come Curve. Potrai depositare determinati
 
 Per la nostra strategia, utilizzeremo il pool WETH/BAL/Qi/MAI/USDC. Questo pool accetterà il token Qi che verrà raccolto dai Vaults su Mai Finance e ci ricompenserà con ulteriori Qi e token BAL che potremo depositare su Mai Finance nel Vault BAL, permettendoci di coniare più MAI e aumentare la nostra posizione nel farming su Augry.
 
-![Pool di 5 token di Balancer al Settembre 2021](<.gitbook/assets/image (34).png>)
+![Pool di 5 token di Balancer al Settembre 2021](<../../.gitbook/assets/image (34).png>)
 
 ## Avvio del sistema
 
-![](<.gitbook/assets/image (35).png>)
+![](<../../.gitbook/assets/image (35).png>)
 
 Quella che segue è una simulazione realizzata con un investimento iniziale di $1.000 di ETH che depositati nel Vault camWETH per prendere in prestito $500 di MAI, convertiti in $500 di USDT-UST. Questa simulazione presuppone le seguenti ricompense per le diverse piattaforme:
 
@@ -86,7 +86,7 @@ Quella che segue è una simulazione realizzata con un investimento iniziale di $
   * 116.71% per CRV
   * 62.38% per BAL
 
-Questi APR sono tutti soggetti a modifiche e non è garantito che resteranno tali per un anno intero, tuttavia li prenderemo così come sono per questa simulazione in modo da avere un'idea del possibile APR complessivo del sistema. Al fine di "semplificare" ulteriormente la simulazione, non terremo conto delle variazioni di prezzo, né delle commissioni di transazione. 
+Questi APR sono tutti soggetti a modifiche e non è garantito che resteranno tali per un anno intero, tuttavia li prenderemo così come sono per questa simulazione in modo da avere un'idea del possibile APR complessivo del sistema. Al fine di "semplificare" ulteriormente la simulazione, non terremo conto delle variazioni di prezzo, né delle commissioni di transazione.&#x20;
 
 Da notare inoltre che questa simulazione calcola le ricompese dei Vaults su Mai Finance e quelle di Balancer come se fossero reinvestite giornalmente anziché settimanalmente ma in realtà le piattaforme le distribuiscono settimanalmente direttamente al portafoglio degli utenti. Infine, per il bene di questa simulazione, assumeremo che il CDR (**C**ollateral to **D**ebt **R**atio) sia sempre del 200%, il che significa che stiamo prendendo in prestito solo la metà di ciò che abbiamo depositato, per continuare ad ottenere le ricompene ma prevenire facili liquidazioni.
 
@@ -130,7 +130,7 @@ A questo punto, il ciclo è innescato e le ricompense si muovono in modo tale ch
 
 ## Risultati del Farming
 
-###  Routine quotidiana
+### &#x20;Routine quotidiana
 
 La routine quotidiana si compone delle seguenti transazioni:
 
@@ -202,7 +202,7 @@ Il debito totale è in realtà l'intera posizione USDT-UST, quindi $553,24 e la 
 
 Ottenere un APY del 28% su stable coin non è niente male ma come si confronta con altre strategie più semplici che potremmo applicare con il valore iniziale di $1.000 di ETH? Controlliamo l'APY finale per le seguenti strategie
 
-* Leva finanziare di amWETH x8 volte tramite AAVE: per questo, utilizzeremo il flusso esatto descritto nel tutorial [AAVE](tutorial-di-polygon/come-far-fruttare-i-tuoi-token-su-aave.md).
+* Leva finanziare di amWETH x8 volte tramite AAVE: per questo, utilizzeremo il flusso esatto descritto nel tutorial [AAVE](come-far-fruttare-i-tuoi-token-su-aave.md).
 * Farming completamente di stable coin su Augury: per questa strategia, vendiamo WETH e farmiamo con $1.000 di USDT-UST sulla stessa "Infusion" su Augury
 * Farming completamente di stable coin su QuickSwap: per questa strategia, utilizzeremo il Vault camWETH per beneficiare della ricompensa del Vault e farmeremo con $500 di MAI su QuickSwap (MAI-DAI al 19,78% APY), utilizzando il Vault dQUICK su Mai Finance per prendere in prestito MAI aggiuntivi e reinvestire nel pool di farm (vault dQUICK con un APR del 55,72%)
 

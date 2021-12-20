@@ -36,7 +36,7 @@ In teoria, Moonriver viene preinstallato con MetaMask, il che significa che non 
 
 Salva le modifiche e Metamask passerà automaticamente alla rete Moonriver:
 
-![Ottimo lavoro! Ora sei su Moonriver!](../.gitbook/assets/Moonriver-setup-MM.png)
+![Ottimo lavoro! Ora sei su Moonriver!](../../.gitbook/assets/Moonriver-setup-MM.png)
 
 ## Trasferire assets da un'altra blockchain verso  Moonriver (Bridging)
 
@@ -44,7 +44,7 @@ Salva le modifiche e Metamask passerà automaticamente alla rete Moonriver:
 
 Uno dei più grandi DEX su Moonriver, SolarBeam, offre [una transazione di swap gasless](https://app.solarbeam.io/bridge/gas-swap) nel caso restiate senza. Questo presuppone che abbiate dei fondi su Moonriver, ma non possiate fare nulla perché avete 0 MOVR nel portafoglio.
 
-![Transazione gasless che vi permetterà di swappare per MOVR](../.gitbook/assets/Moonriver-faucet.png)
+![Transazione gasless che vi permetterà di swappare per MOVR](../../.gitbook/assets/Moonriver-faucet.png)
 
 Nota che solo alcuni assets sono accettati per questa transazione senza gas e $MAI non fa parte delle coin supportate.
 
@@ -52,7 +52,7 @@ Nota che solo alcuni assets sono accettati per questa transazione senza gas e $M
 
 * [Relay Chain](https://app.relaychain.com/transfer#/) è il partner ufficiale di Mai Finance se volete trasferire i $MAI a Moonriver da Polygon. Quando siete connessi a Polygon, potete semplicemente scegliere la chain di destinazione (Moonriver) e l'asset che volete inviare ($MAI o $miMATIC) con l'importo corretto e fare clic sul pulsante Transfer. Attenzione alle spese di trasferimento.
 
-![Trasferimento di $MAI da Polygon a Moonriver usando Relay Chain](../.gitbook/assets/Moonriver-relaychain.png)
+![Trasferimento di $MAI da Polygon a Moonriver usando Relay Chain](../../.gitbook/assets/Moonriver-relaychain.png)
 
 * Se avete bisogno di trasferire altri assets da un'altra rete, potete usare Relay Chain (vedi sopra), [AnySwap](https://anyswap.exchange/#/bridge) per trasferire da Eth Mainnet e ovviamente potete usare la funzione bridge di [Solarbeam](https://app.solarbeam.io/bridge).
 * Una nota speciale per [Elknet](https://app.elk.finance/#/elknet) che è in grado di fare sia da bridge che da faucet quando trasferite il token $ELK tra 2 chain. Sarete in grado di trasferire i vostri $ELK e sulla chain di arrivo avere una piccola parte dei vostri $ELK già convertiti nel token gas, $MOVR nel nostro caso.
@@ -63,7 +63,7 @@ Nel caso in cui trasferiate $MAI da Polygon a Moonriver tramite Relay Chain, ott
 
 Potete scambiare i $MAI da Relay Chain usando [il Bridge Hub di Mai Finance](https://app.mai.finance/hub) con un rapporto 1:1 e sarete in grado di utilizzare i vostri $MAI su altre piattaforme.
 
-![Utilizzo del Bridge Hub per swappare i $MAI(RelayChain) per i $MAI nativi](../.gitbook/assets/Moonriver-hub.png)
+![Utilizzo del Bridge Hub per swappare i $MAI(RelayChain) per i $MAI nativi](../../.gitbook/assets/Moonriver-hub.png)
 
 {% hint style="info" %}
 Come nota a margine, se volete trasferire $MAI da Moonriver a Polygon o altre chain, dovrete prima convertirli nuovamente nella loro versione RelayChain.
@@ -75,7 +75,7 @@ Moonriver sta ottenendo molta trazione e sempre più applicazioni si stanno spos
 
 * [Solarbeam](https://app.solarbeam.io): Questo è il principale DEX e AMM su Moonriver. Sarete in grado di scambiare i vostri assets, partecipare al liquidity mining fornendo coppie LP (**L**iquidity **P**roviding) nelle farm o mettere in stake il token nativo della piattaforma. Solarbeam è anche uno dei primi partner di Mai Finance su Moonriver e potrete farmare la coppia $MAI-$MOVR. Troverete anche un pool $MAI-$USDC che non riceve ricompense ma potrebbe ricevere commissioni di scambio.
 
-![LP pools che includono $MAI su Solarbeam a Dicembre 2021](../.gitbook/assets/Moonriver-solarbeam.png)
+![LP pools che includono $MAI su Solarbeam a Dicembre 2021](../../.gitbook/assets/Moonriver-solarbeam.png)
 
 Quando farmate su Solarbeam, sarete ricompensati in token $SOLAR che potrete mettere in stake in un Vault per un certo periodo di tempo di maturazione e guadagnare token $SOLAR aggiuntivi o mettere a loro volta in stake per ottenere altri token "esotici" della piattaforma.
 
@@ -92,7 +92,7 @@ La piattaforma di prestito è già disponibile su Moonriver dove potrete mettere
 * Depositate la coppia LP $ETH-$USDC su Beefy ed otterrete il token ricevuta $mooSolarETH-USDC
 * Depositate il vostro mooToken su Mai Finance nel [vault](https://app.mai.finance/vaults/create) dedicato
 
-![Vaults di Mai Finance su Moonriver a Dicembre 2021](../.gitbook/assets/Moonriver-vaults.png)
+![Vaults di Mai Finance su Moonriver a Dicembre 2021](../../.gitbook/assets/Moonriver-vaults.png)
 
 C'è anche l'opzione del vault ETH in single staking.
 

@@ -2,42 +2,33 @@
 
 * [La guida Non Ufficiale a Mai Finance](README.md)
 
-## Tutorial di polygon
+## Tutorial
 
-* [Come iniziare con Polygon](tutorial-di-polygon/come-iniziare-con-polygon.md)
-* [Come far fruttare i tuoi token su Aave](tutorial-di-polygon/come-far-fruttare-i-tuoi-token-su-aave.md)
-* [Strategia camDAI per principianti](tutorial-di-polygon/camdai-beginner-strategy.md)
-* [Farmare usando solo stable coin](tutorial-di-polygon/farmare-usando-stable-coin.md)
-* [Cosa fare con Mai su Polygon](tutorial-di-polygon/what-to-do-with-mai-on-polygon.md)
-* [Cosa fare con Qi su Polygon](cosa-fare-con-qi-su-polygon.md)
-* [Impilare le dApp come mattoncini Lego](impilare-le-dapp-come-mattoncini-lego.md)
-* [Farmare o mettere in Stake? O entrambe le cose?](farmare-o-mettere-in-stake-o-entrambe.md)
-* [Come combinare Farming e ricompense dei prestiti](how-to-combine-farming-and-borrowing-rewards.md)
-* [Forks di OHM su Polygon: l'esempio di KLIMA](tutorial-di-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
-* [Staking singolo di MAI su Ethalend](tutorial-di-polygon/ethalend-single-staking.md)
-
-## Tutorial di Avalanche
-
-* [Come iniziare con Avalanche](tutorial-di-avalanche/how-to-get-started-on-avalanche.md)
-
-## Tutorial di Fantom
-
-* [Come iniziare con Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
-* [Come far fruttare i tuoi token su Fantom](fantom-tutorials/leverage-your-crypto-on-fantom.md)
-* [Cosa fare con MAI su Fantom](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
-
-## Tutorial di Moonriver
-
-* [Come iniziare con Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
-
-## Tutorial di Cronos
-
-* [How to get started on Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
-* [Farming Legos with CroDex](cronos-tutorials/farming-legos-with-crodex.md)
-
-## Tutorial di Harmony
-
-* [How to get started on Harmony](harmony-tutorials/how-to-get-started-on-harmony.md)
+* [Polygon](tutorial/polygon/README.md)
+  * [Come iniziare con Polygon](tutorial/polygon/come-iniziare-con-polygon.md)
+  * [Come far fruttare i tuoi token su Aave](tutorial/polygon/come-far-fruttare-i-tuoi-token-su-aave.md)
+  * [Strategia camDAI per principianti](tutorial/polygon/camdai-beginner-strategy.md)
+  * [Farmare usando solo stable coin](tutorial/polygon/farmare-usando-stable-coin.md)
+  * [Cosa fare con Mai su Polygon](tutorial/polygon/what-to-do-with-mai-on-polygon.md)
+  * [Cosa fare con Qi su Polygon](tutorial/polygon/cosa-fare-con-qi-su-polygon.md)
+  * [Impilare le dApp come mattoncini Lego](tutorial/polygon/impilare-le-dapp-come-mattoncini-lego.md)
+  * [Farmare o mettere in Stake? O entrambe le cose?](tutorial/polygon/farmare-o-mettere-in-stake-o-entrambe.md)
+  * [Come combinare Farming e ricompense dei prestiti](tutorial/polygon/how-to-combine-farming-and-borrowing-rewards.md)
+  * [Forks di OHM su Polygon: l'esempio di KLIMA](tutorial/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
+  * [Staking singolo di MAI su Ethalend](tutorial/polygon/ethalend-single-staking.md)
+* [Avalanche](tutorial/avalanche/README.md)
+  * [Come iniziare con Avalanche](tutorial/avalanche/how-to-get-started-on-avalanche.md)
+* [Fantom](tutorial/fantom/README.md)
+  * [Come iniziare con Fantom](tutorial/fantom/how-to-get-started-on-fantom.md)
+  * [Come far fruttare i tuoi token su Fantom](tutorial/fantom/leverage-your-crypto-on-fantom.md)
+  * [Cosa fare con MAI su Fantom](tutorial/fantom/what-to-do-with-mai-on-fantom.md)
+* [Moonriver](tutorial/moonriver/README.md)
+  * [Come iniziare con Moonriver](tutorial/moonriver/how-to-get-started-on-moonriver.md)
+* [Cronos](tutorial/cronos/README.md)
+  * [How to get started on Cronos](tutorial/cronos/how-to-get-started-on-cronos.md)
+  * [Farming Legos with CroDex](tutorial/cronos/farming-legos-with-crodex.md)
+* [Harmony](tutorial/harmony/README.md)
+  * [How to get started on Harmony](tutorial/harmony/how-to-get-started-on-harmony.md)
 
 ## Università di MAI
 

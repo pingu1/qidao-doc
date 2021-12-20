@@ -15,7 +15,7 @@ In questo articolo cercheremo di presentare una strategia di investimento basata
 
 ## Capire il concetto di leva
 
-![Storia di un cercatore d'oro sfortunato](../.gitbook/assets/canDAI-farwest.png)
+![Storia di un cercatore d'oro sfortunato](../../.gitbook/assets/canDAI-farwest.png)
 
 Siamo nel Far West, durante la grande corsa all'oro. Le banche vogliono comprare oro per poter prestare denaro alle persone e ottenere interessi su questi prestiti e i minatori vogliono arricchirsi vendendo il loro oro alle banche.
 
@@ -37,7 +37,7 @@ Ciò che abbiamo visto in questo esempio viene definito in gergo leva. Ora immag
 
 [AAVE](https://app.aave.com) è una piattaforma di deposito e prestito in cui è possibile depositare i propri assets. Depositando su AAVE, i tuoi token depositati guadagneranno rendimento. Per la nostra strategia, depositeremo $DAI, una stable coin (ancorata al dollaro USA). Su AAVE, $100 di $DAI genereranno potenzialmente tra il 4% e il 10% di rendimento nell'arco di 1 anno.
 
-![Mercati AAVE disponibili su Polygon ad Ottobre 2021](../.gitbook/assets/canDAI-aave.png)
+![Mercati AAVE disponibili su Polygon ad Ottobre 2021](../../.gitbook/assets/canDAI-aave.png)
 
 Quando depositi i tuoi assets su AAVE, riceverai un "certificato" di deposito sotto forma di token. Nel nostro esempio, dato che stiamo depositando $DAI, otterremo il token amDAI nel nostro portafoglio (**a**ave **m**arket DAI). Devi assolutamente conservare questo token perché ti servirà per ritirare i tuoi $DAI da AAVE. Questa è la banca che accetterà il tuo oro nel nostro esempio del Far West.
 
@@ -47,9 +47,9 @@ Quando depositi i tuoi assets su AAVE, riceverai un "certificato" di deposito so
 
 Mai finance accetta la tua ricevuta di deposito amDAI (AAVE) all'interno del suo [strumento di rendimento](https://app.mai.finance/yield) (sezione Yield). Lo strumento di rendimento è uno strumento intermedio tra AAVE e il Vault su Mai Finance. Come puoi vedere nello screenshot AAVE, il deposito $DAI ti farà guadagnare l'8,75% in $DAI (auto reinvestito), ma anche il 2,01% di ricompensa in $MATIC. Lo strumento di rendimento su Mai Finance raccoglierà questa ricompensa $MATIC e la scambierà con altri $DAI che verranno aggiunti al tuo deposito $DAI. L'APY (Annual Percentage Yield) sul sito Mai Finance mostra quindi gli interessi aggregati di AAVE.
 
-![Strumenti di rendimento su Mai Finance](../.gitbook/assets/camDAI-yield.png)
+![Strumenti di rendimento su Mai Finance](../../.gitbook/assets/camDAI-yield.png)
 
-Una volta depositato il tuo amDAI nello strumento di rendimento, otterrai il token camDAI nel tuo portafoglio (amDAI reinvestito automaticamente). Questa è una ricevuta che indica la tua quota del pool amDAI nello strumento di rendimento. Come nota a margine, dato che camDAI è una rappresentazione della tua quota del pool amDAI, il rapporto tra amDAI e camDAI non è 1:1. Leggi [questo articolo](leverage-aave-tokens.md#amtokens-vs-camtoken) per ulteriori dettagli.
+Una volta depositato il tuo amDAI nello strumento di rendimento, otterrai il token camDAI nel tuo portafoglio (amDAI reinvestito automaticamente). Questa è una ricevuta che indica la tua quota del pool amDAI nello strumento di rendimento. Come nota a margine, dato che camDAI è una rappresentazione della tua quota del pool amDAI, il rapporto tra amDAI e camDAI non è 1:1. Leggi [questo articolo](../../tutorial-di-polygon/leverage-aave-tokens.md#amtokens-vs-camtoken) per ulteriori dettagli.
 
 Ora puoi [depositare i tuoi tokens camDAI](https://app.mai.finance/vaults)  in un Vault su Mai Finance e sarai quindi in grado di prendere in prestito alcuni $MAI (una stable coin ancorata a $ 1) a fronte della tua garanzia (collaterale). Nel nostro esempio sul Far West, questa sarebbe una seconda banca che ti consente di prendere un prestito in contanti in base alla quantità di oro che hai depositato nella prima banca. Questa seconda banca accetta la ricevuta della prima banca come garanzia nel caso in cui non sia possibile rimborsare il prestito.
 
@@ -57,7 +57,7 @@ Ora puoi [depositare i tuoi tokens camDAI](https://app.mai.finance/vaults)  in u
 
 [Zapper](https://zapper.fi/dashboard) è un coltellino svizzero della DeFi su Polygon. Questa piattaforma ti consentirà di farmare in pool di liquidità, depositare i tuoi assets su AAVE direttamente dalla loro piattaforma, controllare i tuoi investimenti attraverso una dashboard e inoltre di scambiare alcune coin con altre coin. Questa è l'ultima funzionalità che utilizzeremo per scambiare la stable coin $MAI che abbiamo appena preso in prestito per ulteriori $DAI.
 
-![Swap di MAI per DAI](../.gitbook/assets/camDAI-zapper.png)
+![Swap di MAI per DAI](../../.gitbook/assets/camDAI-zapper.png)
 
 Nel nostro esempio del Far West, Zapper è il minatore d'oro che accetta il tuo denaro in cambio dell'oro.
 
@@ -73,7 +73,7 @@ Per la nostra strategia, utilizzeremo Balancer per esporre i nostri investimenti
 
 Anche se abbiamo spiegato cos'è AAVE, la nostra strategia utilizzerà una funzionalità di Mai Finance per automatizzare il deposito di $DAI su AAVE, il deposito amDAI nello strumento di rendimento e il deposito camDAI nel Vault camDAI.
 
-![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
+![](../../.gitbook/assets/camDAI-zapDAI.png) ![](../../.gitbook/assets/camDAI-zapdeposit.png)
 
 Il pulsante `Zap in using DAI` aprirà un popup che ti consentirà di depositare i $DAI nel Vault e contemporaneamente gestirà il tuo deposito su AAVE. Questo fa risparmiare un sacco di tempo e un po' di commissioni di transazione.
 
@@ -135,7 +135,7 @@ Se consideriamo che l'investimento iniziale era di soli $100, questo è un APY e
 
 Per ottenere una piccola esposizione ad assets ad alta volatilità, puoi utilizzare lo stesso ciclo di cui sopra ma sfruttare solo il 90% dei $MAI presi in prestito e utilizzare il 10% per acquistare qualcos'altro. In questo esempio utilizzeremo il 10% per acquistare $Qi (il token nativo di Mai Finance) e utilizzeremo il pool Qi-BAL su Balancer che al momento offre un APR (**A**nnual **P**ercentage **R**evenue) del 107.12%.
 
-![Pool Qi-BAL ad Ottobre 2021](../.gitbook/assets/camDAI-balancer.png)
+![Pool Qi-BAL ad Ottobre 2021](../../.gitbook/assets/camDAI-balancer.png)
 
 Dato che stiamo reinvestendo meno $DAI nel Vault camDAI, faremo anche meno cicli. L'evoluzione sarà simile a questa:
 
