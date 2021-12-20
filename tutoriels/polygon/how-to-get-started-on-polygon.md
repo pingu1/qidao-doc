@@ -35,7 +35,7 @@ Une fois l'extension téléchargée et installée dans votre navigateur, vous de
 
 Lorsque vous avez terminé de configurer votre compte, vous devriez voir ceci dans votre navigateur:
 
-![Interface de Metamask](<../.gitbook/assets/image (18).png>)
+![Interface de Metamask](<../../.gitbook/assets/image (18).png>)
 
 ### Configurez l'accès à Polygon
 
@@ -43,7 +43,7 @@ Comme vous pouvez le voir dans la capture d'écran ci-dessus, Metamask vous cré
 
 Pour configurer l'accès à Polygon, commencez par cliquer sur la bulle colorée représentant votre compte, cliquez sur Settings, puis Networks afin d'accéder à la liste des réseaux pré-configurés. Cliquez sur "Add Network" et renseignez les champs comme suit:
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 Une fois le réseau configuré et sauvegardé, vous êtes pratiquement prêt à utiliser Metamask sur Polygon, il ne vous reste plus qu'à changer de réseau via le menu déroulant, et vous pourrez passer à l'étape suivante.
 
@@ -53,7 +53,7 @@ Maintenant que votre navigateur est configuré pour naviguer sur la chaîne Poly
 
 Afin de pouvoir réaliser vos premières transactions, vous pourrez utiliser [cette page](https://matic.supply) qui enverra vos premiers MATICs (ou fractions de MATIC) directement dans votre portefeuille.Ces pages sont appelées des faucets (traduit littéralement par _Lavabo_), et sont des petites réserves de MATIC permettant aux nouveaux venus de commencer à utiliser Polygon. Il vous faudra connecter votre portefeuille au faucet, puis compléter le captcha afin de recevoir 0,002 MATIC (\~0,00223$), ce qui vous permettra d'effectuer quelques transactions sur Polygon.
 
-![Getting FREE MATIC](<../.gitbook/assets/image (23).png>)
+![Getting FREE MATIC](<../../.gitbook/assets/image (23).png>)
 
 Il se peut que la page ne fonctionne pas correctement lors de certaines périodes de forte utilisation du réseau, ou lorsque de nombreux utilisateurs (y compris des robots) tentent de retirer des MATIC sur cette page. Il vous suffit alors d'attendre un peu et d'essayer à nouveau un peu plus tard. Il existe également d'autres faucets que vous pourrez utiliser (incluant [celui-ci](https://macncheese.finance/matic-polygon-mainnet-faucet.php)). Veuillez cependant effectuer vos propres recherches avant de vous connecter à n'importe quelle application. Ce guide ne vous présente que 2 solutions vérifiées, faites donc attention si vous souhaitez utiliser une autre page non-listée dans ce guide.
 
@@ -65,11 +65,11 @@ Les faucets ne sont pas faits pour être vidés de leur contenu, ils sont là af
 
 Avec votre portefeuille configuré et vos premiers MATIC, vous voici prêt à utiliser toutes les applications et jetons que Polygon vous propose. Vous pourrez par exemple ajouter les tokens que vous allez utiliser fréquemment an ajoutant l'adresse électronique permettant de les identifier. Pour cela, vous pouvez utiliser [PolygonScan](https://polygonscan.com). Veuillez simplement entrer le nom de la crypto-monnaie que vous souhaitez ajouter à Metamask afin d'obtenir les informations qui lui sont spécifiques. Par exemple, si vous cherchez QiDAO sur PolygonScan, vous obtiendrez ce résultat:
 
-![Résultat de la recherche de QiDAO sur PolygonScan](<../.gitbook/assets/image (24).png>)
+![Résultat de la recherche de QiDAO sur PolygonScan](<../../.gitbook/assets/image (24).png>)
 
 Il vous suffit de copier l'adresse du contrat, puis de cliquer sur "Add token" dans Metamask pour renseigner l'adresse du jeton que vous souhaitez ajouter.
 
-![Adding Qi on Metamask](<../.gitbook/assets/image (25).png>)
+![Adding Qi on Metamask](<../../.gitbook/assets/image (25).png>)
 
 ## Comment acheter des crypto-monnaies sur Polygon
 
@@ -77,7 +77,7 @@ Seuls quelques MATIC ne vous permettront pas de faire beaucoup de transactions. 
 
 À titre d'exemple, voici comment effectuer un échange de MATIC pour des Qi sur QuickSwap:
 
-![Achat de Qi à partir de MATIC sur QuickSwap](<../.gitbook/assets/image (26).png>)
+![Achat de Qi à partir de MATIC sur QuickSwap](<../../.gitbook/assets/image (26).png>)
 
 {% hint style="info" %}
 Une autre application particulièrement intéressante pour faire des échanges est [Zapper](https://zapper.fi/es/exchange). Zapper est un optimisateur d'échange qui simulera votre échange (swap) sur plusieurs plateformes DEXes, et opèrera l'échange sur la plateforme offrant le meilleur taux de change.
@@ -87,7 +87,7 @@ Une autre application particulièrement intéressante pour faire des échanges e
 
 Il est très important de savoir comment consulter l'historique de vos transactions. C'est un peu comme consulter un relevé de carte de crédit. Sur Polygon (et d'autres chaînes), vous pourrez utiliser [DeBank](https://debank.com). DeBank va utiliser l'adresse de votre portefeuille Metamask et lister toutes les transactions liées à cette adresse qui se trouvent sur la blockchain. DeBank propose d'autres fonctionnalités intéressantes, comme la présentation de vos différents investissements sur les applications les plus populaires. Vous pourrez aussi y consulter vos collections de NFT, comparer les applications etc ... DeBank est un outil très utile, et il vous permettra de vous assurer de l'état d'une transaction, comme la récupération de certains jetons envoyés directement dans votre portefeuille.
 
-![Liste de toutes les transactions sur notre nouveau portefeuille](<../.gitbook/assets/image (27).png>)
+![Liste de toutes les transactions sur notre nouveau portefeuille](<../../.gitbook/assets/image (27).png>)
 
 {% hint style="danger" %}
 Vous pouvez noter que notre portefeuille a reçu 800 000 DxDex.io sans que n'aillons fait quoi que ce soit. Veuillez faire très attention à ces tokens parachutés dans votre portefeuille, il s'agit pour la grande majorité d'arnaque vous dirigeant vers certains sites. Si vous faites une transaction sur ces sites, vous exposez l'intégralité du contenu de votre portefeuille. Vous pourrez utiliser DeBank pour bloque l'accès à ces applications. Le mieux reste de ne pas prêter attention à ces jetons.
@@ -102,7 +102,7 @@ Ci-dessous vous pourrez trouver d'autres applications utiles qui pourront vous a
 * [AAVE](https://app.aave.com): La plus grosse plateforme de prêt/emprunt sur laquelle vous pourrez faire des gains
 * [PolygonScan](https://polygonscan.com/gastracker/): Cette page vous permet de connaître le prix moyen d'une transaction sur Polygon
 
-## Avertissement <a href="disclaimer" id="disclaimer"></a>
+## Avertissement <a href="#disclaimer" id="disclaimer"></a>
 
 Ce guide, comme tous les autres sur ce site, ne propose pas de solution miracle est n'est pas à suivre de façon aveugle, il n'est écrit que dans un but éducatif en vue de vous faciliter vos premiers pas sur Polygon.
 

@@ -17,7 +17,7 @@ Mai Finance a lancé sa plateforme de prêt sur Fantom avec de nombreux types de
 
 [Yearn Finance](https://beta.yearn.finance/#/home) est un groupe de protocoles fonctionnant sur le Mainnet Ethereum et d'autres blockchains qui permettent aux utilisateurs d'optimiser leurs gains sur les crypto-actifs grâce à des services de prêt et de trading. Sur Fantom, le produit que nous allons utiliser est le coffre-fort sur yearn finance. C'est un outil qui acceptera les dépôts de jetons seuls et vous fera gagner des rendements sur ce dépôt. Comme preuve de dépôt, vous recevrez un yvToken. Dans notre cas, nous déposerons des DAI et obtiendrons des yvDAI en échange.
 
-![coffres yearn sur le réseau Fantom](../.gitbook/assets/ftm-leverage-yv1.png)
+![coffres yearn sur le réseau Fantom](../../.gitbook/assets/ftm-leverage-yv1.png)
 
 {% hint style="info" %}
 Le site de yearn finance est toujours en mode bêta sur Fantom. L'équipe travaille toujours sur la plateforme et les APRs/APYs ne sont pas affichés. Si vous vous rendez sur l'onglet Iron Bank, qui est le protocole de prêt/emprunt sur la plateforme yearn, vous verrez que le prêt de DAI obtient un taux d'intérêt annuel de \~8%. Veuillez investir à vos propres risques.
@@ -29,7 +29,7 @@ Une fois que vous avez déposé votre DAI sur yearn finance, vous devriez avoir 
 
 Mai Finance accepte un grand nombre de jetons de rendement différents comme collatéral, y compris yvDAI. Vous pouvez maintenant déposer ce jeton et emprunter des MAI contre lui.
 
-![Deposez vos yvToken sur Mai Finance](../.gitbook/assets/ftm-leverage-yv2.png)
+![Deposez vos yvToken sur Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
 
 Le coffre yvDAI a un seuil de liquidation de 110%, ce qui signifie que vous pouvez emprunter des MAI de sorte que le rapport entre la valeur de votre collatéral et la valeur de la dette soit de 110%. Attention, 110% est en fait le ratio auquel votre coffre sera liquidé. Vous devez maintenir le ratio au-dessus de ce seuil minimum. Étant donné que le prix du DAI ne varie pas beaucoup (moins de quelques centimes à la hausse ou à la baisse), il est possible de conserver un ratio CDR (Collateral to Debt Ratio) "sûr" de 115 %, mais n'hésitez pas à conserver un ratio plus élevé.
 
@@ -51,7 +51,7 @@ $$
 
 Sur Fantom, la principale source de liquidité pour MAI est [BeethovenX](https://app.beets.fi/#/trade). C'est l'endroit principal où vous pourrez échanger vos jetons MAI contre plus de DAI pour notre stratégie.
 
-C'est la dernière étape de notre boucle. Maintenant que vous avez plus de DAI, vous pouvez les déposer dans un coffre Yearn et répéter la boucle. Ce faisant, vous augmentez le montant des actifs que vous avez dans le coffre Yearn, ce qui signifie que vous obtiendrez plus de récompenses en prêtant vos DAI sur cette plateforme. L'APY reste la même, mais comme vous avez plus d'actifs, vous obtenez plus de rendement, et si vous comparez avec votre investissement initial, c'est votre APY qui augmente. Si vous souhaitez obtenir plus d'exemples sur l'APY que vous pouvez obtenir en utilisant les boucles yvDAI, veuillez lire notre [article sur les jetons camDAI](../tutoriels-polygon/camdai-beginner-strategy.md) pour Polygon qui utilise exactement la même stratégie mais des outils différents.
+C'est la dernière étape de notre boucle. Maintenant que vous avez plus de DAI, vous pouvez les déposer dans un coffre Yearn et répéter la boucle. Ce faisant, vous augmentez le montant des actifs que vous avez dans le coffre Yearn, ce qui signifie que vous obtiendrez plus de récompenses en prêtant vos DAI sur cette plateforme. L'APY reste la même, mais comme vous avez plus d'actifs, vous obtenez plus de rendement, et si vous comparez avec votre investissement initial, c'est votre APY qui augmente. Si vous souhaitez obtenir plus d'exemples sur l'APY que vous pouvez obtenir en utilisant les boucles yvDAI, veuillez lire notre [article sur les jetons camDAI](../polygon/camdai-beginner-strategy.md) pour Polygon qui utilise exactement la même stratégie mais des outils différents.
 
 {% hint style="success" %}
 BeethovenX est en fait une opportunité fantastique de cultiver des rendements avec votre MAI emprunté. Il suffit de déposer votre MAI dans le pool MAI-DAI-USDC (APR de \~30% à partir de novembre 2021) si vous ne pouvez pas obtenir une meilleure APR en utilisant des boucles à effet de levier.
@@ -65,7 +65,7 @@ BeethovenX est en fait une opportunité fantastique de cultiver des rendements a
 
 Pour déposer notre DAI, nous nous rendrons sur l'application Beefy Finance et sélectionnerons Scream comme plateforme sur laquelle nous ferons du farm yields. Vous pouvez également ajouter le filtre DAI afin d'obtenir le dépôt direct de DAI.
 
-![Déposez vos DAI sur Beefy en utilisant Scream](../.gitbook/assets/ftm-leverage-beefy1.png)
+![Déposez vos DAI sur Beefy en utilisant Scream](../../.gitbook/assets/ftm-leverage-beefy1.png)
 
 Comme vous pouvez le constater, Beefy offre déjà un taux d'intérêt annuel incroyable sur les dépôts simples de DAI. Une fois que vous avez déposé vos DAI sur Beefy, vous devriez avoir une preuve de dépôt dans votre portefeuille sous la forme de jetons mooScreamDAI. Comme pour le jeton yvDAI, le jeton mooScreamDAI est un dépôt à rendement, ce qui signifie que votre actif est toujours utilisé sur Scream et composé sur Beefy, ce qui permet d'obtenir des rendements. Mais vous pourrez utiliser ce jeton sur Mai Finance pour emprunter des MAI contre eux.
 
@@ -103,7 +103,7 @@ Un plafond d'endettement représente le nombre maximum de MAI qui peuvent être 
 
 Vous pouvez à tout moment vérifier la quantité de MAI qui peut être créee sur la [page de création du coffre](https://app.mai.finance/vaults/create), mais vous remarquerez généralement qu'il n'y a plus de MAI si vous obtenez le message d'erreur suivant:
 
-![Message d'erreur affiché lorsque le plafond est atteint](../.gitbook/assets/ftm-leverage-error.png)
+![Message d'erreur affiché lorsque le plafond est atteint](../../.gitbook/assets/ftm-leverage-error.png)
 
 Ce message d'erreur apparaîtra même si votre facteur de santé est correct. Dans la plupart des cas, attendre que le plafond soit augmenté est la seule solution. Gardez un œil sur twitter ou sur Discord pour savoir quand cela se produit.
 

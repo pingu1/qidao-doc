@@ -9,7 +9,7 @@ description: >-
 
 ## Introduction
 
-Qi (\[tʃ Í] or _chee_), est le jeton natif de la plateforme Mai Finance. Vous pourrez l'utiliser pour voter lors des QIP (**Q**iDAO **I**mprovement **P**roposals), vous pourrez les bloquer pour en gagner encore plus via la redistribution des revenus du protocole, et finalement vous pourrez les utiliser pour récolter des revenus dans des fermes de rendement. Vous pourrez trouver d'excellentes informations sur comment géneérer des revenus passifs avec vos Qi sur Mai Finance dans [le guide dédié](../universite-MAI/earning-passive-income-with-qidao.md).
+Qi (\[tʃ Í] or _chee_), est le jeton natif de la plateforme Mai Finance. Vous pourrez l'utiliser pour voter lors des QIP (**Q**iDAO **I**mprovement **P**roposals), vous pourrez les bloquer pour en gagner encore plus via la redistribution des revenus du protocole, et finalement vous pourrez les utiliser pour récolter des revenus dans des fermes de rendement. Vous pourrez trouver d'excellentes informations sur comment géneérer des revenus passifs avec vos Qi sur Mai Finance dans [le guide dédié](../../universite-MAI/earning-passive-income-with-qidao.md).
 
 Ce guide, comme la plupart des tutoriels d'investissements, va mettre la lumière avant tout sur la façon de récolter des intérêts, mais cette fois-ci en utilisant vos jetons Qi. Nous verrons ainsi comment générer un grand nombre de Qi, et comment continuer à faire grossir votre investissement initial sur plusieurs plateformes sur Polygon.
 
@@ -35,7 +35,7 @@ Veuillez simplement retenir que Qi est combiné à plusieurs autres crypto monna
 * Qi-WETH sur QuickSwap et recevoir des récompenses en dQUICK
 * Qi-QUICK sur QuickSwap et recevoir des récompenses en dQUICK
 
-![Réserve de jetons LP sur QuickSwap pour la paire Qi-WETH](<../.gitbook/assets/image (19).png>)
+![Réserve de jetons LP sur QuickSwap pour la paire Qi-WETH](<../../.gitbook/assets/image (19).png>)
 
 ### Cultivez uniquement à partir de Qi
 
@@ -43,7 +43,7 @@ Vous pouvez également utiliser vos Qi en solo sur [Impermax](https://polygon.im
 
 La façon dont Impermax fonctionne est la suivante: vous allez emprunter les 2 tokens formant une paire de liquidité, les combiner en jeton LP, et cultiver des gains avec cette nouvelle paire. Dans la plupart des cas, les taux d'emprunts sont largement compensés par les récompenses récoltées, vous donnant un résultat net positif.
 
-![Position Qi-WETH augmentée sur Impermax](<../.gitbook/assets/image (10).png>)
+![Position Qi-WETH augmentée sur Impermax](<../../.gitbook/assets/image (10).png>)
 
 Vous pouvez voir ici que l'APR (**A**nnual **P**ercentage **R**evenue) final sur Impermax est de 393,88% après avoir appliqué un effet de levier 5x, et ce à partir d'un APY (**A**nnual **P**ercentage **Y**ield) sur QuickSwap de 239,68%.
 
@@ -53,7 +53,7 @@ Veuillez noter que Impermax donnes des estimations d'APRs alors que QuickSwap do
 
 Mais sur Impermax, pour pouvoir emprunter des Qi et des WETH afin d'appliquer un effet de levier sur notre position initiale, il faut bien que des utilisateurs les mettent à la disposition des emprunteurs. Il est également bon de noter que plus il y a de jetons empruntés, plus le taux d'emprunt est élevé, réduisant ainsi le rendement final, qui peut de ainsi parfois devenir négatif.
 
-![Statistiques pour les jetons Qi et WETH pour la paire Qi-WETH sur Impermax](<../.gitbook/assets/image (11).png>)
+![Statistiques pour les jetons Qi et WETH pour la paire Qi-WETH sur Impermax](<../../.gitbook/assets/image (11).png>)
 
 Dans le cas qui nous intéresse, nous allons nous concentrer sur les Qi. Vous pouvez voir dans la capture d'écran ci-dessus que le montant total proposé est de 427,21$ et que le montant total utilisé est de 321,44$, ce qui donne un taux d'utilisation globale de 75,24%. Impermax a des mécaniques internes qui calcule automatiquement l'APR d'approvisionnement (revenu que les personnes proposant leurs Qi recevront) et l'APR d'emprunt (pourcentage d'intérêt que les personnes utilisant les Qi devront payer pour leur emprunt).
 
@@ -67,11 +67,11 @@ Balancer est vraiment un outil pratiquement indispensable dans n'importe quelle 
 
 La réserve de liquidité qui nous intéresse ici est composée de Qi, WMATIC, BAL, USDC et MAI. Cette réserve offre des récompenses sous forme de jetons Qi et BAL, et vous pouvez déjà vous rendre compte qu'il vous sera possible de composer les intérêts dans cette même réserve. L'autre avantage des réserves de Balancer est que vous pourrez fournir seulement un unique jeton sans respecter le ratio de la réserve. L'algoritme gérant l'équilibre va vendre une partie des jetons déposés pour acheter ceux qu'il manque pour rétablie l'équilibre.
 
-![Details de la réserve de liquidité sur Balancer en September 2021](<../.gitbook/assets/image (12).png>)
+![Details de la réserve de liquidité sur Balancer en September 2021](<../../.gitbook/assets/image (12).png>)
 
 Il est bon de noter que les jetons BAL peuvent être également utilisés comme collatéral sur Mai Finance, ce qui veut dire que vous aurez la possibilité de les stoquer dans un coffre personnel et emprunter des MAI en échange. Si vous faites ainsi, vous serez éligible pour recevoir des Qi additionel en fonction du montant emprunté depuis votre coffre personnel BAL, et vous pourrez les ré-injecter dans la réserve sur Balancer.
 
-![Boucle fermée utilisant Mai Finance et Balancer](<../.gitbook/assets/image (13).png>)
+![Boucle fermée utilisant Mai Finance et Balancer](<../../.gitbook/assets/image (13).png>)
 
 L'APR des récompenses en Qi sur les emprunts depuis les coffres personnels BAL sur Mai Finance dictera s'il est plus intéressant de mettre le coffre dans la boucle, ou s'il est préférable de remettre les jetons BAL directement dans la réserve sur Balancer.
 
@@ -85,7 +85,7 @@ L'un des facteurs principaux qui va directement affecter le prix du Qi est la vi
 
 Il existe 2 principales sources d'émission de Qi: les récompenses pour les réserves de liquidité, et les récompenses d'emprunt.
 
-![Fermes de jetons LP sur Mai Finance em Septembre 2021](<../.gitbook/assets/image (16).png>)
+![Fermes de jetons LP sur Mai Finance em Septembre 2021](<../../.gitbook/assets/image (16).png>)
 
 Si vous cultivez des rendements sur Mai Finance, vous avez le choix entre les paires MAI/USDC et Qi/WMATIC (en Septembre 2021).
 
@@ -106,9 +106,9 @@ Les optimisateurs de rendement sont des plateformes qui vont automatiquement com
 
 Par exemple, Adamant va vous offrir de cultiver la réserve de liquidité Qi/WMATIC sur leur plateforme, avec la distribution suivante pour les récompenses:
 
-![Réserve Qi-WMATIC sur Adamant](<../.gitbook/assets/image (15).png>)
+![Réserve Qi-WMATIC sur Adamant](<../../.gitbook/assets/image (15).png>)
 
-![Détails des 179.23% APR offerts par Adamant](<../.gitbook/assets/image (14).png>)
+![Détails des 179.23% APR offerts par Adamant](<../../.gitbook/assets/image (14).png>)
 
 Vous noterez que si le rendement global est supérieur que sur Mai Finance, c'est uniquement parce qu'Adamant alloue des jetons ADDY supplémentaires aux utilisateurs. En réalité, seulement 98,45% des Qi sont redonnés aux utilisateurs contre 134,42% sur Mai Finance.
 
@@ -138,7 +138,7 @@ Maintenant, supposons que le prix de l'Ethereum monte à 2 000$. Si la réserve 
 
 De ce fait, on peut facilement se rendre compte que lorsque le prix d'un des 2 jetons de la réserve monte, l'algorithme de balance va générer une certaine demande pour l'autre jeton, ce qui naturellement fera monter son prix également. L'inverse est également vrai: si un jeton perd de la valeur, l'autre sera nécessairement vendu afin de conserver le ratio 50:50, tirant de prix vers le bas. Ceci explique aussi les fluctuations du prix du Qi comparé au prix du WETH et du MATIC (les 2 jetons principaux jumelés au Qi).
 
-![Prix du Qi (gauche) VS Prix du WMATIC (droite)](<../.gitbook/assets/image (17).png>)
+![Prix du Qi (gauche) VS Prix du WMATIC (droite)](<../../.gitbook/assets/image (17).png>)
 
 ### Manque d'utilité
 

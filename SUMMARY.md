@@ -2,42 +2,33 @@
 
 * [Le guide non-officiel d'utilisation de Mai Finance](README.md)
 
-## Tutoriels pour Polygon <a href="#tutoriels-polygon" id="tutoriels-polygon"></a>
+## Tutoriels
 
-* [Comment bien démarrer sur Polygon](tutoriels-polygon/how-to-get-started-on-polygon.md)
-* [Appliquez un effet de levier sur vos tokens AAVE](tutoriels-polygon/tirez-parti-aave-tokens.md)
-* [camDAI pour les débutants](tutoriels-polygon/camdai-beginner-strategy.md)
-* [Cultivez vos gains avec des monnaies stables](tutoriels-polygon/cultivez-vos-gains-avec-des-monnaies-stables.md)
-* [Que faire avec vos MAI sur Polygon](tutoriels-polygon/que-faire-avec-vos-mai-sur-polygon.md)
-* [Que faire de vos Qi sur Polygon](tutoriels-polygon/what-to-do-with-qi-on-polygon.md)
-* [Stack DApps like Lego bricks](tutoriels-polygon/stack-dapps-like-lego-bricks.md)
-* [Farming ou Staking? Ou les deux?](tutoriels-polygon/farming-ou-staking-ou-les-deux.md)
-* [Comment combiner les récompenses de fermes et d'emprunts](tutoriels-polygon/untitled.md)
-* [OHM forks on Polygon: The case of KLIMA](tutoriels-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
-* [MAI single-staking with Ethalend](tutoriels-polygon/ethalend-single-staking.md)
-
-## Tutoriels pour Avalanche <a href="#tutoriels-avalanche" id="tutoriels-avalanche"></a>
-
-* [Comment démarrer sur Avalanche](tutoriels-avalanche/how-to-get-started-on-avalanche.md)
-
-## Fantom tutorials
-
-* [Comment démarrer sur Fantom](fantom-tutorials/how-to-get-started-on-fantom.md)
-* [Appliquer un effet de levier à vos cryptos sur Fantom](fantom-tutorials/leverage-your-crypto-on-fantom.md)
-* [Que faire avec MAI sur Fantom](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
-
-## Tutoriels pour Moonriver
-
-* [How to get started on Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
-
-## Tutoriels pour Cronos
-
-* [How to get started on Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
-* [Farming Legos with CroDex](cronos-tutorials/farming-legos-with-crodex.md)
-
-## Tutorields pour Harmony
-
-* [How to get started on Harmony](harmony-tutorials/how-to-get-started-on-harmony.md)
+* [Polygon](tutoriels/polygon/README.md)
+  * [Comment bien démarrer sur Polygon](tutoriels/polygon/how-to-get-started-on-polygon.md)
+  * [Appliquez un effet de levier sur vos tokens AAVE](tutoriels/polygon/tirez-parti-aave-tokens.md)
+  * [camDAI pour les débutants](tutoriels/polygon/camdai-beginner-strategy.md)
+  * [Cultivez vos gains avec des monnaies stables](tutoriels/polygon/cultivez-vos-gains-avec-des-monnaies-stables.md)
+  * [Que faire avec vos MAI sur Polygon](tutoriels/polygon/que-faire-avec-vos-mai-sur-polygon.md)
+  * [Que faire de vos Qi sur Polygon](tutoriels/polygon/what-to-do-with-qi-on-polygon.md)
+  * [Stack DApps like Lego bricks](tutoriels/polygon/stack-dapps-like-lego-bricks.md)
+  * [Farming ou Staking? Ou les deux?](tutoriels/polygon/farming-ou-staking-ou-les-deux.md)
+  * [Comment combiner les récompenses de fermes et d'emprunts](tutoriels/polygon/untitled.md)
+  * [OHM forks on Polygon: The case of KLIMA](tutoriels/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
+  * [MAI single-staking with Ethalend](tutoriels/polygon/ethalend-single-staking.md)
+* [Avalanche](tutoriels/avalanche/README.md)
+  * [Comment démarrer sur Avalanche](tutoriels/avalanche/how-to-get-started-on-avalanche.md)
+* [Fantom](tutoriels/fantom/README.md)
+  * [Comment démarrer sur Fantom](tutoriels/fantom/how-to-get-started-on-fantom.md)
+  * [Appliquer un effet de levier à vos cryptos sur Fantom](tutoriels/fantom/leverage-your-crypto-on-fantom.md)
+  * [Que faire avec MAI sur Fantom](tutoriels/fantom/what-to-do-with-mai-on-fantom.md)
+* [Moonriver](tutoriels/moonriver/README.md)
+  * [How to get started on Moonriver](tutoriels/moonriver/how-to-get-started-on-moonriver.md)
+* [Cronos](tutoriels/cronos/README.md)
+  * [How to get started on Cronos](tutoriels/cronos/how-to-get-started-on-cronos.md)
+  * [Farming Legos with CroDex](tutoriels/cronos/farming-legos-with-crodex.md)
+* [Harmony](tutoriels/harmony/README.md)
+  * [How to get started on Harmony](tutoriels/harmony/how-to-get-started-on-harmony.md)
 
 ## L'Université du MAI <a href="#universite-mai" id="universite-mai"></a>
 

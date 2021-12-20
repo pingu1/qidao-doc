@@ -2,7 +2,7 @@
 description: >-
   Bien comprendre comment la monnaie stable MAI fonctionne est en réalité une
   part essentielle pour tout investisseur qui souhaite comprendre les mécaniques
-  qui gèrent Mai Finance. C'est ce que nous allons faire dans cet article.
+  qui gèrent Mai Finance. C'est ce que nous all
 ---
 
 # Qu'est-ce que le MAI et comment fonctionne-t-il
@@ -17,10 +17,10 @@ Cependant, toutes les monnaies stables ne sont pas créées et gérées de la m�
 
 Si vous étiez déjà dans la crypto au printemps 2021, vous avez peut-être entendu parler du fiasco des tokens **TITAN** et **IRON** de IRON Finance. Pour ceux qui souhaitent un bref récapitulatif, voici ce qui s'est passé. IRON Finance v1 était un projet avec 2 jetons:
 
-- Le jeton **IRON**, une monnaie stable maintenue par un algorithme
-- Le jeton natif **TITAN** propre à la plateforme IRON Finance
+* Le jeton **IRON**, une monnaie stable maintenue par un algorithme
+* Le jeton natif **TITAN** propre à la plateforme IRON Finance
 
-Le jeton IRON était une monnaie stable qui n'était pas entièrement collatéralisée par des actifs stables ou performants. Pour créer 1 IRON, il suffisait de 75% de USDC et 25% de TITAN, ce qui prouva être une excellente recette pour un désastre financier. 
+Le jeton IRON était une monnaie stable qui n'était pas entièrement collatéralisée par des actifs stables ou performants. Pour créer 1 IRON, il suffisait de 75% de USDC et 25% de TITAN, ce qui prouva être une excellente recette pour un désastre financier.
 
 En juin 2021, le jeton TITAN a atteint la valeur de 65$. À ce point, plusieurs investisseurs ont décidé de revendre leurs jetons TITAN afin d'encaisser les bénéfices. Comme toute crypto monnaie, le prix du TITAN suit le marché de l'offre et de la demande. Si l'offre se met à exploser, le prix s'effondre. Et donc, alors que l'offre de jetons TITAN gonflait, le prix s'est mis à chuter, entraînant un effet de panique dans lequel tous les détenteurs de TITAN se sont mis à vendre leurs jetons afin de limiter leurs pertes. Le jeton IRON quant à lui s'est vu priver de 25% de son support et a donc perdu son ancrage au dollar américain.
 
@@ -57,9 +57,9 @@ L'ancre tient son nom des ancres de bateau: c'est un mécanisme qui permet au MA
 
 ![](<../.gitbook/assets/image (9).png>)
 
-Avec un prix plafond et un prix plancher, le MAI ne peut pas diverger de son prix cible. En effet, grâce à l'ancre, il est possible de faire de l'arbitrage avec très peu de risques, c'est-à-dire qu'il est possible d'acheter des MAI quand son prix est sous 0,99$, ou en vendre quand il est au dessus de 1,01$. 
+Avec un prix plafond et un prix plancher, le MAI ne peut pas diverger de son prix cible. En effet, grâce à l'ancre, il est possible de faire de l'arbitrage avec très peu de risques, c'est-à-dire qu'il est possible d'acheter des MAI quand son prix est sous 0,99$, ou en vendre quand il est au dessus de 1,01$.
 
-Mais quand est-ce que le prix peut passer sous les 0,99$ ou au dessus de 1,01$? Comme pour toute monnaie stable, les fluctuations de prix sont liées au marché: 
+Mais quand est-ce que le prix peut passer sous les 0,99$ ou au dessus de 1,01$? Comme pour toute monnaie stable, les fluctuations de prix sont liées au marché:
 
 * Si le marché est plutôt dans une période frileuse (_bearish market_): Les utilisateurs vont vendre leurs actifs les plus volatiles afin d'éviter les pertes. Les actifs plus stables, y compris les monnaies stables, seront donc achetées comme valeur refuge, créant une forte demande et tirant le prix vers le haut.
 * Si le marché est dans une forte frénésie acheteuse (_bullish market_): Les utilisateurs vont vendre leurs actifs stables pour pouvoir effectuer de forts gains sur des actifs beaucoup plus volatiles, ce qui va créer une forte offre de monnaies stables, tirant leurs prix vers le bas.
@@ -78,11 +78,10 @@ Depuis peu, les récompenses d'emprunts ont été mises en place, favorisant enc
 
 ## Avertissement
 
-Vous pourrez trouver un article expliquant le fonctionnement de MAI dans [la documentation officielle](https://docs.mai.finance/stablecoin-economics). 
+Vous pourrez trouver un article expliquant le fonctionnement de MAI dans [la documentation officielle](https://docs.mai.finance/stablecoin-economics).
 
 Bien entendu, ce guide est donné à titre purement éducatif et ne peut en aucun cas être considéré comme un conseil financier.
 
 {% hint style="info" %}
 Veuillez garder à l'esprit qu'une stratégie qui fonctionne bien à un moment donné peut parfaitement performer lamentablement (voir vous faire perdre de l'argent) dans d'autres circonstances. Restez informés, vérifiez les marchés, gardez un oeil sur vos investissements, et comme toujours, faites vos propres recherches.
 {% endhint %}
-

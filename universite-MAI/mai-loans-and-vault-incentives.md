@@ -2,16 +2,16 @@
 description: >-
   Cet article présente une explication détaillée de la façon dont vous pourrez
   utiliser Mai Finance pour emprunter à 0% tout en étant payé pour le faire, ce
-  qui transforme votre emprunt à 0% en un emprunt à taux négatif.
+  qui transforme votre emprunt à 0% en un empru
 ---
 
 # Les emprunts de MAI et leurs récompenses
 
 ## Introduction
 
-Le coeur de métier de Mai Finance est d'être une plateforme de prêts. Au lieu de vendre vos crypto monnaies pour en acheter d'autres, il vous suffit simplement de les déposer dans un coffre sur Mai Finance et emprunter de la monnaie stable. Ceci présente l'opportunité de conserver vos actifs de valeur (WBTC, WETH ...) tout en étant capable d'utiliser d'autres actifs et d'obtenir des gains de liquidité. Dans ce cas particulier, c'est l'emprunt qui génère du revenu et l'actif utilisé comme collatéral gagne de la valeur. 
+Le coeur de métier de Mai Finance est d'être une plateforme de prêts. Au lieu de vendre vos crypto monnaies pour en acheter d'autres, il vous suffit simplement de les déposer dans un coffre sur Mai Finance et emprunter de la monnaie stable. Ceci présente l'opportunité de conserver vos actifs de valeur (WBTC, WETH ...) tout en étant capable d'utiliser d'autres actifs et d'obtenir des gains de liquidité. Dans ce cas particulier, c'est l'emprunt qui génère du revenu et l'actif utilisé comme collatéral gagne de la valeur.
 
-Un des autres gros avantages de Mai Finance est qu'il n'y a pas d'échéance de remboursement. En d'autres termes, vous empruntez des MAI en fonction de votre dépôt de crypto, vous ne payez pas d'intérêts, et vous avez la possibilité de rembourser uniquement lorsque vous le souhaitez. Veuillez vous référer aux articles liés aux [remboursement de vos dettes](debt-repayment-why-and-when.md) pour plus de détails. Les seuls frais que vous aurez à payer sont des frais fixes de 0,5% du montant de votre emprunt, et ils vous seront prélevés uniquement au moment du remboursement de votre dette et payés avec une partie de votre collatéral. 
+Un des autres gros avantages de Mai Finance est qu'il n'y a pas d'échéance de remboursement. En d'autres termes, vous empruntez des MAI en fonction de votre dépôt de crypto, vous ne payez pas d'intérêts, et vous avez la possibilité de rembourser uniquement lorsque vous le souhaitez. Veuillez vous référer aux articles liés aux [remboursement de vos dettes](debt-repayment-why-and-when.md) pour plus de détails. Les seuls frais que vous aurez à payer sont des frais fixes de 0,5% du montant de votre emprunt, et ils vous seront prélevés uniquement au moment du remboursement de votre dette et payés avec une partie de votre collatéral.
 
 Par exemple, si vous déposez l'équivalent de 200$ de WETH et empruntez pour 100$ de MAI, lorsque vous rembourserez votre dette, vous devrez payer 0,50$ qui seront prélevés de votre dépôt de WETH.
 
@@ -43,7 +43,7 @@ et
 
 Les 6 premiers coffres de la liste sont reéservés à des actifs simples alors que les 4 derniers sont pour les "camTokens". Les camTokens sont des jetons qui vont composer les récompenses offertes par AAVE, et sont des représentations de votre dépôt sur AAVE. Alors que vos actifs génèrent des intérêts sur AAVE (et que ces intérêts sont composés pour augmenter ces actifs), vous pouvez tout de même emprunter des MAI en utilisant les camTokens comme collatéral.
 
-Il est bon de noter que dans la capture d'écran ci-dessus, la page de création de coffre contient quelques informations très importantes: 
+Il est bon de noter que dans la capture d'écran ci-dessus, la page de création de coffre contient quelques informations très importantes:
 
 * MAI available: c'est ce qui correspond aux MAI qui sont disponibles comparativement au plafond de sécurité d'emprunt, ou le nombre maximum de MAI qu'il reste à emprunter pour ce type de coffre.
 * Min. Coll. ratio: c'est le seuil de liquidation, ou la valeur minumal que le ratio entre la valeur de votre collatéral et la valeur de votre dette peut avoir
@@ -82,7 +82,7 @@ $$
 
 Maintenir un CDR au dessus de 100% vous permet d'avoir à tout moment plus de collatéral que de dette. C'est un point essentiel pour assurer que la valeur de la monnaie stable MAI ne s'effondre pas. On parle de monnaie stable sur-collatéralisée, et c'est l'un des fondements du MAI. Vous pourrez retrouver plus de détails dans la [documentation officielle de Mai Finance](https://docs.mai.finance/stablecoin-economics).
 
-Chaque type de coffre accepte un CDR minimum (aussi appelé seuil de liquidation). Il s'agit du taux en dessous duquel votre coffre est considéré comme étant à risque puisque le montant emprunté ne sera plus assuré par suffisament de collatéral. A partir de là, n'importe quel utilisateur pourra liquider votre coffre, c'est-à-dire rembourser une partie de votre dette et prendre en compensation une partie de votre collatéral. Une fois encore, vous trouverez toutes les informations importantes dans la documentation officielle. 
+Chaque type de coffre accepte un CDR minimum (aussi appelé seuil de liquidation). Il s'agit du taux en dessous duquel votre coffre est considéré comme étant à risque puisque le montant emprunté ne sera plus assuré par suffisament de collatéral. A partir de là, n'importe quel utilisateur pourra liquider votre coffre, c'est-à-dire rembourser une partie de votre dette et prendre en compensation une partie de votre collatéral. Une fois encore, vous trouverez toutes les informations importantes dans la documentation officielle.
 
 Lorsque vous empruntez des MAI à partir d'actifs en collatéral, vous aurez également quelques informations relatives au montant maximal de MAI que vous pourrez emprunter, ainsi que l'impact qu'aura votre emprunt sur votre CDR comme vous pouvez le voir sur la capture d'écran ci-dessous:
 
@@ -91,9 +91,9 @@ Lorsque vous empruntez des MAI à partir d'actifs en collatéral, vous aurez ég
 C'est très important de garder un oeil sur votre CDR et de conserver un ratio sain afin de
 
 * prévenir les évènements de liquidation
-* accroître la santé de l'intégralité de la plateforme Mai Finance en assurant que le volume de MAI en circulation reste correctement assurée par assez d'actifs 
+* accroître la santé de l'intégralité de la plateforme Mai Finance en assurant que le volume de MAI en circulation reste correctement assurée par assez d'actifs
 
-Un "CDR" sain, si on se base sur la définition proposée par l'équipe derrière la plateforme Mai Finance, se trouve entre 25% et 270% au dessus du seuil de liquidation. A noter que vous pouvez également vous reporter à nos autre tutoriels pour comprendre comment un [CDR aggrésif/conservateur](../tutoriels-polygon/tirez-parti-aave-tokens.md#exemples-chiffres) peut impacter votre stratégie d'investissement, ou comment [repayer votre dette](debt-repayment-how.md) en fonction de votre CDR.
+Un "CDR" sain, si on se base sur la définition proposée par l'équipe derrière la plateforme Mai Finance, se trouve entre 25% et 270% au dessus du seuil de liquidation. A noter que vous pouvez également vous reporter à nos autre tutoriels pour comprendre comment un [CDR aggrésif/conservateur](../tutoriels/polygon/tirez-parti-aave-tokens.md#exemples-chiffres) peut impacter votre stratégie d'investissement, ou comment [repayer votre dette](debt-repayment-how.md) en fonction de votre CDR.
 
 ## Les récompenses d'emprunt
 
@@ -178,43 +178,42 @@ Si vous souhaitez en apprendre plus sur la façon dont les récompenses d'emprun
 
 * **Quels coffres reçoivent des récompenses?**
 
- Pour le moment, tous les types de coffre reçoivent des récompenses sous forme de Qi
+Pour le moment, tous les types de coffre reçoivent des récompenses sous forme de Qi
 
 * **À combien s'élèvent les récompenses d'emprunt?**
 
- 0,05 Qi/bloc pour chaque type de coffre
+0,05 Qi/bloc pour chaque type de coffre
 
 * **Combien de MAI dois-je emprunter afin de me qualifier pour les récompenses?**
 
- Pour les récompenses d'emprunt, il suffit de conserver un CRD compris entre 25% et 270% au dessus du seuil de liquidation pour recevoir les récompenses en Qi. Cela correspon à:
+Pour les récompenses d'emprunt, il suffit de conserver un CRD compris entre 25% et 270% au dessus du seuil de liquidation pour recevoir les récompenses en Qi. Cela correspon à:
 
 * _MATIC_: - seuil de liquidation de 150% - CDR qualifiés entre 175% et 450%
 * _Tokens_: - seuil de liquidation de 130% - CDR qualifiés entre 155% et 400%
 * _CamTokens_: - seuil de liquidation de 135% - CDR qualifiés entre 160% et 405%
-
 * **Comment puis-je savoir si mon coffre se qualifie?**
 
- Si vous voyez une petite emoji flamme sur votre coffre dans la page listant vos coffres, c'est qu'il se qualifie pour les récompenses.
+Si vous voyez une petite emoji flamme sur votre coffre dans la page listant vos coffres, c'est qu'il se qualifie pour les récompenses.
 
 * **Combien vais-je gagner?**
 
- Votre pourcentage de récompenses correspond au ratio entre le montant de votre dette en MAI et le montant total de la dette pour le type de coffre.
+Votre pourcentage de récompenses correspond au ratio entre le montant de votre dette en MAI et le montant total de la dette pour le type de coffre.
 
 * **Combien de temps vont durer les récompenses d'emprunt?**
 
- Pour le moment, la planification des récompenses d'emprunts est pour une durée de 3 mois. La DAO peut voter d'arrêter ces récompenses avant la fin des 3 mois, ou voter pour une extension à la fin de la période.
+Pour le moment, la planification des récompenses d'emprunts est pour une durée de 3 mois. La DAO peut voter d'arrêter ces récompenses avant la fin des 3 mois, ou voter pour une extension à la fin de la période.
 
 * **Comment allons-nous recevoir les récompenses?**
 
- Les Qi seront distribués directement dans les portefeuilles des détenteurs de dette éligible.
+Les Qi seront distribués directement dans les portefeuilles des détenteurs de dette éligible.
 
 * **Comment est-ce que l'éligibilité est prise en compte?**
 
- L'éligibilité d'un coffre est calculée à chaque bloc. Vous recevrez des récompenses pour chaque bloc pendant lequel votre niveau de dette est éligible au long de la semaine.
+L'éligibilité d'un coffre est calculée à chaque bloc. Vous recevrez des récompenses pour chaque bloc pendant lequel votre niveau de dette est éligible au long de la semaine.
 
 * **Quand est-ce que la période d'éligibilité démarre-t-elle?**
 
- Le même calendrier que les récompenses de staking sera respecté. Vous pouvez vous baser sur les numéros de blocs affichés sur la page de boost.
+Le même calendrier que les récompenses de staking sera respecté. Vous pouvez vous baser sur les numéros de blocs affichés sur la page de boost.
 
 ## Avertissement
 

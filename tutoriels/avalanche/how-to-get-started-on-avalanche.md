@@ -19,7 +19,7 @@ Avant d'utiliser Avalanche, il vous faut un portefeuille. Il y a différent type
 * Portefeuille **logiciel**, comme MetaMask & le [portefeuille natif à Avalanche](https://wallet.avax.network)
 * Portefeuille **matériel**, comme [Ledger](https://support.ledger.com/hc/en-us/articles/360020765779-Avalanche-AVAX-?docs=true) ou [Trezor](https://trezor.io/coins/)
 
-Pour cet article, nous utiliserons MetaMask. Si vous ne l'avez pas installé, vous pouvez trouver des instructions [ici](../tutoriels-polygon/how-to-get-started-on-polygon.md#telechargez-metamask).
+Pour cet article, nous utiliserons MetaMask. Si vous ne l'avez pas installé, vous pouvez trouver des instructions [ici](../polygon/how-to-get-started-on-polygon.md#telechargez-metamask).
 
 ### Ajouter Avalanche à MetaMask
 
@@ -33,7 +33,7 @@ Pour utiliser le réseau Avalanche, vous devez l'ajouter à votre liste de RPC s
 
 Sauvegardez les changements, puis MetaMask passera automatiquement sur le réseau Avalanche.
 
-![Success! You're on Avalanche!](<../.gitbook/assets/image (36).png>)
+![Success! You're on Avalanche!](<../../.gitbook/assets/image (36).png>)
 
 ## Amener des fonds sur Avalanche
 
@@ -43,7 +43,7 @@ Il n'y a pas de faucet disponible sur Avalanche. Si vous avez besoin d' AVAX pou
 
 ### Ponts
 
-* [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer) offre une interface intuitive et facile à utiliser avec des frais faibles. C'est la passerelle officielle du [MAI vers Avalanche](../universite-MAI/mai-dans-le-metaverse.md#avalanche).
+* [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer) offre une interface intuitive et facile à utiliser avec des frais faibles. C'est la passerelle officielle du [MAI vers Avalanche](../../universite-MAI/mai-dans-le-metaverse.md#avalanche).
 * [Pont Avalanche Officiel](https://bridge.avax.network) - Avalanche a son propre pont qui peut être utiliser pour faire transférer des assets depuis Ethereum. Les frais de transactions sont payés avec les jetons transférer et peuvent être élevés puisque vous venez d'Ethereum.
 * [Anyswap](https://anyswap.exchange/#/bridge) permet de faire le pont entre plusieurs chaines, pour plusieurs jetons. Il y a un minimum de jetons à transferer qui varie selon le jeton, ainsi que des frais de transfert constant.
 * [Celer Bridge](https://cbridge.celer.network/#/transfer) offre des ponts vers plein de chaine avec une très bonne interface utilisateur. Les frais de transfert sont de \~3% vers Avalance.
@@ -53,7 +53,7 @@ Il n'y a pas de faucet disponible sur Avalanche. Si vous avez besoin d' AVAX pou
   * Une fois le pont complété (en général, moins de 10 minutes), vous pouvez passer votre MetaMask sur le réseau Avalanche et vous verrez vos ELK et un peu d'AVAX prêts à l'emploi. Vous pouvez maintenant échanger vos ELK directement sur le site vers n'importe quel jeton disponible sur Avalanche.
   * La même opération peut être effectuée pour retourner sur Polygon, ou n'importe quel réseau supporté.
 
-![Elknet interface](<../.gitbook/assets/image (40).png>)
+![Elknet interface](<../../.gitbook/assets/image (40).png>)
 
 ## La DeFi sur Avalanche
 
@@ -63,15 +63,15 @@ Avalanche a eu une croissance rapide dans les derniers mois ce qui mène, non se
 * [Beefy Finance](https://app.beefy.finance/#/avax) est probablement connu de la plupart des utilisateurs de la DeFi puisqu'il est disponible sur la BSC, Fantom, Harmony, Polygon et d'autres. C'est un auto-réinvestisseur, et fournis des APYs élevées pour des jetons seuls ou en paire. Il support les paires [MAI/AVAX](https://app.beefy.finance/#/avax/vault/joe-mai-wavax) et [MAI/USDC.e](https://app.beefy.finance/#/avax/vault/joe-mai-usdc.e) disponible sur Trader Joe.
 * [Benqi](https://app.benqi.fi/markets) est un protocole similaire à Aave et était le premier du genre sur Avalanche. Il supporte AVAX, DAI, LINK, USDT, USDC, WBTC et WETH en collatéraux.
 
-![BenQI interface](<../.gitbook/assets/image (37).png>)
+![BenQI interface](<../../.gitbook/assets/image (37).png>)
 
-* [TraderJoe](https://www.traderjoexyz.com/#/home) est un échange décentralisé et est devenu l'un des top projets d'Avalanche avec son interface utilisateur intuitive, et la possibilité de convertir un jeton directement en jeton de réserve de liquidité. C'est aussi un partenaire officiel avec sa [réserve MAI-USDC](../universite-MAI/mai-dans-le-metaverse.md#utilisez-vos-mai-sur-avax).
+* [TraderJoe](https://www.traderjoexyz.com/#/home) est un échange décentralisé et est devenu l'un des top projets d'Avalanche avec son interface utilisateur intuitive, et la possibilité de convertir un jeton directement en jeton de réserve de liquidité. C'est aussi un partenaire officiel avec sa [réserve MAI-USDC](../../universite-MAI/mai-dans-le-metaverse.md#utilisez-vos-mai-sur-avax).
 
-![](<../.gitbook/assets/image (39).png>)
+![](<../../.gitbook/assets/image (39).png>)
 
 * [YieldYak](https://yieldyak.com/farms) est un autre auto-réinvestisseur qui fournit des APYs de culture élevées. Ses fermes pour jetons seul fonctionne en conjonction avec BenQi pour tirer parti de revenus plus élevés et est donc considéré plus risqué.
 
-![](<../.gitbook/assets/image (38).png>)
+![](<../../.gitbook/assets/image (38).png>)
 
 ## Autres liens utiles
 

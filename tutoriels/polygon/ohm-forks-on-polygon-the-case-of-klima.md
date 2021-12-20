@@ -39,9 +39,9 @@ Why would someone pay for a token when there's a discounted version available th
 
 Since we'll be working with Klima DAO, let's compare the buying + staking VS bonding:
 
-![Klima staking reward as of November 2021](../.gitbook/assets/Klima-1.png)
+![Klima staking reward as of November 2021](../../.gitbook/assets/Klima-1.png)
 
-![Klima bonding ROI as of November 2021](../.gitbook/assets/Klima-2.png)
+![Klima bonding ROI as of November 2021](../../.gitbook/assets/Klima-2.png)
 
 If one buys directly Klima from the market and stake it for 5 days (the actual vesting period for bonding), the ROI (**R**eturn **O**n **I**nvestment) will be 8.51%. If one buys a bond instead, the maximal ROI would be 5.47% by providing BCT/KLIMA.
 
@@ -102,7 +102,7 @@ Without going deep into the [(3,3) game theory](https://en.wikipedia.org/wiki/Na
 
 ### The leverage loop using MarketXYZ and Klima
 
-![Leverage your Klima position](../.gitbook/assets/Klima-3.png)
+![Leverage your Klima position](../../.gitbook/assets/Klima-3.png)
 
 The idea is to get an initial amount of KLIMA token that you can deposit on Klima DAO. This will allow you to get very high APY (as of writing, the APY is 38,873.08%, or 601% APR or a daily gain of 1.68%) and by depositing your KLIMA token, you will get sKLIMA as a proof of deposit.
 
@@ -112,7 +112,7 @@ This sKLIMA token can be used on Market XYZ in the [Green Leverage Locker](https
 As a side note, Mai Finance partnered with Market XYZ and seeded the green locker pool with 1M MAI to guarantee low interest rates when you borrow MAI against your sKLIMA.
 {% endhint %}
 
-![Green locker on Market XYZ as of november 2021](../.gitbook/assets/Klima-Marketxyz.png)
+![Green locker on Market XYZ as of november 2021](../../.gitbook/assets/Klima-Marketxyz.png)
 
 It's not an obligation for you to borrow MAI, you can actually borrow whatever token with the lowest interest rate, but you need to keep in mind that you will have to pay fees on your loan, and the faster you repay your loan, the less fees you will pay.
 
@@ -121,7 +121,7 @@ With your loan, you will be able to buy more KLIMA tokens and repeat the loop.
 You will notice that the APY on sKLIMA will largely compensate the interests on your loan.
 
 {% hint style="warning" %}
-There's a minimum amount to borrow on Market.xyz, please check the  limit when you want to apply this strategy.
+There's a minimum amount to borrow on Market.xyz, please check the limit when you want to apply this strategy.
 {% endhint %}
 
 ### Expected results
@@ -158,14 +158,14 @@ Once again, (4,4) is related to game theory and reserve currencies, and indicate
 
 ### The investment loop using Augury and Mai Finance
 
-![Continuous investment using Augury Finance and Mai Finance](../.gitbook/assets/Klima-4.png)
+![Continuous investment using Augury Finance and Mai Finance](../../.gitbook/assets/Klima-4.png)
 
 We are still using Klima, but this time we're using an [infusion from Augury Finance](https://augury.finance/infusions) in order to automate the extraction of the value of Klima. By depositing your KLIMA tokens in the infusion, the algorithm in charge of the infusion will perform the following actions after each rebase:
 
 * 50% of the KLIMA harvested is restaked to increase your sKLIMA position
 * 50% of the KLIMA harvested is sold for USDC added to the NFTM pool on Augury, and distributed to you as NFTM tokens
 
-![Augury Infusion with 0% performance fee and 0% deposit fee](../.gitbook/assets/Klima-Augury.png)
+![Augury Infusion with 0% performance fee and 0% deposit fee](../../.gitbook/assets/Klima-Augury.png)
 
 NFTM can then either be held while it increases in value, or redeemed for its USDC value. In other words, it doesn't matter if the KLIMA token loses value after a rebase since its value is captured and stored as NFTM.
 

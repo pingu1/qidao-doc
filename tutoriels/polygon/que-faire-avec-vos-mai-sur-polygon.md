@@ -28,7 +28,7 @@ Les projets de premier plan sont des application DeFi qui ont prouvé leur solid
 
 Balancer est présent sur le réseau Ethereum, ainsi que sur Polygon où vous pourrez par exemple déposer vos fonds dans la réserve de liquidité composée des 4 monnaies stables: DAI, USDC, USDT et MAI (miMATIC). Cette réserve propose pour le moment un rendement relativement stable (**A**nnual **P**ercentage **R**ate, ou Taux de pourcentage annuel) de \~20%.
 
-![Etat de la réserve de liquidité "stable" en août 2021](<../.gitbook/assets/Screen Shot 2021-08-11 at 11.06.59 AM.png>)
+![Etat de la réserve de liquidité "stable" en août 2021](<../../.gitbook/assets/Screen Shot 2021-08-11 at 11.06.59 AM.png>)
 
 Il est bon de noter que sur Balancer, vous n'avez pas besoin de fournir les 4 monnaies stables pour pouvoir rejoindre la réserve de liquidité (Liquidity Pool). Balancer va générer un dépôt balancé composé de la meilleure combinaison à partir du dépôt que vous ferez. En d'autres termes, si vous possédez l'équivalent de 100$ de MAI, vous pouvez simplement les déposer sur Balancer et laisser l'algorithme décomposer ce dépôt correctement pour qu'il y ait 25% de chaque monnaie stable, et ce en fonction de leur prix réel au moment du dépôt. Par exemple, vos 10 MAI seront décomposés en 2.31 USDC, 2.18 DAI, 3.29 MAI et 2.22 USDT, qui pourrait correspondre à la meilleure balance au moment du dépôt.
 
@@ -36,7 +36,7 @@ Les récompenses des réserves sur Balancer sont payées avec le token BAL et so
 
 Le flot complet pourrait ressembler au suivant:
 
-![](<../.gitbook/assets/Screen Shot 2021-08-12 at 11.10.40 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-12 at 11.10.40 AM.png>)
 
 Si vous avez besoin de plus de détails sur la façon d'utiliser Mai Finance pour déposer vos crypto-monnaies et emprunter des MAI (au lieu de vendre vos cryptos pour acheter des MAI), veuillez vous référer aux autres guides sur ce site. Afin de maximiser vos gains, vous pouvez également [inclure AAVE](https://qidao-qimps.gitbook.io/mai-finance-tutorials/fr-tutorials/tirez-parti-aave-tokens) dans votre stratégie.
 
@@ -63,7 +63,7 @@ Les récompenses sur Curve sont distribuées de la façon suivante:
 * Une partie est distribuée en WMATIC que vous pouvez utiliser pour recommencer la boucle décrite ci-dessus et augmenter votre investissement dans Curve sans revendre vos gains
 * Une partie est distribuée en CRV (monnaie propre à Curve). Ces tokens peuvent également être utilisés comme collatéral sur Mai Finance pour emprunter des MAI et augmenter vos investissements
 
-![](<../.gitbook/assets/Screen Shot 2021-08-12 at 11.41.07 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-12 at 11.41.07 AM.png>)
 
 ### AAVE
 
@@ -80,7 +80,7 @@ Actuellement, si vous rejoignez la réserve MAI/USDC sur QuickSwap, vous pourrez
 * des frais de transactions
 * des tokens QUICK (natifs à QuickSwap)
 
-![Détails de la réserve MAI/USDC sur QuickSwap en Août 2021](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![Détails de la réserve MAI/USDC sur QuickSwap en Août 2021](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
 
 ## Fermes dégénérées et Agrégateurs
 
@@ -96,7 +96,7 @@ Actuellement (Août 2021), Adamant supporte quelques réserves acceptant les LP 
 * DinoSwap: les Dinos sont convertis en MAI/USDC et WMATIC
 * Mai Finance: les Qi sont convertis en MAI/USDC et WMATIC
 
-![Réserve MAI/USDC de QuickSwap accessible sur Adamant](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.51.12 PM.png>)
+![Réserve MAI/USDC de QuickSwap accessible sur Adamant](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.51.12 PM.png>)
 
 {% hint style="info" %}
 Les captures d'écran ci-dessus présentant les rendements sur QuickSwap et sur Adamant ont été prises le même jour afin d'illustrer la différence d'APY (**A**nnual **P**ercentage **Y**ield, ou pourcentage d'intérêts composés) entre les 2 plateformes.
@@ -131,7 +131,7 @@ Il existe de nombreuses autres fermes. Si vous souhaitez suivre le lancement des
 
 [Impermax](https://polygon.impermax.finance) est une plateforme permettant aux utilisateurs d'appliquer un effet de levier sur leurs investissements en utilisant plusieurs boucles de prêt/emprunt afin de maximiser les rendements. Le but est vraiment simple: en déposant une paire de liquidité et en l'utilisant comme collatéral, vous pouvez emprunter les tokens composant la paire afin de créer plus de tokens de liquidité, et recommencer la boucle.
 
-![La boucle Impermax expliquée schématiquement](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
+![La boucle Impermax expliquée schématiquement](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
 
 En utilisant des boucles de levier, les utilisateurs s'exposent a des pertes impermanentes liées aux fluctuations de prix des tokens composant la paire de liquidité, et ces pertes potentielles sont amplifiées par le nombre de boucles. Le risque de liquidation est également amplifié. Cependant, si les risques sont augmentés, les gains sont également largement impactés par l'effet de levier.
 
@@ -153,11 +153,11 @@ Notez également que ces facteurs sont d'autant plus amplifiés que vous effectu
 
 Pour simplifier, vous utilisez le rendement initial mais appliqué sur un plus gros montant investi, ce qui, rapporté à votre investissement initial, donne un rendement plus élevé.
 
-![Exemple de tableau de bord sur Impermax avec un investissement initial de 70.52$ de MAI/USDC](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.38.33 PM.png>)
+![Exemple de tableau de bord sur Impermax avec un investissement initial de 70.52$ de MAI/USDC](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.38.33 PM.png>)
 
 On voit de façon claire le montant initial investi, le montant total équivalent, le nombre de boucles, ainsi que les valeurs de liquidation. Cette position, au moment d'écrire ce tutoriel, me donnera les rendements suivants
 
-![Estimations des gains et dépenses à un moment donné](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.41.55 PM.png>)
+![Estimations des gains et dépenses à un moment donné](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.41.55 PM.png>)
 
 Le rendement est distribué sous forme de tokens IMX (natifs à Impermax) qui peuvent, au choix, être échangé pour plus de MAI/USDC (pensez à utiliser la puissance de Mai Finance et des emprunts à taux 0), ou utilisés sur Impermax afin de pourvoir de la liquidité à des paires acceptant le token IMX.
 
@@ -165,11 +165,11 @@ Le rendement est distribué sous forme de tokens IMX (natifs à Impermax) qui pe
 
 En effet, il est également possible de déposer des cryptos directement sur Impermax afin que les utilisateurs souhaitant utiliser l'effet de levier puissent les emprunter pour augmenter leurs profits. En déposant vos MAI et USDC séparément de cette façon, vous obtiendrez une partie des frais d'emprunts tout en laisser les emprunteurs prendre tous les risques de liquidation et de pertes impermanentes. Il est également bon de noter que plus le montant des emprunts est élevé (demande forte), plus les frais d'emprunts sont élevés pour un montant fixe proposé, ce qui augmente votre rendement.
 
-![Taux pour les prêts et les emprunts pour MAI sur Impermax](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.47.56 PM.png>)
+![Taux pour les prêts et les emprunts pour MAI sur Impermax](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.47.56 PM.png>)
 
 Ceci est une autre façon d'optimiser vos emprunts à taux 0% sur Mai Finance.
 
-## Avertissement <a href="disclaimer" id="disclaimer"></a>
+## Avertissement <a href="#disclaimer" id="disclaimer"></a>
 
 Tout ce tutoriel est purement éducatif. Le but est simplement de mettre en lumière les projets qui, selon moi, valent la peine d'être connus par les personnes qui évoluent dans le monde des cryptos sur Polygon. Bien entendu, je n'ai pas présenté la façon de récolter du revenu sur Mai Finance car un tutoriel lui sera dédié.
 

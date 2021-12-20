@@ -9,7 +9,7 @@ description: >-
 
 ## Quand un dessin vaut mille mots
 
-![](<../.gitbook/assets/Screen Shot 2021-08-07 at 10.29.50 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-07 at 10.29.50 AM.png>)
 
 ## Mais une bonne explication est parfois nécessaire
 
@@ -23,11 +23,11 @@ Pour cela, nous partirons d'un exemple dans lequel vous aimez vraiment la crypto
 
 Tant que vos MATIC sont dans le pot commun sur AAVE, les intérêts s'accumulent automatiquement, ce qui veut dire que votre montant de MATIC grossit avec le temps.
 
-![Sur cet exemple, j'ai déposé 0.2 MATIC sur AAVE](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.29.53 PM.png>)
+![Sur cet exemple, j'ai déposé 0.2 MATIC sur AAVE](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.29.53 PM.png>)
 
 En déposant vos tokens MATIC sur AAVE, vous recevez en échange un montant équivalent en amWMATIC (aave market wrapped MATIC). Il se peut que vous ne les trouviez pas dans votre portefeuille, mais vous les possédez bien.
 
-![I can see the 0.20 MATIC I lended on DeBank](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.31.01 PM.png>)
+![I can see the 0.20 MATIC I lended on DeBank](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.31.01 PM.png>)
 
 ### Utiliser Mai Finance pour accroître ses tokens AAVE
 
@@ -35,7 +35,7 @@ Mai Finance accepte vos tokens amWMATIC sur leur page de yield. En déposant vos
 
 La différence est que Mai Finance va combiner les gains générés par le pot commun sur AAVE avec les récompenses potentielles offertes par les programmes auxiliaires (pour un pool ETH, les MATIC offerts par Polygon sont échangés en ETH et rajoutés au pot commun). Dans notre exemple ci-dessus, AAVE offre 1.16% de rendement sur les MATIC, ainsi que 3.69% supplémentaires en récompenses payées sous forme de MATIC. Cependant, sur AAVE les récompenses ne génèrent pas de profit. En déposant vos amWMATIC sur Mai Finance, les récompenses sont récoltées régulièrement et remises dans le pot commun afin de leur appliquer le taux d'intérêt de 1.16%.
 
-![Mes 0.2 MATIC sont maintenant déposés sur Mai Finance et vont me rapporter 4.93% par an](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.45.00 PM.png>)
+![Mes 0.2 MATIC sont maintenant déposés sur Mai Finance et vont me rapporter 4.93% par an](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.45.00 PM.png>)
 
 Lorsque vous déposez vos amWMATIC sur Mai Finance, vous recevrez en échange des tokens camWMATIC. Leur valeur n'est pas exactement à ratio 1:1 car les camWMATIC représentent une part du pot commun de amWMATIC sur Mai Finance, dans lequel les intérêts et les récompenses sont accrus. Vous noterez également que lorsque vos amWMATIC sont déposés sur Mai Finance, ils sont automatiquement retirés de AAVE. Cependant, si vous retirez vos camWMATIC de la page de yield sur Mai Finance, vous pourrez retrouver vos MATIC sur AAVE.
 
@@ -59,9 +59,9 @@ Lorsque vous déposez vos camWMATIC dans votre coffre de collatéral, la valeur 
 
 Lorsque vous ouvrez la page des coffres (Vaults) et sélectionnez le coffre de camWMATIC, vous avez alors la possibilité d'y déposer vos tokens (il faudra commencer par créer un coffre si vous n'en avez pas déjà un). Gardez à l'esprit que vous aurez à conserver un ratio Dépôt/Emprunt d'au moins 155% lorsque vous allez emprunter contre vos camWMATIC.
 
-![Mes 0.2 MATIC sont maintenant utilisés comme collatéral](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.57.55 PM.png>)
+![Mes 0.2 MATIC sont maintenant utilisés comme collatéral](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.57.55 PM.png>)
 
-**Note: **sur cette page, vous pourrez voir la valeur de votre dépôt en Dollars US, et sa valeur peut fluctuer en fonction du type de collatéral, de la valeur sous-jacente du token utilisé, et des bénéfices réalisés par le pot commun de camWMATIC.
+**Note:** sur cette page, vous pourrez voir la valeur de votre dépôt en Dollars US, et sa valeur peut fluctuer en fonction du type de collatéral, de la valeur sous-jacente du token utilisé, et des bénéfices réalisés par le pot commun de camWMATIC.
 
 **Bon plan:** Lorsque je dépose des tokens pour emprunter des MAI, j'essaye toujours de n'emprunter que 50% de ce que je dépose. Dans l'idéal, j'essaye de rester au dessus de 200% de CDR. Si ma valeur de collatéral augmente (le token ne perd pas de valeur, et les intérêts s'accumulent), cette stratégie reste très peu risquée. Si jamais j'ajoute plus de collatéral à un coffre existant, je ne retire jamais plus que 50% de ce que je dépose, et n'essaye pas de redescendre le plus proche possible de 200% de CDR. Je peux par contre emprunter moins si lors de mon dépôt le CDR est passé en dessous de 200%.
 
@@ -69,7 +69,7 @@ Lorsque vous ouvrez la page des coffres (Vaults) et sélectionnez le coffre de c
 Il est de votre responsabilité de vous rendre sur la page des coffres et de vérifier que votre niveau de liquidation reste toujours aux alentours de votre objectif, et d'augmenter la valeur de votre collatéral au besoin.
 {% endhint %}
 
-![J'ai maintenant 0.10$ de MAI pour un CDR de 214.56%](<../.gitbook/assets/Screen Shot 2021-08-06 at 6.07.34 PM.png>)
+![J'ai maintenant 0.10$ de MAI pour un CDR de 214.56%](<../../.gitbook/assets/Screen Shot 2021-08-06 at 6.07.34 PM.png>)
 
 Il est maintenant tant d'utiliser notre emprunt.
 
@@ -77,7 +77,7 @@ Il est maintenant tant d'utiliser notre emprunt.
 
 Je peux maintenant me rendre sur mon DEX préféré (QuickSwap ou SushiSwap sont d'excellents exemples) et échanger mes MAI contre de nouveaux MATIC.
 
-![](<../.gitbook/assets/Screen Shot 2021-08-06 at 6.10.35 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-06 at 6.10.35 PM.png>)
 
 Après l'échange, j'ai des MATIC en plus dans mon portefeuille.
 
@@ -171,7 +171,9 @@ $$
 APY equivalent = 4.93 * 1.9921875 = 9.821484375
 $$
 
-##  Avertissement <a href="disclaimer" id="disclaimer"></a>
+\
+Avertissement <a href="#disclaimer" id="disclaimer"></a>
+--------------------------------------------------------
 
 Tout ce qui est présenté dans ce tutoriel assume que
 

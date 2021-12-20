@@ -31,7 +31,7 @@ La monnaie stable MAI est de plus en plus adoptée par tous les grands projets s
 * MAI-USDT avec 6 316 026 $
 * MAI-USDC avec 5 458 323 $
 
-Vous pourrez trouver d'autres pools sur bien d'autres projets / fermes de rendements / optimisateurs de gains. Veuillez vous référer aux différents articles de ce guide, et plus particulièrement à celui dédié à l'[Utilisation de MAI sur Polygon](../tutoriels-polygon/que-faire-avec-vos-mai-sur-polygon.md).
+Vous pourrez trouver d'autres pools sur bien d'autres projets / fermes de rendements / optimisateurs de gains. Veuillez vous référer aux différents articles de ce guide, et plus particulièrement à celui dédié à l'[Utilisation de MAI sur Polygon](../tutoriels/polygon/que-faire-avec-vos-mai-sur-polygon.md).
 
 ## Solana
 

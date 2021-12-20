@@ -26,7 +26,7 @@ L'équipe de BeethovenX ne s'est pas contentée de fork Balancer, elle a égalem
 
 Sur Fantom, vous pourrez ajouter votre MAI dans la pool `Guqin Qi V2` qui est composé de MAI (65% du pool), DAI (17,5% du pool) et USDC (17,5% du pool), et l'APR (Annual Percentage Revenue) fluctue entre 20% et 30%, payé en BEETS et les frais de swap.
 
-![Guqin Qi pool en novembre 2021](../.gitbook/assets/MAI-on-FTM.png)
+![Guqin Qi pool en novembre 2021](../../.gitbook/assets/MAI-on-FTM.png)
 
 Comme pour Balancer, la meilleure chose à propos de BeethovenX est probablement le fait que vous n'avez pas besoin de fournir le ratio exact pour le pool. L'algorithme qui maintient l'équilibre correct entre les 3 actifs prendra le dépôt que vous avez et vendra/achetera des jetons pour s'assurer que l'équilibre est maintenu. De cette façon, vous pouvez simplement déposer MAI et laisser le pool faire le reste.
 
@@ -38,7 +38,7 @@ BeethovenX est également la meilleure application si vous voulez échanger votr
 
 SpookySwap a récemment introduit une paire MAI-USDC que les gens peuvent maintenant cultiver et gagner des jetons BOO avec un TAEG moyen entre 25% et 30%.
 
-![MAI-USDC pool sur SpookySwap en novembre 2021](../.gitbook/assets/MAI-on-FTM-SpookySwap.png)
+![MAI-USDC pool sur SpookySwap en novembre 2021](../../.gitbook/assets/MAI-on-FTM-SpookySwap.png)
 
 Vous pourrez staker vos jetons BOO pour obtenir un TAEG supplémentaire de \~20%, ce qui est une excellente façon d'utiliser votre jeton de récompense. En outre, en stakant le jeton BOO, vous recevrez une preuve de dépôt sBOO qui pourra être acceptée comme  un collatéral valide sur Mai Finance plus tard. Cela créerait une belle petite boucle où les gens pourraient déposer des MAI-USDC, gagner et miser des BOO, déposer des sBOO sur Mai Finance et emprunter des MAI pour les ajouter au pool de MAI-USDC.
 
@@ -46,11 +46,11 @@ Vous pourrez staker vos jetons BOO pour obtenir un TAEG supplémentaire de \~20%
 
 Mai Finance est une plateforme de prêt et d'emprunt, et le projet principal que nous aimons tous. Afin de soutenir le peg de MAI et d'avoir plus de cas d'utilisation de MAI sur le réseau Fantom, des pools supplémentaires ont été ajoutés à la plateforme Mai Finance. Ainsi, vous pourrez déposer des jetons MAI-USDC LP précédemment créés sur BeethovenX (recherchez le pool MAI Concerto là-bas) et obtenir des récompenses en jetons Qi.
 
-![MAI-USDC pool sur Mai Finance en novembre 2021](../.gitbook/assets/MAI-on-FTM-Mai-Finance.png)
+![MAI-USDC pool sur Mai Finance en novembre 2021](../../.gitbook/assets/MAI-on-FTM-Mai-Finance.png)
 
 Le jeton Qi que vous obtiendrez en faisant du farming directement sur Mai Finance peut être utilisé dans le pool Qi-FTM qui est également présent sur Mai Finance (vous pouvez aussi créer le LP en BeethovenX) et sur lequel vous pourrez gagner encore plus de Qi. Vous pouvez également utiliser le [routeur d'AnySwap](https://anyswap.exchange/#/router) pour envoyer vos Qi récoltés sur Fantom vers Polygon. Vous pouvez alors miser des Qi sur Mai Finance, participer à la gouvernance et percevoir des dividendes du protocole.
 
-![Ponter Qi depuis Fantom vers Polygon en utilisant AnySwap](../.gitbook/assets/MAI-on-FTM-Qi-Bridge.png)
+![Ponter Qi depuis Fantom vers Polygon en utilisant AnySwap](../../.gitbook/assets/MAI-on-FTM-Qi-Bridge.png)
 
 ## Aggrégateurs
 
@@ -60,7 +60,7 @@ Beefy Finance est un agrégateur présent sur toutes les grandes plateformes, y 
 
 Vous pouvez utiliser certains tokens de Beefy comme collatéraux sur Mai Finance, veuillez consulter l'article correspondant [sur ce site](leverage-your-crypto-on-fantom.md). Lorsqu'il s'agit d'utiliser MAI sur beefy, vous pourrez déposer les LP tokens que vous avez créés sur BeethovenX ou SpookySwap:
 
-![MAI pools sur Beefy Finance en novembre 2021](../.gitbook/assets/MAI-on-FTM-Beefy.png)
+![MAI pools sur Beefy Finance en novembre 2021](../../.gitbook/assets/MAI-on-FTM-Beefy.png)
 
 Beefy vendra vos récompenses BEETS et BOO pour ajouter plus de vos positions MAI-DAI-USDC ou MAI-USDC. Faites attention au fait que Beefy affiche APY (Annual Percentage Yield) alors que BeethovenX et SpookySwap utilisent APR. C'est un point crucial lorsque vous voulez choisir une plateforme donnée pour la récompense VS la simplicité d'utilisation.
 
@@ -68,7 +68,7 @@ Beefy vendra vos récompenses BEETS et BOO pour ajouter plus de vos positions MA
 
 Beluga est un autre agrégateur sur Fantom qui va cibler des plateformes spécifiques, et dans notre cas, nous pouvons utiliser Beluga pour le pool BeethovenX. Au lieu de vendre le jeton BEETS octroyé par BeethovenX pour augmenter la position de MAI-DAI-USDC, les BEETS seront déposés dans le pool BEETS-FTM qui obtient un taux de rendement annuel de 350% à partir de novembre 2021. Les BEETS seront récoltés régulièrement et composés dans le pool BEETS-FTM, et vous pourrez récolter ce LP token et retirer la liquidité directement sur BeethovenX. Comme Beluga utilise le pool BEETS-FTM qui a un APR très élevé, l'APY final pour le MAI-DAI-USDC est aussi très élevé.
 
-![MAI-DAI-USDC pool sur Beluga en novembre 2021](../.gitbook/assets/MAI-on-FTM-Beluga.png)
+![MAI-DAI-USDC pool sur Beluga en novembre 2021](../../.gitbook/assets/MAI-on-FTM-Beluga.png)
 
 {% hint style="info" %}
 Veuillez noter que le Beluga ne vous aidera pas à accroître votre position stable. L'APY final dépend fortement du prix des BEETS et de l'APR de la pool BEETS-FTM. La valeur de la récompense ne sera pas capturée et sauvegardée dans votre LP stable, vous devrez donc casser manuellement le LP BEETS-FTM et le vendre pour ce que vous voulez.

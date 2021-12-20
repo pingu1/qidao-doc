@@ -2,7 +2,7 @@
 description: >-
   Les revenus passifs sont l'art de gagner de l'argent à intervals réguliers
   tout en ne faisant qu'un minimum d'efforts pour le gagner. C'est ce que Mai
-  Finance propose lorsque vous bloquez vos tokens Qi sur la plateforme.
+  Finance propose lorsque vous bloquez vos tokens Q
 ---
 
 # Obtenez des gains passifs avec QiDAO
@@ -21,7 +21,7 @@ Cette part de revenus est distribuée aux utilisateurs ayant bloqué (staking) l
 
 Un snapshot est simplement l'enregistrement de l'état dans lequel se trouve la blockchain à un moment donné (pour un bloc donné). Cet enregistrement va contenir l'intégralité des données de la chaîne, toutes ses adresses ainsi que leur état au moment du snapshot. Puisque Mai Finance effectue ses snapshots sur la chaîne Polygon, il est possible d'avoir une bonne estimation de la date du prochain snapshot en utilisant [Polygonscan](https://polygonscan.com).
 
-Vous devenez éligible pour la distribution des dividendes si vous bloquez vos Qi pour un minimum de ~10 jours, dépendament du moment où vous bloquez vos Qi. En d'autres termes, une période de staking valide doit contenir un minimum de 2 snapshots pour pouvoir recevoir les récompenses le mercredi suivant le 2ème snapshot.
+Vous devenez éligible pour la distribution des dividendes si vous bloquez vos Qi pour un minimum de \~10 jours, dépendament du moment où vous bloquez vos Qi. En d'autres termes, une période de staking valide doit contenir un minimum de 2 snapshots pour pouvoir recevoir les récompenses le mercredi suivant le 2ème snapshot.
 
 ![Comment devenir éligible à la distribution des dividendes de Mai Finance](../.gitbook/assets/unknown.png)
 
@@ -33,7 +33,7 @@ Maintenant que nous avons compris ce qu'était un snapshot, il est temps de comm
 
 ### Que sont le Qi boost et le Qi powah?
 
-Le Qi boost est l'opportunité d'accroître votre pouvoir lors des votes et vos gains de dividendes. Plus vous bloquez vos Qi longtemps, plus votre vote obtiendra de pondération (Qi Powah) et vos récompenses hebdomadaires seront également impactées. Vous pouvez obetnir un boost maximal de 4x en bloquand vos Qi pendant 4 ans. Avec le temps, votre boost va diminuer, jusqu'à libérer vos Qi lors de la fin de la période bloquée. S'il est impossible de réduire la durée de boost, il est toujours possible de l'augmenter jusqu'à un maximum de 4 ans. Vos Qo boostés sont représentés par des eQi (escrowed Qi) et resteront dans cet état jusqu'à leur expiration (ils ne seront pas transférables). 
+Le Qi boost est l'opportunité d'accroître votre pouvoir lors des votes et vos gains de dividendes. Plus vous bloquez vos Qi longtemps, plus votre vote obtiendra de pondération (Qi Powah) et vos récompenses hebdomadaires seront également impactées. Vous pouvez obetnir un boost maximal de 4x en bloquand vos Qi pendant 4 ans. Avec le temps, votre boost va diminuer, jusqu'à libérer vos Qi lors de la fin de la période bloquée. S'il est impossible de réduire la durée de boost, il est toujours possible de l'augmenter jusqu'à un maximum de 4 ans. Vos Qo boostés sont représentés par des eQi (escrowed Qi) et resteront dans cet état jusqu'à leur expiration (ils ne seront pas transférables).
 
 Ainsi, bloquer des Qi présente les avantages suivants:
 
@@ -90,7 +90,6 @@ Toutes les récompenses sont distribuées sous forme de Qi.
   * 100% des gains de farming obtenus grâce aux frais de dépôt (2 245 681$ utilisés pour farmer à date de la 14ème semaine du protocole)
   * 30% des frais de remboursement de dette (18 362$ en moyenne hebdomadaire)
   * 30% des frais d'utilisation de l'ancre (178 365$ en moyenne hebdomadaire)
-
 * **Que les sont eQi et que puis-je faire avec?**
 
 Les eQi (escrowed Qi) représentent le bonus de boost appliqué sur vos votes ainsi que sur les récompenses de staking. Dans ces 2 cas, 1 Qi = 1 eQi.
@@ -107,7 +106,7 @@ Chaque semaine est différente puisque les dividendes distribués dépendent des
 
 Oui, il est possible de faire les deux depuis la page de boost. Il vous suffit de sélectionner le montant à ajouter, et/ou la durée à ajouter.
 
-* **Puis-je bloquer différents montants de Qi pour des périodes de staking différentes?** 
+* **Puis-je bloquer différents montants de Qi pour des périodes de staking différentes?**
 
 Ce n'est pas possible pour le moment à partir du même portefeuille. Cependant, vous pouvez facilement créer un 2ème portefeuille. Il vous sera alors possible de bloquer différents montants pour différentes périodes de temps.
 

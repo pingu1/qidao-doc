@@ -15,7 +15,7 @@ Dans ce guide, nous allons vous présenter une stratégie d'investissement basé
 
 ## Comprendre le principe d'effet de levier
 
-![Histoire d'un mineur d'or peu chanceux](../.gitbook/assets/canDAI-farwest.png)
+![Histoire d'un mineur d'or peu chanceux](../../.gitbook/assets/canDAI-farwest.png)
 
 Nous sommes dans le far west pendant la grande ruée vers l'or. Les banques veulent à tout prix acheter de l'or afin de pouvoir avoir assez de réserve et prêter de l'argent pour pouvoir récupérer des intérêts sur les emprunts. Les mineurs quant à eux veulent trouver le plus d'or possible pour le vendre aux banques et devenir riches.
 
@@ -37,7 +37,7 @@ C'est ce principe qu'on appelle effet de levier. Maintenant imaginez qu'en plus 
 
 [AAVE](https://app.aave.com) est un protocol de prêts et d'emprunts. En déposant vos crypto monnaies sur AAVE, la plateforme les mettra à disposition des emprunteurs, et vous gagnerez des intérêts sur le montant mis à disposition. Pour notre stratégie, vous allez prêter des DAI, une monnaie stable (indexée sur la valeur du dollar américain). De manière générale, si vous déposez l'équivalent de 100$ sur AAVE, vous pouvez espérer un taux d'intérêt entre 4% et 10% annuels, le taux variant en fonction de l'utilisation (plus il y a d'emprunteurs, plus le taux est important).
 
-![Marché AAVE sur Polygon en Octobre 2021](../.gitbook/assets/canDAI-aave.png)
+![Marché AAVE sur Polygon en Octobre 2021](../../.gitbook/assets/canDAI-aave.png)
 
 Lorsque vous déposez vos monnaies sur AAVE, vous recevrez en échange un certificat de dépôt. Dans notre exemple, en déposant des DAI, vous recevrez des amDAI dans votre portefeuille (**a**ave **m**arket DAI). Ces jetons sont absolument nécessaires car ils vous permettront de retirer les DAI de AAVE plus tard. Sans eux vos fonds seront perdus. AAVE est la banque qui achètera votre or dans notre introduction.
 
@@ -47,7 +47,7 @@ Lorsque vous déposez vos monnaies sur AAVE, vous recevrez en échange un certif
 
 Mai Finance va donc accepter les certificats amDAI sur sa page dédiée à la [composition d'intérêts](https://app.mai.finance/yield). Cet outil n'est qu'une étape entre AAVE et votre coffre personnel. Sur la capteur d'écran ci-dessus, vous pourrez noter qu'AAVE vous rapportera 8.75% d'intérêts annuels rajoutés à votre investissement original, mais également 2.01% de MATIC qu'il vous faudrait récolter manuellement sur AAVE. L'outil de composition d'intérêts de Mai Finance va collecter ces MATIC automatiquement et les vendre contre des DAI qui seront rajoutés à votre investissement initial. Ainsi, l'APY (**A**nnual **P**ercentage **Y**ield, ou pourcentage d'intérêts composés annuels) sur Mai Finance indique le taux d'intérêt global donné par AAVE.
 
-![Outil de composition d'intérêts sur Mai Finance](../.gitbook/assets/camDAI-yield.png)
+![Outil de composition d'intérêts sur Mai Finance](../../.gitbook/assets/camDAI-yield.png)
 
 Une fois que vous avez déposé vos amDAI dans l'outil de composition d'intérêts de Mai Finance, vous recevrez des camDAI en échange (**c**ompounding amDAI). Ces jetons sont encore une fois des reçus de dépôt qui indique votre part de la réserve de amDAI sur Mai Finance. A noter que ces jetons étant une preuve de dépôt, le ratio entre amDAI et camDAI n'est pas 1:1. Vous trouverez plus d'infos sur la différence entre les deux jetons dans [cet article](tirez-parti-aave-tokens.md#amtokens-vs-camtoken).
 
@@ -57,7 +57,7 @@ Vous pouvez à présent déposer vos camDAI dans un [coffre personnel](https://a
 
 [Zapper](https://zapper.fi/dashboard) est un peu comme un couteau suisse de la DeFi sur Polygon. Cette plateforme vous permet entre autre de gagner des intérêts en mettant à disposition vos liquidités, prêter vos cryptos sur AAVE directement depuis leur plateforme, échanger certaines crypto monnaies contre d'autres, présenter un récapitulatif de vos investissement sur une seule feuille de route etc. C'est l'option d'échange qui nous intéresse ici afin d'échanger nos MAI contre de nouveaux DAI.
 
-![Échange de MAI contre des DAI](../.gitbook/assets/camDAI-zapper.png)
+![Échange de MAI contre des DAI](../../.gitbook/assets/camDAI-zapper.png)
 
 Dans notre analogie avec le far west, Zapper est le mineur d'or qui nous permet d'échanger l'argent emprunté à la banque contre de l'or que vous allez y reposer.
 
@@ -73,7 +73,7 @@ Pour ce guide, nous utiliserons Balancer afin d'exposer nos gains à un peu plus
 
 Même si nous avons expliqué ce qu'est AAVE, notre stratégie va utiliser une fonctionnalité proposée par Mai Finance qui automatise le dépôt des DAI sur AAVE, le dépôt des amDAI dans l'outil d'optimisation de Mai Finance, et le dépôt des camDAI dans votre coffre personnel.
 
-![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
+![](../../.gitbook/assets/camDAI-zapDAI.png) ![](../../.gitbook/assets/camDAI-zapdeposit.png)
 
 L'option `Zap in using DAI` ouvre une fenêtre modale qui vous permettra de déposer vos DAI dans votre coffre en utilisant AAVE en arrière-plan. C'est une option qui permet de sauver du temps et de l'argent (gas fees).
 
@@ -135,7 +135,7 @@ Si l'on considère que l'investissement initial n'est que de 100$, l'APY équiva
 
 Afin d'introduire un peu de volatilité, nous allons maintenant voir comment utiliser la même stratégie mais en n'appliquant l'effet de levier seulement à 90% de votre emprunt. Les autres 10% seront utilisés pour acheter d'autres crypto monnaies plus volatiles. Dans notre exemple, nous allons utiliser 10% de nos MAI pour acheter des Qi (le token natif de la plateforme Mai Finance) et les déposer dans la réserve de liquidité Qi-BAL sur Balancer. Cette réserve a pour le moment un APR (**A**nnual **P**ercentage **R**evenue, ou pourcentage annuel d'intérêts non composés) de 107,12%.
 
-![Réserve de liquidité Qi-BAL en Octobre 2021](../.gitbook/assets/camDAI-balancer.png)
+![Réserve de liquidité Qi-BAL en Octobre 2021](../../.gitbook/assets/camDAI-balancer.png)
 
 Puisque vous allez réinjecter moins de DAI dans le coffre camDAI, vous allez également effectuer moins de boucles. Voici ce à quoi devrait ressembler votre investissement:
 

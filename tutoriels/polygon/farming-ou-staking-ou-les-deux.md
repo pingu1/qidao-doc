@@ -7,7 +7,7 @@ description: >-
 
 # Farming ou Staking? Ou les deux?
 
-![](<../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
 
 ## Intro
 
@@ -37,7 +37,7 @@ L'idée est d'utiliser les Qi, récoltés sur Mai Finance, en combinaison avec l
 
 Les jetons générés en excès sur Mai Finance et QuickSwap peuvent être stakés:
 
-* Votre Qi sur Mai Finance **ET **QuickSwap est compté quand vous votez les QIPs (**Q**iDao **I**mprovement **P**roposals, propositions d'amélioration de QiDao).
+* Votre Qi sur Mai Finance **ET** QuickSwap est compté quand vous votez les QIPs (**Q**iDao **I**mprovement **P**roposals, propositions d'amélioration de QiDao).
 * Le Qi peut être bloqué, sur Mai Finance, pour devenir éligible aux dividendes du protocole, payés en Qi et distribués chaque mercredi, ainsi qu'augmenter la valeur comptée de vos Qi lors de votes pour les QIPs. Plus de détails sur le staking du Qi bientôt.
 * Le QUICK peut aussi être staké, sur QuickSwap, pour générer plus de QUICK dans l'Antre du Dragon (Dragon's Lair).
 * "locked QUICK" (dQUICK) peut aussi être utiliser, sur QuickSwap, pour générer d'autres jetons via le Sirop du Dragon (Dragon's Syrup). Nous allons nous en servir pour générer de l'ADDY.
@@ -46,7 +46,7 @@ Les jetons générés en excès sur Mai Finance et QuickSwap peuvent être stak�
 
 ## Préparer le système
 
-![](<../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
 
 Ce qui suit est une **simulation** basée sur:
 
@@ -58,7 +58,7 @@ Les taux ainsi que les prix des jetons vont varier**, c**ertains programmes vont
 ### 1er jour
 
 {% hint style="info" %}
-**ATTENTION: **Les fermes utilisées ici ont été déployé quelques heures avant la publication de guide. Les APRs/APYs vont changer et des modifications seront apportées d'ici quelques jours. S'il vous plait, **faites vos recherches**.
+**ATTENTION:** Les fermes utilisées ici ont été déployé quelques heures avant la publication de guide. Les APRs/APYs vont changer et des modifications seront apportées d'ici quelques jours. S'il vous plait, **faites vos recherches**.
 {% endhint %}
 
 Puisque nous avons $500 de Qi/MATIC LP et $500 de Qi/WETH LP, nous allons les déposer sur Mai Finance et QuickSwap.\
