@@ -21,7 +21,7 @@ Kılavuz, bir kısmını çiftliğe yeniden yatırım yaparken kazançlarınız�
 Bunu nasıl yapabileceğinizi daha ayrıntılı olarak göstermek için [son PolyPup](https://ball.polypup.finance) çiftliğini kullanacağım. Bu sadece eğitim amaçlıdır ve kesinlikle finansal tavsiye olarak kullanılmamalıdır. Ayrıca, buradaki "güvenli" terimi yalnızca benim kişisel takdirime dayanmaktadır. Her zaman olduğu gibi kendi araştırmanızı yapın. Son olarak ben bu çiftliği tavsiye etmiyorum.
 {% endhint %}
 
-![](<../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)
 
 ## Çiftçilik yaşam döngüsü
 
@@ -41,11 +41,11 @@ MATIC tokenlerinizi MATIC kasanıza yatırabilirsiniz, ancak amWMATIC almak içi
 
 MAI ödünç aldıktan sonra, kredinizin yarısını USDC'ye dönüştürmek için Mai Finance'deki [Anchor sayfasını](https://app.mai.finance/anchor) kullanabilirsiniz. Gerçekten de, LP çiftleri kullanarak farm yaptığınızda, çiftin iki parçasının 1:1 oranında sağlanması gerekir.
 
-![30 MAI'mi USDC'ye dönüştürmek için takas sayfasını kullanma](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
+![30 MAI'mi USDC'ye dönüştürmek için takas sayfasını kullanma](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
 
 Şimdi, üzerinde farm yapmak istediğiniz çiftliğe bağlı olarak, 2 stablecoininizi (MAI ve USDC) bir DEX platformunda geçerli bir LP çiftinde birleştirmeniz gerekiyor. Planım Polypup'a girmek olduğundan ve bu çiftlik QuickSwap LP'lerini kabul ettiğinden, [QuickSwap](https://quickswap.exchange/#/)'e gitmem ve orada çiftimi oluşturmam gerekiyor.
 
-![MAI ve USDC kullanarak LP tokenları oluşturun](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
+![MAI ve USDC kullanarak LP tokenları oluşturun](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
 
 Artık çiftliğe girmeye hazırız.
 
@@ -53,7 +53,7 @@ Artık çiftliğe girmeye hazırız.
 
 Artık bazı LP tokenlarınız olduğuna göre, çiftlik web sitesine gidebilir ve çiftlik tokenlarını toplamaya başlamak için bunları yatırabilirsiniz. Örneğimizde, MAI/USDC tokenlarımı doğru havuza yatırdım ve BAL toplamaya başladım.
 
-![Havuzda BAL Kazanmak](<../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
+![Havuzda BAL Kazanmak](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
 
 Şu an itibariyle, MAI/USDC çiftçiliğinin bana %176.99 APR sağladığını görebilirsiniz. Havuzda ne kadar likidite sağlandığına ve BAL fiyatına bağlı olarak bu APR zamanla değişecektir.
 
@@ -72,7 +72,7 @@ Artık bazı çiftlik tokenlarınız olduğuna göre, genellikle aşağıdakiler
 
 Mai Finance, her ikisini de yapmanıza izin veren üçüncü bir seçenek sunar. Ödülünüzü topladıktan sonra, çiftlik jtokenını destekleyen favori DEX'inize gidin. Genellikle, çiftliğin menüsünde bir DEX'e bir bağlantı bulabilirsiniz. Bağlantı, kolayca ticaret yapmanıza yardımcı olacak token adresini içerecektir.
 
-![Ödülümü daha fazla MATIC ile değiştiriyorum](<../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
+![Ödülümü daha fazla MATIC ile değiştiriyorum](<../../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
 
 Bu noktada, cüzdanımda teminat olarak Mai Finance'e yatırılmaya hazır MATIC tokenlerinin olduğu adıma geri döndüm. Bunu yaparsam, MAI ödünç alabilir, bir kısmını USDC'ye çevirebilir, bir LP çifti oluşturabilir ve çiftliğe yeniden yatırabilirim. Bu dönüşümü yaparak, ödüllerimin %100'ünü daha istikrarlı bir kriptoya (burada MATIC) çevirerek "güvence altına alıyorum" ve ödülümün %50'sini çiftçilik havuzuna yeniden enjekte ediyorum (veya aslında bu örnekte, bu örnekte, %46'sı) %4 depozito ücreti nedeniyle).
 

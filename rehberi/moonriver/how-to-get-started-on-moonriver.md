@@ -1,6 +1,7 @@
 ---
 Açıklama: >-
-  Bu kılavuzda Moonriver zincirini kullanmak için bilmeniz gereken her şeyi açıklayacağız.
+  Bu kılavuzda Moonriver zincirini kullanmak için bilmeniz gereken her şeyi
+  açıklayacağız.
 ---
 
 # Moonriver'ı Nasıl Kullanırım?
@@ -13,15 +14,15 @@ Polkadot, Ethereum, Cosmos ve Eos ile doğrudan rekabet eden bir L1 blok zinciri
 
 Kusama, Polkadot'un ana Relay Zincirini taklit eden ve ana zincir için tüm geliştirmelerin ve güncellemelerin ilk önce test edildiği ayrı bir zincir olan Polkadot için bir üretim öncesi ortamıdır. Bununla birlikte, üretim öncesi bir ortam olarak Kusama, gerçek kripto para birimleri ve gerçek işlemlerle çalışır ancak Polkadot'tan daha gevşek kurallarla çalışır. Kusama'da geliştirilen uygulamaların ve yan zincirlerin amacı bir noktada Polkadot'a taşınmaktır. Daha gevşek kurallar nedeniyle, bir projenin protokolü geliştirirken bir şeyleri test etmesi ve bir topluluğu büyütmesi daha kolaydır. Nihai ürün hazır olduğunda, her şey üretim ortamına geçebilir.
 
-Moonriver aslında Kusama'da bir parachaindir. Moonriver'a dağıtılan kod, Moonriver'ın Polkadot'taki üretim versiyonu olan Moonbeam'e dağıtılabilen kodun bir test versiyonudur. Kod Moonriver'da doğrulandıktan sonra Moonbeam'e gönderilebilir. Moonbeam ve Moonriver, EVM uyumlu 2 zincirdir yani Ethereum ağıyla uyumlu diğer zincirlerle aynı akıllı sözleşmeleri kabul ederler. 
+Moonriver aslında Kusama'da bir parachaindir. Moonriver'a dağıtılan kod, Moonriver'ın Polkadot'taki üretim versiyonu olan Moonbeam'e dağıtılabilen kodun bir test versiyonudur. Kod Moonriver'da doğrulandıktan sonra Moonbeam'e gönderilebilir. Moonbeam ve Moonriver, EVM uyumlu 2 zincirdir yani Ethereum ağıyla uyumlu diğer zincirlerle aynı akıllı sözleşmeleri kabul ederler.
 
 Diğer EVM uyumlu zincirler gibi Moonriver, işlemleri doğrulamak için kullanılan bir gas tokenı kullanır: MOVR tokenı.
 
 ## Moonriver'ı kullanmaya başlarken
 
-Moonriver ağını kullanmadan önce bir cüzdan adresine ihtiyacınız olacak. Moonriver bir EVM ağı olduğu için Metamask veya Nifty gibi web cüzdanları da dahil olmak üzere diğer EVM zincirlerinde olduğu gibi aynı cüzdanları kabul edecek ve Trezor veya Ledger gibi donanım cüzdanınızı kullanabileceksiniz ancak ekstra yönlendirmeleri takip etmeniz gerekebilir. Soğuk cüzdanınızı ağa bağlayabilmeniz için gerekli adımlar. [Resmi Moonbeam Vakfı belgelerinden yararlanabilirsiniz](https://moonbeam.foundation/tutorials/how-to-create-moonriver-ethereum-address/) 
+Moonriver ağını kullanmadan önce bir cüzdan adresine ihtiyacınız olacak. Moonriver bir EVM ağı olduğu için Metamask veya Nifty gibi web cüzdanları da dahil olmak üzere diğer EVM zincirlerinde olduğu gibi aynı cüzdanları kabul edecek ve Trezor veya Ledger gibi donanım cüzdanınızı kullanabileceksiniz ancak ekstra yönlendirmeleri takip etmeniz gerekebilir. Soğuk cüzdanınızı ağa bağlayabilmeniz için gerekli adımlar. [Resmi Moonbeam Vakfı belgelerinden yararlanabilirsiniz](https://moonbeam.foundation/tutorials/how-to-create-moonriver-ethereum-address/)
 
-Bu eğitim için, vakfın sitesindeki diğer tüm kılavuzlarda olduğu gibi Metamask'a bağlı kalacağız. Metamask yüklü değilse, [Polygon'u Nasıl Kullanırım?](<../polygon-tutorials/how-to-get-started-on-polygon.md>) ile ilgili talimatları bulabilirsiniz.
+Bu eğitim için, vakfın sitesindeki diğer tüm kılavuzlarda olduğu gibi Metamask'a bağlı kalacağız. Metamask yüklü değilse, [Polygon'u Nasıl Kullanırım?](../../polygon-tutorials/how-to-get-started-on-polygon.md) ile ilgili talimatları bulabilirsiniz.
 
 ### Moonriver'ı Metamask'a Ekleme
 
@@ -35,7 +36,7 @@ Teorik olarak, Moonriver MetaMask ile önceden yüklenmiş olarak gelir, yani Me
 
 Değişiklikleri kaydedin, Metamask sizi otomatik olarak Moonriver ağına geçirecektir:
 
-![İşte bu! Artık Moonriver'dasınız!](<../.gitbook/assets/Moonriver-setup-MM.png>)
+![İşte bu! Artık Moonriver'dasınız!](../../.gitbook/assets/Moonriver-setup-MM.png)
 
 ## Moonriver'a Köprü Kurmak
 
@@ -43,7 +44,7 @@ Değişiklikleri kaydedin, Metamask sizi otomatik olarak Moonriver ağına geçi
 
 Moonriver'daki en büyük DEX'lerden biri olan SolarBeam, gas'sız kalmanız durumunda [gassız işlem takası](https://app.solarbeam.io/bridge/gas-swap) sunar. Öneri Moonriver'da bir miktar paranız olduğunu varsayar ancak cüzdanınızda 0 MOVR olduğu için hiçbir şey yapamazsınız.
 
-![Gas takas etmenizi sağlayacak gassız işlem](<../.gitbook/assets/Moonriver-faucet.png>)
+![Gas takas etmenizi sağlayacak gassız işlem](../../.gitbook/assets/Moonriver-faucet.png)
 
 Bu gassız işlem için yalnızca belirli varlıkların kabul edildiğini ve MAI'nin desteklenen paraların bir parçası olmadığını unutmayın.
 
@@ -51,7 +52,7 @@ Bu gassız işlem için yalnızca belirli varlıkların kabul edildiğini ve MAI
 
 * [Relay Chain](https://app.relaychain.com/transfer#/), MAI'nizi Polygon'dan Moonriver'a aktarmak istiyorsanız, Mai Finance'in resmi ortağıdır. Polygon'a bağlandığınızda, sadece hedef zinciri (Moonriver) ve göndermek istediğiniz varlığı (MAI veya miMATIC) doğru miktarda seçebilir ve 'Transfer' düğmesine tıklayabilirsiniz. Transfer ücretlerine dikkat edin.
 
-![Relay chain kullanarak MAI'den Moonriver'a Köprü Oluşturma](<../.gitbook/assets/Moonriver-relaychain.png>)
+![Relay chain kullanarak MAI'den Moonriver'a Köprü Oluşturma](../../.gitbook/assets/Moonriver-relaychain.png)
 
 * Diğer ağlardan diğer varlıklar arasında köprü kurmanız gerekiyorsa, Relay Chain'i kullanabilirsiniz (yukarıya bakın), Eth Mainnet'ten Moonriver'a köprü yapmak istiyorsanız [AnySwap](https://anyswap.exchange/#/bridge) çalışacaktır. , ve elbette [Solarbeam](https://app.solarbeam.io/bridge) adresindeki köprü özelliğini de kullanabilirsiniz.
 * [Elknet](https://app.elk.finance/#/elknet) için ELK tokenı 2 ağ arasında aktardığınızda hem köprü hem de musluk görevi görecektir. ELK'nizi köprüleyebileceksiniz ve alıcı tarafta, bizim durumumuzda ELK'nizin küçük bir bölümünü gas tokenı MOVR olarak doğrudan kullanabilirsiniz.
@@ -62,7 +63,7 @@ MAI'leri Polygon'dan Moonriver'a Relay Chain aracılığıyla köprülerseniz, M
 
 MAI'nizi 1:1 oranında [Mai Finance'teki hub](https://app.mai.finance/hub) kullanarak Relay Chainden değiştirebilir, ardından gerçek MAI'nizi diğer platformlarda kullanabilirsiniz .
 
-![MAI'yi(RelayChain) gerçek MAI'ye değiştirmek için hub'ı kullanma](<../.gitbook/assets/Moonriver-hub.png>)
+![MAI'yi(RelayChain) gerçek MAI'ye değiştirmek için hub'ı kullanma](../../.gitbook/assets/Moonriver-hub.png)
 
 {% hint style="info" %}
 Not olarak, MAI'nizi Moonriver'dan Polygon'a veya diğer zincirlere köprülemek istiyorsanız, önce onları RelayChain sürümlerine dönüştürmeniz gerekecektir.
@@ -74,17 +75,14 @@ Moonriver çok fazla ilgi görüyor ve Polkadot'a tamamen geçme potansiyeli ola
 
 * [Solarbeam](https://app.solarbeam.io): Bu, Moonriver'daki ana DEX ve AMM'dir. Varlıklarınızı takas edebilecek, çiftliklerde LP (**L**iquidity**P**roviding) çiftleri sağlayarak likidite madenciliğine katılabilecek veya platformun yerel tokenini stake edebileceksiniz. Solarbeam ayrıca Mai Finance'in Moonriver'daki ilk ortaklarından biridir ve MAI-MOVR çiftini kullanabilirsiniz. Ayrıca herhangi bir ödül almayan ancak bazı işlem ücretleri alabilen bir MAI-USDC havuzu da bulacaksınız.
 
-![Aralık 2021 itibarıyla solarbeam'de MAI içeren LP havuzları](<../.gitbook/assets/Moonriver-solarbeam.png>)
+![Aralık 2021 itibarıyla solarbeam'de MAI içeren LP havuzları](../../.gitbook/assets/Moonriver-solarbeam.png)
 
 Solarbeam'de farm yaptığınızda, belirli bir hak kazanma süresi boyunca bir Kasada stake yapabileceğiniz ve ek SOLAR tokenları kazanabileceğiniz veya platformda yer alan egzotik diğer tokenları kazanmak için stake edebileceğiniz SOLAR ile ödüllendirileceksiniz.
 
-* [Huckleberry Finance](https://www.huckleberry.finance/): Bu, Moonriver'da verim alabileceğiniz ve kazançlarınızı birleştirmek için Beefy'yi kullanabileceğiniz başka bir DEX/AMM.
-
+* [Huckleberry Finance](https://www.huckleberry.finance): Bu, Moonriver'da verim alabileceğiniz ve kazançlarınızı birleştirmek için Beefy'yi kullanabileceğiniz başka bir DEX/AMM.
 * [Beefy Finance](https://app.beefy.finance/#/moonriver): Ünlü otomatik bileşen de Moonriver'da ve hem Solarbeam hem de Huckleberry'den elde ettiğiniz kazancı birleştirmenize yardımcı olacak. Beefy, MAI-MOVR çiftini yazılı olarak önermez, ancak yakında Beefy'yi SOLAR toplamak ve birleştiriciden daha fazla MAI-MOVR almak için kullanabilirsiniz.
-
-* [Sushiswap](https://app.sushi.com/): SushiSwap'ı sunmaya gerek yok! Diğer zincirlerde yaptığınız gibi, belirli LP tokenları için varlıklarınızı ve çiftlik getirilerinizi takas edebileceksiniz. Ödüller SUSHI ve MOVR'de verilir.
-
-* [Rome DAO](https://romedao.finance/): Bu, Moonriver'daki ilk OHM çatalı. Varlıklarınızı, çok yüksek APY kazanmak için kullanabileceğiniz indirimli ROME almak için bağlayın. Yazım sırasında, 5 Günlük ROI yaklaşık %10,6'dır. RomeDAO şu anda hazinesinde FRAX ve MIM'i kabul ediyor, ancak yakında MAI'yi de kabul edecek.
+* [Sushiswap](https://app.sushi.com): SushiSwap'ı sunmaya gerek yok! Diğer zincirlerde yaptığınız gibi, belirli LP tokenları için varlıklarınızı ve çiftlik getirilerinizi takas edebileceksiniz. Ödüller SUSHI ve MOVR'de verilir.
+* [Rome DAO](https://romedao.finance): Bu, Moonriver'daki ilk OHM çatalı. Varlıklarınızı, çok yüksek APY kazanmak için kullanabileceğiniz indirimli ROME almak için bağlayın. Yazım sırasında, 5 Günlük ROI yaklaşık %10,6'dır. RomeDAO şu anda hazinesinde FRAX ve MIM'i kabul ediyor, ancak yakında MAI'yi de kabul edecek.
 
 ## Moonriver'da Mai Finance
 
@@ -94,7 +92,7 @@ MooSolarETH-USDC tokenlerinizi bir kasaya koyabileceğiniz ve karşılığında 
 * ETH-USDC çiftini Beefy'ye yatırın ve bir mooSolarETH-USDC LP token alın
 * MooToken'ınızı [uygun kasaya](https://app.mai.finance/vaults/create) Mai Finance'e yatırın
 
-![Mai Finance Aralık 2021 itibariyle Moonriver'da kasaya giriyor](<../.gitbook/assets/Moonriver-vaults.png>)
+![Mai Finance Aralık 2021 itibariyle Moonriver'da kasaya giriyor](../../.gitbook/assets/Moonriver-vaults.png)
 
 Tek ETH kasası da bir seçenektir.
 

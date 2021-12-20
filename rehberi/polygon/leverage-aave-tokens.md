@@ -1,13 +1,15 @@
 ---
 Açıklama: >-
-  Bu eğitim, kullanıcıların Mai Finance'in %0 faizli kredileri ve Aave protokolünün akıllı kombinasyonu aracılığıyla mevcut kripto yatırımlarını  nasıl daha iyi yönetebileceğine dair fikirkleri ayrıntılı şekilde sunar. 
+  Bu eğitim, kullanıcıların Mai Finance'in %0 faizli kredileri ve Aave
+  protokolünün akıllı kombinasyonu aracılığıyla mevcut kripto yatırımlarını 
+  nasıl daha iyi yönetebileceğine dair fikirkleri ayrıntılı şekilde sunar.
 ---
 
 # Aave Market'ten Kaldıraçlı Yararlanın
 
 ## Bazen bir görsel bin kelimeye bedeldir
 
-![](<../.gitbook/assets/image (21) (1).png>)
+![](<../../.gitbook/assets/image (21) (1).png>)
 
 ## Ama bin kelime de o kadar kötü değildir!
 
@@ -21,11 +23,11 @@ MATIC'i gerçekten sevdiğinizi varsayalım ve şu anda değerinin düşük oldu
 
 MATIC tokenlarınız Aave havuzunda olduğundan, oluşturulan faiz otomatik olarak birleştirilir, Bu birleştirme sayesinde sahip olduğunuz MATIC miktarının zamanla artacağı anlamına gelir.
 
-![On this example, I lended 0.2 MATIC](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.29.53 PM.png>)
+![On this example, I lended 0.2 MATIC](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.29.53 PM.png>)
 
 MATIC tokeninizi Aave'e ödünç vererek, eşdeğer miktarda amWMATIC (aave market wrap MATIC) alırsınız. Manuel olarak eklemediğiniz sürece bu tokenları doğrudan cüzdanınızda göremeyebilirsiniz, ancak onlara sahipsiniz.
 
-![I can see the 0.20 MATIC I lended on DeBank](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.31.01 PM.png>)
+![I can see the 0.20 MATIC I lended on DeBank](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.31.01 PM.png>)
 
 ### Aave Tokenlarınız ile Bileşik Kazanç İçin Mai Finance'i Kullanın
 
@@ -33,7 +35,7 @@ Mai Finance, amWMATIC tokenlerinizi web sitesinin Getiri sayfasından sisteme da
 
 Bununla birlikte, temel APY'ye ek olarak, Mai Finance şu anda mevcut olan ek Aave ödüllerini seçtiğiniz tokena geri dönüştürecek ve böylece zaman içinde pasif olarak seçilen tokenın daha fazlasını üretecektir. Örneğimizde (yukarıya bakın), Aave yatırılan MATIC için %1,16 APY ve ayrıca MATIC'de ödenen ek %3,69 APR sağlar ancak bu APR ödülü herhangi bir getiri sağlamaz. AmWMATIC'inizi Mai Finance'e yatırdığınızda, ödül periyodik olarak toplanır ve %1,16 faiz oranını da uygulamak için ana para yatırma işleminize geri yatırılır.
 
-![0.2MATIC'im artık Mai Finance'e yatırıldı ve yıllık %4.93 gelir üretecek](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.45.00 PM.png>)
+![0.2MATIC'im artık Mai Finance'e yatırıldı ve yıllık %4.93 gelir üretecek](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.45.00 PM.png>)
 
 amWMATIC, Mai Finance'e yatırıldığında, karşılığında camWMATIC alınır. Bu iki tokenın oranı tam olarak 1:1 değildir, çünkü camMATIC aslında Mai'deki amWMATIC havuzunun bir payını temsil eder, burada faiz ve ödüller otomatik olarak birleştirilir. Ayrıca, Mai Finance'e amWMATIC yatırdığınızda, bu tokenların Aave'den kaldırılacağına da dikkat edilmelidir. Ancak, amWMATIC'inizi Mai Finance'den çekerseniz, onları tekrar Aave'de bulacaksınız.
 
@@ -57,7 +59,7 @@ camWMATIC bir Kasaya yatırıldığında, Getiri sayfasındaki bakiye 0 olacakt�
 
 Kasalar (Vaults) sayfasına gittiğinizde ve açılır kasa menüsünden camWMATIC'i seçtiğinizde, camWMATIC'inizi yatırabileceğiniz yeni bir kasa oluşturma seçeneği sunulur. camWMATIC'inize karşı borç aldığınızda Borç Teminat Oranı'nı (CDR) en az %155 tutmanız gerektiğini unutmayın.
 
-![0.2 MATIC'im artık tamamen teminat olarak kullanılıyor](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.57.55 PM.png>)
+![0.2 MATIC'im artık tamamen teminat olarak kullanılıyor](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.57.55 PM.png>)
 
 **Note:** Bu sayfada, teminat değerinizi USD cinsinden görebileceksiniz ve değer, teminat türünüze, token değerine ve camWMATIC havuzunda oluşturulan avantajlara göre dalgalanıyor.
 
@@ -67,7 +69,7 @@ Kasalar (Vaults) sayfasına gittiğinizde ve açılır kasa menüsünden camWMAT
 Her zaman likidasyon oranının üzerinde olduğunuzu doğrulamak için zaman zaman Kasa sayfasını ziyaret etmeli ve "güvenli oranın" altına düşmeye başlarsanız muhtemelen daha fazla teminat eklemelisiniz. Risk profilinize bağlı olarak bu güvenli eşik değişebilir.
 {% endhint %}
 
-![I now have a debt of $0.10](<../.gitbook/assets/Screen Shot 2021-08-06 at 6.07.34 PM.png>)
+![I now have a debt of $0.10](<../../.gitbook/assets/Screen Shot 2021-08-06 at 6.07.34 PM.png>)
 
 0,10 $ MAI ödünç aldım, bu da %214.56 CDR anlamına geliyor. Şimdi biraz eğlenelim.
 
@@ -75,7 +77,7 @@ Her zaman likidasyon oranının üzerinde olduğunuzu doğrulamak için zaman za
 
 Artık en sevdiğim DEX'e (QuickSwap veya SushiSwap harika örnekler) güvenle gidebilir ve MAI'mi daha fazla MATIC ile değiştirebilirim.
 
-![Hadi MATIC alalım](<../.gitbook/assets/Screen Shot 2021-08-06 at 6.10.35 PM.png>)
+![Hadi MATIC alalım](<../../.gitbook/assets/Screen Shot 2021-08-06 at 6.10.35 PM.png>)
 
 Takastan sonra cüzdanımda daha fazla MATIC var.
 

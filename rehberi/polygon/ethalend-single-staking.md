@@ -13,7 +13,7 @@ Bu web sitesinin misyonlarından biri ve sunulan eğitimler koleksiyonu, en karm
 
 ## Ethalend
 
-![](../.gitbook/assets/Ethalend-1.png)
+![](../../.gitbook/assets/Ethalend-1.png)
 
 ### Ethalend Nedir?
 
@@ -28,7 +28,7 @@ Ethalend ile ilgili çok ilginç şeylerden biri, uygulamanın web3 cüzdanını
 
 Artıların eksileri aşacak kadar değer getirip getirmediğine karar vermek size kalmış olacak. Cüzdanınızı oluşturmaya hazır olduğunuzda, ekranınızın sağ üst köşesindeki 'Cüzdan Oluştur' düğmesine tıklamanız yeterlidir.
 
-![Create your ETHA smart wallet](../.gitbook/assets/Ethalend-2.png)
+![Create your ETHA smart wallet](../../.gitbook/assets/Ethalend-2.png)
 
 İşte, protokolü kullanmaya hazırsınız!
 
@@ -38,11 +38,11 @@ Bu strateji, temelinde stablecoin çiftçiliği kullanacağından ve istikrarlı
 
 ### MAI tek yönlü stake ve kazançlar
 
-![Kasım 2021 itibarıyla Ethalend MAI-USDT eVault](../.gitbook/assets/Ethalend-3.png)
+![Kasım 2021 itibarıyla Ethalend MAI-USDT eVault](../../.gitbook/assets/Ethalend-3.png)
 
 Ethalend'in en büyük avantajlarından biri ve DeFi'yi basitleştirmeye izin veren en önemli özelliklerden 2 varlıktan oluşan bir LP (**L**iquidity**P**roviding) çifti sağlamanıza gerek olmamasıdır. 1: 1 oranı havuzu (veya bizim durumumuzda eVault) yöneten algoritma bunu sizin için otomatik olarak yapacaktır. Ayrıca, varlıklarınızı bir eVault'a yatırdığınızda, getirinizi en üst düzeye çıkaracak en iyi protokole otomatik olarak yeniden yönlendirilirler. Ödül tokenları sizin için düzenli olarak ekilecek ve dönüştürülecektir.
 
-![MetaMask cüzdanımızdan MAI-USDT eVault'a 100 MAI yatırmak](../.gitbook/assets/Ethalend-4.png)
+![MetaMask cüzdanımızdan MAI-USDT eVault'a 100 MAI yatırmak](../../.gitbook/assets/Ethalend-4.png)
 
 Gördüğünüz gibi ödüllerin detayları ekranın sağ tarafında gösteriliyor. ETHA ödülleri görüntülenmez, ancak depozitonuzla ilişkili Qi ödüllerinin bir tahminini alırsınız. Sayfayı aşağı kaydırırsanız, bizim durumumuzda QuickSwap kullanan temel stratejiyi de iyi anlayacaksınız. QUICK ödülleri Qi ödüllerine dönüştürülecek. ETHA ödülleri, QuickSwap yerine platformlarını kullanmaya teşvik etmek için protokol tarafından basılmıştır.
 
@@ -54,13 +54,13 @@ Gördüğünüz gibi ödüllerin detayları ekranın sağ tarafında gösteriliy
 
 MAI'nizi Ethalend'e ödünç vererek alacağınız ana ödül, Ethalend'in platform tokenı olan ETHA'da ödenecektir. Ethalend'in ana avantajlarından biri, ETHA tokenlarınızı doğrudan platformda tek stake edebilecek ve veriminizi artırabilecek olmanızdır.
 
-![ETHA'nızı doğrudan Ethalend'de stake etme](../.gitbook/assets/Ethalend-5.png)
+![ETHA'nızı doğrudan Ethalend'de stake etme](../../.gitbook/assets/Ethalend-5.png)
 
 Gördüğünüz gibi en iyi seçenek, kazandığınız ETHA'yı ETHA-QUICK havuzuna yatırmak. 2 varlığın doğası gereği (çok değişken), ödül gerçekten çok yüksek. İsterseniz ETHA'nızı ETHA-USDT havuzuna yatırarak geçici kayıpları azaltabilirsiniz. Her iki durumda da QUICK ile ödüllendirileceksiniz. Ve elbette, ETHA konusunda gerçekten iyimserseniz, ek ETHA için ödüllerinizi ETHA havuzuna yatırabilirsiniz.
 
 Ethaland'daki stake kasaları aslında Ethalend tarafından sunulan bir kolaylık. Tokenlarınızı havuza yatırdığınızda, dengeleme algoritması, LP çiftinin diğer tarafını satın almak için yatırılan tokenlardan birkaçını satar ve bu çifti QuickSwap'ta kullanır. Bir yan not olarak, bunu tamamen manuel olarak yapabilirsiniz: ETHA talep edin, web3 cüzdanınızda para çekin, QUICK için %50 satış yapın, bazı LP tokenları oluşturun ve bunları QuickSwap havuzuna yatırın:
 
-![Kasım 2021 itibarıyla ETHA için QuickSwap havuzları](../.gitbook/assets/Ethalend-6.png)
+![Kasım 2021 itibarıyla ETHA için QuickSwap havuzları](../../.gitbook/assets/Ethalend-6.png)
 
 {% hint style="info" %}
 QuickSwap, ETHA-QUICK çiftinde %223.1'lik bir APY'yi teşvik ederken, Ethalend aynı çiftte %116.73'lük bir APR gösteriyor. Bunun nedeni, APY (**A**nnual **P**ercentage **Y**ield veya otomatik bileşik ödüller) ile APR (**A**annual **P**ercentage **R**eward) arasındaki farktır. İki yüzde aslında tamamen aynıdır, bu nedenle ETHA kullanmak için hangi platformu seçtiğiniz önemli değildir.
@@ -70,7 +70,7 @@ QuickSwap, ETHA-QUICK çiftinde %223.1'lik bir APY'yi teşvik ederken, Ethalend 
 
 ETHA'nızı stake ederek alacağınız QUICK ödülleri kullanmanın en iyi yolu onları dQUICK'e dönüştürmektir. dQUICK, QuickSwap üzerinde Dragon's Lair'de oluşturulabilir. QuickSwap'in kullanıcıları ek QUICK ile ödüllendirerek QUICK'leri stake etmeye teşvik etme şekli budur: QUICK tokenlarınızı QuickSwap'ta kilitleyerek ekstra tokenlar kazanacaksınız.
 
-![Kasım 2021 itibarıyla QuickSwap'ta Dragon's Lair APY](../.gitbook/assets/Ethalend-7.png)
+![Kasım 2021 itibarıyla QuickSwap'ta Dragon's Lair APY](../../.gitbook/assets/Ethalend-7.png)
 
 {% hint style="info" %}
 dQUICK APY, Platformda gerçekten stake edilen QUICK token miktarına bağlı olarak %20 ile %40 arasında değişmektedir.
@@ -78,7 +78,7 @@ dQUICK APY, Platformda gerçekten stake edilen QUICK token miktarına bağlı ol
 
 Ancak dQUICK ile ilgili en iyi şeylerden biri, Mai Finance'te teminat olarak kullanılabilecek bir "depozito kanıtı" belirteci olmasıdır. Bu, Ethalend'den QUICK ödüllerinizi QuickSwap'a yatırdıktan ve dQUICK aldıktan sonra, Mai Finance'e gidebilir ve onlara karşı MAI ödünç almak için dQUICK tokenlerini bir dQUICK Vault'a yatırabilirsiniz.
 
-![Kasım 2021 itibarıyla Mai Finance'te dQUICK Vault](../.gitbook/assets/Ethalend-8.png)
+![Kasım 2021 itibarıyla Mai Finance'te dQUICK Vault](../../.gitbook/assets/Ethalend-8.png)
 
 dQUICK kasaları hakkında birkaç şey:
 
@@ -91,11 +91,11 @@ QuickSwap'tan birleştirilmiş QUICK ödüller alan bir varlığınız olacağı
 
 Bu konu [özel bir makalede](what-to-do-with-qi-on-polygon.md) açıklanmıştır. Aynı havuzda birleştirebileceğiniz ek Qi ve BAL tokenlarıyla ödenen sağlam bir APR'den yararlanmak için Qi'nizi Balancer'daki Qi-BAL havuzuna yatıracağız.
 
-![Kasım 2021 itibarıyla Balancer'daki Qi-BAL havuzunun durumu](../.gitbook/assets/Ethalend-9.png)
+![Kasım 2021 itibarıyla Balancer'daki Qi-BAL havuzunun durumu](../../.gitbook/assets/Ethalend-9.png)
 
 ## Sistemin Ateşlenmesi
 
-![](../.gitbook/assets/Ethalend-10.png)
+![](../../.gitbook/assets/Ethalend-10.png)
 
 Aşağıdakiler, mevcut bir kasadan ödünç alabileceğiniz veya bir DEX platformundan satın alabileceğiniz 100 $ değerinde MAI'lik bir başlangıç ​​yatırımıyla yapılan bir simülasyondur. Mevcut tüm APR'lerin ve APY'lerin 1 yıl boyunca aynı kaldığını ve tüm tokeların aynı fiyatı koruduğunu varsayar. Bu durum elbette asla böyle olmayacaktır.
 

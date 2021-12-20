@@ -10,7 +10,7 @@ description: >-
 
 Eylül 2021'de Mai Finance, borçlanma işini geliştirmek ve insanların MAI'yi ödünç almak için tokenlarını kullanmasını sağlamak için kasa ödüllerini tanıttı. Sadece küçük bir geri ödeme ücreti ile %0 faizli kredi almakla kalmıyor, artık insanlar borç para almak için de ödeme alabiliyor. Bu kılavuz, Mai Finance'deki kasaları besleyecek, yüksek borçlanma teşviklerine yol açacak bir token kaynağı olarak Augury Finance'i kullanarak istikrarlı token çiftçiliğine dayalı bir strateji ve daha sonra çiftliğe yeniden enjekte edilecek ek MAI önerecektir.
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (29).png>)
 
 ## Uygulama ve Havuz Tanıtımı
 
@@ -20,7 +20,7 @@ Augury Finance, LP (**L**iquidity**P**ool) tokenlarınızı otomatik olarak birl
 
 Örnek olarak, DFYN-WETH çiftini Augury'de değerlendirebilirsiniz.
 
-![Augury Finance'deki DFYN-WETH madencilik havuzu örneği](<../.gitbook/assets/image (30).png>)
+![Augury Finance'deki DFYN-WETH madencilik havuzu örneği](<../../.gitbook/assets/image (30).png>)
 
 Bu infüzyon, temel çiftlik olarak DinoSwap'ı ve birinin DFYN'de alabileceği bir LP tokenını kullanıyor. %123,43'lük bir APR ile bu havuza likidite yatıran kullanıcılar ile ödüllendirilecektir.
 
@@ -38,7 +38,7 @@ Augury Finance, farklı yatırım ücretleri ve performans ücretleri olan 3 far
 
 Stratejimizde, kullanıcıları bir WETH/WBTC/LINK/WMATIC/USDC karışımı ile ödüllendiren USDT-UST tier2 çiftliğini kullanacağız. Mai Finance, ödül olarak alacağımız 5 tokendan 4'ü için 4 kasa önermektedir. Kârımızı en üst düzeye çıkarmak için, Augury'nin çıktısı ile Mai Finance'deki kasalar arasına AAVE ekleyeceğiz, çünkü hasat edeceğimiz 5 tokendan 3'ü AAVE'ye ödünç verilebilir.
 
-![Stratejimiz için istikrarlı madeni para çiftçiliği USDT-UST](<../.gitbook/assets/image (31).png>)
+![Stratejimiz için istikrarlı madeni para çiftçiliği USDT-UST](<../../.gitbook/assets/image (31).png>)
 
 ### Curve
 
@@ -48,13 +48,13 @@ Curve ve havuzları hakkında dikkat edilmesi gereken çok ilginç şeylerden bi
 
 Herhangi bir WBTC/WETH/USDC/USDT/DAI kombinasyonunu kabul eden atricrypto3 havuzunu kullanacağız ve bu havuza Augur tarafından oluşturulacak havuza USDC'yi ekleyeceğiz.
 
-![Eylül 2021 itibarıyla Curve'deki atricrypto3 havuzunun ayrıntıları](<../.gitbook/assets/image (32).png>)
+![Eylül 2021 itibarıyla Curve'deki atricrypto3 havuzunun ayrıntıları](<../../.gitbook/assets/image (32).png>)
 
 ### AAVE
 
 Augury ile ilgili paragrafta bahsedildiği gibi, AAVE, Augury'de yetiştirilen tokenlara Mai Finance'de kullanmadan önce küçük bir ödül eklemek için kullanılır. WBTC, WETH ve WMATIC'imizi doğrudan Mai Finance'e koymak yerine, bu tokenları AAVE'ye yatıracağız ve AAVE'den gelen ödülleri amToken havuzlarında otomatik olarak birleştirmek için Mai Finance'in getiri aracını kullanacağız ve camToken'ı kasalarda teminat olarak kullanacağız. [AAVE](broken-reference) bölümünü okuyarak fazla bilgi alabilirsiniz.
 
-![Eylül 2021 itibarıyla AAVE kredi ödülleri](<../.gitbook/assets/image (33).png>)
+![Eylül 2021 itibarıyla AAVE kredi ödülleri](<../../.gitbook/assets/image (33).png>)
 
 ### Balancer
 
@@ -62,11 +62,11 @@ Balancer, Curve gibi başka bir _blue chip_ projesidir. 2'den fazla tokendan olu
 
 Stratejimiz için WETH/BAL/Qi/MAI/USDC havuzunu kullanacağız. Bu havuz, Mai Finance'deki kasalardan toplanacak Qi tokenını kabul edecek ve bizi ek Qi ile ödüllendirecek ve BAL kasasında Mai Finance'e yatırabileceğimiz BAL tokenları ile daha fazla MAI elde ederek Augury'de pozisyonumuzu artıracağız.
 
-![Eylül 2021 itibarıyla Balancer 5 havuzu](<../.gitbook/assets/image (34).png>)
+![Eylül 2021 itibarıyla Balancer 5 havuzu](<../../.gitbook/assets/image (34).png>)
 
 ## Sistemin Ateşlenmesi
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../../.gitbook/assets/image (35).png>)
 
 Aşağıda, 500$ değerinde MAI ödünç almak için camWETH kasasına yatırılan ve 500$ değerinde USDT-UST'ye dönüştürülen 1.000$ değerinde ETH'lik bir başlangıç yatırımı ile yapılan bir simülasyon yer almaktadır. Bu simülasyon, farklı sistemler için aşağıdaki ödülleri alır.
 

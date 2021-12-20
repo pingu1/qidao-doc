@@ -1,9 +1,11 @@
 ---
 Açıklama: >-
-  Bu kılavuz, Yearn kasaları ve Beefy kasaları kullanılarak Fantom'da Mai Finance tarafından önerilen farklı kaldıraç seçeneklerinin eksiksiz bir analizini sunmaktadır.
+  Bu kılavuz, Yearn kasaları ve Beefy kasaları kullanılarak Fantom'da Mai
+  Finance tarafından önerilen farklı kaldıraç seçeneklerinin eksiksiz bir
+  analizini sunmaktadır.
 ---
 
-# Fantom'dan Kaldıraçlı Yararlanın
+# Fantom'dan Kaldıraçlı yararlanın
 
 ## Giriş
 
@@ -15,7 +17,7 @@ Mai Finance, Fantom'da birçok farklı kasa tipiyle kredi verme platformunu baş
 
 [Fantom ağındaki Yearn Finance kasaları](https://beta.yearn.finance/#/home), Ethereum Mainnet ve diğer blok zincirlerinde çalışan ve kullanıcıların kredi verme ve ticaret hizmetleri yoluyla kripto varlıklarındaki kazançlarını optimize etmelerine olanak tanıyan bir protokol grubudur. Fantom'da kullanacağımız ürün, özlem finansmanındaki kasalar. Bu, tek tokenlı para yatırma işlemlerini kabul edecek ve bu para yatırma işleminde getiri elde etmenizi sağlayacak bir araçtır. Para yatırma kanıtı olarak bir yvToken alacaksınız. Bizim durumumuzda, DAI yatıracağız ve karşılığında yvDAI alacağız.
 
-![Fantom ağındaki Yearn Finance kasaları](../.gitbook/assets/ftm-leverage-yv1.png)
+![Fantom ağındaki Yearn Finance kasaları](../../.gitbook/assets/ftm-leverage-yv1.png)
 
 {% hint style="info" %}
 Yearn Finance web sitesi Fantom'da hala beta modunda. Ekip hala platform üzerinde çalışıyor ve APR'ler/APY'ler görünmüyor. Yearn platformunda ödünç verme/ödünç alma protokolü olan Iron Bank sekmesine giderseniz, ödünç verme DAI'sinin %8 APR aldığını göreceksiniz. Lütfen riski size ait olmak üzere yatırım yapın.
@@ -27,7 +29,7 @@ DAI'nizi Yearn Finance'a yatırdıktan sonra, cüzdanınızda yvDAI olmalıdır.
 
 Mai Finance, yvDAI dahil olmak üzere birçok farklı getiri sağlayan tokenı teminat olarak kabul eder. Artık bu tokenı yatırabilir ve karşılığında MAI ödünç alabilirsiniz.
 
-![yvToken'ınızı Mai Finance'e yatırın](../.gitbook/assets/ftm-leverage-yv2.png)
+![yvToken'ınızı Mai Finance'e yatırın](../../.gitbook/assets/ftm-leverage-yv2.png)
 
 yvDAI kasasının likidasyon eşiği %110'dur, yani teminat değeriniz ile borç değeri arasındaki oran %110 olacak şekilde MAI ödünç alabilirsiniz. %110'un aslında kasanızın likidasyon edileceği oran olduğuna dikkat edin. Oranı bu minimum eşiğin üzerinde tutmanız gerekir. DAI'nin fiyatı çok fazla değişmediği için (birkaç sentten daha az yukarı veya aşağı), "güvenli" bir CDR (**C**ollateral to **D**ebt**R**atio) tutmak mümkündür. %115, ancak daha yüksek bir şey tutmaktan çekinmeyin.
 
@@ -49,9 +51,9 @@ $$
 
 Fantom'da MAI için ana likidite kaynağı [BeethovenX](https://app.beets.fi/#/trade). Stratejimiz için MAI tokenlerinizi daha fazla DAI ile değiştirebileceğiniz ana yer burasıdır.
 
-![MAI'yi daha fazla DAI için değiştirme](../.gitbook/assets/ftm-leverage-yv3.png)
+![MAI'yi daha fazla DAI için değiştirme](../../.gitbook/assets/ftm-leverage-yv3.png)
 
-Bu işlem döngümüzün son adımıdır. Artık daha fazla DAI'ye sahip olduğunuza göre, bunları bir Yearn kasasına yatırabilir ve döngüyü tekrarlayabilirsiniz. Böylece Yearn kasasında sahip olduğunuz varlık miktarını artırır, yani DAI'nizi bu platformda ödünç vererek daha fazla ödül toplayacağınız anlamına gelir. APR/APY aynı kalır, ancak daha fazla varlığa sahip olduğunuz için daha fazla getiri elde edersiniz ve ilk yatırımınızla karşılaştırırsanız, artan APR'nizdir. yvDAI döngülerini kullanarak hangi APR'yi elde edebileceğinize dair daha fazla örnek almak istiyorsanız, lütfen Polygon için [camDAI token kılavuzumuzu](../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) okuyun. Tamamen aynı stratejiyi ancak farklı araçları kullanır.
+Bu işlem döngümüzün son adımıdır. Artık daha fazla DAI'ye sahip olduğunuza göre, bunları bir Yearn kasasına yatırabilir ve döngüyü tekrarlayabilirsiniz. Böylece Yearn kasasında sahip olduğunuz varlık miktarını artırır, yani DAI'nizi bu platformda ödünç vererek daha fazla ödül toplayacağınız anlamına gelir. APR/APY aynı kalır, ancak daha fazla varlığa sahip olduğunuz için daha fazla getiri elde edersiniz ve ilk yatırımınızla karşılaştırırsanız, artan APR'nizdir. yvDAI döngülerini kullanarak hangi APR'yi elde edebileceğinize dair daha fazla örnek almak istiyorsanız, lütfen Polygon için [camDAI token kılavuzumuzu](../../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) okuyun. Tamamen aynı stratejiyi ancak farklı araçları kullanır.
 
 {% hint style="success" %}
 BeethovenX aslında ödünç aldığınız MAI'niz ile verim elde etmek için harika bir fırsattır. MAI'nizi MAI-DAI-USDC havuzuna (Kasım 2021 itibarıyla \~%30 APR) yatırmanız yeterlidir.
@@ -69,14 +71,13 @@ $$
 
 DAI'mizi yatırmak için Beefy Finance uygulamasını ziyaret edeceğiz ve verimleri artıracağımız platform olarak Scream'i seçeceğiz. Doğrudan DAI depozitosu almak için DAI filtresini de ekleyebilirsiniz.
 
-![DAI'nizi Scream kullanarak Beefy'ye yatırın](../.gitbook/assets/ftm-leverage-beefy1.png)
+![DAI'nizi Scream kullanarak Beefy'ye yatırın](../../.gitbook/assets/ftm-leverage-beefy1.png)
 
 Gördüğünüz gibi, Beefy, DAI tekli mevduatlarda zaten inanılmaz bir APY veriyor. DAI'nizi Beefy'ye yatırdıktan sonra, cüzdanınızda mooScreamDAI şeklinde bir para yatırma kanıtınız olmalıdır. yvDAI tokenına gelince, mooScreamDAI getiri taşıyan bir depozitodur, yani varlığınızın hala Scream'de kullanıldığı ve Beefy'de birleştirilerek getiri elde edildiği anlamına gelir. Ancak MAI'yi onlara karşı ödünç almak için bu tokenı Mai Finance'de kullanabileceksiniz.
 
 ### mooScreamToken'ınızı Mai Finance'e yatırın
 
 DAI'nizi Yearn Finance'a yatırdıktan sonra, cüzdanınızda mooScreamDAI olmalıdır. Yukarıdaki Yearn Vault stratejisiyle aynı adımları kullanabilirsiniz, tek fark mooScreamDAI likidasyon oranının %135 olmasıdır. DAI stablecoin olduğundan, MAI ödünç almak ve bir CDR'yi likidasyon oranına çok yakın tutmak hala mümkündür. Örneğimiz için %140'lık bir CDR hedefleyeceğiz ve yukarıdakiyle aynı formülle, 100$ değerinde DAI ile basabileceğimiz MAI miktarını hesaplayabiliriz.
-
 
 $$
 MAI_{available}=\frac{100-0*1.4}{1.4}=71.43
@@ -108,7 +109,7 @@ Borç tavanı, belirli bir kasa için basılabilecek maksimum MAI sayısını te
 
 Basılabilecek MAI miktarını [kasa oluşturma sayfasında](https://app.mai.finance/vaults/create) her zaman doğrulayabilirsiniz, ancak genellikle başka MAI olmadığını fark edeceksiniz. aşağıdaki hata mesajını alırsanız:
 
-![Borç tavanına ulaşıldığında alınan hata mesajı](../.gitbook/assets/ftm-leverage-error.png)
+![Borç tavanına ulaşıldığında alınan hata mesajı](../../.gitbook/assets/ftm-leverage-error.png)
 
 Sağlık faktörünüz doğru olsa bile bu hata mesajı görünecektir. Çoğu durumda tavanın yükseltilmesini beklemek tek çözümdür. Bunun ne zaman olduğunu öğrenmek için gözünü Twitter'da veya Discord'da tut.
 

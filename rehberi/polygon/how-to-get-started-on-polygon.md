@@ -32,13 +32,13 @@ Bunu yaptıktan sonra, tarayıcınızda Metamask logolu bir uzantınız olmalıd
 2. Daha sonra cüzdanınızı nasıl koruyacağınız ve **seed** kelimelerin önemi ile ilgili videoyu izlemelisiniz.
 3. **Seed** kelimeleri göreceksiniz. Yeni bir cüzdan oluştururken Seed kelimeleriz en önemli şeydir, çünkü **seed** kelimelerinizi kaybederseniz ve bilgisayarınız bozulursa Metamask hesabınıza erişemezsiniz. Bu yüzden lütfen **seed** kelimelerinize dikkat edin ve kimseyle paylaşmayın. İşiniz bittiğinde, tarayıcınızda şunu görmelisiniz:
 
-![Metamask'ın Arayüzü](<../.gitbook/assets/image (18).png>)
+![Metamask'ın Arayüzü](<../../.gitbook/assets/image (18).png>)
 
 ### Polygon Blok Zincirini Ekleme
 
 Yukarıdaki resimde de görebileceğiniz gibi Ethereum Mainnet kullanıyoruz, ancak farklı bir ağa geçmek için ortaya tıklarsak Polygon Mainnet'in olmadığını göreceksiniz. Endişelenmeyin, yapmamız gereken Polygon Mainnet'i manuel olarak eklemek, bunun için Custom RPC'ye tıklayıp şunu yazmanız gerekiyor:
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 İşiniz bittiğinde, Polygon Blockchain'deki Metamask cüzdanını kullanmaya neredeyse hazırsınız, geriye kalan tek adım Ethereum Mainnet'i Polygon Mainnet'e geçirmek. Bunu yapmak için Metamask'ın üstündeki açılır menüye tıklamanız gerekiyor.
 
@@ -48,7 +48,7 @@ Artık Polygon Blockchain'i kullanmak için ayarlanmış her şeye sahipsiniz, a
 
 Neyse ki, [bu sayfa](https://matic.supply) size Polygon ağındaki ilk işlemlerinizi yapmak için ücretsiz MATIC sağlar (bu tür sayfalara musluk denilebilir). Yapmanız gereken tek şey cüzdanınızı sayfaya bağlamak ve captcha'yı tamamlamak. Bu 0,002 MATIC (\~0,00223$), Polygon Ağı kullanarak birkaç işlem yapmamızı sağlayacaktır.
 
-![ÜCRETSİZ MATIC Alma](<../.gitbook/assets/image (23).png>)
+![ÜCRETSİZ MATIC Alma](<../../.gitbook/assets/image (23).png>)
 
 Bazen ağ tıkanıklığı nedeniyle, sayfayı kullanırken bazı sorunlar yaşayabilirsiniz. Biraz bekleyin ve tekrar deneyerek ücretsiz MATIC talep edebileceksiniz. Ayrıca, diğerinin çalışmaması durumunda [burayı](https://macncheese.finance/matic-polygon-mainnet-faucet.php) kullanmayı deneyebilirsiniz.
 
@@ -58,11 +58,11 @@ Yazının bir sonraki bölümüne geçmeden önce, bu muslukların insanların o
 
 Artık Metamask'ınızda biraz MATIC'e sahip olduğunuza göre, Polygon'un sahip olduğu farklı DApp'leri ve tokenları kullanmaya hazırsınız. [PolygonScan](https://polygonscan.com) kullanarak kullanmak istediğiniz tokenın adresini kopyalayabilirsiniz. İlgili kısımlara, eklemek istediğiniz tokenın adını yazmanız yeterlidir. Örneğin, Polygon üzerinde QiDAO'yu ararsak şunu elde ederiz:
 
-![Results of writing QiDAO on PolygonScan](<../.gitbook/assets/image (24).png>)
+![Results of writing QiDAO on PolygonScan](<../../.gitbook/assets/image (24).png>)
 
 Şimdi, sözleşmenin adresini kopyalamanız ve Metamask'ta **Token Ekle**'ye tıklamanız gerekecek.
 
-![Adding Qi on Metamask](<../.gitbook/assets/image (25).png>)
+![Adding Qi on Metamask](<../../.gitbook/assets/image (25).png>)
 
 ## Polygon'da Token Nasıl Satın Alınır?
 
@@ -70,7 +70,7 @@ Artık Metamask'ımız ve gas ücretini ödemek için biraz MATIC'imiz hazır ol
 
 Hangi DEX'i kullanmak istediğinize karar verdikten sonra, Polygon Blockchain'de favori tokenlerinizi satın almaya başlayabilirsiniz.
 
-![Buying Qi tokens using Quickswap](<../.gitbook/assets/image (26).png>)
+![Buying Qi tokens using Quickswap](<../../.gitbook/assets/image (26).png>)
 
 {% hint style="info" %}
 Token satın almak istediğinizde kullanabileceğiniz bir diğer ilginç DApp ise [Zapper](https://zapper.fi/es/exchange)'dir. Zapper teorik olarak iki tokenın takasını gerçekleştirmek için en ucuz platformu arar.
@@ -80,7 +80,7 @@ Token satın almak istediğinizde kullanabileceğiniz bir diğer ilginç DApp is
 
 Cüzdanınızın geçmişini nasıl kontrol edeceğinizi bilmek önemlidir, bunu yapmak için [DeBank](https://debank.com)'ı kullanabilirsiniz. Debank, Metamask hesabınızda yaptığınız farklı işlemleri kontrol etmenize ve kullandığınız tüm blok zincirlerdeki veya sahip olduğunuz NFT'lerdeki portföyünüzü kontrol etmenize izin verecektir. Bu, örneğin bazı Qi stake ederken aldığınız farklı Qi airdroplarını karşılaştırmak istiyorsanız faydalı olacaktır.
 
-![All the transactions made in our new Metamask address](<../.gitbook/assets/image (27).png>)
+![All the transactions made in our new Metamask address](<../../.gitbook/assets/image (27).png>)
 
 Gördüğünüz gibi, cüzdanımda 800.000 DxDex.io var ama bu cüzdanımda olması için hiçbir şey yapmadım. Bu tür dolandırıcılıkların farkında olmanız ve bilmediğiniz hiçbir coin ile asla etkileşime girmemeniz gerekir. Onlara erişim izni vermeniz durumunda, Debank bunu iptal etmenize izin verecektir. Lütfen dikkatli olun ve tokenı bilmiyorsanız ona dokunmayın.
 

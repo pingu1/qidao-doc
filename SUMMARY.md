@@ -1,43 +1,34 @@
-# İçindekiler
+# Table of contents
 
 * [Mai Finance için Topluluk Rehberi](README.md)
 
-## Polygon Rehberi
+## Rehberi
 
-* [Polygon'u Nasıl Kullanırım?](polygon-rehberi/how-to-get-started-on-polygon.md)
-* [Aave Market'ten Kaldıraçlı Yararlanın](polygon-rehberi/leverage-aave-tokens.md)
-* [camDAI Başlangıç Stratejisi](polygon-rehberi/camdai-beginner-strategy.md)
-* [Sadece stablecoin kullanarak çiftçilik stratejisi](polygon-rehberi/secure-your-yield-farming-profits.md)
-* [Polygon'da MAI ile ne yapabilirim?](polygon-rehberi/what-to-do-with-mai-on-polygon.md)
-* [Polygon üzerinde Qi ile Neler Yapabiliriz?](polygon-rehberi/what-to-do-with-qi-on-polygon.md)
-* [DApp'leri Lego gibi kullanın](polygon-rehberi/stack-dapps-like-lego-bricks.md)
-* [Çiftçilik (Farming) mi Staking mi? Yoksa her ikisi de mi?](polygon-rehberi/farming-or-staking-or-both.md)
-* [Çiftçilik ve Borçlanma (Borrowing) Ödülleri Nasıl Birleştirilir?](polygon-rehberi/how-to-combine-farming-and-borrowing-rewards.md)
-* [Polygon'daki OHM kopyaları: KLIMA örneği](polygon-rehberi/ohm-forks-on-polygon-the-case-of-klima.md)
-* [Ethalend ile MAI Tek Yönlü Stake](polygon-rehberi/ethalend-single-staking.md)
-
-## Avalanche Rehberi
-
-* [Avalanche'ı Nasıl Kullanırım?](avalanche-tutorials/how-to-get-started-on-avalanche.md)
-
-## Fantom Rehberi
-
-* [Fantom'u Nasıl Kullanırım?](fantom-tutorials/how-to-get-started-on-fantom.md)
-* [Fantom'dan Kaldıraçlı yararlanın](fantom-tutorials/leverage-your-crypto-on-fantom.md)
-* [Fantom'da MAI ile ne yapılır?](fantom-tutorials/what-to-do-with-mai-on-fantom.md)
-
-## Moonriver Rehberi
-
-* [Moonriver'ı Nasıl Kullanırım?](moonriver-tutorials/how-to-get-started-on-moonriver.md)
-
-## Cronos Rehberi
-
-* [Cronos'u Nasıl Kullanırım?](cronos-tutorials/how-to-get-started-on-cronos.md)
-* [Farming Legos with CroDex](cronos-tutorials/farming-legos-with-crodex.md)
-
-## Harmony Rehberi
-
-* [Harmony Nasıl Kullanırım?](harmony-tutorials/how-to-get-started-on-harmony.md)
+* [Polygon](rehberi/polygon/README.md)
+  * [Polygon'u Nasıl Kullanırım?](rehberi/polygon/how-to-get-started-on-polygon.md)
+  * [Aave Market'ten Kaldıraçlı Yararlanın](rehberi/polygon/leverage-aave-tokens.md)
+  * [camDAI Başlangıç Stratejisi](rehberi/polygon/camdai-beginner-strategy.md)
+  * [Sadece stablecoin kullanarak çiftçilik stratejisi](rehberi/polygon/secure-your-yield-farming-profits.md)
+  * [Polygon'da MAI ile ne yapabilirim?](rehberi/polygon/what-to-do-with-mai-on-polygon.md)
+  * [Polygon üzerinde Qi ile Neler Yapabiliriz?](rehberi/polygon/what-to-do-with-qi-on-polygon.md)
+  * [DApp'leri Lego gibi kullanın](rehberi/polygon/stack-dapps-like-lego-bricks.md)
+  * [Çiftçilik (Farming) mi Staking mi? Yoksa her ikisi de mi?](rehberi/polygon/farming-or-staking-or-both.md)
+  * [Çiftçilik ve Borçlanma (Borrowing) Ödülleri Nasıl Birleştirilir?](rehberi/polygon/how-to-combine-farming-and-borrowing-rewards.md)
+  * [Polygon'daki OHM kopyaları: KLIMA örneği](rehberi/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
+  * [Ethalend ile MAI Tek Yönlü Stake](rehberi/polygon/ethalend-single-staking.md)
+* [Avalanche](rehberi/avalanche/README.md)
+  * [Avalanche'ı Nasıl Kullanırım?](rehberi/avalanche/how-to-get-started-on-avalanche.md)
+* [Fantom](rehberi/fantom/README.md)
+  * [Fantom'u Nasıl Kullanırım?](rehberi/fantom/how-to-get-started-on-fantom.md)
+  * [Fantom'dan Kaldıraçlı yararlanın](rehberi/fantom/leverage-your-crypto-on-fantom.md)
+  * [Fantom'da MAI ile ne yapılır?](rehberi/fantom/what-to-do-with-mai-on-fantom.md)
+* [Moonriver](rehberi/moonriver/README.md)
+  * [Moonriver'ı Nasıl Kullanırım?](rehberi/moonriver/how-to-get-started-on-moonriver.md)
+* [Cronos](rehberi/cronos/README.md)
+  * [Cronos'u Nasıl Kullanırım?](rehberi/cronos/how-to-get-started-on-cronos.md)
+  * [Farming Legos with CroDex](rehberi/cronos/farming-legos-with-crodex.md)
+* [Harmony](rehberi/harmony/README.md)
+  * [Harmony Nasıl Kullanırım?](rehberi/harmony/how-to-get-started-on-harmony.md)
 
 ## MAI Üniversitesi
 
@@ -50,7 +41,7 @@
 * [MAI Metaverse Bölüm 2](mai-university/mai-metaverse-pt.2.md)
 * [MAI gerçek hayatta nasıl kullanılır?](mai-university/how-to-use-mai-in-the-real-life.md)
 
-## Topluluğa Katılın <a href="community" id="community"></a>
+## Topluluğa Katılın <a href="#community" id="community"></a>
 
 * [Discord](https://discord.gg/qidaoprotocol)
 * [Telegram](https://t.me/QiDaoProtocol)

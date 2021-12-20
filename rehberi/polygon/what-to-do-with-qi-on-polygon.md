@@ -9,7 +9,7 @@ description: >-
 
 ## Giriş
 
-Qi (\[tʃ Í] veya _chee_), Mai Finance'in tokenıdır. Bazıları onu oy vermek ve QIP (**Q**iDAO **I**geliştirme **P**roposallar) için kullanır, bazıları daha fazlasını elde etmek için riske atar ve bazıları basitçe onunla farmlar. [Pasif gelire ayrılmış kılavuzda](../mai-university/earning-passive-income-with-qidao.md) Mai Finance ile Qi'yi nasıl kullanabileceğiniz hakkında çok iyi bilgiler bulabilirsiniz.
+Qi (\[tʃ Í] veya _chee_), Mai Finance'in tokenıdır. Bazıları onu oy vermek ve QIP (**Q**iDAO **I**geliştirme **P**roposallar) için kullanır, bazıları daha fazlasını elde etmek için riske atar ve bazıları basitçe onunla farmlar. [Pasif gelire ayrılmış kılavuzda](../../mai-university/earning-passive-income-with-qidao.md) Mai Finance ile Qi'yi nasıl kullanabileceğiniz hakkında çok iyi bilgiler bulabilirsiniz.
 
 Bu kılavuz, Qi kullanarak öncelikle çiftçilik ve hasat verimine (_yield farming_) odaklanacaktır. Nasıl çok sayıda Qi üretebileceğinizi ve bunları Polygon'daki farklı platformlarda nasıl kullanabileceğinizi göreceğiz.
 
@@ -27,7 +27,7 @@ Bu kısma çok fazla zaman ayırmayacağım. Zaten konuyla ilgili tam bir rehber
 
 ### LP token çiftçiliği
 
-Verim elde etmek ve farming tokenlarını asla satmayarak, Qi çiftçilik stratejinize nasıl dahil edebileceğinizi gösteren birkaç sayfa daha var. Örnek ayrıntılar için [DApps like Lego bricks](stack-dapps-like-lego-bricks.md) veya [Farming or Staking?](../polygon-tutorials/tar%C4%B1m-or-stake-or-both.md) kılavuzlarına bakın.
+Verim elde etmek ve farming tokenlarını asla satmayarak, Qi çiftçilik stratejinize nasıl dahil edebileceğinizi gösteren birkaç sayfa daha var. Örnek ayrıntılar için [DApps like Lego bricks](stack-dapps-like-lego-bricks.md) veya [Farming or Staking?](../../polygon-tutorials/tar%C4%B1m-or-stake-or-both.md) kılavuzlarına bakın.
 
 Hızlı bir hatırlatma olarak, Qi, [QuickSwap](https://quickswap.exchange/#/quick) üzerinde LP (**L**iquidity **P**rovider) çiftleri oluşturmak için farklı tokenlarla eşleştirilir.
 
@@ -35,7 +35,7 @@ Hızlı bir hatırlatma olarak, Qi, [QuickSwap](https://quickswap.exchange/#/qui
 * QuickSwap'ta Qi-WETH ve QUICK tokenları ödüllendirin
 * QuickSwap'ta Qi-QUICK ve QUICK tokenları ödüllendirilin
 
-![Qi-WETH çifti için QuickSwap'ta LP havuzu](<../.gitbook/assets/image (19) (2).png>)
+![Qi-WETH çifti için QuickSwap'ta LP havuzu](<../../.gitbook/assets/image (19) (2).png>)
 
 ### Tek yönlü Qi çiftçiliği
 
@@ -43,7 +43,7 @@ Qi, yalnızca [Impermax](https://polygon.impermax.finance) üzerinde de kullanı
 
 Çalışma şekli, farm yapmak istediğiniz çifti oluşturan 2 tokenı ödünç almanız, bunları daha fazla LP tokenında birleştirmeniz ve çok daha yüksek bir pozisyonda farm yapmanızdır. Çoğu durumda, borçlanma oranları büyük ölçüde farming APR'si ile telafi edilir ve size bazı net pozitif ödüller verir.
 
-![Impermax'ta kaldıraçlı Qi-WETH pozisyonu](<../.gitbook/assets/image (10).png>)
+![Impermax'ta kaldıraçlı Qi-WETH pozisyonu](<../../.gitbook/assets/image (10).png>)
 
 Burada, QuickSwap'ta %239.68'lik bir APY'ye dayalı olarak, 5 kez kaldıraç kullandıktan sonra Impermax'ta nihai ödül olan APR'nin %393.88 olduğunu görebiliriz.
 
@@ -53,7 +53,7 @@ Ayrıca Impermax'ın tahmini APR'leri (**A**nnual **P**ercentage **R**eward) ver
 
 Impermax'ta, pozisyonunuzu güçlendirmek için Qi ve WETH'i ödünç almak için, onları bir yerden almanız gerekir. Bu durum yalnızca bazı diğer kullanıcılar (veya sizin) her iki tokenı da ayrı olarak sağladığı için mümkündür. Ne kadar çok token ödünç alınırsa, borçlanma oranı o kadar yüksek olur ve nihai APR o kadar düşük olur, bazen negatif olur.
 
-![Impermax'ta Qi-WETH için Qi ve WETH istatistikleri](<../.gitbook/assets/image (11).png>)
+![Impermax'ta Qi-WETH için Qi ve WETH istatistikleri](<../../.gitbook/assets/image (11).png>)
 
 Örneğimiz için Qi'ye odaklanacağız. Toplam Qi arzının 427,21$ ve kaldıraçlı pozisyonda kullanılan toplam miktarın 321,44$ olduğunu ve %75,24 kullanım oranı sağladığını görebilirsiniz. Impermax, arz APR'sini (Qi'ye borç veren kişilerin alacağı APR) ve ödünç alma APR'sini (krediyi ödemek için kesilecek çiftlik ödülünün yüzdesi) otomatik olarak hesaplayan bazı dahili mekanizmalara sahiptir.
 
@@ -67,11 +67,11 @@ Balancer, özellikle Qi ve/veya MAI olmak üzere, herhangi bir strateji için ge
 
 Burada kullanmak istediğimiz havuz Qi, WMATIC, BAL, USDC ve MAI içeren bir havuzdur. Bu havuz sizi hem Qi hem de BAL tokenları ile ödüllendirecek ve her ikisini de havuza dahil edebileceğinizi şimdiden görebilirsiniz. Balancer'daki havuzların bir başka şaşırtıcı avantajı da havuzu oluşturan tüm tokenları uygun oranda sağlamanız gerekmemesi olduğundan, algoritma bunu sizin için yapacaktır. Havuza yalnızca Qi yatırabileceğiniz ve her şeyi yeniden dengelemek için gerisini algoritmaya bırakabileceğiniz anlamına gelir.
 
-![Eylül 2021 itibariyle havuzun detayları](<../.gitbook/assets/image (12).png>)
+![Eylül 2021 itibariyle havuzun detayları](<../../.gitbook/assets/image (12).png>)
 
 Ek bir not olarak, BAL tokenları Mai Finance'de teminat olarak kullanılabilir (veya yakında olacak), bu da BAL tokenlarınızı Mai Finance'teki BAL kasasında saklama ve zamana karşı MAI ödünç alma seçeneğiniz olacağı anlamına gelir. Buna ek olarak, MAI'yi BAL tokenlarınıza karşı ödünç almak, sizi Balancer'daki havuzu besleyecek Qi ödülleri için uygun hale getirecektir.
 
-![Mai Finance ve Balancer kullanarak döngü yaratmak](<../.gitbook/assets/image (13).png>)
+![Mai Finance ve Balancer kullanarak döngü yaratmak](<../../.gitbook/assets/image (13).png>)
 
 BAL kasalarının APR'si, kasanın döngüde olmasının ne kadar ilginç olduğunu veya Qi'nizi Balancer havuzunda birleştirmenin daha iyi olup olmayacağını büyük ölçüde belirleyecektir.
 
@@ -85,7 +85,7 @@ Qi'nin fiyatını etkileyecek ana faktörlerden biri, oluşturuldukları orandı
 
 Şu anda 2 Qi emisyon kaynağı var: çiftçilik ödülleri ve kasa ödülleri.
 
-![Eylül 2021'de Mai Finance'te LP çiftlikleri](<../.gitbook/assets/image (16).png>)
+![Eylül 2021'de Mai Finance'te LP çiftlikleri](<../../.gitbook/assets/image (16).png>)
 
 MAI finansmanı üzerinden çiftçilik yapıyorsanız, MAI/USDC çifti ile Qi/WMATIC çifti (Eylül 2021 itibariyle) arasında seçim yapabilirsiniz.
 
@@ -106,9 +106,9 @@ Getiri optimizasyon araçları, ödülleri önceden tanımlanmış bazı stratej
 
 Örnek olarak, Adamant size Qi/WMATIC LP çiftini aşağıdaki ödül dağıtımıyla kendi platformlarında toplamanızı önerir.
 
-![Adamant'taki Qi-WMATIC havuzu](<../.gitbook/assets/image (15).png>)
+![Adamant'taki Qi-WMATIC havuzu](<../../.gitbook/assets/image (15).png>)
 
-![Adamant tarafından verilen %179.23 APR'nin ayrıntıları](<../.gitbook/assets/image (14).png>)
+![Adamant tarafından verilen %179.23 APR'nin ayrıntıları](<../../.gitbook/assets/image (14).png>)
 
 Genel APR'nin Mai Finance'dekinden daha yüksek olması durumunda, bunun yalnızca Adamant'ın çiftçilere ek ADDY ödülleri tahsis etmesinden kaynaklandığını fark edeceksiniz. Çiftçiye gerçekte yeniden dağıtılan Qi miktarı, Mai Finance'de alabileceğiniz %134,42'ye kıyasla %98,45'tir.
 
@@ -138,7 +138,7 @@ Aynı fenomen, çifti oluşturan 2 tokendan biri değer kazandığında veya kay
 
 Bu aynı zamanda, 2 tokendan birinin fiyatı yükseldiğinde, havuzun diğeri için bir miktar talep yaratması ve aynı zamanda fiyatını yükseltmesi anlamına gelir. Bunun tersi de doğrudur. Mesela bir token değer kaybederse, diğeri 1:1 oranını korumak için satılarak fiyatı düşürür. Bu, WEHT ve WMATIC'in (Qi'nin eşleştirildiği 2 ana token) fiyat dalgalanmasıyla karşılaştırıldığında Qi'nin fiyat dalgalanmasını da kısmen açıklar.
 
-![Qi fiyatı (soldaki) ve WMATIC fiyatı (sağdaki)](<../.gitbook/assets/image (17).png>)
+![Qi fiyatı (soldaki) ve WMATIC fiyatı (sağdaki)](<../../.gitbook/assets/image (17).png>)
 
 ### Kullanım Eksikliği
 

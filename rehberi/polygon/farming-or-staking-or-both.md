@@ -1,11 +1,13 @@
 ---
 description: >-
-  Bu kılavuz, Mai Finance ve QuickSwap'ta yeni LP havuzlarının kullanıma açılmasından sonra Mai Finance, QuickSwap ve Adamant arasındaki şaşırtıcı etkileşimleri vurgulayan bir strateji sunacaktır.
+  Bu kılavuz, Mai Finance ve QuickSwap'ta yeni LP havuzlarının kullanıma
+  açılmasından sonra Mai Finance, QuickSwap ve Adamant arasındaki şaşırtıcı
+  etkileşimleri vurgulayan bir strateji sunacaktır.
 ---
 
 # Çiftçilik (Farming) mi Staking mi? Yoksa her ikisi de mi?
 
-![](<../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
 
 ## Giriş
 
@@ -44,7 +46,7 @@ Ayrıca Mai Finance ve QuickSwap'ta fazla üretilen tokenlerin stake edilebilece
 
 ## Sistemin Ateşlenmesi
 
-![](<../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
 
 Aşağıda, 1.000 $ değerinde Qi/MATIC ve Qi/WETH LP tokenları ve 9 Eylül 2021'de farklı platformlar tarafından verilen mevcut APR'ler / APY'ler ile yapılan bir simülasyon yer almaktadır. Tanımladığımız şeyin gerçek bir uygulaması değildir. Oranlar değişecek, token fiyatları değişecek, bazı programlar sona erecek vs... bu nedenle nihai sonuçlar, her şey sabit kalırsa elde edebileceğinizin bir tahminidir, ki bu asla böyle olmayacak.
 

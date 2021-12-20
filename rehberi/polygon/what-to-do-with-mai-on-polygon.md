@@ -26,7 +26,7 @@ Bluechip projeleri, sağlam olduğu kanıtlanmış ve daha düşük risk arz ede
 
 Polygon ağında Balancer, 4 ana stabil tokendan oluşan bir havuz önerir: DAI, USDC, USDT ve MAI (miMATIC). Bu havuzun şu anda APR'ı \~%20'dir.
 
-![Ağustos 2021 itibarıyla stabil para para havuzu durumu](<../.gitbook/assets/Screen Shot 2021-08-11 at 11.06.59 AM.png>)
+![Ağustos 2021 itibarıyla stabil para para havuzu durumu](<../../.gitbook/assets/Screen Shot 2021-08-11 at 11.06.59 AM.png>)
 
 Balancer'ın en iyi yanı, havuza yatırmak için kesinlikle 4 tokena sahip olmanıza gerek olmamasıdır. Dengeleyici, yaptığınız para yatırma işlemiyle otomatik olarak dengeli bir kombinasyon oluşturacaktır. Yani 100$ değerinde MAI'niz varsa, bunları Balancer havuzuna yatırabilir ve yatırma anındaki ilgili fiyatlarına bağlı olarak algoritmanın her madeni para için %25'lik bir orana sahip olacak şekilde doğru şekilde kaydırmasına izin verebilirsiniz.
 
@@ -34,7 +34,7 @@ Havuz ödülleri, haftalık olarak dağıtılan BAL tokenı kullanılarak ödeni
 
 Tam akış böyle bir şey olurdu
 
-![](<../.gitbook/assets/Screen Shot 2021-08-11 at 11.34.45 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-11 at 11.34.45 AM.png>)
 
 Kriptonuzu ödünç vermek ve MAI ödünç almak için (MAI satın almak için kriptonuzu satmak yerine) Mai Finance'i nasıl kullanabileceğiniz konusunda daha fazla ayrıntıya ihtiyacınız varsa, bu sitedeki diğer kılavuzları okuyun. Hatta daha da fazla kazanmak için [döngüye AAVE'yi dahil edebilirsiniz](broken-reference).
 
@@ -61,7 +61,7 @@ Curve'deki ödüller şu şekilde verilir:
 * Daha sonra yukarıdaki döngüyü tekrarlamak ve kredinizi ve yatırım sermayenizi artırmak için kullanabileceğiniz WMATIC
 * Daha fazla MAI ödünç almak ve yatırım sermayenizi artırmak için Mai Finance'te teminat olarak da kullanılabilen CRV tokenı
 
-![](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.14.27 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.14.27 PM.png>)
 
 ### AAVE
 
@@ -78,7 +78,7 @@ QuickSwap'ta MAI'yi kullanma şekliniz \[düzenli verim çiftliğine]\(secure-yo
 * ticaret ücretleri
 * QUICK
 
-![Ağustos 2021 itibarıyla QuickSwap'taki MAI/USDC havuzunun ayrıntıları](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![Ağustos 2021 itibarıyla QuickSwap'taki MAI/USDC havuzunun ayrıntıları](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
 
 ## Degen Çiftlikleri ve Toplayıcılar
 
@@ -94,7 +94,7 @@ Adamant şu anda MAI/USDC LP çiftini kabul eden birkaç havuzu desteklemektedir
 * DinoSwap: Dino ödülü, daha fazla MAI/USDC LP ve WMATIC ödülüyle değiştirildi
 * Mai Finance: Qi ödülü, daha fazla MAI/USDC LP ve WMATIC ödülüyle değiştirildi
 
-![Adamant'ta QuickSwap MAI/USDC havuzu](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.51.12 PM.png>)
+![Adamant'ta QuickSwap MAI/USDC havuzu](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.51.12 PM.png>)
 
 {% hint style="info" %}
 QuickSwap web sitesindeki QuickSwap havuzunun ekran görüntüleri (yukarıdaki paragrafa bakın) ve Adamant aynı gün çekilmiştir, ancak farklı APY'leri göstermektedir (**A**nnual **P**ercentage **Y**ields).
@@ -129,7 +129,7 @@ Diğer çiftlikler de MAI/USDC havuzunu kabul edebilir. Yeni çiftlikler ve bunl
 
 [Impermax](https://polygon.impermax.finance), kullanıcıların daha yüksek getiri için LP tokenlardan yararlanmalarına olanak tanıyan bir platformdur. Amaç çok basit: LP token sağlayarak ve bunları teminat olarak kullanarak, daha fazla LP tokenı oluşturmak ve döngüyü tekrarlamak için 2 temel varlıktan daha fazlasını ödünç alabilir.
 
-![Impermax döngüsü açıklaması](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
+![Impermax döngüsü açıklaması](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
 
 Bunu yaparken, kullanıcı kalıcı kayba maruz kalır ve kayıp, döngünün tekrarlanma sayısı kadar büyütülür. Çok fazla döngü uygulandığında likidasyon riski de katlanmaktadır. Gerçekten de, APR çarpılırsa, çifti oluşturan iki tokenın fiyat değişimi kaldıraç etkisi ile güçlendirilir ve bu da daha hızlı likidasyona yol açar.
 
@@ -151,11 +151,11 @@ Ayrıca, tüm oranlar, döngünün uygulanma sayısı ile büyütüldüğünden 
 
 Günün sonunda temel APR'yi çok daha büyük bir değerde kullanıyorsunuz, bu da çok daha büyük faizler kazandırıyor ve ilk konumunuzun APR'sini artırıyor.
 
-![Başlangıçta 70,52$ MAI/USDC çifti olan bir Impermax panosu örneği](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.38.33 PM.png>)
+![Başlangıçta 70,52$ MAI/USDC çifti olan bir Impermax panosu örneği](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.38.33 PM.png>)
 
 Ne kadar teminat kullandığımı, başlangıçta ne kadar yatırım yaptığımı, kaldıraç oranının ne olduğunu ve kaldıraç oranından dolayı likidasyon değerlerinin ne olduğunu çok rahat görebiliyorum. Bu pozisyon bana aşağıdaki oranları verecek
 
-![Belirli bir zamanda kazanç ve harcama tahmini](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.41.55 PM.png>)
+![Belirli bir zamanda kazanç ve harcama tahmini](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.41.55 PM.png>)
 
 APR, daha fazla MAI/USDC ile takas edilebilen (Mai Finance'in gücünü %0 faizle borç almak için kullanın, RFTM) veya Impermax'ta IMX'i kabul eden belirli havuzlarda likidite sağlamak için kullanılabilen IMX tokenı olarak verilir.
 
@@ -163,7 +163,7 @@ APR, daha fazla MAI/USDC ile takas edilebilen (Mai Finance'in gücünü %0 faizl
 
 Aslında uygulamada pozisyonlarına kaldıraç döngüleri uygulamak isteyenlere de likidite sağlayabilirsiniz (daha fazla LP tokenı oluşturmak için temel varlıklara ihtiyaç duyacaklar). Varlıkları ödünç vermek, getiri elde etmenin ve borç alanların tüm riskleri almasına izin vermenin harika bir yoludur. Ayrıca ne kadar çok kullanıcı ödünç alırsa, arz APR'si o kadar yüksek olacaktır.
 
-![Belirli bir zamanda Impermax'ta MAI sağlama ve ödünç alma oranları](<../.gitbook/assets/Screen Shot 2021-08-11 at 1.47.56 PM.png>)
+![Belirli bir zamanda Impermax'ta MAI sağlama ve ödünç alma oranları](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.47.56 PM.png>)
 
 Bu yöntem Mai Finance'deki %0 kredinizi optimize etmenin başka bir harika yoludur. MAI ödünç almak için hiçbir şey ödemenize gerek yok. Aynı zamanda Impermax'a yatırarak çok fazla faiz kazanabilirsiniz.
 

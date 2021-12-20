@@ -10,7 +10,7 @@ description: >-
 
 Belirli bir çiftlikte hasat yaptığınızda, genellikle platformun tokenlarını ödül olarak alırsınız. Daha sonra bunları satmak ya da saklamak ve zaman içinde bir miktar değer kazanmalarını ummak arasında seçim yapabilirsiniz. Bu kılavuz, çıkarları birleştirirken hiçbir şey satmadan getirilerinizi en üst düzeye çıkarmak için birkaç farklı DApp (**D**ecentralized **A**pplication) sunacaktır. Makaledede giriş stablecoinlerden başlayacak çünkü bu nispeten güvenli bir strateji olarak kabul ediliyor. Ancak bunun finansal bir tavsiye olmadığını ve sonuçların kesinlikle garanti edilmediği için bu kılavuzun dikkatle takip edilmesi gerektiğini unutmamalısınız. Her zaman olduğu gibi, kendi araştırmanızı yapın.
 
-![](<../.gitbook/assets/Screen Shot 2021-08-30 at 10.52.20 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-30 at 10.52.20 AM.png>)
 
 ## QuickSwap
 
@@ -20,11 +20,11 @@ QuickSwap, Polygon'daki en büyük AMM'lerden biridir (**A**utomatic **M**arket 
 
 Bu alıştırma için QuickSwap'ta MAI/USDC çiftini kullanacağız. İstikrarlı bir havuz olan bu likidite havuzu, bir APY (**A**nnual **P**ercentage **Y**ield %20 ile %25 arasında değişen getiri) önerir. Getiri, işlem ücretlerinden (likidite havuzuna tahakkuk eden) ve QUICK ödüllerden oluşur
 
-![Ağustos 2021 itibariyle QuickSwap'ta MAI/USDC likidite havuzu](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![Ağustos 2021 itibariyle QuickSwap'ta MAI/USDC likidite havuzu](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
 
 Havuz her gün sabit miktarda QUICK token alır ve daha sonra havuzdaki paylarına göre likidite sağlayıcılarına dağıtılır. Örnek olarak, havuzda 1.000.000$ değerinde likidite varsa ve zaten 1.000$ LP (**L**iquidity**P**rovider) tokenları yatırdıysanız, havuzun %0,1'ine sahip olursunuz ve bu da size hak kazandırır. günlük QUICK ödülünün %0,1'ine kadar. Girdiğiniz havuzu yönettiğinizde Quick ödülünüz talep edilebilir.
 
-![20 $ depozito için Quick ödülümü talep ediyorum](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.39.44 AM.png>)
+![20 $ depozito için Quick ödülümü talep ediyorum](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.39.44 AM.png>)
 
 Quick'leri terkar işleme koymak için düzenli olarak talep edebilirsiniz. Nasıl olduğunu görelim.
 
@@ -42,7 +42,7 @@ Artık likidite havuzuna yatırılan stablecoinleriniz var ve bunlar QUICK üret
 
 Dragon's Syrup, QuickSwap'ın QUICK'i olanlara daha da fazla ödüllendirmek için sunduğu ek bir yoldur. QuickSwap ekibi, ortakların QuickSwap platformunun kullanıcılarına kendi tokenlarını vererek ürünlerini tanıtabilecekleri bir program oluşturdu. Ardından, Dragon's Lair ödüllerinin yanı sıra bu egzotik tokenları kazanmak için dQUICK tokenlarınızı çiftliklerden birine yatırabilirsiniz. Bizim ilgilendiğimiz ADDY çiftliği.
 
-![Dragon's Syrup, dQUICK para yatırma yoluyla ADDY tokeni toplamak için bir çiftlik](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.49.25 AM.png>)
+![Dragon's Syrup, dQUICK para yatırma yoluyla ADDY tokeni toplamak için bir çiftlik](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.49.25 AM.png>)
 
 DQUICK'inizi çiftliğe yatırdığınızda, Dragon's Lair'den kaybolacaklar (hemen hemen aynı şekilde, CamToken'larınızın onları bir Kasaya yatırdığınızda Mai Finance'deki Getiri sayfasından kaybolması gibi). Ancak Lair'den gelen dQUICK APY'nin hala geçerli olduğunu ve ayrıca ek ADDY ödülü alacağınızı açıkça görebilirsiniz. Burada, APR (**A**annual **P**ercentage **R**ewards) şu anda %21,36'dır.
 
@@ -78,7 +78,7 @@ Bu alıştırma için Impermax'taki MAI/USDC havuzunu da kullanacağız. MAI/USD
 
 QuickSwap'ta 20$ değerinde MAI/USDC çifti yatırdım. Impermax'ta, yalnızca 10$ değerinde MAI/USDC yatıracağım ve 20$'lık bir risk elde etmek için üzerine x2 kaldıraç uygulayacağım.
 
-![Belirli bir zamanda Impermax'ta kaldıraç penceresi](<../.gitbook/assets/Screen Shot 2021-08-30 at 7.11.10 AM.png>)
+![Belirli bir zamanda Impermax'ta kaldıraç penceresi](<../../.gitbook/assets/Screen Shot 2021-08-30 at 7.11.10 AM.png>)
 
 Yukarıdaki ekran görüntüsünde görebilirsiniz, kaldıracımı x2.1'e yükseltirsem ödünç almak iyi olur
 
@@ -106,7 +106,7 @@ Adamant, likidite havuzlarında hasadı otomatikleştiren ve ödülleri ek LP to
 
 QuickSwap'ta QUICK kazanıyoruz ve Impermax'ta IMX kazanıyoruz. QuickSwap'tan QUICK/IMX havuzunu gruplamak için Adamant'ı kullanalım. Neden bunu yapıyoruz? Çünkü burada gördüğünüz gibi çiftlik aslında çok karlı:
 
-![Adamant'ta QuickSwap'ten IMX/QUICK havuzu](<../.gitbook/assets/Screen Shot 2021-08-30 at 7.27.26 AM.png>)
+![Adamant'ta QuickSwap'ten IMX/QUICK havuzu](<../../.gitbook/assets/Screen Shot 2021-08-30 at 7.27.26 AM.png>)
 
 Bu makale yazılırken, Adamant'taki IMX/QUICK havuzunun mevcut APY'si %417,25'tir. Ödül şunlardan oluşur:
 
@@ -229,7 +229,7 @@ Bu noktada, Mai Finance üzerindeki "borç", hem QuickSwap hem de Impermax'ta MA
 
 ## Çiftlilik Sonuçları
 
-![](<../.gitbook/assets/Screen Shot 2021-08-30 at 11.33.34 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-30 at 11.33.34 AM.png>)
 
 ### Günlük Rutin
 

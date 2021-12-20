@@ -15,7 +15,7 @@ Bu kılavuzda, daha yüksek faizler için risk dokunuşuyla kaldıraçlı stabil
 
 ## Kaldıraç Kavramını Keşfetme
 
-![UnluQi altın madencisinin hikayesi](../.gitbook/assets/canDAI-farwest.png)
+![UnluQi altın madencisinin hikayesi](../../.gitbook/assets/canDAI-farwest.png)
 
 Büyük altına hücum sırasında uzak batıdayız. Bankalar insanlara borç para verebilmek ve bu kredilerden faiz alabilmek için altın almak, madenciler de altınlarını bankalara satarak zengin olmak istiyor.
 
@@ -37,7 +37,7 @@ Bankaya geri dönersiniz ve satın aldığınız altınları yatırırsınız. A
 
 [AAVE](https://app.aave.com), varlıklarınızı yatırabileceğiniz bir ödünç verme ve ödünç alma platformudur. AAVE'de borç vererek, yatırılan tokenlarınız getiri elde edecektir. Stratejimiz için, sabit bir token olan (ABD dolarına sabitlenmiş) DAI'ye borç vereceğiz. AAVE'de 100 ABD doları değerindeki DAI, 1 yıllık süre boyunca potansiyel olarak %4 ila %10 arasında bir getiri oranı oluşturacaktır.
 
-![AAVE, Ekim 2021 itibarıyla Polygon'da](../.gitbook/assets/canDAI-aave.png)
+![AAVE, Ekim 2021 itibarıyla Polygon'da](../../.gitbook/assets/canDAI-aave.png)
 
 Varlıklarınızı AAVE'ye yatırdığınızda, bir depozito kanıtı alacaksınız. Örneğimizde, DAI yatırdığımız için cüzdanımıza amDAI tokenları alacağız (**a**ave **m**arket DAI). Bu kanıtı kesinlikle saklamanız gerekiyor çünkü DAI'nizi AAVE'den çıkarmak için buna ihtiyacınız olacak. Vahşi Batı karşılaştırmamızda altınlarınızı kabul edecek banka budur.
 
@@ -47,7 +47,7 @@ Varlıklarınızı AAVE'ye yatırdığınızda, bir depozito kanıtı alacaksın
 
 (https://app.mai.finance/yield) üzerinden amDAI'yi kabul edecektir. Getiri aracı, AAVE ile Mai Finance'teki kasa arasında yalnızca bir ara araçtır. AAVE ekran görüntüsünde görebileceğiniz gibi, DAI ödünç vermek, DAI'de (birleştirilmiş) %8,75 kazanmanızı sağlar, aynı zamanda MATIC'de %2,01 ödül kazanmanızı sağlar. Mai Finance'deki getiri aracı, bu MATIC ödülünü toplayacak ve DAI mevduatınıza eklenecek daha fazla DAI ile değiştirecektir. Mai Finance sitesindeki APY (**A**nnual **P**ercentage **Y**ield) bu nedenle AAVE'den alınan toplu faizleri göstermektedir.
 
-![Mai Finance'de getiri aracı](../.gitbook/assets/camDAI-yield.png)
+![Mai Finance'de getiri aracı](../../.gitbook/assets/camDAI-yield.png)
 
 AmDAI'nizi getiri aracına yatırdıktan sonra, cüzdanınızda bir miktar camDAI alacaksınız (**c** amDAI'yi birleştirir). Bu, getiri aracındaki amDAI havuzundaki payınızı gösteren bir makbuzdur. Bir yan not olarak, camDAI, amDAI havuzundaki payınızın bir temsili olduğundan, amDAI ve camDAI arasındaki oran 1:1 değildir. Daha fazla ayrıntı için [bu makaleye](broken-reference) bakın.
 
@@ -57,7 +57,7 @@ Artık [camDAI'nizi yatırabilirsiniz](https://app.mai.finance/vaults) tokenlar�
 
 [Zapper](https://zapper.fi/dashboard), Polygon'da DeFi'nin bir İsviçre çakısıdır. Bu platform, likidite havuzlarında getiri elde etmenize, varlıklarınızı doğrudan kendi platformlarından AAVE'ye ödünç vermenize, farklı yatırımlarınızın bir gösterge tablosunu sunmanıza ve bazı para birimlerini diğer para birimleriyle değiştirmenize olanak tanır. Ödünç aldığımız MAI sabit parasını daha fazla DAI ile değiştirmek için kullanacağımız son özelliktir.
 
-![MAI'yi DAI ile swaplama](../.gitbook/assets/camDAI-zapper.png)
+![MAI'yi DAI ile swaplama](../../.gitbook/assets/camDAI-zapper.png)
 
 Vahşi Batı örneğimizde Zapper, paranızı kabul edecek ve size altın satacak olan altın madencisidir.
 
@@ -73,7 +73,7 @@ Rehberimiz için, yatırımlarımızı biraz daha oynaklığa maruz bırakmak ve
 
 AAVE'nin ne olduğunu açıkladık ve stratejimiz AAVE'deki DAI mevduatını, getiri enstrümanındaki amDAI mevduatını ve camDAI kasasındaki camDAI mevduatını otomatikleştirmek için Mai Finance'den bir özellik kullanacak.
 
-![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
+![](../../.gitbook/assets/camDAI-zapDAI.png) ![](../../.gitbook/assets/camDAI-zapdeposit.png)
 
 The `Zap in using DAI` butonu, DAI'nizi kasaya yatırmanıza izin veren bir pencere açar ve elinizin altındaki AAVE mevduatını çalıştırır. Bu seçenek çok zaman kazandırırken gas tasarrufu sağlıyor.
 
@@ -135,7 +135,7 @@ $$
 
 Yüksek volatiliteli varlıkları değerlendirmek için, yukarıdakiyle aynı döngüyü kullanabilir. Ödünç alınan MAI'nin yalnızca %90'ını kaldıraç edebilir ve %10'unu başka bir şey satın almak için kullanabilirsiniz. Bu örnekte, %10'u Qi (Mai Finance'in yerel tokenı) satın almak için kullanacağız ve şu anda 107.12% APR (**A**nnual **P**ercentage **R**evenue) olan Balancer'da Qi-BAL havuzunu kullanacağız
 
-![Ekim 2021 itibarıyla Qi-BAL havuz durumu](../.gitbook/assets/camDAI-balancer.png)
+![Ekim 2021 itibarıyla Qi-BAL havuz durumu](../../.gitbook/assets/camDAI-balancer.png)
 
 camDAI kasasına yeniden daha az DAI enjekte ettiğimiz için daha az döngü çalıştıracağız. Kurulum şöyle görünecek:
 
