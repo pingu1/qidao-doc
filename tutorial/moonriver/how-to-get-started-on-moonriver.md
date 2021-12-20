@@ -38,7 +38,7 @@ Salva le modifiche e Metamask passerà automaticamente alla rete Moonriver:
 
 ![Ottimo lavoro! Ora sei su Moonriver!](../../.gitbook/assets/Moonriver-setup-MM.png)
 
-## Trasferire assets da un'altra blockchain verso  Moonriver (Bridging)
+## Trasferire assets verso  Moonriver (Bridging)
 
 ### Faucets
 
@@ -100,7 +100,7 @@ Mentre il vostro collaterale sta guadagnando il 44,08% APY da Beefy Finance (al 
 
 ## Disclaimer
 
-Questa guida NON è un consiglio finanziario e va considerata a pure scopo educativo. Fai sempre le tue ricerche. La discussione di un progetto in questa guida non deve essere considerata come un'approvazione del progetto stesso.
+Questa guida NON è un consiglio finanziario e va considerata a puro scopo educativo. Fai sempre le tue ricerche. La discussione di un progetto in questa guida non deve essere considerata come un'approvazione del progetto stesso.
 
 {% hint style="info" %}
 Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.

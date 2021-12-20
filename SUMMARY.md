@@ -25,10 +25,10 @@
 * [Moonriver](tutorial/moonriver/README.md)
   * [Come iniziare con Moonriver](tutorial/moonriver/how-to-get-started-on-moonriver.md)
 * [Cronos](tutorial/cronos/README.md)
-  * [How to get started on Cronos](tutorial/cronos/how-to-get-started-on-cronos.md)
+  * [Come iniziare con Cronos](tutorial/cronos/how-to-get-started-on-cronos.md)
   * [Farming Legos with CroDex](tutorial/cronos/farming-legos-with-crodex.md)
 * [Harmony](tutorial/harmony/README.md)
-  * [How to get started on Harmony](tutorial/harmony/how-to-get-started-on-harmony.md)
+  * [Come iniziare con Harmony](tutorial/harmony/how-to-get-started-on-harmony.md)
 
 ## Università di MAI
 
