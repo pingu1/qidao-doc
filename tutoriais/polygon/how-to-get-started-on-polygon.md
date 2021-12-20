@@ -34,13 +34,13 @@ No final da instalação, vocé irá visualizar a extensão no seu navegador com
 
 Ao terminar, você deve ver a seguinte imagem no teu navegador:
 
-![Interface da Metamask ](<../.gitbook/assets/image (27).png>)
+![Interface da Metamask ](<../../.gitbook/assets/image (27).png>)
 
 ### Adicionando a Rede Polygon
 
 Como você pode ver na imagem acima, nós estamos usando a rede Ethereum Mainnet, entretanto, se nós clicarmos para trocar para uma rede diferente, você irá ver que a rede Polygon Mainnet não está ali. Não se preocupe, o que nós precisamos fazer é adicionar manualmente a rede Polygon Mainnet. Para fazer isto, você precisar clicar em "Custom RPC" e escrever isto:
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (16).png>)
 
 Após ter feito isso, você está quase pronto para poder utilizar a carteira Metamask e acessar a rede Polygon. Resta apenas trocar a rede, da Ethereum para a Polygon, o que pode ser feito simplesmente clicando na aba suspensa que fica na parte de cima da interface da extensão Metamask.&#x20;
 
@@ -50,7 +50,7 @@ Agora que você já tem tudo configurado para utilizar a rede Polygon, você pre
 
 Felizmente, esta [página](https://matic.supply) distribui MATIC gratuitamente, para ajudar a você realizar as suas primeiras transaçoes na rede Polygon (este tipo de pagina pode ser chamado de _**faucet,**_** ou torneira em inglês**). A unica coisa que você precisa fazer é conectar a sua carteira à pagina e completar o captcha. Estes 0.002 MATIC (\~0,00223$) irão permitir a voce fazer algumas transaçoes na rede Polygon.
 
-![Garantindo MATIC gratuitamente](<../.gitbook/assets/image (26).png>)
+![Garantindo MATIC gratuitamente](<../../.gitbook/assets/image (26).png>)
 
 Talvez, devido ao congestionamento da rede, você possa ter alguns problemas em utilizar esta página. Caso isso aconteça, espere um pouco pois logo você deverá conseguir reivindicar MATIC gratuitamente. Você, também pode tentar usar esta [pagina](https://macncheese.finance/matic-polygon-mainnet-faucet.php) caso a outra não esteja funcionando.&#x20;
 
@@ -60,11 +60,11 @@ Antes de avançarmos para a próxima parte do artigo, você precisa estar atento
 
 Agora que você ja possui um saldo positivo de MATIC na sua Metamask, você está pronto para utilizar os diferentes DApps e tokens que a Polygon possui. Você pode copiar o endereço do token que você deseja usar utilizando a [PolygonScan](https://polygonscan.com). Quando você acessar a página, apenas precisará escrever o nome do token que deseja adicionar. Por exemplo, se nós procuramos QiDAO na Polygon, nós encontraremos isto:
 
-![Resultado exibido ao pesquisar QiDAO na PolygonScan](<../.gitbook/assets/image (24).png>)
+![Resultado exibido ao pesquisar QiDAO na PolygonScan](<../../.gitbook/assets/image (24).png>)
 
 Agora, você precisará copiar o endereço do contrato e clicar em **adicionar token** na Metamask.
 
-![Adicionando Qi na MetamaskC](<../.gitbook/assets/image (22).png>)
+![Adicionando Qi na MetamaskC](<../../.gitbook/assets/image (22).png>)
 
 ## Como comprar tokens na Polygon
 
@@ -72,7 +72,7 @@ Agora que nós temos nossa Metamask configurada e um saldo de MATIC para pagar o
 
 Após você decidir que DEX deseja utiliar, você pode começar a comprar seus tokens favoritos na rede Polygon.
 
-![Comprando tokens Qi utilizando a Quickswap](<../.gitbook/assets/image (25).png>)
+![Comprando tokens Qi utilizando a Quickswap](<../../.gitbook/assets/image (25).png>)
 
 {% hint style="info" %}
 Um DApp interessante que pode ser utilizado no momento voce for comprar tokens se chama [Zapper](https://zapper.fi/es/exchange). O Zapper busca pela plataforma mais barata para realizar a troca, _swap_, entre 2 tokens, o que pode te ajudar a economizar um pouco de MATIC.
@@ -82,7 +82,7 @@ Um DApp interessante que pode ser utilizado no momento voce for comprar tokens s
 
 É importante saber como verificar o histórico de transaçōes da sua carteira, e para fazer isso, você pode utilizar a [DeBank](https://debank.com). DeBank permite a você conferir as diferentes transações que voce realizou utilizando sua Metamask, assim como conferir o seu portfolio dentro de todas as redes que voce utiliza ou os NFT's que você possui. Isto será util quando você quiser comparar, por exemplo, os diferentes _airdrops_ de Qi que você recebe ao fazer _staking_ de Qi.
 
-![Todas as transaçōes feitas com o nosso novo endereço Metamask](<../.gitbook/assets/image (10).png>)
+![Todas as transaçōes feitas com o nosso novo endereço Metamask](<../../.gitbook/assets/image (10).png>)
 
 Como você pode perceber, por exemplo, há uma transação contendo 800,000 DxDex.io, mas ainda não fiz nada para obter oficialmente esses tokens em minha carteira. Você precisa estar atento, pois este é um dos tipos de golpes existentes. Nunca interaja com qualquer moeda que você nao conhece. Caso voce tenha, acidentalmente, garantido acesso a elas, através do DeBank voce pode revoga-lo. Por favor, seja cuidadoso. Se você não conhece o token, não interaja com ele, simplesmente ignore, como é de costume com spam de email.
 

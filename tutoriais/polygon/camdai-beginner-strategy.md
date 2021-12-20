@@ -17,7 +17,7 @@ Neste guia, vamos apresentar uma estratégia de investimento com base na alavanc
 
 
 
-![A história de um mineiro azarado](../.gitbook/assets/canDAI-farwest.png)
+![A história de um mineiro azarado](../../.gitbook/assets/canDAI-farwest.png)
 
 Estamos no faroeste, durante a grande corrida do ouro. Os bancos querem comprar ouro para oferecerem como empréstimo aos clientes e recebem taxas de juros nesses empréstimos, enquanto que os mineiros querem ficar ricos ao vender ouro aos bancos.
 
@@ -39,7 +39,7 @@ Isso é o que nós chamamos de alavancagem. Agora, imagine encontrar um banco qu
 
 [AAVE](https://app.aave.com) é uma plataforma de empréstimos onde você consegue depositar seus ativos. Emprestando na AAVE, seus tokens depositados te geram juros. Para a nosa estratégia, nós iremos depositar DAI, uma stablecoin (pareada ao dolar americano). Na AAVE, 100$ de DAI podem geram entre 4% a 10% de retorno ao seu investimento em um prazo de 1 ano.
 
-![Mercados da AAVE na Polygon em Outubro de 2021](../.gitbook/assets/canDAI-aave.png)
+![Mercados da AAVE na Polygon em Outubro de 2021](../../.gitbook/assets/canDAI-aave.png)
 
 Ao depositar seus ativos na AAVE, você receberá uma prova de deposito. Nos nossos exemplos, como nós estamos depositando DAI, nós iremos receber tokens amDAI em nossa carteira. Você precisa guardar este comprovante pois é somente com ele que você pode posteriormente retirar os seus tokens DAI da AAVE. Esse é o banco que irá aceitar o seu ouro no nosso exemplo do faroeste.
 
@@ -49,9 +49,9 @@ Ao depositar seus ativos na AAVE, você receberá uma prova de deposito. Nos nos
 
 Mai finance aceitará o amDAI como seu [instrumento de rendimento](https://app.mai.finance/yield). O instrumento de rendimentos é apenas um intermediario entre a AAVE a o cofre na Mai Finance. Como você pode observar na foto acima, emprestar DAI irá garantir a você um retorno de 8.75% em DAI (como juros compostos), e também 2.01% de recompensas em MATIC. O instrumento de rendimento na Mai Finance irá produzir esta recompensa em MATIC e trocar por mais DAI, que será adicionado ao seu deposito de DAI. O _APY_ (_**A**nnual **P**ercentag_e _**Y**ield_, ou rendimento percentual anual) na Mai Finance está, portanto, mostrand os juros agregados da AAVE.
 
-![Instrumento de Rendimento na Mai Finance](../.gitbook/assets/camDAI-yield.png)
+![Instrumento de Rendimento na Mai Finance](../../.gitbook/assets/camDAI-yield.png)
 
-Após você depositar seu amDAI no instrumento de rendimento, você irá receber camDAI na sua carteira (**c**ompounding amDAI, ou amDAI com juros **c**ompostos). Este é o comprovante que indica a sua parcela na _pool_ (ou piscina de liquidez) amDAI do instrumento de rendimento. Uma observação, porque o camDAI é uma representação da sua parcela na _pool_ amDAI, a razão entre amDAI e camDAi não é de 1:1. Leia [este artigo](../investment-tutorials/leverage-aave-tokens.md#amtokens-vs-camtoken) para maiores informaçoes.
+Após você depositar seu amDAI no instrumento de rendimento, você irá receber camDAI na sua carteira (**c**ompounding amDAI, ou amDAI com juros **c**ompostos). Este é o comprovante que indica a sua parcela na _pool_ (ou piscina de liquidez) amDAI do instrumento de rendimento. Uma observação, porque o camDAI é uma representação da sua parcela na _pool_ amDAI, a razão entre amDAI e camDAi não é de 1:1. Leia [este artigo](leverage-aave-tokens.md#amtokens-vs-camtoken) para maiores informaçoes.
 
 Agora, você pode [depositar seus tokens camDAI](https://app.mai.finance/vaults) em um cofre na Mai Finance, e então será possível pegar emprestado mais MAI (uma stablecoin pareada ao dolar) graças a sua garantia. No nosso exemplo do faroeste, este é o segundo banco que permite você pegar um empréstimo em dinheiro baseado na quantidade de ouro que você tem depositado no primeiro banco. Este segundo banco aceita o comprovante do primeiro banco como uma garantia em caso de você não poder pagar o empréstimo.&#x20;
 
@@ -59,7 +59,7 @@ Agora, você pode [depositar seus tokens camDAI](https://app.mai.finance/vaults)
 
 [Zapper](https://zapper.fi/dashboard) é um canivete suiço de DeFi na rede Polygon. Esta plataforma permite a você obter rendimento em pools de liquidez, emprestar os seus ativos na AAVE diretamente de sua plataforma, e permite a você trocar algumas moedas por outras. Este é o ultimo recurso que nós utilizaremos para trocar a stablecoin MAI, que acabamos de pegar emprestado, para obter mais DAI.&#x20;
 
-![Trocando MAI for DAI](../.gitbook/assets/camDAI-zapper.png)
+![Trocando MAI for DAI](../../.gitbook/assets/camDAI-zapper.png)
 
 No nosso exemplo do faroeste, a Zapper seria o minerador que aceita o nosso dinheiro, em troca de mais ouro.
 
@@ -75,7 +75,7 @@ Para o nosso guia, nós utilizaremos o Balancer para expor os nossos investiment
 
 Mesmo após explicar como funciona a AAVE, preferimos utilizar na nossa estratégia uma função da Mai Finance para automatizar o depósito de DAI na AAVE, o depósito de amDAI no instrumento de rendimento e o depósito de camDAI no cofre.
 
-![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
+![](../../.gitbook/assets/camDAI-zapDAI.png) ![](../../.gitbook/assets/camDAI-zapdeposit.png)
 
 O botão `Zap in using DAI` abre uma janela popup que te permite depositar seu DAI no cofre e operar o deposito na AAVE por baixo dos panos. Isso garante uma grande economia de tempo de de gas.
 
@@ -137,7 +137,7 @@ Se nós considerarmos o investimento inicial de apenas 100$, temos um retorno co
 
 Para conseguir um pouco de exposição a ativos de maior volatilidade, você pode utilizar o mesmo loop acima, mas alavancar apenas 90% do MAI emprestado, e utilizar os 10% restantes para comprar outro ativo. Neste exemplo, nós iremos utilizar os 10% para comprar Qi (o token nativo da Mai Finance), e utilizar a pool de liquidez Qi-BAL no Balancer que atualmente possui um APR  (**R**eceita **P**ercentual **A**nual) de 107.12%.
 
-![ Pool de liquidez Qi-BAL em Outubro de 2021](../.gitbook/assets/camDAI-balancer.png)
+![ Pool de liquidez Qi-BAL em Outubro de 2021](../../.gitbook/assets/camDAI-balancer.png)
 
 Como nós estamos re-injetando menos DAI no cofre camDAI, nós também faremos menos loops. A operação se paracerá com isto:
 

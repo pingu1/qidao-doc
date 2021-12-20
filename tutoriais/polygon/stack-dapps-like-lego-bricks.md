@@ -10,7 +10,7 @@ description: >-
 
 Ao buscar rendimentos em alguma farm, você geralmente recebe as suas recompensas na forma do token nativo da farm. Você então pode escolher entre vendê-los, ou mantê-los com a esperança de que irão valorizar ao longo do tempo. Este guia apresenta alguns diferentes DApps (**D**ecentralized **App**lications, ou Aplicaçōes Decentralizadas) para maximizar seus rendimentos sem que você precise vender qualquer coisa, enquanto ainda recebe juros compostos. Este artigo também irá começar com stablecoins, pois essa é considerada uma estratégia relativamente segura. Porém, você precisa ter em mente que isto não é conselheiro financeiro, e que este guia deve ser seguido com caução já que os resultados não são garantidos. Como sempre, faça a sua própria pesquisa.
 
-![](../.gitbook/assets/screen-shot-2021-08-30-at-10.52.20-am.png)
+![](../../.gitbook/assets/screen-shot-2021-08-30-at-10.52.20-am.png)
 
 ## QuickSwap
 
@@ -20,11 +20,11 @@ A QuickSwap é uma das maiores AMM (**A**utomated **M**arket **M**aker, Agente A
 
 Para este exemplo, iremos utilizar o par MAI/USDC na QuickSwap. Esta pool de liquidez, uma stable pool, entrega um APY (**A**nnual **P**ercentage **Y**ield, Rendimento Percentual Anual) que varia entre 20% e 25%. O rendimento é composto de taxas de transaçōes (que são acumuladas na pool de liquidez) e recompensas em QUICK.
 
-![Pool de liquidez MAI/USDC na QuickSwap em Agosto de 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
+![Pool de liquidez MAI/USDC na QuickSwap em Agosto de 2021](../../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
 A pool recebe uma quantidade fixa de tokens QUICK todos os dias, então, eles são distribuídos aos fornecedores de liquidez de acordo com sua fatia da pool. Por exemplo, se a pool tem o equivalente a $1,000,000 de liquidez, e você já depositou $1,000 de LP tokens (**L**iquidity **P**rovider, fornecedor de liquidez), você possui 0.1% da pool, o que te entitula a 0.1% das recompensas diárias de QUICK. Sua recompensa será então exigível quando você gerenciar a pool que você entrou.
 
-![Reivindicando minhas recompensas em QUICK por um depósito de $20](../.gitbook/assets/screen-shot-2021-08-30-at-6.39.44-am.png)
+![Reivindicando minhas recompensas em QUICK por um depósito de $20](../../.gitbook/assets/screen-shot-2021-08-30-at-6.39.44-am.png)
 
 Você pode reinvidicá-las frequentemente para fazê-las trabalhar. Vamos ver como fazer isso.
 
@@ -32,7 +32,7 @@ Você pode reinvidicá-las frequentemente para fazê-las trabalhar. Vamos ver co
 
 A Dragon's Lair é uma maneira de otimizar seus ganhos na QuickSwap. Você pode depositar os tokens QUICK que você recebe das pools de liquidez na Lair, e eles então irão te render recompensas QUICK adicionais. Esta é uma ótima ideia se você prefere guardar os tokens QUCIK ao invés de vendê-los. Ao fazer staking de seus tokens QUICK na Dragon's Lair, as recompensas que eles geram são automaticamente reacumuladas, e o APY da Lair é de cerca de 12%.
 
-![APY da Dragon's Lair em Agosto de 2021](../.gitbook/assets/screen-shot-2021-08-30-at-6.42.39-am.png)
+![APY da Dragon's Lair em Agosto de 2021](../../.gitbook/assets/screen-shot-2021-08-30-at-6.42.39-am.png)
 
 Após depositar seus tokens QUICK, você irá receber em sua carteira tokens dQUICK que representam a sua fatia da pool de QUICK. Note que a razão QUICK:dQUICK não é de 1:1 já que o token dQUICK representa a sua fatia na pool, enquanto a quantidade de QUICK que você possui aumenta ao longo do tempo com mais recompensas sendo adicionadas a pool.&#x20;
 
@@ -42,7 +42,7 @@ Agora você tem suas stablecoins depositadas na pool de liquidez, e elas geram r
 
 A Dragon's Syrup é uma maneira adicional que a QuickSwap oferece para recompensar ainda mais usuários que estão segurando tokens QUICK. O time da QuickSwap criou um programa onde parceiros podem promover seus produtos ao garantir seus tokens aos usuários da plataforma QuickSwap. Você pode então depositar seus tokens dQUICK em uma das farms para receber esses tokens exóticos somados a suas recompensas da Dragon's Lair. A que nos temos interesse está na farm de ADDY.
 
-![Dragon's Syrup, uma farm para coletar tokens ADDY através de depositos de dQUICK](../.gitbook/assets/screen-shot-2021-08-30-at-6.49.25-am.png)
+![Dragon's Syrup, uma farm para coletar tokens ADDY através de depositos de dQUICK](../../.gitbook/assets/screen-shot-2021-08-30-at-6.49.25-am.png)
 
 Quando você deposita seus tokens dQUICK na farm, eles desaparecem da Dragon's Lair (da mesma maneira como seus camTokens desaparecem da página de rendimentos na Mai Finance quando você os deposita na Vault). Mas você pode ver claramente que o APY dQUICK da Lair ainda é aplicado, e que você também recebe recompensas ADDY adicionais. Aqui, o APR (**A**nnual **P**ercentage **R**eward, Taxa de Percentual Anual) é de 21.36% atualmente.
 
@@ -78,7 +78,7 @@ Para este exemplo, nós também utilizaremos a pool de MAI/USDC na Impermax. Dep
 
 Na QuickSwap, eu depositei $20 do par MAI/USDC. Na Impermax, eu irei depositar apenas $10 de MAI/USDC e irei aplicar alavancagem de 2 vezes para obter exposiçāo de $20.
 
-![Janela de alavancagem na Impermax em um dado período](../.gitbook/assets/screen-shot-2021-08-30-at-7.11.10-am.png)
+![Janela de alavancagem na Impermax em um dado período](../../.gitbook/assets/screen-shot-2021-08-30-at-7.11.10-am.png)
 
 Você pode ver na foto acima que se aumento minha alavancagem para 2.1 vezes, eu tomaria emprestado:&#x20;
 
@@ -106,7 +106,7 @@ A Adamant é uma plataforma otimizadora de rendimentos que automatiza a colheita
 
 Nós recebemos tokens QUICK na QuickSwap, e tokens IMX na Impermax. Vamos usar a Adamant para o farm de QUICK/IMX na pool da QuickSwap. Por que fazer isto? Porque esta farm é, de fato, muito rentável, como você pode ver abaixo:
 
-![Pool de IMX/QUICK da QuickSwap na Adamant](../.gitbook/assets/screen-shot-2021-08-30-at-7.27.26-am.png)
+![Pool de IMX/QUICK da QuickSwap na Adamant](../../.gitbook/assets/screen-shot-2021-08-30-at-7.27.26-am.png)
 
 Enquanto este artigo é escrito, o atual APY da pool de IMX/QUICK na Adamant é de 417.25%. A recompensa é composta de:
 
@@ -229,7 +229,7 @@ Neste ponto, a "dívida" na Mai Finance será usada para aumentar as posiçōes 
 
 ## Resultados do Farming
 
-![](../.gitbook/assets/screen-shot-2021-08-30-at-11.33.34-am.png)
+![](../../.gitbook/assets/screen-shot-2021-08-30-at-11.33.34-am.png)
 
 ### Rotina diária
 

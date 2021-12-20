@@ -22,7 +22,7 @@ Este guia irá te apresentar, passo a passo, como utilizar a Mai Finance para as
 Para ilustrar em mais detalhes como você pode fazer isso, utilizaremos a ultima farm da[ PolyPup](https://ball.polypup.finance). Isso será feito com objetivo meramente educacional, e não deve ser visto como conselho financeiro. A propósito, o termo "seguro" aqui utilizado é baseado em minha própria avaliação. Como sempre, faça a sua propria pesquisa. Por ultimo, eu particularmente não recomendo esta farm.&#x20;
 {% endhint %}
 
-![](../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
+![](../../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
 
 ## Ciclo de vida do farming
 
@@ -37,16 +37,16 @@ Neste tutorial, nos tentaremos aplicar o máximo de segurança financeira possí
 Para começar o _farming_ utilizando par de MAI/USDC, você precisa adquirir algumas stablecoins. A Mai Finance permite a você tomar emprestado a stablecoin MAI de acordo com o depósito da sua criptomoeda favorita. No nosso caso, nós temos algumas MATIC na nossa carteira, prontas para serem usadas. Ao depositar meu MATIC dentro do [cofre da MATIC](https://app.mai.finance/vaults/matic) na Mai Finance, eu posso tomar emprestado MAI. Se você precisar de ajuda para fazer isso, por favor entre no servidor do Discord e pergunte à comunidade. Você também pode aprender a fazer isto lendo outros tutoriais neste site.
 
 {% hint style="info" %}
-Você pode depositar seus tokens MATIC no cofre de MATIC, mas você também pode depositá-los na AAVE para obter amWMATIC, depositá-los na Mai Finance na página de rendimento para obter camWMATIC, e utilizar esse camWMATIC como garantia. Você poderá tomar emprestado a mesma quantia de MAI, mas você também ganhará rendimento adicional no seu matic. Veja aqui [como alavancar seus tokens AAVE](../investment-tutorials/leverage-aave-tokens.md) para obter mais detalhes sobre o assunto.
+Você pode depositar seus tokens MATIC no cofre de MATIC, mas você também pode depositá-los na AAVE para obter amWMATIC, depositá-los na Mai Finance na página de rendimento para obter camWMATIC, e utilizar esse camWMATIC como garantia. Você poderá tomar emprestado a mesma quantia de MAI, mas você também ganhará rendimento adicional no seu matic. Veja aqui [como alavancar seus tokens AAVE](leverage-aave-tokens.md) para obter mais detalhes sobre o assunto.
 {% endhint %}
 
 Após você tomar emprestado MAI, você pode usar a pagina [página ancora](https://app.mai.finance/anchor) na Mai Finance para converter metade do seu empréstimo a USDC. De fato, quando você faz farm utilizando pares de liquidez (LP), as duas partes do par precisam ser providenciado em uma razão de 1:1.&#x20;
 
-![Utilizando a página de swap para converter 30 MAI em USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
+![Utilizando a página de swap para converter 30 MAI em USDC](../../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
 
 Agora, dependendo da farm que você pretende utilizar, você precisa combinar as suas duas stable coins (MAI e USDC) em um par LP válido na plataforma da DEX. Como o meu plano é entrar na Polyup, e esta farm aceita LP's da QuickSwap, eu preciso ir a [QuickSwap](https://quickswap.exchange/#/) e gerar o meu par lá dentro.
 
-![Gerando alguns tokens LP utilizando MAI e USDC](../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
+![Gerando alguns tokens LP utilizando MAI e USDC](../../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
 
 Eu estou pronto para entrar na farm agora.
 
@@ -54,7 +54,7 @@ Eu estou pronto para entrar na farm agora.
 
 Agora que você possui alguns tokens da LP, você pode ir ao site da farm e depositá-los para começar a coletar os tokens da farm. No nosso exemplo, eu depositei meus tokens MAI/USDC dentro da pool respectiva, e comecei a coletar os meus tokens BALL.&#x20;
 
-![Recebendo tokens BALLs na pool](../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
+![Recebendo tokens BALLs na pool](../../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
 
 No momento, você pode ver que o farming de MAI/USDC está me gerando um APR de 176.99%. Dependendo da liquidez presente na pool, e do preço do token BALL, este APR pode mudar com o passar do tempo.
 
@@ -73,7 +73,7 @@ Tendo em conta que agora você possui alguns tokens de farm, geralmente você po
 
 A Mai Finance te apresenta uma terceira opção que ter permite fazer ambos. Após você ter colhido sua recompensa, simplesmente visite a sua DEX favorita, desde que ela suporte o token da farm. Geralmente, você pode encontrar um link para uma DEX no menu da farm. Este link incluirá o endereço do token, o que te ajudará a trocá-lo facilmente.&#x20;
 
-![Trocando minha recompensa para mais MATIC](../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
+![Trocando minha recompensa para mais MATIC](../../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
 
 Neste momento, eu volto para a etapa em que nós temos tokens MATIC em nossa carteira, prontos para serem depositados na Mai Finance como garantia. Se eu assim fizer, eu posso tomar emprestado MAI, trocar uma parte por USDC, criar um par LP e redepositá-los na farm. Fazendo esta conversão, eu "asseguro" 100% das minhas recompensas ao trocá-los por uma criptomoeda mais estavel (MATIC, no caso). Eu reinvesto, então, 50% da minha recompensa na pool de liquidez (ou na verdade, neste exemplo, 46%, devido as taxas de deposito de 4%).
 
@@ -121,21 +121,21 @@ Essas suposiçōes obviamente não são aplicaveis na vida real ja que o APR dev
 
 ### Estimando o APR, APY e o crescimento da receita
 
-A estimativa parou após 18 dias, porque passado esta data, você pode ver voltamos ao valor de 60$ em tokens LP. Isto significa que eu produzi o suficiente para reembolsar as taxas de deposito iniciais, o que seria o minimo que um fazendeiro deve pretender obter.&#x20;
+A estimativa parou após 18 dias, porque passado esta data, você pode ver que voltamos ao valor de 60$ em tokens LP. Isto significa que eu produzi o suficiente para reembolsar as taxas de depósito iniciais, o que seria o mínimo que um fazendeiro deve pretender obter.&#x20;
 
-Passado esta data, permanecer na farm gerará apenas beneficios. E porque nós estamos utilizando stablecoins, ha literalmente um rsico de 0% de impermaent loss na liquidez que eu providenciei, significado que nao ha risco de perder dinheiro ao permanecer na pool.&#x20;
+Passado esta data, permanecer na farm gerará apenas beneficios. E porque nós estamos utilizando stablecoins, há literalmente um risco de 0% de impermaent loss devido à liquidez que eu providenciei, o que significa que nao há risco de perder dinheiro ao permanecer na pool.&#x20;
 
-Entretanto, eu tambem posso considar que eu reembolsei a taxa de deposito inicial de $2.40 no dia 9, pois foi o momento que o lucro da minha carteira MATIC alcancou esta quantidade. Se eu apenas estivesse vendendo o token da farm para obter lucro, e não re-investi-lo na pool, este seria o momento, de fato, a partir de que eu geraria apenas beneficios.&#x20;
+Entretanto, eu também posso considerar que reembolsei a taxa do depósito inicial de $2.40 no dia 9, pois foi o momento que o lucro da minha carteira MATIC alcancou esta quantidade. Se eu apenas estivesse vendendo o token da farm para obter lucro, e não reinvesti-lo na pool, este seria o momento, de fato, a partir de que eu geraria apenas lucros.&#x20;
 
-Se tratando de ganhso, a recompenda que se torna acumulada na farm é apenas 50% do APR da farm. Isto significa que com um APR de 176.99%, a verdadeira taxa de crescimento anual é de apeans 88.495% anualmente, ou 0.242% diariamente.
+Se tratando de ganhos, a recompensa que se torna acumulada na farm é apenas de 50% do APR. Isto significa que com um APR de 176.99%, a verdadeira taxa de crescimento anual é de apeans 88.495% anualmente, ou 0.242% diariamente.
 
-Também é possivel calcular o ganho exato que foi acumulado em um dia especificod a farm, assumindo que você esta acumulando diariamente, utilizando a seguinte formula para obter o **ROI**, sigla em inglês para **Retorno Sobre Investimento**,&#x20;
+Também é possivel calcular o ganho exato que foi acumulado em um dia específico na farm, assumindo que você está reacumulando diariamente, utilizando a seguinte formula para obter o **ROI**, sigla em inglês para **Retorno Sobre Investimento:**&#x20;
 
 $$
 ROI_{DiaN}=InvestimentoInicial*(1+APRDiario)^{DiaN}-InvestimentoInicial
 $$
 
-No caso, com uma farm que detem 4% de taxa de depósito, você precisa multiplicar o resultado acima por 96%. No nosso caso, nós podemos verificar rapidamente que a formula funciona se compararmos o resultado da tabela logo abaixo:
+No caso, com uma farm que detém 4% de taxa de depósito, você precisa multiplicar o resultado acima por 96%. No nosso caso, nós podemos verificar rapidamente que a formula funciona se compararmos o resultado com a tabela logo abaixo:
 
 $$
 ROI_{Day1} = [60 * (1+0.00242)^{1}-60]*0.96=$0.1396523836
@@ -153,13 +153,13 @@ $$
 APY = ( 1 + \frac{APR}{N})^N-1
 $$
 
-Isto nos fornece um APR de 88.495% e um de N = 365 (reacumulando diariamente)
+Isso nos fornece um APR de 88.495% e um de N = 365 (reacumulando diariamente)
 
 $$
 APY = ( 1 + \frac{0.88495}{365})^{365}-1=142.02\%
 $$
 
-Perceba que a estimativa acima não considera a taxa de deposito de 4%, por isso a pequena discrepância.
+Percedba que a estimativa acima não considera a taxa de depósito de 4%, por isso a pequena discrepância.
 
 Os ganhos da carteira de MATIC são o dobro dos ganhos da farm, então nós podemos calcular o ROI em um dia específico utilizando a mesma fórmula acima e multiplicando o resultado por 2.
 
@@ -167,9 +167,9 @@ $$
 ROI_{Dia365} = [60 * (1 + 0.00242)^{365} - 60]*0.96*2=$163.6150585
 $$
 
-Esta é a quantiade de MATIC que nós produziariamos caso permanecessemos na farm durante um ano, com um investimento inicial de 60$ em MAI/USDC, assumindo o APR constante durante esse período. O resultado seria um APY of 272.69%, que é praticamente o APR anunciado pela farm (a farm geralmente não leva em consideração a taxa de depósito de 4% no APR exibido).
+Esta é a quantiade de MATIC que nós produziriamos caso permanecessemos na farm durante um ano, com um investimento inicial de 60$ em MAI/USDC, assumindo o APR constante durante esse período. O resultado seria um APY de 272.69%, que é praticamente o APR anunciado pela farm (a farm geralmente não leva em consideração a taxa de depósito de 4% no APR exibido).
 
-### Resultados após 1 ano de farming com stable coins
+### Resultados após 1 ano de farming com stablecoins
 
 No final do ano, nós teriamos:
 
@@ -182,13 +182,13 @@ No final do ano, nós teriamos:
 Tudo apresentado nesta estratégia depende de assumirmos que:&#x20;
 
 * A farm mantém o APR constante durante o período (o que é impossível)
-* É possivel utilizar a farm durante o ano todo (o que tambem é impossível, pois todas as farms encerrão suas atividades cedo ou tarde)
+* É possivel utilizar a farm durante o ano todo (o que tambem é impossível, pois todas as farms encerrarão suas atividades mais cedo ou mais tarde)
 
 Como uma observação, o APR da pool MAI/USDC na Polyup após 24h de farming é de 128.13%, principalmente por conta da queda do preço do token BALL.
 
-A propósito, realizar farming com stablecoins _**pode**_ ser a maneira mais segura de garantir rendimentos pois você não fica exposto a impermenant loss. Entretando, não há qualquer garantia que você possa receber a sua taxa de depósito de 4% de volta. You você pode encontrar, inclusive, alguns websites que possuem stablecoins com taxas ente 0% e 1%, até mesmo em tokens nao nativos (pools que aceitam pares LP diferentes dos nativos).
+A propósito, realizar farming com stablecoins _**pode**_ ser a maneira mais segura de garantir rendimentos pois você não fica exposto a impermenant loss. Entretanto, não há qualquer garantia que você receberá a sua taxa de depósito de volta. Você pode encontrar, inclusive, alguns websites que possuem stablecoins com taxas ente 0% e 1%, até mesmo em tokens não nativos (pools que aceitam pares LP diferentes dos nativos).
 
-Colher as recompensas e trocá-las por algo valioso é considerada a melhor estratégia nas farms. Tomar emprestado MAI para reinvestir uma porção de stablecoins na pool e aumentar sua receita expoe seus beneficios à taxa de 4% que a farm detem do seu par LP, o que pode não ser a melhor coisa a se fazer se você está em duvidas de recebe-los novamente, e é provavelmente melhor utilizar outra estrategia para reinvestir os seus lucros (investir em pools nativas / pools com juros de 0% / pools com APR alto).&#x20;
+Colher as recompensas e trocá-las por um ativo valioso é considerada a melhor estratégia nas farms. Tomar emprestado MAI para reinvestir e aumentar sua receita expōe seus lucros à taxa de 4% que são detidas do seu par LP, o que pode não ser a melhor coisa a se fazer se você tem receio em recebê-los novamente, portanto é provavelmente melhor utilizar uma outra estrategia para reinvestir os seus lucros (investir em pools nativas / pools com juros de 0% / pools com APR alto).&#x20;
 
 {% hint style="info" %}
 Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua propria pesquisa.

@@ -39,9 +39,9 @@ Porque alguém pagaria por um token se há uma versão mais barata dele por meio
 
 Como nós iremos trabalhar com a KlimaDAO, vamos comparar o ato de comprar e fazer staking com o bonding:
 
-![Recompensas de staking na Klima, Novembro de 2021](../.gitbook/assets/Klima-1.png)
+![Recompensas de staking na Klima, Novembro de 2021](../../.gitbook/assets/Klima-1.png)
 
-![Retorno sobre investimento em bonds na Klima, Novembro 2021](../.gitbook/assets/Klima-2.png)
+![Retorno sobre investimento em bonds na Klima, Novembro 2021](../../.gitbook/assets/Klima-2.png)
 
 Se alguém compra Klima diretamente do mercado e faz staking por 5 dias (a duração do periodo de vesting do bond), o ROI (**R**eturn **O**n **I**nvestment, Retorno Sobre Investimento) será de 8.51%. Se alguém preferir o bond, o ROI máximo seria de 5.47% ao prover BCT/KLIMA.
 
@@ -102,7 +102,7 @@ Sem aprofundar demais em [(3,3) na Teoria dos Jogos](https://en.wikipedia.org/wi
 
 ### Loop de alavancagem com MarketXYZ e Klima
 
-![Alavanque sua posição em Klima](../.gitbook/assets/Klima-3.png)
+![Alavanque sua posição em Klima](../../.gitbook/assets/Klima-3.png)
 
 A ideia é obter uma quantia inicial de tokens KLIMA que você pode depositar na KlimaDAO. Isso ta garantirá um imenso APY (no momento, de 38,873.08%, ou um APR de 601%, ou 1.68% diariamente) e tokens sKLIMA como prova de seu depósito.
 
@@ -112,7 +112,7 @@ Esse token sKLIMA pode ser usado na Market XYZ no [Baú de Alavancagem Verde](ht
 Como observação, a Mai Finance fez uma parceria com a Market XYZ e semeou o Green Locker Pool (Baú de Alavancagem Verde) com 1M de MAI para garantir taxas de empréstimo baixas ao tomar emprestado MAI, tendo sua sKLIMA de garantia.
 {% endhint %}
 
-![Green Locker na Market XYZ, November de 2021](../.gitbook/assets/Klima-Marketxyz.png)
+![Green Locker na Market XYZ, November de 2021](../../.gitbook/assets/Klima-Marketxyz.png)
 
 Não é obrigatório que voce tome emprestado MAI, você pode, na verdade, tomar emprestado o token que você quiser, com a menor taixa de juros, mas você precisa entender que você pagará taxas sobre seu empréstimo, e quanto mais rápido você pagá-lo, menores serão as taxas.
 
@@ -158,14 +158,14 @@ Mais uma vez, (4,4) está relacionado a Teoria dos Jogos e moedas de reserva, e 
 
 ### Loop de investimento com Augury e Mai Finance
 
-![Investimento continuo usando a Augury Finance e Mai Finance](../.gitbook/assets/Klima-4.png)
+![Investimento continuo usando a Augury Finance e Mai Finance](../../.gitbook/assets/Klima-4.png)
 
 Nós ainda estamos utilizando Klima, mas desta vez nós usaremos uma [infusão da Augury Finance](https://augury.finance/infusions) para automatizar a extração do valor de Klima. Ao depositar seus tokens KLIMA na infusão, o algoritmo encarregado da infusão irá realizar as seguintes açōes após cada rebase:
 
 * 50% da KLIMA colhida passa por staking novamente para aumentar sua posição em sKLIMA
 * 50% da KLIMA colhida é vendida por USDC, adicionada a pool NFTM na Augury, e distribuida para você como tokens NFTM.
 
-![Infusão na Augury com taxa de desempenho e de depósito de 0%](../.gitbook/assets/Klima-Augury.png)
+![Infusão na Augury com taxa de desempenho e de depósito de 0%](../../.gitbook/assets/Klima-Augury.png)
 
 NFTM pode então ser mantida, enquanto aumenta em valor, ou resgatada em seu valor USDC. Em outras palavras, não importa se o token KLIMA perde valor após um rebase, já que o valor é capturado e armazenado em NFTM.
 

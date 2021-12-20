@@ -28,7 +28,7 @@ Projetos bluechip são aplicaçōes de DeFi que mostram-se excelentes, e que apr
 
 Na rede Polygon, o Balancer possui uma pool composta de 4 principais stablecoins: DAI, USDC, USDT e MAI (miMATIC). Esta pool possui atualmente uma taxa APR de aproximadamente 20%, que tem se mostrado estável.
 
-![Pool de stablecoins em Agosto de 2021](../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
+![Pool de stablecoins em Agosto de 2021](../../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
 
 A melhor coisa da Balancer é que você não precisa necessariamente possuir as 4 moedas para depositá-las na pool. A Balancer irá gerar automaticamente uma combinação equilibrada com qualquer seja o depósito que você fizer. Isso significa que se você tem 100$ de MAI, você pode simplesmente depositá-los na pool da Balancer e deixar o algoritmo introduzi-los corretamente para obter uma razão de 25% para cada moeda, dependendo de seu preço no momento do depósito.
 
@@ -36,9 +36,9 @@ Recompensas para a pool são pagas utilizando o token BAL, distribuidas semanalm
 
 O fluxo completo seria algo semelhante a esta foto:&#x20;
 
-![](../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
+![](../../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
-Se você precisa de mais informações sobre como usar a Mai Finance para emprestar suas criptomoedas e tomar emprestado MAI (ao invés de vendê-las para fazer isto), leia os outros tutoriais neste site. Você pode até mesmo [incluir a AAVE no loop ](../investment-tutorials/leverage-aave-tokens.md)para ganhar ainda mais dinheiro.&#x20;
+Se você precisa de mais informações sobre como usar a Mai Finance para emprestar suas criptomoedas e tomar emprestado MAI (ao invés de vendê-las para fazer isto), leia os outros tutoriais neste site. Você pode até mesmo [incluir a AAVE no loop ](leverage-aave-tokens.md)para ganhar ainda mais dinheiro.&#x20;
 
 ### Curve Finance
 
@@ -63,11 +63,11 @@ Recompensas na Curve são garantidas em:
 * WMATIC, que pode ser utilizado para repetir o loop acima e aumentar o seu emprestimo e capital investido
 * Token CRV, que pode também ser utilizado como garantia na Mai Finance para tomar emprestado mais MAI e aumentar seu capital investido
 
-![](../.gitbook/assets/screen-shot-2021-08-11-at-12.14.27-pm.png)
+![](../../.gitbook/assets/screen-shot-2021-08-11-at-12.14.27-pm.png)
 
 ### AAVE
 
-Há um guia completo sobre como utilizar a Mai Finance para [alavancar tokens na AAVE](../investment-tutorials/leverage-aave-tokens.md). Isso é realizado sem utilizar a stablecoin MAI diretamente, mas nós podemos imaginar que, no futuro, a AAVE também incorporará MAI em uma de suas pools, onde você poderá emprestar suas criptomoedas.
+Há um guia completo sobre como utilizar a Mai Finance para [alavancar tokens na AAVE](leverage-aave-tokens.md). Isso é realizado sem utilizar a stablecoin MAI diretamente, mas nós podemos imaginar que, no futuro, a AAVE também incorporará MAI em uma de suas pools, onde você poderá emprestar suas criptomoedas.
 
 ### QuickSwap
 
@@ -80,7 +80,7 @@ Atualmente, ao entrar em uma LP pool (**L**iquidity **P**rovider, Provedor de Li
 * Taxas das operaçōes
 * Tokens QUICK
 
-![Detalhes da pool de MAI/USDC na QuickSwap em Agosto de 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
+![Detalhes da pool de MAI/USDC na QuickSwap em Agosto de 2021](../../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
 ## Degen farming e agregadorees
 
@@ -96,7 +96,7 @@ A Adamant atualmente suporta algumas pools que aceitam o par de MAI/USDC LP. As 
 * DinoSwap: Recompensas em DINO são trocadas por mais MAI/USDC LP e WMATIC
 * Mai Finance: Recompensas Qi são trocadas por mais MAI/USDC LP e WMATIC
 
-![Pool de MAI/USDC da QuickSwap na Adamant](../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
+![Pool de MAI/USDC da QuickSwap na Adamant](../../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
 
 {% hint style="info" %}
 Os screenshots da pool da QuickSwap no website da QuickSwap (veja parágrafo acima) e Adamant foram tirados no mesmo dia, mas estão exibindo APY's (**A**nnual **P**ercentage **Y**ield).
@@ -131,7 +131,7 @@ Outras farms provavelmente já possuem pools de MAI/USDC. Se você deseja ficar 
 
 A [Impermax](https://polygon.impermax.finance) é uma plataforma que permite aos seus usuarios alavancarem seus LP tokens para obterem rendimentos maiores. O objetivo é muito simples: ao providenciar LP tokens e utilizá-los como garantia, você poderá tomar emprestado mais dos 2 ativos subjacentes para gerar mais LP tokens e repetir o loop.
 
-![Loop da Impermax explicado](../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
+![Loop da Impermax explicado](../../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
 
 Fazendo isto, o usuário é exposto a _impermanent loss (_prejuízo impermanente_)_, e o prejuízo é amplificado pelo número de loops repetidos. O risco de liquidação é também multiplicado ao serem aplicados muitos loops. De fato, se o APR é multiplicado, a variação de preço das duas moedas adjacentes do par é amplificada pelo efeito de alavanca, levando a uma liquidação mais rapidamente.
 
@@ -153,11 +153,11 @@ Também, porque todas as taxas são amplificadas pelo numero de loops aplicados,
 
 No final, você esta usufruindo do APR base em um valor muito maior, que está recebendo maiores juros, aumentando o APR da sua posição inicial.
 
-![Um exemplo do painel de controle da Impermax com um par MAI/USDC inicial de $70.52](../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
+![Um exemplo do painel de controle da Impermax com um par MAI/USDC inicial de $70.52](../../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
 
 Eu posso ver muito facilmente o quanto eu estou utilizando como garantia, o quanto eu investi inicialmente, qual a proporção de alavancagem, e quais são os valores de liquidação devido à proporção de alavancagem. Esta posição me dá as seguintes proporçōes no momento em que escrevo:&#x20;
 
-![Ganhos e gastos estimados em um dado momento](../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
+![Ganhos e gastos estimados em um dado momento](../../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
 
 O APR é garantido no token IMX que pode ser trocado por mais MAI/USDC (aproveite o poder da Mai Finance para poder tomar emprestado com juros a 0%), ou ser usado para prover liquidez em pools específicas que aceitam IMX na Impermax.
 
@@ -165,7 +165,7 @@ O APR é garantido no token IMX que pode ser trocado por mais MAI/USDC (aproveit
 
 De fato, pelo aplicativo você também pode prover liquidez àqueles que querem se aplicar loops de alavancagem às suas posiçōes (eles precisarão de ativos subjacentes para produzir mais LP tokens). Emprestar ativos é uma excelente maneira de obter rendimentos deixando os mutuários correrem todos os riscos. Também, quanto mais os usuários estiverem tomando emprestado, maior será o APR de fornecimento.&#x20;
 
-![Taxas por fornecer e tomar emprestado MAI na Impermax em um dado periodo](../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
+![Taxas por fornecer e tomar emprestado MAI na Impermax em um dado periodo](../../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
 
 Esta é outra excelente maneira de otimizar seu empréstimo a 0% na Mai Finance. Você não somente não precisa pagar nada para tomar emprestado MAI, como pode também receber muitos juros simplesmente por despositá-los na Impermax.&#x20;
 

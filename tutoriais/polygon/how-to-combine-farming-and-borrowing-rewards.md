@@ -10,7 +10,7 @@ description: >-
 
 Em Setembro de 2021, a Mai Finance introduziu o sistema de recompensas em Vaults para promover seu negócio de empréstimos, e atrair pessoas a depositarem seus tokens para tomar MAI emprestado. Não se trata apenas de tomar um empréstimo a 0% de juros, agora pessoas também podem ser pagas para tomar dinheiro emprestado. Este guia irá propor uma estratégia baseada em farming de stablecoins usando a Augury Finance como uma fonte de tokens que irá alimentar os cofres na Mai Finance, incentivando empréstimos maiores, e mais MAI que será então reinvestido na farm.
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7).png>)
 
 ## Apresentação das pools e das aplicaçōes
 
@@ -20,7 +20,7 @@ Augury Finance é um agregador de rendimento que não foca em reacumular automat
 
 Por exemplo, você pode fazer farming com o par DFYN-WETH na Augury:
 
-![Exemplo da pool de mineração de DFYN-WETH na Augury Finance](<../.gitbook/assets/image (32).png>)
+![Exemplo da pool de mineração de DFYN-WETH na Augury Finance](<../../.gitbook/assets/image (32).png>)
 
 Essa infusão usa a DinoSwap como a farm subjacente, e um token LP que pode ser obtido na DFYN. Com um APR de 123.43%, usuários que fornecerem liquidez a essa pool serão recompensados com:
 
@@ -38,7 +38,7 @@ A Augury Finance usa 3 diferentes tiers (niveis) de infusão que possuem taxas d
 
 Em nossa estratégia, nós usaremos a farm de tier 2 USDT-UST que recompensa os usuários com uma mistura de WETH/WBTC/LINK/WMATIC/USDC, porque a Mai Finance oferece 4 Vaults para 4 dos 5 tokens que nós receberemos como recompensa. Para maximizar nossos lucros, nós adicionaremos AAVE entre o output (saída) da Augury e os Vaults da Mai Finance, já que 3 dos 5 tokens que nós iremos colher podem ser emprestados na AAVE.&#x20;
 
-![Farming de stablecoins USDT-UST para a nossa estratégia](<../.gitbook/assets/image (31).png>)
+![Farming de stablecoins USDT-UST para a nossa estratégia](<../../.gitbook/assets/image (31).png>)
 
 ### Curve
 
@@ -48,13 +48,13 @@ Algo interessante a se notar sobre o Curve e suas pools é que não é necessari
 
 Nós usaremos a pool atricrypto3 que aceita qualquer combinação de WBTC/WETH/USDC/USDT/DAI e nós adicionaremos a essa pool o USDC que será gerado pela pool na Augury.&#x20;
 
-![Detalhes da pool atricrypto3 na Curve em Setembro de 2021](<../.gitbook/assets/image (30).png>)
+![Detalhes da pool atricrypto3 na Curve em Setembro de 2021](<../../.gitbook/assets/image (30).png>)
 
 ### AAVE
 
 Como mencionado no parágrafo sobre a Augury, a AAVE é usada para adicionar uma pequena recompensa aos tokens de farming na Augury antes de usá-los na Mai Finance. Ao invés de depositar nosso WBTC, WETH e WMATIC diretamente na Mai Finance, nós iremos depositar estes tokens na AAVE e usar o instrumento de rendimento na Mai Finane para reacumular automaticamente as recompensas da AAVE nas pools amToken, e usar o camToken como garantia nos Vaults. Você pode obter mais detalhes sobre esta parte lendo o [tutorial sobre tokens AAVE](leverage-aave-tokens.md).
 
-![Recompensas de empréstimsos da AAVE em Setembro de 2021](<../.gitbook/assets/image (29).png>)
+![Recompensas de empréstimsos da AAVE em Setembro de 2021](<../../.gitbook/assets/image (29).png>)
 
 ### Balancer
 
@@ -62,11 +62,11 @@ A Balancer é outro projeto blue chip como a Curve. Nele, você é capaz de part
 
 Para nossa estratégia, nós usaremos a pool WETH/BAL/Qi/MAI/USDC. Esta pool aceitará o token Qi que será coletado dos Vaults na Mai Finance, e nos recompensará com mais Qi e tokens BAL que nós poderemos depositar na Mai Finance no Vault BAL, nos permitindo cunhar mais MAI e aumentar nossa posição de farming na Augury.
 
-![5-pool da Balancer em Setembro de 2021](<../.gitbook/assets/image (23).png>)
+![5-pool da Balancer em Setembro de 2021](<../../.gitbook/assets/image (23).png>)
 
 ## Bootstrapping
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (19).png>)
 
 Em seguir veremos uma simulação feita com um investimento inicial de $1,000 de ETH que são depositados no Vault camWETH para tomar emprestado $500 de MAI, convertidos em $500 de USDT-UST. Esta simulação assume as seguintes recompensas para os diferentes sistemas:
 

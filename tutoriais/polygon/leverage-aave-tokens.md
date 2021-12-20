@@ -9,35 +9,35 @@ description: >-
 
 ## Quando uma imagem vale mil palavras
 
-![](<../.gitbook/assets/image (21) (1).png>)
+![](<../../.gitbook/assets/image (21) (1).png>)
 
 ## Mas mil palavras também são valiosas
 
 A imagem acima demonstra como podes utilizar a plataforma _Mai Finance_ para aumentar o poder aquisitivo dos teus investimentos em criptomoedas.
 
-Vamos assumir que gostas do token MATIC e que consideras que está subvalorizado de momento. Pensas que tem o potencial de alcançar $2, $5 ou mesmo $10 por token. No entanto, como um pequeno investidor, só possuis $100 de MATIC na tua carteira na rede Polygon. Através deste tutorial vamos te mostrar como podes gerar mais MATIC a partir dos teus tokens iniciais. _Hodling _é bom, mas colocar os teus investimentos a gerar mais retorno é ainda melhor.
+Vamos assumir que gostas do token MATIC e que consideras que está subvalorizado de momento. Pensas que tem o potencial de alcançar $2, $5 ou mesmo $10 por token. No entanto, como um pequeno investidor, só possuis $100 de MATIC na tua carteira na rede Polygon. Através deste tutorial vamos te mostrar como podes gerar mais MATIC a partir dos teus tokens iniciais. _Hodling_ é bom, mas colocar os teus investimentos a gerar mais retorno é ainda melhor.
 
 ### Usa plataforma Aave para aumentar o teu capital
 
 [Aave](https://app.aave.com) é uma plataforma de empréstimos onde podes depositar os teus tokens MATIC (entre outros tokens). Ao depositares na plataforma AAVE, os teus tokens vão gerar lucro. Por exemplo, os teus $100 de MATIC vão gerar uma potencial taxa de retorno de 1.2% ao longo de 1 ano (annual percentage yield (APY) =rendimento percentual anual). Por vezes, a plataforma AAVE dispõe de programas específicos que fornecem recompensas adicionais para além da taxa base de APY.
 
-Enquanto que os teus tokens MATIC estiverem na reserva de liquidez da plataforma AAVE (ou _liquidity pool _em inglês), os juros gerados são automaticamente compostos, o que significa que a tua quantidade de tokens MATIC aumenta com o passar do tempo.
+Enquanto que os teus tokens MATIC estiverem na reserva de liquidez da plataforma AAVE (ou _liquidity pool_ em inglês), os juros gerados são automaticamente compostos, o que significa que a tua quantidade de tokens MATIC aumenta com o passar do tempo.
 
-![Neste caso, eu emprestei 0.2 de MATIC](../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
+![Neste caso, eu emprestei 0.2 de MATIC](../../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
 
 Ao emprestares os teus tokens MATIC na plataforma AAVE, recebes uma quantidade equivalente de tokens amWMATIC (aave market wrapped MATIC - representam os teus tokens depositados na plataforma AAVE). Podes não conseguir ver estes tokens na tua carteira até os adicionares manualmente, mas estes continuam a estar na tua posse.
 
-![Consegues ver os tokens que emprestas-te na plataforma DeBank](../.gitbook/assets/screen-shot-2021-08-06-at-5.31.01-pm.png)
+![Consegues ver os tokens que emprestas-te na plataforma DeBank](../../.gitbook/assets/screen-shot-2021-08-06-at-5.31.01-pm.png)
 
 ### Usa a plataforma Mai Finance para compor os teus tokens Aave
 
-_Mai Finance_ aceita os teus tokens amWMATIC na página **Yield **do website. Ao depositares os teus toekns amWMATIC na plataforma _Mai Finance_, os teus fundos são "transferidos" da plataforma AAVE para a plataforma MAI Finance. Podes averiguar que os juros gerados pela plataforma _Mai Finance_ são iguais aos lucros que recebes na plataforma AAVE.
+_Mai Finance_ aceita os teus tokens amWMATIC na página **Yield** do website. Ao depositares os teus toekns amWMATIC na plataforma _Mai Finance_, os teus fundos são "transferidos" da plataforma AAVE para a plataforma MAI Finance. Podes averiguar que os juros gerados pela plataforma _Mai Finance_ são iguais aos lucros que recebes na plataforma AAVE.
 
-No entanto, para além do APY base, a plataforma _Mai Finance_ vai acumular as recompensas adicionais da plataforma AAVE para além do token depositado inicialmente, aumentado assim passivamente a quantidade de tokens que depositaste inicialmente. Neste exemplo (ver acima), a plataforma AAVE disponibiliza um APY de 1,16% para depósitos em MATIC, para além de um APR adicional de 3,69%, que no entanto, não está a gerar nenhum lucro adicional. Ao depositar os teus tokens amWMATIC na plataforma _Mai Finance, _as recompensas são coletadas periodicamente e compostas no teu depósito principal de forma a que a taxa de interesse de 1,16% também seja aplicada nele.
+No entanto, para além do APY base, a plataforma _Mai Finance_ vai acumular as recompensas adicionais da plataforma AAVE para além do token depositado inicialmente, aumentado assim passivamente a quantidade de tokens que depositaste inicialmente. Neste exemplo (ver acima), a plataforma AAVE disponibiliza um APY de 1,16% para depósitos em MATIC, para além de um APR adicional de 3,69%, que no entanto, não está a gerar nenhum lucro adicional. Ao depositar os teus tokens amWMATIC na plataforma _Mai Finance,_ as recompensas são coletadas periodicamente e compostas no teu depósito principal de forma a que a taxa de interesse de 1,16% também seja aplicada nele.
 
-![Os tokens 0.2 MATIC depositados na plataforma Mai Finance  tem um interesse anual de 4,93%](../.gitbook/assets/screen-shot-2021-08-06-at-5.45.00-pm.png)
+![Os tokens 0.2 MATIC depositados na plataforma Mai Finance  tem um interesse anual de 4,93%](../../.gitbook/assets/screen-shot-2021-08-06-at-5.45.00-pm.png)
 
-Ao depositar amWMATIC na plataforma _Mai Finance, _recebes camWMATIC em troca. O rácio entre este 2 tokens não é 1:1, porque o token camWMATIC representa a tua porção da _pool _de amWMATIC na plataforma, em que as taxas de interesse são acumuladas e compostas progressivamente. Tem também em conta que quando depositas os tokens amWMATIC na plataforma _Mai Finance, _estes tokens são removidas da plataforma Aave. Da mesma forma, ao remover os teus tokens amWMATIC da plataforma _Mai Finance, _estes podem ser encontrados automaticamente na plataforma Aave.
+Ao depositar amWMATIC na plataforma _Mai Finance,_ recebes camWMATIC em troca. O rácio entre este 2 tokens não é 1:1, porque o token camWMATIC representa a tua porção da _pool_ de amWMATIC na plataforma, em que as taxas de interesse são acumuladas e compostas progressivamente. Tem também em conta que quando depositas os tokens amWMATIC na plataforma _Mai Finance,_ estes tokens são removidas da plataforma Aave. Da mesma forma, ao remover os teus tokens amWMATIC da plataforma _Mai Finance,_ estes podem ser encontrados automaticamente na plataforma Aave.
 
 {% hint style="info" %}
 Só pelo facto de depositares os tokens amWMATIC (ou qualquer amToken) na plataforma Mai Finance permite gerar mais interesse do que apenas emprestar os tokens na plataforma Aave. Isto porque a tua taxa de interesse base e as recompensas adicionais são auto-compostas o que significa que não tens que coletar as tuas recompensas, converta-las no token do teu agrado e deposita-las novamente.
@@ -49,19 +49,19 @@ Só pelo facto de depositares os tokens amWMATIC (ou qualquer amToken) na plataf
 
 Os amTokens representam os fundos que depositaste na plataforma Aave. A quantidade de amTokens é igual à quantidade que foi depositada na plataforma Aave. No entanto, os camTokens representam a porção da _pool_ de amTokens depositadas na plataforma _Mai Finance._
 
-Vamos assumir que quando a pool de um determinado amToken é criado na plataforma _Mai Finance,_ existiam 1000 amTokens e tu depositaste 100 deles. Tendo em conta que a _pool_ foi criada recentemente, o racio entre os amTokens e camTokens é 1:1 e tu possuis 10% da _pool_. Após 1 ano, assumindo que mais ninguem adicionou ou removeu amTokens, a _pool _gerou uma taxa de interesse de 4,93% e existem agora 1049,3 amTokens na _pool_. No entanto, só possuis 10% da pool, representando pelos teus 100 camTokens. O rácio é agora 1:1,0493, o que se significa que um camToken vale 1,0493 amToken.
+Vamos assumir que quando a pool de um determinado amToken é criado na plataforma _Mai Finance,_ existiam 1000 amTokens e tu depositaste 100 deles. Tendo em conta que a _pool_ foi criada recentemente, o racio entre os amTokens e camTokens é 1:1 e tu possuis 10% da _pool_. Após 1 ano, assumindo que mais ninguem adicionou ou removeu amTokens, a _pool_ gerou uma taxa de interesse de 4,93% e existem agora 1049,3 amTokens na _pool_. No entanto, só possuis 10% da pool, representando pelos teus 100 camTokens. O rácio é agora 1:1,0493, o que se significa que um camToken vale 1,0493 amToken.
 
 ### Empréstimos na moeda estável MAI
 
-A plataforma _Mai Finance_ permite que peças empréstimas na moeda estável (aka, stable-coin) MAI quando depositas tokens como colateral. Atualmente, a plataforma _Mai Finance _aceita uma vasta variedade de tokens como colateral como camWMATIC, que tem usado como exemplo. Na plataforma _Mai Finance os _camtokens_ _usados como colateral continuam a gerar interesse enquanto estiverem depositados na plataforma, o que significa que a quantidade dos teus tokens iniciais vai aumentar com o passar do tempo.
+A plataforma _Mai Finance_ permite que peças empréstimas na moeda estável (aka, stable-coin) MAI quando depositas tokens como colateral. Atualmente, a plataforma _Mai Finance_ aceita uma vasta variedade de tokens como colateral como camWMATIC, que tem usado como exemplo. Na plataforma _Mai Finance os_ camtokens __ usados como colateral continuam a gerar interesse enquanto estiverem depositados na plataforma, o que significa que a quantidade dos teus tokens iniciais vai aumentar com o passar do tempo.
 
 {% hint style="info" %}
 Quando camWMATIC é depositado como colateral num _Vault_, o saldo na página Yield será 0. No entanto, isso não significa que a taxa de interesse e as recompensas da plataforma Aave não estão a ser auto-compostos.
 {% endhint %}
 
-Quando acedes à página _Vaults _e selecionas camWMATIC do menu suspenso, é-te dada a opção de criares uma nova _vault _onde podes depositar os teus tokens camWMATIC. Lembra-te que ao utilizares os teus tokens para pedires um empréstimo, tens que manter o teu rácio de colateral para divida (CDR) acima dos 155% para evitares ser liquidado.
+Quando acedes à página _Vaults_ e selecionas camWMATIC do menu suspenso, é-te dada a opção de criares uma nova _vault_ onde podes depositar os teus tokens camWMATIC. Lembra-te que ao utilizares os teus tokens para pedires um empréstimo, tens que manter o teu rácio de colateral para divida (CDR) acima dos 155% para evitares ser liquidado.
 
-![ 0.2 MATIC a ser utilizado como colateral](../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
+![ 0.2 MATIC a ser utilizado como colateral](../../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
 
 **Nota:** nesta página, consegues ver o valor do teu colateral em USD, que flutua de acordo com o colateral depositado, o valor do token e os interesses gerados pela _pool_ de camWMATIC..
 
@@ -71,7 +71,7 @@ Quando acedes à página _Vaults _e selecionas camWMATIC do menu suspenso, é-te
 Cria o hábito de visitar a página Vault para verificar que estás sempre acima do rácio de liquidição, adicionando mais colateral caso o rácio começar a cair abaixo de um nível "saudável". Isto depende no entanto do teu perfil de risco.
 {% endhint %}
 
-![Tenho agora uma divida de $0.10](../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
+![Tenho agora uma divida de $0.10](../../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
 
 Pedi emprestado $0.10 de MAI, o que resulta num rácio de 214.56% CDR. Vamos colocar o dinheiro emprestado a bom uso!
 
@@ -79,13 +79,13 @@ Pedi emprestado $0.10 de MAI, o que resulta num rácio de 214.56% CDR. Vamos col
 
 Podemos ir à nossa DEX favorita (QuickSwap ou SushiSwap são bons exemplos) e trocar MAI para MATIC.
 
-![Vamos comprar mais MATIC](../.gitbook/assets/screen-shot-2021-08-06-at-6.10.35-pm.png)
+![Vamos comprar mais MATIC](../../.gitbook/assets/screen-shot-2021-08-06-at-6.10.35-pm.png)
 
 Após a troca, tenho mais tokens MATIC na minha carteira.
 
 ### Repete o ciclo
 
-Inicialmente tinha 0,2 MATIC na minha carteira que foi depositado na plataforma _Mai Finance _a gerar 4,93% de interesse anual. Possuo ainda 0.09 MATIC à minha disposição comprados com o token MAI que pedi emprestado. Estes tokens adicionais podem ser depositados na plataforma Aave, tal como o meu depósito inicial, começando o processo do inicio.
+Inicialmente tinha 0,2 MATIC na minha carteira que foi depositado na plataforma _Mai Finance_ a gerar 4,93% de interesse anual. Possuo ainda 0.09 MATIC à minha disposição comprados com o token MAI que pedi emprestado. Estes tokens adicionais podem ser depositados na plataforma Aave, tal como o meu depósito inicial, começando o processo do inicio.
 
 ### Quando deves sair do ciclo
 
