@@ -1,5 +1,5 @@
 ---
-description: >-
+Açıklama: >-
   Bu kılavuzda Harmony zincirini kullanmaya başlamak için bilmeniz gereken her şeyi açıklayacağız.
 ---
 
