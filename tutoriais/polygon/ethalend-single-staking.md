@@ -19,18 +19,18 @@ Uma da missōes deste website e a coleção de tutoriais que são ofericidos é 
 
 Ethalend é um protocolo componível que abstrai a complexidade no DeFi para prover rendimentos otimizados por algoritmos. Não se trata de um agregador de rendimentos, mas de um otimizador de rendimentos. Você será capaz de depositar átivos na plataforma, e o algoritmo encarregado da pool em que você depositou seus ativos irá, na verdade, investí-los da melhor maneira possível. Rendimentos são então distribuidos no token nativo da Ethalend, o token ETHA, assim como alguns tokens parceiros, incluindo Qi da Mai Finance que você pode obter ao depositar seu MAI no eVault MAI-USDT. Você pode ler mais sobre Ethalend pela [documentação oficial,](https://docs.ethalend.org) ou lendo esta excelente[ entrevista do cofundador](https://ambcrypto.com/un-complicating-defi-an-interview-with-ethalend-co-founder-danny-b/).
 
-### Create your Ethalend wallet from your web3 wallet
+### Criando sua carteira Ethalend da sua carteira web3
 
-One of the very interesting things about Ethalend is that the application is using a dedicated on-chain wallet that is not linked to your web3 wallet. This can be considered as
+Uma das coisas mais interessantes sobre a Ethalend é que a aplicação usa uma carteira on-chain dedicada que não está conectada a sua carteira web3. Isso pode ser considerado como:
 
-* an advantage since all contract risk is limited to what is exposed in this private wallet. Also, some interaction between the Ethalend application and the private wallet are directly included into the platform use, which may save you some transaction fees. As a side note, the ETHA smart wallet is non-custodial, meaning that only you will have access to the wallet, it's not like a master centralized wallet controlling the share corresponding to your wallet.
-* a disadvantage, because it adds complexity in your routine, and the ETHA smart wallet isn't compatible with physical devices.
+* uma vantagem, já que todo risco contratual é limitado ao que é exposto nesta carteira privada. Além disso, algumas interaçōes entre a aplicação Ethalend e a carteira privada são direamente incluidas no uso da plataforma, o que pode te poupar algumas taxas de transaçōes. A propósito, a carteira inteligente ETHA é sem custódia, o que significa que apenas você terá acesso a carteira, não é como uma carteira centralizada que controla a parcela correspondente a sua carteira.
+* uma desvantagem, porque adiciona complexidade em sua rotina, e a carteira inteligenta ETHA não é compativel com dispositivos físicos.
 
-It's going to be up to you to decide if the pros are bringing enough value to surpass the cons. When you are ready to create your wallet, simply click on the `Create Wallet` button in the top right corner of your screen.
+Caberá a você decidir se as vantagens estão trazendo valor suficiente para vencer as desvantagens. Quando você estiver pronto para criar a sua carteira, simplesmente clique no botão `Create Wallet` na parte superior direita da sua tela.
 
-![Create your ETHA smart wallet](../../.gitbook/assets/Ethalend-2.png)
+![Criando sua carteira inteligente ETHA](../../.gitbook/assets/Ethalend-2.png)
 
-There you go, ready to use the protocol!
+Tudo pronto para usar o protocolo!
 
 ## Strategy overview
 
