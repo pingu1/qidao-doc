@@ -24,6 +24,7 @@
   * [Fantom'da MAI ile ne yapılır?](rehberi/fantom/what-to-do-with-mai-on-fantom.md)
 * [Moonriver](rehberi/moonriver/README.md)
   * [Moonriver'ı Nasıl Kullanırım?](rehberi/moonriver/how-to-get-started-on-moonriver.md)
+  * [Farming MAI on SolarBeam](rehberi/moonriver/farming-mai-on-solarbeam.md)
 * [Cronos](rehberi/cronos/README.md)
   * [Cronos'u Nasıl Kullanırım?](rehberi/cronos/how-to-get-started-on-cronos.md)
   * [Farming Legos with CroDex](rehberi/cronos/farming-legos-with-crodex.md)
