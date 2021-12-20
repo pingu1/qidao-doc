@@ -9,7 +9,7 @@ description: >-
 
 ## Intro
 
-Qi (\[tʃ Í] or _chee_), is the native token of Mai Finance. Some use it to vote and QIP (**Q**iDAO **I**mprovement **P**roposals), some stake it to get even more of them, and some simply farm with it. You can find some very good info on how you can use Qi on the Mai Finance plateforme in the [guide dedicated to passive income](../MAI-university/earning-passive-income-with-qidao.md).
+Qi (\[tʃ Í] or _chee_), is the native token of Mai Finance. Some use it to vote and QIP (**Q**iDAO **I**mprovement **P**roposals), some stake it to get even more of them, and some simply farm with it. You can find some very good info on how you can use Qi on the Mai Finance plateforme in the [guide dedicated to passive income](../../MAI-university/earning-passive-income-with-qidao.md).
 
 This guide, as most investment tutorials, will focus primarily on farming and harvesting yields, this time using the Qi token. We will see how you can generate a lot of Qi, and how you can use them on the different platforms on Polygon.
 
@@ -35,7 +35,7 @@ As a quick reminder, Qi is paired to different tokens to form LP (**L**iquidity 
 * Qi-WETH on QuickSwap and get rewarded with QUICK tokens
 * Qi-QUICK on QuickSwap and get rewarded with QUICK tokens
 
-![LP pool on QuickSwap for the Qi-WETH pair](<../.gitbook/assets/image (19) (2).png>)
+![LP pool on QuickSwap for the Qi-WETH pair](<../../.gitbook/assets/image (19) (2).png>)
 
 ### Single Qi farming
 
@@ -43,7 +43,7 @@ Qi can also be used solely on [Impermax](https://polygon.impermax.finance). Impe
 
 The way it works, is that you will borrow the 2 tokens forming the pair that you want to farm, combine them into more LP tokens, and farm with a much higher position. In most cases, borrowing rates are largely compensated by farming APR, giving you some net positive rewards.
 
-![Leveraged Qi-WETH position on Impermax](<../.gitbook/assets/image (10).png>)
+![Leveraged Qi-WETH position on Impermax](<../../.gitbook/assets/image (10).png>)
 
 We can see here that the final reward APR on Impermax is 393.88% after leveraging 5 times, based on an APY of 239.68% on QuickSwap.
 
@@ -53,7 +53,7 @@ Note also that Impermax gives estimated APRs (**A**nnual **P**ercentage **R**ewa
 
 But then, on Impermax, in order to borrow Qi and WETH to leverage your position, you need to get them from somewhere. This is possible only because some other users (or yourself) also supply both tokens separately. The more token is borrowed, the higher the borrowing rate becomes, and the lower the final APR, sometimes going in the negatives.
 
-![Qi and WETH statistics for the Qi-WETH market on Impermax](<../.gitbook/assets/image (11).png>)
+![Qi and WETH statistics for the Qi-WETH market on Impermax](<../../.gitbook/assets/image (11).png>)
 
 For our example, we will focus on Qi. You can see that the total supply of Qi is $427.21 and the total amount used in leveraged position is $321.44, giving the utilization rate of 75.24%. Impermax has some internal mechanism that automatically calculates the supply APR (APR that people lending Qi will get) and the borrowing APR (percentage of the farmed reward that will be deduced to pay the loan).
 
@@ -67,11 +67,11 @@ Balancer is a really nice toolbox for any strategy, especially the ones that inc
 
 The pool that we want to use here is a pool that contains Qi, WMATIC, BAL, USDC and MAI. This pool will reward you with both Qi and BAL tokens, and you can already see that you will be able to compound both into the pool. Because another amazing advantage of pools on Balancer is that you don't need to provide all tokens forming the pool in the proper ratio, the algorithm will do it for you. This means that you can indeed only deposit Qi in the pool and let the algorithm do the rest to rebalance everything.
 
-![Details of the pool as of September 2021](<../.gitbook/assets/image (12).png>)
+![Details of the pool as of September 2021](<../../.gitbook/assets/image (12).png>)
 
 As a side note, BAL tokens can (or will soon be) usable as collateral on Mai Finance, which mean that you will have the option to store your BAL tokens on the BAL vault on Mai Finance, and borrow MAI against then. In addition to that, borrowing MAI against your BAL tokens will make you eligible for Qi rewards that will feed the pool on Balancer.
 
-![Closed loop using Mai Finance and Balancer](<../.gitbook/assets/image (13).png>)
+![Closed loop using Mai Finance and Balancer](<../../.gitbook/assets/image (13).png>)
 
 The APR of BAL vaults will highly dictates how interesting it is to have the vault in the loop, or if compounding your Qi into the Balancer's pool will be better.
 
@@ -85,7 +85,7 @@ One of the main factor that will affect the price of Qi is the rate at which the
 
 There are currently 2 sources of Qi emission: farming rewards and vault rewards.
 
-![LP farms on Mai Finance in September 2021](<../.gitbook/assets/image (16).png>)
+![LP farms on Mai Finance in September 2021](<../../.gitbook/assets/image (16).png>)
 
 If you are farming yields on MAI finance, you have the choice between the MAI/USDC pair and the Qi/WMATIC pair (as of September 2021).
 
@@ -106,9 +106,9 @@ Yield optimizers are platforms that will automatically compound the rewards with
 
 As an example, Adamant offers you to farm the Qi/WMATIC LP pair on their platform, with the following reward distribution
 
-![Qi-WMATIC pool on Adamant](<../.gitbook/assets/image (15).png>)
+![Qi-WMATIC pool on Adamant](<../../.gitbook/assets/image (15).png>)
 
-![Details of the 179.23% APR granted by Adamant](<../.gitbook/assets/image (14).png>)
+![Details of the 179.23% APR granted by Adamant](<../../.gitbook/assets/image (14).png>)
 
 You will notice that if the overall APR is higher than on Mai Finance, it's solely because Adamant is allocating additional ADDY rewards to the farmers. The amount of Qi that is actually redistributed to the farmer is 98.45% compared to the 134.42% you can get on Mai Finance.
 
@@ -138,7 +138,7 @@ Now, if the price of ETH goes up to $2,000, if the pool keeps the same amount of
 
 This also means that when the price of one of the 2 token goes up, the pool creates some demande for the other, also driving its price up. The opposite is also true: if one token loses value, the other one will be sold to maintain a 1:1 ratio, driving the price down. This also partially explains the price fluctuation of Qi when compared to the price fluctuation of WEHT and WMATIC (the 2 main tokens to which Qi is paired).
 
-![Price of Qi (left) VS Price of WMATIC (right)](<../.gitbook/assets/image (17).png>)
+![Price of Qi (left) VS Price of WMATIC (right)](<../../.gitbook/assets/image (17).png>)
 
 ### Lack of use case
 

@@ -32,13 +32,13 @@ Polygon 还设法建立了信任，并被证明是以太坊网络的可靠替代
 
 完成后，你应该会在浏览器上看到以下内容：
 
-![ Metamask界面](<../.gitbook/assets/image (18).png>)
+![ Metamask界面](<../../.gitbook/assets/image (18).png>)
 
 ### **添加Polygon Blockchain**
 
 正如你在上图中看到的，我们使用的是Ethereum Mainnet，但是如果我们单击那里更改为不同的网络，你会看到 Polygon Mainnet不在那里。不用担心，我们需要做的是手动添加Polygon Mainnet，为此，你需要单击Custom RPC并编写以下内容：
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 一旦你完成后，你几乎可以在 Polygon Blockchain上使用 Metamask 钱包了，剩下的唯一一步是将Ethereum Mainnet切换到 Polygon Mainnet，为此你需要单击 Metamask extension顶部的下拉菜单。
 
@@ -48,7 +48,7 @@ Polygon 还设法建立了信任，并被证明是以太坊网络的可靠替代
 
 幸运的是，此[页面](https://matic.supply)为你提供免费 MATIC 以在 Polygon 网络上进行你的第一笔交易（这些类型的页面可以称为水龙头）。你唯一需要做的就是将你的钱包连接到该页面并完成验证码。这些 0.002 MATIC (\~0,00223$) 将允许我们使用Polygon网络进行一些交易。
 
-![获得免费 MATIC](<../.gitbook/assets/image (23).png>)
+![获得免费 MATIC](<../../.gitbook/assets/image (23).png>)
 
 有时由于网络拥塞，你在使用此页面时可能会遇到一些问题，因此只需稍等片刻，你就可以索取一些免费的 MATIC。此外，你可以尝试使用这个，以防另一个不起作用。
 
@@ -58,11 +58,11 @@ Polygon 还设法建立了信任，并被证明是以太坊网络的可靠替代
 
 现在你的 Metamask 中有一些免费的 MATIC，你已准备好使用 Polygon 有的不同 DApp 和代币。你可以复制你想要用[PolygonScan](https://polygonscan.com) 使用的代币的地址。你到达那里后，你只需要写下你要添加的代币的名称。例如，如果我们在 Polygon 上搜索 QiDAO，我们将得到：
 
-![在PolygonScan 上编写 QiDAO 的结果](<../.gitbook/assets/image (24).png>)
+![在PolygonScan 上编写 QiDAO 的结果](<../../.gitbook/assets/image (24).png>)
 
 现在，你需要复制合约的地址并在 Metamask上单击Add token。
 
-![在 Metamask 上添加 Qi](<../.gitbook/assets/image (25).png>)
+![在 Metamask 上添加 Qi](<../../.gitbook/assets/image (25).png>)
 
 ## **如何在 Polygon 上购买代币**
 
@@ -70,7 +70,7 @@ Polygon 还设法建立了信任，并被证明是以太坊网络的可靠替代
 
 一旦你决定了你想要使用哪个 DEX，你就可以开始在 Polygon Blockchain上购买你最喜欢的代币。
 
-![使用 Quickswap 购买 Qi 代币](<../.gitbook/assets/image (26).png>)
+![使用 Quickswap 购买 Qi 代币](<../../.gitbook/assets/image (26).png>)
 
 {% hint style="info" %}
 当你想购买代币时有另一个有趣的 DApp 是 [Zapper](https://zapper.fi/es/exchange)。 Zapper 理论上会搜索最便宜的平台来执行两个代币的互换，因此这是节省一些 MATIC 的好方法。
@@ -80,7 +80,7 @@ Polygon 还设法建立了信任，并被证明是以太坊网络的可靠替代
 
 I了解如何查钱包历史记录很重要，这么做，你可以使用 [DeBank](https://debank.com)。 Debank 将允许你检查你在 Metamask 帐户中进行的不同交易，以及检查你使用的所有区块链上的投资组合或你拥有的 NFT 。如果你想比较的话这将会非常有用，例如，在质押一些Qi的期间你收到的不同的空投Qi。
 
-![在我们新的 Metamask 地址中进行的所有交易](<../.gitbook/assets/image (27).png>)
+![在我们新的 Metamask 地址中进行的所有交易](<../../.gitbook/assets/image (27).png>)
 
 正如你所看到的，我的钱包里有 800,000 个 DxDex.io，但我没有做任何事情来让我的钱包里得到这些代币。你需要意识到这些类型的骗局，并且永远不要与你不知道的任何硬币互动。万一你授予他们访问权限，Debank 将允许你撤销它。请小心，如果你不知道那个代币，请不要触摸它。
 

@@ -22,7 +22,7 @@ As other EVM compatible chains, Moonriver uses a gas token used to verify transa
 
 Before usign the Moonriver network, you will need a wallet address. Because Moonriver is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network. You can find a very clear step by step guide on the [official moonbeam foundation doc](https://moonbeam.foundation/tutorials/how-to-create-moonriver-ethereum-address/).
 
-For this tutorial, we will stick to Metamask like for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](<../polygon-tutorials/how-to-get-started-on-polygon.md>).
+For this tutorial, we will stick to Metamask like for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
 
 ### Adding Moonriver to Metamask
 
@@ -36,7 +36,7 @@ In theory, Moonriver comes pre-installed with MetaMask, meaning that you should 
 
 Save the changes, and Metamask will automatically switch you over to the Moonriver network:
 
-![Success!! You're now on Moonriver!](<../.gitbook/assets/Moonriver-setup-MM.png>)
+![Success!! You're now on Moonriver!](../../.gitbook/assets/Moonriver-setup-MM.png)
 
 ## Bridging to Moonriver
 
@@ -44,7 +44,7 @@ Save the changes, and Metamask will automatically switch you over to the Moonriv
 
 One of the biggest DEX on Moonriver, SolarBeam, offers [a gasless transaction swap](https://app.solarbeam.io/bridge/gas-swap) in case you're left without gas. This also assumes you have some funds on Moonriver, but cannot do anything because you have 0 MOVR in your wallet.
 
-![Gasless transaction that will allow you to swap for gas](<../.gitbook/assets/Moonriver-faucet.png>)
+![Gasless transaction that will allow you to swap for gas](../../.gitbook/assets/Moonriver-faucet.png)
 
 Note that only certain assets are accepted for this gasless transaction, and MAI isn't part of the supported coins.
 
@@ -52,7 +52,7 @@ Note that only certain assets are accepted for this gasless transaction, and MAI
 
 * [Relay Chain](https://app.relaychain.com/transfer#/) is the official partner of Mai Finance if you want to transfer your MAI to Moonriver from Polygon. When you're connected to Polygon, you can simply chose the destination chain (Moonriver) and the asset you want to send (MAI or miMATIC) with the correct amount, and click on the `Transfer` button. Pay attention to the transfer fees.
 
-![Bridging MAI from Polygon to Moonriver using Relay Chain](<../.gitbook/assets/Moonriver-relaychain.png>)
+![Bridging MAI from Polygon to Moonriver using Relay Chain](../../.gitbook/assets/Moonriver-relaychain.png)
 
 * If you need to bridge other assets from other network, you can use Relay Chain (see above), [AnySwap](https://anyswap.exchange/#/bridge) will work if you want to bridge from Eth Mainnet to Moonriver, and of course you can also use the bridge feature from [Solarbeam](https://app.solarbeam.io/bridge).
 * A special note for [Elknet](https://app.elk.finance/#/elknet) that will act both as a bridge and as a faucet when you transfer the ELK token between 2 networks. You will be able to bridge your ELK and on the receiving end, you can have a small portion of your ELK directly available as the gas token, MOVR in our case.
@@ -63,7 +63,7 @@ In case you bridge some MAI from Polygon to Moonriver via Relay Chain, you will 
 
 You can swap your MAI from Relay Chain using [the hub on Mai Finance](https://app.mai.finance/hub) with a 1:1 ratio, then you'll be able to use your true MAI on other platforms.
 
-![Using the hub to swpa MAI(RelayChain) to true MAI](<../.gitbook/assets/Moonriver-hub.png>)
+![Using the hub to swpa MAI(RelayChain) to true MAI](../../.gitbook/assets/Moonriver-hub.png)
 
 {% hint style="info" %}
 As a side note, if you want to bridge your MAI from Moonriver to Polygon or other chains, you will have to convert them first into their RelayChain version.
@@ -75,17 +75,14 @@ Moonriver is getting a lot of traction and more and more applications are moving
 
 * [Solarbeam](https://app.solarbeam.io): This is the main DEX and AMM on Moonriver. You will be able to swap your assets, participate in liquidity mining by providing LP (**L**iquidity **P**roviding) pairs in farms, or stake the native token of the platform. Solarbeam is also one of the first partner of Mai Finance on Moonriver, and you will be able to farm the MAI-MOVR pair. You will also find a MAI-USDC pool that isn't getting any rewards but may get some trading fees.
 
-![LP pools that include MAI on solarbeam as of December 2021](<../.gitbook/assets/Moonriver-solarbeam.png>)
+![LP pools that include MAI on solarbeam as of December 2021](../../.gitbook/assets/Moonriver-solarbeam.png)
 
 When you farm on Solarbeam, you will be rewarded in SOLAR tokens that you can then stake in a Vault for a certain vesting period and earn additional SOLAR tokens, or stake to gain other tokens exotic to the platform.
 
-* [Huckleberry Finance](https://www.huckleberry.finance/): This is another DEX/AMM on Moonriver where you will be able to farm yiels, and possible use Beefy to compound your gains.
-
+* [Huckleberry Finance](https://www.huckleberry.finance): This is another DEX/AMM on Moonriver where you will be able to farm yiels, and possible use Beefy to compound your gains.
 * [Beefy Finance](https://app.beefy.finance/#/moonriver): The famous auto-compounder is also on Moonriver and will help you compound your gains from both Solarbeam and Huckleberry. As a side note, Beefy doesn't propose the MAI-MOVR pair as of writing, but you may soon be able to use Beefy to harvest the SOLAR tokens and get more MAI-MOVR from the compounder.
-
-* [Sushiswap](https://app.sushi.com/): No need to present SushiSwap! You'll be able to swap your assets and farm yields for certain LP tokens like you would do on any other chains. Rewards are granted in SUSHI and MOVR.
-
-* [Rome DAO](https://romedao.finance/): This is the first OHM-fork on Moonriver. Bond your assets to get discounted ROME tokens that you can stake to gain very high APY. As time of writing, the 5-Day ROI is around 10.6%. RomeDAO currently accepts FRAX and MIM in its treasury, but may soon accept MAI also.
+* [Sushiswap](https://app.sushi.com): No need to present SushiSwap! You'll be able to swap your assets and farm yields for certain LP tokens like you would do on any other chains. Rewards are granted in SUSHI and MOVR.
+* [Rome DAO](https://romedao.finance): This is the first OHM-fork on Moonriver. Bond your assets to get discounted ROME tokens that you can stake to gain very high APY. As time of writing, the 5-Day ROI is around 10.6%. RomeDAO currently accepts FRAX and MIM in its treasury, but may soon accept MAI also.
 
 ## Mai Finance on Moonriver
 
@@ -95,7 +92,7 @@ The lending platform is already available on Moonriver where you will be able to
 * Deposit the ETH-USDC pair on Beefy and get a mooSolarETH-USDC receipt token
 * Deposit your mooToken on Mai Finance in [the appropriate vault](https://app.mai.finance/vaults/create)
 
-![Mai Finance vaults on Moonriver as of December 2021](<../.gitbook/assets/Moonriver-vaults.png>)
+![Mai Finance vaults on Moonriver as of December 2021](../../.gitbook/assets/Moonriver-vaults.png)
 
 Single ETH vault is also an option.
 

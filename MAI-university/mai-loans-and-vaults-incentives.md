@@ -93,7 +93,7 @@ It's very important to keep an eye on your CDR and keep a healthy ratio to
 * prevent liquidation
 * increase the health of the whole Mai Finance platform by ensuring the MAI volume in circulation is properly backed
 
-The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest](../polygon-tutorials/leverage-aave-tokens.md#examples-with-numbers) in other projects, or [repay your debt](debt-repayment-how.md#repayment-using-your-collateral) using your debt.
+The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest](../jiao-cheng/polygon/leverage-aave-tokens.md#examples-with-numbers) in other projects, or [repay your debt](debt-repayment-how.md#repayment-using-your-collateral) using your debt.
 
 ## Vault incentives
 
@@ -188,7 +188,7 @@ Right now all the vault types have been allocated Qi rewards
 
     For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:
 * _Matic_ - Liquidation ratio 150% - Eligible for Incentives between 175% and 420%
-* _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400% 
+* _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400%
 * _CamTokens_: - Liquidation ratio 135% - Eligible for Incentives between 160% and 405%
 *   **How can I see if my vault is earning rewards?**
 

@@ -1,0 +1,13 @@
+# Fantom
+
+{% content-ref url="how-to-get-started-on-fantom.md" %}
+[how-to-get-started-on-fantom.md](how-to-get-started-on-fantom.md)
+{% endcontent-ref %}
+
+{% content-ref url="../polygon/leverage-aave-tokens.md" %}
+[leverage-aave-tokens.md](../polygon/leverage-aave-tokens.md)
+{% endcontent-ref %}
+
+{% content-ref url="what-to-do-with-mai-on-fantom.md" %}
+[what-to-do-with-mai-on-fantom.md](what-to-do-with-mai-on-fantom.md)
+{% endcontent-ref %}
