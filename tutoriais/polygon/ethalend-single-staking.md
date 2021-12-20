@@ -34,20 +34,20 @@ Tudo pronto para usar o protocolo!
 
 ## Visão geral da estratégia
 
-Esta estratégia pode ser adicionada ao seu leque de estratégias relativamente seguras, já que usará farm de stablecoins na sua raíz, e rendimentos adicionais serão providos graças aos ativos mais volateis das recompensas da posição em stablecoin..
+Esta estratégia pode ser adicionada ao seu leque de estratégias relativamente seguras, já que usará farming de stablecoins em sua raíz, e rendimentos adicionais serão providos graças aos ativos mais voláteis das recompensas da posição em stablecoins.
 
-### MAI single staking and gains
+### Staking único de MAI e ganhos
 
-![Ethalend MAI-USDT eVault as of November 2021](../../.gitbook/assets/Ethalend-3.png)
+![eVault de MAI-USDT na Ethalend, Novembro 2021](../../.gitbook/assets/Ethalend-3.png)
 
-One of the big advantages of Ethalend, and one of the key feature that allows DeFi simplification, is that you don't need to provide a LP (**L**iquidity **P**roviding) pair composed of 2 assets with a ratio of 1:1. The algorithm that manages the pool (or eVault in our case) will do it automatically for you. Also, once you deposit your assets in a eVault, they will be re-routed automatically to the best protocol that will maximize your yield. The reward tokens will be farmed and converted for you regularly.
+Uma das grandes vantagens da Ethalend, e uma das funçōes que permite simplificar o DeFi, é que não você precisar fornecer um par LP (**L**iquidity **P**roviding, Provedor de Liquidez) composto de 2 ativos com uma proporção de 1:1. O algoritmo que administra a pool (ou eVault no nosso caso) irá fazer automaticamente para você. Além disso, a partir do momento que você deposita seus ativos no eVault, eles serão roteados automaticamente ao melhor protocolo que irá maximizar seu rendimento. Será feito farming com os tokens de recompensas e então serão convertidos para você regularmente.
 
-![Depositing 100 MAI in the MAI-USDT eVault from our MetaMask wallet](../../.gitbook/assets/Ethalend-4.png)
+![Depositando 100 MAI no eVault MAI-USDT da nossa carteira MetaMask](../../.gitbook/assets/Ethalend-4.png)
 
-As you can see, details of the rewards are displayed in the right part of the screen. The ETHA rewards are not displayed, but you get an estimation of the Qi rewards associated with your deposit. If you scroll down the page, you will also get a good understanding of the underlying strategy that is using QuickSwap in our case. QUICK rewards will be converted into Qi rewards. ETHA rewards are minted by the protocol to incentive you to use their platform instead of QuickSwap.
+Como você pode ver, detalhes das recompensas são exibidos no canto direito da sua tela. As recompensas ETHA não são exibidas, mas você consegue uma estimativa das recompensas em Qi associadas ao seus depósit. Se você descer a página, você também terá um bom entendimento das estratégia subjacente que está usando a QuickSwap no nosso caso. Recompensas em QUICK serão convertidas em recompensas Qi. Recompensas ETHA são cunhadas pelo protocolo para te incentivar a usar a plataforma deles ao invés da QuickSwap.
 
 {% hint style="info" %}
-Pay attention to the 0.10% withdrawing fees. As of writing, with a deposit of 100 MAI, I will have to pay a 0.1 MAI exit fee, which roughly corresponds to 10 days of farming in the eVault. Make sure you understand this point before investing anything.
+Preste atenção às taxas de retirada de 0.10%. No momento atual, com um depósito de 100 MAI, terei que pagar 0.1 de MAI em taxas, o que corresponde praticamente a 10 dias de farming no eVault. Tenha certeza que você entendeu isso antes de investir.
 {% endhint %}
 
 ### Staking ETHA: Ethalend or QuickSwap
