@@ -32,9 +32,9 @@ Caberá a você decidir se as vantagens estão trazendo valor suficiente para ve
 
 Tudo pronto para usar o protocolo!
 
-## Strategy overview
+## Visão geral da estratégia
 
-This strategy can be added to your bucket of relatively safe strategies since it will be using stable coin farming at its root, and additional yields will be provided thanks to more volatile assets from the rewards of the stable position.
+Esta estratégia pode ser adicionada ao seu leque de estratégias relativamente seguras, já que usará farm de stablecoins na sua raíz, e rendimentos adicionais serão providos graças aos ativos mais volateis das recompensas da posição em stablecoin..
 
 ### MAI single staking and gains
 
