@@ -91,13 +91,13 @@ Khi bạn vay MAI với một tài sản thế chấp nhất định, bạn sẽ
 Rất quan trọng khi bạn luôn phải để ý tỷ lệ CDR và tỷ lệ lành mạnh với mục đích:
 
 * tránh bị thanh lý tài sản
-* tăng cường lành mạnh của toàn bộ nền tảng Mai Finance bằng cách đảm bảo khối lượng MAI được lưu hành với hỗ trợ thích hợp.  
+* tăng cường lành mạnh của toàn bộ nền tảng Mai Finance bằng cách đảm bảo khối lượng MAI được lưu hành với hỗ trợ thích hợp. &#x20;
 
-CDR "lành mạnh", theo định nghĩa của Mai Finance là cao hơn giá trị CDR tối thiểu từ 25% đến 270%. Lưu ý thêm, bạn cũng có thể xem[ hướng dẫn chiến lược](../huong-dan/leverage-aave-tokens.md) của chúng tôi để xem cách bạn có thể sử dụng CDR để đầu tư vào các dự án khác hoặc [trả nợ ](debt-repayment-how.md#hoan-tra-mot-phan)bằng cách sử dụng nợ của bạn.
+CDR "lành mạnh", theo định nghĩa của Mai Finance là cao hơn giá trị CDR tối thiểu từ 25% đến 270%. Lưu ý thêm, bạn cũng có thể xem[ hướng dẫn chiến lược](../toan-tap/polygon/leverage-aave-tokens.md) của chúng tôi để xem cách bạn có thể sử dụng CDR để đầu tư vào các dự án khác hoặc [trả nợ ](debt-repayment-how.md#hoan-tra-mot-phan)bằng cách sử dụng nợ của bạn.
 
 ## Các ưu đãi kho tiền
 
-### Tìm hiểu APR ưu đãi kho tiền  
+### Tìm hiểu APR ưu đãi kho tiền &#x20;
 
 Vào tháng 9 năm 2021, Mai Finance giới thiệu các ưu đãi kho tiền. Đây là phần thưởng do nền tảng Tài chính Mai phân bổ cho bất kỳ ai vay MAI và tham gia vào sự phát triển của nền tảng.
 
@@ -174,33 +174,33 @@ Phần thưởng được phân bổ bởi các ưu đãi kho tiền sẽ đư�
 
 ## Hỏi đáp về phần thưởng Qi.
 
-*  **Kho tiền nào thì nhận được phần thưởng Qi?**
+* &#x20;**Kho tiền nào thì nhận được phần thưởng Qi?**
 
-Hiện tại thì tất cả kho tiền đều nhận được 
+Hiện tại thì tất cả kho tiền đều nhận được&#x20;
 
-*  **Bao nhiêu Qi được dùng để khuyến  khích hoạt động cho vay?**
+* &#x20;**Bao nhiêu Qi được dùng để khuyến  khích hoạt động cho vay?**
 
 0.05 Qi/khối cho mỗi loại kho tiền
 
-*  **Bao nhiêu MAI tôi cần phải mượn để nhận được phần thưởng?**
+* &#x20;**Bao nhiêu MAI tôi cần phải mượn để nhận được phần thưởng?**
 
 Đối với ưu đãi vay tiền của Vault, hãy cao hơn tỷ lệ thanh lý từ 25% đến 270% để nhận được airdrop mã token Qi. Điều này có nghĩa là:
 
-*  _Matic_ - Tỷ lệ thanh lý 150% - Điều kiện để nhận khuyến khích giữa 175% và 420% 
-* _Tokens_: - Tỷ lệ thanh lý  130% - Điều kiện để nhận khuyến khích giữa 155% và 400% 
+* &#x20;_Matic_ - Tỷ lệ thanh lý 150% - Điều kiện để nhận khuyến khích giữa 175% và 420%&#x20;
+* _Tokens_: - Tỷ lệ thanh lý  130% - Điều kiện để nhận khuyến khích giữa 155% và 400%&#x20;
 * _CamTokens_: - Tỷ lệ thanh lý 135% - Điều kiện để nhận khuyến khích giữa 160% và 405%
 
 
 
-*  **Làm sao tôi biết được rằng kho tiền có đang được nhận thưởng hay không?**
+* &#x20;**Làm sao tôi biết được rằng kho tiền có đang được nhận thưởng hay không?**
 
- Nếu bạn thấy biểu tượng cảm xúc lửa trên trang tổng quan về vault của mình, điều đó có nghĩa là vault đang kiếm được phần thưởng
+&#x20;Nếu bạn thấy biểu tượng cảm xúc lửa trên trang tổng quan về vault của mình, điều đó có nghĩa là vault đang kiếm được phần thưởng
 
-*  **Tôi sẽ nhận được khoảng bao nhiêu?**
+* &#x20;**Tôi sẽ nhận được khoảng bao nhiêu?**
 
 Phần trăm tổng phần thưởng của bạn dựa trên phần trăm MAI bạn đã vay so với tổng số tiền MAI đã vay từ loại kho tiền đó.
 
-*  **Chương trình ưu đãi diễn ra trong bao lâu?**
+* &#x20;**Chương trình ưu đãi diễn ra trong bao lâu?**
 
 Thời gian dự kiến của chương trình ưu đãi vay là kéo dài 3 tháng. DAO có thể bỏ phiếu để ngừng khuyến khích trước khi hết 3 tháng hoặc bỏ phiếu để gia hạn chương trình.
 
@@ -216,7 +216,7 @@ Tính đủ điều kiện cho phần thưởng được tính trên mỗi khố
 
 Chúng tôi sẽ tuân theo lịch trình tương tự như eQi. Bạn có thể tìm thấy số khối trên trang Boost.
 
-## Tuyên bố từ chối trách nhiệm 
+## Tuyên bố từ chối trách nhiệm&#x20;
 
 Hướng dẫn này đã được viết trước khi ra mắt các ưu đãi của Vault, có nghĩa là các APR được quảng cáo trong tài liệu này  có thể được sửa đổi và / hoặc có thể không chính xác. Số tiền MAI đã vay, trần nợ và giá trị của mã token Qi sẽ ảnh hưởng lớn đến APR cuối cùng của mỗi loại kho tiền. Hãy đảm bảo rằng bạn đầu tư có trách nhiệm.
 

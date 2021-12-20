@@ -36,7 +36,7 @@ Về lý thuyết, Moonriver được cài đặt sẵn MetaMask, có nghĩa là
 
 Lưu các thay đổi và Metamask sẽ tự động chuyển bạn sang mạng Moonriver:
 
-![Xin chúc mứng. Bạn đã ở mạng Moonriver](../.gitbook/assets/Moonriver-setup-MM.png)
+![Xin chúc mứng. Bạn đã ở mạng Moonriver](../../.gitbook/assets/Moonriver-setup-MM.png)
 
 ## Bắc cầu sang Moonriver
 
@@ -44,7 +44,7 @@ Lưu các thay đổi và Metamask sẽ tự động chuyển bạn sang mạng 
 
 Một trong những DEX lớn nhất trên Moonriver, SolarBeam, cung cấp [hoán đổi giao dịch không cần gas](how-to-get-started-on-moonriver.md#moonriver-la-gi) trong trường hợp bạn không có gas. Điều này cũng giả sử bạn có một số tiền trên Moonriver, nhưng không thể làm gì vì bạn có 0 MOVR trong ví của mình.
 
-![Giao dịch không cần gas cho phép bạn đổi lấy gas](../.gitbook/assets/Moonriver-faucet.png)
+![Giao dịch không cần gas cho phép bạn đổi lấy gas](../../.gitbook/assets/Moonriver-faucet.png)
 
 Lưu ý rằng chỉ một số tài sản nhất định mới được chấp nhận cho giao dịch không cần gas này và MAI không phải là một phần của các đồng tiền được hỗ trỗi
 
@@ -52,7 +52,7 @@ Lưu ý rằng chỉ một số tài sản nhất định mới được chấp 
 
 * [Relay Chain](https://app.relaychain.com/transfer#/) là đối tác chính thức của Mai Finance nếu bạn muốn chuyển MAI của mình sang Moonriver từ Polygon. Khi bạn đã kết nối với Polygon, bạn có thể chỉ cần chọn chuỗi đích (Moonriver) và tài sản bạn muốn gửi (MAI hoặc miMATIC) với số tiền chính xác và nhấp vào nút Transfer. Cần lưu ý đến phí chuyển tiền.
 
-![Bắc cầu MAI từ Polygon sang Moonriver](../.gitbook/assets/Moonriver-relaychain.png)
+![Bắc cầu MAI từ Polygon sang Moonriver](../../.gitbook/assets/Moonriver-relaychain.png)
 
 * Nếu bạn cần kết nối các tài sản khác từ mạng khác, bạn có thể sử dụng Relay Chain (xem ở trên),[ AnySwap](https://anyswap.exchange/#/bridge) nếu bạn muốn kết nối từ ETH Mainnet đến Moonriver và tất nhiên bạn cũng có thể sử dụng tính năng [cầu nối](https://app.solarbeam.io/bridge) từ Solarbeam.
 * Một lưu ý đặc biệt cho [Elknet](https://app.elk.finance/#/elknet) sẽ hoạt động như một cầu nối và một nguồn faucet khi bạn chuyển mã thông báo ELK giữa 2 mạng. Bạn sẽ có thể làm cầu nối ELK của mình và ở đầu nhận, bạn có thể có một phần nhỏ ELK của mình trực tiếp dưới dạng mã thông báo gas, MOVR trong trường hợp của chúng tôi.
@@ -63,7 +63,7 @@ Trong trường hợp bạn bắc cầu một số MAI từ Polygon đến Moonr
 
 Bạn có thể hoán đổi MAI của mình từ Relay Chain bằng cách sử dụng [trung tâm trung chuyển](https://app.mai.finance/hub) trên Mai Finance với tỷ lệ 1: 1, sau đó bạn sẽ có thể sử dụng MAI thực sự của mình trên các nền tảng khác.
 
-![Sử dụng trung tâm trung chuyển để chuyển MAI (RelayChain) thành MAI từ Mai Finance](../.gitbook/assets/Moonriver-hub.png)
+![Sử dụng trung tâm trung chuyển để chuyển MAI (RelayChain) thành MAI từ Mai Finance](../../.gitbook/assets/Moonriver-hub.png)
 
 {% hint style="info" %}
 Xin lưu ý thêm, nếu bạn muốn chuyển MAI của mình từ Moonriver sang Polygon hoặc các chuỗi khác, trước tiên bạn sẽ phải chuyển đổi chúng thành phiên bản RelayChain.
@@ -75,7 +75,7 @@ Moonriver đang nhận được rất nhiều sức hấp và ngày càng có nh
 
 * [Solarbeam](https://app.solarbeam.io): Đây là DEX và AMM chính trên Moonriver. Bạn sẽ có thể hoán đổi tài sản của mình, tham gia khai thác thanh khoản bằng cách cung cấp các cặp LP (Cung cấp tính thanh khoản) trong các bể hoặc gửi cổ phần mã thông báo gốc của nền tảng. Solarbeam cũng là một trong những đối tác đầu tiên của Mai Finance trên Moonriver, và bạn sẽ có thể farm cặp MAI-MOVR. Bạn cũng sẽ tìm thấy nhóm MAI-USDC không nhận được bất kỳ phần thưởng nào nhưng có thể nhận được một số phí giao dịch.
 
-![Các bể LP bao gồm MAI trên Solarbeam kể từ tháng 12 năm 2021](../.gitbook/assets/Moonriver-solarbeam.png)
+![Các bể LP bao gồm MAI trên Solarbeam kể từ tháng 12 năm 2021](../../.gitbook/assets/Moonriver-solarbeam.png)
 
 Khi bạn farm trên Solarbeam, bạn sẽ được thưởng bằng mã thông báo SOLAR mà sau đó bạn có thể đặt  vào Vault trong một khoảng thời gian nhất định và nhận thêm mã thông báo SOLAR hoặc đặt cổ phần để đạt được các mã thông báo khác trên nền tảng.
 
@@ -92,7 +92,7 @@ Nền tảng cho vay đã có sẵn trên Moonriver, nơi bạn sẽ có thể �
 * Gửi cặp ETH-USDC trên Beefy và nhận mã thông báo mooSolarETH-USDC
 * Gửi số mooToken của bạn trên Mai Finance tại hầm tiền thích hợp
 
-![Hầm tiên Mai Finance  Moonriver kể từ tháng 12 năm 2021](../.gitbook/assets/Moonriver-vaults.png)
+![Hầm tiên Mai Finance  Moonriver kể từ tháng 12 năm 2021](../../.gitbook/assets/Moonriver-vaults.png)
 
 Hầm ETH cũng là một lựa chọn tốt.
 

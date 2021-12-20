@@ -17,7 +17,7 @@ Mai Finance đã ra mắt nền tảng cho vay của mình trên Fantom với nh
 
 [Yearn Finance](https://beta.yearn.finance/#/home) là một nhóm giao thức chạy trên mạng Ethereum và một số mạng khác cho phép người dùng tối đa hóa tài sản mã hóa thông qua hoạt động cho vay và giao dịch. Tại hướng dẫn này, chúng tôi sẽ gửi mã token đơn lẻ vào các hầm tiền trên Yearn để nhận lại yvToken như là bằng chứng cho việc gửi tiền. Tại trường hợp này, chúng ta sẽ nhận lại yvDAI khi ký gửi DAI
 
-![yearn vaults on Fantom network](../.gitbook/assets/ftm-leverage-yv1.png)
+![yearn vaults on Fantom network](../../.gitbook/assets/ftm-leverage-yv1.png)
 
 {% hint style="info" %}
 Trang web của Yearn hiện tại đang trong giai đoạn thử nghiệm trên chuỗi khối Fantom nên chỉ số APR/APY không được hiển thị trên giao diện. Tuy nhiên, bạn có thể thấy APR của DAI trên tab Iron Bank là 8%. Hãy luôn nghiên cứu trước khi đầu tư.
@@ -29,7 +29,7 @@ Khi bạn đã gửi DAI của mình vào Yearn Finance, bạn sẽ có yvDAI tr
 
 Mai Finance chấp nhận rất nhiều mã thông báo lợi nhuận đến từ các hầm tiền của Yearn như một loại thế chấp để có thể vay MAI từ đó.&#x20;
 
-![Deposit your yvToken on Mai Finance](../.gitbook/assets/ftm-leverage-yv2.png)
+![Deposit your yvToken on Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
 
 Hiện tại kho tiền yvDAI có ngưỡng thanh lý là 110%, điều này có nghĩa là bạn có thể vay MAI để tỷ lệ giữa giá trị tài sản thế chấp của bạn và giá trị nợ là 110%. Hãy cẩn thận rằng 110% thực sự là tỷ lệ mà kho tiền của bạn sẽ được thanh lý. Bạn cần giữ tỷ lệ trên ngưỡng tối thiểu này. Vì DAI không thay đổi nhiều về giá (lên hoặc xuống dưới vài xu) nên có thể giữ CDR (Tỷ lệ tài sản đảm bảo trên nợ) "an toàn" là 115%, nhưng hãy thoải mái giữ mức cao hơn nếu bạn muốn.
 
@@ -53,7 +53,7 @@ $$
 
 Trên mạng Fantom [BeethovenX](https://app.beets.fi/#/trade) là nguồn thanh khoản chính của MAI. Tại đây bạn có thể hoán đổi số MAI sang DAI với tỷ lệ trượt giá thấp.
 
-![Hoán đổi MAi sang DAI](../.gitbook/assets/ftm-leverage-yv3.png)
+![Hoán đổi MAi sang DAI](../../.gitbook/assets/ftm-leverage-yv3.png)
 
 Đây là bước cuối cùng của vòng lặp để có nhiều DAI hơn, bạn có thể gửi chúng vào kho tiền của Yearn và lặp lại vòng lặp. Làm như vậy sẽ tăng số lượng tài sản bạn có trong kho tiền của Yearn nhiều hơn, vì vậy bạn kiếm được nhiều lợi nhuận hơn và nếu bạn so sánh với khoản đầu tư ban đầu, thì APR của bạn sẽ tăng lên. Nếu bạn muốn có thêm ví dụ về APR bạn có thể đạt được bằng cách sử dụng vòng lặp yvDAI, vui lòng đọc hướng dẫn camDAI trên mạng Polygon sử dụng cùng một chiến lược nhưng các công cụ khác nhau.
 
@@ -73,7 +73,7 @@ $$
 
 Để gửi DAI chúng ta sẽ truy cập ứng dụng Beefy Finance và chọn Scream làm nền tảng mà chúng tôi sẽ thu được lợi nhuận.&#x20;
 
-![Gửi DAI trên Beefy bằng Scream](../.gitbook/assets/ftm-leverage-beefy1.png)
+![Gửi DAI trên Beefy bằng Scream](../../.gitbook/assets/ftm-leverage-beefy1.png)
 
 Như bạn có thể thấy, Beefy đã mang lại một APY không thể tin được cho các khoản tiền gửi  DAI. Khi bạn đã gửi DAI của mình trên Beefy, bạn được cung cấp bằng chứng gửi tiền trong ví của mình dưới dạng mã thông báo mooScreamDAI. Đối với mã thông báo yvDAI, mã thông báo mooScreamDAI là một khoản tiền gửi mang lại lợi nhuận, có nghĩa là tài sản của bạn vẫn được sử dụng trên Scream và được kết hợp trên Beefy, kiếm được lợi nhuận. Nhưng bạn sẽ có thể sử dụng mã thông báo này trên Mai Finance để vay MAI.
 
@@ -113,7 +113,7 @@ Mức trần nợ đại diện cho số lượng MAI tối đa có thể đư�
 
 Bạn luôn có thể xác minh số lượng MAI có thể được đúc trên trang tạo vault, nhưng bạn thường sẽ nhận thấy rằng không còn MAI nữa nếu bạn nhận được thông báo lỗi sau:
 
-![Tin nhắn báo lỗi khi chạm nợ trần](../.gitbook/assets/ftm-leverage-error.png)
+![Tin nhắn báo lỗi khi chạm nợ trần](../../.gitbook/assets/ftm-leverage-error.png)
 
 Trong hầu hết các trường hợp, chờ đợi tăng trần là giải pháp duy nhất. Hãy theo dõi twitter hoặc Discord để biết khi nào điều này xảy ra.
 

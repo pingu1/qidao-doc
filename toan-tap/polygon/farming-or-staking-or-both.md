@@ -7,7 +7,7 @@ description: >-
 
 # Farming hoặc Staking? Hoặc cả hai?
 
-![](<../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
 
 ## Intro
 
@@ -15,7 +15,7 @@ Khi bạn đang sử dụng các ứng dụng DeFi (Tài chính phân quyền), 
 
 Để làm như vậy, chúng tôi sẽ sử dụng các bể LP mới (Nhóm cung cấp tính thanh khoản) được ra mắt trên QuickSwap vào đầu tháng 9 năm 2021, đang sử dụng mã token Qi từ Mai Finance. Nếu bạn cần hiểu rõ các ứng dụng QuickSwap và Adamant là gì, vui lòng đọc hướng dẫn [Xếp chồng DApps.](stack-dapps-like-lego-bricks.md)
 
-## Trình bày ứng dụng và các bể 
+## Trình bày ứng dụng và các bể&#x20;
 
 ### Farming
 
@@ -33,7 +33,7 @@ Chúng ta cũng sẽ sử dụng các bể như sau:
 
 Bạn đã có thể thấy rằng mỗi nền tảng đang tạo ra các mã token có thể cung cấp đầu vào cho các bể khác trên các nền tảng khác. Ý tưởng là sử dụng mã token Qi thu được trên Mai Finance kết hợp với mã token QUICK thu được trên QuickSwap và sử dụng 2 trên Adamant. Adamant sẽ tạo mã ADDY cho phép bạn nhận cổ tức WMATIC. Mã token WMATIC có thể được khóa trên Mai Finance trong kho tiền WMATIC để mượn MAI, sau đó mua MATIC và WETH mà sau đó chúng ta có thể sử dụng với  Qi để tăng vị thế của bạn trên cả Mai Finance và QuickSwap
 
-### Staking 
+### Staking&#x20;
 
 Bạn cũng cần biết rằng các token dư ra có thể stake trên Mai Finance và Quickswap:
 
@@ -46,7 +46,7 @@ Bạn cũng cần biết rằng các token dư ra có thể stake trên Mai Fina
 
 ## Khởi động hệ thống
 
-![](<../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
 
 Những gì sau đây là một mô phỏng được thực hiện với khoản đầu tư ban đầu trị giá 1000 đô la cho các cặp Qi / MATIC và Qi / WETH LP và các APR / APY hiện tại được cung cấp bởi các nền tảng khác nhau vào ngày 9 tháng 9 năm 2021. Trên thực tế tỷ giá sẽ khác nhau, giá mã token sẽ thay đổi, một số chương trình sẽ kết thúc, v.v. vì vậy kết quả cuối cùng chỉ là ước tính bạn có thể nhận được gì nếu mọi thứ vẫn ổn định (không bao giờ xảy ra).
 
@@ -109,10 +109,10 @@ Vào ngày thứ 3, các token ADDY thu thập trên Adamant bắt đầu tạo 
 
 Bắt đầu ngày thứ 4, chúng ta sẽ có thể
 
-* thu cổ tức WMATIC 
-* gửi một phần WMATIC vào Mai Finance và vay MAI 
-* bán MAI để mua thêm WETH 
-* ghép MATIC còn lại với Qi và WETH với một số Qi khác được tạo trên Mai Finance 
+* thu cổ tức WMATIC&#x20;
+* gửi một phần WMATIC vào Mai Finance và vay MAI&#x20;
+* bán MAI để mua thêm WETH&#x20;
+* ghép MATIC còn lại với Qi và WETH với một số Qi khác được tạo trên Mai Finance&#x20;
 * gửi thêm cặp Qi / WMATIC trên Mai Finance và cặp Qi / WETH trên QuickSwap
 
 Tại thời điểm này, vòng quay của chúng ta thực sự bắt đầu và chúng ta có thể ước lượng doanh thu như sau:
@@ -124,21 +124,21 @@ Tại thời điểm này, vòng quay của chúng ta thực sự bắt đầu v
 Thao tác hàng ngày sẽ bao gồm các giao dịch sau đây:
 
 * Thu hoạch Qi trên Mai Finance
-* Thu hoạch WMATIC trên Adamant 
-* Gửi 66% WMATIC vào Mai Finance 
-* Vay MAI 50% số tiền đặt cọc 
-* Đổi MAI lấy WETH 
-* Tạo cặp Qi / WMATIC trên QuickSwap 
-* Gửi Qi / WMATIC vào Mai Finance 
-* Tạo cặp Qi / WETH trên QuickSwap 
-* Gửi tiền Qi / WETH trên QuickSwap 
-* Thu hoạch QUICK trên QuickSwap 
-* Tạo cặp Qi / QUICK trên QuickSwap 
-* Gửi  QUICK  còn lại vào Dragon's Lair 
-* Gửi  dQUICK vào Dragon's Syrup 
-* Thu hoạch mã token ADDY từ Dragon's Syrup 
-* Thu hoạch mã token ADDY từ Adamant 
-* Nạp Qi / QUICK mới trên Adamant 
+* Thu hoạch WMATIC trên Adamant&#x20;
+* Gửi 66% WMATIC vào Mai Finance&#x20;
+* Vay MAI 50% số tiền đặt cọc&#x20;
+* Đổi MAI lấy WETH&#x20;
+* Tạo cặp Qi / WMATIC trên QuickSwap&#x20;
+* Gửi Qi / WMATIC vào Mai Finance&#x20;
+* Tạo cặp Qi / WETH trên QuickSwap&#x20;
+* Gửi tiền Qi / WETH trên QuickSwap&#x20;
+* Thu hoạch QUICK trên QuickSwap&#x20;
+* Tạo cặp Qi / QUICK trên QuickSwap&#x20;
+* Gửi  QUICK  còn lại vào Dragon's Lair&#x20;
+* Gửi  dQUICK vào Dragon's Syrup&#x20;
+* Thu hoạch mã token ADDY từ Dragon's Syrup&#x20;
+* Thu hoạch mã token ADDY từ Adamant&#x20;
+* Nạp Qi / QUICK mới trên Adamant&#x20;
 * Tiền gửi thu được ADDY trên Adamant (khóa)
 
 ### Kết quả sơ bộ sau 1 tháng

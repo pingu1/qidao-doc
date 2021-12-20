@@ -8,11 +8,11 @@ description: >-
 
 ## Giới thiệu
 
-Vào tháng 9 năm 2021, Mai Finance đã giới thiệu phần thưởng kho tiền để thúc đẩy hoạt động kinh doanh đi vay của mình khi người dùng sử dụng mã thông báo của họ để vay MAI. Không chỉ vay lãi suất 0% với phí hoàn trả nhỏ, giờ đây mọi người còn có thể được trả thưởng khi vay tiền. Hướng dẫn này sẽ đề xuất một chiến lược dựa trên việc farming đồng ổn định bằng cách sử dụng Augury Finance làm nguồn đầu ra mã thông báo cung cấp cho các kho tiền trên Mai Finance, tạo ra các ưu đãi vay vốn cao và MAI bổ sung sau đó sẽ được bơm lại vào  các bể thanh khoản. 
+Vào tháng 9 năm 2021, Mai Finance đã giới thiệu phần thưởng kho tiền để thúc đẩy hoạt động kinh doanh đi vay của mình khi người dùng sử dụng mã thông báo của họ để vay MAI. Không chỉ vay lãi suất 0% với phí hoàn trả nhỏ, giờ đây mọi người còn có thể được trả thưởng khi vay tiền. Hướng dẫn này sẽ đề xuất một chiến lược dựa trên việc farming đồng ổn định bằng cách sử dụng Augury Finance làm nguồn đầu ra mã thông báo cung cấp cho các kho tiền trên Mai Finance, tạo ra các ưu đãi vay vốn cao và MAI bổ sung sau đó sẽ được bơm lại vào  các bể thanh khoản.&#x20;
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (29).png>)
 
-## Trình bày ứng dụng và các bể 
+## Trình bày ứng dụng và các bể&#x20;
 
 ### Augury Finance
 
@@ -20,7 +20,7 @@ Augury Finance là một nền tảng tổng hợp lợi nhuận không tập tr
 
 Ví dụ, bạn có thể farm cặp DFYN-ETH
 
-![Bể thanh khoản khai thác DFYN-ETH trên Augury ](<../.gitbook/assets/image (30).png>)
+![Bể thanh khoản khai thác DFYN-ETH trên Augury ](<../../.gitbook/assets/image (30).png>)
 
 Infusion này đang sử dụng DinoSwap làm thanh khoản nền tảng và một cặp thanh khoản LP mà một người có thể tạo được trên DFYN. Với APR là 123,43%, người dùng gửi thanh khoản vào bể này sẽ được thưởng
 
@@ -38,35 +38,35 @@ Augury Finance đang sử dụng 3 cấp có phí đặt cọc và phí thực h
 
 Trong chiến lược này, chúng tôi sẽ sử dụng bể USDT-UST cấp 2 để thưởng cho người dùng kết hợp WETH / WBTC / LINK / WMATIC / USDC, vì Mai Finance đề xuất 4 kho tiền cho 4 trong số 5 mã thông báo mà chúng ta sẽ nhận được làm phần thưởng. Để tối đa hóa lợi nhuận của mình, chúng ta sẽ thêm AAVE giữa đầu ra của Augury và kho tiền trên Mai Finance vì 3 trong số 5 token mà chúng ta sẽ thu hoạch có thể được cho vay trên AAVE.
 
-![Bể thanh khoản của USDT-UST trên Augury](<../.gitbook/assets/image (31).png>)
+![Bể thanh khoản của USDT-UST trên Augury](<../../.gitbook/assets/image (31).png>)
 
 ### Curve
 
-Curve là một dự án blue-chip sẽ thưởng cho người dùng cho vay blue-chip token. Phần thưởng bao gồm các mã thông báo tự động cộng dồn (được thêm lại vào khoản đầu tư), mã thông báo WMATIC và mã thông báo CRV, là 2 mã thông báo cũng được chấp nhận làm tài sản thế chấp trên Mai Finance. 
+Curve là một dự án blue-chip sẽ thưởng cho người dùng cho vay blue-chip token. Phần thưởng bao gồm các mã thông báo tự động cộng dồn (được thêm lại vào khoản đầu tư), mã thông báo WMATIC và mã thông báo CRV, là 2 mã thông báo cũng được chấp nhận làm tài sản thế chấp trên Mai Finance.&#x20;
 
-Một trong những điều rất thú vị cần lưu ý về Curve và các bể của nó là người ta không phải gửi một số tiền chính xác của mỗi mã thông báo cho một bể nhất định. Thay vào đó, một mã thông báo duy nhất có thể được cung cấp và thuật toán quản lý bể sẽ tự động điều chỉnh các mã thông báo khác bằng cách bán một phần tiền gửi và mua các mã thông báo khác để duy trì tỷ lệ chính xác trong bể. 
+Một trong những điều rất thú vị cần lưu ý về Curve và các bể của nó là người ta không phải gửi một số tiền chính xác của mỗi mã thông báo cho một bể nhất định. Thay vào đó, một mã thông báo duy nhất có thể được cung cấp và thuật toán quản lý bể sẽ tự động điều chỉnh các mã thông báo khác bằng cách bán một phần tiền gửi và mua các mã thông báo khác để duy trì tỷ lệ chính xác trong bể.&#x20;
 
 Chúng ta sẽ sử dụng bể atricrypto3 chấp nhận bất kỳ sự kết hợp nào của WBTC / WETH / USDC / USDT / DAI và chúng ta sẽ thêm vào bể này USDC sẽ được tạo bởi bể trên Augury.
 
-![Thông tin chi tiết về bể atricrypto3 trên Curve kể từ tháng 9 năm 2021](<../.gitbook/assets/image (32).png>)
+![Thông tin chi tiết về bể atricrypto3 trên Curve kể từ tháng 9 năm 2021](<../../.gitbook/assets/image (32).png>)
 
 ### AAVE
 
 Như đã đề cập trong đoạn về Augury, AAVE được sử dụng để thêm một phần thưởng nhỏ vào bể trên Augury trước khi chúng ta sử dụng chúng trên Mai Finance. Thay vì đặt WBTC, WETH và WMATIC trực tiếp trên Mai Finance, chúng ta sẽ gửi các mã thông báo này trên AAVE và sử dụng công cụ lợi nhuận của Mai Finance để tự động gộp phần thưởng từ AAVE trong các nhóm amToken và sử dụng camToken làm tài sản thế chấp trong kho tiền . Bạn có thể biết thêm chi tiết về phần này bằng cách đọc hướng dẫn về [mã thông báo AAVE.](how-to-combine-farming-and-borrowing-rewards.md#intro)
 
-![Lãi suất huy động vốn trên AAVE tháng 9 năm 2021](<../.gitbook/assets/image (33).png>)
+![Lãi suất huy động vốn trên AAVE tháng 9 năm 2021](<../../.gitbook/assets/image (33).png>)
 
 ### Balancer
 
-Balancer là một dự án blue-chip khác như Curve. Bạn sẽ có thể gửi một số mã thông báo nhất định trong các bể bao gồm hơn 2 mã thông báo và bạn gửi một mã thông báo duy nhất. Bể sẽ tự động được cân bằng để có được tỷ lệ bằng nhau của mỗi mã thông báo tạo ra nhóm. 
+Balancer là một dự án blue-chip khác như Curve. Bạn sẽ có thể gửi một số mã thông báo nhất định trong các bể bao gồm hơn 2 mã thông báo và bạn gửi một mã thông báo duy nhất. Bể sẽ tự động được cân bằng để có được tỷ lệ bằng nhau của mỗi mã thông báo tạo ra nhóm.&#x20;
 
 Đối với chiến lược này, chúng ta sẽ sử dụng bể WETH / BAL / Qi / MAI / USDC. Bể này sẽ chấp nhận mã thông báo Qi sẽ được thu thập từ kho tiền trên Mai Finance và sẽ thưởng cho chúng ta bằng các mã thông báo Qi và BAL bổ sung mà chúng ta sẽ có thể gửi vào Mai Finance trong kho tiền BAL, cho phép chúng ta kiếm thêm MAI và tăng vị tnế thanh khoản của chúng ta trên Augury.
 
-![Bể trên Balancer tháng 9](<../.gitbook/assets/image (34).png>)
+![Bể trên Balancer tháng 9](<../../.gitbook/assets/image (34).png>)
 
 ## Khởi động hệ thống
 
-![](<../.gitbook/assets/image (35).png>)
+![](<../../.gitbook/assets/image (35).png>)
 
 Sau đây là một mô phỏng được thực hiện với khoản đầu tư ban đầu trị giá 1.000 đô la ETH được gửi vào kho camWETH để vay MAI trị giá 500 đô la, được quy đổi bằng USDT-UST trị giá 500 đô la. Mô phỏng này giả định các phần thưởng sau cho các  nền tảng khác nhau
 
@@ -133,12 +133,12 @@ Công việc hàng ngày bao gồm các giao dịch sau
 * Thu hoạch phần thưởng trên Augury
 * Gửi WBTC, WETH và WMATIC trên AAVE
 * Gửi amWBTC, amWETH và amWMATIC trên Mai Finance tại công cụ lợi nhuận
-* Gửi camWBTC, camWETH và camWMATIC trong các kho tương ứng trên Mai Finance 
+* Gửi camWBTC, camWETH và camWMATIC trong các kho tương ứng trên Mai Finance&#x20;
 * WMATIC từ Curve và sử dụng chúng trong vault camWMATIC
-* Thu hoạch CRV từ Curve và sử dụng chúng trong vault CRV 
-* Vay MAI từ các vault khác 
+* Thu hoạch CRV từ Curve và sử dụng chúng trong vault CRV&#x20;
+* Vay MAI từ các vault khác&#x20;
 * Chuyển đổi MAI thành USDT trên Mai Finance qua Anchor
-*  Chuyển đổi 50% USDT thành UST trên DFYNC 
+* &#x20;Chuyển đổi 50% USDT thành UST trên DFYNC&#x20;
 * Tạo cặp USDT-UST LP mới trên DFY
 * Thêm cặp thanh khoản  trên Augury
 
@@ -146,7 +146,7 @@ Công việc hàng ngày bao gồm các giao dịch sau
 
 Ngoài ra, bạn sẽ nhận được phần thưởng hàng tuần bằng BAL (từ khoản tiền gửi Qi của bạn trên Balancer) và mã thông báo Qi (từ phần thưởng kho tiền). Bạn sẽ phải
 
-* Gửi mã thông báo Qi trên Balancer 
+* Gửi mã thông báo Qi trên Balancer&#x20;
 * Gửi mã thông báo BAL trên Mai Finance trong kho tiền BAL
 * Mượn MAI từ khoản tiền gửi BAL bổ sung của bạn và chuyển đổi chúng theo cặp USDT-UST để cung cấp trên Augury
 
@@ -169,9 +169,9 @@ Ngoài ra, bạn sẽ nhận được phần thưởng hàng tuần bằng BAL (
 
 Một số lưu ý:
 
-* Sự tăng trưởng của nhóm USDT-UST là kết quả duy nhất của việc MAI được vay thêm từ các kho tiền 
-*  Bể CRV hầu như không tăng nhiều do số lượng USDC được gửi trên Curve rất thấp 
-* Kho tiền BAL không quan trọng do thực tế là 14,28% phần thưởng Balancer được thanh toán bằng mã thông báo BAL, phần còn lại được thanh toán bằng mã thông báo Qi 
+* Sự tăng trưởng của nhóm USDT-UST là kết quả duy nhất của việc MAI được vay thêm từ các kho tiền&#x20;
+* &#x20;Bể CRV hầu như không tăng nhiều do số lượng USDC được gửi trên Curve rất thấp&#x20;
+* Kho tiền BAL không quan trọng do thực tế là 14,28% phần thưởng Balancer được thanh toán bằng mã thông báo BAL, phần còn lại được thanh toán bằng mã thông báo Qi&#x20;
 * Số tiền trong bể Balancer là khoản thu lớn nhất và chỉ là kết quả của phần thưởng Vault và phần thưởng của Balancer
 
 ### Ngày thứ 365
@@ -194,9 +194,9 @@ Tổng số nợ thực sự là toàn bộ cặp USDT-UST, vì vậy, $ 553,24 
 
 ### So sánh với các chiến lược khác
 
-Lợi nhuận 28% APY khi thanh khoản đồng tiền ổn định không phải là quá tệ, nhưng  so với các chiến lược khác áp dụng với số ETH trị giá 1.000 đô la ban đầu sẽ như thế nào? 
+Lợi nhuận 28% APY khi thanh khoản đồng tiền ổn định không phải là quá tệ, nhưng  so với các chiến lược khác áp dụng với số ETH trị giá 1.000 đô la ban đầu sẽ như thế nào?&#x20;
 
-* Sử dụng đòn bẩy amWETH 8 lần thông qua AAVE: quy trình cụ thể  được mô tả trong hướng dẫn [mã thông báo AAVE.](leverage-aave-tokens.md) 
+* Sử dụng đòn bẩy amWETH 8 lần thông qua AAVE: quy trình cụ thể  được mô tả trong hướng dẫn [mã thông báo AAVE.](leverage-aave-tokens.md)&#x20;
 * Cung cấp toàn bộ đồng ổn định trên Augury: đối với chiến lược này, chúng ta bán WETH và farm với USDT-UST trị giá 1.000 đô la trên cùng một khoản tiền trên Augury
 * Cung cấp thanh khoản toàn bộ đồng ổn định trên QuickSwap: đối với chiến lược này, chúng tôi sẽ sử dụng kho camWETH để hưởng lợi từ phần thưởng kho và farm với MAI trị giá 500 đô la trên QuickSwap (MAI-DAI ở mức 19,78% APY), sử dụng kho tiền DQUICK trên Mai Finance vay thêm MAI và đầu tư lại vào bể (kho dQUICK với APR là 55,72%))
 

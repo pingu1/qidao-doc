@@ -8,7 +8,7 @@ description: >-
 
 Canh tác lợi suất có thể dễ dàng. Bạn có 2 mã thông báo, bạn kết hợp chúng trong một cặp LP (Cung cấp tính thanh khoản), bạn gửi mã thông báo LP vào một bể và bạn bắt đầu nhận được phí hoán đổi và hầu hết thời gian, phần thưởng được trả bằng mã thông báo gốc của nền tảng bạn đang sử dụng. Hầu hết mọi người sẽ chỉ đơn giản là bán phần thưởng cho bất kỳ tài sản nào họ đang tìm kiếm, điều này phần lớn thời gian, hoàn toàn hợp lệ, nhưng rất xa so với một giải pháp được tối ưu hóa. Hôm nay, chúng ta sẽ xem cách bạn có thể kiếm lợi nhuận từ APR (Tỷ lệ phần trăm hàng năm) rất cao được đề xuất trên Cronos trên một số DApp, điều này sẽ biến APR 30% trên đồng ổn định thành tỷ lệ cao hơn nhiều.
 
-![](../.gitbook/assets/crodex-lego-1.png)
+![](../../.gitbook/assets/crodex-lego-1.png)
 
 ## CroDex
 
@@ -16,7 +16,7 @@ Canh tác lợi suất có thể dễ dàng. Bạn có 2 mã thông báo, bạn 
 
 Ngay cả khi ứng dụng cho vay của Mai Finance chưa được triển khai trên Cronos, vẫn có thể làm cầu nối MAI từ các chuỗi khác. Một trong những lý do để làm điều này là vì không có nhiều MAI trên Cronos, có nghĩa là bất kỳ ứng dụng nào đề xuất thanh khoản MAI cũng sẽ cung cấp APRs cao. Đây là trường hợp của CroDex, hiện là nơi duy nhất có thanh khoản MAI trên Cronos. Đối với hướng dẫn này, chúng tôi sẽ sử dụng nhóm MAI-USDC trên CroDex để giảm rủi ro Mất mát tạm thời đối với khoản đầu tư ban đầu của bạn, nhưng bạn có thể tăng lợi nhuận của mình bằng cách cung cấp thanh khoản cặp MAI-CRO.
 
-![Bể MAI-USDC LP trên CroDex kể từ tháng 12 năm 2021](../.gitbook/assets/crodex-lego-2.png)
+![Bể MAI-USDC LP trên CroDex kể từ tháng 12 năm 2021](../../.gitbook/assets/crodex-lego-2.png)
 
 {% hint style="info" %}
 Bất cứ khi nào bạn chọn một ứng dụng để canh tác lợi suất, điều quan trọng cần lưu ý là phần thưởng được hiển thị dưới dạng APR (Tỷ lệ phần trăm hàng năm) hoặc APY (Lợi nhuận phần trăm cộng dồn hàng năm). Phần sau giả định rằng tất cả phần thưởng bạn nhận được đều được cộng lại hàng ngày trong một năm hoàn chỉnh. Trong ví dụ của chúng tôi, 30% APR trên cặp MAI-USDC tương ứng với 34,97% APY.
@@ -30,7 +30,7 @@ CroDex sẽ thanh toán cho bạn bằng mã thông báo gốc của họ, CRX. 
 
 Đây là nơi mà có thể tìm được điều thú vị. CroDex có 2 nhóm khác nhau, nơi bạn có thể đặt cược mã thông báo CRX của mình để nhận thêm phần thưởng. Bạn có thể đặt cược để nhận thêm CRX, nhưng chúng tôi sẽ sử dụng bể để đặt cược CRX sẽ thưởng cho bạn bằng mã thông báo wCRO. wCRO là phiên bản được bọc của CRO, mã thông báo gas của mạng Cronos.
 
-![Đặt cọc đơn CRX trên CroDex kể từ tháng 12 năm 2021](../.gitbook/assets/crodex-lego-3.png)
+![Đặt cọc đơn CRX trên CroDex kể từ tháng 12 năm 2021](../../.gitbook/assets/crodex-lego-3.png)
 
 Bạn đã có thể thấy rằng bạn rất có thể bán CRX của mình để lấy thêm mã thông báo MAI-USDC LP và nhận được gần 35% APY trên cặp ổn định, nhưng rõ ràng tốt hơn là bạn nên đặt cược CRX của mình để nhận CRO. Nó không chỉ có thể được sử dụng để thanh toán phí giao dịch mà bạn còn có thể trang trại MAI-CRO trên CroDex. Và bạn càng nhận được nhiều CRX theo thời gian, thì bạn càng nhận được nhiều CRO nếu bạn đặt cược CRX của mình. Nhưng trong hướng dẫn này, chúng ta sẽ khám phá Cronos nhiều hơn một chút!
 
@@ -42,7 +42,7 @@ CRYSTL Finance từng được biết đến với tên gọi Polycrystal. Đó 
 
 Chúng tôi sẽ sử dụng mã thông báo CRO do CRX tạo ra để hoán đổi 50% phần thưởng thành nhiều CRX hơn và kết hợp hai mã thông báo này thành một cặp CRX-WCRO trên CroDex, sau đó gửi mã thông báo LP vào một kho tiền trên Crystl Finance. Điều này sẽ giúp bạn có APY cao và sẽ được cộng lại.
 
-![Canh tác lợi suất CRX-WCRO trên Crystl Finance kể từ tháng 12 năm 2021](../.gitbook/assets/crodex-lego-4.png)
+![Canh tác lợi suất CRX-WCRO trên Crystl Finance kể từ tháng 12 năm 2021](../../.gitbook/assets/crodex-lego-4.png)
 
 Tỷ giá được hiển thị là một APY. APY 1,21k% tương ứng với 258,17% APR, nhưng bạn cũng có thể nhận được lợi nhuận ước tính hàng ngày trực tiếp trên thông tin vault và việc cung cấp thanh khoản cặp CRX-WCRO của bạn hiện sẽ giúp bạn nhận được 0,71% hàng ngày. Điều rất quan trọng là bạn phải theo dõi phần thưởng hàng ngày vì chúng ta sẽ trích xuất phần này của vị trí LP của chúng ta và chia nó thành các mã thông báo riêng biệt. CRX sẽ được đặt lại trên CroDex để nhận được nhiều mã thông báo CRO hơn và CRO sẽ được hoán đổi cho CRYSTL. Cũng xin lưu ý rằng có một khoản phí rút tiền đối với số tiền lãi mà chúng tôi sẽ trích ra mỗi ngày.
 
@@ -50,7 +50,7 @@ Tỷ giá được hiển thị là một APY. APY 1,21k% tương ứng với 25
 
 Với mã thông báo CRYSTL thu được ở bước trước, bạn sẽ có thể nhận được USDC từ nhóm đặt cược đơn của CRYSTL Finance. Chỉ cần đặt cược mã thông báo CRYSTL của bạn và bạn sẽ được thanh toán bằng USDC với APR khá cao.
 
-![Đặt cọc CRYSTL cho USDC hoặc SALEM kể từ tháng 12 năm 2021](../.gitbook/assets/crodex-lego-5.png)
+![Đặt cọc CRYSTL cho USDC hoặc SALEM kể từ tháng 12 năm 2021](../../.gitbook/assets/crodex-lego-5.png)
 
 Sau đó, bạn có thể chỉ cần hoán đổi 50% số USDC thành MAI và thêm trở lại vị thế ban đầu của bạn trên CroDex.
 
@@ -60,7 +60,7 @@ Ngoài ra, chúng ta có thể sử dụng phương pháp tương tự như trê
 
 Salem Finance is another goose fork where you'll be able to farm the SALEM token. Most LP pools have a deposit fee, but we will actually not use the LP farms since CRYSTL Finance is already giving us the SALEM tokens we need. Instead, we will stake SALEMs in the pools to earn additional WCRO with, once again, a very high APR.
 
-![Staking SALEM for WCRO as of December 2021](../.gitbook/assets/crodex-lego-6.png)
+![Staking SALEM for WCRO as of December 2021](../../.gitbook/assets/crodex-lego-6.png)
 
 The (w)CRO token being the gas token of Cronos, it does have a lot of utility. You can also bridge it to the main Crypto.org chain if you want. In our case, and because we want to close our investment loop, we can simply sell the gains from Salem Finance and buy more USDC and MAI.
 
@@ -74,7 +74,7 @@ Bạn có thể thấy rằng chỉ với 3 giao thức, bạn có một số t�
 
 Đối với phần còn lại của hướng dẫn này, chúng ta sẽ tập trung vào chiến lược cuối cùng, là chiến lược phức tạp nhất và đòi hỏi nhiều thao tác, nhưng nó cũng là chiến lược mang lại kết quả tổng thể tốt nhất. Hãy thoải mái áp dụng cách bạn thích tùy thuộc vào mức độ chấp nhận rủi ro của bạn.
 
-![](../.gitbook/assets/crodex-lego-7.png)
+![](../../.gitbook/assets/crodex-lego-7.png)
 
 ### Khởi động hệ thống&#x20;
 
@@ -171,7 +171,7 @@ WCRO từ Salem Finance thực sự được bao gồm dưới dạng vị trí 
 
 Nền tảng Mai Finance không hỗ trợ vault trên Cronos, vì token trên Cronos chưa có Chainlink Oracles. Dự kiến ​​trong quý đầu tiên của năm 2022, Chainlink sẽ hỗ trợ Cronos và bạn sẽ có thể gửi mã thông báo WCRO của mình vào Vault để vay đồng tiền ổn định MAI. Điều này có nghĩa là chiến lược ở trên có thể được sửa đổi để gửi tiền WCRO và sử dụng MAI thay vì bán mã thông báo WCRO, điều này sẽ làm tăng một chút tỷ lệ phần thưởng cuối cùng của bạn.
 
-![Hầm WCRO trên MAI Finance (mô phỏng)](../.gitbook/assets/crodex-lego-8.png)
+![Hầm WCRO trên MAI Finance (mô phỏng)](../../.gitbook/assets/crodex-lego-8.png)
 
 ## Tuyên bố từ chối trách nhiệm
 

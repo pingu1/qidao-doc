@@ -10,7 +10,7 @@ description: >-
 
 Khi bạn đi farm trên một farm cụ thể nào đó, bạn thường nhận được phần thưởng dưới dạng đồng coin bản vị của farm đó. Sau đó, bạn có sự lựa chọn giữa bán hoặc giữ chúng và hy vọng chúng sẽ có một số giá trị theo thời gian . Hướng dẫn này sẽ trình bày một số DApp (Ứng dụng phi tập trung) khác nhau để tối đa hóa lợi nhuận của bạn mà không cần bán bất cứ thứ gì, trong khi vẫn cộng lãi kép. Các bài viết này cũng sẽ bắt đầu từ các stablecoin, vì đây được coi là một chiến lược tương đối an toàn. Tuy nhiên, bạn cần lưu ý rằng đây không phải là một lời khuyên tài chính và hướng dẫn này cần được thực hiện một cách thận trọng vì kết quả hoàn toàn không được đảm bảo. Như mọi khi, hãy tự nghiên cứu.
 
-![](<../.gitbook/assets/Screen Shot 2021-08-30 at 10.52.20 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-30 at 10.52.20 AM.png>)
 
 ## QuickSwap
 
@@ -20,11 +20,11 @@ QuickSwap là một trong những AMM (Nhà tạo thị trường tự động) 
 
 Đối với bài thực hành, chúng ta sẽ sử dụng cặp MAI / USDC trên QuickSwap. Bể thanh khoản này đề xuất APY (Lợi nhuận phần trăm hàng năm thay đổi trong khoảng 20% đến 25%). Lợi tức bao gồm phí giao dịch (được tích lũy vào nhóm thanh khoản) và phần thưởng QUICK.
 
-![Bể thanh khoản MAI / USDC trên QuickSwap kể từ tháng 8 năm 2021 ](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![Bể thanh khoản MAI / USDC trên QuickSwap kể từ tháng 8 năm 2021 ](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
 
 Bể nhận được một số lượng cố định đồng QUICK mỗi ngày và sau đó chúng được phân phối cho các nhà cung cấp thanh khoản theo cổ phần của họ trong nhóm. Ví dụ: nếu bể có thanh khoản trị giá tương đương 1.000.000 đô la và bạn đã gửi 1.000 đô la trị giá cặp LP (Nhà cung cấp thanh khoản), bạn sở hữu 0,1% bể, cho phép bạn nhận 0,1% phần thưởng QUICK hàng ngày. Phần thưởng QUICK của bạn sau đó sẽ có thể nhận được khi bạn quản lý bể bạn đã tham gia.
 
-![Nhận phần thưởng QUICK của 20$ đã gửi](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.39.44 AM.png>)
+![Nhận phần thưởng QUICK của 20$ đã gửi](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.39.44 AM.png>)
 
 Bạn có thể nhận thường xuyên để xoay vòng chúng.
 
@@ -32,7 +32,7 @@ Bạn có thể nhận thường xuyên để xoay vòng chúng.
 
 Dragon's Lair là một cách để tối ưu hóa lợi nhuận của bạn trên QuickSwap. Bạn có thể gửi đồng QUICK mà bạn kiếm được từ các bể thanh khoản vào Lair và chúng sẽ kiếm được cho bạn phần thưởng QUICK bổ sung. Đây là một ý tưởng hay nếu bạn muốn giữ các token QUICK thay vì bán chúng. Khi mã tohen QUICK của bạn được đặt vào Dragon's Lair, phần thưởng mà chúng tạo ra sẽ tự động được cộng lại và APY của Lair là khoảng 12%
 
-![Dragon's Lair APY kể từ tháng 8 năm 2021. ](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.42.39 AM.png>)
+![Dragon's Lair APY kể từ tháng 8 năm 2021. ](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.42.39 AM.png>)
 
 Sau khi bạn gửi đồng QUICK, bạn sẽ nhận được trong ví của mình một số mã token đại diện cho cổ phần phần của bể QUICK mà bạn sở hữu. Lưu ý rằng tỷ lệ QUICK: dQUICK không phải là 1: 1 vì dQUICK đại diện cho phần của bạn trong nhóm, trong khi số lượng QUICK sẽ tăng lên theo thời gian khi nhiều phần thưởng được thêm vào bể.
 
@@ -42,7 +42,7 @@ Giờ đây, bạn đã có những đồng stablecoin của mình được gử
 
 Dragon's Syrup là một cách bổ sung mà QuickSwap cung cấp để thưởng cho nhiều người dùng hơn đang nắm giữ token QUICK. Nhóm QuickSwap thiết lập một chương trình nơi các đối tác có thể quảng bá sản phẩm của họ bằng cách cấp mã token của riêng họ cho người dùng nền tảng QuickSwap. Sau đó, bạn có thể gửi mã token dQUICK của mình vào một trong các bể để kiếm được các mã token này cùng với phần thưởng Dragon's Lair. Một trong những chúng ta quan tâm là bể ADDY..
 
-![Dragon's Syrup, một bể để thu thập ADDY thông qua gửi dQUICK ](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.49.25 AM.png>)
+![Dragon's Syrup, một bể để thu thập ADDY thông qua gửi dQUICK ](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.49.25 AM.png>)
 
 Khi bạn gửi dQUICK của mình vào bể, chúng sẽ biến mất khỏi Dragon's Lair (giống như cách mà các camTokens của bạn biến mất khỏi trang Yield trên Mai Finance khi bạn gửi chúng vào Vault). Nhưng bạn có thể thấy rõ rằng APY DQUICK từ Lair vẫn được áp dụng và bạn cũng sẽ nhận được phần thưởng ADDY bổ sung. Ở đây, APR (Phần thưởng phần trăm hàng năm) hiện là 21,36%.
 
@@ -78,7 +78,7 @@ Impermax là một ứng dụng cho phép người dùng tự động sử dụn
 
 Trên QuickSwap, chúng ta đã gửi cặp MAI / USDC trị giá 20 đô la. Trên Impermax, chúng ta sẽ chỉ ký gửi MAI / USDC trị giá 10 đô la và sẽ áp dụng đòn bẩy x2 trên đó để nhận được 20 đô la.
 
-![Giao diện đòn bẩy trên Impermax](<../.gitbook/assets/Screen Shot 2021-08-30 at 7.11.10 AM.png>)
+![Giao diện đòn bẩy trên Impermax](<../../.gitbook/assets/Screen Shot 2021-08-30 at 7.11.10 AM.png>)
 
 Bạn có thể thấy trên ảnh chụp màn hình ở trên, nếu chúng ta tăng đòn bẩy của mình lên x2.1, thì sẽ vay
 
@@ -106,7 +106,7 @@ Adamant là một nền tảng tối ưu hóa lợi nhuận tự động  việc
 
 Chúng tôi nhận được mã token QUICK trên QuickSwap và chúng ta nhận được mã token IMX trên Impermax. Hãy sử dụng Adamant để farm cặp QUICK / IMX từ QuickSwap. Tại sao lại làm như vậy? Bởi vì Adamant thực sự mang lại lợi nhuận rất cao, như bạn có thể thấy ở đây:
 
-![Bể IMX/QUICK trên Adamant đến từ QuickSwap](<../.gitbook/assets/Screen Shot 2021-08-30 at 7.27.26 AM.png>)
+![Bể IMX/QUICK trên Adamant đến từ QuickSwap](<../../.gitbook/assets/Screen Shot 2021-08-30 at 7.27.26 AM.png>)
 
 Khi bài viết này đang được viết, APY hiện tại của bể IMX / QUICK trên Adamant là 417,25%. Phần thưởng bao gồm
 
@@ -144,7 +144,7 @@ Sau khi gửi tiền AAVE, chúng ta nhận được amWMATIC. Chúng tôi có t
 
 Mã camWMATIC sau đó có thể được sử dụng làm tài sản thế chấp trên Mai Finance bằng cách gửi chúng vào kho tiền camWMATIC, cho phép chúng ta vay MAI và hoán đổi một phần MAI thành USDC. Khi chúng ta có thêm MAI và USDC trong ví của mình, chúng ta có thể kết hợp 2 đồng stablecoin thành các cặp LP bổ sung sẽ được gửi trên QuickSwap và Impermax. Một lần nữa, nếu bạn cần chi tiết ,vui lòng đọc [bài viết dành riêng](leverage-aave-tokens.md).
 
-## Khởi động hệ thống 
+## Khởi động hệ thống&#x20;
 
 Những gì sau đây là một mô phỏng được thực hiện với khoản đầu tư ban đầu trị giá 1,000 đô la của cặp token MAI / USDC LP và các APR / APY hiện tại được cung cấp bởi các nền tảng khác nhau vào ngày 30 tháng 8 năm 2021. Đây không phải là minh họa thực do tỷ giá sẽ khác nhau, giá token sẽ thay đổi, một số chương trình sẽ kết thúc, v.v. vì vậy kết quả cuối cùng chỉ là ước tính.
 
@@ -181,7 +181,7 @@ Từ đó, chúng ta có thể kết hợp tất cả IMX nhận được với 
 
 ### Ngày 2
 
-Chúng ta vẫn giữ nguyên vị thế trên QuickSwap và Impermax, không có gì thay đổi và chúng ta một lần nữa nhận được QUICK trị giá 0,63 đô la và IMX trị giá 0,49 đô la được sử dụng để nhận IMX/QUICK trị giá 0,98 đô la và 0,14 đô la dQUICK được gửi vào bể ADDY trên QuickSwap. Tuy nhiên, vị trí IMX / QUICK trên Adamant đang kiếm được 151,96% APR trong IMX / QUICK (hoặc + 0,42% hàng ngày). Điều này có nghĩa là khoản tiền gửi 0,98 đô la ban đầu của chúng ta hiện ở mức 0,984 đô la và chúng ta đang thêm 0,98 đô la từ việc farming trên QuickSwap và Impermax. Nó cũng tạo ra 177,43% APR (hoặc + 0,49% hàng ngày) QUICK, tương ứng với 0,005 đô la. 
+Chúng ta vẫn giữ nguyên vị thế trên QuickSwap và Impermax, không có gì thay đổi và chúng ta một lần nữa nhận được QUICK trị giá 0,63 đô la và IMX trị giá 0,49 đô la được sử dụng để nhận IMX/QUICK trị giá 0,98 đô la và 0,14 đô la dQUICK được gửi vào bể ADDY trên QuickSwap. Tuy nhiên, vị trí IMX / QUICK trên Adamant đang kiếm được 151,96% APR trong IMX / QUICK (hoặc + 0,42% hàng ngày). Điều này có nghĩa là khoản tiền gửi 0,98 đô la ban đầu của chúng ta hiện ở mức 0,984 đô la và chúng ta đang thêm 0,98 đô la từ việc farming trên QuickSwap và Impermax. Nó cũng tạo ra 177,43% APR (hoặc + 0,49% hàng ngày) QUICK, tương ứng với 0,005 đô la.&#x20;
 
 Trên QuickSwap, dQUICK mà chúng ta gửi vào Dragon's Syrup đang tạo thêm QUICK với 12,26% APR (+ 0,03% hàng ngày) và ADDY ở 17,08% APR (+ 0,05% hàng ngày). Điều này được áp dụng cho QUICK trị giá 0,18 đô la, có nghĩa là vào cuối ngày thứ 2, chúng ta đã tạo ra ADDY trị giá 0,00006 đô la và giá trị 0,000054 đô la của QUICK. Phần thưởng ADDY có thể được yêu cầu và thêm vào Adamant để bắt đầu boost APR ADDY của cặp IMX / QUICK.
 
@@ -227,30 +227,30 @@ Tại thời điểm này, "khoản nợ" trên Mai Finance sẽ được sử d
 
 ## Kết quả farming
 
-![](<../.gitbook/assets/Screen Shot 2021-08-30 at 11.33.34 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-30 at 11.33.34 AM.png>)
 
 ### Công việc hàng ngày
 
 Công việc hàng ngày bao gồm các thao tác sau:
 
-* Thu hoạch IMX trên Impermax 
-* Thu hoạch QUICK trên QuickSwap 
-* Tạo cặp IMX / NHANH LP mới trên QuickSwap 
-* Gửi QUICK số tiền còn lại vào Dragon's Lair để nhận được dQUICK 
-* Gửi tiền dQUICK vào Dragon's Syrup để nhận thêm ADDY 
-* Thu hoạch ADDY trên Dragon's Syrup 
-* Gửi ADDY vào kho tiền Adamant 
-* Gửi mã token IMX / QUICK LP trên Adamant 
-* Thu hoạch ADDY trên Adamant từ cặp LP 
+* Thu hoạch IMX trên Impermax&#x20;
+* Thu hoạch QUICK trên QuickSwap&#x20;
+* Tạo cặp IMX / NHANH LP mới trên QuickSwap&#x20;
+* Gửi QUICK số tiền còn lại vào Dragon's Lair để nhận được dQUICK&#x20;
+* Gửi tiền dQUICK vào Dragon's Syrup để nhận thêm ADDY&#x20;
+* Thu hoạch ADDY trên Dragon's Syrup&#x20;
+* Gửi ADDY vào kho tiền Adamant&#x20;
+* Gửi mã token IMX / QUICK LP trên Adamant&#x20;
+* Thu hoạch ADDY trên Adamant từ cặp LP&#x20;
 * Thu hoạch cổ tức WMATIC trên Adamant
-* Gửi tiền WMATIC trên AAVE và nhận amWMATIC 
+* Gửi tiền WMATIC trên AAVE và nhận amWMATIC&#x20;
 * Gửi tiền amWMATIC trên Mai Finance và nhận camWMATIC
-* Gửi camWMATIC vào kho tiền của Mai Finance 
-* Vay 50% số tiền gửi dưới dạng MAI stablecoin trên Mai Finance 
-* Hoán đổi 50% số MAI  lấy USDC trên Mai Finance 
-* Tạo cặp LP MAI / USDC mới trên QuickSwap 
-* Đặt cọc 90% số mã thông báo LP mới trên nhóm thanh khoản QuickSwap 
-* Đặt cọc 10% số mã thông báo LP mới trên nhóm thanh khoản Impermax 
+* Gửi camWMATIC vào kho tiền của Mai Finance&#x20;
+* Vay 50% số tiền gửi dưới dạng MAI stablecoin trên Mai Finance&#x20;
+* Hoán đổi 50% số MAI  lấy USDC trên Mai Finance&#x20;
+* Tạo cặp LP MAI / USDC mới trên QuickSwap&#x20;
+* Đặt cọc 90% số mã thông báo LP mới trên nhóm thanh khoản QuickSwap&#x20;
+* Đặt cọc 10% số mã thông báo LP mới trên nhóm thanh khoản Impermax&#x20;
 * Tạo đòn bẩy cho cặp LP mới trên Impermax để khớp với vị trí trên QuickSwap
 
 ### Kết quả theo tháng

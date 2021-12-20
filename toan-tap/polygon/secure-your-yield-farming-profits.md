@@ -21,7 +21,7 @@ Hướng dẫn dưới đây sẽ trình bày từng bước các tận dụng n
 Để minh họa chi tiết hơn làm thế nào bạn có thể làm điều đó, chúng ta sẽ dùng [farm mới nhất ](https://ball.polypup.finance)của Polypup. Xin lưu ý đây chỉ là ví dụ cho mục đích giáo dục nên tuyệt đối không sử dụng như là một lời khuyên tài chính. Ngoài ra, thuật ngữ "an toàn" cũng chỉ mang tính chủ quan cá nhân.
 {% endhint %}
 
-![](<../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)
 
 ## Vòng đời farming
 
@@ -39,13 +39,13 @@ Trong nội dung hướng dẫn này, vì chúng ta ưu tiên sự an toàn tài
 Bạn có thể gửi trực tiếp đồng MATIC của mình vào vault MATIC hoặc bạn có thể gửi chúng vào Aave để nhận amWMATIC sau đó gửi lên Mai Finance để nhận về camWMATIC và dùng chúng như là tài sản thế chấp để vay MAI. Bạn sẽ thấy rằng với cùng số lượng MAI vay được bạn còn nhận được thêm lợi nhuận từ đồng MATIC trên các nền tảng Aave và Mai Finance. Để biết thêm chi tiết và hướng dẫn cụ thể bạn có thể tham khảo tại phần [Tạo đòn bẩy cho các token từ thị trường Aave](leverage-aave-tokens.md).
 {% endhint %}
 
-Khi vay đã vay stablecoin MAI, bạn có thể sử dụng mục [Anchor](https://app.mai.finance/anchor) trên app Mai Finance để chuyển một nửa MAI thành USDC với tỷ lên là 1:1. 
+Khi vay đã vay stablecoin MAI, bạn có thể sử dụng mục [Anchor](https://app.mai.finance/anchor) trên app Mai Finance để chuyển một nửa MAI thành USDC với tỷ lên là 1:1.&#x20;
 
-![Sử dụng mục Swap để chuyển một nửa MAI thành USDC](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
+![Sử dụng mục Swap để chuyển một nửa MAI thành USDC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
 
 Bây giờ, phụ thuộc vào farm cụ thể bạn muốn tham gia, bạn cần ghép 2 đồng này với nhau để tạo ra một cặp thanh khoản LP trên các nền tảng DEX. Vì dự định ban đầu của chúng ta là Polypup mà farm này chấp nhận cặp thanh khoản của Quickswap LPs, nên chúng ta đi tới trang chính của Quickswap vào mục [Pool](https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xa3Fa99A148fA48D14Ed51d610c367C61876997F1) để tạo cặp MAI-USDC
 
-![Tạo LP token bằng MAI và USDC](<../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
+![Tạo LP token bằng MAI và USDC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
 
 Vậy là bạn đã sẵn sàng
 
@@ -53,9 +53,9 @@ Vậy là bạn đã sẵn sàng
 
 Bây giờ bạn có một số token LP, bạn truy nhập vào website và gửi chúng vào bể thanh khoản để bắt đầu thu hoạch đồng coin Ball của Polypup.
 
-![Nhận BALL trong bể](<../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
+![Nhận BALL trong bể](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
 
-Như bạn thấy ở trên hình, farming cặp MAI/USDC cho chúng ta mức lãi suất 176% một năm. Tùy vào dung lượng bể và giá của token BALL mà APR sẽ thay đổi theo thời gian. 
+Như bạn thấy ở trên hình, farming cặp MAI/USDC cho chúng ta mức lãi suất 176% một năm. Tùy vào dung lượng bể và giá của token BALL mà APR sẽ thay đổi theo thời gian.&#x20;
 
 {% hint style="info" %}
 Có một điều quan trọng cần đặc biệt lưu ý là khi bạn gửi LP vào các farm thì hầu hết sẽ bị tính phí từ 2 đến 4% trực tiếp lấy từ LP của bạn. Hãy hết sức lưu ý điều này và đảm bảo rằng bạn chuẩn bị tâm lý có thể sẽ mất phí mà không lấy lại được.
@@ -67,12 +67,12 @@ Giờ đây cặp stablecoin đã được gửi vào bể thanh khoản và b�
 
 Bây giờ bạn có một số token farm được, bạn sẽ lựa chọn giữa:
 
-* bán chúng để mua những đồng coin ưa thích  
+* bán chúng để mua những đồng coin ưa thích &#x20;
 * tái đầu tư vào trong bể thanh khoản khác
 
 Mai Finance giới thiệu cho bạn lựa chọn thứ ba cho phép bạn thực hiện cả hai điều này. Một khi bạn nhận được đồng coin mà bạn đã farm được, bạn chuyển chúng lên các sàn DEX mà hỗ trợ bán đồng coin này. Thông thường bạn sẽ tìm thấy liên kết với DEX chấp nhận trao đổi đồng coin này tại menu của farm. Trong link sẽ có địa chỉ hợp đồng giúp bạn dễ dàng hơn.
 
-![Swapping phần thưởng thành MATIC](<../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
+![Swapping phần thưởng thành MATIC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
 
 Tại thời điểm đó,  chúng ta đã quay lại bước mà chúng ta có token MATIC trong ví, sẵn sàng được gửi vào Mai Finance làm tài sản thế chấp để vay MAI, hoán đổi một phần của nó thành USDC, tạo một cặp LP và gửi lại vào trang trại. Bằng cách thực hiện chuyển đổi này, chúng ta "đảm bảo" 100% phần thưởng của mình bằng cách hoán đổi chúng thành một loại đồng coin ổn định hơn (ở đây là MATIC) và chúng ta gửi tiếp 50% phần thưởng của mình bể farming (hoặc thực tế, trong ví dụ này là 46% vì phí gửi là 4%).
 
@@ -112,14 +112,14 @@ Những giả định này rõ ràng là không áp dụng được với thực
 |  18  |     $60.015 |         $0.291 |            $5.132 |        $0.145 |
 
 * Vào ngày 1, phí 4% được áp dụng cho cặp MAI / USDC trị giá 60 đô la ban đầu của chúng ta.
-* Vào cuối ngày 1, doanh thu đã tạo (0,279 đô la) được chuyển toàn bộ vào vault MATIC. 
-* Vào cuối ngày 1, vì chúng ta đã thêm một số tiền vào kho tiền, chúng ta có thể vay thêm MAI.Để giữ tỷ lệ Tài sản đảm bảo trên Nợ là 200%, chúng ta chỉ vay 50% MATIC đã ký gửi (0,139 đô la) 
-* Vào đầu ngày thứ 2, chúng ta cộng dồn $ 0,139 vào bể (và farm sẽ tính phí gửi 4%) 
+* Vào cuối ngày 1, doanh thu đã tạo (0,279 đô la) được chuyển toàn bộ vào vault MATIC.&#x20;
+* Vào cuối ngày 1, vì chúng ta đã thêm một số tiền vào kho tiền, chúng ta có thể vay thêm MAI.Để giữ tỷ lệ Tài sản đảm bảo trên Nợ là 200%, chúng ta chỉ vay 50% MATIC đã ký gửi (0,139 đô la)&#x20;
+* Vào đầu ngày thứ 2, chúng ta cộng dồn $ 0,139 vào bể (và farm sẽ tính phí gửi 4%)&#x20;
 * Vào đầu ngày 3, chúng ta bắt đầu lại với số token LP trị giá 0,134 đô la bổ sung
 
 ### Ước lượng APR, APY và doanh thu tăng trưởng
 
-Số liệu ước lượng ở bảng trên dừng lại ở ngày thứ 18 vì chúng ta đã quay về điểm xuất phát ban đầu là 60$. Điều này có nghĩa là chúng ta đã hoàn vốn đủ, đây cũng là mục tiêu tối thiểu cho bất cứ farmer nào cần hướng tới. 
+Số liệu ước lượng ở bảng trên dừng lại ở ngày thứ 18 vì chúng ta đã quay về điểm xuất phát ban đầu là 60$. Điều này có nghĩa là chúng ta đã hoàn vốn đủ, đây cũng là mục tiêu tối thiểu cho bất cứ farmer nào cần hướng tới.&#x20;
 
 Khi đã qua ngày hoàn vốn, thì số tiền thưởng bạn mà bạn thu được khi tiếp tục farm sẽ là lợi nhuận của bạn. Bởi vì chúng ta chỉ farm stablecoin nên tổn thất tạm thời là không có.
 

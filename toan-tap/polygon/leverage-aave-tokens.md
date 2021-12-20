@@ -9,7 +9,7 @@ description: >-
 
 ## Trăm nghe không bằng mắt thấy
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (21).png>)
 
 ## Tuy vậy ngàn lời nói cũng không phải là vô dụng hoàn toàn
 
@@ -23,11 +23,11 @@ Giả sử rằng bạn thực sự tin tưởng vào MATIC và nghĩ rằng hi�
 
 Bởi vì MATIC bạn nằm trong bể của Aave, tiền lãi sẽ được tự động cộng dồn, có nghĩa là số MATIC sẽ tăng theo thời gian.
 
-![Trong ví dụ này, tôi đã cho vay 0.2 MATIC](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.29.53 PM.png>)
+![Trong ví dụ này, tôi đã cho vay 0.2 MATIC](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.29.53 PM.png>)
 
 Bằng cách cho Aave vay token MATIC, bạn sẽ được nhận lại một lượng token MATIC tương đương được bọc bởi giao thức Aave ký hiệu là amWMATIC. Bạn có thể không thấy trực tiếp mã token trong ví trừ khi bạn thêm mã token này thủ công, tuy nhiên bạn thật sự sở hữu chúng.
 
-![Tôi có thể nhìn thấy 0.2 MATIC đã cho DeBank vay](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.31.01 PM.png>)
+![Tôi có thể nhìn thấy 0.2 MATIC đã cho DeBank vay](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.31.01 PM.png>)
 
 ### Sử dụng Mai Finance để cộng dồn các token của thị trường Aave
 
@@ -35,9 +35,9 @@ Mai Finance sẽ chấp nhận token amWMATIC của bạn trên trang Yield đư
 
 Tuy nhiên ngoài mức lãi suất cộng dồn APY cơ bản, Mai Finance sẽ cộng dồn bất cứ phần thưởng bổ sung hiện có nào từ Aave trở lại mã token bạn đã chọn, do đó  tạo ra nhiều token hơn theo thời gian. Trong ví dụ ở trên, Aave trả 1.16% APY cho MATIC đã gửi, cũng như 3,69% APR thêm được trả bằng MATIC, tuy nhiên số APR này lại không tạo ra thêm bất cứ lợi nhuận bổ sung nào. Bằng cách gửi amWMATIC vào Main Finance, phần thưởng nhận định kỳ sẽ được đưa trở lại số vốn chính của bạn để áp dụng cả mức lãi suất cộng dồn 1.12% APY cho cả khoản APR thưởng thêm đó.
 
-![Số 0.2$ amMATIC được gửi vào Mai Finance tạo ra mức lãi suất 4.93% một năm](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.45.00 PM.png>)
+![Số 0.2$ amMATIC được gửi vào Mai Finance tạo ra mức lãi suất 4.93% một năm](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.45.00 PM.png>)
 
-Khi bạn gửi amMATIC vào Mai Finance thì bạn sẽ nhận lại số lượng token có ký hiệu là camWMATIC. Tỷ lệ giữa các token này không hoàn toàn là 1:1 bởi vì số camWMATIC hiện có đại diện cho số cổ phần của amWMATIC có trong bể, ở đó lợi nhuận và phần thưởng được tự động cộng dồn. Cũng cần lưu ý rằng, một khi bạn gửi token amMATIC vào nền tảng Mai Finance thì token này sẽ bị xóa khỏi giao thức Aave. Tuy nhiên, khi bạn rút amMATIC ra khỏi Mai Finance thì bạn sẽ thấy chúng trở lại trên Aave.  
+Khi bạn gửi amMATIC vào Mai Finance thì bạn sẽ nhận lại số lượng token có ký hiệu là camWMATIC. Tỷ lệ giữa các token này không hoàn toàn là 1:1 bởi vì số camWMATIC hiện có đại diện cho số cổ phần của amWMATIC có trong bể, ở đó lợi nhuận và phần thưởng được tự động cộng dồn. Cũng cần lưu ý rằng, một khi bạn gửi token amMATIC vào nền tảng Mai Finance thì token này sẽ bị xóa khỏi giao thức Aave. Tuy nhiên, khi bạn rút amMATIC ra khỏi Mai Finance thì bạn sẽ thấy chúng trở lại trên Aave. &#x20;
 
 {% hint style="info" %}
 Chỉ cần gửi amWMATIC (hoặc bất kì amToken nào) vào nền tảng Mai Finance  sẽ cho phép bạn tạo ra doanh thu nhiều hơn so với việc cho Aave vay tiền đơn thuần. Thực tế cho thấy, lãi suất cơ bản và phần thưởng bổ sung của bạn được tự động cộng dồn, có nghĩa là bạn không phải nhận phần thưởng thủ công nữa.
@@ -54,12 +54,12 @@ Giả sử rằng khi một bể amToken được tạo ra trên Mai Finance tro
 Nền tảng Mai Finance cho phép bạn vay đồng ổn định Mai khi bạn gửi tài sản thế chấp. Hiện tại Mai Finance chấp nhận nhiều loại tài sản thế chấp bao gồm cả các camToken. Trên nền tảng Mai Finance, số camToken của bạn sẽ tiếp tục sinh lời trong khi được gửi làm tài sản thế chấp, có nghĩa là số lượng tài sản cơ bản tiếp tục tăng lên theo thời gian.
 
 {% hint style="info" %}
-Khi camToken được gửi vào các Vault thì số dư trên mục Yield sẽ là 0. Tuy nhiên, nó không có nghĩa là nó không cộng dồn lợi nhuận và phần thưởng trên Aave của bạn. 
+Khi camToken được gửi vào các Vault thì số dư trên mục Yield sẽ là 0. Tuy nhiên, nó không có nghĩa là nó không cộng dồn lợi nhuận và phần thưởng trên Aave của bạn.&#x20;
 {% endhint %}
 
 Khi bạn điều hướng đến mục Vault của trang web, bạn sẽ được cung cấp các tùy chọn để tạo ra các Vault mới nơi bạn có thể gửi camToken của mình. Bạn cũng cần lưu ý rằng, bạn cần giữ tỷ lệ thế chấp trên nợ (CDR) ít nhất là 155% khi bạn vay MAI với camToken của mình.
 
-![Số 0.2 MATIC của tôi giờ trở thành hoàn toàn tài sản thế chấp](<../.gitbook/assets/Screen Shot 2021-08-06 at 5.57.55 PM.png>)
+![Số 0.2 MATIC của tôi giờ trở thành hoàn toàn tài sản thế chấp](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.57.55 PM.png>)
 
 **Xin lưu ý:** Trên trang này, bạn có thể thấy tài sản thế chấp của mình được quy đổi thành USD và giá trị sẽ thay đổi theo loại tài sản bạn dùng làm thế chấp, giá của token và lợi nhuận được tạo ra trong bể này.
 
@@ -69,7 +69,7 @@ Khi bạn điều hướng đến mục Vault của trang web, bạn sẽ đư�
 Khi bạn gửi các tài sản có mức độ biến động giá lớn, thì bạn nên thường xuyên để ý mục Vault để chắc chắn rằng tỷ lệ CDR luôn cao hơn tỷ lệ thanh lý. Ngoài ra, bạn có thể thêm tài sản thế chấp nếu CDR giảm tới "tỷ lệ an toàn". Tùy vào danh mục đầu tư rủi ro của bạn, ngưỡng an toàn này có thể khác nhau.
 {% endhint %}
 
-![Bây giờ tôi có 0.1$ nợ](<../.gitbook/assets/Screen Shot 2021-08-06 at 6.07.34 PM.png>)
+![Bây giờ tôi có 0.1$ nợ](<../../.gitbook/assets/Screen Shot 2021-08-06 at 6.07.34 PM.png>)
 
 Tôi đã vay 0.1 MAI tương ứng với 214.56% CDR. Bây giờ hãy thử một vài thí nghiệm với nó nhé.
 
@@ -77,7 +77,7 @@ Tôi đã vay 0.1 MAI tương ứng với 214.56% CDR. Bây giờ hãy thử m�
 
 Với số MAI vay được bạn có thể đến các DEX (QuickSwap hoặc SushiSwap luôn là những lựa chọn tốt) và đổi MAI của để lấy thêm MATIC
 
-![Let's buy more MATIC](<../.gitbook/assets/Screen Shot 2021-08-06 at 6.10.35 PM.png>)
+![Let's buy more MATIC](<../../.gitbook/assets/Screen Shot 2021-08-06 at 6.10.35 PM.png>)
 
 Sau khi swap, bạn có thêm MATIC.
 

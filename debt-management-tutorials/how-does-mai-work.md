@@ -11,9 +11,9 @@ description: >-
 
 Trước khi tìm hiểu MAI là gì, chúng ta phải hiểu đồng ổn định là gì, đồng ổn định là một loại tiền mã hóa được thiết kế để duy trì giá thị trường ổn định. Hầu hết các đồng tiền ổn định được neo (một loại tiền tệ mà giá được thiết kế để giữ nguyên như một tài sản được chỉ định) với đô la Mỹ, nhưng bạn có thể tìm thấy các đồng tiền ổn định khác được chốt với các hàng hóa khác như vàng (như EGold) hoặc bạc ( eSilver).
 
-Tuy nhiên, có 2 loại chính trong đó tất cả các đồng tiền ổn định có thể phù hợp với bao gồm **thế chấp** hoặc** không thế chấp**. Các đồng tiền ổn định có thế chấp là những đồng tiền giữ tài sản mà đồng tiền của họ được cố định, trong khi đồng tiền không thế chấp sử dụng các thuật toán để kiểm soát nguồn cung cấp mã token nhằm giữ giá cố định ở mức xác định trước.
+Tuy nhiên, có 2 loại chính trong đó tất cả các đồng tiền ổn định có thể phù hợp với bao gồm **thế chấp** hoặc **không thế chấp**. Các đồng tiền ổn định có thế chấp là những đồng tiền giữ tài sản mà đồng tiền của họ được cố định, trong khi đồng tiền không thế chấp sử dụng các thuật toán để kiểm soát nguồn cung cấp mã token nhằm giữ giá cố định ở mức xác định trước.
 
-## Thảm họa IRON Finance 
+## Thảm họa IRON Finance&#x20;
 
 Nếu bạn đã từng sử dụng tiền điện tử một thời gian, bạn có thể nhớ thảm họa của mã token TITAN và IRON, nhưng đối với những người trong số bạn chưa biết, đây sẽ là một bản tóm tắt nhanh. IRON Finance là một dự án có 2 mã token, stablecoin IRON và mã token TITAN, tuy nhiên stablecoin IRON không được hỗ trợ hoàn toàn bằng các đồng ổn định, tỷ lệ đối với IRON đúc là 75% USDC và 25% token TITAN. Vì vậy, về cơ bản nó là một công thức cho thảm họa.
 
@@ -27,7 +27,7 @@ Mọi người bắt đầu mua IRON để bán nó cho USDC và kiếm một s�
 
 ## MAI là gì?
 
-MAI là một đồng tiền ổn định được hỗ trợ bởi các token tài sản thế chấp bị khóa, việc đúc MAI có thể được thực hiện thông qua tài sản thế chấp đã được phê duyệt trong Vault hoặc thông qua Anchor**. **
+MAI là một đồng tiền ổn định được hỗ trợ bởi các token tài sản thế chấp bị khóa, việc đúc MAI có thể được thực hiện thông qua tài sản thế chấp đã được phê duyệt trong Vault hoặc thông qua Anchor**.**&#x20;
 
 Khi đúc MAI với gửi tài sản thế chấp được chấp thuận, CDR (Tỷ lệ tài sản đảm bảo trên nợ) cần phải trên 150%, điều này có nghĩa là nếu bạn gửi tài sản thế chấp trị giá 100 đô la, MAI mới đúc có thể trị giá tối đa là 66,6667 đô la. Chúng ta sẽ tìm hiểu lý do đằng sau điều này trong bài viết này.
 
@@ -35,7 +35,7 @@ Một cách khác để đúc MAI là thông qua [Ancho](https://app.mai.finance
 
 ![Stablecoins có thể đúc MAI](<../.gitbook/assets/image (5).png>)
 
-Như bạn có thể thấy trên hình bên dưới, giá của đồng tiền ổn định MAI hầu như luôn gần với mức 1 đô la, điều này là do như [tài liệu chính thức](https://docs.mai.finance/stablecoin-economics) cho biết, đồng tiền ổn định MAI cho phép người dùng tham gia vào chênh lệch giá không rủi ro thông qua Anchor khi giá của MAI giảm xuống dưới $ 0,99 hoặc tăng trên $ 1,01. 
+Như bạn có thể thấy trên hình bên dưới, giá của đồng tiền ổn định MAI hầu như luôn gần với mức 1 đô la, điều này là do như [tài liệu chính thức](https://docs.mai.finance/stablecoin-economics) cho biết, đồng tiền ổn định MAI cho phép người dùng tham gia vào chênh lệch giá không rủi ro thông qua Anchor khi giá của MAI giảm xuống dưới $ 0,99 hoặc tăng trên $ 1,01.&#x20;
 
 ![Price chart of the MAI token in the last 90 days](<../.gitbook/assets/image (7) (1) (1).png>)
 
@@ -52,7 +52,7 @@ Anchor cho phép người dùng đúc MAI bằng các đồng tiền ổn địn
 
 ![](<../.gitbook/assets/image (9).png>)
 
-Việc có giá trần và giá sàn giúp MAI không bị chênh lệch quá nhiều so với tỷ giá neo của nó, tuy nhiên như bạn đã thấy trên hình của biểu đồ MAI, bạn có thể tham gia vào các cơ hội kinh doanh chênh lệch giá rủi ro thấp (nghĩa là bạn có thể bán đồng ổn định của mình khi MAI dưới 1 đô la hoặc bán MAI khi trên 1 đô la để kiếm một số tiền nhanh chóng). 
+Việc có giá trần và giá sàn giúp MAI không bị chênh lệch quá nhiều so với tỷ giá neo của nó, tuy nhiên như bạn đã thấy trên hình của biểu đồ MAI, bạn có thể tham gia vào các cơ hội kinh doanh chênh lệch giá rủi ro thấp (nghĩa là bạn có thể bán đồng ổn định của mình khi MAI dưới 1 đô la hoặc bán MAI khi trên 1 đô la để kiếm một số tiền nhanh chóng).&#x20;
 
 Về nguyên nhân gây ra sự biến động của giá MAI, có thể có hai lý do chính như sau:
 
@@ -69,7 +69,7 @@ Khi giá trị của tài sản thế chấp tăng lên, các đồng ổn đị
 
 Như bạn đã thấy trong suốt bài viết này, đồng tiền ổn định MAI là một loại đồng tiền ổn định được thế chấp quá mức, có nghĩa là sẽ luôn có đủ tài sản thế chấp để hỗ trợ giá đồng ổn định MAI. Điều này sẽ giúp giải tỏa đủ cho những nhà đầu tư ngần ngại về việc đầu tư vào các dự án đúc tiền ổn định. Ngoài ra, hãy nhớ rằng nếu có càng nhiều MAI trên thị trường, thì giá MAI sẽ càng ổn định.
 
-Gần đây, những ưu đãi dành cho kho tiền đã được Mai Finance giới thiệu, nếu bạn muốn hiểu đó là gì thì có thể tham khảo bài [viết này.](mai-loans-and-vaults-incentives.md) 
+Gần đây, những ưu đãi dành cho kho tiền đã được Mai Finance giới thiệu, nếu bạn muốn hiểu đó là gì thì có thể tham khảo bài [viết này.](mai-loans-and-vaults-incentives.md)&#x20;
 
 ## Tuyên bố từ chối trách nhiệm
 

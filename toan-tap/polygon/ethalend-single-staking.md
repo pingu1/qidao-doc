@@ -13,7 +13,7 @@ Một trong những sứ mệnh của bộ hướng dẫn này cung cấp là l�
 
 ## Trình bày Ethalend&#x20;
 
-![](../.gitbook/assets/Ethalend-1.png)
+![](../../.gitbook/assets/Ethalend-1.png)
 
 ### Ethalend là gì?
 
@@ -28,7 +28,7 @@ Một trong những điều rất thú vị về Ethalend là ứng dụng đang
 
 Bạn sẽ quyết định xem ưu điểm có mang lại đủ giá trị để vượt qua nhược điểm hay không. Khi bạn đã sẵn sàng tạo ví, chỉ cần nhấp vào nút `Create Wallet` ở góc trên cùng bên phải của màn hình.
 
-![Tạo ví Etha ](../.gitbook/assets/Ethalend-2.png)
+![Tạo ví Etha ](../../.gitbook/assets/Ethalend-2.png)
 
 Bây giờ là lúc khám phá giao thức
 
@@ -38,11 +38,11 @@ Chiến lược này có thể được thêm vào nhóm các chiến lược t�
 
 ### Đặt cổ phần MAI đơn và kết quả
 
-![Bể MAI-USDT trên Ethalend tại thời điểm tháng 11 năm 2021](../.gitbook/assets/Ethalend-3.png)
+![Bể MAI-USDT trên Ethalend tại thời điểm tháng 11 năm 2021](../../.gitbook/assets/Ethalend-3.png)
 
 Một trong những lợi thế lớn của Ethalend và cũng la tính năng chính cho phép đơn giản hóa DeFi là bạn không cần cung cấp cặp LP (Cung cấp thanh khoản) bao gồm 2 tài sản với tỷ lệ 1: 1. Thuật toán quản lý bể (hoặc eVault trong trường hợp của chúng ta) sẽ tự động làm điều đó cho bạn. Ngoài ra, sau khi bạn gửi tài sản của mình vào eVault, chúng sẽ được tự động định tuyến lại sang giao thức tốt nhất sẽ tối đa hóa lợi nhuận. Các mã thông báo phần thưởng sẽ được tiếp tục canh tác và chuyển đổi cho bạn thường xuyên.
 
-![Gửi 100 MAI vào MAI-USDT eVault từ ví Metamask](../.gitbook/assets/Ethalend-4.png)
+![Gửi 100 MAI vào MAI-USDT eVault từ ví Metamask](../../.gitbook/assets/Ethalend-4.png)
 
 Như bạn có thể thấy, thông tin chi tiết về phần thưởng được hiển thị ở phần bên phải của màn hình. Phần thưởng ETHA không được hiển thị, nhưng bạn sẽ nhận được ước tính về phần thưởng Qi liên quan đến khoản tiền gửi của bạn. Nếu bạn kéo xuống trang, bạn cũng sẽ hiểu rõ về chiến lược cơ bản đang sử dụng QuickSwap trong trường hợp này. Phần thưởng QUICK sẽ được chuyển thành phần thưởng Qi. Phần thưởng ETHA được tạo ra bởi giao thức để khuyến khích bạn sử dụng nền tảng của họ thay vì QuickSwap.
 
@@ -54,13 +54,13 @@ Chú ý đến phí rút tiền 0,10%. Như đã viết, với số tiền đặ
 
 Phần thưởng chính bạn sẽ nhận được bằng cách cho mượn MAI của bạn trên Ethalend sẽ được thanh toán bằng ETHA, mã thông báo gốc từ Ethalend. Một trong những lợi thế chính của Ethalend là bạn sẽ có thể đặt cược một lần vào mã thông báo ETHA của mình trực tiếp trên nền tảng và tăng lợi nhuận của bạn.
 
-![Gửi ETHA của bạn trực tiếp trên Ethalend](../.gitbook/assets/Ethalend-5.png)
+![Gửi ETHA của bạn trực tiếp trên Ethalend](../../.gitbook/assets/Ethalend-5.png)
 
 Như bạn có thể thấy, lựa chọn tốt nhất là gửi ETHA bạn kiếm được vào bể ETHA-QUICK. Vì bản chất của 2 tài sản (rất dễ bay hơi) nên phần thưởng thực sự rất cao. Bạn có thể giảm các khoản lỗ vô thường bằng cách gửi ETHA của mình vào bể ETHA-USDT nếu bạn muốn. Trong cả hai trường hợp, bạn sẽ được thưởng bằng mã thông báo QUICK. Và tất nhiên, nếu bạn thực sự lạc quan về ETHA, bạn có thể đặt phần thưởng của mình vào nhóm ETHA để có thêm ETHA.
 
 Các hầm gửi tiền trên Ethaland thực sự là một tiện ích được cung cấp bởi Ethalend. Khi bạn gửi mã thông báo của mình vào bể, thuật toán cân bằng sẽ bán một số mã thông báo đã gửi để mua mặt còn lại của cặp LP và sử dụng cặp này trong QuickSwap. Một lưu ý nhỏ là bạn hoàn toàn có thể thực hiện việc này theo cách thủ công: yêu cầu mã thông báo ETHA của bạn, rút ​​tiền trong ví web3 của bạn, bán 50% cho mã thông báo QUICK, tạo một số mã thông báo LP và gửi chúng vào bể QuickSwap:
 
-![Bể Quickswap cho ETHA tại thời điểm tháng 11 năm 2021](../.gitbook/assets/Ethalend-6.png)
+![Bể Quickswap cho ETHA tại thời điểm tháng 11 năm 2021](../../.gitbook/assets/Ethalend-6.png)
 
 {% hint style="info" %}
 QuickSwap cấp cho bạn APY 223,1% trên cặp ETHA-QUICK, trong khi Ethalend hiển thị APR 116,73% trên cùng một cặp. Điều này là do sự khác biệt giữa APY (Lợi nhuận phần trăm hàng năm hoặc phần thưởng được cộng gộp tự động) và APR (Doanh thu phần trăm hàng năm hoặc phần thưởng không có hệ số cộng gộp tự động). 2 phần trăm thực sự hoàn toàn giống nhau, vì vậy không quan trọng bạn đã chọn nền tảng nào để sử dụng mã thông báo ETHA của mình.
@@ -70,7 +70,7 @@ QuickSwap cấp cho bạn APY 223,1% trên cặp ETHA-QUICK, trong khi Ethalend 
 
 Cách tốt nhất để sử dụng phần thưởng QUICK mà bạn sẽ nhận được từ việc đặt cược ETHA của mình là chuyển chúng thành dQUICK. dQUICK có thể được tạo trong Dragon's Lair trên QuickSwap. Đó là cách QuickSwap khuyến khích người dùng gửi  QUICK của họ bằng cách thưởng cho họ thêm QUICK: bằng cách khóa mã thông báo QUICK của bạn trên QuickSwap, bạn sẽ kiếm được thêm mã thông báo
 
-![Dragon's Lair APY trên QuickSwap kể từ tháng 11 năm 2021](../.gitbook/assets/Ethalend-7.png)
+![Dragon's Lair APY trên QuickSwap kể từ tháng 11 năm 2021](../../.gitbook/assets/Ethalend-7.png)
 
 {% hint style="info" %}
 APY DQUICK dao động từ 20% đến 40%, tùy thuộc vào số lượng QUICK thực sự được gửi trên Nền tảng
@@ -78,7 +78,7 @@ APY DQUICK dao động từ 20% đến 40%, tùy thuộc vào số lượng QUIC
 
 Nhưng một trong những điều tốt nhất về dQUICK là đó là mã thông báo "bằng chứng ký gửi" có thể được sử dụng trên Mai Finance làm tài sản thế chấp. Điều này có nghĩa là, sau khi bạn gửi phần thưởng QUICK của mình từ Ethalend trên QuickSwap và nhận được dQUICK, bạn có thể đến Mai Finance và gửi mã thông báo DQUICK vào một Kho tiền DQUICK để mượn MAI.
 
-![dQUICK Vault trên Mai Finance kể từ tháng 11 năm 2021](../.gitbook/assets/Ethalend-8.png)
+![dQUICK Vault trên Mai Finance kể từ tháng 11 năm 2021](../../.gitbook/assets/Ethalend-8.png)
 
 Một số điều về kho dQUICK:
 
@@ -91,11 +91,11 @@ Bạn đã có thể thấy rằng, việc cung cấp dQUICK là rất thú vị
 
 Chủ đề này được giải thích trong một [bài dành riêng](what-to-do-with-qi-on-polygon.md). Vì lợi ích của hướng dẫn này, chúng tôi sẽ chỉ cần gửi Qi của bạn vào bể Qi-BAL trên Balancer để hưởng lợi từ APR vững chắc, được thanh toán bằng mã thông báo Qi và BAL bổ sung mà bạn có thể kết hợp trong cùng một nhóm.
 
-![Trạng thái của bể Qi-BALL trên Balancer kể từ tháng 11 năm 2021](../.gitbook/assets/Ethalend-9.png)
+![Trạng thái của bể Qi-BALL trên Balancer kể từ tháng 11 năm 2021](../../.gitbook/assets/Ethalend-9.png)
 
 ## Khởi động hệ thống
 
-![](../.gitbook/assets/Ethalend-10.png)
+![](../../.gitbook/assets/Ethalend-10.png)
 
 Sau đây là một mô phỏng được thực hiện với khoản đầu tư ban đầu là 100 đô la MAI mà bạn có thể vay từ một kho tiền hiện có hoặc mua từ nền tảng DEX. Nó giả định rằng tất cả các APR và APY hiện tại đều giữ nguyên trong khoảng thời gian 1 năm và tất cả các mã thông báo đều giữ cùng một mức giá, điều này (tất nhiên) sẽ không bao giờ đúng như vậy.
 

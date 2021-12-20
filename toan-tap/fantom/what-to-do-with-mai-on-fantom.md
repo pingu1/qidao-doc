@@ -26,7 +26,7 @@ Dự án BeethovenX không chỉ là dự án nhánh Balancer mà còn xây dự
 
 Trên Fantom, bạn sẽ có thể thêm MAI của mình trong bể Guqin Qi V2 bao gồm MAI (65% nhóm), DAI (17,5% của nhóm) và USDC (17,5% của nhóm) và APR (Phần trăm Doanh thu Hàng năm) dao động trong khoảng 20% đến 30%, được trả bằng BEETS và phí hoán đổi.
 
-![Bể Guqin Qi tại thời điểm tháng 11 năm 2021](../.gitbook/assets/MAI-on-FTM.png)
+![Bể Guqin Qi tại thời điểm tháng 11 năm 2021](../../.gitbook/assets/MAI-on-FTM.png)
 
 Đối với Balancer, điều tốt nhất về BeethovenX có lẽ là việc bạn không cần cung cấp tỷ lệ chính xác cho pool. Thuật toán đang giữ số dư chính xác giữa 3 tài sản sẽ lấy bất kỳ khoản tiền gửi nào bạn có và sẽ bán / mua mã thông báo để đảm bảo số dư được duy trì cân bằng. Bằng cách này, bạn có thể chỉ cần gửi MAI và thuật toán trong bể sẽ tự tái cân bằng.
 
@@ -38,7 +38,7 @@ BeethovenX cũng là ứng dụng tốt nhất nếu bạn muốn hoán đổi M
 
 SpookySwap gần đây đã giới thiệu cặp MAI-USDC mà mọi người hiện có thể cung cấp thanh khoản và kiếm được mã thông báo BOO với APR trung bình từ 25% đến 30%.
 
-![Bể MAI-USDC trên Spookyswap tại thời điểm tháng 11/20](../.gitbook/assets/MAI-on-FTM-SpookySwap.png)
+![Bể MAI-USDC trên Spookyswap tại thời điểm tháng 11/20](../../.gitbook/assets/MAI-on-FTM-SpookySwap.png)
 
 Bạn sẽ có thể đặt cổ phần mã BOO của mình để nhận thêm \~ 20% APR, đây là một cách tuyệt vời để sử dụng phần thưởng của bạn. Ngoài ra, bằng cách đặt mã thông báo BOO, bạn sẽ nhận được bằng chứng ký quỹ sBOO có thể được chấp nhận làm tài sản thế chấp hợp lệ trên Mai Finance sau này. Điều này thực sự sẽ tạo ra một vòng lặp nhỏ thú vị, nơi mọi người sẽ có thể gửi MAI-USDC, kiếm và đặt cược BOO, gửi sBOO trên Mai Finance và vay MAI để thêm vào bể MAI-USDC.
 
@@ -48,7 +48,7 @@ Bạn sẽ có thể đặt cổ phần mã BOO của mình để nhận thêm \
 
 Mã thông báo Qi bạn sẽ nhận được bằng cách farm trực tiếp trên Mai Finance để  sử dụng trong bể Qi-FTM cũng có trên Mai Finance (bạn cũng có thể tạo LP này trên BeethovenX) và trên đó bạn sẽ có thể kiếm được nhiều Qi hơn nữa . Bạn cũng có thể sử dụng [định tuyến của AnySwap](https://anyswap.exchange/#/router) để gửi Qi thu được trên Fantom tới Polygon. Sau đó, bạn có thể  đặt Qi vào Mai Finance, tham gia quản trị và thu cổ tức từ giao thức.
 
-![Đưa Qi từ Fantom đến Polygon sử dụng AnySwap](../.gitbook/assets/MAI-on-FTM-Qi-Bridge.png)
+![Đưa Qi từ Fantom đến Polygon sử dụng AnySwap](../../.gitbook/assets/MAI-on-FTM-Qi-Bridge.png)
 
 ## Các nền tảng Degen và trình tổng hợp
 
@@ -58,7 +58,7 @@ Mã thông báo Qi bạn sẽ nhận được bằng cách farm trực tiếp tr
 
 Bạn có thể sử dụng một số mã thông báo Beefy cụ thể làm tài sản thế chấp trên Mai Finance, vui lòng xem thêm[ bài viết tương ứng](leverage-your-crypto-on-fantom.md#Leverage-your-mooScreamTokens-on-Mai-Finance) trên trang web này. Khi nói đến việc sử dụng MAI trên Beefy, bạn sẽ có thể gửi các mã thông báo LP mà bạn đã tạo trên BeethovenX hoặc SpookySwap:
 
-![Bể MAI trên Beefy Finance tại thời điểm tháng 11/2021](../.gitbook/assets/MAI-on-FTM-Beefy.png)
+![Bể MAI trên Beefy Finance tại thời điểm tháng 11/2021](../../.gitbook/assets/MAI-on-FTM-Beefy.png)
 
 Beefy sẽ bán phần thưởng BEETS và BOO của bạn để thêm nhiều vị thế MAI-DAI-USDC hoặc MAI-USDC của bạn. Hãy chú ý đến thực tế là Beefy đang hiển thị APY (Tỷ lệ phần trăm hàng năm) khi BeethovenX và SpookySwap đang sử dụng APR. Đây là một điểm quan trọng khi bạn muốn chọn một nền tảng nhất định cho phần thưởng so với sự đơn giản của việc sử dụng.
 
@@ -66,7 +66,7 @@ Beefy sẽ bán phần thưởng BEETS và BOO của bạn để thêm nhiều v
 
 Beluga là một nền tảng tổng hợp khác trên Fantom sẽ nhắm mục tiêu đến các nền tảng cụ thể và trong trường hợp này, chúng ta có thể sử dụng Beluga cho bể BeethovenX. Thay vì bán mã thông báo BEETS do BeethovenX cấp để tăng vị thế MAI-DAI-USDC, BEETS sẽ được gửi vào nhóm BEETS-FTM đang nhận được 350% APR kể từ tháng 11 năm 2021. BEETS sẽ được thu hoạch thường xuyên và cộng lại trong bể BEETS-FTM và bạn sẽ có thể thu thập mã thông báo LP này và loại bỏ thanh khoản trực tiếp trên BeethovenX. Xin lưu ý thêm, vì Beluga đang sử dụng bể BEETS-FTM có APR rất cao, nên APY cuối cùng cho MAI-DAI-USDC cũng rất cao.
 
-![Bể MAI-DAI-USD trên Beluga tại thời điểm tháng 11 năm 2021](../.gitbook/assets/MAI-on-FTM-Beluga.png)
+![Bể MAI-DAI-USD trên Beluga tại thời điểm tháng 11 năm 2021](../../.gitbook/assets/MAI-on-FTM-Beluga.png)
 
 {% hint style="info" %}
 Xin lưu ý rằng Beluga sẽ không giúp bạn phát triển vị thế đồng ổn định của mình. APY cuối cùng phụ thuộc nhiều vào giá BEETS và APR của nhóm BEETS-FTM. Giá trị phần thưởng sẽ không được ghi lại và lưu trong LP đồng ổn định của bạn, vì vậy bạn sẽ phải phá vỡ BEETS-FTM LP theo cách thủ công và bán lấy bất cứ thứ gì bạn muốn.

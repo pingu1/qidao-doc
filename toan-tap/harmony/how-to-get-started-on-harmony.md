@@ -28,7 +28,7 @@ Nếu bạn đã cài đặt phiên bản mới nhất của Metamask, bạn đ�
 
 Lưu các thay đổi và Metamask sẽ tự động chuyển bạn sang mạng Harmony:
 
-![Xin chúc mừng!! bạn đã trên Harmony](../.gitbook/assets/Harmony-onboarding-1.png)
+![Xin chúc mừng!! bạn đã trên Harmony](../../.gitbook/assets/Harmony-onboarding-1.png)
 
 ## Cấu nối tới Harmony One
 
@@ -42,7 +42,7 @@ Như mọi khi, bạn cũng có thể sử dụng [ElkNet ](https://app.elk.fina
 
 * [Multichain.org](https://app.multichain.org/#/router) (được biết trước đây AnySwap) là đối tác chính thức của Mai Finance sẽ cho phép bạn kết nối các mã thông báo MAI của bạn từ Polygon và các chuỗi khác với Harmony. Lưu ý thêm, Multichain đã hợp tác với các nhà phát triển của Mai Finance để đảm bảo rằng MAI mà bạn làm cầu nối với Harmony cũng giống như những gì bạn sẽ có thể vay từ nền tảng cho vay. Không cần phải có Hub trên Harmony. Chỉ cần đi đến bộ định tuyến Multichain, chọn mạng gốc, mã thông báo bạn muốn chuyển và mạng đích là xong. Hãy chú ý đến số tiền tối thiểu để chuyển, phí chuyển và thời gian chuyển tiền, nhưng sau khi hoàn tất, bạn sẽ nhận được tài sản của mình trên Harmony.
 
-![Đưa MAI từ Polygon tới Harmony One](../.gitbook/assets/Harmony-onboarding-2.png)
+![Đưa MAI từ Polygon tới Harmony One](../../.gitbook/assets/Harmony-onboarding-2.png)
 
 * [Official Harmony Bridge](https://bridge.harmony.one/erc20), như đã giải thích trong đoạn trước, sẽ cho phép bạn chuyển các tài sản cụ thể từ Ethereum Mainnet hoặc BSC.
 * [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer) là một giải pháp khác nếu bạn muốn chuyển một thứ gì đó sang Harmony. Kiểm tra ứng dụng của họ để xem tài sản nào có thể bắc cầu.
@@ -54,13 +54,13 @@ Bởi vì Harmony One là một mạng có giao dịch nhanh chóng và an toàn
 
 * [ViperSwap](https://viper.exchange/#/swap): Đây là đối tác đầu tiên của Mai Finance trên Harmony One. Đây là bản fork Uniswap v2, một DEX (Sàn giao dịch phi tập trung) và AMM (Nhà tạo thị trường tự động), nơi bạn có thể hoán đổi tài sản của mình, tạo mã thông báo LP (Cung cấp thanh khoản) và nhận phần thưởng bằng cách cung cấp thanh khoản cho các nhà giao dịch. Phần thưởng được trả bằng mã thông báo VIPER, bạn sẽ có thể đặt cọc vào nền tảng để nhận được nhiều phần thưởng hơn. Đây là DEX nơi bạn sẽ tìm thấy một số bể thanh khoản với MAI.&#x20;
 
-![Các bể MAI-ONE và MAI-VIPER trên ViperSwap kể từ tháng 12 năm 2021](../.gitbook/assets/Harmony-onboarding-3.png)
+![Các bể MAI-ONE và MAI-VIPER trên ViperSwap kể từ tháng 12 năm 2021](../../.gitbook/assets/Harmony-onboarding-3.png)
 
 Bạn sẽ lưu ý rằng APR (Tỷ lệ phần trăm hàng năm) trên các bể rất cao. Điều này chủ yếu là do cách phân phối phần thưởng trên ViperSwap: khi bạn nhận phần thưởng của mình, 5% mã thông báo VIPER có thể được sử dụng trực tiếp, trong khi 95% nếu bị khóa cho đến năm 2021-12-25. Sau đó, phần thưởng sẽ khóa trong một năm đầy đủ, có nghĩa là bạn sẽ không thể truy cập ngay lợi nhuận từ việc trồng trọt của mình và nó sẽ nhỏ giọt rất chậm. Có một bước ngoặt khác đối với các bể ViperSwap: bạn sẽ phải trả phí rút tiền sẽ giảm xuống nếu bạn đặt cọc các token LP của mình trong một thời gian dài. Phí chuyển từ 25% nếu bạn rút trong cùng một khối với giao dịch gửi tiền (để chống lại các hoạt động flashloan) thành 0,01% nếu bạn rút sau 1 tháng. Thêm chi tiết trong [tài liệu chính thức](https://docs.venomdao.org/viper/tokenomics#bbd0) của họ về phần thưởng và [phí rút LP](https://docs.venomdao.org/viper/fees).
 
 * [DeFi Kingdom](https://game.defikingdoms.com/#/): Đây là một dự án đặc biệt thú vị được kết hợp giữa DeFi và Gamification. Mã thông báo gốc của nó JEWEL, được sử dụng làm phần thưởng cung cấp thanh khoản cho những người dùng đang cung cấp tính thanh khoản, nhưng nó có thể được sử dụng trong trò chơi hoặc trên thị trường. Việc giải thích toàn bộ vũ trụ của DeFi Kingdom (hoặc DFK) sẽ mất quá nhiều thời gian cho hướng dẫn này, vì vậy chúng tôi đặc biệt khuyên bạn nên đọc tài liệu chính thức.
 
-![Bản đồ chính của DeFi Kingdom tại thời điểm tháng 11 2021](../.gitbook/assets/Harmony-onboarding-4.png)
+![Bản đồ chính của DeFi Kingdom tại thời điểm tháng 11 2021](../../.gitbook/assets/Harmony-onboarding-4.png)
 
 * [SushiSwap](https://app.sushi.com) là DEX / AMM nổi tiếng cũng có mặt trên nhiều chuỗi khác. Hoán đổi, cung cấp thanh khoản, cung cấp thanh khoản ONE và lợi nhuận SUSHI.
 * [Curve Finance](https://harmony.curve.fi) là một ứng dụng chuỗi chéo khác sẽ cho phép bạn cung cấp thanh khoản (3pool và tricrypto) và sẽ thưởng cho bạn các mã thông báo cộng dồn, cũng như ONE và CRV.
@@ -73,7 +73,7 @@ Mai Finance đã ra mắt trên Harmony One vào tháng 12 năm 2021 và hướn
 
 Bạn sẽ có thể gửi WETH hoặc ONE token của mình trên Mai Finance (https://app.mai.finance/vaults/create) để vay đồng tiền ổn định MAI. Sau đó, bạn sẽ có thể hoán đổi MAI để tận dụng tài sản của mình, giao dịch ký quỹ hoặc canh tác lợi tức trên ViperSwap.
 
-![Hầm tiền MAI Finance tại thời điểm tháng 12 năm 2021](../.gitbook/assets/Harmony-onboarding-5.png)
+![Hầm tiền MAI Finance tại thời điểm tháng 12 năm 2021](../../.gitbook/assets/Harmony-onboarding-5.png)
 
 ## Tuyên bố từ chối trách nhiệm
 

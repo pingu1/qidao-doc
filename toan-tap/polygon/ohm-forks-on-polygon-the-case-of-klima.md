@@ -39,9 +39,9 @@ Tại sao ai đó sẵn sàng mua một mã thông báo trong khi có một phi�
 
 Vì chúng ta đang làm việc với Klima DAO, hãy so sánh giữa mua và đặt cổ phần với trái phiếu:
 
-![Phần thưởng đặt cổ phần Klima tháng 11 năm 2021](../.gitbook/assets/Klima-1.png)
+![Phần thưởng đặt cổ phần Klima tháng 11 năm 2021](../../.gitbook/assets/Klima-1.png)
 
-![Mức ROI của trái phiếu trên Klima tại thời điểm 11/2021](../.gitbook/assets/Klima-2.png)
+![Mức ROI của trái phiếu trên Klima tại thời điểm 11/2021](../../.gitbook/assets/Klima-2.png)
 
 Nếu một người mua trực tiếp Klima từ thị trường và đặt cổ phần trong 5 ngày (thời gian thực tế của trái phiếu, ROI (Lợi tức đầu tư) sẽ là 8,51%. Nếu một người mua trái phiếu thay thế, ROI tối đa sẽ là 5,47% bằng cách cung cấp cặp BCT / KLIMA.
 
@@ -102,7 +102,7 @@ Nếu không đi sâu vào[ lý thuyết trò chơi (3,3)](https://en.wikipedia.
 
 ### Vòng lặp đòn bẩy sử dụng Klima và MarketXYZ
 
-![Tạo đòn bẩy cho vị thế Klima ](../.gitbook/assets/Klima-3.png)
+![Tạo đòn bẩy cho vị thế Klima ](../../.gitbook/assets/Klima-3.png)
 
 Ý tưởng là nhận được một lượng mã thông báo KLIMA ban đầu mà bạn có thể gửi trên Klima DAO. Điều này sẽ cho phép bạn nhận được APY rất cao (kể từ khi viết, APY là 38.873,08%, hoặc 601% APR hoặc mức lợi nhuận hàng ngày là 1,68%) và bằng cách gửi mã thông báo KLIMA của bạn, bạn sẽ nhận được sKLIMA làm bằng chứng gửi tiền.
 
@@ -112,7 +112,7 @@ Mã thông báo sKLIMA này có thể được sử dụng trên Market XYZ tron
 Xin lưu ý thêm, Mai Finance đã hợp tác với Market XYZ và tạo ra quỹ khóa xanh với 1M MAI để đảm bảo lãi suất thấp khi bạn vay MAI đối với sKLIMA của mình.
 {% endhint %}
 
-![Tủ khóa màu xanh lá cây trên MarketXYZ tháng 11 năm 2021](../.gitbook/assets/Klima-Marketxyz.png)
+![Tủ khóa màu xanh lá cây trên MarketXYZ tháng 11 năm 2021](../../.gitbook/assets/Klima-Marketxyz.png)
 
 Bạn không có nghĩa vụ phải vay MAI, bạn thực sự có thể vay bất kỳ mã thông báo nào với lãi suất thấp nhất, nhưng bạn cần lưu ý rằng bạn sẽ phải trả phí cho khoản vay của mình và bạn trả khoản vay càng nhanh thì càng ít phí bạn sẽ trả.
 
@@ -158,14 +158,14 @@ Một lần nữa, (4,4) có liên quan đến lý thuyết trò chơi và tiề
 
 ### Vòng lặp đầu tư sử dụng Augury và Mai Finance
 
-![Đầu tư liên tục bằng Augury Finance và Mai Finance](../.gitbook/assets/Klima-4.png)
+![Đầu tư liên tục bằng Augury Finance và Mai Finance](../../.gitbook/assets/Klima-4.png)
 
 Chúng ta vẫn đang sử dụng Klima, nhưng lần này chúng ta đang sử dụng nguồn cung cấp từ Augury Finance để tự động hóa việc trích xuất giá trị của Klima. Bằng cách gửi mã thông báo KLIMA của bạn vào [Infusion](https://augury.finance/infusions), thuật toán phụ trách sẽ thực hiện các tác vụ sau sau mỗi lần rebase:
 
 * 50% KLIMA thu hoạch được đặt lại để tăng vị thế sKLIMA của bạn
 * 50% KLIMA thu được được bán với USDC được thêm vào bể NFTM trên Augury và được phân phối cho bạn dưới dạng mã thông báo NFTM
 
-![Augury Infusion với 0% phí thực hiện và 0% phí gửi](../.gitbook/assets/Klima-Augury.png)
+![Augury Infusion với 0% phí thực hiện và 0% phí gửi](../../.gitbook/assets/Klima-Augury.png)
 
 NFTM sau đó có thể được giữ lại khi nó tăng giá trị hoặc đổi lấy USDC của nó. Nói cách khác, không quan trọng nếu mã thông báo KLIMA mất giá trị sau khi rebase vì giá trị của nó được ghi lại và lưu trữ dưới dạng NFTM.
 

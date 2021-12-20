@@ -15,7 +15,7 @@ Trong hướng dẫn này, chúng tôi sẽ trình bày một chiến lược đ
 
 ## Toàn tập về khái niệm đòn bẩy
 
-![Câu chuyện của một thợ vàng Qi](../.gitbook/assets/canDAI-farwest.png)
+![Câu chuyện của một thợ vàng Qi](../../.gitbook/assets/canDAI-farwest.png)
 
 Tưởng tượng rằng chúng ta đang có vùng viễn Tây xa xôi, nơi mà cơn sốt vàng đang khiến các thợ đào ngày càng đông đảo hơn với mong muốn làm giàu. Các ngân hàng muốn có vàng để cho vay và kiếm lãi.
 
@@ -37,7 +37,7 @@ Bạn quay lại ngân hàng để gửi số vàng đó để kiếm được n
 
 [AAVE](https://app.aave.com) là một nền tảng cho vay và đi vay nơi bạn có thể gửi tài sản mã hóa của mình để kiếm được lợi nhuận. Đối với chiến lược minh họa dưới đây, chúng ta sẽ cho vay DAI, một đồng tiền ổn định (được gắn với đô la Mỹ). Trên AAVE, DAI trị giá 100 đô la sẽ có khả năng tạo ra tỷ suất lợi nhuận từ 4% đến 10% trong khoảng thời gian 1 năm.
 
-![Thị trường AAVE trên Polygon tại thời điểm tháng 10 nắm 2021](../.gitbook/assets/canDAI-aave.png)
+![Thị trường AAVE trên Polygon tại thời điểm tháng 10 nắm 2021](../../.gitbook/assets/canDAI-aave.png)
 
 Khi bạn gửi tài sản của mình trên AAVE, bạn sẽ nhận được hóa đơn về việc gửi tiền. Trong ví dụ này, vì chúng ta đang gửi DAI, chúng ta sẽ nhận được mã thông báo amDAI trong ví của mình (hóa đơn của DAI). Bạn nhất thiết phải giữ lại biên lai này vì bạn sẽ cần nó để lấy lại DAI của mình khỏi AAVE. Đây là ngân hàng sẽ chấp nhận vàng của bạn trong cuộc so sánh viễn tây của chúng tôi.
 
@@ -47,7 +47,7 @@ Khi bạn gửi tài sản của mình trên AAVE, bạn sẽ nhận được h�
 
 Bạn có thể sử dụng amDAI trên thanh tab [lợi nhuận](https://app.mai.finance/yield) trên nền tảng Mai Finance bằng cách cho vay tại các kho tiền với lãi suất cộng dồn lên tới 8.75% với phần thưởng 2.01% bằng WMATIC. Công cụ lợi nhuận trên nền tảng Mai Finance sẽ trực tiếp hoán đổi số MATIC này thành DAI do vậy tỷ lệ APY hiện thị trên Mai Finance là số lãi suất cộng dồn từ thị trường AAVE.
 
-![Công cụ lợi nhuận trên Mai Finance](../.gitbook/assets/camDAI-yield.png)
+![Công cụ lợi nhuận trên Mai Finance](../../.gitbook/assets/camDAI-yield.png)
 
 Sau khi  bạn gửi số amDAI của mình vào công cụ lợi nhuận trên Mai Finance bạn sẽ nhận lại một số camDAI token được coi như bằng chứng cho số token mà bạn đã gửi vào bể amDAI với tỷ lệ phụ thuộc vào phần trăm cổ phần của bạn trong bể. Bạn có thể xem chi tiết tại [hướng dẫn này.](leverage-aave-tokens.md#amtokens-vs-camtoken)
 
@@ -57,7 +57,7 @@ Giờ đây bạn có thể vay thêm MAI (một đồng tiền ổn định neo
 
 [Zapper](https://zapper.fi/dashboard) giống như một con dao sắc bén trên mạng Polygon. Nền tảng này cho phép bạn canh tác lợi suất tại các bể thanh khoản, cho vay tài sản của bạn trên AAVE trực tiếp trên nền tảng của họ. Các bảng theo dõi trực quan cho phép người dùng có thể theo dõi danh mục đầu tư của mình cũng như cho phép hoán đổi một số loại tiền tệ. Chúng ta sẽ sử dụng nền tảng này là bước cuối để hoán đổi đồng MAI sang DAI.
 
-![Hoán đổi MAI sang DAI](../.gitbook/assets/camDAI-zapper.png)
+![Hoán đổi MAI sang DAI](../../.gitbook/assets/camDAI-zapper.png)
 
 Zapper chính là những người thợ đào vàng chấp nhận tiền bạn vay được để đổi lấy vàng.
 
@@ -73,7 +73,7 @@ Như bạn thấy trên thì Zapper đang sử dụng [Balancer](https://polygon
 
 Như đã giải thích ở trên thì AAVE đóng vai trò là nguồn cung thế chấp cho những kho tiền trên nền tảng Mai Finance bằng công cụ lợi nhuận.
 
-![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
+![](../../.gitbook/assets/camDAI-zapDAI.png) ![](../../.gitbook/assets/camDAI-zapdeposit.png)
 
 Nút `Zap khi sử dụng DAI` sẽ mở ra một cửa sổ bật lên cho phép bạn gửi DAI của mình vào kho tiền và vận hành tiền gửi AAVE . Điều này giúp tiết kiệm rất nhiều thời gian và một phí giao dịch.&#x20;
 
@@ -133,7 +133,7 @@ $$
 
 Để có thể tiếp xúc nhiều hơn với tài sản biến động cao, bạn có thể sử dụng vòng lặp như trên nhưng chỉ tạo đòn bẩy cho 90% MAI và 10% còn lại mua token Qi nhằm cung cấp thanh khoản cho bể BAL-Qi trên Balancer .
 
-![Bể Qi-Bal trên Balancer tại thời điểm tháng 10 năm 2021](../.gitbook/assets/camDAI-balancer.png)
+![Bể Qi-Bal trên Balancer tại thời điểm tháng 10 năm 2021](../../.gitbook/assets/camDAI-balancer.png)
 
 Vì chúng ta tái đầu tư ít DAI hơn nên chúng ta cũng sử dụng ít vòng lặp hơn :
 

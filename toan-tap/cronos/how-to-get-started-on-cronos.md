@@ -16,7 +16,7 @@ Trong số các ưu điểm khác, Cronos thể hiện khả năng tương thíc
 
 Để sử dụng mạng Cronos, bạn sẽ cần một địa chỉ ví. Vì Cronos là một mạng tương thích với EVM, nó sẽ chấp nhận các ví tương tự như trên các chuỗi tương thích với EVM khác, bao gồm ví web như Metamask hoặc Nifty và bạn sẽ có thể sử dụng ví phần cứng như Trezor hoặc Ledger.
 
-Đối với hướng dẫn này, chúng tôi sẽ gắn bó với Metamask giống như tất cả các hướng dẫn khác trên trang web này. Nếu bạn chưa cài đặt Metamask, bạn có thể tìm hướng dẫn về [Cách bắt đầu với Polygon](../huong-dan/how-to-get-started-on-polygon.md).
+Đối với hướng dẫn này, chúng tôi sẽ gắn bó với Metamask giống như tất cả các hướng dẫn khác trên trang web này. Nếu bạn chưa cài đặt Metamask, bạn có thể tìm hướng dẫn về [Cách bắt đầu với Polygon](../polygon/how-to-get-started-on-polygon.md).
 
 ### Thêm Cronos vào Metamask
 
@@ -30,7 +30,7 @@ Nếu bạn đã cài đặt phiên bản mới nhất của Metamask, thì bạ
 
 Lưu các thay đổi và Metamask sẽ tự động chuyển bạn sang mạng Cronos:
 
-![Xin chúc mừng! Bây giờ bạn đã trên mạng Cronos](../.gitbook/assets/Cronos-onboarding-1.png)
+![Xin chúc mừng! Bây giờ bạn đã trên mạng Cronos](../../.gitbook/assets/Cronos-onboarding-1.png)
 
 ## Bắc cầu tới Cronos
 
@@ -41,7 +41,7 @@ Không có bất kỳ faucet chính thức nào để nhận  CRO đầu tiên c
 * [Crystl Finance Faucet](https://cronos.crystl.finance/faucet): Sau khi kết nối ví của bạn và hoàn thành captcha, bạn có thể yêu cầu một số CRO sẽ được gửi đến ví của bạn.
 * [Elk Finance](https://app.elk.finance/#/elknet): Khi bạn bắc cầu mã thông báo ELK của mình từ chuỗi này sang chuỗi khác, bạn sẽ có tùy chọn hoán đổi một phần nhỏ của ELK đã chuyển thành mã thông báo gas gốc của chuỗi đích. Điều này đặc biệt hữu ích nếu bạn là cầu nối tài sản lần đầu tiên với một chuỗi mới.
 
-![Sử dụng cầu nối ElkNet và chuyển đổi $ 1 thành mã thông báo gas](../.gitbook/assets/Cronos-onboarding-2.png)
+![Sử dụng cầu nối ElkNet và chuyển đổi $ 1 thành mã thông báo gas](../../.gitbook/assets/Cronos-onboarding-2.png)
 
 * [Crypto.com](https://crypto.com): Đừng quên rằng Cronos là một chuỗi liên kết với Crypto.com. Bạn có thể tạo tài khoản ở đó, mua mã thông báo CRO của mình trực tiếp bằng cách liên kết tài khoản ngân hàng và gửi chúng đến Cronos.
 
@@ -53,7 +53,7 @@ Hãy nhớ rằng bạn sẽ cần một số mã thông báo gas để có th�
 
 * [Relay Chain](https://app.relaychain.com/transfer#/)  là đối tác chính thức của Mai Finance nếu bạn muốn làm cầu nối MAI của mình với Cronos. RelayChain hiện hỗ trợ bắc cầu MAI từ một số chuỗi khác nhau, vì vậy bạn sẽ có thể gửi tài sản của mình từ Polygon, Moonriver, Avalanche hoặc Shiden đến Cronos. Đơn giản chỉ cần chọn chuỗi đích là Cronos và mã thông báo để gửi (nó thường được đặt tên là MAI, nhưng đôi khi nó cũng có tên miMATIC). Chọn số tiền cần chuyển và bắt đầu chuyển khoản không quá 10 phút. Chú ý đến phí chuyển tiền. Tuy nhiên, một điều thú vị về RelayChain là nó sẽ cung cấp cho bạn một số CRO ở phía nhận để bạn có thể hoán đổi một số MAI lấy CRO.
 
-![Cầu nối MAI từ Polygon đến Cronos bằng RelayChain](../.gitbook/assets/Cronos-onboarding-3.png)
+![Cầu nối MAI từ Polygon đến Cronos bằng RelayChain](../../.gitbook/assets/Cronos-onboarding-3.png)
 
 * [AnySwap](https://anyswap.exchange/#/router) cũng là một khả năng cho hầu hết các chuỗi nếu bạn muốn chuyển một số tài sản cho Cronos. Lưu ý thêm, AnySwap cũng hỗ trợ chuyển MAI từ Polygon sang Cronos.
 * [ElkNet](https://app.elk.finance/#/elknet) là một trường hợp cụ thể vì cầu nối từ Elk Finance sẽ cho phép bạn kết nối mã thông báo ELK từ bất kỳ chuỗi tương thích EVM nào với bất kỳ chuỗi tương thích EVM nào khác, nơi chúng được triển khai với khả năng hoán đổi một phần nhỏ số tiền đã chuyển thành mã thông báo gas (xem phần dành riêng cho Faucet ở trên).
@@ -64,7 +64,7 @@ Trong trường hợp bạn bắc cầu một số MAI từ Polygon đến Crono
 
 Bạn có thể hoán đổi MAI của mình từ RelayChain bằng cách sử dụng trung tâm trên Mai Finance với tỷ lệ 1: 1, sau đó bạn sẽ có thể sử dụng MAI của mình trên các nền tảng khác.
 
-![Hoán đổi MAI (RelayChain) thành MAI  trên Cronos tại Hub](../.gitbook/assets/Cronos-onboarding-4.png)
+![Hoán đổi MAI (RelayChain) thành MAI  trên Cronos tại Hub](../../.gitbook/assets/Cronos-onboarding-4.png)
 
 Đừng quên rằng bạn sẽ phải chuyển đổi MAI của mình thành phiên bản Relay Chain nếu bạn muốn kết nối chúng từ Cronos sang chuỗi khác.
 
@@ -78,7 +78,7 @@ Cronos được liên kết với Crypto.com, rất nhiều khoản đầu tư �
 
 * [CroDex](https://swap.crodex.app/#/swap): Đây là một trong những DEX (Sàn giao dịch phi tập trung) và AMM (Tạo thị trường tự động) hàng đầu trên Cronos và là một fork của Uniswap v2 giống như QuickSwap. Bạn sẽ có thể hoán đổi tài sản của mình, tham gia khai thác thanh khoản bằng cách cung cấp cặp LP (Cung cấp thanh khoản) trong các bể thanh khoản hoặc đặt cọc mã thông báo gốc của nền tảng để kiếm thêm phần thưởng. CroDex cũng là đối tác chính thức đầu tiên của Mai Finance trên Cronos và là nơi duy nhất bạn có thể hoán đổi MAI lấy các tài sản khác, cũng như tham gia vào các chương trình khai thác thanh khoản bằng các cặp MAI-USDC và MAI-CRO.
 
-![Canh tác lợi nhuận với Mai trên CroDex](../.gitbook/assets/Cronos-onboarding-5.png)
+![Canh tác lợi nhuận với Mai trên CroDex](../../.gitbook/assets/Cronos-onboarding-5.png)
 
 Khi bạn cung cấp thanh khoản trên CroDex, bạn sẽ nhận được phần thưởng là mã thông báo CRX mà bạn có thể đặt cược trong Vault để nhận được nhiều mã thông báo CRX hơn, nhưng có các tùy chọn khác (tốt hơn) sẽ được trình bày trong một hướng dẫn trong tương lai
 
