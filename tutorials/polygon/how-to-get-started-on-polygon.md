@@ -20,13 +20,13 @@ Polygon also managed to build trust and proved to be a reliable alternative to t
 
 ## Creating a wallet
 
-Before using the Polygon Blockchain, you need to create a wallet address, there are different wallet types , **software (**Metamask, TrustWallet...**)** and **hardware (**Trezor or Ledger**)**. However, in this guide we'll use _Metamask_ to explain how to access the Polygon Blockchain.
+Before using the Polygon Blockchain, you need to create a wallet address, there are different wallet types , **software (Metamask, TrustWallet...)** and **hardware (Trezor or Ledger)**. However, in this guide we'll use _Metamask_ to explain how to access the Polygon Blockchain.
 
 ### Downloading Metamask
 
 The first step you need to complete to use the Polygon Blockchain is downloading the Metamask extension in your web browser. You can download it on their [webpage](https://metamask.io/index.html). Metamask can also be used on iOs and Android devices.
 
-Once you do that, you should have an extension on your browser with the logo of Metamask. When you open the Metamask extension for the first time, it'll ask you if you have a Metamask account, if do, you need to write the **seed phrase (**we'll get to the importance of the seed phrase later) _\*\*_of the account you want to load. If you don't have an account, you'll have to create a new account. These are the steps that you need to follow:
+Once you do that, you should have an extension on your browser with the logo of Metamask. When you open the Metamask extension for the first time, it'll ask you if you have a Metamask account, if do, you need to write the \*\*seed phrase (\*\*we'll get to the importance of the seed phrase later) \_\*\*\_of the account you want to load. If you don't have an account, you'll have to create a new account. These are the steps that you need to follow:
 
 1. First of all, you'll need to select a password to your Metamask account.
 2. Then you should watch the video about how to protect your wallet and the importance of the seed phrase.
@@ -34,13 +34,13 @@ Once you do that, you should have an extension on your browser with the logo of 
 
 When you are done, you should see this on your browser:
 
-![Metamask's Interface](<../.gitbook/assets/image (18).png>)
+![Metamask's Interface](<../../.gitbook/assets/image (18).png>)
 
 ### Adding the Polygon Blockchain
 
 As you can see on the picture above, we are using the Ethereum Mainnet, however if we click on there to change to a different network, you'll see that the Polygon Mainnet isn't there. Don't worry, what we need to do is adding manually the Polygon Mainnet, to do so, you need to do click on Custom RPC and write this:
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 Once you're done, you are almost ready to use the Metamask wallet on the Polygon Blockchain, the only step left is switching the Ethereum Mainnet to Polygon Mainnet, to do so you need to click on the dropdown menu at the top of the Metamask extension.
 
@@ -50,7 +50,7 @@ Now you have everything set up to use the Polygon Blockchain, however you don't 
 
 Luckily, this [page](https://matic.supply) gives you free MATIC to do your first transactions on the Polygon network (those types of pages can be called _faucet_). The only thing you need to do is connect your wallet to that page and complete a captcha. These 0.002 MATIC (\~0,00223$) will allow us to do a few transactions using the Polygon Network.
 
-![Getting FREE MATIC](<../.gitbook/assets/image (23).png>)
+![Getting FREE MATIC](<../../.gitbook/assets/image (23).png>)
 
 Sometimes due to network congestion, you may have some problems using that page, so just wait a little and you'll be able to claim some free MATIC. Also, you can try using this [one](https://macncheese.finance/matic-polygon-mainnet-faucet.php) in case the other doesn't work.
 
@@ -60,11 +60,11 @@ Before we get to the next part of the article, you need to be aware that these f
 
 Now that you have some free MATIC in your Metamask, you are ready to use the different DApps and tokens that Polygon has. You can copy the address of the token that you want to use using [PolygonScan](https://polygonscan.com). Once you are there, you only need to write the name of the token that you'll like to add. For example, if we search QiDAO on Polygon, we'll get this:
 
-![Results of writing QiDAO on PolygonScan](<../.gitbook/assets/image (24).png>)
+![Results of writing QiDAO on PolygonScan](<../../.gitbook/assets/image (24).png>)
 
 Now, you'll need to copy the address of the contract and click in **add token** on Metamask.
 
-![Adding Qi on Metamask](<../.gitbook/assets/image (25).png>)
+![Adding Qi on Metamask](<../../.gitbook/assets/image (25).png>)
 
 ## How to buy tokens on Polygon
 
@@ -72,7 +72,7 @@ Now that we have our Metamask ready and some MATIC to pay the gas, we can start 
 
 Once you decide which DEX you want to use, you can start buying your favourites tokens on the Polygon Blockchain.
 
-![Buying Qi tokens using Quickswap](<../.gitbook/assets/image (26).png>)
+![Buying Qi tokens using Quickswap](<../../.gitbook/assets/image (26).png>)
 
 {% hint style="info" %}
 Another interesting DApp to use when you want to buy tokens is [Zapper](https://zapper.fi/es/exchange). Zapper theoretically searches for the cheapest platform to perform the swap of the two tokens, so it's a good way to save up some MATIC.
@@ -82,7 +82,7 @@ Another interesting DApp to use when you want to buy tokens is [Zapper](https://
 
 It's important to know how to check your wallet's history, to do so, you can use [DeBank](https://debank.com). Debank will allow you to check the different transactions that you have made in your Metamask account, as well as checking your portfolio in all the blockchains that you use or the NFTs that you own. This will be useful if you want to compare, for example, the different Qi airdrops that you receive while staking some Qi.
 
-![All the transactions made in our new Metamask address](<../.gitbook/assets/image (27).png>)
+![All the transactions made in our new Metamask address](<../../.gitbook/assets/image (27).png>)
 
 As you can see, I have in my wallet 800,000 DxDex.io but I haven't done anything to have those tokens on my wallet. You need to be aware of these types of scam, and never interact with any coins that you don't know. In case you grant them access, Debank will allow you to revoke it. Please be careful and if you don't know that token don't touch it.
 

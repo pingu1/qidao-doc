@@ -9,13 +9,13 @@ description: >-
 
 ## Intro
 
-Most people are scared when they think about DeFi. There's always a risk factor to take in account when using crypto currencies, the volatility of this market can make one loose a lot of money, and there are so many possibilities that finding a right strategy can be quite complex.  However, when you're using the correct tools, some easy and low risk strategies can get good results, and can probably compete with more complex and risky options.
+Most people are scared when they think about DeFi. There's always a risk factor to take in account when using crypto currencies, the volatility of this market can make one loose a lot of money, and there are so many possibilities that finding a right strategy can be quite complex. However, when you're using the correct tools, some easy and low risk strategies can get good results, and can probably compete with more complex and risky options.
 
 In this guide, we will try to present an investment strategy based on leveraged stable coin, with a touch of risk for higher interests.
 
 ## Understanding the concept of leverage
 
-![Story of an unluQi gold miner](../.gitbook/assets/canDAI-farwest.png)
+![Story of an unluQi gold miner](../../.gitbook/assets/canDAI-farwest.png)
 
 We are in the far west, during the great gold rush. Banks want to buy gold to be able to lend money to people and get interests on these loans, and miners want to get rich by selling their gold to banks.
 
@@ -37,7 +37,7 @@ This is what is called leverage. Now imagine that you can find a bank that lets 
 
 [AAVE](https://app.aave.com) is a lending and borrowing platform where you can deposit your assets. By lending on AAVE, your deposited tokens will earn yield. For our strategy, we'll be lending DAI, a stable coin (pegged to the US dollar). On AAVE, $100 worth of DAI will potentially generate between 4% and 10% rate of return over the span of 1 year.
 
-![AAVE markets on Polygon as of October 2021](../.gitbook/assets/canDAI-aave.png)
+![AAVE markets on Polygon as of October 2021](../../.gitbook/assets/canDAI-aave.png)
 
 When you deposit your assets on AAVE, you will receive a proof of deposit. In our example, since we are depositing DAI, we will get amDAI tokens in our wallet (**a**ave **m**arket DAI). You absolutely need to keep this receipt because you will need it to remove your DAI from AAVE. This is the bank that will accept your gold in our far west comparison.
 
@@ -47,7 +47,7 @@ When you deposit your assets on AAVE, you will receive a proof of deposit. In ou
 
 Mai finance will accept the amDAI on its [yield instrument](https://app.mai.finance/yield). The yield instrument is just an intermediate tool between AAVE and the vault on Mai Finance. As you can see in the AAVE screenshot, lending DAI will make you earn 8.75% in DAI (that is compounded), but also 2.01% reward in MATIC. The yield instrument on Mai Finance will harvest this MATIC reward and swap it for more DAI that will be added to your DAI deposit. The APY (**A**nnual **P**ercentage **Y**ield) on the Mai Finance site is hence showing the aggregated interests from AAVE.
 
-![Yield instrument on Mai Finance](../.gitbook/assets/camDAI-yield.png)
+![Yield instrument on Mai Finance](../../.gitbook/assets/camDAI-yield.png)
 
 Once you deposited your amDAI on the yield instrument, you will get some camDAI in your wallet (**c**ompounding amDAI). This is a receipt that indicates your share of the amDAI pool in the yield instrument. As a side note, because camDAI is a representation of your share of the amDAI pool, the ratio between amDAI and camDAI isn't 1:1. See [this article](leverage-aave-tokens.md#amtokens-vs-camtoken) for more details.
 
@@ -57,7 +57,7 @@ You can now [deposit your camDAI](https://app.mai.finance/vaults) tokens in a va
 
 [Zapper](https://zapper.fi/dashboard) is a Swiss army knife of DeFi on Polygon. This platform will let you farm yields in liquidity pools, lend your assets on AAVE directly from their platform, presents a dashboard of your different investments, and will let you swap some currencies for other currencies. This is the last feature that we will be using in order to exchange the MAI stable coin we just borrowed for more DAI.
 
-![Swapping MAI for DAI](../.gitbook/assets/camDAI-zapper.png)
+![Swapping MAI for DAI](../../.gitbook/assets/camDAI-zapper.png)
 
 In our far west example, Zapper is the gold miner that will accept your cash and will sell you gold.
 
@@ -73,13 +73,13 @@ For our guide, we will use Balancer to expose our investments to a little more v
 
 Even if we explained what AAVE is, our strategy will use a feature from Mai Finance to automate the DAI deposit on AAVE, the amDAI deposit in the yield instrument and the camDAI deposit in the camDAI vault.
 
-![](../.gitbook/assets/camDAI-zapDAI.png)![](../.gitbook/assets/camDAI-zapdeposit.png)
+![](../../.gitbook/assets/camDAI-zapDAI.png) ![](../../.gitbook/assets/camDAI-zapdeposit.png)
 
 The `Zap in using DAI` button opens a popup that lets you deposit your DAI in the vault and operates the AAVE deposit under the hood. This is saving a lot of time, and some gas.
 
 This will be our first step. Assuming we have $100 worth of DAI, we will deposit them on Mai Finance in a camDAI vault. This will allow us to borrow MAI against this initial deposit.
 
-The minimal CDR (**C**ollateral to **D**ebt **R**atio) for camDAI is 110%. This means that the ratio between your collateral (the $100 worth of DAI) and the loan we're about to get needs to remain above 110%.&#x20;
+The minimal CDR (**C**ollateral to **D**ebt **R**atio) for camDAI is 110%. This means that the ratio between your collateral (the $100 worth of DAI) and the loan we're about to get needs to remain above 110%.
 
 {% hint style="danger" %}
 If this CRD ratio reaches the minimal value of 110%, it means that your collateral is losing value and your debt may become bigger than the value of your collateral. At this point, your vault can be liquidated: someone can repay a part of your debt and get a part of your collateral as a compensation. However, since both DAI and MAI are stable coins pegged to the US dollar, the risk of getting a big difference between the 2 assets is very low, which makes this strategy fairly safe.
@@ -129,13 +129,13 @@ $$
 Interests = Collateral_{value}*APY=695.423*10.42\%= \$72.463
 $$
 
-&#x20;If we consider that the initial investment was only $100, that's an equivalent APY of 72.463% on single staking a stable coin!
+If we consider that the initial investment was only $100, that's an equivalent APY of 72.463% on single staking a stable coin!
 
 ### Alternative strategy
 
 In order to get a little exposure to high volatility assets, you can use the same loop as above but only leverage 90% of the borrowed MAI, and use the 10% to buy something else. In this example, we will use the 10% to buy Qi (the native token of Mai Finance) and use the Qi-BAL pool on Balancer that currently has an APR (**A**nnual **P**ercentage **R**evenue) of 107.12%.
 
-![Qi-BAL pool state as of October 2021](../.gitbook/assets/camDAI-balancer.png)
+![Qi-BAL pool state as of October 2021](../../.gitbook/assets/camDAI-balancer.png)
 
 Since we're re-injecting less DAI in the camDAI vault, we will also operate less loops. The setup will look like this:
 
