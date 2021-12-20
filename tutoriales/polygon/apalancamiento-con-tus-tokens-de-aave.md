@@ -7,21 +7,21 @@ description: >-
 
 # Apalancamiento con tus tokens de AAVE
 
-## Cuando una imagen vale más que mil palabras <a href="when-a-picture-is-worth-a-thousand-words" id="when-a-picture-is-worth-a-thousand-words"></a>
+## Cuando una imagen vale más que mil palabras <a href="#when-a-picture-is-worth-a-thousand-words" id="when-a-picture-is-worth-a-thousand-words"></a>
 
-![](<../.gitbook/assets/ES_Incrementa las ganancias de tus tokens de AAVE.png>)
+![](<../../.gitbook/assets/ES\_Incrementa las ganancias de tus tokens de AAVE.png>)
 
-## Pero mil palabras tampoco están de más <a href="but-a-thousand-words-are-also-not-that-bad" id="but-a-thousand-words-are-also-not-that-bad"></a>
+## Pero mil palabras tampoco están de más <a href="#but-a-thousand-words-are-also-not-that-bad" id="but-a-thousand-words-are-also-not-that-bad"></a>
 
 La imagen superior demuestra cómo puedes utilizar Mai Finance para incrementar el poder adquisitivo de tus inversiones en criptomonedas.
 
 Supongamos que realmente te gusta MATIC y que piensas que actualmente está infravalorado. Crees que tiene el potencial de llegar a $2, $5 o incluso $10 por token (y es posible que tengas toda la razón). Sin embargo, como pequeño inversor, solo tienes tokens de MATIC por valor de $100 en tu billetera de Polygon. A través de este tutorial, te mostraremos cómo puedes generar más MATIC a partir de tus tokens actuales, porque hacer hodling es bueno, pero poner tu inversión a trabajar es incluso mejor.
 
-### Usa Aave para incrementar tu capital <a href="use-aave-to-increase-your-capital" id="use-aave-to-increase-your-capital"></a>
+### Usa Aave para incrementar tu capital <a href="#use-aave-to-increase-your-capital" id="use-aave-to-increase-your-capital"></a>
 
 [Aave](https://app.aave.com) es una plataforma de finanzas descentralizadas (DeFi) centrada en la realización de préstamos en la que puedes depositar tus tokens de MATIC (entre otros tokens). Al prestar en Aave, tus tokens depositados obtendrán rendimiento. Como ejemplo, tus $100 de MATIC generarán potencialmente una tasa de retorno del 1.2% sobre el lapso de 1 año (APY). Ocasionalmente, Aave también tendrá programas específicos que proveen de recompensas adicionales además del APY base como prestamista.
 
-Como tus tokens de MATIC están en la reserva de liquidez (_liquidity pool, _de ahora en adelante _pool_) de Aave, el interés generado es automáticamente compuesto, lo cual significa que la cantidad de MATIC que posees crecerá con el tiempo.
+Como tus tokens de MATIC están en la reserva de liquidez (_liquidity pool,_ de ahora en adelante _pool_) de Aave, el interés generado es automáticamente compuesto, lo cual significa que la cantidad de MATIC que posees crecerá con el tiempo.
 
 ![En este ejemplo, he prestado 0.2 MATIC](https://gblobscdn.gitbook.com/assets%2F-MgS6h4h2L6e5O5bUNqY%2F-MgSHZVZShC6NJG1kSqK%2F-MgSMwJEjHWnViqmsNGZ%2FScreen%20Shot%202021-08-06%20at%205.29.53%20PM.png?alt=media\&token=1457b0db-9eb6-478b-9575-29de6db6e68a)
 
@@ -29,7 +29,7 @@ Al prestar tus tokens de MATIC en Aave, recibes una cantidad equivalente de amWM
 
 ![Puedo ver los 0.20 MATIC que he prestado en DeBank.com](https://gblobscdn.gitbook.com/assets%2F-MgS6h4h2L6e5O5bUNqY%2F-MgSHZVZShC6NJG1kSqK%2F-MgSN9oJU-H73dMLG1dw%2FScreen%20Shot%202021-08-06%20at%205.31.01%20PM.png?alt=media\&token=25f7154e-682d-48f1-b11a-b8316a28b691)
 
-### Utiliza Mai Finance para aumentar tus tokens de Aave <a href="use-mai-finance-to-compound-your-aave-tokens" id="use-mai-finance-to-compound-your-aave-tokens"></a>
+### Utiliza Mai Finance para aumentar tus tokens de Aave <a href="#use-mai-finance-to-compound-your-aave-tokens" id="use-mai-finance-to-compound-your-aave-tokens"></a>
 
 Puedes depositar tus tokens amWMATIC en Mai Finance en el apartado de "[Yield](https://app.mai.finance/yield)" del sitio web. Al depositar tu amWMATIC en Mai Finance, tus fondos serán "transferidos" de Aave a Mai Finance. Verás que el rendimiento generado por Mai Finance es el mismo que el rendimiento que recibirías en Aave.
 
@@ -43,13 +43,13 @@ Cuando el amWMATIC es depositado en Mai Finance, se recibe camWMATIC a cambio. L
 El simple hecho de depositar tu amWMATIC (o cualquier amToken) en Mai Finance te permitirá generar más ingresos que si únicamente prestaras tu dinero en Aave. De hecho, la consecuencia de que tu interés base y tu recompensa adicional se compongan automáticamente significa que no tienes que reclamar manualmente tu recompensa, convertirla en el token de tu elección y depositarla nuevamente.
 {% endhint %}
 
-### amTokens VS camToken <a href="amtokens-vs-camtoken" id="amtokens-vs-camtoken"></a>
+### amTokens VS camToken <a href="#amtokens-vs-camtoken" id="amtokens-vs-camtoken"></a>
 
 Mucha gente tiene dificultades para entender la diferencia entre amTokens y camTokens. El amToken es una representación de tus fondos depositados en AAVE. Su monto está vinculado al monto que depositó en AAVE. Sin embargo, un camToken representa una parte del pool de amToken en Mai Finance.
 
 Supongamos que cuando se creó el pool de amToken en Mai Finance, había 1.000 amTokens y tu depositaste 100 de ellos. Debido a que el pool se acaba de crear, la proporción entre amTokens y camTokens es 1: 1, y tú posees el 10% del pool. Después de un año, asumiendo que nadie agregó más amTokens ni retiró nada, el pool generó un interés del 4.93%, y ahora hay 1049.3 amTokens en el pool. Sin embargo, solo posees el 10% del pool, representado por tus 100 camTokens. La proporción ahora es 1: 1.0493, lo que significa que 1 camToken ahora vale 1.0493 amToken.
 
-### Pide prestado la moneda estable MAI <a href="borrow-mai-stable-coin" id="borrow-mai-stable-coin"></a>
+### Pide prestado la moneda estable MAI <a href="#borrow-mai-stable-coin" id="borrow-mai-stable-coin"></a>
 
 Mai Finance te permite tomar prestada la moneda estable MAI cuando depositas un colateral como garantía. Actualmente, Mai Finance acepta una amplia gama de colaterales, incluido el camWMATIC de nuestro ejemplo anterior. En Mai Finance, tus colaterales de cam-token continuarán generando rendimiento mientras están depositados como colateral, lo que significa que la cantidad de tu activo subyacente continuará aumentando con el tiempo.
 
@@ -73,7 +73,7 @@ Deberías visitar la página de tu bóveda de vez en cuando para verificar que s
 
 Pedí prestados $0.10 de MAI, lo que se traduce en un 214.56% de CDR. Ahora vamos a divertirnos un poco con mi dinero.
 
-### Compra más MATIC <a href="buy-more-matic" id="buy-more-matic"></a>
+### Compra más MATIC <a href="#buy-more-matic" id="buy-more-matic"></a>
 
 Ahora puedo ir con seguridad a mi DEX favorito (QuickSwap o SushiSwap son buenos ejemplos) e intercambiar mi MAI por más MATIC.
 
@@ -81,19 +81,19 @@ Ahora puedo ir con seguridad a mi DEX favorito (QuickSwap o SushiSwap son buenos
 
 Después del intercambio tengo más MATIC en mi monedero.
 
-### Repite el bucle <a href="repeat-the-loop" id="repeat-the-loop"></a>
+### Repite el bucle <a href="#repeat-the-loop" id="repeat-the-loop"></a>
 
 Inicialmente tenía 0.20 MATIC en mi billetera. Este MATIC ahora está depositado en Mai Finance, generando un interés anual del 4.93%, y tengo un MATIC adicional de 0.09 a mi disposición del MAI que pedí prestado. Este 0.09 MATIC adicional se puede depositar en Aave, al igual que mi MATIC inicial, y comenzamos el mismo proceso nuevamente.
 
-### Cuándo deberías salirte del bucle. <a href="when-should-you-exit-the-loop" id="when-should-you-exit-the-loop"></a>
+### Cuándo deberías salirte del bucle. <a href="#when-should-you-exit-the-loop" id="when-should-you-exit-the-loop"></a>
 
 En cuanto al número de pasos, el mejor enfoque es detenerte cuando deposites tu camWMATIC en la bóveda. Si lo haces así, aumentas la relación entre el colateral y la deuda, lo que reduce el riesgo de liquidación. Sin embargo, dependiendo de la última cantidad que deposites, esto puede ser insignificante. En cuanto al número de iteraciones, generalmente me detengo cuando estoy dentro del 1% de mi inversión inicial. Aquí, continuaría el bucle hasta depositar 0.002 camWMATIC. También puedo detenerme antes si el precio del gas pagado por las transacciones se vuelve más significativo que lo que puedo ganar si continúo el bucle.
 
-## Ejemplos con números <a href="examples-with-numbers" id="examples-with-numbers"></a>
+## Ejemplos con números <a href="#examples-with-numbers" id="examples-with-numbers"></a>
 
-Los siguientes ejemplos están basados en $1.000 de valor en MATIC, con diferentes ratios de Colateral a Deuda (CDR) para ilustrar cómo apalancarte para incrementar tus posiciones usando Mai Finance. 
+Los siguientes ejemplos están basados en $1.000 de valor en MATIC, con diferentes ratios de Colateral a Deuda (CDR) para ilustrar cómo apalancarte para incrementar tus posiciones usando Mai Finance.&#x20;
 
-### 200% de relación entre Colateral y Deuda <a href="200-collateral-to-debt-ratio" id="200-collateral-to-debt-ratio"></a>
+### 200% de relación entre Colateral y Deuda <a href="#200-collateral-to-debt-ratio" id="200-collateral-to-debt-ratio"></a>
 
 | Bucle | Inversión |  Deuda  | Ingresos estimados | APY equivalente |
 | :---: | :-------: | :-----: | :----------------: | :-------------: |
@@ -110,7 +110,7 @@ Agregar más deuda después de 7 bucles solo aumentaría mi inversión en menos 
 
 Como pues ver fácilmente, el uso de una combinación entre Aave y Mai Finance da como resultado casi el doble del APY inicial y una exposición de mercado significativamente mayor al token de tu elección, en comparación con simplemente hacer hodl o usar Aave de forma aislada.
 
-### 175% de relación entre Colateral y Deuda <a href="175-collateral-to-debt-ratio" id="175-collateral-to-debt-ratio"></a>
+### 175% de relación entre Colateral y Deuda <a href="#175-collateral-to-debt-ratio" id="175-collateral-to-debt-ratio"></a>
 
 | Bucle | Inversión |   Deuda   | Ingresos estimados | APY equivalente |
 | :---: | :-------: | :-------: | :----------------: | :-------------: |
@@ -125,11 +125,11 @@ Como pues ver fácilmente, el uso de una combinación entre Aave y Mai Finance d
 |   9   | $2,318.18 | $1,324.67 |       $114.29      |     11.429%     |
 |   10  | $2,324.67 |     -     |       $114.61      |     11.461%     |
 
-Agregar más deuda después del bucle 9 no aumentará mi inversión en más de $10, por lo que este es un lugar apropiado para detenerse. El CDR resultante de 9 bucles es de 175,49%. 
+Agregar más deuda después del bucle 9 no aumentará mi inversión en más de $10, por lo que este es un lugar apropiado para detenerse. El CDR resultante de 9 bucles es de 175,49%.&#x20;
 
 Podemos ver fácilmente que con un enfoque más agresivo, el APY final también es más atractivo. Esto suele ser cierto con cualquier estrategia de DeFi: cuanto mayor es el riesgo, mayor es la recompensa potencial.
 
-### Más números <a href="more-numbers" id="more-numbers"></a>
+### Más números <a href="#more-numbers" id="more-numbers"></a>
 
 Si se te dan bien las matemáticas, puedes calcular tu inversión final en función de la inversión inicial y la relación entre el colateral y la deuda que deseas obtener. La fórmula es la siguiente:
 
@@ -165,9 +165,9 @@ $$
 
 Una vez más, con nuestro CDR objetivo del 200%, un APY inicial de 4.93% y 7 bucles, podemos calcular el mismo APY final que el mostrado en las tablas superiores.
 
-## Descargo de responsabilidad <a href="disclaimer" id="disclaimer"></a>
+## Descargo de responsabilidad <a href="#disclaimer" id="disclaimer"></a>
 
-Todo el contenido de esta estrategia asume los siguientes supuestos: 
+Todo el contenido de esta estrategia asume los siguientes supuestos:&#x20;
 
 * El APY de Aave es estable y permanece igual durante el lapso de 1 año (el APY tendrá alguna variación)
 * El APR de Polygon otorgado en Aave es estable y permanece igual durante el lapso de 1 año (lo cual es poco probable)

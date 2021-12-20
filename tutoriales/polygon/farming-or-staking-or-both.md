@@ -7,7 +7,7 @@ description: >-
 
 # ¿Farmear o hacer staking? ¿O Ambas?
 
-![](<../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
 
 ## Introducción
 
@@ -17,7 +17,7 @@ Para realizar esto, utilizaremos las nuevas LPs (Proveedor de Liquidez) lanzadas
 
 ## Aplicación y presentación de los nuevos pares
 
-### Farming 
+### Farming&#x20;
 
 Para poder maximizar nuestras ganancias, usaremos 3 aplicaciones diferentes:
 
@@ -37,7 +37,7 @@ Puedes observar que cada aplicación esta generando tokens que pueden ser utiliz
 
 Cabe destacar que los tokens generados en Mai Finance y Quickswap pueden ser usados en:
 
-* Qi en Mai Finance **Y **en QuickSwap pueden ser usados en **QIP** (Propuestas de mejora de QiDao). Puedes ver las QIPs actuales y anteriores [aquí](https://snapshot.org/#/qidao.eth).
+* Qi en Mai Finance **Y** en QuickSwap pueden ser usados en **QIP** (Propuestas de mejora de QiDao). Puedes ver las QIPs actuales y anteriores [aquí](https://snapshot.org/#/qidao.eth).
 * Qi en Mai Finance puede ser bloqueado. Si bloqueas tus Qi empezarás a recibir los dividendos del protocolo que son pagados en Qi cada Miércoles. Más detalles acerca del staking de Qi próximamente.
 * QUICK en QuickSwap puede ser stakeado para generar tokens QUICK en "_Dragon's Lair_".
 * QUICK bloqueado (dQUICK) puede ser utilizado en QuickSwap para generar otros tokens en "_Dragon's Syrup_", los que se utilizarán en este caso generan tokens ADDY .
@@ -46,14 +46,14 @@ Cabe destacar que los tokens generados en Mai Finance y Quickswap pueden ser usa
 
 ## Realizando Bootstrapping
 
-![](<../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
 
 A continuación, se va a realizar una simulación con una inversión inicial de $1,000 en los pares de liquidez (LPs) Qi/MATIC y Qi/WETH , teniendo en cuenta que los APRs / APYs utilizados son los que habían el **9 de Septiembre de 2021**. Cabe destacar que los porcentajes variarán, el precio de los tokens no será constante o que algunos programas pueden dejar de estar operativos. Por lo que los resultados son sólo una estimación de lo que podrías obtener si todo se mantuviera tal y cómo estaba el **9 de Septiembre de 2021,** cosa que nunca se producirá, así que este ejemplo se debe tomar como un recurso educativo.
 
 ### Día 1
 
 {% hint style="info" %}
-**ATENCIÓN: **Los porcentajes de los pares de liquidez utilizados a continuación son aquellos que estuvieron disponibles unas horas más tarde de la primera implementación de éstos, por lo que los APRs y APYs no van a ser los mismos a la hora de la lectura, donde además se realizarán revisiones continuas. Por favor, **DYOR **y utiliza esta guía con precaución.
+**ATENCIÓN:** Los porcentajes de los pares de liquidez utilizados a continuación son aquellos que estuvieron disponibles unas horas más tarde de la primera implementación de éstos, por lo que los APRs y APYs no van a ser los mismos a la hora de la lectura, donde además se realizarán revisiones continuas. Por favor, **DYOR** y utiliza esta guía con precaución.
 {% endhint %}
 
 Ya que tenemos $500 del par de liquidez Qi/MATIC y $500 del par de liquidez Qi/WETH,  los depositaremos en Mai Finance y Quickswap respectivamente. Por otro lado, si prefieres acumular Qi o Quick, puedes aumentar los tokens del par de liquidez que prefieras, ya que así se te generarán más de tus tokens favoritos, por lo que así tendrás más para poder realizar staking de éste. En este ejemplo, se utilizará una división del 50% del capital inicial.
@@ -63,7 +63,7 @@ Ya que tenemos $500 del par de liquidez Qi/MATIC y $500 del par de liquidez Qi/W
 
 Además utilizaremos los siguientes APRs para el resto de la simulación:
 
-* APR de dQUICK del "_Dragon's Lair _" es el 17.28%.
+* APR de dQUICK del "_Dragon's Lair_ " es el 17.28%.
 * APR de ADYY del "_Dragon's Syrup_" es el 17.08%.
 * APR de Qi/QUICK en Adamant para los pares autocompuestos es del 133%.
 * APR de Qi/QUICK en Adamant para los tokens es del 131%.
@@ -83,7 +83,7 @@ Por lo que al final del Día 1 tendremos en nuestro portafolio lo siguiente:
 
 ### Día 2
 
-En el 2º día, el dQUICK depositado en el "_Dragon's Syrup_" de QuickSwap comienza a generar tokens ADDY, así cómo el par Qi/QUICK en Adamant. Al final del día 2 se obtendrá lo siguiente: 
+En el 2º día, el dQUICK depositado en el "_Dragon's Syrup_" de QuickSwap comienza a generar tokens ADDY, así cómo el par Qi/QUICK en Adamant. Al final del día 2 se obtendrá lo siguiente:&#x20;
 
 | Tipo de Recompensa  | Valor en Dólares |
 | ------------------- | ---------------- |
@@ -97,7 +97,7 @@ Es importante no olvidar que hay que reclamar las recomensas diarias de Adamant,
 
 ### Día 3
 
-En el Día 3, los tokens ADDY reclamados en Adamant comenzarán a generar diviendos en forma de WMATIC. Al final del día 3 se obtendrá lo siguiente: 
+En el Día 3, los tokens ADDY reclamados en Adamant comenzarán a generar diviendos en forma de WMATIC. Al final del día 3 se obtendrá lo siguiente:&#x20;
 
 | Tipo de Recompensa  | Valor en Dólares |
 | ------------------- | ---------------- |
@@ -135,7 +135,7 @@ La rutina diaria de esta estrategia está formada por las siguientes transaccion
 * Recoger el token Quick en QuickSwap.
 * Crear el par Qi/QUICK en QuickSwap.
 * Depositar el QUICK restante en "_Dragon's Lair"_.
-* Depositar dQUICK en_ "Dragon's Syrup"_.
+* Depositar dQUICK en _"Dragon's Syrup"_.
 * Recoger el token ADDY de _"Dragon's Syrup"._
 * Recoger el token ADDY de Adamant.
 * Depositar el nuevo par Qi/QUICK en Adamant.

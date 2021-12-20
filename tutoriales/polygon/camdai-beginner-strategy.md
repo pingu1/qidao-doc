@@ -15,7 +15,7 @@ En esta guía, trataremos de presentar una estrategia de inversión basada en la
 
 ## Entendiendo el apalancamiento
 
-![Historia de un Qinero](../.gitbook/assets/canDAI-farwest.png)
+![Historia de un Qinero](../../.gitbook/assets/canDAI-farwest.png)
 
 Estas en el lejano oeste, durante la gran fiebre del oro. Los bancos quieren comprar oro para poder prestar dinero a la gente y obtener intereses por estos préstamos, y los mineros quieren hacerse ricos vendiendo su oro a los bancos.&#x20;
 
@@ -37,9 +37,9 @@ Esto es lo que se conoce como apalancamiento. Ahora imagina que puedes encontrar
 
 [AAVE](https://app.aave.com) es una plataforma de préstamos y depósitos en la que puedes depositar tus crypto activos. Al prestar en AAVE, tus tokens depositados obtendrán un interés. Para nuestra estrategia, prestaremos DAI, una moneda estable (vinculada al dólar estadounidense). En AAVE, 100 dólares de DAI generarán potencialmente entre un 4% y un 10% de rentabilidad en el plazo de un año.
 
-![Mercados de AAVE en Polygon a fecha de Octubre 2021](../.gitbook/assets/canDAI-aave.png)
+![Mercados de AAVE en Polygon a fecha de Octubre 2021](../../.gitbook/assets/canDAI-aave.png)
 
-Cuando depositas tus activos en AAVE, recibirás un recibo de depósito. En nuestro ejemplo, como estamos depositando DAI, obtendremos tokens **amDAI **en nuestra cartera (aave market DAI). Es absolutamente necesario que guardes este comprobante porque lo necesitarás para retirar tus DAI de AAVE. Este es el equivalente al banco que aceptará su oro en nuestra comparación del lejano oeste.
+Cuando depositas tus activos en AAVE, recibirás un recibo de depósito. En nuestro ejemplo, como estamos depositando DAI, obtendremos tokens **amDAI** en nuestra cartera (aave market DAI). Es absolutamente necesario que guardes este comprobante porque lo necesitarás para retirar tus DAI de AAVE. Este es el equivalente al banco que aceptará su oro en nuestra comparación del lejano oeste.
 
 ### Mai Finance
 
@@ -47,7 +47,7 @@ Cuando depositas tus activos en AAVE, recibirás un recibo de depósito. En nues
 
 Mai finance aceptará tu amDAI en su herramienta de [Yield](https://app.mai.finance/yield). La funcionalidad de Yield es sólo una herramienta intermediaria entre AAVE y Mai Finance. Como puedes ver en la captura de pantalla de AAVE, prestar DAI te hará ganar un 8,75% en DAI (que se compone), pero también un 2,01% de recompensa en MATIC. El instrumento de rendimiento de Mai Finance recogerá esta recompensa en MATIC y la cambiará por más DAI que se añadirá a su depósito de DAI. El **APY** (Porcentaje Anual de Rendimiento) en el sitio de Mai Finance muestra, por tanto, los intereses agregados de AAVE.
 
-![Yield en Mai Finance](../.gitbook/assets/camDAI-yield.png)
+![Yield en Mai Finance](../../.gitbook/assets/camDAI-yield.png)
 
 Una vez haya depositado su amDAI en Yield, obtendrá algo de camDAI en su cartera (amDAI compuesto). Se trata de un recibo que indica tu parte del fondo de amDAI en Yield. Como nota adicional, debido a que el camDAI es una representación de tu parte del pool de amDAI, la relación entre el amDAI y el camDAI no es 1:1. Vea este [articulo ](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/espanol/tutoriales-de-polygon/apalancamiento-con-tus-tokens-de-aave)para obtener más detalles.
 
@@ -57,7 +57,7 @@ Ahora puedes [depositar tus tokens camDAI](https://app.mai.finance/vaults) en un
 
 [Zapper](https://zapper.fi/dashboard) es como una navaja suiza de DeFi en Polygon. Esta plataforma te permitirá hacer farming de rendimientos en pools de liquidez, prestar tus activos en AAVE directamente desde su plataforma, presenta una interfaz con tus diferentes inversiones, y te permitirá intercambiar algunas monedas por otras. Esta es la última función que utilizaremos para intercambiar la moneda estable MAI que acabamos de tomar prestada por más DAI.
 
-![Intercambiando MAI por DAI](../.gitbook/assets/camDAI-zapper.png)
+![Intercambiando MAI por DAI](../../.gitbook/assets/camDAI-zapper.png)
 
 En nuestro ejemplo del lejano oeste, Zapper es el minero de oro que aceptará tu dinero y te venderá su oro.
 
@@ -73,7 +73,7 @@ Para nuestra guía, utilizaremos Balancer para exponer nuestras inversiones a un
 
 Aunque hayamos explicado qué es AAVE, nuestra estrategia utilizará una función de Mai Finance para automatizar el depósito del DAI en el AAVE, el depósito del amDAI en Yield y el depósito del camDAI en la bóveda de camDAI.
 
-![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
+![](../../.gitbook/assets/camDAI-zapDAI.png) ![](../../.gitbook/assets/camDAI-zapdeposit.png)
 
 El botón `Zap in using DAI` abre una ventana emergente que le permite depositar su DAI en la bóveda y realiza el depósito de AAVE automáticamente. Esto ahorra mucho tiempo, y algo de gas.
 
@@ -135,7 +135,7 @@ Si tenemos en cuenta que la inversión inicial fue de sólo 100 dólares, ¡se t
 
 Con el fin de obtener un poco de exposición a activos de alta volatilidad, puede utilizar el mismo bucle que el anterior, pero sólo apalancar el 90% del MAI prestado, y utilizar el 10% para comprar otro activo. En este ejemplo, utilizaremos el 10% para comprar Qi (el token nativo de Mai Finance) y utilizaremos el pool Qi-BAL en Balancer que actualmente tiene una APR(Porcentaje Anual Equivalente) del 107,12%.
 
-![Qi-BAL pool state as of October 2021](../.gitbook/assets/camDAI-balancer.png)
+![Qi-BAL pool state as of October 2021](../../.gitbook/assets/camDAI-balancer.png)
 
 Dado que estamos reinyectando menos DAI en la bóveda de camDAI, también realizaremos menos bucles. La configuración será la siguiente:
 

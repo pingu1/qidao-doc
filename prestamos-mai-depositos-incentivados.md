@@ -47,7 +47,7 @@ Cabe destacar, en la imagen superior se puede observar una información importan
 
 * **MAI disponible**: corresponde al techo máximo de deuda, el número máximo de MAI que puede ser creado en el deposito de las bóvedas.
 * **Min Coll. ratio**: El Ratio de Colateral a Deuda(CDR) mínimo para esa bóveda.
-* **Vault incentives APR **(esto será tratado más tarde en el artículo).
+* **Vault incentives APR** (esto será tratado más tarde en el artículo).
 
 ### Entendiendo el techo de deuda
 
@@ -55,7 +55,7 @@ El número máximo de MAI que uno puede crear en una bóveda depende de la canti
 
 Por ejemplo, si una gran institución financiera depositara 5,000 WBTC de una sola vez y pidiera prestado $100,000,000 de MAI, intercambiando ese MAI por más WBTC, esto podría afectar al precio de MAI haciendo que peligre la estabilidad del precio de $1 de MAI, poniendo en riesgo a toda la plataforma. El techo de deuda es el mecanismo que previene que esto ocurra: hay una cantidad máxima de MAI que puede ser creado en cada tipo de bóveda-
 
-Cuando el techo de deuda es alcanzado (ya no se puede crear mas MAI), el tiempo en el cual ha ocurrido esto es guardado, y el sistema incrementará automáticamente el techo de deuda pasadas unas 48 horas. Esto es tiempo suficiente para que el precio de MAI se estabilice (en caso de que haya una gran presión de venta siguiendo una gran venta de MAI). 
+Cuando el techo de deuda es alcanzado (ya no se puede crear mas MAI), el tiempo en el cual ha ocurrido esto es guardado, y el sistema incrementará automáticamente el techo de deuda pasadas unas 48 horas. Esto es tiempo suficiente para que el precio de MAI se estabilice (en caso de que haya una gran presión de venta siguiendo una gran venta de MAI).&#x20;
 
 Esto significa que en 48 horas, nadie podrá pedir prestado mas MAI en una bóveda que ha alcanzado el techo de deuda, a no ser de que se pague una deuda en ese tiempo.
 
@@ -72,9 +72,9 @@ Cuando pides prestado MAI,  puede ocurrir que la cantidad de MAI que puedes pedi
 
 ### Entendiendo el Ratio de Colateral a Deuda
 
-El **CDR**, o **R**atio** **de** C**olatera**l **a **D**euda** **es el ratio entre el valor que has depositado en Mai Finance y la cantidad de MAI que has pedido prestado.
+El **CDR**, o **R**atio **** de **C**olatera**l** a **D**euda **** es el ratio entre el valor que has depositado en Mai Finance y la cantidad de MAI que has pedido prestado.
 
-Por ejemplo, si has depositado $200 de WETH para pedir prestado $100 de MAI, tu **CDR **sería de:
+Por ejemplo, si has depositado $200 de WETH para pedir prestado $100 de MAI, tu **CDR** sería de:
 
 $$
 CDR=\frac{ValorColateral}{ValorDeuda}=\frac{200}{100}=200\%
@@ -88,12 +88,12 @@ Cuando pides prestado MAI en contra de un colateral depositado, podrás obtener 
 
 ![Variación de la "salud" del préstamo dependiendo de la cantidad prestada](<.gitbook/assets/image (2).png>)
 
-Es muy importante echarle un ojo a tu **CDR **y mantener un ratio saludable para:
+Es muy importante echarle un ojo a tu **CDR** y mantener un ratio saludable para:
 
 * Evitar ser liquidado
 * Incrementar la "salud" de toda la plataforma de Mai Finance al asegurarte de que la cantidad de MAI circulante tiene colateral que lo respalde.
 
-Un CDR "sano", definido por el equipo de Mai Finance , es entre el 25% y el 270% sobre el valor mínimo del CDR. Además, puedes ver nuestras guías sobre estrategias sobre como puedes usar CDRs agresivos/conservadores para [invertir](tutoriales-de-polygon/apalancamiento-con-tus-tokens-de-aave.md#examples-with-numbers) en otros proyectos, o [pagar tu deuda](debt-repayment-how.md) usando tu deuda.
+Un CDR "sano", definido por el equipo de Mai Finance , es entre el 25% y el 270% sobre el valor mínimo del CDR. Además, puedes ver nuestras guías sobre estrategias sobre como puedes usar CDRs agresivos/conservadores para [invertir](tutoriales/polygon/apalancamiento-con-tus-tokens-de-aave.md#examples-with-numbers) en otros proyectos, o [pagar tu deuda](debt-repayment-how.md) usando tu deuda.
 
 ## Préstamos incentivados
 
@@ -165,7 +165,7 @@ Usando los mismos datos que en el ejemplo anterior, podemos calcular el APR inic
 {% hint style="info" %}
 Como puedes ver, algunas bóvedas generarán mas recompensas que otras. Además, puedes observar que es muy importante depositar tus activos lo antes posible para así poder beneficiarte de estos jugosos APRs antes de que el techo de deuda se incremente, bajando consecuentemente el APR.
 
-Además si decidieras mantener tu préstamo por más de un año, la cuota del 0.5% será compensada totalmente por el programa de recompensas. 
+Además si decidieras mantener tu préstamo por más de un año, la cuota del 0.5% será compensada totalmente por el programa de recompensas.&#x20;
 {% endhint %}
 
 ### Distribución de los incentivos
@@ -174,33 +174,33 @@ Las recompensas de los prestamos incentivados serán distribuidas de la misma fo
 
 ## FAQs de los préstamos incentivados
 
-*  **¿Cuáles son las bóvedas que recibirán recompensas?**
+* &#x20;**¿Cuáles son las bóvedas que recibirán recompensas?**
 
 A día de hoy, todos los tipos de bóvedas recibirán recompensas en forma de Qi
 
-*  **¿Cuántas recompensas serán entregadas a los prestamos incentivados?**
+* &#x20;**¿Cuántas recompensas serán entregadas a los prestamos incentivados?**
 
 0.05 Qi/ bloque para todas las bóvedas
 
 * **¿Cuánto MAI tengo que pedir prestado para poder recibir las recompensas?**
 
- Para los prestamos incentivados, deberás mantenerte por encima del 25% hasta 270% del ratio de liquidación para poder recibir el airdrop de QI token. Esto significa:
+&#x20;Para los prestamos incentivados, deberás mantenerte por encima del 25% hasta 270% del ratio de liquidación para poder recibir el airdrop de QI token. Esto significa:
 
-*  _Matic_ - Ratio de liquidación 150% - Para poder recibir recompensas deberás estar entre 175% y 420% 
-* _Tokens_: - Ratio de liquidación 130% - Para poder recibir recompensas deberás estar entre 155% y 400% 
+* &#x20;_Matic_ - Ratio de liquidación 150% - Para poder recibir recompensas deberás estar entre 175% y 420%&#x20;
+* _Tokens_: - Ratio de liquidación 130% - Para poder recibir recompensas deberás estar entre 155% y 400%&#x20;
 * _CamTokens_: - Ratio de liquidación  135% - Para poder recibir recompensas deberás estar entre 160% y 405%
 
 
 
-*  **¿Cómo puedo comprobar si mi bóveda recibirá las recompensas?**
+* &#x20;**¿Cómo puedo comprobar si mi bóveda recibirá las recompensas?**
 
 Si ves el emoticono del fuego en el overview de tu bóveda, ésta estará generando recompensas
 
-*  **¿Cuántas recompensas recibiré?**
+* &#x20;**¿Cuántas recompensas recibiré?**
 
-Tus recompensas finales están basadas en la cantidad de MAI que hayas pedido prestada en comparación con la cantidad total de MAI que se haya pedido prestada en cada tipo de bóveda 
+Tus recompensas finales están basadas en la cantidad de MAI que hayas pedido prestada en comparación con la cantidad total de MAI que se haya pedido prestada en cada tipo de bóveda&#x20;
 
-*  **¿Cuánto tiempo duraran los prestamos incentivados?**
+* &#x20;**¿Cuánto tiempo duraran los prestamos incentivados?**
 
 La duración del programa de incentivos es de 3 meses, sin embargo, la DAO puede proponer una votación o para terminar este programa de incentivos antes de tiempo o extender el programa
 
@@ -210,7 +210,7 @@ Qi será enviado a tu cartera automáticamente (airdrop)
 
 * **¿Cómo se comprueba en que bloques tendré recompensas?**
 
-Podrás recibir las recompensas dependiendo del bloque en el que hayas bloqueado, ya que recibirás recompensas acorde a los bloques en los que hayas participado. 
+Podrás recibir las recompensas dependiendo del bloque en el que hayas bloqueado, ya que recibirás recompensas acorde a los bloques en los que hayas participado.&#x20;
 
 * **¿Cuándo empiezan a calcularse las recompensas semanales?**
 

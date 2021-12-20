@@ -16,7 +16,7 @@ Mai Finance ha lanzado su plataforma de préstamos en Fantom con muchos tipos de
 
 [Yearn Finance](https://beta.yearn.finance/#/home) es un grupo de protocolos que se ejecutan en la Mainnet de Ethereum y otras blockchains que permiten a los usuarios optimizar sus ganancias en criptoactivos a través de servicios de préstamo y comercio. En Fantom, la funcionalidad que utilizaremos es la bóveda de Yearn Finance. Se trata de una herramienta que aceptará depósitos de un solo token y te hará generar rendimientos sobre este depósito. Como prueba del depósito, recibirás un yvToken. En nuestro caso, depositaremos DAI y obtendremos yvDAI a cambio.
 
-![Los vaults de Yearn en la red de Fantom ](../.gitbook/assets/ftm-leverage-yv1.png)
+![Los vaults de Yearn en la red de Fantom ](../../.gitbook/assets/ftm-leverage-yv1.png)
 
 {% hint style="info" %}
 El sitio web de finanzas de Yearn todavía está en modo beta en Fantom. El equipo todavía está trabajando en la plataforma y las APRs/APYs no se muestran. Si te diriges a la pestaña Iron Bank, que es el protocolo de préstamo/préstamo en la plataforma de yearn, verás que el préstamo de DAI está obteniendo \~8% APR. Por favor, invierta según su propio riesgo.
@@ -28,9 +28,9 @@ Una vez que hayas depositado tu DAI en yearn finance, deberías tener yvDAI en t
 
 &#x20;Mai Finance acepta muchos tokens de rendimiento diferentes como colateral, incluyendo yvDAI. Ahora puede depositar este token y pedir prestado MAI contra él.
 
-![Deposita tus yvToken en Mai Finance](../.gitbook/assets/ftm-leverage-yv2.png)
+![Deposita tus yvToken en Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
 
-La bóveda de yvDAI tiene un umbral de liquidación del 110%, esto significa que puedes pedir prestado MAI como mínimo cuando la relación entre tu valor de garantía y el valor de tu deuda sea del 110%. Tenga cuidado de que el 110% es en realidad el porcentaje en la que su bóveda será parcialmente liquidada, por lo que tienes que mantener el ratio siempre por encima de este umbral mínimo. Dado que el precio del DAI no varía mucho (menos de unos pocos céntimos hacia arriba o hacia abajo) es posible mantener un **CDR **(Coeficiente de Colateral a Deuda) "seguro" del 115%, pero siéntase libre de elegir un valor algo más alto.&#x20;
+La bóveda de yvDAI tiene un umbral de liquidación del 110%, esto significa que puedes pedir prestado MAI como mínimo cuando la relación entre tu valor de garantía y el valor de tu deuda sea del 110%. Tenga cuidado de que el 110% es en realidad el porcentaje en la que su bóveda será parcialmente liquidada, por lo que tienes que mantener el ratio siempre por encima de este umbral mínimo. Dado que el precio del DAI no varía mucho (menos de unos pocos céntimos hacia arriba o hacia abajo) es posible mantener un **CDR** (Coeficiente de Colateral a Deuda) "seguro" del 115%, pero siéntase libre de elegir un valor algo más alto.&#x20;
 
 Como siempre, para calcular el valor del préstamo que podemos obtener en función del valor de nuestra garantía y del CDR objetivo que queremos conseguir, utilizaremos la siguiente fórmula:
 
@@ -50,9 +50,9 @@ Ahora estás en una posición en la que tienes tus DAI en una bóveda de Yearn, 
 
 En Fantom, eI principal proveedor de liquidez de MAI es [BeethovenX](https://app.beets.fi/#/trade). Este es el lugar principal donde podrás cambiar tus tokens MAI por más DAI para poder hacer nuestra estrategia.
 
-![Intercambiando MAI por más DAI](../.gitbook/assets/ftm-leverage-yv3.png)
+![Intercambiando MAI por más DAI](../../.gitbook/assets/ftm-leverage-yv3.png)
 
-Este es el último paso de nuestro bucle. Ahora que tienes más DAI que puedes depositar en una bóveda de Yearn y repetir el bucle. Al hacerlo, aumenta la cantidad de activos que tienes en la bóveda de Yearn, lo que significa que generará más recompensas al prestar sus DAI en esa plataforma. El APR/APY sigue siendo el mismo, pero como tienes más activos, generas más rendimiento, y si lo comparas con tu inversión inicial, es tu APR el que aumenta. Si quiere obtener más ejemplos sobre el APR que puede conseguir utilizando los bucles yvDAI, puede leer nuestra [guía sobre camDAI](../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) en Polygon. Aunque sea otra red distinta, el funcionamiento es el mismo
+Este es el último paso de nuestro bucle. Ahora que tienes más DAI que puedes depositar en una bóveda de Yearn y repetir el bucle. Al hacerlo, aumenta la cantidad de activos que tienes en la bóveda de Yearn, lo que significa que generará más recompensas al prestar sus DAI en esa plataforma. El APR/APY sigue siendo el mismo, pero como tienes más activos, generas más rendimiento, y si lo comparas con tu inversión inicial, es tu APR el que aumenta. Si quiere obtener más ejemplos sobre el APR que puede conseguir utilizando los bucles yvDAI, puede leer nuestra [guía sobre camDAI](../../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) en Polygon. Aunque sea otra red distinta, el funcionamiento es el mismo
 
 {% hint style="success" %}
 BeethovenX es una fantástica oportunidad para generar rendimientos con sus MAI prestados. Simplemente deposite su MAI en el pool MAI-DAI-USDC ( APR de \~30% a partir de noviembre de 2021) si no quiere realizar bucles apalancados.
@@ -72,7 +72,7 @@ En nuestro ejemplo, usaremos depósitos simples de DAI en Beefy y usaremos [Scre
 
 Para depositar nuestro DAI, visitaremos la app Beefy Finance y seleccionaremos Scream como la plataforma en la que cultivaremos los rendimientos. También puedes añadir el filtro DAI para conseguir el depósito directo de DAI.
 
-![Depositando tus DAI en Beefy usando Scream](../.gitbook/assets/ftm-leverage-beefy1.png)
+![Depositando tus DAI en Beefy usando Scream](../../.gitbook/assets/ftm-leverage-beefy1.png)
 
 Como puedes ver, Beefy ya está dando un increíble APY en depósitos individuales de DAI. Una vez que tengas tu DAI depositado en Beefy, deberías tener una prueba de depósito en tu cartera bajo la forma de tokens mooScreamDAI. En cuanto al token yvDAI, el token mooScreamDAI es un depósito con rendimiento, lo que significa que tu activo se sigue utilizando en Scream y se compone en Beefy, obteniendo rendimientos. Además, podrás usar este token en Mai Finance para pedir prestado MAI contra ellos.
 
@@ -110,7 +110,7 @@ Un techo de deuda representa el número máximo de MAI que se pueden acuñar par
 
 En todo momento se puede verificar la cantidad de MAI que se puede acuñar en el [página de creación de bóved](https://app.mai.finance/vaults/create)a, además podrás comprobar de forma adicional que no hay más MAI para pedir cuando vea el siguiente mensaje:
 
-![Mensaje de error cuando el techo de deuda es alcanzado](../.gitbook/assets/ftm-leverage-error.png)
+![Mensaje de error cuando el techo de deuda es alcanzado](../../.gitbook/assets/ftm-leverage-error.png)
 
 Este mensaje de error aparecerá incluso si su CDR es correcto. En la mayoría de los casos, la única solución es esperar a que aumente el techo. Estate atento a twitter o a Discord para saber cuándo ocurre esto.
 

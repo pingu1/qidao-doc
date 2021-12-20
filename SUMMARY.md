@@ -2,42 +2,34 @@
 
 * [La guía no oficial de Mai Finance](README.md)
 
-## TUTORIALES DE POLYGON
+## Tutoriales
 
-* [Cómo comenzar en Polygon](tutoriales-de-polygon/how-to-get-started-on-polygon.md)
-* [Apalancamiento con tus tokens de AAVE](tutoriales-de-polygon/apalancamiento-con-tus-tokens-de-aave.md)
-* [Estrategia para novatos usando camDAI](tutoriales-de-polygon/camdai-beginner-strategy.md)
-* [Farmear utilizando únicamente monedas estables](tutoriales-de-polygon/secure-your-yield-farming-profits.md)
-* [¿Qué hacer con MAI en Polygon?](tutoriales-de-polygon/que-hacer-con-mai-en-polygon.md)
-* [¿Qué hacer con Qi en Polygon?](tutoriales-de-polygon/que-hacer-con-qi-polygon.md)
-* [Acumula DApps como si fueran cromos](tutoriales-de-polygon/acumula-dapps-como-cromos.md)
-* [¿Farmear o hacer staking? ¿O Ambas?](tutoriales-de-polygon/farming-or-staking-or-both.md)
-* [¿Cómo combinar el farmeo con los préstamos incentivados?](tutoriales-de-polygon/how-to-combine-farming-and-borrowing-rewards.md)
-* [Fork de OHM en Polygon: Entendiendo KLIMA](tutoriales-de-polygon/ohm-forks-on-polygon-the-case-of-klima.md)
-* [Haciendo staking de MAI con Ethalend](tutoriales-de-polygon/ethalend-single-staking.md)
-
-## Tutoriales de Avalanche
-
-* [Cómo comenzar en Avalanche](tutoriales-de-avalanche/how-to-get-started-on-avalanche.md)
-
-## Tutoriales de Fantom
-
-* [Cómo comenzar en Fantom](tutoriales-de-fantom/how-to-get-started-on-fantom.md)
-* [Apalanca tus crypto en Fantom](tutoriales-de-fantom/leverage-your-crypto-on-fantom.md)
-* [¿Qué hacer con MAI en Fantom?](tutoriales-de-fantom/what-to-do-with-mai-on-fantom.md)
-
-## Tutoriales de Moonriver
-
-* [Cómo comenzar en Moonriver](moonriver-tutorials/how-to-get-started-on-moonriver.md)
-
-## Tutoriales de Cronos
-
-* [Cómo comenzar en Cronos](cronos-tutorials/how-to-get-started-on-cronos.md)
-* [Farmeando rendimientos en CroDex como Legos](cronos-tutorials/farming-legos-with-crodex.md)
-
-## Tutoriales de Harmony
-
-* [Cómo comenzar en Harmony](harmony-tutorials/how-to-get-started-on-harmony.md)
+* [Polygon](tutoriales/polygon/README.md)
+  * [Cómo comenzar en Polygon](tutoriales/polygon/how-to-get-started-on-polygon.md)
+  * [Apalancamiento con tus tokens de AAVE](tutoriales/polygon/apalancamiento-con-tus-tokens-de-aave.md)
+  * [Estrategia para novatos usando camDAI](tutoriales/polygon/camdai-beginner-strategy.md)
+  * [Farmear utilizando únicamente monedas estables](tutoriales/polygon/secure-your-yield-farming-profits.md)
+  * [¿Qué hacer con MAI en Polygon?](tutoriales/polygon/que-hacer-con-mai-en-polygon.md)
+  * [¿Qué hacer con Qi en Polygon?](tutoriales/polygon/que-hacer-con-qi-polygon.md)
+  * [Acumula DApps como si fueran cromos](tutoriales/polygon/acumula-dapps-como-cromos.md)
+  * [¿Farmear o hacer staking? ¿O Ambas?](tutoriales/polygon/farming-or-staking-or-both.md)
+  * [¿Cómo combinar el farmeo con los préstamos incentivados?](tutoriales/polygon/how-to-combine-farming-and-borrowing-rewards.md)
+  * [Fork de OHM en Polygon: Entendiendo KLIMA](tutoriales/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
+  * [Haciendo staking de MAI con Ethalend](tutoriales/polygon/ethalend-single-staking.md)
+* [Avalanche](tutoriales/avalanche/README.md)
+  * [Cómo comenzar en Avalanche](tutoriales/avalanche/how-to-get-started-on-avalanche.md)
+  * [Page 1](tutoriales/avalanche/page-1.md)
+* [Fantom](tutoriales/fantom/README.md)
+  * [Cómo comenzar en Fantom](tutoriales/fantom/how-to-get-started-on-fantom.md)
+  * [Apalanca tus crypto en Fantom](tutoriales/fantom/leverage-your-crypto-on-fantom.md)
+  * [¿Qué hacer con MAI en Fantom?](tutoriales/fantom/what-to-do-with-mai-on-fantom.md)
+* [Moonriver](tutoriales/moonriver/README.md)
+  * [Cómo comenzar en Moonriver](tutoriales/moonriver/how-to-get-started-on-moonriver.md)
+* [Cronos](tutoriales/cronos/README.md)
+  * [Cómo comenzar en Cronos](tutoriales/cronos/how-to-get-started-on-cronos.md)
+  * [Farmeando rendimientos en CroDex como Legos](tutoriales/cronos/farming-legos-with-crodex.md)
+* [Harmony](tutoriales/harmony/README.md)
+  * [Cómo comenzar en Harmony](tutoriales/harmony/how-to-get-started-on-harmony.md)
 
 ## Artículos sobre MAI <a href="#universidade-de-mai" id="universidade-de-mai"></a>
 

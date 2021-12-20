@@ -26,7 +26,7 @@ Si ha instalado la última versión de Metamask, ya debería tener acceso a la c
 
 Guarde los cambios y Metamask le cambiará automáticamente a la red Harmony:
 
-![¡Felicidades, ya puede utilizar la red Harmony!](../.gitbook/assets/Harmony-onboarding-1.png)
+![¡Felicidades, ya puede utilizar la red Harmony!](../../.gitbook/assets/Harmony-onboarding-1.png)
 
 ## Transfiriendo fondos a Harmony One
 
@@ -40,7 +40,7 @@ Además, puedes usar [ElkNet](https://app.elk.finance/#/elknet) para transferir 
 
 * [Multichain.org](https://app.multichain.org/#/router) (antes conocido como AnySwap) es el socio oficial de Mai Finance que te permitirá pasar tus tokens MAI de Polygon y otras cadenas a Harmony. Como nota al margen, Multichain ha estado trabajando mano a mano con los desarrolladores de Mai Finance para asegurarse de que el MAI que puenteas a Harmony es el mismo que podrás pedir prestado en la plataforma de préstamos. No hay necesidad de un Hub en Harmony. Simplemente dirígete al router Multichain, selecciona la red de origen, el token que quieres transferir y la red de destino, y ya está. Presta atención a las cantidades mínimas a transferir, las tasas de transferencia y la duración del puente, pero una vez hecho, obtendrás tu activo en Harmony.
 
-![Bridging MAI from Polygon to Harmony One](../.gitbook/assets/Harmony-onboarding-2.png)
+![Bridging MAI from Polygon to Harmony One](../../.gitbook/assets/Harmony-onboarding-2.png)
 
 * [Puente oficial de Harmony](https://bridge.harmony.one/erc20), como se explica en el párrafo anterior, le permitirá transferir activos específicos de Ethereum Mainnet o BSC.
 * [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer) es otra solución si quiere transferir algo a Harmony. Consulta su aplicación para ver qué activos son puenteables.
@@ -52,13 +52,13 @@ Debido a que Harmony One es una red que ofrece transacciones rápidas y seguras,
 
 * [ViperSwap](https://viper.exchange/#/swap): Este es el primer socio de Mai Finance en Harmony One. Se trata de un fork de Uniswap v2, un DEX (Exchange Descentralizada) y AMM (Creador de Mercado Automatizado) donde podrás intercambiar tus activos, crear tokens LP (Proveedor de Liquidez) y cultivar recompensas proporcionando liquidez a los usuarios de la plataforma. La recompensa se paga mediante el token VIPER, con el que podrás hacer staking en la aplicación para obtener más recompensas. Este es el DEX donde encontrarás liquidez de MAI para intercambiar tu MAI, o para cultivar recompensas usando tu MAI.
 
-![Pares MAI-ONE y MAI-VIPER en ViperSwap a Diciembre de 2021](../.gitbook/assets/Harmony-onboarding-3.png)
+![Pares MAI-ONE y MAI-VIPER en ViperSwap a Diciembre de 2021](../../.gitbook/assets/Harmony-onboarding-3.png)
 
 Observarás que los APRs (Annual Percentage Rate) de los pools son muy altos. Esto se debe principalmente al formato de las recompensas en ViperSwap: cuando reclamas tus recompensas, el 5% de los tokens VIPER pueden ser utilizados directamente, mientras que el 95% están bloqueados hasta el 2021-12-25. Después de eso, la recompensa se va acumulando a lo largo de un año completo, lo que significa que no podrás acceder a tus ganancias de cultivo de inmediato, y se te iran desbloqueando muy MUY lentamente. Hay otra curiosidad en los fondos de ViperSwap: tendrás que pagar una tasa de retirada que disminuye si apuestas tus tokens de LP durante mucho tiempo. Pasa de una comisión del 25% si retiras dentro del mismo bloque que la transacción de depósito (para luchar contra las operaciones de flashloan) al 0,01% si retiras después de 1 mes. Más detalles en su documentación oficial sobre [recompensas de farming](https://docs.venomdao.org/viper/tokenomics#bbd0) y [comision de retiros de LPs](https://docs.venomdao.org/viper/fees).
 
 * [DeFi Kingdom](https://game.defikingdoms.com/#/): Se trata de un proyecto especialmente interesante que mezcla DeFi y Gamificación. Su token nativo, el token JEWEL, se utiliza como recompensa de cultivo para los usuarios que aportan liquidez, pero se puede utilizar en el juego o en el mercado. Explicar todo el universo de DeFi Kingdom (o DFK) llevaría demasiado tiempo para esta guía, por lo que recomendamos encarecidamente leer [su documentación official](https://docs.defikingdoms.com).
 
-![Mapa principal de DeFi Kingdom a Diciembre de 2021](../.gitbook/assets/Harmony-onboarding-4.png)
+![Mapa principal de DeFi Kingdom a Diciembre de 2021](../../.gitbook/assets/Harmony-onboarding-4.png)
 
 * [SushiSwap](https://app.sushi.com) es el famoso DEX/AMM que también está presente en muchas otras cadenas. Intercambio, proporciona liquidez, farmea ONE y genera rendimientos SUSHI.
 * [Curve Finance](https://harmony.curve.fi) es otra aplicación de cadena cruzada que le permitirá proporcionar liquidez (3pool y tricrypto) y le recompensará con tokens compuestos, así como con ONE y CRV.
@@ -71,7 +71,7 @@ Mai Finance se lanzó en Harmony One en diciembre de 2021, y esta guía está ba
 
 Podrás depositar tus WETH o tus tokens ONE en Mai Finance (https://app.mai.finance/vaults/create) para tomar prestada la moneda estable MAI. A continuación, podrás intercambiar MAI para apalancar tus activos, realizar operaciones de margen o cultivar rendimientos en ViperSwap.
 
-![Bóvedas de MAI Finance a Diciembre de 2021](../.gitbook/assets/Harmony-onboarding-5.png)
+![Bóvedas de MAI Finance a Diciembre de 2021](../../.gitbook/assets/Harmony-onboarding-5.png)
 
 ## Descargo de Responsabilidad
 

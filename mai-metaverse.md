@@ -12,7 +12,7 @@ description: >-
 
 ## Introducción
 
-MAI, también conocida cómo miMATIC, es la primera stablecoin nativa de la red de Polygon. Casi siempre tendrá un valor cercano al $1.00, y su valor fluctuará entre $0.99 y $1.01. Puedes obtener más información acerca cómo se mantiene estable en la [documetación oficial](https://docs.mai.finance/stablecoin-economics). Sin embargo, aunque MAI sea nativa a Polygon, no significa que no la puedas encontrar en otras blockchains. De la misma forma que puedes encontrar DAI en otras cadenas (DAI es una stablecoin con origen en la red Mainnet de Ethereum ), MAI se está expandiendo lentamente a otras cadenas. En este artículo encontrarás cuáles son las distintas redes en la que puedes encontrar MAI y como puedes transferirlas entre una red y otra. 
+MAI, también conocida cómo miMATIC, es la primera stablecoin nativa de la red de Polygon. Casi siempre tendrá un valor cercano al $1.00, y su valor fluctuará entre $0.99 y $1.01. Puedes obtener más información acerca cómo se mantiene estable en la [documetación oficial](https://docs.mai.finance/stablecoin-economics). Sin embargo, aunque MAI sea nativa a Polygon, no significa que no la puedas encontrar en otras blockchains. De la misma forma que puedes encontrar DAI en otras cadenas (DAI es una stablecoin con origen en la red Mainnet de Ethereum ), MAI se está expandiendo lentamente a otras cadenas. En este artículo encontrarás cuáles son las distintas redes en la que puedes encontrar MAI y como puedes transferirlas entre una red y otra.&#x20;
 
 ## Polygon
 
@@ -32,7 +32,7 @@ MAI está siendo cada vez más usada en proyectos de Polygon, especialemente por
 * MAI-USDT con $6,316,026.
 * MAI-USDC con $5,458,323.
 
-Puedes encontrar otros pares de liquidez en otros proyectos / granjas de rendimiento o en optimizadores de rendimiento. Puedes encontrar más información acerca de que hacer con MAI [aquí](tutoriales-de-polygon/que-hacer-con-mai-en-polygon.md).
+Puedes encontrar otros pares de liquidez en otros proyectos / granjas de rendimiento o en optimizadores de rendimiento. Puedes encontrar más información acerca de que hacer con MAI [aquí](tutoriales/polygon/que-hacer-con-mai-en-polygon.md).
 
 ## Solana
 
@@ -84,7 +84,7 @@ Al igual que pasaba con AllBridge, la UI es bastante sencilla. Solo tienes que s
 
 ![Transferiendo MAI de Polygon a Avalanche](<.gitbook/assets/Screen Shot 2021-09-13 at 2.52.31 PM.png>)
 
-Metamask **si **tiene soporte a las [carteras de Avax](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche), por lo que no necesitarás crearte una cartera adicional como en Solana.
+Metamask **si** tiene soporte a las [carteras de Avax](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche), por lo que no necesitarás crearte una cartera adicional como en Solana.
 
 ### Usando MAI en Avax
 
@@ -104,7 +104,7 @@ De forma similar que en los casos anterior, la interfaz es bastante parecida a l
 
 ![Transfiriendo MAI desde Polygon a Fantom](.gitbook/assets/image.png)
 
-Metamask **si **tiene soporte a las [carteras de fantom](https://docs.fantom.foundation/tutorials/set-up-metamask), por lo que es bastante sencillo de configurar y empezar a usarlo.
+Metamask **si** tiene soporte a las [carteras de fantom](https://docs.fantom.foundation/tutorials/set-up-metamask), por lo que es bastante sencillo de configurar y empezar a usarlo.
 
 ### Usando MAI en Fantom
 

@@ -11,7 +11,7 @@ description: >-
 
 El mercado se encuentra en una tendencia alcista y tus cryptos se encuentran depositadas en una bóveda (**vault**). Tus cryptos se han revalorizado lo suficiente así que decides venderlas, sin embargo, al estar depositadas en una bóveda de Mai Finance, no las puedes retirar a no ser de que pagues tu deuda.
 
-El mercado se encuentra en una tendencia bajista y tus cryptos se están devaluando rápidamente, no estás generando el suficiente rendimiento con tus activos para cubrir las pérdidas y mantener un Ratio de Colateral Deuda (**CDR**) sano, por lo que la liquidación está cerca. Es la hora de pagar tu deuda y asegurarte de no seguir perdiendo capital, y previniendo la liquidación. 
+El mercado se encuentra en una tendencia bajista y tus cryptos se están devaluando rápidamente, no estás generando el suficiente rendimiento con tus activos para cubrir las pérdidas y mantener un Ratio de Colateral Deuda (**CDR**) sano, por lo que la liquidación está cerca. Es la hora de pagar tu deuda y asegurarte de no seguir perdiendo capital, y previniendo la liquidación.&#x20;
 
 Si no te encuentras en ninguna de estas situaciones, es probable que no te venga a cuenta pagar tu deuda. Véase el siguiente artículo sobre [Pago de la Deuda](debt-repayment-why-and-when.md) para más detalles.
 
@@ -34,12 +34,12 @@ La mayoría de la gente querrá pedir prestado MAI para poder invertir en otros 
 * Pagar tu préstamo con el dinero generado.
 * Reinvertir tus ganancias en el mismo u otro proyecto.
 
-En la mayoría de casos, es mejor reinvertir tus ganancias ya que al acumular( o compound), tu APR (**Tasa **de **Porcentaje Anual **) es aplicado en una cantidad superior, lo que significa ingresos superiores. En esta guía hay distintos artículos sobre cómo poder maximizar tus inversiones.
+En la mayoría de casos, es mejor reinvertir tus ganancias ya que al acumular( o compound), tu APR (**Tasa** de **Porcentaje Anual** ) es aplicado en una cantidad superior, lo que significa ingresos superiores. En esta guía hay distintos artículos sobre cómo poder maximizar tus inversiones.
 
 Sin embargo, hay personas que no son partidarias a tener una deuda, queriéndola pagar lo antes posible. Si ese es tu caso, puedes cambiar tus beneficios a MAI y saldar tu deuda.
 
 * Abre la información sobre tu bóveda (vault).
-* Selecciona la opción de `Manage` 
+* Selecciona la opción de `Manage`&#x20;
 * Selecciona la ventana de "_**Repay**_" al final de tu bóveda.
 * Introduce la cantidad que quieras devolver.
 * Haz click en`Repay MAI` y habrás terminado.
@@ -50,13 +50,13 @@ Pongamos el siguiente ejemplo:
 
 * Tienes $1,000.00 de tokens camWMATIC en tu bóveda, con una deuda de  $400.00
 * Intercambias $10.00 de token ADDY por MAI
-* Pagas $10.00 hoy : 
+* Pagas $10.00 hoy :&#x20;
   * Tu deuda es ahora $390.00
   * El valor de tus camWMATIC es de $999.95 (tienes que pagar el 0.5% de los $10.00 en concepto de cuota de pago)
 
 En un futuro, podrás saldar tu deuda usando esta técnica, siempre y cuando puedas generar el suficiente beneficio usando tu préstamo.
 
-¿Es esta estrategia eficiente? No del todo. Saldar tu deuda usando este método no cambia nada excepto tu CDR. Ya que tu colateral permanecerá bloqueado hasta que hayas pagado la totalidad de tu deuda, y si usas los _**amTokens, **_no habrá ninguna diferencia entre tener una deuda o no, esto es debido a que tu colateral te está generando rendimiento. La única ventaja es que podrás retirar una parte de tu colateral y usarla en otra parte, incluso podrías venderla.
+¿Es esta estrategia eficiente? No del todo. Saldar tu deuda usando este método no cambia nada excepto tu CDR. Ya que tu colateral permanecerá bloqueado hasta que hayas pagado la totalidad de tu deuda, y si usas los _**amTokens,**_ no habrá ninguna diferencia entre tener una deuda o no, esto es debido a que tu colateral te está generando rendimiento. La única ventaja es que podrás retirar una parte de tu colateral y usarla en otra parte, incluso podrías venderla.
 
 ### Pago Total
 
@@ -66,15 +66,15 @@ Otra estrategia, bastante similar a la anterior, es saldar tu deuda con un solo 
 
 ### Idea Principal
 
-En Mai Finance, puedes pedir prestado MAI al depositar una cantidad de colateral en una bóveda. El **CDR **tiene que mantenerse siempre por encima de un cierto nivel,  el 150% para la mayoría de casos. Esto significa que manteniendo un CDR del 150% , por cada $100 de colateral depositado, solo puedes pedir prestado $66.6667 de MAI.
+En Mai Finance, puedes pedir prestado MAI al depositar una cantidad de colateral en una bóveda. El **CDR** tiene que mantenerse siempre por encima de un cierto nivel,  el 150% para la mayoría de casos. Esto significa que manteniendo un CDR del 150% , por cada $100 de colateral depositado, solo puedes pedir prestado $66.6667 de MAI.
 
 Sin embargo, esto te pondría en una situación de posible liquidación. Esto significa que si la "salud" de tu bóveda es considerada peligrosa, cualquiera puedes pagar una parte de tu deuda usando sus fondos para así quedarse con una parte del colateral. Para obtener más detalles acerca de la liquidación, lea la  [documentación oficial](https://docs.mai.finance/liquidation).
 
-La mejor práctica posible es mantener un nivel elevado de **CDR **para evitar ser liquidado, pero incluso con un CDR cercano al 150%, es fácil de comprobar que el valor de tu colateral SIEMPRE es superior al valor de tu deuda. Esto significa, que llegado al caso, podrás saldar tu deuda vendiendo una parte de tu colateral.
+La mejor práctica posible es mantener un nivel elevado de **CDR** para evitar ser liquidado, pero incluso con un CDR cercano al 150%, es fácil de comprobar que el valor de tu colateral SIEMPRE es superior al valor de tu deuda. Esto significa, que llegado al caso, podrás saldar tu deuda vendiendo una parte de tu colateral.
 
 ### Como Usar el Colateral
 
-Consideremos una bóveda con $1,000.00 de MATIC y una deuda de $500.00 . El CDR is 200%. Recuerda que el CDR **mínimo **es 150%. En este ejemplo, queremos saldar la deuda totalmente, evitar la liquidación y mantener como mínimo el CDR al 160% CDR cuando retiremos el colateral. Usaremos las siguientes fórmulas:
+Consideremos una bóveda con $1,000.00 de MATIC y una deuda de $500.00 . El CDR is 200%. Recuerda que el CDR **mínimo** es 150%. En este ejemplo, queremos saldar la deuda totalmente, evitar la liquidación y mantener como mínimo el CDR al 160% CDR cuando retiremos el colateral. Usaremos las siguientes fórmulas:
 
 $$
 CDR=\frac{Colateral}{Deuda}
@@ -101,7 +101,7 @@ Por lo que tendríamos que realizar esta estrategia:
 * Retira $319 del colateral
   * La bóveda tiene ahora $480 MATIC y  $300 de deuda y el CDR es del 160%
 * Vende los $319 de colateral para comprar MAI
-* Paga los $300 de deuda con una cuota de pago del 0.5% 
+* Paga los $300 de deuda con una cuota de pago del 0.5%&#x20;
   * La bóveda tiene $478.50 de MATIC, $0 de deuda y $19 en MAI extras.
 
 Viendo la estrategia de arriba se puede observar que mantener un CDR sano puede ayudarte a pagar la deuda con muy pocas transacciones. Cabe destacar, que si tu CDR esta cercano al límte del 150%, tendrás que realizar mas transacciones puesto que no podrás retirar tantos fondos de una sola vez.
@@ -121,9 +121,9 @@ Si volvemos a usar el mismo ejemplo anterior con los $1,000.00 de MATIC y una de
 * Pedir prestado $600.00 de USDC en AAVE en un préstamo flash
 * Intercambia el USDC por MAI
 * Paga el total de tu deuda.
-* Retira tu colateral MATIC 
+* Retira tu colateral MATIC&#x20;
 * Vende tu MATIC por USDC
-* Paga el préstamo flash en AAVE 
+* Paga el préstamo flash en AAVE&#x20;
 
 Cuando hayas termimado, todas las transacciones anteriores habrán sucedido en el mismo número de bloque y tendrás la cantidad restante de lo que haya sobrado en tokens MATIC y USDC en tu cartera (serán unos $500 aproximadamente, sin embargo, este valor puede variar debido a las tasas de interes del préstamo flash, el gas de la red o las cuota de pago)
 

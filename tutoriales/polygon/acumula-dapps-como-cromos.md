@@ -10,7 +10,7 @@ description: >-
 
 Cuando utilizas las granjas de rendimiento, sueles obtener cómo recompensa los tokens nativo de dichas granjas. Entonces, tendrás que elegir entre si deberías venderlos o mantenerlos y esperar a que se revaloricen en un futuro. Esta guía presentará algunas DApps (**Ap**licaciones **D**escentralizadas) para maximizar tus beneficios sin tener que vender nada, mientras los intereses se componen. En primer lugar empezaremos con las stablecoins porque las estrategias con estas monedas son las consideradas "seguras". Sin embargo, tienes que tener en cuenta que esta guía no es consejo financiero, que es una guía que debería ser tratada con cuidado ya que los resultados mostrados no estarán garantizados. Como siempre, haz siempre tu propia investigación.
 
-![](<../.gitbook/assets/Screen Shot 2021-08-30 at 10.52.20 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-30 at 10.52.20 AM.png>)
 
 ## QuickSwap
 
@@ -20,11 +20,11 @@ QuickSwap es uno de los AMM (**A**utomated **M**arket **M**aker) más grandes de
 
 En este ejemplo, usaremos el par MAI/USDC en QuickSwap. Esta piscina de liquidez, de monedas estables, propone un APY (Porcentaje Anual de rendimiento que varía entre el 20% y 25%). Este rendimiento está compuesto por las cuotas de transacción (que son acumuladas en la piscina de liquidez) y por recompensas en forma de QUICK.
 
-![Piscina de liquidez con el par MAI/USDC en QuickSwap a fecha de Agosto 2021](<../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![Piscina de liquidez con el par MAI/USDC en QuickSwap a fecha de Agosto 2021](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
 
-Esta piscina obtiene una cantidad fija de tokens QUICK cada día, que luego son distribuidas a aquellos inversores que suministran liquidez a la piscina. Por ejemplo, si la piscina tuviera un equivalente a $1,000,000 en forma de liquidez, y has depositado $1,000 de tokens LP (**P**roveedor** **de **L**iquidez), tendrías el equivalente al 0.1% de la piscina, lo que te da el derecho de obtener el 0.1% de la recompensa diaria de QUICK. Tu recompensa en forma de Quick podrá ser reclamable cuando gestiones el par al que hayas entrado.
+Esta piscina obtiene una cantidad fija de tokens QUICK cada día, que luego son distribuidas a aquellos inversores que suministran liquidez a la piscina. Por ejemplo, si la piscina tuviera un equivalente a $1,000,000 en forma de liquidez, y has depositado $1,000 de tokens LP (**P**roveedor **** de **L**iquidez), tendrías el equivalente al 0.1% de la piscina, lo que te da el derecho de obtener el 0.1% de la recompensa diaria de QUICK. Tu recompensa en forma de Quick podrá ser reclamable cuando gestiones el par al que hayas entrado.
 
-![Reclamando mis recompensas QUICK por un depósito de $20 ](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.39.44 AM.png>)
+![Reclamando mis recompensas QUICK por un depósito de $20 ](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.39.44 AM.png>)
 
 Estas recompensas pueden ser reclamables regularmente para ponerlas a trabajar para ti. Veamos cómo.
 
@@ -32,7 +32,7 @@ Estas recompensas pueden ser reclamables regularmente para ponerlas a trabajar p
 
 El Dragon's Lair es una forma de optimizar tus ganancias en QuickSwap. Puedes depositar tus tokens QUICK generados al participar en las distintas piscinas de liquidez ahí, lo que te generará tokens QUICK adicionales. Esta es una buena idea si tienes pensado mantener tus tokens QUICK en vez de venderlos. Cuando tus tokens QUICK son stakeados en el Dragon's Lair, las recompensas que te generarán se autocompondrán, y el APY del Lair es aproximadamente un 12%.
 
-![ APY Dragon's Lair a fecha de Agosto de 2021](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.42.39 AM.png>)
+![ APY Dragon's Lair a fecha de Agosto de 2021](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.42.39 AM.png>)
 
 Tras haber depositados tus tokens QUICK , obtendrás de forma automática en tu cartera unos tokens dQUICK que representan la cantidad de la piscina QUICK que tienes. Cabe destacar que el ratio QUICK:dQUICK no es 1:1 ya que dQUICK representa la cantidad de liquidez que suministras al total, mientras que el QUICK se incrementará con el tiempo cuanto mas recompensas se añadan a la piscina.
 
@@ -42,9 +42,9 @@ Ahora tienes tus stablecoin depositadas en una piscina de liquidez, que te gener
 
 El Dragon's Syrup es una herramienta que ofrece QuickSwap para recompensas aun mas a aquellos que tienen tokens QUICK. El equipo de QuickSwap creó un programa donde los distintos colaboradores de Quickswap pueden ofrecer su propio token a los usuarios de la plataforma QuickSwap. Puedes depositar tus tokens dQUICK en una de estas granjas para poder obtener tokens distintos además de tus recompensas al usar Dragon's Lair. Aquellos que nos interesarán más son los de la granja ADDY.
 
-![Dragon's Syrup, cómo obtener tokens ADDY con depositos de dQUICK ](<../.gitbook/assets/Screen Shot 2021-08-30 at 6.49.25 AM.png>)
+![Dragon's Syrup, cómo obtener tokens ADDY con depositos de dQUICK ](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.49.25 AM.png>)
 
-Cuando depositas tus dQUICK en la granja, ellos desaparecerán de tu deposito en el Dragon's Lair (de la misma forma que tus camTokens desaparecen de la página Yield en Mai Finance cuando las depositas en una bóveda). Pero se puede ver claramente que el APY de dQUICK APY en el Lair se sigue aplicando, y que obtendrás recompensas adicionales en forma de ADDY. Aquí, el APR (**P**orcentaje** A**nual de** R**ecompensa) es del 21.36%.
+Cuando depositas tus dQUICK en la granja, ellos desaparecerán de tu deposito en el Dragon's Lair (de la misma forma que tus camTokens desaparecen de la página Yield en Mai Finance cuando las depositas en una bóveda). Pero se puede ver claramente que el APY de dQUICK APY en el Lair se sigue aplicando, y que obtendrás recompensas adicionales en forma de ADDY. Aquí, el APR (**P**orcentaje **A**nual de **R**ecompensa) es del 21.36%.
 
 {% hint style="info" %}
 Cabe destacar que las granjas en Syrup tiene una fecha de expiración. Aquí, la granja ADDY expirará en 50 días y 11 horas. Nuevas granjas aparecerán cuando las antiguas desaparezcan.
@@ -78,7 +78,7 @@ En este caso, volveremos a usar el par MAI/USDC en Impermax. Al depositar alguno
 
 En QuickSwap, deposité $20 del par MAI/USDC. En Impermax, solo depositaré $10 del par MAI/USDC y aplicaré un apalancamiento de x2 para obtener una posición de $20.
 
-![Ventana de Impermax al hacer apalancamiento](<../.gitbook/assets/Screen Shot 2021-08-30 at 7.11.10 AM.png>)
+![Ventana de Impermax al hacer apalancamiento](<../../.gitbook/assets/Screen Shot 2021-08-30 at 7.11.10 AM.png>)
 
 Como se puede observar en la imagen superior, si aplicara un apalancamiento del x2.1, pediría prestado:
 
@@ -102,11 +102,11 @@ Tenemos tokens del par MAI/USDC depositados en su respectiva piscina:
 
 Adamant es un optimizador de rendimiento que automatiza el recolectar recompensas en piscinas de liquidez y auto compone las recompensas en tokens LP adicionales. La mayoría de las piscinas que se encuentran en Adamant son piscinas populares de grandes proveedores de liquidez como Quickswap o Sushiswap entre otros. Veamos cómo podemos usar Adamant para optimizar nuestro rendimiento
 
-### Farmeando QUICK/IMX 
+### Farmeando QUICK/IMX&#x20;
 
 Obtenemos tokens QUICK en QuickSwap, y obtenemos tokens IMX en Impermax. Veamos como podemos usar Adamant para participar en el par QUICK/IMX de QuickSwap. ¿Por qué hacerlo? Porque la granja da un APY bastante elevado, tal y como se puede ver:
 
-![Piscina del par IMX/QUICK de QuickSwap en Adamant](<../.gitbook/assets/Screen Shot 2021-08-30 at 7.27.26 AM.png>)
+![Piscina del par IMX/QUICK de QuickSwap en Adamant](<../../.gitbook/assets/Screen Shot 2021-08-30 at 7.27.26 AM.png>)
 
 Mientras este artículo esta siendo escrito, el APY actual del par IMX/QUICK en Adamant es del 417.25%. Las recompensas están compuestas por:
 
@@ -140,7 +140,7 @@ Con los tokens WMATIC generados en Adamant,  ahora podemos depositarlos en AAVE 
 
 ## Mai Finance
 
-Una vez hecho el depósito en AAVE, obtendremos amWMATIC en nuestra cartera. Ahora podemos usar la página de **Yield **en Mai Finance para auto componer las recompensas generadas por AAVE con las recompensas adicionales gracias al programa de incentivos de MATIC y obtener un 4% adicional en nuestro MATIC generado en Adamant.
+Una vez hecho el depósito en AAVE, obtendremos amWMATIC en nuestra cartera. Ahora podemos usar la página de **Yield** en Mai Finance para auto componer las recompensas generadas por AAVE con las recompensas adicionales gracias al programa de incentivos de MATIC y obtener un 4% adicional en nuestro MATIC generado en Adamant.
 
 El camWMATIC puede ser usado como colateral en Mai Finance la depositarlos en la bóveda de camWMATIC, lo que nos permitirá pedir prestado MAI, e intercambiar una parte de esos MAI a USDC. Una vez tengamos MAI y USDC en nuestra cartera, podemos combinar estas 2 stablecoin para generar más tokens LP que serán depositados en QuickSwap e Impermax. De nuevo, si quiere obtener más información sobre esto, véase el siguiente [artículo](apalancamiento-con-tus-tokens-de-aave.md).
 
@@ -229,7 +229,7 @@ Llegados a este punto, la "deuda" en Mai Finance será usada para incrementar nu
 
 ## Resultados del Farming
 
-![](<../.gitbook/assets/Screen Shot 2021-08-30 at 11.33.34 AM.png>)
+![](<../../.gitbook/assets/Screen Shot 2021-08-30 at 11.33.34 AM.png>)
 
 ### Rutina diaria
 

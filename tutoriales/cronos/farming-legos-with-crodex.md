@@ -8,7 +8,7 @@ description: >-
 
 Hacer farming de rendimientos puede ser fácil. Tienes 2 tokens, los combinas en un par LP (Liquidity Providing), depositas el token LP en un pool y empiezas a recibir comisiones de intercambio y la mayoría de las veces, recompensas pagadas en el token original. La mayoría de las personas se limitan a vender la recompensa por cualquier activo que estén buscando, lo cual en la mayoría de los casos es totalmente válido, pero está muy lejos de ser una solución optimizada. Hoy veremos cómo se puede sacar provecho de los altísimos APRs (Annual Percentage Rate) propuestos sobre Cronos en varias DApps, que transformarán un 30% de APRs sobre monedas estables en una tasa mucho más alta.
 
-![](../.gitbook/assets/crodex-lego-1.png)
+![](../../.gitbook/assets/crodex-lego-1.png)
 
 ## CroDex
 
@@ -16,7 +16,7 @@ Hacer farming de rendimientos puede ser fácil. Tienes 2 tokens, los combinas en
 
 Aunque la aplicación de préstamos de Mai Finance aún no está desplegada en Cronos, ya es posible transferir MAI desde otras cadenas. Una de las razones para hacerlo es que no hay mucho MAI en Cronos, lo que significa también que cualquier aplicación que proponga hacer farming con MAI ofrecerá altos APRs. Este es el caso de CroDex, actualmente el único lugar con liquidez de MAI en Cronos. Para esta guía, utilizaremos el pool de MAI-USDC en CroDex para disminuir el riesgo de **pérdida impermanente** en tu inversión inicial, pero puedes aumentar tus ganancias farmeando MAI-CRO.
 
-![Par MAI-USDC en CroDex a Diciembre de 2021](../.gitbook/assets/crodex-lego-2.png)
+![Par MAI-USDC en CroDex a Diciembre de 2021](../../.gitbook/assets/crodex-lego-2.png)
 
 {% hint style="info" %}
 Siempre que seleccione una aplicación para cultivar rendimientos, es importante observar si la recompensa se muestra como un APR (Annual Percentage Rate) o APY (Annual Percentage Yield). Este último supone que todas las recompensas que se obtienen se componen diariamente durante un año completo. En nuestro ejemplo, el 30% APRs del par MAI-USDC corresponde a un 34,97% APY.&#x20;
@@ -30,7 +30,7 @@ CroDex te pagará con su token nativo, el CRX. A fecha de Diciembre de 2021, 1 C
 
 Aquí es donde la cosa se pone interesante. CroDex tiene dos grupos diferentes en los que podrás apostar tus fichas CRX para obtener recompensas adicionales. Puedes apostar para conseguir más CRX, pero nosotros usaremos el pool donde apostar CRX te recompensará con tokens wCRO. wCRO es la versión envuelta de CRO, el token de gas de la red Cronos.
 
-![Staking de CRX en CroDex a Diciembre de 2021](../.gitbook/assets/crodex-lego-3.png)
+![Staking de CRX en CroDex a Diciembre de 2021](../../.gitbook/assets/crodex-lego-3.png)
 
 Ya puedes ver que podrías perfectamente vender tu CRX por más tokens MAI-USDC LP y obtener casi un 35% de APY en el par estable, pero es claramente mejor apostar tu CRX para conseguir CRO. No sólo se puede utilizar para pagar las tasas de transacción, sino que también puede cultivar MAI-CRO en CroDex. Y cuanto más CRX consigas con el tiempo, más CRO obtendrás si haces staking de tus CRX. Pero en esta guía, exploraremos Cronos un poco más
 
@@ -42,7 +42,7 @@ CRYSTL Finance era conocido como Polycrystal en Polygon. Es un fork que propone 
 
 Utilizaremos los tokens CRO producidos por el staking de CRX para intercambiar el 50% de la recompensa en más CRX y combinar estos dos tokens en un par CRX-WCRO en CroDex, luego depositar el token LP en una bóveda en Crystl Finance. Esto le permitirá obtener un alto APY que será compuesto.
 
-![Farmeando CRX-WCRO en Crystl Finance a Diciembre 2021](../.gitbook/assets/crodex-lego-4.png)
+![Farmeando CRX-WCRO en Crystl Finance a Diciembre 2021](../../.gitbook/assets/crodex-lego-4.png)
 
 Los tipos mostrados son un APY. Un APY de 1,21k% corresponde a un APR de 258,17%, pero también puedes obtener las ganancias diarias estimadas directamente en la información de la bóveda, y tu cultivo de CRX-WCRO te dará actualmente un 0,71% de ganancias diarias. Es muy importante que lleves la cuenta de la recompensa diaria porque extraeremos esta parte de nuestra posición de LP y la dividiremos en tokens separados. El CRX se volverá a apostar en CroDex para obtener más tokens CRO, y el CRO se cambiará por CRYSTL. También hay que tener en cuenta que hay una comisión de retirada por las ganancias que extraeremos cada día.
 
@@ -50,7 +50,7 @@ Los tipos mostrados son un APY. Un APY de 1,21k% corresponde a un APR de 258,17%
 
 Con el token CRYSTL obtenido en el paso anterior, podrá obtener USDC del fondo de apuestas único de CRYSTL Finance. Sólo tienes que stakear tu token CRYSTL y se te pagará en USDC con un APR bastante alto.
 
-![Haciendo staking de USDC o SALEM en CRYSTL a Diciembre de 2021](../.gitbook/assets/crodex-lego-5.png)
+![Haciendo staking de USDC o SALEM en CRYSTL a Diciembre de 2021](../../.gitbook/assets/crodex-lego-5.png)
 
 A continuación, sólo hay que cambiar el 50% de los USDC cultivados por MAI, y volver a añadirlos a la posición original en CroDex.&#x20;
 
@@ -60,7 +60,7 @@ Alternativamente, podemos utilizar el mismo enfoque que el anterior y hacer stak
 
 Salem Finance es otro fork en el que podrás farmear el token SALEM. La mayoría de los pools de LP tienen una tarifa de depósito, pero en realidad no utilizaremos las granjas de LP ya que CRYSTL Finance ya nos está dando los tokens SALEM que necesitamos. En su lugar, haremos staking de SALEM en los pools para ganar WCRO adicionales con, una vez más, un APR muy alto.
 
-![Haciendo staking de SALEM por WCRO a Diciembre de 2021](../.gitbook/assets/crodex-lego-6.png)
+![Haciendo staking de SALEM por WCRO a Diciembre de 2021](../../.gitbook/assets/crodex-lego-6.png)
 
 El token (w)CRO al ser el token de gas de Cronos, tiene mucha utilidad. Además, si se quiere, se puede puentear con la cadena principal de Crypto.org. En nuestro caso, y dado que queremos cerrar nuestro bucle de inversión, podemos simplemente vender las ganancias de Salem Finance y comprar más USDC y MAI.
 
@@ -74,7 +74,7 @@ Ya puedes ver que con sólo 3 protocolos, tienes varias opciones:
 
 Para el resto de esta guía, nos centraremos en la última estrategia, que es la más compleja y requiere muchas manipulaciones, pero también es la que ofrece el mejor resultado global. Siéntase libre de aplicar la que prefiera en función de su aceptación del riesgo.
 
-![](../.gitbook/assets/crodex-lego-7.png)
+![](../../.gitbook/assets/crodex-lego-7.png)
 
 ### Poniendo en marcha el sistema
 
@@ -174,7 +174,7 @@ Después de un año completo de farming con esta estrategia, tendrías lo siguie
 
 La aplicación Mai Finance no admite bóvedas en Cronos, porque los tokens en Cronos aún no tienen oráculos de Chainlink. Se espera que durante el primer trimestre de 2022, Chainlink añada oráculos en Cronos, y podrás depositar tus tokens WCRO en una Bóveda para tomar prestada la moneda estable MAI. Esto significa que la estrategia anterior puede modificarse para depositar WCRO y utilizar MAI en lugar de vender los tokens WCRO, lo que aumentará ligeramente tu tasa de recompensa final.
 
-![Bóveda WCRO en Mai Finance (simulación)](../.gitbook/assets/crodex-lego-8.png)
+![Bóveda WCRO en Mai Finance (simulación)](../../.gitbook/assets/crodex-lego-8.png)
 
 ## Descargo de Responsabilidad
 

@@ -38,9 +38,9 @@ Tras leer toda la documentación de Mai Finance, y pedir ayuda en el servidor of
 
 El primer paso es trasladar los ETH a Polygon, para ello utilizará el  [PoS bridge](https://wallet.matic.network/bridge), por lo que podrá enviar sus activas de una cadena a otra con un precio "razonable" de $20,00 pagados en ETH.
 
-DogeOfWallStreet deposita sus ETH on [AAVE ](https://app.aave.com)recibiendo a cambio **amWETH**. Una vez hecho esto, se dirije a Mai Finance para depositarlos, obteniendo tokens  **camWETH **que podrá depositar en su bóveda (o [vault](https://app.mai.finance/vaults)) como colateral. Resumiendo, todavía posee todos sus ETH, y Mai Finance le permite obtener un 1.39% de APY adicional en su activo. No es mucho, pero menos es nada.
+DogeOfWallStreet deposita sus ETH on [AAVE ](https://app.aave.com)recibiendo a cambio **amWETH**. Una vez hecho esto, se dirije a Mai Finance para depositarlos, obteniendo tokens  **camWETH** que podrá depositar en su bóveda (o [vault](https://app.mai.finance/vaults)) como colateral. Resumiendo, todavía posee todos sus ETH, y Mai Finance le permite obtener un 1.39% de APY adicional en su activo. No es mucho, pero menos es nada.
 
-Tras depositar $1,320.00 de **camWETH **en su bóveda, nuestro amigo podrá pedir prestado MAI gracias al colateral aportado. DogeOfWallStreet decide mantener una Ratio de Colateral a Deuda al 200%, por lo que sólo pedirá 600 MAI. Luego utiliza la página de [anchor ](https://app.mai.finance/anchor)para obtener 594 USDC (la página cobra un 1% de comisión). Una vez hecho esto, decide llevar los USDC a la mainnet de ETH, por lo que tendrá que volver a pagar 20$ de comisión para poder realizar esta operación. Sin embargo, no le importa ya que estas comisiones son para los mineros y su plan es ganar todo el dinero posible con esas comisiones.
+Tras depositar $1,320.00 de **camWETH** en su bóveda, nuestro amigo podrá pedir prestado MAI gracias al colateral aportado. DogeOfWallStreet decide mantener una Ratio de Colateral a Deuda al 200%, por lo que sólo pedirá 600 MAI. Luego utiliza la página de [anchor ](https://app.mai.finance/anchor)para obtener 594 USDC (la página cobra un 1% de comisión). Una vez hecho esto, decide llevar los USDC a la mainnet de ETH, por lo que tendrá que volver a pagar 20$ de comisión para poder realizar esta operación. Sin embargo, no le importa ya que estas comisiones son para los mineros y su plan es ganar todo el dinero posible con esas comisiones.
 
 Para poder obtener unos USD (dólares estadounidenses) de sus 574 USDC, DogeOfWallStreet transfiere sus USDC a su cartera de Coinbase donde podrá venderlos, obteniendo unos $562.00 USD (coinbase cobra una comisión de retiro del 2%) que serán enviados a su cuenta de PayPal, llegando finalmente, a su cuenta bancaria.
 
@@ -50,7 +50,7 @@ Llegados a este punto, DogeOfWallStreet ha mantenido casi el 100% de sus ETH que
 
 DogeOfWallStreet compra la 1660 super que quería, pagó algunos impuesto y tasas de envío por un total de $554.35. Tras unos dias, recibe su GPU y lo instala en su granja de minado.
 
-La GPU extra está incrementando sus beneficios diarios en $2.14 . Según sus cálculos, le tomará 270 días pagar al completo su tarjeta, lo que es un ROI ( Return Of Investment) aceptable para él. En efecto, sus $554.35 invertidos le generarán un beneficio anual aproximado de $781.10 ($2.14 \* 365), lo que sería un APR del 140.90%. Además, habría que añadir los $18.34 de **camToken **que su bóveda en Mai Finance le está generando anualmente.
+La GPU extra está incrementando sus beneficios diarios en $2.14 . Según sus cálculos, le tomará 270 días pagar al completo su tarjeta, lo que es un ROI ( Return Of Investment) aceptable para él. En efecto, sus $554.35 invertidos le generarán un beneficio anual aproximado de $781.10 ($2.14 \* 365), lo que sería un APR del 140.90%. Además, habría que añadir los $18.34 de **camToken** que su bóveda en Mai Finance le está generando anualmente.
 
 Viendo estos números, DogeOfWallStreet transferirá todos sus ETH minados a Polygon, repitiendo el bucle mensualmente, haciendo que al final pueda minar más ETH.
 
@@ -70,7 +70,7 @@ Por otro lado, podría haber dividido sus $1,300.00 de ETH en:
 * Una parte de ETH se vende directamente, pero el valor tendría que ser menor que la cantidad a pagar al banco por el préstamo.
 * Otra parte de ETH se transfiere a Polygon y Mai Finance donde podrá pedir prestado MAI y repagar el resto de la deuda del banco.
 
-Asumiendo que obtienes _**Beneficios **_y tienes que pagar la _**Deuda **con_ _**Beneficios **_> _**Deuda**_. Además, se asume que la _**Deuda **_es mayor que la mitad de tus _**Beneficios**_.  _**Fiat **_será la parte de tus _**Beneficios **_que tendrás que usar para pagar tu _**Deuda**_, y _**Crypto**_** **la parte que será enviada a Mai Finance para pedir prestado MAI. Por lo que podemos obtener las siguientes ecuaciones:
+Asumiendo que obtienes _**Beneficios**_ y tienes que pagar la _**Deuda** con_ _**Beneficios**_ > _**Deuda**_. Además, se asume que la _**Deuda**_ es mayor que la mitad de tus _**Beneficios**_.  _**Fiat**_ será la parte de tus _**Beneficios**_ que tendrás que usar para pagar tu _**Deuda**_, y _**Crypto**_** ** la parte que será enviada a Mai Finance para pedir prestado MAI. Por lo que podemos obtener las siguientes ecuaciones:
 
 $$
 Ganancias= Fiat + Crypto

@@ -13,7 +13,7 @@ Una de las misiones de este sitio web y de esta colección de tutoriales que hay
 
 ## Presentación de Ethalend&#x20;
 
-![](../.gitbook/assets/Ethalend-1.png)
+![](../../.gitbook/assets/Ethalend-1.png)
 
 ### ¿Qué es Ethalend?
 
@@ -28,7 +28,7 @@ Una de las cosas más interesantes de Ethalend es que la aplicación utiliza un 
 
 Por lo que dependerá de ti decidir si los pros aportan suficiente valor cómo para superar los contras. Cuando estés listo para crear tu monedero, simplemente haz clic en el botón `Create Wallet` que se encuentra en la esquina superior derecha.
 
-![Creando tu cartera en ETHA](../.gitbook/assets/Ethalend-2.png)
+![Creando tu cartera en ETHA](../../.gitbook/assets/Ethalend-2.png)
 
 Pues ya estaría, ya estás listo para poder usar el protocolo.
 
@@ -38,11 +38,11 @@ Esta estrategia puede añadirse a tu lita de estrategias relativamente seguras, 
 
 ### Haciendo staking de MAI
 
-![eVault de Ethalend con el parMAI-USDT a Noviembre de 2021](../.gitbook/assets/Ethalend-3.png)
+![eVault de Ethalend con el parMAI-USDT a Noviembre de 2021](../../.gitbook/assets/Ethalend-3.png)
 
 Una de las grandes ventajas de Ethalend, y una de las características clave que permite la simplificación de DeFi, es que para utilizar su plataforma, no necesitas proporcionar un par LP (Liquidity Provider) compuesto por 2 activos con una proporción de 1:1. El algoritmo que gestiona el pool (o eVault en nuestro caso) lo hará automáticamente por usted. Además, una vez que deposites tus activos en una eVault, éstos serán redirigidos automáticamente al mejor protocolo que maximice tu rendimiento. Los tokens de recompensa serán cultivados y convertidos por ti de forma periódica.
 
-![Depositando 100 MAI en el eVault MAI-USDT desde nuestra cartera MetaMask](../.gitbook/assets/Ethalend-4.png)
+![Depositando 100 MAI en el eVault MAI-USDT desde nuestra cartera MetaMask](../../.gitbook/assets/Ethalend-4.png)
 
 Como puedes ver, los detalles de las recompensas se muestran en la parte derecha de la pantalla. Las recompensas de ETHA no se muestran, pero se obtiene una estimación de las recompensas de Qi asociadas a su depósito. Si se desplaza hacia abajo en la página, también obtendrá un buen entendimiento acerca de la estrategia subyacente que está utilizando QuickSwap en nuestro caso. Las recompensas QUICK se convertirán en recompensas Qi. Las recompensas ETHA son acuñadas automáticamente por el protocolo para incentivar el uso de su plataforma en lugar de QuickSwap.
 
@@ -54,13 +54,13 @@ Preste atención a las tasas de retiro del 0,10%. En el momento de escribir esto
 
 La principal recompensa que obtendrás al prestar tu MAI en Ethalend, se pagará en ETHA, el token nativo de Ethalend. Una de las principales ventajas de Ethalend es que podrás hacer staking de tus tokens ETHA directamente en la plataforma y así aumentar tus rendimientos.
 
-![Haciendo staking de tus ETHA en Ethalend directamente](../.gitbook/assets/Ethalend-5.png)
+![Haciendo staking de tus ETHA en Ethalend directamente](../../.gitbook/assets/Ethalend-5.png)
 
 Como puedes ver, la mejor opción es depositar los ETHA ganados en el fondo de ETHA-QUICK. Debido a la naturaleza de los 2 activos (muy volátiles), la recompensa es realmente alta. Si lo prefieres, puedes reducir las pérdidas impermanentes depositando tus ETHA en el pool ETHA-USDT. En ambos casos, serás recompensado con tokens QUICK. Y, por supuesto, si eres realmente entusiasta de ETHA, puedes apostar tus recompensas en el pool de ETHA para obtener ETHA adicionales.&#x20;
 
 Los depósitos de staking en Ethaland son en realidad una comodidad ofrecida por Ethalend. Cuando depositas tus tokens en el pool, el algoritmo de balanceo venderá algunos de los tokens depositados para comprar el otro para formar el par LP, y usar este par en QuickSwap directamente. Ya que realmente, puedes hacer esto manualmente: reclamar tus tokens ETHA, retirarlos en tu cartera web3, vender el 50% por tokens QUICK, crear algunos tokens LP, y depositarlos en el pool de QuickSwap:
 
-![Pools de QuickSwap para ETHA en Noviembre 2021](../.gitbook/assets/Ethalend-6.png)
+![Pools de QuickSwap para ETHA en Noviembre 2021](../../.gitbook/assets/Ethalend-6.png)
 
 {% hint style="info" %}
 QuickSwap promociona un 223,1% de APY en el par ETHA-QUICK, mientras que Ethalend muestra un 116,73% de APR en el mismo par. Esto se debe a la diferencia entre APY (Annual Percentage Yield, o recompensas autocompensadas) y APR (Annual Percentage Revenue, o recompensas sin autocomponer). Los 2 porcentajes son en realidad exactamente iguales, por lo que no importa la plataforma que elijas para utilizar tus tokens ETHA.
@@ -70,7 +70,7 @@ QuickSwap promociona un 223,1% de APY en el par ETHA-QUICK, mientras que Ethalen
 
 La mejor manera de utilizar las recompensas QUICK que obtendrás al hacer staking de tu ETHA es convertirlas en dQUICK. dQUICK se puede crear en la Dragon's Lair en QuickSwap. Esta es la forma en la que QuickSwap está incentivando a los usuarios a stakear sus QUICK recompensándolos con QUICK adicionales: al bloquear tus tokens QUICK en QuickSwap, ganarás tokens extra.
 
-![APY de Dragon's Lair en QuickSwap a Noviembre de 2021](../.gitbook/assets/Ethalend-7.png)
+![APY de Dragon's Lair en QuickSwap a Noviembre de 2021](../../.gitbook/assets/Ethalend-7.png)
 
 {% hint style="info" %}
 El APY de dQUICK varía mucho entre el 20% y el 40%, dependiendo de la cantidad de tokens QUICK que se stakeen en la Plataforma
@@ -78,7 +78,7 @@ El APY de dQUICK varía mucho entre el 20% y el 40%, dependiendo de la cantidad 
 
 Pero una de las mejores cosas de dQUICK es que es un token aprobado como colateral que puede utilizarse en Mai Finance como garantía. Esto significa que, después de depositar tus recompensas QUICK de Ethalend en QuickSwap y recibir dQUICK, puedes dirigirte a Mai Finance y depositar los tokens dQUICK en una bóveda dQUICK para pedir préstamos de MAI contra ellos.
 
-![Bóveda dQUICK en Mai Finance a Noviembre de 2021](../.gitbook/assets/Ethalend-8.png)
+![Bóveda dQUICK en Mai Finance a Noviembre de 2021](../../.gitbook/assets/Ethalend-8.png)
 
 Algunas cosas sobre las bóvedas de dQUICK:
 
@@ -91,11 +91,11 @@ Como puedes ver, proporcionar dQUICK es muy interesante ya que tendrás un activ
 
 Esta cuestión ya ha sido explicada en este [artículo](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/espanol/tutoriales-de-polygon/que-hacer-con-qi-polygon). En pocas palabras, simplemente depositaremos el Qi en el pool Qi-BAL en Balancer para beneficiarte de un sólido APR, pagado en tokens Qi y BAL adicionales que puedes componer en el mismo pool.
 
-![Estado del pool Qi-BAL a fecha de Noviembre de 2021](../.gitbook/assets/Ethalend-9.png)
+![Estado del pool Qi-BAL a fecha de Noviembre de 2021](../../.gitbook/assets/Ethalend-9.png)
 
 ## Poniendo a funcionar la estrategia
 
-![](../.gitbook/assets/Ethalend-10.png)
+![](../../.gitbook/assets/Ethalend-10.png)
 
 Lo que sigue es una simulación hecha con una inversión inicial de 100 dólares en MAI que puedes tomar prestados de una bóveda existente, o comprar en una plataforma DEX. Además, asume que todas las APRs y APYs actuales permanecen iguales durante el lapso de 1 año, y que todos los tokens mantienen el mismo precio, lo cual (por supuesto) nunca será el caso.
 

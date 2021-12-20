@@ -30,7 +30,7 @@ Si has instalado la última versión de Metamask, ya deberías tener acceso a la
 
 Guarde los cambios y Metamask le cambiará automáticamente a la red Cronos:
 
-![¡Felicidades, ya puede utilizar la red de Cronos!](../.gitbook/assets/Cronos-onboarding-1.png)
+![¡Felicidades, ya puede utilizar la red de Cronos!](../../.gitbook/assets/Cronos-onboarding-1.png)
 
 ## Transfiriendo activos a Cronos
 
@@ -41,7 +41,7 @@ No hay ningún grifo oficial para conseguir tus primeros tokens de CRO para tus 
 * [Faucet de Crystl Finance](https://cronos.crystl.finance/faucet): Después de conectar tu monedero y completar el captcha, podrás solicitar algún CRO que será enviado a tu monedero.
 * [Elk Finance](https://app.elk.finance/#/elknet): Cuando esté pasando sus tokens ELK de una cadena a otra, tendrá la opción de cambiar una pequeña parte de los ELK transferidos al token de gas nativo de la cadena de destino. Esto es especialmente útil si es la primera vez que se transfieren activos a una nueva cadena.
 
-![Usando el puente de ElkNet y convirtiendo $1 para poder pagar el gas](../.gitbook/assets/Cronos-onboarding-2.png)
+![Usando el puente de ElkNet y convirtiendo $1 para poder pagar el gas](../../.gitbook/assets/Cronos-onboarding-2.png)
 
 * [Crypto.com](https://crypto.com): No olvides que Cronos es una cadena profundamente vinculada a Crypto.com. Puedes crear una cuenta allí, comprar tus tokens CRO directamente vinculando una cuenta bancaria y enviarlos a Cronos.
 
@@ -53,7 +53,7 @@ Ten en cuenta que necesitarás algún token de gas para poder realizar transacci
 
 * [Relay Chain](https://app.relaychain.com/transfer#/) es el socio oficial de Mai Finance si quieres puentear tu MAI a Cronos. RelayChain soporta ahora el puenteo de MAI desde unas cuantas cadenas diferentes, por lo que podrás enviar tus activos desde Polygon, Moonriver, Avalanche o Shiden a Cronos. Simplemente selecciona la cadena de destino como Cronos, y el token a enviar (la mayoría de las veces está denominado como MAI, pero a veces también lo puedes encontrar como miMATIC). Selecciona la cantidad a transferir e inicia la transferencia, ésta no debería tardar más de 10 minutos. No olvide de prestar atención a las tarifas de transferencia. Sin embargo, una cosa buena de RelayChain es que te dará algo de CRO en el lado receptor para que puedas cambiar algo de MAI por CRO.
 
-![Transfiriendo MAI desde Polygon a Cronos usando RelayChain](../.gitbook/assets/Cronos-onboarding-3.png)
+![Transfiriendo MAI desde Polygon a Cronos usando RelayChain](../../.gitbook/assets/Cronos-onboarding-3.png)
 
 * [AnySwap](https://anyswap.exchange/#/router) es también una posibilidad para la mayoría de las cadenas si quieres transferir algunos activos a Cronos. Como nota adicional, AnySwap también soporta la transferencia de MAI de Polygon a Cronos.
 * [ElkNet](https://app.elk.finance/#/elknet) es un caso particular, ya que el puente de Elk Finance le permitirá puentear el token ELK de cualquier cadena compatible con EVM a cualquier otra cadena compatible con EVM en la que estén desplegados con la posibilidad de intercambiar una pequeña porción de la cantidad transferida en token de gas (véase la sección dedicada a los faucets justo arriba).
@@ -64,7 +64,7 @@ En el caso de que hagas un puente entre MAI de Polygon y Cronos a través de Rel
 
 Puedes intercambiar el MAI obtenido de Relay Chain en [el hub de Mai Finance](https://app.mai.finance/hub) con una proporción de 1:1, entonces podrá utilizar su verdadero MAI en otras plataformas.
 
-![Intercambiando MAI(RelayChain) por MAI en Cronos usando el Hub](../.gitbook/assets/Cronos-onboarding-4.png)
+![Intercambiando MAI(RelayChain) por MAI en Cronos usando el Hub](../../.gitbook/assets/Cronos-onboarding-4.png)
 
 No olvides que tendrás que convertir tus MAI verdaderos en la versión de la cadena de relevo si quieres pasarlos de Cronos a otra cadena.
 
@@ -78,7 +78,7 @@ Al estar Cronos vinculado a Crypto.com, una gran cantidad de inversiones están 
 
 * [CroDex](https://swap.crodex.app/#/swap): Se trata de uno de los principales DEX (Exchanges descentralizados) y AMM (Automated Market Maker) en Cronos, y es un fork de Uniswap v2 como QuickSwap. Podrás intercambiar tus activos, participar en la minería de liquidez proporcionando pares LP (Liquidity Providing) en granjas, o apostar el token nativo de la plataforma para ganar más recompensas. CroDex es también el primer socio oficial de Mai Finance en Cronos, y el único lugar donde podrás intercambiar MAI por otros activos, así como participar en programas de farmeo de liquidez con los pares MAI-USDC y MAI-CRO.
 
-![Farmeando con MAI en CroDex](../.gitbook/assets/Cronos-onboarding-5.png)
+![Farmeando con MAI en CroDex](../../.gitbook/assets/Cronos-onboarding-5.png)
 
 Cuando cultives en CroDex, obtendrás recompensas en tokens CRX que puedes apostar en una Bóveda para obtener más tokens CRX, pero hay otras opciones (mejores) que serán presentadas en un futuro tutorial.
 
