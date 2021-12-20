@@ -26,7 +26,7 @@
   * [Come iniziare con Moonriver](tutorial/moonriver/how-to-get-started-on-moonriver.md)
 * [Cronos](tutorial/cronos/README.md)
   * [Come iniziare con Cronos](tutorial/cronos/how-to-get-started-on-cronos.md)
-  * [Farming Legos with CroDex](tutorial/cronos/farming-legos-with-crodex.md)
+  * [Farm in stile Lego su CroDex](tutorial/cronos/farming-legos-with-crodex.md)
 * [Harmony](tutorial/harmony/README.md)
   * [Come iniziare con Harmony](tutorial/harmony/how-to-get-started-on-harmony.md)
 
