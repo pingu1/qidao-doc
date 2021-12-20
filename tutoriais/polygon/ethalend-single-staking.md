@@ -1,23 +1,23 @@
 ---
 description: >-
-  Most people will use their MAI loan to buy other assets. However, some very
-  interesting strategies can be used with MAI directly, and the one using
-  Ethalend is a very good one.
+  A maioria das pessoas tomam empréstimos de MAI para comprar mais ativos.
+  Entretanto, algumas estratégias interessantes podem ser usadas com MAI
+  diretamente, e usar a Ethalend é uma delas.
 ---
 
-# MAI single-staking with Ethalend
+# Staking único de MAI com Ethalend
 
-## Intro
+## Introdução
 
-One of the missions of this website and the collection of tutorials that are offered is to make DeFi user friendly by demystifying the most complex protocols. This vision is also shared by the team behind [Ethalend](https://www.ethalend.org), and this guide will present a perfect way to use this platform in conjunction with Mai Finance to amplify your stable farming yields.
+Uma da missōes deste website e a coleção de tutoriais que são ofericidos é fazer o DeFi amigável pela desmistificação dos protocólos mais complexos. Esta visão é também compartilhada pelo time atrás da [Ethalend](https://www.ethalend.org), e este guia irá apresentar uma maneira perfeita para usar estar plataforma junto com a Mai Finance para amplificar seu rendimento de farming em stablecoins.
 
-## Ethalend presentation
+## Apresentando a Ethalend
 
 ![](../../.gitbook/assets/Ethalend-1.png)
 
-### What is Ethalend
+### O que é Ethalend
 
-Ethalend is a composable protocol that abstracts the complexity in DeFi to provide algorithmically optimal yield. It is not a yield aggregagor, but a yield optimizer. You will be able to deposit your assets on the platform, and the algorithm in charge of the pool in which you deposit your assets will actually invest them in the best way possible. Yields are then distributed in the native token of Ethalend, the ETHA token, as well as some partner tokens, including Qi from Mai Finance that you can get by depositing your MAI in the MAI-USDT eVault. You can read more about Ethalend via their [official documentation](https://docs.ethalend.org), or by reading this excellent [interview of the co-founder](https://ambcrypto.com/un-complicating-defi-an-interview-with-ethalend-co-founder-danny-b/).
+Ethalend é um protocolo componível que abstrai a complexidade no DeFi para prover rendimentos otimizados por algoritmos. Não se trata de um agregador de rendimentos, mas de um otimizador de rendimentos. Você será capaz de depositar átivos na plataforma, e o algoritmo encarregado da pool em que você depositou seus ativos irá, na verdade, investí-los da melhor maneira possível. Rendimentos são então distribuidos no token nativo da Ethalend, o token ETHA, assim como alguns tokens parceiros, incluindo Qi da Mai Finance que você pode obter ao depositar seu MAI no eVault MAI-USDT. Você pode ler mais sobre Ethalend pela [documentação oficial,](https://docs.ethalend.org) ou lendo esta excelente[ entrevista do cofundador](https://ambcrypto.com/un-complicating-defi-an-interview-with-ethalend-co-founder-danny-b/).
 
 ### Create your Ethalend wallet from your web3 wallet
 

@@ -15,7 +15,7 @@
   * [Farming, staking, ou ambos?](tutoriais/polygon/farming-or-staking-or-both.md)
   * [Como combinar recompensas de farming e empréstimos](tutoriais/polygon/how-to-combine-farming-and-borrowing-rewards.md)
   * [Forks da OHM na rede Polygon: o caso da KLIMA](tutoriais/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
-  * [MAI single-staking with Ethalend](tutoriais/polygon/ethalend-single-staking.md)
+  * [Staking único de MAI com Ethalend](tutoriais/polygon/ethalend-single-staking.md)
 * [Avalanche](tutoriais/avalanche/README.md)
   * [Como começar na rede Avalanche](tutoriais/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](tutoriais/fantom/README.md)
