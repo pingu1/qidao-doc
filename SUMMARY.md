@@ -24,6 +24,7 @@
   * [What to do with MAI on Fantom](tutoriais/fantom/what-to-do-with-mai-on-fantom.md)
 * [Moonriver](tutoriais/moonriver/README.md)
   * [How to get started on Moonriver](tutoriais/moonriver/how-to-get-started-on-moonriver.md)
+  * [Farming MAI on SolarBeam](tutoriais/moonriver/farming-mai-on-solarbeam.md)
 * [Cronos](tutoriais/cronos/README.md)
   * [How to get started on Cronos](tutoriais/cronos/how-to-get-started-on-cronos.md)
   * [Farming Legos with CroDex](tutoriais/cronos/farming-legos-with-crodex.md)
