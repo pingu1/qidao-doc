@@ -21,7 +21,7 @@ Dieser Leitfaden zeigt dir Schritt für Schritt, wie du Mai Finance nutzen kanns
 Um genauer zu veranschaulichen, wie du das machen kannst, werde ich die neueste PolyPup-Farm verwenden. Dies dient nur zu Bildungszwecken und sollte auf keinen Fall als Finanzberatung verwendet werden. Außerdem basiert der Begriff "sicher" hier nur auf meiner persönlichen Einschätzung. Wie immer solltest du dich selbst informieren. Abschließend möchte ich sagen, dass ich persönlich diese Farm nicht empfehle.
 {% endhint %}
 
-![](../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
+![](../../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
 
 ## Farming Lebenszyklus
 
@@ -41,11 +41,11 @@ Du kannst deine MATIC-Token in deinem Vault deponieren, aber du kannst sie auch 
 
 Wenn du MAI Stable Coins geliehen hast, kannst du die [Anchor-Seite](https://app.mai.finance/anchor) auf Mai Finance nutzen, um die Hälfte deines Kredits in USDC umzuwandeln. Wenn du nämlich mit LP-Paaren farmst, müssen die beiden Teile des Paares im Verhältnis 1:1 bereitgestellt werden.
 
-![Nutze den Anchor Swap um 30 MAI in USDC zu tauschen](../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
+![Nutze den Anchor Swap um 30 MAI in USDC zu tauschen](../../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
 
 Je nachdem, auf welcher Farm du farmen willst, musst du deine beiden Stable Coins (MAI und USDC) auf einer DEX-Plattform zu einem gültigen LP-Paar kombinieren. Da ich bei Polypup einsteigen will und diese Farm QuickSwap-LPs akzeptiert, muss ich [QuickSwap](https://quickswap.exchange/#/) aufrufen und dort mein Paar erstellen.
 
-![ LP tokens mit MAI USDC erzeugen](../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
+![ LP tokens mit MAI USDC erzeugen](../../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
 
 Jetzt kann gefarmt werden.
 
@@ -53,7 +53,7 @@ Jetzt kann gefarmt werden.
 
 Jetzt, wo du ein paar LP-Token hast, kannst du auf die Farm-Website gehen und sie einzahlen, um mit dem Sammeln der Farm-Token zu beginnen. In unserem Beispiel habe ich meine MAI/USDC-Münzen in den richtigen Pool eingezahlt und angefangen, BALL-Münzen zu sammeln.
 
-![BALLs in dem Pool verdienen](../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
+![BALLs in dem Pool verdienen](../../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
 
 Im Moment kannst du sehen, dass ich mit MAI/USDC 176,99% APR erhalte. Je nachdem, wie viel Liquidität im Pool vorhanden ist und wie hoch der Preis des BALL-Tokens ist, wird sich dieser effektive Jahreszins im Laufe der Zeit ändern.
 
@@ -72,7 +72,7 @@ Jetzt, wo du einige Farm-Tokens hast, hast du normalerweise die Wahl zwischen
 
 Mai Finance bietet eine dritte Option, mit der du beides tun kannst. Sobald du deine Belohnung geerntet hast, triffst du einfach deinen bevorzugten DEX, der den Farm-Token unterstützt. Normalerweise findest du einen Link zu einem DEX im Menü der Farm. Der Link enthält die Adresse des Tokens, mit der du ihn leicht handeln kannst.
 
-![Tausche BALL gegen MATIC](../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
+![Tausche BALL gegen MATIC](../../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
 
 Dann bin ich wieder an dem Punkt, an dem ich MATIC-Tokens in meiner Wallet habe, die ich bei Mai Finance als Sicherheit hinterlegen kann. Wenn ich das tue, kann ich mir MAI leihen, einen Teil davon in USDC umtauschen, ein LP-Paar erstellen und es wieder in die Farm einzahlen. Durch diese Umwandlung "sichere" ich mir 100 % meiner Belohnung, indem ich sie in eine stabilere Kryptowährung (hier MATIC) tausche und 50 % meiner Belohnung wieder in den Farming-Pool einführe (bzw. in diesem Beispiel 46 % wegen der 4 % Einzahlungsgebühr).
 

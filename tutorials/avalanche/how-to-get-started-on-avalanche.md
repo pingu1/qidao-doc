@@ -16,7 +16,7 @@ Avalanche ist zu 100 % EVM-kompatibel mit der bestehenden Ethereum-Toolchain und
 
 Bevor du das Avalanche-Netzwerk nutzen kannst, musst du eine Wallet-Adresse erstellen. Es gibt verschiedene Wallet-Typen, die verwendet werden können, darunter **Software-Wallets** wie Metamask oder das native [Avalanche Wallet](https://wallet.avax.network) sowie **Hardware-Wallets** wie [Trezor](https://trezor.io/coins/) oder [Ledger](https://support.ledger.com/hc/en-us/articles/360020765779-Avalanche-AVAX-?docs=true).
 
-Für dieses Tutorial werden wir Metamask verwenden. Wenn du Metamask nicht installiert hast, findest du eine Anleitung unter ["Der Start auf Polygon"](../investment-tutorials/how-to-get-started-on-polygon.md).
+Für dieses Tutorial werden wir Metamask verwenden. Wenn du Metamask nicht installiert hast, findest du eine Anleitung unter ["Der Start auf Polygon"](../polygon/how-to-get-started-on-polygon.md).
 
 ### Avalanche zu Metamask hinzufügen
 
@@ -30,7 +30,7 @@ Um das Avalanche-Netzwerk nutzen zu können, musst du es zu Metamask hinzufügen
 
 Wenn du die Änderungen speicherst, schaltet Metamask automatisch auf das Avalanche-Netzwerk um.
 
-![Du bist nun erfolgreich auf Avalanche!](../.gitbook/assets/avax\_MM.png)
+![Du bist nun erfolgreich auf Avalanche!](../../.gitbook/assets/avax\_MM.png)
 
 ## Token auf Avalanche transferieren
 
@@ -50,7 +50,7 @@ Im Avalanche-Hauptnetz gibt es derzeit keine Faucets. Wenn du AVAX benötigst, u
   * Sobald die Überbrückung abgeschlossen ist (in der Regel in weniger als 10 Minuten), kannst du deine Wallet auf das Avalanche-Netzwerk umstellen und du siehst dein ELK und einen Teil der AVAX bereit zum Einsatz. Jetzt kannst du deinen ELK direkt auf der Website gegen jeden unterstützten Token auf Avalanche tauschen.
   * Das Gleiche kannst du in umgekehrter Richtung tun, um zu Polygon oder einer anderen unterstützten Chain zurückzukehren.
 
-![Elknet Oberfläche](../.gitbook/assets/AVAX\_elkswap.png)
+![Elknet Oberfläche](../../.gitbook/assets/AVAX\_elkswap.png)
 
 ## DeFI auf Avalanche
 
@@ -60,15 +60,15 @@ Avalanche hat in den letzten Monaten ein starkes Wachstum erlebt, was nicht nur 
 * [Beefy Finance](https://app.beefy.finance/#/avax) ist den meisten deFI-Nutzern wahrscheinlich bekannt, da es auf anderen Chains wie Binance, Fantom, Harmony, Polygon und anderen verfügbar ist. Beefy ist ein sogenannter Autocompounder und bietet derzeit großartige Farming-APYs sowohl für Single-Token- als auch für Dual-Token-Farmen. Beefy bietet Autocompounding-Funktionen für die LPs [MAI/AVAX](https://app.beefy.finance/#/avax/vault/joe-mai-wavax) und [MAI/USDC.e](https://app.beefy.finance/#/avax/vault/joe-mai-usdc.e), die du bei Trader Joe findest.
 * [Benqi](https://app.benqi.fi/markets) ist ein Marktprotokoll ähnlich dem von Aave und war das erste seiner Art im Netzwerk. Zu den unterstützten Sicherheitstoken gehören Avalanche, Dai, Link, Tether, USDC, WBTC und WETH.
 
-![BenQI Oberfläche](../.gitbook/assets/AVAX\_benqi.png)
+![BenQI Oberfläche](../../.gitbook/assets/AVAX\_benqi.png)
 
 * [TraderJoe](https://www.traderjoexyz.com/#/home) ist eine dezentrale Börse und hat sich mit einer intuitiven Benutzeroberfläche und einer großartigen Zapping-Funktion, die es Nutzern ermöglicht, einen Token direkt in einen Liquiditätspool-Token umzuwandeln, zu einem der Top-Projekte auf Avalanche entwickelt. TraderJoe ist außerdem offizieller Partner eines MAI-USDC LP Pool auf Avalanche.
 
-![](../.gitbook/assets/AVAX\_joe.png)
+![](../../.gitbook/assets/AVAX\_joe.png)
 
 * [YieldYak](https://yieldyak.com/farms) ist ein weiterer Autocompounder, der ebenfalls hohe Farming-APYs bietet. Seine Single-Token-Farmen arbeiten in Verbindung mit BenQI, um höhere Renditen zu erzielen, und sind daher als riskant zu betrachten.
 
-![](../.gitbook/assets/avax\_yak.png)
+![](../../.gitbook/assets/avax\_yak.png)
 
 ## Andere nützliche Links
 

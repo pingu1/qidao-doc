@@ -11,7 +11,7 @@ description: >-
 
 Bevor wir uns damit beschäftigen, was MAI ist, müssen wir verstehen, was ein Stablecoin ist. Ein Stablecoin ist eine Art von Kryptowährung, die darauf ausgelegt ist, einen stabilen Marktpreis zu bewahren. Die meisten Stablecoins sind an den US-Dollar gekoppelt (eine Währung, bei der der Preis so gestaltet ist, dass er gleich bleibt wie ein bestimmter Vermögenswert), aber es gibt auch andere Stablecoins, die an andere Rohstoffe wie Gold (wie EGold) oder Silber (SilverCoin) gekoppelt sind.
 
-Es gibt jedoch 2 Hauptkategorien, in die alle Stablecoins eingeordnet werden können: **gesicherte **und nicht **gesicherte**. Bei den **gesicherten **Stablecoins handelt es sich um solche, die die Vermögenswerte halten, an die ihre Währung gekoppelt ist, während die **nicht gesicherten** Stablecoins Algorithmen verwenden, um das Angebot an Token zu kontrollieren und den Preis auf einem bestimmten Niveau zu halten.
+Es gibt jedoch 2 Hauptkategorien, in die alle Stablecoins eingeordnet werden können: **gesicherte** und nicht **gesicherte**. Bei den **gesicherten** Stablecoins handelt es sich um solche, die die Vermögenswerte halten, an die ihre Währung gekoppelt ist, während die **nicht gesicherten** Stablecoins Algorithmen verwenden, um das Angebot an Token zu kontrollieren und den Preis auf einem bestimmten Niveau zu halten.
 
 ## Die IRON Finance Katastrophe
 
@@ -27,9 +27,9 @@ Man fing an, den IRON Stablecoin zu kaufen, um ihn für USDC zu verkaufen und so
 
 ## Was ist MAI?
 
-MAI ist eine Stablecoin, der durch gebundene Sicherheiten gesichert ist. Die Ausgabe von MAI kann entweder durch die Hinterlegung von genehmigten Token in Vaults oder durch die Verwendung von **Anchor **erfolgen.
+MAI ist eine Stablecoin, der durch gebundene Sicherheiten gesichert ist. Die Ausgabe von MAI kann entweder durch die Hinterlegung von genehmigten Token in Vaults oder durch die Verwendung von **Anchor** erfolgen.
 
-Bei der Prägung von MAI durch die Hinterlegung von genehmigten Token muss das **CDR **(Collateral to Debt Ratio) zwischen 150% liegen, das heißt, wenn du eine Sicherheit im Wert von $100 hinterlegst, dürfen deine neu geprägten MAI höchstens $66,6667 wert sein. Auf die Gründe hierfür werden wir später in diesem Artikel eingehen.
+Bei der Prägung von MAI durch die Hinterlegung von genehmigten Token muss das **CDR** (Collateral to Debt Ratio) zwischen 150% liegen, das heißt, wenn du eine Sicherheit im Wert von $100 hinterlegst, dürfen deine neu geprägten MAI höchstens $66,6667 wert sein. Auf die Gründe hierfür werden wir später in diesem Artikel eingehen.
 
 Eine weitere Möglichkeit, MAI zu prägen, ist der [Anchor](https://app.mai.finance/anchor), d.h. wenn du einen Stablecoin (ab September 2021 kannst du MAI mit DAI, USDC und USDT prägen) gegen MAI tauschst, werden neue MAI geprägt und der hinterlegte Stablecoin wird im Treasury als Sicherheit gehalten. Wenn du in der Zwischenzeit deine Stablecoins zurücktauschst, werden die MAI, die du zur Verfügung gestellt hast, verbrannt.
 
@@ -67,7 +67,7 @@ Wenn der Wert der Sicherheiten steigt, können Stablecoins ausgegeben werden, da
 
 ## Nachwort
 
-Wie du in diesem Artikel gesehen hast, ist der MAI Stablecoin ein **überbesicherter **Typ von, was bedeutet, dass es immer genug Sicherheiten gibt, um den Preis des MAI Token zu stützen. Dies sollte jenen Anlegern, die zögern, in Projekte zu investieren, die Stablecoins prägen, eine gewisse Beruhigung verschaffen. Außerdem solltest du wissen, dass mit der Ausweitung von MAI auf andere Blockchains mehr MAI auf dem Markt sein wird, was zu einer geringeren Volatilität des MAI-Preises führen sollte.
+Wie du in diesem Artikel gesehen hast, ist der MAI Stablecoin ein **überbesicherter** Typ von, was bedeutet, dass es immer genug Sicherheiten gibt, um den Preis des MAI Token zu stützen. Dies sollte jenen Anlegern, die zögern, in Projekte zu investieren, die Stablecoins prägen, eine gewisse Beruhigung verschaffen. Außerdem solltest du wissen, dass mit der Ausweitung von MAI auf andere Blockchains mehr MAI auf dem Markt sein wird, was zu einer geringeren Volatilität des MAI-Preises führen sollte.
 
 Kürzlich wurden die Tresoranreize bei Mai Finance eingeführt. Wenn du verstehen willst, was das ist, bleib dran, denn es wird einen Artikel zu diesem Thema geben. Diese wird noch mehr zur Stabilität des MAI-Preises beitragen.
 

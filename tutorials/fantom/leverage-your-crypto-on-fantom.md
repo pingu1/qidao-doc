@@ -16,7 +16,7 @@ Mai Finance has launched its lending platform on Fantom with many different vaul
 
 [Yearn Finance](https://beta.yearn.finance/#/home) is a group of protocols running on the Ethereum Mainnet and other blockchains that allow users to optimize their earnings on crypto assets through lending and trading services. On Fantom, the product that we will be using is the vaults on yearn finance. This is a tool that will accept single token deposits and will make you earn yields on this deposit. As a proof of deposit, you will receive a yvToken. In our case, we will deposit DAI and will get yvDAI in exchange.
 
-![yearn vaults on Fantom network](../.gitbook/assets/ftm-leverage-yv1.png)
+![yearn vaults on Fantom network](../../.gitbook/assets/ftm-leverage-yv1.png)
 
 {% hint style="info" %}
 The yearn finance website is still in beta mode on Fantom. The team is still working on the platform and APRs/APYs aren't showing. If you head to the Iron Bank tab, which is the lending/borrowing protocol on yearn platform, you'll see that lending DAI is getting \~8% APR. Please invest at your own risk.
@@ -28,7 +28,7 @@ Once you deposited your DAI on yearn finance, you should have yvDAI in your wall
 
 Mai Finance accepts a lot of different yield bearing tokens as collateral, including yvDAI. You can now deposit this token and borrow MAI against it.
 
-![Deposit your yvToken on Mai Finance](../.gitbook/assets/ftm-leverage-yv2.png)
+![Deposit your yvToken on Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
 
 The yvDAI vault has a liquidation threshold of 110%, this means that you can borrow MAI so that the ratio between your collateral value and the debt value is 110%. Be careful that 110% is actually the ratio at which your vault will be liquidated. You need to keep the ratio above this minimum threshold. Since DAI doesn't vary much in price (less than a few cents up or down) it's possible to keep a "safe" CDR (**C**ollateral to **D**ebt **R**atio) of 115%, but feel free to keep something higher.
 
@@ -50,9 +50,9 @@ $$
 
 On Fantom, the main source of liquidity for MAI is [BeethovenX](https://app.beets.fi/#/trade). This is the main place where you will be able to swap your MAI tokens for more DAI for our strategy.
 
-![Swapping MAI for more DAI](../.gitbook/assets/ftm-leverage-yv3.png)
+![Swapping MAI for more DAI](../../.gitbook/assets/ftm-leverage-yv3.png)
 
-This is the last step of our loop. Now that you have more DAI you can deposit them in a Yearn vault and repeat the loop. Doing so increases the amount of assets you have in the Yearn vault, meaning that you will collect more rewards by lending your DAI on that platform. The APR/APY remains the same, but because you have more assets, you earn more yield, and if you compare to your initial investment, it's your APR that increases. If you want to get more examples on what APR you can achieve using the yvDAI loops, please go read our [camDAI token guide](../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) for Polygon that uses the exact same strategy but different tools.
+This is the last step of our loop. Now that you have more DAI you can deposit them in a Yearn vault and repeat the loop. Doing so increases the amount of assets you have in the Yearn vault, meaning that you will collect more rewards by lending your DAI on that platform. The APR/APY remains the same, but because you have more assets, you earn more yield, and if you compare to your initial investment, it's your APR that increases. If you want to get more examples on what APR you can achieve using the yvDAI loops, please go read our [camDAI token guide](../../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) for Polygon that uses the exact same strategy but different tools.
 
 {% hint style="success" %}
 BeethovenX is actually a fantastic opportunity to farm yields with your borrowed MAI. Simply deposit your MAI in the MAI-DAI-USDC pool (APR of \~30% as of November 2021) if you cannot achieve a better APR using leveraged loops.
@@ -70,15 +70,13 @@ $$
 
 To deposit our DAI, we will visit the Beefy Finance app and select Scream as the platform on which we will farm yields. You can also add the DAI filter in order to get the direct DAI deposit.
 
-![Deposit your DAI on Beefy using Scream](../.gitbook/assets/ftm-leverage-beefy1.png)
+![Deposit your DAI on Beefy using Scream](../../.gitbook/assets/ftm-leverage-beefy1.png)
 
 As you can see, Beefy is already giving an unbelievable APY on DAI single deposits. Once you have your DAI deposited on Beefy, you should have a proof of deposit in your wallet under the form of mooScreamDAI tokens. As for the yvDAI token, the mooScreamDAI token is a yield bearing deposit, meaning that you asset is still used on Scream and compounded on Beefy, earning yields. But you will be able to use this token on Mai Finance to borrow MAI against them.
 
 ### Deposit your mooScreamToken on Mai Finance
 
 Once you deposited your DAI on yearn finance, you should have mooScreamDAI in your wallet. You can use the exact same steps as for the Yearn Vault strategy above, the only difference is that the mooScreamDAI liquidation ratio is 135%. Since DAI is a stable coin, it's still possible to borrow MAI and keep a CDR very close to the liquidation ration. For our exemple, we will aim at a 140% CDR, and with the same formula as above, we can calculate the amount of MAI we can mint with 100$ worth of DAI.
-
-
 
 $$
 MAI_{available}=\frac{100-0*1.4}{1.4}=71.43
@@ -110,7 +108,7 @@ A debt ceiling represents the maximum number of MAI that can be minted for a giv
 
 You can at all time verify the amount of MAI that can be minted on the [vault creation page](https://app.mai.finance/vaults/create), but you will usually notice that there aren't any more MAI if you get the following error message:
 
-![Error message received when debt ceiling is reached](../.gitbook/assets/ftm-leverage-error.png)
+![Error message received when debt ceiling is reached](../../.gitbook/assets/ftm-leverage-error.png)
 
 This error message will appear even if your health factor is correct. In most cases, waiting for the ceiling to be increased is the only solution. Keep an eye on twitter or on Discord to know when this happen.
 

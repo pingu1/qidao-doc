@@ -28,7 +28,7 @@ Bluechip-Projekte sind die DeFi-Anwendungen, die sich als solide erwiesen haben 
 
 Im Polygon-Netzwerk bietet Balancer einen Pool an, der aus den 4 wichtigsten Stable Coins besteht: DAI, USDC, USDT und MAI (miMATIC). Dieser stabile Pool hat derzeit einen ziemlich stabilen APR von \~20%.
 
-![Stable coin pool, August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
+![Stable coin pool, August 2021](../../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
 
 Das Beste an Balancer ist, dass du die 4 Token gar nicht besitzen musst, um in den Pool einzuzahlen. Balancer generiert automatisch eine ausgewogene Kombination mit jeder Einzahlung, die du tätigst. Das heißt, wenn du MAI im Wert von 100$ hast, kannst du sie einfach in den Balancer-Pool einzahlen und den Algorithmus sie so verteilen lassen, dass ein Verhältnis von 25% für jeden Coin entsteht, abhängig von ihrem jeweiligen Preis zum Zeitpunkt der Einzahlung.
 
@@ -36,7 +36,7 @@ Die Belohnung für den Pool wird mit dem BAL-Token ausgezahlt, der wöchentlich 
 
 Der komplette Ablauf würde in etwa so aussehen
 
-![](../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
+![](../../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
 Wenn du mehr darüber wissen willst, wie du Mai Finance nutzen kannst, um deine Kryptowährung zu verleihen und MAI zu leihen (anstatt deine Kryptowährung zu verkaufen, um MAI zu kaufen), lies andere Anleitungen auf dieser Seite. Du kannst sogar AAVE in den Kreislauf einbeziehen, um noch mehr zu verdienen.
 
@@ -65,7 +65,7 @@ Belohnungen auf Curve werden gewährt in
 * WMATIC, mit denen du dann die obige Schleife wiederholen und dein Darlehen und dein investiertes Kapital erhöhen kannst
 * CRV-Token, der auch als Sicherheit bei Mai Finance verwendet werden kann, um mehr MAI zu leihen und dein investiertes Kapital zu erhöhen
 
-![](../.gitbook/assets/screen-shot-2021-08-11-at-12.14.27-pm.png)
+![](../../.gitbook/assets/screen-shot-2021-08-11-at-12.14.27-pm.png)
 
 ### AAVE
 
@@ -82,7 +82,7 @@ Wenn du derzeit dem MAI/USDC LP (**L**iquidität **P**rovider) Pool auf QuickSwa
 * Handelsgebühren
 * QUICK-Tokens
 
-![MAI/USDC pool auf QuickSwap, August 2021](../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
+![MAI/USDC pool auf QuickSwap, August 2021](../../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
 ## Degen Farmenand aggregators
 
@@ -100,7 +100,7 @@ Adamant unterstützt derzeit ein paar Pools, die das MAI/USDC LP-Paar akzeptiere
 * DinoSwap: Die Dino Belohnung wird in mehr MAI/USDC LP und WMATIC Belohnungen getauscht
 * Mai Finance: Qi Belohnung wird in mehr MAI/USDC LP und WMATIC Rewards getauscht
 
-![QuickSwap MAI/USDC Pool auf Adamant](../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
+![QuickSwap MAI/USDC Pool auf Adamant](../../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
 
 {% hint style="info" %}
 Die Screenshots des QuickSwap-Pools auf der QuickSwap-Website (siehe Absatz oben) und von Adamant wurden am selben Tag aufgenommen, zeigen aber unterschiedliche APYs (Annual Percentage Yield).
@@ -135,7 +135,7 @@ Andere Farmen akzeptieren möglicherweise auch den MAI/USDC-Pool. Wenn du über 
 
 [Impermax](https://polygon.impermax.finance) ist eine Plattform, die es Nutzern ermöglicht, ihre LP-Tokens für höhere Renditen zu nutzen. Das Ziel ist ganz einfach: Indem man LP-Token zur Verfügung stellt und sie als Sicherheit verwendet, kann man mehr von den 2 Basiswerten leihen, um mehr LP-Token zu generieren und den Kreislauf zu wiederholen.
 
-![Impermax loop](../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
+![Impermax loop](../../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
 
 Dabei ist der/die Nutzer/in einem impermanenten Verlust ausgesetzt, der durch die Anzahl der Wiederholungen der Schleife noch vergrößert wird. Auch das Risiko eines Totalverlusts wird vervielfacht, wenn zu viele Schleifen angewendet werden. Wenn nämlich der APR vervielfacht wird, werden die Preisschwankungen der beiden Coins, die das Paar bilden, durch die Hebelwirkung verstärkt, was zu einer schnelleren Liquidation führt.
 
@@ -157,11 +157,11 @@ Da alle Zinssätze durch die Anzahl der Anwendungen der Schleife vergrößert we
 
 Am Ende verwendest du den Basiszins auf einen viel größeren Wert, der viel größere Zinsen einbringt und damit den effektiven Jahreszins deiner ursprünglichen Position erhöht.
 
-![Ein Beispiel des Impermax Dashboards mit einem anfänglichen $70.52 MAI/USDC Paar](../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
+![Ein Beispiel des Impermax Dashboards mit einem anfänglichen $70.52 MAI/USDC Paar](../../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
 
 Ich kann ganz einfach sehen, wie viel ich als Sicherheit einsetze, wie viel ich ursprünglich investiert habe, wie hoch die Leverage Ratio ist und wie hoch die Liquidationswerte aufgrund der Leverage Ratio sind. Mit dieser Position erhalte ich zum Zeitpunkt der Erstellung dieses Artikels die folgenden Ratios
 
-![Gewinne und Verluste zum Zeitpunkt des Hebelns](../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
+![Gewinne und Verluste zum Zeitpunkt des Hebelns](../../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
 
 Der effektive Jahreszins wird in IMX-Token gewährt, die entweder in mehr MAI/USDC getauscht werden können (nutze die Macht von Mai Finance, um Kredite zu 0 % Zinsen aufzunehmen, RFTM) oder um Liquidität in bestimmten Pools zu schaffen, die IMX auf Impermax akzeptieren.
 
@@ -169,7 +169,7 @@ Der effektive Jahreszins wird in IMX-Token gewährt, die entweder in mehr MAI/US
 
 In der App kannst du auch Liquidität für diejenigen bereitstellen, die ihre Positionen hebeln wollen (sie brauchen Basiswerte, um mehr LP-Token zu generieren). Das Verleihen von Vermögenswerten ist eine großartige Möglichkeit, um Rendite zu erzielen und den Kreditnehmern das gesamte Risiko zu überlassen. Je mehr Nutzerinnen und Nutzer leihen, desto höher ist auch der APR des Angebots.
 
-![Raten für MAI auf Impermax zum Zeitpunkt des Tutorials](../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
+![Raten für MAI auf Impermax zum Zeitpunkt des Tutorials](../../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
 
 Dies ist eine weitere tolle Möglichkeit, deinen 0%-Kredit bei Mai Finance zu optimieren. Du musst nicht nur nichts bezahlen, um dir MAI zu leihen, sondern kannst auch eine Menge Zinsen verdienen, indem du es einfach auf Impermax einzahlst.
 

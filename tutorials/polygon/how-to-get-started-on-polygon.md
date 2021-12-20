@@ -21,7 +21,7 @@ Polygon hat es geschafft, Vertrauen als zuverlässige Alternative zu dem Ethereu
 
 ## Ein Wallet erstellen
 
-Bevor du das Polygon Netzwerk benutzen kannst, brauchst du ein entsprechendes Wallet. Es gibt viele verschiedene Wallet-Typen, **Software- (**Metamask, TrustWallet...**)** und **Hardware- (**Trezor, Ledger ...**) **Wallets. In dieser Anleitung nutzen wir das Software-Wallet _Metamask._
+Bevor du das Polygon Netzwerk benutzen kannst, brauchst du ein entsprechendes Wallet. Es gibt viele verschiedene Wallet-Typen, **Software- (**Metamask, TrustWallet...**)** und **Hardware- (**Trezor, Ledger ...**)** Wallets. In dieser Anleitung nutzen wir das Software-Wallet _Metamask._
 
 ### Metamask downloaden
 
@@ -35,23 +35,23 @@ Sobald du die Erweiterung installiert hast, solltest du das Logo von Metamask be
 
 Wenn du fertig bist, solltest du diese Ansicht sehen:
 
-![Metamask's Interface](<../.gitbook/assets/image (27).png>)
+![Metamask's Interface](<../../.gitbook/assets/image (27).png>)
 
 ### Die Polygon Blockchain hinzufügen
 
 Wie du in der oberen rechten Ecke von Metamask siehst, benutzt du aktuell das Ethereum Mainnet. Wenn du hier drauf klickst, kannst du andere Netzwerke auswählen, das Polygon Netzwerk ist aber bisher nicht dabei. Keine Sorge, du kannst das Polygon Netzwerk über den untersten Eintrag "Spezieller RPC" hinzufügen, füge dazu folgende Daten ein:
 
-![](<../.gitbook/assets/image (16).png>)
+![](<../../.gitbook/assets/image (16).png>)
 
 Sobald du dies getan hast, kannst du über das selbe Menü zum Polygon Netzwerk wechseln, indem du es aus der Liste der Netzwerke auswählst.
 
 ## Kostenlos MATIC erhalten
 
-Du bist nun bereit das Polygon Netzwerk zu benutze, allerdings hast du noch kein MATIC in deinem Wallet, weshalb du so keine Transaktionen durchführen kannst. Eine Transaktion auf der Polygon Blockchain erfordert immer eine kleine Gebühr, welche in MATIC-Tokens bezahlt werden muss. (Diese Gebühr wird auch als **Gas **bezeichnet und geht an die verschiedenen Validatoren, welche das Polygon Netzwerk am Laufen halten)
+Du bist nun bereit das Polygon Netzwerk zu benutze, allerdings hast du noch kein MATIC in deinem Wallet, weshalb du so keine Transaktionen durchführen kannst. Eine Transaktion auf der Polygon Blockchain erfordert immer eine kleine Gebühr, welche in MATIC-Tokens bezahlt werden muss. (Diese Gebühr wird auch als **Gas** bezeichnet und geht an die verschiedenen Validatoren, welche das Polygon Netzwerk am Laufen halten)
 
-Zum Glück gibt die diese [Seite](https://matic.supply) kostenlos etwas MATIC, um deine ersten Transaktionen durchzuführen (Diese Art von Seite wird auch als _Faucet _bezeichnet). Alles was du dazu machen musst, ist dein Wallet mit der Seite zu verbinden und ein Captcha zu lösen. Diese 0,002 MATIC (weniger als 1 Cent) reichen aus, um eine Reihe von Transaktionen auf dem Polygon Netzwerk durchzuführen
+Zum Glück gibt die diese [Seite](https://matic.supply) kostenlos etwas MATIC, um deine ersten Transaktionen durchzuführen (Diese Art von Seite wird auch als _Faucet_ bezeichnet). Alles was du dazu machen musst, ist dein Wallet mit der Seite zu verbinden und ein Captcha zu lösen. Diese 0,002 MATIC (weniger als 1 Cent) reichen aus, um eine Reihe von Transaktionen auf dem Polygon Netzwerk durchzuführen
 
-![Getting FREE MATIC](<../.gitbook/assets/image (26).png>)
+![Getting FREE MATIC](<../../.gitbook/assets/image (26).png>)
 
 Manchmal kann es vorkommen dass diese Website überlastet ist, du kannst dann auch [diese](https://macncheese.finance/matic-polygon-mainnet-faucet.php) ausprobieren, falls die erste nicht funktioniert.
 
@@ -61,19 +61,19 @@ Bevor es weitergeht müssen wir klarstellen, dass diese Art von Faucet nicht daf
 
 Da du jetzt etwas kostenloses MATIC in deinem Wallet hast, bist du bereit die verschiedenen DApps und Tokens auf Polygon zu nutzen. Du kannst die verschiedenen Adressen der Tokens, welche du nutzen möchtest, auf [PolygonScan](https://polygonscan.com) suchen und kopieren, um sie zu Metamask hinzuzufügen. Auf der Website musst du einfach den Namen des Tokens eingeben, welchen du hinzufügen möchtest. Wenn wir zum Beispiel nach QiDAO suchen, wird folgendes angezeigt:
 
-![Results of writing QiDAO on PolygonScan](<../.gitbook/assets/image (24).png>)
+![Results of writing QiDAO on PolygonScan](<../../.gitbook/assets/image (24).png>)
 
 Du musst hier die Adresse des Contracts kopieren und bei Metamask in der Liste der Assets ganz unten auf "Token hinzufügen" klicken, um die Contract-Adresse eingeben zu können. Der Token ist ab dann in der Liste deiner Assets sichtbar:
 
-![Qi zu Metamask hinzufügen](<../.gitbook/assets/image (22).png>)
+![Qi zu Metamask hinzufügen](<../../.gitbook/assets/image (22).png>)
 
 ## Tokens auf Polygon kaufen
 
-Du kannst jetzt anfangen, Tokens auf Polygon zu kaufen bzw. tauschen. Hierzu musst du eine **DEX **(Dezentrale Börse) nutzen, dir stehen hierzu eine ganze Reihe von DEXes zur Verfügung:  [_Quickswap_](https://quickswap.exchange/#/swap), [_Slingshot_](https://app.slingshot.finance/trade/m/MATIC/USDC), [_Dexguru_](https://dex.guru), [_Sushiswap_](https://app.sushi.com/swap), usw..
+Du kannst jetzt anfangen, Tokens auf Polygon zu kaufen bzw. tauschen. Hierzu musst du eine **DEX** (Dezentrale Börse) nutzen, dir stehen hierzu eine ganze Reihe von DEXes zur Verfügung:  [_Quickswap_](https://quickswap.exchange/#/swap), [_Slingshot_](https://app.slingshot.finance/trade/m/MATIC/USDC), [_Dexguru_](https://dex.guru), [_Sushiswap_](https://app.sushi.com/swap), usw..
 
 Sobald du dich für eine DEX entschieden hast, kannst du anfangen Tokens auf Polygon zu handeln, das Interface eines typischen DEXes sieht so aus:
 
-![Buying Qi tokens using Quickswap](<../.gitbook/assets/image (25).png>)
+![Buying Qi tokens using Quickswap](<../../.gitbook/assets/image (25).png>)
 
 {% hint style="info" %}
 Eine weitere interessante Dapp für den Handel von Tokens ist [Zapper](https://zapper.fi/es/exchange). Zapper sucht auf den verschiedenen DEXes nach dem besten Wechselkurs für deinen Tausch, ein guter Weg, um beim Handel etwas zu sparen.
@@ -83,7 +83,7 @@ Eine weitere interessante Dapp für den Handel von Tokens ist [Zapper](https://z
 
 Es ist oft wichtig, vergangene Transaktionen bzw. die Historie deines Wallets im Blick zu haben, herzu bietet sich die Website [DeBank](https://debank.com) an. DeBank gibt dir einen Überblick über die vergangenen Transaktionen deines Metamask-Wallets und zeigt dir dein gesamtes Portfolio auf allen damit verbundenen Blockchains und deine NFTs an. Dies ist nützlich, wenn du z.B. deine vergangenen Qi Airdrops vergleichen möchtest, welche du durch das Staking von Qi verdient hast.
 
-![All the transactions made in our new Metamask address](<../.gitbook/assets/image (10).png>)
+![All the transactions made in our new Metamask address](<../../.gitbook/assets/image (10).png>)
 
 Wie du hier siehst, habe ich 800.000 DxDex.io Tokens in meinem Wallet, aber ich habe nichts gemacht um diese Tokens zu erhalten und weiß nicht, woher diese kommen. Dies ist ein weit verbreiteter Scam-Versuch, du solltest diese Tokens ignorieren und nicht mit Tokens interagieren, welche du nicht kennst. DeBank gibt dir auch die Möglichkeit, Zugriffsberechtigungen zu verwalten und diese wieder zu entziehen.
 

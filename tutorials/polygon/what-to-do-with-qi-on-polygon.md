@@ -9,7 +9,7 @@ description: >-
 
 ## Einleitung
 
-Qi (\[tʃ Í] oder _chee_), ist der native Token von Mai Finance. Manche benutzen ihn, um abzustimmen und QIP (**Q**iDAO **I**Verbesserung **P**Vorschläge) zu stellen, andere staken ihn, um noch mehr Qi zu bekommen, und manche farmen einfach damit. Du kannst einige sehr gute Informationen darüber finden, wie du Qi auf der Mai Finance Plattform in dem [Leitfaden ](../MAI-university/earning-passive-income-with-qidao.md)zum passiven Einkommen nutzen kannst.
+Qi (\[tʃ Í] oder _chee_), ist der native Token von Mai Finance. Manche benutzen ihn, um abzustimmen und QIP (**Q**iDAO **I**Verbesserung **P**Vorschläge) zu stellen, andere staken ihn, um noch mehr Qi zu bekommen, und manche farmen einfach damit. Du kannst einige sehr gute Informationen darüber finden, wie du Qi auf der Mai Finance Plattform in dem [Leitfaden ](../../MAI-university/earning-passive-income-with-qidao.md)zum passiven Einkommen nutzen kannst.
 
 In diesem Leitfaden geht es, wie in den meisten Investitions-Tutorials, vor allem um das Farmen und Ernten von Gewinnen, dieses Mal mit dem Qi-Token. Wir werden sehen, wie du eine Menge Qi generieren kannst und wie du sie auf den verschiedenen Plattformen auf Polygon einsetzen kannst.
 
@@ -37,7 +37,7 @@ Zur Erinnerung: Qi wird mit verschiedenen Token gepaart, um LP (**L**iquidität 
 
 
 
-![LP pool auf QuickSwap für das Qi-WETH Paar](<../.gitbook/assets/image (19) (2).png>)
+![LP pool auf QuickSwap für das Qi-WETH Paar](<../../.gitbook/assets/image (19) (2).png>)
 
 ### Qi Farmen
 
@@ -45,7 +45,7 @@ Qi kann auch ausschließlich auf [Impermax](https://polygon.impermax.finance) ve
 
 Das funktioniert so: Du leihst dir die 2 Token, die das Paar bilden, das du farmen willst, kombinierst sie zu mehr LP-Token und farmst mit einer viel höheren Position. In den meisten Fällen werden die Leihgebühren durch die Farming APR weitgehend ausgeglichen, sodass du eine positive Bilanz ziehen kannst.
 
-![Hebel deine Qi-WETH Position auf Impermax](<../.gitbook/assets/image (20).png>)
+![Hebel deine Qi-WETH Position auf Impermax](<../../.gitbook/assets/image (20).png>)
 
 Wir sehen hier, dass der endgültige effektive Jahreszins für die Belohnung bei Impermax 393,88% beträgt, nachdem er 5-fach gehebelt wurde, basierend auf einem effektiven Jahreszins von 239,68% bei QuickSwap.
 
@@ -55,7 +55,7 @@ Beachte auch, dass Impermax geschätzte effektive Jahreszinsen (**A**nual **P**e
 
 Um Qi und WETH bei Impermax zu leihen, musst du sie dir irgendwoher besorgen. Das ist nur möglich, weil einige andere Nutzer (oder du selbst) beide Token auch separat anbieten. Je mehr Token geliehen werden, desto höher wird der Leihsatz und desto niedriger wird der endgültige effektive Jahreszins, der manchmal sogar ins Negative trifft.
 
-![Qi und WETH Statistik für den Qi-WETH Markt auf Impermax](<../.gitbook/assets/image (11).png>)
+![Qi und WETH Statistik für den Qi-WETH Markt auf Impermax](<../../.gitbook/assets/image (11).png>)
 
 Für unser Beispiel werden wir uns auf Qi konzentrieren. Du siehst, dass das Gesamtangebot an Qi 427,21 $ beträgt und der Gesamtbetrag, der in der gehebelten Position verwendet wird, 321,44 $, was eine Auslastungsrate von 75,24 % ergibt. Impermax verfügt über einen internen Mechanismus, der automatisch den Angebots-APR (den effektiven Jahreszins, den diejenigen, die Qi verleihen, erhalten) und den Leih-APR (den Prozentsatz der gefarmten Belohnung, der für die Rückzahlung des Darlehens abgezogen wird) berechnet.
 
@@ -69,11 +69,11 @@ Balancer is a really nice toolbox for any strategy, especially the ones that inc
 
 Der Pool, den wir hier verwenden wollen, besteht aus Qi, WMATIC, BAL, USDC und MAI. Dieser Pool belohnt dich sowohl mit Qi- als auch mit BAL-Münzen, und du siehst schon, dass du beides in den Pool einbringen kannst. Ein weiterer großer Vorteil der Pools auf Balancer ist, dass du nicht alle Token, die den Pool bilden, in der richtigen Ratio bereitstellen musst, sondern dass der Algorithmus das für dich übernimmt. Das heißt, du kannst tatsächlich nur Qi in den Pool einzahlen und den Algorithmus den Rest erledigen lassen, um alles wieder ins Gleichgewicht zu bringen.
 
-![Details des Pools, Stand September 2021](<../.gitbook/assets/image (17).png>)
+![Details des Pools, Stand September 2021](<../../.gitbook/assets/image (17).png>)
 
 Übrigens: BAL-Token können als Sicherheiten bei Mai Finance verwendet werden, was bedeutet, dass du die Möglichkeit hast, deine BAL-Token im BAL Vault bei Mai Finance zu lagern und MAI dafür zu leihen. Außerdem erzeugst du durch das Ausleihen von MAI für deine BAL-Token Qi-Belohnungen, die den Pool auf Balancer speisen.
 
-![Farming Kreis: Mai Finance & Balancer](<../.gitbook/assets/image (18).png>)
+![Farming Kreis: Mai Finance & Balancer](<../../.gitbook/assets/image (18).png>)
 
 Die APR von BAL-Gewölben bestimmt in hohem Maße, wie interessant es ist, das Vault in der Schleife zu haben, oder ob es besser ist, dein Qi in den Pool des Balancers zu mischen.
 
@@ -87,7 +87,7 @@ Einer der Hauptfaktoren, der den Preis von Qi beeinflusst, ist die Rate, mit der
 
 Derzeit gibt es 2 Quellen für Qi: Belohnungen aus der Landwirtschaft und Belohnungen aus dem Vault.
 
-![LP Farmen auf Mai Finance, Stand September 2021](<../.gitbook/assets/image (12).png>)
+![LP Farmen auf Mai Finance, Stand September 2021](<../../.gitbook/assets/image (12).png>)
 
 Wenn du Yield Farming mit MAI-Finanzierung betreibst, hast du die Wahl zwischen dem MAI/USDC-Paar und dem Qi/WMATIC-Paar (ab September 2021).
 
@@ -108,9 +108,9 @@ Renditeoptimierer sind Plattformen, die die Belohnungen automatisch mit einigen 
 
 Adamant bietet dir zum Beispiel an, das Qi/WMATIC-LP-Paar auf seiner Plattform zu farmen, wobei die Belohnung folgendermaßen verteilt wird
 
-![Qi-WMATIC pool auf Adamant](<../.gitbook/assets/image (15).png>)
+![Qi-WMATIC pool auf Adamant](<../../.gitbook/assets/image (15).png>)
 
-![Details der 179.23% APR von Adamant](<../.gitbook/assets/image (14).png>)
+![Details der 179.23% APR von Adamant](<../../.gitbook/assets/image (14).png>)
 
 Wenn der effektive Jahreszins höher ist als bei Mai Finance, liegt das nur daran, dass Adamant zusätzliche ADDY Belohnungen an die Bauern verteilt. Die Menge an Qi, die tatsächlich an die Landwirte verteilt wird, beträgt 98,45% im Vergleich zu den 134,42%, die du bei Mai Finance bekommen kannst.
 
@@ -140,7 +140,7 @@ Wenn nun der ETH-Preis auf 2.000 US-Dollar steigt und der Pool die gleiche Menge
 
 Das bedeutet auch, dass, wenn der Preis eines der beiden Token steigt, der Pool eine Nachfrage nach dem anderen Token schafft, was dessen Preis ebenfalls in die Höhe treibt. Das Gegenteil ist der Fall: Wenn einer der Token an Wert verliert, wird der andere verkauft, um die 1:1 Ratio aufrechtzuerhalten, was den Preis nach unten treibt. Das erklärt zum Teil auch die Preisschwankungen von Qi im Vergleich zu WEHT und WMATIC (den beiden Hauptmünzen, mit denen Qi gepaart ist).
 
-![Price von Qi (links) VS Preis von WMATIC (rechts)](<../.gitbook/assets/image (13).png>)
+![Price von Qi (links) VS Preis von WMATIC (rechts)](<../../.gitbook/assets/image (13).png>)
 
 ### Fehlende Einsatzmöglichkeiten
 

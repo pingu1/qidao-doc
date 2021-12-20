@@ -15,7 +15,7 @@ In diesem Leitfaden stellen wir dir eine Anlagestrategie vor, die auf Stable Coi
 
 ## Was bedeutet es zu hebeln?
 
-![Die Geschichte des Goldschürfes unluQi ](../.gitbook/assets/canDAI-farwest.png)
+![Die Geschichte des Goldschürfes unluQi ](../../.gitbook/assets/canDAI-farwest.png)
 
 Wir befinden uns im fernen Westen, während des großen Goldrausches. Die Banken wollen Gold kaufen, um den Leuten Geld zu leihen und dafür Zinsen zu bekommen, und die Bergleute wollen reich werden, indem sie ihr Gold an die Banken verkaufen.
 
@@ -37,7 +37,7 @@ Das nennt man Hebelwirkung. Stell dir vor, du findest eine Bank, bei der du dir 
 
 [AAVE](https://app.aave.com) ist eine Plattform zum Verleihen und Ausleihen, auf der du dein Vermögen hinterlegen kannst. Wenn du auf AAVE leihst, erhalten deine hinterlegten Token eine Rendite. Für unsere Strategie verleihen wir DAI, einen Stable Coin (mit Preisbindung an den US-Dollar). Auf AAVE können DAI im Wert von 100 US-Dollar über einen Zeitraum von einem Jahr eine Rendite zwischen 4 und 10 % erzielen.
 
-![AAVE Markt auf Polygon, Stand Oktober 2021](../.gitbook/assets/canDAI-aave.png)
+![AAVE Markt auf Polygon, Stand Oktober 2021](../../.gitbook/assets/canDAI-aave.png)
 
 Wenn du dein Vermögen auf AAVE einzahlst, erhältst du einen Einzahlungsnachweis. In unserem Beispiel erhalten wir, da wir DAI einzahlen, amDAI-Token in unserer Wallet (aave market DAI). Diese Quittung musst du unbedingt aufbewahren, denn du brauchst sie, um deine DAI von AAVE abzuheben. Das ist die Bank, die dein Gold in unserem Far-West-Vergleich annehmen wird.
 
@@ -47,7 +47,7 @@ Wenn du dein Vermögen auf AAVE einzahlst, erhältst du einen Einzahlungsnachwei
 
 Mai Finance wird den amDAI auf seinem [Renditeinstrument](https://app.mai.finance/yield) akzeptieren. Das Rendite-Instrument ist nur ein Zwischeninstrument zwischen AAVE und dem Vault von Mai Finance. Wie du auf dem AAVE-Screenshot sehen kannst, erzeugt das Ausleihen von DAI eine Belohnung von 8,75% in DAI (mit Zinseszins), aber auch 2,01% in MATIC. Das Renditeinstrument von Mai Finance sammelt diese MATIC-Belohnung ein und tauscht sie gegen mehr DAI ein, die dann deinem DAI-Depot hinzugefügt werden. Der APY (**A**nnual **P**ercentage **Y**ield) auf der Mai Finance Seite zeigt daher die aggregierten Zinsen von AAVE.
 
-![Rendite auf Mai Finance](../.gitbook/assets/camDAI-yield.png)
+![Rendite auf Mai Finance](../../.gitbook/assets/camDAI-yield.png)
 
 Sobald du deinen amDAI auf dem Renditeinstrument hinterlegt hast, erhältst du etwas camDAI in deinem Wallet (compounding amDAI). Das ist eine Quittung, die deinen Anteil am amDAI-Pool des Renditeinstruments angibt. Übrigens: Da camDAI deinen Anteil am amDAI-Pool darstellt, ist das Verhältnis zwischen amDAI und camDAI nicht 1:1. In diesem Artikel siehst du weitere Details.
 
@@ -57,7 +57,7 @@ Du kannst deine camDAI-Token in einem Vault bei Mai Finance deponieren und dir d
 
 [Zapper](https://zapper.fi/dashboard) ist ein Schweizer Taschenmesser von DeFi auf Polygon. Diese Plattform ermöglicht es dir, Renditen in Liquiditätspools zu farmen, dein Vermögen direkt von der Plattform aus an AAVE zu verleihen, ein Dashboard deiner verschiedenen Investitionen zu präsentieren und einige Währungen in andere Währungen zu tauschen. Das ist die letzte Funktion, die wir nutzen werden, um den MAI Stable Coin, den wir gerade geliehen haben, in mehr DAI zu tauschen.
 
-![Taushe MAI gegen DAI](../.gitbook/assets/camDAI-zapper.png)
+![Taushe MAI gegen DAI](../../.gitbook/assets/camDAI-zapper.png)
 
 In unserem Beispiel aus dem fernen Westen ist Zapper der Goldschürfer, der dein Geld annimmt und dir Gold verkauft.
 
@@ -73,7 +73,7 @@ Für unseren Leitfaden werden wir Balancer nutzen, um unsere Investitionen etwas
 
 Auch wenn wir erklärt haben, was AAVE ist, wird unsere Strategie eine Funktion von Mai Finance nutzen, um die DAI-Hinterlegung auf AAVE, die amDAI-Hinterlegung im Renditeinstrument und die camDAI-Hinterlegung im camDAI-Vault zu automatisieren.
 
-![](../.gitbook/assets/camDAI-zapDAI.png) ![](../.gitbook/assets/camDAI-zapdeposit.png)
+![](../../.gitbook/assets/camDAI-zapDAI.png) ![](../../.gitbook/assets/camDAI-zapdeposit.png)
 
 Die Schaltfläche `Zap in using DAI` öffnet ein Popup-Fenster, mit dem du dein DAI in den Vault einzahlen kannst und die AAVE-Einzahlung im Hintergrund durchführst. Das spart eine Menge Zeit und etwas Gas.
 
@@ -135,7 +135,7 @@ Wenn wir bedenken, dass die anfängliche Investition nur $100 betrug, entspricht
 
 Um ein wenig in hochvolatile Anlagen zu investieren, kannst du die gleiche Schleife wie oben verwenden, aber nur 90 % des geliehenen MAI hebeln und die 10 % verwenden, um etwas anderes zu kaufen. In diesem Beispiel verwenden wir die 10%, um Qi (den nativen Token von Mai Finance) zu kaufen und den Qi-BAL-Pool auf Balancer zu nutzen, der derzeit einen APR (**A**nnual **P**ercentage **R**evenue) von 107,12% hat.
 
-![Qi-BAL pool state as of October 2021](../.gitbook/assets/camDAI-balancer.png)
+![Qi-BAL pool state as of October 2021](../../.gitbook/assets/camDAI-balancer.png)
 
 Da wir weniger DAI in den camDAI Vault einspeisen, werden wir auch weniger Schleifen betreiben. Der Ablauf wird folgendermaßen aussehen:
 

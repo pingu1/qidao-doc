@@ -45,9 +45,9 @@ Warum sollte jemand für einen Token bezahlen, wenn es eine vergünstigte Versio
 
 Da wir mit der Klima DAO arbeiten, wollen wir den Kauf und das Staken mit dem Bonding vergleichen:
 
-![Klima staking reward as of November 2021](../.gitbook/assets/Klima-1.png)
+![Klima staking reward as of November 2021](../../.gitbook/assets/Klima-1.png)
 
-![Klima bonding ROI, Stand November 2021](../.gitbook/assets/Klima-2.png)
+![Klima bonding ROI, Stand November 2021](../../.gitbook/assets/Klima-2.png)
 
 Wenn man direkt Klima auf dem Markt kauft und es 5 Tage lang staked (die eigentliche Haltefrist für Bonds), beträgt der ROI (**R**Rendite **O**n **I**Investment) 8,51%. Wenn man stattdessen eine Anleihe kauft, würde die maximale Rendite 5,47% betragen, indem man BCT/KLIMA anbietet.
 
@@ -108,7 +108,7 @@ Ohne tief in die [(3,3)-Spieltheorie](https://en.wikipedia.org/wiki/Nash\_equili
 
 ### Der Hebel-Loop mit MarketXYZ und Klima
 
-![Hebel deine Klima Position](../.gitbook/assets/Klima-3.png)
+![Hebel deine Klima Position](../../.gitbook/assets/Klima-3.png)
 
 Die Idee ist, dass du einen Anfangsbetrag an KLIMA-Token erhältst, den du bei Klima DAO einzahlen kannst. Dadurch kannst du einen sehr hohen APY erzielen (zum Zeitpunkt der Erstellung dieses Artikels liegt der APY bei 38.873,08%, d.h. 601% APR oder einem täglichen Gewinn von 1,68%) und durch die Einzahlung deines KLIMA-Tokens erhältst du sKLIMA als Einlagenachweis.
 
@@ -118,7 +118,7 @@ Dieser sKLIMA-Token kann am Markt XYZ im [Green Leverage Locker](https://polygon
 Nebenbei bemerkt hat Mai Finance eine Partnerschaft mit dem Markt XYZ geschlossen und den Green Locker Pool mit 1 Mio. MAI versorgt, um niedrige Zinssätze zu garantieren, wenn du MAI gegen deinen sKLIMA leihst.
 {% endhint %}
 
-![Green locker auf Market XYZ as of, Stand November 2021](../.gitbook/assets/Klima-Marketxyz.png)
+![Green locker auf Market XYZ as of, Stand November 2021](../../.gitbook/assets/Klima-Marketxyz.png)
 
 Du bist nicht verpflichtet, MAI zu leihen. Du kannst dir den Token mit dem niedrigsten Zinssatz leihen, aber du musst bedenken, dass du für dein Darlehen Gebühren zahlen musst. Je schneller du dein Darlehen zurückzahlst, desto weniger Gebühren wirst du zahlen. Mit deinem Kredit kannst du weitere KLIMA-Tokens kaufen und den Kreislauf wiederholen. Du wirst feststellen, dass der effektive Jahreszins von sKLIMA die Zinsen für dein Darlehen weitgehend ausgleicht.
 
@@ -160,7 +160,7 @@ Auch hier hat (4,4) mit der Spieltheorie und den Reservewährungen zu tun und de
 
 ### Der Investment-loop mit Augury und Mai Finance
 
-![Kontinuierliche investieren mit  Augury Finance und Mai Finance](../.gitbook/assets/Klima-4.png)
+![Kontinuierliche investieren mit  Augury Finance und Mai Finance](../../.gitbook/assets/Klima-4.png)
 
 
 
@@ -169,7 +169,7 @@ Wir verwenden immer noch Klima, aber dieses Mal verwenden wir eine [Infusion von
 * 50% der geernteten KLIMA werden wieder eingesetzt, um deine sKLIMA-Position zu erhöhen
 * 50 % der geernteten KLIMA werden für USDC verkauft, die dem NFTM-Pool in Augury hinzugefügt werden, und an dich als NFTM-Token verteilt
 
-![Augury Infusion mit 0% Performance Gebühr und 0% Einlagegebühr](../.gitbook/assets/Klima-Augury.png)
+![Augury Infusion mit 0% Performance Gebühr und 0% Einlagegebühr](../../.gitbook/assets/Klima-Augury.png)
 
 Der NFTM kann dann entweder gehalten werden, während er an Wert gewinnt, oder gegen seinen USDC-Wert eingelöst werden. Mit anderen Worten: Es spielt keine Rolle, ob der KLIMA-Token nach einem Rebase an Wert verliert, da sein Wert als NFTM erfasst und gespeichert wird.
 

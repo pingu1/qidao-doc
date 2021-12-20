@@ -93,7 +93,7 @@ Es ist sehr wichtig, dein CDR im Auge zu behalten und ein gesundes Ratio zu halt
 * eine Liquidation zu verhindern
 * die Stabilität der gesamten Mai Finance-Plattform zu erhöhen, indem du sicherstellst, dass das im Umlauf befindliche MAI-Volumen ordnungsgemäß abgesichert ist.
 
-Das "gesunde" CDR liegt nach der Definition des Mai Finance-Teams zwischen 25% und 270% über dem Mindest-CDR-Wert. Nebenbei bemerkt, kannst du auch in unseren Strategieanleitungen nachlesen, wie du konservative/aggressive CDRs nutzen kannst, um in andere Projekte zu [investieren](../investment-tutorials/leverage-aave-tokens.md), oder [Tilge deine Schulden](../debt-management-tutorials/debt-repayment-how.md#rueckzahlung-mit-deiner-sicherheit) mit deiner Sicherheit.
+Das "gesunde" CDR liegt nach der Definition des Mai Finance-Teams zwischen 25% und 270% über dem Mindest-CDR-Wert. Nebenbei bemerkt, kannst du auch in unseren Strategieanleitungen nachlesen, wie du konservative/aggressive CDRs nutzen kannst, um in andere Projekte zu [investieren](../tutorials/polygon/leverage-aave-tokens.md), oder [Tilge deine Schulden](../debt-management-tutorials/debt-repayment-how.md#rueckzahlung-mit-deiner-sicherheit) mit deiner Sicherheit.
 
 ## Vault Anreize
 

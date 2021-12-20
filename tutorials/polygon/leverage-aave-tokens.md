@@ -9,7 +9,7 @@ description: >-
 
 ## Manchmal ist ein Bild mehr wert als tausend Worte
 
-![](<../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (21).png>)
 
 ## Ein paar Worte sind dennoch ganz nett
 
@@ -23,11 +23,11 @@ Nehmen wir an, du magst MATIC wirklich und glaubst, dass es derzeit unterbewerte
 
 Da sich deine MATIC-Token im Aave-Pool befinden, werden die Zinsen automatisch aufgezinst, was bedeutet, dass dein MATIC-Bestand mit der Zeit wächst.
 
-![In diesem Beispiel habe ich 0.2 MATIC verliehen](../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
+![In diesem Beispiel habe ich 0.2 MATIC verliehen](../../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
 
 Wenn du deinen MATIC-Token auf Aave verleihst, erhältst du den gleichen Betrag an amWMATIC (in Aave Market verpackte MATIC). Du siehst diese Token zwar nicht direkt in deiner Wallet, es sei denn, du fügst sie manuell hinzu, aber du besitzt sie trotzdem.
 
-![I can see the 0.20 MATIC I lended on DeBank](../.gitbook/assets/screen-shot-2021-08-06-at-5.31.01-pm.png)
+![I can see the 0.20 MATIC I lended on DeBank](../../.gitbook/assets/screen-shot-2021-08-06-at-5.31.01-pm.png)
 
 ### Nutze Mai Finance zum thesaurieren deiner Aave token
 
@@ -35,7 +35,7 @@ Mai Finance wird deine amWMATIC-Token auf der Ertragsseite der Website akzeptier
 
 Zusätzlich zu den Basisrenditen wird Mai Finance aber auch alle zusätzlichen Belohnungen von Aave, die derzeit verfügbar sind, in den Token deiner Wahl umwandeln und so im Laufe der Zeit passiv mehr von dem gewählten Token generieren. In unserem Beispiel (siehe oben) bietet Aave einen effektiven Jahreszins von 1,16% für die eingezahlte MATIC sowie einen zusätzlichen effektiven Jahreszins von 3,69%, der in MATIC ausgezahlt wird, aber diese Belohnung bringt keine Rendite. Wenn du deine amWMATIC bei Mai Finance hinterlegst, wird die Belohnung in regelmäßigen Abständen eingezogen und wieder auf dein Hauptdepot überwiesen, um den 1,16%igen Zinssatz auch darauf anzuwenden.
 
-![My 0.2MATIC are now deposited on Mai Finance and will generate 4.93% annually](../.gitbook/assets/screen-shot-2021-08-06-at-5.45.00-pm.png)
+![My 0.2MATIC are now deposited on Mai Finance and will generate 4.93% annually](../../.gitbook/assets/screen-shot-2021-08-06-at-5.45.00-pm.png)
 
 Wenn du amWMATIC auf Mai Finance einzahlst, erhältst du dafür camWMATIC. Das Ratio dieser beiden Token ist nicht perfekt 1:1, denn camMATIC repräsentiert eigentlich einen Anteil am amWMATIC-Pool auf Mai, in dem Zinsen und Belohnungen automatisch aufgezinst werden. Wenn du amWMATIC auf Mai Finance einzahlst, werden diese Token von Aave entfernt. Wenn du deine amWMATIC jedoch von Mai Finance abhebst, findest du sie auf Aave wieder.
 
@@ -59,7 +59,7 @@ Wenn camWMATIC in einen Vault eingezahlt wird, ist der Saldo auf der Ertragsseit
 
 Wenn du auf die Vault Seite gehst und camWMATIC aus dem Dropdown-Menü des Vault auswählst, kannst du einen neuen Vault anlegen, in dem du deine camWMATIC hinterlegen kannst. Denke daran, dass du eine Collateral to Debt Ratio (CDR) von mindestens 155% einhalten musst, wenn du deine camWMATIC beleihst.
 
-![Meine 0.2 MATIC sind nun vollständig als Sicherheit hinterlegt](../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
+![Meine 0.2 MATIC sind nun vollständig als Sicherheit hinterlegt](../../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
 
 **Hinweis:** Auf dieser Seite siehst du den Wert deiner Sicherheit in USD. Der Wert schwankt je nach Art deiner Sicherheit, dem Wert der Token und den im camWMATIC-Pool erzielten Gewinnen.
 
@@ -69,7 +69,7 @@ Wenn du auf die Vault Seite gehst und camWMATIC aus dem Dropdown-Menü des Vault
 Du solltest die Vault-Seite von Zeit zu Zeit besuchen, um zu überprüfen, ob du immer über der Liquidation Ratio liegst, und eventuell weitere Sicherheiten hinzufügen, wenn du unter eine "sichere Ratio" fällst. Je nach deinem Risikoprofil kann diese Sicherheitsschwelle variieren.
 {% endhint %}
 
-![I habe nun Schulden in Höhe von $0.10](../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
+![I habe nun Schulden in Höhe von $0.10](../../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
 
 Ich habe mir $0,10 von MAI geliehen, was einem CDR von 214,56% entspricht. Jetzt lass uns etwas Spaß mit meinem Geld haben.
 
@@ -77,7 +77,7 @@ Ich habe mir $0,10 von MAI geliehen, was einem CDR von 214,56% entspricht. Jetzt
 
 Ich kann jetzt sicher zu meinem Lieblings-DEX gehen (QuickSwap oder SushiSwap sind gute Beispiele) und meine MAI gegen mehr MATIC tauschen.
 
-![Lass uns mehr MATIC kaufen](../.gitbook/assets/screen-shot-2021-08-06-at-6.10.35-pm.png)
+![Lass uns mehr MATIC kaufen](../../.gitbook/assets/screen-shot-2021-08-06-at-6.10.35-pm.png)
 
 Nach dem Tausch habe ich mehr MATIC in meinem Wallet.
 
