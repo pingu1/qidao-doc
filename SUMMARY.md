@@ -24,6 +24,7 @@
   * [What to do with MAI on Fantom](jiao-cheng/fantom/what-to-do-with-mai-on-fantom.md)
 * [Moonriver](jiao-cheng/moonriver/README.md)
   * [How to get started on Moonriver](jiao-cheng/moonriver/how-to-get-started-on-moonriver.md)
+  * [Farming MAI on SolarBeam](jiao-cheng/moonriver/farming-mai-on-solarbeam.md)
 * [Cronos](jiao-cheng/cronos/README.md)
   * [How to get started on Cronos](jiao-cheng/cronos/how-to-get-started-on-cronos.md)
   * [Farming Legos with CroDex](jiao-cheng/cronos/farming-legos-with-crodex.md)
