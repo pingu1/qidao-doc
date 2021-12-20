@@ -37,7 +37,7 @@
 
 ## Harmony Rehberi
 
-* [How to get started on Harmony](harmony-tutorials/how-to-get-started-on-harmony.md)
+* [Harmony Nasıl Kullanırım?](harmony-tutorials/how-to-get-started-on-harmony.md)
 
 ## MAI Üniversitesi
 
