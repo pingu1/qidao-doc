@@ -89,96 +89,96 @@ Você pode ver que fornecer dQUICK é muito interessante já que você terá um 
 
 ### O que fazer com suas recompensas em Qi&#x20;
 
-This subject is explained in [a dedicated article](what-to-do-with-qi-on-polygon.md). For the sake of this tutorial, we will simply deposit your Qi in the Qi-BAL pool on Balancer to benefit from a solid APR, paid in additional Qi and BAL tokens that you can compound in the exact same pool.
+Este assunto é explicado neste [artigo](what-to-do-with-qi-on-polygon.md). Para este tutorial, nós iremos simplesmente depositar o Qi na pool Qi-BAL da Balancer para obtermos um APR excelente, pago em Qi e BAL adicionais, que podem ser reacumulados na mesma pool.
 
-![State of the Qi-BAL pool on Balancer as of November 2021](../../.gitbook/assets/Ethalend-9.png)
+![Pool Qi-BAL na Balancer, Novembro de 2021](../../.gitbook/assets/Ethalend-9.png)
 
-## Bootstrapping the system
+## Bootstrapping
 
 ![](../../.gitbook/assets/Ethalend-10.png)
 
-What follows is a simulation made with an initial investment of $100 worth of MAI that you can either borrow from an existing vault, or buy from a DEX platform. It assumes that all current APRs and APYs stay the same over the span of 1 year, and that all tokens keep the same price, which will (of course) never be the case.
+A seguir veremos uma simulação feita com um investimento inicial de $100 de MAI que você pode tomar emprestado de um vault existente, ou comprar em uma DEX. É assumido que todos os APRs e APYs permanecem os mesmos durante o período de 1 ano, e que os tokens mantém o mesmo valor, o que obviamente é impossível.
 
-### Day 1
+### 1.º Dia
 
-On day 1, you will deposit your MAI on Ethalend in the MAI-USDT pool, then you will get the reward in both Qi and ETHA at the end of the day.
+No primeiro dia, você depositará seu MAI na Ethalend na pool MAI-USDR, então receberá a recompensa em ambos Qi e ETHA no final do dia.
 
-| Reward type        | Value in dollars |
+| Tipo de recompensa | Valor em dólares |
 | ------------------ | ---------------- |
-| Mai on Ethalend    | 100.000          |
-| Qi+BAL on Balancer | 0.032            |
-| ETHA on Ethalend   | 0.070            |
-| dQUICK on Mai      | 0.000            |
-| debt on Mai        | 0.000            |
+| Mai na Ethalend    | 100.000          |
+| Qi+BAL na Balancer | 0.032            |
+| ETHA na Ethalend   | 0.070            |
+| dQUICK na Mai      | 0.000            |
+| dívida na Mai      | 0.000            |
 
-### Day 2
+### 2.º Dia
 
-On day 2, you can stake your ETHA from day 1 on Ethalend, which will generate QUICK rewards that you can then convert to dQUICK on QuickSwap, deposit on Mai Finance, and you will be able to borrow MAI against these tokens. You can also deposit your Qi in the Balancer pool. At the end of day 2 you will get:
+No segundo dia, você poderá fazer staking de ETHA do primeiro dia na Ethalend, que irá gerar recompensas QUICK que podem ser convertidas em dQUICK na QuickSwap, depositadas na Mai Finance, e as usando como garantia, você será capaz de tomar MAI emprestado. Você também poderá depositar seu Qi na pool da Balancer. No final do segundo, dia você terá:
 
-| Reward type        | Value in dollars |
+| Tipo de recompensa | Valor em dólares |
 | ------------------ | ---------------- |
-| Mai on Ethalend    | 100.000          |
-| Qi+BAL on Balancer | 0.065            |
-| ETHA on Ethalend   | 0.141            |
-| dQUICK on Mai      | 0.000            |
-| debt on Mai        | 0.000            |
+| Mai na Ethalend    | 100.000          |
+| Qi+BAL na Balancer | 0.065            |
+| ETHA na Ethalend   | 0.141            |
+| dQUICK na Mai      | 0.000            |
+| dívida na Mai      | 0.000            |
 
-From there, the system is bootstrapped, and you will be able to grow your stable position of MAI, as well as get rewards in Qi, BAL, ETHA and dQUICK. Note that some values are too low to be significant at this point, and since you won't be able to borrow less than 0.01 MAI, you will have to accumulate dQUICK for 14 days before being able to borrow MAI.
+Deste ponto em diante, o sistema passou por bootstrapping, e você poderá aumentar a sua posição em MAI, assim como ganhar recompensas em Qi, BAL, ETHA e dQUICK. Perceba que alguns valores são muito baixos para serem relevantes neste ponto, e como você não será capaz de tomar emprestado menos de 0.01 MAI, você terá que acumular dQUICK por 14 dias antes de poder fazer isso.
 
-## Farming Results
+## Resultados do Farming
 
-### Daily routine
+### Rotina diária
 
-The daily farming routine is composed of
+A rotina diária de farming é compsota de:
 
-* Harvesting the Qi and ETHA rewards from the MAI-USDT pool on Ethalend
-* Deposit the Qi tokens in the Balancer pool on Balancer
-* Deposit the ETHA tokens in the ETHA-QUICK pool on Ethalend
-* Harvest QUICK rewards from the ETHA-QUICK pool on Ethalend
-* Convert QUICK into dQUICK on QuickSwap
-* Deposit dQUICK into the dQUICK vault on Mai Finance
-* Borrow MAI from the dQUICK vault on Mai Finance
-* Deposit additional MAI borrowed in the MAI-USDT pool on Ethalend
+* Colher as recompensas de Qi e ETHA da pool MAI-USDT na Ethalend
+* Depositar os tokens Qi na pool Balancer
+* Depositar os tokens ETHA na pool ETHA-QUICK na Ethalend
+* Colher recompensas QUICK da pool ETHA-QUICK na Ethalend
+* Converter QUICK em dQUICK na QuickSwap
+* Depositar dQUICK no vault dQUICK na Mai Finance
+* Tomar MAI emprestado do vault dQUICK na Mai Finance
+* Depositar o MAI emprestado na pool MAI-USDT na Ethalend
 
-Additionally, you will be able to harvest and compound the Qi and BAL rewards weekly.
+Além disso, você será capaz de colher e reacumular as recompensas Qi e BAL semanalmente.
 
-### Raw results month after month
+### Resultados mensais brutos
 
-Below are the raw results at the end of each month:
+Abaixo estão os resultados brutos no fim da cada mês:
 
-| day | Mai on Ethalend | Qi on Balancer | ETHA on Ethalend | dQUICK on Mai | MAI debt |
-| --- | --------------- | -------------- | ---------------- | ------------- | -------- |
-| 30  | 100.046         | 1.015          | 2.186            | 0.099         | 0.049    |
-| 60  | 100.196         | 2.116          | 4.303            | 0.406         | 0.203    |
-| 90  | 100.453         | 3.315          | 6.424            | 0.926         | 0.463    |
-| 120 | 100.819         | 4.624          | 8.553            | 1.666         | 0.833    |
-| 150 | 101.297         | 6.058          | 10.690           | 2.631         | 1.315    |
-| 180 | 101.892         | 7.632          | 12.838           | 3.828         | 1.914    |
-| 210 | 102.606         | 9.361          | 15.001           | 5.263         | 2.632    |
-| 240 | 103.443         | 11.264         | 17.179           | 6.945         | 3.473    |
-| 270 | 104.406         | 13.360         | 19.377           | 8.881         | 4.441    |
-| 300 | 105.501         | 15.671         | 21.597           | 11.079        | 5.540    |
-| 330 | 106.731         | 18.220         | 23.841           | 13.548        | 6.774    |
-| 360 | 108.100         | 21.032         | 26.113           | 16.297        | 8.149    |
-| 365 | 108.343         | 21.528         | 26.495           | 16.783        | 8.392    |
+| Dia | Mai na Ethalend | Qi na Balancer | ETHA na Ethalend | dQUICK na Mai | Dívida de MAI |
+| --- | --------------- | -------------- | ---------------- | ------------- | ------------- |
+| 30  | 100.046         | 1.015          | 2.186            | 0.099         | 0.049         |
+| 60  | 100.196         | 2.116          | 4.303            | 0.406         | 0.203         |
+| 90  | 100.453         | 3.315          | 6.424            | 0.926         | 0.463         |
+| 120 | 100.819         | 4.624          | 8.553            | 1.666         | 0.833         |
+| 150 | 101.297         | 6.058          | 10.690           | 2.631         | 1.315         |
+| 180 | 101.892         | 7.632          | 12.838           | 3.828         | 1.914         |
+| 210 | 102.606         | 9.361          | 15.001           | 5.263         | 2.632         |
+| 240 | 103.443         | 11.264         | 17.179           | 6.945         | 3.473         |
+| 270 | 104.406         | 13.360         | 19.377           | 8.881         | 4.441         |
+| 300 | 105.501         | 15.671         | 21.597           | 11.079        | 5.540         |
+| 330 | 106.731         | 18.220         | 23.841           | 13.548        | 6.774         |
+| 360 | 108.100         | 21.032         | 26.113           | 16.297        | 8.149         |
+| 365 | 108.343         | 21.528         | 26.495           | 16.783        | 8.392         |
 
-### Day 365
+### 365.º Dia
 
-At the end of one year, you would have
+No final de um ano, você terá:
 
-* $108.343 worth of MAI in the MAI-USDT pool on Ethalend
-* $26.495 worth of ETHA in the ETHA-QUICK pool on Ethalend
-* $21.528 worth of Qi in the Qi-BAL pool on Balancher
-* $16.783 worth of dQUICK in the dQUICK vault on Mai Finance
-* $8.392 worth of MAI debt on Mai Finance
+* $108.343 de MAI na pool MAI-USDT da Ethalend
+* $26.495 de ETHA na pool ETHA-QUICK da Ethalend
+* $21.528 de Qi na pool Qi-BAL da Balancher
+* $16.783 de dQUICK no vault da dQUICK da Mai Finance
+* $8.392 em dívidas de MAI na Mai Finance
 
-This sums up as $173.149 worth of assets, and an outstanding debt of $8.392, which corresponds to an equivalent APY of 64.757%. This is achieved with an initial investment of $100 worth of MAI and using a stable pool as basis for farming. Note that transaction fees haven't been taken in account, but may influence the final result. This is also assuming you are compounding daily for 1 complete year.
+Isso resulta em um total de $173.149 em ativos, e uma dívida a pagar de $8.392, que corresponde a um APY equivalente de 64.757%. Isso foi alcançado com um investimento inicial de $100 de MAI utilizando uma stable pool como base para nosso farming. Perceba que as taxas de transaçōes não foram consideradas, mas podem influenciar o resultado final. Aqui também assumimos que você reacumulará diariamente durante o ano todo.
 
-## Disclaimer
+## Aviso legal
 
-Everything presented in this tutorial is educational content made to illustrate how you can use your MAI without selling them, and still generate an APY of more than 60% using different protocols as lego bricks. However, this tutorial should not be considered as financial advice.
+Tudo apresentado neste tutorial é de cunho educacional, feito apra ilsutrar como você pode usar seu MAI sem vendê-lo, e ainda gerar um APY de mais de 60%, utilizando diferentes protocolos como peças de LEGO. Entretanto, este tutorial não deve ser considerado como conselho financeiro.
 
-Also, the strategy here is presenting a closed loop that doesn't sell any token and each system is feeding the next one. However, as you can see, the dQUICK final position isn't very high, and the MAI loan will probably not generate a lot of Qi. You can probably achieve the same equivalent APY (if not better) by selling the QUICK rewards granted by the ETHA-QUICK pool, buy MAI and add it to your MAI-USDT position.
+Além disso, a estratégia apresenta um loop fechado que não vende token qualquer e cada sistema alimenta o proximo. Entretanto, como pode ver, a posição final em dQUICK não é muito alta, e o empréstimo em MAI provavelmentente não gerará muito Qi. Você pode provavelmente alcançar um APY equivalente (ou melhor), vendendo suas recompensas QUICK garantidas na pool ETHA-QUICK, comprando MAI e adicionando à sua posicao de MAI-USDT.
 
 {% hint style="info" %}
 Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
