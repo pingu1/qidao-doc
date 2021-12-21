@@ -213,5 +213,5 @@ Então o risco pode ser bem alto, se você não capturar o lucro de vez em quand
 Como última observação, entenda que forks da Olympus são a nova tendência, mas a maioria dos projetos irá fracassar, e muitos destes forks não são projetos sólidos. Por conta de sua natureza, eles ainda não são verificado pela RugDoc, e pode ser muito dificil diferenciar projetos reais de golpes.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua própria pesquisa.
 {% endhint %}

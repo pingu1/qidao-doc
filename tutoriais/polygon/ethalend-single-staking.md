@@ -181,5 +181,5 @@ Tudo apresentado neste tutorial é de cunho educacional, feito apra ilsutrar com
 Além disso, a estratégia apresenta um loop fechado que não vende token qualquer e cada sistema alimenta o proximo. Entretanto, como pode ver, a posição final em dQUICK não é muito alta, e o empréstimo em MAI provavelmentente não gerará muito Qi. Você pode provavelmente alcançar um APY equivalente (ou melhor), vendendo suas recompensas QUICK garantidas na pool ETHA-QUICK, comprando MAI e adicionando à sua posicao de MAI-USDT.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua própria pesquisa.
 {% endhint %}
