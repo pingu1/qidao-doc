@@ -50,44 +50,44 @@ Como você pode ver, detalhes das recompensas são exibidos no canto direito da 
 Preste atenção às taxas de retirada de 0.10%. No momento atual, com um depósito de 100 MAI, terei que pagar 0.1 de MAI em taxas, o que corresponde praticamente a 10 dias de farming no eVault. Tenha certeza que você entendeu isso antes de investir.
 {% endhint %}
 
-### Staking ETHA: Ethalend or QuickSwap
+### Staking de ETHA: Ethalend ou QuickSwap
 
-The main reward you will get by lending your MAI on Ethalend will be paid in ETHA, the native token from Ethalend. One of the main advantage of Ethalend is that you will be able to single stake your ETHA tokens directly on the platform and magnify your yields.
+A recompensa principal que você obterá por emprestar seu MAI na Ethalend será paga em ETHA, o token nativo da Ethalend. Uma das principais vantagens da Ethalend é que você será capaz de fazer staking com seus tokens ETHA diretamente na plataforma e aumentar seus rendimentos.
 
-![Staking your ETHA on Ethalend directly](../../.gitbook/assets/Ethalend-5.png)
+![Staking de ETHA na Ethalend diretamente](../../.gitbook/assets/Ethalend-5.png)
 
-As you can see, the best option is to deposit the ETHA you earned in the ETHA-QUICK pool. Because of the nature of the 2 assets (very volatile), the reward is really high. You can possibly reduce the impermanent losses by depositing your ETHA in the ETHA-USDT pool if you prefer. In both cases, you will be rewarded with QUICK tokens. And of course, if you are really bullish on ETHA, you can stake your rewards in the ETHA pool for additional ETHA.
+Como você pode ver, a melhor opção é depositar o ETHA recebido da pool ETHA-QUICK. Devido a natureza volátil dos 2 ativos, a recompensa é bem alta. Você pode reduzir o Impermanent Loss depositando seu ETHA na pool ETHA-USDT se preferir. Em ambos os casos, você será recompensado em tokens QUICK. E obviamente, se você está otimista em relação a ETHA, você pode realizar staking com suas recompensas na pool ETHA para mais ETHA.
 
-The staking vaults on Ethaland are actually a convenience offered by Ethalend. When you deposit your tokens in the pool, the balancing algorithm will sell a few of the deposited tokens to buy the other side of the LP pair, and use this pair in QuickSwap. As a side note, you can totally do this manually: claim your ETHA tokens, withdraw in your web3 wallet, sell 50% for QUICK tokens, create some LP tokens, and deposit them in the QuickSwap pool:
+Os vaults de staking na Ethaland são na verdade uma conveniência oferecida pela Ethalend. Ao depositar seus tokens na pool, o algoritmo irá vender alguns dos tokens depositados para comprar o outro lado do par LP, e usar este par na QuickSwap. A propósito, você pode fazer isso manualmente: reivindique seus tokens ETHA, saque os mesmos para sua carteira web3, venda 50% para comprar tokens QUICK, monte alguns LP tokens, e deposite-os na pool da QuickSwap:
 
-![QuickSwap pools for ETHA as of November 2021](../../.gitbook/assets/Ethalend-6.png)
-
-{% hint style="info" %}
-QuickSwap promotes a 223.1% APY on the ETHA-QUICK pair, while Ethalend displays a 116.73% APR on the same pair. This is due to the difference between APY (**A**nnual **P**ercentage **Y**ield, or autocompounded rewards) and APR (**A**nnual **P**ercentage **R**evenue, or rewards without auto-compounding). The 2 percentages are actually exactly the same, so it doesn't matter which platform you chose to use your ETHA tokens.
-{% endhint %}
-
-### The dQUICK Mai Vault
-
-The best way to use the QUICK rewards you will get from staking your ETHA is to convert them into dQUICK. dQUICK can be created in the Dragon's Lair on QuickSwap. It's the way QuickSwap is incentivizing users to stake their QUICK by rewarding them with additional QUICK: by locking your QUICK tokens on QuickSwap, you will earn extra tokens.
-
-![Dragon's Lair APY on QuickSwap as of November 2021](../../.gitbook/assets/Ethalend-7.png)
+![Pools de ETHA na QuickSwap, Novembro de 2021](../../.gitbook/assets/Ethalend-6.png)
 
 {% hint style="info" %}
-The dQUICK APY varies a lot between 20% and 40%, depending on the amount of QUICK tokens that are actually staked on the Platform
+A QuickSwap entrega um APY 223.1% APY para o par ETHA-QUICK, enquanto a Ethalend exibe um APR de 116.73% APR para o mesmo par. Isso acontece devido a diferença entre o APY (**A**nnual **P**ercentage **Y**ield, or recompensas acumuladas automaticamente) e APR (**A**nnual **P**ercentage **R**evenue, ou recompensas não acumuladas automaticamente). As 2 taxas representam, na verdade, a mesma coisa, então não importa qual plataforma você escolher para depositar seus tokens.&#x20;
 {% endhint %}
 
-But one of the best thing about dQUICK is that it's a "proof of deposit" token that can be used on Mai Finance as a collateral. This means that, after you deposited your QUICK rewards from Ethalend on QuickSwap and received dQUICK, you can head to Mai Finance and deposit the dQUICK tokens into a dQUICK Vault to borrow MAI against them.
+### O Vault Mai de dQUICK
 
-![dQUICK Vault on Mai Finance as of November 2021](../../.gitbook/assets/Ethalend-8.png)
+A melhor maneira de usar suas recompensas QUICK obtidas do staking de ETHA é convertê-las em dQUICK. Dai, dQUICK pode ser criado na Dragon's Lair da QuickSwap. É a maneira que a QuickSwap incentiva os usuários a fazerem staking de seu QUICK, recompensando os mesmos com mais QUICK: ao bloquear seus tokens QUICK na QuickSwap, você recebe mais tokens.
 
-A few things about the dQUICK vaults:
+![APY da Dragon's Lair APY na QuickSwap, Novembro de 2021](../../.gitbook/assets/Ethalend-7.png)
 
-* They have a liquidation ratio of 130%, which means you will be able to borrow a lot of MAI against your dQUICK tokens. However, if you want to collect borrowing rewards too, you will need to keep a CDR (**C**ollateral to **D**ebt **R**atio) between 155% and 400%. This is a good idea since the QUICK token is pretty volatile, and as a general rule, this website strongly promote a CRD 100% above the liquidation ratio (or 230% for dQUICK).
-* dQUICK Vaults are among the ones with the highest APR when you borrow MAI against dQUICK. As of writing, you can get up to 39.40% APR paid in Qi tokens based on the amount of MAI you will borrow against your MAI.
+{% hint style="info" %}
+O APY de dQUICK varia muito, entre 20% e 40%, dependendo da quantidade de tokens QUICK que estão passando por staking na plataforma.
+{% endhint %}
 
-You can already see that, providing dQUICK is very interesting since you will have an asset that gets compounded QUICK rewards from QuickSwap, you will get Qi rewards for your loan, and you will be mint MAI that can then be added back into the eVault on Ethalend, increasing your stable farming position.
+Mas uma das melhores coisas sobre dQUICK, é o fato do token ser uma prova de depósito que pode ser utilizada na Mai Finance como garantia. Isso significa que, após você depositar suas recompensas QUICK da Ethalend na QuickSwap e receber dQUICK, você pode ir a Mai Finance e depositar os tokens dQUICK no Vault dQUICK para usá-los como garantia, e tomar MAI emprestado.
 
-### What to do with your Qi rewards
+![Vault dQUICK na Mai Finance, Novembro de 2021](../../.gitbook/assets/Ethalend-8.png)
+
+Algumas coisas sobre os vaults dQUICK:
+
+* Eles possuem taxa de liquidação de 130%, o que significa que você será capaz de tomar bastante MAI emprestado, tendo seus tokens dQUICK como garantia. Entretando, se você quiser coletar taxas de empréstimo também, você precisará manter uma CDR (**C**ollateral to **D**ebt **R**atio, Proporção de Garantia para Dívida) entre 155% e 400%. Isso é uma boa ideia já que o token QUICK é bem volátil, e como regra geral, este website estimula uma CDR de 100% sobre a proporção de liquidação (ou 230% para dQUICK).
+* Vaults dQUICK estão entre aqueles com os maiores APRs ao tomar emprestado MAI, com dQUICK como garantia. No momento, você pode obter até 39.40% de APR pago em tokens Qi baseado na quantidade de MAI que você tomará emprestado, com o seu MAI de garantia.
+
+Você pode ver que fornecer dQUICK é muito interessante já que você terá um ativo que recebe recompensas QUICK reacumuladas da QuickSwap, você obterá recompensas em Qi de seu empréstimo, e você cunhará mais MAI que pode ser então adicionado de volta no eVault na Ethalend, aumentando sua posição de farming em stablecoins.
+
+### O que fazer com suas recompensas em Qi&#x20;
 
 This subject is explained in [a dedicated article](what-to-do-with-qi-on-polygon.md). For the sake of this tutorial, we will simply deposit your Qi in the Qi-BAL pool on Balancer to benefit from a solid APR, paid in additional Qi and BAL tokens that you can compound in the exact same pool.
 
