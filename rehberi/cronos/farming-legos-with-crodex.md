@@ -3,9 +3,9 @@ description: >-
   Stablecoin ile farming ödülleri genellikle düşük oranlara sahiptir. Yeni bir yatırım döngüsü ile kazançlarınızı nasıl artırabileceğinizi innceleyelim.
 ---
 
-# CroDex ile Legos Farming
+# CroDex ile Lego Benzeri Çiftçilik
 
-Yield farming belli açılardan kolay olabilir. 2 tokenınız var, bunları bir LP (Likidite Sağlayıcı) çiftinde birleştiriyorsunuz, LP tokenını bir havuza yatırıyorsunuz ve takas ücretleri ile çoğu zaman kullandığınız farmın yerel tokenıyla ödenen ödülleri almaya başlıyorsunuz. Çoğu insan, çoğu zaman tamamen geçerli ancak optimize edilmiş bir çözümden çok uzak olan aradıkları varlık için ödülü satar. Bugün, Cronos'ta birkaç DApp'te önerilen çok yüksek APR'den (Yıllık Yüzde Oranı) nasıl kâr edebileceğinizi göreceğiz. Bu yöntem ile stablecoin’de %30'luk bir APR'yi çok daha yüksek bir orana dönüştürecektir. 
+Yield farming yani verim çiftçiliği belli açılardan kolay olabilir. 2 tokenınız var, bunları bir LP (Likidite Sağlayıcı) çiftinde birleştiriyorsunuz, LP tokenını bir havuza yatırıyorsunuz ve takas ücretleri ile çoğu zaman kullandığınız farmın yerel tokenıyla ödenen ödülleri almaya başlıyorsunuz. Çoğu insan, çoğu zaman tamamen geçerli ancak optimize edilmiş bir çözümden çok uzak olan aradıkları varlık için ödülü satar. Bugün, Cronos'ta birkaç DApp'te önerilen çok yüksek APR'den (Yıllık Yüzde Oranı) nasıl kâr edebileceğinizi göreceğiz. Bu yöntem ile stablecoin’de %30'luk bir APR'yi çok daha yüksek bir orana dönüştürecektir. 
 
 ![](../../.gitbook/assets/crodex-lego-1.png)
 
