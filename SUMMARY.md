@@ -19,7 +19,7 @@
 * [Avalanche](tutoriais/avalanche/README.md)
   * [Como começar na rede Avalanche](tutoriais/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](tutoriais/fantom/README.md)
-  * [How to get started on Fantom](tutoriais/fantom/how-to-get-started-on-fantom.md)
+  * [Como começar na Fantom](tutoriais/fantom/how-to-get-started-on-fantom.md)
   * [Leverage your crypto on Fantom](tutoriais/fantom/leverage-your-crypto-on-fantom.md)
   * [What to do with MAI on Fantom](tutoriais/fantom/what-to-do-with-mai-on-fantom.md)
 * [Moonriver](tutoriais/moonriver/README.md)
