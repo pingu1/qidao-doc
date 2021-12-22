@@ -4,13 +4,13 @@ description: >-
   using the Fantom chain.
 ---
 
-# How to get started on Fantom
+# Como começar na Fantom
 
-## What is Fantom
+## O que é Fantom
 
-Fantom is an Ethereum alternative for blockchain designers. As an open-source smart contract enabled blockchain, it allows designers to develop secure, comprehensive and modular DApps (**D**ecentralized **App**lications).
+Fantom é uma alternativa Ethereum para desenvolvedores de blockchain. Como uma blockchain open-source com suporte para contratos inteligentes, ela permite que os desenvolvedores construam Dapps (**D**ecentralized **App**lications) seguros, compreensivos e modulares.
 
-The chain has been designed to overcome all the limitations of the previous generation of blockchain platforms, sometimes referenced as the blockchain trilemma: decentralization, security and scalability. To improve on one of these aspects, it will have to come at the expense of one of the other two. Fantom tried to solve this thanks to its DAG (Directed Acyclic Graphs) based Lachesis aBFT (Asynchronous Byzantine Fault Tolerant) consensus mechanism, allowing it to be high-performance, scalable and secure. Initial benchmarks showed that Fantom can easily handle over 20,000 transactions per second.
+A rede foi projetada para vencer todas as limitaçōes da geração anterior das plataformas blockchains, as vezes referenciado como o trilema das blockchains: decentralização, segurança e escalabilidade. Para melhorar um destes aspectos, precisamos sacrificar um dos outros dois. A Fantom tenta resolver isso graças ao seu mecanismo de consenso Lachesis aBFT (Asynchronous Byzantine Fault Tolerant) baseado em DAG (Directed Acyclic Graphs), a permitindo it to be high-performance, scalable and secure. Initial benchmarks showed that Fantom can easily handle over 20,000 transactions per second.
 
 Finally, Fantom is 100% EVM (**E**thereum **V**irtual **M**achine) compatible, meaning that DApps that have been developed on EVM compatible networks will be deployable on Fantom too. This also brings another advantages for users since MetaMask and other web3 applications are also compatible with Fantom. You will be able to switch seamlessly from Polygon or Avalanche to Fantom within the same wallet.
 
