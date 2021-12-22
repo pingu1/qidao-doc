@@ -27,7 +27,7 @@
   * [Farming MAI on SolarBeam](rehberi/moonriver/farming-mai-on-solarbeam.md)
 * [Cronos](rehberi/cronos/README.md)
   * [Cronos'u Nasıl Kullanırım?](rehberi/cronos/how-to-get-started-on-cronos.md)
-  * [Farming Legos with CroDex](rehberi/cronos/farming-legos-with-crodex.md)
+  * [CroDex ile Lego Benzeri Çiftçilik](rehberi/cronos/farming-legos-with-crodex.md)
 * [Harmony](rehberi/harmony/README.md)
   * [Harmony Nasıl Kullanırım?](rehberi/harmony/how-to-get-started-on-harmony.md)
 
