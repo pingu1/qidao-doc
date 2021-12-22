@@ -8,21 +8,21 @@ description: >-
 
 ## O que é Fantom
 
-Fantom é uma alternativa Ethereum para desenvolvedores de blockchain. Como uma blockchain open-source com suporte para contratos inteligentes, ela permite que os desenvolvedores construam Dapps (**D**ecentralized **App**lications) seguros, compreensivos e modulares.
+Fantom é uma alternativa a Ethereum para desenvolvedores de blockchain. Como uma blockchain open-source com suporte para contratos inteligentes, ela permite que os desenvolvedores construam Dapps (**D**ecentralized **App**lications) seguros, compreensivos e modulares.
 
-A rede foi projetada para vencer todas as limitaçōes da geração anterior das plataformas blockchains, as vezes referenciado como o trilema das blockchains: decentralização, segurança e escalabilidade. Para melhorar um destes aspectos, precisamos sacrificar um dos outros dois. A Fantom tenta resolver isso graças ao seu mecanismo de consenso Lachesis aBFT (Asynchronous Byzantine Fault Tolerant) baseado em DAG (Directed Acyclic Graphs), a permitindo it to be high-performance, scalable and secure. Initial benchmarks showed that Fantom can easily handle over 20,000 transactions per second.
+A rede foi projetada para vencer todas as limitaçōes da geração anterior das plataformas blockchains, as vezes referenciado como o trilema das blockchains: decentralização, segurança e escalabilidade. Para melhorar um destes aspectos, precisamos sacrificar um dos outros dois. A Fantom tenta resolver isso graças ao seu mecanismo de consenso Lachesis aBFT (Asynchronous Byzantine Fault Tolerant) baseado em DAG (Directed Acyclic Graphs), permitindo alta performance,  escalabilidade e segurança. Testes iniciais mostraram que a Fantom pode facilmente aguentar mais de 20,000 transaçōes por segundo..
 
-Finally, Fantom is 100% EVM (**E**thereum **V**irtual **M**achine) compatible, meaning that DApps that have been developed on EVM compatible networks will be deployable on Fantom too. This also brings another advantages for users since MetaMask and other web3 applications are also compatible with Fantom. You will be able to switch seamlessly from Polygon or Avalanche to Fantom within the same wallet.
+Por último, a Fantom é 100% compativel a EVM (**E**thereum **V**irtual **M**achine), o que significa que DApps que foram desenvolvidos em redes compativeis a EVM podem rodar na Fantom também. Isso traz outra vantagem aos usuários, já que a MetaMask e outras aplicaçōes web3 também são compativeis com a Fantom. Você será capaz de alternar entrar a Polygon ou a Avalanche à Fantom pela mesma carteira.
 
-## Getting on Fantom
+## Começando na Fantom
 
-Fantom being EVM compatible, if you already have a wallet for other EVM chains (Ethereum Mainnet, Polygon or Avalanche), you will be able to use it. Else, it's time to create wallet address. There are different wallet types that can be used: **software wallets** like Metamask or [fWallet](https://pwawallet.fantom.network/#/), or **hardware wallets** like [Trezor](https://trezor.io/coins/) or [Ledger](https://fantom.foundation/blog/how-to-set-up-your-ledger-nano-s-x-with-fantom/).
+Como a Fantom é compativel a EVM, se você já possuir uma carteira para outras redes EVM (Ethereum Mainnet, Polygon ou Avalanche), você será capaz de usá-la. Se não, é hora de criar uma nova carteira. Há muitos tipos diferentes de carteiras que podem ser usadas: **carteiras de software** como a Metamask ou a [fWallet](https://pwawallet.fantom.network/#/), e **carteiras de hardware** como a [Trezor](https://trezor.io/coins/) ou a [Ledger](https://fantom.foundation/blog/how-to-set-up-your-ledger-nano-s-x-with-fantom/).
 
-For this guide, and because we're using Metamask in all our other guides, we'll be using Metamask, but feel free to use any other software/hardware wallet you like. If you need instruction on how you can install Metamask, you can find instruction on [the polygon guide](../../polygon-tutorials/how-to-get-started-on-polygon.md#downloading-metamask).
+Aqui, como ela é a nossa escolha nos outros guias, usaremos a Metamask, mas sinta-se livre para utilizar qualquer carteira que preferir, seja de software ou hardware. Se precisar de ajuda para instalar a Metamask, você pode visitar este [guia da rede polygon](../../polygon-tutorials/how-to-get-started-on-polygon.md#downloading-metamask).
 
-### Adding Fantom to Metamask
+### Adicionando a rede Fantom à Metamask
 
-In order to use the Fantom network, you will have to manually configure it into Metamask. To do so, click on the Network dropdown at the top of the Metamask window (where it indicates the network you're currently using, Ethereum Mainnet by default), then select `Custom RPC`. The following informations are the ones that will let you connect to Fantom:
+Para usar a rede Fantom, você precisará configurá-la manualmente na Metamask. Para fazer isto, clique no menu "Network" na parte superior da janela (onde é exibida a rede que está sendo utilizada, Ethereum Mainnet originalmente), então selecione `Custom RPC`. As informaçōes seguintes são as que te permitirão conectar-se a rede Fantom:
 
 * **Network Name**: Fantom Opera
 * **RPC URL**: https://rpc.ftm.tools/
@@ -30,11 +30,11 @@ In order to use the Fantom network, you will have to manually configure it into 
 * **Symbol**: FTM
 * **Explorer**: https://ftmscan.com
 
-After saving your changes, Metamask will automatically switch to the Fantom network.
+Após salvar as mudanças, a Metamask irá automaticamente trocar para a rede Fantom.
 
-![Good job! You're on Fantom!](../../.gitbook/assets/ftm-mm0.png)
+![Bom trabalho! Você está na Fantom!](../../.gitbook/assets/ftm-mm0.png)
 
-If you need more details to setup Metamask, you will find additional info on the [official Fantom guide](https://docs.fantom.foundation/tutorials/set-up-metamask).
+Se precisar de mais detalhes para configurar a Metamask, você pode encontrar mais informação no [guia oficial da Fantom](https://docs.fantom.foundation/tutorials/set-up-metamask).
 
 ### FTM faucet
 
