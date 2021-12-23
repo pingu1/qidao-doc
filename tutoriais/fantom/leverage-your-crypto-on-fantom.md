@@ -1,58 +1,59 @@
 ---
 description: >-
-  This guide is proposing a complete analysis of the different leverage options
-  proposed by Mai Finance on Fantom, using Yearn vaults and Beefy vaults.
+  Este guia apresenta uma analise completa das diferentes opçōes de alavancagem
+  propostas pela Mai Finance na Fantom, utilizando vaults de rendimento e da
+  Beefy.
 ---
 
-# Leverage your crypto on Fantom
+# Alavanque as suas criptomoedas na Fantom
 
-## Introduction
+## Introdução
 
-Mai Finance has launched its lending platform on Fantom with many different vault types, enabling the possibility to mint the MAI stable coin based on the assets you will deposit in a vault. The idea is that you will be able to keep your crypto currencies and benefit from their price appreciation, while still being able to buy other coins and farm yields with high APRs. If you use your loan to buy more of the same asset you already deposited, this is what is called leveraging your tokens. We will show you the benefits of this strategy using 2 different lending platforms on Fantom to leverage our DAI tokens.
+A Mai Finance lançou a sua plataforma de empréstimos na Fantom com muitos tipos diferentes de vaults, permitindo a possibilidade de cunhar a stablecoin MAI dependendo dos ativos que você depositar no vault. A idéia é que você poderá manter suas criptomoedas e se beneficiar da sua apreciação de preço, enquanto pode comprar outras moedas e render em farming com altos APRs. Se você utilizar o seu empréstimo para comprar mais do mesmo ativo que você já depositou, isto chama-se alavancagem. Nós mostraremos os beneficios desta estratégia utilizando 2 plataformas de empréstimos diferentes na Fantom para alavancar nosso tokens DAI.
 
-## Leverage your Yearn Vault tokens
+## Alavanque seus tokens em vaults
 
-### Deposit your assets on Yearn Finance
+### Deposite seus ativos na Yearn Finance
 
-[Yearn Finance](https://beta.yearn.finance/#/home) is a group of protocols running on the Ethereum Mainnet and other blockchains that allow users to optimize their earnings on crypto assets through lending and trading services. On Fantom, the product that we will be using is the vaults on yearn finance. This is a tool that will accept single token deposits and will make you earn yields on this deposit. As a proof of deposit, you will receive a yvToken. In our case, we will deposit DAI and will get yvDAI in exchange.
+[Yearn Finance](https://beta.yearn.finance/#/home) é um de protocolos rodando na Ethereum Mainnet e em outras blockchains, que permite aos seus usuários otimizar seus rendimentos através de empéstimos e trading. Na Fantom, o produto que nós utilizaremos serão os vaults na Yearn Finance. Esta é uma ferramenta que aceitará depósitos de únicos tokens e fará você colher rendimentos deste depósito. Como prova de depósito, você receberá yvToken. No nosso caso, nós depositaremos DAI e receberemos yvDAI em troca.
 
-![yearn vaults on Fantom network](../../.gitbook/assets/ftm-leverage-yv1.png)
+![Vaults de rendimento na rede Fantom](../../.gitbook/assets/ftm-leverage-yv1.png)
 
 {% hint style="info" %}
-The yearn finance website is still in beta mode on Fantom. The team is still working on the platform and APRs/APYs aren't showing. If you head to the Iron Bank tab, which is the lending/borrowing protocol on yearn platform, you'll see that lending DAI is getting \~8% APR. Please invest at your own risk.
+O website da Yearn Finance ainda está em sua versão beta na rede Fantom. O time ainda está trabalhando na plataforma e APRs/APYs ainda não são exibidos. Se você ir a aba Iron Bank, que é o protocolo de empréstimos da plataforma, você notará que emprestar DAI rende um APR de aproximadamente 8%. Por favor, invista a seu próprio risco.
 {% endhint %}
 
-### Deposit your yvToken on Mai Finance
+### Deposite seu yvToken na Mai Finance
 
-Once you deposited your DAI on yearn finance, you should have yvDAI in your wallet. This is what we call a yield bearing token: it's a token that doesn't have any value per se, but represents your share of a pool where your assets are earning yields and in which rewards are automatically compounded. In other words, if your DAI doesn't change in value because the DAI is pegged to the US dollar, the underlying value of your yvDAI token increases anyway.
+Após depositar seu DAI na Yearn Finance, você deverá obter yvDAI em sua carteira. Isto é o que nós chamamos de token comprovante de rendimento: é um token que não possui nenhum valor em si mesmo, mas representa a faria da pool em que seus ativos estão rendendo e em que recompensas são acumuladas automaticamente. Em outras palavras, se o seu DAI não alterar em valor pois ele é pareado ao dólar americano, o valor subjacente de seu token yvDAI só deve aumentar.
 
-Mai Finance accepts a lot of different yield bearing tokens as collateral, including yvDAI. You can now deposit this token and borrow MAI against it.
+A Mai Finance aceita diversos tokens comprovantes de rendimentos como garantia, incluindo yvDAI. Agora, você pode depositar esse token como garantia e tomar emprestado MAI.
 
-![Deposit your yvToken on Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
+![Deposite seu yvToken na Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
 
-The yvDAI vault has a liquidation threshold of 110%, this means that you can borrow MAI so that the ratio between your collateral value and the debt value is 110%. Be careful that 110% is actually the ratio at which your vault will be liquidated. You need to keep the ratio above this minimum threshold. Since DAI doesn't vary much in price (less than a few cents up or down) it's possible to keep a "safe" CDR (**C**ollateral to **D**ebt **R**atio) of 115%, but feel free to keep something higher.
+O vault yvDAI possui um limite de liquidação em 110%, isso significa que você pode tomar MAI emprestado até o ponto que a razão entre o valor de sua garantia e o valor da dívida é de 110%. Tenha cuidado, pois 110% é o valor pelo qual você já é liquidado. Você precisa, portanto, manter uma proporção acima deste limite minimo. Como DAI não varia muito em preço (menos de centavos) é possivel mantermos uma CDR (**C**ollateral to **D**ebt **R**atio) "segura" de 115%, mas sinta-se livre para manter a taxa mais alta.
 
-As always, to calculate the loan value we can get based on the value of our collateral and the target CDR we want to get, we will use the following formula:
-
-$$
-MAI_{available} = \frac{Collateral_{value} - Debt_{value} * Target_{CDR}}{Target_{CDR}}
-$$
-
-​With a collateral value of $100 and no debt, if we want to keep a healthy CDR of 115% we can borrow up to
+Como sempre, para calcular o valor do empréstimo que nós podemos obter baseado no valor de nossa garantia e a CDR alvo que queremos, nós usaremos a seguinte fórmula:
 
 $$
-MAI_{available}=\frac{100-0*1.15}{1.15}=86.95
+MAI_{disponível} = \frac{Garantia_{valor} - Dívida_{valor} * CDR_{alvo}}{CDR_{alvo}}
 $$
 
-​You are now in a position where you have your DAI earning yields in a Yearn vault, and you also have some MAI stable coin ready to use. Since we want to leverage our DAI position, we will now swap our MAI for more DAI.
+​Como uma garantia de $100 e nenhuma dívida, se nós queremos manter uma CDR saudável de 115%, nos podemos tomar emprestado até:
 
-### Swapping your MAI on BeethovenX
+$$
+MAI_{disponível}=\frac{100-0*1.15}{1.15}=86.95
+$$
 
-On Fantom, the main source of liquidity for MAI is [BeethovenX](https://app.beets.fi/#/trade). This is the main place where you will be able to swap your MAI tokens for more DAI for our strategy.
+​Você está agora em uma posição onde você possui seu rendimentos em DAI de um vault, e você também tem um pouco da stablecoin MAI disponível para uso. Como nós queremos alavancar nossa posição em DAI, nós trocaremos nosso MAI por mais DAI.
 
-![Swapping MAI for more DAI](../../.gitbook/assets/ftm-leverage-yv3.png)
+### Trocando seu MAI na BeethovenX
 
-This is the last step of our loop. Now that you have more DAI you can deposit them in a Yearn vault and repeat the loop. Doing so increases the amount of assets you have in the Yearn vault, meaning that you will collect more rewards by lending your DAI on that platform. The APR/APY remains the same, but because you have more assets, you earn more yield, and if you compare to your initial investment, it's your APR that increases. If you want to get more examples on what APR you can achieve using the yvDAI loops, please go read our [camDAI token guide](../../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) for Polygon that uses the exact same strategy but different tools.
+Na Fantom, o principal provedor de liquidez para MAI é a [BeethovenX](https://app.beets.fi/#/trade). Este é o principal lugar para você trocar seus tokens MAI para mais DAI, para a nossa estratégia.
+
+![Trocando MAI por mais DAI](../../.gitbook/assets/ftm-leverage-yv3.png)
+
+Esta é a última etapa de nosso loop. Agora que temos mais DAI, podemos depositá-lo no vault, e repetir o loop. Fazer isto aumenta a quantidade de ativos que temos no vault, o que significa que colheremos mais recompensas ao emprestar DAI naquela plataforma. O APR/APY continua o mesmo, mas como temos mais ativos, recebemos mais juros, e se compararmos ao nosso investimento inicial, é o o nosso APR que aumenta. Se você quer mais exemplos de que APR pode obter utilizando loops com yvDAI, por favor, leia nosso [guia de token camDAI](../../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) para a Polygon, que utiliza a mesma estratégia, mas com ferramentas diferentes.
 
 {% hint style="success" %}
 BeethovenX is actually a fantastic opportunity to farm yields with your borrowed MAI. Simply deposit your MAI in the MAI-DAI-USDC pool (APR of \~30% as of November 2021) if you cannot achieve a better APR using leveraged loops.
