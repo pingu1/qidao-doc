@@ -104,5 +104,5 @@ Há diversas oportunidades disponiveis na Fantom que serão descritas em nossos 
 Este guia não é conselho financeiro, e tem cunho meramente educacional. Sempre faça a sua própria pesquisa. Os projetos apresentados aqui são para mostrar possibilidades na rede, este guia não deve ser tomado como recomendação.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua própria pesquisa.
 {% endhint %}
