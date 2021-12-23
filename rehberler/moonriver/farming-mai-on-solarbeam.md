@@ -1,126 +1,125 @@
 ---
-description: >-
-  Solarbeam has a MAI-MOVR farming pool with nice a APR. Today we will
-  see how to take advantage of it.
+Açıklama: >-
+ Solarbeam, güzel APR oranı ile MAI-MOVR çiftçilik havuzuna sahiptir. Bugün bundan nasıl yararlanabileceğinizi göstereceğiz.
 ---
 
-# Farming MAI on SolarBeam
+# SolarBeam'de MAI Çiftçiliği
 
-Most of the tutorials presented in this guide are using stable coins as starting position. This is mostly du to the fact that stable coin pairs are not impacted by impermanent loss nor volatility of other assets. It is then almost impossible to lose your initial, and you can use more risky strategies with the gains from your stables to increase your gains.
+Bu kılavuzda yer alan eğitimlerin çoğu, başlangıç noktası olarak stablecoinleri kullanır. Bunun temel nedeni, stablecoin çiftlerinin geçici kayıplardan veya diğer varlıkların oynaklığından etkilenmemesidir. Bu durumda başlangıçtaki değerinizi kaybetmek neredeyse imkansızdır ve kazancınızı artırmak için stablecoinlerden elde ettiğiniz kazançlarla daha riskli stratejileri kullanabilirsiniz.
 
-Today, we're trying another approach on Moonriver with Solarbeam, currently the only application that uses MAI. The LP (**L**iquidity **P**roviding) pair there is MAI-MOVR. MAI is the stable coin from Mai Finance that you will be able too bridge to Moonriver or mint from a vault, and MOVR is the native gas token of Moonriver. As such, MOVR will always have some kind of utility and should never go down in prce too drastically. This is not a stable pair, but the only variable part of the token is linked to MOVR, which makes it a good starting point anyway.
+Şu anda MAI kullanan tek uygulama olan Solarbeam ile Moonriver'da farklı bir yaklaşım deniyoruz. LP (Liquidity Provider) çifti MAI-MOVR'dir. MAI, Moonriver'a köprüleme yapabileceğiniz veya bir kasadan token çıkarabileceğiniz Mai Finance'in stablecoinidir ve MOVR, Moonriver'ın yerel gas tokenıdır. Bu nedenle, MOVR'nin her zaman bir faydası olacaktır. Ayrıca fiyatının asla çok sert bir şekilde düşmemesi gerekir. Bu sabit bir çift değildir ancak tokenın tek değişken kısmı MOVR ile bağlantılıdır, bu da onu her durumda iyi bir başlangıç noktası yapar.
 
-Let's see how we can generate some very high yields with a closed feedback loop on Moonriver without dumping too many farm tokens on the go.
+Moonriver'da kapalı bir geri bildirim döngüsüyle süreç boyunca çok fazla farm tokenı harcamadan nasıl çok yüksek verimler elde edebileceğimize bir bakalım.
 
 ![](<../../.gitbook/assets/solarbeam-1.png>)
 
 ## SolarBeam
 
-### Farming MAI on Solarbeam
+### SolarBeam'de MAI Çiftçiliği
 
-Solarbeam is the first and main DEX (**D**ecentralized **EX**change) and AMM (**A**utomatic **M**arket **M**aker) on Moonriver, and the second application in terms of TVL on the chain. It's also the very first Moonriver partner of Mai Finance and offers a MAI-MOVR pool that gets rewarded with some of their native token, the SOLAR token. This is also the place where you'll find some liquidity for MAI.
+Solarbeam, Moonriver'daki ilk ve ana DEX (Merkeziyetsiz Borsa) ve AMM’dir (Otomatik Piyasa Yapıcı) ve zincirdeki TVL açısından ikinci uygulamadır. Aynı zamanda Mai Finance'in ilk Moonriver ortağıdır ve yerel tokenlarının bir kısmı olan SOLAR tokenlarıyla ödüllendirilecek bir MAI-MOVR havuzu sunar. MAI için likiditeyi de burada bulabilirsiniz.
 
-![MAI-MOVR pool on Solarbeam as of December 2021](<../../.gitbook/assets/solarbeam-2.png>)
+![Aralık 2021 itibariyle Solarbeam'de MAI-MOVR havuzu](<../../.gitbook/assets/solarbeam-2.png>)
 
-The APR (**A**nnual **P**ercentage **R**ate) of 84% is quite high due to the low usage of the pool, which also makes it a perfect starting point for our strategy. You will get this APR (corresponding to 131% APY if you want to compare to something like MAI-WMATIC on QuickSwap for reference) and the reward will be paid in SOLAR tokens. As of December 2021, 1 SOLAR = 3.78 USDC.
+Havuzun düşük kullanımı nedeniyle %84'lük APR (Yıllık Yüzde Oranı) oldukça yüksektir ve bu da onu stratejimiz için mükemmel bir başlangıç noktası yapar. Bu APR'yi aldığınızda (referans için QuickSwap'ta MAI-WMATIC gibi bir şeyle karşılaştırmak istiyorsanız %131 APY'ye karşılık gelir) ödül SOLAR tokenları olarak ödenecektir. Aralık 2021 itibariyle 1 SOLAR = 3.78 USDC.
 
-### Single staking SOLAR
+### Tek taraf staking SOLAR
 
-Most Uniswap forks are now proposing staking for their native token, and Solarbeam is doing it too. You can either stake your SOLAR into a Vault to get more SOLAR, and depending on the length of your lock, you'll get very interesting rates (up to 200% APR for a 30 days lock), but we will be using staking to earn external tokens. Indeed, you can stake your SOLAR tokens to receive a bunch of other tokens from different apps on Moonriver, and the one we're looking for is the ROME token.
+Solarbeam de dahil olmak üzere Uniswap çatallarının çoğu artık yerel tokenları için stake yapmayı öneriyor. Daha fazla SOLAR için SOLAR'ınızı bir kasaya yatırıp kilitleme uzunluğuna bağlı olarak çok ilginç oranlar elde edebilirsiniz (30 günlük bir kilitleme için %200 APR'ye kadar), ancak harici tokenlar kazanmak için stake'i kullanacağız. Moonriver'daki farklı uygulamalardan bir dizi başka token almak için SOLAR tokenlarınızı stake edebilirsiniz, aradığımız token ROME tokenıdır
 
 ![Staking SOLAR token to earn ROME tokens on Solarbeam](<../../.gitbook/assets/solarbeam-3.png>)
 
-You will notice that the ROME pool is the one with the lowest APR, but it's still quite high, and you will soon see that our ROME tokens will multiply at a crazy rate.
+ROME havuzunun en düşük APR'ye sahip olduğunu göreceksiniz ancak yine de oldukça yüksektir ve yakında ROME tokenlarımızın çılgın bir oranda çoğaldığını göreceksiniz.
 
 ## Rome DAO
 
-Rome DAO is another big player on Moonriver. It's an Ohm-fork (Olympus DAO copy) that uses the ROME token as native token. You will be able to stake your ROME tokens on the application in order to get very high returns. The goal of each Ohm-fork is to have as much native token staked and attract liquidity to be able to sustain the emission. If you need more details on Ohm-forks, please check our [tutorials on Klima DAO](../polygon/ohm-forks-on-polygon-the-case-of-klima.md) for Polygon.
+Rome DAO, Moonriver'daki bir başka büyük aktördür. ROME tokenını yerel token olarak kullanan bir Ohm-çatalıdır (Olympus DAO kopyası). Çok yüksek getiriler elde etmek için uygulama üzerinde ROME tokenlarınızı stake edebileceksiniz. Her Ohm-çatalının amacı, emisyonu sürdürebilmek için likiditeyi çekmek ve yerel tokena sahip olmaktır. Ohm-klon hakkında daha fazla bilgiye ihtiyacınız varsa lütfen [Polygon için Klima DAO eğitimimize](../polygon/ohm-forks-on-polygon-the-case-of-klima.md) göz atın.
 
-![Staking ROME tokens on Rome DAO for 771% APR as of December 2021](<../../.gitbook/assets/solarbeam-4.png>)
+![ROME tokenlarını Aralık 2021 itibariyle %771 Nisan için Roma DAO'da stake etme oranı](<../../.gitbook/assets/solarbeam-4.png>)
 
-Because we'll get ROME tokens from Solarbeam, we should be able to stake them on Rome DAO and the rebase system will get you a lot more very quickly. For this strategy, we will stake ROME tokens on Rome DAO and sell 50% of the daily reward, which is currently corresponding to ~1% of the deposit on Rome DAO.
+Solarbeam'den ROME tokenları alacağımız için onları Rome DAO'da stake edebilmeliyiz, rebase sistemi çok daha hızlı bir şekilde almanızı sağlayacaktır. Bu strateji için Rome DAO'da ROME tokenlarını stake edeceğiz ve şu anda Rome DAO'daki depozitonun ~%1'ine tekabül eden günlük ödülün %50'sini satacağız.
 
 ## Mai Finance
 
-Mai Finance is a lending platform where you'll be able to deposit your crypto assets and borrow the MAI stable coin at 0% interest. The only fee that will ever be charged on Moonriver is the repayment fee of 0.5% of your loan.
+Mai Finance, kripto varlıklarınızı yatırabileceğiniz ve MAI stablecoinini %0 faizle borç alabileceğiniz bir borç verme platformudur. Moonriver'da tahsil edilecek tek ücret, borcunuzun %0,5'lik geri ödeme ücretidir.
 
-![ETH vault on Moonriver with a lot of MAI available](<../../.gitbook/assets/solarbeam-5.png>)
+![Moonriver'da çok sayıda MAI bulunan ETH kasası](<../../.gitbook/assets/solarbeam-5.png>)
 
-For our strategy, we will be using a ETH vault. The ROME token that will be extracted from the Rome DAO staking pool will be split as follows:
+Stratejimiz için bir ETH kasası kullanacağız. Rome DAO stake havuzundan çıkarılacak ROME tokenı aşağıdaki gibi bölünecektir:
 
-* 33% will be swapped to MOVR using the swap feature on Solarbeam
-* 66% will be swapped to ETH using the swap feature on Solarbeam
+* Solarbeam'deki takas özelliği kullanılarak %33'ü MOVR'ye değiştirilecek
+* Solarbeam'deki takas özelliği kullanılarak %66'sı ETH'ye takas edilecek
 
-You will then be able to deposit the ETH on Mai Finance to borrow MAI with a CDR (**C**ollateral to **D**ebt **R**atio) of 200% to stay in the safe zone and try to prevent liquidation. The MAI borrowed will then be used to create additional MAI-MOVR LP tokens that will then be added to the initial position on Solarbeam.
+Ardından, güvenli bölgede kalmak ve likidasyonu önlemek için %200'lük bir CDR (Borç Teminatı Oranı) ile MAI borç almak için ETH'yi Mai Finance'e yatırabileceksiniz. Borç alınan MAI, daha sonra Solarbeam'deki başlangıç konumuna eklenecek olan ek MAI-MOVR LP tokenları oluşturmak için kullanılacaktır.
 
-As an example, for each $1 of ROME that you extract from Rome DAO we will get
+Örnek olarak, Rome DAO'dan aldığınız her 1$'lık ROME için şunları elde ederiz:
 
-* $0.33 of MOVR
-* $0.66 of ETH deposited on Mai Finance
-* $0.33 of MAI borrowed against our ETH
-* $0.66 worth of MAI-MOVR LP token to add to Solarbeam
+* MOVR'nin 0,33$’ı
+* Mai Finance'e yatırılan ETH'nin 0,66$’ı
+* ETH'mize karşı borç alınan MAI’nın 0,33$’ı
+* Solarbeam'e eklenecek 0,66$ değerinde MAI-MOVR LP tokenı
 
-## Farming Strategy
+## Çiftçilik Stratejisi
 
-The following simulation is made by assuming a few different things:
+Aşağıdaki simülasyon farklı durumlar varsayılarak yapılmıştır:
 
-* All rates and prices remain the same for the entire period of the simulation, 1 year in our case
-  * 84% APR on MAI-MOVR farming on Solarbeam
-  * 108% APR on staking SOLAR to farm ROME tokens
-  * 771% APR on Rome DAO when staking ROME tokens
-* All rewards and programs are also running for an entire year
-* 50% of the daiy gains on Rome DAO is sold for 33% MOVR and 66% ETH
-* The initial investment is $100 worth of MAI-MOVR LP token
+* Tüm oranlar ve fiyatlar simülasyonun tüm süresi boyunca aynı kalır, bizim durumumuzda 1 yıl:
+  * Solarbeam'deki MAI-MOVR farming’de %84 APR
+  * SOLAR'ı stake ederek ROME tokenları toplamak için %108 APR
+  * ROME tokenlarını stake ederken Rome DAO'da %771 APR
+* Tüm ödüller ve programlar da bir yıl boyunca devam ediyor
+* Rome DAO'daki günlük kazançların %50'si %33 MOVR ve %66 ETH'ye satıldı
+* İlk yatırım 100$ değerinde MAI-MOVR LP tokenıdır.
 
 ![](<../../.gitbook/assets/solarbeam-6.png>)
 
-### Day 1
+### 1.Gün
 
-On day 1, you would simply deposit your $100 worth of MAI-MOVR on Solarbeam and will harvest your SOLAR tokens at the end of the day. This would give you the following result:
+1. günde, 100$ değerindeki MIA-MOVR'nizi Solarbeam'e yatırırsınız ve günün sonunda SOLAR tokenlarınızı toplarsınız. Bu size aşağıdaki sonucu verecektir:
 
-| MAI-MOVR | SOLAR |  ROME |  ETH  | Additional LP |
+| MAI-MOVR | SOLAR |  ROME |  ETH  |    İlave LP   |
 |----------|-------|-------|-------|---------------|
 |  100.000 | 0.230 | 0.000 | 0.000 |         0.000 |
 
-### Day 2
+### 2. Gün
 
-On day 2, you'd keep your MAI-MOVR position to farm more SOLAR, but you will also stake your first harvest of SOLAR token in order to start collecting some ROME tokens. At the end of day 2, you would get:
+2. günde, daha fazla SOLAR toplamak için MAI-MOVR konumunuzu korursunuz ancak aynı zamanda bazı ROME tokenlarınızı toplamaya başlamak için toplayacağınız ilk SOLAR tokenınızı da riske atarsınız. 2. günün sonunda şunları elde edersiniz:
 
-| MAI-MOVR | SOLAR |  ROME |  ETH  | Additional LP |
+| MAI-MOVR | SOLAR |  ROME |  ETH  |    İlave LP   |
 |----------|-------|-------|-------|---------------|
 |  100.000 | 0.460 | 0.001 | 0.000 |         0.000 |
 
-### Day 3
+### 3. Gün
 
-At the beginning of day 3, you should be able to harvest your first few ROME tokens from the 50% daily staking reward. It's probably not a good idea to do it on day 3 with only an initial of $100 because the amount is quite unsignificant, but still. You will sell 33% for MOVR and 66% for ETH that you will deposit your vault on Mai Finance, then borrow MAI against your new collateral.
+3. günün başında, %50 günlük stake ödülünden ilk birkaç ROME tokenınızı toplayabilmeniz gerekir. Miktar oldukça önemsiz olduğu için 3. günde yalnızca 100$ ile başlamak muhtemelen iyi bir fikir değildir ancak yine de kasanızı Mai Finance'e yatıracağınız MOVR için %33 ve ETH için %66 satacaksınız, ardından yeni teminatınız karşılığında MAI borç alacaksınız.
 
-| MAI-MOVR | SOLAR |  ROME |    ETH   | Additional LP |
+| MAI-MOVR | SOLAR |  ROME |    ETH   |    İlave LP   |
 |----------|-------|-------|----------|---------------|
 |  100.000 | 0.690 | 0.002 | 0.000005 |      0.000005 |
 
-At this point the system is fully bootstrapped.
+Bu noktada sistem tamamen ateşlenmiş olur
 
-## Farming results
+## Çiftçilik Sonuçları
 
-### Daily routine
+### Günlük rutin
 
-Once the system is fully prepared, here's your daily routine
+Sistem tamamen hazır olduğunda günlük rutininiz,
 
-* harvest SOLAR from the MAI-MOVR pool
-* stake the SOLAR tokens you just earned
-* harvest the ROME tokens from the SOLAR staking pool
-* stake your freshly acquired ROME tokens
-* unstake 50% of your daily gains on Rome DAO (corresponds to ~1.5 rebase)
-* sell 66% of your ROME tokens for ETH
-* sell 33% of your ROME tokens for MOVR
-* deposit ETH in the ETH vault on Mai Finance
-* borrow 50% of your deposit as MAI stable coin
-* pair the borrowed MAI with the MOVR tokens
-* deposit your additional MAI-MOVR tokens
+* MAI-MOVR havuzundan SOLAR toplayın
+* kazandığınız SOLAR tokenlarını stake edin
+* SOLAR stake havuzundan ROME tokenlarını toplayın
+* topladığınız ROME tokenlarınızı stake edin
+* Rome DAO'daki günlük kazançlarınızın %50'sini riske atın (~1.5 rebase’e karşılık gelir)
+* ROME tokenlarınızın %66'sını ETH karşılığında satın
+* MOVR için ROME tokenlarınızın %33'ünü satın
+* ETH'yi Mai Finance'teki ETH kasasına yatırın
+* MAI stablecoini olarak mevduatınızın %50'sini borç alın
+* borç alınan MAI'yi MOVR tokenlarıyla eşleyin
+* ek MAI-MOVR tokenlarınızı yatırın
 
-### Raw results month after month
+### Aydan aya ham sonuçlar
 
-| day | MAI-MOVR | staked SOLAR | staked ROME |    ETH   |
+| Gün | MAI-MOVR | staked SOLAR | staked ROME |    ETH   |
 |-----|----------|--------------|-------------|----------|
 |  30 |  100.021 |        7.135 |       0.352 |    0.023 |
 |  60 |  100.190 |       14.045 |       1.550 |    0.200 |
@@ -135,26 +134,26 @@ Once the system is fully prepared, here's your daily routine
 | 330 |  187.841 |       89.226 |     174.234 |   89.041 |
 | 360 |  230.861 |      103.358 |     248.711 |  132.575 |
 
-### Day 365
+### 365.gün
 
-After a complete year of farming, you would have
+Tam bir yıllık farming’den sonra
 
-* $239.633 worth of MAI-MOVR on Solarbeam
-* $106.358 worth of SOLAR tokens on Solarbeam
-* $263.708 worth of ROME tokens staked on Rome DAO
-* $141.450 worth of ETH on Mai Finance
-* $68.817 worth of MAI debt on Mai Finance
+* Solarbeam'de 239.633$ değerinde MAI-MOVR
+* Solarbeam'de 106.358$ değerinde SOLAR tokenı
+* Rome DAO'ya stakelenen 263.708$ değerinde ROME tokenı
+* Mai Finance'de 141.450$ değerinde ETH
+* Mai Finance'de 68.817$ değerinde MAI borcu
 
-The additional MAI-MOVR doesn't fully correspond to the debt since we're using a third of the swapped ROME tokens to get half of the new LP tokens.
+Yeni LP tokenlarının yarısını almak için takas edilen ROME tokenlarının üçte birini kullandığımızdan dolayı ek MAI-MOVR borca tam olarak karşılık gelmiyor.
 
-This loop would thus give you an equivalent APY of 583.15% from a relatively stable initial position.
+Böylece bu döngü size nispeten stabil bir başlangıç konumundan %583,15'lik bir APY verecektir.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-The main things to understand from this strategy are that Moonriver is currently under-used and reward rates are very interesting. Also, as soon as you throw a Ohm-fork in your strategy to re-invest a portion of your gains, the reward rates are so insane that you will make a very important profit as long as you keep enough tokens in the DAO to generate staking rewards.
+Bu stratejiden anlaşılması gereken en önemli şey, Moonriver'ın şu anda yeterince kullanılmadığı ve ödül oranlarının çok ilginç olduğudur. Ayrıca, kazançlarınızın bir kısmını yeniden yatırmak için stratejinize bir Ohm-çatalı eklediğiniz anda, ödül oranları o kadar çılgındır ki, DAO'da ödül kazanmak için yeterli tokenınız olduğu sürece çok büyük bir kâr elde edebilirsiniz.
 
-Keep in mind though that projects will have variable reward rates that will not be guaranteed over the span of one year. Please make sure you understand all the project you're investing in, do your own research and make sure to invest only what you may be ready to loose. Because this strategy is investing on a relatively stable initial, the only thing that is at risk in here are the benefits from other systems. This guide cannot be taken as an endorsement of the projects it uses.
+Bununla birlikte, projelerin bir yıllık bir süre boyunca garanti edilmeyen değişken ödeme oranlarına sahip olduğunu unutmayın. Lütfen yatırım yaptığınız tüm projeleri anladığınızdan emin olun, kendi araştırmanızı yapın ve yalnızca kaybetmeyi göze alabileceğiniz kadar yatırım yaptığınızdan emin olun. Bu strateji nispeten stabil bir başlangıç ​​yatırımına dayandığından yalnızca diğer sistemlerin avantajları risk altındadır. Bu kılavuz, kullandığı projeler için bir öneri olarak görülemez
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Fiyat değişimlerine, arz ve talebe, ödül programlarının bitiş tarihlerine, kalıcı kayıplara vs. dikkat etmeniz gerekiyor... Amaç körü körüne takip edilebilecek tarifler önermek değildi. Bu yüzden lütfen kendi simülasyonunuzu yapın ve sadece kaybetmeyi göze aldığınız kadar yatırım yapın.
 {% endhint %}
