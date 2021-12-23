@@ -56,62 +56,62 @@ Na Fantom, o principal provedor de liquidez para MAI é a [BeethovenX](https://a
 Esta é a última etapa de nosso loop. Agora que temos mais DAI, podemos depositá-lo no vault, e repetir o loop. Fazer isto aumenta a quantidade de ativos que temos no vault, o que significa que colheremos mais recompensas ao emprestar DAI naquela plataforma. O APR/APY continua o mesmo, mas como temos mais ativos, recebemos mais juros, e se compararmos ao nosso investimento inicial, é o o nosso APR que aumenta. Se você quer mais exemplos de que APR pode obter utilizando loops com yvDAI, por favor, leia nosso [guia de token camDAI](../../polygon-tutorials/camdai-beginner-strategy.md#main-strategy) para a Polygon, que utiliza a mesma estratégia, mas com ferramentas diferentes.
 
 {% hint style="success" %}
-BeethovenX is actually a fantastic opportunity to farm yields with your borrowed MAI. Simply deposit your MAI in the MAI-DAI-USDC pool (APR of \~30% as of November 2021) if you cannot achieve a better APR using leveraged loops.
+A BeethovenX é, de fato, uma oportunidade fantástica para obter rendimentos em farming com seu MAI emprestado. Simplesmente deposite seu MAI na pool MAI-DAI-USDC (APR de aproximadamente 30% em Novembro de 2021) se você não conseguir alcançar um APR melhor usando loops alavancados.
 {% endhint %}
 
 $$
 MAI_
 $$
 
-## Leverage your mooScreamTokens on Mai Finance
+## Alavanque os seus mooScreamTokens com a Mai Finance
 
-### Deposit your assets on Beefy Finance
+### Deposite seus ativos na Beefy Finance
 
-[Beefy Finance](https://app.beefy.finance/#/fantom) is a Decentralized, Multi-Chain Yield Optimizer platform that allows its users to earn compound interest on their crypto holdings. In other words, you can deposit some assets or LP tokens from other platforms on Beefy Finance and let the auto-compounder harvest farm tokens and compound them into more of your deposited asset / LP token. For our exemple, we will use single DAI deposits on Beefy and use [Scream](https://scream.sh/lend) as the underlying platform. Scream is a Compound fork on the Fantom network on which you will be able to lend your assets and collect SCREAM tokens. Beefy will then sell the SCREAM tokens for more DAI.
+A [Beefy Finance](https://app.beefy.finance/#/fantom) é uma plataforma decentralizada, otimizadora de rendimentos multi-chain que permite a seus usuários receberem juros compostos pelos suas posiçōes em criptomoedas. Em outras palavras, você pode depositar alguns ativos ou LP tokens de outras plataformas na Beefy Finance, e irá colher tokens de farm automaticamente acumulados, podendo então acumulá-los em mais dos seus ativos/LP tokens depositados. Para o nosso exemplo, nós usaremos depósitos únicos em DAI na Beefy e usar a [Scream](https://scream.sh/lend) como plataforma subjacente. Scream é um fork da Compound na rede Fantom em que você pode emprestar os seus ativos e coletar tokens SCREAM. Beefy irá então vender os tokens SCREAM para comprar mais DAI.
 
-To deposit our DAI, we will visit the Beefy Finance app and select Scream as the platform on which we will farm yields. You can also add the DAI filter in order to get the direct DAI deposit.
+Para depositar nosso DAI, nós iremos visitar o app da Beefy Finance e selecionar Scream como plataforma em que nós iremos realizar o farming. Você pode também adicionar o filtro DAI para obter o depósito direto de DAI.&#x20;
 
-![Deposit your DAI on Beefy using Scream](../../.gitbook/assets/ftm-leverage-beefy1.png)
+![Deposite seu DAI na Beefy usando a Scream](../../.gitbook/assets/ftm-leverage-beefy1.png)
 
-As you can see, Beefy is already giving an unbelievable APY on DAI single deposits. Once you have your DAI deposited on Beefy, you should have a proof of deposit in your wallet under the form of mooScreamDAI tokens. As for the yvDAI token, the mooScreamDAI token is a yield bearing deposit, meaning that you asset is still used on Scream and compounded on Beefy, earning yields. But you will be able to use this token on Mai Finance to borrow MAI against them.
+Como você pode ver, a Beefy já nos fornece um APY inacreditável em depósitos de DAI apenas. Após você ter depositado seu DAI na Beefy, você deve ter uma prova de depósito em sua carteira na forma de tokens mooScreamDAI. Assim como o token yvDAI, o token mooScreamDAI é um comprovante de rendimento, o que significa que seu ativo ainda está sendo utilizado na Scream e acumulado na Beefy, recebendo juros. Mas voce será capaz de utilizar este token como garantia na Mai Finance, para tomar emprestado MAI.
 
-### Deposit your mooScreamToken on Mai Finance
+### Deposit seu mooScreamToken na Mai Finance
 
-Once you deposited your DAI on yearn finance, you should have mooScreamDAI in your wallet. You can use the exact same steps as for the Yearn Vault strategy above, the only difference is that the mooScreamDAI liquidation ratio is 135%. Since DAI is a stable coin, it's still possible to borrow MAI and keep a CDR very close to the liquidation ration. For our exemple, we will aim at a 140% CDR, and with the same formula as above, we can calculate the amount of MAI we can mint with 100$ worth of DAI.
+Após você ter depositado seu DAI na Yearn Finance, você deve ter mooScreamDAI em sua carteira. Você pode seguir as mesmas etapas da estratégia do vault acima, a única diferença é que a proporção de liquidação de mooScreamDAI é de 135%. Como DAI é uma stablecoin, ainda é possível tomar MAI emprestado e manter uma CDR bem próxima a proporção de liquidação. Para o nosso exemplo, nós iremos focar em uma taxa CDR de 140%, e utilizando a mesma fórmula de cima, nós podemos calcular a quantidade de MAI que podemos cunhar com 100$ de DAI.
 
 $$
-MAI_{available}=\frac{100-0*1.4}{1.4}=71.43
+MAI_{disponível}=\frac{100-0*1.4}{1.4}=71.43
 $$
 
-​Since we are borrowing less, we will be able to perform less loops and the final equivalent APY will also be lower, however this is still a pretty good beginner strategy.
+​Como nós estamos tomando menos emprestado, nós poderemos realizar menos loops e o APY equivalente final será inferior, entretanto esta é ainda uma estratégia muito boa para iniciantes.
 
-The rest of the loop is the same as for yvDAI, meaning you will have to swap your MAI for DAI on BeethovenX and repeat until you're satisfied.
+O resto do loop é o mesmo para yvDAI, o que significa que você deverá trocar seu MAI para DAI na BeethovenX e repetir até estar satisfeito.
 
-## Some notes on leveraging strategies
+## Algumas observaçōes sobre alavancagem
 
-Leverage DAI is considered a beginner strategy in the sense that it presents very little risk (you are working with stable coins) and you can get some nice yields using at most 3 protocols. However, there's still _some_ risk.
+Alavancar DAI é considerada uma estratégia de iniciantes pois ela apresenta um risco bem baixo (por trabalhar com stablecoins) e você pode obter ótimos rendimentos utilizando no máximo 3 protocolos. Entretanto, ainda há certo risco.
 
-### Liquidation risk
+### Risco de liquidação
 
-The more loops you will perform, the higher the liquidation risk. Indeed, even a small variation of the DAI price will be magnified by the leverage you applied, and even if you keep a CDR 5 points above the liquidation ratio, your vault can be at risk. It's always a good idea to stop the leverage loops at the step where you deposit your assets on MAI finance and don't borrow additional MAI in order to keep a better CDR.
+Quanto mais loops você realizar, mais alto será o risco de liquidação. De fato, até mesmo uma pequena variação de preço da DAI será ampliada pela alavancagem que você aplicar, e mesmo que você mantenha uma CDR 5 pontos acima da taxa de liquidação, seu vault ainda pode estar em risco. É sempre uma boa ideia parar com os loops na etapa em que você deposita seus ativos na Mai Finance, e não tomar mais MAI emprestado para manter uma boa taxa CDR.
 
-Also, in case of a liquidation, because your vault on MAI finance contains a lot more assets, a liquidation will also have a bigger impact than if you didn't levered your position, simply because the debt you have to repay is also much bigger.
+Além disso, em caso de liquidação, como o seu vault na Mai Finance contém muitos outros ativos, o impacto será maior do que se você não tivesse alavancado, simplesmente porque a dívida a ser paga será, também, muito maior.
 
-### Technology risk
+### Risco da tecnologia
 
-If you use a lot of protocols for your investment legos, you need to make sure that these protocols are safe. Indeed, in our leveraging strategy, if a single protocol gets hacked, the entire strategy may collapse. Make sure you do your due diligence before investing in DeFi projects.
+Se você usa varios protocolos para o seu LEGO de investimentos, você precisa ter certeza que estes protocolos são seguros. De fato, em nossa estratégia de alavancagem, se um único protocolo for hackeado, toda a estratégia pode entrar em colapso. Tenha certeza que você analisou tudo antes de investir em projetos DeFi.
 
-### Hitting debt ceilings
+### Alcançado o teto de dívida
 
-Because these strategies are easy to set and present low risks, there's a very high demand for them. However, you certainly noticed that in the leverage process, borrowed MAI is swapped for DAI (or other tokens). If too much MAI is sold on Beethoven, its price will decrease slowly and there is a risk for MAI to lose its peg, which is pretty bad for a stable coin. In order to let time for the price to stabilize, Mai Finance has security mechanisms in place, and the most important one is a debt ceiling for each vault.
+Como estas estratégias são fáceis de configurar e apresentam baixo risco, há muita demanda por elas. Entretando, você certamente notou que no processo de alavancagem, MAI emprestado é trocado por DAI (ou outros tokens). Se muito MAI é vendido na Beethoven, o seu preço irá diminuir lentamente é há o risco da MAI perder a sua fixação, o que seria terrível para uma stablecoin. Para criar tempo suficiente para a moeda estabilizar, a Mai Finance possui mecanismos de segurança, dos quais o mais importante é o teto de dívida de cada vault.&#x20;
 
-A debt ceiling represents the maximum number of MAI that can be minted for a given vault. Once the ceiling is reached, no more MAI can be borrowed. Then the core team in charge of MAI finance can decide to increase the ceiling or wait a little more for a better price for MAI.
+O teto de dívida representa o número máximo de MAI que pode ser cunhado em um vault. A partir do momento em que o teto for atingido, torna-se impossível cunhar mais MAI. Então, o time principal responsável pela Mai Finance pode decidir se aumenta o teto, ou se espera mais por um preço melhor de MAI.
 
-You can at all time verify the amount of MAI that can be minted on the [vault creation page](https://app.mai.finance/vaults/create), but you will usually notice that there aren't any more MAI if you get the following error message:
+Você pode, a qualquer momento, verificar a quantidade de MAI que pode ser cunhado na [página de criação de vault](https://app.mai.finance/vaults/create), mas você geralmente notará que não há mais MAI disponível quando aparecer a seguinte mensagem de erro:
 
-![Error message received when debt ceiling is reached](../../.gitbook/assets/ftm-leverage-error.png)
+![Mensagem de erro recebida quando o teto de dívida é atingido.=](../../.gitbook/assets/ftm-leverage-error.png)
 
-This error message will appear even if your health factor is correct. In most cases, waiting for the ceiling to be increased is the only solution. Keep an eye on twitter or on Discord to know when this happen.
+Esta mensagem de erro aparecerá mesmo que o teu "fator de saude" esteja correto. Na maioria dos casos, esperar que o teto aumente é a única solução. Esteja atento ao Twitter ou ao Discord quando isso acontecer.
 
 ## Disclaimer
 
