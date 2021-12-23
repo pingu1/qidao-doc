@@ -1,12 +1,12 @@
 ---
 description: >-
-  This tutorial will present the different options that will let you use your
-  freshly minted MAI on Fantom.
+  Este tutorial irá apresentar as diferentes opçōes disponíveis para você usar o
+  seu MAI na rede Fantom.
 ---
 
-# What to do with MAI on Fantom
+# O que fazer com MAI na Fantom
 
-## Goal of this tutorial
+## Objetivo deste tutorial
 
 The goal of this tutorial is not to present in details what you can do with your MAI stable coin, but have a list of all the websites and DeFi application that you can use on Fantom that will let you use your MAI directly, or in combination with other stable coins. For more details about specific ways to use MAI, you can refer to other tutorials on this site, or get help on Discord or Telegram.
 
