@@ -113,12 +113,12 @@ Você pode, a qualquer momento, verificar a quantidade de MAI que pode ser cunha
 
 Esta mensagem de erro aparecerá mesmo que o teu "fator de saude" esteja correto. Na maioria dos casos, esperar que o teto aumente é a única solução. Esteja atento ao Twitter ou ao Discord quando isso acontecer.
 
-## Disclaimer
+## Aviso legal
 
-This guide presented some of the ways you can use your assets on Fantom and include Mai Finance to your strategy in order to increase your gains. However, as usual, this tutorial isn't a financial advice and you should always DYOR before applying an investment strategy, and invest in a responsible manner.
+Este guia apresentou algumas das maneiras que você pode utilizar seus ativos na rede Fantom e como incluir a Mai Finance em sua estratégia para aumentar seus ganhos. Entretanto, como sempre, este tutorial não representa conselho financeiro e você deve sempre fazer a sua própria pesquisa antes de executar uma estratégia de investimento, e investir apenas de forma responsável.
 
-Keep also in mind that this solution may not be the best strategy depending on when you plan to use it. We just highlighted that BeethovenX has pretty interesting APRs too for your MAI, and you can also use Beefy Finance to compound the BEETS rewards into more stable coins.
+Tenha em mente que esta solução pode não ser a melhor estratégia dependendo de quando planejar usá-la. Nós acabamos de mostrar que a BeethovenX possui também APRs interessantíssimos para o seu MAI, e você também pode usar a Beefy Finance para acumular as recompensas BEETS em mais stablecoins.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua própria pesquisa.
 {% endhint %}
