@@ -86,22 +86,22 @@ A Fantom teve uma expansão impressionante após a metade de 2021, especialmente
 * [SpiritSwap](https://app.spiritswap.finance): Plataforma de AMM tradicional e farm de rendimento, onde você será capaz de trocar tokens, criar LP tokens e gerar rendimento de farm em pools de liquidez. A SpiritSwap irá te pagar com tokens SPIRIT que você pode colocar em staking na plataforma e receber tokens inSPIRIT (SPIRIT será bloqueado por um certo período), o pendente de tokens veCRV. Você pode também usar a SpiritSwap para empréstimo e tomar emprestado enquanto espera pela Mai Finance na Fantom.
 * [Tarot](https://www.tarot.to): Tarot é a versão da Impermax na Fantom, onde você pode usar seus LP tokens da SpookySwap (ou outras DEXs/AMM) e usá-los para farming em outras plataformas. Você também pode depositar tokens únicos e emprestá-los em pools específicas onde pessoas poderão tomar emprestado para gerar mais LP tokens e alavancar suas posiçōes em farming. Esteja atento às liquidaçōes se você alavancar seus LPs em uma pool onde a utilização é alta.
 * [Scream](https://scream.sh): Este é um clone da Compound onde você poderá emprestar seus tokens e tomar emprestado, com eles como garantia. Emprestar seus tokens te fará receber recompensas no token que você emprestou, assim como tokens SCREAM que você poderá usar em outras plataformas.
-* [Curve](how-to-get-started-on-fantom.md#bridging-stable-coins-eth-btc): Curve é o projeto blue chip que todos conhecem bem, onde você poderá depositar seus tokens em pools específics (não é necessário depositar uma quantidade equilibrada) e você será recompensado nos tokens que você emprestou, assim como em CRV e wFTM.
+* [Curve](how-to-get-started-on-fantom.md#bridging-stable-coins-eth-btc): Curve é o projeto blue chip que todos conhecem bem, onde você poderá depositar seus tokens em pools específicas (não é necessário depositar uma quantidade equilibrada) e você será recompensado nos tokens que você emprestou, assim como em CRV e wFTM.
 
-![PoDAI+USDC dual pool on Curve on Fantom](../../.gitbook/assets/ftm-crv.png)
+![Pool dupla de PoDAI+USDC da Curve na rede Fantom](../../.gitbook/assets/ftm-crv.png)
 
-There are plenty of other opportunities on Fantom that will be described in other guides.
+Há diversas oportunidades disponiveis na Fantom que serão descritas em nossos guias.
 
-## Other useful links
+## Outros links úteis
 
 * [Fantom explorer](https://explorer.fantom.network)
-* [Fantom gas checker](https://ftmscan.com/gastracker)
-* Official [Fantom Discord](how-to-get-started-on-fantom.md#ftm-faucet) server
-* [DeBank](https://debank.com) portfolio managed
+* Rastreador de [Gas da Fantom](https://ftmscan.com/gastracker)
+* Servidor oficial da [Fantom no Discord](how-to-get-started-on-fantom.md#ftm-faucet)
+* Gerenciador de portfólios [DeBank](https://debank.com)
 
-## Disclaimer
+## Aviso legal
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Projects presented in this guide or just showcasing the possibilities on the network, and you should not be taken as an endorsement of the project.
+Este guia não é conselho financeiro, e tem cunho meramente educacional. Sempre faça a sua própria pesquisa. Os projetos apresentados aqui são para mostrar possibilidades na rede, este guia não deve ser tomado como recomendação.
 
 {% hint style="info" %}
 Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
