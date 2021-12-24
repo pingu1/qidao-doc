@@ -154,7 +154,3 @@ This loop would thus give you an equivalent APY of 583.15% from a relatively sta
 The main things to understand from this strategy are that Moonriver is currently under-used and reward rates are very interesting. Also, as soon as you throw a Ohm-fork in your strategy to re-invest a portion of your gains, the reward rates are so insane that you will make a very important profit as long as you keep enough tokens in the DAO to generate staking rewards.
 
 Keep in mind though that projects will have variable reward rates that will not be guaranteed over the span of one year. Please make sure you understand all the project you're investing in, do your own research and make sure to invest only what you may be ready to loose. Because this strategy is investing on a relatively stable initial, the only thing that is at risk in here are the benefits from other systems. This guide cannot be taken as an endorsement of the projects it uses.
-
-{% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
-{% endhint %}

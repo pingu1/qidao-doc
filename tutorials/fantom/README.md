@@ -15,3 +15,7 @@ description: Fantom table of content
 {% content-ref url="what-to-do-with-mai-on-fantom.md" %}
 [what-to-do-with-mai-on-fantom.md](what-to-do-with-mai-on-fantom.md)
 {% endcontent-ref %}
+
+{% content-ref url="farming-loop-using-spiritswap.md" %}
+[farming-loop-using-spiritswap.md](farming-loop-using-spiritswap.md)
+{% endcontent-ref %}
