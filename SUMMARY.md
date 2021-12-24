@@ -22,6 +22,7 @@
   * [Fantom'u Nasıl Kullanırım?](rehberler/fantom/how-to-get-started-on-fantom.md)
   * [Fantom'dan Kaldıraçlı yararlanın](rehberler/fantom/leverage-your-crypto-on-fantom.md)
   * [Fantom'da MAI ile ne yapılır?](rehberler/fantom/what-to-do-with-mai-on-fantom.md)
+  * [Farming loop using SpiritSwap](rehberler/fantom/farming-loop-using-spiritswap.md)
 * [Moonriver](rehberler/moonriver/README.md)
   * [Moonriver'ı Nasıl Kullanırım?](rehberler/moonriver/how-to-get-started-on-moonriver.md)
   * [SolarBeam'de MAI Çiftçiliği](rehberler/moonriver/farming-mai-on-solarbeam.md)
