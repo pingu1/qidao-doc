@@ -22,6 +22,7 @@
   * [Cách bắt đầu trên mạng Fantom](toan-tap/fantom/how-to-get-started-on-fantom.md)
   * [Chiến lược tạo đòn bẩy trên Fantom](toan-tap/fantom/leverage-your-crypto-on-fantom.md)
   * [Tận dụng MAI trên mạng Fantom](toan-tap/fantom/what-to-do-with-mai-on-fantom.md)
+  * [Farming loop using SpiritSwap](toan-tap/fantom/farming-loop-using-spiritswap.md)
 * [Moonriver](toan-tap/moonriver/README.md)
   * [Các bước bắt đầu trên Moonriver](toan-tap/moonriver/how-to-get-started-on-moonriver.md)
   * [Farming MAI on SolarBeam](toan-tap/moonriver/farming-mai-on-solarbeam.md)
