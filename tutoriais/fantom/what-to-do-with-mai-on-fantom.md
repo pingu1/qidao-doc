@@ -8,9 +8,9 @@ description: >-
 
 ## Objetivo deste tutorial
 
-The goal of this tutorial is not to present in details what you can do with your MAI stable coin, but have a list of all the websites and DeFi application that you can use on Fantom that will let you use your MAI directly, or in combination with other stable coins. For more details about specific ways to use MAI, you can refer to other tutorials on this site, or get help on Discord or Telegram.
+O objetivo deste tutorial não é apresentar em detalhes o que você pode fazer com sua stablecoin MAI, mas exibir uma lista de todos os websites e aplicaçōes DeFi que você pode usar na Fantom que permitirá você usar seu MAI diretamente, ou em combinação com outras stablecoins. Para mais detalhes sobre maneiras específicas de usar MAI, você pode acessar os outros tutoriais neste site, ou buscar ajuda pelo Discord ou Telegram.
 
-Please note that the list is not complete, and will never be since there are new dapps launching every week on the network. I can't review them all, so I will only present the main options, or the most famous / most "secured" options.
+Por favor, perceba que esta lista não está completa, e que nunca estará já que novos dApps são lançados semanalmente na rede. Eu não posso analisar todos elesEu não possoáã that the list is not complete, and will never be since there are new dapps launching every week on the network. I can't review them all, so I will only present the main options, or the most famous / most "secured" options.
 
 If you want a particular project to be listed, please join the Qi community on [Discord](https://discord.gg/mQq55j65xJ).
 
