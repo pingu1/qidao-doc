@@ -22,6 +22,7 @@
   * [Comment démarrer sur Fantom](tutoriels/fantom/how-to-get-started-on-fantom.md)
   * [Appliquer un effet de levier à vos cryptos sur Fantom](tutoriels/fantom/leverage-your-crypto-on-fantom.md)
   * [Que faire avec MAI sur Fantom](tutoriels/fantom/what-to-do-with-mai-on-fantom.md)
+  * [Farming loop using SpiritSwap](tutoriels/fantom/farming-loop-using-spiritswap.md)
 * [Moonriver](tutoriels/moonriver/README.md)
   * [How to get started on Moonriver](tutoriels/moonriver/how-to-get-started-on-moonriver.md)
   * [Farming MAI on SolarBeam](tutoriels/moonriver/farming-mai-on-solarbeam.md)
