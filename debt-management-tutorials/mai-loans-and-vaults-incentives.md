@@ -93,7 +93,7 @@ Rất quan trọng khi bạn luôn phải để ý tỷ lệ CDR và tỷ lệ l
 * tránh bị thanh lý tài sản
 * tăng cường lành mạnh của toàn bộ nền tảng Mai Finance bằng cách đảm bảo khối lượng MAI được lưu hành với hỗ trợ thích hợp. &#x20;
 
-CDR "lành mạnh", theo định nghĩa của Mai Finance là cao hơn giá trị CDR tối thiểu từ 25% đến 270%. Lưu ý thêm, bạn cũng có thể xem[ hướng dẫn chiến lược](../huong-dan-toan-tap/polygon/leverage-aave-tokens.md) của chúng tôi để xem cách bạn có thể sử dụng CDR để đầu tư vào các dự án khác hoặc [trả nợ ](debt-repayment-how.md#hoan-tra-mot-phan)bằng cách sử dụng nợ của bạn.
+CDR "lành mạnh", theo định nghĩa của Mai Finance là cao hơn giá trị CDR tối thiểu từ 25% đến 270%. Lưu ý thêm, bạn cũng có thể xem[ hướng dẫn chiến lược](../toan-tap/polygon/leverage-aave-tokens.md) của chúng tôi để xem cách bạn có thể sử dụng CDR để đầu tư vào các dự án khác hoặc [trả nợ ](debt-repayment-how.md#hoan-tra-mot-phan)bằng cách sử dụng nợ của bạn.
 
 ## Các ưu đãi kho tiền
 
