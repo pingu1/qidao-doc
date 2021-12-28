@@ -20,31 +20,31 @@ Projetos blue chip são aplicaçōes DeFi que provaram-se sólidas e que apresen
 
 ### BeethovenX
 
-[BeethovenX](https://app.beets.fi/#/) é um fork da Balancer, a project that has not launched on Fantom, but which presence is well established on other networks. Like Balancer, BeethovenX is an automated portfolio manager, liquidity provider, and price sensor. On the platform, you will be able to lend your crypto and you collect fees from trades. If you need more info about the projcets, please visit [their official doc](https://docs.beethovenx.io).
+[BeethovenX](https://app.beets.fi/#/) é um fork da Balancer, um projeto que não foi lançado na Fantom, mas cuja presença é bem estabelecida em outras redes. Como a Balancer, BeethoveeX é um gerenciador automatizado de portólios, provedor de liquidez, e detector de preços. Na plataforma, você será capaz de emprestar suas criptomoedas e coletar taxas de trades. Se precisar de mais informaçōes sobre o projeto, por favor, visite [a documentação oficial](https://docs.beethovenx.io)
 
-The BeethovenX team not only forked the Balancer project, it also built amazing additional features (portfolio management, native token BEETS tracking, rewards that can be claimed anytime). And all this with a fantastic universe and story, which helped them create a fantastic community.
+O time da BeethovenX não somente criou um fork da Balancer, como também construiu ferramentas incríveis (gerenciamento de portfólio, rastreamento do token nativo BEETS, recompensas que podem ser reivindicadas a qualquer momento). E isso tudo com um universo e uma história fantástica, que os ajudou a criar uma fantástica comunidade.
 
-On Fantom, you will be able to add your MAI in the `Guqin Qi V2` pool that is composed by MAI (65% of the pool), DAI (17.5% of the pool) and USDC (17.5% of the pool), and the APR (**A**nnual **P**ercentage **R**evenue) is fluctuating between 20% and 30%, paid in BEETS and the swap fees.
+Na Fantom, você será capaz de adicionar seu MAI na pool `Guqin Qi V2` que é composta por MAI (65% da pool), DAI (17.5% da pool) e USDC (17.5% da pool), e o APR (**A**nnual **P**ercentage **R**evenue) varia entre 20% e 30%, pago em BEETS e taxas de trocas.
 
-![Guqin Qi pool as of November 2021](../../.gitbook/assets/MAI-on-FTM.png)
+![ Pool Guqin Qi, Novembro de 2021](../../.gitbook/assets/MAI-on-FTM.png)
 
-As for Balancer, the best thing about BeethovenX is probably the fact that you don't need to provide the exact ratio for the pool. The algorithm that is keeping the correct balance between the 3 assets will take whatever deposit you have and will sell/buy tokens to make sure the balance is maintained. This way, you can simply deposit MAI and let the pool do the rest.
+Assim como a Balancer, a melhor coisa sobre a BeethovenX é provavelmente o fato que você não precisa prover a proporção exata para a pool. O algoritmo que está mantendo o balanço correto entre os 3 ativos irá tomar qualquer depósito que você tem e irá vender/comprar tokens para garantir que o balanço será mantido. Desta forma, você pode simplesmente depositar MAI e deixar a pool fazer o resto.
 
-BeethovenX is also the best application if you want to swap your MAI for another currency using the swap feature.
+BeethovenX é também a melhor aplicação se você quer trocar seu MAI por outra moeda usando a função de troca.
 
 ### SpookySwap
 
-[SpookySwap](https://spookyswap.finance) is probably one of the best DEX on Fantom where you will be able to swap your ERC20 tokens, provide liquidity and farm yields, create LP (**L**iquidity **P**rovider) tokens, stake their native BOO token, and you can even bridge some assets from Fantom to other chains (and vice versa). It's a fork of Uniswap v2 on top of which the team built additional amazing features.
+[SpookySwap](https://spookyswap.finance) é provavelmente uma das melhores DEX na Fantom onde você será capaz de trocar seus tokens ERC20, providenciar liquidez e obter rendimentos de farming, criar tokens LP (**L**iquidity **P**rovider), realizar staking com o seu token nativo BOO, e você pode até mesmo fazer a ponte de alguns ativos da Fantom a outras rede (e vice versa). É um fork da Uniswap v2 em que o time construiu mais funçōes incríveis.
 
-SpookySwap recently introduced a MAI-USDC pair that people can now farm and gain BOO tokens with an average APR between 25% and 30%.
+A SpookySwap recentemente introduziu um par de MAI-USDC que pode ser utilizado em farming para lucrar tokens BOO com uma média de APR entre 25% e 30%.
 
-![MAI-USDC pool on SpookySwap as of November 2021](../../.gitbook/assets/MAI-on-FTM-SpookySwap.png)
+![Pool de MAI-USDC na SpookySwap, Novembro de 2021](../../.gitbook/assets/MAI-on-FTM-SpookySwap.png)
 
-You will be able to stake your BOO tokens to get an extra \~20% APR which is a great way to use your reward token. As a side note, by staking the BOO token, you will receive a sBOO proof of deposit that may be accepted as a valid collateral on Mai Finance later. This would actually create a nice little loop where people will be able to deposit MAI-USDC, earn and stake BOO, deposit sBOO on Mai Finance and borrow MAI to add to the MAI-USDC pool.
+Você poderá fazer staking dos seus tokens BOO para receber mais 20% de APR, o que é uma ótima maneira de usar seu token de recompensa. Além disso, ao fazer staking de BOO, você receberá uma prova de depósito sBOO que pode ser aceita como garantia valida na Mai Finance mais tarde. Isso iria criar um pequeno loop onde pessoal serão capazes de depositar MAI-USDC, receber e fazer staking de BOO, depositar sBOO na Mai Finance e tomar emprestado MAI para adicionar à pool MAI-USDC.
 
 ### Mai Finance
 
-[Mai Finance](https://app.mai.finance/farm) is a lending and borrowing platform, and the main project that we all love. In order to support the peg of MAI and have more use cases for MAI on the Fantom network, additional pools have been added to the Mai Finance platform. Hence, you will be able to deposit MAI-USDC LP token previously created on BeethovenX (search for the MAI Concerto pool there) and get rewards in Qi tokens.
+[Mai Finance](https://app.mai.finance/farm) é uma platforma de empréstimos, e o principal projeto que todos nós amamos. and the main project that we all love. Para suportar o pareamento da MAI e ter mais casos de uso para MAI na rede Fantom, pools adicionais tem sido adicionadas à plataforma Mai Finance. Portanto, você será capaz de depositar o LP token MAI-USDC previamente criado na BeethovenX (procure pela pool MAI Concerto) e receba recompensas em Qi.
 
 ![MAI-USDC pool on Mai Finance as of November 2021](../../.gitbook/assets/MAI-on-FTM-Mai-Finance.png)
 
