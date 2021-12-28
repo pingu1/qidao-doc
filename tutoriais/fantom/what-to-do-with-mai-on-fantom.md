@@ -46,11 +46,11 @@ Você poderá fazer staking dos seus tokens BOO para receber mais 20% de APR, o 
 
 [Mai Finance](https://app.mai.finance/farm) é uma platforma de empréstimos, e o principal projeto que todos nós amamos. and the main project that we all love. Para suportar o pareamento da MAI e ter mais casos de uso para MAI na rede Fantom, pools adicionais tem sido adicionadas à plataforma Mai Finance. Portanto, você será capaz de depositar o LP token MAI-USDC previamente criado na BeethovenX (procure pela pool MAI Concerto) e receba recompensas em Qi.
 
-![MAI-USDC pool on Mai Finance as of November 2021](../../.gitbook/assets/MAI-on-FTM-Mai-Finance.png)
+![Pool MAI-USDC na Mai Finance, Novembro de 2021](../../.gitbook/assets/MAI-on-FTM-Mai-Finance.png)
 
-The Qi token you will get by farming directly on Mai Finance can be used in the Qi-FTM pool that is also present on Mai Finance (you can create the LP en BeethovenX too) and on which you will be able to earn even more Qi. You can also use [AnySwap's router](https://anyswap.exchange/#/router) to send your Qi harvested on Fantom to Polygon. Then you can stake Qi on Mai Finance,participate in the governance and collect dividends from the protocol.
+O token Qi que você obterá por fazer farming diretamente na Mai Finance pode ser usado na pool Qi-FTM que também está presente na Mai Finance (você pode criar o LP na BeethovenX também) na qual você será capaz de receber ainda mais Qi. Você pode também usar o [Roteador da AnySwap](https://anyswap.exchange/#/router) para enviar seu Qi colhido na Fantom à Polygon. Então você pode fazer staking de Qi na Mai Finance, participar na governança e coletar dividendos do protocolo.
 
-![Bridging Qi from Fantom to Polygon using AnySwap](../../.gitbook/assets/MAI-on-FTM-Qi-Bridge.png)
+![Enviando Qi da Fantom à Polygon utilizando a AnySwap](../../.gitbook/assets/MAI-on-FTM-Qi-Bridge.png)
 
 ## Degen farms and aggregator
 
