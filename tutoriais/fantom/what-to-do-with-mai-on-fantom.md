@@ -10,17 +10,17 @@ description: >-
 
 O objetivo deste tutorial não é apresentar em detalhes o que você pode fazer com sua stablecoin MAI, mas exibir uma lista de todos os websites e aplicaçōes DeFi que você pode usar na Fantom que permitirá você usar seu MAI diretamente, ou em combinação com outras stablecoins. Para mais detalhes sobre maneiras específicas de usar MAI, você pode acessar os outros tutoriais neste site, ou buscar ajuda pelo Discord ou Telegram.
 
-Por favor, perceba que esta lista não está completa, e que nunca estará já que novos dApps são lançados semanalmente na rede. Eu não posso analisar todos elesEu não possoáã that the list is not complete, and will never be since there are new dapps launching every week on the network. I can't review them all, so I will only present the main options, or the most famous / most "secured" options.
+Por favor, perceba que esta lista não está completa, e que nunca estará já que novos dApps são lançados semanalmente na rede. Eu não posso analisar todos eles, então irei apenas exibir os principais, ou mais famosos e seguros.
 
-If you want a particular project to be listed, please join the Qi community on [Discord](https://discord.gg/mQq55j65xJ).
+Se você quer ver algum projeto específico listado aqui, por favor, junte-se a comunidade Qi no [Discord](https://discord.gg/mQq55j65xJ).
 
-## Farming safely on bluechip projects
+## Farming seguro em projetos blue chip
 
-Bluechip projects are the DeFi applications that proved to be solid and present a lower risk. They are usually audited and the team behind them have been working on them for a long time. They usually don't have huge APRs (**A**nnual **P**ercentage **R**ate) but they can be trusted.
+Projetos blue chip são aplicaçōes DeFi que provaram-se sólidas e que apresentam menor risco. Estes são geralmente auditados, e o time por trás deles já têm trabalhado neles por um bom tempo. Eles geralmente não possuem enormes APRs (**A**nnual **P**ercentage **R**ate) mas podem ser confiados.
 
 ### BeethovenX
 
-[BeethovenX](https://app.beets.fi/#/) is a fork of Balancer, a project that has not launched on Fantom, but which presence is well established on other networks. Like Balancer, BeethovenX is an automated portfolio manager, liquidity provider, and price sensor. On the platform, you will be able to lend your crypto and you collect fees from trades. If you need more info about the projcets, please visit [their official doc](https://docs.beethovenx.io).
+[BeethovenX](https://app.beets.fi/#/) é um fork da Balancer, a project that has not launched on Fantom, but which presence is well established on other networks. Like Balancer, BeethovenX is an automated portfolio manager, liquidity provider, and price sensor. On the platform, you will be able to lend your crypto and you collect fees from trades. If you need more info about the projcets, please visit [their official doc](https://docs.beethovenx.io).
 
 The BeethovenX team not only forked the Balancer project, it also built amazing additional features (portfolio management, native token BEETS tracking, rewards that can be claimed anytime). And all this with a fantastic universe and story, which helped them create a fantastic community.
 
