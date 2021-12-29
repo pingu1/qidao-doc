@@ -52,17 +52,17 @@ O token Qi que você obterá por fazer farming diretamente na Mai Finance pode s
 
 ![Enviando Qi da Fantom à Polygon utilizando a AnySwap](../../.gitbook/assets/MAI-on-FTM-Qi-Bridge.png)
 
-## Degen farms and aggregator
+## Farming degen e agregadores
 
 ### Beefy Finance
 
-[Beefy Finance](https://app.beefy.finance/#/fantom) is an aggregator present on all the major platforms, including Fantom. You will be able to deposit some LP tokens on Beefy and the algorithms will take care of harvesting your rewards, sell them and aggregate them into more of your deposited LP tokens.
+[Beefy Finance](https://app.beefy.finance/#/fantom) é um agregador presente nas maiores plataformas, incluindo a Fantom. Você poderá depositar alguns tokens LP na Beefy e os algoritmos irão tomar conta de colher suas recompensas, vendê-las e agregá-las em mais dos seus tokens LP.
 
-You can use some specific Beefy tokens as collateral on Mai Finance, please check the corresponding [article on this site](leverage-your-crypto-on-fantom.md#Leverage-your-mooScreamTokens-on-Mai-Finance). When it comes to using MAI on beefy, you will be able to deposit the LP tokens you created on BeethovenX or SpookySwap:
+Você pode usar alguns dos tokens da Beefy como garantia na Mai Finance, por favor, confira o artigo correspondente [aqui. ](leverage-your-crypto-on-fantom.md#Leverage-your-mooScreamTokens-on-Mai-Finance)Se tratando de usar MAI na Beefy, você pode depositar os tokens LP que você criou na BeehovenX ou SpookySwap:
 
-![MAI pools on Beefy Finance as of November 2021](../../.gitbook/assets/MAI-on-FTM-Beefy.png)
+![Pools de MAI na Beefy Finance, Novembro de 2021](../../.gitbook/assets/MAI-on-FTM-Beefy.png)
 
-Beefy will sell your BEETS and BOO rewards to add more of your MAI-DAI-USDC or MAI-USDC positions. Pay attention to the fact that Beefy is displaying APY (**A**nnual **P**ercentage **Y**ield) when BeethovenX and SpookySwap are using APR. This is a crucial point when you want to choose a given platform for the reward VS the simplicity of use.
+Beefy venderá suas recompensas BEETS e BOO para adicionar mais de suas posiçōes MAI-DAI-USDC or MAI-USDC positions. Pay attention to the fact that Beefy is displaying APY (**A**nnual **P**ercentage **Y**ield) when BeethovenX and SpookySwap are using APR. This is a crucial point when you want to choose a given platform for the reward VS the simplicity of use.
 
 ### Beluga
 
