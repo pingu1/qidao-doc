@@ -94,5 +94,5 @@ Tarot aceita certos pares da SpookySwap, SpiritSwap e SushiSwap. Entretanto, com
 Tudo neste tutorial é de cunho educacional. O objetivo é trazer luz aos projetos que eu penso serem úteis para pessoas evoluirem no mundo cripto da Fantom. A Mai Finance também propōe uma pool MAI-USDC (crie seu token LP na BeethovenX) que te recompensará com tokens Qi. Por último, este guia NÃO É para ser aplicado literalmente, não representa conselho financeiro e não deve ser seguido cegamente. Por favor, leia a documentação dos diferentes projetos que eu mencionei antes de considerar investir nestas plataformas.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um periodo de tempo pode performar mal (ou te fazer perder dinheiro) em outro período. Por favor, se informe, monitore os mercados, mantenha um olho em seus investimentos, e como sempre, faça a sua própria pesquisa.
 {% endhint %}
