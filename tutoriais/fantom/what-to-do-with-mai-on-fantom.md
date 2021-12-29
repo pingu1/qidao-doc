@@ -62,36 +62,36 @@ Você pode usar alguns dos tokens da Beefy como garantia na Mai Finance, por fav
 
 ![Pools de MAI na Beefy Finance, Novembro de 2021](../../.gitbook/assets/MAI-on-FTM-Beefy.png)
 
-Beefy venderá suas recompensas BEETS e BOO para adicionar mais de suas posiçōes MAI-DAI-USDC or MAI-USDC positions. Pay attention to the fact that Beefy is displaying APY (**A**nnual **P**ercentage **Y**ield) when BeethovenX and SpookySwap are using APR. This is a crucial point when you want to choose a given platform for the reward VS the simplicity of use.
+Beefy venderá suas recompensas BEETS e BOO para adicionar mais à suas posiçōes MAI-DAI-USDC ou MAI-USDC. Preste atenção ao fato de que a Beefy exibe APY (**A**nnual **P**ercentage **Y**ield) enquanto a BeethovenX e a SpookySwap utilizam APR. Isto é crucial no momento em que você quer escolher a plataforma a usar, devido a recompensa ou simplicidade de uso
 
 ### Beluga
 
-Beluga is another aggregator on Fantom that will target specific platforms, and in our case, we can use Beluga for the BeethovenX pool. Instead of selling the BEETS token granted by BeethovenX to increase the MAI-DAI-USDC position, the BEETS will be deposited in the BEETS-FTM pool that is getting 350% APR as of November 2021. BEETS will be harvested regularly and compounded in the BEETS-FTM pool, and you will be able to harvest this LP token and remove the liquidity directly on BeethovenX. As a side note, because Beluga is using the BEETS-FTM pool that has a very high APR, the final APY for the MAI-DAI-USDC is very high too.
+Beluga é outro agregador na rede Fantom que irá focar em plataformas específicas, e no nosso caso, nós podemos usar a Beluga para a pool BeethovenX. Ao invés de vender o token BEETS garantido pela BeethovenX para aumentar nossa posição em MAI-DAI-USDC, os BEETS serão depositados na pool BEETS-FTM que possui um APR de 350% em Novembro de 2021. BEETS será colhida regularmente e reacumulada na pool BEETS-FTM, e você podera colher este token LP e remover a liquidez diretamente na BeethovenX. A propósito, como a Beluga utiliza a pool BEETS-FTM que possui um APY enorme, o APY final para MAI-DAI-USDC será bem grande também.
 
-![MAI-DAI-USDC pool on Beluga as of November 2021](../../.gitbook/assets/MAI-on-FTM-Beluga.png)
+![Pool MAI-DAI-USDC na Beluga, Novembro de 2021](../../.gitbook/assets/MAI-on-FTM-Beluga.png)
 
 {% hint style="info" %}
-Please note that Beluga will not help you grow your stable position. The final APY is highly dependent on the price of BEETS and on the APR of the BEETS-FTM pool. The reward value will not be captured and saved in your stable LP, so you will have to manually break the BEETS-FTM LP and sell for whatever you want.
+Por favor, entenda que a Beluga não irá ajudar você a crescer sua posição em stablecoins. O APY final é altamente dependente do preço de BEETS e no APR da pool de BEETS-FTM. O valor da recompensa será capturado e salvo em seu par LP de stablecoins, então você precisará quebrar manualmente o LP BEETS-FTM e vendê-lo para comprar o que você quiser.
 {% endhint %}
 
-### Degen farms
+### Farming degen
 
-A lot of degen farms are using LP tokens created on SpookySwap and SpiritSwap. SpookySwap only added MAI-USDC mid-November 2021 and SpiritSwap whitelisted MAI but does not have any MAI pool. This means that most degen farms don't have MAI LPs, but you may see MAI-USDC pairs pop on these sites very soon.
+Varias farms degen usam tokens LP criados na SpookySwap e SpiritSwap. A SpookySwap adicionou MAI-USDC somente em Novembro de 2021 e a SpiritSwap colocou MAI em white list mas não possui nenhuma pool de MAI. Isso significa que a maioria das farms degen não possuem LP's de MAI, mas você pode encontrar pares MAI-USDC nesses sites em breve.
 
-To stay aware of the new farms launching every day / every week, please follow the [list regularly updated on RugDoc.io](https://rugdoc.io/chain/fantom/). Also, make sure you're doing your own researches when using degen farms, this guide cannot be taken as financial advice and isn't promoting any specific farm or application aside Mai Finance.
+Para ficar alerta sobre as novas farms, que são lançadas diariamente, por favor, siga esta [lista atualizada constantemente na RugDoc.io](https://rugdoc.io/chain/fantom/). Além disso, tenha certeza que está fazendo sua própria pesquisa ao fazer farming degen, afinal este guia não é conselho financeiro e não promove nenhuma farm ou aplicação específica, com excessão da Mai Finance.
 
 ### Tarot
 
-Tarot is a very specific application, and is a fork of Impermax Finance. It allows user to
+Tarot é uma aplicação muito específica, e é um fork da Impermax Finance. Ela permite ao usuário:
 
-* lend single assets and gain reward paid in the asset they are lending
-* borrow 2 assets to form LP tokens and farm on specific platforms, with the option to leverage their position to magnify their rewards
+* emprestar ativos isolados e receber recompensas pagas na mesma moeda
+* tomar emprestado 2 ativos para formar tokens LP e realizar farming em plataformas específicas, com a opção de alavancar a sua posição para ampliar suas recompensas
 
-Tarot accepts certain pairs from SpookySwap, SpiritSwap and SushiSwap. However, because these platform are only starting to accept MAI and to propose LP pairs with MAI, Tarot does not currently propose these pairs. We can easily imagine that in a very near future, you will be able to lend your MAI on Tarot, or use MAI LP pairs to farm yields on a levered position. For more details about how the platform works, please read the [dedicated section on Impermax](../../polygon-tutorials/what-to-do-with-mai-on-polygon.md#Impermax) in the Polygon guide.
+Tarot aceita certos pares da SpookySwap, SpiritSwap e SushiSwap. Entretanto, como estas plataformas estão começando a aceitar apenas MAI e a propor pares LP com MAI, a Tarot não suporta esses pares. Nós podemos imaginar que, em um futuro próximo, você será capaz de emprestar seu MAI na Tarot, ou usar pares LP com MAI para farming em posiçōes alavancadas. Para mais detalhes sobre o funcionamento da plataforma, por favor, leia [esta seção dedicada](../../polygon-tutorials/what-to-do-with-mai-on-polygon.md#Impermax) no guia da Polygon.
 
-## Disclaimer
+## Aviso legal
 
-Everything is this tutorial is purely educational. The goal is to bring light to projects that I think are worthy for people evolving in the crypto world on Fantom. Mai Finance also proposes a MAI-USDC pool (create your LP token on BeethovenX) that will reward you with the Qi token. Finally, this guide is ABSOLUTELY NOT meant to be applied as is, it's not any financial advice and you should not follow blindly what I wrote. Please read the docs of the different projects I mentioned before considering investing on their platforms.
+Tudo neste tutorial é de cunho educacional. O objetivo é trazer luz aos projetos que eu penso serem úteis para pessoas evoluirem no mundo cripto da Fantom. A Mai Finance também propōe uma pool MAI-USDC (crie seu token LP na BeethovenX) que te recompensará com tokens Qi. Por último, este guia NÃO É para ser aplicado literalmente, não representa conselho financeiro e não deve ser seguido cegamente. Por favor, leia a documentação dos diferentes projetos que eu mencionei antes de considerar investir nestas plataformas.
 
 {% hint style="info" %}
 Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
