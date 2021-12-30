@@ -1,206 +1,204 @@
 ---
 description: >-
-  SpiritSwap recently launched a farm for MAI-WFTM, which is highlithing its
-  mainstream adoption. This guide presents what you can do with this pool.
+  SpiritSwap ha lanzado recientemente una granja con el par MAI-WFTM, que está
+  destacando por su adopción generalizada. Esta guía presenta lo que se puede
+  hacer con este pool.
 ---
 
-# Farming loop using SpiritSwap
+# Bucle de Farmeo usando SpiritSwap
 
-When farming yields, the LP pair (**L**iquidity **P**roviding pair) is very important. Indeed, you want as little impermanent loss as possible so that you don't lose your initial investment. This initial pair will generate yield, and you can increase your gains by re-investing the token you farmed without additional risk on your initial. This is one of the reason why our guides propose strategies based on stables only, or on pairs that are composed by a stable coin and a blue chip token like Bitcoin, Ethereum, or the native gas token from the chain we are running the strategy.
+Cuando se cultivan los rendimientos, el par LP (Proveedor de Liquidez) es muy importante. En efecto, usted quiere tener la menor pérdida impermanente posible para no perder su inversión inicial. Este par inicial generará rendimientos, y usted puede aumentar sus ganancias reinvirtiendo el token que farmeó sin riesgo adicional en su inicial. Esta es una de las razones por las que nuestras guías proponen estrategias basadas únicamente en monedas estables, o en pares compuestos por una moneda estable y un token <\<blue chip>> como Bitcoin, Ethereum, o el token de gas nativo de la cadena en la que estamos ejecutando la estrategia. Hoy exploraremos un bucle relativamente complejo que se basará en el par MAI-WFTM LP proporcionado por SpiritSwap para celebrar su lanzamiento e impulso actual.
 
-Today, we will explore a relatively complex loop that will be based on the MAI-WFTM LP pair provided by SpiritSwap to celebrate its launch and current boost.
+![](../../.gitbook/assets/spiritswap-1.png)
 
-![](<../../.gitbook/assets/spiritswap-1.png>)
+## Farmeando MAI en SpiritSwap
 
-## Farming MAI on SpiritSwap
+[SpiritSwap](https://app.spiritswap.finance/#/) es uno de los principales DEX (Decentralized Exchange) y AMM (Automated Market Maker) en Fantom. Se basa en la plataforma Uniswap, por lo que seguramente entenderá las características principales de SpiritSwap, es decir, intercambiar activos, proporcionar liquidez para obtener rendimientos. Obtendrá recompensas en el token nativo de la plataforma, el token SPIRIT que podrá stakear y obtener inSPIRIT. El token inSPIRIT es especialmente útil, te permitirá votar por pools de liquidez en los que se aplicará un beneficio adicional, y te permitirá obtener un rendimiento extra de los ingresos del protocolo.&#x20;
 
-[SpiritSwap](https://app.spiritswap.finance/#/) is one of the main DEXes (**D**ecentralized **Ex**change) and AMM (**A**utomated **M**arket **M**aker) on Fantom. It's based on the Uniswap platform, so you will most certainly understand the core features of SpiritSwap, i.e. swapping assets, provide liquidity to earn yields. You will get rewards in the native token of the platform, the SPIRIT token that you will be able to stake and get inSPIRIT. The inSPIRIT token is particularly useful, it will let you vote for liquidity pools on which additional boost will be applied, and will allow you to earn extra yield from protocol revenue.
+Para nuestra estrategia, utilizaremos el pool MAI-WFTM. A partir de Diciembre de 2021, este pool se puede encontrar en la pestaña `Booster Farms` .
 
-For our strategy, we will use the MAI-WFTM pool. As of December 2021, this pool can be found in the `Booster Farms` tab.
-
-![MAI-WFTM pool on SpiritSwap as of December 2021](<../../.gitbook/assets/spiritswap-2.png>)
+![Par MAI-WFTM en SpiritSwap a Diciembre de 2021](../../.gitbook/assets/spiritswap-2.png)
 
 {% hint style="info" %}
-When this guide has been created, the pool was in a very early stage (launched within the past 24h), which may explain the very high APR (**A**nnual **P**ercentage **R**ate). As always, before applying one of our strategies, do your own researches and verify the APR before investing. As comparison, USDC-WMATIC on Polygon is around 75%, and MAI-MOVR on Moonbeam is at 158%. Other pools like USDC-WFTM have stabilized around 50% on Fantom.
+Cuando se ha creado esta guía, el pool estaba en una fase muy temprana (lanzado en las últimas 24 horas), lo que puede explicar los APRs (Annual Percentage Rate) tan elevados. Como siempre, antes de aplicar una de nuestras estrategias, haga sus propias investigaciones y verifique el APRs antes de invertir. Como comparación, USDC-WMATIC en Polygon está en torno al 75%, y MAI-MOVR en Moonbeam está en el 158%. Otros pools como USDC-WFTM se han estabilizado en torno al 50% en Fantom.&#x20;
 
-For the purpose of this guide, we will keep the lowest APR from the range, 152.98%, which may be a lot more than where it should stabilize.
+A efectos de esta guía, nos quedaremos con el APR más bajo de todos, el 152,98%, que puede ser superior al valor actual.
 {% endhint %}
 
-When farming MAI-WFTM on SpiritSwap, you will get rewards paid in SPIRIT, the native token of the DApp (**D**ecentralized **App**lication). As of December 2021, 1 SPIRIT = 0.130 USDC.
+Al cultivar MAI-WFTM en SpiritSwap, obtendrá recompensas pagadas en SPIRIT, el token nativo de la DApp (aplicación descentralizada). A fecha de Diciembre de 2021, 1 SPIRIT = 0.130 USDC.
 
-## Farming using SPIRIT tokens on Liquid Driver
+## Farmeando usandp SPIRIT en Liquid Driver
 
-[Liquid Driver](https://www.liquiddriver.finance/) is another Uniswap fork that focuses on providing liquidity on Fantom. One of the feature that is the most interested on Liquid Driver is the fact that they can create linSPIRIT tokens from SPIRIT tokens. The linSPIRIT is a **l**iquid version of the inSPIRIT token. The ration between linSPIRIT and inSPIRIT is 1:1, it's really just a wrapped version of the inSPIRIT token, and you can trade both tokens for one another directly on Liquid Driver.
+[Liquid Driver](https://www.liquiddriver.finance) es otro fork de Uniswap que se centra en proporcionar liquidez en Fantom. Una de las características que más interesan en Liquid Driver es el hecho de que pueden crear tokens linSPIRIT a partir de tokens SPIRIT. El linSPIRIT es una versión líquida del token inSPIRIT. La proporción entre linSPIRIT e inSPIRIT es de 1:1, en realidad es una versión envuelta del token inSPIRIT, y puedes intercambiar ambos tokens por el otro directamente en Liquid Driver.
 
-![LiquidSwapper on Liquid Driver](<../../.gitbook/assets/spiritswap-3.png>)
+![LiquidSwapper en Liquid Driver](../../.gitbook/assets/spiritswap-3.png)
 
-However, we will not use this feature. We will be farming the SPIRIT-linSPIRIT pool on Liquid Driver, but there's a nice little catch:
+Sin embargo, no utilizaremos esta función. Farmearemos el pool SPIRIT-linSPIRIT en Liquid Driver, pero hay una pequeña trampa:
 
-![Farming SPIRIT-linSPIRIT LP token on Liquid Driver](<../../.gitbook/assets/spiritswap-4.png>)
+![Farmeando SPIRIT-linSPIRIT en Liquid Driver](../../.gitbook/assets/spiritswap-4.png)
 
-As you can see, you need to create the LP token on BeethovenX in order to get the 61% APR paid in LQDR tokens. As of December 2021, 1 LQDR = 4.560 USDC. Let's see how you can get this LP token.
+Como puedes ver, necesitas crear el token LP en BeethovenX para obtener el APR del 61% pagado en tokens LQDR. A fecha de Diciembre de 2021, 1 LQDR = 4,560 USDC. Veamos cómo puedes conseguir este token LP.
 
-## Create SPIRIT-linSPIRIT on BeethovenX
+## Creando el par SPIRIT-linSPIRIT en BeethovenX
 
-[BeethovenX](https://app.beets.fi/#/) has been recognized as the official Balancer pool on Fantom. As for Balancer, you don't need to deposit the same amount of both tokens to create a LP token. This means that you can directly deposit 100% of your SPIRIT tokens, and let the algorithm in charge of the pool to keep it balanced.
+[BeethovenX](https://app.beets.fi/#/) ha sido reconocido como el pool oficial de Balancer en Fantom. En cuanto a Balancer, no es necesario depositar la misma cantidad de ambos tokens para crear un token LP. Esto significa que puedes depositar directamente el 100% de tus tokens SPIRIT, y dejar que el algoritmo encargado del pool lo mantenga equilibrado.
 
-![Water Music By LiquidDriver on BeethovenX](<../../.gitbook/assets/spiritswap-5.png>)
+![Water Music By LiquidDriver en BeethovenX](../../.gitbook/assets/spiritswap-5.png)
 
-In exchange, you'll get the LP token that you will be able to deposit on Liquid Driver.
+A cambio, obtendrás el token LP que podrás depositar en Liquid Driver.
 
 {% hint style="info" %}
-As you can see, this pool isn't incentivized on BeethovenX, you will not earn BEETS from it. The incentives are provided solely by Liquid Driver when you deposit the LP token on their platform, and the only reward you will get is paid in LQDR.
+Como puedes ver, este pool no está incentivado en BeethovenX, no ganarás BEETS con él. Los incentivos son proporcionados únicamente por Liquid Driver cuando depositas el token LP en su plataforma, y la única recompensa que obtendrás se paga en LQDR.
 {% endhint %}
 
-## Staking LQDR on Liquid Driver
+## Haciendo staking de LQDR en Liquid Driver
 
-Once you created your SPIRIT-linSPIRIT LP token on BeenthovenX and deposited it in the right pool on Liquid Driver, you will start earning LQDR tokens. You can then stake the LQDR tokens in order to earn a portion of the protocol's revenue. The cool thing is that you can choose the period of time during which your LQDR will be staked, and it will directly influence your APR (it's the same thing as when you stake Qi to earn protocol revenue). The average lock time is a little less than 2 years (max lock time) and rewards are paid in
+Una vez que haya creado su token SPIRIT-linSPIRIT LP en BeenthovenX y lo haya depositado en el pool adecuado en Liquid Driver, empezará a ganar tokens LQDR. A continuación, puede apostar los tokens LQDR para ganar una parte de los ingresos del protocolo. Lo bueno es que puedes elegir el periodo de tiempo durante el cual tus LQDR estarán apostados, y esto influirá directamente en tus APRs (es lo mismo que cuando apuestas Qi para ganar ingresos del protocolo). El tiempo medio de bloqueo es un poco menos de 2 años (tiempo máximo de bloqueo) y las recompensas se pagan en:
 
-* LQDR: you will be able to re-stake this reward
-* WFTM: we will use this later
-* BOO: we will use this later
-* linSPIRIT: this can be used to increase your SPIRIT-linSPIRIT position on Liquid Driver
-* SPELL: swap if for additional WFTM !!!
+* LQDR: podrás volver a stakear esta recompensa&#x20;
+* WFTM: lo utilizaremos más adelante&#x20;
+* BOO: lo utilizaremos más adelante
+* &#x20;linSPIRIT: puede utilizarse para aumentar su posición SPIRIT-linSPIRIT en Liquid Driver
+* &#x20;SPELL: que se puede intercambiar por WFTM adicional
 
-![Staking rewards when you stake LQDR as of December 2021](<../../.gitbook/assets/spiritswap-6.png>)
+![Las recompensas que puedes obtener al hacer staking de LQDR en Diciembre de 2021](../../.gitbook/assets/spiritswap-6.png)
 
-## Staking BOO on SpookySwap
+## Staking de BOO en SpookySwap
 
-[SpookySwap](https://spookyswap.finance) is the almost the last piece of our puzzle. Staking LQDR on Liquid Driver will make us earn BOO tokens, the native token from SpookySwap. SpookySwap is the biggest DEX/AMM on Fantom, so you can do pretty much the same thing as on SpiritSwap, except that their native token is the BOO token. This is particularly useful because you can stake your BOO tokens on SpookySwap to get xBOO tokens, and this staked version of BOO can be used to farm other tokens (it's a common feature for Uniswap forks). So, once you have xBOO, you will be able to deposit these tokens on SpookySwap to earn additional WFTM.
+[SpookySwap](https://spookyswap.finance) es casi la última pieza de nuestro rompecabezas. Apostar LQDR en Liquid Driver nos hará ganar tokens BOO, el token nativo de SpookySwap. SpookySwap es el mayor DEX/AMM de Fantom, así que puedes hacer prácticamente lo mismo que en SpiritSwap, excepto que su token nativo es el token BOO. Esto es particularmente útil porque puedes stakear tus tokens de BOO en SpookySwap para obtener tokens de xBOO, y esta versión stakeada de BOO puede ser usada para farmear otros tokens (es una característica común para los forks de Uniswap). Así, una vez que tengas xBOO, podrás depositar estos tokens en SpookySwap para ganar WFTM adicionales.
 
-![Staking xBOO on SpookySwap to farm additional WFTM as of December 2021](<../../.gitbook/assets/spiritswap-7.png>)
+![Staking de xBOO en SpookySwap para farmear WFTM adicional en Diciembre de  2021](../../.gitbook/assets/spiritswap-7.png)
 
-## Getting more MAI-WTFM LP tokens
+## Obteniendo mas tokens LP MAI-WTFM&#x20;
 
-Liquid Driver and SpookySwap will produce WFTM tokens, so we're really missing MAI in order to add more LP tokens to our initial position in SpiritSwap. This can be done with a few different ways:
+Liquid Driver y SpookySwap producirán tokens WFTM, por lo que realmente nos falta MAI para añadir más tokens LP a nuestra posición inicial en SpiritSwap. Esto se puede hacer de varias maneras:&#x20;
 
-* swap 50% of your WFTM for MAI
-* lend 66% of your WFTM on Beefy or Yearn Finance to get either mooScreamFTM or yvWFTM, then deposit the collateral tokens on Mai Finance and borrow MAI against them
-* swap 66% of your WFTM for another asset and use the same strategy as above to borrow MAI
+* Intercambiar el 50% de tu WFTM por MAI&#x20;
+* Prestar el 66% de tu WFTM en Beefy o Yearn Finance para conseguir mooScreamFTM o yvWFTM, y luego depositar los tokens de garantía en Mai Finance y pedir prestado MAI contra ellos&#x20;
+* Intercambia el 66% de tu WFTM por otro activo y utiliza la misma estrategia anterior para pedir un préstamo de MAI
 
 {% hint style="info" %}
-If you need more details on the 2 last bullet points, we have a dedicated article on [leveraging your assets on Fantom](<leverage-your-crypto-on-fantom.md>).
+Si quieres obtener mas información acerca de los dos último puntos, puede leer el artículo [Apalanca tus crypto en Fantom](https://guide.qidao.community/v/espanol/tutoriales/fantom/leverage-your-crypto-on-fantom).
 {% endhint %}
 
-For our guide, we will try to maximize our gains and use mooScreamDAI. This means that we will swap 66% of our WFTM for DAI on Spirit Swap, then deposit DAI directly on Beefy using SCREAM as the underlying platform to get mooScreamDAI. This token will then be deposited in a vault on Mai Finance and we will be able to borrow MAI. In order to lower the risk of liquidation, we will keep a CDR (**C**ollateral to **D**ebt **R**atio) of 200%, which means we will borrow half the value of our deposit. This is perfect since this corresponds to the same value of the WFTM we kept, so that it will be possible to create additional MAI-WFTM LP tokens.
+Para nuestra guía, intentaremos maximizar nuestras ganancias y utilizar mooScreamDAI. Esto significa que intercambiaremos el 66% de nuestro WFTM por DAI en Spirit Swap, y luego depositaremos DAI directamente en Beefy utilizando SCREAM como plataforma subyacente para obtener mooScreamDAI. Este token se depositará entonces en una bóveda en Mai Finance y podremos pedir prestado MAI. Para reducir el riesgo de liquidación, mantendremos un CDR (Ratio de Colateral a Deuda) del 200%, lo que significa que tomaremos prestado la mitad del valor de nuestro depósito. Esto es perfecto, ya que corresponde al mismo valor del WFTM que mantuvimos, por lo que será posible crear tokens MAI-WFTM LP adicionales.
 
-![Getting mooScreamDAI on Beefy Finance](<../../.gitbook/assets/spiritswap-8.png>)
+![Obteniendo mooScreamDAI en Beefy Finance](../../.gitbook/assets/spiritswap-8.png)
 
-At the end of the loop, we'll get more MAI-WFTM and a yield bearing token used as collateral in Mai Finance.
+Al final del bucle, obtendremos más MAI-WFTM y un token de rendimiento utilizado como colateral en Mai Finance.
 
-## Farming Strategy
+## Estrategia de Farmeo
 
-The following simulation is made assuming a few things:
+La siguiente simulación se hace suponiendo lo siguiente:&#x20;
 
-* All rates and prices remain the same for the entire period of the simulation, 1 year in our case
-  * 153% APR on MAI-WFTM farming on SpiritSwap
-  * no reward on linSPIRIT
-  * 61% APR on SPIRIT-linSPIRIT on Liquid Driver
-  * 139% APR on staking LQDR
-    * 26% APR in LQDR
-    * 6% in WFTM
-    * 30% in BOO
-    * 74% in linSPIRIT
-    * 3% in SPELL
-  * 36% APR for staking xBOO
-  * 21% APR for mooScreamDAI
-* All rewards and programs are also running for an entire year
-* The initial investment is $1,000 worth of MAI-WFTM LP token
+* Todos los tipos y precios se mantienen iguales durante todo el periodo de la simulación, 1 año en nuestro caso:
+  * &#x20;153% APRs en el farmeo de MAI-WFTM en SpiritSwap
+  * Ninguna recompensa en linSPIRIT
+  * &#x20;61% APR en SPIRIT-linSPIRIT en Liquid Driver
+  * &#x20;139% de APR al hacer staking de LQDR&#x20;
+    * 26% APR en LQDR&#x20;
+    * 6% en WFTM&#x20;
+    * 30% en BOO&#x20;
+    * 74% en linSPIRIT&#x20;
+    * 3% en SPELL
+  * 36% APR en xBOO&#x20;
+  * 21% APR para mooScreamDAI&#x20;
+  * Todas las recompensas y programas también están en marcha durante todo un año
+  * &#x20;La inversión inicial es de 1.000 dólares en tokens MAI-WFTM LP
 
-![](<../../.gitbook/assets/spiritswap-9.png>)
+![](../../.gitbook/assets/spiritswap-9.png)
 
-### Day 1
+### Día 1
 
-On day 1, simply deposit your MAI-WFTM pair on SpiritSwap. At the end of the day, harvest your SPIRIT tokens and combine them into a SPIRIT-linSPIRIT pair on BeethovenX, then deposit this LP token on Liquid Driver. At the end of the day, you'd get
+El día 1, simplemente deposita tu par MAI-WFTM en SpiritSwap. Al final del día, recoja sus tokens SPIRIT y combínelos en un par SPIRIT-linSPIRIT en BeethovenX, y luego deposite esta token LP en Liquid Driver. Al final del día, obtendrás
 
 | MAI-WFTM | linPIRIT-SPIRIT | LQDR | xBOO | mooScreamDAI |
-|----------|-----------------|------|------|--------------|
-| 1,000.00 |            4.19 | 0.00 | 0.00 |         0.00 |
+| -------- | --------------- | ---- | ---- | ------------ |
+| 1,000.00 | 4.19            | 0.00 | 0.00 | 0.00         |
 
-### Day 2
+### Día 2
 
-On day 2, yourr MAI-WFTM is still generating SPIRIT tokens that you'll deposit in the linSPIRIT-SPIRIT pool on Liquid Driver, but you will also be able to harvest your first few LQDR tokens, and stake them for the multi-rewards. At the end of the day, you'll get
+En el día 2, su MAI-WFTM sigue generando tokens SPIRIT que depositará en el pool linSPIRIT-SPIRIT en Liquid Driver, pero también podrá cosechar sus primeros tokens LQDR, y stakearlos por ellos para obtener las recompensas múltiples. Al final del día, obtendrás
 
-| MAI-WFTM | linPIRIT-SPIRIT |  LQDR | xBOO | mooScreamDAI |
-|----------|-----------------|-------|------|--------------|
-| 1,000.00 |            8.38 | 0.007 | 0.00 |         0.00 |
+| MAI-WFTM | linPIRIT-SPIRIT | LQDR  | xBOO | mooScreamDAI |
+| -------- | --------------- | ----- | ---- | ------------ |
+| 1,000.00 | 8.38            | 0.007 | 0.00 | 0.00         |
 
-### Day 3
+### Día 3
 
-On day 3, same thing except your LQDR will have produced your first few exotic tokens from protocol revenues. Don't forget you will actually stake your BOO, add your linSPIRIT to the pool, your LQDR will be restaked, and the rest will be swapped for WFTM. The resulting WFTM is then partially swapped for DAI and then mooScreamDAI deposited in a Vault to borrow MAI, form additional MAI-WFTM that is then deposited on SpiritSwap. At the end of Day 3, you'd get
+El día 3, lo mismo, excepto que tu LQDR habrá producido tus primeras tokens exóticos de los ingresos del protocolo. No olvides que stakearas tu BOO, añadirás tu linSPIRIT al pool, tu LQDR se restablecerá y el resto se intercambiará por WFTM. El WFTM resultante se intercambia parcialmente por DAI y luego mooScreamDAI se deposita en una bóveda para tomar prestado MAI, formar MAI-WFTM adicionales que luego se depositan en SpiritSwap. Al final del Día 3, se obtendría:
 
-| MAI-WFTM | linPIRIT-SPIRIT |  LQDR | xBOO | mooScreamDAI |
-|----------|-----------------|-------|------|--------------|
-| 1,000.00 |           12.58 | 0.021 | 0.00 |         0.00 |
+| MAI-WFTM | linPIRIT-SPIRIT | LQDR  | xBOO | mooScreamDAI |
+| -------- | --------------- | ----- | ---- | ------------ |
+| 1,000.00 | 12.58           | 0.021 | 0.00 | 0.00         |
 
 {% hint style="info" %}
-xBOO and mooScreamDAI position are too small to be displayed, so you may skip these steps for the first few days. Also, for simplicity, I'm not taking transaction fees in consideration, which may have an impact on your gains.
+Las posiciones de xBOO y mooScreamDAI son demasiado pequeñas para ser mostradas, por lo que puedes omitir estos pasos durante los primeros días. Además, para simplificar, no estoy teniendo en cuenta las comisiones de las transacciones, que pueden tener un impacto en tus ganancias.
 {% endhint %}
 
-At this point, the system is primed, it's time to sit down and profit.
+En este punto, el sistema está preparado, es el momento de sentarse y dejar que el sistema haga el resto.
 
-## Farming  Results
+## Resultados del farmeo
 
-### Daily routine
+### Rutina diaria
 
-Once the system is fully bootstrapped, here's the daily routine you'll have to follow:
+Una vez que el sistema esté completamente arrancado, esta es la rutina diaria que tendrás que seguir:
 
-* harvest SPIRIT tokens from MAI-WFTM pool on SpiritSwap
-* harvest rewards from Liquid Driver staking pool
-* harvest rewards from SpookySwap staking pool
-* deposit the SPIRIT from SpiritSwap and the linSPIRIT from Liquid Driver into the pool on BeethovenX
-* deposit the SPIRIT-linSPIRIT LP token on Liquid Driver
-* stake your BOO on SpookySwap to get xBOO
-* stake your xBOO to farm WFTM
-* swap your SPELL for WFTM
-* swap 66% of your WFTM for DAI
-* deposit the DAI generated on Beefy to get mooScreamDAI
-* deposit the mooScreamDAI tokens on Mai Finance
-* borrow MAI and keep a CDR of 200% (50% of what you deposited)
-* provide liquidity for the MAI-WFTM pool on SpiritSwap
+* Cosechar tokens SPIRIT del pool MAI-WFTM en SpiritSwap&#x20;
+* Recoger las recompensas del pool de Liquid Driver
+* Recoger las recompensas del pool de staking de SpookySwap&#x20;
+* Depositar el SPIRIT de SpiritSwap y el linSPIRIT de Liquid Driver en el pool de BeethovenX
+* Deposita el token LP SPIRIT-linSPIRIT en Liquid Driver
+* Stakea tu BOO en SpookySwap para conseguir xBOO&#x20;
+* Stakea tu xBOO para cultivar WFTM&#x20;
+* Intercambia tu SPELL por WFTM
+* Intercambia el 66% de tu WFTM por DAI
+* Deposita el DAI generado en Beefy para obtener mooScreamDAI
+* Deposita los tokens mooScreamDAI en Mai Finance pedir prestado MAI y mantener un CDR del 200% (50% de lo que has depositado)
+* Proporcionar liquidez al pool de MAI-WFTM en SpiritSwap
 
-### Raw results month after month
+### Resultados mensuales aproximados
 
-| day |  MAI-WFTM | linPIRIT-SPIRIT |   LQDR  |  xBOO  | mooScreamDAI | MAI debt |
-|-----|-----------|-----------------|---------|--------|--------------|----------|
-|  30 | 1,000.004 |         130.010 |   3.281 |  0.026 |        0.005 |    0.002 |
-|  60 | 1,000.039 |         256.218 |  13.014 |  0.210 |        0.041 |    0.021 |
-|  90 | 1,000.140 |         383.220 |  29.369 |  0.712 |        0.147 |    0.074 |
-| 120 | 1,000.349 |         511.436 |  52.538 |  1.698 |        0.364 |    0.182 |
-| 150 | 1,000.708 |         641.302 |  82.741 |  3.338 |        0.738 |    0.369 |
-| 180 | 1,001.268 |         773.275 | 120.224 |  5.810 |        1.323 |    0.661 |
-| 210 | 1,002.081 |         907.835 | 165.263 |  9.295 |        2.175 |    1.088 |
-| 240 | 1,003.207 |       1,045.486 | 218.165 | 13.984 |        3.360 |    1.680 |
-| 270 | 1,004.710 |       1,186.759 | 279.268 | 20.075 |        4.947 |    2.473 |
-| 300 | 1,006.659 |       1,332.316 | 348.947 | 27.773 |        7.014 |    3.507 |
-| 330 | 1,009.130 |       1,482.451 | 427.613 | 37.296 |        9.645 |    4.823 |
-| 360 | 1,012.205 |       1,638.095 | 515.717 | 48.870 |       12.935 |    6.467 |
+| Día | MAI-WFTM  | linPIRIT-SPIRIT | LQDR    | xBOO   | mooScreamDAI | Deuda Mai |
+| --- | --------- | --------------- | ------- | ------ | ------------ | --------- |
+| 30  | 1,000.004 | 130.010         | 3.281   | 0.026  | 0.005        | 0.002     |
+| 60  | 1,000.039 | 256.218         | 13.014  | 0.210  | 0.041        | 0.021     |
+| 90  | 1,000.140 | 383.220         | 29.369  | 0.712  | 0.147        | 0.074     |
+| 120 | 1,000.349 | 511.436         | 52.538  | 1.698  | 0.364        | 0.182     |
+| 150 | 1,000.708 | 641.302         | 82.741  | 3.338  | 0.738        | 0.369     |
+| 180 | 1,001.268 | 773.275         | 120.224 | 5.810  | 1.323        | 0.661     |
+| 210 | 1,002.081 | 907.835         | 165.263 | 9.295  | 2.175        | 1.088     |
+| 240 | 1,003.207 | 1,045.486       | 218.165 | 13.984 | 3.360        | 1.680     |
+| 270 | 1,004.710 | 1,186.759       | 279.268 | 20.075 | 4.947        | 2.473     |
+| 300 | 1,006.659 | 1,332.316       | 348.947 | 27.773 | 7.014        | 3.507     |
+| 330 | 1,009.130 | 1,482.451       | 427.613 | 37.296 | 9.645        | 4.823     |
+| 360 | 1,012.205 | 1,638.095       | 515.717 | 48.870 | 12.935       | 6.467     |
 
-### Day 365
+### Día 365
 
-After a complete year of farming the syste, you would get
+Después de un año completo de cultivo del sistema, usted obtendría:
 
-* $1,012.782 worth of MAI-WFTM on SpiritSwap
-* $1,664.608 worth of linSPIRIT-SPIRIT on Liquid Driver
-* $531.353 worth of LQDR staked on Liquid Driver
-* $51.015 worth of xBOO on SpookySwap
-* $13.554 worth of mooScreamDAI on Mai Finance in a vault
-* $6.777 worth of MAI debt
+* 1.012,782 dólares de MAI-WFTM en SpiritSwap&#x20;
+* 1.664,608 dólares en linSPIRIT-SPIRIT en Liquid Driver
+* &#x20;531,353 dólares de LQDR stakeados en Liquid Driver&#x20;
+* 51,015 $ de xBOO en SpookySwap&#x20;
+* 13,554 $ de mooScreamDAI en Mai Finance en una bóveda&#x20;
+* 6,777 $ de deuda de MAI&#x20;
 
-Considering an initial investment of $1,000 this would be equivalent to an APY of 227.096%
+Considerando una inversión inicial de 1.000 dólares, esto equivaldría a un APY del 227,096%.
 
-### Small tweaks to the strategy
+### Estrategia Alternativa
 
-If you want to get a lower risk exposure, you can possible start with your initial investment being $1,000 worth of mooScreamDAI in a vault, borrow $500 worth of MAI and swaap 50% for WFTM to get the starting block on SpiritSwap. This will considerably lower your risk of loosing part of your initial in case the price of FTM goes down too much.
+Si quieres tener una exposición de menor riesgo, puedes empezar con tu inversión inicial de 1.000$ de mooScreamDAI en una bóveda, pedir prestados 500$ de MAI y cambiar el 50% por WFTM para conseguir el bloque inicial en SpiritSwap. Esto reducirá considerablemente el riesgo de perder parte de tu inicial en caso de que el precio de FTM baje demasiado.&#x20;
 
-Currently, the highest rate is given by the SpiritSwap pool, so a possibible simplification of the loop would be to simply swap all the LQDR tokens you get on Liquid Driver for more MAI-WFTM.
+Actualmente, la tasa más alta la da el pool de SpiritSwap, así que una posible simplificación del bucle sería simplemente intercambiar todos los tokens LQDR que consigas en Liquid Driver por más MAI-WFTM.
 
-## Disclaimer
+## Descargo de Responsabilidad
 
-This guide is a theoretical version of something you could implement on Fantom. When we're exposing loops in our tutorials, we're actually trying to never dump tokens and always try to find the best way possible to use everything we collect. This is a good way to keep price rising since farming and dumping a token usually resuslts in the price of the farmed token to go down, making the yields less and less attractive. If everyone was keeping their farmed tokens, their price would only go up with time.
+Esta guía es una versión teórica de algo que podrías implementar en Fantom. Cuando exponemos los bucles en nuestros tutoriales, en realidad tratamos de no deshacernos nunca de los tokens y de encontrar siempre la mejor manera posible de utilizar todo lo que recogemos. Esta es una buena manera de mantener el precio en alza, ya que cultivar y deshacerse de un token normalmente hace que el precio del token cultivado baje, haciendo que los rendimientos sean cada vez menos atractivos. Si todo el mundo se quedara con los tokens cultivados, su precio sólo subiría con el tiempo.&#x20;
 
-In any case, the guide is also based on a lot of assumptions (price don't change, reward rates don't change) and doesn't count transaction fees, so if you want to implement this type of closed loop, make sure to be profitable at the end of the day, or compound your gains only once a week. And as usual, DYOR!
+En cualquier caso, la guía también se basa en un montón de suposiciones (el precio no cambia, las tasas de recompensa no cambian) y no cuenta las tasas de transacción, así que si quieres implementar este tipo de bucle cerrado, asegúrate de ser rentable al final del día, o compone tus ganancias sólo una vez a la semana. Y como siempre, ¡déjalo!
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Esta guía no es en absoluto un consejo financiero, sino que se ha realizado con un objetivo educativo. Es necesario prestar atención a las variaciones de precios, la oferta y la demanda, las fechas de finalización de los programas de recompensa, las pérdidas impermanentes, etc ... El objetivo no era proponer recetas que se puedan seguir a ciegas, así que por favor haga sus deberes y su propia simulación, y sólo invierta lo que esté dispuesto a perder.
 {% endhint %}
