@@ -1,7 +1,8 @@
 ---
 description: >-
-  SpiritSwap recently launched a farm for MAI-WFTM, which is highlithing its
-  mainstream adoption. This guide presents what you can do with this pool.
+  SpiritSwap recentemente lançou uma farm para de MAI-WFTM, o que está
+  aumentando sua adoção o mainstream This guide presents what you can do with
+  this pool.
 ---
 
 # Loop de Farming utilizando a SpiritSwap
