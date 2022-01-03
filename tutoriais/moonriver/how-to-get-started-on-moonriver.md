@@ -1,16 +1,16 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the Moonriver chain.
+  Neste guia, explicaremos tudo que você precisa saber para começar a usar a
+  rede Moonriver.
 ---
 
-# How to get started on Moonriver
+# Como começar na Moonriver
 
-## What is Moonriver
+## O que é Moonriver
 
-It is going to be complex to explain what is Moonriver without talking about a few other chains too, including MoonBeam, Kusama and Polkadot.
+Será complexo explicar o que é Moonriver sem conversar sobre algumas outras redes, como a Moonbeam, Kusama e Polkadot.
 
-Polkadot is a L1 block chain that directly competes with Ethereum, Cosmos or Eos, and the goal of the chain is to grow a complete ecosystem of cryptocurrencies and applications. One of the main point that makes Polkadot different from other L1 is its separation into a main chain (the relay chain) and user-created networks (parachains). The Relay Chain benefits from low requirements in terms of computing resources since most developments and tests are made on parachains. On the other hand, parachains inherit from the same security as the relay chain. This also creates isolated environments that can work in an autonomous fashion and won't disclose user data to the main chain.
+Polkadot é uma blockchain L1 que compete diretamente com a Ethereum, Cosmos ou Eos, e seu objetivo é cultivar um ecosistema completo de criptomoedas e aplicaçōes. Uma. that directly competes with Ethereum, Cosmos or Eos, and the goal of the chain is to grow a complete ecosystem of cryptocurrencies and applications. One of the main point that makes Polkadot different from other L1 is its separation into a main chain (the relay chain) and user-created networks (parachains). The Relay Chain benefits from low requirements in terms of computing resources since most developments and tests are made on parachains. On the other hand, parachains inherit from the same security as the relay chain. This also creates isolated environments that can work in an autonomous fashion and won't disclose user data to the main chain.
 
 Kusama is a pre-production environment for Polkadot, a separate chain that mimics the main Relay Chain of Polkadot, and where all the developments and updates for the main chain are tested first. However, as a pre-production environment, Kusama operates with real crypto-currencies and real transactions, but with looser rules than on Polkadot. However, the goal of the applications and side chains developed on Kusama is to be migrated to Polkadot at some point. Because of the looser rules, it's easier for a project to test things and grow a community while developing the protocol. Once the final product is ready, everything can migrate to the production environment.
 
