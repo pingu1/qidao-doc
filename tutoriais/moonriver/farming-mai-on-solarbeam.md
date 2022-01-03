@@ -18,19 +18,19 @@ Vamos ver como podemos gerar rendimentos muito altos com um loop de feedback fec
 
 ### Farming de MAI na Solarbeam
 
-Solarbeam é o primeiro e principal DEX (**D**ecentralized **EX**change) e AMM (**A**utomatic **M**arket **M**aker) na Moonriver, e o segundo aplicativo em termos de TVL na cadeia. É também o primeiro parceiro Moonriver da Mai Finance e oferece um pool MAI-MOVR que é recompensado com alguns de seus tokens nativos, o token SOLAR. Este também é o lugar onde você encontrará alguma liquidez para a MAI.
+Solarbeam é a primeiro e principal DEX (**D**ecentralized **EX**change) e AMM (**A**utomatic **M**arket **M**aker) na Moonriver, e o segundo aplicativo em termos de TVL na rede. É também o primeiro parceiro Moonriver da Mai Finance e oferece uma pool MAI-MOVR que é recompensada com alguns de seus tokens nativos, o token SOLAR. Este também é o lugar onde você encontrará alguma liquidez para MAI.
 
-![MAI-MOVR pool on Solarbeam as of December 2021](../../.gitbook/assets/solarbeam-2.png)
+![Pool MAI-MOVR na Solarbeam, Dezembro de 2021](../../.gitbook/assets/solarbeam-2.png)
 
-The APR (**A**nnual **P**ercentage **R**ate) of 84% is quite high due to the low usage of the pool, which also makes it a perfect starting point for our strategy. You will get this APR (corresponding to 131% APY if you want to compare to something like MAI-WMATIC on QuickSwap for reference) and the reward will be paid in SOLAR tokens. As of December 2021, 1 SOLAR = 3.78 USDC.
+O APR (**A**nnual **P**ercentage **R**ate, Taxa de Percentual Anual) de 84% é bastante alto devido ao baixo uso da pool, o que faz disso um ponto de início perfeito para a nossa estratégia. Você obterá este APR (corresponente a um APY de 131% se você quiser comparar com algo como MAI-WMATIC na QuickSwap como referencia) e a recompensa será paga em tokens SOLAR. Em dezembro de 2021, 1 SOLAR = 3.78 USDC.
 
-### Single staking SOLAR
+### Staking de SOLAR
 
-Most Uniswap forks are now proposing staking for their native token, and Solarbeam is doing it too. You can either stake your SOLAR into a Vault to get more SOLAR, and depending on the length of your lock, you'll get very interesting rates (up to 200% APR for a 30 days lock), but we will be using staking to earn external tokens. Indeed, you can stake your SOLAR tokens to receive a bunch of other tokens from different apps on Moonriver, and the one we're looking for is the ROME token.
+A maioria dos forks da Uniswap estão propondo staking para o seu token nativo, e a Solarbeam também está fazendo isto. Você pode fazer staking com o seu SOLAR no Vault para receber mais SOLAR, e dependendo da extensão do seu bloqueio, você obterá taxas muito interessantes (até 200% de APR por uma trava de 30 dias), mas nós faremos staking parece receber tokens externos. De fato, você pode fazer staking com seus tokens SOLAR para receber um monte de outros tokens de diferentes apps na Moonrier, e aquele que nós estamos procurando é o token ROME.
 
-![Staking SOLAR token to earn ROME tokens on Solarbeam](../../.gitbook/assets/solarbeam-3.png)
+![Staking de token SOLAR para receber tokens ROME na Solarbeam](../../.gitbook/assets/solarbeam-3.png)
 
-You will notice that the ROME pool is the one with the lowest APR, but it's still quite high, and you will soon see that our ROME tokens will multiply at a crazy rate.
+Você irá notar que a pool ROME é aquela com o menor APR, mas mesmo assim ainda é bem alto, e vocé logo verá que nossos tokens ROME irão multiplicar a uma taxa insana.
 
 ## Rome DAO
 
