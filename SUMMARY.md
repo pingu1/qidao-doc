@@ -24,7 +24,7 @@
   * [O que fazer com MAI na Fantom](tutoriais/fantom/what-to-do-with-mai-on-fantom.md)
   * [Loop de Farming utilizando a SpiritSwap](tutoriais/fantom/farming-loop-using-spiritswap.md)
 * [Moonriver](tutoriais/moonriver/README.md)
-  * [How to get started on Moonriver](tutoriais/moonriver/how-to-get-started-on-moonriver.md)
+  * [Como começar na Moonriver](tutoriais/moonriver/how-to-get-started-on-moonriver.md)
   * [Farming MAI on SolarBeam](tutoriais/moonriver/farming-mai-on-solarbeam.md)
 * [Cronos](tutoriais/cronos/README.md)
   * [How to get started on Cronos](tutoriais/cronos/how-to-get-started-on-cronos.md)
