@@ -34,123 +34,123 @@ Você irá notar que a pool ROME é aquela com o menor APR, mas mesmo assim aind
 
 ## Rome DAO
 
-Rome DAO is another big player on Moonriver. It's an Ohm-fork (Olympus DAO copy) that uses the ROME token as native token. You will be able to stake your ROME tokens on the application in order to get very high returns. The goal of each Ohm-fork is to have as much native token staked and attract liquidity to be able to sustain the emission. If you need more details on Ohm-forks, please check our [tutorials on Klima DAO](../polygon/ohm-forks-on-polygon-the-case-of-klima.md) for Polygon.
+Rome DAO é outro grande nome na Moonriver. É um Ohm-fork (cópia da Olympus DAO) que usa o token ROME como token nativo. Você poderá fazer staking com seus tokens ROME no aplicativo para obter retornos muito elevados. O objetivo de cada Ohm-fork é ter o máximo de seus tokens nativo em staking e atrair liquidez para poder sustentar a emissão de novos tokens. Se você precisar de mais detalhes sobre Ohm-forks, verifique [nossos tutoriais sobre Klima DAO](../polygon/ohm-forks-on-polygon-the-case-of-klima.md) para a Polygon.
 
-![Staking ROME tokens on Rome DAO for 771% APR as of December 2021](../../.gitbook/assets/solarbeam-4.png)
+![Staking de tokens ROME na Rome DAO para um APR de 771%, Dezembro de 2021](../../.gitbook/assets/solarbeam-4.png)
 
-Because we'll get ROME tokens from Solarbeam, we should be able to stake them on Rome DAO and the rebase system will get you a lot more very quickly. For this strategy, we will stake ROME tokens on Rome DAO and sell 50% of the daily reward, which is currently corresponding to \~1% of the deposit on Rome DAO.
+Como obteremos tokens ROME do Solarbeam, devemos ser capazes de colocá-los no Rome DAO e o sistema de rebase o te dará muito mais rápido. Para esta estratégia, apostaremos tokens ROME no Rome DAO e venderemos 50% da recompensa diária, que atualmente corresponde a \~ 1% do depósito no Rome DAO.
 
 ## Mai Finance
 
-Mai Finance is a lending platform where you'll be able to deposit your crypto assets and borrow the MAI stable coin at 0% interest. The only fee that will ever be charged on Moonriver is the repayment fee of 0.5% of your loan.
+Mai Finance é uma plataforma de empréstimo onde você poderá depositar seus ativos cripto e tomar emprestada a moeda estável MAI a 0% de juros. A única taxa que será cobrada no Moonriver é a taxa de reembolso de 0,5% do seu empréstimo.
 
-![ETH vault on Moonriver with a lot of MAI available](../../.gitbook/assets/solarbeam-5.png)
+![Vault ETH vault na Moonriver com bastante MAI disponível](../../.gitbook/assets/solarbeam-5.png)
 
-For our strategy, we will be using a ETH vault. The ROME token that will be extracted from the Rome DAO staking pool will be split as follows:
+Para nossa estratégia, usaremos um vault ETH. O token ROME que será extraído do pool de staking Rome DAO será dividido da seguinte forma:
 
-* 33% will be swapped to MOVR using the swap feature on Solarbeam
-* 66% will be swapped to ETH using the swap feature on Solarbeam
+* 33% serão trocados para MOVE usando o recurso de troca no Solar Beam
+* 66% serão trocados para ETH usando o recurso de troca no Solarbeam
 
-You will then be able to deposit the ETH on Mai Finance to borrow MAI with a CDR (**C**ollateral to **D**ebt **R**atio) of 200% to stay in the safe zone and try to prevent liquidation. The MAI borrowed will then be used to create additional MAI-MOVR LP tokens that will then be added to the initial position on Solarbeam.
+Você poderá então depositar ETH na Mai Finance para tomar emprestado o MAI com um CDR (**C**ollateral to **D**ebt **R**atio) de 200% para permanecer na zona segura e tentar evitar a liquidação. O MAI emprestado será então usado para criar tokens LP MAI-MOVR adicionais que serão adicionados à posição inicial no Solarbeam.
 
-As an example, for each $1 of ROME that you extract from Rome DAO we will get
+Como exemplo, para cada $1 de ROME que você extrair da Rome DAO nós teremos:
 
-* $0.33 of MOVR
-* $0.66 of ETH deposited on Mai Finance
-* $0.33 of MAI borrowed against our ETH
-* $0.66 worth of MAI-MOVR LP token to add to Solarbeam
+* $0.33 de MOVR
+* $0.66 de ETH depositado na Mai Finance
+* $0.33 de MAI emprestado, com nosso ETH de garantia
+* $0.66 de token LP MAI-MOVR LP para adicionar à Solarbeam
 
-## Farming Strategy
+## Estratégia de Farming
 
-The following simulation is made by assuming a few different things:
+A seguinte simulação é feita assumindo algumas coisas diferentes:
 
-* All rates and prices remain the same for the entire period of the simulation, 1 year in our case
-  * 84% APR on MAI-MOVR farming on Solarbeam
-  * 108% APR on staking SOLAR to farm ROME tokens
-  * 771% APR on Rome DAO when staking ROME tokens
-* All rewards and programs are also running for an entire year
-* 50% of the daiy gains on Rome DAO is sold for 33% MOVR and 66% ETH
-* The initial investment is $100 worth of MAI-MOVR LP token
+* Todas as taxas e preços permanecem iguais para todo o período da simulação, 1 ano em nosso caso
+  * APR de 84% em farming de MAI-MOVR na Solarbeam
+  * APR de 108% em staking de SOLAR para farming de tokens ROME
+  * APR de 771% na Rome DAO ao fazer staking de tokens ROME
+* Todas as recompensas e programas também permanecem em execução por um ano inteiro
+* 50% dos ganhos diários na Rome DAO são vendidos por 33% em MOVR e 66% em ETH
+* O investimento inicial é de $100 em tokens LP MAI-MOVR
 
 ![](../../.gitbook/assets/solarbeam-6.png)
 
-### Day 1
+### 1º Dia
 
-On day 1, you would simply deposit your $100 worth of MAI-MOVR on Solarbeam and will harvest your SOLAR tokens at the end of the day. This would give you the following result:
+No primeiro dia, você simplesmente depositaria seus $100 de MAI-MOVR na Solarbeam e coletaria seus tokens SOLAR no final do dia. Isso lhe daria o seguinte resultado:
 
-| MAI-MOVR | SOLAR | ROME  | ETH   | Additional LP |
+| MAI-MOVR | SOLAR | ROME  | ETH   | LP Adicionais |
 | -------- | ----- | ----- | ----- | ------------- |
 | 100.000  | 0.230 | 0.000 | 0.000 | 0.000         |
 
-### Day 2
+### 2º Dia
 
-On day 2, you'd keep your MAI-MOVR position to farm more SOLAR, but you will also stake your first harvest of SOLAR token in order to start collecting some ROME tokens. At the end of day 2, you would get:
+No segundo dia, você manterá sua posição MAI-MOVR para cultivar mais SOLAR, mas também fará staking de sua primeira colheita de tokens SOLAR para começar a coletar alguns tokens ROME. No final do dia 2, você obteria:
 
-| MAI-MOVR | SOLAR | ROME  | ETH   | Additional LP |
+| MAI-MOVR | SOLAR | ROME  | ETH   | LP Adicionais |
 | -------- | ----- | ----- | ----- | ------------- |
 | 100.000  | 0.460 | 0.001 | 0.000 | 0.000         |
 
-### Day 3
+### 3º Dia
 
-At the beginning of day 3, you should be able to harvest your first few ROME tokens from the 50% daily staking reward. It's probably not a good idea to do it on day 3 with only an initial of $100 because the amount is quite unsignificant, but still. You will sell 33% for MOVR and 66% for ETH that you will deposit your vault on Mai Finance, then borrow MAI against your new collateral.
+No início do terceiro dia, você deve ser capaz de colher seus primeiros tokens ROME das recompensas de aposta diária de 50%. Provavelmente não é uma boa ideia fazer isso no dia 3 com apenas $100, porque o valor é insignificante. Você venderá 33% para MOVR e 66% para ETH, que irá depositar seu cofre na Mai Finance e, em seguida, tomará emprestado MAI graças a sua nova garantia.
 
-| MAI-MOVR | SOLAR | ROME  | ETH      | Additional LP |
+| MAI-MOVR | SOLAR | ROME  | ETH      | LP Adicionais |
 | -------- | ----- | ----- | -------- | ------------- |
 | 100.000  | 0.690 | 0.002 | 0.000005 | 0.000005      |
 
 At this point the system is fully bootstrapped.
 
-## Farming results
+## Resultados de Farming
 
-### Daily routine
+### Rotina diaria
 
-Once the system is fully prepared, here's your daily routine
+Após o sistema estar totalmente preparado, aqui está a nossa rotina diaria:&#x20;
 
-* harvest SOLAR from the MAI-MOVR pool
-* stake the SOLAR tokens you just earned
-* harvest the ROME tokens from the SOLAR staking pool
-* stake your freshly acquired ROME tokens
-* unstake 50% of your daily gains on Rome DAO (corresponds to \~1.5 rebase)
-* sell 66% of your ROME tokens for ETH
-* sell 33% of your ROME tokens for MOVR
-* deposit ETH in the ETH vault on Mai Finance
-* borrow 50% of your deposit as MAI stable coin
-* pair the borrowed MAI with the MOVR tokens
-* deposit your additional MAI-MOVR tokens
+* colher SOLAR da pool MAI-MOVR
+* fazer staking com os tokens SOLAR que você acabou de receber
+* colher os tokens ROME da pool de staking SOLAR&#x20;
+* fazer staking com seus recém-adquiridios tokens ROME
+* fazer unstaking de 50% de seus ganhos diários na Rome DAO (correspondente a 1.5 rebase)
+* vender 66% de seus tokens ROME para ETH
+* vender 33% de seus tokens ROME para MOVR
+* depositar ETH no vault ETH na Mai Finance
+* tomar emprestado 50% de seus depósito em stablecoin MAI
+* parear o MAI emprestado com tokens MOVR
+* depositar os tokens adicionais MAI-MOVR
 
-### Raw results month after month
+### Resultados mensais brutos
 
-| day | MAI-MOVR | staked SOLAR | staked ROME | ETH     |
-| --- | -------- | ------------ | ----------- | ------- |
-| 30  | 100.021  | 7.135        | 0.352       | 0.023   |
-| 60  | 100.190  | 14.045       | 1.550       | 0.200   |
-| 90  | 100.713  | 20.978       | 3.911       | 0.740   |
-| 120 | 101.872  | 27.968       | 7.869       | 1.925   |
-| 150 | 104.052  | 35.072       | 14.023      | 4.148   |
-| 180 | 107.788  | 42.378       | 23.204      | 7.947   |
-| 210 | 113.814  | 50.019       | 36.559      | 14.065  |
-| 240 | 123.142  | 58.178       | 55.580      | 23.525  |
-| 270 | 137.175  | 67.158       | 82.767      | 37.745  |
-| 300 | 157.848  | 77.321       | 120.875     | 58.681  |
-| 330 | 187.841  | 89.226       | 174.234     | 89.041  |
-| 360 | 230.861  | 103.358      | 248.711     | 132.575 |
+| Dia | MAI-MOVR | SOLAR em Staking | ROME em Staking | ETH     |
+| --- | -------- | ---------------- | --------------- | ------- |
+| 30  | 100.021  | 7.135            | 0.352           | 0.023   |
+| 60  | 100.190  | 14.045           | 1.550           | 0.200   |
+| 90  | 100.713  | 20.978           | 3.911           | 0.740   |
+| 120 | 101.872  | 27.968           | 7.869           | 1.925   |
+| 150 | 104.052  | 35.072           | 14.023          | 4.148   |
+| 180 | 107.788  | 42.378           | 23.204          | 7.947   |
+| 210 | 113.814  | 50.019           | 36.559          | 14.065  |
+| 240 | 123.142  | 58.178           | 55.580          | 23.525  |
+| 270 | 137.175  | 67.158           | 82.767          | 37.745  |
+| 300 | 157.848  | 77.321           | 120.875         | 58.681  |
+| 330 | 187.841  | 89.226           | 174.234         | 89.041  |
+| 360 | 230.861  | 103.358          | 248.711         | 132.575 |
 
-### Day 365
+### 365º Dia
 
-After a complete year of farming, you would have
+Depois de um ano completo de farming, você teria:
 
-* $239.633 worth of MAI-MOVR on Solarbeam
-* $106.358 worth of SOLAR tokens on Solarbeam
-* $263.708 worth of ROME tokens staked on Rome DAO
-* $141.450 worth of ETH on Mai Finance
-* $68.817 worth of MAI debt on Mai Finance
+* $239.633 de MAI-MOVR na Solarbeam
+* $106.358 de SOLAR em staking na Solarbeam
+* $263.708 de ROME em staking na Rome DAO
+* $141.450 de ETH na Mai Finance
+* $68.817 de dívidas em MAI na Mai Finance
 
-The additional MAI-MOVR doesn't fully correspond to the debt since we're using a third of the swapped ROME tokens to get half of the new LP tokens.
+O MAI-MOVR adicional não corresponde totalmente à dívida, pois estamos usando um terço dos tokens ROME trocados para obter metade dos novos tokens LP. \
+\
+Este loop forneceria, portanto, um APY equivalente de 583,15% a partir de uma posição inicial relativamente estável.
 
-This loop would thus give you an equivalent APY of 583.15% from a relatively stable initial position.
+## Aviso legal
 
-## Disclaimer
-
-The main things to understand from this strategy are that Moonriver is currently under-used and reward rates are very interesting. Also, as soon as you throw a Ohm-fork in your strategy to re-invest a portion of your gains, the reward rates are so insane that you will make a very important profit as long as you keep enough tokens in the DAO to generate staking rewards.
-
-Keep in mind though that projects will have variable reward rates that will not be guaranteed over the span of one year. Please make sure you understand all the project you're investing in, do your own research and make sure to invest only what you may be ready to loose. Because this strategy is investing on a relatively stable initial, the only thing that is at risk in here are the benefits from other systems. This guide cannot be taken as an endorsement of the projects it uses.
+As principais coisas para entender a partir desta estratégia são que a Moonriver é pouco utilizada e as taxas de recompensas são muito interessantes. Além disso, assim que você joga um Ohm-fork em sua estratégia de reinvestir uma parte de seus ganhos, as taxas de recompensa são tão insanas que você terá um lucro muito interessante, desde que mantenha tokens suficientes na DAO para gerar recompensas em staking. \
+\
+Porém, lembre-se de que os projetos terão taxas de recompensa variáveis que não serão garantidas ao longo de um ano. Certifique-se de entender completamente o projeto em que está investindo, faça sua própria pesquisa e certifique-se de investir apenas o que você pode estar pronto para perder. Como essa estratégia trabalha com um investimento inicial relativamente estável, a única coisa que está em risco aqui são os benefícios de outros sistemas. Este guia não pode ser interpretado como um endosso aos projetos aqui citados.
