@@ -28,7 +28,7 @@
   * [Farming de MAI na SolarBeam](tutoriais/moonriver/farming-mai-on-solarbeam.md)
 * [Cronos](tutoriais/cronos/README.md)
   * [Como começar na Cronos](tutoriais/cronos/how-to-get-started-on-cronos.md)
-  * [Farming Legos with CroDex](tutoriais/cronos/farming-legos-with-crodex.md)
+  * [Farming como LEGO na CroDex](tutoriais/cronos/farming-legos-with-crodex.md)
 * [Harmony](tutoriais/harmony/README.md)
   * [How to get started on Harmony](tutoriais/harmony/how-to-get-started-on-harmony.md)
 

@@ -1,12 +1,12 @@
 ---
 description: >-
-  Farming rewards with stable coins usually have low rates. Let's see how you
-  can increase your gains with a new investment loop.
+  Recompensas de farming com stablecoins normalmente têm baixas taxas. Vamos ver
+  como você aumentar seus ganhos com um novo loop de investimento.
 ---
 
-# Farming Legos with CroDex
+# Farming como LEGO na CroDex
 
-Yield farming can be easy. You have 2 tokens, you combine them in a LP (**L**iquidity **P**roviding) pair, you deposit the LP token in a pool and you start getting swap fees and most of the time, rewards paid in the native token of the farm you are using. Most people will simply sell the reward for whatever asset they are looking for, which is most of the time, totally valid, but very far from an optimized solution. Today, we will see how you can profit from the very high APR (**A**nnual **P**ercentage **R**ate) proposed on Cronos on several DApps, which will transform a 30% APR on stable coin into a much higher rate.
+Farming de rendimentos pode ser fácil. Você tem 2 tokens, você os combina em um par LP (**L**iquidity **P**roviding, ou Provedor de Liquidez), você deposita o token LP em uma pool e você começa a receber taxas de operaçōes e na maior parte do tempo, recompensa são pagas no token nativo da farm que você está usando. A maioria das pessoas irá simplesmente vender as recompensas por qualquer outro ativo que eles preferirem, o que é na maioria dos casos, totalmente válido, mas muito distante de uma solução otimizada. Hoje, nós veremos como você pode lucrar de um altissimo APR (**A**nnual **P**ercentage **R**ate) proposto na Cronos em varios DApps, o que irá transformar um APR de 30% em stablecoins em uma taxa muito mais alta.
 
 ![](../../.gitbook/assets/crodex-lego-1.png)
 
