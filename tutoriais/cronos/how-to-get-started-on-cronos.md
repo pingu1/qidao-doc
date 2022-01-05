@@ -1,16 +1,16 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the Cronos chain.
+  Neste guia, explicaremos tudo o que você precisa saber para começar a usar a
+  rede Cronos.
 ---
 
-# How to get started on Cronos
+# Como começar na Cronos
 
-## What is Cronos
+## O que é Cronos
 
-It will be hard to explain what Cronos is without mentioning Crypto.com. Crypto.com is one of the biggest centralized exchanges (also known as CEX) and is building its own set of chains, including Crypto.org Chain and Cronos. Crypto.org Chain is a chain with a proprietary technology while Cronos is its EVM (Ethereum Virtual Machine) compatible sister. It's pretty much the same thing as the Binance Chain dedicated to the CEX, and Binance Smart Chain that is EVM compatible.
-
-Among other advantages, Cronos presents **EVM-compatibility**, which means that most applications that launched on other EVM chains can also be deployed to Cronos, including Mai Finance, and **Scalability**: Cronos is faster and cheaper than the Ethereum Mainnet.
+Será difícil explicar o que é Cronos sem mencionar Crypto.com. Crypto.com é uma das maiores bolsas centralizadas (também conhecido como CEX) e está construindo seu próprio conjunto de cadeias, incluindo Crypto.org Chain e Cronos. A Rede Crypto.org é uma rede com tecnologia proprietária, enquanto a Cronos é sua irmã compatível com EVM (Ethereum Virtual Machine). É praticamente a mesma coisa que a Binance Chain dedicada ao CEX e a Binance Smart Chain que é compatível com EVM. \
+\
+Entre outras vantagens, o Cronos apresenta compatibilidade com EVM, o que significa que a maioria dos aplicativos lançados em outras cadeias de EVM também podem ser implantados no Cronos, incluindo Mai Finance e Escalabilidade: Cronos é mais rápido e mais barato que o Ethereum Mainnet.
 
 ## Getting started on Cronos
 
