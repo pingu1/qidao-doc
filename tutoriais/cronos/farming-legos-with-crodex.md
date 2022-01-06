@@ -81,7 +81,7 @@ O que se segue é uma simulação feita com um investimento inicial de $1.000 em
 
 ### 1º Dia
 
-Você deposita seu MAI-USDC na pool apropriada da CroDex e ganha 30% de APR sobre ele. No final do primeiro dia, depois de coletar suas recompensas CRX, você teria
+Você deposita seu MAI-USDC na pool apropriada da CroDex e ganha 30% de APR sobre ele. No final do primeiro dia, depois de coletar suas recompensas CRX, você teria:
 
 | MAI-USDC | CRX em Staking | CRX-WCRO | CRYSTL | SALEM | WCRO  |
 | -------- | -------------- | -------- | ------ | ----- | ----- |
@@ -89,98 +89,98 @@ Você deposita seu MAI-USDC na pool apropriada da CroDex e ganha 30% de APR sobr
 
 ### 2º Dia
 
-Seu CRX em staking está gerando WCRO. Você pode colher a recompensa e trocar 50% por mais CRX para criar um par LP CRX-WCRO que você pode depositar na CRYSTL Finance. No final do segundo dia você teria
+Seu CRX em staking está gerando WCRO. Você pode colher a recompensa e trocar 50% por mais CRX para criar um par LP CRX-WCRO que você pode depositar na CRYSTL Finance. No final do segundo dia você teria:
 
 | MAI-USDC | CRX em Staking | CRX-WCRO | CRYSTL | SALEM | WCRO  |
 | -------- | -------------- | -------- | ------ | ----- | ----- |
 | 1,000.00 | 1.644          | 0.002    | 0.000  | 0.000 | 0.000 |
 
-### Day 3
+### 3º Dia
 
-The CRX-WCRO pair locked in the CRYSTL Finance vault generated additional LP token. You will have to extract the daily gain and pay a 0.1% fee, and break the extracted LP portion into CRX and WCRO tokens. You can simply restake the CRX on CroDex, and swap the WCRO into CRYSTL. This can be done on [CroDex using the swap feature](https://swap.crodex.app/#/swap?outputCurrency=0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B). At the end of the day, you would have
+O par CRX-WCRO bloqueado no vault da CRYSTL Finance gerou mais tokens LP. Você terá que extrair o ganho diário e pagar uma taxa de 0,1%, e dividir a parte LP extraída em tokens CRX e WCRO. Você pode simplesmente fazer staking novamente com o CRX em CroDex e trocar o WCRO por CRYSTL. Isso pode ser feito na [CroDex usando a função de swap.](https://swap.crodex.app/#/swap?outputCurrency=0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B) No final do dia, você teria:
 
-| MAI-USDC | staked CRX | CRX-WCRO | CRYSTL  | SALEM | WCRO  |
-| -------- | ---------- | -------- | ------- | ----- | ----- |
-| 1,000.00 | 2.466      | 0.005    | 0.00003 | 0.000 | 0.000 |
+| MAI-USDC | CRX em Staking | CRX-WCRO | CRYSTL  | SALEM | WCRO  |
+| -------- | -------------- | -------- | ------- | ----- | ----- |
+| 1,000.00 | 2.466          | 0.005    | 0.00003 | 0.000 | 0.000 |
 
 {% hint style="info" %}
-Note that the rewards on CRYSTL are very small and it may not be interesting to harvest the reward from day 1. This simulation is still displaying the rewards you should get and will assume you still compound daily, but this is done to simplify the results. Make sure you don't spend all your reward into transaction fees, and it may be more interesting to compound only weeekly of the first few weeks.
+Observe que as recompensas na CRYSTL são muito pequenas e pode não ser interessante colher a recompensa do primeiro dia. Esta simulação ainda está exibindo as recompensas que você deve receber e irá assumir que você ainda reacumula diariamente, mas isso é feito para simplificar os resultados. Certifique-se de não gastar toda a sua recompensa em taxas de transaçōes, e pode ser mais interessante reinvestir apenas semanalmente durante as primeiras semanas.
 {% endhint %}
 
-### Day 4
+### 4º Dia
 
-Your CRYSTL reward from Crystl Finance can be staked in order to earn SALEM tokens. At the end of the 4th day you'd get
+Sua recompensa CRYSTL da Crystl Finance pode ser colocada em staking para ganhar tokens SALEM. No final do 4º dia você obteria
 
-| MAI-USDC | staked CRX | CRX-WCRO | CRYSTL  | SALEM     | WCRO  |
-| -------- | ---------- | -------- | ------- | --------- | ----- |
-| 1,000.00 | 3.288      | 0.010    | 0.00011 | 0.0000002 | 0.000 |
+| MAI-USDC | CRX em Staking | CRX-WCRO | CRYSTL  | SALEM     | WCRO  |
+| -------- | -------------- | -------- | ------- | --------- | ----- |
+| 1,000.00 | 3.288          | 0.010    | 0.00011 | 0.0000002 | 0.000 |
 
-### Day 5
+### 5º Dia
 
-Final bootstrapping day when you will harvest the rewards from Salem Finance. The WCRO reward can be swapped for more MAI-USDC. However, as you can notice, the value of the reward is so small that you won't be able to harvest the WCRO from Salem Finance before Day 50 or so.
+Dia final da aprimoração do sistema, quando você colherá as recompensas da Salem Finance. A recompensa WCRO pode ser trocada por mais MAI-USDC. No entanto, como você pode notar, o valor da recompensa é tão pequeno que você não poderá colher o WCRO da Salem Finance antes do dia 50 ou depois.
 
-## Farming results
+## Resultados do Farming
 
-### Daily routine
+### Rotina diária
 
-Once the system is fully prepared, here's your daily routine
+Assim que o sistema estiver totalmente preparado, aqui está sua rotina diária:
 
-* harvest CRX from the MAI-USDC pool
-* harvest the WCRO reward from the single staking pool on CroDex
-* swap 50% of the WCRO reward for more CRX on CroDex, and create some CRX-WCRO LP token
-* deposit your additional CRX-WCRO token on CRYSTAL Finance
-* withdraw a portion of CRX-WCRO corresponding to your daily reward
-* break the LP token into CRX and WCRO on CroDex
-* stake the CRX into the single staking pool on CroDex that gets WCRO rewards
-* swap the WCRO for CRYSTL on CroDex
-* stake the CRYSTL token on Crytl Finance to get SALEM tokens
-* harvest the SALEM token
-* single stake the SALEM token on Salem Finance
-* harvest the WCRO token from Salem Finance
-* swap the WCRO for MAI and USDC and create more LP pair
-* deposit the new MAI-USDC pair in the appropriate pool on CroDex
+* colher CRX da pool de MAI-USDC
+* colher a recompensa WCRO reward da staking pool na CroDex
+* trocar 50% de suas recompensas WCRO para mais CRX na CroDex, e criar alguns LP tokens CRX-WCRO
+* depositar seus tokens CRX-WCRO adicionais na CRYSTAL Finance
+* retirar uma porção de CRX-WCRO correspondente à sua recompensa diária
+* quebrar o token LP em CRX e WCRO na CroDex
+* fazer staking com CRX na pool de staking único na CroDex que garante recompensas WCRO
+* trocar WCRO por CRYSTL na CroDex
+* fazer staking com o token CRYSTL na Crystl Finance para obter tokens SALEM
+* colher o token SALEM
+* fazer staking apenas com o token SALEM na Salem Finance
+* colher o token WCRO da Salem Finance
+* trocar WCRO por MAI e USDC e criar mais pares LP
+* depositar o novo par MAI-USDC na pool apropriada na CroDex
 
-### Raw results month after month
+### Resultados mensais brutos
 
-| day | MAI-USDC | staked CRX | CRX-WCRO | CRYSTL | SALEM  |
-| --- | -------- | ---------- | -------- | ------ | ------ |
-| 30  | 1,000.00 | 25.583     | 0.600    | 0.104  | 0.004  |
-| 60  | 1,000.00 | 50.819     | 1.830    | 0.682  | 0.059  |
-| 90  | 1,000.04 | 76.736     | 3.315    | 1.941  | 0.260  |
-| 120 | 1,000.14 | 103.424    | 4.922    | 3.970  | 0.729  |
-| 150 | 1,000.41 | 130.935    | 6.606    | 6.816  | 1.594  |
-| 180 | 1,001.93 | 159.307    | 8.352    | 10.515 | 2.994  |
-| 210 | 1,001.87 | 188.578    | 10.156   | 15.094 | 5.070  |
-| 240 | 1,003.39 | 218.789    | 12.019   | 20.584 | 7.969  |
-| 270 | 1,005.71 | 249.988    | 13.942   | 27.014 | 11.843 |
-| 300 | 1,009.10 | 282.227    | 15.929   | 34.414 | 16.848 |
-| 330 | 1,013.82 | 315.569    | 17.982   | 42.817 | 23.147 |
-| 360 | 1,020.23 | 350.084    | 20.105   | 52.256 | 30.906 |
+| Dia | MAI-USDC | CRX em Staking | CRX-WCRO | CRYSTL | SALEM  |
+| --- | -------- | -------------- | -------- | ------ | ------ |
+| 30  | 1,000.00 | 25.583         | 0.600    | 0.104  | 0.004  |
+| 60  | 1,000.00 | 50.819         | 1.830    | 0.682  | 0.059  |
+| 90  | 1,000.04 | 76.736         | 3.315    | 1.941  | 0.260  |
+| 120 | 1,000.14 | 103.424        | 4.922    | 3.970  | 0.729  |
+| 150 | 1,000.41 | 130.935        | 6.606    | 6.816  | 1.594  |
+| 180 | 1,001.93 | 159.307        | 8.352    | 10.515 | 2.994  |
+| 210 | 1,001.87 | 188.578        | 10.156   | 15.094 | 5.070  |
+| 240 | 1,003.39 | 218.789        | 12.019   | 20.584 | 7.969  |
+| 270 | 1,005.71 | 249.988        | 13.942   | 27.014 | 11.843 |
+| 300 | 1,009.10 | 282.227        | 15.929   | 34.414 | 16.848 |
+| 330 | 1,013.82 | 315.569        | 17.982   | 42.817 | 23.147 |
+| 360 | 1,020.23 | 350.084        | 20.105   | 52.256 | 30.906 |
 
-### Day 365
+### 365º Dia
 
-After a complete year of farming this system, you would have
+Após um ano completo de farming, você teria:
 
-* $1,021.49 worth of MAI-USDC on CroDex
-* $355.96 worth of CRX single staked on CroDex
-* $20.47 worth of CRX-WCRO deposited on CRYSTL Finance
-* $53.93 worth of CRYSTL single staked on CRYSTL Finance
-* $32.353 worth of SALEM single staked on Salem Finance
+* $1,021.49 de MAI-USDC na CroDex
+* $355.96 de CRX em staking na CroDex
+* $20.47 de CRX-WCRO depositado na CRYSTL Finance
+* $53.93 de CRYSTL em staking na CRYSTL Finance
+* $32.353 de SALEM em staking na Salem Finance
 
-The WCRO from Salem Finance is actually included as the additional MAI-USDC position since it's fully sold to increase this pair.
+O WCRO da Salem Finance está incluído como a posição MAI-USDC adicional, uma vez que foi totalmente vendido para aumentar este par.\
+\
+Isso significa que, com um investimento inicial de $1.000, no final do ano você teria $1.484,45 em todos os aplicativos, para um APY total de 48,45%. E lembre-se de que isso é feito com o farming de apenas um par estável como a raiz da estratégia. Também é bom observar que o único token que é trocado com o tempo é o token CRO.
 
-This means that with an initial investment of $1,000, at the end of the year you would have $1,484.45 across all apps, for a total APY of 48.45%. And remember that this is done by farming only a stable pair as the root of the strategy. It's also good to note that the only token that is swapped over time is the CRO token.
+### Alternativa usando a Mai Finance
 
-### Alternative using Mai Finance
+A aplicação Mai Finance não oferece suporte a vaults na Cronos, porque os tokens na Cronos ainda não têm Oráculos da Chainlink. Espera-se que, durante o primeiro trimestre de 2022, a Chainlink adicione Oráculos à rede Cronos, e você poderá depositar seus tokens WCRO em um Vault para pegar emprestado a stablecoin MAI. Isso significa que a estratégia acima pode ser modificada para depositar WCRO e usar MAI em vez de vender tokens WCRO, o que aumentará ligeiramente sua taxa de recompensa final.
 
-The Mai Finance application doesn't support vaults on Cronos, because tokens on Cronos don't have Chainlink Oracles yet. It's expected that during the first quarter of 2022, Chainlink will add oracles on Cronos, and you will be able to deposit your WCRO tokens in a Vault to borrow the MAI stable coin. This means that the strategy above can be modified to deposit WCRO and use MAI instead of selling the WCRO tokens, which will slightly increase your final reward rate.
+![Vault de WCRO na Mai Finance (simulação)](../../.gitbook/assets/crodex-lego-8.png)
 
-![WCRO vault on Mai Finance (emulation)](../../.gitbook/assets/crodex-lego-8.png)
+## Aviso legal
 
-## Disclaimer
-
-This guide was written to showcase that you can increase your reward rate withouth dumping the tokens that you farm. It's not simple to find the right fits when you're building feedback loops, but it's definitely feasable, and you will most of the time rewarded if you can find the right combo. However, this guide was written only to demonstrate how you can do that, and not to build a similar system. All transaction fees were purposedly discarded, and some rewards will not last for a complete year, meaning that you may want to consider more simple loops for your personal investments. However, CroDex is a very good starting point for that type of system.
+Este guia foi escrito para mostrar que você pode aumentar sua taxa de recompensas sem descartar os tokens que cultiva. Não é simples encontrar os ajustes certos quando você está construindo loops de feedback, mas é definitivamente viável, e você será recompensado na maioria das vezes se encontrar a combinação certa. No entanto, este guia foi escrito apenas para demonstrar como você pode fazer isso, e não para construir um sistema semelhante. Todas as taxas de transação foram descartadas propositalmente e algumas recompensas não durarão um ano completo, o que significa que você pode querer considerar loops mais simples para seus investimentos pessoais. No entanto, a CroDex é um bom ponto de partida para esse tipo de sistema.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Este guia definitivamente não é um conselho financeiro, ele foi feito com um objetivo educacional em mente. Você precisa prestar atenção às variações de preços, oferta e demanda, datas de término dos programas de recompensa, perdas impermanentes, etc. O objetivo não era propor receitas que pudessem ser seguidas cegamente, então, por favor, faça seu dever de casa e sua própria simulação, e apenas invista o que você está pronto para perder.
 {% endhint %}
