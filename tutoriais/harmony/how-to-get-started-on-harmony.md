@@ -1,24 +1,24 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the Harmony chain.
+  Neste guia, explicaremos tudo o que você precisa saber para começar a usar a
+  rede  Harmony.
 ---
 
-# How to get started on Harmony
+# Como começar na Harmony
 
-## What is Harmony
+## O que é Harmony
 
-Harmony is a blockchain that tries to solve the issues that the Ethereum Mainnet faces: achieving a satisfying degree of balance between decentralization and scalability. The main focus of the chain are made on a high transaction throughput, speed and energy efficiency. This is done by highly leveraging sharding of validators that would be grouped to process transactions simultaneously. Supporting scalability is as simply as growing the number of shards, which also helps achieving faster transaction. Feel free to dig more about Harmony and its technology in their [official documentation](https://docs.harmony.one/home/general/technology).
+A Harmony é uma blockchain que tenta resolver os problemas que a Ethereum Mainnet enfrenta: alcançar um grau satisfatório de equilíbrio entre descentralização e escalabilidade. O foco principal da rede está voltado para o alto rendimento das transações, velocidade e eficiência energética. Isso é feito aproveitando altamente a fragmentação de validadores que seriam agrupados para processar transações simultaneamente. Suportar a escalabilidade é simples como aumentar o número de shards, o que também ajuda a alcançar transações mais rápidas. Sinta-se à vontade para pesquisar mais sobre o Harmony e sua tecnologia em sua [documentação oficial.](https://docs.harmony.one/home/general/technology)
 
-## Getting started on Harmony
+## Começando na Harmony
 
-In order to use the Harmony network, you will need a wallet address. Because Harmony is an EVM-compatible network (**E**thereum **V**irtual **M**achine), it will accept the same wallets as on other EVM-compatible chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger.
+Para usar a rede Harmony, você precisará de uma carteira. Como o Harmony é uma rede compatível com EVM (**E**thereum **V**irtual **M**achine), ela aceitará as mesmas carteiras que em outras rede compatíveis com EVM, incluindo carteiras virtuais como Metamask ou Nifty, e você poderá usar sua carteira de hardware como Trezor ou Ledger. \
+\
+Para este tutorial, nos limitaremos ao Metamask como fazemos em todos os outros guias deste site. Se você não tiver a Metamask instalado, você pode encontrar instruções em [como começar na Polygon.](../../polygon-tutorials/how-to-get-started-on-polygon.md)
 
-For this tutorial, we will stick to Metamask like for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../../polygon-tutorials/how-to-get-started-on-polygon.md).
+### Adicionando a Harmony à Metamask
 
-### Adding Harmony to Metamask
-
-If you have installed the latest version of Metamask, you should already have access to the Harmony chain and there's nothing else for you to de besides selecting `Harmony One` in the network dropdown at the top of Metamask. You can also set a new RPC yourself to access Harmony using these steps. Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Harmony One`. The data you should get are as follows:
+Se você instalou a versão mais recente da Metamask, já deve ter acesso à rede Harmony e não há mais nada para você definir além de selecionar Harmony One na lista suspensa de rede no topo do Metamask. Você também pode definir um novo RPC para acessar a Harmony usando estas etapas. Abra o pop-up Metamask, clique no ícone da sua carteira, navegue até `Settings` então escolha `Networks` e encontre `Harmony One`. A informação que você deve obter é:
 
 * **Network Name:** Harmony One
 * **New RPC URL:** https://api.harmony.one
@@ -26,15 +26,15 @@ If you have installed the latest version of Metamask, you should already have ac
 * **Currency Symbol:** ONE
 * **Block Explorer URL:** https://explorer.harmony.one/
 
-Save the changes, and Metamask will automatically switch you over to the Harmony network:
+Salve as alterações, e a Metamask irá transferi-lo automaticamente para a rede Harmony:
 
-![Congratulations!! You're now on Harmony](../../.gitbook/assets/Harmony-onboarding-1.png)
+![Parabéns! Você está na Harmony.](../../.gitbook/assets/Harmony-onboarding-1.png)
 
-## Bridging to Harmony One
+## Ponte à Harmony One
 
 ### Faucets
 
-There isn't any official faucet to get your first ONE tokens for your first few transactions. You will mostly have to bridge some tokens from another chain using the official [Harmony bridge](https://bridge.harmony.one/erc20) that will let you bridge some specific assets from either Ehtereum Mainnet or Binance to Harmony. You can also get a list of projects that will let you get some ONE via Fiat Gateways or Exchange Gateways from [this list](https://docs.harmony.one/home/developers/harmony-stack#bridges-fiat-gateways-exchanges) curated by the Harmony team.
+Não há nenhum faucet oficial para obter seus primeiros tokens ONE para suas primeiras transações. Você terá que conectar alguns tokens de outra cadeia usando a [ponte Harmony oficial.](https://bridge.harmony.one/erc20) Isso permitirá que você conecte alguns ativos específicos do Ethereum Mainnet ou Binance ao Harmony. Você pode [this list](https://docs.harmony.one/home/developers/harmony-stack#bridges-fiat-gateways-exchanges) com curadoria da equipe Harmony.
 
 As always, you can also use [ElkNet](https://app.elk.finance/#/elknet) to transfer some ELK tokens from other chains to Harmony. If you do so, make sure to check the box `Swap $ELK 1 for gas` that will swap a part of your transferred tokens to ONE, which will also let you swap the rest of your ELK tokens to more ONE, or other assets.
 

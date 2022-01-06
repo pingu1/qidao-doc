@@ -30,7 +30,7 @@
   * [Como começar na Cronos](tutoriais/cronos/how-to-get-started-on-cronos.md)
   * [Farming como LEGO na CroDex](tutoriais/cronos/farming-legos-with-crodex.md)
 * [Harmony](tutoriais/harmony/README.md)
-  * [How to get started on Harmony](tutoriais/harmony/how-to-get-started-on-harmony.md)
+  * [Como começar na Harmony](tutoriais/harmony/how-to-get-started-on-harmony.md)
 
 ## Universidade do MAI
 
