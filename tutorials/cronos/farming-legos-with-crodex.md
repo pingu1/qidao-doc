@@ -90,7 +90,7 @@ You deposit your MAI-USDC on CroDex in the appropriate pool and get 30% APR on i
 
 ### Day 2
 
-Your staked CRX is generating WCRO. You can harvest the reward and swap 50% into more CRX in order to create a CRX-WCRO L pair that you can then deposit on CRYSTL Finance. At the end of the second day you would have
+Your staked CRX is generating WCRO. You can harvest the reward and swap 50% into more CRX in order to create a CRX-WCRO LP pair that you can then deposit on CRYSTL Finance. At the end of the second day you would have
 
 | MAI-USDC | staked CRX | CRX-WCRO | CRYSTL | SALEM | WCRO  |
 | -------- | ---------- | -------- | ------ | ----- | ----- |
