@@ -12,27 +12,26 @@ Farming de rendimentos pode ser fácil. Você tem 2 tokens, você os combina em 
 
 ## CroDex
 
-### Farming with MAI
+### Farming com MAI
 
-Even if the lending application of Mai Finance is not deployed on Cronos yet, it is already possible to bridge MAI from other chains. One of the reason to do this is because there are not many MAI on Cronos, meaning that any application that proposes farming with MAI will also provide high APRs. This is the case of CroDex, currently the only place with MAI liquidity on Cronos. For this guide, we will use the MAI-USDC pool on CroDex to lower the risk of Impermanent Loss on your initial investment, but you can increase your gains by farming MAI-CRO.
+Mesmo que o aplicativo de empréstimo da Mai Finance ainda não esteja implantado na Cronos, já é possível fazer a ponte de MAI a outras redes. Uma das razões para fazer isso é porque não há muito MAI na Cronos, o que significa que qualquer aplicativo que proponha farming de MAI também fornecerá APRs elevados. É o caso da CroDex, atualmente o único local com liquidez de MAI na Cronos. Para este guia, usaremos a pool MAI-USDC na CroDex para reduzir o risco de perda impermanente em seu investimento inicial, mas você pode aumentar seus ganhos cultivando MAI-CRO.
 
-![MAI-USDC LP pool on CroDex as of December 2021](../../.gitbook/assets/crodex-lego-2.png)
+![LP pool MAI-USDC na CroDex, Dezembro de 2021](../../.gitbook/assets/crodex-lego-2.png)
 
 {% hint style="info" %}
-Whenever you select an application to farm yields, it's important to note if the reward is displayed as an APR (**A**nnual **P**ercentage **R**ate) or APY (**A**nnual **P**ercentage **Y**ield). The latter assumes that all rewards you get are compounded daily for one complete year. In our example, 30% APR on the MAI-USDC pair corresponds to a 34.97% APY.
-
-If you compare it to the MAI-USDC pool on Mai Finance, the APR given is 20.18% on Polygon, 22.10% on Fantom, and the MAI-av3CRV pool on Avalanche proposes 23.24% APR. CroDex proposes the best rate on MAI stable across all chains!
+Sempre que você seleciona um aplicativo para rendimentos em farming, é importante observar se a recompensa é exibida como APR (**A**nnual **P**ercentage **R**ate, Taxa Percentual Anual) ou APY (**A**nnual **P**ercentage **Y**ield, Rendimento Percentual Anual). Este último pressupõe que todas as recompensas que você recebe são reacumuladas diariamente por um ano completo. Em nosso exemplo, 30% de APR no par MAI-USDC corresponde a 34,97% de APY.\
+Se você comparar com a pool MAI-USDC na Mai Finance, o APR dado é de 20,18% na Polygon, 22,10% na Fantom, e a pool MAI-av3CRV na Avalanche propõe 23,24% de APR. A CroDex propõe a melhor taxa sobre a stablecoin MAI em todas as redes!
 {% endhint %}
 
-CroDex will pay you with their native token, the CRX. As of December 2021, 1 CRX = 127.56 USDC
+A CroDex vai pagar você com seu token nativo, o CRX. Em dezembro de 2021, 1 CRX = 127,56 USDC
 
-### Single Staking CRX
+### Staking com apenas CRX
 
-This is where it gets interesting. CroDex has 2 different pools where you will be able to stake your CRX tokens for additional rewards. You can either stake to get more CRX, but we will use the pool where staking CRX will reward you with wCRO tokens. wCRO is the wrapped version of CRO, the gas token of the Cronos network.
+É aqui que fica interessante. A CroDex tem 2 pools diferentes onde você poderá fazer staking com seus tokens CRX para obter recompensas adicionais. Você pode fazer staking para obter mais CRX, mas usaremos a pool onde o staking de CRX o recompensará com tokens wCRO. wCRO é a versão embalada do CRO, o token de gas da rede Cronos.
 
-![Single staking CRX on CroDex as of December 2021](../../.gitbook/assets/crodex-lego-3.png)
+![Staking com apenas CRX na CroDex, Dezembro de 2021](../../.gitbook/assets/crodex-lego-3.png)
 
-You can already see that you could very well sell your CRX for more MAI-USDC LP tokens and get almost 35% APY on the stable pair, but it's clearly better to stake your CRX to get CRO. Not only it can be used to pay transaction fees, but you can also farm MAI-CRO on CroDex. And the more CRX you get over time, the more CRO you'll get if you stake your CRX. But in this guide, we will explore Cronos a little more!
+Você já pode ver que poderia muito bem vender seu CRX por mais tokens MAI-USDC LP e obter quase 35% de APY no par estável, mas é claramente melhor fazer staking com seu CRX para obter CRO. Ele pode ser usado tanto para pagar taxas de transação, quanto para farming de MAI-CRO na CroDex. E quanto mais CRX você ganha com o tempo, mais CRO você receberá com staking de CRX. Mas neste guia, vamos explorar um pouco mais da Cronos!
 
 ## CRYSTL Finance
 
