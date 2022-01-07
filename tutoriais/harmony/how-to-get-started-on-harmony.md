@@ -60,7 +60,7 @@ Você notará que o APR (**A**nnual **P**ercentage **R**ate, ou Taxa Percentual 
 
 * [DeFi Kingdom](https://game.defikingdoms.com/#/): Este é um projeto particularmente interessante que mistura DeFi e Gamification. Seu token nativo, o token JEWEL, é usado como recompensa de farming para usuários que fornecem liquidez, mas pode ser usado no jogo ou no mercado. Explicar todo o universo de DeFi Kingdom (ou DFK) levaria muito tempo para este guia, por isso recomendamos a leitura da [documentação oficial.](https://docs.defikingdoms.com)
 
-![Main map of DeFi Kingdom as of December 2021](../../.gitbook/assets/Harmony-onboarding-4.png)
+![Mapa principal do DeFi Kingdom, Dezembro de 2021](../../.gitbook/assets/Harmony-onboarding-4.png)
 
 * [SushiSwap](https://app.sushi.com) é a famosa DEX/AMM que também está presente em muitas outras redes. Troque, forneça liquidez, faça farming com ONE e SUSHI.
 * [Curve Finance](https://harmony.curve.fi) é outro aplicativo cross-chain que permitirá que você forneça liquidez (3pool e tricrypto) e te recompensará com tokens reacumulados, bem como ONE e CRV.
