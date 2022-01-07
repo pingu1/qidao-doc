@@ -7,42 +7,42 @@ description: >-
 
 # Recebendo renda passaiva com a QiDAO
 
-## Passive income through QI DAO?
+## Renda passiva através da QiDAO?
 
-Qi DAO lets you earn weekly share of the revenue earned by the protocol, precisely:
+A QiDAO permite que você receba uma fatia semanal do rendimento obtido pelo protocolo, precisamente:
 
-* 30% of weekly repayment fee revenue (plus a 25% boost).&#x20;
-* 100% of LP rewards received from using deposit fee revenue to farm on QuickSwap&#x20;
-* 30% of weekly USDC Swap fees.&#x20;
+* 30% do rendimento do reembolso das taxas semanalmente (mais um boost de 25%).&#x20;
+* 100% das recompensas LP recebidas do uso de rendimento da taxa de depósito para farming na QuickSwap&#x20;
+* 30% das taxas de swap de USDC semanalmente.&#x20;
 
-This share of revenue is distributed to the people who stake and lock their QI tokens for a certain period of time, the rewards are then distributed in the form of QI tokens which is airdropped to your wallets directly. These rewards will be airdropped each Wednesday, and you can check your previous rewards [here](https://app.mai.finance/rewards).
+Essa parte da receita é distribuída para as pessoas que fazem staking e bloqueiam seus tokens QI por um determinado período de tempo, as recompensas são então distribuídas na forma de tokens QI que são enviados diretamente para suas carteiras. Essas recompensas são lançadas por airdrop todas as quartas-feiras, e você pode verificar suas recompensas anteriores [aqui](https://app.mai.finance/rewards).
 
-## Introduction to snapshots
+## Introdução a snapshots
 
-A snapshot is basically a recording of the the state of a blockchain on a particular block height, this means that the snapshot will record the contents of the entire blockchain ledger, which includes all existing addresses and their associated data (transactions, fees, balance, so on). Since Qi is on the Polygon blockchain we can check when the next snapshot is going to take place in [Polygonscan](https://polygonscan.com).
+Uma snapshot (foto instantânea) é basicamente uma gravação do estado de uma blockchain em uma altura de bloco particular. Isso significa que a snapshot gravará o conteúdo de toda a ledger da blockchain, que inclui todos os endereços existentes e seus dados associados (transações, taxas, saldo, etc). Já que a Qi está na blockchain Polygon, podemos verificar quando a próxima snapshot vai ocorrer pela [Polygonscan](https://polygonscan.com).
 
-You become eligible for the rewards if you stake your Qi tokens for at least \~10 days depending on when you lock your tokens. In other words, a valid staking period should contain at least 2 snapshots, so you'll get paid the Wednesday following the 2nd snapshot.
+Você se torna elegível para as recompensas ao fazer staking com seus tokens Qi por, pelo menos, 10 dias, dependendo de quando você bloqueou seus tokens. Em outras palavras, um período de staking válido deve conter pelo menos 2 snapshots, então você será pago na quarta-feira seguinte à segunda snapshot.
 
-![How to become eligible for the Qi rewards](../.gitbook/assets/unknown.png)
+![Como se tornar elegível para as recompensas em Qi](../.gitbook/assets/unknown.png)
 
-This is an example of a bare minimal staking period. Of course, you can stake for a longer period of time, and there are actually benefits locking your Qi for a long period. The longer you lock, the bigger the reward boost will be (see [What is Qi Powah](earning-passive-income-with-qidao.md#what-is-qi-powah) and the [FAQ](earning-passive-income-with-qidao.md#faqs-of-qi-staking) for more details).
+Este é um exemplo de um período mínimo de staking. Claro, você pode fazer staking durante um período maior e, na verdade, bloquear o seu Qi por mais tempo traz benefícios. Quanto maior for o tempo do bloqueio, maior será o aumento da recompensa (veja [O que è Qi Powah](earning-passive-income-with-qidao.md#what-is-qi-powah) e o [FAQ](earning-passive-income-with-qidao.md#faqs-of-qi-staking) para mais detalhes).
 
-## Understanding Qi Boost and Qi Powah
+## Entendendo o Qi Boost e Qi Powah
 
-Now that we know what a snapshot is, we are ready to start earning some passive income using Qi. In order to do so, we have to go to the [boost ](https://app.mai.finance/boost)page in Mai Finance.
+Agora que sabemos o que é uma snapshot, estamos prontos para começar a receber por renda passiva usando Qi. Para fazer isso, temos que ir à pagina do [boost ](https://app.mai.finance/boost)na Mai Finance.
 
-### What is Qi Boost and Qi Powah?
+### O que é Qi Boost e Qi Powah?
 
-Qi Boost is your opportunity to increase the power and rewards of your Qi. The longer you lock your Qi the greater your voting power (Qi Powah) and weekly reward share will be. You can boost up to 4x by locking Qi for 4 years. Your boosts slowly reduces over your locking period, eventually unlocking your Qi, however you can always increase your boost to maintain your boosted level. Your boosted Qi is represented in eQi (escrowed Qi) and will remain in escrow until your unlock date (non-transferable).
+O Qi Boost é a sua oportunidade de aumentar o poder e as recompensas do seu Qi. Quanto maior o tempo em que você bloquear o seu Qi, maior será o seu poder de voto (Qi Powah) e maior será a sua parcela de recompensa semanal. Você pode fazer boost em até 4x bloqueando o Qi por 4 anos. Seus boosts reduzem lentamente ao longo do período de bloqueio, eventualmente desbloqueando seu Qi, no entanto, você sempre pode aumentar seu boost para manter seu nível de boost. Seu Qi em boost é representado em eQi (escrowed Qi, Qi em custódia) e permanecerá sob custódia até a data de desbloqueio (intransferível).
 
-This can means that locking Qi have the following advantages:
+Isso significa que bloquear o seu Qi traz as seguintes vantagens:
 
-* You can start earning weekly rewards just by locking your Qi tokens.
-* As a DAO, your voice will matter and depending on how many Qi tokens you lock, and how much time it is locked, you'll have more voting power of what will happen in the community. You can check the currents proposals of Qi DAO [here](https://snapshot.org/#/qidao.eth).
+* Você pode começar a ganhar recompensas semanais apenas bloqueando seus tokens Qi.
+* Como uma DAO, sua voz será importante e, dependendo de quantos tokens Qi você bloquear e por quanto tempo estiver bloqueado, você terá mais poder de voto para decidir o que acontecerá na comunidade. Você pode verificar as propostas atuais de Qi DAO [aqui](https://snapshot.org/#/qidao.eth).
 
-### Locking your Qi
+### Bloqueando seu Qi
 
-To lock your Qi tokens you need to go the Qi Powah Boost lock bar and select how many tokens do you want to lock and the time period for which you want to lock your Qi tokens. The longer the time period the more **eQi** you will get, remember that eQi is just how many Qi tokens you will have once the locking period is over.
+Para bloquear seus tokens Qi, você precisa ir à barra de bloqueio Qi Powah Boost e selecionar quantos tokens deseja bloquear e o período de tempo para o qual deseja bloquear seus tokens Qi. Quanto mais longo o período de tempo, mais **eQi** você obterá. Lembre-se de que eQi é apenas quantos tokens de Qi você terá quando o período de bloqueio terminar.
 
 ![Qi Powah Boost Lock](../.gitbook/assets/captura.jpg)
 
