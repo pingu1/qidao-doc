@@ -1,11 +1,11 @@
 ---
 description: >-
-  Passive income is the art of making money which flows in regular interval of
-  time by doing minimal work for it. Now, Qi DAO lets you do the same by locking
-  your QI tokens.
+  Renda passiva é a arte de ganhar dinheiro que flui em intervalos regulares de
+  tempo, realizando o menor trabalho possível. Agora, a Qi DAO permite que você
+  faça o mesmo travando seus tokens QI.
 ---
 
-# Earning Passive Income with QiDAO
+# Recebendo renda passaiva com a QiDAO
 
 ## Passive income through QI DAO?
 
