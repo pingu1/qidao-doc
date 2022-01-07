@@ -42,84 +42,85 @@ Isso significa que bloquear o seu Qi traz as seguintes vantagens:
 
 ### Bloqueando seu Qi
 
-Para bloquear seus tokens Qi, você precisa ir à barra de bloqueio Qi Powah Boost e selecionar quantos tokens deseja bloquear e o período de tempo para o qual deseja bloquear seus tokens Qi. Quanto mais longo o período de tempo, mais **eQi** você obterá. Lembre-se de que eQi é apenas quantos tokens de Qi você terá quando o período de bloqueio terminar.
+Para bloquear seus tokens Qi, você precisa ir à barra `Qi Powah Boost Lock` e selecionar quantos tokens deseja bloquear e o período de tempo para o qual deseja bloquear seus tokens Qi. Quanto mais longo o período de tempo, mais **eQi** você obterá. Lembre-se de que eQi é apenas quantos tokens de Qi você terá quando o período de bloqueio terminar.
 
 ![Qi Powah Boost Lock](../.gitbook/assets/captura.jpg)
 
-Once you have decided all that, click on approve and approve the transaction, then click on `Increase locked QI and lock time` and confirm the transaction.
+Depois de ter feito tudo isso, clique em `approve` e aprove a transação, em seguida, clique em `Increase locked QI and lock time` e confirme a transação.
 
 {% hint style="info" %}
-Please be aware that once you lock your Qi tokens for a given period, there's no way to unlock them before the lock period is over. Please be very cautious and aware when using this feature.
+Esteja ciente de que, depois de bloquear seus tokens Qi por um determinado período, não há como desbloqueá-los antes que o período de bloqueio termine. Por favor, seja muito cauteloso e atento ao usar este recurso.
 {% endhint %}
 
-Congratulations, now you are officially a Qi staker you will receive on the following weeks a weekly pay check. If you have any doubt wether you are qualified for the next week's revenue sharing, you can see on the boost page if you are qualified or not.
+Parabéns, agora você é oficialmente um staker de Qi e receberá nas semanas seguintes um cheque de pagamento semanal. Se você tiver alguma dúvida se está qualificado para a participação nos lucros da próxima semana, veja na página do boost se está qualificado ou não.
 
 ![](<../.gitbook/assets/captura (1).jpg>)
 
-### Stats of the Qi Powah
+### Estatísticas da Qi Powah
 
-If you want to check the stats of the Qi Boosting, you can go to this [page ](https://app.mai.finance/boost/stats)to check the amount of Qi locked, as well as the average lock time or the revenue that the protocol earn each week.
+Se você quiser verificar as estatísticas do Qi Boosting, você pode ir para esta [página ](https://app.mai.finance/boost/stats)para verificar a quantidade de Qi bloqueada, bem como o tempo médio de bloqueio ou a receita que o protocolo lucra a cada semana.
 
-## FAQs of Qi Staking
+## FAQ sobre Qi Staking
 
-* **When do I have to lock my QI?**&#x20;
+* **Quando devo bloquear meu QI?**&#x20;
 
-Snapshots are on Sunday and they record who has locked their $QI for at least a week at the time of the snapshot. If you do, you qualify for a share of the revenue for the upcoming week
+As snapshots ocorrem no domingo e elas registram quem bloqueou seu $QI por pelo menos uma semana no momento da snapshot. Se o fizer, você se qualificará para uma parcela da receita da próxima semana
 
-* **Where can I see when is the snapshot?**&#x20;
+* **Onde posso ver quando é a snapshot?**&#x20;
 
-Check the boost page, copy the “Next blocks” first number and paste it on Polygonscan. It will tell you the exact estimation time of the snapshot.
+Verifique a página de boost, copie o primeiro número do “First Blocks” e cole-o no Polygonscan. Ele lhe dirá o tempo exato de estimativa da snapshot.
 
-* **For how long do I have to lock my QI?**&#x20;
+* **Por quanto tempo eu tenho que bloquear meu QI?**&#x20;
 
-At he moment of the snapshot it has to be locked at least 1 full week. If you want to make 100% sure that you will be eligible, we recommend to lock for 2 weeks or more.
+No momento da snapshot, ele deve ser bloqueado por pelo menos 1 semana inteira. Se você quiser ter 100% de certeza de que será elegível, recomendamos o bloqueio por 2 semanas ou mais.
 
-* **When do I receive my rewards?**&#x20;
+* **Quando receberei minhas recompensas?**&#x20;
 
-Every Wednesday, they will be either airdropped to your wallet or collectable from rewards page. Timing might be somewhat flexible, please be patient as the team has to verify before release them.
+Todas as quartas-feiras, eles serão transferidos para sua carteira ou serão disponíveis para coleta na página de recompensas. O tempo pode ser um tanto flexível, por favor, seja paciente, pois a equipe deve verificar antes de liberá-los.
 
-* **But I locked almost 2 weeks ago and I didn’t receive anything yet!**&#x20;
+* **Mas eu tranquei há quase 2 semanas atrás e não recebi nada ainda!**&#x20;
 
-There’s a few possibilities here: Either everything is fine but you still have to wait until next Wednesday, or at the moment of the snapshot it was locked for less than a week. Rewards are distributed roughly 10 days after snapshots.
+Existem algumas possibilidades aqui: ou está tudo ok, mas você ainda tem que esperar até a próxima quarta-feira, ou no momento da snapshot ele foi bloqueado por menos de uma semana. As recompensas são distribuídas cerca de 10 dias após as snapshots.
 
-* **What tokens will I receive?**&#x20;
+* **Que tokens eu irei receber?**&#x20;
 
-$QI staking rewards are distributed in $QI.
+Recompensas de staking de $QI são distribuídas em $QI.
 
-* **Where do these rewards come from?**&#x20;
-  * 100% gains from farming deposit fee revenue ($2,245,681 used to farm as of week 14)&#x20;
-  * 30% of repayment fee revenue ($18,362 average weekly revenue)
-  * 30% of Anchor/Swap fee revenue ($178,365 average weekly revenue)
-* **What is eQI and what can I do with it?**&#x20;
+* **De onde vêm essas recompensas?**
+  * 100% dos ganhos das taxas de depósitos do farming ($2,245,681 usado para farming na 14ª semana)&#x20;
+  * 30% dos ganhos do reembolso das taxas ($18,362 em média semanalmente)
+  * 30% do rendimento das taxas Anchor/Swap ($178,365 em média semanalmente)\
 
-eQI (escrowed QI) represents the boost that you're getting on your voting power and Qi rewards. So for the purposes of voting and getting Qi rewards, 1 eQi counts as 1 Qi
+* **O que é eQI e o que posso fazer com ele?**&#x20;
 
-* **But wait, I locked to get rewards. What’s this voting power?**&#x20;
+eQI (escrowed QI) representa o boost que você está obtendo em seu poder de voto e recompensas de Qi. Portanto, para fins de votação e obtenção de recompensas de Qi, 1 eQi conta como 1 Qi
 
-QiDao is a DAO (Decentralized Autonomous Organization) and the future of the protocol is decided by the community. As a holder of $QI you are entitled to vote on QIP (QiDao Improvement Proposals) published on Governance page.
+* **Mas espere, eu travei para obter recompensas. O que é esse poder de voto?**&#x20;
 
-* **What APR can I expect by locking $QI?**&#x20;
+QiDao é uma DAO (Decentralized Autonomous Organization, ou Organização Autônoma Descentralizada) e o futuro do protocolo é decidido pela comunidade. Como o titular de $QI, você tem direito a votar nas QIPs (QiDao Improvement Proposals) publicadas na página Governance.
 
-Every week is different as the rewards depends on how much eQI there is and how much revenue did the protocol collect that week. You can get some estimates from the eQI APY on boost page, the boost stats and the weekly updates where we share past revenues.
+* **Que APR posso esperar bloqueando $QI?**&#x20;
 
-* **Can I add more QI to my current staking or make it last longer?**&#x20;
+Cada semana é diferente, pois as recompensas dependem de quanto eQI existe e de quanta receita o protocolo coletou naquela semana. Você pode obter algumas estimativas do APY em eQI na página de boost, as estatísticas de boost e as atualizações semanais onde compartilhamos as receitas anteriores.
 
-Yes, you can do both without affecting your current staking. Just select the amount, the time to add, click increase and confirm.
+* **Posso adicionar mais QI à minha posição de staking atual ou fazer com que dure mais?**&#x20;
 
-* **Can I lock my QI for different amounts of time?**&#x20;
+Sim, você pode fazer ambos sem afetar sua posição atual. Basta selecionar a quantidade, o tempo para adicionar, clicar em aumentar e confirmar.
 
-Currently that’s not possible within the same account. However, you can quickly do that by adding a new account to your wallet. That way you can lock for a long time with your main one and for shorter periods of time with a secondary address.
+* **Posso bloquear meu QI por períodos diferentes?**
 
-* **What will happen when the lock time is due?**&#x20;
+Atualmente, isso não é possível na mesma conta. No entanto, você pode fazer isso rapidamente adicionando uma nova conta à sua carteira. Assim, você pode travar por um tempo longo com o endereço principal e por períodos mais curtos com o endereço secundário.
 
-You will have to click withdraw and will receive in your wallet the same amount you initially locked. But I locked for 4 years and see that I have 4 times more eQI than QI locked That’s normal. eQI will gradually decrease as time passes by and in the end it will be equal to your initial QI. In the meantime you will enjoy a boost on your voting power and weekly rewards.
+* **O que acontecerá quando o tempo de bloqueio chegar?**&#x20;
 
-## Disclaimer
+Você terá que clicar em `withdraw` (retirar) e receberá em sua carteira o mesmo valor que bloqueou inicialmente. Mas eu bloqueei por 4 anos e vejo que tenho 4 vezes mais eQI do que QI bloqueado. Isso é normal. O eQI diminuirá gradualmente com o passar do tempo e, no final, será igual ao seu QI inicial. Nesse ínterim, você terá um boost em seu poder de voto e recompensas semanais.
 
-You can find an article on a similar topic covered by Genkham [here](https://medium.com/@GenKham/earning-passive-income-with-qi-dao-b92a6a3721bd).
+## Aviso legal
 
-This guide is definitely not financial advice, it was made with an educational goal in mind. The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Você pode encontrar um artigo sobre um tópico semelhante coberto por Genkham [aqui](https://medium.com/@GenKham/earning-passive-income-with-qi-dao-b92a6a3721bd).
+
+Este guia definitivamente não é um conselho financeiro, ele foi feito com um objetivo educacional em mente. O objetivo não era propor receitas que pudessem ser seguidas cegamente, então faça seu dever de casa e sua própria simulação, e invista apenas o que você está pronto para perder.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Lembre-se de que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Fique informado, monitore os mercados, fique de olho nos seus investimentos e, como sempre, faça suas próprias pesquisas.
 {% endhint %}
