@@ -34,7 +34,7 @@
 
 ## Universidade do MAI
 
-* [Recebendo renda passaiva com a QiDAO](Universidade-do-MAI/earning-passive-income-with-qidao.md)
+* [Recebendo renda passiva com a QiDAO](Universidade-do-MAI/earning-passive-income-with-qidao.md)
 * [How does MAI work?](Universidade-do-MAI/how-does-mai-work.md)
 * [MAI loans and Vaults incentives](Universidade-do-MAI/mai-loans-and-vaults-incentives.md)
 * [Debt repayment - Why and When?](debt-management-tutorials/debt-repayment-why-and-when.md)
