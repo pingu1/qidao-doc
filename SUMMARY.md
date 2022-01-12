@@ -23,6 +23,7 @@
   * [Leverage your crypto on Fantom](jiao-cheng/fantom/leverage-your-crypto-on-fantom.md)
   * [What to do with MAI on Fantom](jiao-cheng/fantom/what-to-do-with-mai-on-fantom.md)
   * [Farming loop using SpiritSwap](jiao-cheng/fantom/farming-loop-using-spiritswap.md)
+  * [Exodia Combo on Fantom](jiao-cheng/fantom/investing-in-discounted-assets-using-bonds.md)
 * [Moonriver](jiao-cheng/moonriver/README.md)
   * [How to get started on Moonriver](jiao-cheng/moonriver/how-to-get-started-on-moonriver.md)
   * [Farming MAI on SolarBeam](jiao-cheng/moonriver/farming-mai-on-solarbeam.md)

@@ -15,3 +15,7 @@
 {% content-ref url="farming-loop-using-spiritswap.md" %}
 [farming-loop-using-spiritswap.md](farming-loop-using-spiritswap.md)
 {% endcontent-ref %}
+
+{% content-ref url="investing-in-discounted-assets-using-bonds.md" %}
+[investing-in-discounted-assets-using-bonds.md](investing-in-discounted-assets-using-bonds.md)
+{% endcontent-ref %}
