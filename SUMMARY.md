@@ -24,6 +24,7 @@
   * [Apalanca tus crypto en Fantom](tutoriales/fantom/leverage-your-crypto-on-fantom.md)
   * [¿Qué hacer con MAI en Fantom?](tutoriales/fantom/what-to-do-with-mai-on-fantom.md)
   * [Bucle de Farmeo usando SpiritSwap](tutoriales/fantom/farming-loop-using-spiritswap.md)
+  * [Exodia Combo on Fantom](tutoriales/fantom/investing-in-discounted-assets-using-bonds.md)
 * [Moonriver](tutoriales/moonriver/README.md)
   * [Cómo comenzar en Moonriver](tutoriales/moonriver/how-to-get-started-on-moonriver.md)
   * [Farmeando MAI en SolarBeam](tutoriales/moonriver/farming-mai-on-solarbeam.md)
