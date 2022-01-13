@@ -8,74 +8,74 @@ description: >-
 
 ## O que é uma stablecoin?
 
-Antes de falarmos sobre MAI, temos que entender o que é uma stablecoin. Uma stablecoin é um tipo de criptomoeda projetada para manter um preço de mercado estável. A maioria das stablecoins são atreladas (uma moeda em que o preço é projetado para permanecer o mesmo que um ativo designado) ao dólar americano, mas você pode encontrar outras stablecoins atreladas a outras commodities, como ouro (como EGold) ou prata (SilverCoin).
+Antes de falarmos sobre MAI, temos que entender o que é uma stablecoin. Uma stablecoin é um tipo de criptomoeda projetada para manter um preço de mercado estável. A maioria das stablecoins são atreladas (uma moeda em que o preço é projetado para permanecer o mesmo que um ativo designado) ao dólar americano, mas você pode encontrar= outras stablecoins atreladas a outras commodities, como ouro (como EGold) ou prata (SilverCoin).
 
 No entanto, existem 2 categorias principais em que todas as stablecoins podem se encaixar, **com** ou **sem garantia**. As stablecoins **com garantia** são aquelas que detêm os ativos contra os quais sua moeda está atrelada, enquanto as **sem garantia** fazem uso de algoritmos para controlar a oferta de tokens a fim de manter o preço fixado em um nível predeterminado.
 
 ## O desastre da IRON Finance
 
-Se você já trabalha com criptomoedas há algum tempo, pode se lembrar do desastre do token **TITAN** e **IRON**, mas para aqueles que não conhecem, aqui está uma rápida recapitulação. O IRON Finance era um projeto que tinha 2 tokens, a moeda estável IRON e o token TITAN, no entanto, a moeda estável IRON **não era totalmente lastreada** em moedas estáveis, a proporção para a moeda IRON era de **75% em USDC** e **25% em TITAN**. Então foi basicamente uma receita para o desastre.
+Se você já trabalha com criptomoedas há algum tempo, pode se lembrar do desastre do token **TITAN** e **IRON**, mas para aqueles que não conhecem, aqui está uma rápida recapitulação. O IRON Finance era um projeto que tinha 2 tokens, a stablecoin IRON e o token TITAN, no entanto, a stablecoin IRON **não era totalmente lastreada** em stablecoins, a proporção para a moeda IRON era de **75% em USDC** e **25% em TITAN**. Basicamente, uma receita para o desastre.
 
-In June of 2021 the TITAN token reached an ATH of $65, which caused that a bunch of investors, who invested heavily in the coin, decided to sell. This caused a problem because TITAN is priced based on supply and demand. So as the available supply of TITAN increased, the price began to decrease. This caused a huge sell pressure so the price of TITAN fell even faster, so when TITAN began to fall rapidly, IRON lost its backing and eventually its peg.
+Em junho de 2021, o token TITAN atingiu um ATH de US$ 65, o que fez com que vários investidores, que investiram pesadamente na moeda, decidissem vendê-la. Isso causou um problema porque o preço do TITAN é baseado na oferta e na demanda. Assim, à medida que a oferta disponível de TITAN aumentou, o preço começou a diminuir. Isso causou uma enorme pressão de venda, de modo que o preço do TITAN caiu ainda mais rápido, então, quando o TITAN começou a cair rapidamente, o IRON perdeu seu apoio e, eventualmente, seu pareamento.
 
-![Price chart of the TITAN token](../.gitbook/assets/iron.jpg)
+![Gráfico de preço do token TITAN](../.gitbook/assets/iron.jpg)
 
-![Price chart of the IRON stablecoin](../.gitbook/assets/titan.jpg)
+![Gráfico de preço da stablecoin IRON](../.gitbook/assets/titan.jpg)
 
-People started buying the IRON stable coin to sell it for USDC and earn some quick bucks, in a huge arbitrage opportunity (this means profiting in the price variations of tokens) Long story short, it's been calculated that almost $1.75 billion were lost in this incident. Now, is there a difference between the IRON stable coin and the MAI stable coin?
+As pessoas começaram a comprar a moeda estável IRON para vendê-la por USDC e ganhar dinheiro rápido, em uma enorme oportunidade de arbitragem (lucrando com as variações de preço dos tokens). Resumindo, foi calculado que quase US$1,75 bilhão foram perdidos neste incidente. Portanto, existe uma diferença entre a stablecoin IRON e a MAI?
 
-## What is MAI?
+## O que é MAI?
 
-MAI is a stable coin that is backed by locked collateral tokens, the minting of MAI can be done either through depositing **approved collateral** in vaults or through using **Anchor.**
+MAI é uma stablecoin apoiada por tokens de garantia bloqueados, a cunhagem do MAI pode ser feita através do depósito de **garantias aprovadas** em cofres ou usando o **Anchor**.
 
-When minting MAI depositing approved collateral, the **CDR** (Collateral to Debt Ratio) needs to be between 150%, this means that if you deposit $100 worth of collateral, the newly minted MAI can be at most worth $66.6667. We'll get to the reason behind this later in this article.
+Ao cunhar MAI, depositando garantias aprovadas, o **CDR** (Collateral to Debt Ratio, ou Taxa de Garantia para Dívida) precisa estar entre 150%, isso significa que, se você depositar $100 em garantia, o MAI recém-cunhado pode valer no máximo $66,6667. Chegaremos à razão por trás disso mais adiante neste artigo.
 
-Another way to mint MAI is through the [Anchor](https://app.mai.finance/anchor), this means that when you swap a stable coin (as of September 2021 you can mint MAI using **DAI**, **USDC** and **USDT**) for MAI, new MAI is minted by the treasury and the deposited stablecoin is held in the treasury as collateral. Meanwhile, when you swap back your stablecoins, the MAI that you provide will be burned.
+Outra forma de cunhar MAI é através da [Anchor](https://app.mai.finance/anchor), isso significa que, quando você troca uma stablecoin (a partir de setembro de 2021, você pode cunhar MAI usando **DAI**, **USDC** e **USDT**) por MAI, o novo MAI é cunhado pelo tesouro e a stablecoin depositada é mantida no tesouro como garantia. Enquanto isso, quando você troca suas stablecoins, a MAI que você fornece será queimada.
 
-![Stablecoins that can be swaped to mint MAI](<../.gitbook/assets/image (9).png>)
+![Stablecoins que podem ser trocadas para cunhar MAI](<../.gitbook/assets/image (9).png>)
 
-As you can see on the picture below, the price of the MAI stable coin it's almost always close to $1, this is because as the [official documentation](https://docs.mai.finance/stablecoin-economics) says, the MAI stable coin allows users to engage in risk-free arbitrage through Anchor when the price of MAI falls below $0.99 or rises above $1.01.
+Como você pode ver na imagem abaixo, o preço da stablecoin MAI está quase sempre próximo a $1, isso porque, como a [documentação oficial](https://docs.mai.finance/stablecoin-economics) diz, a stablecoin MAI permite que os usuários se envolvam em arbitragem sem risco por meio da Anchor quando o preço do MAI cair abaixo de US$ 0,99 ou subir acima de US$ 1,01.
 
-![Price chart of the MAI token in the last 90 days](<../.gitbook/assets/image (7) (1) (1).png>)
+![Gráfico de preço do token MAI nos ultimos 90 dias](<../.gitbook/assets/image (7) (1) (1).png>)
 
-## Why is it always close to $1?
+## Porque está sempre proximo a $1?
 
-The peg to $1 is maintained by 2 mechanisms, via **Anchor** or by **depositing collatera**l in the vaults, in this section of the article, you'll understand why
+O pareamento em $1 é mantido por 2 mecanismos, pela Anchor ou depositando garantias nos vaults, nesta seção do artigo, você entenderá o porque.
 
 ### Anchor
 
-Anchor allows users to mint MAI with stable coins and redeem stable coins from MAI. Also, as you can see on the picture below, there's a 1% fee when swapping your stable coins for MAI or vice versa, there are two main reasons for these fee:
+A Anchor permite aos seus usuários cunharem MAI com stablecoins e resgatarem stablecoins moedas de MAI. Além disso, como você pode ver na imagem abaixo, há uma taxa de 1% ao trocar suas stablecoins por MAI ou vice-versa. Existem dois motivos principais para essa taxa:
 
-* The 1% minting fee to create MAI sets a price ceiling of $1.01.
-* The 1% fee to redeem stable coins from MAI sets a price floor of $0.99
+* A taxa de cunhagem de 1% para criar MAI estabelece um teto de preço de US$ 1,01
+* A taxa de 1% para resgatar moedas estáveis do MAI estabelece um preço mínimo de US$ 0,99
 
 ![](<../.gitbook/assets/image (8).png>)
 
-Having a price ceiling and a price floor helps MAI to not diverge from its peg too much, however as you've seen on the picture of the MAI chart, you can participate on low- risk arbitrage opportunities (meaning that you can sell your stable coins when MAI is under $1 or sell MAI when is above $1 to earn some quick bucks).
+Ter um teto e um piso de preço ajuda o MAI a não divergir muito em seu pareamento, no entanto, como você viu na imagem do gráfico do MAI, você pode participar de oportunidades de arbitragem de baixo risco (o que significa que você pode vender suas stablecoins quando o MAI estiver abaixo de $1 ou vender o MAI acima de $1 para ganhar algum dinheiro rápido).
 
-About what causes the fluctuation of the price of MAI, there could be two main reasons for this:
+Sobre o que causa a flutuação do preço do MAI, pode haver duas razões principais para isso:
 
-* If the **market is in a bearish trend**: people will sell their volatile assets and buy more stable coins to avoid losing value of volatile assets. This means that people want to buy MAI, increasing its price.
-* If the **market is in a bullish trend**: people buy more volatile assets when their price is low, using their stable coins. This means that people sell their MAI, driving its price down.
+* Se o mercado estiver em **tendência de baixa**: as pessoas venderão seus ativos voláteis e comprarão stablecoins para evitar a perda de valor de ativos voláteis. Isso significa que as pessoas querem comprar MAI, aumentando seu preço.
+* Se o mercado estiver em **tendência de alta**: as pessoas compram ativos mais voláteis quando o preço está baixo, usando suas stablecoins. Isso significa que as pessoas vendem seu MAI, reduzindo seu preço.
 
-### Depositing collaterals in vaults
+### Depositando garantias em vaults
 
-In order to mint MAI using the vaults in Mai Finance, you need to deposit some collateral in there and have a **CDR** (Collateral to Debt Ratio) above a certain threshold, in this case is 150% (however this percentage can change in the future if the community decides so). This means that the vaults will always be over-collateralized (by 150%) to ensure that there is always collateral value to back the stable coins minted. Remember that if a vault has less than a 150% CDR it could be partially liquidated by the community, so somebody could loose some of their collateral if a liquitador pays some of their debt.
+Para cunhar MAI usando os vaults da Mai Finance, você precisa depositar alguma garantia lá e ter um **CDR** acima de um determinado limite, neste caso é 150% (no entanto, esse percentual pode mudar no futuro se a comunidade assim o decidir). Isso significa que os cofres serão sempre supercolateralizados (em 150%) para garantir que sempre haja garantia para lastrear as moedas estáveis cunhadas. Lembre-se de que, se um cofre tiver menos de 150% de CDR, ele poderá ser parcialmente liquidado pela comunidade, de modo que alguém poderá perder parte de sua garantia se um liquidante pagar parte de sua dívida.
 
-As the value of the collateral rises, more stable coins can be issued as a rise in collateral price will increase your collateral to debt ratio. Conversely, as the value of the collateral falls, fewer stable coins can be issued, this is done to prevent that the CDR falls below the 150% mark.
+À medida que o valor da garantia aumenta, mais stablecoins podem ser emitidas, pois um aumento no preço da garantia aumentará sua relação garantia/dívida. Por outro lado, à medida que o valor da garantia cai, menos stablecoins podem ser emitidas, isso é feito para evitar que o CDR caia abaixo da marca de 150%.
 
-## Afterword
+## Palavra final
 
-As you've seen throughout this article, the MAI stable coin is a type of stable coin that is **over-collateralized,** meaning that there will always be enough collateral to back the price of the MAI token. This should give enough relief to those investors who hesitate about investing in projects that mint stable coins. Also, keep in mind that as MAI is expanding to other blockchains, there'll be more MAI in the market, resulting in less volatily in MAI's price.
+Como você viu ao longo deste artigo, a stablecoin MAI é um tipo de stablecoin supercolateralizada, o que significa que sempre haverá garantia suficiente para apoiar o preço do token MAI. Isso deve dar alívio suficiente para os investidores que hesitam em investir em projetos que cunham stablecoins. Além disso, lembre-se de que, à medida que o MAI está se expandindo para outras blockchains, haverá mais MAI no mercado, resultando em menos volatilidade no preço do MAI.
 
-Recently, the vaults incentives have been introduced to Mai Finance, if you want to understand what that is, stay tuned because there'll be an article about this topic. This will help even more to the stability of the MAI price.
+Recentemente, os incentivos de vaults foram introduzidos na Mai Finance, se você quiser entender o que é isso, fique atento porque haverá um artigo sobre esse tema. Isso ajudará ainda mais na estabilidade do preço do MAI.
 
-## Disclaimer
+## Aviso legal
 
-You can find[ ](https://docs.mai.finance/stablecoin-economics)the original article of the Mai Finance team about MAI [here](https://docs.mai.finance/stablecoin-economics).
+Você pode encontrar o artigo original da equipe Mai Finance sobre MAI [aqui](https://docs.mai.finance/stablecoin-economics).
 
-This guide is definitely not financial advice, it was made with an educational goal in mind.
+Este guia definitivamente não é um conselho financeiro, e foi feito com um objetivo educacional em mente.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Por favor, mantenha-se informado, monitore os mercados, fique de olho em seus investimentos e, como sempre, faça sua própria pesquisa.
 {% endhint %}
