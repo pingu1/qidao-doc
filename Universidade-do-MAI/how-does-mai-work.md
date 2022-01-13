@@ -1,21 +1,20 @@
 ---
 description: >-
-  Getting a good understanding about how MAI works is crucial for any investor
-  that really wants to understand Mai Finance, so in this article you will
-  understand how MAI works.
+  Entender bem como o MAI funciona é crucial para qualquer investidor que
+  realmente queira entender a Mai Finance, e neste artigo você entenderá isso.
 ---
 
-# How does MAI work?
+# Como a MAI funciona?
 
-## What is a stable coin?
+## O que é uma stablecoin?
 
-Before getting into what is MAI, we have to understand what is a stable coin, a stable coin is a type of cryptocurrency that is designed to maintain a stable market price. Most of the stable coins are pegged (a currency where the price is designed to remain the same as a designated asset) to the US dollar, but you can find other stable coins pegged to other commodities such as gold (like EGold) or silver (SilverCoin).
+Antes de falarmos sobre MAI, temos que entender o que é uma stablecoin. Uma stablecoin é um tipo de criptomoeda projetada para manter um preço de mercado estável. A maioria das stablecoins são atreladas (uma moeda em que o preço é projetado para permanecer o mesmo que um ativo designado) ao dólar americano, mas você pode encontrar outras stablecoins atreladas a outras commodities, como ouro (como EGold) ou prata (SilverCoin).
 
-However, there are 2 main categories in which all stable coins can fit, **collateralized** or **non-collateralized.** The **collateralized** stable coins are those that hold the assets against which their coin is pegged, meanwhile the **non-collateralized** make use of algorithms to control the supply of tokens in order to keep the price fixed at a predetermined level.
+No entanto, existem 2 categorias principais em que todas as stablecoins podem se encaixar, **com** ou **sem garantia**. As stablecoins **com garantia** são aquelas que detêm os ativos contra os quais sua moeda está atrelada, enquanto as **sem garantia** fazem uso de algoritmos para controlar a oferta de tokens a fim de manter o preço fixado em um nível predeterminado.
 
-## The IRON Finance disaster
+## O desastre da IRON Finance
 
-If you've been around in crypto for some time, you may remember the disaster of the **TITAN** and **IRON** token, but for those of you who don't, here is a quick recap. IRON Finance was a project that had 2 tokens, the _IRON_ stable coin and the _TITAN_ token, however the IRON stable coin **wasn't fully backed** with stable coins, the proportion to mint IRON was **75% USDC** and **25% TITAN** token. So it was basically a recipe for disaster.
+Se você já trabalha com criptomoedas há algum tempo, pode se lembrar do desastre do token **TITAN** e **IRON**, mas para aqueles que não conhecem, aqui está uma rápida recapitulação. O IRON Finance era um projeto que tinha 2 tokens, a moeda estável IRON e o token TITAN, no entanto, a moeda estável IRON **não era totalmente lastreada** em moedas estáveis, a proporção para a moeda IRON era de **75% em USDC** e **25% em TITAN**. Então foi basicamente uma receita para o desastre.
 
 In June of 2021 the TITAN token reached an ATH of $65, which caused that a bunch of investors, who invested heavily in the coin, decided to sell. This caused a problem because TITAN is priced based on supply and demand. So as the available supply of TITAN increased, the price began to decrease. This caused a huge sell pressure so the price of TITAN fell even faster, so when TITAN began to fall rapidly, IRON lost its backing and eventually its peg.
 
