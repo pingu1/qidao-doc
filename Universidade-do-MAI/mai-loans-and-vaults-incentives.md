@@ -1,13 +1,13 @@
 ---
 description: >-
-  This article is a detailed explanation of how you can use Mai Finance to
-  borrow MAI at 0% interest, and get paid to do so, transforming your 0%
-  interest loan into a negative interest loan.
+  Este artigo é uma explicação detalhada de como você pode usar a Mai Finance
+  para tomar emprestado MAI com juros a 0% e ser pago por isso, transformando
+  estes juros em negativos.
 ---
 
-# MAI loans and Vaults incentives
+# Empréstimos em MAI e incentivos de Vaults
 
-## Intro
+## Introdução
 
 The core business of Mai Finance is a lending platform. Instead of selling their crypto to buy other assets, people are able to lock their funds on Mai Finance and borrow against them. This presents the opportunity to keep high value assets (WBTC, WETH ...) while still being able to get other assets and farm yields. In that case, the loan is used to generate revenue, while the collateral is gaining value.
 
