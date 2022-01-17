@@ -38,7 +38,7 @@
 * [Recebendo renda passiva com a QiDAO](Universidade-do-MAI/earning-passive-income-with-qidao.md)
 * [Como a MAI funciona?](Universidade-do-MAI/how-does-mai-work.md)
 * [Empréstimos em MAI e incentivos de Vaults](Universidade-do-MAI/mai-loans-and-vaults-incentives.md)
-* [Debt repayment - Why and When?](debt-management-tutorials/debt-repayment-why-and-when.md)
+* [Reembolso de Dívida - Por que e quando?](debt-management-tutorials/debt-repayment-why-and-when.md)
 * [Debt repayment - How?](debt-management-tutorials/debt-repayment-how.md)
 * [MAI Metaverse](Universidade-do-MAI/mai-metaverse.md)
 * [MAI Metaverse Pt.2](Universidade-do-MAI/mai-metaverse-pt.2.md)
