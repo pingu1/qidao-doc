@@ -16,6 +16,7 @@
   * [Cách để kết hợp giữa phần thưởng đi vay và farming](toan-tap/polygon/how-to-combine-farming-and-borrowing-rewards.md)
   * [Bản sao chép OHM trên Polygon: Trường hợp của KlimaDAO](toan-tap/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
   * [Sử dụng MAI tại Ethalend](toan-tap/polygon/ethalend-single-staking.md)
+  * [The Elephant, the Chimp and the Otter](toan-tap/polygon/the-elephant-and-the-otter.md)
 * [Avalanche](toan-tap/avalanche/README.md)
   * [Hướng dẫn khởi đầu trên mạng Avalanche](toan-tap/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](toan-tap/fantom/README.md)
