@@ -141,13 +141,13 @@ $$
 APR=\frac{RecompensaQi*Qi_{Preço}}{MAI_{emprestado}}*365=\frac{2160*0.441}{785008}*365=44.29\%
 $$
 
-This corresponds more or less to the APR of the MATIC Vault, as displayed in the following screenshot:
+Isso corresponde mais ou menos ao APR do Vault MATIC, conforme exibido na captura de tela a seguir:
 
-![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](<../.gitbook/assets/image (23) (2) (3) (4).png>)
+![APR do Vault MATIC na Mai Finance após o lançamento das Recompensas de Vault](<../.gitbook/assets/image (23) (2) (3) (4).png>)
 
-### Calculating starting vaults' APRs
+### Calculando os APRs dos vaults iniciais
 
-With the same data as the example above, it's possible to calculate the starting APRs for all vaults
+Com os mesmos dados do exemplo acima, é possível calcular os APRs iniciais para todos os cofres:
 
 | Vault type | Starting APR |
 | ---------- | ------------ |
