@@ -9,19 +9,19 @@ description: >-
 
 ## Introdução
 
-The core business of Mai Finance is a lending platform. Instead of selling their crypto to buy other assets, people are able to lock their funds on Mai Finance and borrow against them. This presents the opportunity to keep high value assets (WBTC, WETH ...) while still being able to get other assets and farm yields. In that case, the loan is used to generate revenue, while the collateral is gaining value.
+O business central da Mai Finance é ser uma plataforma de empréstimos. Em vez de vender suas criptomoedas para comprar outros ativos, as pessoas podem bloquear seus fundos na Mai Finance e tomar ativos emprestados. Isso apresenta a oportunidade de manter ativos de alto valor (WBTC, WETH, etc) enquanto ainda é possível obter outros ativos e obter rendimentos de farming. Nesse caso, o empréstimo é usado para gerar receita, enquanto a garantia ganha valor.
 
-One of the other big advantage of using Mai Finance is that there's no repayment schedule. In other words, you borrow MAI stable coin against your crypto, you don't pay any interests, and you can repay your debt whenever you want. See the different articles on [debt management](../debt-management-tutorials/debt-repayment-why-and-when.md) for more details. The only fee that you would ever pay is a repayment fee corresponding to 0.5% of the money you borrowed that you pay when you repay your loan, and that is taken out of your collateral.
+Uma das outras grandes vantagens de usar a Mai Finance é que não há um cronograma de reembolso. Em outras palavras, você empresta suas criptomoedas, toma emprestado a stablecoin MAI graça, não paga juros e pode pagar sua dívida quando quiser. Veja os diferentes artigos sobre [gestão de dívida](../debt-management-tutorials/debt-repayment-why-and-when.md) para mais detalhes. A unica taxa que você pagaria seria uma taxa de reembolso correspondente a 0.5% do dinheiro que você tomou emprestado, que você paga ao quitar seu empréstimo, e que é tomado da sua garantia.&#x20;
 
-As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, when you repay your loan you would have to pay a fee of $0.50 directly taken out of your WETH deposit.
+Por exemplo, se você depositou $200 em WETH para emprestar $100 em MAI, quando você pagar seu empréstimo, você terá que pagar uma taxa de $0,50 retirada diretamente de seu depósito de WETH. \
+\
+Se isso já não fosse uma oportunidade incrível, a equipe da Mai Finance introduziu em setembro de 2021 os incentivos de Vaults pagos em Qi, o token nativo da Mai Finance. Em outras palavras, ao depositar seus ativos na Mai Finance em um vault para tomar emprestado MAI, você será pago. Este artigo apresenta em detalhes como funciona essa funcionalidade.
 
-If that wasn't already an amazing opportunity, the Mai Finance team introduced in September 2021 Vault incentives paid in Qi, the native token of Mai Finance. In other words, by depositing your assets on Mai Finance in a vault to borrow MAI, you will also get paid to do it. This articles presents in details how this functionality works.
+## Vaults: O que são e como funcionam
 
-## Vaults - What they are and how they work
+### Criando um Vault
 
-### Vault creation
-
-On Mai Finance, vaults are special storages where one can deposit their assets. Currently, there are 10 types of vaults:
+Na Mai Finance, os cofres são depósitos especiais onde se pode depositar seus ativos. Atualmente, existem 10 tipos de cofres:
 
 ![The different vault types you can create on Mai Finance](<../.gitbook/assets/image (1).png>)
 
