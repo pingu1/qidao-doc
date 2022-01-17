@@ -145,9 +145,11 @@ Isso corresponde mais ou menos ao APR do Vault MATIC, conforme exibido na captur
 
 ![APR do Vault MATIC na Mai Finance após o lançamento das Recompensas de Vault](<../.gitbook/assets/image (23) (2) (3) (4).png>)
 
-### Calculando os APRs dos vaults iniciais
+###
 
-Com os mesmos dados do exemplo acima, é possível calcular os APRs iniciais para todos os cofres:
+### Calculating starting vaults' APRs
+
+With the same data as the example above, it's possible to calculate the starting APRs for all vaults
 
 | Vault type | Starting APR |
 | ---------- | ------------ |
@@ -188,7 +190,7 @@ Right now all the vault types have been allocated Qi rewards
 
     For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:
 * _Matic_ - Liquidation ratio 150% - Eligible for Incentives between 175% and 420%
-* _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400%&#x20;
+* _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400%
 * _CamTokens_: - Liquidation ratio 135% - Eligible for Incentives between 160% and 405%
 *   **How can I see if my vault is earning rewards?**
 
