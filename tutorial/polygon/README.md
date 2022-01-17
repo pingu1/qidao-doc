@@ -43,3 +43,7 @@
 {% content-ref url="ethalend-single-staking.md" %}
 [ethalend-single-staking.md](ethalend-single-staking.md)
 {% endcontent-ref %}
+
+{% content-ref url="the-elephant-and-the-otter.md" %}
+[the-elephant-and-the-otter.md](the-elephant-and-the-otter.md)
+{% endcontent-ref %}
