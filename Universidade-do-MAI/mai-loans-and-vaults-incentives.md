@@ -121,24 +121,24 @@ $$
 {% hint style="info" %}
 86.400 é o número de segundos em um dia e, na Polygon, o tempo de blocos é de 2 segundos, o que significa que o número esperado de blocos todos os dias é 86.400 / 2 = 43.200. Assim, a emissão para cada Vault é de 2.160 Qi/dia.
 
-**Observação:** O tempo de bloqueio aumentou ultimamente e está em torno de 2,6 segundos. No entanto, todos os APRs e APYs exibidos em todos os aplicativos estão assumindo um tempo de bloqueio de 2 segundos. Por favor, DYOR e verifique o tempo de bloqueio atual no PolygonScan.
+**Observação:** O tempo de blocos aumentou e está, atualmente, em torno de 2,6 segundos. No entanto, todos os APRs e APYs exibidos em todos os aplicativos assumem um tempo de blocos de 2 segundos. Por favor, faça sua própria pesquisa e verifique o [tempo de blocos na PolygonScan.](https://polygonscan.com/chart/blocktime)
 {% endhint %}
 
-Hence, if the state of the Vault remains the same, Ben will get 0.1% of the 2,160 Qi distributed, while Kila will get 0.6% of the granted reward.
+Portanto, se o estado do Vault permanecer o mesmo, Ben receberá 0,1% dos 2.160 Qi distribuídos, enquanto Kila receberá 0,6% da recompensa concedida.
 
-* Ben will get 2.16 Qi every day, which is a daily reward of 0.216%, or an APR of 78.84%
-* Kila will get 12.96 Qi every day, which is also a daily reward of 0.216%, or an APR of 78.84%
+* Ben receberá 2,16 Qi todos os dias, que é uma recompensa diária de 0,216%, ou um APR de 78,84%
+* Kila receberá 12,96 Qi todos os dias, que é uma recompensa diária de 0,216%, ou um APR de 78,84%
 
-On a side note, 2,160 Qi for 1,000,000 MAI is a daily reward of 0.216%, or 78.84%, which is the Vault's APR.
+Como observação, 2.160 Qi por 1.000.000 MAI é uma recompensa diária de 0,216%, ou 78,84%, que é o APR do Vault.
 
 {% hint style="info" %}
-It's easy to see that the Vault's APR is directly linked to the amount of MAI borrowed. The more MAI is borrowed, the lower the APR. As a side note, the amount of MAI that can be borrowed is also capped by the debt ceiling, which is increased with the demand for MAI.
+É fácil perceber que o APR do Vault está diretamente ligado ao valor do MAI emprestado. Quanto mais MAI tomarmos emprestado, menor será o APR. Além disso, o montante de MAI que pode ser emprestado também é limitado pelo teto da dívida, que é aumentado com a demanda por MAI.
 {% endhint %}
 
-As a verification, we can calculate the theoretical APR for the MATIC vault based on numbers published on the [analytics page](https://app.mai.finance/analytics) on Mai Finance. The amount of MAI borrowed from the MATIC vault is 799,328. The reward is 216 Qi per day for that vault. That corresponds to a APR of
+Como verificação, podemos calcular o APR teórico para o vault MATIC com base em números publicados na [pagina de análise](https://app.mai.finance/analytics) da Mai Finance. A quantidade de MAI emprestada do cofre MATIC é de 799.328. A recompensa é de 216 Qi por dia para esse vault. Que corresponde a um APR de
 
 $$
-APR=\frac{QiReward*Qi_{Price}}{MAI_{borrowed}}*365=\frac{2160*0.441}{785008}*365=44.29\%
+APR=\frac{RecompensaQi*Qi_{Preço}}{MAI_{emprestado}}*365=\frac{2160*0.441}{785008}*365=44.29\%
 $$
 
 This corresponds more or less to the APR of the MATIC Vault, as displayed in the following screenshot:
