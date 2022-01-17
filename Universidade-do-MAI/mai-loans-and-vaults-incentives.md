@@ -145,84 +145,82 @@ Isso corresponde mais ou menos ao APR do Vault MATIC, conforme exibido na captur
 
 ![APR do Vault MATIC na Mai Finance após o lançamento das Recompensas de Vault](<../.gitbook/assets/image (23) (2) (3) (4).png>)
 
-###
+### Calculando os APRs iniciais dos vaults
 
-### Calculating starting vaults' APRs
+Com os mesmos dados do exemplo acima, é possível calcular os APRs iniciais para todos os vaults:&#x20;
 
-With the same data as the example above, it's possible to calculate the starting APRs for all vaults
-
-| Vault type | Starting APR |
-| ---------- | ------------ |
-| MATIC      | 44.29%       |
-| WETH       | 24.03%       |
-| LINK       | 27.41%       |
-| AAVE       | 164.14%      |
-| CRV        | 159.96%      |
-| WBTC       | 36.92%       |
-| camWETH    | 25.46%       |
-| camWMATIC  | 44.33%       |
-| camAAVE    | 167.23%      |
-| camWBTC    | 47.38%       |
+| Tipo de Vault | APR inicial |
+| ------------- | ----------- |
+| MATIC         | 44.29%      |
+| WETH          | 24.03%      |
+| LINK          | 27.41%      |
+| AAVE          | 164.14%     |
+| CRV           | 159.96%     |
+| WBTC          | 36.92%      |
+| camWETH       | 25.46%      |
+| camWMATIC     | 44.33%      |
+| camAAVE       | 167.23%     |
+| camWBTC       | 47.38%      |
 
 {% hint style="info" %}
-As you can see, some vaults will generate more rewards than others. Also, you can see that it's super important to deposit your assets as soon as possible to benefit from high APRs before the debt ceiling is increased and more loan is taken (lowering the APR).
+Como você pode ver, alguns vaults gerarão mais recompensas do que outros. Além disso, você pode ver que é super importante depositar seus ativos o mais rápido possível para se beneficiar dos altos APRs antes que o teto da dívida seja aumentado e mais empréstimos sejam feitos (diminuindo o APR).
 
-You can also see that if you keep your loan for one year of more, the 0.5% repayment fee will easily be compensated by the reward program.
+Você também pode ver que, se você mantiver seu empréstimo por mais um ano, a taxa de reembolso de 0,5% será facilmente compensada pelo programa de recompensas.
 {% endhint %}
 
-### Incentives distribution
+### Distribuição de incentivos
 
-Rewards allocated by the vault incentives will be distributed the same way as for staked Qi. Every Wednesday, the Qi allocated by the Vaults incentives program will be airdropped / claimed for the week prior to the pay day.
+As recompensas alocadas pelos incentivos de vaults serão distribuídas da mesma forma que o Qi em staking. Toda quarta-feira, o Qi alocado pelo programa de incentivos do Vaults será enviado por airdrop ou reivindicado, devido a semana anterior ao dia do pagamento.
 
-## Vaults incentives FAQs
+## Perguntas frequentes
 
-If you want to know more about the way Vault incentives are working, here's an official FAQ from the Discord server.
+Se você quer saber mais sobre como os incentivos do Vault funcionam, aqui está um FAQ oficial do servidor do Discord.
 
-* **What vaults are receiving rewards?**
+* **Quais vaults estão recebendo recompensas?**
 
-Right now all the vault types have been allocated Qi rewards
+No momento, todos os tipos de vaults recebem recompensas em Qi.
 
-* **How much rewards are given out for the borrowing incentives?**
+* **Quantas recompensas são dadas para os incentivos de empréstimos?**
 
-0.05 Qi/block for each vault type
+0.05 Qi/bloco para cada tipo de vault
 
-*   **How much MAI do I need to borrow to earn rewards?**\
+*   **Quanto MAI preciso tomar emprestado para ganhar recompensas?**\
     ****
 
-    For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:\
+    Para Incentivos de Empréstimo do Vault, fique entre 25% e 270% acima da taxa de liquidação para receber o airdrop do token QI. Isso significa:\
 
-* _Matic_ - Liquidation ratio 150% - Eligible for Incentives between 175% and 420%
-* _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400%
-* _CamTokens_: - Liquidation ratio 135% - Eligible for Incentives between 160% and 405%\
+* Matic - Índice de Liquidação em 150% - Elegível para Incentivos entre 175% e 420%&#x20;
+* Tokens: - Índice de liquidação em 130% - Elegível para incentivos entre 155% e 400%&#x20;
+* CamTokens: - Índice de liquidação em 135% - Elegível para incentivos entre 160% e 405%\
 
-* **How can I see if my vault is earning rewards?**
+* **Como posso ver ser meu vault está recebendo recompensas?**
 
-If you see the fire emoji on your vault overview page that means that vault is earning rewards
+Se você vir o emoji de fogo na página de visão geral do seu cofre, isso significa que o cofre está ganhando recompensas
 
-* **How much will I earn?**
+* **Quanto vou ganhar?**
 
-Your percent of the reward pool is based on the percentage of MAI you borrowed compared to the total amount of MAI borrowed from that vault type.
+Sua porcentagem do pool de recompensas é baseada na porcentagem de MAI que você tomou emprestado em comparação com o valor total de MAI emprestado desse tipo de vault.
 
-* **How long will the incentives program last?**
+* **Por quanto tempo durará o programa de incentivos?**
 
-The scheduled length of the borrowing incentives program is to last 3 months. The DAO can vote to stop incentives before the 3 months is over or vote to extend the program.
+A duração programada do programa de incentivos a empréstimos é de 3 meses. A DAO pode votar para interromper os incentivos antes dos 3 meses ou votar para estender o programa.
 
-* **How will we receive rewards?**
+* **Como receberemos recompensas?**
 
-Qi will be airdropped to eligible vault holders.
+Qi será enviado por airdrop para os detentores elegíveis dos vaults.
 
-* **How is eligibility for rewards gathered?**
+* **Como é obtida a elegibilidade para recompensas?**
 
-Eligibility for rewards is calculated per block. You will earn rewards for the blocks you were eligible during the week.
+A elegibilidade para recompensas é calculada por bloco. Você ganhará recompensas pelos blocos em que foi elegível durante a semana.
 
-* **When do tracking rewards for the week start?**
+* **Quando as recompensas de rastreamento para a semana começam?**
 
-We will follow the same schedule as eQi. You can find the block numbers on the boost page.
+Seguiremos o mesmo cronograma do eQi. Você pode encontrar os números dos blocos na página de boost.
 
-## Disclaimer
+## Aviso legal
 
-This guide has been written **prior** to the launch of Vault incentives, meaning that the APRs promoted in this document (as well as this document) are subject to modifications, and/or may not be accurate. The amount of MAI borrowed, the debt ceiling and the value of the Qi token will highly impact the final APR of each vault type. Please, make sure that you invest responsibly.
+Este guia foi escrito **antes** do lançamento dos incentivos do Vault, o que significa que os APRs promovidos neste documento (assim como neste documento) estão sujeitos a modificações e/ou podem não ser precisos. O valor do MAI tomado em empréstimo, o teto da dívida e o valor do token Qi terão um grande impacto no APR final de cada tipo de vault. Por favor, certifique-se de investir com responsabilidade.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Por favor, mantenha-se informado, monitore os mercados, fique de olho em seus investimentos e, como sempre, faça sua própria pesquisa.
 {% endhint %}
