@@ -186,15 +186,19 @@ Right now all the vault types have been allocated Qi rewards
 
 0.05 Qi/block for each vault type
 
-*   **How much MAI do I need to borrow to earn rewards?**
+*   **How much MAI do I need to borrow to earn rewards?**\
+    ****
 
-    For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:
+    For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:\
+
 * _Matic_ - Liquidation ratio 150% - Eligible for Incentives between 175% and 420%
 * _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400%
-* _CamTokens_: - Liquidation ratio 135% - Eligible for Incentives between 160% and 405%
-*   **How can I see if my vault is earning rewards?**
+* _CamTokens_: - Liquidation ratio 135% - Eligible for Incentives between 160% and 405%\
 
-    If you see the fire emoji on your vault overview page that means that vault is earning rewards
+* **How can I see if my vault is earning rewards?**
+
+If you see the fire emoji on your vault overview page that means that vault is earning rewards
+
 * **How much will I earn?**
 
 Your percent of the reward pool is based on the percentage of MAI you borrowed compared to the total amount of MAI borrowed from that vault type.
