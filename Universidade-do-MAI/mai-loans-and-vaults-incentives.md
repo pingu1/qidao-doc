@@ -45,83 +45,83 @@ Os primeiros 6 vaults da lista são para ativos simples, enquanto os 4 últimos 
 
 Como observação, você pode ver na captura de tela acima que a página de criação mostra algumas informações muito importantes:
 
-* **MAI Available**: corresponde ao teto máximo da dívida, o número máximo de MAI que podem ser cunhados a partir de depósitos em cofre.
-* **Min Coll. ratio**: this is the minimum Collateral to Debt ratio (CDR) for that vault
-* Vault incentives APR
+* _MAI Available_: corresponde ao teto máximo da dívida, o número máximo de MAI que podem ser cunhados a partir de depósitos em vaults.
+* _Min Coll. ratio_: este é o taxa mínima de garantia para dívida (CDR) para esse vault
+* _Vault incentives APR_
 
-### Understanding Debt Ceiling
+### Entendendo o Teto de Dívida
 
-The maximum number of MAI that one can mint on a specific vault depends on how much assets is deposited on that vault. Debt ceiling are implemented in order to make sure that the market isn't flooded with MAI in a very short time, which may affect the price of the stable coin.
+O número máximo de MAI que se pode cunhar em um cofre específico depende da quantidade de ativos depositados nesse cofre. O teto da dívida é implementado para garantir que o mercado não seja inundado com MAI em um tempo muito curto, o que pode afetar o preço da stablecoin.
 
-As an example, if a big institution would deposit 5,000 WBTC at once and was able to borrow $100,000,000 worth of MAI, swapping the totality for more WBTC, this could drive the price of MAI down so much that the price would deviate too much from its peg, putting the whole platform at risk. Debt ceiling is the mechanism that prevents this from happening: there's a maximum amount of MAI that can be minted for a given vault type.
+Por exemplo, se uma grande instituição depositasse 5.000 WBTC de uma só vez e conseguisse tomar emprestado $100.000.000 em MAI, trocando a totalidade por mais WBTC, isso poderia reduzir tanto o preço do MAI que o preço se desviaria muito de seu valor de pareamento, colocando toda a plataforma em risco. O teto da dívida é o mecanismo que impede que isso aconteça: há uma quantidade máxima de MAI que pode ser cunhada para um determinado tipo de vault.
 
-When the debt ceiling is reached, the time at which there aren't any more available MAI to mint is recorded, and the system automatically increases the debt ceiling after 48 hours. This is considered enough time for the MAI price to stabilize (in case of high sell pressure following a big sell off of MAI).
+Quando o teto da dívida é atingido, é registrado o momento em que não há mais MAI disponíveis para cunhar, e o sistema aumenta automaticamente o teto da dívida após 48 horas. Isso é considerado tempo suficiente para que o preço do MAI se estabilize (no caso de alta pressão de venda após uma grande venda do MAI).
 
-This means that for 48h, nobody will be able to borrow more MAI from a vault that reached its debt ceiling, unless a debt is repaid.
+Isso significa que por 48h, ninguém poderá emprestar mais MAI de um vault que atingiu seu teto de dívida, a menos que uma dívida seja paga.
 
-As a side note, the more MAI on the market, the more stable the price is. Indeed, a massive sell of MAI is less invasive if there are more MAI in circulation.
+Como observação, quanto mais MAI no mercado, mais estável é o preço. De fato, uma venda maciça de MAI é menos invasiva se houver mais MAI em circulação.
 
-* If someone sells 1,000 MAI while there are only 10,000 MAI in circulation, the sell corresponds to 10%
-* If someone sells 1,000 MAI while there are 10,000,000 MAI in circulation, the sell corresponds to 0.01%
+* Se alguém vender 1.000 MAI enquanto houver apenas 10.000 MAI em circulação, a venda corresponde a 10%
+* Se alguém vender 1.000 MAI enquanto houver 10.000.000 MAI em circulação, a venda corresponde a 0,01%
 
-Hence, the debt ceiling isn't increased incrementally, but exponentially: the more MAI in circulation, the less impact a big sell would have, so the debt ceiling can be increased by a lot more.
+Portanto, o teto da dívida não é aumentado de forma incremental, mas exponencial: quanto mais MAI em circulação, menos impacto teria uma grande venda, de modo que o teto da dívida pode ser aumentado muito mais.
 
 {% hint style="info" %}
-When you borrow MAI, it can happen that the maximum amount of MAI that you can borrow is capped by the debt ceiling, regardless of the current value of your collateral and the current amount of MAI you already borrowed. When that's the case, you may wait up for 48h before you can actually borrow more MAI.
+Quando você toma emprestado MAI, pode acontecer que o valor máximo de MAI que você pode tomar emprestado seja limitado pelo teto da dívida, independentemente do valor atual de sua garantia e do valor atual de MAI que você já emprestou. Quando for esse o caso, você pode esperar até 48h antes de poder emprestar mais MAI.
 {% endhint %}
 
-### Understanding Collateral to Debt Ratio
+### Entendendo a Taxa de Garantia para Dívida
 
-The CDR, or **C**ollateral to **D**ebt **R**atio is the ratio between the value of the deposited assets in your vault compared to the amount of MAI you borrowed.
+CDR, ou _Colateral to Debt Ratio_, é a relação entre o valor dos ativos depositados em seu cofre em relação ao valor do MAI que você tomou emprestado.&#x20;
 
-As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, your CDR would be
+Por exemplo, se você depositou $200 em WETH para tomar emprestado $100 em MAI, seu CDR seria:
 
 $$
-CDR=\frac{CollateralValue}{DebtValue}=\frac{200}{100}=200\%
+CDR=\frac{ValorGarantia}{ValorDívida}=\frac{200}{100}=200\%
 $$
 
-Maintaining a CDR above 100% means that, at any point, there are more collateral than debt. This is mandatory to ensure that the MAI stable coin is over-collateralized, and is one of the foundations of the Mai Finance tokenomics. You can get more details from the official [Mai Finance documentation](https://docs.mai.finance/stablecoin-economics).
+Manter uma CDR acima de 100% significa que, a qualquer momento, há mais garantia do que dívidas. Isso é obrigatório para garantir que a stablecoin MAI seja supercolateralizada e é uma das bases da tokenomics do Mai Finance. Você pode obter mais detalhes na [documentação oficial da Mai Finance.](https://docs.mai.finance/stablecoin-economics)
 
-Each vault type has a minimum CDR ratio accepted, a threshold under which the vault is considered at risk because the borrowed amount may not be backed by enough collateral. At this point, anyone can liquidate the vault, meaning a part of the debt is repaid by the liquidator that can then get a portion of the deposited collateral in repayment. Once again, you can find more details about liquidation process in the official documentation.
+Cada vault possuí uma CDR minima aceita, um limite abaixo do qual o vault é considerado em risco porque o valor emprestado pode não ser suportado por garantia suficiente. Neste ponto, qualquer pessoa pode liquidar o cofre, o que significa que uma parte da dívida é reembolsada pelo liquidante que pode obter uma parte da garantia depositada em pagamento. Mais uma vez, você pode encontrar mais detalhes sobre o processo de liquidação na documentação oficial.
 
-When you borrow MAI against a given collateral, you will get some hints on what's the maximum amount of MAI you can borrow, and what would be the impact on your health ratio depending on the amount borrowed, as you can see in the screenshot bellow:
+Quando você tomar emprestado MAI com uma determinada garantia, você receberá algumas dicas sobre qual é o valor máximo de MAI que você pode tomar e qual seria o impacto no seu **nível de saúde** dependendo do valor emprestado, como você pode ver na captura de tela abaixo:
 
-![Health mitigation depending on borrowed amount](<../.gitbook/assets/image (4).png>)
+![ Nível de saúde dependente do valor de empréstimo](<../.gitbook/assets/image (4).png>)
 
-It's very important to keep an eye on your CDR and keep a healthy ratio to
+É muito importante ficar de olho na sua CDR e manter uma proporção saudável para:
 
-* prevent liquidation
-* increase the health of the whole Mai Finance platform by ensuring the MAI volume in circulation is properly backed
+* prevenir liquidação
+* aumentar a saúde de toda a plataforma Mai Finance, garantindo que o volume MAI em circulação seja devidamente suportado
 
-The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest](../tutoriais/polygon/leverage-aave-tokens.md#examples-with-numbers) in other projects, or [repay your debt](../debt-management-tutorials/debt-repayment-how.md#repayment-using-your-collateral) using your debt.
+O CDR “saudável”, conforme definido pela equipe da Mai Finance, está entre 25% e 270% acima do valor mínimo do CDR. Como observação, você também pode verificar nossos guias de estratégia para ver como você pode usar CDRs conservadores/agressivos para [investir ](../tutoriais/polygon/leverage-aave-tokens.md#examples-with-numbers)em outros projetos, ou [pagar sua dívida](../debt-management-tutorials/debt-repayment-how.md#repayment-using-your-collateral) usando sua dívida.
 
-## Vault incentives
+## Incentivos de Vaults
 
-### Understanding Vaults incentives APRs
+### Entendendo os APRs dos Incentivos de Vaults
 
-In September 2021, Mai Finance introduced vault incentives. This is a reward allocated by the Mai Finance platform to anyone borrowing MAI and participating in the growth of the platform.
+Em setembro de 2021, a Mai Finance introduziu incentivos de vault. Esta é uma recompensa atribuída pela plataforma Mai Finance a qualquer pessoa que tome emprestado MAI e participe do crescimento da plataforma.&#x20;
 
-Each Vault type (among the 10 different types) receives 0.05 Qi per block, that is then distributed between all the users who have a healthy Collateral to Debt Ratio. The APR of the vault is defined by the current amount of MAI borrowed.
+Cada tipo de Vault (entre os 10 tipos diferentes) recebe 0,05 Qi por bloco, que é então distribuído entre todos os usuários que possuem uma Taxa de Garantia para Dívida saudável. O APR do cofre é definido pela quantidade de MAI emprestado.
 
-As an example, Ben and Kila are 2 friends who deposited their ETH in the WETH vaults on Mai Finance.
+Como exemplo, Ben e Kila são 2 amigos que depositaram seus ETH nos cofres do WETH na Mai Finance.
 
-* Ben deposited the equivalent of $2,000 worth of ETH and borrowed 1,000 MAI
-* Kila deposited the equivalent of $10,000 worth of ETH and borrowed 6,000 MAI
+* Ben depositou o equivalente a $2.000 em ETH e tomou emprestado 1.000 MAI
+* Kila depositou o equivalente a $10.000 em ETH e tomou emprestado 6.000 MAI
 
-The current amount of MAI borrowed by users who deposited WETH in the vault is 1,000,000 MAI.
+O valor atual de MAI emprestado a usuários que depositaram WETH no cofre é de 1.000.000 MAI.
 
-Both Ben and Kila qualify for the vault incentives because Ben has a CDR of 200% and Kila a CDR of 166.67%. Ben, with his loan, owns 0.1% of the total amount borrowed, while Kila owns 0.6%.
+Tanto Ben quanto Kila se qualificam para os incentivos do vault porque Ben tem um CDR de 200% e Kila um CDR de 166,67%. Ben, com seu empréstimo, possui 0,1% do valor total emprestado, enquanto Kila possui 0,6%.
 
-The total amount of Qi allocated to the WETH vault (or any vault) is
+A quantidade total de Qi alocada para o cofre WETH (ou qualquer cofre) é
 
 $$
 Qi=0.05*\frac{86400}{2}=2160
 $$
 
 {% hint style="info" %}
-86,400 is the number of seconds in a day, and on Polygon, the block time is 2 seconds, meaning that the expected number of blocks every day is 86,400 / 2 = 43,200. Hence, the emission for each Vault is 2,160 Qi / day.
+86.400 é o número de segundos em um dia e, na Polygon, o tempo de blocos é de 2 segundos, o que significa que o número esperado de blocos todos os dias é 86.400 / 2 = 43.200. Assim, a emissão para cada Vault é de 2.160 Qi/dia.
 
-**Note:** Block time has increased lately and is around 2.6 seconds. However, all APRs and APYs displayed on all apps are assuming a block time of 2 seconds. Please DYOR and check the current [block time on PolygonScan](https://polygonscan.com/chart/blocktime).
+**Observação:** O tempo de bloqueio aumentou ultimamente e está em torno de 2,6 segundos. No entanto, todos os APRs e APYs exibidos em todos os aplicativos estão assumindo um tempo de bloqueio de 2 segundos. Por favor, DYOR e verifique o tempo de bloqueio atual no PolygonScan.
 {% endhint %}
 
 Hence, if the state of the Vault remains the same, Ben will get 0.1% of the 2,160 Qi distributed, while Kila will get 0.6% of the granted reward.
