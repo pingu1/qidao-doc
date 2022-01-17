@@ -16,6 +16,7 @@
   * [How to combine farming and borrowing rewards](tutorials/polygon/how-to-combine-farming-and-borrowing-rewards.md)
   * [OHM forks on Polygon: The case of KLIMA](tutorials/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
   * [MAI single-staking with Ethalend](tutorials/polygon/ethalend-single-staking.md)
+  * [The Elephant, the Chimp and the Otter](tutorials/polygon/the-elephant-and-the-otter.md)
 * [Avalanche](tutorials/avalanche/README.md)
   * [How to get started on Avalanche](tutorials/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](tutorials/fantom/README.md)
