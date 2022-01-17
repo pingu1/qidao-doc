@@ -21,11 +21,11 @@ Se isso já não fosse uma oportunidade incrível, a equipe da Mai Finance intro
 
 ### Criando um Vault
 
-Na Mai Finance, os cofres são depósitos especiais onde se pode depositar seus ativos. Atualmente, existem 10 tipos de cofres:
+Na Mai Finance, os vaults são lugares especiais onde se pode depositar seus ativos. Atualmente, existem 10 tipos de vaults:
 
-![The different vault types you can create on Mai Finance](<../.gitbook/assets/image (1).png>)
+![Os diferentes tipos de vaults que você pode criar no Mai Finance](<../.gitbook/assets/image (1).png>)
 
-There are 2 different types of vaults:
+Existem 2 tipos diferentes de vaults:
 
 * WETH
 * WBTC
@@ -34,19 +34,19 @@ There are 2 different types of vaults:
 * CRV
 * AAVE
 
-and
+e
 
 * camWETH
 * camWBTC
 * camWMATIC
 * camAAVE
 
-The first 6 vaults in the list are for simple assets while the 4 last ones are for camTokens. camTokens are compounding AAVE market tokens, a representation of a deposit that you could have done on AAVE and then deposited on the yield pools of Mai Finance. While you assets is generating yields on AAVE (and while the rewards are automatically compounded by the yield pool), you can still borrow MAI stable coins against these tokens.
+Os primeiros 6 vaults da lista são para ativos simples, enquanto os 4 últimos são para camTokens. CamTokens são tokens de mercado AAVE compostos, uma representação de um depósito que você poderia ter feito no AAVE e depois depositado nos pools de rendimento da Mai Finance. Enquanto seus ativos estão gerando rendimentos no AAVE (e enquanto as recompensas são automaticamente acumuladas pelo pool de rendimentos), você ainda pode emprestar stablecoins MAI com estes tokens como garantia.
 
-As a side note, you can see on the screenshot above that the creation page shows some very important informations:
+Como observação, você pode ver na captura de tela acima que a página de criação mostra algumas informações muito importantes:
 
-* MAI available: this corresponds to the maximum debt ceiling, the maximum number of MAI that can be minted from vault deposits.
-* Min Coll. ratio: this is the minimum Collateral to Debt ratio (CDR) for that vault
+* **MAI Available**: corresponde ao teto máximo da dívida, o número máximo de MAI que podem ser cunhados a partir de depósitos em cofre.
+* **Min Coll. ratio**: this is the minimum Collateral to Debt ratio (CDR) for that vault
 * Vault incentives APR
 
 ### Understanding Debt Ceiling
