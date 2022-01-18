@@ -23,36 +23,34 @@ A Mai Finance está em parceria com a [Transak](https://transak.com)  para conec
 
 O principal problema é o tempo necessário para processar a transação. No entanto, isso permitirá que você troque USDC por MAI e, em seguida, pague parcial ou totalmente sua dívida.
 
-## Repayment using the benefits of your loan
+## Reembolso usando os benefícios do seu empréstimo
 
-### Partial Repayment
+### Reembolso Parcial
 
-Most people will want to borrow MAI on Mai Finance in order to invest into specific projects. Yield farmers that are using MAI will most probably be successful generating additional resources and will hopefully not lose money on degen farms. If you're in that case, you have 2 options
+A maioria das pessoas vai querer emprestar MAI na Mai Finance para investir em projetos específicos. Investidores em farming que estão usando MAI provavelmente terão sucesso gerando recursos adicionais e não perderão dinheiro em degen farms, ou assim esperamos. Se você se encontra nesta situação, você tem 2 opções:
 
-* repay your loan with the generated revenue
-* re-invest your gains into the same (or another) project
+* reembolsar seu empréstimo com a receita gerada&#x20;
+* reinvestir seus ganhos no mesmo (ou outro) projeto
 
-In most cases, it's probably better to re-invest your gains. Indeed, by compounding your rewards, APR (**A**nnual **P**ercentage **R**evenue) is applied on a bigger amount, which in turns generates more revenue. See our investment guides to get ideas on how you can maximize your investments.
+Na maioria dos casos, provavelmente é melhor reinvestir seus ganhos. De fato, ao reacumular suas recompensas, o APR (**A**nnual **P**ercentage **R**evenue, ou Receita Percentual Anual) é aplicado em um valor maior, o que, por sua vez, gera mais receita. Consulte os nossos guias de investimento para obter ideias sobre como pode maximizar os seus investimentos.
 
-However, some people simply don't like the idea of having a debt, and will want to repay it as quickly as possible. If that's your case, you can simply swap your gains into MAI, and repay your debt.
+No entanto, algumas pessoas simplesmente não gostam da ideia de ter uma dívida e vão querer pagá-la o mais rápido possível. Se for esse o seu caso, você pode simplesmente trocar seus ganhos em MAI e pagar sua dívida.
 
-* Open your Vault info
-* Select the `Manage` option
-* Select the Repay tab at the bottom of your Vault
-* Enter any amount you want to repay
-* Click `Repay MAI` and you're done
+* Abra as informações do seu cofre.
+* Selecione a opção `Manage.`
+* Selecione a guia `Repay` na parte inferior do seu Vault.
+* Insira o valor que você deseja reembolsar.
+* Clique em `Repay MAI` e está tudo pronto.
 
-![Partially repaying a portion of my debt](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
+![Reembolsando parcialmente uma parte da minha dívida.](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
 
-As an example
+Como exemplo:
 
-* You have $1,000.00 worth of camWMATIC in your vault, with a debt of $400.00
-* You swapped $10.00 worth of ADDY tokens for MAI
-* You repay $10.00 today
-  * Your debt is now $390.00
-  * Your camWMATIC value is $999.95 (you add to pay 0.5% of $10.00 in repayment fees)
-
-At some point, you will be able to totally repay your debt using this technique, as long as you can generate enough revenue via your loan.
+* Você tem $1.000,00 em camWMATIC em seu vault, com uma dívida de $400,00&#x20;
+* Você trocou $10,00 em tokens ADDY por MAI&#x20;
+* Você paga R$10,00 hoje
+  * Sua dívida agora é de R$ 390,00
+  * O valor do seu camWMATIC é de $999,95 (você adiciona para pagar 0,5% de $ 10,00 em taxas de reembolso)At some point, you will be able to totally repay your debt using this technique, as long as you can generate enough revenue via your loan.
 
 Is this strategy efficient? Not really. Repaying your debt this way doesn't change anything except for your CDR. Indeed, your collateral remains partially locked until you totally repay your debt, and if you're using amTokens as collateral, whether you have a debt or not will not change the fact that your collateral is generating yield. The only advantage is that you can possibly withdraw a portion of your collateral and re-use it somewhere else / sell it.
 
