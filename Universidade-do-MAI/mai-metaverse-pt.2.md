@@ -1,8 +1,8 @@
 ---
 description: >-
-  Ultimamente, o MAI vem crescendo tão rápido que é hora de um segundo artigo
-  sobre o mesmo tema. Você encontrará novas redes onde poderá usar a stablecoin
-  MAI.
+  Ultimamente, o MAI vem crescendo em um ritmo tão rápido que é hora de um
+  segundo artigo sobre o mesmo tema. Você descobrirá novas redes onde poderá
+  usar a stablecoin MAI.
 ---
 
 # Metaverso e MAI - Parte 2
@@ -11,11 +11,11 @@ description: >-
 
 ## Harmony
 
-### What's Harmony?
+### O que é Harmony?
 
-Harmony (ONE) is a decentralized blockchain platform designed as a bridge between scalability and decentralization efforts. Its development went under the motto of “decentralization at scale” with the focus on data sharing and the creation of marketplaces of fungible tokens and non-fungible assets. Furthermore, Harmony comes with an additional promise of delivering high throughput accompanied by two “lows”: latency and fees. Combined, they are supposed to put the platform at the heart of the efforts to lay the foundation of the future decentralized trustless economies.
+Harmony (ONE) é uma plataforma blockchain descentralizada projetada como uma ponte entre os esforços de escalabilidade e descentralização. Seu desenvolvimento seguiu o lema de “descentralização em escala” com foco no compartilhamento de dados e na criação de marketplaces de tokens fungíveis e ativos não fungíveis. Além disso, a Harmony vem com uma promessa adicional de fornecer alto rendimento acompanhado por dois “baixos”: latência e taxas. Combinados, eles devem colocar a plataforma no centro dos esforços para estabelecer as bases das futuras economias descentralizadas e sem confiança.
 
-However, what makes the Harmony blockchain unique, its their deep sharding system. A shard \*\*\*\* is a synonym for a piece or a part. By sharding \*\*\*\* Harmony means dividing its nodes in four equal groups. Hence, there are 1 000 nodes total divided into four shards making one shard consisting of 250 nodes. Moreover, the exact nodes within shards are regularly and randomly mixed. This number is set to be exactly so to increase the security of the system and to add more scalability. If you want to learn more about this chain, you can read this [article](https://guarda.com/academy/crypto/what-is-harmony/).
+No entanto, o que torna a blockchain Harmony única é o seu sistema de _sharding_ (fragmentos) profundo. Um **shard** é um sinônimo para uma peça ou uma parte. **Fragmentar** a Harmony significa dividir seus nodes em quatro grupos iguais. Portanto, há um total de 1.000 nodes divididos em quatro shards, formando um shard composto por 250 nodes. Além disso, os nodes exatos dentro dos shards são misturados de forma regular e aleatória. Esse número é definido exatamente assim para aumentar a segurança do sistema e adicionar mais escalabilidade. Se você quiser saber mais sobre essa rede, pode ler este [artigo](https://guarda.com/academy/crypto/what-is-harmony/).
 
 ### Getting MAI on Harmony
 
@@ -40,7 +40,7 @@ Moonriver is a sister network of **Moonbeam**. Similar to its sister, Moonriver 
 * Moonriver is a parachain built on Kusama Relay Chain.
 * Moonbeam belongs to the Polkadot Relay Chain.
 
-Moonriver is an easy route to Kusama Relay Chain\*\*.\*\* It allows teams and developers ,who are familiar with Ethereum, access to the Kusama Network with little or no barriers. It minimizes the changes required to run existing Solidity smart contracts on the network. Therefore, Ethereum projects can simply replicate their DApp and deploy it to Moonriver using popular deployment tools.
+Moonriver is an easy route to Kusama Relay Chain. It allows teams and developers ,who are familiar with Ethereum, access to the Kusama Network with little or no barriers. It minimizes the changes required to run existing Solidity smart contracts on the network. Therefore, Ethereum projects can simply replicate their DApp and deploy it to Moonriver using popular deployment tools.
 
 ### Getting MAI on Moonriver
 
