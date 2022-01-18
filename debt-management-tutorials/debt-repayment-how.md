@@ -125,27 +125,27 @@ Se tomarmos o exemplo acima com $1.000,00 em MATIC e uma dívida de$ 500,00, o f
 
 Quando submetida, esta lista de transações acontecerá todas no mesmo bloco, e você terminará com o que sobrar do seu MATIC como USDC em sua carteira (mais ou menos $500,00, com algumas pequenas variações devido à taxa de juros do empréstimo relampâgo, taxas de troca e taxas de reembolso).
 
-No momento, você teria que interagir diretamente com os contratos inteligentes, o que requer uma boa compreensão de como eles funcionam. Se precisar de ajuda, você pode acessar nosso servidor Discord, que possuí um canal dedicaco a programação. Talvez em um futuro próximo, FuruCombo proporá tijolos Mai Finance que permitiriam operar isso diretamente usando sua ferramenta gráfica, mas por enquanto não é possível. Por fim, a ideia de um botão para “pagar dívidas usando garantias” foi proposta à equipe de desenvolvedores da Mai Finance, e a opção poderá ser implementada no futuro.
+No momento, você teria que interagir diretamente com os contratos inteligentes, o que requer uma boa compreensão de como eles funcionam. Se precisar de ajuda, você pode acessar nosso servidor Discord, que possuí um canal dedicaco a programação. Talvez em um futuro próximo,  [FuruCombo](https://furucombo.app/combo) disponibilizará tijolos da Mai Finance que permitiriam operar isso diretamente usando sua ferramenta gráfica, mas por enquanto não é possível. Por fim, a ideia de um botão para “pagar a dívida usando a garantia” foi proposta à equipe de desenvolvedores da Mai Finance, e a opção poderá ser implementada no futuro.
 
-## Short term VS Long term Debt Repayments
+## Reembolso de Dívida: curto prazo ou longo prazo?
 
-Depending on your strategy and the way you feel regarding your debt, it may be a good idea to compare different lending platforms. However, keep in mind that Mai Finance with its 0% interest and 0.5% repayment fee is one of the top product on the Polygon market. The real competitor is AAVE, but only if you want to borrow MAI or USDC for a short period of time.
+Dependendo da sua estratégia e da maneira como você se sente em relação à sua dívida, pode ser uma boa ideia comparar diferentes plataformas de empréstimo. No entanto, lembre-se de que o Mai Finance, com seus juros de 0% e taxa de reembolso de 0,5%, é um dos principais produtos do mercado da Polygon. O verdadeiro concorrente é a AAVE, mas apenas se você quiser tomar emprestado MAI ou USDC por um curto período de tempo.
 
-* Mais is 0% interest + 0.5% repayment fee
-* AAVE has no repayment fees, but a variable APR for interests you need to pay back
+* Mai Finance tem 0% de juros + 0,5% de taxa de reembolso
+* AAVE não tem taxas de reembolso, mas uma APR variável para os juros que você precisa pagar
 
-![Supplying and Borrowing APY on AAVE as of August 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
+![APY para fornecer e tomar emprestado na AAVE, Agosto de 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
 
-As an example for USDC, you can see that the borrowing rate is 3.79% with a current reward of 2.08% paid back in MATIC. This gives, at the moment of writing, the equivalent of 1.71% you need to pay back if you keep your loan for a complete year. With AAVE, since you can repay your debt very quickly, the variable APY is equivalent to 0.005% daily. Hence, it would take 100 days (a bit more than 3 months) to reach 0.5% of your debt.
+Como exemplo para o USDC, você pode ver que a taxa de empréstimo é de 3,79% com uma recompensa atual de 2,08% paga em MATIC. Isso dá, no momento da redação, o equivalente a 1,71% que você precisa pagar se mantiver seu empréstimo por um ano inteiro. Com o AAVE, como você pode pagar sua dívida muito rapidamente, a variável APY equivale a 0,005% ao dia. Assim, seriam necessários 100 dias (um pouco mais de 3 meses) para chegar a 0,5% da sua dívida.
 
-If you plan to keep your loan longer than that, it's definitely better to use Mai Finance. Also, it's important to understand that AAVE borrowing APRs are variable, they will fluctuate with the amounts that are deposited and required (the more people want to borrow from AAVE, the higher the borrowing APR). Keep also in mind that the MATIC reward program will end at some point, and the 1.71% interest will soon become a 3.79% interest rate. At least with Mai Finance, you don't have to keep a close eye on your loan to see when it becomes dangerous to keep it.
+Se você planeja manter seu empréstimo por mais tempo, é definitivamente melhor usar o Mai Finance. Além disso, é importante entender que os APRs de empréstimo da AAVE são variáveis, eles mudam conforme o valor que é depositado e necessitado (quanto maior o numero de empréstimos solicitados à AAVE, maior será o APR de empréstimo). Lembre-se também de que o programa de recompensas em MATIC cessará em algum momento e os juros de 1,71% irão aumentar para 3,79%. Pelo menos com a Mai Finance, você não precisa ficar de olho no seu empréstimo para ver quando se torna perigoso mantê-lo.
 
-Finally, the team of Mai Finance is working on Vaults incentives that would work the same way as the MATIC reward, meaning that you would still get a 0% interest loan and a bonus paid in Qi that may very well reduce the repayment fee to 0% of your debt. And the longer you keep your loan, the more reward you will collect, making it a true negative interest loan.
+Por fim, a equipe da Mai Finance está trabalhando em incentivos de Vaults que funcionariam da mesma forma que a recompensa MATIC, o que significa que você ainda receberia um empréstimo de 0% de juros e um bônus pago em Qi que pode muito bem reduzir a taxa de reembolso para 0% de sua dívida. E quanto mais tempo você mantiver seu empréstimo, mais recompensa você irá coletar, tornando-o um verdadeiro empréstimo com juros negativos.
 
-## Disclaimer
+## Aviso legal
 
-The views, thoughts, and opinions expressed in the text belong solely to the author, and not necessarily to the rest of the community, nor the development team behind Mai Finance. It should not be taken as a financial advice or guidance of any kind.
+Os pontos de vista, pensamentos e opiniões expressos no texto pertencem exclusivamente ao autor, e não necessariamente ao resto da comunidade, nem à equipe de desenvolvimento por trás do Mai Finance. Não deve ser tomado como um conselho financeiro ou orientação de qualquer tipo.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Por favor, mantenha-se informado, monitore os mercados, fique de olho em seus investimentos e, como sempre, faça sua própria pesquisa.
 {% endhint %}
