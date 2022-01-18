@@ -1,31 +1,30 @@
 ---
 description: >-
-  This guide will present an overview of the different chains where the MAI
-  stable coin can be used, and how you can bridge the native coin to other
-  networks.
+  Este guia apresentará uma visão geral das diferentes redes em que a stablecoin
+  MAI pode ser usada e como você pode enviar a moeda nativa a outras redes.
 ---
 
-# MAI Metaverse
+# Metaverso e MAI
 
 ![](../.gitbook/assets/screen-shot-2021-09-13-at-1.06.42-pm.png)
 
-## Intro
+## Introdução
 
-MAI, sometimes referenced as miMATIC, is the first stable coin native from the Polygon network. It's soft pegged to $1.00, and its value can possibly fluctuate between $0.99 and $1.01. You can get more details on how the peg is maintained in [the official documentation](https://docs.mai.finance/stablecoin-economics). But it's not because MAI is native to Polygon that it's only found on that network. Indeed, the same way as you can find DAI on different networks (DAI is actually another stable coin coming from the Ethereum Mainnet), MAI is slowly but surely expanding to other networks too. This article will highlight the different networks where you can find it, and how you can transfer your MAI from one network to the other.
+MAI, às vezes chamado de miMATIC, é a primeira stablecoin nativa da rede Polygon. Está atrelada a US$ 1,00 e seu valor pode flutuar entre US$ 0,99 e US$ 1,01. Você pode obter mais detalhes sobre como o peg é mantido na [documentação oficial.](https://docs.mai.finance/stablecoin-economics) Mas não é porque o MAI é nativo na Polygon que ele só é encontrado nessa rede. De fato, da mesma forma que você pode encontrar DAI em diferentes redes (DAI é na verdade outra stablecoin vinda da Ethereum Mainnet), a MAI está se expandindo lenta mas seguramente para outras redes também. Este artigo irá destacar as diferentes redes onde você pode encontrá-lo e como você pode transferir seu MAI de uma rede para outra..
 
 ## Polygon
 
-### Getting MAI on Polygon
+### Obtendo MAI na Polygon
 
-As explained, MAI is native to Polygon, and that's the only place (as for September 2021) where you will be able to mint MAI.This is done either by
+Conforme explicado, o MAI é nativo da Polygon, e esse é o único lugar (em setembro de 2021) onde você poderá cunhar MAI. Isso é feito:
 
-* borrowing MAI against some collateral you previously deposited in a vault on Mai Finance
-* swapping USDC for MAI on [Mai Finance](https://app.mai.finance/anchor)
-* selling another asset and buying MAI on any DEX (**D**ecentralized **EX**change) on Polygon, the most efficient being [Zapper](https://zapper.fi/exchange), [Balancer](https://polygon.balancer.fi/#/trade) or [1Inch](https://app.1inch.io/#/137/classic/swap).
+* tomando emprestado MAI com garantias que você depositou anteriormente em um vault na Mai Finance
+* trocando USDC por MAI na [Mai Finance](https://app.mai.finance/anchor)
+* vendendo outro ativo e comprando MAI em qualquer DEX (Decentralized EXchange) na Polygon, sendo as mais eficientes a [Zapper](https://zapper.fi/exchange), [Balancer](https://polygon.balancer.fi/#/trade) or [1Inch](https://app.1inch.io/#/137/classic/swap).
 
-### Using MAI on Polygon
+### Usando MAI na Polygon
 
-The MAI stable coin is being used in more and more projects on Polygon, especially now that it's used as other stable coins on big projects like QuickSwap. As of September 2021, there are 3 stable farms on QuickSwap with a grand total of $18,327,604:
+A stablecoin MAI está sendo usada em cada vez mais projetos no Polygon, especialmente agora que é usada como outras moedas estáveis em grandes projetos como o QuickSwap. Em setembro de 2021, existem 3 fazendas estáveis no QuickSwap com um total geral de $ 18.327.604:
 
 * MAI-DAI with $6,553,255
 * MAI-USDT with $6,316,026
