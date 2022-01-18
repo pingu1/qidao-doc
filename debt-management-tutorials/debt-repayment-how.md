@@ -11,7 +11,7 @@ O mercado está em alta e sua criptomoeda, trancada no Vault, está ganhando cad
 
 O mercado está em baixa e sua criptomoeda está perdendo valor muito rapidamente. Você não gera rendimento rápido o suficiente para cobrir os danos e manter um índice de garantia para dívida (CDR) saudável, e a liquidação está próxima. É hora de pagar sua dívida para garantir que você não esteja perdendo muito e evitar a liquidação.
 
-Se você se encontrar em nenhuma das situações acima, provavelmente não vale a pena pagar sua dívida. Por favor, veja o capítulo sobre [Reembolso de Dívida](debt-repayment-why-and-when.md) para mais detalhes.
+Se você não se encontrar em nenhuma das situações acima, provavelmente não vale a pena reembolsar a sua dívida. Por favor, veja o capítulo sobre [Reembolso de Dívida](debt-repayment-why-and-when.md) para mais detalhes.
 
 ## Reembolso parcial ou total usando dinheiro
 
