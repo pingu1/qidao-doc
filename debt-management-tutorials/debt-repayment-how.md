@@ -48,42 +48,44 @@ Como exemplo:
 
 * Você tem $1.000,00 em camWMATIC em seu vault, com uma dívida de $400,00&#x20;
 * Você trocou $10,00 em tokens ADDY por MAI&#x20;
-* Você paga R$10,00 hoje
-  * Sua dívida agora é de R$ 390,00
-  * O valor do seu camWMATIC é de $999,95 (você adiciona para pagar 0,5% de $ 10,00 em taxas de reembolso)At some point, you will be able to totally repay your debt using this technique, as long as you can generate enough revenue via your loan.
+* Você paga $10,00 hoje
+  * Sua dívida agora é de $390,00
+  * O valor do seu camWMATIC é de $999,95 (você adiciona para pagar 0,5% de $10,00 em taxas de reembolso)
 
-Is this strategy efficient? Not really. Repaying your debt this way doesn't change anything except for your CDR. Indeed, your collateral remains partially locked until you totally repay your debt, and if you're using amTokens as collateral, whether you have a debt or not will not change the fact that your collateral is generating yield. The only advantage is that you can possibly withdraw a portion of your collateral and re-use it somewhere else / sell it.
+Em algum momento, você poderá pagar totalmente sua dívida usando essa técnica, desde que possa gerar receita suficiente por meio de seu empréstimo.
 
-### Full Repayment
+Essa estratégia é eficiente? Na verdade, não. Reembolsar sua dívida dessa maneira não muda nada, exceto sua CDR. De fato, sua garantia permanece parcialmente bloqueada até que você pague totalmente sua dívida, e se você estiver usando amTokens como garantia, ter uma dívida ou não não mudará o fato de que sua garantia está gerando rendimento. A única vantagem é que você pode retirar uma parte de sua garantia e reutilizá-la em outro lugar / vendê-la.
 
-Another approach, very similar to the above strategy, is to repay everything at once. In the example above, instead of repaying $10.00 every few days, I could instead compound the $10.00 earned into my investment to generate yield faster. I can also invest these gains into another project that would also generate revenue. Once I received the equivalent of $400.00 that corresponds to my loan, I can repay everything at once.
+### Reembolso Total
 
-## Repayment using your collateral
+Outra abordagem, muito semelhante à estratégia acima, é pagar tudo de uma vez. No exemplo acima, em vez de pagar $10,00 a cada poucos dias, eu poderia compor os $10,00 ganhos em meu investimento para gerar rendimento mais rapidamente. Também posso investir esses ganhos em outro projeto que também geraria receita. Assim que receber o equivalente a $400,00 que corresponde ao meu empréstimo, posso pagar tudo de uma vez.
 
-### Main idea
+## Reembolso usando sua garantia
 
-On Mai Finance, you can borrow MAI stable coins by depositing a certain amount of collateral in a vault. The collateral to debt ratio needs to always be above a certain threshold, 150% for most vaults. This means, for a 150% CDR, that for any $100 worth of collateral, you can only borrow $66.6667 of MAI.
+### Idéia principal
 
-However, this would directly put you in a liquidation position. This means that the health of your vault is considered too risky, and anyone can repay a portion of your debt using their funds and get paid back by getting a portion of your collateral. For more details about liquidation, please read [the official documentation](https://docs.mai.finance/liquidation).
+Na Mai Finance, você pode emprestar moedas estáveis MAI depositando uma certa quantia de garantia em um vault. A relação garantia/dívida precisa estar sempre acima de um certo limite, 150% para a maioria dos vaults. Isso significa que, para uma CDR de 150%, para qualquer garantia de $100, você só pode emprestar $66,6667 de MAI.
 
-It's usually considered best practice to keep a high collateral to debt ratio to prevent liquidation, but even with a CDR close to 150%, it's easy to see that the value of the collateral is ALWAYS bigger than the value of the debt. This means that you can, in theory, repay your debt by selling some of your collateral asset.
+No entanto, isso o colocaria diretamente em uma posição de liquidação. Isso significa que a saúde do seu cofre é considerada muito arriscada e qualquer pessoa pode pagar uma parte de sua dívida usando seus fundos e ser pago de volta obtendo uma parte de sua garantia. Para mais detalhes sobre liquidação, leia a[ documentação oficial.](https://docs.mai.finance/liquidation)
 
-### How to use collateral
+Geralmente é considerada uma boa prática manter um alto índice de garantia/dívida para evitar liquidação, mas mesmo com uma CDR próximo a 150%, é fácil perceber que o valor da garantia é SEMPRE maior que o valor da dívida. Isso significa que você pode, em teoria, pagar sua dívida vendendo alguns de seus ativos colaterais.
 
-Let's consider a vault with $1,000.00 worth of MATIC and a $500.00 debt. The CDR is 200%. The minimum CDR is 150%. In this example, we want to repay the debt completely, but we want to avoid liquidation, and we will try to never go bellow a 160% CDR when withdrawing our collaterals. We will be using the following formulas:
+### Como usar garantia
 
-$$
-CDR=\frac{Collateral}{Debt}
-$$
+Vamos considerar um vault com $1.000,00 em MATIC e uma dívida de $500,00. O CDR é de 200%. O CDR mínimo é de 150%. Neste exemplo, queremos pagar a dívida por completo, mas queremos evitar a liquidação, e evitaremos possuir uma CDR abaixo de 160% ao sacar nossa garantia. Usaremos as seguintes fórmulas:
 
 $$
-AvailableCollateral = InitialCollateral - TargetCDR*Debt
+CDR=\frac{Garantia}{Dívida}
 $$
 
-In this situation, if we want to keep a CDR of 160%, the amount of collateral we can withdraw "safely" is
+$$
+GarantiaDisponível = GarantiaInicial - CDRAlvo*Dívida
+$$
+
+Nesta situação, se quisermos manter uma CDR de 160%, o valor da garantia que podemos retirar "com segurança" é de:
 
 $$
-AvailableCollateral=$1000-1.60*$500=$200
+GarantiaDisponível=$1000-1.60*$500=$200
 $$
 
 Hence, we will have to proceed in multiple steps:
