@@ -1,27 +1,27 @@
 ---
 description: >-
-  This page will present different options to repay your debt on Mai Finance.
-  Keep in mind that repaying a debt is never mandatory as long as you want to
-  keep your loan, and don't need your collateral.
+  Esta página mostrará opções para pagar sua dívida na Mai Finance. Lembre-se de
+  que o pagamento da dívida não é obrigatório, desde que você queira manter seu
+  empréstimo e não precise de sua garantia.
 ---
 
-# Debt repayment - How?
+# Reembolso de Dívida - Como?
 
-The market is on a bull run and your crypto, locked in the Vault, is gaining more and more value, so much that you decided to sell it. However, because it's in the Vault on Mai Finance, you can't totally unlock it unless you repay your loan.
+O mercado está em alta e sua criptomoeda, trancada no Vault, está ganhando cada vez mais valor, tanto que você decidiu vendê-la. No entanto, como está no Vault na Mai Finance, você não pode desbloqueá-lo totalmente, a menos que pague seu empréstimo.
 
-The market is bearish, and your crypto is losing value very quickly. You don't generate yield fast enough to cover up the damages and keep an healthy Collateral to Debt Ratio (CDR), and liquidation is near. It's time to repay your debt to make sure you're not losing too much, and prevent liquidation.
+O mercado está em baixa e sua criptomoeda está perdendo valor muito rapidamente. Você não gera rendimento rápido o suficiente para cobrir os danos e manter um índice de garantia para dívida (CDR) saudável, e a liquidação está próxima. É hora de pagar sua dívida para garantir que você não esteja perdendo muito e evitar a liquidação.
 
-If you are not in any of the above situation, it's probably not worth repaying your debt. Please see the chapter on [Debt Repayment](debt-repayment-why-and-when.md) for more details.
+Se você não estiver em nenhuma das situações acima, provavelmente não vale a pena pagar sua dívida. Por favor, veja o capítulo sobre [Reembolso de Dívida](debt-repayment-why-and-when.md) para mais detalhes.
 
-## Partial or Full repayment using fiat
+## Reembolso parcial ou total usando dinheiro
 
-The most direct way to repay your debt is to use some fiat, especially if you want to keep your collateral and other investments untouched.
+A maneira mais fácil de pagar sua dívida é usar alguma moeda fiduciária, especialmente se você quiser manter suas garantias e outros investimentos intocados.
 
-Mai Finance is partnering with [Transak](https://transak.com) to easily bridge money bought by Credit / Debit Cards, or bank transfers, directly to the Polygon network. Simply head to Mai Finance and click the transak icon in the menu bar to open a modal that will let you purchase some MATIC and send them directly to your Polygon wallet.
+A Mai Finance está em parceria com a [Transak](https://transak.com)  para conectar facilmente o dinheiro comprado por Cartões de Crédito/Débito, ou transferências bancárias, diretamente para a rede Polygon. Simplesmente vá para Mai Finance e clique no ícone transak na barra de menu para abrir um modal que permitirá comprar alguns MATIC e enviá-los diretamente para sua carteira Polygon.
 
-![Buying some USDC from fiat and bridging to Polygon directly](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
+![Comprando um pouco de USDC usando dinheiro e enviando diretamente para a Polygon.](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
 
-The main issue is the time taken to process the transaction. However, doing so will let you swap USDC for MAI and then partially or fully repay your debt.
+O principal problema é o tempo necessário para processar a transação. No entanto, isso permitirá que você troque USDC por MAI e, em seguida, pague parcial ou totalmente sua dívida.
 
 ## Repayment using the benefits of your loan
 
