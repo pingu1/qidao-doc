@@ -88,44 +88,44 @@ $$
 GarantiaDisponível=$1000-1.60*$500=$200
 $$
 
-Hence, we will have to proceed in multiple steps:
+Portanto, teremos que proceder em várias etapas:
 
-* Withdraw $200 from the collateral
-  * the vault now has $800 worth of MATIC and $500 of debt, CDR is 160%
-* Sell the $200 worth of collateral to buy MAI
-* Repay $200 of the debt with a 0.5% repayment fee
-  * the vault now has $799 worth of MATIC and $300 of debt, CDR is 266.33%
-* Calculate the new amount of collateral we can withdraw: $319
-* Withdraw $319 from the collateral
-  * the vault now has $480 of MATIC and $300 of debt, CDR is 160%
-* Sell the $319 worth of collateral to buy MAI
-* Repay $300 of the debt with a 0.5% repayment fee
-  * the vault has $478.50 worth of MATIC and $0 of debt, and you still have $19 of MAI
+* Retirar $200 da garantia
+  * o vault agora tem $800 em MATIC e $500 em dívidas, e a CDR é de 160%
+* Vender os $200 em garantia para comprar MAI
+* Reembolsar $200 da dívida com uma taxa de reembolso de 0,5%
+  * o vault agora tem $799 em MATIC e $300 em dívidas, e a CDR é de 266,33%
+* Calcule o novo valor de garantia que podemos retirar: $319
+* Retirar $319 da garantia
+  * o vault agora tem $480 de MATIC e $300 em dívidas, e a CDR é de 160%
+* Vender os $319 em garantia para comprar MAI
+* Reembolsar $300 da dívida com uma taxa de reembolso de 0,5%
+  * o vault tem $478,50 de MATIC e $0 de dívida, e você ainda tem $19 de MAI
 
-You can see that keeping a healthy CDR can greatly help you repay your debt with very little number of loops. Of course, if your CDR is closer to the 150% limit, you may have to operate more loops since you cannot withdraw as much at once.
+Você pode ver que manter uma CDR saudável pode te ajudar a pagar sua dívida com um número muito pequeno de loops. Obviamente, se o seu CDR estiver mais próximo do limite de 150%, você pode ter que operar mais loops, pois não pode sacar tanto de uma só vez.
 
 {% hint style="info" %}
-A collateral to debt ratio of 260% is enough to be able to withdraw the total amount of your debt and stay above 160% CDR. This way, you only need one loop to fully repay your debt.
+Uma CDR de 260% é suficiente para poder sacar o valor total de sua dívida e permanecer acima de 160%. Dessa forma, você só precisa de um loop para pagar totalmente sua dívida.
 {% endhint %}
 
-Note that fully repaying your debt by selling your collateral is never necessary if you don't need to sell your underlying assets, or to modify your CDR and keep your vault from being liquidated.
+Observe que o pagamento total de sua dívida com a venda de sua garantia nunca é necessário se você não precisar vender seus ativos subjacentes ou modificar sua CDR para impedir que seu cofre seja liquidado.
 
-## Repayment using a robot
+## Reembolso usando um robô
 
-This paragraph is pure theory and is there only for advanced programmers. The idea is to use flash loans that will help you repay your debt and unlock the collateral so that it can be paid. Flash loans are an option proposed by some applications on different networks, including Polygon, that allow you to borrow funds and repay the loan in the same transaction block. If the loan cannot be fully repaid within the same block, the transaction is simply reverted. On Polygon, AAVE is proposing flash loans.
+Este parágrafo é pura teoria e está disponível apenas para programadores avançados. A ideia é usar empréstimos relâmpago que o ajudarão a pagar sua dívida e desbloquear a garantia para que ela possa ser paga. Empréstimos relâmpago são uma opção proposta por alguns aplicativos em diferentes redes, incluindo a Polygon, que permitem tomar emprestado fundos e pagar o empréstimo no mesmo bloco de transação. Se o empréstimo não puder ser totalmente reembolsado no mesmo bloco, a transação é simplesmente revertida. No Polygon, a AAVE está propondo empréstimos relâmpago.
 
-If we take the example above with $1,000.00 worth of MATIC and a debt of $500.00. The flow would be as follows:
+Se tomarmos o exemplo acima com $1.000,00 em MATIC e uma dívida de$ 500,00, o fluxo seria o seguinte:
 
-* Borrow $600.00 of USDC on AAVE in a flash loan
-* Swap the USDC for MAI
-* Repay your debt completely
-* Withdraw your MATIC collateral
-* Sell your MATIC for USDC
-* Repay the AAVE flash loan
+* Emprestar $ 600,00 de USDC no AAVE em um empréstimo relâmpago&#x20;
+* Troque o USDC por MAI&#x20;
+* Pague sua dívida completamente&#x20;
+* Retire sua garantia MATIC&#x20;
+* Venda seu MATIC por USDC&#x20;
+* Reembolsar o empréstimo relâmpago da AAVE
 
-When submitted, this list of transactions will all happen in the same block, and you will end up with whatever is left from your MATIC as USDC in your wallet (more or less $500.00, with some slight variations due to flash loan interest rate, swap fees, and repayment fees).
+Quando submetida, esta lista de transações acontecerá todas no mesmo bloco, e você terminará com o que sobrar do seu MATIC como USDC em sua carteira (mais ou menos $500,00, com algumas pequenas variações devido à taxa de juros do empréstimo relampâgo, taxas de troca e taxas de reembolso).
 
-Right now, you would have to interact directly with the smart contracts, which requires some good understanding of how they work. If you need help, you can find some on our Discord server where there's a programming channel. Maybe in a near future, [FuruCombo](https://furucombo.app/combo) will propose Mai Finance bricks that would allow you to operate this directly using their graphic tool, but for now it's not possible. Finally, the idea of a button to "repay debt using collateral" has been proposed to the team of devs of Mai Finance, and the option may be implemented in the future.
+No momento, você teria que interagir diretamente com os contratos inteligentes, o que requer uma boa compreensão de como eles funcionam. Se precisar de ajuda, você pode acessar nosso servidor Discord, que possuí um canal dedicaco a programação. Talvez em um futuro próximo, FuruCombo proporá tijolos Mai Finance que permitiriam operar isso diretamente usando sua ferramenta gráfica, mas por enquanto não é possível. Por fim, a ideia de um botão para “pagar dívidas usando garantias” foi proposta à equipe de desenvolvedores da Mai Finance, e a opção poderá ser implementada no futuro.
 
 ## Short term VS Long term Debt Repayments
 
