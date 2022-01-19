@@ -42,7 +42,7 @@
 * [Reembolso de Dívida - Como?](debt-management-tutorials/debt-repayment-how.md)
 * [Metaverso e MAI](Universidade-do-MAI/mai-metaverse.md)
 * [Metaverso e MAI - Parte 2](Universidade-do-MAI/mai-metaverse-pt.2.md)
-* [How to use MAI in the real life](Universidade-do-MAI/how-to-use-mai-in-the-real-life.md)
+* [Como usar o MAI na vida real](Universidade-do-MAI/how-to-use-mai-in-the-real-life.md)
 
 ## Junta-te à comunidade <a href="#community" id="community"></a>
 
