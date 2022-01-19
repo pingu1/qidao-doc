@@ -1,8 +1,8 @@
 ---
 description: >-
-  Ultimamente, o MAI vem crescendo em um ritmo tão rápido que é hora de um
-  segundo artigo sobre o mesmo tema. Você descobrirá novas redes onde poderá
-  usar a stablecoin MAI.
+  A MAI tem crescido em um ritmo tão rápido que chegou a hora de um segundo
+  artigo sobre o tema. Neste artigo, você descobrirá algumas novas redes onde
+  poderá usar a stablecoin.
 ---
 
 # Metaverso e MAI - Parte 2
