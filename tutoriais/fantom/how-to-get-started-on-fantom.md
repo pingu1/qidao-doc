@@ -1,7 +1,7 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the Fantom chain.
+  Neste guia, explicaremos tudo o que você precisa saber para começar a usar a
+  rede Fantom.
 ---
 
 # Como começar na Fantom
@@ -12,7 +12,7 @@ Fantom é uma alternativa a Ethereum para desenvolvedores de blockchain. Como um
 
 A rede foi projetada para vencer todas as limitaçōes da geração anterior das plataformas blockchains, as vezes referenciado como o trilema das blockchains: decentralização, segurança e escalabilidade. Para melhorar um destes aspectos, precisamos sacrificar um dos outros dois. A Fantom tenta resolver isso graças ao seu mecanismo de consenso Lachesis aBFT (Asynchronous Byzantine Fault Tolerant) baseado em DAG (Directed Acyclic Graphs), permitindo alta performance,  escalabilidade e segurança. Testes iniciais mostraram que a Fantom pode facilmente aguentar mais de 20,000 transaçōes por segundo..
 
-Por último, a Fantom é 100% compativel a EVM (**E**thereum **V**irtual **M**achine), o que significa que DApps que foram desenvolvidos em redes compativeis a EVM podem rodar na Fantom também. Isso traz outra vantagem aos usuários, já que a MetaMask e outras aplicaçōes web3 também são compativeis com a Fantom. Você será capaz de alternar entrar a Polygon ou a Avalanche à Fantom pela mesma carteira.
+Por último, a Fantom é 100% compativel com EVM (**E**thereum **V**irtual **M**achine), o que significa que DApps que foram desenvolvidos em redes compativeis a EVM podem rodar na Fantom também. Isso traz outra vantagem aos usuários, já que a MetaMask e outras aplicaçōes web3 também são compativeis com a Fantom. Você será capaz de alternar entrar a Polygon ou a Avalanche à Fantom pela mesma carteira.
 
 ## Começando na Fantom
 
@@ -38,7 +38,7 @@ Se precisar de mais detalhes para configurar a Metamask, você pode encontrar ma
 
 ### Faucet de FTM
 
-Agora que você está na FTM, você precisará de um pouco de FTM (token nativo usado para cobrir taxas de transaçōes). Voce pode fazer a ponte de FTM de outras redes, ou utilizar uma faucet (torneira) que depositará tokens FTM em sua carteira para realizar algumas transaçōes. A [principal faucet na Fantom](https://docs.spookyswap.finance/getting-started/how-to-get-fantom-gas) pode ser ecnontrada na SpookySwap, uma das principais DEXes (**D**ecentralized **Ex**change) da rede. Perceba que é um serviço oferecido pela SpookySwap que depende do Discord, e que exigirá uma conta no Discord ativa por mais de 30 dias (porém não é necessário estar no servidor da SpookySwap por 30 dais).
+Agora que você está na FTM, você precisará de um pouco de FTM (token nativo usado para cobrir taxas de transaçōes). Voce pode fazer a ponte de FTM de outras redes, ou utilizar uma faucet (torneira) que depositará tokens FTM em sua carteira para realizar algumas transaçōes. A [principal faucet na Fantom](https://docs.spookyswap.finance/getting-started/how-to-get-fantom-gas) pode ser ecnontrada na SpookySwap, uma das principais DEXes (**D**ecentralized **Ex**change) da rede. Perceba que é um serviço oferecido pela SpookySwap que depende do Discord, e que exigirá uma conta no Discord ativa por mais de 30 dias (porém não é necessário estar no servidor da SpookySwap por 30 dais).&#x20;
 
 * Após você entrar no servidor da [SpookySwap](http://discord.gg/AqbsWsWDgn), e verificar sua conta, vá até o canal #faucet.
 
