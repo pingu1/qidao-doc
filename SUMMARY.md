@@ -24,7 +24,7 @@
   * [Fantom'dan Kaldıraçlı yararlanın](rehberler/fantom/leverage-your-crypto-on-fantom.md)
   * [Fantom'da MAI ile ne yapılır?](rehberler/fantom/what-to-do-with-mai-on-fantom.md)
   * [SpiritSwap ile çiftçilik döngüsü](rehberler/fantom/farming-loop-using-spiritswap.md)
-  * [Exodia Combo on Fantom](rehberler/fantom/investing-in-discounted-assets-using-bonds.md)
+  * [Fantom'daki Exodia Combo](rehberler/fantom/investing-in-discounted-assets-using-bonds.md)
 * [Moonriver](rehberler/moonriver/README.md)
   * [Moonriver'ı Nasıl Kullanırım?](rehberler/moonriver/how-to-get-started-on-moonriver.md)
   * [SolarBeam'de MAI Çiftçiliği](rehberler/moonriver/farming-mai-on-solarbeam.md)
