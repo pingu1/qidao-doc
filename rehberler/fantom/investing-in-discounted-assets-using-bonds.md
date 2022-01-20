@@ -3,7 +3,7 @@ Açıklama: >-
   Bu kılavuzda varlıkları piyasa fiyatından daha düşük bir fiyata almak için tahvil kavramını ve kârı artırmak için yüksek ödül protokollerini kullanacağız.
 ---
  
-# Fantom'da Exodia Combo
+# Fantom'daki Exodia Combo
  
 ## Giriş
  
