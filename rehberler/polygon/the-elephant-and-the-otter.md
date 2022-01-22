@@ -1,10 +1,10 @@
 ---
-description: >-
+açıklama: >-
   Bu kılavuz, ödül çarpanı olarak bir Ohm benzeri platformda stabil yatırımlarınızı en üst düzeye çıkarmanın yeni bir yolunu önerecektir.
 ---
 # Fil, Şempanze ve Su Samuru
  
-## Introduction
+## Giriş
  
 Bu başlık bir şiir için iyi bir başlık olabilirdi ancak görünüşe göre bunlar, kılavuzda tartışacağımız protokollerin 3 totem hayvanı. Bugün, Mai Finance'deki MAI destekleyen teminat token koleksiyonuna yapılan en yeni (Ocak 2022 itibariyle) eklemelerden birine yakından bakacağız: sdam3CRV tokenı. Ne olduğunu ve nasıl elde edebileceğinizi ayrıntılı olarak açıklayacağız. Ardından, Stake DAO, Mai Finance ve OtterClam protokolünün stabil makbuz tokenını ödül çarpanı olarak kullanarak yüksek getiri elde etmek için küçük bir strateji önereceğiz.
  
