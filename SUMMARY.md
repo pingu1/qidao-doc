@@ -16,7 +16,7 @@
   * [Çiftçilik ve Borçlanma (Borrowing) Ödülleri Nasıl Birleştirilir?](rehberler/polygon/how-to-combine-farming-and-borrowing-rewards.md)
   * [Polygon'daki OHM kopyaları: KLIMA örneği](rehberler/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
   * [Ethalend ile MAI Tek Yönlü Stake](rehberler/polygon/ethalend-single-staking.md)
-  * [The Elephant, the Chimp and the Otter](rehberler/polygon/the-elephant-and-the-otter.md)
+  * [Fil, Şempanze ve Su Samuru](rehberler/polygon/the-elephant-and-the-otter.md)
 * [Avalanche](rehberler/avalanche/README.md)
   * [Avalanche'ı Nasıl Kullanırım?](rehberler/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](rehberler/fantom/README.md)
