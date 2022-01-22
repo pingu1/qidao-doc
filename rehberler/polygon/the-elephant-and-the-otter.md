@@ -1,167 +1,167 @@
 ---
 description: >-
-  This guide will propose a new way to maximize your stable investments
-  by adding an Ohm fork as a reward multiplier.
+  Bu kılavuz, ödül çarpanı olarak bir Ohm benzeri platformda stabil yatırımlarınızı en üst düzeye çıkarmanın yeni bir yolunu önerecektir.
 ---
-# The Elephant, the Chimp and the Otter
+# Fil, Şempanze ve Su Samuru
  
 ## Introduction
  
-This could be a good title for some poetry, however, it appears that these are the 3 totem animals of the protocols we will be discussing in this guide. Today, we will take a close look at one of the latest (as of January 2022) additions to the collateral tokens collection backing the MAI stable coin on Mai Finance: the sdam3CRV token. We will explain in detail what it is and how you can get it. We will then propose a little strategy to use it and get high returns using the stable receipt token from Stake DAO, Mai Finance, and the OtterClam protocol as a reward multiplier.
+Bu başlık bir şiir için iyi bir başlık olabilirdi ancak görünüşe göre bunlar, kılavuzda tartışacağımız protokollerin 3 totem hayvanı. Bugün, Mai Finance'deki MAI destekleyen teminat token koleksiyonuna yapılan en yeni (Ocak 2022 itibariyle) eklemelerden birine yakından bakacağız: sdam3CRV tokenı. Ne olduğunu ve nasıl elde edebileceğinizi ayrıntılı olarak açıklayacağız. Ardından, Stake DAO, Mai Finance ve OtterClam protokolünün stabil makbuz tokenını ödül çarpanı olarak kullanarak yüksek getiri elde etmek için küçük bir strateji önereceğiz.
  
 ![](<../../.gitbook/assets/stakedao-otter-1.png>)
  
 ## Stake DAO
  
-### Presentation of Stake DAO
+### Stake DAO'nun Tanıtımı
  
-[Stake DAO](https://app.stakedao.org/) is a yield optimization platform where users are able to deposit their assets and let the platform use the most curated strategies to maximize yields. The investments are proposed with a risk score, and investments are properly displayed on a nice dashboard that makes it easy to follow the results of chosen strategies. Primarily launched on Ethereum Mainnet, Stake DAO is rapidly expanding to other chains like Polygon and Avalanche. You can of course read more about Stake DAO on their [official documentation](https://stakedao.gitbook.io/stakedaohq/).
+[Stake DAO](https://app.stakedao.org/)kullanıcıların varlıklarını yatırmalarını ve getirilerini en üst düzeye çıkarmak için en iyi stratejileri kullanmalarını sağlayan bir getiri optimizasyon platformudur. Yatırımlar bir risk puanı ile teklif edilir ve yatırımlar, seçilen stratejilerin sonuçlarını takip etmeyi kolaylaştıran güzel bir gösterge panosunda görüntülenir. Stake DAO, öncelikle Ethereum ana ağında başlatıldı ve hızla Polygon ve Avalanche gibi diğer zincirlere doğru genişliyor. Elbette Stake DAO hakkında daha fazla bilgiyi [resmi belgelerinden](https://stakedao.gitbook.io/stakedaohq/) okuyabilirsiniz.
  
-### The am3CRV strategy
+### am3CRV Stratejisi
  
-For our guide, we will be using the `Passive Aave USD Strategy` for Polygon. This is a strategy that is using the am3CRV pool from [Curve Finance](https://polygon.curve.fi/): you deposit your stable assets (USDC, USDT, or DAI) in the aave pool from Curve and you will receive an am3CRV receipt token. This is the token that you can stake on Curve directly to receive CRV and WMATIC rewards, but you can also deposit this token on Stake DAO and the CRV and WMATIC rewards will be sold and compounded into your stable position.
+Kılavuzumuz için Polygon’da `Pasif Aave USD Stratejisini` kullanacağız. Bu strateji, [Curve Finance](https://polygon.curve.fi/)'ınn am3CRV havuzunu kullanan bir stratejidir: stabil varlıklarınızı (USDC, USDT veya DAI) Curve'deki aave havuzuna yatırırsınız ve bir am3CRV makbuz tokenı alırsınız. Bu token, CRV ve WMATIC ödüllerini almak için doğrudan Curve üzerinde stake edebileceğiniz tokendır. Ayrıca bu tokenı Stake DAO'ya da yatırabilirsiniz ve böylece CRV ve WMATIC ödülleri satılarak stabil pozisyonunuza eklenecektir.
+
+![Ocak 2022 itibariyle Curve'de aave havuzu](<../../.gitbook/assets/stakedao-otter-2.png>)
  
-![aave pool on Curve as of January 2022](<../../.gitbook/assets/stakedao-otter-2.png>)
+Yukarıda görebileceğiniz gibi am3CRV tokenlarınızı Curve'de stake etmek size toplam %8,35 APR (Yıllık Yüzde Ödül) verir. Stake DAO'ya girerseniz Polygon için Stratejiler sekmesinde am3CRV tokenlarını kullanan stratejiyi bulacaksınız, burada makbuz tokenınızı yatıracak ve %11.11 APY kazanacaksınız (Ödüllerinizi en az günlük olarak birleştirdiğinizi varsayan Yıllık Yüzde Verim)
  
-As you can see above, staking your am3CRV tokens on Curve would give you an overall APR of 8.35% (**A**nnual **P**ercentage **R**eward). If you go to Stake DAO, you will find in the `Strategies` tab for Polygon the strategy that is using the am3CRV tokens where you will be to deposit your receipt token and earn 11.11% APY (**A**nnual **P**ercentage **Y**ield, that assumes you compound your rewards at least daily).
+![Ocak 2022 itibariyle Stake DAO'da Pasif AAVE USD Stratejisi](<../../.gitbook/assets/stakedao-otter-3.png>)
  
-![Passive AAVE USD Strategy on Stake DAO as of January 2022](<../../.gitbook/assets/stakedao-otter-3.png>)
- 
-When you deposit your am3CRV tokens on Stake DAO, you will receive a new receipt token: sdam3CRV (**s**take **d**ao am3CRV).
+am3CRV tokelarınızı Stake DAO'ya yatırdığınızda, yeni bir makbuz tokenı alacaksınız: sdam3CRV (stake dao am3CRV).
  
 {% hint style="info" %}
-Please note that Stake DAO is taking fees on your gains for each strategy that you are using. In our case, and as of January 2022, the performance fee is 15%, and there will also be a 0.5% withdrawal fee. Make sure that you understand this before you enter the pool.
+Stake DAO kullandığınız her strateji için kazançlarınızdan ücret aldığını lütfen unutmayın. Bizim durumumuzda ve Ocak 2022 itibariyle performans ücreti %15 olup ayrıca %0,5 para çekme ücreti olacaktır. Havuza girmeden önce bunu anladığınızdan emin olun.
 {% endhint %}
  
-This strategy can be considered a very safe one (DYOR) since it's using only stable coins. The Impermanent Loss risk is close to none because the am3CRV LP token is composed of only stable coins pegged to the US dollar. If you want to use Stake DAO, make sure that you however take into account the smart contract risks since your asset will be lent on AAVE via Curve, and the LP token is on Stake DAO, so you have 3 layers of protocols that are exposed to risks.
+Bu strateji, yalnızca stablecoin’ler kullandığından çok güvenli (DYOR) olarak kabul edilebilir. Am3CRV LP tokenı yalnızca dolara sabitlenmiş stablecoin’lerden oluştuğu için Kalıcı Kayıp riski sıfıra yakındır. Stake DAO'yu kullanmak istiyorsanız AAVE'deki varlığınız Curve aracılığıyla borç verildiğinden ve LP tokenı Stake DAO'da olduğundan akıllı sözleşme risklerini hesaba kattığınızdan emin olun, yani risklere maruz kalan 3 katman protokolünüz var.
  
-You can use the farming instrument on Stake DAO to deposit your sdam3CRV tokens and get an extra ~9% paid in SDT token, the native token of Stake DAO. For our guide, we will however use the sdam3CRV token differently.
+Sdam3CRV tokenlarınızı yatırmak ve Stake DAO'nun yerel tokenı olan SDT tokenında ~%9 ekstra ödeme almak için Stake DAO'daki çiftçilik (farming) aracını kullanabilirsiniz. Ancak kılavuzumuz için sdam3CRV tokenını farklı şekilde kullanacağız.
  
 ## Mai Finance
  
-[Mai Finance](https://app.mai.finance) is a lending protocol where you can deposit your assets as collateral, and borrow against them. This is not the average lending platform where you will find people lending assets to borrowers. On Mai Finance, you only lend to yourself, and you only borrow against the assets you own. Find more details about Mai Finance on this site, or on [the official documentation](https://docs.mai.finance/).
+[Mai Finance](https://app.mai.finance) varlıklarınızı teminat olarak yatırmanızı ve bu para karşılığında borç almanızı sağlayan bir borç verme protokolüdür. Bu, borç alanlara varlık borç veren başkalarını bulacağınız ortalama bir borç verme platformu değildir. Mai Finance'de yalnızca kendinize borç verebilirsiniz ve yalnızca sahip olduğunuz varlıklar karşılığında borç alabilirsiniz. Mai Finance hakkında daha fazla bilgi için lütfen bu web sitesini veya [resmi belgeleri](https://docs.mai.finance/) inceleyebilirsiniz.
+
+Ocak 2022'de sdam3CRV tokenı, Mai Finance'te bir teminat seçeneği olarak onaylandı. Bu da am3CRV lp tokenı Stake DAO'ya yatırarak oluşturulan tokenın artık MAI stablecoin’ini borç almak için kullanılabileceği anlamına gelir. Bu durum özellikle bazı nedenden dolayı harikadır:
  
-In January 2022, the sdam3CRV token was approved as a collateral option on Mai Finance. This means that the token that has been created by depositing your am3CRV receipt on Stake DAO can now be used to borrow the MAI stable coin. This is particularly great for a few reasons:
+* sdam3CRV tokenı yalnızca stablecoin’lerden oluşur, bu nedenle Geçici Kayıptan etkilenmemeli ve sabit bir fiyat tutmalıdır
+* Fiyat fazla değişmediğinden likidasyon seviyesine yakın borç alsanız bile likidasyonlardan kaçınmak oldukça kolaydır
+* Verim getiren bir varlık olduğu için teminatınızın değeri artar. Bu kılavuzu yazarken değerlere göre teminatınızdan %11 APR alacaksınız.
  
-* the sdam3CRV token is composed of stable coins only, so it should not be affected by Impermanent Loss and should keep a steady price
-* because the price is not changing much, it's fairly easy to avoid liquidations, even if you borrow close to the liquidation level
-* your collateral is growing in value because it's a yield-bearing asset. At the time of writing this guide, you'd get 11% APR on your collateral
+![Mai Finance'de bir sdam3CRV kasası örneği](<../../.gitbook/assets/stakedao-otter-4.png>)
  
-![Example of a sdam3CRV vault on Mai Finance](<../../.gitbook/assets/stakedao-otter-4.png>)
+Bu kasa, yüksek bir CDR (Borç Teminat Oranı) kullanıyor çünkü bu web sitesinde sunulan kılavuzlarda her zaman güvenliği teşvik etmeye çalışıyoruz. Yüksek bir CDR çeşitli avantajlar sağlar
  
-This vault is using a high CDR (**C**ollateral to **D**ebt **R**atio) because we always try to promote safety in the guides presented on this website. A high CDR presents a few benefits:
+* Teminatınızın büyük olumsuz fiyat hareketlerinde sizi likidasyondan uzak tutar
+* Teminatınızın önemli bir bölümünü çekmenize ve borcunuzu ödemek için satmanıza olanak tanır. Lütfen (borç geri ödeme kılavuzumuza bakın](../../mai-university/debt-repayment-how.md))
  
-* It keeps you away from liquidation in case of major negative price actions of your collateral
-* It allows you to withdraw a good chunk of your collateral and sell it to repay your debt (see our [guide on debt repayment](../../mai-university/debt-repayment-how.md))
- 
-However, feel free to get a CDR that suits your tolerance to risk.
+Risk toleransınıza uygun bir CDR almaktan çekinmeyin.
  
 {% hint style="info" %}
-The sdam3CRV vault is using stable coins as collateral. Like the camDAI vault, it will **NOT** get any borrowing incentives. Its liquidation ratio may also be decreased to 110%, like for the camDAI vault.
+sdam3CRV kasası, teminat olarak stablecoin’leri kullanıyor. CamDAI kasası gibi herhangi bir borçlanma teşviki ALMAYACAKTIR. Likidasyon oranı da camDAI kasasında olduğu gibi %110'a düşürülebilir.
 {% endhint %}
  
-With the MAI you can borrow against your collateral, you can leverage your position. If you need details, please read our specific [guide on leveraging camDAI](camdai-beginner-strategy.md) and apply it to your sdam3CRV tokens. You can indeed get a much bigger exposure to the rates provided by Stake DAO just by applying some levering loops. However, this applies some strong sell pressure on the MAI token, so we will propose another approach.
+MAI ile teminatınız karşılığında borç alabilir, pozisyonunuzu kaldırabilirsiniz. Ayrıntılara ihtiyacınız varsa lütfen [camDAI Başlangıç Stratejisi](camdai-beginner-strategy.md) konusundaki özel kılavuzumuzu okuyun ve bunu sdam3CRV tokenlarınızda uygulayın. Aslında Stake DAO tarafından sağlanan faiz oranlarına sadece bazı kaldıraç döngülerini uygulayarak çok daha fazla maruz kalabilirsiniz. Ancak bu, MAI tokeni üzerinde güçlü bir satış baskısı oluşturuyor, bu nedenle farklı bir yaklaşım önereceğiz.
  
 ## OtterClam DAO
  
-[OtterClam Finance](https://app.otterclam.finance/) is a very unique Ohm Fork on Polygon that is very innovative, integrating cool NFTs on their platform. Launched in November 2021, OtterClam has seen a lot of growth since its inception and is now moving toward GameFi.
+[OtterClam Finance](https://app.otterclam.finance/) Polygon üzerinde, çok yenilikçi, platformlarına harika NFT'leri entegre eden benzersiz bir Ohm klonudurdur. Kasım 2021'de piyasaya sürülen OtterClam, başlangıcından bu yana önemli ölçüde büyüme gösterdi ve şimdi GameFi'ye doğru ilerliyor.
+
+OtterClam ile ilgili en ilginç şeylerden biri Mai Finance'in arkasındaki QiDao protokolü ile ortaklığıdır. CLAM tokenlarını destekleyen stablecoin’lerin çoğu, Mai Finance'te basılan stabilcoin MAI'de bulunur. Bu, doğrudan MAI kullanarak CLAM bonoları satın alabileceğiniz anlamına gelir ve stratejimizde tam olarak bunu yapacağız. Ohm klonları çok yüksek ödül oranları sunmalarıyla bilinir ve OtterClam da bir istisna değildir. OtterClam'deki bonoların bir başka benzersiz özelliği de sCLAM (stake edilen CLAM tokenları) satın almanızdır, böylece tokenlar, kilitlenme süresi boyunca rebase ödülleri alır ve bonoları daha da çekici hale getirir.
  
-One of the most interesting things about OtterClam is its partnership with the QiDao protocol behind Mai Finance. The biggest portion of the stable coins backing their CLAM token is in MAI, the stable coin minted on Mai Finance. This means that you can purchase CLAM bonds using MAI directly, and this is exactly what we will be doing in our strategy. Indeed, Ohm forks are known to provide very high reward rates, and OtterClam isn't an exception. Another unique thing about the bonds on OtterClam is that you purchase sCLAM (staked CLAM tokens), so the tokens are getting rebase rewards during the entire vesting period, which makes bonds even more attractive.
+![Ocak 2022'den itibaren OtterClam Finance’te sCLAM bonoları](<../../.gitbook/assets/stakedao-otter-5.png>)
  
-![Purchasing sCLAM bonds on OtterClam finance as of January 2022](<../../.gitbook/assets/stakedao-otter-5.png>)
+Bu ekran görüntüsünde aslında %3.66 indirimle sCLAM alacağımızı görebilirsiniz  (satın alma fiyatı 9,20 MAI iken piyasa fiyatı 9,54$’dır) ancak 5 günlük hak etme süresi boyunca satın alınan sCLAM da %6,95 artacaktır. Çok yüksek ödül oranları nedeniyle (yazım sırasında %13,400 APY), sCLAM tokenlarını stakede tutmak önemli olacak ancak am3CRV pozisyonumuzu artırmak için stablecoin staking ödüllerini satacak ve onları Curve'e yatıracağız.
  
-On this screenshot, you can see that we will indeed purchase sCLAM with a discount of 3.66% (purchase price is 9.20 MAI while the market price is $9.54), but during the entire vesting period of 5 days, the sCLAM purchased will also grow by 6.95%. Because of the very high reward rates (13,400% APY at time of writing), it will be important to keep the sCLAM tokens staked, but we will be selling the staking rewards for stable coins, and deposit them on Curve to increase our am3CRV position.
+![Tebrikler, CLAM stake ettiniz](<../../.gitbook/assets/stakedao-otter-6.png>)
  
-![Congratulations, you have some CLAM staked](<../../.gitbook/assets/stakedao-otter-6.png>)
- 
-If you check the price of CLAMs, you will see that this token has a lot of volatility, however, and like for most Ohm forks, the price of the token is irrelevant, we're only using OtterClam as a multiplier for the gains. Ohm forks are designed to lower the token price to $1 (or whatever asset is backing the token), and the token is a "reserve currency" meaning that it's designed to be used and bought/sold.
+CLAM'lerin fiyatını kontrol ederseniz bu tokenın çok fazla oynaklığa sahip olduğunu göreceksiniz. Çoğu Ohm klonunda olduğu gibi tokenın fiyatı önemsizdir, kazançlar için çarpan olarak yalnızca OtterClam kullanıyoruz. Ohm klonları, token fiyatını 1$’a (veya tokenı destekleyen herhangi bir varlığa) düşürmek için tasarlanmıştır ve token, kullanılmak ve satın alınmak/satılmak üzere tasarlandığı anlamına gelen bir "rezerv para birimi" dir
  
 {% hint style="info" %}
-Staking rewards are accrued into the vesting sCLAM tokens, but cannot be accessed during the vesting period. We will have to wait for the vesting tokens to be fully vested before we can collect and sell the staking rewards.
+Stake ödülleri hak kazanma süresi boyunca erişilemeyen kazanılmış sCLAM tokenlarında birikir. Stake ödüllerini toplayıp satabilmemiz için hak kazanma tokenlarının tamamen kazanılmasını beklememiz gerekecek.
 {% endhint %}
  
-## Farming Strategy
+## Farming Stratejisi 
  
-As in most cases, the best starting point for strategies is to start with stable coins. This way, you reduce the risk of impermanent losses, and you only work with benefits from your farming (or the borrowed amount in our case).  So the loop starts by depositing stables on Curve to get an am3CRV token. This receipt token is deposited on Stake DAO so that you can get a sdam3CRV receipt. This token will be deposited on Mai Finance as collateral to borrow MAI. The loan is used to purchase MAI bonds on OtterClam. The rebase rewards are swapped for more stable coins. As a side note, you can sell whatever amount of the rebase reward. For our guide, we'll be selling 100% of it, but you can keep some to increase your CLAM position faster and collect bigger rewards faster.
+Çoğu durumda olduğu gibi stratejiler için en iyi başlangıç noktası stablecoin’lerle başlamaktır. Bu şekilde kalıcı kayıp riskini azaltırsınız ve yalnızca çiftçiliğinizden (veya bizim durumumuzda borç alınan miktardan) gelen faydalarla çalışırsınız. Böylece döngü, am3CRV tokenı almak için Curve’e stablecoin’ler yatırarak başlar. Bu makbuz tokenı, bir sdam3CRV makbuzu alabilmeniz için Stake DAO'ya yatırılır. Bu token, MAI'yi borç almak için teminat olarak Mai Finance'e yatırılacaktır. Borç, OtterClam'de MAI bonoları satın almak için kullanılır. Rebase ödülleri, stablecoin’ler için değiştirilir. Bir ek not olarak, rebase ödülleri ne kadar olursa olsun satabilirsiniz. Kılavuzumuzda bunun %100'ünü satacağız ancak CLAM konumunuzu daha hızlı artırmak ve daha büyük ödülleri daha hızlı toplamak için birazını tutabilirsiniz.
  
-As always for simulations, we will fix all numbers as follows:
+Simülasyonlar için her zaman olduğu gibi tüm sayıları aşağıdaki gibi düzelteceğiz:
  
-* APY for the sdam3CRV strategy on Stake DAO is 11.11%
-* APR for staked CLAMs on OtterClam is 13,400%
+* Stake DAO'daki sdam3CRV stratejisi için APY %11,11'dir
+* OtterClam'de stake edilen CLAM'ler için APR %13,400'dür
  
-We will also not deal with the debt repayment and will assume all prices remain the same. We will run the simulation with $100 worth of USDC as a starting point, and we will also try to stick to a 235% CDR when more MAI is borrowed. Finally, we will assume, for the simplicity of this simulation, that at the end of each vesting period, there's an available MAI bond with a 0% discount (you will hunt for discounts greater than 0% obviously).
+Ayrıca borcun geri ödenmesiyle de uğraşmayacağız ve tüm fiyatların aynı kaldığını varsayacağız. Simülasyonu başlangıç noktası olarak 100$ değerinde USDC ile işleteceğiz ve ayrıca daha fazla MAI borç alındığında %235'lik bir CDR'ye bağlı kalmaya çalışacağız. Son olarak bu simülasyonda kolaylık olması için her hak kazanma döneminin sonunda %0 indirimli kullanılabilir bir MAI bonoları olduğunu varsayacağız (tabii ki %0'dan büyük indirimler kovalayacaksınız).
  
 ![](<../../.gitbook/assets/stakedao-otter-7.png>)
  
-### Day 1
+### 1. Gün
  
-On day 1, you can prepare pretty much everything:
+1. günde hemen hemen her şeyi hazırlayabilirsiniz:
  
-* Deposit your $100 worth of USDC (or USDT or DAI, up to you) on Curve finance
-* Deposit your am3CRV receipt token on Stake DAO
-* Deposit your sdam3CRV receipt token on Mai Finance
-* Borrow at a CDR of 200%, or $50 worth of MAI for a first loan
-* Purchase a MAI bond on OtterClam Finance
+* 100$ değerindeki USDC'nizi (ya da USDT veya DAI’nizi) Curve Finance’e yatırın
+* am3CRV makbuz tokenınızı Stake DAO'ya yatırın
+* sdam3CRV lp tokenınızı Mai Finance'e yatırın
+* İlk borç için %200 CDR veya 50$ MAI değerinde borç alın
+* OtterClam Finance'te bir MAI bonosu satın alın
  
-At this point, you're set and will have to wait for the entire vesting period to start collecting rebase rewards. At the end of Day 1, you would have
+Artık hazırsınız. Rebase ödüllerini toplamaya başlamak için hak etme süresinin tamamını beklemeniz gerekecek. 1. Günün sonunda,
  
-| Position            | value ($) |
+| Pozisyon            | Değer ($) |
 |---------------------|-----------|
 | sdam3CRV            |   100.000 |
-| MAI loan            |    50.000 |
+| MAI Borç            |    50.000 |
 | sCLAM               |    50.000 |
-| additional sdam3CRV |     0.030 |
-| additional sCLAM    |     0.000 |
+| İlave sdam3CRV      |     0.030 |
+| İlave sCLAM         |     0.000 |
  
-### Day 2, 3 and 4
+### 2, 3 ve 4. Gün
  
-Nothing to say, your sdam3CRV is collecting yields, but that's pretty much it, nothing to harvest while the bond is vesting
+Söyleyecek bir şey yok, sdam3CRV'niz getiri topluyor ancak bu süreçte ödülleri toplayamazsınız.
  
-### Day 5
+### 5. Gün
  
-At the end of Day 5, the bond is fully vested, and because rebase rewards have been compounded during the entire vesting period, you would have at the end of the day
+5. günün sonunda bono tamamen kazanılır. Rebase ödülleri tüm hak kazanma süresi boyunca bir araya getirildiğinden günün sonunda sahip olacağınız şey,
  
-| Position            | value ($) |
+| Pozisyon            | Değer ($) |
 |---------------------|-----------|
 | sdam3CRV            |   100.122 |
-| MAI loan            |    50.000 |
+| MAI borç            |    50.000 |
 | sCLAM               |    53.382 |
-| additional sdam3CRV |     0.030 |
-| additional sCLAM    |     0.722 |
+| İlave sdam3CRV      |     0.030 |
+| İlave sCLAM         |     0.722 |
  
-### Day 6
+### 6. Gün
  
-You have some additional sdam3CRV tokens against which you can borrow to purchase a new bond. This will be a very small bond (just a few cents for now) but with time, you will be able to purchase more and more sCLAM with your new MAI. At the end of Day 6, you will then have
+Yeni bir bono satın almak için borç alabileceğiniz bazı ek sdam3CRV tokenlarınız var. Bu çok küçük bir bono olacak (şimdilik sadece birkaç sent) ama zamanla yeni MAI'niz ile daha fazla sCLAM satın alabileceksiniz. 6. Günün sonunda,
  
-| Position            | value ($) |
+| Position            | Değer ($) |
 |---------------------|-----------|
 | sdam3CRV            |   100.875 |
-| MAI loan            |    50.437 |
+| MAI borç            |    50.437 |
 | sCLAM               |    53.820 |
-| additional sdam3CRV |     0.031 |
-| additional sCLAM    |     0.728 |
+| İlave sdam3CRV      |     0.031 |
+| İlave sCLAM         |     0.728 |
  
-At this point, your staked CLAMs will produce rewards every day that you can compound in your sdam3CRV vault, or you can simply compound every 5 days when the bond is vested.
+Bu noktada, stake edilen CLAM'larınız her gün sdam3CRV kasanızda birleştirebileceğiniz veya bono kazanıldığında her 5 günde bir birleştirebileceğiniz ödüller üretecektir.
  
-### Daily Routine
+### Günlük Rutin
  
-Assuming you compound every day, the daily routine will be
+Her gün varlıkların birleştiğini varsayarsak günlük rutin
  
-* unstake the equivalent of 3 rebases from your staked CLAMs
-* sell them for whatever stable coin you would get the most based on the market status
-* deposit the additional stable into the aave pool on Curve Finance
-* deposit the am3CRV token on Stake DAO
-* deposit the sdam3CRV token on Mai Finance
+* stake edilen CLAM'larınızdan 3 rebase eşdeğerini unstake edin
+* piyasa durumuna göre alacağınız stablecoin ne olursa olsun onları satın
+* ek stablecoin’leri Curve Finance'teki aave havuzuna yatırın
+* am3CRV tokenını Stake DAO'ya yatırın
+* sdam3CRV tokenını Mai Finance'e yatırın
  
-Then, every 5 days you will be able to perform the following additional steps:
+Ardından her 5 günde bir aşağıdaki ek adımları gerçekleştirebileceksiniz:
  
-* borrow additional MAI to keep a CDR of 200%
-* purchase additional MAI bond on OtterClam
+* %200'lük bir CDR'yi korumak için ek MAI borç alın
+* tterClam'de ek MAI bonosu satın alın
  
-### Raw results month after month
+### Aydan aya ham sonuçlar
  
-Here are raw results month after month
-| day |  sdam3CRV  |    CLAM    |   MAI debt |
+İşte aydan aya ham sonuçlar
+
+| gün |  sdam3CRV  |    CLAM    |   MAI borç |
 |-----|------------|------------|------------|
 |  30 |    121.249 |     64.007 |     60.625 |
 |  60 |    150.866 |     78.815 |     75.433 |
@@ -176,29 +176,29 @@ Here are raw results month after month
 | 330 |  1,021.437 |    514.101 |    510.719 |
 | 360 |  1,259.790 |    633.277 |    629.894 |
  
-### Day 365
+### 365. Gün
  
-After a complete year of farming this system, and assuming everything are the same as on Day 1 (prices, rates, and everything else ...), you would have:
+Bu sistemde tam bir yıl çiftçilik yaptığınızı ve her şeyin 1. Gün'dekiyle aynı olduğunu varsayarsak (fiyatlar, oranlar ve diğer her şey) şunları elde edersiniz:
  
-* $1,304.575 worth of sdam3CRV tokens in your vault on Mai Finance
-* $655.670 worth of CLAM on OtterClam finance
-* a debt of $652.288 worth of MAI
+* Mai Finance'teki kasanızda 1.304.575$ değerinde sdam3CRV tokenlar
+* OtterClam Finance’te 655.670$ değerinde CLAM
+* 652.288$ değerinde MAI borcu
  
-You can see that at the end of the year, you still have a CDR of 200%. You could withdraw your collateral to repay your debt and unlock the rest of your collateral. You can also repay your debt by selling your CLAMs and unlocking 100% of your collateral.
+Yıl sonunda hala %200'lük bir CDR'niz olduğunu görebilirsiniz. Borcunuzu ödemek ve teminatınızın geri kalanının kilidini açmak için teminatınızı çekebilirsiniz. CLAM'lerinizi satarak ve teminatınızın %100'ünü açarak da borcunuzu ödeyebilirsiniz.
  
-In the end, from an initial investment of $100 you would end up with $1,307.958 and a debt of $652.288, which corresponds to an overall APY of 1,207.958%.
+Sonunda 100$'lık bir ilk yatırımdan 1.307.958$ ve 652.288$'lık bir borç elde edersiniz, bu da toplam 1.207.958 APY'ye tekabül eder.
  
 {% hint style="success" }
-If you extract only 50% of your rebase reward from OtterClam Finance and keep the rest staked, the high APY will be applied to a position that grows much faster. This presents more risks, but assuming everything stays the same, and if you sell only 50% of your reward, you would possibly end up with $3,608.447 split between your vault and OtterClam, and a debt of $750.828 for an equivalent APY of 2,757.619%.
+OtterClam Finance'ten rebase ödülünüzün yalnızca %50'sini çeker ve geri kalanını stake ederseniz yüksek APY çok daha hızlı büyüyen bir pozisyona uygulanır. Bu daha fazla risk taşır ancak her şeyin aynı kaldığını ve ödülünüzün yalnızca %50'sini sattığınızı varsayarsak, potansiyel olarak kasanız ve OtterClam arasında 3.608.447$'lık bir payla ve %2.757.619'luk eşdeğer bir APY için 750.828$'lık bir borçla sonuçlanabilirsiniz.
 {% endhint %}
  
-## Disclaimer
+## Sorumluluk Reddi
  
-This strategy is pretty interesting, because it presents very little risk on the initial side. Indeed, your money is working off stables, and the initial is "protected", so the probability of losing it is very small. The liquidation risk is also very small due to the very high CDR used for a very small price variation between the collateral and the borrowed asset. Without additional tools, you would probably get ~12% APY but it's clear that using other protocols to maximize the rewards can lead to very high returns.
- 
-However, make sure that you understand this investment strategy in its finest details. Make sure you accept the smart contract risks because we're using a lot of different protocols. Also, you need to understand how Ohm forks work and don't pay attention to the price of CLAMs, which may vary a lot. Finally, if rates _may_ remain the same on Stake DAO, the reward rate on OtterClam will most certainly decrease over time since ohm forks can't sustain such high APYs for long periods of time. As always, read the documentation of the different projects you will use, and make sure you understand all the risks.
+Bu strateji oldukça ilgi çekicidir çünkü başlangıçta çok az risk taşır. Paranız stabillerde çalışır ve ilk para "korunur", bu nedenle onu kaybetme olasılığı çok düşüktür. Teminat ve borç alınan varlık arasında çok küçük bir fiyat farkı için kullanılan yüksek CDR nedeniyle likidasyon riski de çok küçüktür. Ek araçlar olmadan muhtemelen ~%12 APY elde edersiniz ancak ödülleri en üst düzeye çıkarmak için diğer protokolleri kullanmanın çok yüksek getirilerle sonuçlanabileceği açıktır.
+
+Ancak bu yatırım stratejisini en ince ayrıntılarına kadar anladığınızdan emin olun. Birçok farklı protokol kullandığımız için akıllı sözleşme risklerini kabul ettiğinizden emin olun. Ayrıca Ohm klonlarının nasıl çalıştığını anlamanız ve çok değişken olabilen CLAM'lerin fiyatına dikkat etmemeniz gerekir. Son olarak, Stake DAO'da oranlar aynı kalabilirse ohm klonları bu kadar yüksek APY'leri uzun süreler boyunca sürdüremeyeceğinden OtterClam'deki ödül oranı zamanla düşecektir. Her zaman olduğu gibi kullanacağınız farklı projelerin belgelerini okuyun ve tüm riskleri anladığınızdan emin olun.
  
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Fiyat değişimlerine, arz ve talebe, ödül programlarının bitiş tarihlerine, kalıcı kayıplara vs. dikkat etmeniz gerekiyor... Amaç körü körüne takip edilebilecek tarifler önermek değildi. Bu yüzden lütfen kendi simülasyonunuzu yapın ve sadece kaybetmeyi göze aldığınız kadar yatırım yapın.
 {% endhint %}
  
