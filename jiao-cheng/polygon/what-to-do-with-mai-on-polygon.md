@@ -44,76 +44,78 @@ Balancer 的最大优点是你绝对不需要拥有 4 个硬币即可存入池�
 
 ### Curve finance
 
-A little bit of click-bait here. [Curve](https://polygon.curve.fi) is another platform where you will be able to lend your crypto assets in pools that will generate revenues, but not MAI directly (not yet?). The pools we are interested in are
+这里有一点点击诱饵。 [Curve](https://polygon.curve.fi) 是另一个平台，你可以在其中借出你的加密资产池，以产生收入，但不能直接借出 MAI（还没有？）。我们感兴趣的池是&#x20;
 
-* the AAVE pool that will generate between 5% and 15% APR (APR varies a lot) on a stable coins trio (DAI/USDC/USDT). The pool works exactly like Balancer in the way that you can enter the pool using a single asset that will be used on AAVE by the protocol.
-* the atricrypto pool that is composed of the stable coin trio and includes wETH and wBTC too to mitigate impermanent losses. This pool has an APR ranging between 25% and 30%. The Mai Finance team is currently trying to have MAI added to this pool too, meaning that you may be able to enter it with your minted MAI directly.
+* AAVE 池将在稳定币三重奏 (DAI/USDC/USDT) 上产生 5% 到 15% 的 APR（APR 变化很大）。该池的工作方式与 Balancer 完全一样，你可以使用协议在 AAVE 上使用的单个资产进入池。
+* 由稳定币三重奏组成的 atricrypto 池也包括 wETH 和 wBTC，以减轻无常损失。该池的 APR 介于 25% 和 30% 之间。 Mai Finance 团队目前也在尝试将 MAI 添加到此池中，这意味着你也许可以直接使用铸造的 MAI 进入它。
 
-While waiting for the Curve protocol to accept MAI as a valid stable coin in their pools, you can still use your favourite crypto with Curve by following these steps (example with MATIC)
+在等待 Curve 协议接受 MAI 作为其池中有效的稳定币时，你仍然可以按照以下步骤将你最喜欢的加密货币与 Curve 一起使用（以 MATIC 为例）
 
-* Deposit your MATIC token on AAVE and collect amWMATIC
-* Deposit your amWMATIC on Mai Finance and collect camWMATIC (the AAVE rewards will be compounded into the camWMATIC tokens)
-* Use the camWMATIC as a collateral on Mai Finance and borrow MAI against it
-* Use the [swap page](https://app.mai.finance/swap) on Mai Finance to swap all of your MAI for USDC
-* Then you can
-  * Enter the atricrypto pool on Curve with your USDC and get 25% to 30% reward
-  * Enter the AAVE pool on Curve with your USDC and get 5% to 15% reward
+* 将你的 MATIC 代币存入 AAVE 并收集 amWMATIC
+* 将你的 amWMATIC 存入 Mai Finance 并收集 camWMATIC（AAVE 奖励将复合到 camWMATIC 代币中）
+* 使用 camWMATIC 作为 Mai Finance 的抵押品并借用 MAI
+* 使用 Mai Finance 上的[调换页面](https://app.mai.finance/swap)来将你所有的 MAI 换成 USDC
+* 然后你就可以
+  * 用你的USDC进入Curve上的atricrypto池并获得25%到30%的奖励
+  * 用你的USDC进入Curve上的AAVE池并获得5%到15%的奖励
 
-Rewards on Curve are granted in
+曲线上的奖励在
 
-* Auto-compounded USDC that increase your position in the pool (it will be a mix of USDC/USDT/DAI and possibly wBTC/wETH for the atricrypto pool)
-* WMATIC that you can then use to repeat the loop above and increase your loan and invested capital
-* CRV token, that can also be used as collateral on Mai Finance to borrow more MAI and increase your invested capital
+* 自动复合的 USDC，增加你在池中的头寸（对于 atricrypto 池，它将是 USDC/USDT/DAI 和可能的 wBTC/wETH 的混合）
+* 然后你可以使用 WMATIC 重复上述循环并增加你的贷款和投资资本
+* CRV 代币，也可以用作 Mai Finance 的抵押品以借入更多 MAI 并增加你的投资资本
 
 ![](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.14.27 PM.png>)
 
 ### AAVE
 
-There's a complete guide on how you can use Mai Finance to [lever up your crypto on AAVE](leverage-aave-tokens.md). This is not doing a direct use of MAI stable coin, but we can imagine that, in the future, AAVE will also have a MAI pool where you will be able to lend your crypto.
+有一篇关于如何使用 Mai Finance[ 在 AAVE 上推广加密货币](leverage-aave-tokens.md)的完整指南。这不是 MAI 稳定币的直接使用，但我们可以想象，在未来，AAVE 还将拥有一个 MAI 池，你可以在其中借出你的加密货币。
 
 ### QuickSwap
 
-[QuickSwap](https://quickswap.exchange/#/) is probably one of the most famous DEX (Decentralized EXchange) on Polygon with SushiSwap and 1Inch. It's also an AMM (Automated Market Maker) that allows users to efficiently trade on the Polygon network using liquidity pools. Any trade on the exchange is subject to a fee that is partially redistributed to users who deposit their liquidity on the platform.
+[QuickSwap](https://quickswap.exchange/#/) 可能是 Polygon 上最著名的 DEX（去中心化交易所）之一，带有 SushiSwap 和 1Inch。它也是一个 AMM（自动做市商），允许用户使用流动性池在 Polygon 网络上进行有效率地交易。交易所的任何交易都需要支付一定的费用，该费用会部分重​​新分配给将流动性存入平台的用户。
 
-The way you can use MAI on QuickSwap is very similar to a [regular yield farm](secure-your-yield-farming-profits.md) so if you need to get exact steps to enter the MAI/USDC pool on QuickSwap, it's probably better for you to read this article.
+你可以在 QuickSwap 上使用 MAI 的方式与[常规收益农场](secure-your-yield-farming-profits.md)非常相似，因此如果你需要获得在 QuickSwap上进入 MAI/USDC池的确切步骤，你最好阅读本文。
 
-Currently, if you enter the MAI/USDC LP (**L**iquidity **P**rovider) pool on QuickSwap, you will earn
+目前，如果你在 QuickSwap 上进入 MAI/USDC LP（流动性提供商）池，你将获得
 
-* trading fees
-* QUICK tokens
+* 交易费用
+* QUICK 代币
 
-![Details of the MAI/USDC pool on QuickSwap as of August 2021](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![截至 2021 年 8 月 QuickSwap 上的 MAI/USDC 池的详细信息](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
 
-## Degen farms and aggregators
+## **Degen 农场和聚合器**
 
 ### Adamant
 
-[Adamant](https://adamant.finance/home) is an aggregator that is listing all the "best" farms on Polygon and let you enter them directly from their website. By depositing your assets (LP tokens) on a specific pool on Adamant, the algorithms will harvest the rewards granted by the pool and automatically compound part of the reward into your LP position. The rest of the reward is usually converted in WMATIC that is then redistributed to the holders of the ADDY token (native token of Adamant). Finally, you get a reward in ADDY tokens as well that you can harvest and vest for 90 days, earning you part of the WMATIC dividends.
+[Adamant](https://adamant.finance/home) 是一个聚合器，它在 Polygon 上列出所有“最佳”农场，并让你直接从他们的网站输入它们。通过将你的资产（LP 代币）存入 Adamant 的特定池中，算法将收获池授予的奖励，并自动将部分奖励复合到你的 LP 位置。
 
-In general, Adamant is a good place to go if you don't really care about the farm token, and if you don't want to compound your rewards manually several times a day. It also generates more revenue since you get some ADDY rewards in addition to the reward granted by the pool.
+其余的奖励通常在 WMATIC 中转换，然后重新分配给 ADDY 代币（Adamant 的原生代币）的持有者。最后，您还可以获得 ADDY 代币的奖励，您可以收获和归属 90 天，从而赚取 WMATIC 一部分分红。
 
-Adamant currently supports a few pools that accept the MAI/USDC LP pair. The pools are on
+通常来说，如果你不太关心农场代币，并且不想每天手动多次复合奖励，那么 Adamant 是一个不错的去处。它还可以产生更多收入，因为除了池授予的奖励之外，你还可以获得一些 ADDY 奖励。
 
-* QuickSwap: QUICK reward is swapped into more MAI/USDC LP and WMATIC rewards
-* DinoSwap: Dino reward is swapped into more MAI/USDC LP and WMATIC rewards
-* Mai Finance: Qi reward is swapped into more MAI/USDC LP and WMATIC rewards
+Adamant 目前支持一些接受 MAI/USDC LP 对的池。这些池在
 
-![QuickSwap MAI/USDC pool on Adamant](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.51.12 PM.png>)
+* QuickSwap：QUICK 奖励被互换成更多 MAI/USDC LP 和 WMATIC 奖励
+* DinoSwap：Dino 奖励被互换成更多 MAI/USDC LP 和 WMATIC 奖励
+* Mai Finance：Qi 奖励被互换成更多 MAI/USDC LP 和 WMATIC 奖励
+
+![Adamant 上的 QuickSwap MAI/USDC 池](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.51.12 PM.png>)
 
 {% hint style="info" %}
-The screenshots of the QuickSwap pool on QuickSwap website (see paragraph above) and Adamant have been taken the same day, but are showing different APYs (**A**nnual **P**ercentage **Y**ield).
+QuickSwap 网站上 QuickSwap 池的屏幕截图（见上面段落）和 Adamant 是在同一天拍摄的，但显示了不同的 APY（年收益率）。
 {% endhint %}
 
-You can see that the APY on Adamant is a little bit higher than on QuickSwap directly. The reward breakdown is as follows
+可以直接看到，Adamant 上的 APY 比 QuickSwap 上的高一点。奖励细分如下
 
-* 12.88% Auto-compounded QUICK (meaning the QUICK reward is transformed into more LP tokens)
-* 9.16% ADDY reward (not compounded)
-* 3.40% fee share dividend (claiming ADDY daily)
+* 12.88% 自动复合QUICK（意味着QUICK奖励转化为更多LP代币）&#x20;
+* 9.16% ADDY奖励（未复合）&#x20;
+* 3.40%费用份额分红（每天获得ADDY）
 
-This means that, out of the 20.92% granted by QuickSwap, only 12.88% is used to increase your LP position, the rest is swapped into WMATIC dividends. You will be able claim your ADDY reward daily (or anytime) and stake them, which will will in turn generate claimable WMATIC dividends. In other words, Adamant _seems_ a better option because it has better APYs and compound rewards automatically, but in reality it involves a lot of manual actions too.
+这意味着，在 QuickSwap 授予的 20.92% 中，只有 12.88% 用于增加你的 LP 头寸，其余的用于互换 WMATIC 股息。你将可以每天（或任何时候）领取你的 ADDY 奖励并质押它们，这将反过来产生可领取的 WMATIC 分红。换句话说，Adamant 似乎是一个更好的选择，因为它具有更好的 APY 和自动复合奖励，但实际上它也涉及很多手动操作。
 
 {% hint style="info" %}
-Using Adamant also has a strong impact of native token prices. Indeed, because Adamant is constantly selling the farm tokens to generate more LP pairs and WMATIC as dividends to their ADDY holders, the sell pressure is very high on farm tokens and can explain why their price is consistently decaying.
+使用 Adamant 也对原生代币价格产生很大影响。确实，由于 Adamant 不断地出售农场代币以产生更多的 LP 对和 WMATIC 作为其 ADDY 持有者的股息，因此农场代币的销售压力非常大，并且可以解释为什么它们的价格一直在下跌。
 {% endhint %}
 
 ### Other farms accepting MAI/USDC LP pair
