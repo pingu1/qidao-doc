@@ -118,16 +118,16 @@ QuickSwap 网站上 QuickSwap 池的屏幕截图（见上面段落）和 Adamant
 使用 Adamant 也对原生代币价格产生很大影响。确实，由于 Adamant 不断地出售农场代币以产生更多的 LP 对和 WMATIC 作为其 ADDY 持有者的股息，因此农场代币的销售压力非常大，并且可以解释为什么它们的价格一直在下跌。
 {% endhint %}
 
-### Other farms accepting MAI/USDC LP pair
+### **其他接受 MAI/USDC LP 对的农场**
 
-MAI getting more and more popularity on Polygon, and because QuickSwap supports the MAI/USDC pair, a lot of farms are now supporting it too. The following list will present a few projects on which you can earn yield using MAI/USDC
+MAI 在 Polygon 上越来越受欢迎，而且由于 QuickSwap 支持 MAI/USDC 对，现在很多农场也支持它。以下列表将展示一些你可以使用 MAI/USDC 赚取收益的项目
 
 * DinoSwap
 * Augury
 * Polypup
 * ...
 
-Other farms may also accept the MAI/USDC pool. If you want to stay informed about new farms and their launch date, I strongly recommend taking a look at the [RugDoc.io calendar](https://rugdoc.io/calendar/) for Polygon farms, and possibly to the rest of their website which will present a very smart overview of each farm, as well as their potential risks.
+其他农场也可能接受 MAI/USDC 池。如果你想随时了解新农场及其发布日期，我强烈建议你查看 Polygon 农场的 [RugDoc.io](https://rugdoc.io/calendar/) 日历，并可能查看他们网站的其余部分，该网站将提供每个农场的非常智慧的概述，如以及他们的潜在风险。
 
 ## Impermax
 
