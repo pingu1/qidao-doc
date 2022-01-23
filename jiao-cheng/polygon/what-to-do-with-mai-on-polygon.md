@@ -1,44 +1,46 @@
 ---
-description: >-
-  This tutorial will present the different options that will let you use your
-  freshly minted MAI on Polygon.
+description: 本教程将介绍不同的选项，让你可以在 Polygon 上使用新铸造的 MAI。
 ---
 
-# What to do with MAI on Polygon
+# 如何在 Polygon 上使用 MAI
 
-## Goal of this tutorial
+## 本教程的目标
 
-The goal of this tutorial is not to present in details what you can do with your MAI stable coin, but have a list of all the websites and DeFi application that you can use on Polygon that will let you use your MAI directly, or in combination with other stable coins. For more details about specific ways to use MAI, you can refer to other tutorials on this site, or get help on Discord or Telegram.
+本教程的目标不是详细介绍你可以使用 MAI 稳定币做什么，而是列出你可以在 Polygon 上使用的所有网站和 DeFi 应用程序，这些网站和 DeFi 应用程序可以让你直接或组合使用你的 MAI与其他稳定币。更多关于 MAI 的具体使用方法，可以参考本站其他教程，或者在 Discord 或 Telegram 上获取帮助。
 
-Please note that the list is not complete, and will never be since there are new dapps launching every week on the network. I can't review them all, so I will only present the main options, or the most famous / most "secured" options.
+请注意，该列表并不完整，并且永远不会完整，因为网络上每周都有新的 dapp 发布。我无法全部回顾，所以我只会介绍主要选项，或者最著名/最“安全”的选项。
 
-If you want a particular project to be listed, please join the Qi community on [Discord](https://discord.gg/mQq55j65xJ).
+如果你想要一个特定的项目被列出来，请加入 [Discord](https://discord.gg/mQq55j65xJ) 上的 Qi 社区。
 
 {% hint style="info" %}
-I will not present Mai Finance farms. This subject deserves its own tutorial, because Qi is not like any other random farm token.
+我不会介绍Mai Finance农场。这个主题值得拥有自己的教程，因为 Qi 与任何其他随机农场令牌不同。
 {% endhint %}
 
-## Farming safely on bluechip projects
+## Blue Chip项目中 的安全农耕
 
-Bluechip projects are the DeFi applications that proved to be solid and present a lower risk. They are usually audited and the team behind them have been working on then for a long time. They usually don't have huge APRs (**A**nnual **P**ercentage **R**ate) but they can be trusted.
+Bluechip 项目是被证明是可靠且呈现风险较低的 DeFi 应用程序。他们通常会接受审计，并且他们背后的团队已经工作了很长时间。他们通常没有巨大的 APR（年百分比率），但他们值得信赖。
 
 ### Balancer
 
-[Balancer](https://polygon.balancer.fi/#/) is an automated portfolio manager, liquidity provider, and price sensor. On the platform, you will be able to lend your crypto and you collect fees from traders, who rebalance your portfolio by following arbitrage opportunities. If you need more details about Balancer, please go read [the official doc](https://docs.balancer.fi).
+[Balancer](https://polygon.balancer.fi/#/) 是一个自动化的投资组合管理器、流动性提供者和价格传感器。在该平台上，你将能够借出你的加密货币，并向交易者收取费用，交易者通过追踪套利机会来重新平衡您的投资组合。如果您需要有关 Balancer 的更多详细信息，请阅读[官方文档](https://docs.balancer.fi)。
 
-On Polygon network, Balancer proposes a pool composed of the 4 main stable coins: DAI, USDC, USDT and MAI (miMATIC). This stable pool has currently a pretty steady APR of \~20%.
+在 Polygon 网络上，Balancer 提出了一个由 4 个主要稳定币组成的池：DAI、USDC、USDT 和 MAI（miMATIC）。这个稳定的矿池目前的 APR 相当稳定，约为 20%。
 
-![Stable coin pool state as of August 2021](<../../.gitbook/assets/Screen Shot 2021-08-11 at 11.06.59 AM.png>)
+![截至 2021 年 8 月的稳定币池状态](<../../.gitbook/assets/Screen Shot 2021-08-11 at 11.06.59 AM.png>)
 
-The best thing about Balancer is that you absolutely don't need to own the 4 coins to deposit into the pool. Balancer will automatically generate a balanced combination with whatever deposit you make. This means that if you have 100$ worth of MAI, you can simply deposit them into the Balancer pool and let the algorithm slip it properly to have a 25% ratio for each coin depending on their respective price at the moment of the deposit.
+Balancer 的最大优点是你绝对不需要拥有 4 个硬币即可存入池中。 Balancer 将自动生成与你的存款的平衡组合。这意味着，如果你有价值 100 美元的 MAI，你可以简单地将它们存入 Balancer 池中，并让算法正确地将其滑入，根据存入时各自的价格为每个代币设置 25% 的比率。
 
-Rewards for the pool are paid using the BAL token, distributed on a weekly basis. In addition to the BAL token, additional rewards can be granted depending on the pool you entered. You can check the different [incentives program here](https://balancer-incentives.web.app). In our case, participating in the stable pool will also earn you MATIC and Qi rewards.
+池的奖励使用 BAL 代币支付，每周分发一次。除了 BAL 代币，还可以根据你输入的池授予额外奖励。你可以在此处查不同的激励项目。在我们的案例中，参与稳定池还将为你赢得 MATIC 和 Qi 奖励。
 
-The complete flow would be something like this
+如果你需要有关如何使用 Mai Finance 借出你的加密货币和借入 MAI（而不是出售你的加密货币来购买 MAI）的更多详细信息，请阅读本网站上的其他指南。你甚至可以在循环中包含 AAVE 以赚取更多。
+
+池的奖励使用 BAL 代币支付，每周分发一次。除了 BAL 代币，还可以根据你输入的池授予额外奖励。你可以在此处查不同的[激励项目](https://balancer-incentives.web.app)。在我们的案例中，参与稳定池还将为你赢得 MATIC 和 Qi 奖励。
+
+完整的流程是像这样的
 
 ![](<../../.gitbook/assets/Screen Shot 2021-08-11 at 11.34.45 AM.png>)
 
-If you need more details on how you can use Mai Finance to lend your crypto and borrow MAI (instead of selling your crypto to buy MAI), read other guides on this site. You can even [include AAVE into the loop](leverage-aave-tokens.md) to earn even more.
+如果你需要有关如何使用 Mai Finance 借出你的加密货币和借入 MAI（而不是出售你的加密货币来购买 MAI）的更多详细信息，请阅读本网站上的其他指南。你甚至可以[在循环中包含 AAVE ](leverage-aave-tokens.md)以赚取更多。
 
 ### Curve finance
 

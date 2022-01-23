@@ -9,7 +9,7 @@
   * [利用你的 Aave 市场代币](jiao-cheng/polygon/leverage-aave-tokens.md)
   * [camDAI beginner strategy](jiao-cheng/polygon/camdai-beginner-strategy.md)
   * [只使用稳定币农耕](jiao-cheng/polygon/secure-your-yield-farming-profits.md)
-  * [What to do with MAI on Polygon](jiao-cheng/polygon/what-to-do-with-mai-on-polygon.md)
+  * [如何在 Polygon 上使用 MAI](jiao-cheng/polygon/what-to-do-with-mai-on-polygon.md)
   * [What to do with Qi on Polygon](jiao-cheng/polygon/what-to-do-with-qi-on-polygon.md)
   * [Stack DApps like Lego bricks](jiao-cheng/polygon/stack-dapps-like-lego-bricks.md)
   * [Farming or Staking? Or both?](jiao-cheng/polygon/farming-or-staking-or-both.md)
