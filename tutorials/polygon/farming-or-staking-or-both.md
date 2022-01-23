@@ -1,149 +1,151 @@
 ---
 description: >-
-  This guide will present a strategy that highlights amazing interactions
-  between Mai Finance, QuickSwap and Adamant after the launch of new LP pools on
-  Mai Finance and QuickSwap.
+  In diesem Leitfaden wird eine Strategie vorgestellt, die erstaunliche
+  Wechselwirkungen zwischen Mai Finance, QuickSwap und Adamant nach der
+  Einführung neuer LP-Pools auf Mai Finance und QuickSwap aufz
 ---
 
-# Farming or Staking? Or both?
+# Farmen oder Staken? Oder doch beides?
 
 ![](../../.gitbook/assets/screen-shot-2021-09-03-at-9.24.12-am.png)
 
 ## Intro
 
-When you are using DeFi (**De**centralize **Fi**nance) applications, especially when you are farming yields, you tend to end up with a bunch of native tokens granted by the farm. If most people are simply selling these tokens to buy more or their favourite coins, we will try to showcase some ways to actually keep and put them to work in order to increase your revenues.
+Wenn du DeFi (**De**centralize **Fi**nance)-Anwendungen verwendest, vor allem wenn du Yields farmst, hast du am Ende einen Haufen nativer Token, die von der Farm vergeben werden. Wenn die meisten Leute diese Token einfach verkaufen, um mehr oder ihre Lieblingsmünzen zu kaufen, werden wir versuchen, einige Möglichkeiten aufzuzeigen, wie du sie tatsächlich behalten und einsetzen kannst, um deine Einnahmen zu steigern.
 
-In order to do so, we will use new LP pools (**L**iquidity **P**roviding pools) launched on QuickSwap at the beginning of September 2021, that are using the Qi token from Mai Finance. If you need to get a good idea of what are QuickSwap and Adamant applications, please read the [Stacking DApps guide](stack-dapps-like-lego-bricks.md).
+Dazu nutzen wir die neuen LP-Pools (**L**iquiditätspools), die Anfang September 2021 auf QuickSwap gestartet sind und den Qi-Token von Mai Finance verwenden. Wenn du eine gute Vorstellung davon bekommen möchtest, was QuickSwap und Adamant-Anwendungen sind, lies bitte den [Stacking DApps guide](stack-dapps-like-lego-bricks.md).
 
-## Application and pools presentation
+## Anwendungen & Pools
 
-### Farming side
+### Farming&#x20;
 
-In order to maximize our gains, we will use 3 different applications
+Um unsere Gewinne zu maximieren, werden wir 3 verschiedene Anwendungen nutzen
 
 * Mai Finance
 * QuickSwap
 * Adamant
 
-We will also be using the following LP pools
+Außerdem werden wir die folgenden LP-Pools nutzen
 
-* Qi/MATIC on Mai Finance to generate Qi
-* Qi/WETH on QuickSwap to generate QUICK and ADDY
-* Qi/QUICK on Adamant to generate ADDY and MATIC
+* Qi/MATIC auf Mai Finance, um Qi zu verdienen.
+* Qi/WETH auf QuickSwap, um QUICK und ADDY zu verdienen.
+* Qi/QUICK auf Adamant, um ADDY und MATIC zu verdienen.
 
-You can already see that each application is generating tokens that can feed the other pools used on the other applications. The idea is to use the Qi tokens harvested on Mai Finance in combination with the QUICK tokens harvested on QuickSwap and use the 2 on Adamant. Adamant will generate ADDY tokens that will let you claim MATIC dividends. The MATIC tokens can be locked on Mai Finance in the WMATIC vault to borrow MAI, and then buy MATIC and WETH that can then we used with Qi tokens to increase your positions on both Mai Finance and QuickSwap.
+Du kannst bereits sehen, dass jede Anwendung Token generiert, die die anderen Pools der anderen Anwendungen speisen können. Die Idee ist, die Qi-Token von Mai Finance mit den QUICK-Tokens von QuickSwap zu kombinieren und die beiden auf Adamant zu verwenden. Adamant wird ADDY-Token generieren, mit denen du MATIC-Dividenden einfordern kannst. Die MATIC-Token kannst du auf Mai Finance im WMATIC Vault sperren, um MAI zu leihen und dann MATIC und WETH zu kaufen, die du dann mit Qi-Token verwenden kannst, um deine Positionen auf Mai Finance und QuickSwap zu erhöhen.
 
-### Staking side
+### Staking&#x20;
 
-You also need to know that tokens generated in excess on Mai Finance and QuickSwap can be staked:
+Du musst auch wissen, dass Token, die bei Mai Finance und QuickSwap im Überschuss generiert werden, gestaked werden können:
 
-* Qi on Mai Finance **AND** QuickSwap can be used to vote on QIP (**Q**iDAO **I**mprovement **P**roposals).
-* Qi on Mai Finance can be locked. If you lock your Qis, you become eligible to protocols dividends that are paid in Qi and distributed every Wednesdays. More details on Qi staking soon.
-* QUICK on QuickSwap can also be staked to generate additional QUICK tokens in the Dragon's Lair.
-* locked QUICK (dQUICK) can also be used on QuickSwap to generate other tokens in the Dragon's Syrup, and the one we will be using is the farm generating ADDY tokens.
-* ADDY on Adamant are automatically vested (locked for 90 days), but will generate WMATIC dividends.
-* ADDY on Adamant can also be locked in order to boost your APRs/APYs (**A**nnual **P**ercentage **R**ewards / **A**nnual **P**ercentage **Y**ield) on the pools you entered on the site, as well as generating more ADDYs, and boosting your MATIC dividends.
+* Qi auf Mai Finance **und** QuickSwap können verwendet werden, um über QIP (**Q**iDAO **I**Verbesserungsvorschläge **P**Vorschläge) abzustimmen.
+* Qi auf Mai Finance können gesperrt werden. Wenn du deine Qis sperrst, bist du berechtigt, Dividenden zu erhalten, die in Qi gezahlt und jeden Mittwoch ausgeschüttet werden. Mehr Details zum Qi staken in Kürze.
+* QUICK auf QuickSwap kann auch gestaked werden, um zusätzliche QUICK-Token in der Dragon's Lair zu generieren.
+* Gesperrte QUICK (dQUICK) können auch auf QuickSwap eingesetzt werden, um weitere Token im Drachensirup zu generieren. Die Farm, die wir verwenden werden, generiert ADDY-Token.
+* ADDY auf Adamant sind automatisch unverfallbar (für 90 Tage gesperrt), generieren aber WMATIC-Dividenden.
+* ADDYs auf Adamant können auch gesperrt werden, um deine APRs/APYs (**A**nual **P**ercentage **R**ewards / **A**nual **P**ercentage **Y**ield) auf den Pools zu erhöhen, die du auf der Seite eingegeben hast, und um mehr ADDYs zu generieren und deine MATIC-Dividenden zu erhöhen.
 
-## Bootstrapping the system
+## Lass uns das System starten
 
 ![](../../.gitbook/assets/screen-shot-2021-09-08-at-6.54.08-am.png)
 
-What follows is a simulation made with an initial investment of $1,000 worth of Qi/MATIC and Qi/WETH LP tokens, and the current APRs / APYs given by the different platforms on September 9th 2021. This is not a real application of what we described above. Rates will vary, token prices will vary, some programs will come to an end etc ... so the final results are just an estimation of what you could get if everything remained stable, which will never be the case.
+Es folgt eine Simulation, die mit einer Anfangsinvestition von 1.000 US-Dollar in Qi/MATIC- und Qi/WETH-LP-Token und den aktuellen effektiven Jahreszinsen der verschiedenen Plattformen am 9. September 2021 erzeugt wurde. Dies ist keine reale Anwendung dessen, was wir oben beschrieben haben. Die Zinssätze werden schwanken, die Tokenpreise werden variieren, einige Programme werden auslaufen usw. Die Endergebnisse sind also nur eine Schätzung dessen, was du bekommen könntest, wenn alles stabil bliebe, was nie der Fall sein wird.
 
-### Day 1
+### Tag 1
 
 {% hint style="info" %}
-**ATTENTION:** The pools used in this guide went live a few hours prior to the publication. APRs and APYs are obviously not going to stay the same, and some revision to the document will be made in a few days. Please, DYOR and take the guide with caution.
+**Achtung:** Die Pools, die in diesem Leitfaden verwendet werden, wurden ein paar Stunden vor der Veröffentlichung live geschaltet. Die effektiven Jahreszinsen werden natürlich nicht unverändert bleiben, und in den nächsten Tagen werden wir einige Änderungen an dem Dokument erzeugen. Bitte sei vorsichtig und nimm den Leitfaden mit Vorsicht.
 {% endhint %}
 
-Since we have $500 worth of Qi/MATIC LP tokens and $500 of Qi/WETH LP tokens, we will deposit them on Mai Finance and QuickSwap. As a side note, if you have a preference for Qi or QuickSwap, you can simply put more LP tokens on one or the other platform to generate more of your favourite token and stake more. For our example, we'll stick to a strict 50% split.
+Da wir Qi/MATIC-LP-Token im Wert von 500 $ und Qi/WETH-LP-Token im Wert von 500 $ haben, werden wir sie auf Mai Finance und QuickSwap einzahlen. Nebenbei bemerkt: Wenn du Qi oder QuickSwap bevorzugst, kannst du einfach mehr LP-Token auf die eine oder andere Plattform legen, um mehr von deinem Lieblings-Token zu generieren und mehr zu staken. Für unser Beispiel halten wir uns an eine strikte Aufteilung von 50 %.
 
-* $500 of Qi/MATIC will be on Mai Finance, with an APR of 1160.65%
-* $500 of Qi/WETH will be on QuickSwap, with an APR of 1817.44%
+* 500 $ von Qi/MATIC werden auf Mai Finance mit einem APR von 1160,65% angelegt.
+* 500 $ Qi/WETH werden bei QuickSwap mit einem effektiven Jahreszins von 1817,44% angelegt.
 
-We will also use the following APRs for the rest of the simulation
+Für den Rest der Simulation werden wir die folgenden effektiven Jahreszinsen verwenden
 
-* dQUICK APR from Dragon's Lair is 17.28%
-* ADDY APR from Dragon's Syrup is 17.08%
-* Qi/QUICK APR on Adamant for auto-compounded LP tokens is 133%
-* Qi/QUICK APR on Adamant for ADDY tokens is 131%
-* WMATIC APR on Adamant is 35% of the locked ADDY tokens
+* dQUICK APR von Dragon's Lair ist 17,28%
+* ADDY APR von Dragon's Syrup beträgt 17,08%.
+* Qi/QUICK APR auf Adamant für automatisch zusammengesetzte LP-Token beträgt 133%.
+* Qi/QUICK APR von Adamant für ADDY-Token beträgt 131%.
+* Der WMATIC APR bei Adamant beträgt 35% der gesperrten ADDY-Token
 
-Because the APR on Mai Finance is lower than the one on QuickSwap, we will be using 100% of the Qi generated on Mai Finance to generate additional Qi/QUICK tokens (not selling but combining with QUICK tokens received on QuickSwap), meaning that at the end of the day, we have 0 Qi left. Of course, if you balance your initial investment differently, you could get remaining Qi and 0 QUICK left.
+Da der effektive Jahreszins auf Mai Finance niedriger ist als auf QuickSwap, verwenden wir 100% der auf Mai Finance generierten Qi, um zusätzliche Qi/QUICK-Token zu generieren (nicht verkaufen, sondern mit den auf QuickSwap erhaltenen QUICK-Token kombinieren), was bedeutet, dass wir am Ende des Tages 0 Qi übrig haben. Wenn du deine anfängliche Investition anders aufrechnest, kannst du natürlich auch noch Qi und 0 QUICK übrig haben.
 
-Hence, at the end of Day 1, we have in our portfolio
+Am Ende von Tag 1 haben wir also in unserem Portfolio
 
-| Reward type         | Value in dollars |
-| ------------------- | ---------------- |
-| dQUICK on QuickSwap | 8.997            |
-| ADDY on QuickSwap   | 0                |
-| Qi/QUICK on Adamant | 31.799           |
-| ADDY on Adamant     | 0                |
-| WMATIC on Adamant   | 0                |
+| Belohnungstyp        | Wert in Dollar |
+| -------------------- | -------------- |
+| dQUICK auf QuickSwap | 8.997          |
+| ADDY auf QuickSwap   | 0              |
+| Qi/QUICK auf Adamant | 31.799         |
+| ADDY auf Adamant     | 0              |
+| WMATIC auf Adamant   | 0              |
 
-### Day 2
+### Tag 2
 
-On Day 2, the dQUICK deposited on QuickSwap's Dragon's Syrup starts generating ADDY tokens, as well as the Qi/QUICK LP pair on Adamant. At the end of Day 2, we would get
+An Tag 2 beginnt der dQUICK, der auf QuickSwaps Drachensirup hinterlegt ist, ADDY-Token zu generieren, ebenso wie das Qi/QUICK LP-Paar auf Adamant. Am Ende von Tag 2 würden wir Folgendes erhalten
 
-| Reward type         | Value in dollars |
-| ------------------- | ---------------- |
-| dQUICK on QuickSwap | 17.998           |
-| ADDY on QuickSwap   | 0.0042           |
-| Qi/QUICK on Adamant | 63.713           |
-| ADDY on Adamant     | 0.114            |
-| WMATIC on Adamant   | 0                |
+| Belohnungstyp        | Wert in Dollar |
+| -------------------- | -------------- |
+| dQUICK auf QuickSwap | 17.998         |
+| ADDY auf QuickSwap   | 0.0042         |
+| Qi/QUICK auf Adamant | 63.713         |
+| ADDY auf Adamant     | 0.114          |
+| WMATIC auf Adamant   | 0              |
 
-Don't forget to claim your rewards daily on Adamant in order to start generating WMATIC dividends!
+Vergiss nicht, deine Belohnungen täglich auf Adamant einzufordern, um WMATIC-Dividenden zu erhalten!
 
-### Day 3
+### Tag 3
 
-On Day 3, the ADDY tokens collected on Adamant will start generating WMATIC dividends. This means that at the end of Day 3, we would get in our portfolio
+Am 3. Tag beginnen die auf Adamant gesammelten ADDY-Token, WMATIC-Dividenden zu generieren. Das bedeutet, dass wir am Ende von Tag 3 in unserem Portfolio Folgendes erhalten würden
 
-| Reward type         | Value in dollars |
-| ------------------- | ---------------- |
-| dQUICK on QuickSwap | 27.004           |
-| ADDY on QuickSwap   | 0.025            |
-| Qi/QUICK on Adamant | 95.743           |
-| ADDY on Adamant     | 0.343            |
-| WMATIC on Adamant   | 0.0001           |
+| Belohnungstyp        | Werte in Dollar |
+| -------------------- | --------------- |
+| dQUICK auf QuickSwap | 27.004          |
+| ADDY auf QuickSwap   | 0.025           |
+| Qi/QUICK auf Adamant | 95.743          |
+| ADDY auf Adamant     | 0.343           |
+| WMATIC auf Adamant   | 0.0001          |
 
-Starting on Day 4, we will be able to
+Ab dem 4. Tag werden wir in der Lage sein
 
-* collect the WMATIC dividends
-* deposit a portion of the WMATIC on Mai Finance and borrow MAI against it
-* sell MAI to buy more WETH
-* pair the remaining MATIC with Qi, and the WETH with some more Qi generated on Mai Finance
-* deposit the additional Qi/WMATIC pair on Mai Finance and the Qi/WETH pair on QuickSwap
+* die WMATIC-Dividenden zu kassieren
+* einen Teil der WMATIC auf Mai Finance einzuzahlen und MAI dafür zu leihen
+* MAI zu verkaufen, um mehr WETH zu kaufen
+* die verbleibende MATIC mit Qi und das WETH mit mehr Qi auf Mai Finance zu paaren
+* das zusätzliche Qi/WMATIC-Paar auf Mai Finance und das Qi/WETH-Paar auf QuickSwap zu hinterlegen
 
-At that point, the farming system is fully primed, and we can start estimating revenues.
+Zu diesem Zeitpunkt ist das Farming-System vollständig vorbereitet, und wir können mit der Schätzung der Einnahmen beginnen.
 
-## Farming results
+## Farming-Ergebnisse
 
-### Daily routine
+### Tägliche Routine
 
-The daily routine is composed by the following transactions
 
-* Harvest Qi on Mai Finance
-* Harvest WMATIC on Adamant
-* Deposit 66% of WMATIC on Mai Finance
-* Borrow MAI for 50% of the deposit
-* Swap MAI for WETH
-* Create Qi/WMATIC pair on QuickSwap
-* Deposit the Qi/WMATIC on Mai Finance
-* Create Qi/WETH pair on QuickSwap
-* Deposit the Qi/WETH on QuickSwap
-* Harvest Quick on QuickSwap
-* Create Qi/QUICK pair on QuickSwap
-* Deposit remaining QUICK on Dragon's Lair
-* Deposit dQUICK on Dragon's Syrup
-* Harvest ADDY token from Dragon's Syrup
-* Harvest ADDY token from Adamant
-* Deposit new Qi/QUICK on Adamant
-* Deposit harvested ADDY on Adamant (lock)
 
-### Raw results month after month
+Der Tagesablauf setzt sich aus den folgenden Vorgängen zusammen
 
-| Month | dQUICK    | Qi/QUICK   | ADDY       | Qi/MATIC  Qi/WETH |
+* Qi ernten auf Mai Finance
+* WMATIC bei Adamant ernten
+* Einzahlung von 66% der WMATIC bei Mai Finance
+* Leih dir MAI für 50% der Einlage
+* Tausche MAI gegen WETH
+* Erstelle ein Qi/WMATIC-Paar auf QuickSwap
+* Qi/WMATIC auf Mai Finance einzahlen
+* Erstelle ein Qi/WETH-Paar bei QuickSwap
+* Hinterlege Qi/WETH bei QuickSwap
+* Quick ernten auf QuickSwap
+* Erstelle ein Qi/QUICK-Paar bei QuickSwap
+* Restliches QUICK auf Dragon's Lair einzahlen
+* Lege dQUICK auf Dragon's Syrup ab
+* ADDY-Münze aus Drachensirup ernten
+* Sammle ADDY-Münzen von Adamant ein
+* Neue Qi/QUICK auf Adamant einzahlen
+* Geerntetes ADDY auf Adamant ablegen (sperren)
+
+### Ergebnisse über mehrere Monate
+
+| Monat | dQUICK    | Qi/QUICK   | ADDY       | Qi/MATIC  Qi/WETH |
 | ----- | --------- | ---------- | ---------- | ----------------- |
 | 1     | $280.96   | $1,040.78  | $54.97     | $0.91             |
 | 2     | $557.79   | $2,162.98  | $224.36    | $7.89             |
@@ -158,26 +160,24 @@ The daily routine is composed by the following transactions
 | 11    | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31         |
 | 12    | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79         |
 
-### Day 365
+### Tag 365
 
-After a complete year, the final state of our investment would be
+| Belohnungstyp                  | Wert in Dollar |
+| ------------------------------ | -------------- |
+| dQUICK auf QuickSwap           | 5,628.29       |
+| ADDY auf QuickSwap             | 365.25         |
+| Qi/QUICK auf Adamant           | 29,733.58      |
+| ADDY auf Adamant               | 13,587.56      |
+| Zusätzliche Qi/MATIC + Qi/WETH | 2,631.07       |
 
-| Reward type                   | Value in dollars |
-| ----------------------------- | ---------------- |
-| dQUICK on QuickSwap           | 5,628.29         |
-| ADDY on QuickSwap             | 365.25           |
-| Qi/QUICK on Adamant           | 29,733.58        |
-| ADDY on Adamant               | 13,587.56        |
-| Additional Qi/MATIC + Qi/WETH | 2,631.07         |
+Beachte, dass die ADDY, die über die QuickSwap-Farm generiert wurden, in dieser Simulation nicht täglich geerntet und zur Erhöhung der ADDY-Belohnungen auf Adamant hinzugefügt wurden (es ist bereits komplex genug). Außerdem berücksichtigen wir nur unverfallbare ADDY. Wenn du nach der anfänglichen Sperrfrist von 90 Tagen die ADDY-Token einforderst und sperrst, werden deine ADDY-Belohnungen noch mehr steigen und du wirst mehr WMATIC generieren.
 
-Note that the ADDY that have been generated via the QuickSwap farm haven't been harvested daily and added to boost the ADDY rewards on Adamant in this simulation (it is already complex enough). Also, we are only taking in account vested ADDY. After the initial vesting period of 90 days, if you claim the ADDY tokens and lock them, you will boost your ADDY rewards even more, and generate more WMATIC.
+Nach einem Jahr sind die generierten Einnahmen schließlich 51.580,50 $ wert. Wenn wir davon ausgehen, dass die anfängliche Investition 1.000 $ in Qi/MATIC und Qi/WETH betrug, ergibt sich ein APY von 5.087,39 %.
 
-Finally, after one year, the generated revenue is worth $51,580.50. If we consider the initial investment was $1,000 worth of Qi/MATIC and Qi/WETH, this leads to a final APY of 5,087.39%.
+## Haftungsausschluss
 
-## Disclaimer
-
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Dieser Leitfaden ist definitiv keine Finanzberatung, sondern wurde mit einem pädagogischen Ziel erzeugt. Du musst auf Preisschwankungen, Angebot und Nachfrage, Endtermine von Belohnungsprogrammen, impermanente Verluste usw. achten ... Das Ziel war nicht, Rezepte vorzuschlagen, die man blind befolgen kann. Mach also bitte deine Hausaufgaben und deine eigenen Simulationen und investiere nur so viel, wie du bereit bist, möglicherweise zu verlieren.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Denke daran, dass eine Strategie, die zu einem bestimmten Zeitpunkt gut funktioniert, zu einem anderen Zeitpunkt schlecht abschneiden (oder Geldverluste erzeugen) kann. Bitte bleibe informiert, beobachte die Märkte, behalte deine Investitionen im Auge und recherchiere wie immer selbst.
 {% endhint %}
