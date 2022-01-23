@@ -4,91 +4,91 @@ description: >-
   less profitable, but a lot more secure.
 ---
 
-# Farming using only stable coins
+# 只使用稳定币农耕
 
-## General idea
+## **总体思路**
 
-When you enter a yield farm on Polygon, you expose your investments to the success or failure of the farm. This guide isn't presenting in details what is a Yield Farm, or how you should farm on them. If you need help on that there are tutorials everywhere on internet. You can also get some help from the QiDAO community on [Discord](https://discord.gg/mQq55j65xJ).
+当你进入 Polygon 上的产量农场时，你向农场暴露你投资的成败。本指南并不是陈述是Yield Farm 或你应该如何耕作它们。如果你需要帮助，网上到处都有教程。你还可以从 [Discord](https://discord.gg/mQq55j65xJ) 上的 QiDAO 社区获得一些帮助。
 
-The main issue when you are farming is that you have to make a choice between
+在耕种时的主要问题是你必须在这两者之间做出选择
 
-* selling the native token and convert them into "secured" assets that will represent your gains
-* re-invest them to generate even more profits (also known as hyper-compounding)
+* 出售原生代币并将其转换为代表你收益的“担保”资产
+* 重新投资它们以产生更多利润（也称为超线复合）
 
-The guide will present step by step how to use Mai Finance to actually secure your gains while still re-investing a portion of it into the farm.
+**本指南将逐步展示如何使用 Mai Finance 来实际保护您的收入，同时仍将部分收入再投资于农场。**
 
 {% hint style="info" %}
-To illustrate in more details how you can do that, I will use the [latest PolyPup](https://ball.polypup.finance) farm. This is for educational purpose only, and should absolutely not be used as a financial advice. Also, the term "secure" here is solely based on my personal appreciation. As always, do your own research. Finally, I personally don't recommend this farm.
+为了更详细地举例说明你如何做这一点，我将使用最新的[PolyPup](https://ball.polypup.finance) 农场。这绝对不应该用作财务建议，而仅用于教育目的。还有，这里的“保护”一词唯一地基于我个人的欣赏。和往常一样，做你自己的研究。最后，我个人不推荐这个农场。
 {% endhint %}
 
 ![](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)
 
-## Farming life cycle
+## **农耕生命周期**
 
-### Getting prepared to farm
+### **准备耕种**
 
-As a humble farmer once told me
+如同一位卑微的农民曾经告诉我
 
-> _**You should never buy what you can earn**_
+> 你永远不应该买你能挣到的东西
 
-In the guide, we will try to implement as much financial security as possible. To do so, we will farm using stable coins only, in order to protect our investment from any impermanent loss. Most farms are proposing stable coins pairs in their liquidity pools (LP), and MAI gaining more and more visibility, you can find farms proposing MAI/USDC pools. This is the stable coins pair we will be focusing on.
+在本指南中，我们将尝试实施尽可能多的财务安全。要这么做，我们将仅使用稳定币进行耕种，以保护我们的投资免受任何非永久的损失。大多数农场都在其流动性池 (LP) 中提议稳定币对，而 MAI 的可见性越来越多，你可以找到提出 MAI/USDC 池的农场。这是我们将会关注的稳定币对。
 
-In order to start farming using MAI/USDC pair, you need to acquire some stable coins. Mai Finance allows you to borrow the MAI stable coin by depositing your favorite crypto currency. In our case, we have a bunch of MATIC in our wallet, ready to be used. By depositing my MATIC into the [MATIC vault](https://app.mai.finance/vaults/matic) on Mai Finance, I can borrow MAI. If you need assistance doing that, please join the Discord server and ask the community. You can also read other tutorials on this site where you may find how to do this.
-
-{% hint style="info" %}
-You can deposit your MATIC tokens in your MATIC vault, but you can also deposit them into AAVE to get amWMATIC, deposit them on Mai Finance on the yield page to get camWMATIC, and use these camWMATIC as collateral. You will be able to borrow the same amount of MAI, but you will also earn additional yield on your MATIC. See [Leverage your AAVE tokens](https://qidao-qimps.gitbook.io/mai-finance-tutorials/investment-tutorials/leverage-aave-tokens) to get more details on how to do this.
-{% endhint %}
-
-Once you borrowed MAI stable coins, you can use the [anchor page](https://app.mai.finance/anchor) on Mai Finance to convert half of your loan into USDC. Indeed, when you farm using LP pairs, the two parts of the pair need to be provided in a 1:1 ratio.
-
-![Using the swap page to convert 30 of my MAI into USDC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
-
-Now depending on the farm you want to farm on, you need to combine your 2 stable coins (MAI and USDC) into a valid LP pair on a DEX platform. Since my plan is to enter Polypup, and that farm accepts QuickSwap LPs, I need to go to [QuickSwap](https://quickswap.exchange/#/) and generate my pair there.
-
-![Generate some LP tokens using MAI and USDC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
-
-I am now ready to enter the farm.
-
-### Deposit and harvest farm tokens
-
-Now that you have some LP tokens, you can go to the farm website and deposit them to start collecting the farm tokens. In our example, I deposited my MAI/USDC tokens into the correct pool, and started collecting BALL tokens.
-
-![Earning BALLs in the pool](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
-
-As of right now, you can see that farming MAI/USDC is granting me 176.99% APR. Based on how much liquidity is provided in the pool, and on the price of the BALL token, this APR will change over time.
+为了开始使用 MAI/USDC 对开始耕作，你需要获取一些稳定币。 Mai Finance 允许你通过存入你喜欢的加密货币来借入 MAI 稳定币。在我们的情况里，我们的钱包里有一堆 MATIC，随时可以使用。通过将我的 MATIC 存入 Mai Finance 上的 [MATIC](https://app.mai.finance/vaults/matic) 保险库，我可以借用 MAI。如果做这件事上你需要协助，请加入 Discord 服务器并询问社区。你还可以阅读此站点上的其他教程，您可以在其中找到如何执行此操作。
 
 {% hint style="info" %}
-It's very important to note that when you deposit your LP tokens, most farm will charge anywhere between 2% and 4% fees directly taken from the tokens you deposit. Be very aware of this, and make sure you are mentally ready to potentially lose the fee, or not fully get it back.
+你可以将你的 MATIC 代币存入你的 MATIC 金库，但你也可以将它们存入 AAVE 以获得 amWMATIC，将它们存入Yield页面上的 Mai Finance 以获得一些 camWMATIC，并将这些 camWMATIC 用作抵押品。你将能够借入相同数量的 MAI，但你还将通过你的 MATIC 赚取额外收益。请参阅[利用你的 Aave 市场代币](leverage-aave-tokens.md)以获取有关如何执行此操作的更多详细信息。
 {% endhint %}
 
-Now that your stable coins are deposited in the pool, you will earn some farm tokens that you can harvest whenever you want. Note that the price of the farm token will likely be very volatile, so make sure you harvest regularly when the token has some value. The more you wait, the more risk you have to get a big bag of tokens that worth totally nothing. In the screenshot above, simply click the Harvest token and collect your BALLs.
+一旦你借到MAI稳定币后，你可以使用Mai Finance上的[anchor page](https://app.mai.finance/anchor)将你的一半贷款转换为USDC。确实，当你使用 LP 对进行耕种时，对的两个部分需要按1:1的比例提供。
 
-### Leverage your farm tokens
+![使用互换页面将我的 30 MAI 转换为 USDC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
 
-Now that you have some farm tokens, usually you have the choice between
+现在，取决于你想要耕作的农场，你需要在 DEX 平台上将你的 2 个稳定币（MAI 和 USDC）组合成一个有效的 LP 对。由于我的计划是进入 Polypup，并且该农场接受 QuickSwap LP，因此我需要前往  [QuickSwap](https://quickswap.exchange/#/) 并在那里生成我的对。
 
-* selling them to buy something of greater value (your favorite crypto is a good example)
-* re-inject them into the pool
+![ 使用 MAI 和 USDC 生成一些 LP 代币](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
 
-Mai Finance presents a third option that lets you do both. Once you harvested your reward, simply go to your favorite DEX that support the farm token. Usually, you can find a link to a DEX in the menu of the farm. The link will include the token address which will help you trade it easily.
+我现在准备好进入农场了
 
-![Swapping my reward for more MATIC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
+### **存入和收获农场代币**
 
-At that point, I am back at the step where we have MATIC tokens in my wallet, ready to be deposited on Mai Finance as a collateral. If I do that, I can borrow MAI, swap a portion of it into USDC, create a LP pair and re-deposit it into the farm. By doing this conversion, I "secure" 100% of my rewards by swapping them into a more stable crypto (here MATIC) and I re-inject 50% of my reward into the farming pool (or actually, in this example, 46% because of the 4% deposit fee).
+现在你有了一些 LP 代币，你可以前往农场网站并存入它们以开始收集农场代币。在我们的示例中，我将我的 MAI/USDC 代币存入正确的池中，并开始收集 BALL 代币。
 
-If you think about it from a different perspective, the APR is 100% applied to your main crypto. If you are depositing new LP tokens into the pool (compounding), you get 50% of the APY advertised by the pool.
+![ 在池中赚取BALLS](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
 
-## Gains estimation
+截至到现在，你可以看到农场 MAI/USDC 授予我 176.99% 的 APR。根据池中提供多少流动性以及 BALL 代币的价格，此 APR 将随时间变化。
 
-All the results presented below are assuming a few things
+{% hint style="info" %}
+需要注意这一点非常重要，当你存入 LP 代币时，大多数农场将直接从你存入的代币中收取 2% 到 4% 的费用。请务必注意这一点，并确保你心理上已经准备好了可能会损失费用或无法完全收回费用。
+{% endhint %}
 
-* We started with the equivalent of 60 MAI borrowed against the equivalent of $120.00 worth of MATIC
-* The APR of the farm is staying at 176.99% for the period of time, translating to a 0.484% daily gain
-* The value of MATIC and BALL stay the same for the period of time
+现在你的稳定币已存入池中，你将获得一些农场代币，你可以随时收获这些代币。请注意，农场代币的价格可能会非常不稳定，因此请确保在代币具有一些价值时定期收获。你等待的越多，你可能获得更多一大袋完全不值钱的代币的风险。在上面的屏幕截图中，只需单击 Harvest 代币并收集你的 BALL。
 
-These assumption are obviously not applying to the real life, the APR will slowly decay over time as more liquidity is provided to the pool, and as the farm token varies in price.
+### **利用你的农场代币**
 
-### Estimated raw results
+现在你有一些农场代币，通常你可以在两者之间做选择
+
+* 出售它们以购买更有价值的东西（你最喜欢的加密货币就是一个很好的例子）
+* 将它们重新注入池中
+
+Mai Finance 展现了第三种选择，让你同时进行。一旦你获得奖励后，只需前往你最喜欢的支持农场代币的 DEX。通常，你可以在农场菜单中找到指向 DEX 的链接。该链接将包括帮助你轻松交易的代币地址。
+
+![用我的奖励换取更多 MATIC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
+
+到那点，我回到钱包里有 MATIC 代币的步骤，准备存入 Mai Finance 作为抵押品。如果我那样做，我可以借用 MAI，将其中的一部分换成 USDC，创建一个 LP 对并将其重新存入农场。通过做这种转换，我通过将它们转换成更稳定的加密货币来“确保”100%的奖励（此处为 MATIC），并将 50% 的奖励重新注入农场池（或者实际上，在本例中为 46%，因为要收取 4% 的存入费用）。
+
+如果你从不同的角度想想，APR 100% 适用于你的主要加密货币。如果你将新的 LP 代币存入池中（复合），你获得池宣传的 APY 的 50%。
+
+## **收益估算**
+
+下面呈现的所有结果都在假设一些事情
+
+* 我们开始用相当于 60 美元的 MAI 来借贷等效于120 美元价值的MATIC
+* 该农场的 APR 在一段时间内保持在 176.99%，相当于每天增加 0.484%
+* MATIC 和 BALL 的值在一段时间内保持不变
+
+这些假设显然不适用于现实生活。随着更多流动性提供给矿池以及农场代币的价格变化，APR 将随着时间缓慢衰减。
+
+### **估计原始结果**
 
 | Day | LP value | Reward value | Compounded MATIC | New LP created |
 | :-: | -------: | -----------: | ---------------: | -------------: |
@@ -111,27 +111,27 @@ These assumption are obviously not applying to the real life, the APR will slowl
 |  17 |  $59.870 |       $0.290 |           $4.841 |         $0.145 |
 |  18 |  $60.015 |       $0.291 |           $5.132 |         $0.145 |
 
-* On day 1, the 4% fee is applied to our initial 60$ worth of MAI/USDC pair
-* At the end of day 1, the generated revenue ($0.279) is fully transferred into the MATIC vault
-* At the end of day 1, since we added some funds to the vault we can borrow more MAI
-* In order to keep a 200% Collateral to Debt ratio, we only borrow 50% of the deposited MATIC ($0.139)
-* At the beginning of day 2, we re-inject $0.139 into the farm (and the farm takes out 4% deposit fee)
-* At the beginning of fay 2, we start again with an additional $0.134 worth of LP token
+* 在第 1 天，4% 的费用适用于我们初始价值 60 美元的 MAI/USDC 对
+* 在第 1 天结束时，生成的收益 (0.279 美元) 全部转入 MATIC 金库
+* 在第 1 天结束时，由于我们向金库中添加了一些资金，因此我们可以借入更多 MAI
+* 为了保持 200% 的抵押品与债务比率，我们只借入 MATIC 存款的 50%（0.139 美元）
+* 在第 2 天开始时，我们将 0.139 美元重新注入农场（农场取出 4% 的费用）
+* 在 day 2 开始时，我们再次开始使用额外价值0.134美元的LP代币开始
 
-### Estimating APRs, APYs and revenue growth
+### 估算APR、APY和收入增长
 
-The estimation was stopped after 18 days because passed that date, you can see that we are back at a value of $60 worth of LP tokens. This means that I farmed enough to repay the initial deposit fees, which is the minimum goal that any farmer should aim for.
+估算在 18 天后停止，因为在该日期之后，你可以看到我们回到价值 60 美元的 LP 代币。这意味着我已经农耕了足够多来偿还最初的存款成本，这是任何农民应该追求的最低目标。
 
-Passed that date, staying in the farm will only generate benefits. And because we're farming using stable coins, there's literally 0% impermanent loss on the liquidity I provide, meaning that there's no risk of losing money by staying in the pool.
+过了那个日期，留在农场只会产生收益。而且因为我们使用稳定币进行耕作，所以我提供的流动性几乎没有永久性损失 ，这意味着留在池中没有赔钱的风险。
 
-However, I can also consider that I repaid the initial $2.40 deposit fee on day 9 because it's the time when the value of the profit in my MATIC wallet reached that amount. If I was just selling the farm token to make profit and not re-invest into the farming pool, that would actually be the moment I would only generate benefits.
+但是，我也可以考虑我在第 9 天偿还了最初的 2.40 美元存款费用，因为那时我的 MATIC 钱包中的利润价值达到了该金额。如果我只是为了盈利而出售农场代币而不是重新投资到农场池中，那实际上是我只会产生效益的时刻。
 
-In terms of gains, the reward that gets compounded into the farm is only 50% of the farm APR. This means that with a farm APR rated at 176.99%, the actual growth rate is only 88.495% annually, or 0.242% daily.
+在收益方面，奖励在农场里复合仅占农场APR的50%。这意味着一个农场的 APR 为 176.99%，而实际增长率仅为每年 88.495%，即每天 0.242%。
 
-It's also possible to calculate the exact gain that was accrued on a specific day on the farm, assuming you are compounding daily, using the following formula for the **R**eturn **O**n **I**nvestment
+也可能计算农场特定日期累积的确切的收益，假设你每天复合，使用下面的投资回报率公式（**R**eturn **O**n **I**nvestment**)**
 
 $$
-ROI_{DayN}=InitialInvestment*(1+DailyAPR)^{DayN}-InitialInvestment
+ROI_{第N天}=初始投资*(1+每日APR)^{第N天}-初始投资
 $$
 
 In the case of a farm that takes 4% deposit fee, you need to multiply the above result by 96%. In our case, we can quickly verify that the formula works by comparing its result to the table above
