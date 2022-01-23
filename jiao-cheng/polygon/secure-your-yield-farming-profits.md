@@ -1,7 +1,5 @@
 ---
-description: >-
-  This page presents in details a "safe" strategy to make yield farming a little
-  less profitable, but a lot more secure.
+description: 本页详细的呈现了一种“安全”策略，该策略使耕作收益率盈利更少一些，但更有保障。
 ---
 
 # 只使用稳定币农耕
