@@ -131,52 +131,54 @@ MAI 在 Polygon 上越来越受欢迎，而且由于 QuickSwap 支持 MAI/USDC �
 
 ## Impermax
 
-### A little bit of explanation
+### 一点点解释
 
-[Impermax](https://polygon.impermax.finance) is a platform that let users leverage their LP tokens for higher yields. The goal is very simple: by providing LP tokens and using them as collateral, one can then borrow more of the 2 underlying assets to generate more LP tokens and repeat the loop.
+[Impermax](https://polygon.impermax.finance) 是一个让用户杠杆他们的 LP 代币获得更高收益的平台。目标非常简单：通过提供 LP 代币并将其用作抵押品，然后可以借入更多的 2 种标的资产以生成更多 LP 代币并重复循环。
 
-![Impermax loop explained](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
+![ Impermax 循环解释](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
 
-When doing so, the user is exposed to impermanent loss, and the loss is magnified by the number of times the loop is repeated. The risk of liquidation is also multiplied when too many loops are applied. Indeed, if the APR is multiplied, the price variation of the two coins forming the pair is amplified by the lever effect, leading to faster liquidation.
+这样做时,用户暴露在无常的损失中，损失被循环重复的次数放大。当应用太多循环时，清算风险也会成倍增加。事实上，如果 APR 成倍的增加，构成货币对的两个代币的价格变化会被杠杆效应放大，从而导致更快的清算。
 
-With stable coins, the risk of liquidation is lower though, because the price variation is negligible. This also means that the Collateral to Debt Ratio (CDR) can be very close to 100%, leading to a high number of loops, hence a high APR.
+使用稳定币，清算风险较低，因为价格变化可以忽略不计。这也意味着抵押品债务比率 (CDR) 可能非常接近 100%，从而导致大量循环，所以导致高 APR。
 
-Note that Impermax is charging fees when you borrow and leverage your position. The fee corresponds to 0.1% of your final position. As an example, if I have $100 worth of MAI/USDC and I leverage 50x, my final position will worth $5,000 and I will pay a $4.90 fee corresponding to the $4,900 that I borrowed.
+注意，当你借入和杠杆你的头寸时，Impermax 会收取费用。费用相当于你最终头寸的 0.1%。例如，如果我拥有价值 100 美元的 MAI/USDC 并且我的杠杆率为 50 倍，那么我的最终头寸将价值 5,000 美元，并且我将支付与我借入的 4,900 美元相对应的 4.90 美元费用。
 
-The effect of looping the lending/borrowing combination allows to multiply the final APY. With an initial APY of 20% for MAI/USDC pair with a CDR of 110%, operating the loop 50 times, and using the formula
+循环借贷组合的效果允许乘以最终的 APY。 MAI/USDC 对的初始 APY 为 20%，CDR 为 110%，运行循环 50 次，并使用公式
 
 $$
-Equivalent APR = Initial APR * \sum_{i=0}^{n}{\frac{100}{CDR}}^i
+等效APR = 初始APR * \sum_{i=0}^{n}{\frac{100}{CDR}}^i
 $$
 
-We can easily get a 228% final APR. There are some other elements that will affect the final APR, namely the borrowing APR (loan interest for borrowing more LP tokens), and the supply/demand of both assets composing the LP pair (directly driving the borrowing APR).
+我们可以轻松获得 228% 的最终 APR。还有一些其他因素会影响最终的 APR，即借入 APR（借入更多 LP 代币的贷款利息），以及构成 LP 对的两种资产的供给和需求（直接驱动借入 APR）。
 
-Also, because all the rates are magnified by the number of times the loop is applied, the APR will vary drastically, and can sometimes become negative for short amount of times (your LP token will be used to repay the negative APR).
+此外，因为所有费率都被应用循环的次数放大，因此 APR 会有巨大的变化，有时可能会在短时间内变为负数（你的 LP 代币将用于偿还负的 APR）。
 
-### Leveraged position of my MAI/USDC pair
+### 我的 MAI/USDC 对的杠杆头寸
 
-In the end, you are using the base APR on a much bigger value, which is earning much bigger interests, increasing the APR of your initial position.
+最后，你将基础 APR 用于一个更大的价值，这将获得更大的利息，从而增加你初始头寸的 APR。
 
-![An example of Impermax dashboard with an initial $70.52 MAI/USDC pair](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.38.33 PM.png>)
+![初始 MAI/USDC 对为 70.52 美元的Impermax 仪表板示例](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.38.33 PM.png>)
 
-I can see very easily how much I'm using as collateral, how much I initially invested, what's the leverage ratio, and what are the liquidation values due to the leverage ratio. This position will give me the following ratios at the time of writing
+我可以很容易地看到我使用了多少作为抵押品，我最初投资了多少，杠杆比率是多少，以及由于杠杆比率导致的清算价值是多少。在撰写本文时，该寸头将为我提供以下比率
 
-![Earnings and spendings estimation at a given time](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.41.55 PM.png>)
+![在给定时间的收入和支出估算](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.41.55 PM.png>)
 
-The APR is granted in IMX token that can either be swapped for more MAI/USDC (use the power of Mai Finance to borrow at 0% interest, RFTM), or used to provide liquidity on specific pools accepting IMX on Impermax.
+APR 以 IMX 代币授予，可以互换成更多的 MAI/USDC（使用 Mai Finance 的权力以 0% 的利息借入，RFTM），或用于为在 Impermax 上接受 IMX 的特定池提供流动性。
 
-### Supplying MAI to borrowers
+### **向借款人供应MAI**
 
-Indeed, on the app you can also provide liquidity to those who want to apply leveraging loops to their positions (they will need underlying assets to generate more LP tokens). Lending assets is a great way to earn yield and let the borrowers take all the risks. Also, the more users are borrowing, the higher the supply APR will be.
+确实，在应用程序上，你还可以为那些想要将杠杆循环应用于其头寸的人提供流动性（他们将需要基础资产来生成更多 LP 代币）。借贷资产是赚取收益并让借款人承担所有风险的好方法。还有，借款的用户越多，供应 APR 就越高。
 
-![Rates for supplying and borrowing MAI on Impermax at a given time](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.47.56 PM.png>)
+![在给定时间 Impermax 上提供和借入 MAI 的利率](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.47.56 PM.png>)
 
-This is another great way to optimize your 0% loan on Mai Finance. Not only you don't have to pay anything to borrow MAI, but you can earn a lot of interest just by depositing it on Impermax.
+这是优化你在 Mai Finance 上的 0% 贷款的另一种好方法。借 MAI 不仅无需支付任何费用，而且只需将其存入 Impermax上 即可赚取大量利息。
 
-## Disclaimer
+## 免责声明
 
-Everything is this tutorial is purely educational. The goal is to bring light to projects that I think are worthy for people evolving in the crypto world on Polygon. I obviously didn't talk about Mai Finance as a farm because a dedicated tutorial will be written very soon. Finally, this guide is ABSOLUTELY NOT meant to be applied as is, it's not any financial advice and you should not follow blindly what I wrote. Please read the docs of the different projects I mentioned before considering investing on their platforms.
+一切都是本教程纯粹是教育性的。目标是为我认为值得在 Polygon 上的加密世界中发展的人们带来光明。我显然没有把Mai Finance说成一个农场，因为很快就会写出专用的教程。
+
+最后，本指南绝对不能按原样应用，它不是任何财务建议，你不应该盲目遵循我写的内容。在考虑投资他们的平台之前，请阅读我提到的不同项目的文档。
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请牢记在给定时间运行良好的策略可能在另一个时间表现不佳（或让你赔钱）。请保持消息灵通，监测市场，留意你的投资，并一如既往地，做你的研究。
 {% endhint %}
