@@ -48,7 +48,7 @@ Isso reduz drasticamente a pressão de venda dos tokens EXOD, o que beneficia o 
 Se você não está familiarizado com os projetos Ohm, recomendo fortemente mais algumas leituras sobre o assunto. Você pode consultar nosso guia sobre Klima (veja a seção Polígono) ou ir diretamente para a [official documentation of Exodia](https://docs.exodia.finance). Além disso, você pode se juntar à discórdia e se inscrever no esquema de educação..
 {% endhint %}
 
-You also see that the LP token accepts MAI, the stable coin that you can mint on Mai Finance. This will actually be our main source for the LP (see later). Once you purchased your bonds with a decent discount, you will get your EXOD tokens at the end of the vesting period. You can also stake this token at a decent APY (**A**nnual **P**ercentage **Y**ield) of 38,787%, which is equivalent to an APR (**A**nnual **P**ercentage **R**ate) of 601%, or a daily gain of 1.65%.
+Você também vê que o token LP aceita MAI, a moeda estável que você pode cunhar no Mai Finance. Esta será, na verdade, nossa fonte principal para o LP (veja mais adiante). Depois de comprar seus títulos com um desconto decente, você receberá seus tokens EXOD no final do período de aquisição. Você também pode apostar esse token em um APY (**A**nnual **P**ercentage **Y**ield, ou Rendimento Percentual Anual) decente de 38.787%, o que equivale a um APR (**A**nnual **P**ercentage Rate, ou Taxa Percentual Anual) de 601% ou um ganho diário de 1,65%.
 
 We will be using the bonding system to purchase EXOD tokens with a discount, and profit from the very high APY to collect gains from rebase rewards.
 
