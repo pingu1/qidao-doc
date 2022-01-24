@@ -19,33 +19,33 @@ Há alguns meses, isso se tornou possível com a introdução de títulos e taxa
 
 ### Apresentação do projeto
 
-[Exodia](https://app.exodia.fi/dashboard) é um pequeno projeto na Fantom que tem um potencial gigantesco. É um Ohm-fork baseado no token EXOD que é uma moeda de reserva apoiada por diferentes ativos. Os ativos de apoio iniciais adicionados ao tesouro Exodia foram DAI e FTM, mas a equipe e o DAO encarregados do protocolo decidiram desenvolver laços com a comunidade Olympus e alocar 33% de suas reservas excedentes para comprar ativos denominados em OHM. Como tal, uma pequena parte da tesouraria é denominada em tokens gOHM.
+[Exodia](https://app.exodia.fi/dashboard) é um pequeno projeto na Fantom que tem um potencial gigantesco. É um Ohm-fork baseado no token EXOD, uma moeda de reserva apoiada por diferentes ativos. Os ativos de rerva iniciais adicionados ao tesouro da Exodia foram DAI e FTM, mas a equipe e a DAO encarregados do protocolo decidiram desenvolver laços com a comunidade Olympus e alocar 33% de suas reservas excedentes para comprar ativos denominados em OHM. Como tal, uma pequena parte da tesouraria é denominada em tokens gOHM.
 
-![Treasury breakdown of Exodia as of January 2022](../../.gitbook/assets/exodia-tomb-1.png)
+![Detalhamento do Tesouro da Exodia em janeiro de 2022](../../.gitbook/assets/exodia-tomb-1.png)
 
-### New bonding LP Token
+### Novo LP Token para Bonding
 
-In order to strengthen the ties, Exodia rececntly voted to increase the amount of OHM-related tokens in its treasury, and will soon accept a new token as part of their bonding program. The new token is an LP (**L**iquidity **P**roviding) token that one can create on BeethovenX. One of the best things about BeethovenX tokens is that they can be created even if you only own a single asset from the selection in the pool, which makes it easily accessible. The LP token is compsed of
+Para fortalecer laços, a Exodia votou recentemente para aumentar a quantidade de tokens relacionados ao OHM em seu tesouro e em breve aceitará um novo token como parte de seu programa de bonding. O novo token é um token LP (Liquidity Provider) que pode ser criado no BeethovenX. Uma das melhores coisas sobre os tokens BeethovenX é que eles podem ser criados mesmo se você possuir apenas um único ativo da seleção no pool, o que o torna facilmente acessível. O token LP é composto por:
 
-* 20% wFTM
-* 20% EXOD
-* 20% wsEXOD
-* 20% gOHM
-* 20% MAI
+* 20% em wFTM
+* 20% em EXOD
+* 20% em wsEXOD
+* 20% em gOHM
+* 20% em MAI
 
-![The Monolith LP pool on BeethovenX as of January 2022](../../.gitbook/assets/exodia-tomb-2.png)
+![A LP pool Monolith na BeethovenX a partir de janeiro de 2022](../../.gitbook/assets/exodia-tomb-2.png)
 
-This is probably the first Ohm fork using a Balancer fork LP token to bond. This is particularly interesting in the sense that you can now purchase new bonds using just your EXOD tokens. The steps involved would be:
+Este é provavelmente o primeiro fork da Ohm usando um token LP de um fork da Balancer para bonding. Isso é interessante porque agora você pode comprar novos títulos usando apenas seus tokens EXOD. As etapas seriam:
 
-* deposit your EXOD token into `The Monolith` pool on BeethovenX to get the LP token
-* sell your LP token on the Exodia app to purchase new EXOD with a discount
-* wait the vesting period and collect your EXOD tokens
-* repeat
+* deposite seu token EXOD no pool `The Monolith` da BeethovenX para obter o token LP
+* venda seu token LP no aplicativo da Exodia para comprar um novo EXOD com desconto
+* aguarde o período de vesting e colete seus tokens EXOD
+* repita
 
-This drastically reduces the sell pressure on EXOD tokens, which can only benefit the protocol. Previously bond flippers would have to sell their EXOD for DAI to purchase additional bonds, which is partially detrimental by reducing the token price, and has a cascading effect on the treasury and the runway.
+Isso reduz drasticamente a pressão de venda dos tokens EXOD, o que beneficia o protocolo. Anteriormente, os flippers de títulos teriam que vender seu EXOD para obter DAI e comprar títulos adicionais, o que é prejudicial por reduzir o preço do token e causar um efeito em cascata ao tesouro e ao projeto.
 
 {% hint style="info" %}
-If you're not familiar with Ohm projects, I strongly recommend some more readings on the subject. You can refer to our guide on Klima (see the Polygon section) or go directly to the [official documentation of Exodia](https://docs.exodia.finance). Also, you could join their discord and enroll in their education scheme.
+Se você não está familiarizado com os projetos Ohm, recomendo fortemente mais algumas leituras sobre o assunto. Você pode consultar nosso guia sobre Klima (veja a seção Polígono) ou ir diretamente para a [official documentation of Exodia](https://docs.exodia.finance). Além disso, você pode se juntar à discórdia e se inscrever no esquema de educação..
 {% endhint %}
 
 You also see that the LP token accepts MAI, the stable coin that you can mint on Mai Finance. This will actually be our main source for the LP (see later). Once you purchased your bonds with a decent discount, you will get your EXOD tokens at the end of the vesting period. You can also stake this token at a decent APY (**A**nnual **P**ercentage **Y**ield) of 38,787%, which is equivalent to an APR (**A**nnual **P**ercentage **R**ate) of 601%, or a daily gain of 1.65%.
