@@ -48,22 +48,22 @@ Isso reduz drasticamente a pressão de venda dos tokens EXOD, o que beneficia o 
 Se você não está familiarizado com os projetos Ohm, recomendo fortemente mais algumas leituras sobre o assunto. Você pode consultar nosso guia sobre Klima (veja a seção Polígono) ou ir diretamente para a [official documentation of Exodia](https://docs.exodia.finance). Além disso, você pode se juntar à discórdia e se inscrever no esquema de educação..
 {% endhint %}
 
-Você também vê que o token LP aceita MAI, a moeda estável que você pode cunhar no Mai Finance. Esta será, na verdade, nossa fonte principal para o LP (veja mais adiante). Depois de comprar seus títulos com um desconto decente, você receberá seus tokens EXOD no final do período de aquisição. Você também pode apostar esse token em um APY (**A**nnual **P**ercentage **Y**ield, ou Rendimento Percentual Anual) decente de 38.787%, o que equivale a um APR (**A**nnual **P**ercentage Rate, ou Taxa Percentual Anual) de 601% ou um ganho diário de 1,65%.
+Você também vê que o LP token aceita MAI, a stablecoin que você pode cunhar na Mai Finance. Esta será, na verdade, nossa fonte principal para o LP (veremos a seguir). Depois de comprar seus bonds com um desconto decente, você receberá seus tokens EXOD no final do período de vesting. Você também pode fazer staking com esse token, rendendo um APY (**A**nnual **P**ercentage **Y**ield, ou Rendimento Percentual Anual) de 38.787%, o que equivale a um APR (**A**nnual **P**ercentage **R**ate, ou Taxa Percentual Anual) de 601% e um ganho diário de 1,65%.
 
-We will be using the bonding system to purchase EXOD tokens with a discount, and profit from the very high APY to collect gains from rebase rewards.
+Usaremos o sistema de bonding para comprar tokens EXOD com desconto e lucrar com o enorme APY para coletar ganhos das recompensas de rebase.
 
 ## Tomb Finance
 
-[Tomb Finance](https://tomb.finance) is a very particular project, original in many ways. The TOMB token is an algorithmic stable coin pegged to the FTM token, and designed to be a medium of exchange and to add additional liquidity to FTM,the gas token of the Fantom chain.
+[Tomb Finance](https://tomb.finance) é um projeto muito particular, original em muitos aspectos. O token TOMB é uma stablecoin algorítmica atrelada ao token FTM, projetada para ser um meio de troca e para adicionar liquidez adicional ao FTM, o token de gas da rede Fantom.
 
-The Tomb Finance ecosystem proposes 2 more tokens:
+O ecossistema Tomb Finance propõe mais 2 tokens:
 
-* TSHARE: this is the governance token for Tomb Finance. Holders of TSHARE have voting power. TSHARE stakers will also receive additional TOMBs. The emission of additional TOMB tokens to TSHARE holders is following the same mechanics as Ohm forks with new token being minted at the end of each epoch with very high APY.
-* TBOND: this is a special tokens that is primarly used to maintain the peg to 1 FTM. When the TOMB price falls below 1 FTM, users can purchase TBOND at the current price of TOMB tokens. They can do so by selling TOMB tokens to the protocol, and these tokens are burnt, which increases the value of TOMB back to 1 FTM. Buying TBOND at a discount and being able to redeem TOMB tokens gave the name to the TBOND token. When the TOMB token is above thee peg, people can redeem their TBOND for TOMB. New TOMB are minted, reducing the value of the token. In other words, this is an arbitrage token!
+* TSHARE: este é o token de governança para o Tomb Finance. Os detentores de TSHARE têm poder de voto. Os participantes do TSHARE também receberão TOMBs adicionais. A emissão de tokens TOMB adicionais para os detentores de TSHARE segue a mesma mecânica dos forks Ohm, com novos tokens sendo cunhados no final de cada época com um APY muito alto.
+* TBOND: este é um token especial que é usado principalmente para manter o peg em 1 FTM. Quando o preço do TOMB cai abaixo de 1 FTM, os usuários podem comprar TBOND ao preço atual dos tokens TOMB. Eles podem fazer isso vendendo tokens TOMB para o protocolo e esses tokens são queimados, o que aumenta o valor do TOMB de volta para 1 FTM. Comprar TBOND com desconto e poder resgatar tokens TOMB deu o nome ao token TBOND. Quando o token TOMB está acima do peg, as pessoas podem trocar seu TBOND por TOMB. Novos TOMB são cunhados, reduzindo o valor do token. Em outras palavras, este é um token de arbitragem!
 
-![TOMB, TBOND and TSHARE values as of January 2022](../../.gitbook/assets/exodia-tomb-3.png)
+![Valor de TOMB, TBOND e TSHARE em janeiro de 2022](../../.gitbook/assets/exodia-tomb-3.png)
 
-Tomb Finance also proposes 2 LP pools that will earn you TSHARE tokens. This is particularly important for Tomb Finance to have a very important liquidity depth. However, to achieve the objective of geetting TOMB as an alternative solution to FTM, it's important for the protocol to have users using TOMB, hence owning the liquidity. When you farm the TOMB-FTM and TSHARE-FTM pools, you are rewarded with TSHARE tokens that will allow you to earn more TOMB tokens, which is a nice little closed loop within a single application.
+A Tomb Finance também oferece 2 LP pools que lhe darão tokens TSHARE. Isso é particularmente importante, pois a Tomb Finance deve ter profundidade de liquidez. No entanto, para atingir o objetivo de ter o TOMB como uma solução alternativa ao FTM, é importante que o protocolo tenha usuários utilizando o TOMB, detendo assim a liquidez. Quando você faz farming nas pools TOMB-FTM e TSHARE-FTM, você é recompensado com tokens TSHARE que permitirão que você ganhe mais tokens TOMB, o que é um belo loop fechado em um único aplicativo.
 
 ## Additional pieces to close loops
 
