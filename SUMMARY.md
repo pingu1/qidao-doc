@@ -33,6 +33,7 @@
   * [CroDex ile Lego Benzeri Çiftçilik](rehberler/cronos/farming-legos-with-crodex.md)
 * [Harmony](rehberler/harmony/README.md)
   * [Harmony Nasıl Kullanırım?](rehberler/harmony/how-to-get-started-on-harmony.md)
+  * [One LP Pair, Many ways to farm](rehberler/harmony/how-to-farm-elknet.md)
 
 ## MAI Üniversitesi
 
