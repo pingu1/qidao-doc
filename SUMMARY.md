@@ -11,7 +11,7 @@
   * [Farmen mit Stablecoins](tutorials/polygon/secure-your-yield-farming-profits.md)
   * [Was du mit MAI auf Polygon machen kannst](tutorials/polygon/what-to-do-with-mai-on-polygon.md)
   * [Was du mit Qi auf Polygon machen kannst](tutorials/polygon/what-to-do-with-qi-on-polygon.md)
-  * [Stack DApps like Lego bricks](tutorials/polygon/stack-dapps-like-lego-bricks.md)
+  * [Stapel DApps wie Lego](tutorials/polygon/stack-dapps-like-lego-bricks.md)
   * [Farmen oder Staken? Oder doch beides?](tutorials/polygon/farming-or-staking-or-both.md)
   * [How to combine farming and borrowing rewards](tutorials/polygon/how-to-combine-farming-and-borrowing-rewards.md)
   * [OHM-Forks auf Polygon: KLIMA als Beispiel](tutorials/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
