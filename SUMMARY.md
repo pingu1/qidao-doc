@@ -10,7 +10,7 @@
   * [camDAI beginner strategy](jiao-cheng/polygon/camdai-beginner-strategy.md)
   * [只使用稳定币农耕](jiao-cheng/polygon/secure-your-yield-farming-profits.md)
   * [如何在 Polygon 上使用 MAI](jiao-cheng/polygon/what-to-do-with-mai-on-polygon.md)
-  * [What to do with Qi on Polygon](jiao-cheng/polygon/what-to-do-with-qi-on-polygon.md)
+  * [如何在 Polygon 上使用 Qi](jiao-cheng/polygon/what-to-do-with-qi-on-polygon.md)
   * [Stack DApps like Lego bricks](jiao-cheng/polygon/stack-dapps-like-lego-bricks.md)
   * [Farming or Staking? Or both?](jiao-cheng/polygon/farming-or-staking-or-both.md)
   * [How to combine farming and borrowing rewards](jiao-cheng/polygon/how-to-combine-farming-and-borrowing-rewards.md)

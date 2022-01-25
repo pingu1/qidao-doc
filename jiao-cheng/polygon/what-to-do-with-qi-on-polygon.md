@@ -1,170 +1,169 @@
 ---
 description: >-
-  This guide will explain in details how you can use your Qi, the native token
-  from Mai Finance, on Polygon. We will also analyze if Qi is a good investment
-  opportunity, and what drives its price.
+  本指南将详细解释如何在 Polygon 上使用来自 Mai Finance 的原生代币 Qi。我们还将分析 Qi
+  是否是一个好的投资机会，以及是什么驱动了它的价格。
 ---
 
-# What to do with Qi on Polygon
+# 如何在 Polygon 上使用 Qi
 
-## Intro
+## 简介
 
-Qi (\[tʃ Í] or _chee_), is the native token of Mai Finance. Some use it to vote and QIP (**Q**iDAO **I**mprovement **P**roposals), some stake it to get even more of them, and some simply farm with it. You can find some very good info on how you can use Qi on the Mai Finance plateforme in the [guide dedicated to passive income](../../MAI-university/earning-passive-income-with-qidao.md).
+Qi（\[tʃ Í] 或 chee），是麦财经的原生代币。有些人用它来投票和 QIP（QiDAO 改进提案），有些人质押它来获得更多的人，有些人只是用它来耕种。你可以在专门针对[被动收入的指南](../../MAI-university/earning-passive-income-with-qidao.md)中找到有关如何在 Mai Finance 平台上使用 Qi 的一些非常好的信息。
 
-This guide, as most investment tutorials, will focus primarily on farming and harvesting yields, this time using the Qi token. We will see how you can generate a lot of Qi, and how you can use them on the different platforms on Polygon.
+与大多数投资教程一样，本指南将主要关注农耕和收获产量，这次使用 Qi 代币。我们将看到如何生成大量 Qi，以及如何在 Polygon 的不同平台上使用它们。
 
-Humble farmers will sometimes tell you that you need to remain humble, sell what you harvest and take profits. But personally, I'll go with:
+谦虚的农民有时会告诉你，你需要保持谦虚，出售你收获的东西并获利。但就个人而言，我会选择：
 
-> Give a man a fish and you feed him for a day. Teach a man to fish and you feed him for a lifetime.
+> 授人以鱼不如授人以渔
 
-So grab your fish rods, and follow the guide.
+所以，请抓起你的鱼竿，并按照指南进行操作。
 
-## What to do with your Qi on Polygon
+## **如何在 Polygon 上使用 你的Qi**
 
 ### Staking
 
-I will not spend too much time on this part, there's already a complete guide on the subject. Just keep in mind that Mai Finance is collecting revenues, and redistributes a very large portion to Qi stakers. Staking your Qi on Mai finance is one of the best use for the token, and as of September 2021, 23% of all circulating Qi is locked on average for 2 years.
+我不会在这部分上花太多时间，已经有关于该主题的完整指南。只是牢记，Mai Finance 正在收集收入，并将很大一部分重新分配给 Qi 利益相关者。将你的 Qi 抵押在 Mai Finance上是代币的最佳用途之一，截至 2021 年 9 月，所有流通 Qi 的 23% 平均锁定 2 年。
 
-### LP pair Farming
+### **LP对农耕**
 
-Once again, there are already a few other pages presenting how you can include the Qi token in your farming strategy to generate yields and never sell any of your farm tokens. See [Stack DApps like Lego bricks](stack-dapps-like-lego-bricks.md) or [Farming or Staking ?](farming-or-staking-or-both.md) guides for details exampled.
+再一次，已经有一些其他页面展示了如何将 Qi 代币包含在你的耕作策略中以产生收益并且永远不会出售你的任何农场代币。查看[像乐高积木一样堆叠 DApp](stack-dapps-like-lego-bricks.md)或 [耕种还是质押？或两者？](farming-or-staking-or-both.md) 示例的详细信息指南。
 
-As a quick reminder, Qi is paired to different tokens to form LP (**L**iquidity **P**rovider) pairs on [QuickSwap](https://quickswap.exchange/#/quick) so that you can farm
+快速提醒一下，Qi 与不同的代币配对以在 [QuickSwap](https://quickswap.exchange/#/quick)上形成 LP（流动性提供者）对，以便你可以耕种
 
-* Qi-WMATIC on Mai Finance and get rewarded with Qi tokens
-* Qi-WETH on QuickSwap and get rewarded with QUICK tokens
-* Qi-QUICK on QuickSwap and get rewarded with QUICK tokens
+* 在Mai Finance上的Qi-WMATIC并获得Qi代币奖励
+* 在QuickSwap上的Qi-WETH并获得QUICK代币奖励
+* 在QuickSwap上的Qi-QUICK并获得QUICK代币奖励
 
-![LP pool on QuickSwap for the Qi-WETH pair](<../../.gitbook/assets/image (19) (2).png>)
+![用于Qi-WETH对的QuickSwap上的 LP 池](<../../.gitbook/assets/image (19) (2).png>)
 
-### Single Qi farming
+### 单Qi耕作
 
-Qi can also be used solely on [Impermax](https://polygon.impermax.finance). Impermax is a platform where you will be able to leverage a specific LP pair several times in order to increase your gains from QuickSwap.
+Qi 也可以单独用于[Impermax](https://polygon.impermax.finance)。 Impermax 是一个平台，你将可以在其中杠杆一个特定的 LP 对几次以增加 QuickSwap 的收益。
 
-The way it works, is that you will borrow the 2 tokens forming the pair that you want to farm, combine them into more LP tokens, and farm with a much higher position. In most cases, borrowing rates are largely compensated by farming APR, giving you some net positive rewards.
+它的工作方式是，你将借用 2 个代币形成你想要耕种的配对，将它们组合成更多的 LP 代币，然后以更高的寸头耕种。在大多数情况下，借款利率主要通过耕作APR 来补偿，从而为你提供一些净正回报。
 
-![Leveraged Qi-WETH position on Impermax](<../../.gitbook/assets/image (10).png>)
+![在Impermax上的杠杆Qi-WETH头寸](<../../.gitbook/assets/image (10).png>)
 
-We can see here that the final reward APR on Impermax is 393.88% after leveraging 5 times, based on an APY of 239.68% on QuickSwap.
+我们可以在这里看到，基于 QuickSwap 上的 239.68% 的 APY，在杠杆5次后Impermax 上的最终奖励 APR 为 393.88%。
 
 {% hint style="info" %}
-Note also that Impermax gives estimated APRs (**A**nnual **P**ercentage **R**ewards) while QuickSwap gives estimated APYs (**A**nnual **P**ercentage **Y**ields), meaning that QuickSwap assumes you compound your rewards daily. The 239.68% APY on QuickSwap corresponds to a 122.49% APR.
+另请注意，Impermax 给出了估计的 APR（年度百分比奖励），而 QuickSwap 给出了估计的 APY（年度百分比收益），这意味着 QuickSwap 假设你每天复合你的奖励。 QuickSwap 上 239.68% 的 APY 对应于 122.49% 的 APR。
 {% endhint %}
 
-But then, on Impermax, in order to borrow Qi and WETH to leverage your position, you need to get them from somewhere. This is possible only because some other users (or yourself) also supply both tokens separately. The more token is borrowed, the higher the borrowing rate becomes, and the lower the final APR, sometimes going in the negatives.
+但是，在 Impermax 上，为了借用 Qi 和 WETH 来杠杆你的头寸，你需要从某个地方获取它们。这是可能的，因为其他一些用户（或你自己）也分别提供了两种代币。借入的代币越多，借贷利率就越高，最终的 APR 越低，有时会出现负数。
 
-![Qi and WETH statistics for the Qi-WETH market on Impermax](<../../.gitbook/assets/image (11).png>)
+![Impermax 上 Qi-WETH 市场的 Qi 和 WETH 统计数据](<../../.gitbook/assets/image (11).png>)
 
-For our example, we will focus on Qi. You can see that the total supply of Qi is $427.21 and the total amount used in leveraged position is $321.44, giving the utilization rate of 75.24%. Impermax has some internal mechanism that automatically calculates the supply APR (APR that people lending Qi will get) and the borrowing APR (percentage of the farmed reward that will be deduced to pay the loan).
+对于我们的示例，我们将关注 Qi。可以看到 Qi 的总供应量为 427.21 美元，杠杆头寸使用的总金额为 321.44 美元，利用率为 75.24%。 Impermax 有一些内部机制，可以自动计算供应 APR（借出 Qi 的人将获得的 APR）和借款 APR（将被扣除以支付贷款的农场奖励的百分比）。
 
-This means that you can provide Qi solely on Impermax and get, in our example, 43.73% APR, at the moment of writing. As supply and demand varies, the supply APR will also increase / decrease. When you supply single tokens on Impermax, you will get rewarded with the token you provide, meaning that this strategy will make you accumulate more Qi over time.
+这意味着你可以仅在 Impermax 上提供 Qi 并在我们的示例中获得 43.73% 的 APR，在撰写本文时。随着供需变化，供应 APR 也会增加/减少。当你在 Impermax 上提供单个代币时，你将获得你提供的代币奖励，这意味着该策略将使你随着时间的推移积累更多 Qi。
 
-While you are on Impermax, you can also use the leverage option to get IMX rewards. Please read the [Stacking guide](stack-dapps-like-lego-bricks.md) to get more details on how you can include Impermax in your farming strategy.
+当你使用 Impermax 时，你还可以使用杠杆选项来获得 IMX 奖励。请阅读[堆叠指南](stack-dapps-like-lego-bricks.md)以获取有关如何将 Impermax 包含进你的耕作策略的更多详细信息。
 
 ### Balancer
 
-Balancer is a really nice toolbox for any strategy, especially the ones that include Qi and/or MAI. Balancer proposes an equivalent of LP pair mining, but with more than 2 tokens provided in a 1:1 ratio. The pool can have 3, 4 or 5 tokens (sometimes even more) with different weight, and the algorithm in charge of the pool makes sure that the ratio for each token is always respected, selling some and buying others to keep it balanced.
+Balancer 是适用于任何策略的非常好的工具箱，尤其是包含 Qi 和/或 MAI 的策略。 Balancer 提出了等价于 LP 对挖掘，但以 1:1 的比例提供超过 2 个代币。池可以有 3、4 或 5 个不同权重的代币（有时甚至更多），负责池的运算法则确保始终遵守每个代币的比率，出售一些和购买其他以保持平衡。
 
-The pool that we want to use here is a pool that contains Qi, WMATIC, BAL, USDC and MAI. This pool will reward you with both Qi and BAL tokens, and you can already see that you will be able to compound both into the pool. Because another amazing advantage of pools on Balancer is that you don't need to provide all tokens forming the pool in the proper ratio, the algorithm will do it for you. This means that you can indeed only deposit Qi in the pool and let the algorithm do the rest to rebalance everything.
+我们这里要使用的池是包含 Qi、WMATIC、BAL、USDC 和 MAI 的池。这个池将奖励你 Qi 和 BAL 代币，你已经可以看到你将能够将两者复合到池中。因为 Balancer上池的另一个惊人优势是你不需要以适当的配比提供形成池的所有代币，算法会为你完成。这意味着你确实只能将 Qi 存入池中，然后让运算法则完成其余的工作以重新平衡所有内容。
 
-![Details of the pool as of September 2021](<../../.gitbook/assets/image (12).png>)
+![截至 2021 年 9 月的池详情](<../../.gitbook/assets/image (12).png>)
 
-As a side note, BAL tokens can (or will soon be) usable as collateral on Mai Finance, which mean that you will have the option to store your BAL tokens on the BAL vault on Mai Finance, and borrow MAI against then. In addition to that, borrowing MAI against your BAL tokens will make you eligible for Qi rewards that will feed the pool on Balancer.
+作为旁注，BAL 代币可以（或即将）用作 Mai Finance 的抵押品，这意味着你可以选择将 BAL 代币存储在 Mai Finance 的 BAL 保险库中，然后借用 MAI。除此之外，用你的 BAL 代币借用 MAI 将使你有资格获得 Qi 奖励，这些奖励将喂养 Balancer上 的池。
 
-![Closed loop using Mai Finance and Balancer](<../../.gitbook/assets/image (13).png>)
+![使用 Mai Finance 和 Balancer 的闭环](<../../.gitbook/assets/image (13).png>)
 
-The APR of BAL vaults will highly dictates how interesting it is to have the vault in the loop, or if compounding your Qi into the Balancer's pool will be better.
+BAL 金库的 APR 将高度决定在循环中使用金库有多有趣，或者是否将你的 Qi 复合到Balancer的池中会更好。
 
-## Understanding the price of Qi
+## **理解Qi的价格**
 
-Getting a lot of Qi is one thing, however if the token loses value over time, is it really a good strategy to keep it? In this section, we will try to understand the different factors that impact directly the price of Qi so that, when you start investing your Qis, you will get a better idea of how its price may vary, and what impact you will get on the Qi ecosystem.
+获得大量 Qi 是一回事，但是如果代币随着时间的推移而失去价值，那么保留它真的是一个好策略吗？在本节中，我们将尝试了解直接影响 Qi 价格的不同因素，以便当你开始投资 Qi 时，你将更好地了解其价格可能会如何变化，以及你会对Qi的生态系统产生什么影响。
 
-### Qi emission
+### **Qi排放**
 
-One of the main factor that will affect the price of Qi is the rate at which they are created. Indeed, price is always driven by demand and supply. If there's a lot of supply and very low demande, the price will naturally collapse. Hence understanding how Qi is generated is crucial to estimate its value over time.
+影响 Qi 价格的主要因素之一是它们创建时候的比率。确实，价格总是由需求和供应驱动。如果有大量的供应和非常低的需求，价格将自然崩溃。因此，了解 Qi 是如何产生的对于估计其随时间推移的价值至关重要。
 
-There are currently 2 sources of Qi emission: farming rewards and vault rewards.
+目前有2种Qi排放：耕作奖励和金库奖励。
 
-![LP farms on Mai Finance in September 2021](<../../.gitbook/assets/image (16).png>)
+![2021 年 9 月 Mai Finance 上的 LP 农场](<../../.gitbook/assets/image (16).png>)
 
-If you are farming yields on MAI finance, you have the choice between the MAI/USDC pair and the Qi/WMATIC pair (as of September 2021).
+如果你通过 MAI finance 耕作收益，你可以在 MAI/USDC 对和 Qi/WMATIC 对之间进行选择（截至 2021 年 9 月）。
 
-* The MAI/USDC pair is rewarded with 0.5 Qi / block
-* The Qi/WMATIC pair is rewarded with 1 Qi / block
+* MAI/USDC 对奖励 0.5 Qi/块
+* Qi/WMATIC 对奖励 1 Qi/块
 
-On Polygon, the expected block time is 2 seconds, and since there are 86,400 seconds in a day, this means that the MAI/USDC pool is rewarded with 21,600 Qi every day, and the Qi/WMATIC with 43,200 Qi.
+在 Polygon 上，预期区块时间为 2 秒，由于一天有 86,400 秒，这意味着 MAI/USDC 池每天奖励 21,600 Qi，Qi/WMATIC 奖励 43,200 Qi。
 
-The pools of Mai Finance alone are responsible for 64,800 new Qi daily.
+仅Mai Finance的池每天就负责 64,800 个新的 Qi。
 
-As for Vaults, each vault gets an emission of 0.05 Qi / block, or a daily emission of 2,160 Qi, and there are currently 10 Vaults, for a total of 21,600 Qi allocated as Vault rewards.
+至于Vaults，每个金库的排放量为 0.05 Qi / 块，或每天排放 2,160 Qi，目前有 10 个金库，总共分配了 21,600 Qi 作为金库奖励。
 
-This means that each day, the equivalent of 86,400 new Qi are minted and distributed to users.
+这意味着每天有 相当于86,400 个新 Qi 被铸造并分发给用户。
 
-### Yield optimizers
+### **收益优化器**
 
-Yield optimizers are platforms that will automatically compound the rewards with some pre-defined strategies, and allocate additional rewards for you to choose their site. However, a big part of the reward harvested is sold directly, and re-used in another way on these platforms.
+收益优化器是一种平台，它会自动将奖励与一些预定义的策略相结合，并为你分配额外的奖励来选择他们的网站。然而，收获的很大一部分奖励是直接出售的，并在这些平台上以另一种方式重新使用。
 
-As an example, Adamant offers you to farm the Qi/WMATIC LP pair on their platform, with the following reward distribution
+例如，Adamant 为你提供在他们的平台耕作 Qi/WMATIC LP 对，以下是奖励分配
 
-![Qi-WMATIC pool on Adamant](<../../.gitbook/assets/image (15).png>)
+![Adamant 上的 Qi-WMATIC 池](<../../.gitbook/assets/image (15).png>)
 
-![Details of the 179.23% APR granted by Adamant](<../../.gitbook/assets/image (14).png>)
+![Adamant 授予的 179.23% APR 的详细信息](<../../.gitbook/assets/image (14).png>)
 
-You will notice that if the overall APR is higher than on Mai Finance, it's solely because Adamant is allocating additional ADDY rewards to the farmers. The amount of Qi that is actually redistributed to the farmer is 98.45% compared to the 134.42% you can get on Mai Finance.
+你会注意到，如果整体 APR 高于 Mai Finance，那仅仅是因为 Adamant 向耕作者分配了额外的 ADDY 奖励。重新分配给耕作者的实际的 Qi 数量为 98.45%，而你可以在 Mai Finance 上获得 134.42%。
 
-From these 98.45% Qi reward, half of it is directly sold to buy WMATIC and form additional LP tokens that is then given to the farmer.
+从这 98.45% 的 Qi 奖励中，有一半直接出售购买 WMATIC 并形成额外的 LP 代币，然后给耕作者。
 
-With 100$ worth of LP token, assuming the APR and the token prices remain the same for a complete year, and assuming there's no compounding, you would get after one year of farming
+用价值 100 美元的 LP 代币，假设 APR 和代币价格在一整年中保持不变，并且假设没有复合，你将在一年后获得
 
-* $134.42 worth of new Qi on Mai Finance
-* $98.45 worth of new Qi/WMATIC token, or $49.23 worth of new Qi on Adamant
+* Mai Finance 上价值 134.42 美元的新 Qi
+* 价值 98.45 美元的新 Qi/WMATIC 代币，或 Adamant 上价值 49.23 美元的新 Qi
 
-This means that, in the process, $85.20 worth of Qi is simply sold directly on the market, which is more than 60% of the total emission allocated to the pool on Adamant.
+这意味着，在此过程中，价值 85.20 美元的 Qi 直接在市场上出售，占分配给 Adamant 池的总排放量的 60% 以上。
 
-And Adamant isn't the only platform proposing the same type of service. Some other examples are Beefy Finance and Kogecoin. From the $4.9M TVL in the Qi/WMATIC farm on Mai Finance, $2.3M are coming directly from Adamant, $41k from Beefy and $12k from Kogecoin, representing for these 3 platforms more than 50% of the value locked on Mai Finance. A raw estimation is that more than 30% of the total daily Qi emission is dumped by these platforms, putting some very negative sell pressure on the token, decreasing its price, which partially explains why Qi has difficulties keeping a high price.
+Adamant 并不是唯一提议相同类型服务的平台。其他一些例子是 Beefy Finance 和 Kogecoin。从Mai Finance上Qi/WMATIC农场的490万美元TVL中，230万美元直接来自Adamant，41,000美元来自Beefy，12,000美元来自Kogecoin，代表这3个平台超出Mai Finance锁定价值的50%。一个原始的估算是，超过 30% 的每日 Qi 排放量被这些平台倾销，给代币带来了一些非常负面的抛售压力，从而使它的价格缩减，这部分解释了为什么 Qi 难以保持高价。
 
-### Understanding LP pairs
+### **理解LP对**
 
-When you farm yields by providing LP pairs, the LP token is actually used to provide liquidity to users who are swapping one token for another. In our example of Qi/WETH, when someone is buying WETH, some of the token can be taken off the LP pool and sold to the user requiring it.
+当你通过提供 LP 对来耕作收益时，LP 代币实际上用于为将一种代币互换成另一种代币的用户提供流动性。在我们的 Qi/WETH 示例中，当有人购买 WETH 时，一些代币可以从 LP 池中取出并出售给需要它的用户。
 
-At that point, because some WETH has been taken off the pool, there is a balance mismatch: less WETH for the same amount of Qi. The algorithm in charge of maintaining the pool ratio to 1:1 will then sell some Qi from this pool to buy back some more WETH and recreate a perfect 1:1 ratio. The opposite things also happen when someone buys Qi, i.e. WETH is sold to buy back some Qi.
+在这一点上，由于一些 WETH 已经从池中取出，因此存在余额不匹配：相同数量的 Qi 的 WETH 减少了。负责将池比例维持在 1:1 的算法然后会从该池中出售一些 Qi 以回购更多 WETH 并重新创建一个完美的 1:1 比例。当有人购买 Qi 时也会发生相反的事情，即出售 WETH 以回购一些 Qi。
 
-The same phenomenon occurs when one of the 2 tokens composing the pair gains or loses value. As an example, we will assume that Qi price is $1 and ETH price is $1,000, and that we have a pool that has $100 worth of Qi and $100 worth of WETH. It means that the pools contains 100 Qi and 0.1 WETH.
+同样的现象也会发生在当组成一对的2个代币之一获利或损失价值。例如，我们将假设 Qi 价格为 1 美元，ETH 价格为 1,000 美元，并且我们有一个池，其中有价值 100 美元的 Qi 和价值 100 美元的 WETH。这意味着这些池包含 100 Qi 和 0.1 WETH。
 
-Now, if the price of ETH goes up to $2,000, if the pool keeps the same amount of token, we would have $100 worth of Qi but $200 worth of WETH, and we would have lost the balance. Hence, the algorithm in charge of the pool will sell a little bit of ETH to buy some Qi. In our easy example, $50 worth of ETH will be sold to buy $50 worth of Qi, and the final state would be
+既然，如果 ETH 的价格上涨到 2,000 美元，如果池中保留相同数量的代币，我们将拥有价值 100 美元的 Qi 和价值 200 美元的 WETH，我们就会失去余额。因此，负责池的算法会卖出一点 ETH 来购买一些 Qi。在我们的简单示例中，将出售价值 50 美元的 ETH 以购买价值 50 美元的 Qi，最终状态将是
 
-* 150 Qi with a value of $150$
-* 0.075 ETH with a value of $150
+* 150 Qi 价值 150 美元
+* 0.075 ETH 价值 150 美元
 
-This also means that when the price of one of the 2 token goes up, the pool creates some demande for the other, also driving its price up. The opposite is also true: if one token loses value, the other one will be sold to maintain a 1:1 ratio, driving the price down. This also partially explains the price fluctuation of Qi when compared to the price fluctuation of WEHT and WMATIC (the 2 main tokens to which Qi is paired).
+这也意味着，当 2 个代币之一的价格上涨时，池会为另一个代币创造一些需求，从而推动其价格上涨。反之亦然：如果一个代币价值损失，另一个将被出售以保持 1:1 的比例，从而压低价格。这也部分解释了 Qi 与 WEHT 和 WMATIC（Qi 配对的两个主要代币）的价格波动相比的价格波动。
 
-![Price of Qi (left) VS Price of WMATIC (right)](<../../.gitbook/assets/image (17).png>)
+![Qi的价格（左）VS WMATIC的价格（右）](<../../.gitbook/assets/image (17).png>)
 
-### Lack of use case
+### **缺乏用例**
 
-Finally, the lack of use for Qi, or the lack of known use cases, can explain why the price of the token is going down. People collecting Qi from Vault rewards and/or farming on Mai Finance will just sell it while it still has "some" value in order to realize a profit, with no long-term vision, which is actually a pretty reasonable strategy. This guide tries actually to promote different ways to use your Qi tokens without selling them, but if the price doesn't go up, or if you can't generate benefits in other tokens (a.k.a profit leak), there's very little advantages stacking them.
+最后，缺乏对 Qi 的使用，或者缺乏已知的用例，可以解释为什么代币价格下跌。人们从 Vault 奖励和/或在 Mai Finance 上的农耕中收集 Qi 只会在它仍然有“一些”价值的时候出售它以实现利润，没有长期愿景，这实际上是一个非常合理的策略。本指南实际上尝试在不出售的情况下推广使用 Qi 代币的不同方式，但如果价格不上涨，或者如果你无法在其他代币中产生效益（亦称利润泄漏），则堆叠它们几乎没有优势。
 
-### How can we help price to go up?
+### **我们如何帮助价格上涨？**
 
-If we want the price of Qi to go up (and who wouldn't want to), there are a few options.
+如果我们希望 Qi 的价格上涨（谁不想），有一些选择。
 
-* Reduce emission: with 86,400 new Qi minted daily, the supply is very high. If we cut down this emission, the supply may be lower, and with less supply, price should in theory go up. However, the current emission for the farms need to remain the same because they're part of a current partnership with QuickSwap. Vault incentives have been launched, and are an amazing way to promote the lending platform, pushing people to take loans, so cutting these emissions is probably another bad idea.
-* Farm responsibly: I'm not saying that Adamant is the main culprit or is a bad product. Indeed, I include this platform in most of my strategies and use it on a daily basis. However, I try to farm in pools for which I have less concerns that the token will be dumped. If you want to farm yields on Adamant in a pool that is using the Mai Finance farm, keep in mind that you participate in the Qi depreciation. If you are ok with that, that's totally fine.
-* Understand how things work: prices of ALL crypto-currencies are highly volatile, and most of the time, the price of BTC and ETH dictate the price of all other tokens. This is not done magically. Also, please understand that when some people earn money, it's because some other are loosing some. There's no free money, and magical internet money is actually not that magical.
-* Find new ways to use your Qi tokens. This guide will always provide ideas that will help you increase the volume of your portfolio, and sell as few tokens as possible. Closed loops are the best because the output of one product feeds the input of the next one, creating a nice bubble that will only grow over time.
+* 减少排放：每天铸造 86,400 个新 Qi，供应量非常高。如果我们减少这个排放，供应可能会减少，供应减少，理论上价格应该会上涨。但是，农场当前的排放量需要保持不变，因为它们是当前与 QuickSwap 合作伙伴关系的一部分。 Vault 激励措施已经发起，是一种促进借贷平台、推动人们接受贷款的惊人方式，因此减少这些排放可能是另一个坏主意。
+* 负责任地耕种：我并不是说 Adamant 是主犯或一个坏的产品。事实上，我在我的大部分策略中都包含了这个平台，并且每天都在使用它。但是，我尝试在池中耕种，我不那么担忧代币会被倾倒。如果你想在使用 Mai Finance 农场的池中获得 Adamant 的收益，牢记你参与了 Qi 折旧。如果你觉得没问题，那就绝对没问题。
+* 了解事情是如何运作的：所有加密货币的价格都是高度波动的，而且大多数时候，BTC 和 ETH 的价格决定了所有其他代币的价格。这不是神奇地完成的。另外请理解，当有些人赚钱时，是因为有些人亏了。没有免费的钱，神奇的互联网货币实际上也没有那么神奇。
+* 寻找使用你的 Qi 代币的新方法。本指南将始终提供帮助你增加投资组合的数量并尽可能少出售代币的想法。闭环是最好的，因为一种产品的输出会供给下一种产品的输入，从而形成一个只会随着时间增长的美丽泡沫。
 
-Keep also in mind that
+同样还要牢记
 
 $$
-Value = Quantity * Price
+价值=数量*价格
 $$
 
-When the price go down but your quantity goes up, your value may increase, or at least it won't decrease as fast.
+当价格下跌而您的数量增加时，你的价值可能会增加，或者至少不会快速减少。
 
-## Disclaimer
+## **免责声明**
 
-This guide is actually a result of many discussion about Qi price on the Discord channel. I realized that some people complaining about the price depreciation didn't fully understand the reasons about why the price of Qi was on a consistant down trend. This leads to frustration and delusion, which is very negative for Qi, the Mai Finance product, and the whole DeFi ecosystem in general. However, there's absolutely no guarantee that the price will ever go up, so if you want to keep your Qis and invest them, please do your own research and do it at your own risk. Plan your strategy properly and stick to it.
+本指南实际上是在 Discord 频道上很多讨论 Qi 价格的结果。我意识到有些人抱怨价格贬值，并不完全理解Qi价格处在持续下跌趋势的原因。这会导致沮丧和妄想，这对Mai Finance 产品Qi和整个 DeFi 生态系统非常负面。但是，绝对不能保证价格会永远上涨，因此如果你想保留你的 Qi 并进行投资，请自行研究并自担风险。正确地规划你的策略并坚持下去。
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请牢记在给定时间运行良好的策略可能在另一个时间表现不佳（或让你赔钱）。请保持消息灵通，监测市场，留意你的投资，并一如既往地，做你的研究。
 {% endhint %}
