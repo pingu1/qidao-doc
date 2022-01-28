@@ -1,57 +1,56 @@
 ---
 description: >-
-  This guide presents different ways to farm a single LP pair in order to illustrate
-  the differences between staking and compounding.
+  Bu kılavuz, stake etme ve birleştirme arasındaki farkları göstermek için tek bir LP çifti oluşturmanın farklı yollarını sunar.
 ---
 
-# One LP Pair, Many ways to farm
+# Bir LP ile Çiftçilik Yapmanın Farklı Yolları
 
-## Introduction
+## Giriş
 
-Providing liquidity on a DEX (**D**ecentralized **EX**change) and farming reward is one of the most common way to farm yields in DeFi (**De**centralized **Fi**nance). However, many users are only paying attention to the rates of the LP (**L**iquidity **P**roviding) pool they enter, without really checking if the rate is an APR (**A**nnual **P**ercentage **R**eward) or an APY (**A**nnual **P**ercentage **Y**ield). There are many ways to farm a pool and manage the reward tokens. We will see in this guide some of the different way you can farm one of the latest pools on Harmony, MAI-ELK, and see what you can do with the ELK tokens that you will get as a reward.
+Bir DEX'te (Merkeziyetsiz Borsa) likidite ve çiftçilik ödülü sağlamak DeFi'de (Merkeziyetsiz Finans) verim toplamanın en yaygın yollarından biridir. Bununla birlikte birçok kullanıcı, oranın bir APR (Yıllık Yüzde Ödül) veya bir APY (Yıllık Yüzde Getiri) olup olmadığını gerçekten kontrol etmeden yalnızca girdikleri LP (Likidite Sağlayıcı) havuzunun oranlarına dikkat etmektedir. Bir havuz oluşturmanın ve ödül tokenlarını yönetmenin birçok yolu vardır. Bu kılavuzda Harmony'deki en yeni havuzlardan biri olan MAI-ELK’in çiftçiliğini yapmanın farklı yollarından bazılarını ve ödül olarak alacağınız ELK tokenlarıyla neler yapabileceğinizi göreceğiz.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Fiyat değişimlerine, arz ve talebe, ödül programlarının bitiş tarihlerine, kalıcı kayıplara vs. dikkat etmeniz gerekiyor... Amaç körü körüne takip edilebilecek tarifler önermek değildi. Bu yüzden lütfen kendi simülasyonunuzu yapın ve sadece kaybetmeyi göze aldığınız kadar yatırım yapın.
 {% endhint %}
 
 ![](<../../.gitbook/assets/elk-farming-1.png>)
 
 ## Elk Finance
 
-[Elk Finance](https://app.elk.finance/#/) is a DEX forked from Uniswap v2, as well as an AMM (**A**utomoated **M**arket **M**aker). You will find all the usual features of Uniswap forks: trading your assets, combine your different crypto currencies into LP tokens, farm some LP pairs, and stake their native token, the ELK.
+[Elk Finance](https://app.elk.finance/#/) Uniswap v2'den klonlanmış bir DEX'in yanı sıra bir AMM'dir (Otomatik Piyasa Yapıcı). Uniswap klonlarının tüm olağan özellikleri mevcuttur: varlıklarınızı takas etme, farklı kripto para birimlerinizi LP tokenlarında birleştirme, bazı LP çiftlerini toplama ve yerel tokenları ELK'i stake etme.
 
-What makes Elk Finance a totally different project though is its presence on many blockchains, and not only the EVM-compatibles chains (**E**thereum **V**irtual **M**achine). Indeed, Elk Finance is currentl present on 16 chains and they have plans to expand to many others. They managed to build a bridge between all those chains to let users transfers the ELK token: The ELKNET.
+Ancak Elk Finance'i tamamen farklı bir proje yapan şey, sadece EVM uyumlu zincirlerde değil, birçok blok zincirinde bulunmasıdır. Elk Finance şu anda 16 zincirde mevcut ve diğerlerine de genişlemeyi planlıyor. Kullanıcıların ELK tokenını transfer etmesine izin vermek için tüm bu zincirler arasında bir köprü kurmayı başardılar: ELKNET.
 
-![Bridging some ELK from Harmony to Moonriver using the ElkNet](<../../.gitbook/assets/elk-farming-2.png>)
+![ElkNet'i kullanarak bazı ELK'leri Harmony'den Moonriver'a köprüleme](<../../.gitbook/assets/elk-farming-2.png>)
 
-Also, one cool feature proposed by the ElkNet is the possibility to swap a portion of the transferred asset for some gas token on the destination. This is particularly useful if you are going for the first time on a block chain where there is no available faucet.
+Ayrıca, ElkNet'in önerdiği bir başka harika özellik de transfer edilen varlığın bir kısmını varış noktasında bir miktar gas tokenı ile takas etme imkanıdır. Bu özellik, özellikle musluğun bulunmadığı bir blok zincirine ilk kez gidiyorsanız kullanışlıdır.
 
 {% hint style="success" %}
-Except for chains where gas is high (only Avalanche and Cronos at time of writing), using ElkNet to bridge your ELK tokens from one chain to another is done at no expense. You read that right, you don't pay any bridging fees!
+Gas ücretinin yüksek olduğu zincirler dışında (yazı yazılırken yalnızca Avalanche ve Cronos), ELK tokenlarınızı bir zincirden diğerine köprülemek için ElkNet'i kullanmak hiçbir masraf gerektirmeden yapılır. Doğru okudunuz, herhangi bir köprü ücreti ödemiyorsunuz!
 {% endhint %}
 
-Finally, Elk Finance provides Impermanent Loss protection. You can read all the details about the Impermanent Loss program in [their official documentation](https://docs.elk.finance/features/impermanent-loss-protection), but basically, all you need to know is that if the price of ELK changes between the moment you deposit and the moment you withdraw, you'll be pay extra ELK in order to cover the impermanent loss. Because MAI is pegged to 1 USD, the impermanent loss is only linked to the price movement of ELK, so you're always a winner when you're entering LP pools on Elk Finance DEX.
+Son olarak Elk Finance, Kalıcı Kayıp koruması sağlar. Geçici Kayıp programıyla ilgili tüm ayrıntıları [resmi belgelerinden](https://docs.elk.finance/features/impermanent-loss-protection) okuyabilirsiniz. Temel olarak bilmeniz gereken tek şey ELK'in fiyatı para yatırdığınız an ile para çektiğiniz an arasında değişirse kalıcı kaybı karşılamak için fazladan ELK ödeyeceğinizdir. MAI 1 USD'ye sabitlendiğinden kalıcı kayıp yalnızca ELK'in fiyat hareketiyle bağlantılıdır, bu nedenle Elk Finance DEX'te LP havuzlarına girerken her zaman kazanan siz olursunuz. 
 
-## Farming the MAI-ELK LP Pair
+## MAI-ELK LP Çiftçiliği
 
-Elk Finance partnered with Mai Finance in January 2022 to propose token farming using the MAI-ELK LP pair on their DEX. The MAI-ELK pair can be used on 3 different networks for now: Harmony, Moonriver and Gnosis. Some additional pools may be launched later on Polygon, Cronos and Fantom. Let's see the different strategies that you can apply for this new pool.
+Elk Finance, Ocak 2022'de DEX'lerinde MAI-ELK LP çiftini kullanarak token çiftçiliği önermek için Mai Finance ile ortaklık kurdu. MAI-ELK çifti şimdilik 3 farklı ağda kullanılabilir: Harmony, Moonriver ve Gnosis. Bazı ek havuzlar daha sonra Polygon, Cronos ve Fantom'da başlatılabilir. Bu yeni havuz için uygulayabileceğiniz farklı stratejilere bakalım.
 
 {% hint style="info" %}
-We are proposing this guide for Harmony because the gas fees are very cheap, which allows you to compound your reward manually on a daily basis. This makes it a very good blockchain for beginners who have only a few dollars to invest as play money. However, everything presented in this guide can be also applied to any other chain.
+Harmony için bu kılavuzu öneriyoruz çünkü gas ücretleri çok düşüktür ve bu da ödülünüzü günlük olarak manuel birleştirmenize olanak tanır. Bu da onu deneme parası olarak yalnızca birkaç dolar yatırabilen yeni başlayanlar için çok iyi bir blok zinciri yapar. Ancak, bu kılavuzda sunulan her şey başka herhangi bir zincire de uygulanabilir.
 {% endhint %}
 
-### Farming and Staking
+### Çiftçilik ve Stake Etme
 
-The very first strategy is pretty straightforward:
+İlk strateji oldukça basittir:
 
-* combine your LP pair
-* deposit the LP in the MAI-ELK pool and get 200% APR
-* harvest your rewards daily
-* stake them at 32.53% APR
+* LP çifti yaratın
+* LP'yi MAI-ELK havuzuna yatırın ve %200 APR kazanın
+* ödüllerinizi günlük olarak toplayın
+* %32.53 APR'de stake edin
 
-If you start with an initial $100, here are the results you can get month after month for a complete year of farming, assuming the rates given above remain the same for the entire farming period.
+100$ ile başladığınızı ve yukarıda verilen oranların tüm çiftçilik dönemi boyunca aynı kaldığını varsayarsak, tam bir çiftçilik yılı boyunca aydan aya alabileceğiniz sonuçlar aşağıdaki gibi olacaktır.
 
-| day | MAI-ELK ($) | staked ELK ($) |
+| gün | MAI-ELK ($) | staked ELK ($) |
 |-----|-------------|----------------|
 |  30 |     100.000 |         16.653 |
 |  60 |     100.000 |         33.756 |
@@ -66,29 +65,29 @@ If you start with an initial $100, here are the results you can get month after 
 | 330 |     100.000 |        210.115 |
 | 360 |     100.000 |        232.458 |
 
-At the end of the year, you would have
+Yıl sonunda,
 
-* $100.00 worth of MAI-ELK LP tokens in the pool
-* $236.24 worth of staked ELK tokens
+* Havuzda 100,00$ değerinde MAI-ELK LP tokenı
+* 236,24$ değerinde stake edilmiş ELK tokenı
 
-Which corresponds to an overall APY of 236.24%. It's not exactly APR because part of the reward is compounded (the staked ELK).
+Bu da %236,24'lük genel bir APY'ye karşılık gelir. Tam olarak APR değil çünkü ödülün bir kısmı birleştirildi (stake edilmiş ELK).
 
 {% hint style="info" %}
-You can find all the results and the formula used to build this table in [the following Google Sheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the first tab. You can copy this file to your own drive and adjust rates and initial investment to see the overall APY change with the number you enter.
+Bu tabloyu oluşturmak için kullanılan tüm sonuçları ve formülü aşağıdaki [Google Sheet'in](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) ilk sekmede bulabilirsiniz. Bu dosyayı kendi sürücünüze kopyalayabilir ve girdiğiniz sayı ile genel APY değişimini görmek için oranları ve ilk yatırımı ayarlayabilirsiniz.
 {% endhint %}
 
-### Farming and Compounding directly
+### Çiftçilik ve Doğrudan Birleştirme
 
-Compounding means that you harvest your rewards, and use it to create additional LP tokens. In our case, you would:
+Birleştirme, ödüllerinizi topladığınız ve bunu ek LP tokenları oluşturmak için kullandığınız anlamına gelir. Bizim durumumuzda, şunları yaparsınız:
 
-* harvest your ELK rewards
-* sell 50% for MAI
-* combine into some additional MAI-ELK LP token
-* deposit in the pool
+* ELK ödüllerinizi toplamak
+* 50%'sini MAI almak için satmak
+* ek MAI-ELK LP tokenlarında birleştirmekn
+* havuza yüklemek
 
-If you start with the same initial investment of $100, the results you can expect for a complete year of farming, assuming the rates given remain the same for the entire farming period, are as follows:
+100$'lık aynı ilk yatırımla başladığınızı ve verilen oranların tüm çiftçilik dönemi boyunca aynı kaldığını varsayarsak, tam bir çiftçilik yılı boyunca bekleyebileceğiniz sonuçlar aşağıdaki gibidir:
 
-| day | MAI-ELK ($) |
+| gün | MAI-ELK ($) |
 |-----|-------------|
 |  30 |     117.172 |
 |  60 |     138.044 |
@@ -103,13 +102,13 @@ If you start with the same initial investment of $100, the results you can expec
 | 330 |     603.647 |
 | 360 |     711.179 |
 
-And at the end of the year, you would have
+Ve yılın sonunda,
 
-* $730.878 worth of MAI-ELK LP tokens in the pool
+* Havuzda 730.878$ değerinde MAI-ELK LP tokenı
 
-Which corresponds, for an initial investment of $100, to an overall APY of 630.88%. Since we are compounding the reward, this is the exact APY you would get from an APR of 200%.
+Bu da 100$'lık bir ilk yatırım için %630,88'lik bir toplam APY'ye karşılık gelir. Ödülü birleştirdiğimiz için %200'lük bir APR'den alacağınız tam APY budur.
 
-As a side note, the formulas to calculate the APY from an APR with daily compounding (or an APR from an APY) are as follows:
+Bir ek not olarak günlük bileşik ile bir APR'den APY'yi (veya bir APY'den bir APR'yi) hesaplamak için formüller aşağıdaki gibidir:
 
 $$
 APY = ( 1 + \frac{APR}{N})^N-1
@@ -119,7 +118,7 @@ $$
 APR = N * (( 1 + APY)^\frac{1}{N} - 1)
 $$
 
-With `N` being the number of times you compound your rewards. In our case, the 2 formula would give us
+`N`, ödüllerinizi birleştirme sayınızdır. Bizim durumumuzda, 2 formülü bize
 
 $$
 APY = ( 1 + \frac{2}{365})^{365}-1 = 634.88\%
@@ -129,30 +128,30 @@ $$
 APR = 365 * (( 1 + 6.3488)^\frac{1}{365} - 1) = 199.99\%
 $$
 
-It's easy to see and understand that if you apply an APR of 200% (the APR of the LP pool) to your reward, you will get better yields than if you apply an APR of 32.53% (staking APR). In that sense, compounding is way better than staking while the farming APR remains above the staking APR. This may obviously change with the amount of liquidity in the pool.
+Ödülünüze %200'lük bir APR (LP havuzunun APR'si) uygularsanız %32,53'lük bir APR (stake APR) uygulamanızdan daha iyi getiri elde edeceğinizi görmek ve anlamak kolaydır. Bu anlamda, çiftçilik APR'si, stake APR'sinin üzerinde kalırken birleştirmek stake etmekten çok daha iyidir. Bu, havuzdaki likidite miktarı ile açıkça değişebilir
 
 {% hint style="info" %}
-As for the previous section, the simulation can be found in the same [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the second tab.
+Bir önceki bölümde olduğu gibi simülasyonu aynı [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) ikinci sekmede bulabilirsiniz.
 {% endhint %}
 
-### Farming and Compounding using Mai Finance
+### Mai Finance Kullanarak Çiftçilik ve Birleştime
 
-If staking and compounding are giving good yields, both methods are directly linked to the price of the ELK token, so the value of your investment will vary with the price of ELK. We already saw that compounding gives better options compared to staking. Now we will see how you can capture some value from your farming rewards, and continue investing in the same pool using Mai Finance. The daily routine would be as follows:
+Stake etme ve birleştirme iyi getiri sağlıyorsa her iki yöntem de doğrudan ELK tokenının fiyatıyla bağlantılıdır, bu nedenle yatırımınızın değeri ELK fiyatına göre değişecektir. Birleştirmenin stake etmeye kıyasla daha iyi seçenekler sunduğunu zaten gördük. Şimdi, çiftçilik ödüllerinizden nasıl bir miktar değer elde edebileceğinizi ve Mai Finance'i kullanarak aynı havuza nasıl yatırım yapmaya devam edebileceğinizi göreceğiz. Günlük rutin aşağıdaki gibi olacaktır:
 
-* Harvest the ELK rewards
-* Sell 66% of the reward to buy some blue chip token accepted as collateral on Mai Finance. For our exemple, we will be using the ONE token here
-* Deposit the ONE tokens in your vault on Mai Finance
-* Borrow additional MAI at 200% CDR (**C**ollateral to **D**ebt **R**atio), which value will correspond to your remaining ELK tokens
-* combine into some additional MAI-ELK LP token
-* deposit in the pool
+* ELK ödüllerini toplayın
+* Mai Finance'de teminat olarak kabul edilen bir miktar mavi çip tokenı satın almak için ödülün %66'sını satın. Örneğimiz için burada ONE tokenını kullanacağız
+* ONE tokenlarını Mai Finance'te kasanıza yatırın
+* Kalan ELK tokenlarınıza karşılık gelen değer olan %200 CDR'de (Borç Teminatı Oranı) ek MAI borç alın
+* Ek MAI-ELK LP tokenlarında birleştirin
+* havuza ekleyin
 
 {% hint style="info" %}
-Converting your reward tokens to ONE may not be the safest way to protect your assets, one of the best ways to do it is to convert to stable coins. However, options on Mai Finance on Harmony as of writing this article are pretty limited. You may get better options in the future (after January 2021), like staking Stake DAO LP tokens as collateral (see our [dedicated article for Polygon](<../polygon/the-elephant-and-the-otter.md>) to see how you may be able to use Stake DAO tokens on Mai Finance).
+Ödül tokenlarınızı ONE'a dönüştürmek, varlıklarınızı korumanın en güvenli yolu olmayabilir, bunu yapmanın en iyi yollarından biri stablecoin’lere dönüştürmektir. Ancak bu makaleyi yazarken Harmony’deki Mai Finance ile ilgili seçenekler oldukça sınırlıdır. Gelecekte (Ocak 2021'den sonra) Stake DAO LP tokenlarını teminat olarak stake etmek gibi daha iyi seçenekler elde edebilirsiniz (Stake DAO tokenlarını Mai Finance'te nasıl kullanabileceğinizi görmek için [makalemize göz atın](<../polygon/the-elephant-and-the-otter.md>)
 {% endhint %}
 
-If you start with the same initial investment of $100, the results you can expect for a complete year of farming, assuming the rates given remain the same for the entire farming period, and that your vault isn't liquidated, are as follows:
+100$'lık aynı ilk yatırımla başladığınızı, verilen oranların tüm çiftçilik dönemi boyunca aynı kaldığını ve kasanızın tasfiye edilmediğini varsayarsak, tam bir yıllık çiftçilik boyunca bekleyebileceğiniz sonuçlar aşağıdaki gibidir:
 
-| day | MAI-ELK ($) | ONE ($) | Mai debt ($) |
+| gün | MAI-ELK ($) | ONE ($) | Mai borcu ($)|
 |-----|-------------|---------|--------------|
 |  30 |     111.154 |  11.560 |        5.780 |
 |  60 |     124.003 |  24.456 |       12.228 |
@@ -167,32 +166,32 @@ If you start with the same initial investment of $100, the results you can expec
 | 330 |     331.891 | 233.106 |      116.552 |
 | 360 |     370.257 | 271.609 |      135.805 |
 
-And at the end of the year, you would have
+Ve yılın sonunda,
 
-* $377.069 worth of MAI-ELK LP tokens in the pool
-* $278.446 worth of ONE token in your ONE vault
-* $139.223 worth of debt from your vaule
-* a CDR of 200%, as expected
+* Havuzda 377.069$ değerinde MAI-ELK LP tokenı
+* ONE kasanızda 278.446$ değerinde ONE tokenı
+* Kasanızdan 139.223$ değerinde borç
+* Beklendiği gibi %200'lük bir CDR
 
-Starting from an original position of $100 worth of MAI-ELK, this would represent an overall APY of 416.29%. Here we're getting a little less gains compared to pure compounding, however we also extracted a good portion of our gains into ONE, which may be less volatile than ELK, hence may present less risk.
+MAI-ELK'in 100$ değerindeki başlangıç ​​pozisyonundan başlayarak, bu toplam %416,29'luk bir genel APY'yi temsil eder. Burada saf bileşiğe kıyasla biraz daha az kar elde ediyoruz ancak aynı zamanda karımızın iyi bir kısmını ELK'den daha az değişken olabilecek ve bu nedenle daha düşük riske sahip olabilecek ONE'a çektik.
 
 {% hint style="info" %}
-Once again, the simulation can be found in the same [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the third tab.
+Simülasyon yine aynı [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) üçüncü sekmede bulunabilir.
 {% endhint %}
 
-Alternatively, you can also sell all your ELK rewards for tokens that are accepted on Mai Finance, borrow MAI and sell part of it to buy additional ELK in order to increase your position in the MAI-ELK pool. By doing so, you increase your exposure to ONE, but also increase your debt. You would end up with $270.715 worth of MAI-ELK, $352.913 worth of ONE and $171.457 worth of debt for an overall APY of 342.17%.
+Alternatif olarak, MAI-ELK havuzundaki konumunuzu artırmak için Mai Finance'de kabul edilen tokenlar için tüm ELK ödüllerinizi satabilir, MAI borç alabilir ve bir kısmını satarak ek ELK satın alabilirsiniz. Bunu yaparak ONE'a olan bağlılığınızı artırırsınız ancak aynı zamanda borcunuzu da artırırsınız. Toplamda %342.17'lik bir APY için 270.715$ değerinde MAI-ELK, 352.913$ değerinde ONE ve 171.457$ değerinde borç elde edersiniz.
 
-## Influence of the frequency at which you compound
+## Birleştirme Sıklığının Etkisi
 
-Whether you decide to stake your rewards or compound, it's important to understand that your reward will change depending on the frequency at which you perform your harvest + invest routine. As a reminder, the formula that links APY and APR is as follows:
+İster ödüllerinizi stake etmeye ister birleştirmeye karar verin, ödülünüzün, toplama + yatırım rutininizi gerçekleştirme sıklığınıza bağlı olarak değişeceğini anlamanız önemlidir. Bir hatırlatma olarak APY ve APR'yi birbirine bağlayan formül aşağıdaki gibidir:
 
 $$
 APY = ( 1 + \frac{APR}{N})^N-1
 $$
 
-In this equation, `N` represents the number of times you compound your rewards in a year. So, and APR of 200% as above would give you the following APY depending on the frequency you compound:
+Bu denklemde`N`, ödüllerinizi bir yılda kaç kez birleştirdiğinizi temsil eder. Dolayısıyla, yukarıdaki gibi %200'lük APR, birleştirdiğiniz sıklığa bağlı olarak size aşağıdaki APY'yi verir
 
-| Compounding frequency | equivalent APY |
+| Birleştirme sıklığı   |  APY karşılığı |
 |-----------------------|----------------|
 |                 daily |       634.88 % |
 |       twice in a week |       625.01 % |
@@ -202,30 +201,30 @@ In this equation, `N` represents the number of times you compound your rewards i
 |             quarterly |       406.25 % |
 |       twice in a year |       300.00 % |
 
-Manually compounding more than once a day can be expensive depending on the chain you're on. But basically, it's clear that the more often you compound, the better the reward. This is also explaining why yield optimizer / auto-compounder are popular. Keep in mind that by compounding, you add sell pressure to the token you farm, which will have a negative impact on the price of that token. If that's also the token you are using to farm (in our exemple ELK), you may be impacted by impermanent losses, unless you're using Elk Finance DEX, which protects you from impermanent losses.
+Günde bir defadan fazla manuel olarak birleştirme, içinde bulunduğunuz zincire bağlı olarak pahalı olabilir. Ama temel olarak ne kadar sık birleştirirseniz ödül o kadar iyi olur. Bu aynı zamanda verim optimize edicilerin / otomatik birleştiricilerin neden popüler olduğunu da açıklıyor. Birleştirerek, çiftçilik yaptığınız tokenın üzerindeki satış baskısını artırdığınızı ve bunun o tokenın fiyatı üzerinde olumsuz bir etkisi olacağını unutmayın. Bu aynı zamanda çiftçilik yapmak için kullandığınız token ise (örneğimizde ELK), sizi kalıcı kayıplardan koruyan Elk Finance DEX kullanmadığınız sürece kalıcı kayıplardan etkilenebilirsiniz.
 
-## Choosing the right pool
+## Doğru Havuzu Seçmek
 
-The MAI-ELK pair has been deployed to several chains, so it's possible for you to deploy your capital to the chain that offers the best rates.
+MAI-ELK çifti birkaç zincire dağıtıldı, bu da sermayenizi en iyi oranları sunan zincire dağıtmanıza olanak tanır.
 
-![MAI-ELK pools on Gnosis (top), Moonriver (middle) and Harmony (bottom) as of January 2021](<../../.gitbook/assets/elk-farming-3.png>)
+![Ocak 2021 itibariyle Gnosis (üstte), Moonriver (ortada) ve Harmony'de (altta) MAI-ELK havuzları](<../../.gitbook/assets/elk-farming-3.png>)
 
 {% hint style="info" %}
-The MAI-ELK pool may also be deployed to other chains in a near future, possibly on Polygon, Cronos and Fantom. This is not guaranteed and there's no ETA for that, so stay updated by checking the difference Discord servers of both projects, of following them on twitter.
+MAI-ELK havuzu yakın bir gelecekte, muhtemelen Polygon, Cronos ve Fantom'da diğer zincirlere de dağıtılabilir. Bu garanti edilmez ve bunun için belirli bir tarih yoktur, bu nedenle her iki projenin Discord sunucularını ve Twitter'larını takip ederek güncel kalın.
 {% endhint %}
 
-Besides the reward rate on each chain, you may also have to consider the price of the ELK token on each chain. Indeed, if the price is almost the same on all chains, the tiny difference may also be a factor for you to choose the chain where you want to farm the ELK token.
+Her zincirdeki ödül oranının yanı sıra, her zincirdeki ELK tokenının fiyatını da göz önünde bulundurmanız gerekebilir. Fiyat tüm zincirlerde hemen hemen aynıysa aradaki küçük fark, ELK tokenını toplamak istediğiniz zinciri seçmeniz için bir faktör olabilir.
 
-![Price of the ELK tokens on all the chains where it's present](<../../.gitbook/assets/elk-farming-4.png>)
+![ELK tokenının bulunduğu tüm zincirlerdeki fiyatı](<../../.gitbook/assets/elk-farming-4.png>)
 
-As you can see, the MAI-ELK pool on Moonriver gives a better reward rate, and the ELK token also has a higher price on that chain. This means that, at time of writing, it may be better to farm the MAI-ELK pool on Moonriver than on Harmony or Gnosis, especially if you plan to sell a part of the farmed tokens. Note that this may not be true all the time, so make sure you choose your chain properly and that you do your own researches before joining a LP pool. Finally, it is strongly recommended to read the [documentation about IL protection](https://docs.elk.finance/features/impermanent-loss-protection) because the insurance is highly dependant on the number of days your LP tokens are deposited in the pool.
+Gördüğünüz gibi, Moonriver'daki MAI-ELK havuzu daha iyi bir ödül oranı sunuyor ve ELK tokenının da bu zincirde daha yüksek bir fiyatı var. Bu, özellikle çiftlik tokenlarının bir kısmını satmayı planlıyorsanız Harmony veya Gnosis'ten ziyade MAI-ELK havuzunu Moonriver'da toplamanın daha iyi olabileceği anlamına gelir. Bunun her zaman böyle olmayabileceğini unutmayın. Bu nedenle bir LP havuzuna katılmadan önce zincirinizi doğru seçtiğinizden ve kendi araştırmalarınızı yaptığınızdan emin olun. Son olarak, sigorta, LP tokenlarınızın havuza yatırıldığı günlerin sayısına büyük ölçüde bağlı olduğundan, [geçici kayıp korumasıyla ilgili belgeleri](https://docs.elk.finance/features/impermanent-loss-protection) okumanız şiddetle tavsiye edilir.
 
-As a side note, because bridging ELK is free, you can possibly move from one chain to another in order to always benefit from the best rates. Make sure that you understand that by doing so, you will also influence the reward rates of the pool you exit and the one you join (less liquidity will increase the APR, more liquidity will lower it).
+Bir ek not olarak, ELK arasında köprü kurmak ücretsiz olduğundan, her zaman en iyi oranlardan yararlanmak için bir zincirden diğerine geçiş yapabilirsiniz. Bunu yaparak, çıktığınız ve katıldığınız havuzun ödül oranlarını da etkileyeceğinizi anladığınızdan emin olun (daha az likidite APR'yi artırır, daha fazla likidite düşürür).
 
-## Disclaimer
+## Sorumluluk Reddi 
 
-This guide has been written in order to illustrate the different ways to farm yields using liquidity providing tokens. You will highly influence your gains with the strategy that you pick, as well as your exposure to risk. Of course, all the notions pointed in this document are also applicable to any LP pair, and it's highly recommended to run your own simulations before picking a strategy, a LP pair, a pool or even a DEX.
+Bu kılavuz, likidite sağlayan tokenları kullanarak verim toplamanın farklı yollarını göstermek için yazılmıştır. Seçtiğiniz strateji ve riske maruz kalmanız ile kazançlarınızı oldukça etkileyeceksiniz. Tabii ki, bu belgede belirtilen tüm kavramlar herhangi bir LP çifti için de geçerlidir ve bir strateji, LP çifti, havuz ve hatta bir DEX seçmeden önce kendi simülasyonlarınızı çalıştırmanız şiddetle tavsiye edilir
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen güncel kalın, piyasalar ile yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
