@@ -33,7 +33,7 @@
   * [Xếp Legos với CroDex](toan-tap/cronos/farming-legos-with-crodex.md)
 * [Harmony](toan-tap/harmony/README.md)
   * [Khởi động trên Harmony](toan-tap/harmony/how-to-get-started-on-harmony.md)
-  * [One LP Pair, Many ways to farm](toan-tap/harmony/how-to-farm-elknet.md)
+  * [Một cách mới để farm cặp ELK-MAI](toan-tap/harmony/how-to-farm-elknet.md)
 
 ## Học viện MAI <a href="#debt-management-tutorials" id="debt-management-tutorials"></a>
 

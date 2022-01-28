@@ -1,115 +1,115 @@
 ---
 description: >-
-  This guide presents different ways to farm a single LP pair in order to illustrate
-  the differences between staking and compounding.
+  Hướng dẫn này sẽ trình bày một cách farming một cặp thanh khoản duy nhất với
+  sự khác biệt giữa đặt cọc và lãi kép.
 ---
 
-# One LP Pair, Many ways to farm
+# Một cách mới để farm cặp ELK-MAI
 
-## Introduction
+## Giới thiệu
 
-Providing liquidity on a DEX (**D**ecentralized **EX**change) and farming reward is one of the most common way to farm yields in DeFi (**De**centralized **Fi**nance). However, many users are only paying attention to the rates of the LP (**L**iquidity **P**roviding) pool they enter, without really checking if the rate is an APR (**A**nnual **P**ercentage **R**eward) or an APY (**A**nnual **P**ercentage **Y**ield). There are many ways to farm a pool and manage the reward tokens. We will see in this guide some of the different way you can farm one of the latest pools on Harmony, MAI-ELK, and see what you can do with the ELK tokens that you will get as a reward.
+Cung cấp thanh khoản trên các sàn DEX (Sàn giao dịch phi tập trung) và canh tác lợi nhuận là những cách phổ biến nhất đến kiếm lợi nhuận trong DeFi. Tuy nhiên, nhiều người dùng chỉ chú ý đến tỷ lệ của bể thanh khoản mà không thực sự biết đó là APR(Lãi suất phần trăm hàng năm) hay APY(Lãi suất cộng dồn hàng năm). Có nhiều cách để canh tác lợi nhuận một bể thanh khoản và quản lý mã thông báo phần thưởng. Trong hướng dẫn này, chúng tôi xin giới thiệu một cách mới nhất để canh tác lợi nhuận bể ELK-MAI và tận dụng mã thông báo phần thưởng ELK trên Harmony.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Hướng dẫn này chắc chắn không phải là lời khuyên tài chính, nó được thực hiện với mục tiêu giáo dục. Bạn cần chú ý đến sự thay đổi giá cả, cung và cầu, chương trình thưởng, ngày kết thúc, khoản lỗ tạm thời, v.v. và chỉ đầu tư những gì bạn sẵn sàng để có thể mất.
 {% endhint %}
 
-![](<../../.gitbook/assets/elk-farming-1.png>)
+![](../../.gitbook/assets/elk-farming-1.png)
 
 ## Elk Finance
 
-[Elk Finance](https://app.elk.finance/#/) is a DEX forked from Uniswap v2, as well as an AMM (**A**utomoated **M**arket **M**aker). You will find all the usual features of Uniswap forks: trading your assets, combine your different crypto currencies into LP tokens, farm some LP pairs, and stake their native token, the ELK.
+[Elk Finance](https://app.elk.finance/#/) là một bản sao chép của Uniswap V2 cũng như một nhà tạo lập thị trường tự động (AMM). Bạn có thể tìm thấy những tính năng thông thường như với các bản sao chép Uniswap khác như hoán đổi tài sản, kết hợp các cặp tài sản khác nhau, canh tác lợi suất và đặt cọc mã thông báo phần thưởng ELK.
 
-What makes Elk Finance a totally different project though is its presence on many blockchains, and not only the EVM-compatibles chains (**E**thereum **V**irtual **M**achine). Indeed, Elk Finance is currentl present on 16 chains and they have plans to expand to many others. They managed to build a bridge between all those chains to let users transfers the ELK token: The ELKNET.
+Điều làm cho Elk Finance trở thành một dự án hoàn toàn khác là sự hiện diện của nó trên nhiều blockchain và không chỉ các chuỗi tương thích EVM (Máy ảo Ethereum). Elk Finance hiện có mặt trên 16 chuỗi và họ có kế hoạch mở rộng sang nhiều chuỗi khác. Họ đã quản lý để xây dựng một cầu nối giữa tất cả các chuỗi đó để cho phép người dùng chuyển mã thông báo ELK chính là ELKNET.
 
-![Bridging some ELK from Harmony to Moonriver using the ElkNet](<../../.gitbook/assets/elk-farming-2.png>)
+![Kết nối ELK từ Harmony sang Moonriver bằng ElkNet](../../.gitbook/assets/elk-farming-2.png)
 
-Also, one cool feature proposed by the ElkNet is the possibility to swap a portion of the transferred asset for some gas token on the destination. This is particularly useful if you are going for the first time on a block chain where there is no available faucet.
+Ngoài ra, một tính năng thú vị do ElkNet đề xuất là khả năng hoán đổi một phần tài sản được chuyển thành mã thông báo phí gas tại chuỗi khối đích. Điều này đặc biệt hữu ích nếu bạn lần đầu tiên sử dụng chuỗi khối mà không có sẵn faucets.
 
 {% hint style="success" %}
-Except for chains where gas is high (only Avalanche and Cronos at time of writing), using ElkNet to bridge your ELK tokens from one chain to another is done at no expense. You read that right, you don't pay any bridging fees!
+Ngoại trừ các chuỗi có gas cao (chỉ có Avalanche và Cronos tại thời điểm viết bài), việc sử dụng ElkNet để kết nối các mã thông báo ELK của bạn từ chuỗi này sang chuỗi khác được thực hiện miễn phí. Bạn không nghe sai đâu, bạn không phải trả bất kỳ khoản phí kết nối nào cả!
 {% endhint %}
 
-Finally, Elk Finance provides Impermanent Loss protection. You can read all the details about the Impermanent Loss program in [their official documentation](https://docs.elk.finance/features/impermanent-loss-protection), but basically, all you need to know is that if the price of ELK changes between the moment you deposit and the moment you withdraw, you'll be pay extra ELK in order to cover the impermanent loss. Because MAI is pegged to 1 USD, the impermanent loss is only linked to the price movement of ELK, so you're always a winner when you're entering LP pools on Elk Finance DEX.
+Cuối cùng, Elk Finance cung cấp tính năng bảo vệ Tổn thất tạm thời. Bạn có thể đọc tất cả thông tin chi tiết về chương trình Tổn thất tạm thời trong [tài liệu chính thức ](https://docs.elk.finance/features/impermanent-loss-protection)của họ, nhưng về cơ bản, tất cả những gì bạn cần biết là nếu giá ELK thay đổi giữa thời điểm bạn gửi tiền và thời điểm bạn rút tiền, bạn sẽ được trả thêm ELK nhằm trang trải mất mát tạm thời. Vì MAI được chốt bằng 1 USD, khoản lỗ tạm thời chỉ liên quan đến biến động giá của ELK.
 
-## Farming the MAI-ELK LP Pair
+## Canh tác lợi suất cặp MAI-ELK
 
-Elk Finance partnered with Mai Finance in January 2022 to propose token farming using the MAI-ELK LP pair on their DEX. The MAI-ELK pair can be used on 3 different networks for now: Harmony, Moonriver and Gnosis. Some additional pools may be launched later on Polygon, Cronos and Fantom. Let's see the different strategies that you can apply for this new pool.
+Elk Finance đã hợp tác với Mai Finance vào tháng 1 năm 2022 để đề xuất canh tác lợi suất bằng cách sử dụng cặp MAI-ELK LP trên DEX của họ. Hiện tại, cặp MAI-ELK có thể được sử dụng trên 3 chuỗi khối khác nhau: Harmony, Moonriver và Gnosis. Một số bể bổ sung có thể được khởi chạy sau này trên Polygon, Cronos và Fantom. Hãy xem các chiến lược khác nhau mà bạn có thể áp dụng cho bể mới này.
 
 {% hint style="info" %}
-We are proposing this guide for Harmony because the gas fees are very cheap, which allows you to compound your reward manually on a daily basis. This makes it a very good blockchain for beginners who have only a few dollars to invest as play money. However, everything presented in this guide can be also applied to any other chain.
+Chúng tôi đang đề xuất hướng dẫn này cho Harmony vì phí gas rất rẻ, cho phép bạn cộng dồn phần thưởng của mình theo cách thủ công hàng ngày. Điều này làm cho nó trở thành một chuỗi khối rất tốt cho những người mới bắt đầu chỉ có một vài đô la để đầu tư dưới dạng trải nghiệm. Tuy nhiên, mọi thứ được trình bày trong hướng dẫn này cũng có thể được áp dụng cho bất kỳ chuỗi nào khác.
 {% endhint %}
 
-### Farming and Staking
+### Canh tác lợi suất và đặt cọc
 
-The very first strategy is pretty straightforward:
+Chiến lược đầu tiên khác đơn giản và trực diện:
 
-* combine your LP pair
-* deposit the LP in the MAI-ELK pool and get 200% APR
-* harvest your rewards daily
-* stake them at 32.53% APR
+* kết hợp cặp thanh khoản của bạn
+* gửi cặp thông báo Elk-MAI vào bể để nhận 200% APR
+* thu hoạch phần thưởng hàng ngày
+* gửi chúng để nhận phần thưởng 32.53% APR
 
-If you start with an initial $100, here are the results you can get month after month for a complete year of farming, assuming the rates given above remain the same for the entire farming period.
+Nếu bạn khởi đầu với 100 đô la, đây là kết quả bạn có thể nhận được hàng tháng cho một năm hoàn chỉnh, giả sử tỷ lệ được đưa ra ở trên vẫn giữ nguyên trong toàn bộ thời gian.
 
-| day | MAI-ELK ($) | staked ELK ($) |
-|-----|-------------|----------------|
-|  30 |     100.000 |         16.653 |
-|  60 |     100.000 |         33.756 |
-|  90 |     100.000 |         51.323 |
-| 120 |     100.000 |         69.366 |
-| 150 |     100.000 |         87.897 |
-| 180 |     100.000 |        106.930 |
-| 210 |     100.000 |        126.479 |
-| 240 |     100.000 |        146.557 |
-| 270 |     100.000 |        167.180 |
-| 300 |     100.000 |        188.360 |
-| 330 |     100.000 |        210.115 |
-| 360 |     100.000 |        232.458 |
+| ngày | MAI-ELK ($) |  ELK đã gửi ($) |
+| ---- | ----------- | --------------- |
+| 30   | 100.000     | 16.653          |
+| 60   | 100.000     | 33.756          |
+| 90   | 100.000     | 51.323          |
+| 120  | 100.000     | 69.366          |
+| 150  | 100.000     | 87.897          |
+| 180  | 100.000     | 106.930         |
+| 210  | 100.000     | 126.479         |
+| 240  | 100.000     | 146.557         |
+| 270  | 100.000     | 167.180         |
+| 300  | 100.000     | 188.360         |
+| 330  | 100.000     | 210.115         |
+| 360  | 100.000     | 232.458         |
 
-At the end of the year, you would have
+Vào cuối năm, bạn sẽ có
 
-* $100.00 worth of MAI-ELK LP tokens in the pool
-* $236.24 worth of staked ELK tokens
+* $100.00 MAI-ELK LP
+* $236.24 ELK đã gửi
 
-Which corresponds to an overall APY of 236.24%. It's not exactly APR because part of the reward is compounded (the staked ELK).
+Tương ứng với APY là 236,24%. Đó chính xác không phải là APR c vì một phần của phần thưởng được cộng dồn (ELK gửi).
 
 {% hint style="info" %}
-You can find all the results and the formula used to build this table in [the following Google Sheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the first tab. You can copy this file to your own drive and adjust rates and initial investment to see the overall APY change with the number you enter.
+Bạn có thể tìm thấy tất cả các kết quả và công thức được sử dụng để tạo bảng này trong [Google Trang](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit#gid=0) tính sau trong tab đầu tiên. Bạn có thể sao chép tệp này vào ổ đĩa của riêng mình và điều chỉnh tỷ giá cũng như khoản đầu tư ban đầu để xem APY tổng thể thay đổi theo số bạn nhập.
 {% endhint %}
 
-### Farming and Compounding directly
+### Canh tác lợi suất và cộng dồn trực tiếp
 
-Compounding means that you harvest your rewards, and use it to create additional LP tokens. In our case, you would:
+Cộng dồn có nghĩa là bạn thu thập phần thưởng của mình và sử dụng nó để tạo thêm mã thông báo LP. Trong trường hợp này, bạn sẽ:
 
-* harvest your ELK rewards
-* sell 50% for MAI
-* combine into some additional MAI-ELK LP token
-* deposit in the pool
+* thu thập phần thưởng ELK
+* hoán 50% thành MAI
+* kết hợp thành cặp ELK-MAI bổ sung thêm
+* gửi vào bể
 
-If you start with the same initial investment of $100, the results you can expect for a complete year of farming, assuming the rates given remain the same for the entire farming period, are as follows:
+Nếu bạn khởi đầu với cùng một khoản đầu tư là 100 đô la, thì kết quả bạn có thể mong đợi cho một năm canh tác lợi suất hoàn chỉnh, giả sử tỷ lệ đưa ra vẫn giữ nguyên trong toàn bộ thời gian canh tác, như sau:
 
-| day | MAI-ELK ($) |
-|-----|-------------|
-|  30 |     117.172 |
-|  60 |     138.044 |
-|  90 |     162.635 |
-| 120 |     191.607 |
-| 150 |     225.739 |
-| 180 |     265.952 |
-| 210 |     313.328 |
-| 240 |     369.143 |
-| 270 |     434.901 |
-| 300 |     512.374 |
-| 330 |     603.647 |
-| 360 |     711.179 |
+| ngày | MAI-ELK ($) |
+| ---- | ----------- |
+| 30   | 117.172     |
+| 60   | 138.044     |
+| 90   | 162.635     |
+| 120  | 191.607     |
+| 150  | 225.739     |
+| 180  | 265.952     |
+| 210  | 313.328     |
+| 240  | 369.143     |
+| 270  | 434.901     |
+| 300  | 512.374     |
+| 330  | 603.647     |
+| 360  | 711.179     |
 
-And at the end of the year, you would have
+Tại thời điểm cuối năm bạn sẽ có
 
-* $730.878 worth of MAI-ELK LP tokens in the pool
+* $730.878 trị giá mã thông báo MAI-ELK LP trong bể
 
-Which corresponds, for an initial investment of $100, to an overall APY of 630.88%. Since we are compounding the reward, this is the exact APY you would get from an APR of 200%.
+Tương ứng với khoản đầu tư ban đầu là 100 đô la, với APY tổng thể là 630,88%. Vì chúng tôi đang cộng gộp phần thưởng, đây là APY chính xác mà bạn sẽ nhận được từ APR là 200%.
 
-As a side note, the formulas to calculate the APY from an APR with daily compounding (or an APR from an APY) are as follows:
+Xin lưu ý thêm, các công thức để tính APY từ APR với lãi kép hàng ngày (hoặc APR từ APY) như sau:
 
 $$
 APY = ( 1 + \frac{APR}{N})^N-1
@@ -119,7 +119,7 @@ $$
 APR = N * (( 1 + APY)^\frac{1}{N} - 1)
 $$
 
-With `N` being the number of times you compound your rewards. In our case, the 2 formula would give us
+Với N là số lần bạn gộp phần thưởng của mình. Trong trường hợp của chúng tôi, công thức 2 sẽ cung cấp cho chúng tôi
 
 $$
 APY = ( 1 + \frac{2}{365})^{365}-1 = 634.88\%
@@ -129,103 +129,103 @@ $$
 APR = 365 * (( 1 + 6.3488)^\frac{1}{365} - 1) = 199.99\%
 $$
 
-It's easy to see and understand that if you apply an APR of 200% (the APR of the LP pool) to your reward, you will get better yields than if you apply an APR of 32.53% (staking APR). In that sense, compounding is way better than staking while the farming APR remains above the staking APR. This may obviously change with the amount of liquidity in the pool.
+Dễ thấy rằng nếu bạn áp dụng APR là 200% (APR của bể LP) cho phần thưởng của mình, bạn sẽ nhận được lợi suất tốt hơn so với nếu bạn áp dụng APR là 32,53% (đặt cược APR). Theo nghĩa đó, tính lãi kép tốt hơn so với đặt cược trong khi APR canh tác lợi suất vẫn cao hơn APR đặt cược. Điều này rõ ràng có thể thay đổi theo số lượng thanh khoản trong bể.
 
 {% hint style="info" %}
-As for the previous section, the simulation can be found in the same [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the second tab.
+Đối với phần trước, bạn có thể tìm thấy mô phỏng trong cùng [Bảng tính Google](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit#gid=0) trong tab thứ hai.
 {% endhint %}
 
-### Farming and Compounding using Mai Finance
+### Canh tác lợi suất và cộng dồn với Mai Finance
 
-If staking and compounding are giving good yields, both methods are directly linked to the price of the ELK token, so the value of your investment will vary with the price of ELK. We already saw that compounding gives better options compared to staking. Now we will see how you can capture some value from your farming rewards, and continue investing in the same pool using Mai Finance. The daily routine would be as follows:
+Nếu đặt cược và lãi kép đang mang lại lợi nhuận tốt, cả hai phương pháp đều được liên kết trực tiếp với giá của mã thông báo ELK, vì vậy giá trị khoản đầu tư của bạn sẽ thay đổi theo giá của ELK. Chúng tôi đã thấy rằng lãi kép cung cấp các tùy chọn tốt hơn so với đặt cược. Bây giờ chúng ta sẽ xem cách bạn có thể thu được một số giá trị từ phần thưởng canh tác của mình và tiếp tục đầu tư vào cùng một bể bằng cách sử dụng Mai Finance. Các thao tác hàng ngày sẽ như sau:
 
-* Harvest the ELK rewards
-* Sell 66% of the reward to buy some blue chip token accepted as collateral on Mai Finance. For our exemple, we will be using the ONE token here
-* Deposit the ONE tokens in your vault on Mai Finance
-* Borrow additional MAI at 200% CDR (**C**ollateral to **D**ebt **R**atio), which value will correspond to your remaining ELK tokens
-* combine into some additional MAI-ELK LP token
-* deposit in the pool
+* Thu hoạch phần thưởng ELK
+* Bán 66% phần thưởng để mua một số mã thông báo blue chip được chấp nhận làm tài sản thế chấp trên Mai Finance. Đối với ví dụ của chúng tôi, chúng tôi sẽ sử dụng ONE mã thông báo ở đây
+* Gửi mã thông báo ONE vào kho tiền trên Mai Finance
+* Vay thêm MAI với 200% CDR (Tỷ lệ thế chấp trên Nợ), giá trị này sẽ tương ứng với các mã thông báo ELK còn lại của bạn
+* kết hợp thêm mã thông báo MAI-ELK
+* gửi vào bể
 
 {% hint style="info" %}
-Converting your reward tokens to ONE may not be the safest way to protect your assets, one of the best ways to do it is to convert to stable coins. However, options on Mai Finance on Harmony as of writing this article are pretty limited. You may get better options in the future (after January 2021), like staking Stake DAO LP tokens as collateral (see our [dedicated article for Polygon](<../polygon/the-elephant-and-the-otter.md>) to see how you may be able to use Stake DAO tokens on Mai Finance).
+Chuyển đổi mã thông báo phần thưởng của bạn thành ONE không phải là cách an toàn nhất để bảo vệ tài sản của bạn, một trong những cách tốt nhất để làm điều đó là chuyển đổi sang các đồng ổn định. Tuy nhiên, các tùy chọn về Mai Finance trên Harmony khi viết bài này là khá hạn chế. Bạn có thể nhận được các lựa chọn tốt hơn trong tương lai (sau tháng 1 năm 2021), chẳng hạn như đặt cọc Stake DAO LP làm tài sản thế chấp (xem [bài viết dành riêng](../polygon/the-elephant-and-the-otter.md) của chúng tôi cho Polygon để biết cách bạn có thể sử dụng mã Stake DAO trên Mai Finance).
 {% endhint %}
 
-If you start with the same initial investment of $100, the results you can expect for a complete year of farming, assuming the rates given remain the same for the entire farming period, and that your vault isn't liquidated, are as follows:
+Nếu bạn bắt đầu với cùng một khoản đầu tư ban đầu là 100 đô la, kết quả bạn có thể mong đợi cho một năm canh tác lợi suất hoàn chỉnh, giả sử tỷ lệ đưa ra vẫn giữ nguyên trong toàn bộ thời gian này và kho tiền của bạn không bị thanh lý là như sau:
 
-| day | MAI-ELK ($) | ONE ($) | Mai debt ($) |
-|-----|-------------|---------|--------------|
-|  30 |     111.154 |  11.560 |        5.780 |
-|  60 |     124.003 |  24.456 |       12.228 |
-|  90 |     138.337 |  38.842 |       19.421 |
-| 120 |     154.328 |  54.892 |       27.446 |
-| 150 |     172.168 |  72.797 |       36.398 |
-| 180 |     192.070 |  92.772 |       46.386 |
-| 210 |     214.273 | 115.055 |       57.528 |
-| 240 |     239.042 | 139.915 |       69.958 |
-| 270 |     266.674 | 167.648 |       83.824 |
-| 300 |     297.501 | 198.588 |       99.294 |
-| 330 |     331.891 | 233.106 |      116.552 |
-| 360 |     370.257 | 271.609 |      135.805 |
+| ngày | MAI-ELK ($) | ONE ($) | Mai debt ($) |
+| ---- | ----------- | ------- | ------------ |
+| 30   | 111.154     | 11.560  | 5.780        |
+| 60   | 124.003     | 24.456  | 12.228       |
+| 90   | 138.337     | 38.842  | 19.421       |
+| 120  | 154.328     | 54.892  | 27.446       |
+| 150  | 172.168     | 72.797  | 36.398       |
+| 180  | 192.070     | 92.772  | 46.386       |
+| 210  | 214.273     | 115.055 | 57.528       |
+| 240  | 239.042     | 139.915 | 69.958       |
+| 270  | 266.674     | 167.648 | 83.824       |
+| 300  | 297.501     | 198.588 | 99.294       |
+| 330  | 331.891     | 233.106 | 116.552      |
+| 360  | 370.257     | 271.609 | 135.805      |
 
-And at the end of the year, you would have
+Vào cuối năm bạn sẽ có:
 
-* $377.069 worth of MAI-ELK LP tokens in the pool
-* $278.446 worth of ONE token in your ONE vault
-* $139.223 worth of debt from your vaule
-* a CDR of 200%, as expected
+* $377.069 trị giá mã thông báo MAI-ELK LP trong bể
+* $278.446 giá trị của mã thông báo ONE trong ONE vault của bạn
+* $139.223 giá trị của món nợ
+* tỷ lệ CDR là 200%, như dự định
 
-Starting from an original position of $100 worth of MAI-ELK, this would represent an overall APY of 416.29%. Here we're getting a little less gains compared to pure compounding, however we also extracted a good portion of our gains into ONE, which may be less volatile than ELK, hence may present less risk.
+Bắt đầu từ vị trí ban đầu với MAI-ELK trị giá 100 đô la, điều này tương ứng với APY tổng thể là 416,29%. Ở đây, chúng tôi nhận được ít lợi nhuận hơn một chút so với lãi kép thuần túy, tuy nhiên chúng tôi cũng trích một phần lợi nhuận tốt thành ONE, có thể ít biến động hơn ELK, do đó có thể ít rủi ro hơn.
 
 {% hint style="info" %}
-Once again, the simulation can be found in the same [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the third tab.
+Một lần nữa, mô phỏng có thể được tìm thấy trong cùng một [Bảng tính Google](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit#gid=0) trong tab thứ ba.
 {% endhint %}
 
-Alternatively, you can also sell all your ELK rewards for tokens that are accepted on Mai Finance, borrow MAI and sell part of it to buy additional ELK in order to increase your position in the MAI-ELK pool. By doing so, you increase your exposure to ONE, but also increase your debt. You would end up with $270.715 worth of MAI-ELK, $352.913 worth of ONE and $171.457 worth of debt for an overall APY of 342.17%.
+Ngoài ra, bạn cũng có thể bán tất cả phần thưởng ELK của mình cho các mã thông báo được chấp nhận trên Mai Finance, vay thêm MAI và bán một phần của nó để mua thêm ELK nhằm tăng vị thế của bạn trong bể MAI-ELK. Bằng cách đó, bạn sử dụng ONE nhiều hơn, nhưng cũng đồng thời tăng nợ của bạn. Bạn sẽ nhận được MAI-ELK trị giá 270,715 đô la, ONE trị giá 352,913 đô la và khoản nợ trị giá 171,457 đô la cho APY tổng thể là 342,17%.
 
-## Influence of the frequency at which you compound
+## Ảnh hưởng của tần suất cộng dồn
 
-Whether you decide to stake your rewards or compound, it's important to understand that your reward will change depending on the frequency at which you perform your harvest + invest routine. As a reminder, the formula that links APY and APR is as follows:
+Cho dù bạn quyết định đặt cọc hay cộng dồn phần thưởng của mình, điều quan trọng là phải hiểu rằng phần thưởng của bạn sẽ thay đổi tùy thuộc vào tần suất bạn thực hiện quy trình thu hoạch + tái đầu tư của mình. Xin nhắc lại, công thức tính APY và APR như sau:
 
 $$
 APY = ( 1 + \frac{APR}{N})^N-1
 $$
 
-In this equation, `N` represents the number of times you compound your rewards in a year. So, and APR of 200% as above would give you the following APY depending on the frequency you compound:
+Trong phương trình này, N đại diện cho số lần bạn gộp phần thưởng của mình trong một năm. Vì vậy, và APR là 200% như trên sẽ cung cấp cho bạn APY sau tùy thuộc vào tần suất bạn cộng dồn:
 
-| Compounding frequency | equivalent APY |
-|-----------------------|----------------|
-|                 daily |       634.88 % |
-|       twice in a week |       625.01 % |
-|                weekly |       611.71 % |
-|      twice in a month |       609.55 % |
-|               monthly |       535.86 % |
-|             quarterly |       406.25 % |
-|       twice in a year |       300.00 % |
+| Tần suất cộng dồn | APY tương ứng |
+| ----------------- | ------------- |
+| hàng ngày         | 634.88 %      |
+| 2 lần mỗi tuần    | 625.01 %      |
+| hàng tuần         | 611.71 %      |
+| 2 lần mỗi tháng   | 609.55 %      |
+| hàng tháng        | 535.86 %      |
+| hàng quý          | 406.25 %      |
+| 2 lần mỗi năm     | 300.00 %      |
 
-Manually compounding more than once a day can be expensive depending on the chain you're on. But basically, it's clear that the more often you compound, the better the reward. This is also explaining why yield optimizer / auto-compounder are popular. Keep in mind that by compounding, you add sell pressure to the token you farm, which will have a negative impact on the price of that token. If that's also the token you are using to farm (in our exemple ELK), you may be impacted by impermanent losses, unless you're using Elk Finance DEX, which protects you from impermanent losses.
+Thực hiện cộng dồn theo cách thủ công nhiều hơn một lần một ngày có thể tốn kém tùy thuộc vào chuỗi khối bạn đang hoạt động. Nhưng về cơ bản, rõ ràng là bạn càng cồng dồn thường xuyên thì phần thưởng càng tốt. Điều này cũng giải thích lý do tại sao trình tối ưu hóa lợi suất / trình cộng dồn tự động lại phổ biến. Hãy nhớ rằng bằng cách tính lãi kép, bạn tăng thêm áp lực bán vào mã thông báo bạn sử dụng để canh tác lợi suất, điều này sẽ có tác động tiêu cực đến giá của mã thông báo đó. Nếu đó cũng là mã thông báo bạn đang sử dụng để canh tác lợi suất (trong ELK ví dụ của chúng tôi), bạn có thể bị ảnh hưởng bởi tổn thất tạm thời, trừ khi bạn đang sử dụng Elk Finance DEX, bảo vệ bạn khỏi tổn thất tạm thời.
 
-## Choosing the right pool
+## Chọn đúng bể&#x20;
 
-The MAI-ELK pair has been deployed to several chains, so it's possible for you to deploy your capital to the chain that offers the best rates.
+Cặp MAI-ELK đã được triển khai cho một số chuỗi, vì vậy bạn có thể triển khai trên chuỗi có tỷ giá tốt nhất.
 
-![MAI-ELK pools on Gnosis (top), Moonriver (middle) and Harmony (bottom) as of January 2021](<../../.gitbook/assets/elk-farming-3.png>)
+![Bể MAI-ELK trên Gnosis (trên), Moonriver (giữa) và Harmony (dưới) tại thời điểm tháng 1 năm 2021](../../.gitbook/assets/elk-farming-3.png)
 
 {% hint style="info" %}
-The MAI-ELK pool may also be deployed to other chains in a near future, possibly on Polygon, Cronos and Fantom. This is not guaranteed and there's no ETA for that, so stay updated by checking the difference Discord servers of both projects, of following them on twitter.
+Bể MAI-ELK cũng có thể được triển khai cho các chuỗi khác trong tương lai gần, có thể trên Polygon, Cronos và Fantom. Điều này không được đảm bảo và không có ETA cho điều đó, vì vậy hãy cập nhật bằng cách kiểm tra các máy chủ Discord khác nhau của cả hai dự án, theo dõi chúng trên twitter.
 {% endhint %}
 
-Besides the reward rate on each chain, you may also have to consider the price of the ELK token on each chain. Indeed, if the price is almost the same on all chains, the tiny difference may also be a factor for you to choose the chain where you want to farm the ELK token.
+Bên cạnh tỷ lệ phần thưởng trên mỗi chuỗi, bạn cũng có thể phải xem xét giá của mã thông báo ELK trên mỗi chuỗi. Nếu giá gần như giống nhau trên tất cả các chuỗi, thì sự khác biệt nhỏ cũng có thể là một yếu tố để bạn chọn chuỗi nơi bạn muốn canh tác lợi suất mã thông báo ELK.
 
-![Price of the ELK tokens on all the chains where it's present](<../../.gitbook/assets/elk-farming-4.png>)
+![Giá của mã thông báo ELK trên tất cả các chuỗi](../../.gitbook/assets/elk-farming-4.png)
 
-As you can see, the MAI-ELK pool on Moonriver gives a better reward rate, and the ELK token also has a higher price on that chain. This means that, at time of writing, it may be better to farm the MAI-ELK pool on Moonriver than on Harmony or Gnosis, especially if you plan to sell a part of the farmed tokens. Note that this may not be true all the time, so make sure you choose your chain properly and that you do your own researches before joining a LP pool. Finally, it is strongly recommended to read the [documentation about IL protection](https://docs.elk.finance/features/impermanent-loss-protection) because the insurance is highly dependant on the number of days your LP tokens are deposited in the pool.
+Như bạn có thể thấy, bể MAI-ELK trên Moonriver mang lại tỷ lệ phần thưởng tốt hơn và mã thông báo ELK cũng có giá cao hơn trên chuỗi đó. Điều này có nghĩa là, tại thời điểm viết bài, có thể tốt hơn nếu canh tác lợi suất bể MAI-ELK trên Moonriver hơn là trên Harmony hoặc Gnosis, đặc biệt nếu bạn định bán một phần của các mã thông báo được nuôi. Lưu ý rằng điều này có thể không đúng mọi lúc, vì vậy hãy đảm bảo rằng bạn chọn chuỗi của mình đúng cách và bạn tự nghiên cứu trước khi tham gia nhóm LP. Cuối cùng, chúng tôi khuyên bạn nên đọc tài liệu về [bảo vệ IL](https://docs.elk.finance/features/impermanent-loss-protection) vì bảo hiểm phụ thuộc nhiều vào số ngày mã thông báo LP của bạn được gửi vào bể.
 
-As a side note, because bridging ELK is free, you can possibly move from one chain to another in order to always benefit from the best rates. Make sure that you understand that by doing so, you will also influence the reward rates of the pool you exit and the one you join (less liquidity will increase the APR, more liquidity will lower it).
+Một lưu ý nhỏ, vì ELK bắc cầu là miễn phí, bạn có thể chuyển từ chuỗi này sang chuỗi khác để luôn được hưởng lợi từ tỷ lệ tốt nhất. Đảm bảo rằng bạn hiểu rằng bạn cũng sẽ ảnh hưởng đến tỷ lệ phần thưởng của bể bạn thoát và bể bạn tham gia (ít thanh khoản hơn sẽ làm tăng APR, thanh khoản nhiều hơn sẽ làm giảm nó).
 
-## Disclaimer
+## Tuyên bố từ chối trách nhiệm
 
-This guide has been written in order to illustrate the different ways to farm yields using liquidity providing tokens. You will highly influence your gains with the strategy that you pick, as well as your exposure to risk. Of course, all the notions pointed in this document are also applicable to any LP pair, and it's highly recommended to run your own simulations before picking a strategy, a LP pair, a pool or even a DEX.
+Hướng dẫn này đã được viết để minh họa các cách khác nhau để tạo ra lợi nhuận bằng cách sử dụng thanh khoản mã thông báo được cung cấp. Bạn sẽ ảnh hưởng rất nhiều đến lợi nhuận của mình với chiến lược mà bạn chọn, cũng như mức độ rủi ro. Tất nhiên, tất cả các khái niệm được chỉ ra trong tài liệu này cũng có thể áp dụng cho bất kỳ cặp LP nào và bạn rất nên thử nghiệm của riêng mình trước khi chọn chiến lược, cặp LP, bể hoặc thậm chí là DEX.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}
