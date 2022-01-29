@@ -13,7 +13,7 @@
   * [Was du mit Qi auf Polygon machen kannst](tutorials/polygon/what-to-do-with-qi-on-polygon.md)
   * [Stapel DApps wie Lego](tutorials/polygon/stack-dapps-like-lego-bricks.md)
   * [Farmen oder Staken? Oder doch beides?](tutorials/polygon/farming-or-staking-or-both.md)
-  * [How to combine farming and borrowing rewards](tutorials/polygon/how-to-combine-farming-and-borrowing-rewards.md)
+  * [So kombinierst du Belohnungen aus Farming und Vault-Belohnungen](tutorials/polygon/how-to-combine-farming-and-borrowing-rewards.md)
   * [OHM-Forks auf Polygon: KLIMA als Beispiel](tutorials/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
   * [MAI single-staking with Ethalend](tutorials/polygon/ethalend-single-staking.md)
   * [The Elephant, the Chimp and the Otter](tutorials/polygon/the-elephant-and-the-otter.md)
