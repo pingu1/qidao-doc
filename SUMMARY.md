@@ -15,7 +15,7 @@
   * [Farmen oder Staken? Oder doch beides?](tutorials/polygon/farming-or-staking-or-both.md)
   * [So kombinierst du Belohnungen aus Farming und Vault-Belohnungen](tutorials/polygon/how-to-combine-farming-and-borrowing-rewards.md)
   * [OHM-Forks auf Polygon: KLIMA als Beispiel](tutorials/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
-  * [MAI single-staking with Ethalend](tutorials/polygon/ethalend-single-staking.md)
+  * [MAI Staking auf Ethalend](tutorials/polygon/ethalend-single-staking.md)
   * [Der Elefant, der Qimp und der Otter](tutorials/polygon/the-elephant-and-the-otter.md)
 * [Avalanche](tutorials/avalanche/README.md)
   * [Einstieg in Avalanche](tutorials/avalanche/how-to-get-started-on-avalanche.md)
