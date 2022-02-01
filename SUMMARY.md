@@ -34,7 +34,7 @@
   * [Farmeando rendimientos en CroDex como Legos](tutoriales/cronos/farming-legos-with-crodex.md)
 * [Harmony](tutoriales/harmony/README.md)
   * [Cómo comenzar en Harmony](tutoriales/harmony/how-to-get-started-on-harmony.md)
-  * [One LP Pair, Many ways to farm](tutoriales/harmony/how-to-farm-elknet.md)
+  * [Un Par LP, muchas formas de farmear](tutoriales/harmony/how-to-farm-elknet.md)
 
 ## Artículos sobre MAI <a href="#universidade-de-mai" id="universidade-de-mai"></a>
 
