@@ -1,222 +1,214 @@
 ---
 description: >-
-  In this guide, we will use the concept of bonds to get assets at a lower price
-  than market price, and use high reward protocols to increase gains.
+  En esta guía, utilizaremos el concepto de bonos para obtener activos a un
+  precio inferior al del mercado, y utilizaremos protocolos que ofrecen altas
+  recompensas para aumentar las ganancias.
 ---
- 
-# Exodia Combo on Fantom
- 
-## Introduction
- 
-One of the most important things to keep in mind when you're investing in crypto is to make sure your initial is protected. If you keep this fundamental in mind, you may only put your gains at risk. However, there's another option if you want to invest in a token that represents some uncertainty: buying it with a discount, and make sure the rewards are high enough to cover your initial investment as fast as possible.
- 
-For a few months now, this is made possible with the introduction of bonds, and very high reward rates proposed by some projects. So today, we explore two projects on Fantom that are using the bonding concept in order to achieve 2 very different goals.
- 
-![](<../../.gitbook/assets/exodia-tomb-0.png>)
- 
+
+# Combo Exodia en Fantom
+
+## Introducción
+
+Una de las cosas más importantes que hay que tener en cuenta cuando se invierte en cripto es asegurarse de que su inversión inicial está protegida. Si tiene en cuenta este aspecto fundamental, sólo puede poner en riesgo sus ganancias. Sin embargo, hay otra opción si quieres invertir en un token que representa cierta incertidumbre: comprarlo con un descuento, y asegurarte de que las recompensas son lo suficientemente altas como para cubrir tu inversión inicial lo más rápido posible.&#x20;
+
+Desde hace unos meses, esto es posible con la introducción de los bonos, y las tasas de recompensa muy altas que proponen algunos proyectos. Así que hoy, exploramos dos proyectos en Fantom que están utilizando el concepto de bonos con el fin de lograr 2 objetivos muy diferentes.
+
+![](../../.gitbook/assets/exodia-tomb-0.png)
+
 ## Exodia
- 
-### Presentation of the project
- 
-[Exodia](https://app.exodia.fi/dashboard) is a small project on Fantom that has gigantic potential. It's an Ohm-fork based on the EXOD token that is a reserve currency backed by different assets. The initial backing assets added to the Exodia treasury were DAI and FTM, but the team and DAO in charge of the protocol decided to develop ties with the Olympus community and to allocate 33% of its excess reserves to purchase assets denominated in OHM. As such, a small portion of the treasury is denominated in gOHM tokens.
- 
-![Treasury breakdown of Exodia as of January 2022](<../../.gitbook/assets/exodia-tomb-1.png>)
- 
-### New bonding LP Token
- 
-In order to strengthen the ties, Exodia rececntly voted to increase the amount of OHM-related tokens in its treasury, and will soon accept a new token as part of their bonding program. The new token is an LP (**L**iquidity **P**roviding) token that one can create on BeethovenX. One of the best things about BeethovenX tokens is that they can be created even if you only own a single asset from the selection in the pool, which makes it easily accessible. The LP token is compsed of
- 
-* 20% wFTM
-* 20% EXOD
+
+### Presentación del proyecto
+
+[Exodia](https://app.exodia.fi/dashboard) es un pequeño proyecto en Fantom que tiene un potencial gigantesco. Se trata de un fork de Ohm basado en el token EXOD que es una moneda de reserva respaldada por diferentes activos. Los activos de respaldo iniciales añadidos a la tesorería de Exodia eran DAI y FTM, pero el equipo y el DAO a cargo del protocolo decidieron desarrollar vínculos con la comunidad de Olympus y destinar el 33% de sus reservas excedentes a la compra de activos denominados en OHM. Por ello, una pequeña parte de la tesorería está denominada en tokens gOHM.
+
+![Desglose de la tesorería de Exodia en Enero de 2022](../../.gitbook/assets/exodia-tomb-1.png)
+
+### Haciendo bonding con el token LP&#x20;
+
+Para reforzar los lazos, Exodia votó recientemente para aumentar la cantidad de tokens relacionados con OHM en su tesorería, y pronto aceptará un nuevo token como parte de su programa de bonos. El nuevo token es un token LP (Liquidity Providing) que se puede crear en BeethovenX. Una de las mejores cosas de los tokens de BeethovenX es que se pueden crear incluso si sólo se posee un único activo de la selección en el pool, lo que lo hace fácilmente accesible. El token LP se compone de:
+
+* 20% wFTM&#x20;
+* 20% EXOD&#x20;
 * 20% wsEXOD
-* 20% gOHM
+* 20% gOHM&#x20;
 * 20% MAI
- 
-![The Monolith LP pool on BeethovenX as of January 2022](<../../.gitbook/assets/exodia-tomb-2.png>)
- 
-This is probably the first Ohm fork using a Balancer fork LP token to bond. This is particularly interesting in the sense that you can now purchase new bonds using just your EXOD tokens. The steps involved would be:
- 
-* deposit your EXOD token into `The Monolith` pool on BeethovenX to get the LP token
-* sell your LP token on the Exodia app to purchase new EXOD with a discount
-* wait the vesting period and collect your EXOD tokens
-* repeat
- 
-This drastically reduces the sell pressure on EXOD tokens, which can only benefit the protocol. Previously bond flippers would have to sell their EXOD for DAI to purchase additional bonds, which is partially detrimental by reducing the token price, and has a cascading effect on the treasury and the runway.
- 
+
+![El Monolith pool en BeethovenX en Enero de 2022](../../.gitbook/assets/exodia-tomb-2.png)
+
+Esta es probablemente el primer fork de Ohm que utiliza un token de LP del fork Balancer para hacer bonos. Esto es particularmente interesante en el sentido de que ahora puede comprar nuevos bonos utilizando sólo sus tokens EXOD. Los pasos serían los siguientes:
+
+* deposite su token EXOD en `The Monolith` en BeethovenX para obtener el token LP
+* Vender su token LP en la aplicación Exodia para comprar nuevos EXOD con un descuento&#x20;
+* Espere el periodo de adquisición de derechos y recoja sus tokens EXOD
+* &#x20;Repetir&#x20;
+
+Esto reduce drásticamente la presión de venta de tokens EXOD, lo que sólo puede beneficiar al protocolo. Anteriormente los "flippers" de bonos tendrían que vender sus EXOD para DAI para comprar bonos adicionales, lo que es parcialmente perjudicial al reducir el precio de los tokens, y tiene un efecto en cascada en la tesorería.
+
 {% hint style="info" %}
-If you're not familiar with Ohm projects, I strongly recommend some more readings on the subject. You can refer to our guide on Klima (see the Polygon section) or go directly to the [official documentation of Exodia](https://docs.exodia.finance/). Also, you could join their discord and enroll in their education scheme.
+Si no está familiarizado con los proyectos de Ohm, le recomiendo encarecidamente que lea algo más sobre el tema. Puede consultar nuestra guía sobre Klima (véase la sección Polígono) o ir directamente a la[ documentacion oficial de Exodia](https://docs.exodia.finance). Además, puedes unirte a su discordia e inscribirte en su plan de educación.
 {% endhint %}
- 
-You also see that the LP token accepts MAI, the stable coin that you can mint on Mai Finance. This will actually be our main source for the LP (see later). Once you purchased your bonds with a decent discount, you will get your EXOD tokens at the end of the vesting period. You can also stake this token at a decent APY (**A**nnual **P**ercentage **Y**ield) of 38,787%, which is equivalent to an APR (**A**nnual **P**ercentage **R**ate) of 601%, or a daily gain of 1.65%.
- 
-We will be using the bonding system to purchase EXOD tokens with a discount, and profit from the very high APY to collect gains from rebase rewards.
- 
+
+También se ve que el token LP acepta MAI, la moneda estable que se puede acuñar en Mai Finance. Esta será en realidad nuestra principal fuente para el LP (ver más adelante). Una vez que hayas comprado tus bonos con un descuento decente, obtendrás tus tokens EXOD al final del período de adquisición de derechos.&#x20;
+
+También puedes stakear este token a un decente APY (Annual Percentage Yield) del 38,787%, que equivale a un APR (Annual Percentage Rate) del 601%, o una ganancia diaria del 1,65%. Utilizaremos el sistema de bonos para comprar tokens EXOD con un descuento, y nos beneficiaremos del altísimo APY para recoger las ganancias de las recompensas de los rebases.
+
 ## Tomb Finance
- 
-[Tomb Finance](https://tomb.finance/) is a very particular project, original in many ways. The TOMB token is an algorithmic stable coin pegged to the FTM token, and designed to be a medium of exchange and to add additional liquidity to FTM,the gas token of the Fantom chain.
- 
-The Tomb Finance ecosystem proposes 2 more tokens:
- 
-* TSHARE: this is the governance token for Tomb Finance. Holders of TSHARE have voting power. TSHARE stakers will also receive additional TOMBs. The emission of additional TOMB tokens to TSHARE holders is following the same mechanics as Ohm forks with new token being minted at the end of each epoch with very high APY.
-* TBOND: this is a special tokens that is primarly used to maintain the peg to 1 FTM. When the TOMB price falls below 1 FTM, users can purchase TBOND at the current price of TOMB tokens. They can do so by selling TOMB tokens to the protocol, and these tokens are burnt, which increases the value of TOMB back to 1 FTM. Buying TBOND at a discount and being able to redeem TOMB tokens gave the name to the TBOND token. When the TOMB token is above thee peg, people can redeem their TBOND for TOMB. New TOMB are minted, reducing the value of the token. In other words, this is an arbitrage token!
- 
-![TOMB, TBOND and TSHARE values as of January 2022](<../../.gitbook/assets/exodia-tomb-3.png>)
- 
-Tomb Finance also proposes 2 LP pools that will earn you TSHARE tokens. This is particularly important for Tomb Finance to have a very important liquidity depth. However, to achieve the objective of geetting TOMB as an alternative solution to FTM, it's important for the protocol to have users using TOMB, hence owning the liquidity. When you farm the TOMB-FTM and TSHARE-FTM pools, you are rewarded with TSHARE tokens that will allow you to earn more TOMB tokens, which is a nice little closed loop within a single application.
- 
-## Additional pieces to close loops
- 
-Now that we presented the 2 big pieces for our strategy, let's quickly see the other pieces of the puzzle of the day.
- 
+
+[Tomb Finance](https://tomb.finance) es un proyecto muy particular, original en muchos sentidos. El token TOMB es una moneda estable algorítmica vinculada al token FTM, y diseñada para ser un medio de intercambio y añadir liquidez adicional a FTM, el token de gas de la cadena Fantom. El ecosistema de Tomb Finance propone 2 tokens más:
+
+* TSHARE: es el token de gobernanza de Tomb Finance. Los titulares de TSHARE tienen poder de voto. Los poseedores de TSHARE también recibirán TOMBs adicionales. La emisión de tokens TOMB adicionales a los poseedores de TSHARE sigue la misma mecánica que las bifurcaciones de Ohm, acuñándose nuevos tokens al final de cada época con un APY muy alto.&#x20;
+* TBOND: se trata de un token especial que se utiliza principalmente para mantener el peg a 1 FTM. Cuando el precio de TOMB cae por debajo de 1 FTM, los usuarios pueden comprar TBOND al precio actual de los tokens TOMB. Pueden hacerlo vendiendo tokens TOMB al protocolo, y estos tokens se queman, lo que aumenta el valor de TOMB de nuevo a 1 FTM. Comprar TBOND con descuento y poder canjear tokens TOMB dio el nombre al token TBOND. Cuando el token TOMB está por encima de la clavija, las personas pueden canjear sus TBOND por TOMB. Se acuñan nuevos TOMB, lo que reduce el valor del token. En otras palabras, ¡se trata de un token de arbitraje!
+
+![TOMB, TBOND and TSHARE values as of January 2022](../../.gitbook/assets/exodia-tomb-3.png)
+
+Tomb Finance también propone 2 LP pools que le harán ganar tokens TSHARE. Esto es especialmente importante para que Tomb Finance tenga una profundidad de liquidez muy importante. Sin embargo, para lograr el objetivo convertir a TOMB como una solución alternativa a FTM, es importante que el protocolo tenga usuarios que usen TOMB, y por lo tanto sean dueños de la liquidez. Cuando cultivas los pools TOMB-FTM y TSHARE-FTM, eres recompensado con tokens TSHARE que te permitirán ganar más tokens TOMB, lo que supone un pequeño y agradable bucle cerrado dentro de una única aplicación.
+
+## Piezas adicionales para cerrar el bucle
+
+Ahora que presentamos las 2 grandes piezas para nuestra estrategia, veamos rápidamente las otras piezas del rompecabezas del día.
+
 ### Beefy Finance
- 
-[Beefy Finance](https://app.beefy.finance/#/fantom) is a  yield optimizer that will accept LP tokens from particular DEX (**D**ecentralized **Ex**changes), farm reward tokens, and let their algorithms sell the reward for additional LP. As such, you can get an increasing investment position that will compound only the tokens from the LP and capture the value of the reward token at the time the token is harvested.
- 
-For our stratgy, we will be using the TOMB-FTM LP token. The reasons are multiple:
- 
-* TOMB being pegged to the FTM token, there's no IL (**I**mpermanent **L**oss) on this pair, so the only variation will be linked to the price variation of FTM
-* TOMB-FTM is rewarded with TSHARE, so selling TSHARE won't impact the 2 tokens from the pair
-* TOMB-FTM has quite a high APY which for a LP token with no IL
-* using the LP token on beefy will allow you to get `mooTombTOMB-FTM` receipt token
- 
-![Tomb LP pairs on Beefy Finance aas of January 2022](<../../.gitbook/assets/exodia-tomb-4.png>)
- 
+
+[Beefy Finance](https://app.beefy.finance/#/fantom) es un optimizador de rendimientos que aceptará tokens de LP de DEX (Exchanges Descentralizados) particulares, cosechará tokens de recompensa, y dejará que sus algoritmos vendan la recompensa por LP adicionales. Como tal, puede obtener una posición de inversión creciente que compondrá sólo los tokens del LP y capturará el valor del token de recompensa en el momento en que el token sea cosechado. Para nuestra estrategia, utilizaremos el token TOMB-FTM LP. Las razones son múltiples:&#x20;
+
+* TOMB al estar ligado al token FTM, no hay IL (Pérdida Impermanente) en este par, por lo que la única variación estará ligada a la variación del precio del FTM
+* TOMB-FTM se recompensa con TSHARE, por lo que la venta de TSHARE no afectará a los 2 tokens del par TOMB-FTM&#x20;
+* Tiene un APY bastante alto que para un token LP sin IL utilizando el token LP en beefy le permitirá obtener el recibo`mooTombTOMB-FTM`&#x20;
+
+![Pares LP de Tomb en Beefy Finance en Enero de 2022](../../.gitbook/assets/exodia-tomb-4.png)
+
 {% hint style="info" %}
-For the purpose of this guide, we're using TOMB-FTM token because it presents less risk due to the absence of impermanent loss on the pair. However, you can totally use the TSHARE-FTM pair for higher rewards. Make sure you understand the risks and DYOR first.
+Para el propósito de esta guía, estamos utilizando TOMB-FTM token porque presenta menos riesgo debido a la ausencia de pérdida impermanente en el par. Sin embargo, usted puede utilizar totalmente el par TSHARE-FTM para obtener mayores recompensas. Asegúrese de entender los riesgos y DYOR primero.
 {% endhint %}
- 
-### Market XYZ lending market
- 
-[Market.XYZ](https://fantom.market.xyz/pool/3) is a lending protocol on which you will be able to deposit some particular assets and borrow against them. When you lend your asset, you may get some lending incentives paid in the asset you lend. When you borrow, you will have to paay some interests at the time of repayment in the same asset you borrowed.
- 
-Market XYZ started a partnership with Mai Finance in 2021 in order to allow additional classes of assets to be used as collateral to borrow the MAI stablecoin. These assets are considered more risky than the ones currently accepted directly on Mai Finance, or are just waiting for an official ChainLink Oracle and are not accepted directly on the main app. This brings additional benefits: the QiDAO  protocol is earning fees from borrowed MAI, borrowers are getting MAI at low interest rates (Mai Finance is adding more MAI from the treasury regularly based on demaand) and it is a very interesting use case for the stable coin, driving its usage up. On the flip side, lending markets are a great way to kickstart strong relations with different partners while they are waiting for their assets to be accepted on Mai Finance directly.
- 
-![TOMB Beefy Locker on Market XYZ  as of January 2022](<../../.gitbook/assets/exodia-tomb-5.png>)
- 
-The lending market we are interested in for this strategy is the TOMB Beefy locker. After we deposit our TOMB-FTM tokens on Beefy, we receive mooTombTOMB-FTM receipt token that is a "proof of ownership" for the token that is compounding rewards on Beefy. This receipt token can be used as collateral on MarketXYZ to borrow additional MAI.
+
+### Mercado de préstamos Market XYZ
+
+[Market.XYZ](https://fantom.market.xyz/pool/3) es un protocolo de préstamo en el que podrá depositar algunos activos particulares y pedir préstamos contra ellos. Cuando presta su activo, puede obtener algunos incentivos de préstamo pagados en el activo que presta. Cuando pides un préstamo, tendrás que pagar algunos intereses en el momento de la devolución en el mismo activo que pediste prestado.
+
+Market XYZ inició una asociación con Mai Finance en 2021 con el fin de permitir que se utilicen clases adicionales de activos como garantía para tomar prestada la stablecoin MAI. Estos activos se consideran más arriesgados que los que actualmente se aceptan directamente en Mai Finance, o simplemente están a la espera de un oráculo de ChainLink y no se aceptan directamente en la app principal. Esto aporta beneficios adicionales: el protocolo QiDAO está ganando comisiones de los MAI prestados, los prestatarios están obteniendo MAI a bajos tipos de interés (Mai Finance está añadiendo más MAI de la tesorería regularmente en base a la demanda) y es un caso de uso muy interesante para la moneda estable, impulsando su uso. Por otro lado, los mercados de préstamos son una gran manera de iniciar relaciones sólidas con diferentes socios mientras esperan que sus activos sean aceptados en Mai Finance directamente.
+
+![TOMB Beefy Locker en Market XYZ  en Enero de 2022](../../.gitbook/assets/exodia-tomb-5.png)
+
+El mercado de préstamos que nos interesa para esta estrategia es el locker TOMB Beefy. Después de depositar nuestros tokens TOMB-FTM en Beefy, recibimos un token de recepción mooTombTOMB-FTM que es una "prueba de propiedad" para el token que está componiendo las recompensas en Beefy. Este token de recibo se puede utilizar como garantía en MarketXYZ para pedir préstamos adicionales de MAI.
 
 {% hint style="danger" %}
-Market.XYZ only allows loans with a minimum value of 0.05 ETH (~$170.00 at time of writing). Make sure you deposit enough collateral if you want to bororw from the different lockers.
+Market.XYZ sólo permite préstamos con un valor mínimo de 0,05 ETH (\~$170,00 en el momento de escribir este artículo). Asegúrate de depositar suficientes garantías si quieres pedir un préstamo en las diferentes taquillas.
 {% endhint %}
- 
-In the screenshot above, you can see that we can
- 
-* deposit the mooTombTOMB-FTM token as collateral and get 355.4% APY on it, provided by Beefy
-* borrow MAI against our collateral with a 15.02% interest rate (APR)
- 
-It's easy to see that the gains we get from the LP farming out-performs by far the borrowing interests, which makes this strategy viable. However, make sure you monitor properly the price of FTM and TOMB to prevent liquidation and make sure you borrow at a very high CDR (**C**ollateral to **D**ebt **R**atio), which will let you enough time to repay your loan in case of a massive price drop.
- 
-{% hint style="info" %}
-If you're not interested in this strategy but you are a user of Mai Finance, Market XYZ is an amazing application to lend your MAI. You will be paid in additional MAI that will be compounded into your position.
-{% endhint %}
- 
-## Farming strategy
- 
-To complete our investment loop, we will start with purchasing EXOD bonds using MAI. The EXOD rebase rewards will be used to purchase TOMB-FTM LP tokens. The tokens will be used on Beefy to compound the TSHARE rewards. Additionally, the LP token receipt will be used as collateral on Market XYZ to borrow more MAI, which sends us back to our initial step.
- 
-We  will simulate with a few assumptions:
- 
-* all reward rates and prices remain the same over one year
-* Exodia APY is 38,787%
-* TOMB-FTM APY via beefy is 318.51%
-* borrowing interest on Market XYZ is 15.02% APR (interest don't compound so we're using APR when we're referring to borrowing fees)
- 
-Also, we will assume that you are harvesting your bonds and extra EXOD tokens daily and stake 50% to benefit from rebases as soon as possible. Bonds will be purchased at an average of 0% discount for simplicity, but you will hopefully get them with a better discount, and we will assume that we can purchase new bonds every 5 days.
- 
-![](<../../.gitbook/assets/exodia-tomb-6.png>)
- 
-### Day 1
- 
-We need to first figure out which entry point presents the less risk. The TOMB-FTM LP seems to fit exactly this (see reasons detailed on the LP pair description), so we will start the loop at this point with $1,000 worth of TOMB-FTM tokens. Once the LP token has been created on SpookySwap, you can deposit it on Beefy Finance and start borrowing right away.
- 
-For this strategy, we will try to stick to a CDR of 300%. This means that we will be able to borrow $333 worth of MAI from the locker with an interest rate of 15.02%. The MAI borrowed will be used on BeethovenX to get a wFTM-EXOD-gOHM-wsEXOD-MAI LP token. Finally, we will purchase an EXOD bond with the LP. Note that all the setup can be done on Day 1. At the end of the first day (assuming 3 rebases) we will get:
- 
-| Position            | value ($) |
-|---------------------|-----------| 
-| TOMB-FTM            | 1,000.000 |
-| MAI loan            |   333.333 |
-| EXOD                |    66.667 |
-| additional TOMB-FTM |     3.930 |
-| additional EXOD     |     1.098 |
- 
-### Day 2, 3, 4 and 5
- 
-The next few days, it's useless to do anything by harvest and compounding the EXOD rewards since the bond we purchased on Day is still vesting. So We can let the TOMB-FTM LP token grow in price without borrowing more and focus on EXOD rewards. 50% of the reward will be compounded into more EXOD, and the other 50% will be added to the TOMB-FTM LP. At the end of Day 5, when the bond is fully vested, we would have:
 
-| Position            | value ($) |
-|---------------------|-----------|
-| TOMB-FTM            | 1,021.369 |
-| MAI loan            |   333.333 |
-| EXOD                |   338.869 |
-| additional TOMB-FTM |     4.014 |
-| additional EXOD     |     5.582 |
- 
+En la captura de pantalla anterior, se puede ver que:
+
+* Podemos depositar el token mooTombTOMB-FTM como garantía y obtener un 355,4% de APY, proporcionado por Beefy&#x20;
+* Pedir prestado MAI contra nuestra garantía con un 15,02% de tasa de interés (APR)&#x20;
+
+Es fácil ver que las ganancias que obtenemos del cultivo de LP superan con creces los intereses del préstamo, lo que hace que esta estrategia sea viable. Sin embargo, asegúrate de vigilar adecuadamente el precio de FTM y TOMB para evitar su liquidación y asegúrate de pedir un préstamo con un CDR (Collateral to Debt Ratio) muy alto, lo que te permitirá tener tiempo suficiente para devolver el préstamo en caso de una caída masiva del precio.
+
 {% hint style="info" %}
-The additional TOMB-FTM and EXOD are only what is produced on day 5 and compounded at the beginning of Day 6.
+Si no te interesa esta estrategia pero eres usuario de Mai Finance, Market XYZ es una aplicación increíble para prestar tu MAI. Se le pagará en MAI adicional que se compone en su posición.
 {% endhint %}
- 
-### Day 6
- 
-The TOMB-FTM compounded on Day 5, as well as the 50% EXOD harvested, give you a total of $1,028.173 worth of TOMB-FTM at the beginning of Day 6. This means that your possible loan is $342.724, allowing you to borrow an extra $9.391 worth of MAI that will be used to buy a new bond on Exodia. At this point, the system is primed and can simply manage your investment via a light daily routine.
- 
-### Daily Routine
- 
-The routine is split into 2 parts: the real daily routine that you will have to operate daily, and one that you will have to operate every 5 days.
- 
-Daily, you will have to:
- 
-* Claim vested EXOD tokens on Exodia
-* Stake 50% of the EXOD tokens on Exodia
-* Sell 25% of the EXOD tokens for FTM on SpookySwap
-* Sell 25% of the EXOD tokens for TOMB on SpookySwap
-* Create a TOMB-FTM LP token on SpookySwap
-* Deposit the TOMB-FTM LP token on Beefy Finance
-* Deposit the mooTombTOMB-FTM receipt token on Market.xyz
- 
-Every 5 days, you will have to:
- 
-* Borrow additional MAI from Market.xyz to keep a CDR of 300%
-* Deposit the borrowed MAI on BeethovenX in The Monolith pool
-* Exchange your Beethoven LP token for EXOD bond on Exodia
- 
-### Raw Results month after month
- 
-Here are raw results month after month
- 
-| day |  TOMB-FTM  |    EXOD    |   MAI debt |
-|-----|------------|------------|------------|
-|  30 |  1,222.088 |    488.438 |    407.363 |
-|  60 |  1,531.135 |    735.586 |    510.378 |
-|  90 |  1,956.250 |  1,093.089 |    652.083 |
-| 120 |  2,546.404 |  1,609.179 |    848.801 |
-| 150 |  3,371.740 |  2,353.088 |  1,123.913 |
-| 180 |  4,532.773 |  3,424.178 |  1,510.924 |
-| 210 |  6,173.591 |  4,965.049 |  2,057.864 |
-| 240 |  8,500.790 |  7,180.350 |  2,833.597 |
-| 270 | 11,810.653 | 10,363.762 |  3,936.884 |
-| 300 | 16,528.139 | 14,936.728 |  5,509.380 |
-| 330 | 23,262.834 | 21,504.023 |  7,754.278 |
+
+## Estrategia de Farmeo
+
+Para completar nuestro bucle de inversión, comenzaremos con la compra de bonos EXOD utilizando MAI. Las recompensas de EXOD se utilizarán para comprar tokens TOMB-FTM LP. Los tokens se utilizarán en Beefy para componer las recompensas de TSHARE. Además, el recibo de tokens LP se utilizará como garantía en el Mercado XYZ para pedir más MAI, lo que nos devuelve a nuestro paso inicial.&#x20;
+
+Simularemos con algunas suposiciones todas las tasas y precios de las recompensas permanecen iguales durante un año:
+
+* El APY de Exodia es del 38,787%.&#x20;
+* El APY de TOMB-FTM mediante beefy es del 318,51%.&#x20;
+* El interés de préstamo en Market XYZ es del 15,02% APRs (el interés no se compone, por lo que utilizamos APRs cuando nos referimos a las tasas de préstamo)&#x20;
+
+Además, vamos a suponer que usted está cosechando sus bonos y tokens EXOD extra diariamente y stakea el 50% para beneficiarse de los reembolsos tan pronto como sea posible. Los bonos se comprarán con un descuento medio del 0% para simplificar, pero es de esperar que los consigas con un descuento mejor, y asumiremos que podemos comprar nuevos bonos cada 5 días.
+
+![](../../.gitbook/assets/exodia-tomb-6.png)
+
+### Día 1
+
+Primero tenemos que averiguar qué punto de entrada presenta menos riesgo. El LP TOMB-FTM parece ajustarse exactamente a esto (ver las razones detalladas en la descripción del par LP), así que comenzaremos el bucle en este punto con 1.000 dólares en tokens TOMB-FTM. Una vez que el token LP ha sido creado en SpookySwap, puede depositarlo en Beefy Finance y empezar a pedir prestado de inmediato. Para esta estrategia, intentaremos ceñirnos a un CDR del 300%.
+
+Esto significa que podremos pedir prestados 333 dólares de MAI en la taquilla con un tipo de interés del 15,02%. El MAI prestado se utilizará en BeethovenX para obtener un token wFTM-EXOD-gOHM-wsEXOD-MAI LP. Finalmente, compraremos un bono EXOD con el LP. Tenga en cuenta que toda la configuración se puede hacer en el Día 1. Al final del primer día (suponiendo 3 rebases) obtendremos:
+
+| Posición           | Valor ($) |
+| ------------------ | --------- |
+| TOMB-FTM           | 1,000.000 |
+| Préstamo de MAI    | 333.333   |
+| EXOD               | 66.667    |
+| TOMB-FTM adicional | 3.930     |
+| EXOD adicional     | 1.098     |
+
+### Día 2, 3, 4 y 5
+
+Los próximos días, es inútil hacer nada por la cosecha y la composición de las recompensas EXOD ya que el bono que compramos en el día es todavía vesting. Así que podemos dejar que el token TOMB-FTM LP crezca en precio sin pedir más y centrarnos en las recompensas EXOD. El 50% de la recompensa se convertirá en más EXOD, y el otro 50% se añadirá al TOMB-FTM LP. Al final del Día 5, cuando el bono esté totalmente consolidado, tendríamos:
+
+| Posicion           | Valor ($) |
+| ------------------ | --------- |
+| TOMB-FTM           | 1,021.369 |
+| Préstamo de MAI    | 333.333   |
+| EXOD               | 338.869   |
+| TOMB-FTM adicional | 4.014     |
+| EXOD adicional     | 5.582     |
+
+{% hint style="info" %}
+El TOMB-FTM y el EXOD adicionales son sólo lo que se produce en el día 5 y se compone al principio del día 6.
+{% endhint %}
+
+### Día 6
+
+El TOMB-FTM compuesto en el día 5, así como el 50% de EXOD cosechado, le dan un total de 1.028,173 $ de TOMB-FTM al comienzo del día 6. Esto significa que su posible préstamo es de 342,724 $, lo que le permite pedir prestados 9,391 $ adicionales de MAI que se utilizarán para comprar un nuevo bono en Exodia. En este punto, el sistema está preparado y puede simplemente gestionar su inversión a través de una rutina diaria ligera.
+
+### Rutina Diaria
+
+La rutina se divide en 2 partes: la verdadera rutina diaria que tendrás que operar diariamente, y una que tendrás que operar cada 5 días.
+
+&#x20;Diariamente, tendrás que:
+
+* Reclamar tokens EXOD adquiridos en Exodia
+* Stakear el 50% de los tokens EXOD en Exodia&#x20;
+* Vender el 25% de los tokens EXOD por FTM en SpookySwap&#x20;
+* Vender el 25% de los tokens EXOD por TOMB en SpookySwap
+* Crear un token TOMB-FTM LP en SpookySwap&#x20;
+* Depositar el token TOMB-FTM LP en Beefy Finance&#x20;
+* Depositar el token de recepción mooTombTOMB-FTM en Market.xyz&#x20;
+
+Además, cada 5 días, tendrás que:
+
+* Pedir prestado MAI adicional en Market.xyz para mantener un CDR del 300%.
+* Depositar el MAI prestado en BeethovenX en el pool del Monolith&#x20;
+* Intercambiar su token Beethoven LP por un bono EXOD en Exodia
+
+### Resultados mensuales aproximados
+
+Estos serían los resultados aproximados:
+
+| Día | TOMB-FTM   | EXOD       | Deuda Mai  |
+| --- | ---------- | ---------- | ---------- |
+| 30  | 1,222.088  | 488.438    | 407.363    |
+| 60  | 1,531.135  | 735.586    | 510.378    |
+| 90  | 1,956.250  | 1,093.089  | 652.083    |
+| 120 | 2,546.404  | 1,609.179  | 848.801    |
+| 150 | 3,371.740  | 2,353.088  | 1,123.913  |
+| 180 | 4,532.773  | 3,424.178  | 1,510.924  |
+| 210 | 6,173.591  | 4,965.049  | 2,057.864  |
+| 240 | 8,500.790  | 7,180.350  | 2,833.597  |
+| 270 | 11,810.653 | 10,363.762 | 3,936.884  |
+| 300 | 16,528.139 | 14,936.728 | 5,509.380  |
+| 330 | 23,262.834 | 21,504.023 | 7,754.278  |
 | 360 | 32,889.239 | 30,933.491 | 10,963.080 |
- 
-### Day 365
- 
-After a complete year of farming this system, and assuming everything is the same as on Day 1 (prices, rates and everything else ...), you would have:
- 
-* $34,855.954 worth of TOMB-FTM LP tokens on Beefy
-* $32,863.908 worth of EXOD tokens
-* a debt of $11,618.651 worth of MAI on Market.xyz, with some additional interests to repay (corresponding to a total debt of $13,363.772)
- 
-It is very important to note that your Collateral to Debt Ratio remains close or above 300% at anytime during the exercise, so it is totally possible for you to sell a part of your TOMB-FTM or EXOD to repay it and lower the intests. It is also possible to adjust the portion of EXOD you sell daily to simply repay your initial loan and purchase new EXOD bonds by selling TOMB-FTM. The variations are endless, so feel free to adjust according to what you like the most.
- 
-In the end, from an initial investment of $1,000 you would end up with $67,719.862 and a debt of $13,363.772, which corresponds to an overall APY of 5,335.56%.
- 
-## Disclaimer
- 
-This is an experimental guide that is highlighting how you can increase your gains by adding Ohm forks in your investment loops. The simulation was done at a time where Exodia had very high APY on staked EXOD tokens. The same can be said about TOMB-FTM. These very high ratios are usually varying a lot, so you may expect a lot less benefits over the span of a complete year. Indeed, most Ohm forks are not designed to sustain such high yields for more than a few months, and generally drastically reduce their emission to continue emitting tokens.
- 
-Stay informed about the projects you're using, don't hesitate to ask questions, and as always, do your own researches.
- 
+
+### Día 365
+
+Después de un año completo de cultivar este sistema, y asumiendo que todo es igual que el día 1 (precios, tarifas y todo lo demás...), tendrías:&#x20;
+
+* 34.855,954 dólares en tokens TOMB-FTM LP en Beefy&#x20;
+* 32.863,908 $ de tokens EXOD&#x20;
+* Una deuda de 11.618,651 dólares de MAI en Market.xyz, con algunos intereses adicionales que hay que pagar (lo que corresponde a una deuda total de 13.363,772 dólares)
+
+&#x20;Es muy importante tener en cuenta que su Ratio de Colateral a Deuda se mantiene cerca o por encima del 300% en cualquier momento del ejercicio, por lo que es totalmente posible que venda una parte de su TOMB-FTM o EXOD para amortizarlo y bajar los inteses. También es posible ajustar la parte de EXOD que vendes diariamente para simplemente amortizar tu préstamo inicial y comprar nuevos bonos EXOD vendiendo TOMB-FTM. Las variaciones son infinitas, así que siéntase libre de ajustar según lo que más le guste. Al final, a partir de una inversión inicial de 1.000 dólares, usted terminaría con 67.719,862 dólares y una deuda de 13.363,772 dólares, lo que corresponde a un APY global de 5.335,56%.
+
+## Descargo de Responsabilidad
+
+Esta es una guía experimental que está destacando cómo puede aumentar sus ganancias mediante la adición de forks de Ohm en sus bucles de inversión. La simulación se hizo en un momento en el que Exodia tenía un APY muy alto en los tokens EXOD apostados. Lo mismo puede decirse de TOMB-FTM. Estos ratios tan elevados suelen variar mucho, por lo que se pueden esperar muchos menos beneficios a lo largo de un año completo. De hecho, la mayoría de los forks de Ohm no están diseñados para mantener unos rendimientos tan altos durante más de unos meses, y generalmente reducen drásticamente su emisión para seguir emitiendo tokens.&#x20;
+
+Mantente informado sobre los proyectos que utilizas, no dudes en hacer preguntas y, como siempre, haz tus propias investigaciones.
+
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Esta guía no es en absoluto un consejo financiero, sino que se ha realizado con un objetivo educativo. Es necesario prestar atención a las variaciones de precios, la oferta y la demanda, las fechas de finalización de los programas de recompensa, las pérdidas impermanentes, etc ... El objetivo no era proponer recetas que se puedan seguir a ciegas, así que por favor haga sus deberes y su propia simulación, y sólo invierta lo que esté dispuesto a perder posiblemente.
 {% endhint %}
- 
