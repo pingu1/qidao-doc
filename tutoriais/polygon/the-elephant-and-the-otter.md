@@ -20,11 +20,11 @@ Este poderia ser um bom título para alguma poesia, no entanto, parece que esses
 
 ### A estratégia am3CRV
 
-Para nosso guia, usaremos a `Passive Aave USD Strategy` (Estratégia passiva Aave USD) para a Polygon. Esta estratégia que depende do pool am3CRV da [Curve Finance](https://polygon.curve.fi): você deposita suas stablecoins (USDC, USDT ou DAI) no pool aave da Curve e receberá um token de comprovante am3CRV. Este é o token que você pode usar para fazer staking diretamente na Curve para receber recompensas CRV e WMATIC, mas você também pode depositar esse token na Stake DAO e as recompensas CRV e WMATIC serão vendidas e reacumuladas em sua posição de stablecoins.
+Para nosso guia, usaremos a `Passive Aave USD Strategy` (Estratégia passiva Aave USD) para a Polygon. Esta estratégia que depende do pool am3CRV da [Curve Finance](https://polygon.curve.fi): você deposita suas stablecoins (USDC, USDT ou DAI) no pool aave da Curve e receberá um token de comprovante am3CRV. Este é o token que você pode usar para fazer staking diretamente na Curve para receber recompensas CRV e WMATIC, mas você também pode depositar esse token na Stake DAO e as recompensas CRV e WMATIC serão vendidas e reinvestidas em sua posição de stablecoins.
 
 ![Pool aave na Curve em janeiro de 2022](../../.gitbook/assets/stakedao-otter-2.png)
 
-Como você pode ver acima, fazer staking com tokens am3CRV na Curve daria a você um APR geral de 8,35% (Annual Percentage Rate, ou Taxa Percentual Anual). Se você for à Stake DAO, encontrará na aba `Strategies for Polygon` a estratégia que usa os tokens am3CRV onde você depositará seu token de comprovante e ganhará um APY de 11,11% (Annual Percentage Yield, ou Rendimento Percentual Anual) que pressupõe que você reacumule suas recompensas ao menos diariamente).
+Como você pode ver acima, fazer staking com tokens am3CRV na Curve daria a você um APR geral de 8,35% (Annual Percentage Rate, ou Taxa Percentual Anual). Se você for à Stake DAO, encontrará na aba `Strategies for Polygon` a estratégia que usa os tokens am3CRV onde você depositará seu token de comprovante e ganhará um APY de 11,11% (Annual Percentage Yield, ou Rendimento Percentual Anual) que pressupõe que você reinvista suas recompensas ao menos diariamente).
 
 ![Estratégia passiva Aave USD na Stake DAO em janeiro de 2022](../../.gitbook/assets/stakedao-otter-3.png)
 
@@ -120,7 +120,7 @@ Durante estes dias não há nada que você possa fazer. Seu sdam3CRV está rende
 
 ### 5º dia
 
-No final do quinto dia, o título está totalmente disponível e, como as recompensas de rebase foram reacumuladas durante todo o período de vesting, você teria no final do dia:
+No final do quinto dia, o título está totalmente disponível e, como as recompensas de rebase foram reinvestidas durante todo o período de vesting, você teria no final do dia:
 
 | Posição             | Valor ($) |
 | ------------------- | --------- |
@@ -142,51 +142,55 @@ Você tem alguns tokens sdam3CRV adicionais contra os quais pode pedir emprestad
 | sdam3CRV adicionais | 0.031     |
 | sCLAM adicionais    | 0.728     |
 
-A partir deste ponto, seu CLAM em staking produzirá recompensas todos os dias que você pode acumular em seu vault sdam3CRV, ou reacumular a cada 5 dias quando o título estiver disponível.
+A partir deste ponto, seu CLAM em staking produzirá recompensas todos os dias que você pode reinvestir em seu vault sdam3CRV, ou reinvestir a cada 5 dias quando o título estiver disponível.
 
 ### Rotina diária
 
-Supondo que você reacumule todos os dias, a rotina diária será:
+Supondo que você reinvista todos os dias, a rotina diária será:
 
-* desbloqueie o equivalente a 3 rebases de seus CLAMs apostados vendê-los por qualquer moeda estável que você obteria mais com base no status do mercado deposite o estábulo adicional no pool aave no Curve Finance deposite o token am3CRV no Stake DAO deposite o token sdam3CRV na Mai FinanceThen, every 5 days you will be able to perform the following additional steps:
+* faça unstake do equivalente a 3 rebases de seu sCLAM
+* troque-os pela stablecoin mais "barata", com base no mercado&#x20;
+* deposite as stablecoins adicionais na pool Aave na Curve Finance&#x20;
+* deposite o token am3CRV na Stake DAO&#x20;
+* deposite o token sdam3CRV na Mai Finance
 
-<!---->
+Então, a cada 5 dias, você poderá realizar as seguintes etapas adicionais:
 
-* borrow additional MAI to keep a CDR of 200%
-* purchase additional MAI bond on OtterClam
+* tome emprestado MAI adicional para manter uma CDR de 200%
+* compre bonds de MAI adicionais na OtterClam
 
-### Raw results month after month
+### Resultados brutos mensais
 
-Here are raw results month after month
+Aqui temos os resultados brutos mês após mês:
 
-| day | sdam3CRV  | CLAM    | MAI debt |
-| --- | --------- | ------- | -------- |
-| 30  | 121.249   | 64.007  | 60.625   |
-| 60  | 150.866   | 78.815  | 75.433   |
-| 90  | 187.350   | 97.057  | 93.675   |
-| 120 | 232.294   | 119.529 | 116.147  |
-| 150 | 287.659   | 147.212 | 143.830  |
-| 180 | 355.863   | 181.314 | 177.931  |
-| 210 | 439.882   | 223.323 | 219.941  |
-| 240 | 543.383   | 275.074 | 271.691  |
-| 270 | 670.884   | 338.825 | 335.442  |
-| 300 | 827.950   | 417.358 | 413.975  |
-| 330 | 1,021.437 | 514.101 | 510.719  |
-| 360 | 1,259.790 | 633.277 | 629.894  |
+| Dia | sdam3CRV  | CLAM    | Dívida em MAI |
+| --- | --------- | ------- | ------------- |
+| 30  | 121.249   | 64.007  | 60.625        |
+| 60  | 150.866   | 78.815  | 75.433        |
+| 90  | 187.350   | 97.057  | 93.675        |
+| 120 | 232.294   | 119.529 | 116.147       |
+| 150 | 287.659   | 147.212 | 143.830       |
+| 180 | 355.863   | 181.314 | 177.931       |
+| 210 | 439.882   | 223.323 | 219.941       |
+| 240 | 543.383   | 275.074 | 271.691       |
+| 270 | 670.884   | 338.825 | 335.442       |
+| 300 | 827.950   | 417.358 | 413.975       |
+| 330 | 1,021.437 | 514.101 | 510.719       |
+| 360 | 1,259.790 | 633.277 | 629.894       |
 
-### Day 365
+### 365º Dia
 
-After a complete year of farming this system, and assuming everything are the same as on Day 1 (prices, rates, and everything else ...), you would have:
+Depois de um ano completo trabalhando com esse sistema, assumindo que tudo permanece constante desde o primeiro dia (preços, taxas, etc), você teria:
 
-* $1,304.575 worth of sdam3CRV tokens in your vault on Mai Finance
-* $655.670 worth of CLAM on OtterClam finance
-* a debt of $652.288 worth of MAI
+* $1,304.575 em tokens sdam3CRV em seu vault na Mai Finance
+* $655.670 em CLAM na OtterClam Finance
+* Uma dívida de $652.288 em MAI
 
-You can see that at the end of the year, you still have a CDR of 200%. You could withdraw your collateral to repay your debt and unlock the rest of your collateral. You can also repay your debt by selling your CLAMs and unlocking 100% of your collateral.
+Você pode ver que, no final do ano, ainda temos uma CDR de 200%. Você pode retirar sua garantia para reembolsar sua dívida e desbloquear o restante de sua garantia. Você também pode pagar sua dívida vendendo seus CLAMs e desbloqueando 100% de sua garantia.
 
-In the end, from an initial investment of $100 you would end up with $1,307.958 and a debt of $652.288, which corresponds to an overall APY of 1,207.958%.
+No final, com um investimento inicial de $100 você obteria $1.307.958 e uma dívida de $652.288, o que corresponde a um APY de 1.207,958%.
 
-{% hint style="success" } If you extract only 50% of your rebase reward from OtterClam Finance and keep the rest staked, the high APY will be applied to a position that grows much faster. This presents more risks, but assuming everything stays the same, and if you sell only 50% of your reward, you would possibly end up with $3,608.447 split between your vault and OtterClam, and a debt of $750.828 for an equivalent APY of 2,757.619%.
+{% hint style="success" } Se você extrair apenas 50% de sua recompensa de rebase do OtterClam Finance e manter o restante apostado, o APY alto será aplicado a uma posição que cresce muito mais rápido. Isso apresenta mais riscos, mas supondo que tudo permaneça o mesmo, e se você vender apenas 50% de sua recompensa, possivelmente acabará com $ 3.608,447 divididos entre seu cofre e OtterClam e uma dívida de $ 750,828 por um APY equivalente de 2.757,619%.
 
 ## Disclaimer
 
