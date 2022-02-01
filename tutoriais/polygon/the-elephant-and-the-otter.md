@@ -40,13 +40,13 @@ Você pode usar o instrumento de farming na Stake DAO para depositar seus tokens
 
 ## Mai Finance
 
-[Mai Finance](https://app.mai.finance) is a lending protocol where you can deposit your assets as collateral, and borrow against them. This is not the average lending platform where you will find people lending assets to borrowers. On Mai Finance, you only lend to yourself, and you only borrow against the assets you own. Find more details about Mai Finance on this site, or on [the official documentation](https://docs.mai.finance).
+[Mai Finance](https://app.mai.finance) é um protocolo de empréstimos onde você pode depositar seus ativos como garantia e tomar outros emprestado. Esta não é uma plataforma de empréstimos genérica onde você encontrará pessoas emprestando ativos a mutuários. Na Mai Finance, você empresta apenas a si mesmo e apenas toma emprestado por conta dos ativos que possui. Encontre mais detalhes sobre a Mai Finance neste site ou na [documentação oficial.](https://docs.mai.finance)
 
-In January 2022, the sdam3CRV token was approved as a collateral option on Mai Finance. This means that the token that has been created by depositing your am3CRV receipt on Stake DAO can now be used to borrow the MAI stable coin. This is particularly great for a few reasons:
+Em janeiro de 2022, o token sdam3CRV foi aprovado como opção de garantia na Mai Finance. Isso significa que o token que foi criado ao depositar seu recibo am3CRV no Stake DAO agora pode ser usado para tomar emprestado a stablecoin MAI. Isso é ótimo por alguns motivos:
 
-* the sdam3CRV token is composed of stable coins only, so it should not be affected by Impermanent Loss and should keep a steady price
-* because the price is not changing much, it's fairly easy to avoid liquidations, even if you borrow close to the liquidation level
-* your collateral is growing in value because it's a yield-bearing asset. At the time of writing this guide, you'd get 11% APR on your collateral
+* o token sdam3CRV é composto apenas por stablecoins, portanto, não deve ser afetado por perda impermanente e deve manter um preço estável
+* porque o preço não está mudando muito, é bastante fácil evitar liquidações, mesmo se você tomar emprestado próximo ao nível de liquidação
+* sua garantia está crescendo em valor porque é um ativo com rendimento. No momento da redação deste guia, você receberia 11% de APR em sua garantia
 
 ![Example of a sdam3CRV vault on Mai Finance](../../.gitbook/assets/stakedao-otter-4.png)
 
