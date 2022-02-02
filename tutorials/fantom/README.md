@@ -23,3 +23,7 @@ description: Fantom table of content
 {% content-ref url="investing-in-discounted-assets-using-bonds.md" %}
 [investing-in-discounted-assets-using-bonds.md](investing-in-discounted-assets-using-bonds.md)
 {% endcontent-ref %}
+
+{% content-ref url="spooky-symfony.md" %}
+[spooky-symfony.md](spooky-symfony.md)
+{% endcontent-ref %}
