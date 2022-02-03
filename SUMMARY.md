@@ -16,7 +16,7 @@
   * [¿Cómo combinar el farmeo con los préstamos incentivados?](tutoriales/polygon/how-to-combine-farming-and-borrowing-rewards.md)
   * [Fork de OHM en Polygon: Entendiendo KLIMA](tutoriales/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
   * [Haciendo staking de MAI con Ethalend](tutoriales/polygon/ethalend-single-staking.md)
-  * [The Elephant, the Chimp and the Otter](tutoriales/polygon/the-elephant-and-the-otter.md)
+  * [El elefante, el chimpacé y la nutria](tutoriales/polygon/the-elephant-and-the-otter.md)
 * [Avalanche](tutoriales/avalanche/README.md)
   * [Cómo comenzar en Avalanche](tutoriales/avalanche/how-to-get-started-on-avalanche.md)
   * [Page 1](tutoriales/avalanche/page-1.md)
