@@ -34,7 +34,7 @@
   * [Farming em LEGO na CroDex](tutoriais/cronos/farming-legos-with-crodex.md)
 * [Harmony](tutoriais/harmony/README.md)
   * [Como começar na Harmony](tutoriais/harmony/how-to-get-started-on-harmony.md)
-  * [One LP Pair, Many ways to farm](tutoriais/harmony/how-to-farm-elknet.md)
+  * [Um par LP, farming de varias formas](tutoriais/harmony/how-to-farm-elknet.md)
 
 ## Universidade do MAI
 
