@@ -106,13 +106,13 @@ El día 1, puedes preparar prácticamente todo:
 
 En este punto, ya estás listo y tendrás que esperar todo el periodo de adquisición de derechos para empezar a cobrar las recompensas de la recompensa. Al final del Día 1, usted tendría
 
-| Position            | value ($) |
-| ------------------- | --------- |
-| sdam3CRV            | 100.000   |
-| MAI loan            | 50.000    |
-| sCLAM               | 50.000    |
-| additional sdam3CRV | 0.030     |
-| additional sCLAM    | 0.000     |
+| Posicion           | Valor($) |
+| ------------------ | -------- |
+| sdam3CRV           | 100.000  |
+| Préstamo MAI       | 50.000   |
+| sCLAM              | 50.000   |
+| sdam3CRV adicional | 0.030    |
+| sCLAM adicional    | 0.000    |
 
 ### Día 2, 3 y 4
 
@@ -122,82 +122,78 @@ Nada que decir, tu sdam3CRV está recogiendo rendimientos, pero eso es práctica
 
 Al final del día 5, el bono está totalmente consolidado, y dado que las recompensas de la recompensa se han compuesto durante todo el período de consolidación, al final del día tendría
 
-| Position            | value ($) |
-| ------------------- | --------- |
-| sdam3CRV            | 100.122   |
-| MAI loan            | 50.000    |
-| sCLAM               | 53.382    |
-| additional sdam3CRV | 0.030     |
-| additional sCLAM    | 0.722     |
+| Posicion           | Valor($) |
+| ------------------ | -------- |
+| sdam3CRV           | 100.122  |
+| Préstamo MAI       | 50.000   |
+| sCLAM              | 53.382   |
+| sdam3CRV adicional | 0.030    |
+| sCLAM adicional    | 0.722    |
 
 ### Día 6
 
 Dispones de algunos tokens sdam3CRV adicionales con los que puedes pedir un préstamo para comprar un nuevo bono. Este será un bono muy pequeño (sólo unos centavos por ahora) pero con el tiempo, podrás comprar más y más sCLAM con tu nuevo MAI. Al final del sexto día, tendrás
 
-| Position            | value ($) |
-| ------------------- | --------- |
-| sdam3CRV            | 100.875   |
-| MAI loan            | 50.437    |
-| sCLAM               | 53.820    |
-| additional sdam3CRV | 0.031     |
-| additional sCLAM    | 0.728     |
+| Posicion           | Valor($) |
+| ------------------ | -------- |
+| sdam3CRV           | 100.875  |
+| Préstamo MAI       | 50.437   |
+| sCLAM              | 53.820   |
+| sdam3CRV adicional | 0.031    |
+| sCLAM adicional    | 0.728    |
 
-At this point, your staked CLAMs will produce rewards every day that you can compound in your sdam3CRV vault, or you can simply compound every 5 days when the bond is vested.
+En este punto, sus CLAMs stakeados producirán recompensas cada día que usted puede componer en su bóveda sdam3CRV, o simplemente puede componer cada 5 días cuando el bono caduque.
 
-### Daily Routine
+### Rutina Diaria
 
-Assuming you compound every day, the daily routine will be
+Suponiendo que componga todos los días, la rutina diaria será:
 
-* unstake the equivalent of 3 rebases from your staked CLAMs
-* sell them for whatever stable coin you would get the most based on the market status
-* deposit the additional stable into the aave pool on Curve Finance
-* deposit the am3CRV token on Stake DAO
-* deposit the sdam3CRV token on Mai Finance
+* Retirar el equivalente a 3 rebases de sus CLAM stakeados&#x20;
+* Venderlos por la moneda estable que más se pueda obtener en función del estado del mercado
+* Depositar la moneda estable adicional en la reserva de aave en Curve Finance&#x20;
+* Depositar el token am3CRV en Stake DAO&#x20;
+* Depositar el token sdam3CRV en Mai Finance&#x20;
 
-Then, every 5 days you will be able to perform the following additional steps:
+Luego, cada 5 días podrás realizar los siguientes pasos adicionales:
 
-* borrow additional MAI to keep a CDR of 200%
-* purchase additional MAI bond on OtterClam
+* Pedir prestado MAI adicional para mantener un CDR del 200%
+* Comprar bonos MAI adicionales en OtterClam
 
-### Raw results month after month
+### Resultados mensuales aproximados
 
 Here are raw results month after month
 
-| day | sdam3CRV  | CLAM    | MAI debt |
-| --- | --------- | ------- | -------- |
-| 30  | 121.249   | 64.007  | 60.625   |
-| 60  | 150.866   | 78.815  | 75.433   |
-| 90  | 187.350   | 97.057  | 93.675   |
-| 120 | 232.294   | 119.529 | 116.147  |
-| 150 | 287.659   | 147.212 | 143.830  |
-| 180 | 355.863   | 181.314 | 177.931  |
-| 210 | 439.882   | 223.323 | 219.941  |
-| 240 | 543.383   | 275.074 | 271.691  |
-| 270 | 670.884   | 338.825 | 335.442  |
-| 300 | 827.950   | 417.358 | 413.975  |
-| 330 | 1,021.437 | 514.101 | 510.719  |
-| 360 | 1,259.790 | 633.277 | 629.894  |
+| Día | sdam3CRV  | CLAM    | Deuda en MAI  |
+| --- | --------- | ------- | ------------- |
+| 30  | 121.249   | 64.007  | 60.625        |
+| 60  | 150.866   | 78.815  | 75.433        |
+| 90  | 187.350   | 97.057  | 93.675        |
+| 120 | 232.294   | 119.529 | 116.147       |
+| 150 | 287.659   | 147.212 | 143.830       |
+| 180 | 355.863   | 181.314 | 177.931       |
+| 210 | 439.882   | 223.323 | 219.941       |
+| 240 | 543.383   | 275.074 | 271.691       |
+| 270 | 670.884   | 338.825 | 335.442       |
+| 300 | 827.950   | 417.358 | 413.975       |
+| 330 | 1,021.437 | 514.101 | 510.719       |
+| 360 | 1,259.790 | 633.277 | 629.894       |
 
-### Day 365
+### Día 365
 
-After a complete year of farming this system, and assuming everything are the same as on Day 1 (prices, rates, and everything else ...), you would have:
+Después de un año completo de cultivar este sistema, y asumiendo que todo es igual que el día 1 (precios, tarifas, y todo lo demás...), tendrías:
 
-* $1,304.575 worth of sdam3CRV tokens in your vault on Mai Finance
-* $655.670 worth of CLAM on OtterClam finance
-* a debt of $652.288 worth of MAI
+* 1.304,575 dólares en tokens sdam3CRV en tu bóveda en Mai Finance
+* 655,670 $ de CLAM en OtterClam finance&#x20;
+* Una deuda de 652,288 dólares en MAI
 
-You can see that at the end of the year, you still have a CDR of 200%. You could withdraw your collateral to repay your debt and unlock the rest of your collateral. You can also repay your debt by selling your CLAMs and unlocking 100% of your collateral.
+Puedes ver que al final del año, todavía tienes un CDR del 200%. Podrías retirar tus garantías para pagar tu deuda y desbloquear el resto de tus garantías. También puedes pagar tu deuda vendiendo tus CLAM y desbloquear el 100% de su colateral. Al final, a partir de una inversión inicial de 100 $, acabarías con 1.307,958 $ y una deuda de 652,288 $, lo que corresponde a un APY global del 1.207,958%. Si usted extrae sólo el 50% de su recompensa de rebase de OtterClam Finance y mantiene el resto stakeado, el alto APY se aplicará a una posición que crece mucho más rápido. Esto presenta más riesgos, pero asumiendo que todo se mantiene igual, y si vendes sólo el 50% de tu recompensa, posiblemente terminarías con $3,608.447 divididos entre tu bóveda y OtterClam, y una deuda de $750.828 para un APY equivalente de 2,757.619%.
 
-In the end, from an initial investment of $100 you would end up with $1,307.958 and a debt of $652.288, which corresponds to an overall APY of 1,207.958%.
+## Descargo de Responsabilidad
 
-{% hint style="success" } If you extract only 50% of your rebase reward from OtterClam Finance and keep the rest staked, the high APY will be applied to a position that grows much faster. This presents more risks, but assuming everything stays the same, and if you sell only 50% of your reward, you would possibly end up with $3,608.447 split between your vault and OtterClam, and a debt of $750.828 for an equivalent APY of 2,757.619%.
+Esta estrategia es bastante interesante, porque presenta muy poco riesgo en la parte inicial. En efecto, su dinero está trabajando usando stablecoins y la inversión inicial está "protegida", por lo que la probabilidad de perder es muy pequeña. El riesgo de liquidación también es muy pequeño debido a que se utiliza un CDR muy alto para una variación de precios muy pequeña entre la garantía y el activo prestado. Sin herramientas adicionales, probablemente se obtendría un APY de \~12%, pero está claro que el uso de otros protocolos para maximizar las recompensas puede conducir a rendimientos muy altos.&#x20;
 
-## Disclaimer
-
-This strategy is pretty interesting, because it presents very little risk on the initial side. Indeed, your money is working off stables, and the initial is "protected", so the probability of losing it is very small. The liquidation risk is also very small due to the very high CDR used for a very small price variation between the collateral and the borrowed asset. Without additional tools, you would probably get \~12% APY but it's clear that using other protocols to maximize the rewards can lead to very high returns.
-
-However, make sure that you understand this investment strategy in its finest details. Make sure you accept the smart contract risks because we're using a lot of different protocols. Also, you need to understand how Ohm forks work and don't pay attention to the price of CLAMs, which may vary a lot. Finally, if rates _may_ remain the same on Stake DAO, the reward rate on OtterClam will most certainly decrease over time since ohm forks can't sustain such high APYs for long periods of time. As always, read the documentation of the different projects you will use, and make sure you understand all the risks.
+Sin embargo, asegúrate de entender esta estrategia de inversión en sus más mínimos detalles. Asegúrate de aceptar los riesgos de los contratos inteligentes porque estamos usando muchos protocolos diferentes. Además, debes entender cómo funcionan los forks de Ohm y no prestar atención al precio de los CLAM, que puede variar mucho. Por último, si las tasas pueden seguir siendo las mismas en Stake DAO, la tasa de recompensa en OtterClam seguramente disminuirá con el tiempo, ya que los forks de Ohm no pueden sostener APYs tan altos durante largos períodos de tiempo. Como siempre, lee la documentación de los diferentes proyectos que vayas a utilizar, y asegúrate de entender todos los riesgos.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Esta guía no es en absoluto un consejo financiero, sino que se ha realizado con un objetivo educativo. Es necesario prestar atención a las variaciones de precios, la oferta y la demanda, los programas de recompensa, las fechas de finalización, las pérdidas impermanentes, etc ... El objetivo no era proponer recetas que se puedan seguir a ciegas, así que por favor haga sus deberes y su propia simulación, y sólo invierta lo que esté dispuesto a perder posiblemente.
 {% endhint %}
