@@ -1,14 +1,14 @@
 ---
 description: >-
-  Este guia apresenta diferentes maneiras de fazer farming com um único par LP
-  para ilustrar as diferenças entre staking e .
+  Este guia apresenta diferentes formas de fazer farming com um único par LP
+  para ilustrar as diferenças entre staking e reacumular tokens.
 ---
 
-# Um par LP, farming de varias formas
+# Um par LP, varias formas farming
 
-## Introduction
+## Introdução
 
-Providing liquidity on a DEX (**D**ecentralized **EX**change) and farming reward is one of the most common way to farm yields in DeFi (**De**centralized **Fi**nance). However, many users are only paying attention to the rates of the LP (**L**iquidity **P**roviding) pool they enter, without really checking if the rate is an APR (**A**nnual **P**ercentage **R**eward) or an APY (**A**nnual **P**ercentage **Y**ield). There are many ways to farm a pool and manage the reward tokens. We will see in this guide some of the different way you can farm one of the latest pools on Harmony, MAI-ELK, and see what you can do with the ELK tokens that you will get as a reward.
+Fornecer liquidez em uma DEX (**D**ecentralized **EX**change, ou Corretora Decentralizada) e farming é uma das maneiras mais comuns de gerar rendimentos por DeFi (**De**centralized **Fi**nance, ou Finanças Descentralizadas). No entanto, muitos usuários apenas prestam atenção nas taxas da LP pool (**L**iquidity **P**roviding, ou Fornecimento de Liquidez) que entram, sem realmente verificar se a taxa é dada em APR (**A**nnual **P**ercentage **R**eward) ou APY (**A**nnual **P**ercentage **Y**ield). Existem muitas maneiras de participar de uma pool e gerenciar os tokens de recompensa. Veremos neste guia algumas das maneiras diferentes de fazer farming em um das pools mais recentes na Harmony, MAI-ELK, e veremos o que você pode fazer com os tokens ELK que receberá como recompensa.
 
 {% hint style="info" %}
 This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
