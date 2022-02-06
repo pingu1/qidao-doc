@@ -1,6 +1,7 @@
 ---
 description: >-
-  Bu kılavuz, stake etme ve birleştirme arasındaki farkları göstermek için tek bir LP çifti oluşturmanın farklı yollarını sunar.
+  Bu kılavuz, stake etme ve birleştirme arasındaki farkları göstermek için tek
+  bir LP çifti oluşturmanın farklı yollarını sunar.
 ---
 
 # Bir LP ile Çiftçilik Yapmanın Farklı Yolları
@@ -13,7 +14,7 @@ Bir DEX'te (Merkeziyetsiz Borsa) likidite ve çiftçilik ödülü sağlamak DeFi
 Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Fiyat değişimlerine, arz ve talebe, ödül programlarının bitiş tarihlerine, kalıcı kayıplara vs. dikkat etmeniz gerekiyor... Amaç körü körüne takip edilebilecek tarifler önermek değildi. Bu yüzden lütfen kendi simülasyonunuzu yapın ve sadece kaybetmeyi göze aldığınız kadar yatırım yapın.
 {% endhint %}
 
-![](<../../.gitbook/assets/elk-farming-1.png>)
+![](../../.gitbook/assets/elk-farming-1.png)
 
 ## Elk Finance
 
@@ -21,7 +22,7 @@ Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmış
 
 Ancak Elk Finance'i tamamen farklı bir proje yapan şey, sadece EVM uyumlu zincirlerde değil, birçok blok zincirinde bulunmasıdır. Elk Finance şu anda 16 zincirde mevcut ve diğerlerine de genişlemeyi planlıyor. Kullanıcıların ELK tokenını transfer etmesine izin vermek için tüm bu zincirler arasında bir köprü kurmayı başardılar: ELKNET.
 
-![ElkNet'i kullanarak bazı ELK'leri Harmony'den Moonriver'a köprüleme](<../../.gitbook/assets/elk-farming-2.png>)
+![ElkNet'i kullanarak bazı ELK'leri Harmony'den Moonriver'a köprüleme](../../.gitbook/assets/elk-farming-2.png)
 
 Ayrıca, ElkNet'in önerdiği bir başka harika özellik de transfer edilen varlığın bir kısmını varış noktasında bir miktar gas tokenı ile takas etme imkanıdır. Bu özellik, özellikle musluğun bulunmadığı bir blok zincirine ilk kez gidiyorsanız kullanışlıdır.
 
@@ -29,7 +30,7 @@ Ayrıca, ElkNet'in önerdiği bir başka harika özellik de transfer edilen varl
 Gas ücretinin yüksek olduğu zincirler dışında (yazı yazılırken yalnızca Avalanche ve Cronos), ELK tokenlarınızı bir zincirden diğerine köprülemek için ElkNet'i kullanmak hiçbir masraf gerektirmeden yapılır. Doğru okudunuz, herhangi bir köprü ücreti ödemiyorsunuz!
 {% endhint %}
 
-Son olarak Elk Finance, Kalıcı Kayıp koruması sağlar. Geçici Kayıp programıyla ilgili tüm ayrıntıları [resmi belgelerinden](https://docs.elk.finance/features/impermanent-loss-protection) okuyabilirsiniz. Temel olarak bilmeniz gereken tek şey ELK'in fiyatı para yatırdığınız an ile para çektiğiniz an arasında değişirse kalıcı kaybı karşılamak için fazladan ELK ödeyeceğinizdir. MAI 1 USD'ye sabitlendiğinden kalıcı kayıp yalnızca ELK'in fiyat hareketiyle bağlantılıdır, bu nedenle Elk Finance DEX'te LP havuzlarına girerken her zaman kazanan siz olursunuz. 
+Son olarak Elk Finance, Kalıcı Kayıp koruması sağlar. Geçici Kayıp programıyla ilgili tüm ayrıntıları [resmi belgelerinden](https://docs.elk.finance/features/impermanent-loss-protection) okuyabilirsiniz. Temel olarak bilmeniz gereken tek şey ELK'in fiyatı para yatırdığınız an ile para çektiğiniz an arasında değişirse kalıcı kaybı karşılamak için fazladan ELK ödeyeceğinizdir. MAI 1 USD'ye sabitlendiğinden kalıcı kayıp yalnızca ELK'in fiyat hareketiyle bağlantılıdır, bu nedenle Elk Finance DEX'te LP havuzlarına girerken her zaman kazanan siz olursunuz.
 
 ## MAI-ELK LP Çiftçiliği
 
@@ -51,19 +52,19 @@ Harmony için bu kılavuzu öneriyoruz çünkü gas ücretleri çok düşüktür
 100$ ile başladığınızı ve yukarıda verilen oranların tüm çiftçilik dönemi boyunca aynı kaldığını varsayarsak, tam bir çiftçilik yılı boyunca aydan aya alabileceğiniz sonuçlar aşağıdaki gibi olacaktır.
 
 | gün | MAI-ELK ($) | staked ELK ($) |
-|-----|-------------|----------------|
-|  30 |     100.000 |         16.653 |
-|  60 |     100.000 |         33.756 |
-|  90 |     100.000 |         51.323 |
-| 120 |     100.000 |         69.366 |
-| 150 |     100.000 |         87.897 |
-| 180 |     100.000 |        106.930 |
-| 210 |     100.000 |        126.479 |
-| 240 |     100.000 |        146.557 |
-| 270 |     100.000 |        167.180 |
-| 300 |     100.000 |        188.360 |
-| 330 |     100.000 |        210.115 |
-| 360 |     100.000 |        232.458 |
+| --- | ----------- | -------------- |
+| 30  | 100.000     | 16.653         |
+| 60  | 100.000     | 33.756         |
+| 90  | 100.000     | 51.323         |
+| 120 | 100.000     | 69.366         |
+| 150 | 100.000     | 87.897         |
+| 180 | 100.000     | 106.930        |
+| 210 | 100.000     | 126.479        |
+| 240 | 100.000     | 146.557        |
+| 270 | 100.000     | 167.180        |
+| 300 | 100.000     | 188.360        |
+| 330 | 100.000     | 210.115        |
+| 360 | 100.000     | 232.458        |
 
 Yıl sonunda,
 
@@ -88,19 +89,19 @@ Birleştirme, ödüllerinizi topladığınız ve bunu ek LP tokenları oluşturm
 100$'lık aynı ilk yatırımla başladığınızı ve verilen oranların tüm çiftçilik dönemi boyunca aynı kaldığını varsayarsak, tam bir çiftçilik yılı boyunca bekleyebileceğiniz sonuçlar aşağıdaki gibidir:
 
 | gün | MAI-ELK ($) |
-|-----|-------------|
-|  30 |     117.172 |
-|  60 |     138.044 |
-|  90 |     162.635 |
-| 120 |     191.607 |
-| 150 |     225.739 |
-| 180 |     265.952 |
-| 210 |     313.328 |
-| 240 |     369.143 |
-| 270 |     434.901 |
-| 300 |     512.374 |
-| 330 |     603.647 |
-| 360 |     711.179 |
+| --- | ----------- |
+| 30  | 117.172     |
+| 60  | 138.044     |
+| 90  | 162.635     |
+| 120 | 191.607     |
+| 150 | 225.739     |
+| 180 | 265.952     |
+| 210 | 313.328     |
+| 240 | 369.143     |
+| 270 | 434.901     |
+| 300 | 512.374     |
+| 330 | 603.647     |
+| 360 | 711.179     |
 
 Ve yılın sonunda,
 
@@ -134,7 +135,7 @@ $$
 Bir önceki bölümde olduğu gibi simülasyonu aynı [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) ikinci sekmede bulabilirsiniz.
 {% endhint %}
 
-### Mai Finance Kullanarak Çiftçilik ve Birleştime
+### Mai Finance Kullanarak Çiftçilik ve Birleştirme
 
 Stake etme ve birleştirme iyi getiri sağlıyorsa her iki yöntem de doğrudan ELK tokenının fiyatıyla bağlantılıdır, bu nedenle yatırımınızın değeri ELK fiyatına göre değişecektir. Birleştirmenin stake etmeye kıyasla daha iyi seçenekler sunduğunu zaten gördük. Şimdi, çiftçilik ödüllerinizden nasıl bir miktar değer elde edebileceğinizi ve Mai Finance'i kullanarak aynı havuza nasıl yatırım yapmaya devam edebileceğinizi göreceğiz. Günlük rutin aşağıdaki gibi olacaktır:
 
@@ -146,25 +147,25 @@ Stake etme ve birleştirme iyi getiri sağlıyorsa her iki yöntem de doğrudan 
 * havuza ekleyin
 
 {% hint style="info" %}
-Ödül tokenlarınızı ONE'a dönüştürmek, varlıklarınızı korumanın en güvenli yolu olmayabilir, bunu yapmanın en iyi yollarından biri stablecoin’lere dönüştürmektir. Ancak bu makaleyi yazarken Harmony’deki Mai Finance ile ilgili seçenekler oldukça sınırlıdır. Gelecekte (Ocak 2021'den sonra) Stake DAO LP tokenlarını teminat olarak stake etmek gibi daha iyi seçenekler elde edebilirsiniz (Stake DAO tokenlarını Mai Finance'te nasıl kullanabileceğinizi görmek için [makalemize göz atın](<../polygon/the-elephant-and-the-otter.md>)
+Ödül tokenlarınızı ONE'a dönüştürmek, varlıklarınızı korumanın en güvenli yolu olmayabilir, bunu yapmanın en iyi yollarından biri stablecoin’lere dönüştürmektir. Ancak bu makaleyi yazarken Harmony’deki Mai Finance ile ilgili seçenekler oldukça sınırlıdır. Gelecekte (Ocak 2021'den sonra) Stake DAO LP tokenlarını teminat olarak stake etmek gibi daha iyi seçenekler elde edebilirsiniz (Stake DAO tokenlarını Mai Finance'te nasıl kullanabileceğinizi görmek için [makalemize göz atın](../polygon/the-elephant-and-the-otter.md)
 {% endhint %}
 
 100$'lık aynı ilk yatırımla başladığınızı, verilen oranların tüm çiftçilik dönemi boyunca aynı kaldığını ve kasanızın tasfiye edilmediğini varsayarsak, tam bir yıllık çiftçilik boyunca bekleyebileceğiniz sonuçlar aşağıdaki gibidir:
 
-| gün | MAI-ELK ($) | ONE ($) | Mai borcu ($)|
-|-----|-------------|---------|--------------|
-|  30 |     111.154 |  11.560 |        5.780 |
-|  60 |     124.003 |  24.456 |       12.228 |
-|  90 |     138.337 |  38.842 |       19.421 |
-| 120 |     154.328 |  54.892 |       27.446 |
-| 150 |     172.168 |  72.797 |       36.398 |
-| 180 |     192.070 |  92.772 |       46.386 |
-| 210 |     214.273 | 115.055 |       57.528 |
-| 240 |     239.042 | 139.915 |       69.958 |
-| 270 |     266.674 | 167.648 |       83.824 |
-| 300 |     297.501 | 198.588 |       99.294 |
-| 330 |     331.891 | 233.106 |      116.552 |
-| 360 |     370.257 | 271.609 |      135.805 |
+| gün | MAI-ELK ($) | ONE ($) | Mai borcu ($) |
+| --- | ----------- | ------- | ------------- |
+| 30  | 111.154     | 11.560  | 5.780         |
+| 60  | 124.003     | 24.456  | 12.228        |
+| 90  | 138.337     | 38.842  | 19.421        |
+| 120 | 154.328     | 54.892  | 27.446        |
+| 150 | 172.168     | 72.797  | 36.398        |
+| 180 | 192.070     | 92.772  | 46.386        |
+| 210 | 214.273     | 115.055 | 57.528        |
+| 240 | 239.042     | 139.915 | 69.958        |
+| 270 | 266.674     | 167.648 | 83.824        |
+| 300 | 297.501     | 198.588 | 99.294        |
+| 330 | 331.891     | 233.106 | 116.552       |
+| 360 | 370.257     | 271.609 | 135.805       |
 
 Ve yılın sonunda,
 
@@ -191,15 +192,15 @@ $$
 
 Bu denklemde`N`, ödüllerinizi bir yılda kaç kez birleştirdiğinizi temsil eder. Dolayısıyla, yukarıdaki gibi %200'lük APR, birleştirdiğiniz sıklığa bağlı olarak size aşağıdaki APY'yi verir
 
-| Birleştirme sıklığı   |  APY karşılığı |
-|-----------------------|----------------|
-|                 daily |       634.88 % |
-|       twice in a week |       625.01 % |
-|                weekly |       611.71 % |
-|      twice in a month |       609.55 % |
-|               monthly |       535.86 % |
-|             quarterly |       406.25 % |
-|       twice in a year |       300.00 % |
+| Birleştirme sıklığı | APY karşılığı |
+| ------------------- | ------------- |
+| daily               | 634.88 %      |
+| twice in a week     | 625.01 %      |
+| weekly              | 611.71 %      |
+| twice in a month    | 609.55 %      |
+| monthly             | 535.86 %      |
+| quarterly           | 406.25 %      |
+| twice in a year     | 300.00 %      |
 
 Günde bir defadan fazla manuel olarak birleştirme, içinde bulunduğunuz zincire bağlı olarak pahalı olabilir. Ama temel olarak ne kadar sık birleştirirseniz ödül o kadar iyi olur. Bu aynı zamanda verim optimize edicilerin / otomatik birleştiricilerin neden popüler olduğunu da açıklıyor. Birleştirerek, çiftçilik yaptığınız tokenın üzerindeki satış baskısını artırdığınızı ve bunun o tokenın fiyatı üzerinde olumsuz bir etkisi olacağını unutmayın. Bu aynı zamanda çiftçilik yapmak için kullandığınız token ise (örneğimizde ELK), sizi kalıcı kayıplardan koruyan Elk Finance DEX kullanmadığınız sürece kalıcı kayıplardan etkilenebilirsiniz.
 
@@ -207,7 +208,7 @@ Günde bir defadan fazla manuel olarak birleştirme, içinde bulunduğunuz zinci
 
 MAI-ELK çifti birkaç zincire dağıtıldı, bu da sermayenizi en iyi oranları sunan zincire dağıtmanıza olanak tanır.
 
-![Ocak 2021 itibariyle Gnosis (üstte), Moonriver (ortada) ve Harmony'de (altta) MAI-ELK havuzları](<../../.gitbook/assets/elk-farming-3.png>)
+![Ocak 2021 itibariyle Gnosis (üstte), Moonriver (ortada) ve Harmony'de (altta) MAI-ELK havuzları](../../.gitbook/assets/elk-farming-3.png)
 
 {% hint style="info" %}
 MAI-ELK havuzu yakın bir gelecekte, muhtemelen Polygon, Cronos ve Fantom'da diğer zincirlere de dağıtılabilir. Bu garanti edilmez ve bunun için belirli bir tarih yoktur, bu nedenle her iki projenin Discord sunucularını ve Twitter'larını takip ederek güncel kalın.
@@ -215,13 +216,13 @@ MAI-ELK havuzu yakın bir gelecekte, muhtemelen Polygon, Cronos ve Fantom'da di�
 
 Her zincirdeki ödül oranının yanı sıra, her zincirdeki ELK tokenının fiyatını da göz önünde bulundurmanız gerekebilir. Fiyat tüm zincirlerde hemen hemen aynıysa aradaki küçük fark, ELK tokenını toplamak istediğiniz zinciri seçmeniz için bir faktör olabilir.
 
-![ELK tokenının bulunduğu tüm zincirlerdeki fiyatı](<../../.gitbook/assets/elk-farming-4.png>)
+![ELK tokenının bulunduğu tüm zincirlerdeki fiyatı](../../.gitbook/assets/elk-farming-4.png)
 
 Gördüğünüz gibi, Moonriver'daki MAI-ELK havuzu daha iyi bir ödül oranı sunuyor ve ELK tokenının da bu zincirde daha yüksek bir fiyatı var. Bu, özellikle çiftlik tokenlarının bir kısmını satmayı planlıyorsanız Harmony veya Gnosis'ten ziyade MAI-ELK havuzunu Moonriver'da toplamanın daha iyi olabileceği anlamına gelir. Bunun her zaman böyle olmayabileceğini unutmayın. Bu nedenle bir LP havuzuna katılmadan önce zincirinizi doğru seçtiğinizden ve kendi araştırmalarınızı yaptığınızdan emin olun. Son olarak, sigorta, LP tokenlarınızın havuza yatırıldığı günlerin sayısına büyük ölçüde bağlı olduğundan, [geçici kayıp korumasıyla ilgili belgeleri](https://docs.elk.finance/features/impermanent-loss-protection) okumanız şiddetle tavsiye edilir.
 
 Bir ek not olarak, ELK arasında köprü kurmak ücretsiz olduğundan, her zaman en iyi oranlardan yararlanmak için bir zincirden diğerine geçiş yapabilirsiniz. Bunu yaparak, çıktığınız ve katıldığınız havuzun ödül oranlarını da etkileyeceğinizi anladığınızdan emin olun (daha az likidite APR'yi artırır, daha fazla likidite düşürür).
 
-## Sorumluluk Reddi 
+## Sorumluluk Reddi
 
 Bu kılavuz, likidite sağlayan tokenları kullanarak verim toplamanın farklı yollarını göstermek için yazılmıştır. Seçtiğiniz strateji ve riske maruz kalmanız ile kazançlarınızı oldukça etkileyeceksiniz. Tabii ki, bu belgede belirtilen tüm kavramlar herhangi bir LP çifti için de geçerlidir ve bir strateji, LP çifti, havuz ve hatta bir DEX seçmeden önce kendi simülasyonlarınızı çalıştırmanız şiddetle tavsiye edilir
 
