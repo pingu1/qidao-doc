@@ -1,25 +1,25 @@
 ---
 description: >-
-  Bu kılavuz, OHM kopyalarının basitleştirilmiş bir analizini KLIMA DAO
+  Bu kılavuz, OHM çatallarının basitleştirilmiş bir analizini KLIMA DAO
   üzerinden değerlendirecek ve nasıl yararlanabileceğiniz hakkında fikir
   verecektir.
 ---
 
-# Polygon'daki OHM kopyaları: KLIMA örneği
+# Polygon'daki OHM çatalları: KLIMA örneği
 
-Son birkaç aydır kripto haberlerini takip ediyorsanız, kesinlikle birçok (3,3) referans fark etmişsinizdir ve Ohm ile ilgili projeleri duymuşsunuzdur. Bu projelerin neler olduğunu, temel ilkelerinin neler olduğunu ve bunları yatırım stratejilerinizin bir parçası olarak nasıl kullanabileceğinizi hızlıca sunmaya çalışacağım. Bu son bölümde, Polygon'daki en başarılı ohm-kopyalarından biri olan ve aynı zamanda çok ilginç bir hikayesi ve hedefi olan Klima DAO'ya odaklanacağız.
+Son birkaç aydır kripto haberlerini takip ediyorsanız, kesinlikle birçok (3,3) referans fark etmişsinizdir ve Ohm ile ilgili projeleri duymuşsunuzdur. Bu projelerin neler olduğunu, temel ilkelerinin neler olduğunu ve bunları yatırım stratejilerinizin bir parçası olarak nasıl kullanabileceğinizi hızlıca sunmaya çalışacağım. Bu son bölümde, Polygon'daki en başarılı ohm-çatallarından biri olan ve aynı zamanda çok ilginç bir hikayesi ve hedefi olan Klima DAO'ya odaklanacağız.
 
-## OHM Forku(Kopyası) Nedir?
+## OHM Forku(Çatalı) Nedir?
 
-### OHM ve Fork(Kopya) nedir?
+### OHM ve Fork(Çatalı) nedir?
 
 Her şey Olympus DAO ile Ethereum Mainnet'te başladı. Amaçları, para biriminin değişken bir değere sahip olması dışında dolar ile rekabet etmek için yeni bir rezerv para birimi yaratmaktır. Yerel tokenın (Ohm) bir dizi farklı varlık tarafından tamamen desteklenmesi gerekmektedir. Projenin tokenları, Ohm değerini piyasa tarafından tanımlamaktadır.
 
-Olympus DAO Mart 2021'de piyasaya sürüldü ve hala Mainnet'te çok başarılı bir projedir. TVL'nin değeri düzinelerce milyon dolar ve Ohm fiyatı çok yüksek bir fiyatta yer alıyor. Bu başarı nedeniyle proje forklandı (kopyalandı) ve birçok zincirde birden fazla Olympus DAO klonu ortaya çıktı.
+Olympus DAO Mart 2021'de piyasaya sürüldü ve hala Mainnet'te çok başarılı bir projedir. TVL'nin değeri düzinelerce milyon dolar ve Ohm fiyatı çok yüksek bir fiyatta yer alıyor. Bu başarı nedeniyle proje forklandı (çatallandı) ve birçok zincirde birden fazla Olympus DAO klonu ortaya çıktı.
 
 ### Tokenomike genel bakış
 
-Bu bölüm diğer kılavuzlarımızda kullandığımızdan biraz daha teknik olacak. Olympus ve diğer Ohm kopyalarının başarısını anlamak için nasıl çalıştıklarını bilmek önemlidir.
+Bu bölüm diğer kılavuzlarımızda kullandığımızdan biraz daha teknik olacak. Olympus ve diğer Ohm çatallarının başarısını anlamak için nasıl çalıştıklarını bilmek önemlidir.
 
 Olympus protokolünün temel fikri, yüksek bir fiyatı korumak için dolaşımdaki arzı mümkün olduğunca düşük tutarken yerel tokenı indirimli satarak hazineyi mümkün olduğunca artırmaktır. Bu, stakerlar için çok yüksek ödüller sağlayarak ve likidite üzerinde neredeyse tam kontrole sahip olarak yapılır
 
@@ -90,7 +90,7 @@ Bonding VS staking hesaplamanız için bir simülatörü [bir google elektronik 
 
 ### Özel bir proje olarak Klima DAO
 
-Klima DAO'yu diğer Ohm kopyalarından farklı kılan özellik, Klima token destekleyen ana varlıktır: [Toucan Protokolü](https://toucan.earth) tarafından sağlanan BCT simgesi. BCT (**B**ase **C**arbon **T**onne) aslında gerçek dünyada dünyayı karbondan arındırmak için yapılan yatırımları temsil ediyor ve gerçek dünyadan karbon denkleştirmelerini tokenlara dönüştürüyor. Nasıl çalıştığı hakkında daha fazla bilgiyi Toucan'ın [resmi belgelerinde](https://docs.toucan.earth/protocol/introduction/defi-refi) okuyabilirsiniz.
+Klima DAO'yu diğer Ohm çatallarından farklı kılan özellik, Klima token destekleyen ana varlıktır: [Toucan Protokolü](https://toucan.earth) tarafından sağlanan BCT simgesi. BCT (**B**ase **C**arbon **T**onne) aslında gerçek dünyada dünyayı karbondan arındırmak için yapılan yatırımları temsil ediyor ve gerçek dünyadan karbon denkleştirmelerini tokenlara dönüştürüyor. Nasıl çalıştığı hakkında daha fazla bilgiyi Toucan'ın [resmi belgelerinde](https://docs.toucan.earth/protocol/introduction/defi-refi) okuyabilirsiniz.
 
 BCT daha sonra [Klima DAO uygulaması](https://dapp.klimadao.finance) tarafından KLIMA basmak için kullanılır, aynı şekilde DAI, Olympus DAO tarafından OHM basımı için kullanılır. Başka bir deyişle, Klima, iklim değişikliğiyle mücadele için gerçek yaşam fonları sağlayan bir Karbon yutağı gibi hareket eder. [Klima web sitesinde](https://www.klimadao.finance) ve [belgelerde](https://klima-dao.gitbook.io/klima-dao/) daha fazla bilgi bulunabilir ve gelip QiDAO'nun Discord sunucusunda kriptoyu daha yeşil yapmanın yollarını tartışabilirsiniz.
 
@@ -212,7 +212,7 @@ Ayrıca, projenin yalnızca hazineye ek fonlar enjekte edildiği sürece token b
 
 Riskleri azaltmak için zaman zaman bazı faydalar sağlamazsanız risk çok yüksek olabilir.
 
-Son bir not olarak, ohm kppyalarnın yeni trend olduğuna dikkat edin. Çoğu proje başarısız olabilir ve bu kopyalar sağlam projeler değildir. Doğaları gereği, bunlar henüz RugDoc tarafından doğrulanmamıştır ve gerçek uygulamaları saf dolandırıcılıktan ayırt etmek çok karmaşık olabilir.
+Son bir not olarak, ohm kppyalarnın yeni trend olduğuna dikkat edin. Çoğu proje başarısız olabilir ve bu çatallar sağlam projeler değildir. Doğaları gereği, bunlar henüz RugDoc tarafından doğrulanmamıştır ve gerçek uygulamaları saf dolandırıcılıktan ayırt etmek çok karmaşık olabilir.
 
 {% hint style="info" %}
 Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen olan bitenden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
