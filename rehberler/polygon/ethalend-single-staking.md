@@ -125,7 +125,7 @@ Aşağıdakiler, mevcut bir kasadan ödünç alabileceğiniz veya bir DEX platfo
 
 Sistem önyüklenir ve MAI'deki istikrarlı konumunuzu büyütebilecek ve ayrıca Qi, BAL, ETHA ve dQUICK'te ödüller kazanabileceksiniz. Bazı değerlerin bu noktada anlamlı olamayacak kadar düşük olduğunu ve 0,01 MAI'den daha az ödünç alamayacağınız için, MAI ödünç alabilmek için 14 gün boyunca dQUICK biriktirmeniz gerekeceğini unutmayın.
 
-## Tarım Sonuçları
+## Çiftçilik Sonuçları
 
 ### Günlük rutin
 
@@ -183,5 +183,5 @@ Ayrıca buradaki strateji, herhangi bir token satmayan ve her sistem bir sonraki
 {% hint style="info" %}
 Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen gelişmelerden haberdar olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 
-Belgelerin bu sürümü Türkçe konuşan topluluklara kolaylık sağlamak amacıyla çevrilmiştir. Ancak bazu yanlışlıklar içerebilir veya tamamen güncel olmayabilir. Şüphelendiğiniz durumda, resmi belgelerin İngilizce versiyonunu her zaman referans alabilirsiniz.
+Belgelerin bu sürümü Türkçe konuşan topluluklara kolaylık sağlamak amacıyla çevrilmiştir. Ancak bazı yanlışlıklar içerebilir veya tamamen güncel olmayabilir. Şüphelendiğiniz durumda, resmi belgelerin İngilizce versiyonunu her zaman referans alabilirsiniz.
 {% endhint %}
