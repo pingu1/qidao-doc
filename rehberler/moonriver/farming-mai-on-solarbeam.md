@@ -33,7 +33,7 @@ ROME havuzunun en düşük APR'ye sahip olduğunu göreceksiniz ancak yine de ol
 
 ## Rome DAO
 
-Rome DAO, Moonriver'daki bir başka büyük aktördür. ROME tokenını yerel token olarak kullanan bir Ohm-çatalıdır (Olympus DAO kopyası). Çok yüksek getiriler elde etmek için uygulama üzerinde ROME tokenlarınızı stake edebileceksiniz. Her Ohm-çatalının amacı, emisyonu sürdürebilmek için likiditeyi çekmek ve yerel tokena sahip olmaktır. Ohm-klon hakkında daha fazla bilgiye ihtiyacınız varsa lütfen [Polygon için Klima DAO eğitimimize](../polygon/ohm-forks-on-polygon-the-case-of-klima.md) göz atın.
+Rome DAO, Moonriver'daki bir başka büyük aktördür. ROME tokenını yerel token olarak kullanan bir Ohm-çatalıdır (Olympus DAO forku). Çok yüksek getiriler elde etmek için uygulama üzerinde ROME tokenlarınızı stake edebileceksiniz. Her Ohm-çatalının amacı, emisyonu sürdürebilmek için likiditeyi çekmek ve yerel tokena sahip olmaktır. Ohm-çatalı hakkında daha fazla bilgiye ihtiyacınız varsa lütfen [Polygon için Klima DAO eğitimimize](../polygon/ohm-forks-on-polygon-the-case-of-klima.md) göz atın.
 
 ![ROME tokenlarını Aralık 2021 itibariyle %771 Nisan için Roma DAO'da stake etme oranı](<../../.gitbook/assets/solarbeam-4.png>)
 
