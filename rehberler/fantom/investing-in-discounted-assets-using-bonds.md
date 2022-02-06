@@ -17,7 +17,7 @@ Birkaç aydır bu, tahvillerin piyasaya sürülmesi ve bazı projeler tarafında
  
 ### Projenin tanıtımı
  
-[Exodia](https://app.exodia.fi/dashboard) Fantom'da devasa potansiyele sahip küçük bir projedir. Çeşitli varlıklar tarafından desteklenen bir rezerv para birimi olan EXOD tokenını temel alan bir Ohm klonudur. Exodia hazinesine eklenen ilk teminat varlıkları DAI ve FTM idi ancak protokolden sorumlu ekip ve DAO, Olympus topluluğu ile bağları geliştirmeye ve OHM'ye dayalı varlıkları satın almak için fazla rezervin %33'ünü kullanmaya karar verdi. Bu nedenle, hazinenin küçük bir kısmı gOHM tokenlarıyla ifade edilir.
+[Exodia](https://app.exodia.fi/dashboard) Fantom'da devasa potansiyele sahip küçük bir projedir. Çeşitli varlıklar tarafından desteklenen bir rezerv para birimi olan EXOD tokenını temel alan bir Ohm çatalıdır. Exodia hazinesine eklenen ilk teminat varlıkları DAI ve FTM idi ancak protokolden sorumlu ekip ve DAO, Olympus topluluğu ile bağları geliştirmeye ve OHM'ye dayalı varlıkları satın almak için fazla rezervin %33'ünü kullanmaya karar verdi. Bu nedenle, hazinenin küçük bir kısmı gOHM tokenlarıyla ifade edilir.
  
 ![Ocak 2022 itibariyle Exodia'nın hazine dökümü](<../../.gitbook/assets/exodia-tomb-1.png>)
  
