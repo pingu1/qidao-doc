@@ -18,7 +18,7 @@ Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmış
 
 ## Elk Finance
 
-[Elk Finance](https://app.elk.finance/#/) Uniswap v2'den klonlanmış bir DEX'in yanı sıra bir AMM'dir (Otomatik Piyasa Yapıcı). Uniswap klonlarının tüm olağan özellikleri mevcuttur: varlıklarınızı takas etme, farklı kripto para birimlerinizi LP tokenlarında birleştirme, bazı LP çiftlerini toplama ve yerel tokenları ELK'i stake etme.
+[Elk Finance](https://app.elk.finance/#/) Uniswap v2'den çatallanmış bir DEX'in yanı sıra bir AMM'dir (Otomatik Piyasa Yapıcı). Uniswap klonlarının tüm olağan özellikleri mevcuttur: varlıklarınızı takas etme, farklı kripto para birimlerinizi LP tokenlarında birleştirme, bazı LP çiftlerini toplama ve yerel tokenları ELK'i stake etme.
 
 Ancak Elk Finance'i tamamen farklı bir proje yapan şey, sadece EVM uyumlu zincirlerde değil, birçok blok zincirinde bulunmasıdır. Elk Finance şu anda 16 zincirde mevcut ve diğerlerine de genişlemeyi planlıyor. Kullanıcıların ELK tokenını transfer etmesine izin vermek için tüm bu zincirler arasında bir köprü kurmayı başardılar: ELKNET.
 
