@@ -11,28 +11,28 @@ description: >-
 Fornecer liquidez em uma DEX (**D**ecentralized **EX**change, ou Corretora Decentralizada) e farming é uma das maneiras mais comuns de gerar rendimentos por DeFi (**De**centralized **Fi**nance, ou Finanças Descentralizadas). No entanto, muitos usuários apenas prestam atenção nas taxas da LP pool (**L**iquidity **P**roviding, ou Fornecimento de Liquidez) que entram, sem realmente verificar se a taxa é dada em APR (**A**nnual **P**ercentage **R**eward) ou APY (**A**nnual **P**ercentage **Y**ield). Existem muitas maneiras de participar de uma pool e gerenciar os tokens de recompensa. Veremos neste guia algumas das maneiras diferentes de fazer farming em um das pools mais recentes na Harmony, MAI-ELK, e veremos o que você pode fazer com os tokens ELK que receberá como recompensa.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Este guia definitivamente não é um conselho financeiro, foi feito com um objetivo educacional em mente. Você precisa ficar atento às variações de preços, oferta e demanda, programas de recompensas, datas de término dos programas, perdas impermanentes, etc. O objetivo não é propor receitas que possam ser seguidas às cegas, então faça sua lição de casa e sua própria simulação, e só invista o que você está disposto a perder.
 {% endhint %}
 
 ![](../../.gitbook/assets/elk-farming-1.png)
 
 ## Elk Finance
 
-[Elk Finance](https://app.elk.finance/#/) is a DEX forked from Uniswap v2, as well as an AMM (**A**utomoated **M**arket **M**aker). You will find all the usual features of Uniswap forks: trading your assets, combine your different crypto currencies into LP tokens, farm some LP pairs, and stake their native token, the ELK.
+[Elk Finance](https://app.elk.finance/#/) é um DEX bifurcado da Uniswap v2, bem como uma AMM (Automoated Market Maker). Você encontrará todos os recursos usuais dos forks Uniswap: negociar seus ativos, combinar suas diferentes moedas criptográficas em tokens LP, cultivar alguns pares LP e apostar seu token nativo, o ELK.
 
-What makes Elk Finance a totally different project though is its presence on many blockchains, and not only the EVM-compatibles chains (**E**thereum **V**irtual **M**achine). Indeed, Elk Finance is currentl present on 16 chains and they have plans to expand to many others. They managed to build a bridge between all those chains to let users transfers the ELK token: The ELKNET.
+O que torna a Elk Finance um projeto totalmente diferente é sua presença em muitas blockchains, e não apenas nas redes compatíveis com EVM (Ethereum Virtual Machine). De fato, a Elk Finance está presente em 16 redes e planeja expandir para muitas outras. Eles conseguiram construir uma ponte entre todas essas cadeias para permitir que os usuários transferissem o token ELK: O ELKNET.
 
-![Bridging some ELK from Harmony to Moonriver using the ElkNet](../../.gitbook/assets/elk-farming-2.png)
+![Enviando alguns ELK da Harmony para a Moonriver usando a ElkNet](../../.gitbook/assets/elk-farming-2.png)
 
-Also, one cool feature proposed by the ElkNet is the possibility to swap a portion of the transferred asset for some gas token on the destination. This is particularly useful if you are going for the first time on a block chain where there is no available faucet.
+Além disso, um recurso interessante proposto pela ElkNet é a possibilidade de trocar uma parte do ativo transferido por tokens de gas do destino. Isso é útil se você estiver acessando pela primeira vez uma blockchain que não tenha faucets disponíveis.
 
 {% hint style="success" %}
-Except for chains where gas is high (only Avalanche and Cronos at time of writing), using ElkNet to bridge your ELK tokens from one chain to another is done at no expense. You read that right, you don't pay any bridging fees!
+Exceto por redes onde o gas é alto (apenas Avalanche e Cronos no momento da escrita), usar a ElkNet para enviar seus tokens ELK de uma rede para outra é feito sem despesas. Você leu isso direito, você não paga taxas de envio!
 {% endhint %}
 
-Finally, Elk Finance provides Impermanent Loss protection. You can read all the details about the Impermanent Loss program in [their official documentation](https://docs.elk.finance/features/impermanent-loss-protection), but basically, all you need to know is that if the price of ELK changes between the moment you deposit and the moment you withdraw, you'll be pay extra ELK in order to cover the impermanent loss. Because MAI is pegged to 1 USD, the impermanent loss is only linked to the price movement of ELK, so you're always a winner when you're entering LP pools on Elk Finance DEX.
+Por último, a Elk Finance fornece proteção contra perda impermanente. Você pode ler todos os detalhes sobre o programa de perda impermanente em [sua documentação oficial](https://docs.elk.finance/features/impermanent-loss-protection), mas basicamente, tudo que você precisa saber é que, se o preço de ELK alterar entre o momento em que você depositar e o momento que você retirar, você receberá ELK extra a fim de cobrir a perda impermanente. Como a MAI é atrelado a 1 USD, a perda impermanente só está ligada ao movimento de preços de ELK, então você fica sempre ganhando ao entrar nas LP pools na DEX Elk Finance.
 
-## Farming the MAI-ELK LP Pair
+## Farming com o Par LP MAI-ELK
 
 Elk Finance partnered with Mai Finance in January 2022 to propose token farming using the MAI-ELK LP pair on their DEX. The MAI-ELK pair can be used on 3 different networks for now: Harmony, Moonriver and Gnosis. Some additional pools may be launched later on Polygon, Cronos and Fantom. Let's see the different strategies that you can apply for this new pool.
 
