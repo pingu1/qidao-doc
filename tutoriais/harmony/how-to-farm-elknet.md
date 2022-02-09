@@ -184,48 +184,48 @@ Alternativamente, você também pode vender todas as suas recompensas ELK por to
 
 ## Influência da frequência com que você reacumula
 
-Whether you decide to stake your rewards or compound, it's important to understand that your reward will change depending on the frequency at which you perform your harvest + invest routine. As a reminder, the formula that links APY and APR is as follows:
+Se você decidir fazer staking com suas recompensas ou reacumular, é importante entender que sua recompensa mudará dependendo da frequência com que você realiza sua rotina de colheita + investimento. Como lembrete, a fórmula que vincula APY e APR é a seguinte:
 
 $$
 APY = ( 1 + \frac{APR}{N})^N-1
 $$
 
-In this equation, `N` represents the number of times you compound your rewards in a year. So, and APR of 200% as above would give you the following APY depending on the frequency you compound:
+Nesta equação, `N` representa o número de vezes que você reacumula suas recompensas em um ano. Portanto, e APR de 200%, conforme acima, forneceria o seguinte APY, dependendo da frequência que você reacumula:
 
-| Compounding frequency | equivalent APY |
-| --------------------- | -------------- |
-| daily                 | 634.88 %       |
-| twice in a week       | 625.01 %       |
-| weekly                | 611.71 %       |
-| twice in a month      | 609.55 %       |
-| monthly               | 535.86 %       |
-| quarterly             | 406.25 %       |
-| twice in a year       | 300.00 %       |
+| Frequência de reacumulação | APY equivalente |
+| -------------------------- | --------------- |
+| Diariamente                | 634.88 %        |
+| Duas vezes por semana      | 625.01 %        |
+| Semanalmente               | 611.71 %        |
+| Duas vezes por mês         | 609.55 %        |
+| Mensalmente                | 535.86 %        |
+| A cada trimestre           | 406.25 %        |
+| A cada semestre            | 300.00 %        |
 
-Manually compounding more than once a day can be expensive depending on the chain you're on. But basically, it's clear that the more often you compound, the better the reward. This is also explaining why yield optimizer / auto-compounder are popular. Keep in mind that by compounding, you add sell pressure to the token you farm, which will have a negative impact on the price of that token. If that's also the token you are using to farm (in our exemple ELK), you may be impacted by impermanent losses, unless you're using Elk Finance DEX, which protects you from impermanent losses.
+Reacumular manualmente mais de uma vez por dia pode ser caro, dependendo da rede em que você está. Mas, basicamente, é claro que quanto mais você reinveste, melhor a recompensa. Isso também explica por que o otimizadores de rendimento / reacumuladores automáticos são populares. Lembre-se de que, ao reacumular, você adiciona pressão de venda ao token que cultiva, o que terá um impacto negativo no preço desse token. Se esse também for o token que você está usando para farm (no nosso exemplo ELK), você pode ser afetado por perdas impermanentes, a menos que esteja usando a DEX da Elk Finance, que te protege de perdas impermanentes.
 
-## Choosing the right pool
+## Escolhendo a pool correta
 
-The MAI-ELK pair has been deployed to several chains, so it's possible for you to deploy your capital to the chain that offers the best rates.
+O par MAI-ELK foi implantado em várias redes, portanto, é possível que você invista seu capital na rede que oferece as melhores taxas.
 
-![MAI-ELK pools on Gnosis (top), Moonriver (middle) and Harmony (bottom) as of January 2021](../../.gitbook/assets/elk-farming-3.png)
+![Pools MAI-ELK na Gnosis (topo), Moonriver (meio) e Harmony (abaixo) em janeiro de 2021](../../.gitbook/assets/elk-farming-3.png)
 
 {% hint style="info" %}
-The MAI-ELK pool may also be deployed to other chains in a near future, possibly on Polygon, Cronos and Fantom. This is not guaranteed and there's no ETA for that, so stay updated by checking the difference Discord servers of both projects, of following them on twitter.
+A pool MAI-ELK também pode ser implantado em outras redes em um futuro próximo, possivelmente na Polygon, Cronos e Fantom. Isso não é garantido e não há previsōes, então fique atualizado verificando os diferentes servidores Discord de ambos os projetos e seguindo-os no twitter.
 {% endhint %}
 
-Besides the reward rate on each chain, you may also have to consider the price of the ELK token on each chain. Indeed, if the price is almost the same on all chains, the tiny difference may also be a factor for you to choose the chain where you want to farm the ELK token.
+Além da taxa de recompensa em cada rede, você também pode considerar o preço do token ELK. De fato, se o preço for quase o mesmo em todas as redes, a pequena diferença também pode ser um fator para você escolher a rede em que deseja cultivar o token ELK.
 
-![Price of the ELK tokens on all the chains where it's present](../../.gitbook/assets/elk-farming-4.png)
+![Preço dos tokens ELK em todas as redes onde está presente.](../../.gitbook/assets/elk-farming-4.png)
 
-As you can see, the MAI-ELK pool on Moonriver gives a better reward rate, and the ELK token also has a higher price on that chain. This means that, at time of writing, it may be better to farm the MAI-ELK pool on Moonriver than on Harmony or Gnosis, especially if you plan to sell a part of the farmed tokens. Note that this may not be true all the time, so make sure you choose your chain properly and that you do your own researches before joining a LP pool. Finally, it is strongly recommended to read the [documentation about IL protection](https://docs.elk.finance/features/impermanent-loss-protection) because the insurance is highly dependant on the number of days your LP tokens are deposited in the pool.
+Como você pode ver, a pool MAI-ELK na Moonriver oferece uma melhor taxa de recompensa, e o token ELK também tem um preço mais alto nessa rede. Isso significa que, no momento em que escrevo, pode ser melhor cultivar a pool MAI-ELK na Moonriver do que na Harmony ou na Gnosis, especialmente se você planeja vender uma parte dos tokens cultivados. Observe que isso pode não ser o caso o tempo todo, portanto, certifique-se de escolher sua rede corretamente e de fazer suas próprias pesquisas antes de ingressar em um pool LP. Por fim, é altamente recomendável ler a [documentação sobre proteção de perda impermanente](https://docs.elk.finance/features/impermanent-loss-protection) porque o seguro depende muito do número de dias em que seus tokens LP são depositados na pool.
 
-As a side note, because bridging ELK is free, you can possibly move from one chain to another in order to always benefit from the best rates. Make sure that you understand that by doing so, you will also influence the reward rates of the pool you exit and the one you join (less liquidity will increase the APR, more liquidity will lower it).
+Como observação, como a ponte de ELK é gratuita, você pode mudar de uma rede para outra para sempre se beneficiar das melhores taxas. Certifique-se de entender que, ao fazê-lo, você também influenciará as taxas de recompensa da pool que você sair e da que você ingressar (menos liquidez aumentará o APR, mais liquidez o diminuirá).
 
-## Disclaimer
+## Aviso legal
 
-This guide has been written in order to illustrate the different ways to farm yields using liquidity providing tokens. You will highly influence your gains with the strategy that you pick, as well as your exposure to risk. Of course, all the notions pointed in this document are also applicable to any LP pair, and it's highly recommended to run your own simulations before picking a strategy, a LP pair, a pool or even a DEX.
+Este guia foi escrito para ilustrar as diferentes maneiras de produzir rendimentos usando tokens de fornecimento de liquidez. Você influenciará muito seus ganhos com a estratégia que escolher, bem como sua exposição ao risco. Claro, todas as noções apontadas neste documento também se aplicam a qualquer par de LPs, e é altamente recomendável executar suas próprias simulações antes de escolher uma estratégia, um par de LPs, um pool ou mesmo um DEX.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Por favor, mantenha-se informado, monitore os mercados, fique de olho em seus investimentos e, como sempre, faça sua própria pesquisa.
 {% endhint %}
