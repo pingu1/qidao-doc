@@ -7,49 +7,49 @@ description: >-
 
 # Uma sinfonia assustadora
 
-## Introduction
+## Introdução
 
-Taking a loan against your assets is always a double-edged sword: it can help you kickstart an investment strategy, or leverage your assets, but you will have a debt that you need to repay at some point. In this guide, we will use a loan taken on Market.XYZ, a lending protocol on which you will be able to borrow MAI with a low borrowing rate, and use this loan to farm most of the battle-tested protocols on Fantom. We will use the strategy to repay the loan and see how fast this can be done in order to unlock the assets deposited as collateral.
+Tomar um empréstimo contra seus ativos é sempre uma faca de dois gumes: pode ajudá-lo a iniciar uma estratégia de investimento ou alavancar seus ativos, mas você terá uma dívida que precisará pagar em algum momento. Neste guia, usaremos um empréstimo obtido no Market.XYZ, um protocolo de empréstimo no qual você poderá tomar MAI emprestado com uma baixa taxa de empréstimo e usar esse empréstimo para farming na maioria dos protocolos "testados em batalha" na Fantom. Usaremos a estratégia para reembolsar o empréstimo e ver com que rapidez isso pode ser feito para desbloquear os ativos depositados como garantia.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Este guia não é conselho financeiro, foi feito com objetivo educacional em mente. Você precisa ficar atento às variações de preços, oferta e demanda, programas de recompensas, datas de término, perdas impermanentes, etc. O objetivo não era propor receitas que possam ser seguidas às cegas, então faça sua lição de casa e sua própria simulação, e só invista o que você está disposto a perder.
 {% endhint %}
 
 ![](../../.gitbook/assets/spooky-symfony-1.png)
 
-## Fantom Protocols: Gotta use 'em all
+## Protocolos Fantom: Tenho que usar todos eles
 
-In this strategy, we will use the a lot of different LP (**L**iquidity **P**roviding) pairs on a lot of different protocols, so we thought it would be a good idea to give you a brief recap of what each protocol is doing.
+Nesta estratégia, usaremos muitos pares LP (**L**iquidity **P**roviding, ou Fornecimento de Liquidez) em vários protocolos diferentes, por isso achamos que seria uma boa ideia fornecer uma breve recapitulação do que cada protocolo está fazendo.
 
 ### Market.XYZ
 
-[Market.XYZ](https://fantom.market.xyz) is a lending protocol that builds several lockers for their partners. You will be able to deposit single assets or LP tokens as collateral, and borrow other assets against your deposits. Because you are borrowing against a collateral, it's important to make sure that you don't get liquidated. A liquidation occurs when the value of the asset you deposited as collateral goes below the value of the loan you contracted. This is why it's important to make sure the ratio between the 2 values remains relatively high, and that your collateral doesn't loose too much value when the market goes down.
+[Market.XYZ](https://fantom.market.xyz) é um protocolo de empréstimo que disponibiliza lockers (armários) para seus parceiros. Você poderá depositar ativos únicos ou tokens LP como garantia e tomar emprestado outros ativos contra seus depósitos. Como você está tomando emprestado contra uma garantia, é importante garantir que você não seja liquidado. A liquidação ocorre quando o valor do bem que você depositou como garantia fica abaixo do valor do empréstimo que você contratou. É por isso que é importante garantir que a relação entre os 2 valores permaneça relativamente alta e que sua garantia não perca muito valor quando o mercado cair.
 
-In order to mitigate the risk of liquidation, we will be using the FTM-USDC LP token as collateral
+Para mitigar o risco de liquidação, usaremos o token LP FTM-USDC como garantia:
 
-* The impermanent loss on this pair is relatively low
-* USDC is a stable coin pegged to the US dollar
-* FTM is the native gas token of Fantom, it has deep liquidity and is used everywhere
-* reward rates ont he FTM-USDC pair are high, which means that even if the price of FTM stays the same, the value of your collateral will go up
+* A perda impermanente neste par é relativamente baixa
+* USDC é uma stablecoin atrelada ao dólar americano
+* FTM é o token de gás nativo da Fantom, tem grande liquidez e é usado em todos os lugares
+* As taxas de recompensa no par FTM-USDC são altas, o que significa que, mesmo que o preço do FTM permaneça o mesmo, o valor de sua garantia aumentará
 
-You will be able to borrow against the FTM-USDC pair from the [Spooky LP pool](https://fantom.market.xyz/pool/10) on market.xyz. The steps to deposit your collateral are as follows:
+Você poderá tomar emprestado o par FTM-USDC da [Spooky LP Pool ](https://fantom.market.xyz/pool/10)no Market.xyz. As etapas para depositar sua garantia são as seguintes:
 
-* Create [FTM-USDC LP tokens on SpookySwap](https://spookyswap.finance/add/FTM/0x04068DA6C83AFCFA0e13ba15A6696662335D5B75) by providing liquidity in a 1:1 ratio for both assets
-* Deposit the FTM-USDC LP token on Beefy finance to get a mooBooFTM-USDC receipt (search for the SpookySwap platform and USDC asset in the search filters)
-* Deposit the mooBooFTM-USDC receipt token on Market.xyz
+* Crie [tokens LP FTM-USDC na SpookySwap](https://spookyswap.finance/add/FTM/0x04068DA6C83AFCFA0e13ba15A6696662335D5B75) fornecendo liquidez em uma proporção de 1:1 para ambos os ativos
+* Deposite o token LP FTM-USDC na Beefy finance para obter um recibo mooBooFTM-USDC (procure a plataforma SpookySwap e o ativo USDC nos filtros de pesquisa)
+* Deposite o token de recibo mooBooFTM-USDC no Market.xyz
 
-![Spooky lending market on MarketXYZ as of February 2022](../../.gitbook/assets/spooky-symfony-2.png)
+![Mercado de empréstimos Spooky no MarketXYZ em fevereiro de 2022](../../.gitbook/assets/spooky-symfony-2.png)
 
-When your beefy LP receipt tokens are on Market.XYZ, you still get the reward APY provided by Beefy. This means that your assets are still generating yields for you while you borrow against them. This is a very powerful tool, especially when you see that the mSPLP-FTM-USDC (**m**oo **S**pookyswa**p** FTM-USDC = mooBooFTM-USDC) is earning 51.4% APY and you can borrow MAI at 2.56% APR. In other words, your collateral grows faster than your debt, so in theory you can very well repay your loan with the interests of your collateral.
+Quando seus tokens LP de recibo da Beefy estão no Market.XYZ, você ainda recebe o APY de recompensa fornecido pela Beefy. Isso significa que seus ativos ainda estão gerando rendimentos para você enquanto você os usa como garantia. Esta é uma ferramenta muito poderosa, especialmente quando você vê que mSPLP-FTM-USDC (moo Spookyswap FTM-USDC = mooBooFTM-USDC) aproveita de um APY de 51,4% e que você pode tomar emprestado MAI a um APR de 2,56%. Em outras palavras, sua garantia cresce mais rápido que sua dívida, então, em teoria, você pode muito bem pagar seu empréstimo com os juros de sua garantia.
 
 {% hint style="info" %}
-As a side note, you can see that the Spooky LP Pool locker also offers the possibility to borrow against other LP tokens: ETH-FMT, DAI-FTM, BTC-FTM and fUSDT-FTM. Depending on the assets you have in your wallet, your convictions and your risk tolerance, you can totally use any Spookyswap LP as collateral.
+Como uma observação, você pode ver que o locker Spooky LP Pool também oferece a possibilidade de empréstimo de outros tokens LP: ETH-FMT, DAI-FTM, BTC-FTM e fUSDT-FTM. Dependendo dos ativos que você tem em sua carteira, suas convicções e sua tolerância ao risco, você pode usar totalmente qualquer Spookyswap LP como garantia.
 {% endhint %}
 
-For this tutorial, we will also limit the risk by borrowing with a CDR (**C**ollateral to **D**ebt **R**atio) of 200%. This means that we will borrow 50% of the value of our collateral. More in the farming strategy section. Liquidation ratios are expressed as LTV (**L**oan **t**o **V**alue) which is the opposite of a CDR. You can see that the LTV for the mooBooFTM-USDC token is 60%, above which you will get liquidated. This is equivalent to a CDR of 166.67%. With a target of 200% CDR, we are 33% above the liquidation ratio, which may be risky or not, depending on your risk tolerance.
+Para este tutorial, também limitaremos o risco tomando empréstimos com uma CDR (Colateral to Debt Ratio, ou Proporção de Garantia para Dívida) de 200%. Isso significa que tomaremos emprestado 50% do valor de nossa garantia (mais informaçōes na seção de estratégia de farming). Os índices de liquidação são expressos como LTV (Loan to Value, Empréstimo para Valor), que é o oposto da CDR. Você pode ver que a LTV para o token mooBooFTM-USDC é de 60%, acima do qual você será liquidado. Isso equivale a um CDR de 166,67%. Com uma meta de uma CDR de 200%, estamos 33% acima do índice de liquidação, que pode ser arriscado ou não, dependendo da sua tolerância ao risco.
 
 {% hint style="danger" %}
-Market.XYZ only allows loans with a minimum value of 0.05 ETH (\~$170.00 at time of writing). Make sure you deposit enough collateral if you want to bororw from the different lockers.
+Market.XYZ só permite empréstimos com um valor mínimo de 0,05 ETH (\~$170,00 no momento da escrita). Certifique-se de depositar garantias suficientes se quiser pedir emprestado dos diferentes lockers.
 {% endhint %}
 
 ### BeethovenX
