@@ -1,51 +1,51 @@
 ---
-description: >-
-  Taking a loan isn't exactly a contracting a debt when you use this loan as
-  the starting point of an investment strategy. It's a real investment.
+açıklama: >-
+  Bir kredi almak, bu krediyi bir yatırım stratejisinin başlangıç noktası olarak kullandığınız takdirde tam olarak bir borç sözleşmesi olmaz. Bu gerçek bir yatırım olur
 ---
 
 # A Spooky Symfony
 
-## Introduction
+## Giriş
 
-Taking a loan against your assets is always a double-edged sword: it can help you kickstart an investment strategy, or leverage your assets, but you will have a debt that you need to repay at some point. In this guide, we will use a loan taken on Market.XYZ, a lending protocol on which you will be able to borrow MAI with a low borrowing rate, and use this loan to farm most of the battle-tested protocols on Fantom. We will use the strategy to repay the loan and see how fast this can be done in order to unlock the assets deposited as collateral.
+Varlıklarınıza karşı borç almanın her zaman hem iyi hem de kötü yanı vardır: Bir yatırım stratejisini başlatmanıza veya varlıklarınızı kaldırmanıza yardımcı olabilir ancak bir noktada geri ödeme yapmanız gereken bir borcunuz olacaktır. Bu kılavuzda, MAI'yi düşük borçlanma oranıyla alabileceğiniz bir borç verme protokolü olan Market.XYZ’den alıp bu borcu diğer platformlarda test için Fantom’da kullanacağız. Teminat olarak yatırılan varlıkların kilidini açmak için borcu geri ödeme stratejisini kullanacağız ve bunun ne kadar hızlı yapılabileceğine bakacağız.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Fiyat değişimlerine, arz ve talebe, ödül programlarının bitiş tarihlerine, kalıcı kayıplara vs. dikkat etmeniz gerekiyor. Amaç körü körüne takip edilebilecek tarifler önermek değildi. Bu yüzden lütfen kendi simülasyonunuzu yapın ve sadece kaybetmeyi göze aldığınız kadar yatırım yapın.
+
 {% endhint %}
 
 ![](<../../.gitbook/assets/spooky-symfony-1.png>)
 
-## Fantom Protocols: Gotta use 'em all
+## Fantom Protokolleri: Hepsini Kullan!
 
-In this strategy, we will use the a lot of different LP (**L**iquidity **P**roviding) pairs on a lot of different protocols, so we thought it would be a good idea to give you a brief recap of what each protocol is doing.
+Bu stratejide, birçok farklı protokolde farklı LP (Likidite Sağlama) çiftlerini kullanacağız, bu yüzden size her protokol hakkında kısa bir özet vermenin iyi bir fikir olacağını düşündük.
 
 ### Market.XYZ
 
-[Market.XYZ](https://fantom.market.xyz/) is a lending protocol that builds several lockers for their partners. You will be able to deposit single assets or LP tokens as collateral, and borrow other assets against your deposits. Because you are borrowing against a collateral, it's important to make sure that you don't get liquidated. A liquidation occurs when the value of the asset you deposited as collateral goes below the value of the loan you contracted. This is why it's important to make sure the ratio between the 2 values remains relatively high, and that your collateral doesn't loose too much value when the market goes down.
+[Market.XYZ](https://fantom.market.xyz/) bazı belirli varlıkları veya LP tokenlarını teminat olarak yatırabileceğiniz ve bunlara karşı borç alabileceğiniz bir borç alma-verme protokolüdür. Bir teminata karşı borçlanma, tasfiye etmediğinizden emin olmak için önemlidir. Teminat olarak yatırdığınız varlığın değeri, sözleşmenizdeki borcun değerinin altına düştüğünde bir likidasyon oluşur. Bu yüzden iki değer arasındaki oranın nispeten yüksek kaldığından ve teminatınızın piyasaya sürüldüğünde çok fazla değer kaybetmeyeceğinden emin olmak önemlidir.
 
-In order to mitigate the risk of liquidation, we will be using the FTM-USDC LP token as collateral
+Likidasyon riskini azaltmak için FTM-USDC LP tokenını teminat olarak kullanacağız.
 
-* The impermanent loss on this pair is relatively low
-* USDC is a stable coin pegged to the US dollar
-* FTM is the native gas token of Fantom, it has deep liquidity and is used everywhere
-* reward rates ont he FTM-USDC pair are high, which means that even if the price of FTM stays the same, the value of your collateral will go up
+* Bu çift üzerindeki geçici kayıp nispeten düşüktür
+* USDC dolara sabitlenmiş bir stablecoindir
+* FTM, Fantom'un yerli gas tokenıdır, derin likiditeye sahiptir ve her yerde kullanılır
+* FTM-USDC çifti üzerindeki ödül oranları yüksektir, böylece FTM'nin fiyatı aynı kalsa bile teminatınızın değeri yükselir.
 
-You will be able to borrow against the FTM-USDC pair from the [Spooky LP pool](https://fantom.market.xyz/pool/10) on market.xyz. The steps to deposit your collateral are as follows:
+You will be able to borrow against the FTM-USDC pair from the  on market.xyz. The steps to deposit your collateral are as follows: Market.xyz'deki [Spooky LP havuzu](https://fantom.market.xyz/pool/10) FTM-USDC çiftine karşı borç alabileceksiniz. Teminatınızı yatırmanın adımları aşağıdaki gibidir:
 
-* Create [FTM-USDC LP tokens on SpookySwap](https://spookyswap.finance/add/FTM/0x04068DA6C83AFCFA0e13ba15A6696662335D5B75) by providing liquidity in a 1:1 ratio for both assets
-* Deposit the FTM-USDC LP token on Beefy finance to get a mooBooFTM-USDC receipt (search for the SpookySwap platform and USDC asset in the search filters)
-* Deposit the mooBooFTM-USDC receipt token on Market.xyz
+* Her iki varlık için 1: 1 oranında likidite sağlayarak [Spooky LP havuzundan](https://spookyswap.finance/add/FTM/0x04068DA6C83AFCFA0e13ba15A6696662335D5B75) oluşturun.
+* mooBooFTM-USDC lp token almak için FTM-USDC LP tokenını Beefy Finance'e yatırın (Arama filtrelerinde Spookyswap platformunu ve USDC varlığını arayın)
+* mooBooFTM-USDC lp tokenını Market.xyz'ye yatırın
 
-![Spooky lending market on MarketXYZ as of February 2022](<../../.gitbook/assets/spooky-symfony-2.png>)
+![Şubat 2022 yılı itibariyle MarketXYZ'de Spooky borç verme pazarı](<../../.gitbook/assets/spooky-symfony-2.png>)
 
-When your beefy LP receipt tokens are on Market.XYZ, you still get the reward APY provided by Beefy. This means that your assets are still generating yields for you while you borrow against them. This is a very powerful tool, especially when you see that the mSPLP-FTM-USDC (**m**oo **S**pookyswa**p** FTM-USDC = mooBooFTM-USDC) is earning 51.4% APY and you can borrow MAI at 2.56% APR. In other words, your collateral grows faster than your debt, so in theory you can very well repay your loan with the interests of your collateral.
+Beefy LP tokenlarınız Market.xyz'de olduğunda hala Beefy tarafından sağlanan ödül APY'sini alırsınız. Bu da varlıklarınızın onlarla borç alırken hala sizin için verim oluşturduğu anlamına gelir. Bu, özellikle mSPLP-FTM-USDC'nin (moo Spookyswap FTM-USDC = mooBooFTM-USDC) %51.4 APY kazandığını ve %2,56'lık APR'de MAI’yi borç alabileceğinizden çok güçlü bir araçtır. Başka bir deyişle, teminatınız borcunuzdan daha hızlı büyür, bu nedenle teoride borcunuzu teminatınızın getirileriyle çok rahat ödeyebilirsiniz.
 
 {% hint style="info" %}
-As a side note, you can see that the Spooky LP Pool locker also offers the possibility to borrow against other LP tokens: ETH-FMT, DAI-FTM, BTC-FTM and fUSDT-FTM. Depending on the assets you have in your wallet, your convictions and your risk tolerance, you can totally use any Spookyswap LP as collateral.
+Bir ek not olarak, Spooky LP havuzunun ayrıca diğer LP tokenlarına karşı borçlanma imkanı sunduğunu görebilirsiniz: ETH-FMT, DAI-FTM, BTC-FTM ve fUSDT-FTM. Cüzdanınızdaki varlıklara ve risk toleransınıza bağlı olarak herhangi bir Spookyswap LP'yi teminat olarak kullanabilirsiniz.
 {% endhint %}
 
-For this tutorial, we will also limit the risk by borrowing with a CDR (**C**ollateral to **D**ebt **R**atio) of 200%. This means that we will borrow 50% of the value of our collateral. More in the farming strategy section. Liquidation ratios are expressed as LTV (**L**oan **t**o **V**alue) which is the opposite of a CDR. You can see that the LTV for the mooBooFTM-USDC token is 60%, above which you will get liquidated. This is  equivalent to a CDR of 166.67%. With a target of 200% CDR, we are 33% above the liquidation ratio, which may be risky or not, depending on your risk tolerance.
+Bu eğitim için %200'lük bir CDR (Borç Teminat Oranı) ile borçlanma riskini de sınırlayacağız. Bu da teminatımızın değerinin % 50'sini borç alacağımız anlamına gelir. Çiftçilik stratejisi bölümünde daha fazlası var. Tasfiye oranları, bir CDR'nin zıttı olarak LTV (Kredi Değeri) olarak ifade edilir. mooBooFTM-USDC tokenı için LTV'nin, yukarıda tasfiye edeceğiniz % 60 olduğunu görebilirsiniz. Bu da %166.67'lik bir CDR'ye eşdeğerdir. %200 CDR hedefi ile risk toleransınıza bağlı olarak riskli olabilecek veya olmayacak tasfiye oranının %33 üzerindeyiz.
 
 {% hint style="danger" %}
 Market.XYZ only allows loans with a minimum value of 0.05 ETH (~$170.00 at time of writing). Make sure you deposit enough collateral if you want to bororw from the different lockers.
@@ -53,126 +53,126 @@ Market.XYZ only allows loans with a minimum value of 0.05 ETH (~$170.00 at time 
 
 ### BeethovenX
 
-[BeethovenX](https://beets.fi/#/) is a **D**ecentralized **Ex**change and **A**utomated **M**arket **M**aker forked from Balancer. You will be able to deposit your assets in liquidity pools, as well as swapping different assets on their application. They've been solid partners of the QiDAO protocol, providing LP tokens for the farms that you can find on Mai Finance. We will be using two different pools on BeethovenX for this strategy
+[BeethovenX](https://beets.fi/#/) Balancer’dan klonlanan merkeziyetsiz bir borsa ve otomatik pazar yapıcısıdır. Varlıklarınızı likidite havuzlarına yatırabilir ve ayrıca uygulamaları üzerinden farklı varlıkları takas edebilirsiniz. Mai Finance’de bulabileceğiniz çiftlikler için LP tokenları sağlayan QiDAO protokolünün sağlam bir ortağı olmuşlardır. Stratejimiz için Beethovenx'te iki farklı havuz kullanacağız.
 
-* The Monolith: an inventivized pool that has been open for Exodia, a Ohm fork that [we presented in this tutorial](investing-in-discounted-assets-using-bonds.md). You will be able to deposit your MAI tokens directly into this pool and collect yields
-* Pirate Party: an incentivized pool dedicated to LQDR tokens, the native token from Liquid Driver, another big protocol that we will be using in this guide
+* The Monolith: [Bu eğitimde sunduğumuz](investing-in-discounted-assets-using-bonds.md) bir OHM klonu olup Exodia'ya açık olan teşvik havuzudur. Mai tokenlarınızı doğrudan bu havuza yatırabilir ve verim toplayabilirsiniz.
+* Pirate Party: Bu kılavuzda kullanacağımız bir başka büyük protokol, Liquid Driver’ın yerel tokenı olan LQDR tokenlarına adanmış bir teşvik havuzudur
 
-![The Monolith pool on BeethovenX with 20% MAI as of February 2022](<../../.gitbook/assets/spooky-symfony-3.png>)
+![Beethovenx'te The Monolith Havuzu Şubat 2022'den itibaren %20 MAI ile](<../../.gitbook/assets/spooky-symfony-3.png>)
 
-![Pirate Party pool on BeethovenX with 80% LQDR as of February 2022](<../../.gitbook/assets/spooky-symfony-4.png>)
+![Beethovenx'te Pirate Party Havuzu Şubat 2022'den itibaren %80 LQDR ile](<../../.gitbook/assets/spooky-symfony-4.png>)
 
-As always, the biggest advantage of using BeethovenX (or Balancer) is that you can deposit single assets in the pools instead of having to provide tokens in a balanced ratio.
+Her zaman olduğu gibi, Beethovenx (veya Balancer) kullanmanın en büyük avantajı, tokenları dengeli bir oranda sağlamak yerine havuzlara tek varlık yatırabilmenizdir.
 
 ### SpookySwap
 
-[Spookyswap](https://spookyswap.finance/) is the biggest Uniswap V2 fork on Fantom, a platform where you will be able to swap assets et provide liquidity for many pairs. Spookyswap has also been a solid partner of Mai Finance and proposes a MAI-USDC pool. The partnership extended via Market.XYZ where you will be able to borrow MAI against some specific LP pairs (see the section about Market.xyz) as well as your BOO and staked BOO tokens, the native token of Spookswap.
+[Spookyswap](https://spookyswap.finance/) Fantom'daki en büyük Uniswap V2 klonudur, varlıkları takas edebileceğiniz bir platformdur ve birçok çift için likidite sağlar. SpookySwap ayrıca MAI Finance’in sağlam bir ortağı olmuştur ve MAI-USDC havuzunu önermektedir. Bazı belirli LP çiftlerine karşı MAI borç alabileceğiniz ve aynı zamanda BOO ve stake edilmiş BOO tokenlarınızı SpookSwap'in yerel tokenı ile takas edebileceğiniz yer olan Market.XYZ (Market.XYZ hakkındaki bölüme bakın) ile bu ortaklık genişletilmiştir.
 
-For this guide, we will be using two different LP tokens from SpookySwap:
+Bu kılavuz için, SpookySwap'ten iki farklı LP tokenını kullanacağız:
 
-* FTM-USDC which will be used as our starting point for the strategy. This LP token is used as collateral on market.xyz
-* FTM-BOO because it's one of the pool from SpookySwap accepted on Liquid Driver with the highest APR. We will swap the BEETS rewards from the Monolith for this pair (more in the Farming Strategy section)
+* FTM-USDC, strateji için başlangıç noktamız olarak kullanılacak. Bu LP tokenı, Market.XYZ’de teminat olarak kullanılmaktadır
+* FTM-BOO, çünkü en yüksek APR ile SpookySwap’ten Liquid Driver’a kabul edilen havuzlardan biridir. BEETS ödüllerini bu çift için The Monolith’ten takas edeceğiz (Çiftçilik Stratejisi bölümünde daha fazla ayrıntı var)
 
 ### Liquid Driver
 
-[Liquid Driver](https://www.liquiddriver.finance/) is a yield optimizer on which you will be able to deposit LP tokens from different farms and earn yields on them. The way yield optimizer work is by harvesting the reward tokens of the target platform and compound them for you. This is useful since the gas on Fantom can be expensive. A performance fee is taken out, but a portion of the protocol's revenue is redistributed to LQDR stakers. LQDR is the native token of Liquid Driver.
+[Liquid Driver](https://www.liquiddriver.finance/) farklı çiftliklerden LP tokenları yatırabileceğiniz ve onlar üzerinden verim kazanabileceğiniz bir verim optimize edicidir. Verim optimize edicinin çalışma şekli, hedef platformun ödül tokenlarını toplayarak bunları sizin için birleştirmektir. Fantom’daki gas pahalı olabileceğinden dolayı faydalı bir sistemdir. Bir performans ücreti alınır ancak protokolün gelirinin bir kısmı LQDR stake edenlere yeniden dağıtılır. LQDR, Liquid Driver’ın yerel tokenıdır.
 
-For this strategy, we will be using the FTM-BOO LP pair because it's a pool with one of the highest APR in LQDR for Spookyswap.
+Bu strateji için FTM-BOO LP çiftini kullanacağız çünkü SpookySwap için LQDR'deki en yüksek APR'den birine sahip olan bir havuzdur
 
-![FTM-BOO and FTM-USDC LP pairs on LiquidDriver as of February 2022](<../../.gitbook/assets/spooky-symfony-5.png>)
+![2022 Şubat itibariyle LiquidDriver'daki FTM-BOO ve FTM-USDC LP LP Çiftleri(<../../.gitbook/assets/spooky-symfony-5.png>)
 
-## Farming Strategy
+## Çiftçilik Stratejisi
 
-For this strategy, we will be using Market.XYZ as our starting point to borrow MAI against mooBooFTM-USDC LP tokens. The borrowed MAI will be deposited on BeethovenX in The Monolith pool. Because this is the pool with the highest reward rate in our strategy, we will use it as our engine to repay our debt: 50% of the BEETS will be sold to repay the debt on Market.xyz, and 50% will be converted into FTM-BOO LP tokens. The FTM-BOO tokens will be deposited on LiquidDriver to collect LQDR tokens that will then be staked in the Pirate Party pool on BeethovenX. Once the debt is fully repaid, the BEETS rewards will be fully converted to FTM-BOO tokens. The BEETS rewards provided by the Pirate Party pool will also be compounded into more FTM-BOO.
+Bu strateji için, mooBooFTM-USDC LP tokenlarına karşı MAI borç almak için Market.XYZ’yi kullanacağız. Borç alınan MAI, The Monolith havuzundaki Beethovenx'e yatırılacaktır çünkü bu havuz, stratejimizde en yüksek ödül oranına sahip olan havuzdur. Bu havuzu borcumuzu geri ödemek için motorumuz olarak kullanacağız: BEETS’lerin %50'si Market.XYZ’deki borçları geri ödemek için satılacak ve %50'si FTM-BOO LP tokenlarına dönüştürülecektir. FTM-BOO tokenları, daha sonra Beethovenx'te Pirate Party havuzuna stake edilecek LQDR tokenlarını toplamak için LiquidDriver’a yatırılacaktır. Borç tamamen geri ödendikten sonra BEETS ödülleri tamamen FTM-BOO tokenlarına dönüştürülecektir. Pirate Party havuzunun sağladığı BEETS ödülleri de daha fazla FTM-BOO’ya birleştirilecektir.
 
-For this simulation, we will use the following numbers
+Bu simülasyon için aşağıdaki rakamları kullanacağız:
 
-* We start with a value worth of $1,000 of mooBooFTM-USDC tokens
-* The APR for the mooBooFTM-USDC token provided by SpookySwap via Beefy is 41.5%
-* The borrowing rate for MAI is 2.56%
-* BeethovenX gives an APR of 304.17% for The Monolith, and 175.77% for the Pirate Party
-* LiquidDriver gives 82% APR on FTM-BOO LP pair
+* 1000$ değerindeki mooBooFTM-USDC tokenıyla başlıyoruz
+* mooBooFTM-USDC tokenı için Beefy üzerinden SpookySwap tarafından sağlanan APR %41,5'tir.
+* MAI için borçlanma oranı %2,56'dır
+* Beethovenx, The Monolith için %304,17, Pirate Party için %175.77 APR verir.
+* LiquidDriver FTM-BOO LP çifti için %82 APR verir.
 
-As usual for our simulations, we assume that all prices remain the same for the entire period of 1 year, rates stay the same, and we also use the provided APRs as is. In reality, prices and rates will vary, and APRs are composed of trading fees and reward tokens, which may affect the end result. It's also important to note that **no transaction fees** are taken in account for this simulation. Finally, we're using a lot of protocols, and each protocol may present smart contract risks. Make sure you do your own researches before using a platform, and only invest what you are willing to loose.
+Simülasyonlarımız için her zamanki gibi tüm fiyatların 1 yıllık süre boyunca aynı kaldığını varsayıyoruz, fiyatlar aynı kalır ve ayrıca verilen APR'leri de kullanırız. Gerçekte, fiyatlar ve oranlar değişecektir ve APR'ler sonucunu etkileyebilecek alım satım ücretlerinden ve ödül tokenlarından oluşur. Bu simülasyon için **herhangi bir işlem ücretinin alınmadığını** not etmek de önemlidir. Son olarak, birçok protokol kullanıyoruz ve her protokol kendi akıllı sözleşme risklerini sunabilir. Bir platformu kullanmadan önce kendi araştırmalarınızı yaptığınızdan emin olun.
 
-You can find our Spooky Symfony simulation [in this SpreadSheet](https://docs.google.com/spreadsheets/d/19s6kBnT5w0b9GKuTkDiiD1u_ZoeNUZtI9XYxEmk_WM0/edit?usp=sharing). Feel free to copy it and play with it to see how the loop works, and how the different rates may affect your final APY.
+Spooky Symfony simülasyonumuzu [bu Google e-tablosunda](https://docs.google.com/spreadsheets/d/19s6kBnT5w0b9GKuTkDiiD1u_ZoeNUZtI9XYxEmk_WM0/edit?usp=sharing). bulabilirsiniz. Döngülerin nasıl çalıştığını ve farklı oranların nihai APY'nizi nasıl etkileyebileceğini görmek için kopyalayıp deneyebilirsiniz.
 
 ![](<../../.gitbook/assets/spooky-symfony-6.png>)
 
-### Day 1
+### 1.Gün
 
-On Day 1, you need to create your collateral for Market.xyz. Get an equal portion of FTM and USDC and provide liquidity on SpookySwap to create FTM-USDC LP tokens. These tokens will be deposited on Beefy, which will get you the mooBooFTM-USDC receipt token. This is the token that will be used as collateral on Market.xyz and against which you will borrow MAI. Since we want to keep a CDR of 200%, we will be borrowing $500 worth of MAI. Finally, the MAI tokens will be staked on BeethovenX into The Monolith pool.
+1. günde, Market.XYZ için teminatınızı oluşturmanız gerekir. FTM-USDC LP tokenları oluşturmak için FTM ve USDC'nin eşit bir bölümünü alın ve SpookySwap üzerinde likidite sağlayın. Bu tokenlar, Size mooBooFTM-USDC lp tokenı kazandıracak olan Beefy’e yatırılacaktır. Bu token, Market.XYZ'de teminat olarak kullanılacak tokendır. CDR'yi %200 tutmak istediğimizden, 500$ değerinde MAI borç alacağız. Son olarak, MAI tokenları Beethovenx'te The Monolith havuzuna stake edilecektir.
 
-At the end of the first day, you will have
+İlk günün sonunda,
 
-|     positon    |  value ($) |
+|     pozisyon   |  değer ($) |
 |----------------|------------|
 | mooBooFTM-USDC |  1,000.000 |
 | the monolith   |    500.000 |
 | pirate party   |      0.000 |
-| BEETS rewards  |      4.167 |
+| BEETS ödülleri |      4.167 |
 | FTM-BOO        |      0.000 |
-| LQDR rewards   |      0.000 |
-| MAI debt       |    500.000 |
+| LQDR ödül      |      0.000 |
+| MAI borç       |    500.000 |
 
-### Day 2
+### 2.Gün
 
-On Day 2, you will have to
+2. günde yapacaklarınız,
 
-* sell 50% of your BEETS for MAI to repay a small fraction of your loan
-* swap your BEETS rewards for FTM-BOO LP pair. You can either swap on BeethovenX and create the LP pair on SpookySwap, or do everything on SpookySwap.
-* stake the FTM-BOO LPs on Liquid Driver to start collecting LQDR tokens.
+* BEETS’inizin %50'sini borcunuzun küçük bir kısmını geri ödemek üzere MAI için satın
+* FTM-BOO LP çifti için BEETS ödüllerini takas edin. Beethovenx'te takas edip SpookySwap'te LP çifti oluşturabilirsiniz veya her şeyi SpookySwap'te yapabilirsiniz.
+* LQDR tokenlarını toplamaya başlamak için FTM-BOO LP tokenlarını Liquid Driver’da stake edin.
 
-At the end of the second day, you will have
+İkinci günün sonunda,
 
-|     positon    |  value ($) |
+|     pozisyon    |  değer ($) |
 |----------------|------------|
 | mooBooFTM-USDC |  1,001.137 |
 | the monolith   |    500.000 |
 | pirate party   |      0.000 |
-| BEETS rewards  |      4.167 |
+| BEETS ödülleri |      4.167 |
 | FTM-BOO        |      2.083 |
-| LQDR rewards   |      0.005 |
-| MAI debt       |    497.952 |
+| LQDR ödülleri  |      0.005 |
+| MAI borç       |    497.952 |
 
-### Day 3
+### 3.Gün
 
-Repeat the operation from Day 2, then harvest your first LQDR tokens. These will be deposited on BeethovenX in the Pirate Party pool to get extra BEETS rewards, and at the end of Day 3 you will have
+2. günün işlemlerini tekrarlayın, ardından ilk LQDR tokenlarınızı toplayın. Bunlar, ekstra BEETS ödülleri almak için Pirate Party havuzunda Beethovenx'e yatırılacaktır ve 3. günün sonunda,
 
-|     positon    |  value ($) |
+|     pozisyon    |  değer ($) |
 |----------------|------------|
 | mooBooFTM-USDC |  1,002.275 |
 | the monolith   |    500.000 |
 | pirate party   |      0.005 |
-| BEETS rewards  |      4.167 |
+| BEETS ödülleri |      4.167 |
 | FTM-BOO        |      4.167 |
-| LQDR rewards   |      0.000 |
-| MAI debt       |    495.903 |
+| LQDR ödülleri  |      0.000 |
+| MAI borç       |    495.903 |
 
 {% hint style="info" %}
-Gains from the Pirate Party pool are too small to be significant at this point, but you'll get some over time.
+Pirate Party havuzundan elde edilen kazançlar bu noktada çok düşük ama zamanla artacaktır.
 {% endhint %}
 
-### Daily Routine
+### Günlük Rutin
 
-At this point the system is fully primed. Your daily routine will consist of
+Bu noktada sistem tamamen hazırlanmıştır. Günlük rutininiz,
 
-* harvest BEETS rewards from The Monolith
-* harvest BEETS rewards from the Pirate Party
-* swap 50% of the BEETS for MAI if you still have an outstanding debt
-* repay a portion of your debt if you still have some
-* swap the rest of the BEETS for FTM-BOO LP tokens
-* deposit the FTM-BOO on LiquidDriver
-* harvest LQDR
-* deposit in the Pirate Party
+* The Monolith’ten BEETS ödüllerini toplayın
+* Pirate Party’den BEETS ödüllerini toplayın
+* Hala çok fazla borcunuz varsa BEETS’inizin %50sini MAI ile takas edin
+* Hala borcunuz varsa borcunuzu ödeyin
+* BEETS’lerin geri kalanını FTM-BOO LP tokenlarıyla takas edin
+* FTM-BOO tokenlarını LiquidDriver’a yatırın
+* LQDR toplayın
+* Pirate Party’e yatırın
 
-This strategy isn't very gas-efficient so you may consider compounding your gains only once a week, or even less frequently.
+Bu stratejide gas verimi iyi değildir, bu yüzden kazanımlarınızı haftada sadece bir kez veya daha az sıklıkla birleştirmeyi düşünebilirsiniz.
 
-### Raw results month after month
+### Aydan Aya Ham Sonuçlar
 
-Here are raw results month after month, as you can get them in the Google SpreadSheet linked above.
+Yukarıda linki verilen Google e-tablosunda görebileceğiniz gibi, işte aydan aya ham sonuçlar:
  
-| day |  FTM-USDC  | The Monolith | Pirate Party |  FTM-BOO  | MAI debt |
+| gün |  FTM-USDC  | The Monolith | Pirate Party |  FTM-BOO  | MAI borç |
 |-----|------------|--------------|--------------|-----------|----------|
 |  30 |  1,033.503 |      500.000 |        1.901 |    60.500 |  440.541 |
 |  60 |  1,069.343 |      500.000 |        8.031 |   123.652 |  378.905 |
@@ -187,27 +187,27 @@ Here are raw results month after month, as you can get them in the Google Spread
 | 330 |  1,453.328 |      500.000 |      295.350 | 1,009.331 |    0.000 |
 | 360 |  1,503.726 |      500.000 |      368.942 | 1,182.000 |    0.000 |
 
-### Day 365
+### 365. Gün
 
-At the end of one full year farming this system, you would have
+Bu sistemle bir yıllık çiftçiliğin sonunda,
 
-* $1,512.294 worth of FTM-USDC tokens on Market.xyz
-* $500.000 worth of MAI in The Monolith pool
-* $382.353 worth of LQDR stored in the Pirate Party pool
-* $1.211.845 worth of FTM-BOO tokens on Market.xyz
-* a final debt that is fully repaid after day #243
+* Market.XYZ’de 1.512.294$ değerinde FTM-USDC tokenı
+* The Monolith havuzunda 500.000$ değerinde MAI
+* Pirate Party havuzunda 382.353$ değerinde LQDR
+* Market.XYZ’de 1.211.845 değerinde FTM-BOO
+* 243 günden sonra tamamen geri ödenen son bir borç
 
-This is equivalent to a total APY of 260.65%.
+Bu da toplam % 260,65'lik bir APY'ye eşdeğerdir
 
-### Effect of the debt repayment on the overall result
+### Borcun geri ödenmesinin genel sonuca etkisi
 
-In most of our guides, we don't repay any debt as part of the strategy. This is, in most cases, due to the fact that we're using a 0% interest loan taken on Mai Finance. Here, we are borrowing on Market.XYZ with a borrowing rate of 2.56% and we repay the debt with 50% of the BEETS harvested from The Monolith.
+Kılavuzumuzun çoğunda, stratejinin bir parçası olarak herhangi bir borcu geri ödemiyoruz. Bu, çoğu durumda, Mai Finance'ten alınan %0 faizli kredi kullanmamızdan kaynaklanmaktadır. Burada, Market.XYZ'den %2,56'lık bir borçlanma oranı ile borç alıyoruz ve bu borcu The Monolith'ten toplanan BEETS’in %50'si ile geri ödüyoruz.
 
-If you allocate more than 50% to the debt repayment, you will pay less interests, but you will grow your positions much slower on Liquid Driver. If you allocate less than 50% to the debt repayment, you will get more rewards from the other platforms, but you will also pay more interests on Market.xyz.
+Borcun geri ödenmesine %50'den fazlasını ayırırsanız daha az faiz ödersiniz ancak Liquid Driver'da pozisyonlarınızı çok daha yavaş büyütürsünüz. Borcun geri ödenmesine %50'den az pay ayırırsanız diğer platformlardan daha fazla ödül alırsınız ama Market.XYZ'de de daha fazla faiz ödersiniz.
 
-Here's a small table that indicates the effect of the allocated BEETS to your debt repayment on your overall APY:
+Tahsis edilen BEETS’in borcun geri ödenmesinin genel APY'niz üzerindeki etkisini gösteren küçük bir tablo:
 
-| BEETS % | Overall APY | debt repaid after |
+| BEETS % |  Genel APY  |Borçtan sonra kalan|
 |---------|-------------|-------------------|
 |     100 |      242.85 |          122 days |
 |      90 |      245.06 |          135 days |
@@ -218,63 +218,63 @@ Here's a small table that indicates the effect of the allocated BEETS to your de
 |      40 |      267.92 |          305 days |
 |    33.5 |      274.09 |          364 days |
 
-If you use less than 33.5% of your BEETS rewards to repay your debt, you will still have some MAI to repay after a complete year.
+Borcunuzu ödemek için BEETS ödüllerinizin %33,5'inden azını kullanırsanız tam bir yıl sonra hala geri ödemeniz gereken bir miktar MAI'niz olacaktır
 
-It is also good to understand that it you repay faster, you also increase your CDR in a more significant way, which allows you to get away from liquidation ratio faster.
+Ayrıca daha hızlı geri ödediğinizi ve CDR'nizi önemli bir şekilde artırdığınızı, bunun da likidasyon oranından daha hızlı kurtulmanızı sağladığını hatırlatmakta fayda var.
 
-## Variations to consider
+## Dikkate alınması gereken varyasyonlar
 
-This strategy presents many variations that present different benefits.
+Bu strateji, farklı faydalar sunan birçok varyasyon sunar.
 
 ### Mai Finance VS Market.xyz
 
-You can totally borrow MAI from [Mai Finance](https://app.mai.finance) at 0% interest. As an example, if you use mooScreamFTM instead of mooBooFTM-USDC as collateral, this will present the following advantages:
+MAI'yi [Mai Finance](https://app.mai.finance)'den %0 faizle borç alabilirsiniz. Örnek olarak, teminat olarak mooBooFTM-USDC yerine mooScreamFTM kullanırsanız, bu size aşağıdaki avantajları sunacaktır
 
-* You don't have any impermanent losses on your collateral
-* You borrow at 0% with a single 0.5% repayment fee, which will be in most cases, much lower than the interests you will pay on Market.xyz (if there are MAI to borrow for this vault)
-* You may get Qi rewards for borrowing on the platform, which will let you participate in the protocole's governance, as well as get dividends if you stake your Qi tokens. This will increase your yearly gains
-* You're protected from very fluctuating borrowing rate on  Market.xyz. Mai Finance will lend new MAI regularly to keep the borrowing rates as low as possible but it's not a guarantee that it does not go up. You can check metrics for the lending market [here](https://metrics.market.xyz/d/HChNahwGk/fuse-pool-details?orgId=1&refresh=10s&var-poolID=10&var-chain=250).
+* Teminatınızda herhangi bir kalıcı kaybınız olmaz
+* Çoğu durumda Market.xyz'de ödediğiniz faizden çok daha düşük olan %0,5'lik tek bir geri ödeme ücretiyle %0'dan borç alırsınız. (bu kasa için borç alınacak MAI varsa)
+Platformdan borç aldığınız için Qi ödülleri alabilirsiniz; bu da protokolün yönetişimine katılmanıza ve ayrıca Qi tokenlarınızı stake ederseniz temettü almanıza izin verir. Bu da yıllık kazancınızı artıracaktır.
+* Market.xyz'de dalgalı borçlanma oranlarından korunursunuz. Mai Finance, borçlanma oranlarını mümkün olduğu kadar düşük tutmak için düzenli olarak yeni MAI borç verecek ancak bu, yükselmeyeceğine dair bir garanti değildir. Borç verme piyasasına ilişkin ölçümleri [buradan](https://metrics.market.xyz/d/HChNahwGk/fuse-pool-details?orgId=1&refresh=10s&var-poolID=10&var-chain=250) kontrol edebilirsiniz.
 
-However, the mooScreamFTM tokens get a much lower APY compared to the mooBooFTM-USDC tokens, so you may miss on that.
+Ancak mooScreamFTM tokenları, mooBooFTM-USDC tokenlarına kıyasla çok daha düşük bir APY alır, bu yüzden bunu kaçırabilirsiniz.
 
-### Stake your LQDR
+### LQDR'nizi stake edin
 
-If you stake your LQDR instead of using it in the Pirate Party pool, you will earn some dividends from Liquid Driver that are paid in different assets (LQDR, WFTM, LINSPIRIT, BOO, SPELL and BEETS). You will also get xLQDR that will let you participate in the governance of Liquid Driver, and possibly LINSPIRIT to vote on reward allocation on Spirit Swap. Please check the [xLQDR](https://www.liquiddriver.finance/xlqdr) page carefully for more details.
+LQDR'nizi Pirate Party havuzunda kullanmak yerine stake ederseniz, Liquid Driver'dan farklı varlıklarda ödenen bir miktar temettü kazanırsınız (LQDR, WFTM, LINSPIRIT, BOO, SPELL ve BEETS). Ayrıca Liquid Driver yönetişimine katılmanıza izin verecek xLQDR ve muhtemelen Spirit Swap'ta ödül dağıtımına oy vermek için LINSPIRIT alacaksınız. Daha fazla ayrıntı için lütfen xLQDR sayfasını dikkatlice kontrol edin.
 
-### Stake your BEETS
+### BEETS’inizi stake edin
 
-If BEETS from The Monolith play a high role in this strategy, you can totally use the ones from the Pirate Party as follows:
+Bu stratejide The Monolith'teki BEETS'in rolü büyükse Pirate Party'dekileri aşağıdaki gibi tamamen kullanabilirsiniz:
 
-* deposit the BEETS in the Fidelio Duetto pool (BEETS-FTM)
-* stake the LP token on BeethovenX to receive fBEETS
-* stake your fBEETS to get protocol dividends
+* BEETS’i Fidelio Duetto havuzuna yatırın (BEETS-FTM)
+* fBEETS almak için LP tokenını BeethovenX'te stake edin
+* protokol temettüleri almak için fBEETS'inizi stake edin
 
-This will also let you vote on BeethovenX protocol improvements, as well as on the reward allocation for the different pools on the platform. This is particularly useful to keep a high APR on The Monolith.
+Bu aynı zamanda BeethovenX protokol iyileştirmelerine ve platformdaki farklı havuzlar için ödül dağıtımına oy vermenize de olanak tanır. Bu da özellikle The Monolith'te yüksek bir APR’yi korumak için kullanışlıdır.
 
-### Use the FTM-BEETS pool on Spookyswap
+### Spookyswap'te FTM-BEETS havuzunu kullanın
 
-In our strategy, we're selling all the BEETS rewards from The Monolith. However, you could also integrate the FTM-BEETS pool from Spookyswap in your loop. You would have to sell 50% of your BEETS for FTM and combine the two tokens into a new LP pair that will earn you BOO. You can then decide to create the FTM-BOO and deposit on Liquid Driver, or you can stake your BOO on SpookySwap. Note that if you stake your BOO, you will have the possibility to deposit the xBOO receipt tokens and earn LQDR tokens directly, and you can even use the xBOO tokens as collateral on Market.xyz. This additional lego brick opens many possibilities.
+Stratejimizde, The Monolith'in tüm BEETS ödüllerini satıyoruz. Ancak, Spookyswap'teki FTM-BEETS havuzunu döngünüze entegre edebilirsiniz. BEETS’inizin %50'sini FTM karşılığında satmanız ve iki tokenı size BOO kazandıracak yeni bir LP çiftinde birleştirmeniz gerekir. Daha sonra FTM-BOO'yu oluşturmaya ve Liquid Driver'a para yatırmaya karar verebilir veya BOO'nuzu SpookySwap'te stake edebilirsiniz. BOO'nuzu stake ederseniz xBOO lp tokenlarını yatırma ve LQDR tokenlarını doğrudan kazanma olanağına sahip olacağınızı ve hatta xBOO tokenlarını Market.xyz'de teminat olarak kullanabileceğinizi unutmayın. Bu ek, birçok olasılığın kapısını açar.
 
 {% hint style="info" %}
-Keep an eye on this particular pair in case it becomes available on Liquid Driver. This may be a better option than the FMT-BOO one.
+Liquid Driver'da kullanılabilir olması durumunda bu çifte göz atın. Bu çift, FMT-BOO'dan daha iyi bir seçenek olabilir.
 {% endhint %}
 
-### Use your FTM-USDC on Liquid Driver
+### FTM-USDC'nizi Liquid Driver'da kullanın
 
-After your loan is fully repaid, you can keep the mooBooFTM-USDC tokens on Market.xyz or on Beefy, they will continue accruing rewards. However, you can also remove the LP pair from Beefy and deposit it on Liquid Driver to get more LQDR.
+Borcunuz tamamen geri ödendikten sonra mooBooFTM-USDC tokenlarınızı Market.xyz’de veya Beefy'de tutabilirsiniz, ödül kazanmaya devam edeceklerdir. Bununla birlikte, daha fazla LQDR elde etmek için LP çiftini Beefy'den çıkarabilir ve Liquid Driver'a yatırabilirsiniz.
 
-As a side note, while you're repaying your loan, the value of your Collateral to Debt Ratio grows (collateral is compounding rewards and grows in value while the debt is shrinking after each partial repayment). This means that you can withdraw the collateral pieces by pieces in order to keep a safe CDR, and deposit them on Liquid Driver for more LQDR tokens.
+Ek bir not olarak, borcunuzu geri öderken Teminat Borç Oranınızın değeri büyür (teminat, ödülleri birleştirir ve her kısmi geri ödemeden sonra borç küçülürken değeri artar). Bu da güvenli bir CDR’yi korumak için teminat parçalarını parça parça çekebileceğiniz ve daha fazla LQDR tokenı için Liquid Driver'a yatırabileceğiniz anlamına gelir.
 
-### Keep a little profit leak
+### Küçük bir kâr akışı tutturun
 
-This system is a closed loop that feeds itself. However, you can very well continue selling parts of your BEETS for other assets after you're done repaying your loan on Market.xyz. As an example, you could convert your BEETS rewards into USDC or another stable, or increase one of your positions that earns more rewards than the ones granted for the FTM-USDC pair.
+Bu sistem kendini besleyen kapalı bir döngüdür. Ancak, Market.xyz'deki borcunuzu ödemeyi bitirdikten sonra, BEETS'inizin bir kısmını başka varlıklar için satmaya devam edebilirsiniz. Örnek olarak, BEETS ödüllerinizi USDC'ye veya başka bir stablecoine dönüştürebilir veya FTM-USDC çifti için verilenlerden daha fazla ödül kazandıran pozisyonlarınızdan birini artırabilirsiniz.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-This guide was mostly designed to showcase the way you can repay a debt using farming yields. The speed at which you repay your debt will highly influence the global reward rate, but also presents some very positive aspects, the main one being lowering the risk of liquidation.
+Bu kılavuz genel olarak, çiftçilik getirilerini kullanarak bir borcu nasıl geri ödeyebileceğinizi göstermek için tasarlanmıştır. Borcunuzu geri ödeme hızınız ödül oranını büyük ölçüde etkileyecektir ancak aynı zamanda bazı olumlu yönler de sunacaktır, bunlardan başlıcası tasfiye riskini azaltmaktır.
 
-Of course, you can very easily cut corners with this strategy, change pieces of the loop for some other ones, replace protocols with something you prefer etc ... However, make sure to read all the documentation available for the protocols that you want to use, and make sure you understand all the different risks.
+Tabii ki bu strateji ile çok kolay bir şekilde kolaya kaçabilir, döngünün parçalarını, protokolleri vb. tercih ettiğiniz başka bir şeyle değiştirebilirsiniz. Ancak, kullanmak istediğiniz tüm farklı protokoller için mevcut tüm belgeleri okuduğunuzdan ve riskleri anladığınızdan emin olun.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Fiyat değişimlerine, arz ve talebe, ödül programlarının bitiş tarihlerine, kalıcı kayıplara vs. dikkat etmeniz gerekiyor... Amaç körü körüne takip edilebilecek tarifler önermek değildi. Bu yüzden lütfen kendi simülasyonunuzu yapın ve sadece kaybetmeyi göze aldığınız kadar yatırım yapın.
 {% endhint %}
