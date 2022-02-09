@@ -4,7 +4,7 @@ description: >-
   para ilustrar as diferenças entre staking e reacumular tokens.
 ---
 
-# Um par LP, varias formas farming
+# Um par LP, diferentes formas de farming
 
 ## Introdução
 
@@ -34,61 +34,61 @@ Por último, a Elk Finance fornece proteção contra perda impermanente. Você p
 
 ## Farming com o Par LP MAI-ELK
 
-Elk Finance partnered with Mai Finance in January 2022 to propose token farming using the MAI-ELK LP pair on their DEX. The MAI-ELK pair can be used on 3 different networks for now: Harmony, Moonriver and Gnosis. Some additional pools may be launched later on Polygon, Cronos and Fantom. Let's see the different strategies that you can apply for this new pool.
+O ELK Finance fez uma parceria com a Mai Finance em janeiro de 2022 para propor o farming de tokens usando o par LP MAI-ELK em sua DEX. O par MAI-ELK pode ser usado em 3 redes diferentes por enquanto: Harmony, Moonriver e Gnosis. Algumas pools adicionais podem ser lançadas mais tarde na Polygon, Cronos e Fantom. Vamos ver as diferentes estratégias que você pode aplicar nesta nova pool.
 
 {% hint style="info" %}
-We are proposing this guide for Harmony because the gas fees are very cheap, which allows you to compound your reward manually on a daily basis. This makes it a very good blockchain for beginners who have only a few dollars to invest as play money. However, everything presented in this guide can be also applied to any other chain.
+Estamos propondo este guia para a Harmony porque as taxas de gas são muito baratas, o que permite que você reacumule suas recompensas manualmente diariamente. Isso a torna uma blockchain muito boa para iniciantes que têm apenas alguns dólares para investir. No entanto, tudo apresentado aui também pode ser aplicado em qualquer rede.
 {% endhint %}
 
-### Farming and Staking
+### Farming e Staking
 
-The very first strategy is pretty straightforward:
+A primeira estratégia é bastante simples:
 
-* combine your LP pair
-* deposit the LP in the MAI-ELK pool and get 200% APR
-* harvest your rewards daily
-* stake them at 32.53% APR
+* Combine seu par LP&#x20;
+* Deposite o LP na pool MAI-ELK para obter um APR de 200%&#x20;
+* Colha suas recompensas diariamente&#x20;
+* Faça staking para obter um APR de 32,53%
 
-If you start with an initial $100, here are the results you can get month after month for a complete year of farming, assuming the rates given above remain the same for the entire farming period.
+Se você começar com $100, aqui estão os resultados que você pode obter mensalmente em um ano completo de farming, supondo que as taxas fornecidas acima permaneçam as mesmas durante o período inteiro.
 
-| day | MAI-ELK ($) | staked ELK ($) |
-| --- | ----------- | -------------- |
-| 30  | 100.000     | 16.653         |
-| 60  | 100.000     | 33.756         |
-| 90  | 100.000     | 51.323         |
-| 120 | 100.000     | 69.366         |
-| 150 | 100.000     | 87.897         |
-| 180 | 100.000     | 106.930        |
-| 210 | 100.000     | 126.479        |
-| 240 | 100.000     | 146.557        |
-| 270 | 100.000     | 167.180        |
-| 300 | 100.000     | 188.360        |
-| 330 | 100.000     | 210.115        |
-| 360 | 100.000     | 232.458        |
+| Dia | MAI-ELK ($) | ELK em Staking ($) |
+| --- | ----------- | ------------------ |
+| 30  | 100.000     | 16.653             |
+| 60  | 100.000     | 33.756             |
+| 90  | 100.000     | 51.323             |
+| 120 | 100.000     | 69.366             |
+| 150 | 100.000     | 87.897             |
+| 180 | 100.000     | 106.930            |
+| 210 | 100.000     | 126.479            |
+| 240 | 100.000     | 146.557            |
+| 270 | 100.000     | 167.180            |
+| 300 | 100.000     | 188.360            |
+| 330 | 100.000     | 210.115            |
+| 360 | 100.000     | 232.458            |
 
-At the end of the year, you would have
+No final do ano, você teria:
 
-* $100.00 worth of MAI-ELK LP tokens in the pool
-* $236.24 worth of staked ELK tokens
+* $100.00 de LP tokens MAI-ELK na pool
+* $236.24 de tokens ELK em staking
 
-Which corresponds to an overall APY of 236.24%. It's not exactly APR because part of the reward is compounded (the staked ELK).
+O que corresponde a um APY médio de 236,24%. Não é exatamente um APR porque parte da recompensa é reacumulada (ELK em staking).
 
 {% hint style="info" %}
-You can find all the results and the formula used to build this table in [the following Google Sheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the first tab. You can copy this file to your own drive and adjust rates and initial investment to see the overall APY change with the number you enter.
+Você pode encontrar todos os resultados e a fórmula usada para construir esta tabela nesta [planilha da Google Sheets](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) na primeira aba. Você pode copiar esse arquivo para o seu próprio disco e ajustar as taxas e o investimento inicial para ver a alteração do APY causada pelos valores inseridos.
 {% endhint %}
 
-### Farming and Compounding directly
+### Farming e reacumulando diretamente
 
-Compounding means that you harvest your rewards, and use it to create additional LP tokens. In our case, you would:
+Reacumular significa colher suas recompensas e as usar para criar tokens LP adicionais. No nosso caso, você iria:
 
-* harvest your ELK rewards
-* sell 50% for MAI
-* combine into some additional MAI-ELK LP token
-* deposit in the pool
+* colher recompensas ELK
+* vender 50% por MAI
+* combinar em tokens LP MAI-ELK adicionais
+* depositar na pool
 
-If you start with the same initial investment of $100, the results you can expect for a complete year of farming, assuming the rates given remain the same for the entire farming period, are as follows:
+Se você começar com o mesmo investimento inicial de $100, os resultados que você pode esperar para um ano completo de farming, supondo que as taxas fornecidas permaneçam as mesmas para todo o período, são os seguintes:
 
-| day | MAI-ELK ($) |
+| Dia | MAI-ELK ($) |
 | --- | ----------- |
 | 30  | 117.172     |
 | 60  | 138.044     |
@@ -103,13 +103,13 @@ If you start with the same initial investment of $100, the results you can expec
 | 330 | 603.647     |
 | 360 | 711.179     |
 
-And at the end of the year, you would have
+E no final do ano, você teria:
 
-* $730.878 worth of MAI-ELK LP tokens in the pool
+* $730.878 em LP tokens MAI-ELK na pool
 
-Which corresponds, for an initial investment of $100, to an overall APY of 630.88%. Since we are compounding the reward, this is the exact APY you would get from an APR of 200%.
+O que corresponde, para um investimento inicial de $100, a um APY de 630,88%. Como estamos reacumulando a recompensa, este é o APY exato que você obteria com um APR de 200%.
 
-As a side note, the formulas to calculate the APY from an APR with daily compounding (or an APR from an APY) are as follows:
+Como observação, as fórmulas para calcular o APY de um APR com reacumulação diária (ou um APR a partir de um APY) são as seguintes:
 
 $$
 APY = ( 1 + \frac{APR}{N})^N-1
@@ -119,7 +119,7 @@ $$
 APR = N * (( 1 + APY)^\frac{1}{N} - 1)
 $$
 
-With `N` being the number of times you compound your rewards. In our case, the 2 formula would give us
+Sendo `N`  o número de vezes que você reacumula suas recompensas. No nosso caso, as fórmulas nos dariam:
 
 $$
 APY = ( 1 + \frac{2}{365})^{365}-1 = 634.88\%
@@ -129,60 +129,60 @@ $$
 APR = 365 * (( 1 + 6.3488)^\frac{1}{365} - 1) = 199.99\%
 $$
 
-It's easy to see and understand that if you apply an APR of 200% (the APR of the LP pool) to your reward, you will get better yields than if you apply an APR of 32.53% (staking APR). In that sense, compounding is way better than staking while the farming APR remains above the staking APR. This may obviously change with the amount of liquidity in the pool.
+É fácil perceber que, se você aplicar um APR de 200% (APR da LP pool) à sua recompensa, obterá melhores rendimentos do que se aplicar um APR de 32,53% (APR de staking). Aqui, o reinvestimento é muito melhor do que o staking enquanto a APR de farming for maior do que APR de staking. Obviamente, isso pode mudar com a quantidade de liquidez no pool.
 
 {% hint style="info" %}
-As for the previous section, the simulation can be found in the same [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the second tab.
+Como na seção anterior, a simulação pode ser encontrada na mesma [planilha do Google](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) na segunda aba.
 {% endhint %}
 
-### Farming and Compounding using Mai Finance
+### Farming e reacumulando usando a Mai Finance
 
-If staking and compounding are giving good yields, both methods are directly linked to the price of the ELK token, so the value of your investment will vary with the price of ELK. We already saw that compounding gives better options compared to staking. Now we will see how you can capture some value from your farming rewards, and continue investing in the same pool using Mai Finance. The daily routine would be as follows:
+Se o staking e o reinvestimento estão dando bons resultados, ambos os métodos estão diretamente ligados ao preço do token ELK, portanto, o valor do seu investimento variará com o preço do ELK. Já vimos que a reacumulação oferece melhores opções em comparação com o staking. Agora veremos como você pode capturar certo valor de suas recompensas de farming e continuar investindo na mesma pool usando a Mai Finance. A rotina diária seria a seguinte:
 
-* Harvest the ELK rewards
-* Sell 66% of the reward to buy some blue chip token accepted as collateral on Mai Finance. For our exemple, we will be using the ONE token here
-* Deposit the ONE tokens in your vault on Mai Finance
-* Borrow additional MAI at 200% CDR (**C**ollateral to **D**ebt **R**atio), which value will correspond to your remaining ELK tokens
-* combine into some additional MAI-ELK LP token
-* deposit in the pool
+* Colha as recompensas ELK.
+* Venda 66% da recompensa para comprar algum token blue chip aceito como garantia na Mai Finance. Para nosso exemplo, usaremos o token ONE.
+* Deposite os tokens ONE em seu vault na Mai Finance.
+* Tome MAI emprestado adicional a uma CDR de 200% (Colateral to Debt Ratio, ou Proporção de Garantia para Dívida), cujo valor corresponderá aos seus tokens ELK restantes
+* Combine-os em tokens LP MAI-ELK adicionais
+* Deposite-os na pool
 
 {% hint style="info" %}
-Converting your reward tokens to ONE may not be the safest way to protect your assets, one of the best ways to do it is to convert to stable coins. However, options on Mai Finance on Harmony as of writing this article are pretty limited. You may get better options in the future (after January 2021), like staking Stake DAO LP tokens as collateral (see our [dedicated article for Polygon](../polygon/the-elephant-and-the-otter.md) to see how you may be able to use Stake DAO tokens on Mai Finance).
+Converter seus tokens de recompensa em ONE pode não ser a maneira mais segura de proteger seus ativos, uma das melhores maneiras de fazer isso é os converter em stablecoins. No entanto, as opções da Mai Finance na Harmony (ao escrever este artigo) são bastante limitadas. Você pode obter melhores opções no futuro (após janeiro de 2021), como fazer staking com tokens LP da Stake DAO como garantia (consulte nosso[ artigo dedicado à Polygon](../polygon/the-elephant-and-the-otter.md) para ver como você pode usar os tokens da Stake DAO na Mai Finance).
 {% endhint %}
 
-If you start with the same initial investment of $100, the results you can expect for a complete year of farming, assuming the rates given remain the same for the entire farming period, and that your vault isn't liquidated, are as follows:
+Se você começar com o mesmo investimento inicial de $100, os resultados que você pode esperar para um ano completo de farming, supondo que as taxas fornecidas permaneçam as mesmas para todo o período e que seu vault não seja liquidado, são os seguintes:
 
-| day | MAI-ELK ($) | ONE ($) | Mai debt ($) |
-| --- | ----------- | ------- | ------------ |
-| 30  | 111.154     | 11.560  | 5.780        |
-| 60  | 124.003     | 24.456  | 12.228       |
-| 90  | 138.337     | 38.842  | 19.421       |
-| 120 | 154.328     | 54.892  | 27.446       |
-| 150 | 172.168     | 72.797  | 36.398       |
-| 180 | 192.070     | 92.772  | 46.386       |
-| 210 | 214.273     | 115.055 | 57.528       |
-| 240 | 239.042     | 139.915 | 69.958       |
-| 270 | 266.674     | 167.648 | 83.824       |
-| 300 | 297.501     | 198.588 | 99.294       |
-| 330 | 331.891     | 233.106 | 116.552      |
-| 360 | 370.257     | 271.609 | 135.805      |
+| Dia | MAI-ELK ($) | ONE ($) | Dívida na Mai ($) |
+| --- | ----------- | ------- | ----------------- |
+| 30  | 111.154     | 11.560  | 5.780             |
+| 60  | 124.003     | 24.456  | 12.228            |
+| 90  | 138.337     | 38.842  | 19.421            |
+| 120 | 154.328     | 54.892  | 27.446            |
+| 150 | 172.168     | 72.797  | 36.398            |
+| 180 | 192.070     | 92.772  | 46.386            |
+| 210 | 214.273     | 115.055 | 57.528            |
+| 240 | 239.042     | 139.915 | 69.958            |
+| 270 | 266.674     | 167.648 | 83.824            |
+| 300 | 297.501     | 198.588 | 99.294            |
+| 330 | 331.891     | 233.106 | 116.552           |
+| 360 | 370.257     | 271.609 | 135.805           |
 
-And at the end of the year, you would have
+E no final do ano, você teria:
 
-* $377.069 worth of MAI-ELK LP tokens in the pool
-* $278.446 worth of ONE token in your ONE vault
-* $139.223 worth of debt from your vaule
-* a CDR of 200%, as expected
+* $377.069 em tokens LP MAI-ELK na pool
+* $278.446 em tokens ONE em seu vault
+* $139.223 em dívidas na Mai Finance
+* Uma CDR de 200%, como esperado
 
-Starting from an original position of $100 worth of MAI-ELK, this would represent an overall APY of 416.29%. Here we're getting a little less gains compared to pure compounding, however we also extracted a good portion of our gains into ONE, which may be less volatile than ELK, hence may present less risk.
+A partir de uma posição original de $100 em MAI-ELK, isso representaria um APY de 416,29%. Aqui estamos obtendo um pouco menos de ganhos em comparação com a reacumulação pura, porém também extraímos boa parte de nossos ganhos para ONE, que pode ser menos volátil que ELK, portanto, pode apresentar menos risco.
 
 {% hint style="info" %}
-Once again, the simulation can be found in the same [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the third tab.
+Mais uma vez, a simulação pode ser encontrada na mesma [planilha da Google](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) na terceira guia.
 {% endhint %}
 
-Alternatively, you can also sell all your ELK rewards for tokens that are accepted on Mai Finance, borrow MAI and sell part of it to buy additional ELK in order to increase your position in the MAI-ELK pool. By doing so, you increase your exposure to ONE, but also increase your debt. You would end up with $270.715 worth of MAI-ELK, $352.913 worth of ONE and $171.457 worth of debt for an overall APY of 342.17%.
+Alternativamente, você também pode vender todas as suas recompensas ELK por tokens aceitos na Mai Finance, tomar emprestado MAI e vender parte dele para comprar ELK adicional para aumentar sua posição no pool MAI-ELK. Ao fazer isso, você aumenta sua exposição a ONE, mas também aumenta sua dívida. Você terminaria com $270.715 em MAI-ELK, $352.913 em ONE e $171.457 em dívidas para um APY total de 342,17%.
 
-## Influence of the frequency at which you compound
+## Influência da frequência com que você reacumula
 
 Whether you decide to stake your rewards or compound, it's important to understand that your reward will change depending on the frequency at which you perform your harvest + invest routine. As a reminder, the formula that links APY and APR is as follows:
 
