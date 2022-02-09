@@ -23,7 +23,7 @@
   * [Como começar na Fantom](tutoriais/fantom/how-to-get-started-on-fantom.md)
   * [Alavanque as suas criptomoedas na Fantom](tutoriais/fantom/leverage-your-crypto-on-fantom.md)
   * [O que fazer com MAI na Fantom](tutoriais/fantom/what-to-do-with-mai-on-fantom.md)
-  * [Loop de Farming utilizando a SpiritSwap](tutoriais/fantom/farming-loop-using-spiritswap.md)
+  * [Loop de farming utilizando a SpiritSwap](tutoriais/fantom/farming-loop-using-spiritswap.md)
   * [Combo do Exodia na Fantom](tutoriais/fantom/investing-in-discounted-assets-using-bonds.md)
   * [Uma sinfonia assustadora](tutoriais/fantom/spooky-symfony.md)
 * [Moonriver](tutoriais/moonriver/README.md)
