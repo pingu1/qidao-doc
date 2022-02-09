@@ -25,7 +25,7 @@
   * [O que fazer com MAI na Fantom](tutoriais/fantom/what-to-do-with-mai-on-fantom.md)
   * [Loop de Farming utilizando a SpiritSwap](tutoriais/fantom/farming-loop-using-spiritswap.md)
   * [Combo do Exodia na Fantom](tutoriais/fantom/investing-in-discounted-assets-using-bonds.md)
-  * [A Spooky Symfony](tutoriais/fantom/spooky-symfony.md)
+  * [Uma sinfonia assustadora](tutoriais/fantom/spooky-symfony.md)
 * [Moonriver](tutoriais/moonriver/README.md)
   * [Como começar na Moonriver](tutoriais/moonriver/how-to-get-started-on-moonriver.md)
   * [Farming de MAI na SolarBeam](tutoriais/moonriver/farming-mai-on-solarbeam.md)
