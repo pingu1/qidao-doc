@@ -233,49 +233,49 @@ Você pode tomar MAI emprestado da [Mai Finance](https://app.mai.finance) a 0% d
 
 * Você não tem perdas temporárias em sua garantia
 * Você empresta a 0% com uma única taxa de reembolso de 0,5%, que será, na maioria dos casos, muito menor do que os juros que você pagará na Market.xyz (se houver MAI para tomar emprestado deste vault)&#x20;
-* Você pode obter recmpensas Qi por tomar emprestado na plataforma, o que permitirá que você participe da governança do protocolo, além de receber dividendos se apostar seus tokens Qi. Isso aumentará seus ganhos anuais&#x20;
-* Você está protegido contra taxas de empréstimo muito flutuantes no Market.xyz. A Mai Finance emprestará novos MAI regularmente para manter as taxas de empréstimo o mais baixas possível, mas não é uma garantia de que não suba. Você pode verificar métricas para o mercado de empréstimos [here](https://metrics.market.xyz/d/HChNahwGk/fuse-pool-details?orgId=1\&refresh=10s\&var-poolID=10\&var-chain=250).
+* Você pode obter recompensas Qi por tomar emprestado na plataforma, o que permitirá que você participe da governança do protocolo, além de receber dividendos ao fazer staking com seus tokens Qi. Isso aumentará seus ganhos anuais.
+* Você está protegido contra taxas de empréstimo muito flutuantes na Market.xyz. A Mai Finance emprestará novo MAI regularmente para manter as taxas de empréstimo o mais baixas possível, mas não é uma garantia de que não suba. Você pode verificar métricas para o mercado de empréstimos [aqui](https://metrics.market.xyz/d/HChNahwGk/fuse-pool-details?orgId=1\&refresh=10s\&var-poolID=10\&var-chain=250).
 
-However, the mooScreamFTM tokens get a much lower APY compared to the mooBooFTM-USDC tokens, so you may miss on that.
+No entanto, os tokens mooScreamFTM obtêm um APY muito menor em comparação com os tokens mooBooFTM-USDC, então você tem isso a perder.
 
-### Stake your LQDR
+### Staking com LQDR
 
-If you stake your LQDR instead of using it in the Pirate Party pool, you will earn some dividends from Liquid Driver that are paid in different assets (LQDR, WFTM, LINSPIRIT, BOO, SPELL and BEETS). You will also get xLQDR that will let you participate in the governance of Liquid Driver, and possibly LINSPIRIT to vote on reward allocation on Spirit Swap. Please check the [xLQDR](https://www.liquiddriver.finance/xlqdr) page carefully for more details.
+Se você realizar staking com seu LQDR em vez de usá-lo na pool Pirate Party, você ganhará alguns dividendos da Liquid Driver que são pagos em diferentes ativos (LQDR, WFTM, LINSPIRIT, BOO, SPELL e BEETS). Você também receberá xLQDR que permitirá que você participe da governança da Liquid Driver e possivelmente LINSPIRIT para votar na alocação de recompensas no Spirit Swap. Por favor, verifique a página [xLQDR](https://www.liquiddriver.finance/xlqdr) cuidadosamente para obter mais detalhes.
 
-### Stake your BEETS
+### Staking com BEETS
 
-If BEETS from The Monolith play a high role in this strategy, you can totally use the ones from the Pirate Party as follows:
+Se os BEETS da The Monolith têm um papel importante nessa estratégia, você também pode usar os da Pirate Party da seguinte forma:
 
-* deposit the BEETS in the Fidelio Duetto pool (BEETS-FTM)
-* stake the LP token on BeethovenX to receive fBEETS
-* stake your fBEETS to get protocol dividends
+* deposite BEETS na pool Fidelio Duetto (BEETS-FTM)
+* faça staking com o LP token na BeethovenX para receber fBEETS
+* faça staking com seu fBEETS para obter dividendos do protocolo
 
-This will also let you vote on BeethovenX protocol improvements, as well as on the reward allocation for the different pools on the platform. This is particularly useful to keep a high APR on The Monolith.
+Isso também permitirá que você vote nas melhorias do protocolo BeethovenX, bem como na alocação de recompensas para os diferentes pools da plataforma. Isso é particularmente útil para manter um APR alto na The Monolith.
 
-### Use the FTM-BEETS pool on Spookyswap
+### Use a pool FTM-BEETS na Spookyswap
 
-In our strategy, we're selling all the BEETS rewards from The Monolith. However, you could also integrate the FTM-BEETS pool from Spookyswap in your loop. You would have to sell 50% of your BEETS for FTM and combine the two tokens into a new LP pair that will earn you BOO. You can then decide to create the FTM-BOO and deposit on Liquid Driver, or you can stake your BOO on SpookySwap. Note that if you stake your BOO, you will have the possibility to deposit the xBOO receipt tokens and earn LQDR tokens directly, and you can even use the xBOO tokens as collateral on Market.xyz. This additional lego brick opens many possibilities.
+Em nossa estratégia, vendemos todas as recompensas BEETS da The Monolith. No entanto, você também pode integrar a pool FTM-BEETS da Spookyswap em seu loop. Você teria que vender 50% de seus BEETS para FTM e combinar os dois tokens em um novo par LP que lhe renderia BOO. Você pode então decidir criar o FTM-BOO e depositar na Liquid Driver ou fazer staking com seu BOO na SpookySwap. Observe que, se você fizer staking com seu BOO, terá a possibilidade de depositar os tokens de recibo xBOO e ganhar tokens LQDR diretamente, e ainda poderá usar os tokens xBOO como garantia na Market.xyz. Este bloco de lego adicional abre muitas possibilidades.
 
 {% hint style="info" %}
-Keep an eye on this particular pair in case it becomes available on Liquid Driver. This may be a better option than the FMT-BOO one.
+Fique de olho neste par em particular caso ele esteja disponível na Liquid Driver. Esta pode ser uma opção melhor do que o FMT-BOO.
 {% endhint %}
 
-### Use your FTM-USDC on Liquid Driver
+### Use seu FTM-USDC na Liquid Driver
 
-After your loan is fully repaid, you can keep the mooBooFTM-USDC tokens on Market.xyz or on Beefy, they will continue accruing rewards. However, you can also remove the LP pair from Beefy and deposit it on Liquid Driver to get more LQDR.
+Depois que seu empréstimo for totalmente reembolsado, você poderá manter os tokens mooBooFTM-USDC na Market.xyz ou na Beefy, eles continuarão acumulando recompensas. No entanto, você também pode remover o par LPs da Beefy e depositá-lo na Liquid Driver para obter mais LQDR.
 
-As a side note, while you're repaying your loan, the value of your Collateral to Debt Ratio grows (collateral is compounding rewards and grows in value while the debt is shrinking after each partial repayment). This means that you can withdraw the collateral pieces by pieces in order to keep a safe CDR, and deposit them on Liquid Driver for more LQDR tokens.
+Como uma observação, enquanto você está pagando seu empréstimo, o valor de sua CDR aumenta (A garantia é composta de recompensas reacumuladas e cresce em valor enquanto a dívida diminuí após cada reembolso parcial). Isso significa que você pode retirar a garantia peça por peça para manter uma CDR segura e depositá-las na Liquid Driver para obter mais tokens LQDR.
 
-### Keep a little profit leak
+### Mantenha um pequeno vazamento de lucro
 
-This system is a closed loop that feeds itself. However, you can very well continue selling parts of your BEETS for other assets after you're done repaying your loan on Market.xyz. As an example, you could convert your BEETS rewards into USDC or another stable, or increase one of your positions that earns more rewards than the ones granted for the FTM-USDC pair.
+Este sistema é um loop fechado que se autoalimenta. No entanto, você pode muito bem continuar vendendo partes de seu BEETS por outros ativos depois de terminar de pagar seu empréstimo no Market.xyz. Como exemplo, você pode converter suas recompensas BEETS em USDC ou outra stablecoin, ou aumentar uma de suas posições que ganhe mais recompensas do que as concedidas para o par FTM-USDC.
 
-## Disclaimer
+## Aviso legal
 
-This guide was mostly designed to showcase the way you can repay a debt using farming yields. The speed at which you repay your debt will highly influence the global reward rate, but also presents some very positive aspects, the main one being lowering the risk of liquidation.
+Este guia foi projetado principalmente para mostrar a maneira como você pode reembolsar uma dívida usando rendimentos de farming. A velocidade com que você reembolsa sua dívida influenciará muito a taxa de recompensa total, mas também apresenta alguns aspectos muito positivos, sendo o principal deles a redução do risco de liquidação.
 
-Of course, you can very easily cut corners with this strategy, change pieces of the loop for some other ones, replace protocols with something you prefer etc ... However, make sure to read all the documentation available for the protocols that you want to use, and make sure you understand all the different risks.
+Claro, você pode facilmente cortar custos com esta estratégia, trocar pedaços do loop por outros, substituir protocolos por algo que você prefira, etc... No entanto, certifique-se de ler toda a documentação disponível para os protocolos que deseja usar e certifique-se de entender todos os diferentes riscos.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Este guia definitivamente não é conselho financeiro, e foi feito com objetivo educacional em mente. Você precisa ficar atento às variações de preços, oferta e demanda, programas de recompensas, datas de término, perdas impermanentes, etc. O objetivo não é propor receitas que possam ser seguidas às cegas, então faça sua lição de casa e sua própria simulação, e só invista o que você está disposto a perder.
 {% endhint %}
