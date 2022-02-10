@@ -54,87 +54,87 @@ Market.XYZ só permite empréstimos com um valor mínimo de 0,05 ETH (\~$170,00 
 
 ### BeethovenX
 
-[BeethovenX](https://beets.fi/#/) is a **D**ecentralized **Ex**change and **A**utomated **M**arket **M**aker forked from Balancer. You will be able to deposit your assets in liquidity pools, as well as swapping different assets on their application. They've been solid partners of the QiDAO protocol, providing LP tokens for the farms that you can find on Mai Finance. We will be using two different pools on BeethovenX for this strategy
+[BeethovenX](https://beets.fi/#/) é uma corretora descentralizada e um agente de mercado automatizado, um fork da Balancer. Você poderá depositar seus ativos em pools de liquidez, bem como trocar diferentes ativos em seu aplicativo. Eles têm sido parceiros sólidos do protocolo QiDAO, fornecendo tokens LP para as farms que você pode encontrar na Mai Finance. Usaremos duas pools diferentes na BeethovenX para esta estratégia:
 
-* The Monolith: an inventivized pool that has been open for Exodia, a Ohm fork that [we presented in this tutorial](investing-in-discounted-assets-using-bonds.md). You will be able to deposit your MAI tokens directly into this pool and collect yields
-* Pirate Party: an incentivized pool dedicated to LQDR tokens, the native token from Liquid Driver, another big protocol that we will be using in this guide
+* The Monolith: uma pool incentivada que foi aberta para o Exodia, um OHM-fork que foi [apresentado neste tutorial](investing-in-discounted-assets-using-bonds.md). Você poderá depositar seus tokens MAI diretamente nesta pool e coletar rendimentos.
+* Pirate Party: uma pool incentivada dedicada a tokens LQDR, o token nativo da Liquid Driver, outro grande protocolo que usaremos neste guia.
 
-![The Monolith pool on BeethovenX with 20% MAI as of February 2022](../../.gitbook/assets/spooky-symfony-3.png)
+![Pool The Monolith da BeethovenX com 20% em MAI, Fevereiro de 2022](../../.gitbook/assets/spooky-symfony-3.png)
 
-![Pirate Party pool on BeethovenX with 80% LQDR as of February 2022](../../.gitbook/assets/spooky-symfony-4.png)
+![Pool Pirate Party da BeethovenX com 80% em LQDR, Fevereiro de 2022](../../.gitbook/assets/spooky-symfony-4.png)
 
-As always, the biggest advantage of using BeethovenX (or Balancer) is that you can deposit single assets in the pools instead of having to provide tokens in a balanced ratio.
+Como sempre, a maior vantagem de usar a BeethovenX (ou Balancer) é que você pode depositar ativos únicos nas pools em vez de ter que fornecer tokens em uma proporção equilibrada.
 
 ### SpookySwap
 
-[Spookyswap](https://spookyswap.finance) is the biggest Uniswap V2 fork on Fantom, a platform where you will be able to swap assets et provide liquidity for many pairs. Spookyswap has also been a solid partner of Mai Finance and proposes a MAI-USDC pool. The partnership extended via Market.XYZ where you will be able to borrow MAI against some specific LP pairs (see the section about Market.xyz) as well as your BOO and staked BOO tokens, the native token of Spookswap.
+[Spookyswap](https://spookyswap.finance) é o maior fork da Uniswap V2 na Fantom, uma plataforma onde você poderá trocar ativos e fornecer liquidez para muitos pares. Spookyswap também tem sido um parceiro sólido da Mai Finance e disponibiliza uma pool MAI-USDC. A parceria se estendeu via Market.XYZ, onde você poderá tomar MAI emprestado contra alguns pares LP específicos (consulte a seção sobre Market.xyz), bem como seus tokens BOO e BOO em staking, o token nativo da Spookswap.
 
-For this guide, we will be using two different LP tokens from SpookySwap:
+Para este guia, usaremos dois tokens LP diferentes da SpookySwap:
 
-* FTM-USDC which will be used as our starting point for the strategy. This LP token is used as collateral on market.xyz
-* FTM-BOO because it's one of the pool from SpookySwap accepted on Liquid Driver with the highest APR. We will swap the BEETS rewards from the Monolith for this pair (more in the Farming Strategy section)
+* FTM-USDC que será usado como ponto de partida para a estratégia. Este token LP é usado como garantia no Market.xyz
+* FTM-BOO porque é uma das pools da SpookySwap aceitas na Liquid Driver com o maior APR. Trocaremos as recompensas BEETS da The Monolith por este par (mais informaçōes na seção estratégia de farming)
 
 ### Liquid Driver
 
-[Liquid Driver](https://www.liquiddriver.finance) is a yield optimizer on which you will be able to deposit LP tokens from different farms and earn yields on them. The way yield optimizer work is by harvesting the reward tokens of the target platform and compound them for you. This is useful since the gas on Fantom can be expensive. A performance fee is taken out, but a portion of the protocol's revenue is redistributed to LQDR stakers. LQDR is the native token of Liquid Driver.
+[Liquid Driver](https://www.liquiddriver.finance) é um otimizador de rendimento no qual você poderá depositar tokens LP de diferentes farms e obter rendimentos neles. A maneira como o otimizador funciona é coletando os tokens de recompensa da plataforma de destino e reacumulando-os para você. Isso é útil, pois o gas no Fantom pode ser caro. Uma taxa de desempenho é cobrada, mas uma parte da receita do protocolo é redistribuída para os stakers LQDR. LQDR é o token nativo do Liquid Driver.
 
-For this strategy, we will be using the FTM-BOO LP pair because it's a pool with one of the highest APR in LQDR for Spookyswap.
+Para esta estratégia, usaremos o par LP FTM-BOO porque é uma pool com um das maiores APRs em LQDR para Spookyswap.
 
-![FTM-BOO and FTM-USDC LP pairs on LiquidDriver as of February 2022](../../.gitbook/assets/spooky-symfony-5.png)
+![Pares LP FTM-BOO e FTM-USDC na LiquidDriver, Fevereiro de 2022](../../.gitbook/assets/spooky-symfony-5.png)
 
-## Farming Strategy
+## Estratégia de farming
 
-For this strategy, we will be using Market.XYZ as our starting point to borrow MAI against mooBooFTM-USDC LP tokens. The borrowed MAI will be deposited on BeethovenX in The Monolith pool. Because this is the pool with the highest reward rate in our strategy, we will use it as our engine to repay our debt: 50% of the BEETS will be sold to repay the debt on Market.xyz, and 50% will be converted into FTM-BOO LP tokens. The FTM-BOO tokens will be deposited on LiquidDriver to collect LQDR tokens that will then be staked in the Pirate Party pool on BeethovenX. Once the debt is fully repaid, the BEETS rewards will be fully converted to FTM-BOO tokens. The BEETS rewards provided by the Pirate Party pool will also be compounded into more FTM-BOO.
+Para esta estratégia, usaremos Market.XYZ como nosso ponto de partida para tomar emprestado MAI contra os tokens LP mooBooFTM-USDC. O MAI emprestado será depositado na BeethovenX na pool The Monolith. Como esta é a pool com a maior taxa de recompensa em nossa estratégia, vamos usá-lo como nosso motor para pagar nossa dívida: 50% dos BEETS serão vendidos para pagar a dívida no Market.xyz e 50% serão convertidos em Tokens LP FTM-BOO. Os tokens FTM-BOO serão depositados na LiquidDriver para coletar tokens LQDR que serão então colocados em staking na pool Pirate Party na BeethovenX. Assim que a dívida for totalmente paga, as recompensas BEETS serão totalmente convertidas em tokens FTM-BOO. As recompensas BEETS fornecidas pela pool Pirate Party também serão reacumuladas em mais FTM-BOO.
 
-For this simulation, we will use the following numbers
+Para esta simulação, usaremos os seguintes números:
 
-* We start with a value worth of $1,000 of mooBooFTM-USDC tokens
-* The APR for the mooBooFTM-USDC token provided by SpookySwap via Beefy is 41.5%
-* The borrowing rate for MAI is 2.56%
-* BeethovenX gives an APR of 304.17% for The Monolith, and 175.77% for the Pirate Party
-* LiquidDriver gives 82% APR on FTM-BOO LP pair
+* Começamos com um valor de $1.000 em tokens mooBooFTM-USDC
+* O APR para o token mooBooFTM-USDC fornecido pela SpookySwap via Beefy é de 41,5%
+* A taxa de empréstimo para MAI é de 2,56%
+* BeethovenX dá um APR de 304,17% para The Monolith e 175,77% para o Pirate Party
+* LiquidDriver dá um APR de 82% no par FTM-BOO LP
 
-As usual for our simulations, we assume that all prices remain the same for the entire period of 1 year, rates stay the same, and we also use the provided APRs as is. In reality, prices and rates will vary, and APRs are composed of trading fees and reward tokens, which may affect the end result. It's also important to note that **no transaction fees** are taken in account for this simulation. Finally, we're using a lot of protocols, and each protocol may present smart contract risks. Make sure you do your own researches before using a platform, and only invest what you are willing to loose.
+Como de costume para nossas simulações, assumimos que todos os preços permanecem os mesmos por todo o período de 1 ano, as taxas permanecem as mesmas e também usamos os APRs fornecidos. Na realidade, os preços e as taxas variam, e os APRs são compostos por taxas de negociação e tokens de recompensa, o que pode afetar o resultado final. Também é importante notar que **nenhuma taxa de transação** é considerada para esta simulação. Por fim, estamos usando muitos protocolos e cada protocolo pode apresentar riscos de contrato inteligente. Certifique-se de fazer suas próprias pesquisas antes de usar uma plataforma e invista apenas o que você está disposto a perder.
 
-You can find our Spooky Symfony simulation [in this SpreadSheet](https://docs.google.com/spreadsheets/d/19s6kBnT5w0b9GKuTkDiiD1u\_ZoeNUZtI9XYxEmk\_WM0/edit?usp=sharing). Feel free to copy it and play with it to see how the loop works, and how the different rates may affect your final APY.
+Você pode encontrar nossa simulação Spooky Symfony [nesta planilha](https://docs.google.com/spreadsheets/d/19s6kBnT5w0b9GKuTkDiiD1u\_ZoeNUZtI9XYxEmk\_WM0/edit?usp=sharing). Sinta-se à vontade para copiá-la e brincar com ela para ver como o loop funciona e como as diferentes taxas podem afetar seu APY final.
 
 ![](../../.gitbook/assets/spooky-symfony-6.png)
 
-### Day 1
+### 1º Dia
 
-On Day 1, you need to create your collateral for Market.xyz. Get an equal portion of FTM and USDC and provide liquidity on SpookySwap to create FTM-USDC LP tokens. These tokens will be deposited on Beefy, which will get you the mooBooFTM-USDC receipt token. This is the token that will be used as collateral on Market.xyz and against which you will borrow MAI. Since we want to keep a CDR of 200%, we will be borrowing $500 worth of MAI. Finally, the MAI tokens will be staked on BeethovenX into The Monolith pool.
+No primeiro dia, você precisa criar sua garantia para o Market.xyz. Obtenha uma porção igual de FTM e USDC e forneça liquidez na SpookySwap para criar tokens LP FTM-USDC. Esses tokens serão depositados no Beefy, que lhe dará o token de recibo mooBooFTM-USDC. Este é o token que será usado como garantia no Market.xyz e contra o qual você tomar emprestado MAI. Como queremos manter uma CDR de 200%, tomaremos emprestado $500 em MAI. Finalmente, os tokens MAI serão colocado em staking na BeethovenX na pool The Monolith.
 
-At the end of the first day, you will have
+Ao final do primeiro dia, você terá:
 
-| positon        | value ($) |
-| -------------- | --------- |
-| mooBooFTM-USDC | 1,000.000 |
-| the monolith   | 500.000   |
-| pirate party   | 0.000     |
-| BEETS rewards  | 4.167     |
-| FTM-BOO        | 0.000     |
-| LQDR rewards   | 0.000     |
-| MAI debt       | 500.000   |
+| Posição           | Valor ($) |
+| ----------------- | --------- |
+| mooBooFTM-USDC    | 1,000.000 |
+| The Monolith      | 500.000   |
+| Pirate Party      | 0.000     |
+| Recompensas BEETS | 4.167     |
+| FTM-BOO           | 0.000     |
+| Recompensas LQDR  | 0.000     |
+| Dívida em MAI     | 500.000   |
 
-### Day 2
+### 2º Dia
 
-On Day 2, you will have to
+No segundo dia, você teria:
 
-* sell 50% of your BEETS for MAI to repay a small fraction of your loan
-* swap your BEETS rewards for FTM-BOO LP pair. You can either swap on BeethovenX and create the LP pair on SpookySwap, or do everything on SpookySwap.
-* stake the FTM-BOO LPs on Liquid Driver to start collecting LQDR tokens.
+* venda 50% de seu BEETS para MAI para reembolsar uma pequena fração do seu empréstimo&#x20;
+* troque suas recompensas BEETS pelo par LP FTM-BOO. Você pode trocar na BeethovenX e criar o par LP na SpookySwap, ou fazer tudo na SpookySwap.&#x20;
+* faça staking com o LP FTM-BOO na Liquid Driver para começar a coletar tokens LQDR.
 
-At the end of the second day, you will have
+No final do segundo dia, você terá:
 
-| positon        | value ($) |
-| -------------- | --------- |
-| mooBooFTM-USDC | 1,001.137 |
-| the monolith   | 500.000   |
-| pirate party   | 0.000     |
-| BEETS rewards  | 4.167     |
-| FTM-BOO        | 2.083     |
-| LQDR rewards   | 0.005     |
-| MAI debt       | 497.952   |
+| Posição           | Valor ($) |
+| ----------------- | --------- |
+| mooBooFTM-USDC    | 1,001.137 |
+| The Monolith      | 500.000   |
+| Pirate Party      | 0.000     |
+| Recompensas BEETS | 4.167     |
+| FTM-BOO           | 2.083     |
+| Recompensas LQDR  | 0.005     |
+| Dívida em MAI     | 497.952   |
 
 ### Day 3
 
