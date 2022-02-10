@@ -136,105 +136,105 @@ No final do segundo dia, você terá:
 | Recompensas LQDR  | 0.005     |
 | Dívida em MAI     | 497.952   |
 
-### Day 3
+### 3º Dia
 
-Repeat the operation from Day 2, then harvest your first LQDR tokens. These will be deposited on BeethovenX in the Pirate Party pool to get extra BEETS rewards, and at the end of Day 3 you will have
+Repita a operação do segundo dia e colete seus primeiros tokens LQDR. Estes serão depositados na BeethovenX na pool Pirate Party para obter recompensas extras BEETS, e no final do terceiro dia você terá:
 
-| positon        | value ($) |
-| -------------- | --------- |
-| mooBooFTM-USDC | 1,002.275 |
-| the monolith   | 500.000   |
-| pirate party   | 0.005     |
-| BEETS rewards  | 4.167     |
-| FTM-BOO        | 4.167     |
-| LQDR rewards   | 0.000     |
-| MAI debt       | 495.903   |
+| Posição           | Valor ($) |
+| ----------------- | --------- |
+| mooBooFTM-USDC    | 1,002.275 |
+| The Monolith      | 500.000   |
+| Pirate Party      | 0.005     |
+| Recompensas BEETS | 4.167     |
+| FTM-BOO           | 4.167     |
+| Recompensas LQDR  | 0.000     |
+| Dívida em MAI     | 495.903   |
 
 {% hint style="info" %}
-Gains from the Pirate Party pool are too small to be significant at this point, but you'll get some over time.
+Os ganhos da pool Pirate Party são muito pequenos para serem significativos neste momento, mas isso mudará com o tempo.
 {% endhint %}
 
-### Daily Routine
+### Rotina diária
 
-At this point the system is fully primed. Your daily routine will consist of
+Neste ponto, o sistema está totalmente preparado. Sua rotina diária consistirá em:
 
-* harvest BEETS rewards from The Monolith
-* harvest BEETS rewards from the Pirate Party
-* swap 50% of the BEETS for MAI if you still have an outstanding debt
-* repay a portion of your debt if you still have some
-* swap the rest of the BEETS for FTM-BOO LP tokens
-* deposit the FTM-BOO on LiquidDriver
-* harvest LQDR
-* deposit in the Pirate Party
+* colher recompensas BEETS da The Monolith
+* colher recompensas BEETS da Pirate Party
+* trocar 50% dos BEETS por MAI se você ainda possuir dívida por pagar
+* reembolsar uma porção de sua dívida se necessário
+* troque o resto dos BEETS por tokens LP FTM-BOO
+* depositar os FTM-BOO na LiquidDriver
+* colher LQDR
+* depositar na Pirate Party
 
-This strategy isn't very gas-efficient so you may consider compounding your gains only once a week, or even less frequently.
+Essa estratégia não é muito eficiente em termos de gas, então você pode considerar aumentar seus ganhos apenas uma vez por semana, ou até com menos frequência.
 
-### Raw results month after month
+### Resultados brutos mensais
 
-Here are raw results month after month, as you can get them in the Google SpreadSheet linked above.
+Aqui podemos ver os resultados brutos mensais, assim como são exibidos na planilha da Google vinculada acima.
 
-| day | FTM-USDC  | The Monolith | Pirate Party | FTM-BOO   | MAI debt |
-| --- | --------- | ------------ | ------------ | --------- | -------- |
-| 30  | 1,033.503 | 500.000      | 1.901        | 60.500    | 440.541  |
-| 60  | 1,069.343 | 500.000      | 8.031        | 123.652   | 378.905  |
-| 90  | 1,106.425 | 500.000      | 18.452       | 187.988   | 317.139  |
-| 120 | 1,144.794 | 500.000      | 33.265       | 254.136   | 255.242  |
-| 150 | 1,184.493 | 500.000      | 52.612       | 322.738   | 193.216  |
-| 180 | 1,225.569 | 500.000      | 76.681       | 394.462   | 131.058  |
-| 210 | 1,268.069 | 500.000      | 105.704      | 470.006   | 68.770   |
-| 240 | 1,312.043 | 500.000      | 139.963      | 550.105   | 6.351    |
-| 270 | 1,357.542 | 500.000      | 181.427      | 691.752   | 0.000    |
-| 300 | 1,404.619 | 500.000      | 233.046      | 846.443   | 0.000    |
-| 330 | 1,453.328 | 500.000      | 295.350      | 1,009.331 | 0.000    |
-| 360 | 1,503.726 | 500.000      | 368.942      | 1,182.000 | 0.000    |
+| Dia | FTM-USDC  | The Monolith | Pirate Party | FTM-BOO   | Dívida em MAI |
+| --- | --------- | ------------ | ------------ | --------- | ------------- |
+| 30  | 1,033.503 | 500.000      | 1.901        | 60.500    | 440.541       |
+| 60  | 1,069.343 | 500.000      | 8.031        | 123.652   | 378.905       |
+| 90  | 1,106.425 | 500.000      | 18.452       | 187.988   | 317.139       |
+| 120 | 1,144.794 | 500.000      | 33.265       | 254.136   | 255.242       |
+| 150 | 1,184.493 | 500.000      | 52.612       | 322.738   | 193.216       |
+| 180 | 1,225.569 | 500.000      | 76.681       | 394.462   | 131.058       |
+| 210 | 1,268.069 | 500.000      | 105.704      | 470.006   | 68.770        |
+| 240 | 1,312.043 | 500.000      | 139.963      | 550.105   | 6.351         |
+| 270 | 1,357.542 | 500.000      | 181.427      | 691.752   | 0.000         |
+| 300 | 1,404.619 | 500.000      | 233.046      | 846.443   | 0.000         |
+| 330 | 1,453.328 | 500.000      | 295.350      | 1,009.331 | 0.000         |
+| 360 | 1,503.726 | 500.000      | 368.942      | 1,182.000 | 0.000         |
 
-### Day 365
+### 365º Dia
 
-At the end of one full year farming this system, you would have
+Ao final de um ano inteiro cultivando este sistema, você teria:
 
-* $1,512.294 worth of FTM-USDC tokens on Market.xyz
-* $500.000 worth of MAI in The Monolith pool
-* $382.353 worth of LQDR stored in the Pirate Party pool
-* $1.211.845 worth of FTM-BOO tokens on Market.xyz
-* a final debt that is fully repaid after day #243
+* $1,512.294 em tokens FTM-USDC na Market.xyz
+* $500.000 em MAI na pool The Monolith
+* $382.353 em LQDR armazenados na pool Pirate Party
+* $1.211.845 em tokens FTM-BOO na Market.xyz
+* uma dívida final que é totalmente reembolsada após o dia #243
 
-This is equivalent to a total APY of 260.65%.
+Isso equivale a um APY total de 260,65%.
 
-### Effect of the debt repayment on the overall result
+### Efeito do reembolso da dívida no resultado total
 
-In most of our guides, we don't repay any debt as part of the strategy. This is, in most cases, due to the fact that we're using a 0% interest loan taken on Mai Finance. Here, we are borrowing on Market.XYZ with a borrowing rate of 2.56% and we repay the debt with 50% of the BEETS harvested from The Monolith.
+Na maioria dos nossos guias, não reembolsamos nossa dívida como parte da estratégia. Isso se deve, na maioria dos casos, ao fato de estarmos usando um empréstimo com juros de 0% feito na Mai Finance. Aqui, estamos tomando emprestado da Market.XYZ com uma taxa de empréstimo de 2,56% e pagamos a dívida com 50% das BEETTS colhidas da The Monolith.
 
-If you allocate more than 50% to the debt repayment, you will pay less interests, but you will grow your positions much slower on Liquid Driver. If you allocate less than 50% to the debt repayment, you will get more rewards from the other platforms, but you will also pay more interests on Market.xyz.
+Se você alocar mais de 50% para o reembolso da dívida, pagará menos juros, mas aumentará suas posições muito mais lentamente na Liquid Driver. Se você alocar menos de 50% para o reembolso da dívida, receberá mais recompensas das outras plataformas, mas também pagará mais juros na Market.xyz.
 
-Here's a small table that indicates the effect of the allocated BEETS to your debt repayment on your overall APY:
+Aqui está uma pequena tabela que indica o efeito dos BEETTS alocados para o reembolso da sua dívida em seu APY geral:
 
-| BEETS % | Overall APY | debt repaid after |
-| ------- | ----------- | ----------------- |
-| 100     | 242.85      | 122 days          |
-| 90      | 245.06      | 135 days          |
-| 80      | 247.75      | 152 days          |
-| 70      | 251.05      | 174 days          |
-| 60      | 255.23      | 203 days          |
-| 50      | 260.65      | 244 days          |
-| 40      | 267.92      | 305 days          |
-| 33.5    | 274.09      | 364 days          |
+| BEETS % | APY geral | Dívida reembolsada após |
+| ------- | --------- | ----------------------- |
+| 100     | 242.85    | 122 days                |
+| 90      | 245.06    | 135 days                |
+| 80      | 247.75    | 152 days                |
+| 70      | 251.05    | 174 days                |
+| 60      | 255.23    | 203 days                |
+| 50      | 260.65    | 244 days                |
+| 40      | 267.92    | 305 days                |
+| 33.5    | 274.09    | 364 days                |
 
-If you use less than 33.5% of your BEETS rewards to repay your debt, you will still have some MAI to repay after a complete year.
+Se você usar menos de 33,5% de suas recompensas BEETS para pagar sua dívida, ainda terá MAI para reembolsar após um ano completo.&#x20;
 
-It is also good to understand that it you repay faster, you also increase your CDR in a more significant way, which allows you to get away from liquidation ratio faster.
+Também é bom entender que se você paga mais rápido, você também aumenta sua CDR de forma mais significativa, o que permite que você se afastar do índice de liquidação mais rapidamente.
 
-## Variations to consider
+## Variações a considerar
 
-This strategy presents many variations that present different benefits.
+Esta estratégia apresenta muitas variações que apresentam diferentes benefícios.
 
-### Mai Finance VS Market.xyz
+### Mai Finance vs Market.xyz
 
-You can totally borrow MAI from [Mai Finance](https://app.mai.finance) at 0% interest. As an example, if you use mooScreamFTM instead of mooBooFTM-USDC as collateral, this will present the following advantages:
+Você pode tomar MAI emprestado da [Mai Finance](https://app.mai.finance) a 0% de juros. Por exemplo, se você usar mooScreamFTM em vez de mooBooFTM-USDC como garantia, isso apresentará as seguintes vantagens:
 
-* You don't have any impermanent losses on your collateral
-* You borrow at 0% with a single 0.5% repayment fee, which will be in most cases, much lower than the interests you will pay on Market.xyz (if there are MAI to borrow for this vault)
-* You may get Qi rewards for borrowing on the platform, which will let you participate in the protocole's governance, as well as get dividends if you stake your Qi tokens. This will increase your yearly gains
-* You're protected from very fluctuating borrowing rate on Market.xyz. Mai Finance will lend new MAI regularly to keep the borrowing rates as low as possible but it's not a guarantee that it does not go up. You can check metrics for the lending market [here](https://metrics.market.xyz/d/HChNahwGk/fuse-pool-details?orgId=1\&refresh=10s\&var-poolID=10\&var-chain=250).
+* Você não tem perdas temporárias em sua garantia
+* Você empresta a 0% com uma única taxa de reembolso de 0,5%, que será, na maioria dos casos, muito menor do que os juros que você pagará na Market.xyz (se houver MAI para tomar emprestado deste vault)&#x20;
+* Você pode obter recmpensas Qi por tomar emprestado na plataforma, o que permitirá que você participe da governança do protocolo, além de receber dividendos se apostar seus tokens Qi. Isso aumentará seus ganhos anuais&#x20;
+* Você está protegido contra taxas de empréstimo muito flutuantes no Market.xyz. A Mai Finance emprestará novos MAI regularmente para manter as taxas de empréstimo o mais baixas possível, mas não é uma garantia de que não suba. Você pode verificar métricas para o mercado de empréstimos [here](https://metrics.market.xyz/d/HChNahwGk/fuse-pool-details?orgId=1\&refresh=10s\&var-poolID=10\&var-chain=250).
 
 However, the mooScreamFTM tokens get a much lower APY compared to the mooBooFTM-USDC tokens, so you may miss on that.
 
