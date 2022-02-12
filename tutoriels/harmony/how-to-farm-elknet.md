@@ -1,115 +1,115 @@
 ---
 description: >-
-  This guide presents different ways to farm a single LP pair in order to illustrate
-  the differences between staking and compounding.
+  Ce guide présente différentes options de farming avec une seule paire de
+  jetons LP afin d'illustrer les différences entre le staking et les intérêts
+  composés.
 ---
 
-# One LP Pair, Many ways to farm
+# Une paire de jetons LP, de nombreuses options de farming
 
 ## Introduction
 
-Providing liquidity on a DEX (**D**ecentralized **EX**change) and farming reward is one of the most common way to farm yields in DeFi (**De**centralized **Fi**nance). However, many users are only paying attention to the rates of the LP (**L**iquidity **P**roviding) pool they enter, without really checking if the rate is an APR (**A**nnual **P**ercentage **R**eward) or an APY (**A**nnual **P**ercentage **Y**ield). There are many ways to farm a pool and manage the reward tokens. We will see in this guide some of the different way you can farm one of the latest pools on Harmony, MAI-ELK, and see what you can do with the ELK tokens that you will get as a reward.
+Apporter de la liquidité sur un DEX (**D**ecentralized **EX**change) et récolter des récompenses est l'une des façons les plus courantes de cultiver des rendements dans la DeFi (**De**centralized **Fi**nance). Cependant, de nombreux utilisateurs ne font attention qu'aux taux de la pool de LP (**L**iquidity **P**roviding) dans laquelle ils entrent, sans vraiment vérifier si le taux est un APR (**A**nnual **P**ercentage **R**eward) ou un APY (**A**nnual **P**ercentage **Y**ield). Il existe de nombreuses façons de cultiver une pool de liquidités et de gérer les jetons de récompense. Nous allons voir dans ce guide quelques-unes des différentes options de farming sur l'une des dernières pools sur Harmony, MAI-ELK, et voir ce que vous pouvez faire avec les jetons ELK que vous obtiendrez en récompense.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Ce guide n'est en aucun cas un conseil financier, il a été réalisé dans un but éducatif. Vous devez faire attention aux variations de prix, à l'offre et à la demande, aux programmes de récompense, aux dates de fin, à l'Impermanent Loss (pertes non permanentes), etc... Le but n'était pas de proposer des stratégies à suivre aveuglément, alors faites vos devoirs et votre propre simulation, et n'investissez que ce que vous êtes prêt à perdre.
 {% endhint %}
 
-![](<../../.gitbook/assets/elk-farming-1.png>)
+![](../../.gitbook/assets/elk-farming-1.png)
 
 ## Elk Finance
 
-[Elk Finance](https://app.elk.finance/#/) is a DEX forked from Uniswap v2, as well as an AMM (**A**utomoated **M**arket **M**aker). You will find all the usual features of Uniswap forks: trading your assets, combine your different crypto currencies into LP tokens, farm some LP pairs, and stake their native token, the ELK.
+[Elk Finance](https://app.elk.finance/#/) est un DEX forké d'Uniswap v2, ainsi qu'un marché automatisé, AMM (Automoated Market Maker). Vous trouverez toutes les fonctionnalités habituelles d'Uniswap : échanger vos actifs, combiner vos différentes cryptomonnaies en jetons LP, farming de certaines paires LP, et le staking de leur jeton natif, le ELK.\
+Ce qui fait d'Elk Finance un projet totalement différent, c'est sa présence sur de nombreuses blockchains, et pas seulement sur les chaînes compatibles EVM (**E**thereum **V**irtual **M**achine). En effet, Elk Finance est actuellement présent sur 16 chaînes et prévoit de s'étendre à beaucoup d'autres. Ils ont réussi à construire un bridge (pont) entre toutes ces chaînes pour permettre aux utilisateurs de transférer le jeton ELK : L'ElkNet.
 
-What makes Elk Finance a totally different project though is its presence on many blockchains, and not only the EVM-compatibles chains (**E**thereum **V**irtual **M**achine). Indeed, Elk Finance is currentl present on 16 chains and they have plans to expand to many others. They managed to build a bridge between all those chains to let users transfers the ELK token: The ELKNET.
+![Transfert de quelques ELK de Harmony à Moonriver en utilisant ElkNet](../../.gitbook/assets/elk-farming-2.png)
 
-![Bridging some ELK from Harmony to Moonriver using the ElkNet](<../../.gitbook/assets/elk-farming-2.png>)
-
-Also, one cool feature proposed by the ElkNet is the possibility to swap a portion of the transferred asset for some gas token on the destination. This is particularly useful if you are going for the first time on a block chain where there is no available faucet.
+Par ailleurs, une fonctionnalité intéressante proposée par ElkNet est la possibilité d'échanger une partie de l'actif transféré contre le jeton natif de destination. Cela est particulièrement utile si vous vous rendez pour la première fois sur une blockchain où il n'y a pas de faucet disponible.
 
 {% hint style="success" %}
-Except for chains where gas is high (only Avalanche and Cronos at time of writing), using ElkNet to bridge your ELK tokens from one chain to another is done at no expense. You read that right, you don't pay any bridging fees!
+À l'exception des chaînes où le gaz est élevé (uniquement Avalanche et Cronos à l'heure où nous écrivons ces lignes), l'utilisation d'ElkNet pour transférer vos jetons ELK d'une chaîne à l'autre se fait sans frais. Vous avez bien lu, vous ne payez aucun frais de transfert !
 {% endhint %}
 
-Finally, Elk Finance provides Impermanent Loss protection. You can read all the details about the Impermanent Loss program in [their official documentation](https://docs.elk.finance/features/impermanent-loss-protection), but basically, all you need to know is that if the price of ELK changes between the moment you deposit and the moment you withdraw, you'll be pay extra ELK in order to cover the impermanent loss. Because MAI is pegged to 1 USD, the impermanent loss is only linked to the price movement of ELK, so you're always a winner when you're entering LP pools on Elk Finance DEX.
+Enfin, Elk Finance offre une protection contre l'Impermanent Loss. Vous pouvez lire tous les détails du programme d'Impermanent Loss dans [leur documentation officielle](https://docs.elk.finance/features/impermanent-loss-protection), mais fondamentalement, tout ce que vous devez savoir, c'est que si le prix de l'ELK change entre le moment où vous déposez et le moment où vous retirez, vous serez payé avec de l'ELK supplémentaire afin de couvrir la perte non permanente. Étant donné que le MAI est indexé au dollar, la perte non permanente n'est liée qu'à l'évolution du prix de l'ELK, de sorte que vous êtes toujours gagnant lorsque vous entrez dans des pools de liquidités sur Elk Finance.
 
-## Farming the MAI-ELK LP Pair
+## Farming de la paire de jetons LP MAI-ELK
 
-Elk Finance partnered with Mai Finance in January 2022 to propose token farming using the MAI-ELK LP pair on their DEX. The MAI-ELK pair can be used on 3 different networks for now: Harmony, Moonriver and Gnosis. Some additional pools may be launched later on Polygon, Cronos and Fantom. Let's see the different strategies that you can apply for this new pool.
+Elk Finance s'est associé à Mai Finance en janvier 2022 pour proposer du farming en utilisant la paire de LP MAI-ELK sur leur DEX. La paire MAI-ELK peut être utilisée sur 3 réseaux différents pour le moment : Harmony, Moonriver et Gnosis. D'autres pools de liquidités pourraient être lancées ultérieurement sur Polygon, Cronos et Fantom. Voyons les différentes stratégies que vous pouvez appliquer pour cette nouvelle pool.
 
 {% hint style="info" %}
-We are proposing this guide for Harmony because the gas fees are very cheap, which allows you to compound your reward manually on a daily basis. This makes it a very good blockchain for beginners who have only a few dollars to invest as play money. However, everything presented in this guide can be also applied to any other chain.
+Nous proposons ce guide pour Harmony car les frais de gaz sont très peu chers, ce qui vous permet de composer vos récompenses manuellement de façon quotidienne. Cela en fait une très bonne blockchain pour les débutants qui n'ont que quelques dollars à investir pour s'amuser. Cependant, tout ce qui est présenté dans ce guide peut également être appliqué à n'importe quelle autre blockchain.
 {% endhint %}
 
-### Farming and Staking
+### Farming et Staking
 
-The very first strategy is pretty straightforward:
+La toute première stratégie est assez simple :
 
-* combine your LP pair
-* deposit the LP in the MAI-ELK pool and get 200% APR
-* harvest your rewards daily
-* stake them at 32.53% APR
+* combinez vos jetons en paire LP
+* déposez les jetons LP dans la pool MAI-ELK et obtenez un APR de 200%
+* récoltez vos récompenses quotidiennement
+* stakez les pour un APR de 32,53%
 
-If you start with an initial $100, here are the results you can get month after month for a complete year of farming, assuming the rates given above remain the same for the entire farming period.
+Si vous commencez avec un montant initial de 100 dollars, voici les résultats que vous pouvez obtenir mois après mois pour une année complète de farming, en supposant que les taux indiqués ci-dessus restent les mêmes pendant toute la période de farming.
 
-| day | MAI-ELK ($) | staked ELK ($) |
-|-----|-------------|----------------|
-|  30 |     100.000 |         16.653 |
-|  60 |     100.000 |         33.756 |
-|  90 |     100.000 |         51.323 |
-| 120 |     100.000 |         69.366 |
-| 150 |     100.000 |         87.897 |
-| 180 |     100.000 |        106.930 |
-| 210 |     100.000 |        126.479 |
-| 240 |     100.000 |        146.557 |
-| 270 |     100.000 |        167.180 |
-| 300 |     100.000 |        188.360 |
-| 330 |     100.000 |        210.115 |
-| 360 |     100.000 |        232.458 |
+| jour | MAI-ELK ($) | ELK staké ($) |
+| ---- | ----------- | ------------- |
+| 30   | 100.000     | 16.653        |
+| 60   | 100.000     | 33.756        |
+| 90   | 100.000     | 51.323        |
+| 120  | 100.000     | 69.366        |
+| 150  | 100.000     | 87.897        |
+| 180  | 100.000     | 106.930       |
+| 210  | 100.000     | 126.479       |
+| 240  | 100.000     | 146.557       |
+| 270  | 100.000     | 167.180       |
+| 300  | 100.000     | 188.360       |
+| 330  | 100.000     | 210.115       |
+| 360  | 100.000     | 232.458       |
 
-At the end of the year, you would have
+À la fin de l'année, vous auriez
 
-* $100.00 worth of MAI-ELK LP tokens in the pool
-* $236.24 worth of staked ELK tokens
+* 100 dollars de jetons LP MAI-ELK dans la pool
+* 236,24 dollars de jetons ELK stakés
 
-Which corresponds to an overall APY of 236.24%. It's not exactly APR because part of the reward is compounded (the staked ELK).
+Ce qui correspond à un APY global de 236,24%. Ce n'est pas exactement l'APR car une partie de la récompense est composée (les ELK stakés).
 
 {% hint style="info" %}
-You can find all the results and the formula used to build this table in [the following Google Sheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the first tab. You can copy this file to your own drive and adjust rates and initial investment to see the overall APY change with the number you enter.
+Vous pouvez trouver tous les résultats et la formule utilisée pour construire ce tableau dans le premier onglet de [la feuille de calcul Google suivante](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing). Vous pouvez copier ce fichier sur votre propre disque et ajuster les taux et l'investissement initial pour voir l'APY changer en fonction du nombre que vous entrez.
 {% endhint %}
 
-### Farming and Compounding directly
+### Farming et composer directement
 
-Compounding means that you harvest your rewards, and use it to create additional LP tokens. In our case, you would:
+Composer signifie que vous récoltez vos récompenses et que vous les utilisez pour créer des jetons LP supplémentaires. Dans notre cas, vous feriez :
 
-* harvest your ELK rewards
-* sell 50% for MAI
-* combine into some additional MAI-ELK LP token
-* deposit in the pool
+* récolter vos ELK en récompense
+* vendre 50% pour du MAI
+* combiner en jetons LP MAI-ELK supplémentaires
+* déposer dans la pool
 
-If you start with the same initial investment of $100, the results you can expect for a complete year of farming, assuming the rates given remain the same for the entire farming period, are as follows:
+Si vous commencez avec le même investissement initial de 100 dollars, les résultats que vous pouvez attendre pour une année complète de farming, en supposant que les taux donnés restent les mêmes pendant toute la période de farming, sont les suivants :
 
-| day | MAI-ELK ($) |
-|-----|-------------|
-|  30 |     117.172 |
-|  60 |     138.044 |
-|  90 |     162.635 |
-| 120 |     191.607 |
-| 150 |     225.739 |
-| 180 |     265.952 |
-| 210 |     313.328 |
-| 240 |     369.143 |
-| 270 |     434.901 |
-| 300 |     512.374 |
-| 330 |     603.647 |
-| 360 |     711.179 |
+| jour | MAI-ELK ($) |
+| ---- | ----------- |
+| 30   | 117.172     |
+| 60   | 138.044     |
+| 90   | 162.635     |
+| 120  | 191.607     |
+| 150  | 225.739     |
+| 180  | 265.952     |
+| 210  | 313.328     |
+| 240  | 369.143     |
+| 270  | 434.901     |
+| 300  | 512.374     |
+| 330  | 603.647     |
+| 360  | 711.179     |
 
-And at the end of the year, you would have
+Et à la fin de l'année, vous auriez&#x20;
 
-* $730.878 worth of MAI-ELK LP tokens in the pool
+* 730,878 dollars de jetons LP MAI-ELK dans la pool
 
-Which corresponds, for an initial investment of $100, to an overall APY of 630.88%. Since we are compounding the reward, this is the exact APY you would get from an APR of 200%.
+Ce qui correspond, pour un investissement initial de 100 dollars, à un APY global de 630,88%. Comme nous composons les récompenses, il s'agit de l'APY exact que vous obtiendriez avec un APR de 200%.
 
-As a side note, the formulas to calculate the APY from an APR with daily compounding (or an APR from an APY) are as follows:
+À titre d'information, les formules permettant de calculer l'APY à partir d'un APR avec intérêts composés quotidiens (ou un APR à partir d'un APY) sont les suivantes :
 
 $$
 APY = ( 1 + \frac{APR}{N})^N-1
@@ -119,7 +119,7 @@ $$
 APR = N * (( 1 + APY)^\frac{1}{N} - 1)
 $$
 
-With `N` being the number of times you compound your rewards. In our case, the 2 formula would give us
+Avec `N` étant le nombre de fois que vous composez vos récompenses. Dans notre cas, les 2 formules nous donneraient :
 
 $$
 APY = ( 1 + \frac{2}{365})^{365}-1 = 634.88\%
@@ -129,103 +129,103 @@ $$
 APR = 365 * (( 1 + 6.3488)^\frac{1}{365} - 1) = 199.99\%
 $$
 
-It's easy to see and understand that if you apply an APR of 200% (the APR of the LP pool) to your reward, you will get better yields than if you apply an APR of 32.53% (staking APR). In that sense, compounding is way better than staking while the farming APR remains above the staking APR. This may obviously change with the amount of liquidity in the pool.
+Il est facile de voir et de comprendre que si vous appliquez un APR de 200% (l'APR de la pool) à vos récompenses, vous obtiendrez de meilleurs rendements que si vous appliquez un APR de 32,53% (APR de staking). En ce sens, les intérêts composés sont bien meilleurs que le staking tant que l'APR de farming reste supérieur à l'APR de staking. Cela peut évidemment changer en fonction de la quantité de liquidités dans la pool.
 
 {% hint style="info" %}
-As for the previous section, the simulation can be found in the same [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the second tab.
+Comme pour la section précédente, la simulation se trouve dans la même [feuille de calcul Google](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing), sur le deuxième onglet.
 {% endhint %}
 
-### Farming and Compounding using Mai Finance
+### Farming et composer en utilisant Mai Finance
 
-If staking and compounding are giving good yields, both methods are directly linked to the price of the ELK token, so the value of your investment will vary with the price of ELK. We already saw that compounding gives better options compared to staking. Now we will see how you can capture some value from your farming rewards, and continue investing in the same pool using Mai Finance. The daily routine would be as follows:
+Si le staking et les intérêts composés donnent de bons rendements, les deux méthodes sont directement liées au prix du jeton ELK, de sorte que la valeur de votre investissement variera en fonction du prix du ELK. Nous avons déjà vu que composer offre de meilleures options que le staking. Nous allons maintenant voir comment vous pouvez tirer de la valeur de vos récompenses de farming et continuer à investir dans la même pool en utilisant Mai Finance. La routine quotidienne serait la suivante :
 
-* Harvest the ELK rewards
-* Sell 66% of the reward to buy some blue chip token accepted as collateral on Mai Finance. For our exemple, we will be using the ONE token here
-* Deposit the ONE tokens in your vault on Mai Finance
-* Borrow additional MAI at 200% CDR (**C**ollateral to **D**ebt **R**atio), which value will correspond to your remaining ELK tokens
-* combine into some additional MAI-ELK LP token
-* deposit in the pool
+* Récoltez vos ELK en récompense.
+* Vendez 66% de la récompense pour acheter un jeton blue chip accepté comme collatéral sur Mai Finance. Pour notre exemple, nous utiliserons le jeton ONE.
+* Déposez les jetons ONE dans votre coffre sur Mai Finance.
+* Empruntez des MAI supplémentaires à 200% du CDR (**C**ollateral to **D**ebt **R**atio), dont la valeur correspondra à vos jetons ELK restants.
+* Combinez en jetons LP MAI-ELK supplémentaires.
+* Déposez dans la pool.
 
 {% hint style="info" %}
-Converting your reward tokens to ONE may not be the safest way to protect your assets, one of the best ways to do it is to convert to stable coins. However, options on Mai Finance on Harmony as of writing this article are pretty limited. You may get better options in the future (after January 2021), like staking Stake DAO LP tokens as collateral (see our [dedicated article for Polygon](<../polygon/the-elephant-and-the-otter.md>) to see how you may be able to use Stake DAO tokens on Mai Finance).
+Convertir vos jetons de récompense en ONE n'est peut-être pas le moyen le plus sûr de protéger vos actifs, l'une des meilleures façons de le faire est de les convertir en stablecoin. Cependant, les options de Mai Finance sur Harmony au moment de la rédaction de cet article sont assez limitées. Vous aurez peut-être de meilleures options à l'avenir (après janvier 2021), comme le staking de jetons LP Stake DAO en collatéral (voir notre [article dédié à Polygon](../polygon/the-elephant-and-the-otter.md) pour voir comment vous pouvez utiliser les jetons Stake DAO sur Mai Finance).
 {% endhint %}
 
-If you start with the same initial investment of $100, the results you can expect for a complete year of farming, assuming the rates given remain the same for the entire farming period, and that your vault isn't liquidated, are as follows:
+Si vous commencez avec le même investissement initial de 100 dollars, les résultats que vous pouvez espérer pour une année complète de farming, en supposant que les taux donnés restent les mêmes pendant toute la période de farming et que votre coffre n'est pas liquidé, sont les suivants :
 
-| day | MAI-ELK ($) | ONE ($) | Mai debt ($) |
-|-----|-------------|---------|--------------|
-|  30 |     111.154 |  11.560 |        5.780 |
-|  60 |     124.003 |  24.456 |       12.228 |
-|  90 |     138.337 |  38.842 |       19.421 |
-| 120 |     154.328 |  54.892 |       27.446 |
-| 150 |     172.168 |  72.797 |       36.398 |
-| 180 |     192.070 |  92.772 |       46.386 |
-| 210 |     214.273 | 115.055 |       57.528 |
-| 240 |     239.042 | 139.915 |       69.958 |
-| 270 |     266.674 | 167.648 |       83.824 |
-| 300 |     297.501 | 198.588 |       99.294 |
-| 330 |     331.891 | 233.106 |      116.552 |
-| 360 |     370.257 | 271.609 |      135.805 |
+| jour | MAI-ELK ($) | ONE ($) | Dette de MAI ($) |
+| ---- | ----------- | ------- | ---------------- |
+| 30   | 111.154     | 11.560  | 5.780            |
+| 60   | 124.003     | 24.456  | 12.228           |
+| 90   | 138.337     | 38.842  | 19.421           |
+| 120  | 154.328     | 54.892  | 27.446           |
+| 150  | 172.168     | 72.797  | 36.398           |
+| 180  | 192.070     | 92.772  | 46.386           |
+| 210  | 214.273     | 115.055 | 57.528           |
+| 240  | 239.042     | 139.915 | 69.958           |
+| 270  | 266.674     | 167.648 | 83.824           |
+| 300  | 297.501     | 198.588 | 99.294           |
+| 330  | 331.891     | 233.106 | 116.552          |
+| 360  | 370.257     | 271.609 | 135.805          |
 
-And at the end of the year, you would have
+Et à la fin de l'année, vous auriez
 
-* $377.069 worth of MAI-ELK LP tokens in the pool
-* $278.446 worth of ONE token in your ONE vault
-* $139.223 worth of debt from your vaule
-* a CDR of 200%, as expected
+* 377,069 dollars de jetons LP MAI-ELK dans la pool
+* 278,446 dollars de jetons ONE dans votre coffre ONE
+* 139,223 dollars de dette de votre coffre
+* un CDR de 200%, comme prévu
 
-Starting from an original position of $100 worth of MAI-ELK, this would represent an overall APY of 416.29%. Here we're getting a little less gains compared to pure compounding, however we also extracted a good portion of our gains into ONE, which may be less volatile than ELK, hence may present less risk.
+En partant d'une position initiale de 100 dollars de MAI-ELK, cela représenterait APY global de 416,29%. Ici, nous obtenons un peu moins de gains par rapport à de purs intérêts composés, mais nous avons également extrait une bonne partie de nos gains dans ONE, qui peut être moins volatile que ELK, et donc présenter moins de risques.
 
 {% hint style="info" %}
-Once again, the simulation can be found in the same [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the third tab.
+Une fois encore, la simulation se trouve dans la même [feuille de calcul Google](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing), sur le troisième onglet.
 {% endhint %}
 
-Alternatively, you can also sell all your ELK rewards for tokens that are accepted on Mai Finance, borrow MAI and sell part of it to buy additional ELK in order to increase your position in the MAI-ELK pool. By doing so, you increase your exposure to ONE, but also increase your debt. You would end up with $270.715 worth of MAI-ELK, $352.913 worth of ONE and $171.457 worth of debt for an overall APY of 342.17%.
+Vous pouvez également vendre toutes vos récompenses ELK contre des jetons acceptés sur Mai Finance, emprunter des MAI et en vendre une partie pour acheter des ELK supplémentaires afin d'augmenter votre position dans la pool MAI-ELK. En procédant ainsi, vous augmentez votre exposition à ONE, mais aussi votre dette. Vous vous retrouverez avec 270,715 dollars de MAI-ELK, 352,913 dollars de ONE et 171,457 dollars de dette pour un APY global de 342,17%.
 
-## Influence of the frequency at which you compound
+## Influence de la fréquence à laquelle vous composez les récompenses
 
-Whether you decide to stake your rewards or compound, it's important to understand that your reward will change depending on the frequency at which you perform your harvest + invest routine. As a reminder, the formula that links APY and APR is as follows:
+Que vous décidiez de staker vos récompenses ou de les composer, il est important de comprendre que votre récompense changera en fonction de la fréquence à laquelle vous effectuez votre routine de récolte + investissement. À titre de rappel, la formule qui lie l'APY et l'APR est la suivante :
 
 $$
 APY = ( 1 + \frac{APR}{N})^N-1
 $$
 
-In this equation, `N` represents the number of times you compound your rewards in a year. So, and APR of 200% as above would give you the following APY depending on the frequency you compound:
+Dans cette équation, `N` représente le nombre de fois où vous composez vos récompenses en un an. Ainsi, un APR de 200% comme ci-dessus vous donnerait l'APY suivant en fonction de la fréquence de composition :
 
-| Compounding frequency | equivalent APY |
-|-----------------------|----------------|
-|                 daily |       634.88 % |
-|       twice in a week |       625.01 % |
-|                weekly |       611.71 % |
-|      twice in a month |       609.55 % |
-|               monthly |       535.86 % |
-|             quarterly |       406.25 % |
-|       twice in a year |       300.00 % |
+| Fréquence de composition | APY équivalent |
+| ------------------------ | -------------- |
+| quotidienne              | 634.88 %       |
+| deux fois par semaine    | 625.01 %       |
+| hebdomadaire             | 611.71 %       |
+| deux fois par mois       | 609.55 %       |
+| mensuelle                | 535.86 %       |
+| trimestrielle            | 406.25 %       |
+| deux fois par an         | 300.00 %       |
 
-Manually compounding more than once a day can be expensive depending on the chain you're on. But basically, it's clear that the more often you compound, the better the reward. This is also explaining why yield optimizer / auto-compounder are popular. Keep in mind that by compounding, you add sell pressure to the token you farm, which will have a negative impact on the price of that token. If that's also the token you are using to farm (in our exemple ELK), you may be impacted by impermanent losses, unless you're using Elk Finance DEX, which protects you from impermanent losses.
+Composer manuellement plus d'une fois par jour peut coûter cher, en fonction de la blockchain utilisée. Mais fondamentalement, il est clair que plus vous composez souvent, meilleure est la récompense. Cela explique aussi pourquoi les optimiseurs de rendement et les composeurs automatiques sont populaires. Gardez à l'esprit qu'en composant, vous ajoutez une pression de vente sur le jeton que vous farmez, ce qui aura un impact négatif sur le prix de ce jeton. Si c'est aussi le jeton que vous utilisez pour le farming (dans notre exemple ELK), vous pouvez être impacté par des pertes non permanentes, à moins que vous utilisiez Elk Finance DEX, qui vous protège de l'Impermanent Loss.
 
-## Choosing the right pool
+## Choisir la bonne pool de liquidités
 
-The MAI-ELK pair has been deployed to several chains, so it's possible for you to deploy your capital to the chain that offers the best rates.
+La paire MAI-ELK a été déployée sur plusieurs chaînes, il est donc possible pour vous de déployer votre capital sur la chaîne qui offre les meilleurs taux.
 
-![MAI-ELK pools on Gnosis (top), Moonriver (middle) and Harmony (bottom) as of January 2021](<../../.gitbook/assets/elk-farming-3.png>)
+![Les pools MAI-ELK sur Gnosis (en haut), Moonriver (au milieu) et Harmony (en bas) en janvier 2021](../../.gitbook/assets/elk-farming-3.png)
 
 {% hint style="info" %}
-The MAI-ELK pool may also be deployed to other chains in a near future, possibly on Polygon, Cronos and Fantom. This is not guaranteed and there's no ETA for that, so stay updated by checking the difference Discord servers of both projects, of following them on twitter.
+La pool MAI-ELK pourrait également être déployée sur d'autres chaînes dans un avenir proche, peut-être sur Polygon, Cronos et Fantom. Ceci n'est pas garanti et il n'y a pas de deadline pour cela, donc restez à jour en vérifiant les différents serveurs Discord des deux projets, ou en les suivant sur Twitter.
 {% endhint %}
 
-Besides the reward rate on each chain, you may also have to consider the price of the ELK token on each chain. Indeed, if the price is almost the same on all chains, the tiny difference may also be a factor for you to choose the chain where you want to farm the ELK token.
+Outre le taux de récompense sur chaque chaîne, vous devrez peut-être aussi prendre en compte le prix du jeton ELK sur chaque chaîne. En effet, si le prix est presque le même sur toutes les chaînes, la différence minime peut également être un facteur pour vous permettre de choisir la chaîne où vous souhaitez farmer le jeton ELK.
 
-![Price of the ELK tokens on all the chains where it's present](<../../.gitbook/assets/elk-farming-4.png>)
+![Prix des jetons ELK sur toutes les chaînes où il est présent](../../.gitbook/assets/elk-farming-4.png)
 
-As you can see, the MAI-ELK pool on Moonriver gives a better reward rate, and the ELK token also has a higher price on that chain. This means that, at time of writing, it may be better to farm the MAI-ELK pool on Moonriver than on Harmony or Gnosis, especially if you plan to sell a part of the farmed tokens. Note that this may not be true all the time, so make sure you choose your chain properly and that you do your own researches before joining a LP pool. Finally, it is strongly recommended to read the [documentation about IL protection](https://docs.elk.finance/features/impermanent-loss-protection) because the insurance is highly dependant on the number of days your LP tokens are deposited in the pool.
+Comme vous pouvez le constater, la pool MAI-ELK sur Moonriver donne un meilleur taux de récompense, et le jeton ELK a également un prix plus élevé sur cette chaîne. Cela signifie qu'à l'heure où nous écrivons ces lignes, il peut être préférable de farmer la pool MAI-ELK sur Moonriver plutôt que sur Harmony ou Gnosis, surtout si vous prévoyez de vendre une partie des jetons récoltés. Notez que cela peut ne pas être vrai tout le temps, donc assurez-vous de bien choisir votre chaîne et de faire vos propres recherches avant de rejoindre une pool de liquidités. Enfin, il est fortement recommandé de lire la [documentation sur la protection contre l'IL](https://docs.elk.finance/features/impermanent-loss-protection) car l'assurance dépend fortement du nombre de jours pendant lesquels vos jetons LP sont déposés dans la pool.
 
-As a side note, because bridging ELK is free, you can possibly move from one chain to another in order to always benefit from the best rates. Make sure that you understand that by doing so, you will also influence the reward rates of the pool you exit and the one you join (less liquidity will increase the APR, more liquidity will lower it).
+Par ailleurs, comme le transfert d'ELK est gratuit, vous pouvez éventuellement passer d'une chaîne à l'autre afin de toujours bénéficier des meilleurs taux. Assurez-vous de comprendre qu'en faisant cela, vous influencerez également les taux de récompense de la pool que vous quittez et de celle que vous rejoignez (moins de liquidité augmentera l'APR, plus de liquidité le diminuera).
 
 ## Disclaimer
 
-This guide has been written in order to illustrate the different ways to farm yields using liquidity providing tokens. You will highly influence your gains with the strategy that you pick, as well as your exposure to risk. Of course, all the notions pointed in this document are also applicable to any LP pair, and it's highly recommended to run your own simulations before picking a strategy, a LP pair, a pool or even a DEX.
+Ce guide a été rédigé dans le but d'illustrer les différentes manières d'obtenir des rendements en utilisant des jetons LP. Vous influencerez fortement vos gains avec la stratégie que vous choisirez, ainsi que votre exposition au risque. Bien entendu, toutes les notions abordées dans ce document sont également applicables à n'importe quelle paire de jetons LP, et il est fortement recommandé d'effectuer vos propres simulations avant de choisir une stratégie, une paire de jetons LP, une pool ou même un DEX.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+N'oubliez pas qu'une stratégie qui fonctionne bien à un moment donné peut donner de mauvais résultats (ou vous faire perdre de l'argent) à un autre moment. Restez informé, surveillez les marchés, gardez un œil sur vos investissements et, comme toujours, faites vos propres recherches.
 {% endhint %}
