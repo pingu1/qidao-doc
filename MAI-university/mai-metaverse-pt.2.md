@@ -1,89 +1,89 @@
 ---
 description: >-
-  Lately, MAI has been growing at such a quick pace that it's time for a second
-  article on the same topic. You will find the new chains where you can use the
-  MAI stablecoin.
+  In letzter Zeit ist MAI so schnell gewachsen, dass es Zeit für einen zweiten
+  Artikel zum selben Thema ist. Hier findest du die neuen Chains, in denen du
+  den MAI-Stablecoin verwenden kannst.
 ---
 
-# MAI Metaverse Pt.2
+# MAI Metaverse Teil 2
 
 ![](../.gitbook/assets/MAI.png)
 
 ## Harmony
 
-### What's Harmony?
+### Was ist Harmony?
 
-Harmony (ONE) is a decentralized blockchain platform designed as a bridge between scalability and decentralization efforts. Its development went under the motto of “decentralization at scale” with the focus on data sharing and the creation of marketplaces of fungible tokens and non-fungible assets. Furthermore, Harmony comes with an additional promise of delivering high throughput accompanied by two “lows”: latency and fees. Combined, they are supposed to put the platform at the heart of the efforts to lay the foundation of the future decentralized trustless economies.
+Harmony (ONE) ist eine dezentrale Blockchain-Plattform, die als Brücke zwischen Skalierbarkeit und Dezentralisierungsbemühungen konzipiert wurde. Ihre Entwicklung hat das Motto "Dezentralisierung in großem Maßstab", wobei der Schwerpunkt auf der gemeinsamen Nutzung von Daten und der Schaffung von Marktplätzen für fungible Token und nicht-fungible Vermögenswerte liegt. Darüber hinaus verspricht Harmony einen hohen Durchsatz bei gleichzeitig zwei "Tiefpunkten": Latenz und Gebühren. Zusammen sollen sie die Plattform in den Mittelpunkt der Bemühungen stellen, den Grundstein für die zukünftigen dezentralen, vertrauenslosen Volkswirtschaften zu legen.
 
-However, what makes the Harmony blockchain unique, its their deep sharding system. A shard **** is a synonym for a piece or a part. By sharding **** Harmony means dividing its nodes in four equal groups. Hence, there are 1 000 nodes total divided into four shards making one shard consisting of 250 nodes. Moreover, the exact nodes within shards are regularly and randomly mixed. This number is set to be exactly so to increase the security of the system and to add more scalability. If you want to learn more about this chain, you can read this [article](https://guarda.com/academy/crypto/what-is-harmony/).
+Was die Harmony-Blockchain jedoch einzigartig macht, ist ihr tiefes Sharding-System. Ein Shard \*\*\*\* ist ein Synonym für ein Stück oder einen Teil. Unter Sharding \*\*\*\* versteht Harmony die Aufteilung der Knoten in vier gleiche Gruppen. Insgesamt gibt es also 1 000 Knoten, die in vier Shards aufgeteilt sind, was einen Shard mit 250 Knoten erzeugt. Außerdem werden die genauen Knoten innerhalb der Shards regelmäßig und zufällig gemischt. Diese Zahl ist genau so festgelegt, um die Sicherheit des Systems zu erhöhen und die Skalierbarkeit zu verbessern. Wenn du mehr über diese Chain erfahren möchtest, kannst du diesen [Artikel](https://guarda.com/academy/crypto/what-is-harmony/) lesen.
 
-### Getting MAI on Harmony
+### MAI auf Harmony
 
-To send MAI from Polygon to Harmony, you can use the [AnySwap ](https://anyswap.exchange/#/router)platform. The UI is pretty straightforward, the only thing that you will need to do is select the chain where you have the MAI and where do you want to send it.
+Um MAI von Polygon zu Harmony zu senden, kannst du die [AnySwap](https://anyswap.exchange/#/router) Plattform verwenden. Die Benutzeroberfläche ist ziemlich einfach. Du musst nur die Chain auswählen, in der du die MAI hast und wohin du sie senden willst.
 
-![Sending MAI from Polygon to Harmony](<../.gitbook/assets/MAI - Harmony.JPG>)
+![Senda MAI von Polygon zu Harmony](<../.gitbook/assets/MAI - Harmony.JPG>)
 
 {% hint style="info" %}
-Be aware that at the bottom of the Anyswap's page, there's some important information about bridging MAI, so check it out before doing any transaction.
+Am Ende der Anyswap-Seite findest du einige wichtige Informationen zur Überbrückung von MAI, die du beachten solltest, bevor du eine Transaktion durchführst.
 {% endhint %}
 
-### Using MAI on Harmony
+### Verwende MAI auf Harmony
 
-Currently, the Mai Finance team does not have any partnership with any yield farm on Harmony. Once the team is aware of projects that are using MAI, this documentation will be updated. Stay tuned.
+Aktuelle Partnerschaften und Farmmöglichkeiten kannst du [hier ](../tutorials/harmony/how-to-farm-elknet.md)finden.&#x20;
 
 ## Moonriver
 
-### What's Moonriver?
+### Was ist Moonriver?
 
-Moonriver is a sister network of **Moonbeam**. Similar to its sister, Moonriver is a full Ethereum-like environment and works with industry-standard Ethereum tools, DApps, and protocols. The only difference between Moonriver and Moonbeam is that:
+Moonriver ist ein Schwester-Netzwerk von **Moonbeam**. Ähnlich wie seine Schwester ist Moonriver eine vollständige Ethereum-ähnliche Umgebung und arbeitet mit branchenüblichen Ethereum-Tools, DApps und Protokollen. Der einzige Unterschied zwischen Moonriver und Moonbeam ist der:
 
-* Moonriver is a parachain built on Kusama Relay Chain.
-* Moonbeam belongs to the Polkadot Relay Chain.
+* Moonriver ist eine Parachain, die auf der Kusama Relay Chain aufbaut.
+* Moonbeam gehört zur Polkadot Relay Chain.
 
-Moonriver is an easy route to Kusama Relay Chain**.** It allows teams and developers ,who are familiar with Ethereum, access to the Kusama Network with little or no barriers. It minimizes the changes required to run existing Solidity smart contracts on the network. Therefore, Ethereum projects can simply replicate their DApp and deploy it to Moonriver using popular deployment tools.
+Moonriver ist ein einfacher Zugang zur Kusama Relay Chain. Er ermöglicht Teams und Entwicklern, die mit Ethereum vertraut sind, den Zugang zum Kusama Network mit wenigen oder gar keinen Barrieren. Es minimiert die Änderungen, die erforderlich sind, um bestehende Solidity Smart Contracts auf dem Netzwerk auszuführen. Daher können Ethereum-Projekte ihre DApp einfach replizieren und mit gängigen Deployment-Tools auf Moonriver bereitstellen.
 
-### Getting MAI on Moonriver
+### MAI auf Moonriver
 
-To send MAI to Moonriver, we'll use the [Relaychain ](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer)platform. its UI is very similar to the one of Anyswap. When you want to transfer MAI from Polygon, you will have to connect your MetaMask wallet first, then select the asset you want to bridge (MAI) and the destination network (Moonriver).&#x20;
+Um MAI an Moonriver zu senden, verwenden wir die Plattform [Relaychain](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer). Ihre Benutzeroberfläche ist der von Anyswap sehr ähnlich. Wenn du MAI von Polygon übertragen willst, musst du zuerst deine MetaMask Wallet verbinden und dann das zu überbrückende Asset (MAI) und das Zielnetzwerk (Moonriver) auswählen.
 
-![Transfering MAI from Polygon to Moonriver](<../.gitbook/assets/relay movr.JPG>)
+![Überbrücke MAI von Polygon zu Moonriver](<../.gitbook/assets/relay movr.JPG>)
 
-### Using MAI on Moonriver
+### Verwende MAI auf Moonriver
 
-The same way you can use MAI to farm yields on Polygon, you can use MAI on Moonriver. The main place to do so is [Solarbeam](https://app.solarbeam.io/farm). As for the time of writing, the only available pool that uses MAI is the MOVR/MAI.
+Genauso wie du MAI zum Farmen von Erträgen auf Polygon verwenden kannst, kannst du MAI auf Moonriver verwenden. Der wichtigste Ort dafür ist [Solarbeam](https://app.solarbeam.io/farm). Zum Zeitpunkt der Erstellung dieses Artikels ist der einzige verfügbare Pool, der MAI nutzt, der MOVR/MAI.
 
-![MOVR-MAI pool on Solarbeam as of December 2021](../.gitbook/assets/MOVR-MAI.JPG)
+![MOVR-MAI Pool auf Solarbeam, Stand Dezember 2021](../.gitbook/assets/MOVR-MAI.JPG)
 
 {% hint style="info" %}
-Remember that to use this farm, you will have to deposit the same ratio of MOVR and MAI to create a LP token.
+Denke daran, dass du für dieses Farmen die gleiche Ratio von MOVR und MAI einzahlen musst, um einen LP-Token zu erstellen.
 {% endhint %}
 
 ## Cronos
 
-### What's Cronos?
+### Was ist Cronos?
 
-Cronos is an EVM compatible sidechain running in parallel with the Crypto.org Chain. Before launching Cronos, the Crypto.com ecosystem encompasses the Crypto.com chain and Crypto.com centralized exchange.
+Cronos ist eine EVM-kompatible Sidechain, die parallel zur Crypto.org Chain läuft. Vor der Einführung von Cronos umfasste das Crypto.com-Ökosystem die Crypto.com Chain und die zentrale Crypto.com-Börse.
 
-Cronos is running on a Proof of Authority (PoA) consensus algorithm and is powered by Ethermint - a PoS chain interoperable with Ethereum. It aims to massively scale the Chain DeFi ecosystem, by allowing developers to rapidly port apps & smart contracts from Ethereum and other EVM-compatible chains.
+Cronos läuft auf einem Proof of Authority (PoA) Konsensalgorithmus und wird von Ethermint angetrieben - einer PoS Chain, die mit Ethereum interoperabel ist. Es zielt darauf ab, das Chain DeFi Ökosystem massiv zu erweitern, indem es Entwicklern ermöglicht, Apps und Smart Contracts von Ethereum und anderen EVM-kompatiblen Chains schnell zu portieren.
 
-### Getting MAI on Cronos
+### MAI auf Cronos
 
-To send MAI to Cronos, we'll use the [Relaychain ](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer)platform. The steps are the same as in the Moonriver case, just select the network where you are sending the MAI (Polygon), the network where you want to receive it (Cronos) and the asset that you want to send (MAI).
+Um MAI an Cronos zu senden, verwenden wir die [Relaychain](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer) Plattform. Die Schritte sind dieselben wie im Fall von Moonriver. Wähle einfach das Netzwerk aus, an das du die MAI sendest (Polygon), das Netzwerk, an das du sie senden willst (Cronos) und das Asset, das du senden willst (MAI).
 
-![Sending MAI from Polygon to Cronos](../.gitbook/assets/cronos.JPG)
+![Überbrücke MAI von Polygon zu Cronos](../.gitbook/assets/cronos.JPG)
 
-### Using MAI on Cronos
+### Verwende MAI auf Cronos
 
-The main place where you can farm yields on Cronos using MAI, is on the [Crodex ](https://swap.crodex.app/#/rewards/pair)platform. In this case, there are two pairs available, the CRO-MAI pair and the MAI-USDC pair.
+Der wichtigste Ort, an dem du auf Cronos mit MAI farmen kannst, ist die Crodex-Plattform. In diesem Fall gibt es zwei Paare: das CRO-MAI-Paar und das MAI-USDC-Paar.
 
-![MAI pairs on Crodex as of December 2021](../.gitbook/assets/crodex.JPG)
+![MAI Paare auf Crodex, Stand Dezember 2021](../.gitbook/assets/crodex.JPG)
 
-The UI on Crodex is really similar to Quickswap, just remember that if you want to use this farms, you will have to deposit the same ratio of tokens to create a LP token. Also, don't forget to have some spare CRO to pay the fees of the network.
+Die Benutzeroberfläche von Crodex ähnelt der von Quickswap. Denk daran, dass du, wenn du diese Farmen nutzen willst, die gleiche Ratio an Token einzahlen musst, um einen LP-Token zu erstellen. Vergiss außerdem nicht, etwas CRO übrig zu haben, um die Gebühren für das Netzwerk zu bezahlen.
 
-## Disclaimer
+## Haftungsausschluss
 
-The details presented in this guide are purely educational and have not been tested directly by the team maintaining this guide. A few users on the discord server have already tried bridging their assets to Moonriver and/or Cronos, so you can join the Discord community to ask your questions. Please don't forget to do your own researches, different networks will have different transaction fees and execution times, different reward programs, bridging fees etc ... If you send your MAI to other networks, make sure you can bridge them back in case you need it on Polygon.
+Die Details in diesem Leitfaden sind rein informativ und wurden nicht direkt von dem Team, das diesen Leitfaden betreut, getestet. Einige Nutzer auf dem Discord-Server haben bereits versucht, ihr Vermögen zu Moonriver und/oder Cronos zu überbrücken, also kannst du der Discord-Community beitreten und deine Fragen stellen. Bitte vergiss nicht, deine eigenen Nachforschungen anzustellen, denn verschiedene Netzwerke haben unterschiedliche Transaktionsgebühren und Ausführungszeiten, verschiedene Belohnungsprogramme, Überbrückungsgebühren usw. Wenn du deine MAI an andere Netzwerke sendest, stelle sicher, dass du sie zurückbrücken kannst, falls du sie auf Polygon brauchst.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Denke daran, dass eine Strategie, die zu einem bestimmten Zeitpunkt gut funktioniert, zu einem anderen Zeitpunkt schlecht abschneiden (oder Geldverluste erzeugen) kann. Bitte bleibe informiert, beobachte die Märkte, behalte deine Investitionen im Auge und recherchiere wie immer selbst.
 {% endhint %}
