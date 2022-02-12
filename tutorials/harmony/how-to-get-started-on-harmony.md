@@ -1,84 +1,84 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the Harmony chain.
+  In diesem Leitfaden erklären wir dir alles, was du wissen musst, um die
+  Harmony Chain zu benutzen.
 ---
 
-# How to get started on Harmony
+# Einstieg in Harmony
 
-## What is Harmony
+## Was ist Harmony?
 
-Harmony is a blockchain that tries to solve the issues that the Ethereum Mainnet faces: achieving a satisfying degree of balance between decentralization and scalability. The main focus of the chain are made on a high transaction throughput, speed and energy efficiency. This is done by highly leveraging sharding of validators that would be grouped to process transactions simultaneously. Supporting scalability is as simply as growing the number of shards, which also helps achieving faster transaction. Feel free to dig more about Harmony and its technology in their [official documentation](https://docs.harmony.one/home/general/technology).
+Harmony ist eine Blockchain, die versucht, die Probleme zu lösen, mit denen das Ethereum Mainnet zu kämpfen hat: ein zufriedenstellendes Gleichgewicht zwischen Dezentralisierung und Skalierbarkeit zu erreichen. Das Hauptaugenmerk der Chain liegt auf einem hohen Transaktionsdurchsatz, Geschwindigkeit und Energieeffizienz. Dies wird erreicht, indem das Sharding von Validatoren, die in Gruppen zusammengefasst werden, um Transaktionen gleichzeitig zu verarbeiten, optimal ausgenutzt wird. Um die Skalierbarkeit zu unterstützen, wird die Anzahl der Shards erhöht, was ebenfalls zu einer schnelleren Transaktion beiträgt. Mehr über Harmony und seine Technologie erfährst du in der [offiziellen Dokumentation](https://docs.harmony.one/home/general/technology).
 
-## Getting started on Harmony
+## Los gehts auf Harmony
 
-In order to use the Harmony network, you will need a wallet address. Because Harmony is an EVM-compatible network (**E**thereum **V**irtual **M**achine), it will accept the same wallets as on other EVM-compatible chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger.
+Um das Harmony-Netzwerk nutzen zu können, brauchst du eine Wallet-Adresse. Da Harmony ein EVM-kompatibles Netzwerk (**E**thereum **V**irtual **M**achine) ist, akzeptiert es die gleichen Wallets wie andere EVM-kompatible Chains, einschließlich Web-Wallets wie Metamask oder Nifty, und du kannst deine Hardware-Wallets wie Trezor oder Ledger verwenden.
 
-For this tutorial, we will stick to Metamask like for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../../polygon-tutorials/how-to-get-started-on-polygon.md).
+Für dieses Tutorial werden wir uns wie bei allen anderen Anleitungen auf dieser Seite an Metamask halten. Wenn du Metamask nicht installiert hast, findest du eine Anleitung auf [Der Start auf Polygon.](../polygon/how-to-get-started-on-polygon.md)
 
-### Adding Harmony to Metamask
+### Harmony zu Metamask hinzufügen
 
-If you have installed the latest version of Metamask, you should already have access to the Harmony chain and there's nothing else for you to de besides selecting `Harmony One` in the network dropdown at the top of Metamask. You can also set a new RPC yourself to access Harmony using these steps. Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Harmony One`. The data you should get are as follows:
+Wenn du die neueste Version von Metamask installiert hast, solltest du bereits Zugriff auf die Harmony Chain haben und musst nichts weiter tun, als "Harmony One" im Netzwerk-Dropdown oben in Metamask auszuwählen. Du kannst auch selbst eine neue RPC einrichten, um auf Harmony zuzugreifen, indem du diese Schritte ausführst. Öffne das Metamask-Popup, klicke auf das Symbol deiner Wallet, navigiere zu "Einstellungen", wähle "Netzwerke" und suche "Harmony One". Die Daten, die du erhalten solltest, sind wie folgt:
 
-* **Network Name:** Harmony One
-* **New RPC URL:** https://api.harmony.one
+* **Netzwerkname:** Harmony One
+* **Neue RPC URL:** https://api.harmony.one
 * **Chain ID:** 1666600000
-* **Currency Symbol:** ONE
+* **Währungssymbol:** ONE
 * **Block Explorer URL:** https://explorer.harmony.one/
 
-Save the changes, and Metamask will automatically switch you over to the Harmony network:
+Speichere die Änderungen und Metamask wird sich automatisch auf das Harmony-Netzwerk umstellen:
 
-![Congratulations!! You're now on Harmony](../../.gitbook/assets/Harmony-onboarding-1.png)
+![Glückwunsch!! Du bist jetzt auf Harmony](../../.gitbook/assets/Harmony-onboarding-1.png)
 
-## Bridging to Harmony One
+## Bridging zu Harmony One
 
 ### Faucets
 
-There isn't any official faucet to get your first ONE tokens for your first few transactions. You will mostly have to bridge some tokens from another chain using the official [Harmony bridge](https://bridge.harmony.one/erc20) that will let you bridge some specific assets from either Ehtereum Mainnet or Binance to Harmony. You can also get a list of projects that will let you get some ONE via Fiat Gateways or Exchange Gateways from [this list](https://docs.harmony.one/home/developers/harmony-stack#bridges-fiat-gateways-exchanges) curated by the Harmony team.
+Es gibt keinen offiziellen Faucets, um deine ersten ONE-Token für deine ersten Transaktionen zu bekommen. Meistens musst du einige Token von einer anderen Chain über die offizielle [Harmony-Bridge](https://bridge.harmony.one/erc20) überbrücken, mit der du bestimmte Assets entweder vom Ehtereum Mainnet oder von Binance zu Harmony überbrücken kannst. Eine Liste der Projekte, mit denen du ONE über Fiat Gateways oder Exchange Gateways beziehen kannst, findest du in [diese Liste](https://docs.harmony.one/home/developers/harmony-stack#bridges-fiat-gateways-exchanges), die vom Harmony-Team zusammengestellt wurde.
 
-As always, you can also use [ElkNet](https://app.elk.finance/#/elknet) to transfer some ELK tokens from other chains to Harmony. If you do so, make sure to check the box `Swap $ELK 1 for gas` that will swap a part of your transferred tokens to ONE, which will also let you swap the rest of your ELK tokens to more ONE, or other assets.
+Wie immer kannst du auch [ElkNet](https://app.elk.finance/#/elknet) nutzen, um ELK-Token von anderen Chains zu Harmony zu transferieren. Wenn du das tust, achte darauf, das Kästchen `Swap $ELK 1 for gas` anzukreuzen, das einen Teil deiner übertragenen Token in ONE tauscht, wodurch du auch den Rest deiner ELK-Token in mehr ONE oder andere Assets tauschen kannst.
 
 ### Bridges
 
-* [Multichain.org](https://app.multichain.org/#/router) (previously known as AnySwap) is the official partner of Mai Finance that will let you bridge your MAI tokens from Polygon and other chains to Harmony. As a side note, Multichain has been working hand in hand with the Mai Finance devs to make sure the MAI that you bridge to Harmony is the same as what you will be able to borrow from the lending platform. There's no need for a Hub on Harmony. Simply head to the Multichain router, select the origin network, the token you want to transfer, and the destination network, and you're done. Pay attention to minumum amounts to transfers, transfer fees, and bridging duration, but once done, you'll get your asset on Harmony.
+* [Multichain.org](https://app.multichain.org/#/router) (früher bekannt als AnySwap) ist der offizielle Partner von Mai Finance, mit dem du deine MAI-Token von Polygon und anderen Chains auf Harmony übertragen kannst. Übrigens: Multichain arbeitet Hand in Hand mit den Entwicklern von Mai Finance, um sicherzustellen, dass die MAI, die du zu Harmony überbrückst, die gleichen sind, die du dir auf der Lending-Plattform leihen kannst. Ein Hub auf Harmony ist nicht nötig. Gehe einfach zum Multichain-Router, wähle das Herkunftsnetzwerk, den Token, den du übertragen willst, und das Zielnetzwerk aus und schon bist du fertig. Beachte die Mindestbeträge für Transfers, die Transfergebühren und die Überbrückungsdauer, aber sobald du das getan hast, bekommst du dein Asset auf Harmony.
 
-![Bridging MAI from Polygon to Harmony One](../../.gitbook/assets/Harmony-onboarding-2.png)
+![Überbrücke MAI von Polygon zu Harmony One](../../.gitbook/assets/Harmony-onboarding-2.png)
 
-* [Official Harmony Bridge](https://bridge.harmony.one/erc20), as explain in the previous paragraph, will let you transfer specific assets from Ethereum Mainnet or BSC.
-* [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer) is another solution if you want to transfer something to Harmony. Check their application to see which assets are bridgeable.
-* [ElkNet](https://app.elk.finance/#/elknet) is a particular case since the bridge from Elk Finance will let you bridge the ELK token from any EVM-compatible chain to any other EVM-compatible chain where they're deployed with the possibility to swap a small portion of the transferred amount into gas token (see the section dedicated to Faucets just above).
+* Mit der [Official Harmony Bridge](https://bridge.harmony.one/erc20) kannst du, wie im vorherigen Absatz erklärt, bestimmte Vermögenswerte vom Ethereum Mainnet oder BSC übertragen.
+* [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer) ist eine weitere Lösung, wenn du etwas auf Harmony übertragen möchtest. Überprüfe ihre Anwendung, um zu sehen, welche Assets überbrückbar sind.
+* [ElkNet](https://app.elk.finance/#/elknet) ist ein besonderer Fall, denn mit der Bridge von Elk Finance kannst du den ELK-Token von jeder EVM-kompatiblen Chain zu jeder anderen EVM-kompatiblen Chain übertragen, auf der sie eingesetzt werden.
 
-## DeFi on Harmony
+## DeFi auf Harmony
 
-Because Harmony One is a network that offers fast and secured transaction, as well as very cheap gas, a lot of EVM-compatible DApps (**D**ecentralized **App**lications) have been deployed to this network. The list that follows doesn't present all of them, feel free to explore the network and its DApps list yourself. You can find a more [exhaustive list on DefiLlama](https://defillama.com/chain/Harmony).
+Da Harmony One ein Netzwerk ist, das schnelle und sichere Transaktionen sowie sehr günstiges Gas bietet, wurden viele EVM-kompatible DApps (**D**ecentralized **App**lications) in diesem Netzwerk implementiert. Die folgende Liste enthält _nicht_ alle, aber du kannst das Netzwerk und seine DApps selbst erkunden. Eine [umfassendere Liste findest du auf DefiLlama](https://defillama.com/chain/Harmony).
 
-* [ViperSwap](https://viper.exchange/#/swap): This is the first partner of Mai Finance on Harmony One. This is a regular Uniswap v2 fork, a DEX (**D**ecentralized **Ex**change) and AMM (**A**utomated **M**arket **M**aker) where you will be able to swap your assets, create LP (**L**iquidity **P**roviding) tokens and farm rewards by providing liquidity to traders. The reward is paid using the VIPER token, that you will be able to stake on the app for more rewards. This is the DEX where you will find some MAI liquidity to swap your MAI, or to farm rewards using your MAI.
+* [ViperSwap](https://viper.exchange/#/swap): Dies ist der erste Partner von Mai Finance auf Harmony One. Es handelt sich um einen regulären Uniswap v2 Fork, eine DEX (**D**ecentralized **Ex**change) und AMM (**A**utomated **M**arket **M**aker), bei der du deine Vermögenswerte tauschen, LP (**L**iquidity **P**roviding) Token erstellen und Belohnungen farmen kannst, indem du Händlern Liquidität zur Verfügung stellst. Die Belohnung wird mit dem VIPER-Token bezahlt, den du in der App für weitere Belohnungen staken kannst. Hier findest du MAI-Liquidität, um deine MAI zu tauschen oder Belohnungen mit deinen MAI zu farmen.
 
-![MAI-ONE and MAI-VIPER pools on ViperSwap as of December 2021](../../.gitbook/assets/Harmony-onboarding-3.png)
+![MAI-ONE und MAI-VIPER Pools auf ViperSwap, Stand Dezember 2021](../../.gitbook/assets/Harmony-onboarding-3.png)
 
-You will note that the APRs (**A**nnual **P**ercentage **R**ate) on pools are very high. This is mostly due to the reward format on ViperSwap: when you claim your rewards, 5% of the VIPER tokens can be used directly, while 95% if locked until 2021-12-25. After that, the reward is vesting over a complete year, meaning that you will not be able to access your farming gains right away, and it will drip very VERY slowly. There's another twist on ViperSwap pools: you will have to pay a withdrawal fee that decreases if you stake your LP tokens for a long time. It goes from 25% fee if you withdraw within the same block as the deposit transaction (to fight flashloan operations) to 0.01% if you withdraw after 1 month. More details in their official documentation about [farming rewards](https://docs.venomdao.org/viper/tokenomics#bbd0) and [LP withdrawal fees](https://docs.venomdao.org/viper/fees).
+Du wirst feststellen, dass die APRs (**A**nnual **P**ercentage **R**ate) auf Pools sehr hoch sind. Das liegt vor allem am Belohnungsformat auf ViperSwap: Wenn du deine Belohnung einforderst, können 5% der VIPER-Tokens direkt verwendet werden, während 95% bis zum 25.12.2021 gesperrt sind. Anschließend wird die Belohnung über ein ganzes Jahr gesperrt, was bedeutet, dass du nicht sofort auf deine Gewinne beim Farmen zugreifen kannst, sondern dass sie SEHR langsam abfließen werden. Es gibt noch eine weitere Besonderheit bei den ViperSwap-Pools: Du musst eine Abhebungsgebühr zahlen, die sinkt, wenn du deine LP-Token über einen längeren Zeitraum stakst. Die Gebühr trifft von 25%, wenn du innerhalb desselben Blocks wie die Einzahlung abhebst (um Flashloan-Operationen zu verhindern), auf 0,01%, wenn du nach einem Monat abhebst. Mehr Details in der offiziellen Dokumentation über [Belohnungen beim Farmen](https://docs.venomdao.org/viper/tokenomics#bbd0) und [LP-Abhebungsgebühren](https://docs.venomdao.org/viper/fees).
 
-* [DeFi Kingdom](https://game.defikingdoms.com/#/): This is a particularly interesting project that is mixing DeFi and Gamification. Its native token, the JEWEL token, is used as a farming reward for users that are providing liquidity, but it can be used in game or in the marketplace. Explaining the entire universe of DeFi Kingdom (or DFK) would take too much time for this guide, so we strongly recommend reading [the official documentation](https://docs.defikingdoms.com).
+* [DeFi Kingdom](https://game.defikingdoms.com/#/): Dies ist ein besonders interessantes Projekt, das DeFi und Gamification miteinander verbindet. Sein nativer Token, der JEWEL-Token, wird als Belohnung für das Farmen von Nutzern verwendet, die Liquidität bereitstellen, kann aber auch im Spiel oder auf dem Marktplatz eingesetzt werden. Das gesamte Universum von DeFi Kingdom (oder DFK) zu erklären, würde zu viel Zeit für diesen Leitfaden in Anspruch nehmen, daher empfehlen wir dir dringend, [die offizielle Dokumentation](https://docs.defikingdoms.com) zu lesen.
 
-![Main map of DeFi Kingdom as of December 2021](../../.gitbook/assets/Harmony-onboarding-4.png)
+![Hauptkarte von DeFi Kingdom, Stand Dezember 2021](../../.gitbook/assets/Harmony-onboarding-4.png)
 
-* [SushiSwap](https://app.sushi.com) is the famous DEX/AMM that is also present on many other chains. Swap, provide liquidity, farm ONE and SUSHI yields.
-* [Curve Finance](https://harmony.curve.fi) is another cross-chain application that will let you provide liquidity (3pool and tricrypto) and will reward you with compounded tokens, as well as ONE and CRV.
-* [Beefy Finance](https://app.beefy.finance/#/harmony) is a yield optimizer that we already present in many of our guides since it's present on many chains. Currently, you will be able to deposit your LP tokens from Curve and SushiSwap, and let the Beefy compounder aggregate the rewards provided by the farming platform into more LP tokens.
-* [Euphoria DAO](https://app.euphoria.money/#/dashboard) is currently the biggest Ohm-fork on Harmony, and developped by the Venom DAO also behind ViperSwap. You can bond a few different assets and get their native asset, the WAGMI token. Stake WAGMIs for more WAGMI with insane APY (**A**nnual **P**ercentage **Y**ield) as for most OHM projects.
+* [SushiSwap](https://app.sushi.com) ist das berühmte DEX/AMM, das es auch bei vielen anderen Chains gibt. Tausche, biete Liquidität an, farm ONE und SUSHI Yields.
+* [Curve Finance](https://harmony.curve.fi) ist eine weitere Chain-übergreifende Anwendung, mit der du Liquidität (3pool und Tricrypto) bereitstellen kannst und die dich mit zusammengesetzten Token sowie ONE und CRV belohnt.
+* [Beefy Finance](https://app.beefy.finance/#/harmony) ist ein Renditeoptimierer, den wir bereits in vielen unserer Leitfäden vorstellen, da er auf vielen Chains vertreten ist. Derzeit kannst du deine LP-Token von Curve und SushiSwap einzahlen und die Belohnungen der Farmen durch den Beefy Compounder in weitere LP-Token umwandeln lassen.
+* Die [Euphoria DAO](https://app.euphoria.money/#/dashboard) ist derzeit die größte OHM-Fork auf Harmony und wurde von der Venom DAO entwickelt, die auch hinter ViperSwap steht. Du kannst verschiedene Assets bonden und bekommst dafür den WAGMI-Token. Stake WAGMIs für mehr WAGMI mit irrsinnigen APY (**A**nnnual **P**ercentage **Y**ield) wie bei den meisten OHM-Projekten.
 
-## Mai Finance on Harmony
+## Mai Finance auf Harmony
 
-Mai Finance launched on Harmony One in December 2021, and this guide is pretty close to the launch date so the application may have been updated when you read it.
+Mai Finance startet auf Harmony One im Dezember 2021 und dieser Leitfaden ist ziemlich kurz vor dem Startdatum, so dass die Anwendung vielleicht schon aktualisiert wurde, wenn du ihn liest.
 
-You will be able to deposit your WETH or your ONE tokens on Mai Finance (https://app.mai.finance/vaults/create) in order to borrow the MAI stable coin. You will then be able to swap MAI to leverage your assets, margin trade, or farm yields on ViperSwap.
+Du kannst deine WETH- oder ONE-Token bei Mai Finance (https://app.mai.finance/vaults/create) einzahlen, um den Stable Coin MAI zu leihen. Dann kannst du MAI tauschen, um dein Vermögen zu hebeln, Marginhandel zu betreiben oder auf ViperSwap Renditen zu farmen.
 
-![MAI Finance vaults as of December 2021](../../.gitbook/assets/Harmony-onboarding-5.png)
+![MAI Finance vaults, Stand Dezember 2021](../../.gitbook/assets/Harmony-onboarding-5.png)
 
-## Disclaimer
+## Haftungsausschluss
 
-As usual, this guide is not financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Wie üblich stellt dieser Leitfaden keine Finanzberatung dar und sollte lediglich als Bildungsinstrument betrachtet werden. Recherchiere immer selbst. Die Erörterung eines Projekts in diesem Leitfaden sollte nicht als Befürwortung des Projekts angesehen werden.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Denke daran, dass eine Strategie, die zu einem bestimmten Zeitpunkt gut funktioniert, zu einem anderen Zeitpunkt schlecht abschneiden (oder Geldverluste erzeugen) kann. Bitte bleibe informiert, beobachte die Märkte, behalte deine Investitionen im Auge und recherchiere wie immer selbst.
 {% endhint %}
