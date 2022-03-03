@@ -17,6 +17,7 @@
   * [Bản sao chép OHM trên Polygon: Trường hợp của KlimaDAO](toan-tap/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
   * [Sử dụng MAI tại Ethalend](toan-tap/polygon/ethalend-single-staking.md)
   * [Voi, khỉ và hải ly](toan-tap/polygon/the-elephant-and-the-otter.md)
+  * [From CeFi to DeFi with Celsius](toan-tap/polygon/cefi-to-defi-with-celsius.md)
 * [Avalanche](toan-tap/avalanche/README.md)
   * [Hướng dẫn khởi đầu trên mạng Avalanche](toan-tap/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](toan-tap/fantom/README.md)

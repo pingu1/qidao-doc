@@ -47,3 +47,7 @@
 {% content-ref url="the-elephant-and-the-otter.md" %}
 [the-elephant-and-the-otter.md](the-elephant-and-the-otter.md)
 {% endcontent-ref %}
+
+{% content-ref url="cefi-to-defi-with-celsius.md" %}
+[cefi-to-defi-with-celsius.md.md](cefi-to-defi-with-celsius.md)
+{% endcontent-ref %}
