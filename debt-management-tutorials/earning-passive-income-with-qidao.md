@@ -11,9 +11,9 @@ description: >-
 
 Qi DAO cho phép bạn nhận được một phần cổ tức doanh thu hàng tuần mà nền tảng kiếm được:
 
-* 30% phí hoàn trả hàng tuần (cộng thêm 25% tăng trưởng). 
-* 100% của phần thưởng thanh khoản LP nhận được từ việc sử dụng doanh thu phí kí gửi để farm trên Quickswap 
-* 30% của phí swap USDC hàng tuần 
+* 30% phí hoàn trả hàng tuần (cộng thêm 25% tăng trưởng).&#x20;
+* 100% của phần thưởng thanh khoản LP nhận được từ việc sử dụng doanh thu phí kí gửi để farm trên Quickswap&#x20;
+* 30% của phí swap USDC hàng tuần&#x20;
 
 Phần chia doanh thu này được phân phối cho những người stake vào lock token Qi trong một khoảng thời gian nhất định, phần thưởng được phân phối trực tiếp vào ví theo dạng airdrop vào thứ Tư hàng tuần. Bạn có thể check phần thưởng gần nhất tại [đây.](https://app.mai.finance/rewards)
 
@@ -21,7 +21,7 @@ Phần chia doanh thu này được phân phối cho những người stake vào
 
 Một snapshot cơ bản là bản ghi lại trạng thái của một blockchain trên một chiều cao khối cụ thể, điều đó có nghĩa là môt snapshot sẽ ghi lại tất nội dung trên toàn bộ sổ cái blockchain, bao gồm tất cả địa chỉ hiện có và các thông tin liên quan đến chúng (giao dich, phí, số dư...). Vì QiDao nằm trên chuỗi khối Polygon nên chúng ta có thể kiểm tra khi nào snapshot được tiến hành lần tới tại [Polygonscan](https://polygonscan.com).
 
-Bạn đủ điều kiện để nhận phần thưởng nếu bạn stake số Qi của mình trong ít nhất 10 ngày tùy thuộc vào thời điểm bạn khóa token của mình. 
+Bạn đủ điều kiện để nhận phần thưởng nếu bạn stake số Qi của mình trong ít nhất 10 ngày tùy thuộc vào thời điểm bạn khóa token của mình.&#x20;
 
 ![Làm sao để đủ điều kiện nhận thưởng Qi](../.gitbook/assets/unknown.png)
 
@@ -44,7 +44,7 @@ Có nghĩa là số Qi bị khóa sẽ có những lợi thế sau:
 
 Để khóa Qi của bạn, bạn cần vào thanh Boost và chọn số lượng token bạn muốn khóa và khoảng thời gian bạn muốn khóa token Qi của mình. Khoảng thời gian càng dài thì bạn sẽ nhận được càng nhiều eQi, hãy nhớ rằng eQi chỉ là số lượng token Qi bạn sẽ có sau khi thời gian khóa kết thúc.
 
-![Thông tin khóa tăng cường Qi Powah](../.gitbook/assets/Captura.JPG)
+![Thông tin khóa tăng cường Qi Powah](../.gitbook/assets/captura.jpg)
 
 Một khi đã quyết định tất cả những thứ đó hãy nhấp vào phê duyệt và chấp nhận phê duyệt giao dịch `Increase locked QI and lock time` .
 
@@ -54,7 +54,7 @@ Xin lưu ý rằng khi bạn khóa token Qi của mình trong một khoảng th�
 
 Xin chúc mừng, bây giờ bạn đã chính thức là một cổ đông Qi, bạn sẽ nhận được tiền thưởng hàng tuần và các tuần tiếp theo. Nếu bạn có bất kỳ nghi ngờ nào về việc bạn có đủ điều kiện để chia sẻ doanh thu của tuần tiếp theo hay không, bạn có thể xem trên trang Boost xem bạn có đủ điều kiện hay không.
 
-![](<../.gitbook/assets/Captura (1).JPG>)
+![](<../.gitbook/assets/captura (1).jpg>)
 
 ### Số liệu thống kê Qi Powah
 
@@ -62,35 +62,35 @@ Nếu bạn muốn kiểm tra số liệu thống kê của Qi Bo boost, bạn c
 
 ## Hỏi đáp về Qi Staking
 
-* **Khi nào tôi phải khóa Qi?** 
+* **Khi nào tôi phải khóa Qi?**&#x20;
 
 Snapshot là vào Chủ nhật và nó ghi lại ai đã khóa Qi của họ trong ít nhất một tuần tại thời điểm snapshot. Nếu bạn làm vậy, bạn đủ điều kiện để được nhận doanh thu cho tuần sắp tới
 
-* **Nơi nào để biết được khi nào snapshot?** 
+* **Nơi nào để biết được khi nào snapshot?**&#x20;
 
 Kiểm tra trang "Boost", sao chép số đầu tiên “Khối tiếp theo” và dán nó vào Polygonscan. Nó sẽ cho bạn biết thời gian ước tính chính xác của snapshot.
 
-* **Tôi phải khóa Qi đến bao giờ?** 
+* **Tôi phải khóa Qi đến bao giờ?**&#x20;
 
 Tại thời điểm snapshot, nó phải được khóa ít nhất đủ 1 tuần . Nếu bạn muốn chắc chắn 100% rằng bạn sẽ đủ điều kiện, chúng tôi khuyên bạn nên khóa từ 2 tuần trở lên.
 
-* **Khi nào tôi nhận được phần thưởng ?** 
+* **Khi nào tôi nhận được phần thưởng ?**&#x20;
 
 Thứ Tư hàng tuần, chúng sẽ được chuyển thẳng vào ví của bạn hoặc có thể thu thập tại trang Rewards. Thời gian sẽ có chút linh hoạt, hãy kiên nhẫn chờ team xác nhận trước khi gửi vào ví của bạn.
 
-* **Nhưng tôi đã khóa 2 tuần trước và tôi chưa nhận được gì cả!** 
+* **Nhưng tôi đã khóa 2 tuần trước và tôi chưa nhận được gì cả!**&#x20;
 
 Có một số khả năng xảy ra như sau: Mọi thứ vẫn ổn cả, tuy nhiên bạn phải đợi đến thứ Tư hoặc vào thời điểm chụp nhanh nó đã khóa chưa đầy 1 tuần. Phần thưởng được phân phối sau 10 ngày sau khi snapshot.
 
-* **Tôi sẽ nhận lại token nào ?** 
+* **Tôi sẽ nhận lại token nào ?**&#x20;
 
 Staking Qi bạn sẽ nhận lại Qi
 
-* **Phần thưởng đến từ đâu?** 
+* **Phần thưởng đến từ đâu?**&#x20;
   * 100% lợi nhuận từ doanh thu phí ký gửi farming (2.245.681 đô la được sử dụng để famr tính đến tuần 14)
   * 30% doanh thu phí hoàn trả (doanh thu trung bình hàng tuần là 18.362 đô la)
   * 30% doanh thu phí Anchor / Swap (doanh thu trung bình hàng tuần là 178.365 đô la)
-* **eQi là gì và tôi có thể làm gì với eQi?** 
+* **eQi là gì và tôi có thể làm gì với eQi?**&#x20;
 
 eQI (QI ký quỹ) đại diện cho sự gia tăng mà bạn đang nhận được nhờ quyền biểu quyết của mình và phần thưởng Qi. Vì vậy, với mục đích bỏ phiếu và nhận phần thưởng Qi, 1 eQi được tính là 1 Qi
 
@@ -98,19 +98,19 @@ eQI (QI ký quỹ) đại diện cho sự gia tăng mà bạn đang nhận đư�
 
 QiDao là một DAO (Tổ chức tự trị phi tập trung) và tương lai của giao thức được quyết định bởi cộng đồng. Là người nắm giữ Qi, bạn có quyền bỏ phiếu cho QIP (Đề xuất cải tiến QiDao) được xuất bản trên trang Governance.
 
-* **Số APR tôi mong chờ là khoảng bao nhiêu?** 
+* **Số APR tôi mong chờ là khoảng bao nhiêu?**&#x20;
 
 Mỗi tuần APR đều khác nhau vì phần thưởng phụ thuộc vào lượng eQI có và doanh thu mà giao thức thu được trong tuần đó. Bạn có thể nhận được một số ước tính từ eQI APR trên trang Boost, số liệu thống kê tăng và cập nhật hàng tuần nơi chúng tôi chia sẻ doanh thu trước đó.
 
-* **Tôi có thể thêm nhiều QI hơn vào số cổ phần hiện tại hay kéo dài thời gian?** 
+* **Tôi có thể thêm nhiều QI hơn vào số cổ phần hiện tại hay kéo dài thời gian?**&#x20;
 
 Đương nhiên là được, bạn có thể làm cả hai mà không ảnh hưởng đến việc đặt cổ phần hiện tại của bạn. Chỉ cần chọn số tiền, thời gian cần thêm, bấm tăng và xác nhận.
 
-* **Tôi có thể khóa Qi theo thời gian khác nhau không?** 
+* **Tôi có thể khóa Qi theo thời gian khác nhau không?**&#x20;
 
 Hiện tại, điều đó không thể thực hiện được trong cùng một tài khoản. Tuy nhiên, bạn có thể  thực hiện điều đó bằng cách thêm tài khoản mới vào ví của mình. Bằng cách đó, bạn có thể khóa trong thời gian dài với ví chính và trong khoảng thời gian ngắn hơn với ví phụ.
 
-* **Điều gì khi khóa hết hạn?** 
+* **Điều gì khi khóa hết hạn?**&#x20;
 
 Bạn sẽ phải nhấp vào rút tiền và sẽ nhận được trong ví của bạn số tiền bạn đã khóa ban đầu. Nhưng vì đã khóa trong 4 năm và thấy rằng bạn có eQI gấp 4 lần so với QI bị khóa. eQI sẽ giảm dần khi thời gian trôi qua và cuối cùng nó sẽ bằng với QI ban đầu của bạn. Trong thời gian chờ đợi, bạn sẽ được  quyền biểu quyết và phần thưởng hàng tuần.
 

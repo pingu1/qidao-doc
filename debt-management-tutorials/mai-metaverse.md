@@ -7,7 +7,7 @@ description: >-
 
 # Vũ trụ MAI
 
-![Andy sees his future ](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.06.42 PM.png>)
+![Andy sees his future ](../.gitbook/assets/MAI.png)
 
 ## Giới thiệu
 
@@ -49,7 +49,7 @@ Solana là một nền tảng blockchain cho các ứng dụng phi tập trung. 
 
 Giao diện thực sự trực quan theo nghĩa bạn chỉ cần chọn hai mạng và tài sản bạn muốn chuyển giữa hai mạng.
 
-![Đưa MAI từ polygon sang solana](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.52.23 PM.png>)
+![Đưa MAI từ polygon sang solana](../.gitbook/assets/screen-shot-2021-09-13-at-1.52.23-pm.png)
 
 Bước tiếp theo là điền địa chỉ ví Solana của bạn và số tiền bạn muốn chuyển. Lưu ý rằng MetaMask chưa hỗ trợ ví Solana. Do đó bạn sẽ phải tạo một ví riêng trên mạng đó. Nó có thể là ví web như MetaMask hoặc ứng dụng ví. Xin vui lòng đọc [tài liệu hướng dẫn setup ví chính thức của Solana ](https://docs.solana.com/wallet-guide)để có thể có lựa chọn phù hợp.
 
@@ -57,15 +57,15 @@ Bước tiếp theo là điền địa chỉ ví Solana của bạn và số ti�
 Cần lưu ý rằng Solana không cung cấp bất kỳ faucet nào mà bạn sẽ nhận được SOL đầu tiên của mình (đồng bản vị được sử dụng để thanh toán cho các giao dịch). Bạn cần mua một ít SOL trước và có chúng sẵn trong ví để có thể chuyển MAI.
 {% endhint %}
 
-### Sử dụng Mai trên Solana 
+### Sử dụng Mai trên Solana&#x20;
 
 Tương tự như cách bạn có thể sử dụng MAI trên Polygon để cung cấp  thanh khoản và yield farming, bạn cũng có thể làm tương tự trên Solana. Nơi mà bạn có thể sử dụng MAI là [Saber,](https://app.saber.so/#/swap) trong bể MAI / USDC.
 
-![Trạng thái bể MAI/USDC tại thời điểm Sept. 2021](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.11.10 PM.png>)
+![Trạng thái bể MAI/USDC tại thời điểm Sept. 2021](../.gitbook/assets/screen-shot-2021-09-13-at-2.11.10-pm.png)
 
 Một trong những điều thuận lợi cần biết về bể MAI / USDC trên saber đó là, không giống như cặp LP (Cung cấp thanh khoản) trên QuickSwap, bạn không cần phải cung cấp cặp LP với tỷ lệ 1: 1. Bạn có thể chỉ cần gửi một tài sản duy nhất (MAI hoặc USDC) hoặc một tỷ lệ cân bằng (hoặc không) của cả hai đồng tiền stablecoin.
 
-![MAI và USDC không cân bằng trong bể Saber](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.13.51 PM.png>)
+![MAI và USDC không cân bằng trong bể Saber](../.gitbook/assets/screen-shot-2021-09-13-at-2.13.51-pm.png)
 
 Điều này có nghĩa là bạn thực sự có thể sử dụng 100% tiền gửi MAI từ Mai Finance mà không cần phải hoán đổi bất kỳ khoản nào để lấy USDC. Nó đặc biệt tiện lợi và tránh bị ảnh hưởng bởi sự khác biệt nhỏ về giá giữa 2 đồng. Lưu ý rằng bạn sẽ nhận được phần thưởng được trả bằng token của trang trại gốc, giống như cách bạn sẽ được trả trong QUICK nếu bạn đang farming ở QuickSwap trên Polygon. Sau đó, bạn có thể bán đồng bản vị của saber để tăng vị thế của LP MAI / USDC.
 
@@ -81,7 +81,7 @@ Avalanche là một blockchain, được thiết kế để cung cấp một n�
 
 Cũng giống với AllBridge, giao diện người dùng khá đơn giản. Bạn chỉ cần chọn mạng mà nội dung sẽ là cầu nối, điểm đến của nó và mã token cần chuyển.
 
-![Đưa đồng MAI từ Polygon sang Avanlache bằng Relay](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.52.31 PM.png>)
+![Đưa đồng MAI từ Polygon sang Avanlache bằng Relay](../.gitbook/assets/screen-shot-2021-09-13-at-2.52.31-pm.png)
 
 Metamask có hỗ trợ [Avax wallets](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche), vì vậy bạn không cần phải cài đặt hay mở một ví web khác nữa.
 
@@ -89,7 +89,7 @@ Metamask có hỗ trợ [Avax wallets](https://support.avax.network/en/articles/
 
 Tương tự như cách bạn có thể sử dụng MAI để tăng sản lượng trên Polygon, bạn có thể sử dụng MAI trên Avalanche. Nơi để làm như vậy là [Trader Joe](https://www.traderjoexyz.com/#/farm), nơi bạn sẽ tìm thấy một bể MAI / USDC
 
-![State of the MAI/USDC pool on Trader Joe as of Sept. 2021](<../.gitbook/assets/Screen Shot 2021-09-13 at 3.07.19 PM.png>)
+![State of the MAI/USDC pool on Trader Joe as of Sept. 2021](../.gitbook/assets/screen-shot-2021-09-13-at-3.07.19-pm.png)
 
 Các bể thanh khoản trên Avalanche hoạt động rất giống với những gì bạn có thể tìm thấy trên Polygon. Do đó, bạn có thể sử dụng  Trader Joe giống như cách bạn sử dụng với QuickSwap. Trước tiên, bạn cần tạo một cặp LP trên trang web bằng cách sử dụng cùng một tỷ lệ MAI và USDC, sau đó gửi cặp LP vào bể. Tương tự như cách bạn sẽ được trả đồng QUICK khi farm trên QuickSwap, bạn sẽ nhận được phần thưởng bằng đồng JOE khi farm trên Trader Joe. Sau đó, bạn có thể sử dụng số tiền này vào các bể khác hoặc bán chúng để tăng vị thế cặp MAI / USDC của mình.
 

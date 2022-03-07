@@ -29,7 +29,7 @@ Khi bạn đã gửi DAI của mình vào Yearn Finance, bạn sẽ có yvDAI tr
 
 Mai Finance chấp nhận rất nhiều mã thông báo lợi nhuận đến từ các hầm tiền của Yearn như một loại thế chấp để có thể vay MAI từ đó.&#x20;
 
-![Deposit your yvToken on Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
+![Deposit your yvToken on Mai Finance](<../../.gitbook/assets/ftm-leverage-yv2 (1).png>)
 
 Hiện tại kho tiền yvDAI có ngưỡng thanh lý là 110%, điều này có nghĩa là bạn có thể vay MAI để tỷ lệ giữa giá trị tài sản thế chấp của bạn và giá trị nợ là 110%. Hãy cẩn thận rằng 110% thực sự là tỷ lệ mà kho tiền của bạn sẽ được thanh lý. Bạn cần giữ tỷ lệ trên ngưỡng tối thiểu này. Vì DAI không thay đổi nhiều về giá (lên hoặc xuống dưới vài xu) nên có thể giữ CDR (Tỷ lệ tài sản đảm bảo trên nợ) "an toàn" là 115%, nhưng hãy thoải mái giữ mức cao hơn nếu bạn muốn.
 

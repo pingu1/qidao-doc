@@ -28,7 +28,7 @@ Các dự án bluechip là các ứng dụng DeFi được chứng minh là bề
 
 Trên chuỗi Polygon, Balancer đề xuất một bể bao gồm 4 đồng stablecoin chính: DAI, USDC, USDT và MAI (miMATIC). Bể stablecoin này hiện có APR khá ổn định là \~ 20%.
 
-![Các bể stablecoin vào tháng 8 2021](<../../.gitbook/assets/Screen Shot 2021-08-11 at 11.06.59 AM.png>)
+![Các bể stablecoin vào tháng 8 2021](../../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
 
 Tính năng nổi trội nhất về Balancer là bạn hoàn toàn không cần phải sở hữu 4 đồng tiền để gửi vào bể. Tính năng cân bằng sẽ tự động tạo ra một kết hợp cân bằng với bất kỳ khoản tiền gửi nào bạn thực hiện. Điều này có nghĩa là nếu bạn có MAI trị giá 100 đô la, bạn có thể chỉ cần gửi chúng vào nhóm Balancer và để thuật toán chia đúng tỷ lệ 25% cho mỗi đồng xu tùy thuộc vào giá tương ứng của chúng tại thời điểm bạn gửi tiền.
 
@@ -36,7 +36,7 @@ Phần thưởng được phân phối hàng tuần bằng đồng BAL. Ngoài �
 
 Một vòng hoàn hảo sẽ được minh họa như sau:
 
-![](<../../.gitbook/assets/Screen Shot 2021-08-11 at 11.34.45 AM.png>)
+![](../../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
 Nếu bạn cần thêm thông tin chi tiết về cách bạn có thể sử dụng Mai Finance để cho vay đồng tiền mã hóa của bạn và mượn lại đồng Mai (thay vì bán chúng để mua Mai), hãy đọc các hướng dẫn khác trên tài liệu này. Bạn có thể kiếm được nhiều hơn thế nếu đưa [giao thức Aave](leverage-aave-tokens.md) vào vòng lặp.
 
@@ -63,7 +63,7 @@ Phần thưởng trên Curve được thưởng bằng cách
 * Số WMATIC được thưởng có thể dùng để lặp lại vòng lặp như trên nhằm tăng khoản vay và vốn đầu tư của bạn.
 * Token CRV cũng thể dùng làm tài sản thế chấp để vay thêm MAI trên Mai Finance và tăng vốn đầu tư của bạn.
 
-![](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.14.27 PM.png>)
+![](../../.gitbook/assets/screen-shot-2021-08-11-at-12.14.27-pm.png)
 
 ### AAVE
 
@@ -80,7 +80,7 @@ Hiện tại, nếu bạn tham gia vào bể MAI/USDC trên Quickswap, bạn s�
 * phí giao dịch
 * token QUICK
 
-![Chi tiết của bể MAI/USDC trên Quickswap vào ngày 23 tháng 8 năm 2021](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![Chi tiết của bể MAI/USDC trên Quickswap vào ngày 23 tháng 8 năm 2021](../../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
 ## Các Degen farm
 
@@ -96,7 +96,7 @@ Adamant hiện hỗ trợ một số bể chấp nhận cặp LP MAI / USDC. Cá
 * DinoSwap: Phần thưởng Dino được đổi thành nhiều phần thưởng MAI / USDC LP và WMATIC hơn
 * Mai Finance: Phần thưởng Qi được đổi thành nhiều phần thưởng MAI / USDC LP và WMATIC hơn
 
-![Bể MAI/USDC của Quickswap trên Adamant](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.51.12 PM.png>)
+![Bể MAI/USDC của Quickswap trên Adamant](../../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
 
 {% hint style="info" %}
 Ảnh chụp màn hình của bể QuickSwap trên trang web QuickSwap (xem đoạn trên) và Adamant đã được chụp trong cùng một ngày, nhưng đang hiển thị các APY khác nhau (lợi nhuận phần trăm cộng dồn hàng năm).
@@ -131,7 +131,7 @@ Các farm khác cũng có thể chấp nhận bể MAI / USDC. Nếu bạn muố
 
 [Impermax](https://polygon.impermax.finance) là một nền tảng cho phép người tạo đòn bẩy mã token LP của họ để có lợi suất cao hơn. Mục tiêu rất đơn giản: bằng cách cung cấp cặp LP và sử dụng chúng làm tài sản thế chấp, sau đó người ta có thể vay thêm trong số 2 tài sản cơ bản để tạo ra nhiều cặp LP hơn và tiếp tục lặp lại vòng lặp.
 
-![Giải thích vòng lặp trên Impermax](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
+![Giải thích vòng lặp trên Impermax](../../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
 
 Khi làm như vậy, nhà đầu tư sẽ bị tổn thất tạm thời và tổn thất này được phóng đại theo số lần lặp lại vòng lặp. Rủi ro thanh lý cũng tăng lên gấp bội khi áp dụng quá nhiều vòng lặp. Thật vậy, nếu APR được nhân lên, sự biến đổi giá của hai đồng tiền tạo thành cặp tiền sẽ được khuếch đại bởi hiệu ứng đòn bẩy, dẫn đến việc thanh lý nhanh hơn.
 
@@ -153,11 +153,11 @@ Ngoài ra, bởi vì tất cả các chỉ số được phóng đại theo số
 
 Cuối cùng, bạn đang sử dụng APR căn bản trên một giá trị lớn hơn điều này thể hiện bạn đang kiếm được lợi ích lớn hơn nhiều, làm tăng APR cho vị thế ban đầu của bạn.
 
-![Ví dụ về bảng hiển thị Impermax với cặp MAI / USDC ban đầu là $ 70,52](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.38.33 PM.png>)
+![Ví dụ về bảng hiển thị Impermax với cặp MAI / USDC ban đầu là $ 70,52](../../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
 
 Bạn có thể dễ dàng thấy số tiền đang sử dụng làm tài sản thế chấp, số tiền bạn đầu tư ban đầu, tỷ lệ đòn bẩy là gì và giá trị thanh lý do tỷ lệ đòn bẩy là bao nhiêu. Thông tin này sẽ cung cấp cho bạn các tỷ lệ sau tại thời điểm viết bài
 
-![Ước tính thu nhập và chi phí tại một thời điểm nhất định](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.41.55 PM.png>)
+![Ước tính thu nhập và chi phí tại một thời điểm nhất định](../../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
 
 APR có được bằng mã token IMX có thể được hoán đổi để lấy thêm cặp MAI / USDC (tận dụng lợi thế của nền tảng Mai Finance để vay với lãi suất 0%, RFTM) hoặc được sử dụng để cung cấp thanh khoản cho các bể cụ thể chấp nhận IMX trên Impermax.
 
@@ -165,7 +165,7 @@ APR có được bằng mã token IMX có thể được hoán đổi để lấ
 
 Trên trang web, bạn cũng có thể cung cấp tính thanh khoản cho những người muốn áp dụng vòng lặp đòn bẩy cho các vị thế của họ (họ sẽ cần tài sản cơ bản để tạo thêm mã token LP). Cho vay tài sản là một cách tuyệt vời để kiếm được lợi tức và đẩy mọi rủi ro cho người đi vay . Ngoài ra, càng nhiều người dùng vay, APR của nguồn cho vay càng cao.
 
-![Tỷ lệ cho vay và vay MAI trên Impermax tại một thời điểm nhất định](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.47.56 PM.png>)
+![Tỷ lệ cho vay và vay MAI trên Impermax tại một thời điểm nhất định](../../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
 
 Đây là một cách tuyệt vời khác để tối ưu hóa khoản vay 0% của bạn trên Mai Finance. Bạn không những không phải trả bất cứ khoản nào để vay MAI mà còn có thể kiếm được rất nhiều tiền lãi chỉ bằng cách gửi vào Impermax.
 
