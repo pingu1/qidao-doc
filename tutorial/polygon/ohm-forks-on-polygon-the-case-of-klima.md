@@ -213,5 +213,5 @@ Quindi il rischio può essere molto alto se di tanto in tanto non si traggono de
 Come nota finale, fai attenzione che i forks di ohm sono la nuova tendenza ma la maggior parte dei progetti potrebbe fallire e molti di questi non sono progetti solidi. A causa della loro natura, non sono ancora verificati da RugDoc e potrebbe essere molto complicato identificare applicazioni reali da vere e proprie truffe.
 
 {% hint style="info" %}
-Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
+Tenete presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farvi perdere denaro) in un altro. Tenetevi aggiornati, monitorate i mercati, tenete d'occhio i vostri investimenti e come sempre, fate le vostre ricerche.
 {% endhint %}

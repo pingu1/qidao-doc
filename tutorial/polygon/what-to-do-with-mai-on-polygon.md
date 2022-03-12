@@ -172,5 +172,5 @@ Questo è un altro ottimo modo per ottimizzare il tuo prestito a tasso 0% su Mai
 Tutte le informazioni di questo tutorial sono a scopo puramente educativo. L'obiettivo è portare alla luce progetti meritevoli di attenzione per le persone che sono entrate nel mondo delle crypto su Polygon. Ovviamente non ho parlato di Mai Finance come farm perché abbiamo già un tutorial dedicato. Infine, questa guida NON è ASSOLUTAMENTE pensata per essere applicata così com'è, non è un consiglio finanziario e non dovresti seguire ciecamente quello che vi è scritto. Si prega di leggere i documenti dei diversi progetti che sono stati menzionati prima di considerare un investimento sulle loro piattaforme.
 
 {% hint style="info" %}
-Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
+Tenete presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farvi perdere denaro) in un altro. Tenetevi aggiornati, monitorate i mercati, tenete d'occhio i vostri investimenti e come sempre, fate le vostre ricerche.
 {% endhint %}

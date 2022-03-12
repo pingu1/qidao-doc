@@ -179,5 +179,5 @@ Quindi, dopo un anno, il fatturato generato vale $ 51.580,50. Se consideriamo ch
 Questa guida non è assolutamente un consiglio finanziario, è stata realizzata a puro scopo educativo. Devi prestare attenzione alle variazioni di prezzo, domanda e offerta, date di fine dei programmi di incentivo, impermanent loss ecc...  L' obiettivo non è quello di proporre una ricetta da seguire alla cieca, quindi per favore fai le tue ricerche e le tue simulazioni e investi solo ciò che sei disposto a perdere.
 
 {% hint style="info" %}
-Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
+Tenete presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farvi perdere denaro) in un altro. Tenetevi aggiornati, monitorate i mercati, tenete d'occhio i vostri investimenti e come sempre, fate le vostre ricerche.
 {% endhint %}

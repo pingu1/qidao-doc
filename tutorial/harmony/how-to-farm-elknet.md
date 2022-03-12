@@ -1,7 +1,7 @@
 ---
 description: >-
-  This guide presents different ways to farm a single LP pair in order to illustrate
-  the differences between staking and compounding.
+  This guide presents different ways to farm a single LP pair in order to
+  illustrate the differences between staking and compounding.
 ---
 
 # One LP Pair, Many ways to farm
@@ -14,7 +14,7 @@ Providing liquidity on a DEX (**D**ecentralized **EX**change) and farming reward
 This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
 {% endhint %}
 
-![](<../../.gitbook/assets/elk-farming-1.png>)
+![](../../.gitbook/assets/elk-farming-1.png)
 
 ## Elk Finance
 
@@ -22,7 +22,7 @@ This guide is definitely not financial advice, it was made with an educational g
 
 What makes Elk Finance a totally different project though is its presence on many blockchains, and not only the EVM-compatibles chains (**E**thereum **V**irtual **M**achine). Indeed, Elk Finance is currentl present on 16 chains and they have plans to expand to many others. They managed to build a bridge between all those chains to let users transfers the ELK token: The ELKNET.
 
-![Bridging some ELK from Harmony to Moonriver using the ElkNet](<../../.gitbook/assets/elk-farming-2.png>)
+![Bridging some ELK from Harmony to Moonriver using the ElkNet](../../.gitbook/assets/elk-farming-2.png)
 
 Also, one cool feature proposed by the ElkNet is the possibility to swap a portion of the transferred asset for some gas token on the destination. This is particularly useful if you are going for the first time on a block chain where there is no available faucet.
 
@@ -52,19 +52,19 @@ The very first strategy is pretty straightforward:
 If you start with an initial $100, here are the results you can get month after month for a complete year of farming, assuming the rates given above remain the same for the entire farming period.
 
 | day | MAI-ELK ($) | staked ELK ($) |
-|-----|-------------|----------------|
-|  30 |     100.000 |         16.653 |
-|  60 |     100.000 |         33.756 |
-|  90 |     100.000 |         51.323 |
-| 120 |     100.000 |         69.366 |
-| 150 |     100.000 |         87.897 |
-| 180 |     100.000 |        106.930 |
-| 210 |     100.000 |        126.479 |
-| 240 |     100.000 |        146.557 |
-| 270 |     100.000 |        167.180 |
-| 300 |     100.000 |        188.360 |
-| 330 |     100.000 |        210.115 |
-| 360 |     100.000 |        232.458 |
+| --- | ----------- | -------------- |
+| 30  | 100.000     | 16.653         |
+| 60  | 100.000     | 33.756         |
+| 90  | 100.000     | 51.323         |
+| 120 | 100.000     | 69.366         |
+| 150 | 100.000     | 87.897         |
+| 180 | 100.000     | 106.930        |
+| 210 | 100.000     | 126.479        |
+| 240 | 100.000     | 146.557        |
+| 270 | 100.000     | 167.180        |
+| 300 | 100.000     | 188.360        |
+| 330 | 100.000     | 210.115        |
+| 360 | 100.000     | 232.458        |
 
 At the end of the year, you would have
 
@@ -89,19 +89,19 @@ Compounding means that you harvest your rewards, and use it to create additional
 If you start with the same initial investment of $100, the results you can expect for a complete year of farming, assuming the rates given remain the same for the entire farming period, are as follows:
 
 | day | MAI-ELK ($) |
-|-----|-------------|
-|  30 |     117.172 |
-|  60 |     138.044 |
-|  90 |     162.635 |
-| 120 |     191.607 |
-| 150 |     225.739 |
-| 180 |     265.952 |
-| 210 |     313.328 |
-| 240 |     369.143 |
-| 270 |     434.901 |
-| 300 |     512.374 |
-| 330 |     603.647 |
-| 360 |     711.179 |
+| --- | ----------- |
+| 30  | 117.172     |
+| 60  | 138.044     |
+| 90  | 162.635     |
+| 120 | 191.607     |
+| 150 | 225.739     |
+| 180 | 265.952     |
+| 210 | 313.328     |
+| 240 | 369.143     |
+| 270 | 434.901     |
+| 300 | 512.374     |
+| 330 | 603.647     |
+| 360 | 711.179     |
 
 And at the end of the year, you would have
 
@@ -147,25 +147,25 @@ If staking and compounding are giving good yields, both methods are directly lin
 * deposit in the pool
 
 {% hint style="info" %}
-Converting your reward tokens to ONE may not be the safest way to protect your assets, one of the best ways to do it is to convert to stable coins. However, options on Mai Finance on Harmony as of writing this article are pretty limited. You may get better options in the future (after January 2021), like staking Stake DAO LP tokens as collateral (see our [dedicated article for Polygon](<../polygon/the-elephant-and-the-otter.md>) to see how you may be able to use Stake DAO tokens on Mai Finance).
+Converting your reward tokens to ONE may not be the safest way to protect your assets, one of the best ways to do it is to convert to stable coins. However, options on Mai Finance on Harmony as of writing this article are pretty limited. You may get better options in the future (after January 2021), like staking Stake DAO LP tokens as collateral (see our [dedicated article for Polygon](../polygon/the-elephant-and-the-otter.md) to see how you may be able to use Stake DAO tokens on Mai Finance).
 {% endhint %}
 
 If you start with the same initial investment of $100, the results you can expect for a complete year of farming, assuming the rates given remain the same for the entire farming period, and that your vault isn't liquidated, are as follows:
 
 | day | MAI-ELK ($) | ONE ($) | Mai debt ($) |
-|-----|-------------|---------|--------------|
-|  30 |     111.154 |  11.560 |        5.780 |
-|  60 |     124.003 |  24.456 |       12.228 |
-|  90 |     138.337 |  38.842 |       19.421 |
-| 120 |     154.328 |  54.892 |       27.446 |
-| 150 |     172.168 |  72.797 |       36.398 |
-| 180 |     192.070 |  92.772 |       46.386 |
-| 210 |     214.273 | 115.055 |       57.528 |
-| 240 |     239.042 | 139.915 |       69.958 |
-| 270 |     266.674 | 167.648 |       83.824 |
-| 300 |     297.501 | 198.588 |       99.294 |
-| 330 |     331.891 | 233.106 |      116.552 |
-| 360 |     370.257 | 271.609 |      135.805 |
+| --- | ----------- | ------- | ------------ |
+| 30  | 111.154     | 11.560  | 5.780        |
+| 60  | 124.003     | 24.456  | 12.228       |
+| 90  | 138.337     | 38.842  | 19.421       |
+| 120 | 154.328     | 54.892  | 27.446       |
+| 150 | 172.168     | 72.797  | 36.398       |
+| 180 | 192.070     | 92.772  | 46.386       |
+| 210 | 214.273     | 115.055 | 57.528       |
+| 240 | 239.042     | 139.915 | 69.958       |
+| 270 | 266.674     | 167.648 | 83.824       |
+| 300 | 297.501     | 198.588 | 99.294       |
+| 330 | 331.891     | 233.106 | 116.552      |
+| 360 | 370.257     | 271.609 | 135.805      |
 
 And at the end of the year, you would have
 
@@ -193,14 +193,14 @@ $$
 In this equation, `N` represents the number of times you compound your rewards in a year. So, and APR of 200% as above would give you the following APY depending on the frequency you compound:
 
 | Compounding frequency | equivalent APY |
-|-----------------------|----------------|
-|                 daily |       634.88 % |
-|       twice in a week |       625.01 % |
-|                weekly |       611.71 % |
-|      twice in a month |       609.55 % |
-|               monthly |       535.86 % |
-|             quarterly |       406.25 % |
-|       twice in a year |       300.00 % |
+| --------------------- | -------------- |
+| daily                 | 634.88 %       |
+| twice in a week       | 625.01 %       |
+| weekly                | 611.71 %       |
+| twice in a month      | 609.55 %       |
+| monthly               | 535.86 %       |
+| quarterly             | 406.25 %       |
+| twice in a year       | 300.00 %       |
 
 Manually compounding more than once a day can be expensive depending on the chain you're on. But basically, it's clear that the more often you compound, the better the reward. This is also explaining why yield optimizer / auto-compounder are popular. Keep in mind that by compounding, you add sell pressure to the token you farm, which will have a negative impact on the price of that token. If that's also the token you are using to farm (in our exemple ELK), you may be impacted by impermanent losses, unless you're using Elk Finance DEX, which protects you from impermanent losses.
 
@@ -208,7 +208,7 @@ Manually compounding more than once a day can be expensive depending on the chai
 
 The MAI-ELK pair has been deployed to several chains, so it's possible for you to deploy your capital to the chain that offers the best rates.
 
-![MAI-ELK pools on Gnosis (top), Moonriver (middle) and Harmony (bottom) as of January 2021](<../../.gitbook/assets/elk-farming-3.png>)
+![MAI-ELK pools on Gnosis (top), Moonriver (middle) and Harmony (bottom) as of January 2021](../../.gitbook/assets/elk-farming-3.png)
 
 {% hint style="info" %}
 The MAI-ELK pool may also be deployed to other chains in a near future, possibly on Polygon, Cronos and Fantom. This is not guaranteed and there's no ETA for that, so stay updated by checking the difference Discord servers of both projects, of following them on twitter.
@@ -216,7 +216,7 @@ The MAI-ELK pool may also be deployed to other chains in a near future, possibly
 
 Besides the reward rate on each chain, you may also have to consider the price of the ELK token on each chain. Indeed, if the price is almost the same on all chains, the tiny difference may also be a factor for you to choose the chain where you want to farm the ELK token.
 
-![Price of the ELK tokens on all the chains where it's present](<../../.gitbook/assets/elk-farming-4.png>)
+![Price of the ELK tokens on all the chains where it's present](../../.gitbook/assets/elk-farming-4.png)
 
 As you can see, the MAI-ELK pool on Moonriver gives a better reward rate, and the ELK token also has a higher price on that chain. This means that, at time of writing, it may be better to farm the MAI-ELK pool on Moonriver than on Harmony or Gnosis, especially if you plan to sell a part of the farmed tokens. Note that this may not be true all the time, so make sure you choose your chain properly and that you do your own researches before joining a LP pool. Finally, it is strongly recommended to read the [documentation about IL protection](https://docs.elk.finance/features/impermanent-loss-protection) because the insurance is highly dependant on the number of days your LP tokens are deposited in the pool.
 
@@ -227,5 +227,5 @@ As a side note, because bridging ELK is free, you can possibly move from one cha
 This guide has been written in order to illustrate the different ways to farm yields using liquidity providing tokens. You will highly influence your gains with the strategy that you pick, as well as your exposure to risk. Of course, all the notions pointed in this document are also applicable to any LP pair, and it's highly recommended to run your own simulations before picking a strategy, a LP pair, a pool or even a DEX.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenete presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farvi perdere denaro) in un altro. Tenetevi aggiornati, monitorate i mercati, tenete d'occhio i vostri investimenti e come sempre, fate le vostre ricerche.
 {% endhint %}

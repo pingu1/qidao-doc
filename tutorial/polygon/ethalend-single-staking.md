@@ -181,5 +181,5 @@ Tutto ciò che viene presentato in questo tutorial è un contenuto educativo rea
 Inoltre, la strategia presenta un circuito chiuso che non vende alcun token e ogni sistema alimenta quello successivo. Tuttavia, come potete vedere, la posizione finale di $dQUICK non è molto alta e il prestito $MAI probabilmente non genererà molto $Qi. Probabilmente potete ottenere lo stesso APY equivalente (se non migliore) vendendo le ricompense $QUICK concesse dal pool $ETHA-$QUICK, acquistare $MAI e aggiungendolo alla posizione $MAI-$USDT.
 
 {% hint style="info" %}
-Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
+Tenete presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farvi perdere denaro) in un altro. Tenetevi aggiornati, monitorate i mercati, tenete d'occhio i vostri investimenti e come sempre, fate le vostre ricerche.
 {% endhint %}

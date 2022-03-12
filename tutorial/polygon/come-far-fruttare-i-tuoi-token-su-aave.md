@@ -9,7 +9,7 @@ description: >-
 
 ## Quando un'immagine vale più di mille parole
 
-![](<../../.gitbook/assets/image (28).png>)
+![](<../../.gitbook/assets/image (21) (2) (1).png>)
 
 ## Ma in fondo mille parole non sono poi così male
 
@@ -176,5 +176,5 @@ Tutto ciò che viene presentato in questa strategia presuppone quanto segue: &#x
 * Il token MATIC mantiene un prezzo relativamente stabile nell'arco di 1 anno (anche questo improbabile)
 
 {% hint style="info" %}
-Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
+Tenete presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farvi perdere denaro) in un altro. Tenetevi aggiornati, monitorate i mercati, tenete d'occhio i vostri investimenti e come sempre, fate le vostre ricerche.
 {% endhint %}

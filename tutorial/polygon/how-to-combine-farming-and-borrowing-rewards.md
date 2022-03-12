@@ -218,5 +218,5 @@ Ottenere un APY del 28% su stable coin non è niente male ma come si confronta c
 Questa strategia è davvero interessante e utilizza la maggior parte dei Vaults di Mai Finance ed è stata scritta principalmente per mostrare che, al Settembre 2021, genererebbe più ricompense usando stable coin. Tuttavia, questa strategia potrebbe non essere la più interessante e comporta molte operazioni che coinvolgono diverse piattaforme. Infine, Augury è uno strumento fantastico che genera token specifici che possono essere inclusi in diverse strategie ma forse meno indirizzato al farming di stable coin. Come nota a margine, non sono state prese in considerazione commissioni di deposito né commissioni di performance nel calcolo dell'APY finale.
 
 {% hint style="info" %}
-Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
+Tenete presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farvi perdere denaro) in un altro. Tenetevi aggiornati, monitorate i mercati, tenete d'occhio i vostri investimenti e come sempre, fate le vostre ricerche.
 {% endhint %}

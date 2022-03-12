@@ -168,5 +168,5 @@ Quando il prezzo scende ma la tua quantità aumenta, il tuo valore potrebbe aume
 Questa guida è il risultato di molte discussioni sul prezzo di Qi sul canale [Discord](https://discord.gg/aRghpvhV). Mi sono reso conto che alcune persone che si lamentavano del prezzo non comprendevano appieno le ragioni per cui il prezzo del Qi era in costante tendenza al ribasso. Questo porta a frustrazione e delusione che è molto negativa per Qi, il prodotto Mai Finance e l'intero ecosistema DeFi in generale. Tuttavia, non c'è assolutamente alcuna garanzia che il prezzo possa mai salire, quindi se vuoi mantenere i tuoi Qi e investirli per favore fai le tue ricerche e fallo a tuo rischio. Pianifica correttamente la tua strategia e attieniti ad essa.
 
 {% hint style="info" %}
-Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
+Tenete presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farvi perdere denaro) in un altro. Tenetevi aggiornati, monitorate i mercati, tenete d'occhio i vostri investimenti e come sempre, fate le vostre ricerche.
 {% endhint %}

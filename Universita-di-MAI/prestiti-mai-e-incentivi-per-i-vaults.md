@@ -143,7 +143,7 @@ $$
 
 Questo corrisponde più o meno all'APR del Vault MATIC, come mostrato nello screenshot seguente:
 
-![APR del Vault MATIC su Mai Finance dopo il lancio degli incentivi Vault](<../.gitbook/assets/image (23) (2) (3) (3).png>)
+![APR del Vault MATIC su Mai Finance dopo il lancio degli incentivi Vault](<../.gitbook/assets/image (23) (2) (3) (2) (3).png>)
 
 ### Calcolare gli APRs dei Vault disponibili
 

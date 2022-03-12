@@ -119,5 +119,5 @@ Questa guida presenta alcuni dei modi in cui puoi utilizzare i tuoi assets su Fa
 Tieni inoltre presente che questa soluzione potrebbe non essere la strategia migliore a seconda di quando prevedi di utilizzarla. Abbiamo appena evidenziato che BeethovenX ha APR piuttosto interessanti per i tuoi $MAI e puoi anche usare Beefy Finance per combinare i premi $BEETS in monete più stabili.
 
 {% hint style="info" %}
-Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
+Tenete presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farvi perdere denaro) in un altro. Tenetevi aggiornati, monitorate i mercati, tenete d'occhio i vostri investimenti e come sempre, fate le vostre ricerche.
 {% endhint %}

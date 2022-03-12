@@ -176,5 +176,5 @@ Con un investimento minimo e poca necessità di starci dietro con tante transazi
 Tutto ciò che è stato presentato in questo articolo è da ritenersi a puro scopo educativo ed è stato realizzato per illustrare le opzioni di leva proposte da Mai Finance. Non abbiamo parlato di rimborso del debito perché ci sono altri articoli dedicati su questo sito ma è importante tenere presente che Mai Finance addebita una commissione di rimborso dello 0,5% sull'importo preso in prestito. Come sempre, fai le tue ricerche e non esitare a fare domande alla community del [server Discord di Mai Finance](https://discord.com/invite/qidaoprotocol).
 
 {% hint style="info" %}
-Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
+Tenete presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farvi perdere denaro) in un altro. Tenetevi aggiornati, monitorate i mercati, tenete d'occhio i vostri investimenti e come sempre, fate le vostre ricerche.
 {% endhint %}

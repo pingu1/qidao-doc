@@ -194,5 +194,5 @@ Inoltre, il farming con stable coin può essere il modo più "sicuro" per genera
 Raccogliere i premi e scambiarli con qualcosa di prezioso è considerata la migliore strategia quando la farm produce. Prendere in prestito MAI per reinvestire una porzione di stable coin nel pool e aumentare le entrate del farming espone i tuoi profitti alle commissioni di deposito del 4% che la farm sta sottraendo alla tua coppia di LP. Questa potrebbe non essere la cosa migliore da fare se non sei sicuro di recuperarle e probabilmente è meglio usare un'altra strategia per reinvestire i tuoi profitti (investire in pool nativi / pool con 0% di interesse / pool con APR alti).
 
 {% hint style="info" %}
-Tieni presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farti perdere denaro) in un altro. Tieniti aggiornato, monitora i mercati, tieni d'occhio i tuoi investimenti e come sempre, fai le tue ricerche.
+Tenete presente che una strategia che funziona bene in un dato momento potrebbe avere un rendimento peggiore (o farvi perdere denaro) in un altro. Tenetevi aggiornati, monitorate i mercati, tenete d'occhio i vostri investimenti e come sempre, fate le vostre ricerche.
 {% endhint %}
