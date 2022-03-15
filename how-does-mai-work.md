@@ -15,21 +15,21 @@ Sin embargo, hay dos categorías principales en las que pueden encajar todas las
 
 ## El desastre de IRON Finance
 
-Si llevas algún tiempo en el mundo de las criptomonedas, puede que recuerdes el desastre del token **TITAN** e **IRON**, pero para los que no, este es el resumen. IRON Finance era un proyecto que tenía 2 tokens, la moneda estable _IRON_ y el token _TITAN_, sin embargo la moneda estable IRON **no estaba totalmente respaldada** con monedas estables, la proporción para acuñar o producir IRON era de **75% USDC** y **25% de TITAN**. Así que básicamente era una receta para el desastre.
+Si llevas algún tiempo en el mundo de las criptomonedas, puede que recuerdes el desastre del token **TITAN** e **IRON**, pero para los que no, este es el resumen. IRON Finance era un proyecto que tenía 2 tokens, la moneda estable _IRON_ y el token _TITAN_, sin embargo la moneda estable IRON **no estaba totalmente respaldada** con monedas estables, la proporción para acuñar o producir IRON era de **75% USDC** y **25% de TITAN**. Así que básicamente era una receta para el desastre.&#x20;
 
 En junio de 2021 el token TITAN alcanzó un ATH (All-Time-High o precio record) de 65 dólares, lo que provocó que un montón de inversores, que habían invertido cantidades considerables en la moneda, decidieran vender. Esto causó un problema ya que TITAN tiene un precio basado en la oferta y la demanda. Por lo tanto, a medida que la oferta disponible de TITAN aumentaba, el precio comenzó a disminuir. Esto causó una enorme presión de venta, por lo que el precio de TITAN cayó aún más rápido, así que cuando TITAN comenzó a caer rápidamente, IRON perdió su respaldo, por lo que la stablecoin de IRON dejó de valer $1 (esto se conoce como perder el "**peg**").
 
-![Gráfica del precio del token TITAN](.gitbook/assets/iron.jpg)
+![Gráfica del precio del token TITAN](.gitbook/assets/Iron.JPG)
 
-![Gráfica del precio de IRON](.gitbook/assets/titan.jpg)
+![Gráfica del precio de IRON](.gitbook/assets/titan.JPG)
 
 La gente comenzó a comprar la moneda estable IRON para venderla por USDC y ganar algo de dinero rápido, en una gran oportunidad de arbitraje (esto es beneficiarse de las variaciones de precio de los tokens). En resumen, se ha llegado a calcular que aproximadamente se perdieron casi 1.750 millones de dólares en este incidente. Ahora, ¿hay alguna diferencia entre la moneda estable IRON y la moneda estable MAI?
 
 ## ¿Qué es MAI?
 
-MAI es una moneda estable que está respaldada por tokens que se encuentran bloqueado en la plataforma, la producción de de MAI puede hacerse a través de **depósitos de colaterales aprobados** en bóvedas o a través de **Anchor.**
+MAI es una moneda estable que está respaldada por tokens que se encuentran bloqueado en la plataforma, la producción de de MAI puede hacerse a través de **depósitos de colaterales aprobados** en bóvedas o a través de **Anchor.**&#x20;
 
-Al acuñar MAI depositando colaterales aprobados, el **CDR** (Coeficiente de Colateral a Deuda) necesita estar por encima del 150%, esto significa que si depositas $100 de colateral, la cantidad máxima de MAI que puedes pedir prestada es de $66.6667. Más adelante en este artículo veremos el por qué de esto.
+Al acuñar MAI depositando colaterales aprobados, el **CDR** (Coeficiente de Colateral a Deuda) necesita estar por encima del 150%, esto significa que si depositas $100 de colateral, la cantidad máxima de MAI que puedes pedir prestada es de $66.6667. Más adelante en este artículo veremos el por qué de esto.&#x20;
 
 Otra forma de acuñar MAI es a través del [Anchor](https://app.mai.finance/anchor), esto significa que cuando cambias una moneda estable (a partir de Septiembre de 2021 puedes acuñar MAI usando **DAI**, **USDC** y **USDT**) por MAI, el nuevo MAI es acuñado por la tesorería y el USDC depositado se mantiene guardado en la tesorería como garantía o colateral. En el caso contrario, cuando quieras obtener de vuelta tu USDC, el MAI que proporciones para el cambio se quemará.
 
@@ -37,7 +37,7 @@ Otra forma de acuñar MAI es a través del [Anchor](https://app.mai.finance/anch
 
 Como se puede ver en la imagen de abajo, el precio de la moneda estable MAI oscila casi siempre en los $ 1, esto se debe a que, tal y cómo dice la [documentación oficial](https://docs.mai.finance/stablecoin-economics), la moneda estable MAI permite a los usuarios participar en oportunidades de arbitraje de bajo riesgo a través de Anchor cuando el precio de MAI cae por debajo de $0,99 o sube por encima de $1,01.
 
-![Gráfica del precio del token MAI en los últimos 90 días](<.gitbook/assets/image (7) (1) (1) (1) (1).png>)
+![Gráfica del precio del token MAI en los últimos 90 días](<.gitbook/assets/image (7) (1) (1).png>)
 
 ## ¿Por qué se mantiene siempre en $1?
 
@@ -52,7 +52,7 @@ Anchor permite a los usuarios acuñar MAI dando a cambio monedas estables e inte
 
 ![](<.gitbook/assets/image (9).png>)
 
-Tener un precio de techo y suelo ayuda a MAI a no variar demasiado de su "**peg**" (recuerda que este es el término que se utiliza para decir que las monedas estables mantienen el precio de $1) sin embargo, cómo has visto en la imagen superior del gráfico de MAI, hay ocasiones donde puedes participar en oportunidades de arbitraje de bajo riesgo (lo que significa que puedes vender tus monedas estables cuando MAI está por debajo de $1 o vender MAI cuando está por encima de $1 para ganar algo de dinero rápido).
+Tener un precio de techo y suelo ayuda a MAI a no variar demasiado de su "**peg**" (recuerda que este es el término que se utiliza para decir que las monedas estables mantienen el precio de $1) sin embargo, cómo has visto en la imagen superior del gráfico de MAI, hay ocasiones donde puedes participar en oportunidades de arbitraje de bajo riesgo (lo que significa que puedes vender tus monedas estables cuando MAI está por debajo de $1 o vender MAI cuando está por encima de $1 para ganar algo de dinero rápido).&#x20;
 
 Sobre las causas de la fluctuación del precio de MAI, podría haber dos razones principales para esto:
 
@@ -61,24 +61,25 @@ Sobre las causas de la fluctuación del precio de MAI, podría haber dos razones
 
 ### Depositando colateral en bóvedas
 
-Para poder acuñar MAI utilizando las bóvedas de Mai Finance, necesitas depositar algún colateral allí y tener un **CDR** (Collateral to Debt Ratio) por encima de un cierto nivel, en este caso es del 150% (sin embargo este porcentaje puede cambiar en el futuro si la comunidad lo decidiera). Esto significa que las bóvedas estarán siempre **sobre-colateralizadas** (en un 150%) para asegurar que siempre hay más colateral para respaldar el nuevo MAI acuñado.
+Para poder acuñar MAI utilizando las bóvedas de Mai Finance, necesitas depositar algún colateral allí y tener un **CDR** (Collateral to Debt Ratio) por encima de un cierto nivel, en este caso es del 150% (sin embargo este porcentaje puede cambiar en el futuro si la comunidad lo decidiera). Esto significa que las bóvedas estarán siempre **sobre-colateralizadas** (en un 150%) para asegurar que siempre hay más colateral para respaldar el nuevo MAI acuñado.&#x20;
 
-Recuerda que si una bóveda tiene menos de un 150% de CDR, ésta podría ser parcialmente liquidada por la comunidad, por lo que se podría perder una parte del colateral depositado si un liquidador paga parte de dicha deuda.
+Recuerda que si una bóveda tiene menos de un 150% de CDR, ésta podría ser parcialmente liquidada por la comunidad, por lo que se podría perder una parte del colateral depositado si un liquidador paga parte de dicha deuda.&#x20;
 
 A medida que el valor del colateral aumenta, se puede pedir prestado más MAI, ya que un aumento del precio del colateral aumentará el CDR del préstamo. En el caso opuesto, a medida que el valor del colateral disminuye, se podrá pedir prestado menos MAI, esto se hace para evitar que el CDR caiga por debajo de la marca del 150%.
 
 ## Conclusión
 
-Como has visto a lo largo de este artículo, la moneda estable MAI es un tipo de moneda estable que está **sobre-colateralizada,** lo que significa que siempre habrá suficiente garantía para respaldar el precio del token MAI. Esto debería dar suficiente alivio a aquellos inversores que dudan sobre invertir en proyectos que acuñan monedas estables. Además, hay que tener en cuenta que cuánto más MAI haya en el mercado, más estable será su precio.
+Como has visto a lo largo de este artículo, la moneda estable MAI es un tipo de moneda estable que está **sobre-colateralizada,** lo que significa que siempre habrá suficiente garantía para respaldar el precio del token MAI. Esto debería dar suficiente alivio a aquellos inversores que dudan sobre invertir en proyectos que acuñan monedas estables. Además, hay que tener en cuenta que cuánto más MAI haya en el mercado, más estable será su precio.&#x20;
 
 Recientemente, se han introducido los préstamos incentivos en las bóvedas de Mai Finance, si quieres entender en qué consiste, puedes consultar este [artículo](prestamos-mai-depositos-incentivados.md). Esto ayudará aún más a la estabilidad del precio de MAI
 
-## Disclaimer
+## Disclaimer&#x20;
 
 Puedes encontrar el artículo original hecho por el equipo de Mai Finance sobre MAI [aquí](https://docs.mai.finance/stablecoin-economics).
 
-Esta guía no es consejo financiero y ha sido realizada con un objetivo puramente educativo.
+Esta guía no es consejo financiero y ha sido realizada con un objetivo puramente educativo.&#x20;
 
 {% hint style="info" %}
 Tenga en cuenta que una estrategia que funciona bien en un momento dado puede dar malos resultados (o hacerle perder dinero) en otro momento. Manténgase informado, controle los mercados, vigile sus inversiones y, como siempre, investigue por su cuenta o **DYOR**.
 {% endhint %}
+

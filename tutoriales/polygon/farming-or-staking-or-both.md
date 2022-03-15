@@ -7,17 +7,17 @@ description: >-
 
 # ¿Farmear o hacer staking? ¿O Ambas?
 
-![](../../.gitbook/assets/screen-shot-2021-09-03-at-9.24.12-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
 
 ## Introducción
 
 Cuando utilizas aplicaciones DeFi (**De**centralize **Fi**nance) , especialmente cuando son granjas de farming, sueles acabar acumulando el token nativo de la granja que hayas utilizado. La mayoría de la gente suele vender dichos tokens para comprar sus cryptos favoritas , por lo que les mostraremos algunas alternativas para mantener los tokens nativos y ponerlos a trabajar, lo que incrementará tus beneficios finales.
 
-Para realizar esto, utilizaremos las nuevas LPs (Proveedor de Liquidez) lanzadas en QuickSwap al inicio de Septiembre de 2021, que utilizan el token Qi de Mai Finance. Si necesitas más información para entender las aplicaciones de QuickSwap y Adamant, léase el artículo [Stacking DApps guide](acumula-dapps-como-cromos.md).
+Para realizar esto, utilizaremos las nuevas LPs (Proveedor de Liquidez) lanzadas en QuickSwap al inicio de Septiembre de 2021, que utilizan el token Qi de Mai Finance. Si necesitas más información para entender las aplicaciones de  QuickSwap y Adamant, léase el artículo [Stacking DApps guide](acumula-dapps-como-cromos.md).
 
 ## Aplicación y presentación de los nuevos pares
 
-### Farming
+### Farming&#x20;
 
 Para poder maximizar nuestras ganancias, usaremos 3 aplicaciones diferentes:
 
@@ -46,7 +46,7 @@ Cabe destacar que los tokens generados en Mai Finance y Quickswap pueden ser usa
 
 ## Realizando Bootstrapping
 
-![](../../.gitbook/assets/screen-shot-2021-09-08-at-6.54.08-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
 
 A continuación, se va a realizar una simulación con una inversión inicial de $1,000 en los pares de liquidez (LPs) Qi/MATIC y Qi/WETH , teniendo en cuenta que los APRs / APYs utilizados son los que habían el **9 de Septiembre de 2021**. Cabe destacar que los porcentajes variarán, el precio de los tokens no será constante o que algunos programas pueden dejar de estar operativos. Por lo que los resultados son sólo una estimación de lo que podrías obtener si todo se mantuviera tal y cómo estaba el **9 de Septiembre de 2021,** cosa que nunca se producirá, así que este ejemplo se debe tomar como un recurso educativo.
 
@@ -56,7 +56,7 @@ A continuación, se va a realizar una simulación con una inversión inicial de 
 **ATENCIÓN:** Los porcentajes de los pares de liquidez utilizados a continuación son aquellos que estuvieron disponibles unas horas más tarde de la primera implementación de éstos, por lo que los APRs y APYs no van a ser los mismos a la hora de la lectura, donde además se realizarán revisiones continuas. Por favor, **DYOR** y utiliza esta guía con precaución.
 {% endhint %}
 
-Ya que tenemos $500 del par de liquidez Qi/MATIC y $500 del par de liquidez Qi/WETH, los depositaremos en Mai Finance y Quickswap respectivamente. Por otro lado, si prefieres acumular Qi o Quick, puedes aumentar los tokens del par de liquidez que prefieras, ya que así se te generarán más de tus tokens favoritos, por lo que así tendrás más para poder realizar staking de éste. En este ejemplo, se utilizará una división del 50% del capital inicial.
+Ya que tenemos $500 del par de liquidez Qi/MATIC y $500 del par de liquidez Qi/WETH,  los depositaremos en Mai Finance y Quickswap respectivamente. Por otro lado, si prefieres acumular Qi o Quick, puedes aumentar los tokens del par de liquidez que prefieras, ya que así se te generarán más de tus tokens favoritos, por lo que así tendrás más para poder realizar staking de éste. En este ejemplo, se utilizará una división del 50% del capital inicial.
 
 * $500 de Qi/MATIC estarán en Mai Finance, con un APR del 1160.65%.
 * $500 de Qi/WETH estarán en QuickSwap, con un APR del 1817.44%.
@@ -83,7 +83,7 @@ Por lo que al final del Día 1 tendremos en nuestro portafolio lo siguiente:
 
 ### Día 2
 
-En el 2º día, el dQUICK depositado en el "_Dragon's Syrup_" de QuickSwap comienza a generar tokens ADDY, así cómo el par Qi/QUICK en Adamant. Al final del día 2 se obtendrá lo siguiente:
+En el 2º día, el dQUICK depositado en el "_Dragon's Syrup_" de QuickSwap comienza a generar tokens ADDY, así cómo el par Qi/QUICK en Adamant. Al final del día 2 se obtendrá lo siguiente:&#x20;
 
 | Tipo de Recompensa  | Valor en Dólares |
 | ------------------- | ---------------- |
@@ -97,7 +97,7 @@ Es importante no olvidar que hay que reclamar las recomensas diarias de Adamant,
 
 ### Día 3
 
-En el Día 3, los tokens ADDY reclamados en Adamant comenzarán a generar diviendos en forma de WMATIC. Al final del día 3 se obtendrá lo siguiente:
+En el Día 3, los tokens ADDY reclamados en Adamant comenzarán a generar diviendos en forma de WMATIC. Al final del día 3 se obtendrá lo siguiente:&#x20;
 
 | Tipo de Recompensa  | Valor en Dólares |
 | ------------------- | ---------------- |
@@ -143,20 +143,20 @@ La rutina diaria de esta estrategia está formada por las siguientes transaccion
 
 ### Estimación de Resultados Mensuales
 
-| Mes | dQUICK    | Qi/QUICK   | ADDY       | <p>Qi/MATIC<br>Qi/WETH</p> |
-| --- | --------- | ---------- | ---------- | -------------------------- |
-| 1   | $280.96   | $1,040.78  | $54.97     | $0.91                      |
-| 2   | $557.79   | $2,162.98  | $224.36    | $7.89                      |
-| 3   | $842.08   | $3,413.73  | $521.09    | $27.85                     |
-| 4   | $1,138.60 | $4,816.62  | $960.17    | $68.48                     |
-| 5   | $1,454.30 | $6,405.18  | $1,559.60  | $138.44                    |
-| 6   | $1,798.77 | $8,224.86  | $2,341.64  | $247.49                    |
-| 7   | $2,184.58 | $10,335.38 | $3,334.13  | $406.84                    |
-| 8   | $2,627.76 | $12,813.60 | $4,572.23  | $629.47                    |
-| 9   | $3,148.40 | $15,757.01 | $6,100.39  | $930.60                    |
-| 10  | $3,771.42 | $19,288.05 | $7,974.83  | $1,328.32                  |
-| 11  | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31                  |
-| 12  | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79                  |
+| Mes | dQUICK    | Qi/QUICK   | ADDY       | <p>Qi/MATIC <br>Qi/WETH</p> |
+| --- | --------- | ---------- | ---------- | --------------------------- |
+| 1   | $280.96   | $1,040.78  | $54.97     | $0.91                       |
+| 2   | $557.79   | $2,162.98  | $224.36    | $7.89                       |
+| 3   | $842.08   | $3,413.73  | $521.09    | $27.85                      |
+| 4   | $1,138.60 | $4,816.62  | $960.17    | $68.48                      |
+| 5   | $1,454.30 | $6,405.18  | $1,559.60  | $138.44                     |
+| 6   | $1,798.77 | $8,224.86  | $2,341.64  | $247.49                     |
+| 7   | $2,184.58 | $10,335.38 | $3,334.13  | $406.84                     |
+| 8   | $2,627.76 | $12,813.60 | $4,572.23  | $629.47                     |
+| 9   | $3,148.40 | $15,757.01 | $6,100.39  | $930.60                     |
+| 10  | $3,771.42 | $19,288.05 | $7,974.83  | $1,328.32                   |
+| 11  | $4,527.47 | $23,559.40 | $10,266.47 | $1,844.31                   |
+| 12  | $5,454,16 | $28,760.60 | $13,064.51 | $2,504.79                   |
 
 ### Día 365
 
@@ -170,7 +170,7 @@ Tras realizar esta estrategia por un año, hemos obtenido los siguientes resulta
 | ADDY en Adamant              | 13,587.56        |
 | Qi/MATIC y Qi/WETH Adicional | 2,631.07         |
 
-Cabe destacar que el ADDY que se generaba diariamente en la granja de QuickSwap no se ha recogido de forma diaria y añadido a Adamant para incrementar las recompensas en esta simulación, para simplificar los cálculos. Además una vez pasado los 90 días del bloqueo del ADDY, no se volvió a bloquear el ADDY de nuevo, por lo que se podría obtener más recompensas en Adamant, así cómo obtener mas WMATIC.
+Cabe destacar que el ADDY que se generaba diariamente en la granja de QuickSwap no se ha recogido de forma diaria y añadido a Adamant para incrementar las recompensas en esta simulación, para simplificar los cálculos.  Además una vez pasado los 90 días del bloqueo del ADDY, no se volvió a bloquear el ADDY de nuevo, por lo que se podría obtener más recompensas en Adamant, así cómo obtener mas WMATIC.
 
 Finalmente, tras un año el beneficio generado es de $51,580.50. Si consideramos que la inversión inicial fue de $1,000 de Qi/MATIC y Qi/WETH, esto significa un APY del 5 087.39%.
 
