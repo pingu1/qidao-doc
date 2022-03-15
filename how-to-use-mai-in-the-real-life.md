@@ -23,7 +23,7 @@ Finalmente, ha podido repagar la inversión inicial para comprarse todas las GPU
 
 Por lo que en vez de esperar a que el precio de ETH despegue, DogeOfWallStreet decide comprar mas tarjetas gráficas para poder incrementar sus beneficios al minar. Comparando los precios, la _RTX 1660 super_ parece la tarjeta gráfica mas rentable, teniendo un precio de aproximadamente$500.00.
 
-![](<.gitbook/assets/Screen Shot 2021-08-13 at 12.07.41 PM.png>)
+![](.gitbook/assets/screen-shot-2021-08-13-at-12.07.41-pm.png)
 
 Tras llevar un mes minando, comprueba su portfolio en la Mainnet de Ethereum una vez la reserva ( o pool) le haya pagado. Comprueba que tiene el equivalente a $1,340.00 de ETH (esto se debe a los beneficios del minado y que ETH ha subido un 12% en 4 semanas) , por lo que debería tener lo suficiente para comprar la tarjeta gráfica, sin embargo, se encuentra en el siguiente dilema:
 
@@ -36,9 +36,9 @@ Ahí fue cuando descubrió Mai Finance y el poder de los préstamos al 0%.
 
 Tras leer toda la documentación de Mai Finance, y pedir ayuda en el servidor oficial de [Discord](https://discord.gg/mQq55j65xJ), DogeOfWallStreet es consciente de que hay una posibilidad de mantener sus ETH a la vez que puede comprar las tarjetas gráficas.
 
-El primer paso es trasladar los ETH a Polygon, para ello utilizará el  [PoS bridge](https://wallet.matic.network/bridge), por lo que podrá enviar sus activas de una cadena a otra con un precio "razonable" de $20,00 pagados en ETH.
+El primer paso es trasladar los ETH a Polygon, para ello utilizará el [PoS bridge](https://wallet.matic.network/bridge), por lo que podrá enviar sus activas de una cadena a otra con un precio "razonable" de $20,00 pagados en ETH.
 
-DogeOfWallStreet deposita sus ETH on [AAVE ](https://app.aave.com)recibiendo a cambio **amWETH**. Una vez hecho esto, se dirije a Mai Finance para depositarlos, obteniendo tokens  **camWETH** que podrá depositar en su bóveda (o [vault](https://app.mai.finance/vaults)) como colateral. Resumiendo, todavía posee todos sus ETH, y Mai Finance le permite obtener un 1.39% de APY adicional en su activo. No es mucho, pero menos es nada.
+DogeOfWallStreet deposita sus ETH on [AAVE ](https://app.aave.com)recibiendo a cambio **amWETH**. Una vez hecho esto, se dirije a Mai Finance para depositarlos, obteniendo tokens **camWETH** que podrá depositar en su bóveda (o [vault](https://app.mai.finance/vaults)) como colateral. Resumiendo, todavía posee todos sus ETH, y Mai Finance le permite obtener un 1.39% de APY adicional en su activo. No es mucho, pero menos es nada.
 
 Tras depositar $1,320.00 de **camWETH** en su bóveda, nuestro amigo podrá pedir prestado MAI gracias al colateral aportado. DogeOfWallStreet decide mantener una Ratio de Colateral a Deuda al 200%, por lo que sólo pedirá 600 MAI. Luego utiliza la página de [anchor ](https://app.mai.finance/anchor)para obtener 594 USDC (la página cobra un 1% de comisión). Una vez hecho esto, decide llevar los USDC a la mainnet de ETH, por lo que tendrá que volver a pagar 20$ de comisión para poder realizar esta operación. Sin embargo, no le importa ya que estas comisiones son para los mineros y su plan es ganar todo el dinero posible con esas comisiones.
 
@@ -54,7 +54,7 @@ La GPU extra está incrementando sus beneficios diarios en $2.14 . Según sus c�
 
 Viendo estos números, DogeOfWallStreet transferirá todos sus ETH minados a Polygon, repitiendo el bucle mensualmente, haciendo que al final pueda minar más ETH.
 
-Si en algún momento minar ETH deja de ser rentable,  podrá empezar a minar otra crypto como ETC, RVN o ERG, pero su granja de minado es una inversión excelente.
+Si en algún momento minar ETH deja de ser rentable, podrá empezar a minar otra crypto como ETC, RVN o ERG, pero su granja de minado es una inversión excelente.
 
 ## Inversión Inicial y formas de pagar la deuda
 
@@ -70,7 +70,7 @@ Por otro lado, podría haber dividido sus $1,300.00 de ETH en:
 * Una parte de ETH se vende directamente, pero el valor tendría que ser menor que la cantidad a pagar al banco por el préstamo.
 * Otra parte de ETH se transfiere a Polygon y Mai Finance donde podrá pedir prestado MAI y repagar el resto de la deuda del banco.
 
-Asumiendo que obtienes _**Beneficios**_ y tienes que pagar la _**Deuda** con_ _**Beneficios**_ > _**Deuda**_. Además, se asume que la _**Deuda**_ es mayor que la mitad de tus _**Beneficios**_.  _**Fiat**_ será la parte de tus _**Beneficios**_ que tendrás que usar para pagar tu _**Deuda**_, y _**Crypto**_** ** la parte que será enviada a Mai Finance para pedir prestado MAI. Por lo que podemos obtener las siguientes ecuaciones:
+Asumiendo que obtienes _**Beneficios**_ y tienes que pagar la _**Deuda** con_ _**Beneficios**_ > _**Deuda**_. Además, se asume que la _**Deuda**_ es mayor que la mitad de tus _**Beneficios**_. _**Fiat**_ será la parte de tus _**Beneficios**_ que tendrás que usar para pagar tu _**Deuda**_, y _**Crypto**_\*\* \*\* la parte que será enviada a Mai Finance para pedir prestado MAI. Por lo que podemos obtener las siguientes ecuaciones:
 
 $$
 Ganancias= Fiat + Crypto
@@ -117,4 +117,3 @@ Este tutorial no es consejo financiero y debería ser interpretado como contenid
 {% hint style="info" %}
 Ten en cuenta que una estrategia que en el presente funciona, puede no funcionar en un futuro (incluso podría hacerte perder dinero). Por favor, esté informado, monitorea el mercado, échale un ojo a tus inversiones periódicamente y como siempre, _**DYOR.**_
 {% endhint %}
-

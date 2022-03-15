@@ -35,13 +35,13 @@ Recuerda que aquí, Qi se junta con otro token para poder formar un par LP (**P*
 * Qi-WETH en QuickSwap y obtener tokens Quick como recompensa
 * Qi-QUICK en QuickSwap y obtener tokens Quick como recompensa
 
-![LP pool on QuickSwap for the Qi-WETH pair](<../../.gitbook/assets/image (19).png>)
+![LP pool on QuickSwap for the Qi-WETH pair](<../../.gitbook/assets/image (19) (2) (1) (1).png>)
 
 ### Farming solo con Qi
 
 Qi puede ser utilizado únicamente en [Impermax](https://polygon.impermax.finance). Impermax es una plataforma donde podrás apalancar un token LP varias veces para aumentar tus ganancias en QuickSwap.
 
-Funciona de la siguiente manera, pedirás prestado los 2 tokens que forman el par LP,  los combinarás para tener mas tokens LP, obteniendo así una mayor posición. En la mayoría de casos, los interés del préstamo son compensados por el APR del farming, obteniendo así resultados netos positivos
+Funciona de la siguiente manera, pedirás prestado los 2 tokens que forman el par LP, los combinarás para tener mas tokens LP, obteniendo así una mayor posición. En la mayoría de casos, los interés del préstamo son compensados por el APR del farming, obteniendo así resultados netos positivos
 
 ![Posicion apalancada en Qi-WETH en Impermax](<../../.gitbook/assets/image (10).png>)
 
@@ -57,13 +57,13 @@ En Impermax, para pedir prestado Qi y WETH para poder apalancar tu posición, lo
 
 En este ejemplo, nos centraremos únicamente en Qi. Como se puede observar en la imagen superior, el suministro total de Qi es de $427.21 y la cantidad usada para apalancar tu posición es de $321.44, obteniéndose así un porcentaje de uso del 75.24%. Impermax tiene un mecanismo interno que calcula automáticamente el APR de suministro (APR que la gente que preste Qi obtendrá) y el APR de préstamo (porcentaje de la recompensa farmeada que será deducida para pagar el préstamo).
 
-Esto significa que puedes suministrar Qi a Impermax y obtener, en nuestro ejemplo,  un APR del 43.73% , en el momento que ha sido escrito el artículo. Ya que la oferta y demanda variará, el APR de suministro se incrementará / disminuirá. Cuando suministras tokens a Impermax, obtendrás como recompensa el token que hayas suministrado, lo que significa que esta estrategia te hará acumular mas Qi con el tiempo.
+Esto significa que puedes suministrar Qi a Impermax y obtener, en nuestro ejemplo, un APR del 43.73% , en el momento que ha sido escrito el artículo. Ya que la oferta y demanda variará, el APR de suministro se incrementará / disminuirá. Cuando suministras tokens a Impermax, obtendrás como recompensa el token que hayas suministrado, lo que significa que esta estrategia te hará acumular mas Qi con el tiempo.
 
 Mientras uses Impermax, puedes usar la opción de apalancamiento para obtener tokens IMX. Por favor, léase el artículo de [Acumula Dapps como si fueran cromos](acumula-dapps-como-cromos.md) para obtener mas información acerca de cómo usar Impermax en tu estrategia de farmeo.
 
 ### Balancer
 
-Balancer es una buena herramienta para cualquier estrategia, especialmente en aquellas que incluyan Qi y/o MAI. Balancer propone un un equivalente al farmeo con par LP,  pero con más de un token suministrado en un ratio de 1:1. La piscina puede tener 3, 4 o 5 tokens (algunas veces incluso más) con diferente peso, y el algoritmo del programa se encargará de que el ratio de cada token se respete, vendiendo algunos tokens y comprando otros para mantener el equilibrio.
+Balancer es una buena herramienta para cualquier estrategia, especialmente en aquellas que incluyan Qi y/o MAI. Balancer propone un un equivalente al farmeo con par LP, pero con más de un token suministrado en un ratio de 1:1. La piscina puede tener 3, 4 o 5 tokens (algunas veces incluso más) con diferente peso, y el algoritmo del programa se encargará de que el ratio de cada token se respete, vendiendo algunos tokens y comprando otros para mantener el equilibrio.
 
 La piscina que vamos a usar en este ejemplo tiene Qi, WMATIC, BAL, USDC y MAI. Esta piscina te dará recompensas en forma de tokens Qi y BAL , y como se puede ver en la imagen, podrás componer ambas en la piscina. Porque otras de las grandes ventajas de Balancer, es que no necesitas suministrar todos los token en su respectivo ratio, ya que el algoritmo lo hará por ti. Es decir, podrías suministrar únicamente Qi en la piscina, y el algoritmo se encargará de reequilibrar el resto.
 
@@ -98,7 +98,7 @@ Las piscinas de Mai Finance son responsables de la creación de 64,800 Qi cada d
 
 Respecto a las bóvedas, cada una de ellas genera 0.05 Qi / bloque, con una emisión diaria de 2 160 Qi, y al haber actualmente 10 bóvedas, se obtiene un total de 21 600 Qi distribuidos como recompensa para los préstamos incentivados
 
-Esto significa que cada día, 86 400  Qi son creados y distribuidos a sus usarios.
+Esto significa que cada día, 86 400 Qi son creados y distribuidos a sus usarios.
 
 ### Optimizadores de rendimiento
 
@@ -163,7 +163,7 @@ Cuando el precio de cualquier activo disminuye, pero tu cantidad aumenta, tu val
 
 ## Descargo de responsabilidad
 
-Este artículo ha sido escrito como resultado de numerosas discusiones acerca del precio de Qi en el servidor de Discord. Mucha gente se estaba quejando acerca de la depreciación del precio de Qi, sin llegar a entender los motivos por el cual sucedía eso. Esto lleva a desilusión y frustración,  lo que afecta a la comunidad de Qi, de Mai Finance, y al ecosistema DeFi en general. Ten en cuenta, que no hay ninguna garantía que haga que el precio de Qi aumente, por lo que si quieres mantener tus Qis e invertirlos, haga su propia investigación y sea consciente del riesgo.
+Este artículo ha sido escrito como resultado de numerosas discusiones acerca del precio de Qi en el servidor de Discord. Mucha gente se estaba quejando acerca de la depreciación del precio de Qi, sin llegar a entender los motivos por el cual sucedía eso. Esto lleva a desilusión y frustración, lo que afecta a la comunidad de Qi, de Mai Finance, y al ecosistema DeFi en general. Ten en cuenta, que no hay ninguna garantía que haga que el precio de Qi aumente, por lo que si quieres mantener tus Qis e invertirlos, haga su propia investigación y sea consciente del riesgo.
 
 {% hint style="info" %}
 Ten en cuenta que una estrategia que en el presente funciona, puede no funcionar en un futuro (incluso podría hacerte perder dinero). Por favor, esté informado, monitorea el mercado, échale un ojo a tus inversiones periódicamente y como siempre, _**DYOR.**_

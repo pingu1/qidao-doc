@@ -9,7 +9,7 @@ description: >-
 
 ## Cuando una imagen vale más que mil palabras <a href="#when-a-picture-is-worth-a-thousand-words" id="when-a-picture-is-worth-a-thousand-words"></a>
 
-![](<../../.gitbook/assets/ES\_Incrementa las ganancias de tus tokens de AAVE.png>)
+![](../../.gitbook/assets/es\_incrementa-las-ganancias-de-tus-tokens-de-aave.png)
 
 ## Pero mil palabras tampoco están de más <a href="#but-a-thousand-words-are-also-not-that-bad" id="but-a-thousand-words-are-also-not-that-bad"></a>
 
@@ -91,7 +91,7 @@ En cuanto al número de pasos, el mejor enfoque es detenerte cuando deposites tu
 
 ## Ejemplos con números <a href="#examples-with-numbers" id="examples-with-numbers"></a>
 
-Los siguientes ejemplos están basados en $1.000 de valor en MATIC, con diferentes ratios de Colateral a Deuda (CDR) para ilustrar cómo apalancarte para incrementar tus posiciones usando Mai Finance.&#x20;
+Los siguientes ejemplos están basados en $1.000 de valor en MATIC, con diferentes ratios de Colateral a Deuda (CDR) para ilustrar cómo apalancarte para incrementar tus posiciones usando Mai Finance.
 
 ### 200% de relación entre Colateral y Deuda <a href="#200-collateral-to-debt-ratio" id="200-collateral-to-debt-ratio"></a>
 
@@ -125,7 +125,7 @@ Como pues ver fácilmente, el uso de una combinación entre Aave y Mai Finance d
 |   9   | $2,318.18 | $1,324.67 |       $114.29      |     11.429%     |
 |   10  | $2,324.67 |     -     |       $114.61      |     11.461%     |
 
-Agregar más deuda después del bucle 9 no aumentará mi inversión en más de $10, por lo que este es un lugar apropiado para detenerse. El CDR resultante de 9 bucles es de 175,49%.&#x20;
+Agregar más deuda después del bucle 9 no aumentará mi inversión en más de $10, por lo que este es un lugar apropiado para detenerse. El CDR resultante de 9 bucles es de 175,49%.
 
 Podemos ver fácilmente que con un enfoque más agresivo, el APY final también es más atractivo. Esto suele ser cierto con cualquier estrategia de DeFi: cuanto mayor es el riesgo, mayor es la recompensa potencial.
 
@@ -167,7 +167,7 @@ Una vez más, con nuestro CDR objetivo del 200%, un APY inicial de 4.93% y 7 buc
 
 ## Descargo de responsabilidad <a href="#disclaimer" id="disclaimer"></a>
 
-Todo el contenido de esta estrategia asume los siguientes supuestos:&#x20;
+Todo el contenido de esta estrategia asume los siguientes supuestos:
 
 * El APY de Aave es estable y permanece igual durante el lapso de 1 año (el APY tendrá alguna variación)
 * El APR de Polygon otorgado en Aave es estable y permanece igual durante el lapso de 1 año (lo cual es poco probable)

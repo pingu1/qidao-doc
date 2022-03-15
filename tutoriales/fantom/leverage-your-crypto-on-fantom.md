@@ -10,13 +10,13 @@ description: >-
 
 Mai Finance ha lanzado su plataforma de préstamos en Fantom con muchos tipos de bóveda diferentes, permitiendo la posibilidad de acuñar la moneda estable MAI en base a los activos que deposites las bóvedas. La idea es que puedas conservar tus criptomonedas y beneficiarte de la revalorización de su precio, mientras compras otras monedas y hacer farming de altos rendimientos. Utilizar tu préstamo para comprar el mismo activo que ya has depositado, es lo que se conoce cómo apalancar tus tokens. A continuación, te mostraremos los beneficios de esta estrategia utilizando 2 plataformas de préstamo diferentes en Fantom para apalancar nuestros tokens DAI.Deposit your assets on Yearn Finance
 
-## Apalanca tus tokens Yearn Vault&#x20;
+## Apalanca tus tokens Yearn Vault
 
 ### Deposita tus activos en Yearn Finance
 
 [Yearn Finance](https://beta.yearn.finance/#/home) es un grupo de protocolos que se ejecutan en la Mainnet de Ethereum y otras blockchains que permiten a los usuarios optimizar sus ganancias en criptoactivos a través de servicios de préstamo y comercio. En Fantom, la funcionalidad que utilizaremos es la bóveda de Yearn Finance. Se trata de una herramienta que aceptará depósitos de un solo token y te hará generar rendimientos sobre este depósito. Como prueba del depósito, recibirás un yvToken. En nuestro caso, depositaremos DAI y obtendremos yvDAI a cambio.
 
-![Los vaults de Yearn en la red de Fantom ](../../.gitbook/assets/ftm-leverage-yv1.png)
+![Los vaults de Yearn en la red de Fantom](../../.gitbook/assets/ftm-leverage-yv1.png)
 
 {% hint style="info" %}
 El sitio web de finanzas de Yearn todavía está en modo beta en Fantom. El equipo todavía está trabajando en la plataforma y las APRs/APYs no se muestran. Si te diriges a la pestaña Iron Bank, que es el protocolo de préstamo/préstamo en la plataforma de yearn, verás que el préstamo de DAI está obteniendo \~8% APR. Por favor, invierta según su propio riesgo.
@@ -26,11 +26,11 @@ El sitio web de finanzas de Yearn todavía está en modo beta en Fantom. El equi
 
 Una vez que hayas depositado tu DAI en yearn finance, deberías tener yvDAI en tu cartera. Esto es lo que llamamos un token con rendimiento: es un token que no tiene ningún valor en sí mismo, sino que representa su participación en un fondo común donde sus activos están generando rendimientos y en el que las recompensas se componen automáticamente. Es decir, aunque DAI no cambia de valor porque el DAI está vinculado al dólar estadounidense, el valor subyacente de su token yvDAI aumenta de todos modos.
 
-&#x20;Mai Finance acepta muchos tokens de rendimiento diferentes como colateral, incluyendo yvDAI. Ahora puede depositar este token y pedir prestado MAI contra él.
+Mai Finance acepta muchos tokens de rendimiento diferentes como colateral, incluyendo yvDAI. Ahora puede depositar este token y pedir prestado MAI contra él.
 
-![Deposita tus yvToken en Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
+![Deposita tus yvToken en Mai Finance](<../../.gitbook/assets/ftm-leverage-yv2 (1).png>)
 
-La bóveda de yvDAI tiene un umbral de liquidación del 110%, esto significa que puedes pedir prestado MAI como mínimo cuando la relación entre tu valor de garantía y el valor de tu deuda sea del 110%. Tenga cuidado de que el 110% es en realidad el porcentaje en la que su bóveda será parcialmente liquidada, por lo que tienes que mantener el ratio siempre por encima de este umbral mínimo. Dado que el precio del DAI no varía mucho (menos de unos pocos céntimos hacia arriba o hacia abajo) es posible mantener un **CDR** (Coeficiente de Colateral a Deuda) "seguro" del 115%, pero siéntase libre de elegir un valor algo más alto.&#x20;
+La bóveda de yvDAI tiene un umbral de liquidación del 110%, esto significa que puedes pedir prestado MAI como mínimo cuando la relación entre tu valor de garantía y el valor de tu deuda sea del 110%. Tenga cuidado de que el 110% es en realidad el porcentaje en la que su bóveda será parcialmente liquidada, por lo que tienes que mantener el ratio siempre por encima de este umbral mínimo. Dado que el precio del DAI no varía mucho (menos de unos pocos céntimos hacia arriba o hacia abajo) es posible mantener un **CDR** (Coeficiente de Colateral a Deuda) "seguro" del 115%, pero siéntase libre de elegir un valor algo más alto.
 
 Como siempre, para calcular el valor del préstamo que podemos obtener en función del valor de nuestra garantía y del CDR objetivo que queremos conseguir, utilizaremos la siguiente fórmula:
 
@@ -66,7 +66,7 @@ $$
 
 ### Deposita tus activos en Beefy Finance
 
-[Beefy Finance](https://app.beefy.finance/#/fantom) es una plataforma descentralizada y optimizadora de rendimientos multicadena que permite a sus usuarios ganar intereses compuestos sobre sus criptomonedas. En otras palabras, puede depositar algunos activos o tokens LP de otras plataformas en Beefy Finance y dejar que se auto-cosechen sus tokens de granja y los vuelva a componer en su activo depositado / token LP.&#x20;
+[Beefy Finance](https://app.beefy.finance/#/fantom) es una plataforma descentralizada y optimizadora de rendimientos multicadena que permite a sus usuarios ganar intereses compuestos sobre sus criptomonedas. En otras palabras, puede depositar algunos activos o tokens LP de otras plataformas en Beefy Finance y dejar que se auto-cosechen sus tokens de granja y los vuelva a componer en su activo depositado / token LP.
 
 En nuestro ejemplo, usaremos depósitos simples de DAI en Beefy y usaremos [Scream](https://scream.sh/lend) como plataforma subyacente. Scream es un fork de Compound en la red Fantom en la que podrás prestar tus activos y recoger tokens SCREAM. Beefy venderá entonces los tokens SCREAM para obtener más DAI.
 
@@ -84,7 +84,7 @@ $$
 MAI_{disponible}=\frac{100-0*1.4}{1.4}=71.43
 $$
 
-​Como estamos pidiendo menos, podremos realizar menos bucles y el APY final equivalente también será menor, sin embargo, esta sigue siendo una estrategia bastante buena para principiantes.&#x20;
+​Como estamos pidiendo menos, podremos realizar menos bucles y el APY final equivalente también será menor, sin embargo, esta sigue siendo una estrategia bastante buena para principiantes.
 
 El resto del bucle es el mismo que para yvDAI, lo que significa que tendrás que cambiar tu MAI por DAI en BeethovenX y repetir hasta que estés satisfecho.
 
@@ -94,7 +94,7 @@ El apalancamiento de DAI se considera una estrategia para principiantes en el se
 
 ### Riesgo de Liquidación
 
-Cuanto más bucles realices, mayor será el riesgo de liquidación. De hecho, incluso una pequeña variación del precio del DAI se verá magnificada por el apalancamiento que hayas aplicado, e incluso si mantienes un CDR 5 puntos por encima del ratio de liquidación, tu cámara puede estar en riesgo. Siempre es una buena idea detener los bucles de apalancamiento en el paso en el que depositas tus activos en la financiación de MAI y no pedir préstamos adicionales de MAI para mantener un mejor CDR.&#x20;
+Cuanto más bucles realices, mayor será el riesgo de liquidación. De hecho, incluso una pequeña variación del precio del DAI se verá magnificada por el apalancamiento que hayas aplicado, e incluso si mantienes un CDR 5 puntos por encima del ratio de liquidación, tu cámara puede estar en riesgo. Siempre es una buena idea detener los bucles de apalancamiento en el paso en el que depositas tus activos en la financiación de MAI y no pedir préstamos adicionales de MAI para mantener un mejor CDR.
 
 Además, en caso de liquidación, dado que su bóveda en la financiación MAI contiene muchos más activos, una liquidación también tendrá un mayor impacto que si no apalancó su posición, simplemente porque la deuda que tiene que pagar es también mucho mayor.
 
@@ -116,7 +116,7 @@ Este mensaje de error aparecerá incluso si su CDR es correcto. En la mayoría d
 
 ## Descargo de Responsabilidad
 
-Esta guía presenta algunas de las formas en las que puedes utilizar tus activos en Fantom e incluir a MAI Finance en tu estrategia para aumentar tus ganancias. Sin embargo, como siempre, este tutorial no es un consejo financiero y siempre debes hacer tu propia investigación antes de aplicar una estrategia de inversión, e invertir de manera responsable.&#x20;
+Esta guía presenta algunas de las formas en las que puedes utilizar tus activos en Fantom e incluir a MAI Finance en tu estrategia para aumentar tus ganancias. Sin embargo, como siempre, este tutorial no es un consejo financiero y siempre debes hacer tu propia investigación antes de aplicar una estrategia de inversión, e invertir de manera responsable.
 
 Ten en cuenta también que esta solución puede no ser la mejor estrategia dependiendo del momento en que pienses utilizarla. Acabamos de destacar que BeethovenX tiene unos APR bastante interesantes también para su MAI, y también puede utilizar Beefy Finance para componer las recompensas de BEETS en monedas más estables.
 
