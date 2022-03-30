@@ -18,6 +18,7 @@
   * [Haciendo staking de MAI con Ethalend](tutoriales/polygon/ethalend-single-staking.md)
   * [El elefante, el chimpacé y la nutria](tutoriales/polygon/the-elephant-and-the-otter.md)
   * [De CeFi a DeFi conCelsius](tutoriales/polygon/cefi-to-defi-with-celsius.md)
+  * [From Traditional Finance to DeFi with Jarvis](tutoriales/polygon/jarvis.md)
 * [Avalanche](tutoriales/avalanche/README.md)
   * [Cómo comenzar en Avalanche](tutoriales/avalanche/how-to-get-started-on-avalanche.md)
   * [Page 1](tutoriales/avalanche/page-1.md)
