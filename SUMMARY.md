@@ -18,6 +18,7 @@
   * [MAI single-staking with Ethalend](tutoriels/polygon/ethalend-single-staking.md)
   * [L'éléphant, le singe et la loutre](tutoriels/polygon/the-elephant-and-the-otter.md)
   * [From CeFi to DeFi with Celsius](tutoriels/polygon/cefi-to-defi-with-celsius.md)
+  * [From Traditional Finance to DeFi with Jarvis](tutoriels/polygon/jarvis.md)
 * [Avalanche](tutoriels/avalanche/README.md)
   * [Comment démarrer sur Avalanche](tutoriels/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](tutoriels/fantom/README.md)
