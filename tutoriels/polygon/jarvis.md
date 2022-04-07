@@ -1,156 +1,172 @@
 ---
 description: >-
-  This tutorial will try to cover some DeFi solutions
-  enabled by Jarvis for people who want to invest with
-  synthetics assets pegged to non-USD Fiats.
+   Ce tutoriel va essayer de couvrir certaines solutions DeFi proposé par Jarvis pour les personnes qui veulent investir avec des
+  des actifs synthétiques liés à des Fiats non-USD.
 ---
 
-# From Traditional Finance to DeFi with Jarvis
+# De la finance traditionnelle à la DEFI avec Jarvis
 
-Not all stable coins are equal. For most DeFi (**De**centralized **Fi**nance) users, stable coins represent a cryptocurrency that is pegged to the U.S. dollar. This is the case for assets like:
+Toutes les crypto stables ne sont pas égales. Pour la plupart des utilisateurs de DeFi (**De**centralized **Fi**nance), les stables coins représentent une crypto-monnaie qui est rattachée au dollar américain (le plus souvent). C'est le cas d'actifs comme :
 
-* USDC or USDT that are issued by centralized entities and backed by U.S. dollars
-* over-collateralized assets like DAI or MAI that are softly pegged to the U.D. dollar but backed by a basket of different cryptocurrencies
-* algorithmic stable coins like UST or MIM that are partially backed and for which the $1 peg is maintained using a specific algorithm
+* USDC ou USDT qui sont émis par des entités centralisées et adossés au dollar américain.(Circle et Tether)
+* les stables surcollatéralisés comme DAI ou MAI qui sont mollement rattachés au dollar américain mais adossés à un panier de différentes crypto
+* les stables algorithmiques stables comme l'UST ou le MIM qui sont partiellement garanties et pour lesquelles l'ancrage à 1 dollar est maintenu à l'aide d'un algorithme spécifique.
 
-But did you know that you can find other stable coins? As an example, TOMB is a token that is pegged to the FTM price (the native gas token of the Fantom network) using algorithms.
+Mais saviez-vous que vous pouvez trouver d'autres stable coins ? À titre d'exemple, TOMB est un jeton qui est arrimé au prix du FTM (le jeton de gaz natif du réseau Fantom) à l'aide d'algorithmes.
 
-In this article, we'll focus on stable coins that are pegged to FIATs (government-issued currencies), and we will try to explain why they are important for your investment strategies.
+Dans cet article, nous allons nous concentrer sur les monnaies stables qui sont arrimées aux FIAT (monnaies émises par les gouvernements), et nous allons essayer d'expliquer pourquoi elles sont importantes pour vos stratégies d'investissement.
 
 ![](<../../.gitbook/assets/Jarvis-0.png>)
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+N'oubliez pas qu'une stratégie qui fonctionne bien à un moment donné peut donner de mauvais résultats (ou vous faire perdre de l'argent) à un autre moment. Restez informé, surveillez les marchés, gardez un œil sur vos investissements et, comme toujours, faites vos propres recherches.
 {% endhint %}
 
-## Why do we need synthetic FIATs ?
+## Pourquoi avons nous besoin de FIAT synthétiques ?
 
-Let's consider you are living in a European country and use Euro daily. If you were to buy crypto assets, you would most likely buy them with your Euros. For volatile assets like Bitcoin, it doesn't really matter because you'll be focusing on the price of Bitcoin in Euros to assess whether or not you are making money. And hopefully, you will make some.
+Considérons que vous vivez dans un pays européen et que vous utilisez l'euro quotidiennement. Si vous deviez acheter des actifs synthétiques, vous les achèteriez très probablement avec vos euros. Pour les actifs volatils comme le bitcoin, cela n'a pas vraiment d'importance car vous vous concentrerez sur le prix du bitcoin en euros pour évaluer si vous gagnez de l'argent ou non. Et avec un peu de chance, vous en gagnerez.
 
-But what if you want to invest in DeFi and yield farming instead? And what if, to mitigate the risks, you want to provide liquidity using stable coins only? Most of the stable liquidity on many chains is provided as USD-pegged assets, which means you will have to purchase USDC/USDT/DAI/MAI using your Euros. At this point, you should check that the liquidity you provide is generating interest, but also that the price difference between the US Dollar and the Euro isn't working against you.
+Une monnaie FIAT est une monnaie Fiduciaire reconnue par un état et ayant cours légale dans celui ci.
 
-![EUR/USD over the last year](<../../.gitbook/assets/Jarvis-1.png>)
+un jFIAT est un actif numérique indexé sur une monnaie FIAT donc l'execution du suivi est garanti par un smart contrat 
 
-If you bought 100€ worth of USDC on the 20th of September 2021, you would have had $117.29 worth of USDC because the ratio EUR:USD was 1:1.1729 at that time. If you were to convert $117.29 worth of USDC in Euros today (March 24th, 2022) with a ratio 1:1.0994, you would get 106.69€, or a gain of 6.69%.
+Mais que faire si vous souhaitez plutôt investir dans le DeFi et yield farming ? Et si, pour diminuer les risques, vous voulez fournir des liquidités en utilisant uniquement des stable coin ? La plupart des liquidités stables sur de nombreuses chaînes sont fournies sous forme d'actifs libellés en USD, ce qui signifie que vous devrez acheter des USDC/USDT/DAI/MAI avec vos euros. À ce stade, vous devez vérifier que la liquidité que vous fournissez suscite de l'intérêt, mais aussi que la différence de prix entre le dollar américain et l'euro ne joue pas contre vous.
 
-But if you bought CAD 100 (100 Canadian Dollars) worth of USDC on the same day (September 20th, 2021) with a ratio of 1:0.7796 you would have had USD 77.96 worth of USDC. Converting these today to CAD with a ratio of 1:0.7972, would be worth CAD 97.79, or a loss of 2.21%.
 
-However, 1 CAD always equals 1 CAD no matter what, like 1 USD = 1 USD and 1 EUR = 1 EUR.
 
-Every currency of every country varies according to the geopolitical situation, internal and international politics, micro and macroeconomic decisions. This is why you need to pay attention to the price variation of your crypto assets, even if they are "stable".
+![EUR/USD sur l'année passée](<../../.gitbook/assets/Jarvis-1.png>)
 
-## Jarvis Network and Mt. Pelerin
+## Attention au variation de cours des monnaies
 
-### What is Jarvis Network
+Si vous aviez acheté 100€ d'USDC le 20 septembre 2021, vous auriez eu 117,29$ d'USDC car le ratio EUR:USD était de 1:1,1729 à ce moment-là. Si vous convertissiez aujourd'hui (24 mars 2022) 117,29 $ d'USDC en euros avec un ratio de 1:1,0994, vous obtiendriez 106,69 €, soit un gain de 6,69 %.
 
-[Jarvis Network](https://jarvis.network/) is a specialized application that allows users [to swap their crypto assets](https://app.jarvis.exchange/) for synthetics FIATs. A synthetic FIAT is a cryptocurrency that is pegged to the price of an existing FIAT. As such, Jarvis will let you swap your USDCs for
+Mais si vous aviez acheté 100 CAD (100 dollars canadiens) d'USDC le même jour (20 septembre 2021) avec un ratio de 1:0,7796, vous auriez eu 77,96 USD d'USDC. En les convertissant aujourd'hui en CAD avec un ratio de 1:0,7972, ils vaudraient 97,79 CAD, soit une perte de 2,21 %.
 
-* jCAD: the crypto version of the Canadian Dollar
-* jEUR: the crypto representation of Euro
-* jJPY: the crypto version of the Japanese Yen
-* jSGD, jCHF, jGBP, and many more
+Cependant, 1 CAD est toujours égal à 1 CAD quoi qu'il arrive, comme 1 USD = 1 USD et 1 EUR = 1 EUR.
 
-As such, Jarvis really is an On-Chain Forex (**For**eign **Ex**change) that is live on the Ethereum Mainnet, but also on Polygon, BNB Chain, Gnosis Chain, and Avalanche.
+Chaque monnaie de chaque pays varie en fonction de la situation géopolitique, de la politique interne et internationale, des décisions micro et macroéconomiques. C'est pourquoi vous devez faire attention à la variation du prix de vos crypto-actifs, même s'ils sont "stables". les communiqué de la FED américaine ou de la Banque centrale européenne sont à suivre.
 
-But it doesn't stop there. Jarvis proposes incentivezed liquidity pools that inclue jFIATs. This is done to attract users to deposit their jFIATs and earn yields on their stablecoins (with the hability to deposit a single asset via Curve pools), help other protocols that offer stable coins while not having a lot of liquidity, and make it easy for DeFi users to off-ramp their gains.
+## Jarvis Network et Mt. Pelerin
 
-![Liquidity pools on Jarvis as of March 2022](<../../.gitbook/assets/Jarvis-2.png>)
+### Qu'est ce que Jarvis Network
+
+[Jarvis Network](https://jarvis.network/) est un protocole that qui permet aux utilisateurs [d'échanger des cryptos](https://app.jarvis.exchange/) des synthétiques FIATs. Un FIAT synthétique est une crypto-monnaie qui est rattachée au prix d'un FIAT existant. À ce titre, Jarvis vous permettra d'échanger vos USDC contre
+
+* jCAD : la version cryptée du dollar canadien
+* jEUR : la représentation cryptographique de l'euro
+* jJPY : la version cryptée du Yen japonais
+* jSGD, jCHF, jGBP, et bien d'autres encore.
+
+En tant que tel, Jarvis est vraiment un Forex On-Chain (**For**eign **Ex**change) qui est en direct sur le Mainnet Ethereum, mais aussi sur Polygon, BNB Chain, Gnosis Chain et Avalanche.
+
+il propose aussi un exchange et des solutions pour différentes monnaies dans plusieurs pays
+
+Mais cela ne s'arrête pas là. Jarvis propose des pools de liquidité incités qui incluent les jFIATs. Ceci afin d'inciter les utilisateurs à déposer leurs jFIATs et à obtenir des rendements sur leurs stable coin (avec la possibilité de déposer un seul actif via les pools Curve), d'aider d'autres protocoles qui offrent des coins stables tout en n'ayant pas beaucoup de liquidités, et de permettre aux utilisateurs de DeFi de retirer facilement leurs gains.
+
+Le protocole est complètement on chain, ainsi que l'execution de ses smart contrat, les jFIAT (ainsi sont appelées les monnaies de jarvis, sont indexés sur les FIAT qui leur corresponde, mais "backé" avec de l'USDC)
+
+![Pools de liquidité sur Jarvis à partir de mars 2022](<../../.gitbook/assets/Jarvis-2.png>)
 
 {% hint style="info" %}
-You can see in the screenshot above that the 2CAD pair is composed of jCAD and CADC. The CADC token is actually another version of the Canadian Dollar provided by [DFX](https://app.dfx.finance/), another decentralized Forex solution.
+Vous pouvez voir dans la capture d'écran ci-dessus que la paire 2CAD est composée de jCAD et CADC. Le jeton CADC est en fait une autre version du dollar canadien fournie par [DFX](https://app.dfx.finance/), une autre solution Forex décentralisée.
 {% endhint %}
 
-### Mt. Pelerin
 
-[Mt. Pelerin](https://www.mtpelerin.com/bridge-wallet) is a non custodial fiat-crypto OTC desk. It allows users to purchase crypto from their bank account directly, and to have them directly deposited in their crypto wallet. It's also a direct partner of Jarvis and lets you buy jFIATs.
+### Mt. Pelerin - on / off ramp facile
+
+[Mt. Pelerin](https://www.mtpelerin.com/bridge-wallet) est une solution de on / off ramp de crypto-monnaie sans stockage de fond. Il permet aux utilisateurs d'acheter des crypto depuis leur compte bancaire directement, et de les faire déposer directement dans leur portefeuille de crypto. Il est également un partenaire direct de Jarvis et vous permet d'acheter des jFIATs. Elle se situe en suisse et collabore avec des banques suisse et des institutions suisse depuis sa création.
+
+le plus interessant est que le jEuro est gratuit sur les transferts vers polygon / bsc ce qui permet de rentrer et sortir facilement sur des protocoles.
+on peut aussi mettre en place facilement un DCA vers de l'eth / btc sur son wallet avec des virements direct depuis son compte bancaire
 
 {% hint style="info" %}
-The easiest way to use Mt. Pelerin is via the Bridge Wallet mobile application. Note that because it's a centralized service, you will have to provide personal information to prove your identity if you want to be able to use the service. You also need to have a bank that allows you to make bank transfers to Switzerland. However, it's always possible to use their website on which you will find a widget allowing you to buy cryptocurrencies from a bank transfer or using a Credit Card. This isn't subject to any KYC but has some limitations. Note that by using the website, your purchase will be sent directly to your web wallet. For the rest of this guide, we will present the Birdge Wallet solution though.
-{% endhint %}
+Le moyen le plus simple d'utiliser Mt. Pelerin est de passer par l'application mobile Bridge Wallet. Notez que, comme il s'agit d'un service centralisé, vous devrez fournir des informations personnelles pour prouver votre identité si vous voulez pouvoir utiliser le service. Vous devez également avoir une banque qui vous permet d'effectuer des virements bancaires vers la Suisse. Cependant, il est toujours possible d'utiliser leur site web sur lequel vous trouverez un widget vous permettant d'acheter des cryptocurrences à partir d'un virement bancaire ou en utilisant une carte de crédit. Cette méthode n'est soumise à aucun KYC mais présente certaines limites. Notez qu'en utilisant le site web, votre achat sera envoyé directement sur votre portefeuille web. Pour le reste de ce guide, nous présenterons cependant la solution Birdge Wallet.
 
-![Buying some jEUR with a EUR bank transfer](<../../.gitbook/assets/Jarvis-3.png>)
+Autre point interessant on peut utiliser son entreprise pour envoyer des cryptos sur les block chain avec MT pelerin. De nombreux développeurs sont ainsi devenus bank less en se faisant payé en crypto dans leur wallet (et paye les impots dans la devise de leur pays)
 
-Bank transfers may be subject to fees, and will most likely take some time to complete, but overall, Mt. Pelerin allows you to easily buy and sell your synthetic FIATs for their FIAT counterparts. They also have an internal [fee structure](https://www.mtpelerin.com/pricing) that you can read in more detail, and depending on the asset you buy, you may be able to buy and sell up to $100,000 per year free of charge.
+![Acheter quelques jEUR avec un virement bancaire en EUR](<../../.gitbook/assets/Jarvis-3.png>)
 
-![Selling some jCAD to my bank account](<../../.gitbook/assets/Jarvis-6.png>)
+Les transferts bancaires peuvent être soumis à des frais, et prendront très probablement un certain temps pour être effectués, mais dans l'ensemble, Mt. Pelerin vous permet d'acheter et de vendre facilement vos FIAT synthétiques pour leurs homologues FIAT (Euro contre jEuro par exemple). Il existe également une [structure tarifaire] interne (https://www.mtpelerin.com/pricing) que vous pouvez consulter plus en détail. Selon le bien que vous achetez, vous pouvez acheter et vendre gratuitement jusqu'à 100 000 dollars par an. les MPS sont en cours de réavaluation coté Mt Pelerin pour avoir des seuils plus adaptés
+
+![Vendre un peu de jCAD à mon compte en banque](<../../.gitbook/assets/Jarvis-6.png>)
 
 {% hint style="info" %}
-If you bought jFIATs, your bank account is automatically linked to your Bridge Wallet account and you will be able to select it from the dropdown list of recipients. If not, you will have to create a new account from an IBAN.
+Si vous avez acheté des jFIATs, votre compte bancaire est automatiquement lié à votre compte Bridge Wallet et vous pourrez le sélectionner dans la liste déroulante des destinataires. Sinon, vous devrez créer un nouveau compte à partir d'un IBAN.
 {% endhint %}
 
-### Link your Polygon wallet to your Mt. Pelerin account (Bridge wallet address)
+### Lier votre porte-monnaie Polygon à votre compte Mt. Pelerin (adresse du porte-monnaie Bridge)
 
-Linking your wallet to your Mt. Pelerin / Bridge Wallet account is as easy as
+Pour relier votre portefeuille à votre compte Mt. Pelerin / Bridge Wallet, il vous suffit d'effectuer les opérations suivantes
 
-* Opening the Bridge Wallet application
-* Open the Addresses tab at the bottom
-* Click on `Link an address`
-* Take a photo of the QR code of your Polygon wallet, or copy and paste the complete address in the field
-* Send a few MATICs to the Bridge Wallet address to validate it
+* Ouvrir l'application Bridge Wallet
+* Ouvrir l'onglet Adresses en bas de la page
+* Cliquez sur "Lier une adresse".
+* Prendre une photo du code QR de votre porte-monnaie Polygon, ou copier et coller l'adresse complète dans le champ.
+* Envoyez quelques MATICs à l'adresse du portefeuille Bridge pour la valider.
 
 ![](<../../.gitbook/assets/Jarvis-5.png>)
 
 ![Linking my Polygon wallets to my Mt. Pelerin application](<../../.gitbook/assets/Jarvis-4.png>)
 
 {% hint style="info" %}
-Once again, you can use the widget on the Mt. Pelerin website to [buy](https://www.mtpelerin.com/buy-ehtereum) and [sell](https://www.mtpelerin.com/sell-ethereum) your crypto using your web wallet (or hardware wallet) directly without using the Bridge Wallet. Please refer to the Mt. Pelerin website.
+Une fois encore, vous pouvez utiliser le widget du site web de Mt. Pelerin pour [acheter](https://www.mtpelerin.com/buy-ehtereum) et [vendre](https://www.mtpelerin.com/sell-ethereum) votre crypto en utilisant votre portefeuille web (ou votre portefeuille matériel) directement sans utiliser le Bridge Wallet. Veuillez consulter le site Web de Mt. Pelerin.
 {% endhint %}
 
-### Sending jFIATs to your Polygon wallet
+### Envoi de jFIATs vers votre porte-monnaie Polygon
 
-Sending your jFIATs to your wallet on Polygon (or any supported chain) is very easy. From the Wallet tab, make sure you are on the network you want to use as a destination and load your jWallet Currencies.
+L'envoi de vos jFIATs à votre porte-monnaie sur Polygon (ou toute autre chaîne prise en charge) est très simple. Dans l'onglet Portefeuille, assurez-vous que vous êtes sur le réseau que vous voulez utiliser comme destination et chargez vos devises jWallet.
 
-![Sending jCAD to Polygon](<../../.gitbook/assets/Jarvis-8.png>)
+![Envoi de jCAD à Polygon](<../../.gitbook/assets/Jarvis-8.png>)
 
-After you selected the jFIAT you want to send, simply click on send, fill up the different fields, then initiate the transaction and enjoy low gas and fast processing!
+Après avoir sélectionné la jFIAT que vous souhaitez envoyer, il suffit de cliquer sur envoyer, de remplir les différents champs, puis d'initier la transaction et de profiter d'un gaz faible et d'un traitement rapide !
 
 {% hint style="info" %}
-You can get a full recap of all your transactions in the activity section of each jFIAT, as well as on the Activity tab on the main screen.
+Vous pouvez obtenir un récapitulatif complet de toutes vos transactions dans la section activité de chaque jFIAT, ainsi que dans l'onglet Activité de l'écran principal.
 {% endhint %}
 
-![Checking that I received my jCAD on DeBank.com](<../../.gitbook/assets/Jarvis-7.png>)
+![Vérifier que j'ai reçu mon jCAD sur DeBank.com](<../../.gitbook/assets/Jarvis-7.png>)
 
 {% hint style="success" %}
-Mt. Pelerin is a very good solution to buy and sell cryptocurrencies and synthetic FIATs. But you can also use this service to send money to your friends and family if they are also using the application and possibly bypass complex bank transfers or limitations.
+Mt. Pelerin est une très bonne solution pour acheter et vendre des crypto-monnaies et des FIATs synthétiques. Mais vous pouvez également utiliser ce service pour envoyer de l'argent à vos amis et à votre famille s'ils utilisent également l'application et éventuellement contourner les transferts bancaires complexes ou les limitations.
 {% endhint %}
 
-## Getting the best of your stable jFIATs
+## Tirer le meilleur parti de vos jFIATs stables
 
-You have synthetic FIATs on Polygon, so now we need a clever way to use them. In the intro, we saw that it may be a better idea to use them as-is instead of swapping them (selling them) for USD-pegged stable coins.
+Vous disposez de FIATs synthétiques sur le Polygone, il nous faut donc maintenant trouver une façon intelligente de les utiliser. Dans l'introduction, nous avons vu qu'il était préférable de les utiliser tels quels plutôt que de les échanger (vendre) contre des pièces stables libellées en USD.
 
-Think also about this scenario: you have Canadian dollars and want a little bit of exposure to Ethereum. Wouldn't it be nice if you could buy Ethereum without taking the risk of actually buying it? Well, this is what lending markets are for !!!
+Pensez aussi à ce scénario : vous avez des dollars canadiens et vous voulez vous exposer un peu à l'Ethereum. Ne serait-il pas agréable de pouvoir acheter de l'Ethereum sans prendre le risque de l'acheter réellement ? Eh bien, c'est à cela que servent les marchés de prêts ! !!
 
 ### Market.xyz
 
 [Market.xyz](https://www.market.xyz/) is a lending protocol where you will be able to use some of your crypto assets as collateral to borrow other assets. They recently launched a new pool 100% dedicated to Jarvis synthetic FIATs: https://polygon.market.xyz/pool/7.
 
-![Jarvis Forex locked on Market.xyz as of March 2022](<../../.gitbook/assets/Jarvis-9.png>)
+![Jarvis Forex disponible sur  Market.xyz en Mars 2022](<../../.gitbook/assets/Jarvis-9.png>)
 
-As you can see, you can lend your jFIATs and earn interest from borrowers. The locker also accepts some LP (**L**iquidity **P**roviding) tokens as collateral. This means that you can lend your m2CAD or m2JPY and still earn ~27% APY (**A**nnual **P**ercentage **Y**ield) on them, and borrow other jFIATs like jCAD or jJPY to leverage your position. You can also borrow some MAI, the USD-pegged stable coin created by the QiDAO protocol behind Mai Finance. The QiDAO community agreed to provide new MAI on a regular basis to maintain a low interest rate on MAI loans from the Jarvis locker on Market.xyz.
+Comme vous pouvez le voir, vous pouvez prêter vos jFIATs et gagner des intérêts auprès des emprunteurs. Le casier accepte également certains jetons LP (**L**iquidité **P**roviding) comme garantie. Cela signifie que vous pouvez prêter vos m2CAD ou m2JPY et gagner ~27% d'APY (Rendement annuel % ) sur ceux-ci, et emprunter d'autres jFIATs comme jCAD ou jJPY pour augmenter votre position. Vous pouvez également emprunter du MAI, le stablecoin libellée en USD créée par le protocole QiDAO qui sous-tend Mai Finance. La communauté QiDAO a accepté de fournir régulièrement de nouveaux MAI afin de maintenir un faible taux d'intérêt sur les prêts MAI de Jarvis sur Market.xyz.
 
 {% hint style="danger" %}
-There's a minimum borrowing amount of 0.05 ETH on Market.xyz lockers, which is equivalent to $150 as of March 2022. Since you need to keep a healthy Collateral to Debt Ratio, make sure that you deposit enough collateral if you want to take a loan on the platform.
+Il y a un montant minimum d'emprunt de 0,05 ETH sur  Market.xyz, ce qui équivaut à 150 $ à partir de mars 2022. Puisque vous devez conserver un bon ratio garantie/dette, assurez-vous de déposer suffisamment de garanties si vous souhaitez contracter un prêt sur la plateforme.
 {% endhint %}
 
-As for any lending platform on Polygon, Market.xyz will enforce a healthy Collateral to Debt Ratio. This is what the LTV of each collateral represents (**L**oan **T**o **V**alue, the inverse of the CDR). As an example, the LTV of m2CAD is 60%, meaning that the ratio between your debt and your collateral value needs to remain above 60%.
+Comme pour toute plateforme de prêt sur le Polygone, Market.xyz appliquera un ratio sain de garantie et de dette. C'est ce que représente le LTV de chaque garantie . Par exemple, le LTV de m2CAD est de 60%, ce qui signifie que le rapport entre votre dette et la valeur de votre garantie doit rester supérieur à 60%.
 
-In the case of m2CAD, the collateral is pegged to the Canadian Dollar which can vary compared to the MAI you will borrow (pegged to the US dollar). However, the variation is very small, so you can in theory borrow very close to the threshold of 60%. For our guide, we will try to stick to a CDR of 200%, which corresponds to a LTV of 0.4 (1 / 2.5 = 0.5). To be able to borrow the required 0.05 ETH worth of MAI, we will need a collateral value of
+Dans le cas de m2CAD, la valeur de la garantie est fixée au dollar canadien, ce qui peut varier par rapport au MAI que vous emprunterez (fixé au dollar américain). Cependant, la variation est très faible, donc vous pouvez en théorie emprunter très près du seuil de 60%. Pour notre guide, nous allons essayer de nous en tenir à un CDR de 200%, ce qui correspond à un LTV de 0,4 (1 / 2,5 = 0,5). Pour pouvoir emprunter la valeur requise de 0,05 ETH de MAI, nous aurons besoin d'une valeur de garantie de
 
 $$
-AvailableCollateral = \frac{Debt Value}{LTV} = \frac{0.05 ETH}{0.4} = 300\$
+AvailableCollateral = \frac{Debt Value}{LTV} = \frac{0,05 ETH}{0,4} = 300\$
 $$
 
-Since today the USD:CAD ratio is 1:0.7972, I will need an initial investment of
+Étant donné qu'aujourd'hui le rapport USD:CAD est de 1:0,7972, j'aurai besoin d'un investissement initial de $$$.
 
 $$
 InvestmentCAD = \frac{300}{0.7972} = 376.32 CAD
 $$
 
 {% hint style="info" %}
-Assuming I invest $300 worth of CAD and borrow $150 worth of MAI, I will currently earn 27% APY (23.91% APR) on my collateral and will have to pay 11.28% interest on my loan. Over the span of 1 year, that represents a growth of $81 of my collateral and $16.92 worth of interest to pay.
+En supposant que j'investisse 300 $ de CAD et que j'emprunte 150 $ de MAI, j'obtiendrai actuellement un rendement annuel de 27 % (TAEG de 23,91 %) sur ma garantie et je devrai payer 11,28 % d'intérêts sur mon prêt. Sur une période d'un an, cela représente une croissance de 81 $ de ma garantie et 16,92 $ d'intérêts à payer.
 {% endhint %}
 
-Now let's see what to do with your USD-pegged loan.
+Voyons maintenant ce qu'il faut faire avec votre prêt en USD.
 
 ### Uniswap V3
 
