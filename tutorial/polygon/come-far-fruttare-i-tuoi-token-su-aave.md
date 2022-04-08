@@ -9,7 +9,7 @@ description: >-
 
 ## Quando un'immagine vale più di mille parole
 
-![](<../../.gitbook/assets/image (21) (2) (1).png>)
+![](<../../.gitbook/assets/image (21) (1) (1).png>)
 
 ## Ma in fondo mille parole non sono poi così male
 
@@ -21,11 +21,11 @@ Supponiamo che adori MATIC e pensi che attualmente sia sottovalutato. Pensi che 
 
 [Aave](https://app.aave.com) è una piattaforma di deposito e prestito in cui puoi depositare i tuoi token MATIC (insieme ad altri token). Depositando su Aave, i tuoi token depositati guadagneranno un rendimento. Ad esempio, i tuoi $100 di MATIC genereranno potenzialmente un tasso di rendita dell'1,2% nell'arco di 1 anno (APY). A volte, Aave proporrà anche campagne specifiche che forniranno premi aggiuntivi oltre agli APY di deposito di base. Dato che i tuoi token MATIC sono nel pool Aave, l'interesse generato viene automaticamente reinvestito, ciò significa che la quantità di MATIC che detieni crescerà nel tempo.
 
-![In questo esempio, ho depositato 0.2 MATIC](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.29.53 PM.png>)
+![In questo esempio, ho depositato 0.2 MATIC](../../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
 
 Depositando il tuo token MATIC su Aave, ricevi una quantità equivalente di amWMATIC (aave market wrapped MATIC). Potresti non vedere questi token direttamente nel tuo portafoglio a meno che tu non li aggiungi manualmente ma li possiedi.
 
-![Posso vedere i 0.20 MATIC che ho depositato da DeBank](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.31.01 PM.png>)
+![Posso vedere i 0.20 MATIC che ho depositato da DeBank](../../.gitbook/assets/screen-shot-2021-08-06-at-5.31.01-pm.png)
 
 ### Utilizzare Mai Finance per far crescere i tuoi token Aave
 
@@ -35,7 +35,7 @@ Noterai che il rendimento generato da Mai Finance è lo stesso che otterresti su
 
 Tuttavia, oltre all'APY di base, Mai Finance reinvestirà anche le eventuali ricompense Aave aggiuntive disponibili per il token scelto (nel nostro esempio MATIC), generando così un rendimento passivo maggiore nel token scelto. Nel nostro esempio (vedi sopra), Aave fornisce l'1,16% di APY per i MATIC depositati ed un APR "premio" aggiuntivo del 3,69% pagato in MATIC ma questo "premio" aggiuntivo non genera alcun rendimento. Depositando il tuo amWMATIC su Mai Finance, il "premio" viene raccolto periodicamente e reinvestito sul tuo deposito principale in modo da ottenere anche su di esso il tasso di interesse dell'1,16%.
 
-![I miei 0.2 MATIC ora sono depositati su Mai Finance genereranno un rendimento del 4.93% annuale](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.45.00 PM.png>)
+![I miei 0.2 MATIC ora sono depositati su Mai Finance genereranno un rendimento del 4.93% annuale](../../.gitbook/assets/screen-shot-2021-08-06-at-5.45.00-pm.png)
 
 Quando gli amWMATIC vengono depositati su Mai Finance, in cambio si ottengono i camWMATIC. Il rapporto tra questi due token non è perfettamente 1:1, questo perché camMATIC rappresenta in realtà una quota del pool amWMATIC su Mai, all'interno del quale interessi e premi vengono automaticamente reinvestiti. E' importante anche evidenziare che quando depositi gli amWMATIC su Mai Finance, questi token vengono rimossi da Aave. Tuttavia, se ritiri i tuoi amWMATIC da Mai Finance, li ritroverai su Aave.
 
@@ -59,7 +59,7 @@ Quando camWMATIC viene depositato in un Vault, il saldo sulla pagina Yield sarà
 
 Quando accederai alla pagina Vault e selezionerai camWMATIC dal menu a discesa del vault, ti verrà data la possibilità di creare un nuovo vault in cui puoi depositare il tuo camWMATIC. Tieni in consiederazione che devi mantenere un Collateral to Debt Ratio (CDR) di almeno il 155% quando prendi in prestito a fronte dei tuoi camWMATIC.
 
-![I miei 0.2 MATIC sono completamente usati come collaterale](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.57.55 PM.png>)
+![I miei 0.2 MATIC sono completamente usati come collaterale](../../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
 
 **Nota**: in questa pagina potrai vedere il valore del tuo collaterale in USD e il valore varia in base al tipo di collaterale, al valore del token e ai vantaggi generati dal pool camWMATIC.
 
@@ -69,7 +69,7 @@ Quando accederai alla pagina Vault e selezionerai camWMATIC dal menu a discesa d
 E' importante ricordarsi che è propria responsabilità visitare di tanto in tanto la pagina del Vault per verificare di essere sempre al di sopra del rapporto di liquidazione e possibilmente aggiungere ulteriore collaterale se si inizia a scendere al di sotto di un certo "limite di sicurezza". A seconda del profilo di rischio, questa soglia di sicurezza può variare di caso in caso.
 {% endhint %}
 
-![In questo caso ho un debito di 0.1USD mantenendo un CDR del 214.56%](<../../.gitbook/assets/Screen Shot 2021-08-06 at 6.07.34 PM.png>)
+![In questo caso ho un debito di 0.1USD mantenendo un CDR del 214.56%](../../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
 
 Ho preso in prestito $0,10 di MAI, che si traduce in un CDR del 214,56%. Ora divertiamoci un po' con i miei soldi.
 
@@ -77,7 +77,7 @@ Ho preso in prestito $0,10 di MAI, che si traduce in un CDR del 214,56%. Ora div
 
 Ora posso tranquillamente andare sul mio DEX preferito (QuickSwap o SushiSwap ad esempio) e scambiare i miei MAI con più MATIC.
 
-![](<../../.gitbook/assets/Screen Shot 2021-08-06 at 6.10.35 PM.png>)
+![](../../.gitbook/assets/screen-shot-2021-08-06-at-6.10.35-pm.png)
 
 Dopo lo scambio, ho più MATIC nel mio portafoglio.
 

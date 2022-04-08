@@ -6,7 +6,7 @@ description: >-
 
 # MAI Metaverse
 
-![MAI Everywhere!](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.06.42 PM.png>)
+![MAI Everywhere!](../.gitbook/assets/MAI.png)
 
 ## Introduzione
 
@@ -48,7 +48,7 @@ Per inviare i tuoi token MAI a Solana, puoi utilizzare [AllBridge](https://allbr
 
 L'interfaccia è davvero intuitiva, devi semplicemente selezionare le due reti e l'asset che vuoi trasferire tra le stesse.
 
-![Trasferire MAI da Polygon a Solana](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.52.23 PM.png>)
+![Trasferire MAI da Polygon a Solana](../.gitbook/assets/screen-shot-2021-09-13-at-1.52.23-pm.png)
 
 Il prossimo passo è indicare l'indirizzo del tuo portafoglio Solana e l'importo che vuoi trasferire. Tieni presente che MetaMask non supporta i portafogli Solana (per ora?) quindi dovrai creare un portafoglio separato su quella rete. Può essere un portafoglio web simile a MetaMask o un portafoglio app. Si prega di leggere le [raccomandazioni ufficiali del team Solana](https://docs.solana.com/wallet-guide) prima di sceglierne uno.
 
@@ -60,11 +60,11 @@ Tieni presente che Solana non offre alcun faucet da cui ottenere i tuoi primi SO
 
 Allo stesso modo in cui puoi utilizzare MAI su Polygon per fornire liquidità e farmare, puoi fare lo stesso su Solana. Il luogo principale in cui è possibile utilizzare MAI è [Saber](https://app.saber.so), nel pool MAI/USDC.
 
-![Stato del pool MAI/USDC su Saber al Settembre 2021](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.11.10 PM.png>)
+![Stato del pool MAI/USDC su Saber al Settembre 2021](../.gitbook/assets/screen-shot-2021-09-13-at-2.11.10-pm.png)
 
 Una delle cose positive del pool MAI/USDC su Saber è che a differenza dei pool LP (Liquidity Providing) su QuickSwap, non è necessario fornire coppie LP con un rapporto 1:1. Puoi semplicemente depositare un singolo asset (MAI o USDC) o un rapporto sbilanciato di entrambe le stable coin. Come su Balancer.
 
-![MAI e USDC non sono bilanciati nel pool Saber](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.13.51 PM.png>)
+![MAI e USDC non sono bilanciati nel pool Saber](../.gitbook/assets/screen-shot-2021-09-13-at-2.13.51-pm.png)
 
 Ciò significa che puoi effettivamente depositare MAI al 100% senza doverne scambiare con USDC. È particolarmente conveniente ed evita l'influenza dovuta alle differenze di prezzo tra le 2 stable coin. Nota che riceverai ricompense pagate nel token nativo della farm, allo stesso modo in cui verresti ricompensato in QUICK per il farming su QuickSwap su Polygon. Puoi quindi vendere i tuoi token Saber per aumentare la tua posizione MAI/USDC.
 
@@ -80,7 +80,7 @@ Avalanche è una blockchain, progettata per fornire una piattaforma open source 
 
 Come per AllBridge, l'interfaccia utente è abbastanza semplice. È sufficiente selezionare la rete da cui trasferire l'asset, la sua destinazione e l'asset da trasferire.
 
-![Trasferire MAI da Polygon ad Avalanche](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.52.31 PM.png>)
+![Trasferire MAI da Polygon ad Avalanche](../.gitbook/assets/screen-shot-2021-09-13-at-2.52.31-pm.png)
 
 Metamask supporta i [portafogli Avax](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche), quindi non avrai bisogno di alcun portafoglio aggiuntivo rispetto all'esempio precedente di Solana.
 
@@ -88,7 +88,7 @@ Metamask supporta i [portafogli Avax](https://support.avax.network/en/articles/4
 
 Allo stesso modo in cui puoi usare MAI per farmare su Polygon, puoi usare MAI anche su Avalanche. La piattaforma principare è [Trader Joe's](https://www.traderjoexyz.com/#/farm), al cui interno troverai un pool MAI/USDC.
 
-![Stato del pool MAI/USDC su Trader Joe al Settembre 2021](<../.gitbook/assets/Screen Shot 2021-09-13 at 3.07.19 PM.png>)
+![Stato del pool MAI/USDC su Trader Joe al Settembre 2021](../.gitbook/assets/screen-shot-2021-09-13-at-3.07.19-pm.png)
 
 Le farm su Avalanche funzionano in maniera molto simile a quelle su Polygon. Puoi utilizzare l'app di Trader Joe nello stesso modo in cui utilizzeresti QuickSwap. Dovrai prima creare una coppia LP utilizzando lo stesso rapporto tra MAI e USDC ed in seguito potrai depositare la coppia LP nella farm. Allo stesso modo in cui verresti pagato in QUICK quando farmi su QuickSwap, verrai ricompensato in token JOE quando farmi su Trader Joe. Puoi quindi utilizzare questi token in altri pool o venderli per reinvestire sulla coppia LP MAI/USDC.
 

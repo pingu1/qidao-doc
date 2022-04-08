@@ -12,7 +12,7 @@ description: >-
 
 Quando fai farming in una farm, di solito ricevi ricompense sotto forma di token nativi della farm stessa. Hai quindi la possibilità di scegliere se venderli o tenerli e sperare che guadagnino valore nel tempo. Questa guida presenterà alcune DApp (Applicazioni decentralizzate) che ti permetteranno di massimizzare i tuoi rendimenti senza vendere nulla pur continuando a far crescere la rendita. Questo articolo partirà dalle stable coin, perché sono l'ideale per una strategia relativamente sicura. Tuttavia, è necessario ricordare che questo non è un consiglio finanziario e che questa guida deve essere seguita con cautela poiché i risultati non sono assolutamente garantiti. Come sempre, fai le tue ricerche.
 
-![](<../../.gitbook/assets/Screen Shot 2021-08-30 at 10.52.20 AM.png>)
+![](../../.gitbook/assets/screen-shot-2021-08-30-at-10.52.20-am.png)
 
 ## QuickSwap
 
@@ -22,11 +22,11 @@ QuickSwap è uno dei più grandi AMM (Automated Market Maker) su Polygon. Gli ut
 
 Per questo esercizio utilizzeremo la coppia MAI/USDC su QuickSwap. Questo pool di liquidità, un pool di stable coin, propone un APY (Annual Percentage Yield che varia tra il 20% e il 25%). Il rendimento è composto dalle commissioni di transazione (che maturano nel pool di liquidità) e dai premi QUICK.
 
-![Pool di liquidità MAI/USDC su QuickSwap ad Agosto 2021](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![Pool di liquidità MAI/USDC su QuickSwap ad Agosto 2021](../../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
 Il pool riceve una quantità fissa di token QUICK ogni giorno, che vengono quindi distribuiti ai fornitori di liquidità in base alla loro quota nel pool. Ad esempio, se il pool ha l'equivalente di $1.000.000 di liquidità e hai già depositato $1.000 di token LP (Liquidity Provider), possiedi lo 0,1% del pool, che ti dà diritto allo 0,1% del premio QUICK giornaliero. La tua ricompensa in QUICK sarà quindi riscattabile direttamente dal pool in cui hai depositato.
 
-![Riscattare le mie ricompense QUICK per un deposito di $20](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.39.44 AM.png>)
+![Riscattare le mie ricompense QUICK per un deposito di $20](../../.gitbook/assets/screen-shot-2021-08-30-at-6.39.44-am.png)
 
 Puoi riscattarli regolarmente per reinvestirli. Vediamo come:
 
@@ -34,7 +34,7 @@ Puoi riscattarli regolarmente per reinvestirli. Vediamo come:
 
 Il Dragon's Lair è un modo per ottimizzare i tuoi guadagni su QuickSwap. Puoi depositare i token QUICK che guadagni dai pool di liquidità nel "Lair" e ti guadagnerai ulteriori ricompense in QUICK. Questa è una buona idea se vuoi detenere i token QUICK invece di venderli. Quando i tuoi token QUICK vengono depositati nella Dragon's Lair le ricompense generate vengono automaticamente sommate e l'APY del Lair è di circa il 12%.
 
-![APY del Dragon's Lair ad Agosto 2021](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.42.39 AM.png>)
+![APY del Dragon's Lair ad Agosto 2021](../../.gitbook/assets/screen-shot-2021-08-30-at-6.42.39-am.png)
 
 Dopo aver depositato i tuoi token QUICK, otterrai nel tuo portafoglio alcuni token dQUICK che rappresentano la tua quota del pool QUICK. Nota che il rapporto QUICK:dQUICK non è 1:1 poiché dQUICK rappresenta la tua quota del pool mentre la quantità di QUICK aumenterà nel tempo man mano che vengono aggiunte più ricompense al pool.
 
@@ -44,7 +44,7 @@ Ora hai le tue stable coin depositate nel pool di liquidità che generano ricomp
 
 Il Dragon's Syrup è un ulteriore modo che QuickSwap offre per premiare ancora di più gli utenti che detengono token QUICK. Il team QuickSwap ha creato un programma per cui i partner possono promuovere i propri prodotti concedendo il proprio token agli utenti della piattaforma QuickSwap. Puoi quindi depositare i tuoi token dQUICK in una delle farm per guadagnare questi token "esotici" in aggiunta alle ricompense di Dragon's Lair. Quello che ci interessa è la farm ADDY.
 
-![Dragon's Syrup, una farm per ottenere token ADDY attraverso il deposito di dQUICK](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.49.25 AM.png>)
+![Dragon's Syrup, una farm per ottenere token ADDY attraverso il deposito di dQUICK](../../.gitbook/assets/screen-shot-2021-08-30-at-6.49.25-am.png)
 
 Quando depositi i tuoi dQUICK nella farm, scompariranno dal Dragon's Lair (più o meno allo stesso modo in cui i tuoi CamToken scompaiono dalla pagina Yield su Mai Finance quando li depositi in un Vault). Ma puoi vedere chiaramente che l'APY di dQUICK dal Lair è ancora presente e che otterrai anche una ricompensa aggiuntiva ADDY. Qui, l'APR (premio percentuale annuale) è attualmente del 21,36%.
 
@@ -80,7 +80,7 @@ Per questo esercizio utilizzeremo il pool MAI/USDC su Impermax. Depositando alcu
 
 Su QuickSwap ho depositato $20 di MAI/USDC. Su Impermax, deposito solo $10 di MAI/USDC e applicherò una leva x2 per ottenere un'esposizione di $20.
 
-![Finestra di impostazione della leva su Impermax](<../../.gitbook/assets/Screen Shot 2021-08-30 at 7.11.10 AM.png>)
+![Finestra di impostazione della leva su Impermax](../../.gitbook/assets/screen-shot-2021-08-30-at-7.11.10-am.png)
 
 Potete notare dallo screenshot qui sopra che se aumentassi la mia leva a x2.1 prenderei in prestito:
 
@@ -108,7 +108,7 @@ Adamant è una piattaforma di ottimizzazione di rendimenti che automatizza il ri
 
 Stiamo guadagnando token QUICK su QuickSwap e token IMX su Impermax. Possiamo quindi usare Adamant per farmare nel pool QUICK/IMX da QuickSwap. Perché farlo? Perché la farm è molto redditizia, come possiamo vedere qui:
 
-![Pool IMX/QUICK di QuickSwap su Adamant](<../../.gitbook/assets/Screen Shot 2021-08-30 at 7.27.26 AM.png>)
+![Pool IMX/QUICK di QuickSwap su Adamant](../../.gitbook/assets/screen-shot-2021-08-30-at-7.27.26-am.png)
 
 Alla stesura di questo articolo,  l' APY del pool IMX/QUICK su Adamant è del 417,25%. La ricompensa è composta da:
 
@@ -231,7 +231,7 @@ A questo punto il "debito" su Mai Finance verrà utilizzato per aumentare le pos
 
 ## Risultati del farming
 
-![](<../../.gitbook/assets/Screen Shot 2021-08-30 at 11.33.34 AM.png>)
+![](../../.gitbook/assets/screen-shot-2021-08-30-at-11.33.34-am.png)
 
 ### Routine quotidiana
 

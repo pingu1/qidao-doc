@@ -7,7 +7,7 @@ description: >-
 
 # MAI Metaverse Pt.2
 
-![](../.gitbook/assets/MAI.png)
+![](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.06.42 PM.png>)
 
 ## Harmony
 

@@ -19,7 +19,7 @@ Il modo più diretto per ripagare il tuo debito è usare un po' di fiat, sopratt
 
 Mai Finance collabora con [Transak](https://transak.com) per collegare facilmente gli acquisti di crypto attraverso carte di credito/debito o bonifici bancari, direttamente alla rete Polygon. Basta andare su Mai Finance e fare clic sull'icona Transak nella barra dei menu per aprire un popup che ti consentirà di acquistare alcuni MATIC e inviarli direttamente al tuo portafoglio Polygon.
 
-![Comprare USDC da FIAT e trasferirli direttamente su Polygon](<../.gitbook/assets/Screen Shot 2021-08-18 at 9.43.07 AM.png>)
+![Comprare USDC da FIAT e trasferirli direttamente su Polygon](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
 
 Il problema principale è il tempo impiegato per elaborare la transazione. Tuttavia, ciò ti consentirà poi di scambiare USDC con MAI e rimborsare parzialmente o completamente il tuo debito.
 
@@ -42,7 +42,7 @@ Tuttavia, ad alcune persone semplicemente non piace l'idea di avere un debito e 
 * Inserisci l'ammontare che vuoi rimborsare
 * Clicca Repay MAI ed è fatta
 
-![Rimborso parziale di una parte del mio debito](<../.gitbook/assets/Screen Shot 2021-08-17 at 1.02.23 PM.png>)
+![Rimborso parziale di una parte del mio debito](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
 
 Ad esempio
 
@@ -134,7 +134,7 @@ A seconda della tua strategia e di come ti senti riguardo al debito, potrebbe es
 * MAI è a 0% di interessi + 0.5% di commissione di rimborso
 * AAVE non ha commissioni di rimborso, ma un APR variabile di interessi sul rimborso
 
-![APY di Deposito e Prestito su AAVE ad Agosto 2021](<../.gitbook/assets/Screen Shot 2021-08-18 at 6.52.08 AM.png>)
+![APY di Deposito e Prestito su AAVE ad Agosto 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
 
 Ad esempio per USDC, puoi vedere che il tasso di prestito è del 3,79% con un rendimento attuale del 2,08% rimborsato in MATIC. Questo dà, al momento della stesura, l'equivalente dell'1,71% che dovrai rimborsare mantenendo il prestito per un anno intero. Con AAVE però dato che puoi ripagare il tuo debito molto rapidamente, l'APY variabile è pari allo 0,005% giornaliero. Quindi, ci vorrebbero 100 giorni (poco più di 3 mesi) per raggiungere lo 0,5% del tuo debito.
 

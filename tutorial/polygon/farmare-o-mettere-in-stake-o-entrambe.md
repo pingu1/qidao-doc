@@ -7,7 +7,7 @@ description: >-
 
 # Farmare o mettere in Stake? O entrambe le cose?
 
-![Farmare, Mettere in stake o entrambe le cose?](<../../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
+![Farmare, Mettere in stake o entrambe le cose?](../../.gitbook/assets/screen-shot-2021-09-03-at-9.24.12-am.png)
 
 ## Introduzione
 
@@ -46,7 +46,7 @@ Devi anche sapere che i token in eccesso ottenuti su Mai Finance e QuickSwap pos
 
 ## Avvio del sistema
 
-![](<../../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
+![](../../.gitbook/assets/screen-shot-2021-09-08-at-6.54.08-am.png)
 
 Quella che segue è una simulazione realizzata con un investimento iniziale di 1.000$ di token Qi/MATIC e Qi/WETH LP e si basa sugli attuali APR/APY forniti dalle diverse piattaforme al 9 settembre 2021. Questa non è una rappresentazione reale di quanto descritto sopra. Le tariffe varieranno, i prezzi dei token varieranno, alcuni programmi finiranno ecc... quindi i risultati finali sono solo una stima di ciò che potresti ottenere se tutto rimanesse stabile, il che è altamente improbabile.
 

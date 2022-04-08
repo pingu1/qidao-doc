@@ -28,7 +28,7 @@ Una volta depositati i tuoi $DAI su Yearn Finance, dovresti avere $yvDAI nel tuo
 
 Mai Finance accetta molti token con rendimento come garanzia, incluso $yvDAI. Ora puoi depositare questo token e prendere in prestito $MAI.
 
-![Depositare il tuo yvToken su Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
+![Depositare il tuo yvToken su Mai Finance](<../../.gitbook/assets/ftm-leverage-yv2 (1).png>)
 
 Il Vault $yvDAI ha una soglia di liquidazione del 110%, questo significa che puoi prendere in prestito $MAI con un rapporto tra il valore della tua garanzia e il valore del debito che non può scendere sotto il 110%. Attenzione, il 110% è effettivamente il rapporto raggiunto il quale il tuo Vault verrà liquidato. È necessario mantenere il rapporto al di sopra di questa soglia minima. Dato che $DAI non varia molto nel prezzo (meno di qualche centesimo in più o in meno) è possibile restare relativamente sicuri con un CDR (**C**ollateral to **D**ebt **R**atio) del 115%, ma sei libero di tenerlo più alto se preferisci.
 

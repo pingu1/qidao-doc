@@ -35,7 +35,7 @@ Come rapido promemoria, Qi è abbinato a diversi token per formare coppie LP (Li
 * Qi-WETH su QuickSwap ed ottenere ricompense in token QUICK
 * Qi-QUICK su QuickSwap ed ottenere ricompense in token QUICK
 
-![LP pool su QuickSwap per la coppia Qi-WETH](<../../.gitbook/assets/image (19) (2) (1).png>)
+![LP pool su QuickSwap per la coppia Qi-WETH](<../../.gitbook/assets/image (19) (2) (2) (1).png>)
 
 ### Farm singolo di Qi
 
@@ -67,7 +67,7 @@ Balancer è davvero una bella cassetta degli attrezzi per qualsiasi strategia, s
 
 Il pool che vogliamo usare qui è un pool che contiene Qi, WMATIC, BAL, USDC e MAI. Questo pool ti ricompenserà con entrambi i token Qi e BAL e puoi già vedere che sarai in grado di combinare entrambi nel pool. Lo straordinario vantaggio dei pool su Balancer è che non è necessario fornire tutti i token che formano il pool nel rapporto corretto, l'algoritmo lo farà per te. Ciò significa che puoi effettivamente depositare solo Qi nel pool e lasciare che l'algoritmo faccia il resto per riequilibrare tutto.
 
-![](<../../.gitbook/assets/Schermata 2021-10-03 alle 20.23.02.png>)
+![](../../.gitbook/assets/schermata-2021-10-03-alle-20.23.02.png)
 
 Come nota a margine, i token BAL possono (o saranno presto) essere utilizzati come garanzia su Mai Finance, il che significa che avrai la possibilità di depositare i tuoi token BAL nel Vault BAL su Mai Finance e prendere in prestito MAI. Inoltre, prendere in prestito MAI a fronte dei tuoi BAL ti renderà idoneo per i premi Qi che alimenteranno il pool su Balancer.
 
@@ -87,7 +87,7 @@ Uno dei principali fattori che influenzerà il prezzo del Qi è la velocità con
 
 Attualmente ci sono 2 fonti di emissione di Qi: ricompense per il farming e ricompense per i vault.
 
-![LP Farm su Mai Finance ad Ottobre 2021](<../../.gitbook/assets/Schermata 2021-10-03 alle 20.32.00.png>)
+![LP Farm su Mai Finance ad Ottobre 2021](../../.gitbook/assets/schermata-2021-10-03-alle-20.32.00.png)
 
 Se vuoi farmare su MAI Finance puoi scegliere tra la coppia MAI/USDC e la coppia Qi/WMATIC ( ad Ottobre 2021).
 

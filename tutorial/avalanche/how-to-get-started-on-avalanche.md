@@ -68,7 +68,7 @@ Avalanche ha visto una grande crescita negli ultimi mesi che ha portato non solo
 
 * [YieldYak](https://yieldyak.com/farms) è un altro auto compounder che fornisce alti APY sul farming. Le sue farm single token  sono create sulla base di BenQI per sfruttare rendimenti più elevati e sono quindi da considerarsi rischiose.
 
-![Interfaccia di YieldYak](<../../.gitbook/assets/image (41).png>)
+![Interfaccia di YieldYak](<../../.gitbook/assets/image (38).png>)
 
 ## Altri link utili
 

@@ -19,9 +19,9 @@ Se sei nel mondo delle crypto valute da un po', potresti ricordare il disastro d
 
 Nel giugno del 2021 il token TITAN ha raggiunto un ATH di $65, il che ha fatto sì che un gruppo di investitori, che aveva investito molto nella moneta, ha deciso di vendere. Questo ha causato un problema perché il prezzo di TITAN, come per tutti i token classici, si basava su domanda e offerta. Quando l'offerta disponibile di TITAN è cresciuta notevolmente il suo prezzo ha iniziato a diminuire. Questo ha causato un'enorme pressione di vendita che ha portato il prezzo di TITAN a scendere ancora più velocemente, talmente tanto velocemente che TITAN letteralmente a crollare e di conseguenza la stable coin IRON ha perso il suo "supporto" (il 25% del suo collaterale come abbiamo detto sopra) e alla fine ha perso l'ancoraggio.
 
-![Grafico dei prezzi del token TITAN](../.gitbook/assets/Iron.JPG)
+![Grafico dei prezzi del token TITAN](../.gitbook/assets/iron.jpg)
 
-![Grafico dei prezzi della stable coin IRON](../.gitbook/assets/titan.JPG)
+![Grafico dei prezzi della stable coin IRON](../.gitbook/assets/titan.jpg)
 
 Le persone hanno iniziato ad acquistare la stable coin IRON per scambiarla USDC e guadagnare qualche soldo veloce, in un'enorme opportunità di arbitraggio (significa trarre profitto dalle variazioni di prezzo dei token) Per farla breve, è stato calcolato che quasi $1,75 MILIARDI sono stati persi in questo incidente . Ora, quali differenze ci sono tra la stable coin IRON e la stable coin MAI?
 
@@ -37,7 +37,7 @@ Un altro modo per coniare MAI è attraverso la sezione **Anchor**, quando scambi
 
 Come puoi vedere nell'immagine qui sotto, il prezzo della stable coin MAI è quasi sempre vicino a $1, questo perché come puoi leggere dalla [documentazione ufficiale](https://docs.mai.finance/stablecoin-economics) , la stable coin MAI consente agli utenti di fare arbitraggio senza rischi tramite Anchor quando il prezzo di MAI scende sotto $ 0,99 o sale sopra $ 1,01.
 
-![Grafico dei prezzi del token MAI negli ultimi 90 giorni](<../.gitbook/assets/image (7) (1) (1) (1).png>)
+![Grafico dei prezzi del token MAI negli ultimi 90 giorni](<../.gitbook/assets/image (7) (1) (1) (2) (1).png>)
 
 ## Perchè è sempre vicina a $1?
 
@@ -61,7 +61,7 @@ Sul che cosa possa causare la fluttuazione del prezzo di MAI possiamo individuar
 
 ### Depositare collaterali nei vault
 
-Per coniare MAI utilizzando i vault di Mai Finance è necessario depositare dei collaterali a garanzia e avere un **CDR** (**C**ollateral to **D**ebt **R**atio) superiore ad una certa soglia che in questo caso è del 150% (tuttavia questa percentuale può cambiare in futuro se la comunità dovesse decidere in merito). Ciò significa che i vault saranno sempre sovra-collateralizzati (del 150%) per garantire che ci sia sempre un valore del collaterale a sostegno delle stable coin coniate. Ricorda che se un vault ha un **CDR** inferiore al 150% potrebbe essere parzialmente liquidato dalla comunità quindi qualcuno potrebbe perdere parte della propria garanzia se un liquidatore paga parte del debito. 
+Per coniare MAI utilizzando i vault di Mai Finance è necessario depositare dei collaterali a garanzia e avere un **CDR** (**C**ollateral to **D**ebt **R**atio) superiore ad una certa soglia che in questo caso è del 150% (tuttavia questa percentuale può cambiare in futuro se la comunità dovesse decidere in merito). Ciò significa che i vault saranno sempre sovra-collateralizzati (del 150%) per garantire che ci sia sempre un valore del collaterale a sostegno delle stable coin coniate. Ricorda che se un vault ha un **CDR** inferiore al 150% potrebbe essere parzialmente liquidato dalla comunità quindi qualcuno potrebbe perdere parte della propria garanzia se un liquidatore paga parte del debito.&#x20;
 
 All'aumentare del valore del collaterale è possibile emettere monete più stabili poiché un aumento del prezzo della garanzia aumenterà il rapporto garanzia/debito. Viceversa al diminuire del valore del collaterale, si possono emettere meno stable coin, questo per evitare che il **CDR** scenda al di sotto della soglia del 150%.
 
