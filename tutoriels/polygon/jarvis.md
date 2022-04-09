@@ -1,231 +1,254 @@
 ---
 description: >-
-  This tutorial will try to cover some DeFi solutions
-  enabled by Jarvis for people who want to invest with
-  synthetics assets pegged to non-USD Fiats.
+   Ce tutoriel va essayer de couvrir certaines solutions DeFi proposé par Jarvis pour les personnes qui veulent investir avec de actifs synthétiques liés à des monnaies Fiats différents du dollar américain.
 ---
 
-# From Traditional Finance to DeFi with Jarvis
+## De la finance traditionnelle à la DEFI avec Jarvis
 
-Not all stable coins are equal. For most DeFi (**De**centralized **Fi**nance) users, stable coins represent a cryptocurrency that is pegged to the U.S. dollar. This is the case for assets like:
+Toutes les crypto stables ne sont pas égales. Pour la plupart des utilisateurs de DeFi (**De**centralized **Fi**nance), les stables coins représentent une crypto-monnaie qui est rattachée au dollar américain (le plus souvent). C'est le cas d'actifs comme :
 
-* USDC or USDT that are issued by centralized entities and backed by U.S. dollars
-* over-collateralized assets like DAI or MAI that are softly pegged to the U.D. dollar but backed by a basket of different cryptocurrencies
-* algorithmic stable coins like UST or MIM that are partially backed and for which the $1 peg is maintained using a specific algorithm
+* USDC ou USDT qui sont émis par des entités centralisées et adossés au dollar américain.(Circle et Tether)
+* les stables surcollatéralisés comme DAI ou MAI qui sont plus ou moins indexées au dollar américain mais adossés à un panier de différentes crypto
+* les stables algorithmiques stables comme l'UST ou le MIM qui sont partiellement garanties et pour lesquelles l'ancrage à 1 dollar est maintenu à l'aide d'un algorithme spécifique.
 
-But did you know that you can find other stable coins? As an example, TOMB is a token that is pegged to the FTM price (the native gas token of the Fantom network) using algorithms.
+Mais saviez-vous que vous pouvez trouver d'autres stable coins ? À titre d'exemple, TOMB est un jeton qui est indexé au prix du FTM (le jeton de gaz natif du réseau Fantom) à l'aide d'algorithmes stocké dans des smarts contracts
 
-In this article, we'll focus on stable coins that are pegged to FIATs (government-issued currencies), and we will try to explain why they are important for your investment strategies.
+Dans cet article, nous allons nous concentrer sur les monnaies stables qui sont indexées aux FIAT (monnaies émises par les gouvernements), et nous allons essayer d'expliquer pourquoi elles sont importantes pour vos stratégies d'investissement.
 
 ![](<../../.gitbook/assets/Jarvis-0.png>)
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+N'oubliez pas qu'une stratégie qui fonctionne bien à un moment donné peut donner de mauvais résultats (ou vous faire perdre de l'argent) à un autre moment. Restez informé, surveillez les marchés, gardez un œil sur vos investissements et, comme toujours, faites vos propres recherches (DYOR).
 {% endhint %}
 
-## Why do we need synthetic FIATs ?
+### Pourquoi avons nous besoin de FIAT synthétiques ?
 
-Let's consider you are living in a European country and use Euro daily. If you were to buy crypto assets, you would most likely buy them with your Euros. For volatile assets like Bitcoin, it doesn't really matter because you'll be focusing on the price of Bitcoin in Euros to assess whether or not you are making money. And hopefully, you will make some.
+Considérons que vous vivez dans un pays européen et que vous utilisez l'euro quotidiennement. Si vous deviez acheter des actifs synthétiques, vous les achèteriez très probablement avec vos euros pour ne pas être exposé au dollar. Pour les actifs volatils comme le bitcoin, cela n'a pas vraiment d'importance car vous vous concentrerez sur le prix du bitcoin en euros pour évaluer si vous gagnez de l'argent ou non. Et avec un peu de chance, vous en gagnerez.
 
-But what if you want to invest in DeFi and yield farming instead? And what if, to mitigate the risks, you want to provide liquidity using stable coins only? Most of the stable liquidity on many chains is provided as USD-pegged assets, which means you will have to purchase USDC/USDT/DAI/MAI using your Euros. At this point, you should check that the liquidity you provide is generating interest, but also that the price difference between the US Dollar and the Euro isn't working against you.
+Une monnaie FIAT est une monnaie Fiduciaire reconnue par un état et ayant cours légal dans celui ci.
 
-![EUR/USD over the last year](<../../.gitbook/assets/Jarvis-1.png>)
+un jFIAT est un actif numérique indexé sur une monnaie FIAT donc l'execution du suivi est garanti par un smart contrat
 
-If you bought 100€ worth of USDC on the 20th of September 2021, you would have had $117.29 worth of USDC because the ratio EUR:USD was 1:1.1729 at that time. If you were to convert $117.29 worth of USDC in Euros today (March 24th, 2022) with a ratio 1:1.0994, you would get 106.69€, or a gain of 6.69%.
+Mais que faire si vous souhaitez plutôt investir dans le DeFi et yield farming ? Et si, pour diminuer les risques, vous voulez fournir des liquidités en utilisant uniquement des stable coins ? La plupart des liquidités stables sur de nombreuses chaînes sont fournies sous forme d'actifs libellés en USD, ce qui signifie que vous devrez acheter des USDC/USDT/DAI/MAI avec vos euros. À ce stade, vous devez vérifier que la liquidité que vous fournissez suscite de l'intérêt, mais aussi que la différence de prix entre le dollar américain et l'euro ne joue pas contre vous.
 
-But if you bought CAD 100 (100 Canadian Dollars) worth of USDC on the same day (September 20th, 2021) with a ratio of 1:0.7796 you would have had USD 77.96 worth of USDC. Converting these today to CAD with a ratio of 1:0.7972, would be worth CAD 97.79, or a loss of 2.21%.
+![EUR/USD sur l'année passée](<../../.gitbook/assets/Jarvis-1.png>)
 
-However, 1 CAD always equals 1 CAD no matter what, like 1 USD = 1 USD and 1 EUR = 1 EUR.
+### Attention au variation de cours des monnaies
 
-Every currency of every country varies according to the geopolitical situation, internal and international politics, micro and macroeconomic decisions. This is why you need to pay attention to the price variation of your crypto assets, even if they are "stable".
+Si vous aviez acheté 100€ d'USDC le 20 septembre 2021, vous auriez eu 117,29$ USDC car le ratio EUR:USD était de 1:1,1729 à ce moment-là. Si vous convertissiez aujourd'hui (24 mars 2022) 117,29 $ d'USDC en euros avec un ratio de 1:1,0994, vous obtiendriez 106,69 €, soit un gain de 6,69 %.
 
-## Jarvis Network and Mt. Pelerin
+Mais si vous aviez acheté 100 CAD (100 dollars canadiens) d'USDC le même jour (20 septembre 2021) avec un ratio de 1:0,7796, vous auriez eu 77,96 USD d'USDC. En les convertissant aujourd'hui en CAD avec un ratio de 1:0,7972, ils vaudraient 97,79 CAD, soit une perte de 2,21 %.
 
-### What is Jarvis Network
+Cependant, 1 CAD est toujours égal à 1 CAD quoi qu'il arrive, comme 1 USD = 1 USD et 1 EUR = 1 EUR.
 
-[Jarvis Network](https://jarvis.network/) is a specialized application that allows users [to swap their crypto assets](https://app.jarvis.exchange/) for synthetics FIATs. A synthetic FIAT is a cryptocurrency that is pegged to the price of an existing FIAT. As such, Jarvis will let you swap your USDCs for
+Chaque monnaie de chaque pays varie en fonction de la situation géopolitique, de la politique interne et internationale, des décisions micro et macroéconomiques. C'est pourquoi vous devez faire attention à la variation du prix de vos crypto-actifs, même s'ils sont "stables". les communiqué de la FED américaine ou de la Banque centrale européenne sont à suivre.
 
-* jCAD: the crypto version of the Canadian Dollar
-* jEUR: the crypto representation of Euro
-* jJPY: the crypto version of the Japanese Yen
-* jSGD, jCHF, jGBP, and many more
+## Jarvis Network et Mt. Pelerin
 
-As such, Jarvis really is an On-Chain Forex (**For**eign **Ex**change) that is live on the Ethereum Mainnet, but also on Polygon, BNB Chain, Gnosis Chain, and Avalanche.
+### Qu'est ce que Jarvis Network
 
-But it doesn't stop there. Jarvis proposes incentivezed liquidity pools that inclue jFIATs. This is done to attract users to deposit their jFIATs and earn yields on their stablecoins (with the hability to deposit a single asset via Curve pools), help other protocols that offer stable coins while not having a lot of liquidity, and make it easy for DeFi users to off-ramp their gains.
+[Jarvis Network](https://jarvis.network/) est un protocole that qui permet aux utilisateurs [d'échanger des cryptos](https://app.jarvis.exchange/) des synthétiques FIATs. Un FIAT synthétique est une crypto-monnaie qui est rattachée au prix d'un FIAT existant. À ce titre, Jarvis vous permettra d'échanger vos USDC contre
 
-![Liquidity pools on Jarvis as of March 2022](<../../.gitbook/assets/Jarvis-2.png>)
+* jCAD : la version cryptée du dollar canadien
+* jEUR : la représentation cryptographique de l'euro
+* jJPY : la version cryptée du Yen japonais
+* jSGD, jCHF, jGBP, et bien d'autres encore.
+
+En tant que tel, Jarvis est ce qu'on appel un Forex Exchange On-Chain (**For**eign **Ex**change) qui est en direct sur le Mainnet Ethereum, mais aussi sur Polygon, BNB Chain, Gnosis Chain et Avalanche.
+
+il propose aussi un exchange et des solutions pour différentes monnaies jFIAT dans plusieurs pays (suisse, autriche, japon, euro, livre sterling, us canada, etc)
+
+Mais cela ne s'arrête pas là. Jarvis propose des pools de liquidité avec récompenses qui incluent les jFIATs. Ceci afin d'inciter les utilisateurs à déposer leurs jFIATs et à obtenir des rendements sur leurs stable coin (avec la possibilité de déposer un seul actif via les pools Curve), d'aider d'autres protocoles qui offrent des coins stables tout en n'ayant pas beaucoup de liquidités, et de permettre aux utilisateurs de DeFi de rester surtout indexé sur une monnaie de leur choix
+
+Le protocole est complètement on chain, ainsi que l'execution de ses smarts contrats, les jFIAT (ainsi sont appelées les monnaies de jarvis, sont indexés sur les FIAT qui leur corresponde, mais "backé" avec de l'USDC)
+
+![Pools de liquidité sur Jarvis à partir de mars 2022](<../../.gitbook/assets/Jarvis-2.png>)
 
 {% hint style="info" %}
-You can see in the screenshot above that the 2CAD pair is composed of jCAD and CADC. The CADC token is actually another version of the Canadian Dollar provided by [DFX](https://app.dfx.finance/), another decentralized Forex solution.
+Vous pouvez voir dans la capture d'écran ci-dessus que la paire 2CAD est composée de jCAD et CADC. Le jeton CADC est en fait une autre version du dollar canadien fournie par [DFX](https://app.dfx.finance/), une autre solution Forex décentralisée.
 {% endhint %}
 
-### Mt. Pelerin
+## Mt. Pelerin - on / off ramp facile
 
-[Mt. Pelerin](https://www.mtpelerin.com/bridge-wallet) is a non custodial fiat-crypto OTC desk. It allows users to purchase crypto from their bank account directly, and to have them directly deposited in their crypto wallet. It's also a direct partner of Jarvis and lets you buy jFIATs.
+[Mt. Pelerin](https://www.mtpelerin.com/bridge-wallet) est une solution de On / Off ramp de crypto-monnaie sans stockage de fond. Il permet aux utilisateurs d'acheter des crypto depuis leur compte bancaire directement, et de les faire déposer directement dans leur portefeuille de crypto, sur la chaîne de leur choix. Il est également un partenaire direct de Jarvis et vous permet d'acheter des jFIATs. Elle se situe en suisse et collabore avec des banques suisse et des institutions suisse depuis sa création.
+
+le plus intéressant est que le jEuro est gratuit sur les transferts vers polygon / bsc ce qui permet de rentrer et sortir facilement sur des protocoles.
+on peut aussi mettre en place facilement un DCA vers de l'eth / btc sur son wallet avec des virements direct depuis son compte bancaire par exemple.
 
 {% hint style="info" %}
-The easiest way to use Mt. Pelerin is via the Bridge Wallet mobile application. Note that because it's a centralized service, you will have to provide personal information to prove your identity if you want to be able to use the service. You also need to have a bank that allows you to make bank transfers to Switzerland. However, it's always possible to use their website on which you will find a widget allowing you to buy cryptocurrencies from a bank transfer or using a Credit Card. This isn't subject to any KYC but has some limitations. Note that by using the website, your purchase will be sent directly to your web wallet. For the rest of this guide, we will present the Birdge Wallet solution though.
-{% endhint %}
+Le moyen le plus simple d'utiliser Mt. Pelerin est de passer par l'application mobile Bridge Wallet. Notez que, comme il s'agit d'un service centralisé, vous devrez fournir des informations personnelles pour prouver votre identité (KYC) si vous voulez pouvoir utiliser le service. Vous devez également avoir une banque qui vous permet d'effectuer des virements bancaires vers la Suisse. Cependant, il est toujours possible d'utiliser leur site web sur lequel vous trouverez un widget vous permettant d'acheter des cryptos à partir d'un virement bancaire ou en utilisant une carte de crédit. Cette méthode n'est soumise à aucun KYC mais présente certaines limites.s Pour le reste de ce guide, nous présenterons cependant la solution Bridge Wallet.
 
-![Buying some jEUR with a EUR bank transfer](<../../.gitbook/assets/Jarvis-3.png>)
+on peut les joindre aussi par email ou sur leur télégram.
 
-Bank transfers may be subject to fees, and will most likely take some time to complete, but overall, Mt. Pelerin allows you to easily buy and sell your synthetic FIATs for their FIAT counterparts. They also have an internal [fee structure](https://www.mtpelerin.com/pricing) that you can read in more detail, and depending on the asset you buy, you may be able to buy and sell up to $100,000 per year free of charge.
+Autre point intéressant on peut utiliser son entreprise pour envoyer des cryptos sur les block chain avec MT Pelerin. De nombreux développeurs sont ainsi devenus bank less en se faisant payé en crypto dans leur wallet (et paye les impôts dans la devise de leur pays)
 
-![Selling some jCAD to my bank account](<../../.gitbook/assets/Jarvis-6.png>)
+![Acheter quelques jEUR avec un virement bancaire en EUR](<../../.gitbook/assets/Jarvis-3.png>)
+
+Les transferts bancaires peuvent être soumis à des frais, et prendront très probablement un certain temps pour être effectués(environ 3 jours selon votre banque), mais dans l'ensemble, Mt. Pelerin vous permet d'acheter et de vendre facilement vos FIAT synthétiques pour leurs homologues FIAT (Euro contre jEuro par exemple). Il existe également une [structure tarifaire] interne (<https://www.mtpelerin.com/pricing>) que vous pouvez consulter plus en détail. Selon le bien que vous achetez, vous pouvez acheter et vendre gratuitement jusqu'à 100 000 dollars par an. les MPS sont en cours de réévaluation coté Mt Pelerin pour avoir des seuils plus adaptés
+
+![Vendre un peu de jCAD à mon compte en banque](<../../.gitbook/assets/Jarvis-6.png>)
 
 {% hint style="info" %}
-If you bought jFIATs, your bank account is automatically linked to your Bridge Wallet account and you will be able to select it from the dropdown list of recipients. If not, you will have to create a new account from an IBAN.
+Si vous avez acheté des jFIATs, votre compte bancaire est automatiquement lié à votre compte Bridge Wallet et vous pourrez le sélectionner dans la liste déroulante des destinataires. Sinon, vous devrez créer un nouveau compte à partir d'un IBAN.
 {% endhint %}
 
-### Link your Polygon wallet to your Mt. Pelerin account (Bridge wallet address)
+### Lier votre porte-monnaie Polygon à votre compte Mt. Pelerin (adresse du porte-monnaie Bridge)
 
-Linking your wallet to your Mt. Pelerin / Bridge Wallet account is as easy as
+Pour relier votre portefeuille à votre compte Mt. Pelerin / Bridge Wallet, il vous suffit d'effectuer les opérations suivantes
 
-* Opening the Bridge Wallet application
-* Open the Addresses tab at the bottom
-* Click on `Link an address`
-* Take a photo of the QR code of your Polygon wallet, or copy and paste the complete address in the field
-* Send a few MATICs to the Bridge Wallet address to validate it
+* Ouvrir l'application Bridge Wallet
+* Ouvrir l'onglet Adresses en bas de la page
+* Cliquez sur "Lier une adresse".
+* Prendre une photo du code QR de votre porte-monnaie Polygon, ou copier et coller l'adresse complète dans le champ.
+* Envoyez quelques MATICs à l'adresse du portefeuille Bridge pour la valider.
 
 ![](<../../.gitbook/assets/Jarvis-5.png>)
 
 ![Linking my Polygon wallets to my Mt. Pelerin application](<../../.gitbook/assets/Jarvis-4.png>)
 
 {% hint style="info" %}
-Once again, you can use the widget on the Mt. Pelerin website to [buy](https://www.mtpelerin.com/buy-ehtereum) and [sell](https://www.mtpelerin.com/sell-ethereum) your crypto using your web wallet (or hardware wallet) directly without using the Bridge Wallet. Please refer to the Mt. Pelerin website.
+Une fois encore, vous pouvez utiliser le widget du site web de Mt. Pelerin pour [acheter](https://www.mtpelerin.com/buy-ehtereum) et [vendre](https://www.mtpelerin.com/sell-ethereum) votre crypto en utilisant votre portefeuille web (ou votre portefeuille matériel) directement sans utiliser le Bridge Wallet. Veuillez consulter le site Web de Mt. Pelerin.
 {% endhint %}
 
-### Sending jFIATs to your Polygon wallet
+### Envoi de jFIATs vers votre porte-monnaie Polygon
 
-Sending your jFIATs to your wallet on Polygon (or any supported chain) is very easy. From the Wallet tab, make sure you are on the network you want to use as a destination and load your jWallet Currencies.
+L'envoi de vos jFIATs à votre porte-monnaie sur Polygon (ou toute autre chaîne prise en charge) est très simple. Dans l'onglet Portefeuille, assurez-vous que vous êtes sur le réseau que vous voulez utiliser comme destination et chargez vos devises jWallet.
 
-![Sending jCAD to Polygon](<../../.gitbook/assets/Jarvis-8.png>)
+![Envoi de jCAD à Polygon](<../../.gitbook/assets/Jarvis-8.png>)
 
-After you selected the jFIAT you want to send, simply click on send, fill up the different fields, then initiate the transaction and enjoy low gas and fast processing!
+Après avoir sélectionné la jFIAT que vous souhaitez envoyer, il suffit de cliquer sur envoyer, de remplir les différents champs, puis d'initier la transaction et de profiter d'un gaz faible et d'un traitement rapide ! à ce titre la BSC et Polygon sont particulièrement pratique avec le jEuro.
 
 {% hint style="info" %}
-You can get a full recap of all your transactions in the activity section of each jFIAT, as well as on the Activity tab on the main screen.
+Vous pouvez obtenir un récapitulatif complet de toutes vos transactions dans la section activité de chaque jFIAT, ainsi que dans l'onglet Activité de l'écran principal.
 {% endhint %}
 
-![Checking that I received my jCAD on DeBank.com](<../../.gitbook/assets/Jarvis-7.png>)
+![Vérifier que j'ai reçu mon jCAD sur DeBank.com](<../../.gitbook/assets/Jarvis-7.png>)
 
 {% hint style="success" %}
-Mt. Pelerin is a very good solution to buy and sell cryptocurrencies and synthetic FIATs. But you can also use this service to send money to your friends and family if they are also using the application and possibly bypass complex bank transfers or limitations.
+Mt. Pelerin est une très bonne solution pour acheter et vendre des crypto-monnaies et des FIATs synthétiques. Mais vous pouvez également utiliser ce service pour envoyer de l'argent à vos amis et à votre famille s'ils utilisent également l'application et éventuellement contourner les transferts bancaires complexes ou les limitations.
 {% endhint %}
 
-## Getting the best of your stable jFIATs
+### Tirer le meilleur parti de vos jFIATs stables
 
-You have synthetic FIATs on Polygon, so now we need a clever way to use them. In the intro, we saw that it may be a better idea to use them as-is instead of swapping them (selling them) for USD-pegged stable coins.
+Vous disposez de FIATs synthétiques sur le Polygon, il nous faut donc maintenant trouver une façon intelligente de les utiliser. Dans l'introduction, nous avons vu qu'il était préférable de les utiliser tels quels, plutôt que de les échanger (vendre) contre des monnaies stables libellées en USD (comme USDC / DAI).
 
-Think also about this scenario: you have Canadian dollars and want a little bit of exposure to Ethereum. Wouldn't it be nice if you could buy Ethereum without taking the risk of actually buying it? Well, this is what lending markets are for !!!
+Pensez aussi à ce scénario : vous avez des dollars canadiens et vous voulez vous exposer un peu à l'Ethereum. Ne serait-il pas agréable de pouvoir acheter de l'Ethereum sans prendre le risque de l'acheter réellement ? Eh bien, c'est à cela que servent les marchés de prêts ! !!
 
-### Market.xyz
+## Market.xyz
 
-[Market.xyz](https://www.market.xyz/) is a lending protocol where you will be able to use some of your crypto assets as collateral to borrow other assets. They recently launched a new pool 100% dedicated to Jarvis synthetic FIATs: https://polygon.market.xyz/pool/7.
+[Market.xyz](https://www.market.xyz/) est un protocole de pret ou vous poser déposer en collateral vos cryptos et ainsi emprunter dans une certaine limite d'autres crypto (exemple déposé des ETH pour emprunter du MAI). il y'a un endroit specifique dédié au actifs Jarvis : <https://polygon.market.xyz/pool/7>.
 
-![Jarvis Forex locked on Market.xyz as of March 2022](<../../.gitbook/assets/Jarvis-9.png>)
+![Jarvis Forex disponible sur  Market.xyz en Mars 2022](<../../.gitbook/assets/Jarvis-9.png>)
 
-As you can see, you can lend your jFIATs and earn interest from borrowers. The locker also accepts some LP (**L**iquidity **P**roviding) tokens as collateral. This means that you can lend your m2CAD or m2JPY and still earn ~27% APY (**A**nnual **P**ercentage **Y**ield) on them, and borrow other jFIATs like jCAD or jJPY to leverage your position. You can also borrow some MAI, the USD-pegged stable coin created by the QiDAO protocol behind Mai Finance. The QiDAO community agreed to provide new MAI on a regular basis to maintain a low interest rate on MAI loans from the Jarvis locker on Market.xyz.
+Comme vous pouvez le voir, vous pouvez prêter vos jFIATs et gagner des intérêts auprès des emprunteurs. Le dépôt accepte également certains jetons LP (**L**iquidité **P**roviding) comme garantie. Cela signifie que vous pouvez prêter vos m2CAD ou m2JPY et gagner ~27% d'APY (Rendement annuel % ) sur ceux-ci, et emprunter d'autres jFIATs comme jCAD ou jJPY pour augmenter votre position. Vous pouvez également emprunter du MAI, le stablecoin indexé sur de l'USD créée par le protocole QiDAO qui fait parti Mai Finance. La communauté QiDAO a accepté de fournir régulièrement de nouveaux MAI afin de maintenir un faible taux d'intérêt sur les prêts MAI de Jarvis sur Market.xyz.
 
 {% hint style="danger" %}
-There's a minimum borrowing amount of 0.05 ETH on Market.xyz lockers, which is equivalent to $150 as of March 2022. Since you need to keep a healthy Collateral to Debt Ratio, make sure that you deposit enough collateral if you want to take a loan on the platform.
+Il y a un montant minimum d'emprunt de 0,05 ETH sur  Market.xyz, ce qui équivaut à 150 $ à partir de mars 2022. Puisque vous devez conserver un bon ratio garantie/dette, assurez-vous de déposer suffisamment de garanties si vous souhaitez contracter un prêt sur la plateforme.
 {% endhint %}
 
-As for any lending platform on Polygon, Market.xyz will enforce a healthy Collateral to Debt Ratio. This is what the LTV of each collateral represents (**L**oan **T**o **V**alue, the inverse of the CDR). As an example, the LTV of m2CAD is 60%, meaning that the ratio between your debt and your collateral value needs to remain above 60%.
+Comme pour toute plateforme de prêt sur le Polygon, Market.xyz appliquera un ratio correct de garantie et de dette. Par exemple, le LTV de m2CAD est de 60%, ce qui signifie que le rapport entre votre dette et la valeur de votre garantie doit rester supérieur à 60%, au delà vous serez liquidé
 
-In the case of m2CAD, the collateral is pegged to the Canadian Dollar which can vary compared to the MAI you will borrow (pegged to the US dollar). However, the variation is very small, so you can in theory borrow very close to the threshold of 60%. For our guide, we will try to stick to a CDR of 200%, which corresponds to a LTV of 0.4 (1 / 2.5 = 0.5). To be able to borrow the required 0.05 ETH worth of MAI, we will need a collateral value of
+Dans le cas de m2CAD, la valeur de la garantie est fixée au dollar canadien, ce qui peut varier par rapport au MAI que vous emprunterez (fixé au dollar américain). Cependant, la variation est très faible, donc vous pouvez en théorie emprunter très près du seuil de 60%. Pour notre guide, nous allons essayer de nous en tenir à un CDR de 200%, ce qui correspond à un LTV de 0,4 (1 / 2,5 = 0,5). Pour pouvoir emprunter la valeur requise de 0,05 ETH de MAI, nous aurons besoin d'une valeur de garantie de
 
 $$
-AvailableCollateral = \frac{Debt Value}{LTV} = \frac{0.05 ETH}{0.4} = 300\$
+AvailableCollateral = \frac{Debt Value}{LTV} = \frac{0,05 ETH}{0,4} = 300\$
 $$
 
-Since today the USD:CAD ratio is 1:0.7972, I will need an initial investment of
+Étant donné qu'aujourd'hui le rapport USD:CAD est de 1:0,7972, j'aurai besoin d'un investissement initial de $$$.
 
 $$
 InvestmentCAD = \frac{300}{0.7972} = 376.32 CAD
 $$
 
 {% hint style="info" %}
-Assuming I invest $300 worth of CAD and borrow $150 worth of MAI, I will currently earn 27% APY (23.91% APR) on my collateral and will have to pay 11.28% interest on my loan. Over the span of 1 year, that represents a growth of $81 of my collateral and $16.92 worth of interest to pay.
+En supposant que j'investisse 300 $ de CAD et que j'emprunte 150 $ de MAI, j'obtiendrai actuellement un rendement annuel de 27 % (TAEG de 23,91 %) sur mon dépot et je devrai payer 11,28 % d'intérêts sur mon prêt. Sur une période d'un an, cela représente une croissance de 81 $ de ma garantie et 16,92 $ d'intérêts à payer.
 {% endhint %}
 
-Now let's see what to do with your USD-pegged loan.
+Voyons maintenant ce qu'il faut faire avec votre prêt en USD.
 
-### Uniswap V3
+# Uniswap V3
 
-[Uniswap V3](https://app.uniswap.org/) is the latest version of Uniswap, the parent project of many DEXes (**D**ecentralized **Ex**changes) where users will be able to swap their assets for other cryptocurrencies, as well as provide liquidity to support these swaps.
+## Présentation du protocole
 
-Uniswap V3 isn't incentivized on Polygon (yet), but offers a new way to provide liquidity: concentrated liquidity! You select the range on which you want to provide liquidity, and if the range is very narrow, you earn more fees than users who provide liquidity on a broader range. You can learn how to provide liquidity pairs on Uniswap V3 with [their official guide](https://help.uniswap.org/en/articles/5391541-provide-liquidity-on-uniswap-v3), and you can also watch the truly amazing [video by Finematics on UniswapV3](https://youtu.be/Ehm-OYBmlPM).
+[Uniswap V3](https://app.uniswap.org/) est la dernière version d'Uniswap, le projet parent de nombreux DEX (**D**ecentralized **Ex**changes) où les utilisateurs pourront échanger leurs actifs contre d'autres crypto monnaies, ainsi que fournir des liquidités pour soutenir ces échanges, à travers les nouvelles pools V3.
 
-For this tutorial, we will focus on the MAI-USDC pair since we borrowed some MAI and we want to limit risk exposure by farming stable coins.
+Uniswap V3 n'est pas (encore) totalement déployé sur Polygon, mais offre une nouvelle façon de fournir de la liquidité : la liquidité concentrée ! Vous sélectionnez la plage sur laquelle vous voulez fournir de la liquidité, et si la plage est très étroite, vous gagnez plus de frais que les utilisateurs qui fournissent de la liquidité sur une plage plus large. Vous pouvez apprendre comment fournir des paires de liquidités sur Uniswap V3 avec [leur guide officiel] (<https://help.uniswap.org/en/articles/5391541-provide-liquidity-on-uniswap-v3>), et vous pouvez également regarder la vraiment étonnante [vidéo de Finematics sur UniswapV3] (<https://youtu.be/Ehm-OYBmlPM>).
 
-The first thing to do is to define a target range. Now that the price of MAI is a lot more stable due to ever-increasing liquidity, more pools, and some mechanisms like the Curve pool that help keep the price very stable), we will target a 1:1 rate for MAI:USDC. In reality, 1 MAI is closer to 0.998 USDC. 
+Pour ce tutoriel, nous allons nous concentrer sur la paire MAI-USDC puisque nous avons emprunté du MAI et que nous voulons limiter l'exposition au risque en farmant du stable coin.
 
-The expected price range is between 0.99 and 1.01 USDC for 1 MAI, depending on the market conditions. When volatile assets are surging, people have more borrowing power and tend to swap a lot of MAI, decreasing its price. The opposite effect occurs when the market shrinks and people need to repay their loans to prevent liquidation: MAI is bought from the market to repay loans, increasing its price. In fact, the actual price range tends to be between 0.994 and 1.004 USDC per MAI.
+## Mode opératoire
 
-![Spreading your LP on a broad or narrow position will have a great impact on the fees you collect](<../../.gitbook/assets/Jarvis-10.png>)
+La première chose à faire est de définir une fourchette cible. Maintenant que le prix du MAI est beaucoup plus stable grâce à une liquidité toujours croissante, à un plus grand nombre de pools et à certains mécanismes comme le pool Curve qui aident à maintenir le prix très stable), nous allons viser un taux de 1:1 pour le MAI:USDC. En réalité, 1 MAI est plus proche de 0,998 USDC.
 
-What you really need to understand though, is
+La fourchette de prix prévue se situe entre 0,99 et 1,01 USDC pour 1 MAI, en fonction des conditions du marché. Lorsque les actifs volatils sont en hausse, les gens ont plus de pouvoir d'emprunt et ont tendance à échanger beaucoup de MAI, ce qui fait baisser son prix. L'effet inverse se produit lorsque le marché se rétrécit et que les gens doivent rembourser leurs prêts pour éviter la liquidation : Le MAI est acheté sur le marché pour rembourser les prêts, ce qui augmente son prix. En fait, la fourchette de prix réelle tend à se situer entre 0,994 et 1,004 USDC pour 1 MAI.
 
-* If you select a broad range, you will collect fewer fees than if you select a narrow range because your liquidity is spread on a bigger range
-* If the select a narrow range and the price goes out of that range, you will not collect fees
-* Your liquidity is not adjusted based on price. If you select a [0.99;1.01] range for MAI:USDC and the price of MAI is 0.99 USDC, you will have 100% MAI and 0% USDC. On the other hand, if the price is 1.01 USDC per MAI, you will have 100% USDC and 0% MAI
-* You can exit your liquidity pool anytime and create a new one with a broader / narrower range if you see that your first setup isn't collecting enough fees
-* For stablecoins, it's better to set a 0.05% fee range so that aggregators like [zapper](https://zapper.fi/) or [1inch](https://app.1inch.io/#/137/) pick your pool when users are swapping their stablecoins
+![Le fait de répartir votre MA sur une position large ou étroite aura un grand impact sur les frais que vous percevrez](<../../.gitbook/assets/Jarvis-10.png>). ce qui constitue le gros de vos revenus.
 
-For the simplicity of this guide, we will set a range centered on 1.000 with a 1% spread between 0.995 and 1.005 USDC per MAI.
+Ce que vous devez vraiment comprendre cependant, c'est:
 
-![Creating a concentrated liquidity pool for MAI-USDC pair](<../../.gitbook/assets/Jarvis-11.png>)
+* Si vous sélectionnez une large fourchette, vous percevrez moins de frais que si vous sélectionnez une gamme étroite, car votre liquidité est répartie sur une plus grande gamme.
+* Si vous sélectionnez une fourchette étroite et que le prix sort de cette fourchette, vous ne percevrez pas de frais.
+* Votre liquidité n'est pas ajustée en fonction du prix. Si vous sélectionnez une fourchette [0.99;1.01] pour MAI:USDC et que le prix de MAI est de 0.99 USDC, vous aurez 100% de MAI et 0% d'USDC. Par contre, si le prix est de 1,01 USDC par MAI, vous aurez 100% USDC et 0% MAI.
+* Vous pouvez quitter votre pool de liquidité à tout moment et en créer un nouveau avec une fourchette plus large ou plus étroite si vous constatez que votre première configuration ne collecte pas assez de frais.
+* Pour les monnaies stables, il est préférable de fixer une fourchette de 0,05% pour que les agrégateurs comme [zapper](https://zapper.fi/) ou [1inch](https://app.1inch.io/#/137/) choisissent votre pool lorsque les utilisateurs échangent leurs monnaies stables.
+
+Pour la simplicité de ce guide, nous fixerons une fourchette centrée sur 1,000 avec un écart de 1% entre 0,995 et 1,005 USDC par MAI.
+
+![Création d'un pool de liquidité concentré pour la paire MAI-USDC](<../../.gitbook/assets/Jarvis-11.png>)
 
 {% hint style="info" %}
-Pay attention to the token order for your pair. Indeed, the price range will not be the same if you select MAI (mimatic) first and USDC second, or USDC first and MAI second !!!
+Faites attention à l'ordre des jetons pour votre paire. En effet, la fourchette de prix ne sera pas la même si vous sélectionnez MAI (mi-matic) en premier et USDC en second, ou USDC en premier et MAI en second ! !!
 {% endhint %}
 
-Depending on your setup, you can expect between 8% APR (broad range) and 20% APR (narrow range) on your LP paid in MAI and USDC. This will highly depend on the price action and volume of trades operated on UniswapV3. Keep in mind that you can also use this tool to operate your trades with a very low price impact and collect fees from your own trades!
+En fonction de votre configuration, vous pouvez vous attendre à un taux d'intérêt annuel de 8 % (fourchette large) à 20 % (fourchette étroite) sur votre LP payé en MAI et en USDC. Cela dépendra fortement de l'action des prix et du volume des transactions effectuées sur UniswapV3. N'oubliez pas que vous pouvez également utiliser cet outil pour opérer vos transactions avec un très faible impact sur les prix et percevoir des commissions sur vos propres transactions !
 
-## Farming Strategy
+## Stratégie de Farming 
 
-For this strategy, we will be using Jarvis as our starting point. We will be using jCAD bought via Mt. Pelerin for this. The jCAD will be deposited on Curve Finance into the appropriate pool to get a 2CAD LP token. This LP token will be deposited on Beefy so that swap fees and reward tokens provided by Jarvis can compound into additional 2CAD. As a proof of deposit, we will receive mooJarvis2CAD tokens that we can then use on Market.xyz as collateral to borrow some MAI with a CDR of 200% (50% LTV). The MAI loan will be used to create a liquidity-providing token on UniswapV3 so that it can collect swap fees at 12% APR.
+Pour cette stratégie, nous utiliserons Jarvis comme point de départ. Nous utiliserons des jCAD achetés via Mt. Pelerin pour cela. 
+Le jCAD sera déposé sur Curve Finance dans le pool approprié pour obtenir un jeton LP de 2CAD. Ce jeton LP sera déposé sur Beefy afin que les frais de swap et les jetons de récompense fournis par Jarvis puissent se transformer en 2CAD supplémentaires.
+Comme preuve de dépôt, nous recevrons des jetons mooJarvis2CAD que nous pourrons ensuite utiliser sur Market.xyz comme garantie pour emprunter des MAI avec un CDR de 200% (50% LTV). 
+Le prêt de MAI sera utilisé pour créer un jeton d'apport de liquidité sur UniswapV3 afin qu'il puisse percevoir des frais de swap à un taux d'intérêt annuel de 12 %.
 
-This initial setup ensures that you don't get impacted by the price variation of the USD in regard to the CAD. Also, the borrowed amount is secured in the UniswapV3 pool and can be repaid at any time.
+Cette configuration initiale garantit que vous ne serez pas affecté par la variation du prix de l'USD par rapport au CAD. En outre, le montant emprunté est garanti dans le pool UniswapV3 et peut être remboursé à tout moment.
 
-Both gains from the 2CAD and the UniswapV3 pools will be added to a "reward booster", i.e. a pool that will have 0 impact on the initial investment or the loan but will actually increase the gains from a high reward rate. You can use pretty much any pool with a reward rate higher than the 2CAD pool. It can be a liquidity pool on QuickSwap like the cxDOGE/cxETH (44.24% APY as of March 2022), or even an ohm-fork like Klima (944% APY as of March 2022). For our simulation, we will be using the JRT-MAY22-USDC pool directly on Jarvis Network. The liquidity can be bought/added on [Kyber Network](https://kyberswap.com/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xF5f480Edc68589B51F4217E6aA82Ef7Df5cf789e/0xdaa2c66b06b62bad2e192be0a93f895c855484ee) and uses USDC and a native token from the Jarvis Network. This LP token is currently getting 143% APR.
+Les gains des pools 2CAD et UniswapV3 seront ajoutés à un "reward booster", c'est-à-dire un pool qui n'aura aucun impact sur l'investissement initial ou le prêt mais qui augmentera les gains d'un taux de récompense élevé.
+ Vous pouvez utiliser à peu près n'importe quel pool avec un taux de récompense plus élevé que le pool 2CAD. Il peut s'agir d'un pool de liquidité sur QuickSwap comme le cxDOGE/cxETH (44,24% de rendement annuel en mars 2022), ou même un ohm-fork comme Klima (944% de rendement annuel en mars 2022). Pour notre simulation, nous utiliserons le pool JRT-MAY22-USDC directement sur Jarvis Network. La liquidité peut être achetée/ajoutée sur [Kyber Network]
+ (<https://kyberswap.com/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xF5f480Edc68589B51F4217E6aA82Ef7Df5cf789e/0xdaa2c66b06b62bad2e192be0a93f895c855484ee>) et utilise USDC et un jeton natif du Jarvis Network. Ce jeton LP a actuellement un taux d'intérêt annuel de 143%.
 
-This strategy is focusing on stable coins, but also presents a lot of possible variations:
+Cette stratégie se concentre sur les  stables coins, mais présente également de nombreuses variations possibles :
 
-* You can use 2JPY or 2SGD if you prefer these FIATs over jCAD
-* You can lend your jCAD (or any jFIAT) on Market.xyz and collect borrowing fees from borrowers
-* You can swap your loan from Market.xyz into any token for which you will provide liquidity on UniswapV3. Pick the pool you prefer, but pay attention to potential impermanent losses
-* You can swap the fees you collect on UniV3 to anything accepted on [Mai Finance](https://app.mai.finance) (BTC, CRV, LINK, GHST ...) and repay your loan on Market.xyz using the loan taken on Mai Finance, actually transferring your loan at 11% into a loan at 0%
-* You can also use the fees collected to repay your loan on Market.xyz faster
-* Possibilities are endless
+* Vous pouvez utiliser 2JPY ou 2SGD si vous préférez ces FIATs au jCAD.
+* Vous pouvez prêter votre jCAD (ou n'importe quel jFIAT) sur Market.xyz et percevoir des frais d'emprunt de la part des emprunteurs.
+* Vous pouvez échanger votre prêt de Market.xyz contre n'importe quel jeton pour lequel vous fournirez des liquidités sur UniswapV3. Choisissez le pool que vous préférez, mais faites attention aux pertes potentielles impermanentes.
+* Vous pouvez échanger les frais que vous collectez sur UniV3 contre tout ce qui est accepté sur [Mai Finance](https://app.mai.finance) (BTC, CRV, LINK, GHST ...) et rembourser votre prêt sur Market.xyz en utilisant le prêt pris sur Mai Finance, transférant en fait votre prêt à 11% en un prêt à 0%.
+* Vous pouvez également utiliser les frais perçus pour rembourser plus rapidement votre prêt sur Market.xyz.
+* etc
 
-As always, we will assume a few things for the simulation:
+Comme toujours, nous allons supposer quelques éléments pour la simulation :
 
-* The APY for 2CAD is 27% APY (23.91% APR)
-* The interest rate for the loan on Market.xyz is 11.28%
-* The APR of your position on UniswapV3 is 12% because you make it quite large (more secure but less efficient)
-* You will get 143% APR on the JRT-MAY22-USDC reward booster on Jarvis Network
+* Le taux d'intérêt annuel pour 2CAD est de 27% APY (23.91% APR)
+* Le taux d'intérêt pour le prêt sur Market.xyz est de 11.28%.
+* Le taux d'intérêt annuel de votre position sur UniswapV3 est de 12 % parce que vous la rendez assez grande (plus sûre mais moins efficace).
+* Vous obtiendrez un APR de 143% sur le booster de récompense JRT-MAY22-USDC sur Jarvis Network.
 
 ![](<../../.gitbook/assets/Jarvis-12.png>)
 
 {% hint style="info" %}
-If you want to run simulations for this system, you can use the [Google Spreadsheet linked to this strategy](https://docs.google.com/spreadsheets/d/10-n5IyZLl0GZyjM16SNuVOONNsfJ15pm2GL0e2MagzE/edit?usp=sharing). Simply change the different reward rates or desired CDR to estimate the final APY you can get from this loop.
+Si vous souhaitez effectuer des simulations pour ce système, vous pouvez utiliser la [feuille de calcul Google liée à cette stratégie] (<https://docs.google.com/spreadsheets/d/10-n5IyZLl0GZyjM16SNuVOONNsfJ15pm2GL0e2MagzE/edit?usp=sharing>). Il suffit de modifier les différents taux de récompense ou le CDR souhaité pour estimer le rendement annuel final que vous pouvez obtenir avec cette boucle.
 {% endhint %}
 
-### Day 1
+#### Jour 1
 
-You need to bootstrap your system. To do so
+Pour amorcer votre " système ", vous devez:
 
-* swap $300 worth of USDC for jCAD on Jarvis Network (or purchase jCAD directly via Mt. Pelerin)
-* deposit the jCAD on Curve Finance in [pool #23](https://polygon.curve.fi/factory/23/deposit)
-* deposit the 2CAD LP token on [beefy finance](https://app.beefy.finance/#/polygon/vault/jarvis-2cad)
-* deposit the beefy receipt token on Market.xyz
-* borrow MAI with a CDR or 200% (LTV of 50%)
-* swap a part of your MAI for USDC on Uniswap V3 and deposit MAI and USDC into a new liquidity pool with parameters of your choice
+* échanger 300 $ d'USDC contre du jCAD sur Jarvis Network (ou acheter du jCAD directement via Mt. Pelerin)
+* Déposez les jCAD sur Curve Finance dans [pool #23](https://polygon.curve.fi/factory/23/deposit)
+* Déposer le jeton 2CAD LP sur [beefy finance](https://app.beefy.finance/#/polygon/vault/jarvis-2cad)
+* Déposer le jeton de reçu beefy sur Market.xyz
+* emprunter des MAI avec un CDR de 200% (LTV de 50%)
+* échangez une partie de votre MAI contre des USDC sur Uniswap V3 et déposez MAI et USDC dans un nouveau pool de liquidité avec les paramètres de votre choix.
 
-After the 1st day of farming, you should have
+Après le 1er jour d'exploitation, vous devriez avoir
 
 |     position     |  value ($) |
 |------------------|------------|
@@ -237,19 +260,19 @@ After the 1st day of farming, you should have
 | Jarvis rewards   |      0.000 |
 | MAI debt         |    150.000 |
 
-You are all set, the rest is simple maintenance and moving the rewards into the Jarvis pool
+Vous êtes prêt, le reste n'est qu'une simple maintenance et le transfert des récompenses dans le pool Jarvis.
 
-### Daily maintenance
+### Maintenance quotidienne
 
-Time to put your gains into the reward booster:
+Il est temps de mettre vos gains dans le booster de récompenses :
 
-* harvest MAI and USDC on Uniswap V3
-* extract a small portion of your mooJarvis2CAD corresponding to what has been compounded
-* harvest reward on Jarvis Network
-* swap everything for JRT-MAY22 and USDC on Kyber Network, and create LP tokens
-* deposit the LP token on Jarvis Network
+* récoltez MAI et USDC sur Uniswap V3
+* Extraire une petite partie de votre mooJarvis2CAD correspondant à ce qui a été composé.
+* récolter la récompense sur Jarvis Network
+* échangez tout contre JRT-MAY22 et USDC sur Kyber Network, et créez des jetons LP.
+* Déposez le jeton LP sur le réseau Jarvis.
 
-At the end of Day 2, you will have
+À la fin du deuxième jour, vous aurez
 
 |     position     |  value ($) |
 |------------------|------------|
@@ -261,10 +284,10 @@ At the end of Day 2, you will have
 | Jarvis rewards   |      0.001 |
 | MAI debt         |    150.000 |
 
-### Raw results month after month
+### Résultats bruts mois après mois
 
-Here are raw results month after month, as you can get them in the Google SpreadSheet linked above.
- 
+Voici les résultats bruts mois après mois, tels que vous pouvez les obtenir dans la feuille de calcul Google dont le lien figure ci-dessus.
+
 | day | mooJarvis2CAD | MAI-USDC  | JRT-MAY22-USDC |  MAI debt |
 |-----|---------------|-----------|----------------|-----------|
 |  30 |       300.000 |   150.000 |          7.534 |   151.350 |
@@ -280,27 +303,27 @@ Here are raw results month after month, as you can get them in the Google Spread
 | 330 |       300.000 |   150.000 |        164.393 |   166.051 |
 | 360 |       300.000 |   150.000 |          7.343 |     0.000 |
 
-### Day 365
+### Jour 365
 
-With a CDR of 200%, you will repay your entire debt during the 11th month, liberating the initial CAD that you can transfer back into your bank account if you want, and you will still have
+Avec un CDR de 200%, vous rembourserez la totalité de votre dette au cours du 11ème mois, libérant le CAD initial que vous pourrez transférer à nouveau sur votre compte bancaire si vous le souhaitez, et vous aurez toujours
 
-* $150 worth of MAI-USDC
-* $7.343 worth of LP on Jarvis
+* 150 $ de MAI-USDC
+* 7,343 $ de LP sur Jarvis
 
-For a grand total of 52.91% APY.
+Pour un grand total de 52,91% d'APY.
 
 {% hint style="info" %}
-If you take the profits from your 2CAD liquidity pool and invest them directly into the JRT-MAY22-USDC pool on Jarvis, without adding Market.xyz in the middle, you would get a total APY of 52.68%. You can see the 2nd sheet on the Google Spreadsheet for details, or set the CDR to 1,000,000 (no loan).
+Si vous prenez les profits de votre pool de liquidité 2CAD et les investissez directement dans le pool JRT-MAY22-USDC sur Jarvis, sans ajouter Market.xyz au milieu, vous obtiendrez un total de 52.68% d'APY. Vous pouvez voir la 2ème feuille sur le Google Spreadsheet pour plus de détails, ou mettre le CDR à 1,000,000 (pas de prêt).
 {% endhint %}
 
-## Disclaimer
+## Avertissement
 
-This guide has been written mostly to illustrate how you can convert your FIATs into crypto assets (and vice versa) using Mt. Pelerin and Jarvis Network. For non-US residents, this is a very nice opportunity to transfer money from one "world" to the other with very little impact and almost no fees. The fact that you can also get your synthetic FIATs on Polygon makes it particularly efficient since gas cost and transaction time remain among the best for DeFi.
+Ce guide a été écrit principalement pour illustrer comment vous pouvez convertir vos FIATs en crypto actifs (et vice versa) en utilisant Mt. Pelerin et Jarvis Network. Pour les non-résidents américains, c'est une très belle opportunité de transférer de l'argent d'un "monde" à l'autre avec très peu d'impact et presque aucun frais. Le fait que vous puissiez également obtenir vos FIAT synthétiques sur Polygon rend cette solution particulièrement efficace puisque le coût du gaz et le temps de transaction restent parmi les meilleurs pour DeFi.
 
-It's also interesting to note that more and more first-grade applications are using jFIATs, especially [AAVE v3](https://app.aave.com/markets/) that started to propose jEUR and EURS lending markets, facilitating the transition from TradFi (**Trad**itional **Fi**nance) to DeFi.
+Il est également intéressant de noter que de plus en plus d'applications de premier ordre utilisent les jFIATs, notamment [AAVE v3](https://app.aave.com/markets/) qui a commencé à proposer des marchés de prêts en jEUR et EURS, facilitant ainsi la transition du TradFi (**Trad**itional **Fi**nance) au DeFi.
 
-The strategy proposed in this guide, it's assuming all prices and rates remain the same, which is obviously not what happens in real life. Make sure you pay attention to the reward borrowing rates before you invest anything so that you can repay your loan.
+La stratégie proposée dans ce guide part du principe que tous les prix et les taux restent les mêmes, ce qui n'est évidemment pas le cas dans la vie réelle. Assurez-vous de prêter attention aux taux d'emprunt de récompense avant d'investir quoi que ce soit afin de pouvoir rembourser votre prêt.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Ce guide n'est absolument pas un conseil financier, il a été réalisé dans un but éducatif. Vous devez faire attention aux variations de prix, à l'offre et à la demande, aux programmes de récompense, aux dates de fin, aux pertes impermanentes etc ... Le but n'était pas de proposer des recettes à suivre aveuglément, alors faites vos devoirs et votre propre simulation, et n'investissez que ce que vous êtes prêt à perdre éventuellement.
 {% endhint %}
