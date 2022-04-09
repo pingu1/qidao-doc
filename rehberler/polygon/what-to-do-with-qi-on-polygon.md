@@ -35,7 +35,7 @@ Hızlı bir hatırlatma olarak, Qi, [QuickSwap](https://quickswap.exchange/#/qui
 * QuickSwap'ta Qi-WETH ve QUICK tokenları ödüllendirin
 * QuickSwap'ta Qi-QUICK ve QUICK tokenları ödüllendirilin
 
-![Qi-WETH çifti için QuickSwap'ta LP havuzu](<../../.gitbook/assets/image (19) (2).png>)
+![Qi-WETH çifti için QuickSwap'ta LP havuzu](<../../.gitbook/assets/image (19) (2) (1).png>)
 
 ### Tek yönlü Qi çiftçiliği
 

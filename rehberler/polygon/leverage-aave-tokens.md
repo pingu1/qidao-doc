@@ -9,7 +9,7 @@ Açıklama: >-
 
 ## Bazen bir görsel bin kelimeye bedeldir
 
-![](<../../.gitbook/assets/image (21) (1).png>)
+![](<../../.gitbook/assets/image (21) (1) (1).png>)
 
 ## Ama bin kelime de o kadar kötü değildir!
 

@@ -1,169 +1,168 @@
 ---
 description: >-
-  Celsius bridge allows people to get their favorite assets on
-  Polygon and benefit from DeFi without selling them. Let's see how.
+  Celsius köprüsü, varlıklarınızı Polygon'a almanıza ve bu varlıklarınızı
+  satmadan DeFi'dan yararlanmanıza olanak tanır. Nasıl olduğuna bakalım.
 ---
 
-# From CeFi to DeFi with Celsius
+# Celsius ile CeFi'dan DeFi'ya
 
-## Introduction
+### Giriş
 
-[Celsius Network](https://celsius.network/) is one of the big CeFi players where people can easily buy crypto assets with their bank account and stake the purchased tokens to get extra rewards. As an example, you can earn 6.20% APY on your BTC (Bitcoin), 5.35% on your ETH (Ether) etc ... Besides holding your assets and getting weekly gains that compound, you can also borrow additional assets against the one you already own (that are then used as collateral) to leverage your position or swap for other tokens. However, Celsius is a closed network, and this is why it's often referenced as a CeFi application (**Ce**ntralized **Fi**nance).
+[Celsius Network](https://celsius.network) insanların banka hesaplarıyla kolayca kripto varlıkları satın alabilecekleri ve ekstra ödüller kazanmak için satın alınan tokenları stake edebilecekleri büyük CeFi aktörlerinden biridir. Örnek olarak, BTC'nizde (Bitcoin) %6,20 APY, ETH'nizde (Ether) %5,35 APY kazanabilirsiniz… Varlıklarınızı elde tutmanızın ve bileşik haftalık kazançlar elde etmenizin yanı sıra, pozisyonunuzu güçlendirmek veya diğer tokenlarla takas etmek için halihazırda sahip olduğunuz varlıklara (bunlar daha sonra teminat olarak kullanılır) karşı ek varlıklar da borç alabilirsiniz. Ancak, Celsius kapalı bir ağdır, bu yüzden genellikle bir CeFi (Centralized Finance- Merkezi Finans) uygulaması olarak anılır.
 
-If you have assets on Celsius, you can still send them to other applications on the tokens' native blockchain. As an example, you can transfer ETH in and out of Celsius using your Ethereum wallet, or BTC using your address on the Bitcoin chain. In addition to this, Celsius launched in February a new bridge called CelsiusX that allows you to send some specific assets from the Celsius application to Polygon. The current tokens that are supported are
+Celsius'ta varlıklarınız varsa, bunları tokenların yerel blok zincirindeki diğer uygulamalara gönderebilirsiniz. Örnek olarak, Ethereum cüzdanınızı kullanarak ETH'i Celsius'a veya Bitcoin zincirindeki adresinizi kullanarak BTC'ye aktarabilirsiniz. Buna ek olarak, Celsius şubat ayında Celsius uygulamasından Polygon'a bazı belirli varlıkları göndermenize izin veren CelsiusX adlı yeni bir köprüyü başlattı. Desteklenen mevcut tokenlar şunlardır
 
-* ETH, the native token of the Ethereum Mainnet
-* ADA, the native token of Cardano
-* DOGE, the native token of Dogecoin blockchain
+* ETH, Ethereum Mainnet'in yerel tokenı
+* ADA, Cardano'nun yerel tokenı
+* DOGE, Dogecoin blok zincirinin yerel tokenı
 
-By sending your assets on Polygon, you also get a full access to the DeFi ecosystem, as well as additional bridge options to move your tokens to Fantom, Avalanche, and many more other chains. This guide will guide you through the different steps to get your assets from Celsius to Polygon, and will present a few things you can do there.
-
-{% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
-{% endhint %}
-
-![](<../../.gitbook/assets/Celsius-Coinbase-17.png>)
-
-## Getting assets on Celsius
-
-### Get an account
-
-Of course, in order to be able to use Celsius, you will need a Celsius account. Simply head to their website and register a new account [using this link](https://celsius.onelink.me/EyfO/5321754e). Please note that for legal reasons, and because of the nature of the business model of Celsius, you will need to provide proofs of your identity, also known as KYC documents (**K**now **Y**our **C**ustomer), such as a driving license. Also, note that the Celsius application may not be available in your country. Check their [Terms of Use](https://celsius.network/terms-of-use) and [Privacy Policy](https://celsius.network/privacy-policy) for additional details.
+Varlıklarınızı Polygon'a göndererek, DeFi ekosistemine tam erişimin yanı sıra tokenlarınızı Fantom, Avalanche ve diğer birçok zincire taşımak için ek köprü seçeneklerine de sahip olursunuz. Bu kılavuz, varlıklarınızı Celsius'tan Polygon'a almak için farklı adımlarda size rehberlik edecek ve sonrasında yapabileceğiniz birkaç şeyi sunacaktır.
 
 {% hint style="info" %}
-Please note that this guide, Mai Finance, or the QiDAO community is not responsible for the services provided by Celsius, and it is strongly recommended to do your own research before registering for a financial product.
+Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Fiyat değişimlerine, arz ve talebe, ödül programlarının bitiş tarihlerine, kalıcı kayıplara vs. dikkat etmeniz gerekiyor... Amaç körü körüne takip edilebilecek tarifler önermek değildi. Bu yüzden lütfen kendi simülasyonunuzu yapın ve sadece kaybetmeyi göze aldığınız kadar yatırım yapın.
 {% endhint %}
 
-Once your account is created, feel free to take a quick tour of the web application, and you can also download the mobile application.
+![](../../.gitbook/assets/Celsius-Coinbase-17.png)
 
-### Getting your assets into your account
+## Varlıklarınızı Celsius'a Taşıma
 
-The mobile application is, for now, the only way for you to purchase assets directly using a Credit Card or a Bank Transfer. This option may also be restricted to certain countries/regions. Due to these restrictions, we will not cover this option, but feel free to explore this option if that's something you'd be willing to do.
+### Bir hesap oluşturun
 
-For this guide, we will focus on ETH, and we will also assume you already have some Ether on the Ethereum Mainnet that you want to bridge to Celsius. From the web application, simply navigate to the `Receive` tab.
-
-![Receiving ETH in your Celsius account in 4 simple steps](<../../.gitbook/assets/Celsius-Coinbase-0.png>)
-
-The first step is to add the coin you want to receive. In our case, we want to get ETH, and it's as easy as clicking `Add New Coins` button and selecting ETH from the dropdown.
-
-![List of accepted coins on Celsius](<../../.gitbook/assets/Celsius-Coinbase-6.png>)
-
-Once selected, you will have the possibility to get the wallet address that corresponds to your Celsius account on the Ethereum network.
-
-![Receiving address for ETH](<../../.gitbook/assets/Celsius-Coinbase-1.png>)
-
-If you click on `View and Copy address`, a new popup will open with a QR code representing your wallet address on Celsius network, as well as its value in plain text that you can simply copy and paste.
-
-![Feel free to send me some ETH](<../../.gitbook/assets/Celsius-Coinbase-2.png>)
-
-With the wallet address, you initiate a transfer from where you have your Ether tokens. The example below is taken from Coinbase (another big player in the CeFi industry):
-
-![Sending $100 worth of ETH from Coinbase to Celsius](<../../.gitbook/assets/Celsius-Coinbase-5.png>)
-
-Of course, and as always with Ethereum Mainnet, you will have to pay some transaction fees. This is absolutely not linked to Coinbase or Celsius. As you can see below, a direct transfer from my MetaMask wallet would also require me to pay some fees. 
-
-![Sending ETH form MetaMask to Celsius](<../../.gitbook/assets/Celsius-Coinbase-18.png>)
+Tabii ki Celsius'u kullanabilmek için bir Celsius hesabına ihtiyacınız olacak. Bunun için web sitelerine gidin ve [bu bağlantıyı](https://celsius.onelink.me/EyfO/5321754e) kullanarak yeni bir hesap açın. Lütfen yasal nedenlerle ve Celsius'un iş modelinin doğası gereği, KYC (Know Your Customer- Müşterini Tanı) belgeleri olarak da bilinen kimliğinizi kanıtlamanız gerekeceğini unutmayın. Ayrıca, Celsius uygulamasının ülkenizde mevcut olmayabileceğini unutmayın. Ek ayrıntılar için [Kullanım koşullarını](https://celsius.network/terms-of-use) ve [Gizlilik Politikasını](https://celsius.network/privacy-policy) kontrol edin.
 
 {% hint style="info" %}
-Depending on the congestion of the network, the fees may be quite high. Make sure you check the gas price to benefit from the lowest fees possible.
+Lütfen bu kılavuzun, Mai Finance ve QiDAO topluluğunun Celsius tarafından sağlanan hizmetlerden sorumlu olmadığını ve bir finansal ürüne kaydolmadan önce kendi araştırmanızı yapmanızın şiddetle tavsiye edildiğini unutmayın.
 {% endhint %}
 
-Once the transfer is completed, you should be able to see your assets in your Celsius dashboard:
+Hesabınız oluşturulduktan sonra, web uygulamasında hızlı bir tur atmaktan çekinmeyin, ayrıca mobil uygulamayı da indirebilirsiniz.
 
-![The ETH is now in my Celsius account](<../../.gitbook/assets/Celsius-Coinbase-7.png>)
+### Varlıklarınızı hesabınıza alma
 
-At this point, if I'm keeping the coins in my account on Celsius, I will receive staking rewards every week. For ETH, and as of March 2022, the APY is 5.35%. However, we will now have the possibility to move the assets to Polygon using the CelsiusX bridge **for free**. Simply head to the `Send` tab and select the asset you want to transfer to Polygon.
+Şimdilik, doğrudan Kredi Kartı veya Banka Havalesi kullanarak varlık satın almanın tek yolu mobil uygulamadır. Bu seçenek ayrıca belirli ülkeler/bölgelerle sınırlı olabilir. Bu kısıtlamalar nedeniyle, bu seçeneği ele almayacağız, ancak yapmaya istekliyseniz bu seçeneği keşfetmekten çekinmeyin.
+
+Bu kılavuz için ETH'e odaklanacağız ve ayrıca Ethereum Mainnet'te Celsius'a köprülemek istediğiniz bir miktar Ether'iniz olduğunu varsayacağız. Web uygulamasından Al (`Receive`) sekmesine tıklamanız yeterlidir.
+
+![Receiving ETH in your Celsius account in 4 simple steps](../../.gitbook/assets/Celsius-Coinbase-0.png)
+
+İlk adım, almak istediğiniz coin’i seçmektir. Bizim durumumuzda, ETH almak istiyoruz ve bunun için yapacağımız tek şey Yeni Coin Ekle’ye (`Add New Coins`) tıklayıp menüden ETH'i seçmek.
+
+![ Celsius'a uygun tokenların listesi](../../.gitbook/assets/Celsius-Coinbase-6.png)
+
+Seçtikten sonra, Ethereum ağındaki Celsius hesabınıza karşılık gelen cüzdan adresini alabileceksiniz.
+
+![ETH ulaşma adresi](../../.gitbook/assets/Celsius-Coinbase-1.png)
+
+Adresi Görüntüle ve Kopyala'ya (`View and Copy address`) tıklarsanız, Celsius ağındaki cüzdan adresinizi temsil eden bir QR kodu ve bunun yanı sıra basitçe kopyalayıp yapıştırabileceğiniz düz metinin bulunduğu yeni bir pencere açılır.
+
+![Feel free to send me some ETH](../../.gitbook/assets/Celsius-Coinbase-2.png)
+
+Cüzdan adresiyle, Ether tokenlarınızın bulunduğu yerden bir transfer başlatırsınız. Aşağıdaki örnek Coinbase'den (CeFi endüstrisindeki bir başka büyük aktör) alınmıştır:
+
+![ $100'lık ETH'i Coinbase'den Celsius'a gönderme](../../.gitbook/assets/Celsius-Coinbase-5.png)
+
+Tabii ki ve her zaman olduğu gibi Ethereum Mainnet’te bazı işlem ücretleri ödemeniz gerekecek. Bu kesinlikle Coinbase veya Celsius ile bağlantılı değil. Aşağıda görebileceğiniz gibi, MetaMask cüzdanımdan doğrudan bir transfer de bazı ücretler ödememi gerektiriyor.
+
+![Sending ETH form MetaMask to Celsius](../../.gitbook/assets/Celsius-Coinbase-18.png)
 
 {% hint style="info" %}
-Note: if you don't have any recipient address saved yet, now is time to create one. Pick your wallet address from Metamask and add it as your withdrawal address. For security reasons, when you create a withdrawal address or change it, this address is locked for 24h. As you will see in the screenshot below, 24 hours after I transferred $100 worth of ETH to Celsius, my balance already changed in price.
+Ağın yoğunluğuna bağlı olarak ücretler oldukça yüksek olabilir. Mümkün olan en düşük ücretlerden yararlanmak için gas fiyatını kontrol ettiğinizden emin olun
 {% endhint %}
 
-![Sending ETH from Celsius to my Polygon wallet](<../../.gitbook/assets/Celsius-Coinbase-9.png>)
+Aktarım tamamlandığında, varlıklarınızı Celsius kontrol panelinizde görebilmeniz gerekir:
 
-You can also notice on this screenshot that I will receive cxETH on Polygon, which is a wrapped version of ETH. It would be the same thing for ADA (you'll get cxADA) and DOGE (you'll get cxDOGE). We will see later in this guide what to do with your cxTokens.
+![](../../.gitbook/assets/Celsius-Coinbase-7.png)
+
+Bu noktada, coin’leri Celsius'ta hesabımda tutarsam her hafta stake ödülleri alacağım. Mart 2022 itibariyle ETH için APY %5,35'tir. Ancak şimdi, CelsiusX köprüsünü kullanarak varlıkları ücretsiz olarak Polygon'a taşıma olanağına sahip olacağız. Gönder sekmesine tıklayın ve Polygon'a aktarmak istediğiniz varlığı seçin.
+
+{% hint style="info" %}
+Not: Henüz kayıtlı bir alıcı adresiniz yoksa, şimdi oluşturma zamanı. Cüzdan adresinizi Metamask'ten seçin ve para çekme adresiniz olarak ekleyin. Güvenlik nedeniyle, bir para çekme adresi oluşturduğunuzda veya değiştirdiğinizde, bu adres 24 saat boyunca kilitlenir. Aşağıdaki ekran görüntüsünde göreceğiniz gibi 100$ değerinde ETH'i Celsius'a aktardıktan 24 saat sonra bakiyem fiyat olarak değişti.
+{% endhint %}
+
+![Sending ETH from Celsius to my Polygon wallet](../../.gitbook/assets/Celsius-Coinbase-9.png)
+
+Bu ekran görüntüsünde, ETH'in sarılmış (wrapped) bir versiyonu olan Polygon'da cxETH alacağımı da fark edebilirsiniz. ADA (cxADA alacaksınız) ve DOGE (cxDOGE alacaksınız) için de aynı şey olurdu. Bu kılavuzda daha sonra cxToken’larınızla ne yapacağınıza bakacağız.
 
 {% hint style="success" %}
-Note that there are absolutely no fees for this transfer. It's also very fast.
+Bu transfer için kesinlikle herhangi bir ücret alınmadığını unutmayın. Ayrıca çok hızlı.
 {% endhint %}
 
-Once sent, you will get an email asking you to confirm the transfer (always more security) and you will be able to see your transaction history reflecting this transfer in the Celsius app.
+Gönderildikten sonra, aktarımı onaylamanızı isteyen bir e-posta alacaksınız ve bu aktarımı yansıtan işlem geçmişinizi Celsius uygulamasında görebileceksiniz.
 
-![Funds have been sent, see you on Polygon](<../../.gitbook/assets/Celsius-Coinbase-11.png>)
+![Fonlar gönderildi.](../../.gitbook/assets/Celsius-Coinbase-11.png)
 
-After a few minutes, you will have your assets (cxTokens) available in your wallet on Polygon. The best way to keep track of these transfers is probably to use [an application like DeBank](https://debank.com/) and take a look at your transaction history on the desired chain (here Polygon):
+Birkaç dakika sonra varlıklarınızı (cxToken’larınızı) Polygon'daki cüzdanınızda kullanabileceksiniz. Bu transferleri takip etmenin en iyi yolu muhtemelen DeBank gibi bir uygulama kullanmak ve istediğiniz zincirdeki (burada Polygon) işlem geçmişinize bakmaktır
 
-![Transaction as seen in your history on DeBank](<../../.gitbook/assets/Celsius-Coinbase-12.png>)
+![](../../.gitbook/assets/Celsius-Coinbase-12.png)
 
-## Polygon and cxTokens
+## Polygon ve cxToken'lar
 
-### What are cxTokens
+### cxTokens Nedir?
 
-Without going too deep in the details, cxTokens are wrapped tokens. When you transfer your assets from the Celsius Network to Polygon, the assets are kept locked in the Celsius Network and new tokens are minted on Polygon. However, for the case of Ether, Celsius doesn't have the possibility to mint WETH on Polygon directly, so they create a token which price is indexed on the price of ETH: cxETH.
+Fazla ayrıntıya girmeden cxToken’lar, sarılmış (wrapped) tokenlardır. Varlıklarınızı Celsius Network'ten Polygon'a aktardığınızda, varlıklar Celsius Network'te kilitli tutulur ve Polygon'da yeni tokenlar basılır. Bununla birlikte, Ether durumunda, Celsius'un WETH'i doğrudan Polygon üzerinde basma imkanı yoktur, bu nedenle fiyatı ETH fiyatına endekslenen bir token oluştururlar: cxETH.
 
-The opposite is also true, meaning that when you transfer your cxETH back to Celsius, the cxToken is burnt and a corresponding amount of ETH is released on Celsius and added to your account.
+Bunun tersi de mümkündür, yani cxETH'inizi Celsius'a geri aktardığınızda, cxToken yakılır ve buna karşılık gelen miktarda ETH Celsius'ta serbest bırakılır ve hesabınıza eklenir.
 
-To make sure the price of the cxToken is properly indexed on the price of the underlying asset, Celsius is using a Chainlink's technology: the Proof of Reserve.
+Celsius, cxToken fiyatının dayanak varlığın fiyatına uygun şekilde endekslendiğinden emin olmak için bir Chainlink teknolojisi kullanıyor: Rezerv Kanıtı.
 
-If you are curious about the fine details of how Celsius is managing their cxTokens, you can read all the details in their [medium article from January 2022](https://medium.com/@CelsiusX/celsius-is-integrating-chainlink-proof-of-reserve-to-unlock-cross-chain-liquidity-with-wrapped-6c85bb2f2a60).
+Celsius'un cxToken'ları nasıl yönettiğinin ince ayrıntılarını merak ediyorsanız, tüm ayrıntıları [bu Medium makalesinden başlayarak](https://medium.com/@CelsiusX/celsius-is-integrating-chainlink-proof-of-reserve-to-unlock-cross-chain-liquidity-with-wrapped-6c85bb2f2a60). okuyabilirsiniz.
 
-### Swapping your cxTokens
+### cxToken'ları Swaplayın
 
-Because your cxTokens are wrapped versions of the underlying assets, you may not find many applications that will accept them as is. Luckily enough, you can swap them for some other assets using [QuickSwap DEX](https://quickswap.exchange/#/swap), the only DEX with liquidity for the cxTokens on Polygon as of March 2022.
+cxToken'larınız, temel alınan varlıkların sarılmış sürümleri olduğundan, onları olduğu gibi kabul edecek pek fazla uygulama bulamayabilirsiniz. Neyse ki Mart 2022'den itibaren Polygon'da cxToken’lar için likiditeye sahip tek DEX olan QuickSwap DEX'i kullanarak bunları başka varlıklarla değiştirebilirsiniz.
 
-![Swapping cxETH for ETH on QuickSwap](<../../.gitbook/assets/Celsius-Coinbase-13.png>)
+![](../../.gitbook/assets/Celsius-Coinbase-13.png)
 
-Obviously, you can also operate the reverse operation and buy cxTokens using other assets.
+Tabii ki, ters işlemi de gerçekleştirebilir ve diğer varlıkları kullanarak cxToken satın alabilirsiniz.
 
 {% hint style="info" %}
-When you're swapping in or out of cxTokens, pay attention to the route taken, as well as the slippage. QuickSwap seems to only use 4 hops at most, and to access cxDOGE as an example, you always need to go through ETH, cxETH, and then cxDOGE. This means you need to have enough liquidity between the asset you swap and ETH so that the route can be ASSET > ETH > cxETH > cxDOGE.
+xToken’ları takas ederken slipaja olduğu kadar alınan rotaya da dikkat edin. QuickSwap en fazla 4 adım kullanıyor gibi görünüyor, örnek olarak cxDOGE'a erişmek için her zaman ETH, cxETH ve ardından cxDOGE'dan geçmeniz gerekiyor. Bu da, rotanın VARLIK > ETH > cxETH > cxDOGE olabilmesi için takas ettiğiniz varlık ile ETH arasında yeterli likiditeye sahip olmanız gerektiği anlamına gelir.
 
-That's currently not the case for MAI as an example. You may want to do MAI > USDC > ETH > cxETH in a first swap, and cxETH > cxDOGE in a second swap.
+Şu anda örnek olarak MAI için durum böyle değil. Birinci takasta MAI > USDC > ETH > cxETH ve ikinci takasta cxETH > cxDOGE yapmak isteyebilirsiniz.
 
-The same goes when you want to get out of your cxTokens: cxDOGE to MAI may suffer from high slippage, and you probably will want to go through cxETH or ETH first.
+Aynı şey cxToken’larınızdan çıkmak istediğinizde de geçerlidir: cxDOGE'dan MAI'ye yüksek slipaj olabilir, muhtemelen önce cxETH veya ETH'den geçmek isteyeceksiniz.&#x20;
 {% endhint %}
 
-## Providing liquidity with your cxTokens
+## &#x20;cxToken'larınızla Likidite Sağlama
 
-With you cxTokens, you can provide liquidity to the CelsiusX pools on QuickSwap. The previous paragraph explains how to swap your cxTokens, and this is done using LP pools (**L**iquidity **P**oviding pools). In order to make sure any user can swap their tokens, QuickSwap will give rewards paid in dQUICK and MATIC to users who stake their liquidity on their application. The 3 pairs that will get you rewards are
+cxToken’larınız ile QuickSwap üzerinden CelsiusX havuzlarına likidite sağlayabilirsiniz. Önceki paragraf, cxToken'larınızı nasıl takas edebileceğinizi açıklar ve bu, LP havuzları (Liquidity Poviding havuzları) kullanılarak yapılır. QuickSwap, herhangi bir kullanıcının tokenlarını takas edebileceğinden emin olmak için uygulamalarında likiditelerini stake eden kullanıcılara dQUICK ve MATIC olarak ödenen ödüller verecektir. Size ödül kazandıracak 3 çift:
 
 * ETH/cxETH
 * cxETH/cxADA
 * cxETH/cxDOGE
 
-They all have different levels of rewards, and the best thing to do is to go to the QuickSwap app and check their dual mining programs.
+Hepsinin farklı ödül seviyeleri vardır. Bu yüzden yapılacak en iyi şey QuickSwap uygulamasına gidip ikili madencilik programlarını kontrol etmektir.
 
-![Details of the ETH/cxETH pool on QuickSwap as of March 2022](<../../.gitbook/assets/Celsius-Coinbase-15.png>)
+![](../../.gitbook/assets/Celsius-Coinbase-15.png)
 
-In the screenshot above, you can see that if you provide liquidity for the ETH-cxETH pair, you can get up to 15% APY (**A**nnual **P**ercentage **Y**ield, which assumes you will compound the rewards) paid in dQUICK, WMATIC, and directly into ETH and cxETH from swap fees. If you don't compound the rewards, that's still a 13.97% APR that you will get, and you will be able to do whatever you want with the reward tokens. Feel free to explore this guide to get additional ideas on how to use them.
-
-{% hint style="info" %}
-To enter a liquidity pool, simply [provide liquidity](https://quickswap.exchange/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xfe4546feFe124F30788c4Cc1BB9AA6907A7987F9) for the chosen pair in a 1:1 ratio. This may mean you will have to swap some cxTokens for something else. Once the LP pair is created, you can deposit it in the pool, and start accumulating yields.
-{% endhint %}
-
-## Use your cxTokens as collateral and take a loan
-
-Swapping your cxTokens means you are actually selling them to buy something else. [Mai Finance](https://app.mai.finance) is a DeFi (**De**centaralized **Fi**nance) application that will allow you to keep your assets locked in a vault and borrow some stable coins against them. Then you will be able to do whatever you want with your loan, including
-
-* farming stable coins
-* swapping the MAI stablecoin borrowed to buy other assets
-* leverage your cxTokens
-* bridge your MAI to other chains
-
-Just explore the different pages of this guide to collect ideas on how to use your loan in a way that suits you the best.
-
-**Note :** when you borrow the MAI stable coin on Mai Finance, you get paid with Qi tokens based on the amount you borrow. The reward rates vary based on the total amount borrowed for that vault, the price of Qi, and the Qi allocation for the vault. More details in our [guide on vault rewards](<../../mai-university/mai-loans-and-vaults-incentives.md>).
-
-![Vault status for the cxTokens as of March 2022](<../../.gitbook/assets/Celsius-Coinbase-19.png>)
-
-And of course, you can combine both solutions by swapping your MAI loan into LP pair of cxTokens and farm yields on QuickSwap. At this point, there's no limit to what you can do, and your initial investment is fully preserved in your vault on Mai Finance (as long as you don't get liquidated).
-
-![](<../../.gitbook/assets/Celsius-Coinbase-20.png>)
-
-## Disclaimer
-
-This guide has been written to present to you how you can benefit from CelsiusX, the bridge between Celsius Network and Polygon, and experiment with everything DeFi can offer on Polygon. Of course, using protocols on Polygon presents risks. If you're using cxTokens as collateral on Mai Finance, you will have to pay attention to liquidations in case the price of your collateral position goes below the liquidation ratio, a threshold that indicates your loan may have a bigger value than the assets backing it. These risks are presented in several tutorials on this site, so once again, you are highly encouraged to read some of them and make sure you understand how the different protocols presented in this guide are working before investing anything. And as always, this is not financial advice, always do your own research.
+Yukarıdaki ekran görüntüsünde, ETH-cxETH çifti için likidite sağlarsanız, dQUICK, WMATIC ve takas ücretlerinden doğrudan ETH ve cxETH'de ödenen %15'e kadar APY (ödülleri birleştireceğinizi varsayan, Annual Percentage Yield - Yıllık Yüzde Getiri) alabileceğinizi görebilirsiniz. Ödülleri birleştirmezseniz yine de %13.97'lik bir APR alırsınız ve ödül tokenlarıyla istediğiniz her şeyi yapabilirsiniz. Bunları nasıl kullanacağınıza dair daha fazla fikir almak için kılavuzlarımızı keşfetmekten çekinmeyin.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Bir likidite havuzuna girmek için seçilen çiftte 1:1 oranında [likidite sağlamanız](https://quickswap.exchange/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xfe4546feFe124F30788c4Cc1BB9AA6907A7987F9) yeterlidir. Bu da, bazı cxToken'ları başka bir şeyle değiştirmeniz gerekeceği anlamına gelebilir. LP çifti oluşturulduktan sonra çifti havuza yatırabilir ve getirileri biriktirmeye başlayabilirsiniz.
 {% endhint %}
 
+## cxToken'larınızı Teminat Olarak Kullanın ve Kredi Alın
+
+cxToken’larınızı takas etmek, onları başka bir şey satın almak için sattığınız anlamına gelir. [Mai Finance](https://app.mai.finance), varlıklarınızı bir kasada kilitli tutmanıza ve onlara karşı bazı stablecoinler borç almanıza olanak tanıyan bir DeFi (Decentaralized Finance - Merkeziyetsiz Finans) uygulamasıdır. O zaman, krediniz ile aşağıdakiler de dahil olmak üzere istediğiniz her şeyi yapabileceksiniz;
+
+* Stablecoin çiftçiliği
+* diğer varlıkları satın almak için borç alınan MAI stablecoinini takas etmek
+* cxToken’larınızdan yararlanmak
+* MAI'nizi diğer zincirlere köprülemek
+
+Kredinizi size en uygun şekilde nasıl kullanacağınız konusunda fikir edinmek için bu kılavuzun farklı yazılarını incelemeniz yeterlidir.
+
+**Note :** MAI stablecoinini Mai Finance üzerinden borç aldığınızda, borç aldığınız miktara göre Qi tokenları ile ödeme alırsınız. Ödül oranları, o kasa için borç alınan toplam miktara, Qi'nin fiyatına ve kasa için Qi tahsisine göre değişir. [Kasa ödülleri ile ilgili kılavuzumuzda](https://github.com/0xarmagan/qidao-doc/blob/tr/mai-university/mai-loans-and-vaults-incentives.md). daha fazla ayrıntı bulabilirsiniz.
+
+![](../../.gitbook/assets/Celsius-Coinbase-19.png)
+
+Ve elbette MAI kredinizi QuickSwap'te LP çifti cxToken’ları ve çiftçilik getirileri ile takas ederek her iki çözümü de birleştirebilirsiniz. Bu noktada yapabileceklerinizin bir sınırı yok ve ilk yatırımınız tamamen Mai Finance'teki kasanızda korunur (tasfiye etmediğiniz sürece).
+
+![](../../.gitbook/assets/Celsius-Coinbase-20.png)
+
+## Sorumluluk Reddi
+
+Bu kılavuz, Celsius Network ve Polygon arasında köprü olan CelsiusX'ten nasıl yararlanabileceğinizi size sunmak ve DeFi'ın Polygon'da sunabileceği şeyleri denemek için yazılmıştır. Tabii ki, Polygon üzerinden protokolleri kullanmak bazı riskler taşır. Mai Finance'te teminat olarak cxToken’ları kullanıyorsanız teminat pozisyonunuzun fiyatının tasfiye oranının altına düşmesi durumunda, kredinizin onu destekleyen varlıklardan daha büyük bir değere sahip olabileceğini gösteren bir eşik olması durumunda tasfiyelere dikkat etmeniz gerekecektir. Olası riskler bu sitedeki çeşitli eğitimlerde sunulmaktadır, bu nedenle bir kez daha, bunlardan bazılarını okumanız ve herhangi bir yatırım yapmadan önce bu kılavuzda sunulan farklı protokollerin nasıl çalıştığını anladığınızdan emin olmanız şiddetle tavsiye edilir. Ve her zaman olduğu gibi, bu kılavuz bir finansal tavsiye değildir, her zaman kendi araştırmanızı yapın.
+
+{% hint style="info" %}
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen güncel olun, piyasaları ve yatırımlarınızı takip edin ve her zaman belirttiğimiz gibi kendi araştırmanızı yapın.
+{% endhint %}

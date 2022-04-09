@@ -42,12 +42,12 @@ Artık FTM'de olduğunuza göre, bir miktar FTM'ye (gas maliyetlerini karşılam
 
 * [SpookySwap Discord](http://discord.gg/AqbsWsWDgn) sunucusuna katıldıktan ve hesabınızı doğruladıktan sonra #faucet bölümüne gidin.
 
-![](<../../.gitbook/assets/ftm-discord (1).png>)
+![](<../../.gitbook/assets/ftm-discord (1) (1).png>)
 
 * \#faucet kanalında `!faucet` komutunu yazmanız yeterlidir, bot size bir miktar $FTM gönderecektir. Her 30 günde bir 1 etkileşimle sınırlı olacağınızı unutmayın.
 * FTM'i düzgün bir şekilde aldığınızı doğrulamak istiyorsanız, onunla doğrudan etkileşim kurmak için Fantom Tip Bot adına tıklayabilir ve `!balance` yazabilirsiniz.
 
-![Teşekkürler Fantom Tip Bot ve SpookySwap](../../.gitbook/assets/ftm-balances.png)
+![Teşekkürler Fantom Tip Bot ve SpookySwap](<../../.gitbook/assets/ftm-balances (2).png>)
 
 * Şimdi yapmanız gereken tek şey, `!withdraw <your_wallet_address>` komutunu kullanarak FTM'lerinizi cüzdan adresinize göndermek. Cüzdan adresinizi Metamask penceresinin en üstünde bulacaksınız.
 
@@ -80,7 +80,7 @@ Fantom, 2021 yazının sonunda, özellikle zincirdeki yatırımcıları ve geli�
 
 * [BeethovenX](https://app.beethovenx.io/#/): Bu uygulama Balancer'a çok benzer. Bazı tokenları diğerleri için takas edebilecek ve ayrıca birden fazla tokendan oluşan dengeli havuzlara girebileceksiniz. Burası aynı zamanda Mai Finance'in Fantom'daki ilk resmi ortağı ve MAI'nizi değiştirebileceğiniz veya MAI-USDC havuzunda kullanabileceğiniz tek yer.
 
-![MAI'yi FTM ile değiştirme](../../.gitbook/assets/ftm\_beethoven.png)
+![MAI'yi FTM ile değiştirme](<../../.gitbook/assets/ftm\_beethoven (2).png>)
 
 * [SpookySwap](https://spookyswap.finance): Bu, Fantom'daki en büyük DEX'tir (**D**ecentralized **E**xchange), burada tokenlarınızı başkalarıyla takas edebileceğiniz, likidite yatırabileceğiniz ve çiftlik verimi gibi hemen hemen aynı şekilde QuickSwap on Polygon'da yaptığınız faaliyetleri uygulayabilirsiniz. SpookySwap platformun tokenı olan BOO kullanarak sizi ödüllendirecek. Bir yan not olarak ekleyelim, BOO stake ettiğinizde, karşılığında xBOO alacaksınız ve bunları ekstra ödüller kazanmak için kullanabilirsiniz (QuickSwap'taki Dragon's Syrup ile aynı prensip).
 * [SpiritSwap](https://app.spiritswap.finance): Token değiş tokuş edebileceğiniz, LP tokenları oluşturabileceğiniz ve likidite havuzlarında çiftlik getirisi yapabileceğiniz geleneksel AMM ve getiri çiftçiliği platformu. SpiritSwap, platformda stake edebileceğiniz ve inSPIRIT tokenlarını (SPIRIT belirli bir süre için kilitlenecektir), veCRV bağlı olarak alabileceğiniz SPIRIT ile size ödeme yapacaktır. Fantom'da Mai Finance'i beklerken ödünç vermek ve ödünç almak için SpiritSwap'ı da kullanabilirsiniz.
