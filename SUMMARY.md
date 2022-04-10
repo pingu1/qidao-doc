@@ -30,7 +30,7 @@
   * [A Spooky Symfony](tutorial/fantom/spooky-symfony.md)
 * [Moonriver](tutorial/moonriver/README.md)
   * [Come iniziare con Moonriver](tutorial/moonriver/how-to-get-started-on-moonriver.md)
-  * [Farming MAI on SolarBeam](tutorial/moonriver/farming-mai-on-solarbeam.md)
+  * [Farming di MAI su SolarBeam](tutorial/moonriver/farming-mai-on-solarbeam.md)
 * [Cronos](tutorial/cronos/README.md)
   * [Come iniziare con Cronos](tutorial/cronos/how-to-get-started-on-cronos.md)
   * [Farm in stile Lego su CroDex](tutorial/cronos/farming-legos-with-crodex.md)
