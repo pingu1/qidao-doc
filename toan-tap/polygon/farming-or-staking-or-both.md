@@ -7,7 +7,7 @@ description: >-
 
 # Farming hoặc Staking? Hoặc cả hai?
 
-![](../../.gitbook/assets/screen-shot-2021-09-03-at-9.24.12-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
 
 ## Intro
 
@@ -46,7 +46,7 @@ Bạn cũng cần biết rằng các token dư ra có thể stake trên Mai Fina
 
 ## Khởi động hệ thống
 
-![](../../.gitbook/assets/screen-shot-2021-09-08-at-6.54.08-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
 
 Những gì sau đây là một mô phỏng được thực hiện với khoản đầu tư ban đầu trị giá 1000 đô la cho các cặp Qi / MATIC và Qi / WETH LP và các APR / APY hiện tại được cung cấp bởi các nền tảng khác nhau vào ngày 9 tháng 9 năm 2021. Trên thực tế tỷ giá sẽ khác nhau, giá mã token sẽ thay đổi, một số chương trình sẽ kết thúc, v.v. vì vậy kết quả cuối cùng chỉ là ước tính bạn có thể nhận được gì nếu mọi thứ vẫn ổn định (không bao giờ xảy ra).
 

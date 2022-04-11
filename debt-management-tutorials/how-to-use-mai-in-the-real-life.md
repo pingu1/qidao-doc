@@ -23,7 +23,7 @@ Hôm nay là ngày mà khoản đầu tư ban đầu của anh ấy vào GPU cu�
 
 Vì vậy, thay vì ngồi trên lợi nhuận của mình chờ đợi giá tăng vọt, DogeOfWallStreet quyết định rằng đã đến lúc mua thêm card đồ họa và có thể tăng lợi nhuận khai thác của mình. Về mặt chi phí, RTX 1660 super có vẻ là card có lợi nhất hiện tại và nó chỉ có giá $ 500.
 
-![](../.gitbook/assets/screen-shot-2021-08-13-at-12.07.41-pm.png)
+![](<../.gitbook/assets/Screen Shot 2021-08-13 at 12.07.41 PM.png>)
 
 Sau 1 tháng khai thác, anh ấy kiểm tra danh mục đầu tư của mình trên mạng chính ETH sau khi bể này trả tiền cho anh ta. Anh ta có số ETH trị giá tương đương 1.340,00 đô la (lợi nhuận khai thác và ETH đã tăng gần 12% trong 4 tuần), đủ để mua card ... nhưng sau đó lại gặp tiến thoái lưỡng nan:
 
