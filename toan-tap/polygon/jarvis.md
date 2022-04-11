@@ -298,8 +298,8 @@ Hướng dẫn này được viết chủ yếu để minh họa cách bạn có
 
 Cũng rất thú vị khi lưu ý rằng ngày càng có nhiều ứng dụng cấp một đang sử dụng jFIATs, đặc biệt là [AAVE v3](https://app.aave.com/markets/) bắt đầu đề xuất thị trường cho vay jEUR và EURS, tạo điều kiện thuận lợi cho việc chuyển đổi từ TradFi (Tài chính truyền thống) sang DeFi.
 
-The strategy proposed in this guide, it's assuming all prices and rates remain the same, which is obviously not what happens in real life. Make sure you pay attention to the reward borrowing rates before you invest anything so that you can repay your loan.
+Chiến lược được đề xuất trong hướng dẫn này, đó là giả định tất cả các mức giá và tỷ giá vẫn giữ nguyên, điều này rõ ràng không phải là những gì xảy ra trong cuộc sống thực. Hãy chắc chắn rằng bạn chú ý đến lãi suất vay thưởng trước khi đầu tư bất cứ thứ gì để có thể hoàn trả khoản vay của mình.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Hướng dẫn này chắc chắn không phải là lời khuyên tài chính, nó được thực hiện với mục tiêu giáo dục. Bạn cần chú ý đến sự thay đổi giá cả, cung và cầu, chương trình thưởng, ngày kết thúc, khoản lỗ vô thường, v.v. chỉ đầu tư những gì bạn sẵn sàng để có thể mất.
 {% endhint %}
