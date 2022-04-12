@@ -1,7 +1,6 @@
 ---
 description: >-
-  La plupart des gens utiliseront leur prêt de MAI pour acheter d'autres assets. Cependant, certaines stratégies très
-  stratégies très intéressantes peuvent être utilisées avec le MAI directement, et celle utilisant Ethalend en est une très performante.
+  La plupart des gens utiliseront leur prêt de MAI pour acheter d'autres assets. Cependant, certaines stratégies très intéressantes peuvent être utilisées avec le MAI. ETHALEND est l'une d'entre elles.
 ---
 
 # MAI Staking simple avec Ethalend
