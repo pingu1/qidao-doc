@@ -113,7 +113,7 @@ Le jour 1, vous déposerez votre MAI sur Ethalend dans le pool MAI-USDT, puis vo
 | dQUICK on Mai      | 0.000            |
 | debt on Mai        | 0.000            |
 
-### Deuxième 2
+### Deuxième jour
 
 Le deuxième jour, vous pouvez miser vos ETHA du premier jour sur Ethalend, ce qui générera des récompenses QUICK que vous pourrez ensuite convertir en dQUICK sur QuickSwap, déposer sur Mai Finance, et vous pourrez emprunter des MAI contre ces jetons. Vous pouvez également déposer vos Qi dans le pool Balancer. À la fin du deuxième jour, vous obtiendrez :
 
