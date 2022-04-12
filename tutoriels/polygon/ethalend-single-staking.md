@@ -1,109 +1,112 @@
 ---
 description: >-
-  Most people will use their MAI loan to buy other assets. However, some very
-  interesting strategies can be used with MAI directly, and the one using
-  Ethalend is a very good one.
+  La plupart des gens utiliseront leur prêt de MAI pour acheter d'autres assets. Cependant, certaines stratégies très
+  stratégies très intéressantes peuvent être utilisées avec le MAI directement, et celle utilisant Ethalend en est une très performante.
 ---
 
-# MAI single-staking with Ethalend
+# MAI Staking simple avec Ethalend
 
-## Intro
+## Introduction
 
-One of the missions of this website and the collection of tutorials that are offered is to make DeFi user friendly by demystifying the most complex protocols. This vision is also shared by the team behind [Ethalend](https://www.ethalend.org), and this guide will present a perfect way to use this platform in conjunction with Mai Finance to amplify your stable farming yields.
+L'une des missions de ce site et de la collection de tutoriels qui y sont proposés est de rendre la DEFI conviviale en démystifiant les protocoles les plus complexes. Cette vision est également partagée par l'équipe derrière [Ethalend] (https://www.ethalend.org), et ce guide présentera une façon simple d'utiliser cette plateforme en lien avec Mai Finance pour améliorer vos rendements de stable coin.
 
-## Ethalend presentation
+## Ethalend présentation
 
 ![](../../.gitbook/assets/Ethalend-1.png)
 
-### What is Ethalend
+### Comment fonctionne ETHALEND
 
-Ethalend is a composable protocol that abstracts the complexity in DeFi to provide algorithmically optimal yield. It is not a yield aggregagor, but a yield optimizer. You will be able to deposit your assets on the platform, and the algorithm in charge of the pool in which you deposit your assets will actually invest them in the best way possible. Yields are then distributed in the native token of Ethalend, the ETHA token, as well as some partner tokens, including Qi from Mai Finance that you can get by depositing your MAI in the MAI-USDT eVault. You can read more about Ethalend via their [official documentation](https://docs.ethalend.org), or by reading this excellent [interview of the co-founder](https://ambcrypto.com/un-complicating-defi-an-interview-with-ethalend-co-founder-danny-b/).
+Ethalend est un protocole qui abstrait la complexité de DeFi pour fournir un rendement algorithmique optimal. Il ne s'agit pas d'un agrégateur de rendement, mais d'un optimiseur de rendement. Vous pourrez déposer vos actifs sur la plateforme, et l'algorithme en charge du pool dans lequel vous déposez vos actifs va effectivement les investir de la meilleure façon possible. Les rendements sont ensuite distribués dans le token natif d'Ethalend, le token ETHA, ainsi que dans certains tokens partenaires, dont le Qi de Mai Finance que vous pouvez obtenir en déposant votre MAI dans le Vault MAI-USDT. Vous pouvez en savoir plus sur Ethalend via leur [documentation officielle] (https://docs.ethalend.org), ou en lisant cette excellente [interview du co-fondateur] (https://ambcrypto.com/un-complicating-defi-an-interview-with-ethalend-co-founder-danny-b/).
 
-### Create your Ethalend wallet from your web3 wallet
 
-One of the very interesting things about Ethalend is that the application is using a dedicated on-chain wallet that is not linked to your web3 wallet. This can be considered as
+### Créer son porte feuille ethalend depuis son navigateur
 
-* an advantage since all contract risk is limited to what is exposed in this private wallet. Also, some interaction between the Ethalend application and the private wallet are directly included into the platform use, which may save you some transaction fees. As a side note, the ETHA smart wallet is non-custodial, meaning that only you will have access to the wallet, it's not like a master centralized wallet controlling the share corresponding to your wallet.
-* a disadvantage, because it adds complexity in your routine, and the ETHA smart wallet isn't compatible with physical devices.
+L'un des aspects très intéressants d'Ethalend est que l'application utilise un portefeuille dédié sur la chaîne qui n'est pas lié à votre portefeuille classique. Cela peut être considéré comme
 
-It's going to be up to you to decide if the pros are bringing enough value to surpass the cons. When you are ready to create your wallet, simply click on the `Create Wallet` button in the top right corner of your screen.
+* un avantage puisque tout risque contractuel est limité à ce qui est exposé dans ce portefeuille privé. De plus, certaines interactions entre l'application Ethalend et le portefeuille privé sont directement incluses dans l'utilisation de la plateforme, ce qui peut vous faire économiser quelques frais de transaction. Par ailleurs, le porte-monnaie intelligent ETHA est non gardien, ce qui signifie que vous seul aurez accès au porte-monnaie, ce n'est pas comme un porte-monnaie maître centralisé contrôlant la part correspondant à votre porte-monnaie.
+* C'est un inconvénient, car cela ajoute de la complexité dans votre routine, et le porte-monnaie intelligent ETHA n'est pas compatible avec les dispositifs physiques.
+
+Ce sera à vous de décider si les avantages apportent suffisamment de valeur pour dépasser les inconvénients. Lorsque vous êtes prêt à créer votre portefeuille, cliquez simplement sur le bouton "Créer un portefeuille" dans le coin supérieur droit de votre écran.
+
+Traduit avec www.DeepL.com/Translator (version gratuite)
 
 ![Create your ETHA smart wallet](../../.gitbook/assets/Ethalend-2.png)
 
 There you go, ready to use the protocol!
 
-## Strategy overview
+## Explication de la stratégie
 
-This strategy can be added to your bucket of relatively safe strategies since it will be using stable coin farming at its root, and additional yields will be provided thanks to more volatile assets from the rewards of the stable position.
+Cette stratégie peut être ajoutée à votre seau de stratégies relativement sûres puisqu'elle utilise l'élevage de pièces stables à sa base, et des rendements supplémentaires seront fournis grâce à des actifs plus volatils provenant des récompenses de la position stable.
 
-### MAI single staking and gains
+### MAI single staking et gains
 
 ![Ethalend MAI-USDT eVault as of November 2021](../../.gitbook/assets/Ethalend-3.png)
 
-One of the big advantages of Ethalend, and one of the key feature that allows DeFi simplification, is that you don't need to provide a LP (**L**iquidity **P**roviding) pair composed of 2 assets with a ratio of 1:1. The algorithm that manages the pool (or eVault in our case) will do it automatically for you. Also, once you deposit your assets in a eVault, they will be re-routed automatically to the best protocol that will maximize your yield. The reward tokens will be farmed and converted for you regularly.
+L'un des grands avantages d'Ethalend, et l'une des caractéristiques clés qui permet la simplification de DeFi, est que vous n'avez pas besoin de fournir une paire LP (**L**iquidité **P**roviding) composée de 2 actifs avec un ratio de 1:1. 
+L'algorithme qui gère le pool (ou le eVault dans notre cas) le fera automatiquement pour vous. De même, une fois que vous aurez déposé vos actifs dans un eVault, ils seront automatiquement ré-acheminés vers le meilleur protocole qui maximisera votre rendement. Les jetons de récompense seront récoltés et convertis pour vous régulièrement.
 
-![Depositing 100 MAI in the MAI-USDT eVault from our MetaMask wallet](../../.gitbook/assets/Ethalend-4.png)
+Dépôt de 100 MAI dans le coffre-fort électronique MAI-USDT depuis notre portefeuille MetaMask](../../.gitbook/assets/Ethalend-4.png)
 
-As you can see, details of the rewards are displayed in the right part of the screen. The ETHA rewards are not displayed, but you get an estimation of the Qi rewards associated with your deposit. If you scroll down the page, you will also get a good understanding of the underlying strategy that is using QuickSwap in our case. QUICK rewards will be converted into Qi rewards. ETHA rewards are minted by the protocol to incentive you to use their platform instead of QuickSwap.
-
-{% hint style="info" %}
-Pay attention to the 0.10% withdrawing fees. As of writing, with a deposit of 100 MAI, I will have to pay a 0.1 MAI exit fee, which roughly corresponds to 10 days of farming in the eVault. Make sure you understand this point before investing anything.
-{% endhint %}
-
-### Staking ETHA: Ethalend or QuickSwap
-
-The main reward you will get by lending your MAI on Ethalend will be paid in ETHA, the native token from Ethalend. One of the main advantage of Ethalend is that you will be able to single stake your ETHA tokens directly on the platform and magnify your yields.
-
-![Staking your ETHA on Ethalend directly](../../.gitbook/assets/Ethalend-5.png)
-
-As you can see, the best option is to deposit the ETHA you earned in the ETHA-QUICK pool. Because of the nature of the 2 assets (very volatile), the reward is really high. You can possibly reduce the impermanent losses by depositing your ETHA in the ETHA-USDT pool if you prefer. In both cases, you will be rewarded with QUICK tokens. And of course, if you are really bullish on ETHA, you can stake your rewards in the ETHA pool for additional ETHA.
-
-The staking vaults on Ethaland are actually a convenience offered by Ethalend. When you deposit your tokens in the pool, the balancing algorithm will sell a few of the deposited tokens to buy the other side of the LP pair, and use this pair in QuickSwap. As a side note, you can totally do this manually: claim your ETHA tokens, withdraw in your web3 wallet, sell 50% for QUICK tokens, create some LP tokens, and deposit them in the QuickSwap pool:
-
-![QuickSwap pools for ETHA as of November 2021](../../.gitbook/assets/Ethalend-6.png)
+Comme vous pouvez le voir, les détails des récompenses sont affichés dans la partie droite de l'écran. Les récompenses ETHA ne sont pas affichées, mais vous obtenez une estimation des récompenses Qi associées à votre dépôt. Si vous faites défiler la page, vous aurez également une bonne compréhension de la stratégie sous-jacente qui utilise QuickSwap dans notre cas. Les récompenses QUICK seront converties en récompenses Qi. Les récompenses ETHA sont frappées par le protocole pour vous inciter à utiliser leur plateforme au lieu de QuickSwap.
 
 {% hint style="info" %}
-QuickSwap promotes a 223.1% APY on the ETHA-QUICK pair, while Ethalend displays a 116.73% APR on the same pair. This is due to the difference between APY (**A**nnual **P**ercentage **Y**ield, or autocompounded rewards) and APR (**A**nnual **P**ercentage **R**evenue, or rewards without auto-compounding). The 2 percentages are actually exactly the same, so it doesn't matter which platform you chose to use your ETHA tokens.
+Faites attention aux frais de retrait de 0,10 %. Au moment où j'écris ces lignes, avec un dépôt de 100 MAI, je devrai payer des frais de sortie de 0,1 MAI, ce qui correspond à peu près à 10 jours de farmig dans le  vault . Assurez-vous de bien comprendre ce point avant d'investir quoi que ce soit.
 {% endhint %}
 
-### The dQUICK Mai Vault
+### Staker des token ETHA : Ethalend ou QuickSwap
 
-The best way to use the QUICK rewards you will get from staking your ETHA is to convert them into dQUICK. dQUICK can be created in the Dragon's Lair on QuickSwap. It's the way QuickSwap is incentivizing users to stake their QUICK by rewarding them with additional QUICK: by locking your QUICK tokens on QuickSwap, you will earn extra tokens.
+La principale récompense que vous obtiendrez en prêtant votre MAI sur Ethalend sera payée en ETHA, le jeton natif d'Ethalend. L'un des principaux avantages d'Ethalend est que vous pourrez mettre en jeu vos jetons ETHA directement sur la plateforme et augmenter vos rendements.
 
-![Dragon's Lair APY on QuickSwap as of November 2021](../../.gitbook/assets/Ethalend-7.png)
+!Staking your ETHA on Ethalend directly](../../.gitbook/assets/Ethalend-5.png)
+
+Comme vous pouvez le constater, la meilleure option est de déposer les ETHA que vous avez gagnés dans le pool ETHA-QUICK. En raison de la nature des 2 actifs (très volatils), la récompense est vraiment élevée. Vous pouvez éventuellement réduire les pertes impermanentes en déposant vos ETHA dans le pool ETHA-USDT si vous préférez. Dans les deux cas, vous serez récompensé par des jetons QUICK. Et bien sûr, si vous êtes vraiment optimiste quant à l'ETHA, vous pouvez miser vos récompenses dans le pool ETHA pour obtenir de l'ETHA supplémentaire.
+
+Les vaults de staking sur Ethaland sont en fait une fonctionnalité offerte par Ethalend. Lorsque vous déposez vos jetons dans le pool, l'algorithme d'équilibrage vendra quelques-uns des jetons déposés pour acheter l'autre côté de la paire LP, et utiliser cette paire dans QuickSwap. À titre d'information, vous pouvez tout à fait faire cela manuellement : réclamez vos jetons ETHA, retirez-les dans votre portefeuille web3, vendez-en 50% pour des jetons QUICK, créez quelques jetons LP et déposez-les dans le pool QuickSwap :
+
+![Pools QuickSwap pour ETHA à partir de novembre 2021](../../.gitbook/assets/Ethalend-6.png)
 
 {% hint style="info" %}
-The dQUICK APY varies a lot between 20% and 40%, depending on the amount of QUICK tokens that are actually staked on the Platform
+QuickSwap propose un taux annuel de 223,1% sur la paire ETHA-QUICK, tandis qu'Ethalend affiche un taux annuel de 116,73% sur la même paire. Ceci est dû à la différence entre l'APY (**A**nnual **P**ercentage **Y**ield, ou récompenses autocompoundées) et l'APR (**A**nnual **P**ercentage **R**evenue, ou récompenses sans autocompounding). Les deux pourcentages sont en fait exactement les mêmes, donc la plateforme que vous avez choisie pour utiliser vos jetons ETHA n'a pas d'importance.
 {% endhint %}
 
-But one of the best thing about dQUICK is that it's a "proof of deposit" token that can be used on Mai Finance as a collateral. This means that, after you deposited your QUICK rewards from Ethalend on QuickSwap and received dQUICK, you can head to Mai Finance and deposit the dQUICK tokens into a dQUICK Vault to borrow MAI against them.
+### Le vault dQUICK Mai
 
-![dQUICK Vault on Mai Finance as of November 2021](../../.gitbook/assets/Ethalend-8.png)
+La meilleure façon d'utiliser les récompenses QUICK que vous obtiendrez en jalonnant vos ETHA est de les convertir en dQUICK. dQUICK peut être créé dans la Tanière du Dragon sur QuickSwap. C'est la façon dont QuickSwap incite les utilisateurs à miser leurs QUICK en les récompensant avec des QUICK supplémentaires : en verrouillant vos jetons QUICK sur QuickSwap, vous gagnerez des jetons supplémentaires.
 
-A few things about the dQUICK vaults:
+(../../.gitbook/assets/Ethalend-7.png) [Dragon's Lair APY sur QuickSwap à partir de novembre 2021] (../../.gitbook/assets/Ethalend-7.png)
 
-* They have a liquidation ratio of 130%, which means you will be able to borrow a lot of MAI against your dQUICK tokens. However, if you want to collect borrowing rewards too, you will need to keep a CDR (**C**ollateral to **D**ebt **R**atio) between 155% and 400%. This is a good idea since the QUICK token is pretty volatile, and as a general rule, this website strongly promote a CRD 100% above the liquidation ratio (or 230% for dQUICK).
-* dQUICK Vaults are among the ones with the highest APR when you borrow MAI against dQUICK. As of writing, you can get up to 39.40% APR paid in Qi tokens based on the amount of MAI you will borrow against your MAI.
+{% hint style="info" %}
+Le rendement annuel de dQUICK varie beaucoup, entre 20 % et 40 %, en fonction de la quantité de jetons QUICK qui sont effectivement mis en jeu sur la plate-forme.
+{% endhint %}
 
-You can already see that, providing dQUICK is very interesting since you will have an asset that gets compounded QUICK rewards from QuickSwap, you will get Qi rewards for your loan, and you will be mint MAI that can then be added back into the eVault on Ethalend, increasing your stable farming position.
+Mais l'une des meilleures choses à propos de dQUICK est qu'il s'agit d'un jeton de "preuve de dépôt" qui peut être utilisé sur Mai Finance comme garantie. Cela signifie que, après avoir déposé vos récompenses QUICK d'Ethalend sur QuickSwap et reçu des dQUICK, vous pouvez vous rendre sur Mai Finance et déposer les jetons dQUICK dans un vault dQUICK pour emprunter des MAI contre eux.
 
-### What to do with your Qi rewards
+[Chambre forte dQUICK sur Mai Finance à partir de novembre 2021](../../.gitbook/assets/Ethalend-8.png)
 
-This subject is explained in [a dedicated article](what-to-do-with-qi-on-polygon.md). For the sake of this tutorial, we will simply deposit your Qi in the Qi-BAL pool on Balancer to benefit from a solid APR, paid in additional Qi and BAL tokens that you can compound in the exact same pool.
+Quelques informations sur les coffres dQUICK :
 
-![State of the Qi-BAL pool on Balancer as of November 2021](../../.gitbook/assets/Ethalend-9.png)
+* Ils ont un ratio de liquidation de 130 %, ce qui signifie que vous pourrez emprunter beaucoup de MAI contre vos jetons dQUICK. Toutefois, si vous souhaitez également percevoir des récompenses d'emprunt, vous devrez maintenir un CDR (**Ratio C**garantie/dette **D**) entre 155 % et 400 %. C'est une bonne idée, car le jeton QUICK est assez volatile, et en règle générale, ce site Web encourage fortement un CDR supérieur de 100 % au ratio de liquidation (ou 230 % pour dQUICK).
+* Les coffres-forts dQUICK sont parmi ceux qui présentent le TAEG le plus élevé lorsque vous empruntez des MAI contre des dQUICK. Au moment de la rédaction du présent document, vous pouvez obtenir un TAEG de 39,40 % payé en jetons Qi en fonction du montant de MAI que vous emprunterez contre votre MAI.
 
-## Bootstrapping the system
+Vous pouvez déjà voir que fournir du dQUICK est très intéressant puisque vous aurez un actif qui obtiendra des récompenses QUICK composées de QuickSwap, vous obtiendrez des récompenses Qi pour votre prêt, et vous monnayerez des MAI qui pourront ensuite être ajoutés à l'eVault sur Ethalend, augmentant votre position d'agriculture stable.
+
+### Que faire de vos récompenses en Qi ?
+
+Ce sujet est expliqué dans [un article dédié] (what-to-do-with-qi-on-polygon.md). Pour les besoins de ce tutoriel, nous nous contenterons de déposer vos Qi dans le pool Qi-BAL sur Balancer pour bénéficier d'un solide rendement, payé en Qi supplémentaires et en jetons BAL que vous pourrez composer dans exactement le même pool.
+
+![État du pool Qi-BAL sur Balancer en novembre 2021](../../.gitbook/assets/Ethalend-9.png)
+
+## Amorçage du système
 
 ![](../../.gitbook/assets/Ethalend-10.png)
 
-What follows is a simulation made with an initial investment of $100 worth of MAI that you can either borrow from an existing vault, or buy from a DEX platform. It assumes that all current APRs and APYs stay the same over the span of 1 year, and that all tokens keep the same price, which will (of course) never be the case.
+Ce qui suit est une simulation réalisée avec un investissement initial de 100 $ de MAI que vous pouvez soit emprunter à un coffre-fort existant, soit acheter sur une plateforme DEX. Elle suppose que tous les TAP et les CAA actuels restent les mêmes sur une période d'un an, et que tous les jetons gardent le même prix, ce qui ne sera (bien sûr) jamais le cas.
 
-### Day 1
+#### Premier jour
 
-On day 1, you will deposit your MAI on Ethalend in the MAI-USDT pool, then you will get the reward in both Qi and ETHA at the end of the day.
+Le jour 1, vous déposerez votre MAI sur Ethalend dans le pool MAI-USDT, puis vous recevrez la récompense en Qi et ETHA à la fin de la journée.
 
-| Reward type        | Value in dollars |
+| Type de récompense | Valeur en dollars |
 | ------------------ | ---------------- |
 | Mai on Ethalend    | 100.000          |
 | Qi+BAL on Balancer | 0.032            |
@@ -111,40 +114,40 @@ On day 1, you will deposit your MAI on Ethalend in the MAI-USDT pool, then you w
 | dQUICK on Mai      | 0.000            |
 | debt on Mai        | 0.000            |
 
-### Day 2
+### Deuxième 2
 
-On day 2, you can stake your ETHA from day 1 on Ethalend, which will generate QUICK rewards that you can then convert to dQUICK on QuickSwap, deposit on Mai Finance, and you will be able to borrow MAI against these tokens. You can also deposit your Qi in the Balancer pool. At the end of day 2 you will get:
+Le deuxième jour, vous pouvez miser vos ETHA du premier jour sur Ethalend, ce qui générera des récompenses QUICK que vous pourrez ensuite convertir en dQUICK sur QuickSwap, déposer sur Mai Finance, et vous pourrez emprunter des MAI contre ces jetons. Vous pouvez également déposer vos Qi dans le pool Balancer. À la fin du deuxième jour, vous obtiendrez :
 
-| Reward type        | Value in dollars |
+| Type de récompense | Valeur en dollars |
 | ------------------ | ---------------- |
-| Mai on Ethalend    | 100.000          |
-| Qi+BAL on Balancer | 0.065            |
-| ETHA on Ethalend   | 0.141            |
-| dQUICK on Mai      | 0.000            |
-| debt on Mai        | 0.000            |
+| Mai sur Ethalend | 100.000 |
+| Qi+BAL sur Balancer | 0.065 |
+| ETHA sur Ethalend | 0.141 |
+| dQUICK sur Mai | 0.000 |
+| Dette sur Mai 0.000
 
-From there, the system is bootstrapped, and you will be able to grow your stable position of MAI, as well as get rewards in Qi, BAL, ETHA and dQUICK. Note that some values are too low to be significant at this point, and since you won't be able to borrow less than 0.01 MAI, you will have to accumulate dQUICK for 14 days before being able to borrow MAI.
+À partir de là, le système est amorcé, et vous serez en mesure de faire croître votre position stable de MAI, ainsi que d'obtenir des récompenses en Qi, BAL, ETHA et dQUICK. Notez que certaines valeurs sont trop faibles pour être significatives à ce stade, et puisque vous ne pourrez pas emprunter moins de 0,01 MAI, vous devrez accumuler dQUICK pendant 14 jours avant de pouvoir emprunter du MAI.
 
-## Farming Results
+## Résultats  
 
-### Daily routine
+### Routine quotidienne
 
-The daily farming routine is composed of
+La routine quotidienne d'agriculture est composée de
 
-* Harvesting the Qi and ETHA rewards from the MAI-USDT pool on Ethalend
-* Deposit the Qi tokens in the Balancer pool on Balancer
-* Deposit the ETHA tokens in the ETHA-QUICK pool on Ethalend
-* Harvest QUICK rewards from the ETHA-QUICK pool on Ethalend
-* Convert QUICK into dQUICK on QuickSwap
-* Deposit dQUICK into the dQUICK vault on Mai Finance
-* Borrow MAI from the dQUICK vault on Mai Finance
-* Deposit additional MAI borrowed in the MAI-USDT pool on Ethalend
+* Récolter les récompenses en Qi et ETHA du pool MAI-USDT sur Ethalend.
+* Déposer les jetons Qi dans le pool Balancer sur Balancer.
+* Déposer les jetons ETHA dans le pool ETHA-QUICK sur Ethalend.
+* Récolter des récompenses QUICK dans le pool ETHA-QUICK sur Ethalend.
+* Convertissez QUICK en dQUICK sur QuickSwap.
+* Déposez du dQUICK dans le coffre-fort dQUICK sur Mai Finance.
+* Emprunter des MAI dans le coffre-fort dQUICK sur Mai Finance.
+* Déposer les MAI supplémentaires empruntés dans le pool MAI-USDT sur Ethalend.
 
-Additionally, you will be able to harvest and compound the Qi and BAL rewards weekly.
+En outre, vous serez en mesure de récolter et de composer les récompenses Qi et BAL chaque semaine.
 
-### Raw results month after month
+### Résultats bruts mois après mois
 
-Below are the raw results at the end of each month:
+Les résultats ci dessous sont donnés mois par mois
 
 | day | Mai on Ethalend | Qi on Balancer | ETHA on Ethalend | dQUICK on Mai | MAI debt |
 | --- | --------------- | -------------- | ---------------- | ------------- | -------- |
@@ -162,24 +165,24 @@ Below are the raw results at the end of each month:
 | 360 | 108.100         | 21.032         | 26.113           | 16.297        | 8.149    |
 | 365 | 108.343         | 21.528         | 26.495           | 16.783        | 8.392    |
 
-### Day 365
+### 365 jours
 
-At the end of one year, you would have
+A la fin d'une année, vous auriez
 
-* $108.343 worth of MAI in the MAI-USDT pool on Ethalend
-* $26.495 worth of ETHA in the ETHA-QUICK pool on Ethalend
-* $21.528 worth of Qi in the Qi-BAL pool on Balancher
-* $16.783 worth of dQUICK in the dQUICK vault on Mai Finance
-* $8.392 worth of MAI debt on Mai Finance
+* 108.343$ de MAI dans le pool MAI-USDT sur Ethalend.
+* 26,495 $ d'ETHA dans le pool ETHA-QUICK sur Ethalend.
+* 21,528 $ de Qi dans le pool Qi-BAL de Balancher.
+* 16 783 $ de dQUICK dans le coffre de dQUICK sur Mai Finance.
+* 8,392 $ de dette MAI sur Mai Finance.
 
-This sums up as $173.149 worth of assets, and an outstanding debt of $8.392, which corresponds to an equivalent APY of 64.757%. This is achieved with an initial investment of $100 worth of MAI and using a stable pool as basis for farming. Note that transaction fees haven't been taken in account, but may influence the final result. This is also assuming you are compounding daily for 1 complete year.
+Cela représente 173,149 $ d'actifs et une dette de 8,392 $, ce qui correspond à un rendement annuel équivalent de 64,757 %. Ce résultat est obtenu avec un investissement initial de 100 $ de MAI et en utilisant un pool stable comme base d'exploitation. Notez que les frais de transaction n'ont pas été pris en compte, mais peuvent influencer le résultat final. Cela suppose également que vous réinvestissez vos gains quotidiennement pendant une année complète.
 
 ## Disclaimer
 
-Everything presented in this tutorial is educational content made to illustrate how you can use your MAI without selling them, and still generate an APY of more than 60% using different protocols as lego bricks. However, this tutorial should not be considered as financial advice.
+Tout ce qui est présenté dans ce tutoriel est un contenu éducatif destiné à illustrer comment vous pouvez utiliser vos MAI sans les vendre et générer un rendement annuel de plus de 60 % en utilisant différents protocoles comme des briques de lego. Cependant, ce tutoriel ne doit pas être considéré comme un conseil financier.
 
-Also, the strategy here is presenting a closed loop that doesn't sell any token and each system is feeding the next one. However, as you can see, the dQUICK final position isn't very high, and the MAI loan will probably not generate a lot of Qi. You can probably achieve the same equivalent APY (if not better) by selling the QUICK rewards granted by the ETHA-QUICK pool, buy MAI and add it to your MAI-USDT position.
+De plus, la stratégie présentée ici est une boucle fermée qui ne vend aucun jeton et chaque système alimente le suivant. Cependant, comme vous pouvez le constater, la position finale du dQUICK n'est pas très élevée, et le prêt MAI ne générera probablement pas beaucoup de Qi. Vous pouvez probablement obtenir le même rendement annuel équivalent (sinon meilleur) en vendant les récompenses QUICK accordées par le pool ETHA-QUICK, en achetant du MAI et en l'ajoutant à votre position MAI-USDT.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+N'oubliez pas qu'une stratégie qui fonctionne bien à un moment donné peut donner de mauvais résultats (ou vous faire perdre de l'argent) à un autre moment. Restez informé, surveillez les marchés, gardez un œil sur vos investissements et, comme toujours, faites vos propres recherches.
 {% endhint %}
