@@ -6,7 +6,7 @@ description: 本教程呈现了用户可以利用杠杆作用他们当前的加�
 
 ## **当一张照片价值千字**
 
-![](<../../.gitbook/assets/image (21) (1).png>)
+![](<../../.gitbook/assets/image (21) (2).png>)
 
 ## **但一千字也没那么糟糕**
 
@@ -20,11 +20,11 @@ description: 本教程呈现了用户可以利用杠杆作用他们当前的加�
 
 由于你的 MATIC 代币在 Aave 池中，产生的利息是自动复利的，这意味着你持有的 MATIC 数量会随着时间的推移而增长。
 
-![ 在这个例子里，我借了 0.2 MATIC](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.29.53 PM.png>)
+![ 在这个例子里，我借了 0.2 MATIC](../../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
 
 通过在 Aave 上借出你的 MATIC 代币，你将收到等量的 amWMATIC（aave 市场包裹着MATIC）。除非你手动添加它们，否则你可能不会直接在钱包中看到这些代币，但你确实拥有它们。
 
-![我可以看到我在 DeBank 上借出的 0.20 MATIC](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.31.01 PM.png>)
+![我可以看到我在 DeBank 上借出的 0.20 MATIC](../../.gitbook/assets/screen-shot-2021-08-06-at-5.31.01-pm.png)
 
 ### **使用 Mai Finance 合成你的 Aave 代币**
 
@@ -32,7 +32,7 @@ Mai Finance 将在网站的Yield页面上接受你的 amWMATIC 代币。通过�
 
 但是，除了基础 APY ，Mai Finance 还会将当前可用的任何额外 Aave 奖励复合回到你选择的代币中，因此随着时间的推移被动地生成更多的选择代币。在我们的示例中（见上文），Aave 为存入的 MATIC 提供 1.16% 的 APY，同样也在 MATIC 里额外支付的3.69% 的 APR, 但是这个APR奖励没有产生任何收益。通过将你的 amWMATIC 存入 Mai Finance，奖励按周期的收集，并将其放回你的主要存款中，为了适用于 1.16% 的利率。
 
-![我的0.2MATIC现在存入麦财经，每年会产生4.93%](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.45.00 PM.png>)
+![我的0.2MATIC现在存入麦财经，每年会产生4.93%](../../.gitbook/assets/screen-shot-2021-08-06-at-5.45.00-pm.png)
 
 当 amWMATIC 存入Mai Finance时，收到 camWMATIC 作为交换。这两个代币的比例并不是完美地 1:1，因为 camMATIC 实际上代表了 Mai 上 amWMATIC 池的一部分，其中利息和奖励会自动复合。还应该指出的是，当你将 amWMATIC 存入 Mai Finance 时，这些代币将从 Aave 中移除。但是，如果你从 Mai Finance 提款你的 amWMATIC，你回到Aave 上会找到它们。
 
@@ -56,7 +56,7 @@ Mai Finance 允许你在存入抵押品时借入 MAI 稳定币。目前，Mai Fi
 
 当你定位到“Vault”页面并从下拉Vault菜单中选择camWMATIC 时，在你可以储存你的camWMATIC的地方你将会获得选择创建一个新Vault。牢记当你通过 camWMATIC 借贷的时候，你需要将抵押物与债务比率(CDR) 保持在至少 135%。
 
-![我的 0.2 MATIC 现在完全用作抵押品](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.57.55 PM.png>)
+![我的 0.2 MATIC 现在完全用作抵押品](../../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
 
 \
 **注意：**在此页面上，你将能够以美元看你的抵押品价值，这个价值会基于你的抵押品类型、代币价值以及在 camWMATIC 池中产生的收益而波动。\
@@ -67,7 +67,7 @@ Mai Finance 允许你在存入抵押品时借入 MAI 稳定币。目前，Mai Fi
 你应该不时访问 Vault 页面以确认你始终高于清算比率，并且如果你开始低于“安全比率”，你可能添加更多抵押品。根据你的风险状况，此安全阈值可能会各不相同。
 {% endhint %}
 
-![我现在有一笔 0.10 美元的债务](<../../.gitbook/assets/Screen Shot 2021-08-06 at 6.07.34 PM.png>)
+![我现在有一笔 0.10 美元的债务](../../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
 
 我借了MAI的0.10 美元，划转成 214.56% 的 CDR。现在让我们用我的钱尽情玩吧。
 
@@ -75,7 +75,7 @@ Mai Finance 允许你在存入抵押品时借入 MAI 稳定币。目前，Mai Fi
 
 我现在可以安全地到我最喜欢的 DEX/AMM（QuickSwap 或 Balancer 就是很好的例子），并将我的 MAI互换成更多MATIC。
 
-![让我们购买更多 MATIC](<../../.gitbook/assets/Screen Shot 2021-08-06 at 6.10.35 PM.png>)
+![让我们购买更多 MATIC](../../.gitbook/assets/screen-shot-2021-08-06-at-6.10.35-pm.png)
 
 互换后，我的钱包里有更多的 MATIC。
 

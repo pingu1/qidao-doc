@@ -19,7 +19,7 @@ description: 本页详细的呈现了一种“安全”策略，该策略使耕�
 为了更详细地举例说明你如何做这一点，我将使用最新的[PolyPup](https://ball.polypup.finance) 农场。这绝对不应该用作财务建议，而仅用于教育目的。还有，这里的“保护”一词唯一地基于我个人的欣赏。和往常一样，做你自己的研究。最后，我个人不推荐这个农场。
 {% endhint %}
 
-![](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)
+![](../../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
 
 ## **农耕生命周期**
 
@@ -39,11 +39,11 @@ description: 本页详细的呈现了一种“安全”策略，该策略使耕�
 
 一旦你借到MAI稳定币后，你可以使用Mai Finance上的[anchor page](https://app.mai.finance/anchor)将你的一半贷款转换为USDC。确实，当你使用 LP 对进行耕种时，对的两个部分需要按1:1的比例提供。
 
-![使用互换页面将我的 30 MAI 转换为 USDC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
+![使用互换页面将我的 30 MAI 转换为 USDC](../../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
 
 现在，取决于你想要耕作的农场，你需要在 DEX 平台上将你的 2 个稳定币（MAI 和 USDC）组合成一个有效的 LP 对。由于我的计划是进入 Polypup，并且该农场接受 QuickSwap LP，因此我需要前往  [QuickSwap](https://quickswap.exchange/#/) 并在那里生成我的对。
 
-![ 使用 MAI 和 USDC 生成一些 LP 代币](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
+![ 使用 MAI 和 USDC 生成一些 LP 代币](../../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
 
 我现在准备好进入农场了
 
@@ -51,7 +51,7 @@ description: 本页详细的呈现了一种“安全”策略，该策略使耕�
 
 现在你有了一些 LP 代币，你可以前往农场网站并存入它们以开始收集农场代币。在我们的示例中，我将我的 MAI/USDC 代币存入正确的池中，并开始收集 BALL 代币。
 
-![ 在池中赚取BALLS](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
+![ 在池中赚取BALLS](../../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
 
 截至到现在，你可以看到农场 MAI/USDC 授予我 176.99% 的 APR。根据池中提供多少流动性以及 BALL 代币的价格，此 APR 将随时间变化。
 
@@ -70,7 +70,7 @@ description: 本页详细的呈现了一种“安全”策略，该策略使耕�
 
 Mai Finance 展现了第三种选择，让你同时进行。一旦你获得奖励后，只需前往你最喜欢的支持农场代币的 DEX。通常，你可以在农场菜单中找到指向 DEX 的链接。该链接将包括帮助你轻松交易的代币地址。
 
-![用我的奖励换取更多 MATIC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
+![用我的奖励换取更多 MATIC](../../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
 
 到那点，我回到钱包里有 MATIC 代币的步骤，准备存入 Mai Finance 作为抵押品。如果我那样做，我可以借用 MAI，将其中的一部分换成 USDC，创建一个 LP 对并将其重新存入农场。通过做这种转换，我通过将它们转换成更稳定的加密货币来“确保”100%的奖励（此处为 MATIC），并将 50% 的奖励重新注入农场池（或者实际上，在本例中为 46%，因为要收取 4% 的存入费用）。
 

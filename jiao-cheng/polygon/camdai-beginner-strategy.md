@@ -7,7 +7,7 @@ description: >-
 
 # camDAI beginner strategy
 
-## Intro
+## 介绍
 
 Most people are scared when they think about DeFi. There's always a risk factor to take in account when using crypto currencies, the volatility of this market can make one loose a lot of money, and there are so many possibilities that finding a right strategy can be quite complex. However, when you're using the correct tools, some easy and low risk strategies can get good results, and can probably compete with more complex and risky options.
 

@@ -7,7 +7,7 @@ description: >-
 
 # MAI Metaverse Pt.2
 
-![](../.gitbook/assets/MAI.png)
+![](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.06.42 PM.png>)
 
 ## Harmony
 
@@ -15,7 +15,7 @@ description: >-
 
 Harmony (ONE) is a decentralized blockchain platform designed as a bridge between scalability and decentralization efforts. Its development went under the motto of “decentralization at scale” with the focus on data sharing and the creation of marketplaces of fungible tokens and non-fungible assets. Furthermore, Harmony comes with an additional promise of delivering high throughput accompanied by two “lows”: latency and fees. Combined, they are supposed to put the platform at the heart of the efforts to lay the foundation of the future decentralized trustless economies.
 
-However, what makes the Harmony blockchain unique, its their deep sharding system. A shard **** is a synonym for a piece or a part. By sharding **** Harmony means dividing its nodes in four equal groups. Hence, there are 1 000 nodes total divided into four shards making one shard consisting of 250 nodes. Moreover, the exact nodes within shards are regularly and randomly mixed. This number is set to be exactly so to increase the security of the system and to add more scalability. If you want to learn more about this chain, you can read this [article](https://guarda.com/academy/crypto/what-is-harmony/).
+However, what makes the Harmony blockchain unique, its their deep sharding system. A shard \*\*\*\* is a synonym for a piece or a part. By sharding \*\*\*\* Harmony means dividing its nodes in four equal groups. Hence, there are 1 000 nodes total divided into four shards making one shard consisting of 250 nodes. Moreover, the exact nodes within shards are regularly and randomly mixed. This number is set to be exactly so to increase the security of the system and to add more scalability. If you want to learn more about this chain, you can read this [article](https://guarda.com/academy/crypto/what-is-harmony/).
 
 ### Getting MAI on Harmony
 
@@ -40,11 +40,11 @@ Moonriver is a sister network of **Moonbeam**. Similar to its sister, Moonriver 
 * Moonriver is a parachain built on Kusama Relay Chain.
 * Moonbeam belongs to the Polkadot Relay Chain.
 
-Moonriver is an easy route to Kusama Relay Chain**.** It allows teams and developers ,who are familiar with Ethereum, access to the Kusama Network with little or no barriers. It minimizes the changes required to run existing Solidity smart contracts on the network. Therefore, Ethereum projects can simply replicate their DApp and deploy it to Moonriver using popular deployment tools.
+Moonriver is an easy route to Kusama Relay Chain\*\*.\*\* It allows teams and developers ,who are familiar with Ethereum, access to the Kusama Network with little or no barriers. It minimizes the changes required to run existing Solidity smart contracts on the network. Therefore, Ethereum projects can simply replicate their DApp and deploy it to Moonriver using popular deployment tools.
 
 ### Getting MAI on Moonriver
 
-To send MAI to Moonriver, we'll use the [Relaychain ](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer)platform. its UI is very similar to the one of Anyswap. When you want to transfer MAI from Polygon, you will have to connect your MetaMask wallet first, then select the asset you want to bridge (MAI) and the destination network (Moonriver).&#x20;
+To send MAI to Moonriver, we'll use the [Relaychain ](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer)platform. its UI is very similar to the one of Anyswap. When you want to transfer MAI from Polygon, you will have to connect your MetaMask wallet first, then select the asset you want to bridge (MAI) and the destination network (Moonriver).
 
 ![Transfering MAI from Polygon to Moonriver](<../.gitbook/assets/relay movr.JPG>)
 

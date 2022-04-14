@@ -1,303 +1,305 @@
 ---
-description: >-
-  This tutorial will presents in details how you can use different DApps on 
-  Polygon to increase your benefits when farming stable coins.
+description: 本教程将详细展示当你用稳定币耕作时，如何在 Polygon 上使用不同的 DApp 来增加效益。
 ---
 
-# Stack DApps like Lego bricks
+# 像乐高积木一样堆叠 DApp
 
-## Intro
+**简介**
 
-When you farm yields on a given farm, you usually get rewards under the form of native farm tokens. You then have the choice between either selling those, or keep them and hope they will gain some value over time. This guide will present a few different DApps (**D**ecentralized **App**lications) to maximize your yields without selling anything, while still compounding interests. This articles will also start from stable coins, because this is considered as a relatively safe strategy. However, you need to keep in mind that this is not a financial advice, and that this guide should be followed with caution as results are absolutely not guaranteed. As always, do your own research.
+当你在给定农场上种植产量时，你通常会以原生农场代币的形式获得奖励。然后，你可以选择出售它们或保留它们并希望它们随着时间的推移会获得一些价值。本指南将介绍一些不同的 DApp（去中心化应用程序），以在不出售任何东西的情况下最大化你的收益，同时仍然可以复利。
 
-![](<../../.gitbook/assets/Screen Shot 2021-08-30 at 10.52.20 AM.png>)
+这篇文章也将从稳定币开始，因为这被认为是一种相对安全的策略。但是，你需要记住，这不是财务建议，应该谨慎地遵循该指南，因为结果是绝对不能保证的。和往常一样，做你自己的研究。
+
+![](../../.gitbook/assets/screen-shot-2021-08-30-at-10.52.20-am.png)
 
 ## QuickSwap
 
-QuickSwap is one of the biggest AMM (**A**utomated **M**arket **M**aker) on Polygon. People deposit pairs of tokens into liquidity pools and earn transaction fees from other users who use the platform to swap their tokens. During a swap, QuickSwap automatically choses the best route using the different liquidity pools, and each jump from one pool to the other is subject to transaction fees that are redistributed to the liquidity suppliers.
+QuickSwap 是 Polygon 上最大的 AMM（自动做市商）之一。人们将成对的代币存入流动性池，并从使用该平台互换代币的其他用户那里赚取交易费。在掉期期间，QuickSwap 使用不同的流动性池自动选择最佳路线，每次从一个池子跳到另一个池子都要支付交易费用，这些费用会重新分配给流动性供应商。
 
-### Stable coin farming
+## **稳定币耕种**
 
-For this exercise, we will use the MAI/USDC pair on QuickSwap. This liquidity pool, a stable pool, proposes an APY (**A**nnual **P**ercentage **Y**ield that varies between 20% and 25%). The yield is composed of the transaction fees (that are accrued into the liquidity pool) and QUICK rewards.
+对于这个练习，我们将在 QuickSwap 上使用 MAI/USDC 对。这个流动性池是一个稳定的池，提出了一个 APY（年收益率在 20% 到 25% 之间变化）。收益由交易费用（累积到流动性池中）和 QUICK 奖励组成。
 
-![MAI/USDC liquidity pool on QuickSwap as of August 2021](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![ 截至 2021 年 8 月，QuickSwap 上的 MAI/USDC 流动性池](../../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
-The pool gets a fix amount of QUICK tokens every day, and they are then distributed to liquidity providers according to their share of the pool. As an example, if the pool has the equivalent of $1,000,000 worth of liquidity, and you already deposited $1,000 of LP (**L**iquidity **P**rovider) tokens, you own 0.1% of the pool, which entitles you to 0.1% of the daily QUICK reward. Your Quick reward will then be claimable when you manage the pool you entered.
+该池每天得到固定数量的 QUICK 代币，然后根据其在池中的份额分配给流动性提供者。例如，如果该池具有价值 1,000,000 美元的流动性，并且你已经存入了 1,000 美元的 LP（流动性提供者）代币，则你拥有池的 0.1%，这使你有权获得每日 QUICK 奖励的 0.1%。当你管理你进入的池时，你的Quick奖励将可以领取。
 
-![Claiming my QUICK reward for a $20 deposit](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.39.44 AM.png>)
+![以 20 美元的押金领取我的 QUICK 奖励](../../.gitbook/assets/screen-shot-2021-08-30-at-6.39.44-am.png)
 
-You can claim them regularly in order to put them at work. Let's see how.
+你可以定期领取它们，为了让它们发挥作用。让我们看看如何。
 
 ### Dragon's Lair
 
-The Dragon's Lair is a way to optimize your gains on QuickSwap. You can deposit the QUICK tokens that you earn from liquidity pools into the Lair, and they will earn you additional QUICK rewards. This is a good idea if you want to keep the QUICK tokens instead of selling them. When your QUICK tokens are staked into the Dragon's Lair, the rewards they generate are automatically compounded, and the APY of the Lair is around 12%.
+Dragon's Lair 是一种优化 QuickSwap 收益的方法。你可以将你从流动性池中赚取的 QUICK 代币存入 Lair，它们将为你赚取额外的 QUICK 奖励。这是一个好主意如果你想保留 QUICK 代币而不是出售它们。当你的 QUICK 代币投入 Dragon's Lair 时，它们产生的奖励会自动复利，Lair 的 APY 约为 12%。
 
-![Dragon's Lair APY as of August 2021](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.42.39 AM.png>)
+![截至 2021 年 8 月的 Dragon's Lair APY](<../../.gitbook/assets/image (7).png>)
 
-After you deposited your QUICK tokens, you will get in your wallet some dQUICK tokens that represent the share of the QUICK pool that you own. Note that the ratio QUICK:dQUICK isn't 1:1 since the dQUICK represent your share of the pool, while the amount of QUICK will increase over time as more rewards are added to the pool.
+在你存入 QUICK 代币后，你将在钱包中获得一些 dQUICK 代币，这些代币代表你拥有的 QUICK 池的份额。注意，QUICK:dQUICK 的比率不是 1:1，因为 dQUICK 代表你在池中的份额，而QUICK的数量将随着时间的推移而增加，因为更多的奖励被添加到池中。
 
-Now you have your stable coins deposited in the liquidity pool, and they generate QUICK rewards. The rewards are generating more rewards thanks to the Dragon's Lair. But wait, there's more ...
+现在你把稳定币存入流动性池中，它们会产生快速奖励。多亏Dragon's Lair，奖励正在产生更多奖励。但是等等，还有更多……
 
 ### Dragon's Syrup
 
-The Dragon's Syrup is an additional way that QuickSwap offers to reward even more users who are holding QUICK tokens. The QuickSwap team set up a program where partners can promote their products by granting their own token to the users of the QuickSwap platform. You can then deposit your dQUICK tokens into one of the farm in order to earn these exotic tokens on top of the Dragon's Lair rewards. The one we are interested in is the ADDY farm.
+Dragon’s Syrup是QuickSwap为更多持有QUICK代币的用户提供的一种额外奖励方式。QuickSwap 团队设立了一个计划，合作伙伴可以通过向 QuickSwap 平台的用户授予他们自己的代币来推广他们的产品。然后你可以将你的 dQUICK 代币存入其中一个农场，以便在 Dragon's Lair 奖励之上赚取这些奇异的代币。我们感兴趣的一个是 ADDY 农场。
 
-![Dragon's Syrup, a farm to collect ADDY token via dQUICK deposits](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.49.25 AM.png>)
+![Dragon's Syrup，一个通过 dQUICK 存款收集 ADDY 代币的农场](../../.gitbook/assets/screen-shot-2021-08-30-at-6.49.25-am.png)
 
-When you deposit your dQUICK into the farm, they will disappear from the Dragon's Lair (pretty much the same way your camTokens disappear from the Yield page on Mai Finance when you deposit them into a Vault). But you can clearly see that the dQUICK APY from the Lair is still applied, and that you will also get additional ADDY reward. Here, the APR (**A**nnual **P**ercentage **R**eward) is currently 21.36%.
+当你将 dQUICK 存入农场时，它们将从 Dragon's Lair 消失（与你将它们存入 Vault 时你的 camToken 从 Mai Finance 的Yield页面上消失的方式非常相似）。但是你可以清楚地看到，来自 Lair 的 dQUICK APY 仍然适用，并且你还将获得额外的 ADDY 奖励。在这里，APR（年度百分比奖励）目前为 21.36%。
 
 {% hint style="info" %}
-You will notice that the Syrup farms have an expiration date. Here, the ADDY farm will expire in 50 days and 11 hours. Some new farms will show up as some older disappear.
+你会注意到糖浆农场有一个到期日期。在这里，ADDY 场将在 50 天 11 小时后到期。一些新农场会随着一些旧农场的消失而出现。
 {% endhint %}
 
-In our case, the ADDY reward that we get can be claimed manually. You can note that the rate at which we will collect ADDY reward can only accelerate if we compound manually our QUICK rewards into dQUICK that we then deposit into the ADDY farm on QuickSwap.
+在我们的这种情况，我们获得的 ADDY 奖励可以手动领取。你可以注意到，只有当我们将 QUICK 奖励手动复合成到 dQUICK 中，然后我们将其存入 QuickSwap 上的 ADDY 农场时，我们收集 ADDY 奖励的比率才能加快。
 
-### Quick recap
+### 快速回顾
 
-We have MAI/USDC LP tokens deposited in the liquidity pool, and we earn
+我们有 MAI/USDC LP 代币存入流动性池，我们赚取
 
-* swapping fees
-* QUICK rewards from the pool that we need to claim manually and add to the Dragon's Lair
-* QUICK rewards from the Dragon's Lair that are auto-compounded in our existing rewards
-* ADDY rewards from the Dragon's Syrup that we can claim
+* 调换费
+* 池中的QUICK奖励，我们需要手动领取并添加到Dragon's Lair
+* Dragon's Lair中的QUICK奖励会自动合成到我们现有的奖励中
+* 我们可以领取的Dragon's Syrup中的 ADDY 奖励
 
 ## Impermax
 
-Impermax is an application that allows their user to leverage automatically their assets in order to amplify their positions in liquidity pools. This is done by borrowing additional assets supplied on the Impermax platform.
+Impermax是一个应用程序，允许用户自动杠杆他们的资产为了扩大他们在流动性池中的头寸。这是通过借用 Impermax 平台上提供的额外资产来完成的。
 
-### Stable coin farmin
+### 稳定币耕种
 
-For this exercise, we will also use the MAI/USDC pool in Impermax. By depositing some LP tokens into the MAI/USDC pool, we now have the option to leverage this deposit a certain number of times in order to increase our exposed capital, and gain more rewards. You need to pay attention to a few things when you're using Impermax though
+对于这个练习，我们还将使用 Impermax 中的 MAI/USDC 池。通过将一些 LP 代币存入 MAI/USDC 池，我们现在可以选择杠杆该存款一定次数，为了增加我们的暴露资本，并获得更多回报。在使用 Impermax 时你需要注意几点
 
-* You can only borrow what other users supply
-* The more assets are borrowed, the higher the borrowing rate
-* If the borrowing rate becomes too high, your final APR can become negative, and then you will lose some of your LP
-* The more you leverage, the higher the APR, but the higher the borrowing rate
+* 你只能借用其他用户提供的资产
+* 借入的资产越多，借款利率越高
+* 如果借款利率变得太高，你的最终 APR 可能会变成负数，然后你会损失一些你的LP
+* 杠杆越多，APR 越高，但借款利率越高
 
-### Levered position
+### 杠杆头寸
 
-On QuickSwap, I deposited $20 worth of MAI/USDC pair. On Impermax, I will deposit only $10 worth of MAI/USDC and will apply a x2 lever on it to get a $20 exposure.
+在 QuickSwap 上，我存入了价值 20 美元的 MAI/USDC 对。在 Impermax 上，我将只存入价值 10 美元的 MAI/USDC，并将对其应用 x2 杠杆以获得 20 美元的风险敞口。
 
-![Leverage window on Impermax at a given time](<../../.gitbook/assets/Screen Shot 2021-08-30 at 7.11.10 AM.png>)
+![在给定时间Impermax上的杠杆窗口](../../.gitbook/assets/screen-shot-2021-08-30-at-7.11.10-am.png)
 
-You can see on the screenshot above that, if I increase my leverage to x2.1, I would borrow
+你可以在上面的截图中看到，如果我将我的杠杆增加到 x2.1，我会借
 
 * 0.481269 USDC
 * 0.487593 MAI
 
-We can also see by how much the trading fees I collect would increase (+3.45%), as well as the increase in QUICK rewards (+36.83%), IMX rewards (+23.05%) and the borrowing rate (-37.20%) for a final estimated APR of 26.13%.
+我们还可以看到我收取的交易费用会增加多少（+3.45%），以及QUICK奖励（+36.83%）、IMX奖励（+23.05%）和借贷利率（-37.20%）的增加最终估计 APR 为 26.13%。
 
-Note in this example that the Borrowing fees are paid using the QUICK rewards and the trading fees in case the QUICK rewards aren't enough. Then the IMX reward goes to the supplier if the borrowing fee isn't yet paid, and finally the deposit is used to pay the supplier if there's still something to pay.
+注意在此示例中，借款费用是使用 QUICK 奖励和交易费用支付的，以防 QUICK 奖励不够。然后，如果还没有支付借款费用，IMX奖励会给到供应商，最后，如果供应商还有需要支付的东西，就会用押金支付给供应商。
 
-Our goal here is to match the deposit we have on QuickSwap, so we'll stick to a x2 leverage. This also ensures that we don't get the risk of going into negative APRs. Our goal is not to collect as much reward as possible, but to increase our position over time, and collect IMX tokens.
+我们在这的目标是匹配我们在 QuickSwap 上的存款，因此我们将坚持 x2 杠杆。这也确保我们不会有进入负 APR 的风险。我们的目标不是收集尽可能多的奖励，而是随着时间的推移增加我们的头寸，并收集 IMX 代币。
 
-### Quick recap
+### 快速回顾
 
-We have MAI/USDC tokens deposited in the appropriate pool
+我们将 MAI/USDC 代币存入适当的池中
 
-* Our position is levered two times in order to match the amount deposited in QuickSwap
-* We collect IMX tokens
+* 为了匹配 QuickSwap 中存入的金额，我们的仓位被杠杆化两次
+* 我们收集 IMX 代币
 
 ## Adamant
 
-Adamant is a yield optimizer platform that automates harvesting into liquidity pools and auto-compound rewards into additional LP tokens. Most of the pools present on Adamant are popular pools from big liquidity providers like QuickSwap, SushiSwap and others. Let's see how we can use Adamant to optimize our yields.
+Adamant 是一个收益优化器平台，可自动收集流动性池并将奖励自动复合到额外的 LP 代币中。 Adamant 上的大多数池都是来自 QuickSwap、SushiSwap 等大型流动性提供商的流行池。让我们看看如何使用 Adamant 来优化我们的收益。
 
-### QUICK/IMX farming
+### QUICK/IMX 耕作
 
-We earn QUICK tokens on QuickSwap, and we earn IMX tokens on Impermax. Let's use Adamant to farm the QUICK/IMX pool from QuickSwap. Why do that? Because the farm is actually very profitable, as you can see here:
+我们在 QuickSwap 上赚取 QUICK 代币，我们在 Impermax 上赚取 IMX 代币。让我们使用 Adamant 从 QuickSwap 中耕作 QUICK/IMX 池。为什么这么做？因为农场实际上非常有利可图，正如你在此处看到的：
 
-![IMX/QUICK pool from QuickSwap on Adamant](<../../.gitbook/assets/Screen Shot 2021-08-30 at 7.27.26 AM.png>)
+![来自 Adamant 上 QuickSwap 的 IMX/QUICK 池](../../.gitbook/assets/screen-shot-2021-08-30-at-7.27.26-am.png)
 
-As this article is being written, the current APY of the IMX/QUICK pool on Adamant is 417.25%. The reward is composed of
+在撰写本文时，Adamant 上 IMX/QUICK 矿池的当前 APY 为 417.25%。奖励组成由
 
-* 168.49% auto-compounded QUICK (QUICK rewards from QuickSwap are sold to buy additional IMX/QUICK LP tokens that are added to your position)
-* 212.85% ADDY tokens that you can claim on Adamant (they are vested for 90 days so you can't access them right away)
-* 35.91% fee dividends paid in WMATIC if you claim your ADDY daily
 
-This means that your IMX/QUICK position will grow over time, and that you will collect ADDY rewards. The more ADDY you hold, the more dividend (WMATIC) you will collect.
 
-You can also see that the APY on Adamant is _Boostable_. This means that if you stake additional ADDY tokens (not the vested ones), you will apply an additional multiplier to the reward you get. And that's actually a good thing, because we DO get additional ADDY tokens from the Dragon's Syrup on QuickSwap!
+* 168.49% 自动复合 QUICK（出售来自 QuickSwap 的 QUICK 奖励以购买添加到你头寸的额外 IMX/QUICK LP 代币）
+* 你可以在 Adamant 上索取 212.85% ADDY 代币（它们的归属期为 90 天，因此你无法立即访问它们）
+* 如果你每天领取 ADDY，则在 WMATIC 中支付 35.91% 的费用股息
 
-### Harvesting ADDY and WMATIC
+这意味着你的 IMX/QUICK 头寸会随着时间的推移而增长，并且你将获得 ADDY 奖励。你持有的 ADDY 越多，你收取的股息 (WMATIC) 就越多。
 
-When you harvest the ADDY earned from your LP position in the IMX/QUICK pool, they will be locked for 90 days, but will allow you to get some dividends in the form of WMATIC. The current APR for dividends is 34% based on your vested ADDY tokens.
+你还可以看到 Adamant 上的 APY 是Boostable。这意味着如果你质押额外的 ADDY 代币（不是既得的代币），你将应用额外的乘数来获得奖励。这实际上是一件好事，因为我们确实从 QuickSwap 上的 Dragon's Syrup 中获得了额外的 ADDY 代币！
 
-After the 90 days vest period, you will have the possibility to lock them for at least an additional 90 days in order to boost the ADDY tokens earned from vaults and earn additional ADDY tokens.
+### **收获ADDY和WMATIC**
 
-WMATIC dividends are the actual output of the QuickSwap + Impermax + Adamant trio we're after, because we'll be able to use them to re-inject additional LP tokens into both QuickSwap and Impermax.
+你在 IMX/QUICK 池中获得从你的 LP 头寸收获的 ADDY 时，它们将被锁定 90 天，但将允许你以 WMATIC 的形式获得一些分红。根据你已授予的 ADDY 代币，当前的股息 APR 为 34%。
 
-### Quick recap
+在 90 天归属期之后，你将有可能将它们锁定至少 90 天，为了增加从金库中挣得的 ADDY 代币并赚取额外的 ADDY 代币。
 
-We deposit IMX and QUICK tokens earned from Impermax and QuickSwap under the form of IMX/QUICK LP tokens. Adamant is earning
+WMATIC 股息是我们所追崇的 QuickSwap + Impermax + Adamant 三重奏的实际输出，因为我们将能够使用它们将额外的 LP 代币重新注入 QuickSwap 和 Impermax。
 
-* more LP tokens by auto-compounding a part of the QUICK tokens granted by QuickSwap for the IMX/QUICK pool
-* ADDY tokens that are used to boost the IMX/QUICK rewards, and makes us eligible to dividends
-* WMATIC dividends
+### 快速回顾
+
+我们以 IMX/QUICK LP 代币的形式存入从 Impermax 和 QuickSwap 赚取的 IMX 和 QUICK 代币。Adamant在赚取
+
+* 对QuickSwap为IMX/QUICK池授予的QUICK代币的一部分进行自动复合，获得更多LP代币
+* 用于提升 IMX/QUICK 奖励并使我们有资格获得分红的 ADDY 代币
+* WMATIC 分红
 
 ## AAVE
 
-With the WMATIC tokens earned on Adamant, we now can deposit them on AAVE in order to get some yield. This is the regular AAVE token leverage mentioned in [the dedicated article](leverage-aave-tokens.md).
+有了在 Adamant 上赚取的 WMATIC 代币，我们现在可以将它们存入 AAVE 为了获得一些收益。这是[专门的文章](leverage-aave-tokens.md)中提到的正规的AAVE 代币杠杆。
 
 ## Mai Finance
 
-Following the AAVE deposit, we get amWMATIC in our wallet. We can use the yield page on Mai Finance to auto-compound the reward provided by AAVE with the rewards from the Matic incentive and get an additional 4% on our MATIC earned on Adamant.
+随着AAVE 存款之后，我们的钱包中会收到 amWMATIC。我们可以使用 Mai Finance 上的Yield页面将AAVE 提供的奖励与 Matic 激励的奖励自动复合，并从我们在 Adamant 上赚取的 MATIC 获得额外的 4%。
 
-The camWMATIC can then be used as collateral on Mai Finance by depositing them in the camWMATIC vault, which allows us to borrow MAI, and swap a part of the minted MAI into USDC. Once we have more MAI and USDC in our wallet, we can combine the 2 stable coins into additional LP tokens that will be deposited on QuickSwap and Impermax. Once again, if you need details on how you can do that, please read [the dedicated article](leverage-aave-tokens.md).
+然后，camWMATIC 可以通过将它们存入 camWMATIC 金库来用作 Mai Finance 的抵押品，这允许我们借入 MAI，并将一部分铸造的 MAI 互换成USDC。一旦我们的钱包中有更多的 MAI 和 USDC，我们就可以将 2 个稳定币组合成额外的 LP 代币，这些代币将存放在 QuickSwap 和 Impermax 上。再一次，如果你需要有关如何执行此操作的详细信息，请阅读[专门的文章](leverage-aave-tokens.md)。
 
-## Bootstrapping the system
+## 引导系统
 
-What follows is a simulation made with an initial investment of $1,000 worth of MAI/USDC LP tokens, and the current APRs / APYs given by the different platforms on August 30th 2021. This is not a real application of what we described above. Rates will vary, token prices will vary, some programs will come to an end etc ... so the final results are just an estimation of what you could get if everything remained stable, which will never be the case.
+以下是对初始投资价值 1,000 美元的 MAI/USDC LP 代币进行的模拟，以及不同平台在 2021 年 8 月 30 日给出的当前 APR/APY。这不是我们上述描述内容的真正运用。费率会有所不同，代币价格会有所不同，一些程序会结束等等……因此，最终结果只是对如果一切保持稳定你可以获得的结果的估计，但情况永远不会如此。
 
-### Day 1
+### 第1天
 
-Since we have $1,000 worth of MAI/USDC, we want to split the LP tokens between QuickSwap and Impermax. Because Impermax allows us to leverage our deposit, we can actually put more tokens on QuickSwap and use the leverage option on Impermax to match what we get on QuickSwap.
+由于你有价值 1,000 美元的 MAI/USDC，你想要在 QuickSwap 和 Impermax 之间拆分 LP 代币。因为 Impermax 允许我们杠杆我们的存款，我们实际上可以在 QuickSwap 上放入更多代币，并使用 Impermax 的杠杆选项来匹配你在 QuickSwap 中获得的东西。
 
-In order to lower the risk of negative interests on Impermax, the split will be as follows:
+为了降低 Impermax 上负利率的风险，拆分如下：
 
-* $900 worth of MAI/USDC on QuickSwap
-* $100 worth of MAI/USDC on Impermax with a x9 lever to expose $900 in the MAI/USDC pool
+* 在 QuickSwap 上价值 900 美元的 MAI/USDC
+* 在 Impermax 上价值 100 美元的 MAI/USDC 使用 x9 杠杆在 MAI/USDC 池中暴露 900 美元
 
-For the rest of the simulation, we will consider that QuickSwap grants a 25.56% APR on MAI/USDC paid in QUICK tokens, and Impermax gives a 20% average APR on MAI/USDC at x9, only paid in IMX tokens. This corresponds to a daily rate of
+模拟的其余部分，我们将考虑 QuickSwap 为以 QUICK 代币支付的 MAI/USDC 授予25.56% 的 APR，而 Impermax 在 x9 时为 MAI/USDC 提供 20% 的平均 APR，仅以 IMX 代币支付。这对应于每天的费率
 
-* \+0.07% on QuickSwap
-* \+0.05% on Impermax
+* 在QuickSwap上 + 0.07%
+* 在Impermax上 +0.05%
 
-This means that at the end of Day 1, we already collected
+这意味着在第 1 天结束时，我们已经收集了
 
-* $0.63 worth of QUICK
-* $0.49 worth of IMX
+* 价值 0.63 美元的 QUICK
+* 价值 0.49 美元的 IMX
 
-From there, we can combine all the IMX we get with a portion of the QUICK reward into IMX/QUICK LP pair that will be deposited on Adamant. The LP pair has a value of $0.98 and we still have $0.14 worth of QUICK that we deposit on the Dragons's Lair for dQUICK. dQUICK are then used on Dragon's Syrup to start collecting ADDY on Day 2.
+从那里，我们可以将我们得到的所有 IMX 与一部分 QUICK 奖励组合成 IMX/QUICK LP 对，并将存入 Adamant。 LP 对的价值为 0.98 美元，我们仍有价值 0.14 美元的 QUICK，我们将其存入 Dragons's Lair 以换取 dQUICK。然后将 dQUICK 用于 Dragon's Syrup 以在第 2 天开始收集 ADDY。
 
-| Reward type              | Value in dollars |
-| ------------------------ | ---------------- |
-| dQUICK on QuickSwap      | 0.14             |
-| ADDY on QuickSwap        | 0                |
-| IMX/QUICK on Adamant     | 0.98             |
-| ADDY on Adamant          | 0                |
-| WMATIC on Adamant        | 0                |
-| camWMATIC on Mai Finance | 0                |
-| debt on Mai Finance      | 0                |
+| 奖励类型                   | 美元的价值 |
+| ---------------------- | ----- |
+| QuickSwap上的 dQUICK     | 0.14  |
+| QuickSwap上的ADDY        | 0     |
+| Adamant上的IMX/QUICK     | 0.98  |
+| Adamant上的ADDY          | 0     |
+| Adamant 上的 WMATIC      | 0     |
+| Mai Finance上的camWMATIC | 0     |
+| Mai Finance上的债务        | 0     |
 
-### Day 2
+### 第 2天
 
-We still have the same position on QuickSwap and Impermax, nothing changes and we once again get $0.63 worth of QUICK and $0.49 worth of IMX that are used to get $0.98 worth of IMX/QUICK and $0.14 of dQUICK deposited in the ADDY farm on QuickSwap.
+在 QuickSwap 和 Impermax 上仍然有相同的头寸，没有任何变化，我们再次获得价值 0.63 美元的 QUICK 和价值 0.49 美元的 IMX，用于在 QuickSwap 上的 ADDY 场中获得价值 0.98 美元的 IMX/QUICK 和 0.14 美元的 dQUICK。
 
-However, the IMX/QUICK position on Adamant is earning 151.96% APR in IMX/QUICK (or +0.42% daily). This means that our original $0.98 deposit is now at $0.984, and we're adding $0.98 from farming on QuickSwap and Impermax. It also generated 177.43% APR (or +0.49% daily) ADDY, corresponding to $0.005.
+然而，Adamant 的 IMX/QUICK 头寸在 IMX/QUICK 上的APR为 151.96%（或每天 +0.42%）。这意味着我们原始的 0.98 美元存款现在是 0.984 美元，我们通过 QuickSwap 和 Impermax 上的农耕增加了 0.98 美元。它还产生了 177.43% 的 APR（或每天 +0.49%）ADDY，相当于 0.005 美元。
 
-On QuickSwap, the dQUICK we deposited in Dragon's Syrup is generating additional QUICK tokens at 12.26% APR (+0.03% daily) and ADDY tokens at 17.08% APR (+0.05% daily). This is applied to the $0.18 worth of QUICK, meaning that at the end of Day 2 we already generated $0.00006 worth of ADDY and $0.000054 worth of QUICK. The ADDY reward can be claimed and added into Adamant to start boosting the ADDY APR of the IMX/QUICK position.
+在 QuickSwap 上，我们存入 Dragon's Syrup 的 dQUICK 正在以 12.26% 的APR（每天 +0.03%）产生额外的 QUICK 代币，并以 17.08% 的APR（每天 +0.05%）产生 ADDY 代币。这适用于价值 0.18 美元的 QUICK，这意味着在第 2 天结束时，我们已经生成了价值 0.00006 美元的 ADDY 和价值 0.000054 美元的 QUICK。 ADDY 奖励可以领取并添加到 Adamant 中，以开始提升 IMX/QUICK 头寸的 ADDY APR。
 
-| Reward type              | Value in dollars |
-| ------------------------ | ---------------- |
-| dQUICK on QuickSwap      | 0.274            |
-| ADDY on QuickSwap        | 0.00006          |
-| IMX/QUICK on Adamant     | 1.98             |
-| ADDY on Adamant          | 0.005            |
-| WMATIC on Adamant        | 0                |
-| camWMATIC on Mai Finance | 0                |
-| debt on Mai Finance      | 0                |
+| 奖励类型                   | 美元的价值   |
+| ---------------------- | ------- |
+| QuickSwap 上的 dQUICK    | 0.274   |
+| QuickSwap 上的 ADDY      | 0.00006 |
+| Adamant上的**I**MX/QUICK |         |
+| Adamant上的ADDY          | 0.005   |
+| Adamant 上的 WMATIC      | 0       |
+| Mai Finance上的camWMATIC | 0       |
+| Mai Finance上的债务        | 0       |
 
-### Day 3
+### 第3天
 
-Moving on, the ADDY reward claimed on Adamant are now generating some WMATIC reward. The first $0.005 worth of ADDY collected earn 56% APR (0.15% daily) or WMATIC dividends, which corresponds to $0.000007 worth of WMATIC. Keep in mind we're only starting the engine here.
+继续前进，在 Adamant 上声称的 ADDY 奖励现在正在产生一些 WMATIC 奖励。收集的第一个价值 0.005 美元的 ADDY 可获得 56% 的 APR（每天 0.15%）或 WMATIC 股息，相当于价值 0.000007 美元的 WMATIC。请牢记，我们只是在这里启动引擎。
 
-| Reward type              | Value in dollars |
-| ------------------------ | ---------------- |
-| dQUICK on QuickSwap      | 0.411            |
-| ADDY on QuickSwap        | 0.00019          |
-| IMX/QUICK on Adamant     | 2.971            |
-| ADDY on Adamant          | 0.014            |
-| WMATIC on Adamant        | 0.000007         |
-| camWMATIC on Mai Finance | 0                |
-| debt on Mai Finance      | 0                |
+| 奖励类型                   | 美元的价值    |
+| ---------------------- | -------- |
+| QuickSwap上的dQUICK      | 0.411    |
+| QuickSwap上的ADDY        | 0.00019  |
+| Adamant上的IMX/QUICK     | 2.971    |
+| Adamant上的ADDY          | 0.014    |
+| Adamant上的WMATIC        | 0.000007 |
+| Mai Finance上的camWMATIC | 0        |
+| Mai Finance上的债务        | 0        |
 
-### Day 4
+### 第4天
 
-We can now add the WMATIC in the loop. This dividend will be deposited on AAVE, then used on Mai Finance to borrow new MAI.
+我们现在可以在循环中添加 WMATIC。这笔股息将存入 AAVE，然后用于 Mai Finance 借入新的 MAI。
 
-| Reward type              | Value in dollars |
-| ------------------------ | ---------------- |
-| dQUICK on QuickSwap      | 0.548            |
-| ADDY on QuickSwap        | 0.00038          |
-| IMX/QUICK on Adamant     | 3.969            |
-| ADDY on Adamant          | 0.029            |
-| WMATIC on Adamant        | 0.000029         |
-| camWMATIC on Mai Finance | 0.000007         |
-| debt on Mai Finance      | 0.0000035        |
+| 奖励类型                   | 美元的价值     |
+| ---------------------- | --------- |
+| QuickSwap上的dQUICK      | 0.548     |
+| QuickSwap上的ADDY        | 0.00038   |
+| Adamant上的IMX/QUICK     | 3.969     |
+| Adamant上的ADDY          | 0.029     |
+| Adamant上的WMATIC        | 0.000029  |
+| Mai Finance上的camWMATIC | 0.000007  |
+| Mai Finance上的债务        | 0.0000035 |
 
-At this point, the "debt" on Mai Finance will be used to increase the MAI/USDC LP positions on both QuickSwap and Impermax, and the system is completely primed.
+此时，Mai Finance 的“债务”将用于增加 QuickSwap 和 Impermax 上的 MAI/USDC LP 头寸，系统完全地启动。
 
-## Farming results
+## 农耕结果
 
-![](<../../.gitbook/assets/Screen Shot 2021-08-30 at 11.33.34 AM.png>)
+![](../../.gitbook/assets/screen-shot-2021-08-30-at-11.33.34-am.png)
 
-### Daily routine
+### 日常工作
 
-The daily routine is composed by the following transactions
+日常工作由以下交易组成
 
-* Harvest IMX on Impermax
-* Harvest QUICK on QuickSwap
-* Create new IMX/QUICK LP pair on QuickSwap
-* Deposit the remaining QUICK on Dragon's Lair to get dQUICK
-* Deposit dQUICK on Dragon's Syrup to get additional ADDY
-* Harvest ADDY on Dragon's Syrup
-* Deposit harvested ADDY on Adamant vault
-* Deposit IMX/QUICK LP tokens on Adamant
-* Harvest ADDY on Adamant from LP pair
-* Harvest WMATIC dividends on Adamant
-* Deposit WMATIC on AAVE and get amWMATIC
-* Deposit amWMATIC on Mai Finance and get camWMATIC
-* Deposit camWMATIC on Mai Finance's vault
-* Borrow 50% of the deposit as MAI stable coin on Mai Finance
-* Swap 50% of the minted MAI for USDC on Mai Finance
-* Create new MAI/USDC LP pair on QuickSwap
-* Deposit 90% of the new LP tokens on QuickSwap liquidity pool
-* Deposit 10% of the new LP tokens on Impermax liquidity pool
-* Leverage the new position on Impermax to match the position on QuickSwap
+* 在 Impermax 上收获 IMX
+* 在 QuickSwap 上收获QUICK
+* 在 QuickSwap 上创建新的 IMX/QUICK LP 对
+* 将剩余的 QUICK 存入 Dragon's Lair 以获得 dQUICK
+* 将 dQUICK 存入 Dragon's Syrup 以获得额外的 ADDY
+* 在Dragon's Syrup上收获ADDY
+* 在 Adamant 金库上存入收获的 ADDY
+* 在 Adamant 上存入 IMX/QUICK LP 代币
+* 从 LP 对中在 Adamant 上收获 ADDY
+* 在 Adamant 上收获 WMATIC 股息
+* 在 AAVE 上存入 WMATIC 并获得 amWMATIC
+* 在Mai Finance存入amWMATIC并获得camWMATIC
+* 将 camWMATIC 存入 Mai Finance 的金库
+* 在Mai Finance 上借入50%的存款作为MAI稳定币
+* 在 Mai Finance 上将 50% 的铸造 MAI 互换成 USDC
+* 在 QuickSwap 上创建新的 MAI/USDC LP 对
+* 将 90% 的新 LP 代币存入 QuickSwap 流动性池
+* 将 10% 的新 LP 代币存入 Impermax 流动性池
+* 杠杆 Impermax 上的新头寸来匹配 QuickSwap 上的头寸
 
-### Raw results month after month
+**月复一月的原始结果**
 
-| Month | dQUICK | IMX/QUICK | ADDY    | WMATIC | Debt   |
-| ----- | ------ | --------- | ------- | ------ | ------ |
-| 1     | $4.25  | $32.56    | $2.32   | $0.03  | $0.02  |
-| 2     | $8.36  | $68.34    | $9.65   | $0.28  | $0.15  |
-| 3     | $12.48 | $108.86   | $22.30  | $0.98  | $0.49  |
-| 4     | $16.59 | $154.78   | $41.34  | $2.41  | $1.20  |
-| 5     | $20.71 | $206.83   | $67.50  | $4.86  | $2.42  |
-| 6     | $24.84 | $265.83   | $101.73 | $8.70  | $4.34  |
-| 7     | $28.97 | $332.74   | $145.11 | $14.31 | $7.15  |
-| 8     | $33.12 | $408.63   | $198.87 | $22.14 | $11.06 |
-| 9     | $37.29 | $494.73   | $264.40 | $32.70 | $16.34 |
-| 10    | $41.48 | $592.45   | $343.28 | $46.57 | $23.26 |
-| 11    | $45.71 | $703.39   | $437.33 | $64.40 | $32.19 |
-| 12    | $49.97 | $829.37   | $548.59 | $86.94 | $43.46 |
+| 月份 | dQUICK | IMX/QUICK | ADDY    | WMATIC | 债务     |
+| -- | ------ | --------- | ------- | ------ | ------ |
+| 1  | $4.25  | $32.56    | $2.32   | $0.03  | $0.02  |
+| 2  | $8.36  | $68.34    | $9.65   | $0.28  | $0.15  |
+| 3  | $12.48 | $108.86   | $22.30  | $0.98  | $0.49  |
+| 4  | $16.59 | $154.78   | $41.34  | $2.41  | $1.20  |
+| 5  | $20.71 | $206.83   | $67.50  | $4.86  | $2.42  |
+| 6  | $24.84 | $265.83   | $101.73 | $8.70  | $4.34  |
+| 7  | $28.97 | $332.74   | $145.11 | $14.31 | $7.15  |
+| 8  | $33.12 | $408.63   | $198.87 | $22.14 | $11.06 |
+| 9  | $37.29 | $494.73   | $264.40 | $32.70 | $16.34 |
+| 10 | $41.48 | $592.45   | $343.28 | $46.57 | $23.26 |
+| 11 | $45.71 | $703.39   | $437.33 | $64.40 | $32.19 |
+| 12 | $49.97 | $829.37   | $548.59 | $86.94 | $43.46 |
 
-### Day 365
+### 第365天
 
-After a complete year, the final state of our investment would be
+一整年后，我们投资的最终状态将是
 
-| Reward type              | Value in dollars |
-| ------------------------ | ---------------- |
-| dQUICK on QuickSwap      | 50.689           |
-| ADDY on QuickSwap        | 4.325            |
-| IMX/QUICK on Adamant     | 851.968          |
-| ADDY on Adamant          | 568.972          |
-| WMATIC on Adamant        | 91.209           |
-| camWMATIC on Mai Finance | 91.220           |
-| debt on Mai Finance      | 44.30            |
+| 奖励类型                  | 美元的价值   |
+| --------------------- | ------- |
+| QuickSwap上的dQUICK     | 50.689  |
+| QuickSwap上的ADDY       | 4.325   |
+| Adamant上的IMX/QUICK    | 851.968 |
+| Adamant上的ADDY         | 568.972 |
+| Adamant上的WMATIC       | 91.209  |
+| Mai Finance上的amWMATIC | 91.220  |
+| Mai Finance上的债务       | 44.30   |
 
-Note that the WMATIC in Adamant and collected daily so they're not part of the final revenue generated via this process. Also, the ADDY that have been generated via the QuickSwap farm haven't been harvested daily and added to boost the ADDY rewards on Adamant in this simulation (it is already complex enough).
+请注意，Adamant 中的 WMATIC 和每天收集，因此它们不是通过此过程产生的最终收入的一部分。此外，通过 QuickSwap 农场生成的 ADDY 并没有每天收获并添加以在此模拟中提高 Adamant 的 ADDY 奖励（它已经足够复杂了）。
 
-Finally, after one year, the generated revenue is worth $1,567.174. If we consider the initial investment was $1,000 worth of MAI/USDC, this leads to a final APY of 156.71% on our stable pair.
+最后，一年后，产生的收入价值 1,567.174 美元。如果我们认为初始投资是价值 1,000 美元的 MAI/USDC，那么我们的稳定货币对的最终 APY 为 156.71%。
 
-## Conclusion
+## 结论
 
-This Lego game allowed us to generate an impressive APY from stable coin farming, with very little risk exposure. Of course, this simulation makes a few assumptions that are 100% incorrect, but it illustrates how we can combine different DApps to maximize yield farming. It also showcases that it's not a necessity to sell tokens that we farm, and that there's certainly a was to use them efficiently if you take the time to research possibilities.
+这款乐高游戏让我们能够从稳定的硬币种植中产生令人印象深刻的 APY，而且风险敞口很小。当然，这个模拟做出了一些 假设100% 不正确，但它说明了我们如何组合不同的 DApp 以最大限度地提高耕作产量。它还表明，出售我们种植的代币并不是必要的，如果你花时间研究可能性，就肯定有一个有效使用它们的方法。
 
-## Disclaimer
+## 免责声明
 
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+本指南绝对不是财务建议，它是出于教育目标而制作的。 目标不是提出可以盲目遵循的秘方，因此请做好功课和自己的模拟，并且只投资你准备好可能会失去的东西。你需要注意价格变化、供需、奖励计划结束日期、无常损失等......
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请牢记在给定时间运行良好的策略可能在另一个时间表现不佳（或让你赔钱）。请保持消息灵通，监测市场，留意你的投资，并一如既往地，做你的研究。
 {% endhint %}

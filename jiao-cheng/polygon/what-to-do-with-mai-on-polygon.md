@@ -26,7 +26,7 @@ Bluechip 项目是被证明是可靠且呈现风险较低的 DeFi 应用程序�
 
 在 Polygon 网络上，Balancer 提出了一个由 4 个主要稳定币组成的池：DAI、USDC、USDT 和 MAI（miMATIC）。这个稳定的矿池目前的 APR 相当稳定，约为 20%。
 
-![截至 2021 年 8 月的稳定币池状态](<../../.gitbook/assets/Screen Shot 2021-08-11 at 11.06.59 AM.png>)
+![截至 2021 年 8 月的稳定币池状态](../../.gitbook/assets/screen-shot-2021-08-11-at-11.06.59-am.png)
 
 Balancer 的最大优点是你绝对不需要拥有 4 个硬币即可存入池中。 Balancer 将自动生成与你的存款的平衡组合。这意味着，如果你有价值 100 美元的 MAI，你可以简单地将它们存入 Balancer 池中，并让算法正确地将其滑入，根据存入时各自的价格为每个代币设置 25% 的比率。
 
@@ -38,7 +38,7 @@ Balancer 的最大优点是你绝对不需要拥有 4 个硬币即可存入池�
 
 完整的流程是像这样的
 
-![](<../../.gitbook/assets/Screen Shot 2021-08-11 at 11.34.45 AM.png>)
+![](../../.gitbook/assets/screen-shot-2021-08-11-at-11.34.45-am.png)
 
 如果你需要有关如何使用 Mai Finance 借出你的加密货币和借入 MAI（而不是出售你的加密货币来购买 MAI）的更多详细信息，请阅读本网站上的其他指南。你甚至可以[在循环中包含 AAVE ](leverage-aave-tokens.md)以赚取更多。
 
@@ -65,7 +65,7 @@ Balancer 的最大优点是你绝对不需要拥有 4 个硬币即可存入池�
 * 然后你可以使用 WMATIC 重复上述循环并增加你的贷款和投资资本
 * CRV 代币，也可以用作 Mai Finance 的抵押品以借入更多 MAI 并增加你的投资资本
 
-![](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.14.27 PM.png>)
+![](../../.gitbook/assets/screen-shot-2021-08-11-at-12.14.27-pm.png)
 
 ### AAVE
 
@@ -82,7 +82,7 @@ Balancer 的最大优点是你绝对不需要拥有 4 个硬币即可存入池�
 * 交易费用
 * QUICK 代币
 
-![截至 2021 年 8 月 QuickSwap 上的 MAI/USDC 池的详细信息](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.37.56 PM.png>)
+![截至 2021 年 8 月 QuickSwap 上的 MAI/USDC 池的详细信息](../../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
 
 ## **Degen 农场和聚合器**
 
@@ -100,7 +100,7 @@ Adamant 目前支持一些接受 MAI/USDC LP 对的池。这些池在
 * DinoSwap：Dino 奖励被互换成更多 MAI/USDC LP 和 WMATIC 奖励
 * Mai Finance：Qi 奖励被互换成更多 MAI/USDC LP 和 WMATIC 奖励
 
-![Adamant 上的 QuickSwap MAI/USDC 池](<../../.gitbook/assets/Screen Shot 2021-08-11 at 12.51.12 PM.png>)
+![Adamant 上的 QuickSwap MAI/USDC 池](../../.gitbook/assets/screen-shot-2021-08-11-at-12.51.12-pm.png)
 
 {% hint style="info" %}
 QuickSwap 网站上 QuickSwap 池的屏幕截图（见上面段落）和 Adamant 是在同一天拍摄的，但显示了不同的 APY（年收益率）。
@@ -135,7 +135,7 @@ MAI 在 Polygon 上越来越受欢迎，而且由于 QuickSwap 支持 MAI/USDC �
 
 [Impermax](https://polygon.impermax.finance) 是一个让用户杠杆他们的 LP 代币获得更高收益的平台。目标非常简单：通过提供 LP 代币并将其用作抵押品，然后可以借入更多的 2 种标的资产以生成更多 LP 代币并重复循环。
 
-![ Impermax 循环解释](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
+![ Impermax 循环解释](../../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
 
 这样做时,用户暴露在无常的损失中，损失被循环重复的次数放大。当应用太多循环时，清算风险也会成倍增加。事实上，如果 APR 成倍的增加，构成货币对的两个代币的价格变化会被杠杆效应放大，从而导致更快的清算。
 
@@ -157,11 +157,11 @@ $$
 
 最后，你将基础 APR 用于一个更大的价值，这将获得更大的利息，从而增加你初始头寸的 APR。
 
-![初始 MAI/USDC 对为 70.52 美元的Impermax 仪表板示例](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.38.33 PM.png>)
+![初始 MAI/USDC 对为 70.52 美元的Impermax 仪表板示例](../../.gitbook/assets/screen-shot-2021-08-11-at-1.38.33-pm.png)
 
 我可以很容易地看到我使用了多少作为抵押品，我最初投资了多少，杠杆比率是多少，以及由于杠杆比率导致的清算价值是多少。在撰写本文时，该寸头将为我提供以下比率
 
-![在给定时间的收入和支出估算](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.41.55 PM.png>)
+![在给定时间的收入和支出估算](../../.gitbook/assets/screen-shot-2021-08-11-at-1.41.55-pm.png)
 
 APR 以 IMX 代币授予，可以互换成更多的 MAI/USDC（使用 Mai Finance 的权力以 0% 的利息借入，RFTM），或用于为在 Impermax 上接受 IMX 的特定池提供流动性。
 
@@ -169,7 +169,7 @@ APR 以 IMX 代币授予，可以互换成更多的 MAI/USDC（使用 Mai Financ
 
 确实，在应用程序上，你还可以为那些想要将杠杆循环应用于其头寸的人提供流动性（他们将需要基础资产来生成更多 LP 代币）。借贷资产是赚取收益并让借款人承担所有风险的好方法。还有，借款的用户越多，供应 APR 就越高。
 
-![在给定时间 Impermax 上提供和借入 MAI 的利率](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.47.56 PM.png>)
+![在给定时间 Impermax 上提供和借入 MAI 的利率](../../.gitbook/assets/screen-shot-2021-08-11-at-1.47.56-pm.png)
 
 这是优化你在 Mai Finance 上的 0% 贷款的另一种好方法。借 MAI 不仅无需支付任何费用，而且只需将其存入 Impermax上 即可赚取大量利息。
 
