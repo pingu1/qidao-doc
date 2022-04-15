@@ -15,7 +15,7 @@
   * [Farming ou Staking? Ou les deux?](tutoriels/polygon/farming-ou-staking-ou-les-deux.md)
   * [Comment combiner les récompenses de fermes et d'emprunts](tutoriels/polygon/untitled.md)
   * [OHM forks on Polygon: The case of KLIMA](tutoriels/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
-  * [MAI single-staking with Ethalend](tutoriels/polygon/ethalend-single-staking.md)
+  * [MAI single staking sur Ethalend](tutoriels/polygon/ethalend-single-staking.md)
   * [L'éléphant, le singe et la loutre](tutoriels/polygon/the-elephant-and-the-otter.md)
   * [From CeFi to DeFi with Celsius](tutoriels/polygon/cefi-to-defi-with-celsius.md)
   * [De la finance traditionnelle à la DEFI avec Jarvis](tutoriels/polygon/jarvis.md)
