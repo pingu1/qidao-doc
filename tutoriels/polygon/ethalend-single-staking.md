@@ -24,7 +24,7 @@ N'oubliez pas qu'une stratégie qui fonctionne bien à un moment donné peut don
 {% endhint %}
 
 
-### Comment fonctionne ETHALEND
+## Comment fonctionne ETHALEND
 
 Ethalend est un protocole qui abstrait la complexité de DeFi pour fournir un rendement optimal. Il ne s'agit pas d'un agrégateur de rendement, mais d'un optimiseur. Vous pourrez déposer vos actifs sur la plateforme, et l'algorithme en charge du pool dans lequel vous déposez vos actifs va  les investir de la meilleure façon possible. Les rendements sont ensuite distribués dans le token natif d'Ethalend, le token ETHA, ainsi que dans certains tokens partenaires, dont le Qi de Mai Finance que vous pouvez obtenir en déposant votre MAI dans le Vault MAI-USDT. Vous pouvez en savoir plus sur Ethalend via leur [documentation officielle] (<https://docs.ethalend.org>), ou en lisant cette excellente [interview du co-fondateur] (<https://ambcrypto.com/un-complicating-defi-an-interview-with-ethalend-co-founder-danny-b/>).
 
