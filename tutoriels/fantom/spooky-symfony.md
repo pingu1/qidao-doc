@@ -1,17 +1,18 @@
 ---
 description: >-
-  Taking a loan isn't exactly a contracting a debt when you use this loan as
-  the starting point of an investment strategy. It's a real investment.
+  Contracter un prêt n'est pas exactement contracter une dette lorsque vous utilisez ce prêt comme
+  le point de départ d'une stratégie d'investissement. Il s'agit d'un véritable investissement.
 ---
 
 # A Spooky Symfony
 
 ## Introduction
 
-Taking a loan against your assets is always a double-edged sword: it can help you kickstart an investment strategy, or leverage your assets, but you will have a debt that you need to repay at some point. In this guide, we will use a loan taken on Market.XYZ, a lending protocol on which you will be able to borrow MAI with a low borrowing rate, and use this loan to farm most of the battle-tested protocols on Fantom. We will use the strategy to repay the loan and see how fast this can be done in order to unlock the assets deposited as collateral.
+Contracter un prêt contre vos actifs est toujours une arme à double tranchant : cela peut vous aider à lancer une stratégie d'investissement ou à tirer parti de vos actifs, mais vous aurez une dette que vous devrez rembourser à un moment donné. Dans ce guide, nous utiliserons un prêt contracté sur Market.XYZ, un protocole de prêt sur lequel vous pourrez emprunter des MAI avec un faible taux d'emprunt, et utiliserons ce prêt pour farmer la plupart des protocoles éprouvés sur Fantom. Nous utiliserons la stratégie de remboursement du prêt et verrons à quelle vitesse cela peut être fait afin de débloquer les actifs déposés en collateral.
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+Ce guide n'est absolument pas un conseil financier, il a été réalisé dans un but éducatif. Vous devez faire attention aux variations de prix, à l'offre et à la demande, aux programmes de récompense, aux dates de fin, aux pertes impermanentes, etc... Le but n'était pas de proposer des recettes à suivre aveuglément, alors faites vos devoirs et votre propre simulation, et n'investissez que ce que vous êtes prêt à perdre éventuellement.
+
 {% endhint %}
 
 ![](<../../.gitbook/assets/spooky-symfony-1.png>)
@@ -22,88 +23,89 @@ In this strategy, we will use the a lot of different LP (**L**iquidity **P**rovi
 
 ### Market.XYZ
 
-[Market.XYZ](https://fantom.market.xyz/) is a lending protocol that builds several lockers for their partners. You will be able to deposit single assets or LP tokens as collateral, and borrow other assets against your deposits. Because you are borrowing against a collateral, it's important to make sure that you don't get liquidated. A liquidation occurs when the value of the asset you deposited as collateral goes below the value of the loan you contracted. This is why it's important to make sure the ratio between the 2 values remains relatively high, and that your collateral doesn't loose too much value when the market goes down.
+[Market.XYZ](https://fantom.market.xyz/) est un protocole de prêt qui construit plusieurs coffres pour ses partenaires. Vous pourrez déposer des actifs uniques ou des jetons LP comme collateral, et emprunter d'autres actifs contre vos dépôts. Comme vous empruntez contre un collateral, il est important de s'assurer que vous ne serez pas liquidé. Une liquidation se produit lorsque la valeur de l'actif que vous avez déposé en collateral devient inférieure à la valeur de l'emprunt que vous avez contracté. C'est pourquoi il est important de veiller à ce que le rapport entre les deux valeurs reste relativement élevé, et que votre collateral ne perde pas trop de valeur lorsque le marché baisse.
 
-In order to mitigate the risk of liquidation, we will be using the FTM-USDC LP token as collateral
+Afin d'atténuer le risque de liquidation, nous utiliserons le jeton FTM-USDC LP comme collateral.
 
-* The impermanent loss on this pair is relatively low
-* USDC is a stable coin pegged to the US dollar
-* FTM is the native gas token of Fantom, it has deep liquidity and is used everywhere
-* reward rates ont he FTM-USDC pair are high, which means that even if the price of FTM stays the same, the value of your collateral will go up
+* La perte impermanente (IL) sur cette paire est relativement faible.
+* L'USDC est un stable coin liée au dollar américain.
+* FTM est le jeton de gaz natif de Fantom, il a une grande liquidité et est utilisé partout.
+* Les taux de récompense sur la paire FTM-USDC sont élevés, ce qui signifie que même si le prix de FTM reste le même, la valeur de votre collateral augmentera.
 
-You will be able to borrow against the FTM-USDC pair from the [Spooky LP pool](https://fantom.market.xyz/pool/10) on market.xyz. The steps to deposit your collateral are as follows:
+Vous pourrez emprunter contre la paire FTM-USDC à partir du [Spooky LP pool] (https://fantom.market.xyz/pool/10) sur market.xyz. Les étapes pour déposer votre collatéral sont les suivantes :
 
-* Create [FTM-USDC LP tokens on SpookySwap](https://spookyswap.finance/add/FTM/0x04068DA6C83AFCFA0e13ba15A6696662335D5B75) by providing liquidity in a 1:1 ratio for both assets
-* Deposit the FTM-USDC LP token on Beefy finance to get a mooBooFTM-USDC receipt (search for the SpookySwap platform and USDC asset in the search filters)
-* Deposit the mooBooFTM-USDC receipt token on Market.xyz
+* Créer [FTM-USDC LP tokens on SpookySwap] (https://spookyswap.finance/add/FTM/0x04068DA6C83AFCFA0e13ba15A6696662335D5B75) en fournissant des liquidités dans un rapport 1:1 pour les deux actifs.
+* Déposez le jeton FTM-USDC LP sur Beefy finance pour obtenir un reçu mooBooFTM-USDC (recherchez la plateforme SpookySwap et l'actif USDC dans les filtres de recherche).
+* Déposer le jeton de reçu mooBooFTM-USDC sur Market.xyz
 
-![Spooky lending market on MarketXYZ as of February 2022](<../../.gitbook/assets/spooky-symfony-2.png>)
+![Marché de prêt de Spooky sur MarketXYZ à partir de février 2022](<../../.gitbook/assets/spooky-symfony-2.png>)
 
-When your beefy LP receipt tokens are on Market.XYZ, you still get the reward APY provided by Beefy. This means that your assets are still generating yields for you while you borrow against them. This is a very powerful tool, especially when you see that the mSPLP-FTM-USDC (**m**oo **S**pookyswa**p** FTM-USDC = mooBooFTM-USDC) is earning 51.4% APY and you can borrow MAI at 2.56% APR. In other words, your collateral grows faster than your debt, so in theory you can very well repay your loan with the interests of your collateral.
+Lorsque vos jetons de reçu LP beefy sont sur Market.XYZ, vous obtenez toujours la récompense APY fournie par Beefy. Cela signifie que vos actifs continuent à générer des rendements pour vous pendant que vous empruntez . C'est un outil très puissant, surtout quand vous voyez que le mSPLP-FTM-USDC (**m**oo **S**pookyswa**p** FTM-USDC = mooBooFTM-USDC) rapporte 51,4% d'APY et que vous pouvez emprunter MAI à 2,56% APR. En d'autres termes, votre garantie croît plus vite que votre dette, donc en théorie vous pouvez très bien rembourser votre prêt avec les intérêts de votre garantie.
+
 
 {% hint style="info" %}
-As a side note, you can see that the Spooky LP Pool locker also offers the possibility to borrow against other LP tokens: ETH-FMT, DAI-FTM, BTC-FTM and fUSDT-FTM. Depending on the assets you have in your wallet, your convictions and your risk tolerance, you can totally use any Spookyswap LP as collateral.
+Accessoirement, vous pouvez voir que le vault Spooky LP Pool offre également la possibilité d'emprunter contre d'autres jetons LP : ETH-FMT, DAI-FTM, BTC-FTM et fUSDT-FTM. En fonction des actifs que vous avez dans votre portefeuille, de vos convictions et de votre tolérance au risque, vous pouvez tout à fait utiliser n'importe quel LP de Spookyswap comme garantie.
 {% endhint %}
 
-For this tutorial, we will also limit the risk by borrowing with a CDR (**C**ollateral to **D**ebt **R**atio) of 200%. This means that we will borrow 50% of the value of our collateral. More in the farming strategy section. Liquidation ratios are expressed as LTV (**L**oan **t**o **V**alue) which is the opposite of a CDR. You can see that the LTV for the mooBooFTM-USDC token is 60%, above which you will get liquidated. This is  equivalent to a CDR of 166.67%. With a target of 200% CDR, we are 33% above the liquidation ratio, which may be risky or not, depending on your risk tolerance.
+Pour ce tutoriel, nous allons également limiter le risque en empruntant avec un CDR (**C**collatéral à **D**dette **R**atio) de 200%. Cela signifie que nous emprunterons 50 % de la valeur de notre garantie. Plus d'informations dans la section sur la stratégie agricole. Les ratios de liquidation sont exprimés en LTV (**L**oan **t**o **V**alue) qui est l'opposé d'un CDR. Vous pouvez voir que le LTV pour le jeton mooBooFTM-USDC est de 60%, au-delà duquel vous serez liquidé. Cela équivaut à un CDR de 166,67%. Avec un objectif de 200% de CDR, nous sommes 33% au-dessus du ratio de liquidation, ce qui peut être risqué ou non, en fonction de votre tolérance au risque.
 
 {% hint style="danger" %}
-Market.XYZ only allows loans with a minimum value of 0.05 ETH (~$170.00 at time of writing). Make sure you deposit enough collateral if you want to bororw from the different lockers.
+Market.XYZ n'autorise que les prêts d'une valeur minimale de 0,05 ETH (~$170.00 au moment de la rédaction). Assurez-vous de déposer suffisamment de garanties si vous souhaitez emprunter dans les différents coffre.
 {% endhint %}
 
 ### BeethovenX
 
-[BeethovenX](https://beets.fi/#/) is a **D**ecentralized **Ex**change and **A**utomated **M**arket **M**aker forked from Balancer. You will be able to deposit your assets in liquidity pools, as well as swapping different assets on their application. They've been solid partners of the QiDAO protocol, providing LP tokens for the farms that you can find on Mai Finance. We will be using two different pools on BeethovenX for this strategy
+[BeethovenX](https://beets.fi/#/) est une **D**ecentralized **Ex**change et **A**utomated **M**arket **M**aker fork de Balancer. Vous serez en mesure de déposer vos actifs dans des pools de liquidité, ainsi que d'échanger différents actifs sur leur application. Ils ont été de solides partenaires du protocole QiDAO, fournissant des jetons LP pour les positions de farming que vous pouvez trouver sur Mai Finance. Nous allons utiliser deux pools différents sur BeethovenX pour cette stratégie
 
-* The Monolith: an inventivized pool that has been open for Exodia, a Ohm fork that [we presented in this tutorial](investing-in-discounted-assets-using-bonds.md). You will be able to deposit your MAI tokens directly into this pool and collect yields
-* Pirate Party: an incentivized pool dedicated to LQDR tokens, the native token from Liquid Driver, another big protocol that we will be using in this guide
+* Le Monolithe : un pool inventif qui a été ouvert pour Exodia, un fork Ohm que [nous avons présenté dans ce tutorial] (investing-in-discounted-assets-using-bonds.md). Vous pourrez déposer vos jetons MAI directement dans ce pool et collecter des rendements
+* Pirate Party : un pool incentivé dédié aux jetons LQDR, le jeton natif de Liquid Driver, un autre gros protocole que nous utiliserons dans ce guide
 
-![The Monolith pool on BeethovenX with 20% MAI as of February 2022](<../../.gitbook/assets/spooky-symfony-3.png>)
+![Le pool Monolith sur BeethovenX avec 20% de MAI en février 2022](<../../.gitbook/assets/spooky-symfony-3.png>)
 
-![Pirate Party pool on BeethovenX with 80% LQDR as of February 2022](<../../.gitbook/assets/spooky-symfony-4.png>)
+![Pool Pirate Party sur BeethovenX avec 80% de LQDR en février 2022](<../../.gitbook/assets/spooky-symfony-4.png>)
 
-As always, the biggest advantage of using BeethovenX (or Balancer) is that you can deposit single assets in the pools instead of having to provide tokens in a balanced ratio.
+Comme toujours, le plus grand avantage d'utiliser BeethovenX (ou Balancer) est que vous pouvez déposer des actifs uniques dans les pools au lieu de devoir fournir des jetons dans un ratio équilibré.
 
 ### SpookySwap
 
-[Spookyswap](https://spookyswap.finance/) is the biggest Uniswap V2 fork on Fantom, a platform where you will be able to swap assets et provide liquidity for many pairs. Spookyswap has also been a solid partner of Mai Finance and proposes a MAI-USDC pool. The partnership extended via Market.XYZ where you will be able to borrow MAI against some specific LP pairs (see the section about Market.xyz) as well as your BOO and staked BOO tokens, the native token of Spookswap.
+[Spookyswap](https://spookyswap.finance/) est le plus grand fork Uniswap V2 sur Fantom, une plateforme où vous pourrez échanger des actifs et fournir de la liquidité pour de nombreuses paires. Spookyswap a également été un partenaire solide de Mai Finance et propose un pool MAI-USDC. Le partenariat s'est étendu via Market.XYZ où vous pourrez emprunter du MAI contre certaines paires LP spécifiques (voir la section sur Market.xyz) ainsi que vos tokens BOO et BOO staked, le token natif de Spookswap.
 
-For this guide, we will be using two different LP tokens from SpookySwap:
+Pour ce guide, nous allons utiliser deux jetons LP différents de SpookySwap :
 
-* FTM-USDC which will be used as our starting point for the strategy. This LP token is used as collateral on market.xyz
-* FTM-BOO because it's one of the pool from SpookySwap accepted on Liquid Driver with the highest APR. We will swap the BEETS rewards from the Monolith for this pair (more in the Farming Strategy section)
+* FTM-USDC qui sera utilisé comme point de départ de la stratégie. Ce jeton LP est utilisé comme garantie sur market.xyz.
+* FTM-BOO car c'est l'un des pools de SpookySwap accepté sur Liquid Driver avec le plus haut APR. Nous échangerons les récompenses BEETS du Monolithe contre cette paire (plus d'informations dans la section Stratégie).
 
 ### Liquid Driver
 
-[Liquid Driver](https://www.liquiddriver.finance/) is a yield optimizer on which you will be able to deposit LP tokens from different farms and earn yields on them. The way yield optimizer work is by harvesting the reward tokens of the target platform and compound them for you. This is useful since the gas on Fantom can be expensive. A performance fee is taken out, but a portion of the protocol's revenue is redistributed to LQDR stakers. LQDR is the native token of Liquid Driver.
+[Liquid Driver](https://www.liquiddriver.finance/) est un optimiseur de rendement sur lequel vous pourrez déposer des jetons LP de différentes fermes et gagner des rendements sur ceux-ci. Le fonctionnement de l'optimiseur de rendement consiste à récolter les jetons de récompense de la plateforme cible et à les composer pour vous. Ceci est utile car l'essence sur Fantom peut être chère. Une commission de performance est prélevée, mais une partie des revenus du protocole est redistribuée aux stakers LQDR. LQDR est le jeton natif de Liquid Driver.
 
-For this strategy, we will be using the FTM-BOO LP pair because it's a pool with one of the highest APR in LQDR for Spookyswap.
+Pour cette stratégie, nous utiliserons la paire de LP FTM-BOO car c'est un pool avec l'un des plus hauts APR en LQDR pour Spookyswap.
 
-![FTM-BOO and FTM-USDC LP pairs on LiquidDriver as of February 2022](<../../.gitbook/assets/spooky-symfony-5.png>)
+![Paires de LP FTM-BOO et FTM-USDC sur LiquidDriver en février 2022](<../../.gitbook/assets/spooky-symfony-5.png>)
 
-## Farming Strategy
+## Stratégie d'exploitation
 
-For this strategy, we will be using Market.XYZ as our starting point to borrow MAI against mooBooFTM-USDC LP tokens. The borrowed MAI will be deposited on BeethovenX in The Monolith pool. Because this is the pool with the highest reward rate in our strategy, we will use it as our engine to repay our debt: 50% of the BEETS will be sold to repay the debt on Market.xyz, and 50% will be converted into FTM-BOO LP tokens. The FTM-BOO tokens will be deposited on LiquidDriver to collect LQDR tokens that will then be staked in the Pirate Party pool on BeethovenX. Once the debt is fully repaid, the BEETS rewards will be fully converted to FTM-BOO tokens. The BEETS rewards provided by the Pirate Party pool will also be compounded into more FTM-BOO.
+Pour cette stratégie, nous utiliserons Market.XYZ comme point de départ pour emprunter des MAI contre des jetons mooBooFTM-USDC LP. Les MAI empruntés seront déposés sur BeethovenX dans le pool The Monolith. Comme il s'agit du pool avec le taux de récompense le plus élevé dans notre stratégie, nous l'utiliserons comme moteur pour rembourser notre dette : 50% des BEETS seront vendus pour rembourser la dette sur Market.xyz, et 50% seront convertis en jetons FTM-BOO LP. Les jetons FTM-BOO seront déposés sur LiquidDriver pour collecter des jetons LQDR qui seront ensuite mis en jeu dans le pool Pirate Party sur BeethovenX. Une fois la dette entièrement remboursée, les récompenses BEETS seront entièrement converties en jetons FTM-BOO. Les récompenses BEETS fournies par le pool du Parti Pirate seront également composées en plus de FTM-BOO.
 
-For this simulation, we will use the following numbers
+Pour cette simulation, nous allons utiliser les chiffres suivants
 
-* We start with a value worth of $1,000 of mooBooFTM-USDC tokens
-* The APR for the mooBooFTM-USDC token provided by SpookySwap via Beefy is 41.5%
-* The borrowing rate for MAI is 2.56%
-* BeethovenX gives an APR of 304.17% for The Monolith, and 175.77% for the Pirate Party
-* LiquidDriver gives 82% APR on FTM-BOO LP pair
+* Nous commençons avec une valeur de 1000 $ de jetons mooBooFTM-USDC.
+* L'APR pour le jeton mooBooFTM-USDC fourni par SpookySwap via Beefy est de 41,5%.
+* Le taux d'emprunt pour MAI est de 2,56%.
+* BeethovenX donne un taux d'intérêt annuel de 304,17 % pour le Monolithe et de 175,77 % pour le Parti Pirate.
+* LiquidDriver donne un APR de 82% pour la paire de LP FTM-BOO.
 
-As usual for our simulations, we assume that all prices remain the same for the entire period of 1 year, rates stay the same, and we also use the provided APRs as is. In reality, prices and rates will vary, and APRs are composed of trading fees and reward tokens, which may affect the end result. It's also important to note that **no transaction fees** are taken in account for this simulation. Finally, we're using a lot of protocols, and each protocol may present smart contract risks. Make sure you do your own researches before using a platform, and only invest what you are willing to loose.
+Comme d'habitude pour nos simulations, nous supposons que tous les prix restent les mêmes pendant toute la période d'un an, que les taux restent les mêmes, et nous utilisons également les TAEG fournis tels quels. En réalité, les prix et les taux varieront, et les TAEG sont composés de frais de transaction et de jetons de récompense, ce qui peut affecter le résultat final. Il est également important de noter que **aucun frais de transaction** n'est pris en compte pour cette simulation. Enfin, nous utilisons un grand nombre de protocoles, et chaque protocole peut présenter des risques liés aux contrats intelligents. Assurez-vous de faire vos propres recherches avant d'utiliser une plateforme, et n'investissez que ce que vous êtes prêt à perdre.
 
-You can find our Spooky Symfony simulation [in this SpreadSheet](https://docs.google.com/spreadsheets/d/19s6kBnT5w0b9GKuTkDiiD1u_ZoeNUZtI9XYxEmk_WM0/edit?usp=sharing). Feel free to copy it and play with it to see how the loop works, and how the different rates may affect your final APY.
+Vous pouvez trouver notre simulation Spooky Symfony [dans cette feuille de calcul] (https://docs.google.com/spreadsheets/d/19s6kBnT5w0b9GKuTkDiiD1u_ZoeNUZtI9XYxEmk_WM0/edit?usp=sharing). N'hésitez pas à la copier et à jouer avec elle pour voir comment la boucle fonctionne, et comment les différents taux peuvent affecter votre APY final.
 
 ![](<../../.gitbook/assets/spooky-symfony-6.png>)
 
-### Day 1
+### Jour 1
 
-On Day 1, you need to create your collateral for Market.xyz. Get an equal portion of FTM and USDC and provide liquidity on SpookySwap to create FTM-USDC LP tokens. These tokens will be deposited on Beefy, which will get you the mooBooFTM-USDC receipt token. This is the token that will be used as collateral on Market.xyz and against which you will borrow MAI. Since we want to keep a CDR of 200%, we will be borrowing $500 worth of MAI. Finally, the MAI tokens will be staked on BeethovenX into The Monolith pool.
+Le jour 1, vous devez créer votre collatéral pour Market.xyz. Obtenez une portion égale de FTM et d'USDC et fournissez la liquidité sur SpookySwap pour créer des tokens FTM-USDC LP. Ces jetons seront déposés sur Beefy, ce qui vous permettra d'obtenir le jeton de réception mooBooFTM-USDC. C'est ce jeton qui sera utilisé comme garantie sur Market.xyz et contre lequel vous emprunterez l'AMI. Comme nous voulons garder un CDR de 200%, nous emprunterons 500$ de MAI. Enfin, les jetons MAI seront placés sur BeethovenX dans le pool The Monolith.
 
-At the end of the first day, you will have
+A la fin du premier jour, vous aurez
 
 |     positon    |  value ($) |
 |----------------|------------|
