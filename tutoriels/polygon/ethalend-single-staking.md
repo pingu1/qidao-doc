@@ -132,7 +132,7 @@ Le deuxième jour, vous pouvez miser vos ETHA du premier jour sur Ethalend, ce q
 | dQUICK sur Mai      | 0.000             |
 | Dette sur Mai 0.000 |
 
-À partir de là, le système est amorcé, et vous serez en mesure de faire croître votre position stable de MAI, ainsi que d'obtenir des récompenses en Qi, BAL, ETHA et dQUICK. Notez que certaines valeurs sont trop faibles pour être significatives à ce stade, et puisque vous ne pourrez pas emprunter moins de 0,01 MAI, vous devrez accumuler dQUICK pendant 14 jours avant de pouvoir emprunter du MAI.
+À partir de là, le système est mis en place, et vous serez en mesure de faire croître votre position stable de MAI, ainsi que d'obtenir des récompenses en Qi, BAL, ETHA et dQUICK. Notez que certaines valeurs sont trop faibles pour être significatives à ce stade, et puisque vous ne pourrez pas emprunter moins de 0,01 MAI, vous devrez accumuler dQUICK pendant 14 jours avant de pouvoir emprunter du MAI.
 
 ## Résultats  
 
@@ -171,7 +171,7 @@ Les résultats ci dessous sont donnés mois par mois
 | 360 | 108.100         | 21.032         | 26.113           | 16.297        | 8.149    |
 | 365 | 108.343         | 21.528         | 26.495           | 16.783        | 8.392    |
 
-### 365 jours
+### Résultat à 365 jours
 
 A la fin d'une année, vous auriez
 
@@ -182,4 +182,3 @@ A la fin d'une année, vous auriez
 * 8,392 $ de dette MAI sur Mai Finance.
 
 Cela représente 173,149 $ d'actifs et une dette de 8,392 $, ce qui correspond à un rendement annuel équivalent de 64,757 %. Ce résultat est obtenu avec un investissement initial de 100 $ de MAI et en utilisant un pool stable comme base d'exploitation. Notez que les frais de transaction n'ont pas été pris en compte, mais peuvent influencer le résultat final. Cela suppose également que vous réinvestissez vos gains quotidiennement pendant une année complète.
-
