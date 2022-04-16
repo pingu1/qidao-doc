@@ -4,7 +4,7 @@ description: >-
   le point de départ d'une stratégie d'investissement. Il s'agit d'un véritable investissement.
 ---
 
-# A Spooky Symfony
+# La Spooky Symphonie
 
 ## Introduction
 
