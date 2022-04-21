@@ -10,8 +10,6 @@ description: >-
 
 Contracter un prêt contre vos actifs est toujours une arme à double tranchant : cela peut vous aider à lancer une stratégie d'investissement ou à tirer parti de vos actifs, mais vous aurez une dette que vous devrez rembourser à un moment donné. Dans ce guide, nous utiliserons un prêt contracté sur Market.XYZ, un protocole de prêt sur lequel vous pourrez emprunter des MAI avec un faible taux d'emprunt, et utiliserons ce prêt pour farmer la plupart des protocoles éprouvés sur Fantom. Nous utiliserons la stratégie de remboursement du prêt et verrons à quelle vitesse cela peut être fait afin de débloquer les actifs déposés en collateral.
 
-{% hint style="info" %}
-Ce guide n'est absolument pas un conseil financier, il a été réalisé dans un but éducatif. Vous devez faire attention aux variations de prix, à l'offre et à la demande, aux programmes de récompense, aux dates de fin, aux pertes impermanentes, etc... Le but n'était pas de proposer des recettes à suivre aveuglément, alors faites vos devoirs et votre propre simulation, et n'investissez que ce que vous êtes prêt à perdre éventuellement.
 
 ## Avertissement
 
@@ -21,8 +19,6 @@ Bien sûr, vous pouvez très facilement faire des économies avec cette stratég
 
 {% hint style="info" %}
 Ce guide n'est absolument pas un conseil financier, il a été réalisé dans un but éducatif. Vous devez faire attention aux variations de prix, à l'offre et à la demande, aux programmes de récompense, aux dates de fin, aux pertes impermanentes, etc ... Le but n'était pas de proposer des recettes à suivre aveuglément, alors faites vos devoirs et votre propre simulation, et n'investissez que ce que vous êtes prêt à perdre éventuellement.
-{% endhint %}
-
 {% endhint %}
 
 ![](<../../.gitbook/assets/spooky-symfony-1.png>)
