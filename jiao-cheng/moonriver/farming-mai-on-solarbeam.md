@@ -1,156 +1,154 @@
 ---
-description: >-
-  Solarbeam has a MAI-MOVR farming pool with nice a APR. Today we will
-  see how to take advantage of it.
+description: Solarbeam 有一个 APR 不错的 MAI-MVR 耕种池。今天我们将看看如何利用它。
 ---
 
-# Farming MAI on SolarBeam
+# 在 SolarBeam 上耕种MAI
 
-Most of the tutorials presented in this guide are using stable coins as starting position. This is mostly du to the fact that stable coin pairs are not impacted by impermanent loss nor volatility of other assets. It is then almost impossible to lose your initial, and you can use more risky strategies with the gains from your stables to increase your gains.
+本指南中展示的大多数教程都使用稳定币作为起始头寸。这主要是由于稳定币对既不受永久损失也不受其他资产波动的影响。然后几乎不可能失去你的初始值，从你稳定币的收益里你可以使用更具风险的策略来增加你的收益。
 
-Today, we're trying another approach on Moonriver with Solarbeam, currently the only application that uses MAI. The LP (**L**iquidity **P**roviding) pair there is MAI-MOVR. MAI is the stable coin from Mai Finance that you will be able too bridge to Moonriver or mint from a vault, and MOVR is the native gas token of Moonriver. As such, MOVR will always have some kind of utility and should never go down in prce too drastically. This is not a stable pair, but the only variable part of the token is linked to MOVR, which makes it a good starting point anyway.
+今天，我们正在使用 Solarbeam 在 Moonriver 上尝试另一种方法，这是目前唯一使用 MAI 的应用程序。LP（流动性提供）对是 MAI-MOVR。 MAI 是来自 Mai Finance 的稳定币，你也可以桥接到 Moonriver 或从金库铸造，而 MOVR 是 Moonriver 的原生气体代币。因此，MOVR 将始终具有某种实用性，价格应该永远不会大幅度地降低。这不是一个稳定的对，但代币的唯一可变部分与 MOVR 相关联，这无论如何使它成为一个很好的起点。
 
-Let's see how we can generate some very high yields with a closed feedback loop on Moonriver without dumping too many farm tokens on the go.
+让我们看看我们如何在 Moonriver 上通过封闭的反馈循环产生一些非常高的收益，而不会在旅途中倾倒太多的农场代币。
 
-![](<../../.gitbook/assets/solarbeam-1.png>)
+![](../../.gitbook/assets/solarbeam-1.png)
 
 ## SolarBeam
 
-### Farming MAI on Solarbeam
+### 在Solarbeam上耕种MAI
 
-Solarbeam is the first and main DEX (**D**ecentralized **EX**change) and AMM (**A**utomatic **M**arket **M**aker) on Moonriver, and the second application in terms of TVL on the chain. It's also the very first Moonriver partner of Mai Finance and offers a MAI-MOVR pool that gets rewarded with some of their native token, the SOLAR token. This is also the place where you'll find some liquidity for MAI.
+Solarbeam 是 Moonriver 上第一个也是主要的 DEX（去中心化交易所）和 AMM（自动做市商），也是链上 TVL 方面的第二个应用。它也是 Mai Finance 的第一个 Moonriver 合作伙伴，并提供一个 MAI-MVR 池，该池将获得他们的一些原生代币 SOLAR 代币作为奖励。这也是你可以为 MAI 找到一些流动性的地方。
 
-![MAI-MOVR pool on Solarbeam as of December 2021](<../../.gitbook/assets/solarbeam-2.png>)
+![截至 2021 年 12 月，Solarbeam 上的 MAI-MOVR 池](../../.gitbook/assets/solarbeam-2.png)
 
-The APR (**A**nnual **P**ercentage **R**ate) of 84% is quite high due to the low usage of the pool, which also makes it a perfect starting point for our strategy. You will get this APR (corresponding to 131% APY if you want to compare to something like MAI-WMATIC on QuickSwap for reference) and the reward will be paid in SOLAR tokens. As of December 2021, 1 SOLAR = 3.78 USDC.
+由于池的使用率低，84% 的 APR（年度百分比率）相当高，这也使其成为我们策略的完美起点。你将获得此 APR（如果你想与 QuickSwap 上的 MAI-WMATIC 之类的产品进行比较以供参考，则相当于 131% APY），并且奖励将以 SOLAR 代币支付。截至 2021 年 12 月，1 SOLAR = 3.78 USDC。
 
-### Single staking SOLAR
+### 单一质押 SOLAR
 
-Most Uniswap forks are now proposing staking for their native token, and Solarbeam is doing it too. You can either stake your SOLAR into a Vault to get more SOLAR, and depending on the length of your lock, you'll get very interesting rates (up to 200% APR for a 30 days lock), but we will be using staking to earn external tokens. Indeed, you can stake your SOLAR tokens to receive a bunch of other tokens from different apps on Moonriver, and the one we're looking for is the ROME token.
+大多数 Uniswap 分叉现在都提议为其原生代币进行质押，Solarbeam 也在这样做。你可以将你的 SOLAR 存入 Vault 以获得更多 SOLAR，并且根据你锁定的长度，你将获得非常有趣的费率（锁定 30 天最高 200% 的年利率），但我们将使用 staking赚取外部代币。确实，你可以质押你的 SOLAR 代币，以从 Moonriver 上的不同应用程序接收大量其他代币，而我们正在寻找的就是 ROME 代币。
 
-![Staking SOLAR token to earn ROME tokens on Solarbeam](<../../.gitbook/assets/solarbeam-3.png>)
+![在 Solarbeam 上质押 SOLAR 代币以赚取 ROME 代币](../../.gitbook/assets/solarbeam-3.png)
 
-You will notice that the ROME pool is the one with the lowest APR, but it's still quite high, and you will soon see that our ROME tokens will multiply at a crazy rate.
+你会注意到 ROME 池是 APR 最低的池，但它仍然很高，你很快就会看到我们的 ROME 代币将以疯狂的速度增加。
 
 ## Rome DAO
 
-Rome DAO is another big player on Moonriver. It's an Ohm-fork (Olympus DAO copy) that uses the ROME token as native token. You will be able to stake your ROME tokens on the application in order to get very high returns. The goal of each Ohm-fork is to have as much native token staked and attract liquidity to be able to sustain the emission. If you need more details on Ohm-forks, please check our [tutorials on Klima DAO](../polygon/ohm-forks-on-polygon-the-case-of-klima.md) for Polygon.
+Rome DAO 是 Moonriver 上的另一个大玩家。这是一个使用 ROME 代币作为原生代币的Ohm-fork（Olympus DAO 副本）。你将能够在应用程序上质押你的 ROME 代币以获得非常高的回报。每个Ohm-fork的目标是拥有质押尽可能多的原生代币并吸引流动性以维持排放。如果你需要有关 Ohm-forks 的更多详细信息，请查看我们关于 Polygon 的[ Klima DAO 的教程](../polygon/ohm-forks-on-polygon-the-case-of-klima.md)。
 
-![Staking ROME tokens on Rome DAO for 771% APR as of December 2021](<../../.gitbook/assets/solarbeam-4.png>)
+![截至 2021 年 12 月，以 771% 的年利率在 Rome DAO 上质押 ROME 代币](../../.gitbook/assets/solarbeam-4.png)
 
-Because we'll get ROME tokens from Solarbeam, we should be able to stake them on Rome DAO and the rebase system will get you a lot more very quickly. For this strategy, we will stake ROME tokens on Rome DAO and sell 50% of the daily reward, which is currently corresponding to ~1% of the deposit on Rome DAO.
+因为我们将从 Solarbeam 获得 ROME 代币，所以我们应该能够将它们质押在 Rome DAO 上，并且 rebase 系统会更快地为你提供更多。对于此策略，我们将在 Rome DAO 上质押 ROME 代币并出售每日奖励的 50%，目前对应于 Rome DAO 存款的约 1%。
 
 ## Mai Finance
 
-Mai Finance is a lending platform where you'll be able to deposit your crypto assets and borrow the MAI stable coin at 0% interest. The only fee that will ever be charged on Moonriver is the repayment fee of 0.5% of your loan.
+Mai Finance 是一个借贷平台，你可以在其中存入你的加密资产并以 0% 的利率借入 MAI 稳定币。 Moonriver 将收取的唯一费用是你贷款的 0.5% 的还款费用。
 
-![ETH vault on Moonriver with a lot of MAI available](<../../.gitbook/assets/solarbeam-5.png>)
+![Moonriver 上的 ETH 保险库，有很多 MAI 可用](../../.gitbook/assets/solarbeam-5.png)
 
-For our strategy, we will be using a ETH vault. The ROME token that will be extracted from the Rome DAO staking pool will be split as follows:
+对于我们的策略，我们将使用 ETH 保险库。将从 Rome DAO 质押池中提取的 ROME 代币将被拆分如下：
 
-* 33% will be swapped to MOVR using the swap feature on Solarbeam
-* 66% will be swapped to ETH using the swap feature on Solarbeam
+* 33% 将使用 Solarbeam 上的交换功能交换到 MOVR
+* 66% 将使用 Solarbeam 上的交换功能交换为 ETH
 
-You will then be able to deposit the ETH on Mai Finance to borrow MAI with a CDR (**C**ollateral to **D**ebt **R**atio) of 200% to stay in the safe zone and try to prevent liquidation. The MAI borrowed will then be used to create additional MAI-MOVR LP tokens that will then be added to the initial position on Solarbeam.
+然后，你将能够将 ETH 存入 Mai Finance 以借入 MAI，其 CDR（抵押债务比率）为 200%，以留在安全区并尝试防止清算。然后，借用的 MAI 将用于创建额外的 MAI-MOVR LP 代币，然后将其添加到 Solarbeam 的初始头寸。
 
-As an example, for each $1 of ROME that you extract from Rome DAO we will get
+例如，对于你从 Rome DAO 中提取的每 1 美元 ROME，我们将获得
 
-* $0.33 of MOVR
-* $0.66 of ETH deposited on Mai Finance
-* $0.33 of MAI borrowed against our ETH
+* $0.33 的 MOVR
+* 0.66 美元的 ETH 存入 Mai Finance
+* 0.33 美元的 MAI 借贷我们的 ETH
 * $0.66 worth of MAI-MOVR LP token to add to Solarbeam
 
-## Farming Strategy
+## 耕种策略
 
-The following simulation is made by assuming a few different things:
+通过假设一些不同的事情进行以下模拟：
 
-* All rates and prices remain the same for the entire period of the simulation, 1 year in our case
-  * 84% APR on MAI-MOVR farming on Solarbeam
-  * 108% APR on staking SOLAR to farm ROME tokens
-  * 771% APR on Rome DAO when staking ROME tokens
-* All rewards and programs are also running for an entire year
-* 50% of the daiy gains on Rome DAO is sold for 33% MOVR and 66% ETH
-* The initial investment is $100 worth of MAI-MOVR LP token
+* 在整个模拟期间，所有费率和价格保持不变，在我们的案例中为 1 年
+  * Solarbeam 上的 MAI-MVR 农业年利率为 84%
+  * 108% APR 质押 SOLAR 以耕种 ROME 代币
+  * 质押 ROME 代币时，Rome DAO 的 APR 为 771%
+* 所有奖励和计划也将运行一整年
+* Rome DAO 每日收益的 50% 以 33% MOVR 和 66% ETH 的价格出售
+* 初始投资为价值 100 美元的 MAI-MVR LP 代币
 
-![](<../../.gitbook/assets/solarbeam-6.png>)
+![](../../.gitbook/assets/solarbeam-6.png)
 
-### Day 1
+### 第1天
 
-On day 1, you would simply deposit your $100 worth of MAI-MOVR on Solarbeam and will harvest your SOLAR tokens at the end of the day. This would give you the following result:
+在第 1 天，你只需将价值 100 美元的 MAI-MOVR 存入 Solarbeam，并在当天结束时收获你的 SOLAR 代币。这将为你提供以下结果：
 
-| MAI-MOVR | SOLAR |  ROME |  ETH  | Additional LP |
-|----------|-------|-------|-------|---------------|
-|  100.000 | 0.230 | 0.000 | 0.000 |         0.000 |
+| MAI-MOVR | SOLAR | ROME  | ETH   | 额外的 LP |
+| -------- | ----- | ----- | ----- | ------ |
+| 100.000  | 0.230 | 0.000 | 0.000 | 0.000  |
 
-### Day 2
+### 第2天
 
-On day 2, you'd keep your MAI-MOVR position to farm more SOLAR, but you will also stake your first harvest of SOLAR token in order to start collecting some ROME tokens. At the end of day 2, you would get:
+在第 2 天，你将保留你的 MAI-MOVR 头寸以种植更多 SOLAR，但你还将质押你的第一批 SOLAR 代币，以便开始收集一些 ROME 代币。在第 2 天结束时，你将获得：
 
-| MAI-MOVR | SOLAR |  ROME |  ETH  | Additional LP |
-|----------|-------|-------|-------|---------------|
-|  100.000 | 0.460 | 0.001 | 0.000 |         0.000 |
+| MAI-MOVR | SOLAR | ROME  | ETH   | 额外的 LP |
+| -------- | ----- | ----- | ----- | ------ |
+| 100.000  | 0.460 | 0.001 | 0.000 | 0.000  |
 
-### Day 3
+### 第3天
 
-At the beginning of day 3, you should be able to harvest your first few ROME tokens from the 50% daily staking reward. It's probably not a good idea to do it on day 3 with only an initial of $100 because the amount is quite unsignificant, but still. You will sell 33% for MOVR and 66% for ETH that you will deposit your vault on Mai Finance, then borrow MAI against your new collateral.
+在第 3 天开始时，你应该能够从 50% 的每日质押奖励中收获前几个 ROME 代币。在第 3 天只使用 100 美元的初始费用可能不是一个好主意，因为金额微不足道，但仍然如此。你将出售 33% 的 MOVR 和 66% 的 ETH，将你的保险库存入 Mai Finance，然后用你的新抵押品借入 MAI。
 
-| MAI-MOVR | SOLAR |  ROME |    ETH   | Additional LP |
-|----------|-------|-------|----------|---------------|
-|  100.000 | 0.690 | 0.002 | 0.000005 |      0.000005 |
+| MAI-MOVR | SOLAR | ROME  | ETH      | 额外的 LP   |
+| -------- | ----- | ----- | -------- | -------- |
+| 100.000  | 0.690 | 0.002 | 0.000005 | 0.000005 |
 
-At this point the system is fully bootstrapped.
+在这个时候系统已完全引导。
 
-## Farming results
+## 耕种结果
 
-### Daily routine
+### 每日例行
 
-Once the system is fully prepared, here's your daily routine
+系统准备就绪后，这是你的日常
 
-* harvest SOLAR from the MAI-MOVR pool
-* stake the SOLAR tokens you just earned
-* harvest the ROME tokens from the SOLAR staking pool
-* stake your freshly acquired ROME tokens
-* unstake 50% of your daily gains on Rome DAO (corresponds to ~1.5 rebase)
-* sell 66% of your ROME tokens for ETH
-* sell 33% of your ROME tokens for MOVR
-* deposit ETH in the ETH vault on Mai Finance
-* borrow 50% of your deposit as MAI stable coin
-* pair the borrowed MAI with the MOVR tokens
-* deposit your additional MAI-MOVR tokens
+* 从 MAI-MVR 池中收获 SOLAR
+* 质押你刚刚获得的 SOLAR 代币
+* 从 SOLAR 质押池中收获 ROME 代币
+* 质押你新获得的 ROME 代币
+* 在 Rome DAO 上取消质押50% 的每日收益（相当于 \~1.5 rebase）
+* 出售 66% 的 ROME 代币换取 ETH
+* 为 MOVR 出售 33% 的 ROME 代币
+* 将 ETH 存入 Mai Finance 的 ETH 保险库
+* 借入你存款的 50% 作为 MAI 稳定币
+* 将借来的 MAI 与 MOVR 代币配对
+* 存入你的额外 MAI-MVR 代币
 
-### Raw results month after month
+### 月复一月的原始结果
 
-| day | MAI-MOVR | staked SOLAR | staked ROME |    ETH   |
-|-----|----------|--------------|-------------|----------|
-|  30 |  100.021 |        7.135 |       0.352 |    0.023 |
-|  60 |  100.190 |       14.045 |       1.550 |    0.200 |
-|  90 |  100.713 |       20.978 |       3.911 |    0.740 |
-| 120 |  101.872 |       27.968 |       7.869 |    1.925 |
-| 150 |  104.052 |       35.072 |      14.023 |    4.148 |
-| 180 |  107.788 |       42.378 |      23.204 |    7.947 |
-| 210 |  113.814 |       50.019 |      36.559 |   14.065 |
-| 240 |  123.142 |       58.178 |      55.580 |   23.525 |
-| 270 |  137.175 |       67.158 |      82.767 |   37.745 |
-| 300 |  157.848 |       77.321 |     120.875 |   58.681 |
-| 330 |  187.841 |       89.226 |     174.234 |   89.041 |
-| 360 |  230.861 |      103.358 |     248.711 |  132.575 |
+| 天数  | MAI-MOVR | 质押的 SOLAR | 质押的 ROME | ETH     |
+| --- | -------- | --------- | -------- | ------- |
+| 30  | 100.021  | 7.135     | 0.352    | 0.023   |
+| 60  | 100.190  | 14.045    | 1.550    | 0.200   |
+| 90  | 100.713  | 20.978    | 3.911    | 0.740   |
+| 120 | 101.872  | 27.968    | 7.869    | 1.925   |
+| 150 | 104.052  | 35.072    | 14.023   | 4.148   |
+| 180 | 107.788  | 42.378    | 23.204   | 7.947   |
+| 210 | 113.814  | 50.019    | 36.559   | 14.065  |
+| 240 | 123.142  | 58.178    | 55.580   | 23.525  |
+| 270 | 137.175  | 67.158    | 82.767   | 37.745  |
+| 300 | 157.848  | 77.321    | 120.875  | 58.681  |
+| 330 | 187.841  | 89.226    | 174.234  | 89.041  |
+| 360 | 230.861  | 103.358   | 248.711  | 132.575 |
 
-### Day 365
+### 第365天
 
-After a complete year of farming, you would have
+经过一年的耕作，你将拥有
 
-* $239.633 worth of MAI-MOVR on Solarbeam
-* $106.358 worth of SOLAR tokens on Solarbeam
-* $263.708 worth of ROME tokens staked on Rome DAO
-* $141.450 worth of ETH on Mai Finance
-* $68.817 worth of MAI debt on Mai Finance
+* Solarbeam 上价值 239.633 美元的 MAI-MVR
+* Solarbeam 上价值 106.358 美元的 SOLAR 代币
+* 价值 263.708 美元的 ROME 代币质押在 Rome DAO
+* Mai Finance 上价值 141.450 美元的 ETH
+* Mai Finance 上价值 68.817 美元的 MAI 债务
 
-The additional MAI-MOVR doesn't fully correspond to the debt since we're using a third of the swapped ROME tokens to get half of the new LP tokens.
+由于我们使用了三分之一的交换 ROME 代币来获得一半的新 LP 代币，额外的 MAI-MOVR 并不完全地对应于债务。
 
-This loop would thus give you an equivalent APY of 583.15% from a relatively stable initial position.
+因此，这个循环将从相对稳定的初始头寸为你提供 583.15% 的等效 APY。
 
-## Disclaimer
+## 免责声明
 
-The main things to understand from this strategy are that Moonriver is currently under-used and reward rates are very interesting. Also, as soon as you throw a Ohm-fork in your strategy to re-invest a portion of your gains, the reward rates are so insane that you will make a very important profit as long as you keep enough tokens in the DAO to generate staking rewards.
+从该策略中要了解的主要是 Moonriver 目前未得到充分利用，并且奖励率非常有趣。此外，一旦你在策略中抛出一个Ohm-fork来重新投资你的部分收益，奖励率就会非常疯狂，只要你在 DAO 中保留足够的代币来生成，你就会获得非常重要的利润质押奖励。
 
-Keep in mind though that projects will have variable reward rates that will not be guaranteed over the span of one year. Please make sure you understand all the project you're investing in, do your own research and make sure to invest only what you may be ready to loose. Because this strategy is investing on a relatively stable initial, the only thing that is at risk in here are the benefits from other systems. This guide cannot be taken as an endorsement of the projects it uses.
+请记住，项目的奖励率是可变的，而且在一年内无法保证。请确保你了解你正在投资的所有项目，进行自己的研究，并确保只投资你可能准备好放弃的项目。因为这个策略是投资于一个相对稳定的初始，这里唯一有风险的是其他系统的好处。本指南不能被视为对其使用的项目的认可。
