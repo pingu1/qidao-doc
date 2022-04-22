@@ -1,125 +1,122 @@
 ---
-description: >-
-  Passive income is the art of making money which flows in regular interval of
-  time by doing minimal work for it. Now, Qi DAO lets you do the same by locking
-  your QI tokens.
+description: 被动收入是通过为它做最少的工作来赚钱的艺术，它在规律的一点时段间隔内流动。现在，Qi DAO 允许你通过锁定你的 QI 代币来做同样的事情。
 ---
 
-# Earning Passive Income with QiDAO
+# 通过 QiDAO 赚取被动收入
 
-## Passive income through QI DAO?
+## **通过QI DAO获得被动收入？**
 
-Qi DAO lets you earn weekly share of the revenue earned by the protocol, precisely:
+Qi DAO 可让你每周赚取协议收入的份额，确切地说：
 
-* 30% of weekly repayment fee revenue (plus a 25% boost).&#x20;
-* 100% of LP rewards received from using deposit fee revenue to farm on QuickSwap&#x20;
-* 30% of weekly USDC Swap fees.&#x20;
+* 每周还款费收入的 30%（加上 25% 的提成）。
+* LP 奖励的 100% 来自使用存款费用收入在 QuickSwap 上耕种
+* 每周 USDC 掉期费的 30%。
 
-This share of revenue is distributed to the people who stake and lock their QI tokens for a certain period of time, the rewards are then distributed in the form of QI tokens which is airdropped to your wallets directly. These rewards will be airdropped each Wednesday, and you can check your previous rewards [here](https://app.mai.finance/rewards).
+这部分收入分配给在一定时间内质押和锁定 QI 代币的人，然后以 QI 代币的形式分配奖励，直接空投到你的钱包中。这些奖励将在每周三空投，你可以在[这里](https://app.mai.finance/rewards)查看你之前的奖励。
 
-## Introduction to snapshots
+## Snapshot**简介**
 
-A snapshot is basically a recording of the the state of a blockchain on a particular block height, this means that the snapshot will record the contents of the entire blockchain ledger, which includes all existing addresses and their associated data (transactions, fees, balance, so on). Since Qi is on the Polygon blockchain we can check when the next snapshot is going to take place in [Polygonscan](https://polygonscan.com).
+Snapshot基本上是对特定区块高度上区块链状态的记录，这意味着snapshot将记录整个区块链分类帐的内容，其中包括所有现有地址及其相关数据（交易、费用、余额，等等）。 由于 Qi 在 Polygon 区块链上，我们可以在 [Polygonscan](https://polygonscan.com) 中检查下一个快照何时进行。
 
-You become eligible for the rewards if you stake your Qi tokens for at least \~10 days depending on when you lock your tokens. In other words, a valid staking period should contain at least 2 snapshots, so you'll get paid the Wednesday following the 2nd snapshot.
+如果你质押 Qi 代币至少约 10 天，你就有你格获得奖励，具体取决于你什么时候锁定代币。换句话说，一个有效的质押期应至少包含 2 个snapshots，因此你将在第二个snapshot之后的星期三获得报酬。
 
-![How to become eligible for the Qi rewards](../.gitbook/assets/unknown.png)
+![如何成为合格的Qi奖励](../.gitbook/assets/unknown.png)
 
-This is an example of a bare minimal staking period. Of course, you can stake for a longer period of time, and there are actually benefits locking your Qi for a long period. The longer you lock, the bigger the reward boost will be (see [What is Qi Powah](earning-passive-income-with-qidao.md#what-is-qi-powah) and the [FAQ](earning-passive-income-with-qidao.md#faqs-of-qi-staking) for more details).
+这是一个光秃秃的最低限度的抵押期的例子。当然，你可以长期质押，长期锁定Qi其实也有好处。你锁定的时间越长，奖励提升就越大（请参阅[什么是 Qi Powah](earning-passive-income-with-qidao.md#what-is-qi-powah) 和[常见问题](earning-passive-income-with-qidao.md#faqs-of-qi-staking)以了解更多详细信息）。
 
-## Understanding Qi Boost and Qi Powah
+## **理解 Qi Boost 和 Qi Powah**
 
-Now that we know what a snapshot is, we are ready to start earning some passive income using Qi. In order to do so, we have to go to the [boost ](https://app.mai.finance/boost)page in Mai Finance.
+现在我们知道快照是什么，我们准备开始使用 Qi 赚取一些被动收入。为了做到这一点，我们必须去Mai Finance的[boost](https://app.mai.finance/boost)页面。
 
-### What is Qi Boost and Qi Powah?
+### **什么是 Qi Boost 和 Qi Powah？**
 
-Qi Boost is your opportunity to increase the power and rewards of your Qi. The longer you lock your Qi the greater your voting power (Qi Powah) and weekly reward share will be. You can boost up to 4x by locking Qi for 4 years. Your boosts slowly reduces over your locking period, eventually unlocking your Qi, however you can always increase your boost to maintain your boosted level. Your boosted Qi is represented in eQi (escrowed Qi) and will remain in escrow until your unlock date (non-transferable).
+Qi Boost 是你增加 Qi 的力量和奖励的机会。你锁定 Qi 的时间越长，你的投票权 (Qi Powah) 和每周奖励份额就越大。通过锁定 Qi 4 年，你最多可以提升 4 倍。你的提升在锁定期间缓慢减少，最终解锁你的Qi，但是你可以随时增加提升以保持提升的水平。你提升的 Qi 以 eQi（托管 Qi）表示，并将一直托管到你的解锁日期（不可转让）。
 
-This can means that locking Qi have the following advantages:
+这可以意味着锁定 Qi 具有以下优点：
 
-* You can start earning weekly rewards just by locking your Qi tokens.
-* As a DAO, your voice will matter and depending on how many Qi tokens you lock, and how much time it is locked, you'll have more voting power of what will happen in the community. You can check the currents proposals of Qi DAO [here](https://snapshot.org/#/qidao.eth).
+* 你可以通过锁定你的 Qi 代币来开始赚取每周奖励。
+* 作为 DAO，你的声音很重要，取决于你锁定的 Qi 代币数量以及锁定时间，你将对社区中将发生的事情拥有更多投票权。你可以在[此处](https://snapshot.org/#/qidao.eth)查 Qi DAO 的当前提案。&#x20;
 
-### Locking your Qi
+### 锁定你的Qi
 
-To lock your Qi tokens you need to go the Qi Powah Boost lock bar and select how many tokens do you want to lock and the time period for which you want to lock your Qi tokens. The longer the time period the more **eQi** you will get, remember that eQi is just how many Qi tokens you will have once the locking period is over.
+要锁定你的 Qi 代币，你需要前往 Qi Powah Boost 锁定栏并选择要锁定多少代币以及锁定 Qi 代币的时间段。时间越长，你获得的 eQi 就越多，请记住，eQi 就是锁定期结束后你将拥有的 Qi 代币数量。
 
-![Qi Powah Boost Lock](../.gitbook/assets/captura.jpg)
+![Qi Powah Boost 锁定](../.gitbook/assets/captura.jpg)
 
-Once you have decided all that, click on approve and approve the transaction, then click on `Increase locked QI and lock time` and confirm the transaction.
+一旦你决定所有这些后，单击批准并批准交易，然后单击`Increase locked QI and lock time` (增加锁定 QI 和锁定时间)并确认交易。
 
 {% hint style="info" %}
-Please be aware that once you lock your Qi tokens for a given period, there's no way to unlock them before the lock period is over. Please be very cautious and aware when using this feature.
+请知悉，一旦你在给定期限内锁定你的 Qi 代币，就没有办法在锁定期结束前解锁它们。使用此功能时请务必小心谨慎。
 {% endhint %}
 
-Congratulations, now you are officially a Qi staker you will receive on the following weeks a weekly pay check. If you have any doubt wether you are qualified for the next week's revenue sharing, you can see on the boost page if you are qualified or not.
+恭喜，现在你正式成为 Qi 质押者，你将在接下来的几周内收到每周工资支票。如果你对自己是否有资格获得下周的收益分享有任何疑惑，你可以在boost页面上查看你是否符合资格。
 
 ![](<../.gitbook/assets/captura (1).jpg>)
 
-### Stats of the Qi Powah
+### **Qi Powah的统计数据**
 
-If you want to check the stats of the Qi Boosting, you can go to this [page ](https://app.mai.finance/boost/stats)to check the amount of Qi locked, as well as the average lock time or the revenue that the protocol earn each week.
+你想查 Qi Boosting 的统计数据，你可以到此[页面](https://app.mai.finance/boost/stats)查看 Qi 锁定的数量，以及协议每周赚取的平均锁定时间或收入。
 
-## FAQs of Qi Staking
+## **Qi Staking常见问题**
 
-* **When do I have to lock my QI?**&#x20;
+* **我什么时候锁定我的 QI？**&#x20;
 
-Snapshots are on Sunday and they record who has locked their $QI for at least a week at the time of the snapshot. If you do, you qualify for a share of the revenue for the upcoming week
+Snapshots在星期天，他们记录谁在快照时锁定了他们的 $QI 至少一周。如果你这样做，你就有资格分享下一周的收入。
 
-* **Where can I see when is the snapshot?**&#x20;
+* 我在哪里可以看到snapshot是什么时候？&#x20;
 
-Check the boost page, copy the “Next blocks” first number and paste it on Polygonscan. It will tell you the exact estimation time of the snapshot.
+检查提升页面，复制“Next blocks”的第一个数字并将其粘贴到 Polygonscan 上。它会告诉你snapshot的确切估计时间。
 
-* **For how long do I have to lock my QI?**&#x20;
+* **我不得不锁定我的 QI 多长时间？**&#x20;
 
-At he moment of the snapshot it has to be locked at least 1 full week. If you want to make 100% sure that you will be eligible, we recommend to lock for 2 weeks or more.
+在snapshot的那一刻，它必须被锁定至少 1 整周。如果你想 100% 确定你有资格，我们建议锁定 2 周或更长时间。
 
-* **When do I receive my rewards?**&#x20;
+* **我什么时候能收到奖励？**&#x20;
 
-Every Wednesday, they will be either airdropped to your wallet or collectable from rewards page. Timing might be somewhat flexible, please be patient as the team has to verify before release them.
+每个星期三，它们将被空投到你的钱包或从奖励页面收集。时间上可能有些灵活，请耐心等待，因为团队必须在释放它们之前进行验证。
 
-* **But I locked almost 2 weeks ago and I didn’t receive anything yet!**&#x20;
+* **但是我差不多 2 周前锁定了，我还没有收到任何东西！**
 
-There’s a few possibilities here: Either everything is fine but you still have to wait until next Wednesday, or at the moment of the snapshot it was locked for less than a week. Rewards are distributed roughly 10 days after snapshots.
+这里有几种可能性：要么一切都很好，但你仍然必须等到下周三，或者在snapshots的那一刻它被锁定了不到一周。奖励在snapshots后大约 10 天分发。
 
-* **What tokens will I receive?**&#x20;
+* **我会收到什么代币？**&#x20;
 
-$QI staking rewards are distributed in $QI.
+$QI 质押奖励以 $QI 分配。
 
-* **Where do these rewards come from?**&#x20;
-  * 100% gains from farming deposit fee revenue ($2,245,681 used to farm as of week 14)&#x20;
-  * 30% of repayment fee revenue ($18,362 average weekly revenue)
-  * 30% of Anchor/Swap fee revenue ($178,365 average weekly revenue)
-* **What is eQI and what can I do with it?**&#x20;
+* &#x20;**这些奖励从何而来？**
+  * &#x20;耕作押金收入 100% 收益（截至第 14 周用于耕作的 2,245,681 美元**）**
+  * 还款费收入的 30%（平均每周收入 18,362 美元）
+  * Anchor/Swap 费用收入的 30%（平均每周收入 178,365 美元）
+* &#x20;**什么是 eQI，我可以用它做什么？**
 
-eQI (escrowed QI) represents the boost that you're getting on your voting power and Qi rewards. So for the purposes of voting and getting Qi rewards, 1 eQi counts as 1 Qi
+eQI（托管 QI）代表你获得的投票权和 Qi 奖励的提升。所以为了投票和获得 Qi 奖励，1 eQi 算作 1 Qi。
 
-* **But wait, I locked to get rewards. What’s this voting power?**&#x20;
+* **但是等等，我锁定以获得奖励。这是什么投票权？**&#x20;
 
-QiDao is a DAO (Decentralized Autonomous Organization) and the future of the protocol is decided by the community. As a holder of $QI you are entitled to vote on QIP (QiDao Improvement Proposals) published on Governance page.
+QiDao 是一个 DAO（去中心化自治组织），协议的未来由社区决定。作为 $QI 的持有者，你有权对发布在Governance页面上的 QIP（QiDao Improvement Proposals）进行投票。
 
-* **What APR can I expect by locking $QI?**&#x20;
+* **通过锁定 $QI 我可以期待什么 APR？**&#x20;
 
-Every week is different as the rewards depends on how much eQI there is and how much revenue did the protocol collect that week. You can get some estimates from the eQI APY on boost page, the boost stats and the weekly updates where we share past revenues.
+每周都不同，因为奖励取决于有多少 eQI 以及协议在该周收集了多少收入。你可以从boost页面上的 eQI APY、boost统计数据和我们分享过去收入的每周更新中获得一些估计值。
 
-* **Can I add more QI to my current staking or make it last longer?**&#x20;
+* **我可以在当前的质押中添加更多 QI 或使其持续更长时间吗？**
 
-Yes, you can do both without affecting your current staking. Just select the amount, the time to add, click increase and confirm.
+是的，你可以在不影响当前赌注的情况下做到这两点。只需选择数量，添加时间，点击增加并确认。
 
-* **Can I lock my QI for different amounts of time?**&#x20;
+* **我可以将 QI 锁定不同的时间吗？**
 
-Currently that’s not possible within the same account. However, you can quickly do that by adding a new account to your wallet. That way you can lock for a long time with your main one and for shorter periods of time with a secondary address.
+目前，在同一个帐户中这是不可能的。但是，你可以通过向钱包添加新帐户来快速完成此操作。这样，你可以使用主要地址锁定很长时间，并使用辅助地址锁定更短的时间。
 
-* **What will happen when the lock time is due?**&#x20;
+* **当锁定时间到期的话会发生什么？**
 
-You will have to click withdraw and will receive in your wallet the same amount you initially locked. But I locked for 4 years and see that I have 4 times more eQI than QI locked That’s normal. eQI will gradually decrease as time passes by and in the end it will be equal to your initial QI. In the meantime you will enjoy a boost on your voting power and weekly rewards.
+你必须单击提款，然后你的钱包中才会收到与你最初锁定的金额相同的金额。但是我锁定了 4 年，发现我的 eQI 是 QI 锁定的 4 倍，这很正常。随着时间的推移，eQI 会逐渐下降，最终会与你的初始 QI 相等。与此同时，你将享受一个提高你的投票能力和每周奖励。
 
-## Disclaimer
+### 免责声明
 
-You can find an article on a similar topic covered by Genkham [here](https://medium.com/@GenKham/earning-passive-income-with-qi-dao-b92a6a3721bd).
+你可以在[此处](https://medium.com/@GenKham/earning-passive-income-with-qi-dao-b92a6a3721bd)找到有关 Genkham 涵盖的类似主题的文章。
 
-This guide is definitely not financial advice, it was made with an educational goal in mind. The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+本指南绝对不是财务建议，它是出于教育目标而制作的。 目标不是提出可以盲目遵循的秘方，因此请做好功课和自己的模拟，并且只投资你准备好可能会失去的东西。
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请牢记在给定时间运行良好的策略可能在另一个时间表现不佳（或让你赔钱）。请保持消息灵通，监测市场，留意你的投资，并一如既往地，做你的研究。
 {% endhint %}

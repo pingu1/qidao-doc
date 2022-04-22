@@ -1,31 +1,28 @@
 ---
-description: >-
-  This article is a detailed explanation of how you can use Mai Finance to
-  borrow MAI at 0% interest, and get paid to do so, transforming your 0%
-  interest loan into a negative interest loan.
+description: 这篇文章是详细解释了如何使用 Mai Finance 以 0% 的利息借入 MAI 并获得报酬，从而改变你的 0% 利息。
 ---
 
-# MAI loans and Vaults incentives
+# MAI 贷款和Vaults激励
 
-## Intro
+## 简介
 
-The core business of Mai Finance is a lending platform. Instead of selling their crypto to buy other assets, people are able to lock their funds on Mai Finance and borrow against them. This presents the opportunity to keep high value assets (WBTC, WETH ...) while still being able to get other assets and farm yields. In that case, the loan is used to generate revenue, while the collateral is gaining value.
+Mai Finance的核心业务是借贷平台。人们不必出售他们的加密货币来购买其他资产，而是可以将他们的资金锁定在 Mai Finance 上并借用他们。这提供了保留高价值资产（WBTC、WETH ...）的机会，同时仍然能够获得其他资产和农场收益。在这种情况下，贷款用于产生收入，而抵押品正在增值。
 
-One of the other big advantage of using Mai Finance is that there's no repayment schedule. In other words, you borrow MAI stable coin against your crypto, you don't pay any interests, and you can repay your debt whenever you want. See the different articles on [debt management](debt-repayment-why-and-when.md) for more details. The only fee that you would ever pay is a repayment fee corresponding to 0.5% of the money you borrowed that you pay when you repay your loan, and that is taken out of your collateral.
+使用 Mai Finance 的另一大优势是没有还款时间表。换句话说，你用你的加密货币借 MAI 稳定币，你不支付任何利息，你可以随时偿还你的债务。有关更多详细信息，请参阅有关[债务管理](debt-repayment-why-and-when.md)的不同文章。你唯一需要支付的费用是相当于你在偿还贷款时所借资金的 0.5% 的还款费，该费用将从你的抵押品中扣除。
 
-As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, when you repay your loan you would have to pay a fee of $0.50 directly taken out of your WETH deposit.
+例如，如果你存入价值 200 美元的 WETH 以借入价值 100 美元的 MAI，当你偿还贷款时，你必须直接从 WETH 存款中支付 0.50 美元的费用。
 
-If that wasn't already an amazing opportunity, the Mai Finance team introduced in September 2021 Vault incentives paid in Qi, the native token of Mai Finance. In other words, by depositing your assets on Mai Finance in a vault to borrow MAI, you will also get paid to do it. This articles presents in details how this functionality works.
+如果这还不是一个绝佳的机会，Mai Finance团队在 2021 年 9 月介绍了以Mai Finance的原生代币 Qi 支付的 Vault 奖励。换句话说，通过将你的资产存入 Mai Finance 的保险库中借用 MAI，你也将获得报酬。本文详细介绍了此功能的运作原理。
 
-## Vaults - What they are and how they work
+## **Vaults-它们是什么以及它们如何工作**
 
-### Vault creation
+### 创建Vault
 
-On Mai Finance, vaults are special storages where one can deposit their assets. Currently, there are 10 types of vaults:
+在 Mai Finance 上，金库是一种特殊的存储空间，可以存放他们的资产。目前，有10种类型的vaults：
 
-![The different vault types you can create on Mai Finance](<../.gitbook/assets/image (1).png>)
+![你可以在 Mai Finance 上创建的不同的vaults类型](<../.gitbook/assets/image (1).png>)
 
-There are 2 different types of vaults:
+有 2 种不同类型的vaults:
 
 * WETH
 * WBTC
@@ -34,189 +31,189 @@ There are 2 different types of vaults:
 * CRV
 * AAVE
 
-and
+以及
 
 * camWETH
 * camWBTC
 * camWMATIC
 * camAAVE
 
-The first 6 vaults in the list are for simple assets while the 4 last ones are for camTokens. camTokens are compounding AAVE market tokens, a representation of a deposit that you could have done on AAVE and then deposited on the yield pools of Mai Finance. While you assets is generating yields on AAVE (and while the rewards are automatically compounded by the yield pool), you can still borrow MAI stable coins against these tokens.
+列表中的前 6 个vaults用于简单资产，而后 4 个用于 camTokens。 camTokens 是复合 AAVE 市场代币，代表你可以在 AAVE 上完成的存款，然后存入 Mai Finance 的收益池。当你的资产在 AAVE 上产生收益时（并且收益会自动由收益池复合），你仍然可以借用这些代币的 MAI 稳定币。
 
-As a side note, you can see on the screenshot above that the creation page shows some very important informations:
+作为旁注，你可以在上面的屏幕截图中看到创建页面显示了一些非常重要的信息：
 
-* MAI available: this corresponds to the maximum debt ceiling, the maximum number of MAI that can be minted from vault deposits.
-* Min Coll. ratio: this is the minimum Collateral to Debt ratio (CDR) for that vault
-* Vault incentives APR
+* MAI 可用：这对应于最大债务上限，即可以从vault存款中铸造的 MAI 的最大数量。
+* Min Coll. ratio:这是该vault的最低抵押债务比率 (CDR)&#x20;
+* Vault 激励 APR
 
-### Understanding Debt Ceiling
+### 理解债务上限
 
-The maximum number of MAI that one can mint on a specific vault depends on how much assets is deposited on that vault. Debt ceiling are implemented in order to make sure that the market isn't flooded with MAI in a very short time, which may affect the price of the stable coin.
+一个人可以在特定金库上铸造的最大 MAI 数量取决于在该金库上存放的资产数量。实施债务上限是为了确保市场不会在很短的时间内充斥着 MAI，这可能会影响稳定币的价格。
 
-As an example, if a big institution would deposit 5,000 WBTC at once and was able to borrow $100,000,000 worth of MAI, swapping the totality for more WBTC, this could drive the price of MAI down so much that the price would deviate too much from its peg, putting the whole platform at risk. Debt ceiling is the mechanism that prevents this from happening: there's a maximum amount of MAI that can be minted for a given vault type.
+作为一个示例，如果一家大型机构一次存入 5,000 WBTC 并且能够借入价值 100,000,000 美元的 MAI，将总资金互换成更多 WBTC，这可能会导致 MAI 的价格大幅下跌，以及价格偏离太多，使整个平台处于危险之中。债务上限是防止这种情况发生的机制：对于给定的金库类型，可以铸造最大数量的 MAI。
 
-When the debt ceiling is reached, the time at which there aren't any more available MAI to mint is recorded, and the system automatically increases the debt ceiling after 48 hours. This is considered enough time for the MAI price to stabilize (in case of high sell pressure following a big sell off of MAI).
+当达到债务上限时，会记录没有更多可用 MAI 可供铸造的时间，系统会在 48 小时后自动增加债务上限。这被认为是 MAI 价格稳定的足够时间（在 MAI 大量抛售后出现高抛售压力的情况下）。
 
-This means that for 48h, nobody will be able to borrow more MAI from a vault that reached its debt ceiling, unless a debt is repaid.
+这意味着在 48 小时内，除非偿还债务，否则没有人能够从达到其债务上限的金库中借入更多 MAI。
 
-As a side note, the more MAI on the market, the more stable the price is. Indeed, a massive sell of MAI is less invasive if there are more MAI in circulation.
+作为旁注，市场上的 MAI 越多，价格就越稳定。确实，如果流通中的 MAI 数量更多，则大量出售 MAI 的侵入性较小。
 
-* If someone sells 1,000 MAI while there are only 10,000 MAI in circulation, the sell corresponds to 10%
-* If someone sells 1,000 MAI while there are 10,000,000 MAI in circulation, the sell corresponds to 0.01%
+* 如果有人卖出 1,000 MAI 而流通中只有 10,000 MAI，则卖出对应 10%
+* 如果有人卖出 1,000 MAI 而有 10,000,000 MAI 在流通，则卖出对应于 0.01%
 
-Hence, the debt ceiling isn't increased incrementally, but exponentially: the more MAI in circulation, the less impact a big sell would have, so the debt ceiling can be increased by a lot more.
+因此，债务上限不是递增的，而是呈指数级增加：流通中的 MAI 越多，大笔抛售产生的影响就越少，因此债务上限可以增加更多。
 
 {% hint style="info" %}
-When you borrow MAI, it can happen that the maximum amount of MAI that you can borrow is capped by the debt ceiling, regardless of the current value of your collateral and the current amount of MAI you already borrowed. When that's the case, you may wait up for 48h before you can actually borrow more MAI.
+当你借入 MAI 时，会发生的是你可以借入的最大 MAI 金额可能会受到债务上限封顶，无论你的抵押品的当前价值和你已经借入的 MAI 的当前金额如何。当处于这种情况，你可能需要等待 48 小时才能真正借用更多 MAI。
 {% endhint %}
 
-### Understanding Collateral to Debt Ratio
+### **理解抵押物与债务比率**
 
-The CDR, or **C**ollateral to **D**ebt **R**atio is the ratio between the value of the deposited assets in your vault compared to the amount of MAI you borrowed.
+CDR, 抵押物与债务比率(Collateral to Debt Ratio), 是金库中持有的资产价值与你借入的 MAI 金额相比的比率。
 
-As an example, if you deposited $200 worth of WETH to borrow $100 worth of MAI, your CDR would be
+例如，如果你存入价值 200 美元的 WETH 以借入价值 100 美元的 MAI，你的 CDR 将是
 
 $$
 CDR=\frac{CollateralValue}{DebtValue}=\frac{200}{100}=200\%
 $$
 
-Maintaining a CDR above 100% means that, at any point, there are more collateral than debt. This is mandatory to ensure that the MAI stable coin is over-collateralized, and is one of the foundations of the Mai Finance tokenomics. You can get more details from the official [Mai Finance documentation](https://docs.mai.finance/stablecoin-economics).
+将 CDR 维持在 100% 以上意味着，在任何时候，抵押品都比债务多。这是强制性的确保 MAI 稳定币被超额抵押所必需的，并且是 Mai Finance 代币经济的基础之一。你可以从[ Mai Finance 的官方文档](https://docs.mai.finance/stablecoin-economics)中获取更多详细信息。
 
-Each vault type has a minimum CDR ratio accepted, a threshold under which the vault is considered at risk because the borrowed amount may not be backed by enough collateral. At this point, anyone can liquidate the vault, meaning a part of the debt is repaid by the liquidator that can then get a portion of the deposited collateral in repayment. Once again, you can find more details about liquidation process in the official documentation.
+每种金库类型都有一个可接受的最低 CDR 比率，这是一个阈值，在该阈值下金库被认为存在风险，因为借入的金额可能没有足够的抵押品支持。此时，任何人都可以清算金库，这意味着清算人偿还了一部分债务，然后清算人可以获得一部分存放的抵押品作为还款。再次，你可以在官方文档中找到有关清算过程的更多详细信息。
 
-When you borrow MAI against a given collateral, you will get some hints on what's the maximum amount of MAI you can borrow, and what would be the impact on your health ratio depending on the amount borrowed, as you can see in the screenshot bellow:
+当你以给定的抵押品借入 MAI 时，你会得到一些暗示，说明你可以借入的最大 MAI 金额是多少，以及根据借入的金额对你的健康比率有何影响，如下面截图所示：
 
-![Health mitigation depending on borrowed amount](<../.gitbook/assets/image (2).png>)
+![健康缓解取决于借入的金额](<../.gitbook/assets/image (2).png>)
 
-It's very important to keep an eye on your CDR and keep a healthy ratio to
+密切关注你的CDR并保持健康的比率非常重要
 
-* prevent liquidation
-* increase the health of the whole Mai Finance platform by ensuring the MAI volume in circulation is properly backed
+* 防止清算
+* 通过确保流通中的 MAI 数量得到适当支持，提高整个Mai Finance平台的健康度
 
-The "healthy" CDR, as defined by the Mai Finance team, is between 25% and 270% above the minimum CDR value. As a side note, you can also check our strategy guides to see how you can use conservative/aggressive CDRs to [invest](../jiao-cheng/polygon/leverage-aave-tokens.md#examples-with-numbers) in other projects, or [repay your debt](debt-repayment-how.md#repayment-using-your-collateral) using your debt.
+Mai Finance团队定义的“健康”CDR，比最低CDR值高出25%到270%。作为旁注，你还可以查看我们的策略指南，了解如何使用保守/激进的 CDR 来[投资](../jiao-cheng/polygon/leverage-aave-tokens.md#examples-with-numbers)其他项目，或使用你的债务[偿还债务](debt-repayment-how.md#repayment-using-your-collateral)。
 
-## Vault incentives
+## Vault 激励
 
-### Understanding Vaults incentives APRs
+### 了解Vaults 激励 APRs
 
-In September 2021, Mai Finance introduced vault incentives. This is a reward allocated by the Mai Finance platform to anyone borrowing MAI and participating in the growth of the platform.
+2021 年 9 月，Mai Finance推出了金库激励措施。这是Mai Finance平台分配给任何借用 MAI 并参与平台发展的人的奖励。
 
-Each Vault type (among the 10 different types) receives 0.05 Qi per block, that is then distributed between all the users who have a healthy Collateral to Debt Ratio. The APR of the vault is defined by the current amount of MAI borrowed.
+每种 Vault 类型（在 10 种不同类型中）每个区块接收 0.05 Qi，然后分配给所有拥有健康抵押物债务比率的用户。金库的 APR 由当前借入的 MAI 数量定义。
 
-As an example, Ben and Kila are 2 friends who deposited their ETH in the WETH vaults on Mai Finance.
+例如，Ben 和 Kila 是两个朋友，他们将他们的 ETH 存入了 Mai Finance 的 WETH 金库。
 
-* Ben deposited the equivalent of $2,000 worth of ETH and borrowed 1,000 MAI
-* Kila deposited the equivalent of $10,000 worth of ETH and borrowed 6,000 MAI
+* Ben 存入了价值 2,000 美元的 ETH 并借了 1,000 MAI
+* Kila 存入了价值 10,000 美元的 ETH 并借入了 6,000 MAI
 
-The current amount of MAI borrowed by users who deposited WETH in the vault is 1,000,000 MAI.
+将 WETH 存入金库的用户当前借入的 MAI 量为 1,000,000 MAI。
 
-Both Ben and Kila qualify for the vault incentives because Ben has a CDR of 200% and Kila a CDR of 166.67%. Ben, with his loan, owns 0.1% of the total amount borrowed, while Kila owns 0.6%.
+Ben 和 Kila 都有资格获得vault激励，因为 Ben 的 CDR 为 200%，Kila 的 CDR 为 166.67%。 Ben 拥有贷款总额的 0.1%，而 Kila 拥有 0.6%。
 
-The total amount of Qi allocated to the WETH vault (or any vault) is
+分配给 WETH vault（或任何vault）的 Qi 总量为
 
 $$
 Qi=0.05*\frac{86400}{2}=2160
 $$
 
 {% hint style="info" %}
-86,400 is the number of seconds in a day, and on Polygon, the block time is 2 seconds, meaning that the expected number of blocks every day is 86,400 / 2 = 43,200. Hence, the emission for each Vault is 2,160 Qi / day.
+86,400 是一天的秒数，在 Polygon 上，出块时间为 2 秒，这意味着每天的预期出块数为 86,400 / 2 = 43,200。因此，每个 Vault 的排放量为 2,160 Qi/天。&#x20;
 
-**Note:** Block time has increased lately and is around 2.6 seconds. However, all APRs and APYs displayed on all apps are assuming a block time of 2 seconds. Please DYOR and check the current [block time on PolygonScan](https://polygonscan.com/chart/blocktime).
+注意：区块时间最近有所增加，约为 2.6 秒。但是，所有应用程序上显示的所有 APR 和 APY 均假设阻塞时间为 2 秒。请 DYOR 并检查 [PolygonScan 上的当前区块时间](https://polygonscan.com/chart/blocktime)。&#x20;
 {% endhint %}
 
-Hence, if the state of the Vault remains the same, Ben will get 0.1% of the 2,160 Qi distributed, while Kila will get 0.6% of the granted reward.
+因此，如果 Vault 的状态保持一致，Ben 将获得分配的 2,160 Qi 的 0.1%，而 Kila 将获得授予奖励的 0.6%。
 
-* Ben will get 2.16 Qi every day, which is a daily reward of 0.216%, or an APR of 78.84%
-* Kila will get 12.96 Qi every day, which is also a daily reward of 0.216%, or an APR of 78.84%
+* Ben 每天将获得 2.16 Qi，即每日奖励 0.216%，即 APR 为 78.84%
+* Kila每天将获得12.96 Qi，这也是0.216%的每日奖励，即78.84%的APR
 
-On a side note, 2,160 Qi for 1,000,000 MAI is a daily reward of 0.216%, or 78.84%, which is the Vault's APR.
+作为旁注，1,000,000 MAI 的 2,160 Qi 是每日奖励 0.216%，即 78.84%，这是 Vault 的 APR
 
 {% hint style="info" %}
-It's easy to see that the Vault's APR is directly linked to the amount of MAI borrowed. The more MAI is borrowed, the lower the APR. As a side note, the amount of MAI that can be borrowed is also capped by the debt ceiling, which is increased with the demand for MAI.
+很容易看出，Vault 的 APR 与借入的 MAI 数量直接相关。借入的 MAI 越多，APR 越低。作为旁注，可以借入的 MAI 数量也受到债务上限的限制，随着对 MAI 的需求而增加。
 {% endhint %}
 
-As a verification, we can calculate the theoretical APR for the MATIC vault based on numbers published on the [analytics page](https://app.mai.finance/analytics) on Mai Finance. The amount of MAI borrowed from the MATIC vault is 799,328. The reward is 216 Qi per day for that vault. That corresponds to a APR of
+作为验证，我们可以根据 Mai Finance [分析页面](https://app.mai.finance/analytics)上发布的数字计算 MATIC 保险库的理论 APR。从 MATIC 金库借用的 MAI 数量为 799,328。该金库的奖励是每天 216 Qi。这对应于 APR
 
 $$
 APR=\frac{QiReward*Qi_{Price}}{MAI_{borrowed}}*365=\frac{2160*0.441}{785008}*365=44.29\%
 $$
 
-This corresponds more or less to the APR of the MATIC Vault, as displayed in the following screenshot:
+这或多或少对应于 MATIC Vault 的 APR，如下面的屏幕截图所示：
 
-![APR of a MATIC vault on Mai Finance after the launch of Vault rewards](<../.gitbook/assets/image (23) (2) (3) (1) (4).png>)
+![Vault奖励推出后MATIC 金库在 Mai Finance 上的 APR](<../.gitbook/assets/image (23) (2) (3) (1) (4).png>)
 
-### Calculating starting vaults' APRs
+### 计算起始vault的 APR
 
-With the same data as the example above, it's possible to calculate the starting APRs for all vaults
+使用与上面例子相同的数据，计算所有vaults的起始 APR是可能的
 
-| Vault type | Starting APR |
-| ---------- | ------------ |
-| MATIC      | 44.29%       |
-| WETH       | 24.03%       |
-| LINK       | 27.41%       |
-| AAVE       | 164.14%      |
-| CRV        | 159.96%      |
-| WBTC       | 36.92%       |
-| camWETH    | 25.46%       |
-| camWMATIC  | 44.33%       |
-| camAAVE    | 167.23%      |
-| camWBTC    | 47.38%       |
+| Vault 类型  | 起始 APR  |
+| --------- | ------- |
+| MATIC     | 44.29%  |
+| WETH      | 24.03%  |
+| LINK      | 27.41%  |
+| AAVE      | 164.14% |
+| CRV       | 159.96% |
+| WBTC      | 36.92%  |
+| camWETH   | 25.46%  |
+| camWMATIC | 44.33%  |
+| camAAVE   | 167.23% |
+| camWBTC   | 47.38%  |
 
 {% hint style="info" %}
-As you can see, some vaults will generate more rewards than others. Also, you can see that it's super important to deposit your assets as soon as possible to benefit from high APRs before the debt ceiling is increased and more loan is taken (lowering the APR).
+如你所见，某些金库会比其他金库产生更多奖励。还有，你可以看到，在债务上限提高和获得更多贷款（降低 APR）之前，尽快存入资产以从高 APR 中受益是非常重要的。
 
-You can also see that if you keep your loan for one year of more, the 0.5% repayment fee will easily be compensated by the reward program.
+你还可以看到，如果你将贷款保留一年以上，则奖励项目将轻松补偿 0.5% 的还款费用。
 {% endhint %}
 
-### Incentives distribution
+### 奖励分配
 
-Rewards allocated by the vault incentives will be distributed the same way as for staked Qi. Every Wednesday, the Qi allocated by the Vaults incentives program will be airdropped / claimed for the week prior to the pay day.
+Vault奖励分配的奖励将同样像质押的Qi的方式分配。每周三，由vault奖励计划分配的Qi将先于支付日期一周空投/宣称。
 
-## Vaults incentives FAQs
+## Vaults 激励常见问题
 
-If you want to know more about the way Vault incentives are working, here's an official FAQ from the Discord server.
+如果你想知道更多 Vault 激励的工作方式，这里是有一个Discord 服务器的官方常见问题解答。
 
-* **What vaults are receiving rewards?**
+* **什么vault正在获得奖励？**
 
-Right now all the vault types have been allocated Qi rewards
+现在所有的vault类型都分配了Qi奖励
 
-* **How much rewards are given out for the borrowing incentives?**
+* **借款奖励有多少奖励？**
 
-0.05 Qi/block for each vault type
+每个金库类型 0.05 Qi/block
 
-*   **How much MAI do I need to borrow to earn rewards?**
+*   **我需要借多少 MAI 才能赚取奖励？**
 
-    For Vault Borrow Incentives, stay between 25% and 270% above the liquidation ratio to receive QI token airdrop. This means:
-* _Matic_ - Liquidation ratio 150% - Eligible for Incentives between 175% and 420%
-* _Tokens_: - Liquidation ratio 130% - Eligible for Incentives between 155% and 400%
-* _CamTokens_: - Liquidation ratio 135% - Eligible for Incentives between 160% and 405%
-*   **How can I see if my vault is earning rewards?**
+    对于 Vault Borrow Incentives，保持在且25% 到 270% 之间并在清算比率以上才能获得 QI 代币空投。这意味着：
+* _Matic_ - 清算比率 150% - 有资格获得 175% 和 420% 之间的奖励
+* _Tokens_: - **** 清算比率 130% - 有资格获得 155% 和 400% 之间的奖励
+* _CamTokens_: - 清算比率 135% - 有资格获得 160% 和 400% 之间的奖励
+*   **如何查看我的vault是否在赚取奖励？**
 
-    If you see the fire emoji on your vault overview page that means that vault is earning rewards
-* **How much will I earn?**
+    如果你在vault概览页面上看到火表情符号，则表示vault正在赚取奖励
+* **我将赚取多少？**
 
-Your percent of the reward pool is based on the percentage of MAI you borrowed compared to the total amount of MAI borrowed from that vault type.
+你在奖励池中的百分比基于你借用的 MAI的百分比与从该vault类型借用的 MAI 总量做对比。
 
-* **How long will the incentives program last?**
+* **激励项目将持续多久？**
 
-The scheduled length of the borrowing incentives program is to last 3 months. The DAO can vote to stop incentives before the 3 months is over or vote to extend the program.
+借款激励项目的预定的期限为 3 个月。 DAO 可以在 3 个月结束前投票停止奖励或投票延长计划。
 
-* **How will we receive rewards?**
+* **我们将如何获得奖励？**
 
-Qi will be airdropped to eligible vault holders.
+Qi 将空投给符合条件的vault持有者。
 
-* **How is eligibility for rewards gathered?**
+* **奖励资格如何收集？**
 
-Eligibility for rewards is calculated per block. You will earn rewards for the blocks you were eligible during the week.
+奖励资格按区块计算。你将获得本周符合条件的区块的奖励。
 
-* **When do tracking rewards for the week start?**
+* **一周的跟踪奖励什么时候开始？**
 
-We will follow the same schedule as eQi. You can find the block numbers on the boost page.
+我们将遵循与 eQi 相同的时间表。你可以在boost页面上找到区块编号。
 
-## Disclaimer
+## 免责声明
 
-This guide has been written **prior** to the launch of Vault incentives, meaning that the APRs promoted in this document (as well as this document) are subject to modifications, and/or may not be accurate. The amount of MAI borrowed, the debt ceiling and the value of the Qi token will highly impact the final APR of each vault type. Please, make sure that you invest responsibly.
+本指南是在Vault激励推出**之前**编写的，这意味着本文档（以及本文档）中宣传的 APR 可能会被修改，和/或可能不准确。借入的 MAI 数量、债务上限和 Qi 代币的价值将极大的影响每种金库类型的最终 APR。请确保你在负责任地投资。
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请牢记在给定时间运行良好的策略可能在另一个时间表现不佳（或让你赔钱）。请保持消息灵通，监测市场，留意你的投资，并一如既往地，做你的研究。
 {% endhint %}
