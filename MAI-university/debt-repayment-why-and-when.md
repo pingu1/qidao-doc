@@ -1,68 +1,62 @@
 ---
-description: >-
-  This page presents different aspects of your debt management, most
-  specifically when you should consider repaying it, but also why you should
-  repay it.
+description: 本页呈现了债务管理的不同方面，最特别地是你应该考虑偿还债务的时间，以及你应该偿还债务的原因。
 ---
 
-# Debt repayment - Why and When?
+# 债务偿还-为什么和何时？
 
-## Is this really a debt?
+## **这真的是债务吗？**
 
-Technically speaking, yes. You owe MAI to the protocol, so it's a debt. However, you shouldn't really consider the debt on Mai Finance as a debt. Indeed, you deposit something of value \(your crypto assets\) and in exchange, Mai Finance allows you to borrow a stable coin. You don't need to pay any interests on the funds you borrowed, and when you want to get your assets back, you pay a very small fee of 0.5% of what you borrowed, which is paid directly on the collateral.
+从技术上讲，是的。你欠 MAI 协议，所以它是一种债务。但是，你不应该真正Mai Finance的债务视为债务。确实，你存入一些有价值的东西（你的加密资产），作为交换，Mai Finance 允许你借入稳定币。你无需为你借入的资金支付任何利息，当你想要取回资产时，你只需支付所借金额的 0.5% 的极少量费用，该费用直接在抵押品上支付。
 
-So basically, Mai Finance is your crypto pawn shop.
+所以基本上，Mai Finance 是你的加密当铺。
 
-On the other hand, your deposited crypto can increase in value, which allows you to borrow more. Also, on Mai Finance, you can use other protocols like AAVE to make sure your deposited assets are at work and earn you yield while still being used as a collateral, and it won't have any impact of the amount or value of your debt, nor on its repayment.
+另一方面，你存入的加密货币会增值，这使你可以借入更多资金。还有，在 Mai Finance 上，你可以使用 AAVE 等其他协议来确保你的存入资产在工作并在仍用作抵押品的同时赚取收益，它不会对你的债务数额或价值产生任何影响，也不会影响你的偿还。
 
-Finally, as of mid-September 2021, the dev team of Mai Finance added incentives to loans, which would actually make borrowing MAI a negative interest loan \(you get paid to borrow money\).
+最后，截至 2021 年 9 月中旬，Mai Finance 的开发团队增加了贷款激励，这实际上使得借 MAI 成为负利率贷款（借钱获得报酬）。
 
-Hence, by using Mai Finance and its vaults, you simply secure your assets, and only put at risk your borrowed money. Ideally, you would make some profits, or at least try to not totally lose your loan, which means that you should always be able to pay back your debt and get back your collateral.
+因此，通过使用 Mai Finance 及其金库，你只需要保护你的资产，只拿你借来的钱置于风险之中。理想情况下，你会获得一些利润，或者至少尽量不完全失去你的贷款，这意味着你应该始终能够偿还债务并取回你的抵押品。
 
-## Why should you repay your debt?
+### **你为什么要偿还你的债务?**
 
-There is a single answer to this question: get back your collateral.
+这个问题只有一个答案：取回你的抵押品。
 
-Indeed, Mai Finance does not charge any interest on your loans. This means that there is no growing amount of money that you need to pay back. You only repay what you borrowed, with the simple addition of the 0.5% repayment fee corresponding to 0.5% of what you borrowed.
+确实，Mai Finance 不会对你的贷款收取任何利息。这意味着你不需要偿还更多的金额。你只需偿还所借的金额，只需加上相当于你所借金额的 0.5% 的 0.5% 还款费。加上0.5%的还款费，就相当于你贷款的0.5%。
 
-As an example
+作为一个例子
 
-* You deposit $1,000 worth of MATIC in the MATIC vault
-* You borrow $200 worth of MAI and play with it
-* Your investments generated $20 that you convert back to MAI
-* You repay your $200 loan after 5 months
-* You unlock $999 worth of MATIC \(the 0.5% of $200 equals to $1 and is taken off your collateral\)
+* 你将价值 1,000 美元的 MATIC 存入 MATIC 金库
+* 你借了价值 200 美元的 MAI 用来玩
+* 投资产生了 20 美元，你将其转换回 MAI
+* 你在 5 个月后偿还 200 美元的贷款
+* 你解锁了价值 999 美元的 MATIC（200 美元的 0.5% 等于 1 美元，并从你的抵押品中扣除）
 
-There is also absolutely no pressure on the moment you need to repay your debt. It's not like the longer you wait, the more you owe. With Mai Finance, you do whatever you want with your borrowed MAI, and you pay back when you want. You can even pay back in pieces. If your borrowed money is generating a consistant revenue stream, you can use it to either re-invest, partially or totally repay your loan.
+在你需要偿还债务的那一刻也绝对没有压力。并不是等的越久，欠的越多。有了Mai Finance，你可以用借来的MAI为所欲为，并在需要时偿还。你甚至可以碎片化偿还。如果你借来的钱产生了稳定的收入流，你可以用它来重新投资、部分或全部偿还你的贷款。
 
-As an example
+作为一个例子
 
-* You deposit $1,000 worth of MATIC in the MATIC vault
-* You borrow $225 worth of MAI
-* You convert your MAI into a IMX/ETH LP pair and deposit it on QuickSwap pool
-* Your position, with an APR of 163.2%, is generating $1 every day
-* You convert your gain into MAI and repay your debt, $1 every day
-* After 225 days, your debt is fully repaid and your IMX/ETH can now generate pure revenue
+* 你将价值 1,000 美元的 MATIC 存入 MATIC 金库
+* 你借了价值 225 美元的 MAI
+* 你将你的 MAI 转换为 IMX/ETH LP 对并将其存入 QuickSwap 池
+* 你的头寸以APR 为 163.2%，每天产生 1 美元
+* 你将你的收益转换为 MAI 并偿还你的债务，每天 1 美元
+* 225 天后，你的债务已全额偿还，你的 IMX/ETH 现在可以产生纯收益
 
-Because of the 0% interest / no pay-back time limit, there's absolutely no need to repay your debt for whatever reason else than get back your collateral. And this is truly fantastic, because instead of repaying your debt, you could use your gains to increase your investments. And the best way to do it, of course, is to buy more crypto, secure it into the vault, and borrow more MAI.
+因为 0% 利息/无还款时间限制，除了取回你的抵押品之外，绝对没有必要以任何其他原因偿还你的债务。这真的很奇妙了，因为你可以用收益来增加投资，而不是偿还债务。当然，最好的方法是购买更多的加密货币，将其放入保险库，然后借用更多的 MAI。
 
-## When should you repay your debt?
+## **你应该什么时候偿还债务?**
 
-There is a single answer to this question: when you want to sell your collateral.
+这个问题只有一个答案：当你想出售抵押品时。
 
-In the paragraph above, we saw that there is absolutely 0 impact if you don't repay your debt "fast enough". Indeed, you could just never repay your debt and you would be in the exact same position as someone who just borrowed a few minutes before.
+在上面的段落中，我们看到如果你没有“足够快”地偿还债务，影响绝对为零。确实，你永远无法偿还你的债务，你将处于与几分钟前刚刚借过的人完全相同的境地。
 
-The only thing that would make you actually repay your debt is that you consider that the asset used as collateral is now reached a price at which you want to sell it, or if you need to sell your crypto assets for whatever reason. Only then is "the right time" to repay your debt.
+唯一能让你真正偿还债务的是你认为用作抵押品的资产现在达到了你想要出售的价格，或者你出于任何原因需要出售你的加密资产。只有那时才是偿还债务的“恰当时间”。
 
-On a separate note, you may also want to repay your debt if your asset used as collateral is losing value too quickly, and you don't want to be liquidated, because it would make you lose even more money. We will see on a separate article how you can repay your debt depending on the situation of your vault \(it's health ratio\), the market, and other factors.
+另作通知，如果你用作抵押品的资产贬值过快，并且你不想被清算，你可能还想偿还债务，因为这会使你损失更多的钱。我们将在另一篇文章中看到如何根据金库情况（健康比率）、市场和其他因素偿还债务。
 
+## 免责声明
 
-
-## Disclaimer
-
-The views, thoughts, and opinions expressed in the text belong solely to the author, and not necessarily to the rest of the community, nor the development team behind Mai Finance. It should not be taken as a financial advice or guidance of any kind.
+文中表达的观点、想法和意见完全属于作者，并不一定属于社区其他人，也不一定属于Mai Finance背后的开发团队。它不应被视为任何形式的财务建议或指导。
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly \(or make you lose money\) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请牢记在给定时间运行良好的策略可能在另一个时间表现不佳（或让你赔钱）。请保持消息灵通，监测市场，留意你的投资，并一如既往地，做你的研究。
 {% endhint %}
-

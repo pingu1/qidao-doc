@@ -43,7 +43,7 @@
 * [通过 QiDAO 赚取被动收入](MAI-university/earning-passive-income-with-qidao.md)
 * [Mai是如何运作的](MAI-university/how-does-mai-work.md)
 * [MAI 贷款和Vaults激励](MAI-university/mai-loans-and-vaults-incentives.md)
-* [Debt repayment - Why and When?](MAI-university/debt-repayment-why-and-when.md)
+* [债务偿还-为什么和何时？](MAI-university/debt-repayment-why-and-when.md)
 * [Debt repayment - How?](MAI-university/debt-repayment-how.md)
 * [MAI Metaverse](MAI-university/mai-metaverse.md)
 * [MAI Metaverse Pt.2](MAI-university/mai-metaverse-pt.2.md)
