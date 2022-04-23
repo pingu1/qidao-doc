@@ -1,8 +1,5 @@
 ---
-description: >-
-  Lately, MAI has been growing at such a quick pace that it's time for a second
-  article on the same topic. You will find the new chains where you can use the
-  MAI stablecoin.
+description: 最近，MAI 的发展速度如此之快，是时候再写一篇关于同一主题的文章了。你将找到可以使用 MAI 稳定币的新链。
 ---
 
 # MAI Metaverse Pt.2
@@ -11,79 +8,79 @@ description: >-
 
 ## Harmony
 
-### What's Harmony?
+### 什么是Harmony?
 
-Harmony (ONE) is a decentralized blockchain platform designed as a bridge between scalability and decentralization efforts. Its development went under the motto of “decentralization at scale” with the focus on data sharing and the creation of marketplaces of fungible tokens and non-fungible assets. Furthermore, Harmony comes with an additional promise of delivering high throughput accompanied by two “lows”: latency and fees. Combined, they are supposed to put the platform at the heart of the efforts to lay the foundation of the future decentralized trustless economies.
+Harmony (ONE) 是一个去中心化的区块链平台，旨在作为可扩展性和去中心化工作之间的桥梁。它的发展遵循“大规模去中心化”的座右铭，重点是数据共享以及可替代代币和不可替代资产市场的创建。此外，Harmony 还承诺提供高吞吐量以及两个“低点”：延迟和费用。结合起来，他们应该将平台置于为未来去中心化去信任经济体奠定基础的努力的核心。
 
-However, what makes the Harmony blockchain unique, its their deep sharding system. A shard \*\*\*\* is a synonym for a piece or a part. By sharding \*\*\*\* Harmony means dividing its nodes in four equal groups. Hence, there are 1 000 nodes total divided into four shards making one shard consisting of 250 nodes. Moreover, the exact nodes within shards are regularly and randomly mixed. This number is set to be exactly so to increase the security of the system and to add more scalability. If you want to learn more about this chain, you can read this [article](https://guarda.com/academy/crypto/what-is-harmony/).
+然而，Harmony 区块链的独特之处在于其深度分片系统。 shard \*\*\*\* 是一块或一部分的同义词。分片 \*\*\*\* Harmony 意味着将其节点分成四个相等的组。因此，总共有 1000 个节点，分为四个分片，一个分片由 250 个节点组成。此外，分片内的确切节点定期随机混合。这个数字设置得恰到好处，以提高系统的安全性并增加更多的可扩展性。如果你想了解更多关于这条链的信息，你可以阅读这篇[文章](https://guarda.com/academy/crypto/what-is-harmony/)。
 
-### Getting MAI on Harmony
+### 在 Harmony 上获取 MAI
 
-To send MAI from Polygon to Harmony, you can use the [AnySwap ](https://anyswap.exchange/#/router)platform. The UI is pretty straightforward, the only thing that you will need to do is select the chain where you have the MAI and where do you want to send it.
+要将 MAI 从 Polygon 发送到 Harmony，你可以使用 [AnySwap](https://anyswap.exchange/#/router) 平台。 UI 非常简单，你唯一需要做的就是选择拥有 MAI 的链以及要将其发送到哪里。
 
-![Sending MAI from Polygon to Harmony](<../.gitbook/assets/MAI - Harmony.JPG>)
+![将 MAI 从 Polygon 发送到 Harmony](<../.gitbook/assets/MAI - Harmony.JPG>)
 
 {% hint style="info" %}
-Be aware that at the bottom of the Anyswap's page, there's some important information about bridging MAI, so check it out before doing any transaction.
+请注意，在 Anyswap 页面的底部，有一些关于桥接 MAI 的重要信息，因此在进行任何交易之前请先查看。
 {% endhint %}
 
-### Using MAI on Harmony
+### 在 Harmony 上使用 MAI
 
-Currently, the Mai Finance team does not have any partnership with any yield farm on Harmony. Once the team is aware of projects that are using MAI, this documentation will be updated. Stay tuned.
+目前，Mai Finance 团队与 Harmony 上的任何收益农场都没有任何合作关系。一旦团队知道正在使用 MAI 的项目，就会更新此文档。敬请关注。
 
 ## Moonriver
 
-### What's Moonriver?
+### 什么是Moonriver?
 
-Moonriver is a sister network of **Moonbeam**. Similar to its sister, Moonriver is a full Ethereum-like environment and works with industry-standard Ethereum tools, DApps, and protocols. The only difference between Moonriver and Moonbeam is that:
+Moonriver 是 **Moonbeam** 的姊妹网络。与其姐妹类似，Moonriver 是一个完整的类似以太坊的环境，并与行业标准的以太坊工具、DApps 和协议一起使用。 Moonriver 和 Moonbeam 之间的唯一区别是：
 
-* Moonriver is a parachain built on Kusama Relay Chain.
-* Moonbeam belongs to the Polkadot Relay Chain.
+* Moonriver 是建立在 Kusama 中继链上的平行链。
+* Moonbeam 属于 Polkadot Relay Chain.
 
-Moonriver is an easy route to Kusama Relay Chain\*\*.\*\* It allows teams and developers ,who are familiar with Ethereum, access to the Kusama Network with little or no barriers. It minimizes the changes required to run existing Solidity smart contracts on the network. Therefore, Ethereum projects can simply replicate their DApp and deploy it to Moonriver using popular deployment tools.
+Moonriver 是通向 Kusama Relay Chain的一条简单途径\*\*。\*\*它允许熟悉以太坊的团队和开发人员以很少或没有障碍的方式访问 Kusama 网络。它最大限度地减少了在网络上运行现有 Solidity 智能合约所需的更改。因此，以太坊项目可以简单地复制他们的 DApp 并使用流行的部署工具将其部署到 Moonriver。
 
-### Getting MAI on Moonriver
+### 在 Moonriver 上获取 MAI
 
-To send MAI to Moonriver, we'll use the [Relaychain ](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer)platform. its UI is very similar to the one of Anyswap. When you want to transfer MAI from Polygon, you will have to connect your MetaMask wallet first, then select the asset you want to bridge (MAI) and the destination network (Moonriver).
+要将 MAI 发送到 Moonriver，我们将使用 [Relaychain](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer) 平台。它的 UI 与 Anyswap 的 UI 非常相似。当你想从 Polygon 转移 MAI 时，你必须先连接你的 MetaMask 钱包，然后选择你要桥接的资产 (MAI) 和目标网络 (Moonriver)。
 
-![Transfering MAI from Polygon to Moonriver](<../.gitbook/assets/relay movr.JPG>)
+![将 MAI 从 Polygon 转移到 Moonriver](<../.gitbook/assets/relay movr.JPG>)
 
-### Using MAI on Moonriver
+### 在 Moonriver 上使用 MAI
 
-The same way you can use MAI to farm yields on Polygon, you can use MAI on Moonriver. The main place to do so is [Solarbeam](https://app.solarbeam.io/farm). As for the time of writing, the only available pool that uses MAI is the MOVR/MAI.
+你可以在 Polygon 上使用 MAI 来种植产量一样，你可以在 Moonriver 上使用 MAI。这样做的主要地方是 [Solarbeam](https://app.solarbeam.io/farm)。在撰写本文时，唯一可用的使用 MAI 的池是 MOVR/MAI。
 
-![MOVR-MAI pool on Solarbeam as of December 2021](../.gitbook/assets/MOVR-MAI.JPG)
+![截至 2021 年 12 月，Solarbeam 上的 MOVR-MAI 池](../.gitbook/assets/MOVR-MAI.JPG)
 
 {% hint style="info" %}
-Remember that to use this farm, you will have to deposit the same ratio of MOVR and MAI to create a LP token.
+请记住，要使用这个农场，你必须存入相同比例的 MOVR 和 MAI 才能创建 LP 代币。
 {% endhint %}
 
 ## Cronos
 
-### What's Cronos?
+### 什么是Cronos?
 
-Cronos is an EVM compatible sidechain running in parallel with the Crypto.org Chain. Before launching Cronos, the Crypto.com ecosystem encompasses the Crypto.com chain and Crypto.com centralized exchange.
+Cronos 是与 Crypto.org 链并行运行的 EVM 兼容侧链。在推出 Cronos 之前，Crypto.com 生态系统包括 Crypto.com 链和 Crypto.com 中心化交易所。
 
-Cronos is running on a Proof of Authority (PoA) consensus algorithm and is powered by Ethermint - a PoS chain interoperable with Ethereum. It aims to massively scale the Chain DeFi ecosystem, by allowing developers to rapidly port apps & smart contracts from Ethereum and other EVM-compatible chains.
+Cronos 运行在权威证明 (PoA) 共识算法上，并由 Ethermint 提供支持 - 一种可与以太坊互操作的 PoS 链。它旨在通过允许开发人员从以太坊和其他与 EVM 兼容的链中快速移植应用程序和智能合约来大规模扩展 Chain DeFi 生态系统。
 
-### Getting MAI on Cronos
+### 在 Cronos 上获取 MAI
 
-To send MAI to Cronos, we'll use the [Relaychain ](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer)platform. The steps are the same as in the Moonriver case, just select the network where you are sending the MAI (Polygon), the network where you want to receive it (Cronos) and the asset that you want to send (MAI).
+要将 MAI 发送到 Cronos，我们将使用 [Relaychain](https://app.relaychain.com/transfer#/cross-chain-bridge-transfer) 平台。步骤与 Moonriver 案例相同，只需选择要发送 MAI 的网络（Polygon）、要接收它的网络（Cronos）和要发送的资产（MAI）。
 
-![Sending MAI from Polygon to Cronos](../.gitbook/assets/cronos.JPG)
+![将 MAI 从 Polygon 发送到 Cronos](../.gitbook/assets/cronos.JPG)
 
-### Using MAI on Cronos
+### 在 Cronos 上使用 MAI
 
-The main place where you can farm yields on Cronos using MAI, is on the [Crodex ](https://swap.crodex.app/#/rewards/pair)platform. In this case, there are two pairs available, the CRO-MAI pair and the MAI-USDC pair.
+你可以使用 MAI 在 Cronos 上种植产量的主要地方是[ Crodex](https://swap.crodex.app/#/rewards/pair) 平台。在这种情况下，有两对可用，CRO-MAI 对和 MAI-USDC 对。
 
-![MAI pairs on Crodex as of December 2021](../.gitbook/assets/crodex.JPG)
+![截至 2021 年 12 月 Crodex 上的 MAI 对](../.gitbook/assets/crodex.JPG)
 
-The UI on Crodex is really similar to Quickswap, just remember that if you want to use this farms, you will have to deposit the same ratio of tokens to create a LP token. Also, don't forget to have some spare CRO to pay the fees of the network.
+Crodex 上的 UI 与 Quickswap 非常相似，请记住，如果要使用此农场，则必须存入相同比例的代币才能创建 LP 代币。另外，不要忘记有一些空闲的 CRO 来支付网络费用。
 
-## Disclaimer
+## 免责声明
 
-The details presented in this guide are purely educational and have not been tested directly by the team maintaining this guide. A few users on the discord server have already tried bridging their assets to Moonriver and/or Cronos, so you can join the Discord community to ask your questions. Please don't forget to do your own researches, different networks will have different transaction fees and execution times, different reward programs, bridging fees etc ... If you send your MAI to other networks, make sure you can bridge them back in case you need it on Polygon.
+本指南中提供的详细信息纯粹是教育性的，并未由维护本指南的团队直接测试。 Discord 服务器上的一些用户已经尝试将他们的资产桥接到 Moonriver 和/或 Cronos，因此你可以加入 Discord 社区来提问。请不要忘记做自己的研究，不同的网络会有不同的交易费用和执行时间，不同的奖励计划，桥接费等......如果您将你的 MAI 发送到其他网络，请确保你可以将它们桥接回来以防万一你需要它在多边形上。
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请牢记在给定时间运行良好的策略可能在另一个时间表现不佳（或让你赔钱）。请保持消息灵通，监测市场，留意你的投资，并一如既往地，做你的研究。
 {% endhint %}
