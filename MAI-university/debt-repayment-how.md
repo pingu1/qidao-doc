@@ -1,78 +1,75 @@
 ---
-description: >-
-  This page will present different options to repay your debt on Mai Finance.
-  Keep in mind that repaying a debt is never mandatory as long as you want to
-  keep your loan, and don't need your collateral.
+description: 此页面将呈现不同的选项来偿还你在 Mai Finance 上的债务。牢记偿还债务不是强制性的只要你想保留贷款并且不需要抵押品。
 ---
 
-# Debt repayment - How?
+# 债务偿还 - 如何?
 
-The market is on a bull run and your crypto, locked in the Vault, is gaining more and more value, so much that you decided to sell it. However, because it's in the Vault on Mai Finance, you can't totally unlock it unless you repay your loan.
+市场处于牛市中，你的加密货币被锁定在 Vault 中，价值越来越高，多到以至于你决定出售它。但是，因为它在 Mai Finance 的 Vault 中，除非你偿还贷款，否则你无法完全解锁它。
 
-The market is bearish, and your crypto is losing value very quickly. You don't generate yield fast enough to cover up the damages and keep an healthy Collateral to Debt Ratio (CDR), and liquidation is near. It's time to repay your debt to make sure you're not losing too much, and prevent liquidation.
+市场看跌，你的加密货币正在迅速失去价值。你产生的收益不足以弥补损失并保持健康的抵押债务比率 (CDR)，清算即将到来。现在是偿还债务以确保您不会损失太多并防止清算的时候了。
 
-If you are not in any of the above situation, it's probably not worth repaying your debt. Please see the chapter on [Debt Repayment](https://qidao-qimps.gitbook.io/mai-finance-tutorials/debt-management-tutorials/debt-repayment-why-and-when) for more details.
+如果你不处于上述任何一种情况，则可能不值得偿还您的债务。请参看[债务偿还](https://qidao-qimps.gitbook.io/mai-finance-tutorials/debt-management-tutorials/debt-repayment-why-and-when)一章了解更多详情。
 
-## Partial or Full repayment using fiat
+## **使用法币部分或全部还款**
 
-The most direct way to repay your debt is to use some fiat, especially if you want to keep your collateral and other investments untouched.
+偿还债务最直接的方法是使用一些法定货币，尤其是如果你想保持抵押品和其他投资不变的情况下。
 
-Mai Finance is partnering with [Transak](https://transak.com) to easily bridge money bought by Credit / Debit Cards, or bank transfers, directly to the Polygon network. Simply head to Mai Finance and click the transak icon in the menu bar to open a modal that will let you purchase some MATIC and send them directly to your Polygon wallet.
+Mai Finance 正在与 [Transak](https://transak.com) 搭档，将通过信用卡/借记卡或银行转账购买的资金容易地桥接到 Polygon 网络。只需前往 Mai Finance 并单击菜单栏中的 transak图标，打开一个模式，让你购买一些 MATIC 并将它们直接发送到你的 Polygon 钱包。
 
-![Buying some USDC from fiat and bridging to Polygon directly](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
+![从法币购买一些 USDC 并直接桥接到 Polygon](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
 
-The main issue is the time taken to process the transaction. However, doing so will let you swap USDC for MAI and then partially or fully repay your debt.
+主要问题是处理交易所需的时间。但是，这样做可以让你将 USDC 互换成 MAI，然后部分或全部偿还你的债务。
 
-## Repayment using the benefits of your loan
+## **使用贷款的利益偿还**
 
-### Partial Repayment
+### **部分偿还**
 
-Most people will want to borrow MAI on Mai Finance in order to invest into specific projects. Yield farmers that are using MAI will most probably be successful generating additional resources and will hopefully not lose money on degen farms. If you're in that case, you have 2 options
+大多数人会想在 Mai Finance 上借 MAI 来投资特定的项目。使用 MAI 的产量耕作者很可能会成功地产生额外的资源，并且希望不会在 degen 农场上赔钱。如果你是这种情况，你有 2 个选择
 
-* repay your loan with the generated revenue
-* re-invest your gains into the same (or another) project
+* 用产生的收入偿还贷款
+* 将你的收益重新投资到同一个（或另一个）项目中
 
-In most cases, it's probably better to re-invest your gains. Indeed, by compounding your rewards, APR (**A**nnual **P**ercentage **R**evenue) is applied on a bigger amount, which in turns generates more revenue. See our investment guides to get ideas on how you can maximize your investments.
+在大多数情况下，重新投资你的收益可能更好。事实上，通过复合你的奖励，APR（年收入百分比）应用于更大的金额，从而产生更多的收入。请参看我们的投资指南，了解如何最大化你的投资。
 
-However, some people simply don't like the idea of having a debt, and will want to repay it as quickly as possible. If that's your case, you can simply swap your gains into MAI, and repay your debt.
+但是，有些人只是不喜欢欠债的想法，并希望尽快偿还。如果是这种情况，你可以简单地将你的收益互换成 MAI，然后偿还你的债务。
 
-* Open your Vault info
-* Select the `Manage` option
-* Select the Repay tab at the bottom of your Vault
-* Enter any amount you want to repay
-* Click `Repay MAI` and you're done
+* 打开你的Vault信息
+* 选择Manage选项
+* 选择vault底部的“Repay”选项卡
+* 输入你要偿还的任何金额
+* 点击 Repay MAI，你就完成了
 
-![Partially repaying a portion of my debt](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
+![部分偿还我的一部分债务](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
 
-As an example
+举一个例子
 
-* You have $1,000.00 worth of camWMATIC in your vault, with a debt of $400.00
-* You swapped $10.00 worth of ADDY tokens for MAI
-* You repay $10.00 today
-  * Your debt is now $390.00
-  * Your camWMATIC value is $999.95 (you add to pay 0.5% of $10.00 in repayment fees)
+* 你的vault中有价值 1,000.00 美元的 camWMATIC，欠债 400.00 美元
+* 你将价值 10.00 美元的 ADDY 代币互换 MAI
+* 你今天还款 $10.00
+  * 你的债务现在是 390.00 美元
+  * 你的 camWMATIC 价值为 999.95 美元（你还要支付 10.00 美元的 0.5% 还款费用）
 
-At some point, you will be able to totally repay your debt using this technique, as long as you can generate enough revenue via your loan.
+在某个时候，你将能完全使用这种技术偿还债务，只要你可以通过贷款产生足够的收入。
 
-Is this strategy efficient? Not really. Repaying your debt this way doesn't change anything except for your CDR. Indeed, your collateral remains partially locked until you totally repay your debt, and if you're using amTokens as collateral, whether you have a debt or not will not change the fact that your collateral is generating yield. The only advantage is that you can possibly withdraw a portion of your collateral and re-use it somewhere else / sell it.
+这个策略有效率吗？并不是真的。以这种方式偿还债务不会改变任何东西，除了你的 CDR。确实，你的抵押品在你完全偿还债务之前会保持部分锁定，如果你使用 amTokens 作为抵押品，无论你是否有债务都不会改变你的抵押品正在产生收益的事实。唯一的优势是你可以提取一部分抵押品并在其他地方重新使用/出售。
 
-### Full Repayment
+### **全额还款**
 
-Another approach, very similar to the above strategy, is to repay everything at once. In the example above, instead of repaying $10.00 every few days, I could instead compound the $10.00 earned into my investment to generate yield faster. I can also invest these gains into another project that would also generate revenue. Once I received the equivalent of $400.00 that corresponds to my loan, I can repay everything at once.
+另一种与上述策略非常相似的方法是一次性偿还所有款项。在上面的例子中，我可以将赚到的 10.00 美元复合到我的投资中以更快地产生收益，而不是每隔几天偿还 10.00 美元。我还可以将这些收益投资到另一个也会产生收入的项目中。一旦我收到相当于我的贷款的 400.00 美元，我就可以一次偿还所有款项。
 
-## Repayment using your collateral
+## **使用抵押品还款**
 
-### Main idea
+### 大意
 
-On Mai Finance, you can borrow MAI stable coins by depositing a certain amount of collateral in a vault. The collateral to debt ratio needs to always be above a certain threshold, 150% for most vaults. This means, for a 150% CDR, that for any $100 worth of collateral, you can only borrow $66.6667 of MAI.
+在Mai Finance，你可以通过在金库中存入一定数量的抵押品来借入麦稳定币。抵押品与债务的比率需要始终高于某个阈值，大多数金库为 150%。这意味着，对于 150% 的 CDR，对于任何价值 100 美元的抵押品，您只能借入 66.6667 美元的 MAI。
 
-However, this would directly put you in a liquidation position. This means that the health of your vault is considered too risky, and anyone can repay a portion of your debt using their funds and get paid back by getting a portion of your collateral. For more details about liquidation, please read [the official documentation](https://docs.mai.finance/liquidation).
+但是，这会直接将你置于清算位置。这意味着你的保险库的健康状况被认为风险太大，任何人都可以使用他们的资金偿还你的部分债务，并通过获得你的部分抵押品来得到支付。有关清算的更多详细信息，请阅读[官方文档](https://docs.mai.finance/liquidation)。
 
-It's usually considered best practice to keep a high collateral to debt ratio to prevent liquidation, but even with a CDR close to 150%, it's easy to see that the value of the collateral is ALWAYS bigger than the value of the debt. This means that you can, in theory, repay your debt by selling some of your collateral asset.
+保持较高的抵押品与债务比率以防止清算通常被认为是最佳实践，但即使 CDR 接近 150%，也很容易看出抵押品的价值总是大于债务的价值。这意味着，理论上，你可以通过出售你的一些抵押品资产来偿还债务。
 
-### How to use collateral
+### **如何使用抵押品**
 
-Let's consider a vault with $1,000.00 worth of MATIC and a $500.00 debt. The CDR is 200%. The minimum CDR is 150%. In this example, we want to repay the debt completely, but we want to avoid liquidation, and we will try to never go bellow a 160% CDR when withdrawing our collaterals. We will be using the following formulas:
+让我们考虑一个具有价值 1,000.00 美元 MATIC 和 500.00 美元债务的保险库。 CDR 为 200%。最低 CDR 为 150%。在这个例子中，我们想要完全偿还债务，但我们想要避免清算，并且在提取我们的抵押品时，我们将尽量不要低于 160% CDR。我们将使用以下公式：
 
 $$
 CDR=\frac{Collateral}{Debt}
@@ -82,70 +79,70 @@ $$
 AvailableCollateral = InitialCollateral - TargetCDR*Debt
 $$
 
-In this situation, if we want to keep a CDR of 160%, the amount of collateral we can withdraw "safely" is
+在这种情况下，如果我们想保持 160% 的 CDR，我们可以“安全”提取的抵押品数量是
 
 $$
 AvailableCollateral=$1000-1.60*$500=$200
 $$
 
-Hence, we will have to proceed in multiple steps:
+因此，我们不得不分多个步骤进行：
 
-* Withdraw $200 from the collateral
-  * the vault now has $800 worth of MATIC and $500 of debt, CDR is 160%
-* Sell the $200 worth of collateral to buy MAI
-* Repay $200 of the debt with a 0.5% repayment fee
-  * the vault now has $799 worth of MATIC and $300 of debt, CDR is 266.33%
-* Calculate the new amount of collateral we can withdraw: $319
-* Withdraw $319 from the collateral
-  * the vault now has $480 of MATIC and $300 of debt, CDR is 160%
-* Sell the $319 worth of collateral to buy MAI
-* Repay $300 of the debt with a 0.5% repayment fee
-  * the vault has $478.50 worth of MATIC and $0 of debt, and you still have $19 of MAI
+* 从抵押品中提取 200 美元
+  * vault 现在有价值 800 美元的 MATIC 和 500 美元的债务，CDR 是 160%
+* 出售价值 200 美元的抵押品以购买 MAI
+* 以 0.5% 的还款费偿还 200 美元的债务
+  * vault 现在有价值 799 美元的 MATIC 和 500 美元的债务，CDR 是 266.33%
+* 计算我们可以提取的新抵押品数量：$319
+* 从抵押品中提取 319 美元
+  * vault现在有价值 480 美元的 MATIC 和 300 美元的债务，CDR 是 160%
+* 出售价值 319 美元的抵押品以购买 MAI
+* 以 0.5% 的还款费偿还 300 美元的债务
+  * vault 有价值 478.50 美元的 MATIC 和 0 美元的债务，而你还有 19 美元的 MAI
 
-You can see that keeping a healthy CDR can greatly help you repay your debt with very little number of loops. Of course, if your CDR is closer to the 150% limit, you may have to operate more loops since you cannot withdraw as much at once.
+你可以看到保持健康的 CDR 可以极大地帮助你以很小的循环回路偿还债务。当然，如果你的 CDR 接近 150% 的限制，你可能需要操作更多的循环回路，因为你无法一次撤回那么多。
 
 {% hint style="info" %}
-A collateral to debt ratio of 260% is enough to be able to withdraw the total amount of your debt and stay above 160% CDR. This way, you only need one loop to fully repay your debt.
+260% 的抵押品债务比率足以能够提取你的债务总额并保持在 160% 以上的 CDR。这样，你只需要一个循环回路即可完全偿还债务。
 {% endhint %}
 
-Note that fully repaying your debt by selling your collateral is never necessary if you don't need to sell your underlying assets, or to modify your CDR and keep your vault from being liquidated.
+注意，如果你不需要出售基础资产或修改 CDR 并防止金库被清算，则永远不需要通过出售抵押品来完全偿还债务。
 
-## Repayment using a robot
+## **使用机器人还款**
 
-This paragraph is pure theory and is there only for advanced programmers. The idea is to use flash loans that will help you repay your debt and unlock the collateral so that it can be paid. Flash loans are an option proposed by some applications on different networks, including Polygon, that allow you to borrow funds and repay the loan in the same transaction block. If the loan cannot be fully repaid within the same block, the transaction is simply reverted. On Polygon, AAVE is proposing flash loans.
+这一段是纯理论的，只适用于高级程序员。这个想法是使用闪贷来帮助你偿还债务并解锁抵押品以便支付。闪贷是包括 Polygon 在内的不同网络上的一些应用程序提出的一种选项，允许你在同一交易块中借入资金并偿还贷款。如果贷款不能在同一个区块内全部偿还，交易将被简单地还原。在 Polygon 上，AAVE 正在提议闪贷。
 
-If we take the example above with $1,000.00 worth of MATIC and a debt of $500.00. The flow would be as follows:
+如果我们以价值 1,000.00 美元的 MATIC 和 500.00 美元的债务为例。流程如下：
 
-* Borrow $600.00 of USDC on AAVE in a flash loan
-* Swap the USDC for MAI
-* Repay your debt completely
-* Withdraw your MATIC collateral
-* Sell your MATIC for USDC
-* Repay the AAVE flash loan
+* 用闪贷方式在 AAVE 上借入 600.00 美元的 USDC
+* 将 USDC 互换成 MAI
+* 完全地偿还你的债务
+* 提取你的 MATIC 抵押品
+* 为 USDC 出售你的 MATIC
+* 偿还 AAVE 闪贷
 
-When submitted, this list of transactions will all happen in the same block, and you will end up with whatever is left from your MATIC as USDC in your wallet (more or less $500.00, with some slight variations due to flash loan interest rate, swap fees, and repayment fees).
+提交之后，此交易列表将全部发生在同一个区块中，你在最后将获得 MATIC 中作为 USDC 剩余的任何东西（或多或少 500.00 美元，由于闪贷利率、掉期利率而细微变化的费用、和还款费用）。
 
-Right now, you would have to interact directly with the smart contracts, which requires some good understanding of how they work. If you need help, you can find some on our Discord server where there's a programming channel. Maybe in a near future, [FuruCombo](https://furucombo.app/combo) will propose Mai Finance bricks that would allow you to operate this directly using their graphic tool, but for now it's not possible. Finally, the idea of a button to "repay debt using collateral" has been proposed to the team of devs of Mai Finance, and the option may be implemented in the future.
+现在，你必须直接与智能合约进行交互，这需要对它们的工作方式有很好的了解。如果你需要帮助，你可以在我们的 Discord 服务器上找到一些帮助，那里有一个编程频道。也许在不久的将来，[FuruCombo](https://furucombo.app/combo) 会提出 Mai Finance 积木，那将让你可以直接使用他们的图形工具进行操作，但现在还不可能。最后，Mai Finance的开发团队已经提出了“用抵押品还债”按钮的想法，未来可能会实现这个选项。
 
-## Short term VS Long term Debt Repayments
+## 短期 VS 长期债务偿还
 
-Depending on your strategy and the way you feel regarding your debt, it may be a good idea to compare different lending platforms. However, keep in mind that Mai Finance with its 0% interest and 0.5% repayment fee is one of the top product on the Polygon market. The real competitor is AAVE, but only if you want to borrow MAI or USDC for a short period of time.
+根据你的策略和你对债务的感受，比较不同的贷款平台可能是个好主意。但是，请牢记，拥有 0% 利息和 0.5% 还款费的 Mai Finance 是 Polygon 市场上的顶级产品之一。真正的竞争对手是 AAVE，但前提是你想短时间借入 MAI 或 USDC。
 
-* Mais is 0% interest + 0.5% repayment fee
-* AAVE has no repayment fees, but a variable APR for interests you need to pay back
+* Mais 是 0% 利息 + 0.5% 还款费
+* AAVE 没有还款费用，但你需要偿还的利息有一个可变的 APR
 
-![Supplying and Borrowing APY on AAVE as of August 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
+![截至 2021 年 8 月在 AAVE 上供给和借入 APY](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
 
-As an example for USDC, you can see that the borrowing rate is 3.79% with a current reward of 2.08% paid back in MATIC. This gives, at the moment of writing, the equivalent of 1.71% you need to pay back if you keep your loan for a complete year. With AAVE, since you can repay your debt very quickly, the variable APY is equivalent to 0.005% daily. Hence, it would take 100 days (a bit more than 3 months) to reach 0.5% of your debt.
+以 USDC 为例，你可以看到借贷利率为 3.79%，当前在 MATIC 中的回报为 2.08%。如果你将贷款保留整整一年，在撰写本文时，这相当于你需要偿还的 1.71%。使用 AAVE，由于你可以非常快速地偿还债务，因此可变的 APY 相当于每天 0.005%。因此，达到债务的 0.5% 需要 100 天（3 个月多一点）。
 
-If you plan to keep your loan longer than that, it's definitely better to use Mai Finance. Also, it's important to understand that AAVE borrowing APRs are variable, they will fluctuate with the amounts that are deposited and required (the more people want to borrow from AAVE, the higher the borrowing APR). Keep also in mind that the MATIC reward program will end at some point, and the 1.71% interest will soon become a 3.79% interest rate. At least with Mai Finance, you don't have to keep a close eye on your loan to see when it becomes dangerous to keep it.
+如果你打算将贷款保留更长时间，那么使用 Mai Finance 肯定更好。还有，重要的是要了解 AAVE 借入的 APR 是可变的，它们会随着存入和所需的金额而波动（想从 AAVE 借入的人越多，借入的 APR 就越高）。还要记住，MATIC 奖励计划将在某个时候结束，1.71% 的利率很快就会变成 3.79% 的利率。至少在 Mai Finance 上，你不需要密切盯着你的贷款，以查看何时保留贷款会变得危险。
 
-Finally, the team of Mai Finance is working on Vaults incentives that would work the same way as the MATIC reward, meaning that you would still get a 0% interest loan and a bonus paid in Qi that may very well reduce the repayment fee to 0% of your debt. And the longer you keep your loan, the more reward you will collect, making it a true negative interest loan.
+最后，Mai Finance 的团队正在研究与 MATIC 奖励相同的 Vaults 的激励，这意味着你仍将获得 0% 的利息贷款和以 Qi 支付的奖金，这很可将还款费用降低到债务的0%。而且你保留贷款的时间越长，你获得的奖励就越多，使其成为真正的负利率贷款。
 
-## Disclaimer
+## 免责声明
 
-The views, thoughts, and opinions expressed in the text belong solely to the author, and not necessarily to the rest of the community, nor the development team behind Mai Finance. It should not be taken as a financial advice or guidance of any kind.
+文中表达的观点、想法和意见完全属于作者，并不一定属于社区其他人，也不一定属于Mai Finance背后的开发团队。它不应被视为任何形式的财务建议或指导。
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请牢记在给定时间运行良好的策略可能在另一个时间表现不佳（或让你赔钱）。请保持消息灵通，监测市场，留意你的投资，并一如既往地，做你的研究。
 {% endhint %}
