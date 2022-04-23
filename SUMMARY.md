@@ -47,7 +47,7 @@
 * [债务偿还 - 如何?](MAI-university/debt-repayment-how.md)
 * [MAI Metaverse](MAI-university/mai-metaverse.md)
 * [MAI Metaverse Pt.2](MAI-university/mai-metaverse-pt.2.md)
-* [How to use MAI in the real life](MAI-university/how-to-use-mai-in-the-real-life.md)
+* [如何在现实生活中使用 MAI](MAI-university/how-to-use-mai-in-the-real-life.md)
 
 ## Join the Community <a href="#community" id="community"></a>
 
