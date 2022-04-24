@@ -33,7 +33,7 @@
   * [在 SolarBeam 上耕种MAI](jiao-cheng/moonriver/farming-mai-on-solarbeam.md)
 * [Cronos](jiao-cheng/cronos/README.md)
   * [如何开始使用 Cronos](jiao-cheng/cronos/how-to-get-started-on-cronos.md)
-  * [Farming Legos with CroDex](jiao-cheng/cronos/farming-legos-with-crodex.md)
+  * [用 CroDex 耕种Legos](jiao-cheng/cronos/farming-legos-with-crodex.md)
 * [Harmony](jiao-cheng/harmony/README.md)
   * [如何开始使用 Harmony](jiao-cheng/harmony/how-to-get-started-on-harmony.md)
   * [One LP Pair, Many ways to farm](jiao-cheng/harmony/how-to-farm-elknet.md)

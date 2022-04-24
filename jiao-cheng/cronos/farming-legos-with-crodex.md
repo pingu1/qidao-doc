@@ -1,149 +1,147 @@
 ---
-description: >-
-  Farming rewards with stable coins usually have low rates. Let's see how you
-  can increase your gains with a new investment loop.
+description: 使用稳定币的农业奖励通常利率比较低。让我们看看如何通过新的投资循环来增加收益。
 ---
 
-# Farming Legos with CroDex
+# 用 CroDex 耕种Legos
 
-Yield farming can be easy. You have 2 tokens, you combine them in a LP (**L**iquidity **P**roviding) pair, you deposit the LP token in a pool and you start getting swap fees and most of the time, rewards paid in the native token of the farm you are using. Most people will simply sell the reward for whatever asset they are looking for, which is most of the time, totally valid, but very far from an optimized solution. Today, we will see how you can profit from the very high APR (**A**nnual **P**ercentage **R**ate) proposed on Cronos on several DApps, which will transform a 30% APR on stable coin into a much higher rate.
+收益耕种很容易。你有 2 个代币，你将它们组合成一个 LP（流动性提供）对，你将 LP 代币存入一个池中，你开始获得掉期费，并且大多数时候，奖励是以你正在使用的农场的原生代币支付的。大多数人会简单地出售他们正在寻找的任何资产的奖励，这在大多数情况下是完全有效的，但与优化的解决方案相去甚远。今天，我们将看看如何从 Cronos 提出的几个 DApp 上的非常高的 APR（年利率）中获利，这会将稳定币的 30% 的 APR 转化为更高的利率。
 
 ![](../../.gitbook/assets/crodex-lego-1.png)
 
 ## CroDex
 
-### Farming with MAI
+### 与 MAI 一起耕作
 
-Even if the lending application of Mai Finance is not deployed on Cronos yet, it is already possible to bridge MAI from other chains. One of the reason to do this is because there are not many MAI on Cronos, meaning that any application that proposes farming with MAI will also provide high APRs. This is the case of CroDex, currently the only place with MAI liquidity on Cronos. For this guide, we will use the MAI-USDC pool on CroDex to lower the risk of Impermanent Loss on your initial investment, but you can increase your gains by farming MAI-CRO.
+即使 Mai Finance 的借贷应用程序还没有部署在 Cronos 上，也已经可以将 MAI 与其他链桥接起来。这样做的原因之一是因为 Cronos 上的 MAI 并不多，这意味着任何提议使用 MAI 进行农业的应用程序也将提供高 APR。 CroDex 就是这种情况，它是目前 Cronos 上唯一拥有 MAI 流动性的地方。对于本指南，我们将使用 CroDex 上的 MAI-USDC 池来降低你初始投资的无常损失风险，但你可以通过耕种 MAI-CRO 来增加收益。
 
-![MAI-USDC LP pool on CroDex as of December 2021](../../.gitbook/assets/crodex-lego-2.png)
+![截至 2021 年 12 月，CroDex 上的 MAI-USDC LP 池](../../.gitbook/assets/crodex-lego-2.png)
 
 {% hint style="info" %}
-Whenever you select an application to farm yields, it's important to note if the reward is displayed as an APR (**A**nnual **P**ercentage **R**ate) or APY (**A**nnual **P**ercentage **Y**ield). The latter assumes that all rewards you get are compounded daily for one complete year. In our example, 30% APR on the MAI-USDC pair corresponds to a 34.97% APY.
+每当你选择用于农耕产量的应用程序时，请务必注意奖励是显示为 APR（年百分比率）还是 APY（年收益率）。后者假设你获得的所有奖励每天都会复合一整年。在我们的示例中，MAI-USDC 对的 30% APR 对应于 34.97% APY。
 
-If you compare it to the MAI-USDC pool on Mai Finance, the APR given is 20.18% on Polygon, 22.10% on Fantom, and the MAI-av3CRV pool on Avalanche proposes 23.24% APR. CroDex proposes the best rate on MAI stable across all chains!
+如果将其与 Mai Finance 上的 MAI-USDC 池进行比较，Polygon 给出的 APR 为 20.18%，Fantom 为 22.10%，Avalanche 上的 MAI-av3CRV 池提出了 23.24% 的 APR。 CroDex 提出了所有链上 MAI 稳定的最佳利率！
 {% endhint %}
 
-CroDex will pay you with their native token, the CRX. As of December 2021, 1 CRX = 127.56 USDC
+CroDex 将使用其原生代币 CRX 向你付款。截至 2021 年 12 月，1 CRX = 127.56 USDC
 
-### Single Staking CRX
+### 单一质押 CRX
 
-This is where it gets interesting. CroDex has 2 different pools where you will be able to stake your CRX tokens for additional rewards. You can either stake to get more CRX, but we will use the pool where staking CRX will reward you with wCRO tokens. wCRO is the wrapped version of CRO, the gas token of the Cronos network.
+这就是有趣的地方。 CroDex 有 2 个不同的池，你可以在其中质押你的 CRX 代币以获得额外奖励。你可以质押以获得更多的 CRX，但我们将使用质押 CRX 的池子来奖励你 wCRO 代币。 wCRO 是 Cronos 网络的 gas 代币 CRO 的包装版本。
 
-![Single staking CRX on CroDex as of December 2021](../../.gitbook/assets/crodex-lego-3.png)
+![截至 2021 年 12 月，CroDex 上的单一抵押 CRX](../../.gitbook/assets/crodex-lego-3.png)
 
-You can already see that you could very well sell your CRX for more MAI-USDC LP tokens and get almost 35% APY on the stable pair, but it's clearly better to stake your CRX to get CRO. Not only it can be used to pay transaction fees, but you can also farm MAI-CRO on CroDex. And the more CRX you get over time, the more CRO you'll get if you stake your CRX. But in this guide, we will explore Cronos a little more!
+你已经可以看到，你可以很好地出售你的 CRX 以获得更多 MAI-USDC LP 代币，并在稳定货币对上获得近 35% 的 APY，但显然最好将你的 CRX 质押以获得 CRO。它不仅可以用来支付交易费用，还可以在 CroDex 上种植 MAI-CRO。随着时间的推移，你获得的 CRX 越多，如果你质押你的 CRX，你将获得的 CRO 就越多。但在本指南中，我们将进一步探索 Cronos！
 
 ## CRYSTL Finance
 
-CRYSTL Finance used to be known as Polycrystal on Polygon. It's a goose fork that proposes LP pair vaults and single staking pools, and it works exactly like Beefy Finance. We will be using both for our strategy.
+CRYSTL Finance 曾被称为 Polycrystal on Polygon。这是一个提出 LP 对vaults和单一权益池的goose fork，它的工作方式与 Beefy Finance 完全一样。我们将两者都用于我们的策略。
 
-### Farming CRYSTL with CRX-WCRO
+### 使用 CRX-WCRO 耕种 CRYSTL
 
-We will be using the CRO tokens produced by the CRX staking to swap 50% of the reward into more CRX andcombine these two tokens into a CRX-WCRO pair on CroDex, then deposit the LP token in a vault on Crystl Finance. This will get you a high APY that will be compounded.
+我们将使用 CRX 质押产生的 CRO 代币将 50% 的奖励换成更多的 CRX，并将这两个代币组合成 CroDex 上的 CRX-WCRO 对，然后将 LP 代币存入 Crystl Finance 的保险库中。这会给你一个高APY，这将是复合的。
 
-![Farming CRX-WCRO on Crystl Finance as of December 2021](../../.gitbook/assets/crodex-lego-4.png)
+![截至 202 年 12 月在 Crystl Finance 上耕种 CRX-WCRO1](../../.gitbook/assets/crodex-lego-4.png)
 
-The rates displayed is an APY. A 1.21k% APY corresponds to a 258.17% APR, but you can also get the estimated daily gains directly on the vault info, and your CRX-WCRO farming will currently get you 0.71% daily gains. It's very important that you keep track of the daily reward because we will extract this portion of our LP position and break it into separate tokens. The CRX will be re-staked on CroDex to get more CRO tokens, and the CRO will be swapped for CRYSTL. Please also note that there is a withdraw fee for the gains we will extract each day.
+显示的费率是 APY。 1.21k% 的 APY 对应于 258.17% 的 APR，但你也可以直接在保险库信息中获得估计的每日收益，而你的 CRX-WCRO 耕作目前将为您带来 0.71% 的每日收益。跟踪每日奖励非常重要，因为我们将提取这部分 LP 头寸并将其分解为单独的代币。 CRX 将在 CroDex 上重新质押以获得更多的 CRO 代币，并且 CRO 将被交换为 CRYSTL。另请注意，我们每天将提取的收益需要支付提款费用。
 
-### Single staking CRYSTL
+### 单一质押 CRYSTL
 
-With the CRYSTL token obtained in the previous step, you will be able to get USDC from the single-staking pool of CRYSTL Finance. Simply stake your CRYSTL token and you will be paid in USDC with a pretty high APR.
+使用上一步获得的 CRYSTL 代币，你将能够从 CRYSTL Finance 的单一权益池中获得 USDC。只需质押你的 CRYSTL 代币，你就会以 USDC 获得相当高的年利率。
 
-![Staking CRYSTL for USDC or SALEM as of December 2021](../../.gitbook/assets/crodex-lego-5.png)
+![截至 2021 年 12 月，为 USDC 或 SALEM 质押 CRYSTL](../../.gitbook/assets/crodex-lego-5.png)
 
-Then you can simply swap 50% of the farmed USDC for MAI, and add back to your original position on CroDex.
+然后，你可以简单地将 50% 的耕种 USDC 换成 MAI，并添加回你在 CroDex 上的原始头寸。
 
-Alternatively, we can use the same approach as above and stake CRYSTL tokens to earn SALEM tokens, which is the native token of Salem Finance.
+或者，我们可以使用与上述相同的方法并质押 CRYSTL 代币来赚取 SALEM 代币，这是 Salem Finance 的原生代币。
 
 ## Salem Finance
 
-Salem Finance is another goose fork where you'll be able to farm the SALEM token. Most LP pools have a deposit fee, but we will actually not use the LP farms since CRYSTL Finance is already giving us the SALEM tokens we need. Instead, we will stake SALEMs in the pools to earn additional WCRO with, once again, a very high APR.
+Salem Finance 是另一个goose fork，你可以在其中种植 SALEM 代币。大多数 LP 池都有存款费，但我们实际上不会使用 LP 农场，因为 CRYSTL Finance 已经为我们提供了我们需要的 SALEM 代币。相反，我们将在池中质押 SALEM，以再次获得非常高的 APR 来赚取额外的 WCRO。
 
-![Staking SALEM for WCRO as of December 2021](../../.gitbook/assets/crodex-lego-6.png)
+![截至 2021 年 12 月，为 WCRO 质押 SALEM](../../.gitbook/assets/crodex-lego-6.png)
 
-The (w)CRO token being the gas token of Cronos, it does have a lot of utility. You can also bridge it to the main Crypto.org chain if you want. In our case, and because we want to close our investment loop, we can simply sell the gains from Salem Finance and buy more USDC and MAI.
+(w)CRO 代币是 Cronos 的 gas 代币，它确实有很多实用性。如果需要，你还可以将其桥接到 Crypto.org 主链。在我们的例子中，因为我们想要关闭我们的投资循环，我们可以简单地出售 Salem Finance 的收益并购买更多的 USDC 和 MAI。
 
-## Farming strategy
+## 耕作策略
 
-You can already see that with only 3 protocols, you have several options:
+你已经可以看到，只有 3 个协议，你有多种选择：
 
-* Farming MAI-USDC to get CRX, staking CRX to get WCRO, selling WCRO for more MAI-USDC
-* Farming MAI-USDC to get CRX, staking CRX to get WCRO, farming CRX-WCRO to get CRYSTL, staking CRYSTL to get USDC, swapping USDC for more MAI-USDC
-* Farming MAI-USDC to get CRX, staking CRX to get WCRO, farming CRX-WCRO to get CRYSTL, staking CRYSTL to get SALEM, staking SALEM to get WCRO, selling WCRO for more MAI-USDC
+* 耕种 MAI-USDC 获得 CRX，质押 CRX 获得 WCRO，出售 WCRO 获得更多 MAI-USDC
+* 耕种MAI-USDC获得CRX，抵押CRX获得WCRO，耕种CRX-WCRO获得CRYSTL，抵押CRYSTL获得USDC，将USDC换成更多MAI-USDC
+* 耕种MAI-USDC获得CRX，抵押CRX获得WCRO，耕种CRX-WCRO获得CRYSTL，抵押CRYSTL获得SALEM，抵押SALEM获得WCRO，出售WCRO获得更多MAI-USDC
 
-For the rest of this guide, we will focus on the last strategy, which is the most complex and requires many manipulations, but it's also the one that offers the best overall result. Feel free to apply the one you prefer depending on your risk acceptance.
+对于本指南的其余部分，我们将专注于最后一种策略，它是最复杂的并且需要许多操作，但它也是提供最佳整体结果的策略。根据你的风险接受程度，随意应用你喜欢的一种。
 
 ![](../../.gitbook/assets/crodex-lego-7.png)
 
-### Bootstrapping the system
+### Bootstrapping系统
 
-What follows is a simulation made with an initial investment of $1,000 worth of MAI-USDC LP tokens, and the current APRs/APYs presented in this document as of December 2021. Of course, rates and prices will change over time, so this simulation is only valid at the time of writing, and the simulation will only provide an estimation of what you could potentially get if you set up this system.
+以下是初始投资价值 1,000 美元的 MAI-USDC LP 代币的模拟，以及本文档中截至 2021 年 12 月的当前 APR/APY。当然，费率和价格会随着时间而变化，所以这个模拟是仅在撰写本文时有效，并且模拟将仅提供对设置此系统可能获得的结果的估计。
 
-### Day 1
+### 第1天
 
-You deposit your MAI-USDC on CroDex in the appropriate pool and get 30% APR on it. At the end of the first day, once you collect your CRX rewards, you would have
+你将你的 MAI-USDC 存入 CroDex 的适当池中，并获得 30% 的年利率。在第一天结束时，一旦你收集了你的 CRX 奖励，你将拥有
 
 | MAI-USDC | staked CRX | CRX-WCRO | CRYSTL | SALEM | WCRO  |
 | -------- | ---------- | -------- | ------ | ----- | ----- |
 | 1,000.00 | 0.822      | 0.000    | 0.000  | 0.000 | 0.000 |
 
-### Day 2
+### 第2天
 
-Your staked CRX is generating WCRO. You can harvest the reward and swap 50% into more CRX in order to create a CRX-WCRO L pair that you can then deposit on CRYSTL Finance. At the end of the second day you would have
+你质押的 CRX 正在生成 WCRO。你可以收获奖励并将 50% 换成更多 CRX，以创建 CRX-WCRO L 对，然后你可以将其存入 CRYSTL Finance。在第二天结束时，你将拥有
 
 | MAI-USDC | staked CRX | CRX-WCRO | CRYSTL | SALEM | WCRO  |
 | -------- | ---------- | -------- | ------ | ----- | ----- |
 | 1,000.00 | 1.644      | 0.002    | 0.000  | 0.000 | 0.000 |
 
-### Day 3
+### 第3天
 
-The CRX-WCRO pair locked in the CRYSTL Finance vault generated additional LP token. You will have to extract the daily gain and pay a 0.1% fee, and break the extracted LP portion into CRX and WCRO tokens. You can simply restake the CRX on CroDex, and swap the WCRO into CRYSTL. This can be done on [CroDex using the swap feature](https://swap.crodex.app/#/swap?outputCurrency=0xCbDE0E17d14F49e10a10302a32d17AE88a7Ecb8B). At the end of the day, you would have
+锁定在 CRYSTL Finance vault中的 CRX-WCRO 对生成了额外的 LP 代币。你必须提取每日收益并支付 0.1% 的费用，并将提取的 LP 部分分解为 CRX 和 WCRO 代币。你可以简单地在 CroDex 上重新质押 CRX，然后将 WCRO 换成 CRYSTL。这可以使用交换功能在 CroDex 上完成。在一天结束的时候，你会有
 
 | MAI-USDC | staked CRX | CRX-WCRO | CRYSTL  | SALEM | WCRO  |
 | -------- | ---------- | -------- | ------- | ----- | ----- |
 | 1,000.00 | 2.466      | 0.005    | 0.00003 | 0.000 | 0.000 |
 
 {% hint style="info" %}
-Note that the rewards on CRYSTL are very small and it may not be interesting to harvest the reward from day 1. This simulation is still displaying the rewards you should get and will assume you still compound daily, but this is done to simplify the results. Make sure you don't spend all your reward into transaction fees, and it may be more interesting to compound only weeekly of the first few weeks.
+请注意，CRYSTL 上的奖励非常少，从第 1 天开始收获奖励可能并不有趣。此模拟仍在显示你应该获得的奖励，并假设你仍然每天复合，但这样做是为了简化结果。确保你不会将所有奖励都花在交易费用上，并且在最初的几周中仅每周复利可能会更有趣。
 {% endhint %}
 
-### Day 4
+### 第4天
 
-Your CRYSTL reward from Crystl Finance can be staked in order to earn SALEM tokens. At the end of the 4th day you'd get
+你可以质押你从 Crystl Finance 获得的 CRYSTL 奖励，以获得 SALEM 代币。在第 4 天结束时，你将获得
 
 | MAI-USDC | staked CRX | CRX-WCRO | CRYSTL  | SALEM     | WCRO  |
 | -------- | ---------- | -------- | ------- | --------- | ----- |
 | 1,000.00 | 3.288      | 0.010    | 0.00011 | 0.0000002 | 0.000 |
 
-### Day 5
+### 第5天
 
-Final bootstrapping day when you will harvest the rewards from Salem Finance. The WCRO reward can be swapped for more MAI-USDC. However, as you can notice, the value of the reward is so small that you won't be able to harvest the WCRO from Salem Finance before Day 50 or so.
+你将从 Salem Finance 获得奖励的最后一天。 WCRO 奖励可以换成更多的 MAI-USDC。但是，你可以注意到，奖励的价值是如此之小，以至于你将无法在第 50 天左右之前从 Salem Finance 收获 WCRO。
 
-## Farming results
+## 耕种结果
 
-### Daily routine
+### 例行工作
 
-Once the system is fully prepared, here's your daily routine
+系统准备就绪后，这是你的日常工作
 
-* harvest CRX from the MAI-USDC pool
-* harvest the WCRO reward from the single staking pool on CroDex
-* swap 50% of the WCRO reward for more CRX on CroDex, and create some CRX-WCRO LP token
-* deposit your additional CRX-WCRO token on CRYSTAL Finance
-* withdraw a portion of CRX-WCRO corresponding to your daily reward
-* break the LP token into CRX and WCRO on CroDex
-* stake the CRX into the single staking pool on CroDex that gets WCRO rewards
-* swap the WCRO for CRYSTL on CroDex
-* stake the CRYSTL token on Crytl Finance to get SALEM tokens
-* harvest the SALEM token
-* single stake the SALEM token on Salem Finance
-* harvest the WCRO token from Salem Finance
-* swap the WCRO for MAI and USDC and create more LP pair
-* deposit the new MAI-USDC pair in the appropriate pool on CroDex
+* 从 MAI-USDC 池中收获 CRX
+* 从 CroDex 的单一质押池中获得 WCRO 奖励
+* 将 WCRO 奖励的 50% 换成 CroDex 上的更多 CRX，并创建一些 CRX-WCRO LP 代币
+* 将你的额外 CRX-WCRO 代币存入 CRYSTAL Finance
+* 提取与你的每日奖励对应的部分CRX-WCRO
+* 在 CroDex 上将 LP 代币分解为 CRX 和 WCRO
+* 将 CRX 质押到 CroDex 上获得 WCRO 奖励的单一质押池中
+* 在 CroDex 上将 WCRO 换成 CRYSTL
+* 在 Crytl Finance 上质押 CRYSTL 代币以获得 SALEM 代币
+* 收获 SALEM 代币
+* 在 Salem Finance 上单质押 SALEM 代币
+* 从 Salem Finance 获得 WCRO 代币
+* 将 WCRO 换成 MAI 和 USDC 并创建更多 LP 对
+* 将新的 MAI-USDC 对存入 CroDex 上的适当池中将新的 MAI-USDC 对存入 CroDex 上的适当池中
 
-### Raw results month after month
+### 月复一月的原始结果
 
-| day | MAI-USDC | staked CRX | CRX-WCRO | CRYSTL | SALEM  |
+| 天   | MAI-USDC | staked CRX | CRX-WCRO | CRYSTL | SALEM  |
 | --- | -------- | ---------- | -------- | ------ | ------ |
 | 30  | 1,000.00 | 25.583     | 0.600    | 0.104  | 0.004  |
 | 60  | 1,000.00 | 50.819     | 1.830    | 0.682  | 0.059  |
@@ -158,30 +156,31 @@ Once the system is fully prepared, here's your daily routine
 | 330 | 1,013.82 | 315.569    | 17.982   | 42.817 | 23.147 |
 | 360 | 1,020.23 | 350.084    | 20.105   | 52.256 | 30.906 |
 
-### Day 365
+### 第365天
 
-After a complete year of farming this system, you would have
+在这个系统耕种一整年之后，你将拥有
 
-* $1,021.49 worth of MAI-USDC on CroDex
-* $355.96 worth of CRX single staked on CroDex
-* $20.47 worth of CRX-WCRO deposited on CRYSTL Finance
-* $53.93 worth of CRYSTL single staked on CRYSTL Finance
-* $32.353 worth of SALEM single staked on Salem Finance
+* CroDex 上价值 1,021.49 美元的 MAI-USDC
+* CroDex 上价值 355.96 美元的单一质押的CRX
+* 价值 20.47 美元的 CRX-WCRO 存入 CRYSTL Finance
+* CRYSTL Finance 上价值 53.93 美元的单一质押的CRYSTL
+* Salem Finance 上价值 32.353 美元的单一质押的 SALEM
 
-The WCRO from Salem Finance is actually included as the additional MAI-USDC position since it's fully sold to increase this pair.
+Salem Finance 的 WCRO 实际上是作为额外的 MAI-USDC 头寸包括在内的，因为它已完全出售以增加这一对。
 
-This means that with an initial investment of $1,000, at the end of the year you would have $1,484.45 across all apps, for a total APY of 48.45%. And remember that this is done by farming only a stable pair as the root of the strategy. It's also good to note that the only token that is swapped over time is the CRO token.
+这意味着，如果初始投资为 1,000 美元，到年底，你将在所有应用程序中获得 1,484.45 美元，总 APY 为 48.45%。请记住，这是通过仅耕种稳定对作为策略的根来完成的。还需要注意的是，随着时间的推移交换的唯一代币是 CRO 代币。
 
-### Alternative using Mai Finance
+### 使用 Mai Finance 的替代方案
 
-The Mai Finance application doesn't support vaults on Cronos, because tokens on Cronos don't have Chainlink Oracles yet. It's expected that during the first quarter of 2022, Chainlink will add oracles on Cronos, and you will be able to deposit your WCRO tokens in a Vault to borrow the MAI stable coin. This means that the strategy above can be modified to deposit WCRO and use MAI instead of selling the WCRO tokens, which will slightly increase your final reward rate.
+Mai Finance 应用程序不支持 Cronos 上的vaults，因为 Cronos 上的代币还没有 Chainlink Oracles。预计 2022 年第一季度，Chainlink 将在 Cronos 上添加oracles，你将能够将你的 WCRO 代币存入Vault以借用 MAI 稳定币。这意味着可以修改上述策略以存入 WCRO 并使用 MAI 而不是出售 WCRO 代币，这将略微提高你的最终奖励率。
 
-![WCRO vault on Mai Finance (emulation)](../../.gitbook/assets/crodex-lego-8.png)
+![Mai Finance 上的 WCRO vault（仿真）](../../.gitbook/assets/crodex-lego-8.png)
 
-## Disclaimer
+## 免责声明
 
-This guide was written to showcase that you can increase your reward rate withouth dumping the tokens that you farm. It's not simple to find the right fits when you're building feedback loops, but it's definitely feasable, and you will most of the time rewarded if you can find the right combo. However, this guide was written only to demonstrate how you can do that, and not to build a similar system. All transaction fees were purposedly discarded, and some rewards will not last for a complete year, meaning that you may want to consider more simple loops for your personal investments. However, CroDex is a very good starting point for that type of system.
+本指南旨在展示你可以提高奖励率，而无需倾倒你所种植的代币。在构建反馈循环时找到合适的组合并不容易，但这绝对是可行的，如果你能找到合适的组合，你大部分时间都会得到回报。但是，编写本指南只是为了演示如何做到这一点，而不是为了构建类似的系统。所有交易费用都被故意丢弃，有些奖励不会持续一整年，这意味着你可能需要考虑更简单的循环进行个人投资。但是，对于这种类型的系统，CroDex 是一个很好的起点。
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+本指南绝对不是财务建议，它是出于教育目标而制定的。你需要注意价格变化，供需，奖励计划结束日期，无常损失等......目标不是提出可以盲目遵循的食谱，所以请做好功课和自己的模拟，只有投资你准备好可能失去的东西。
 {% endhint %}
+
