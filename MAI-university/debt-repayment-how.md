@@ -6,17 +6,17 @@ description: 此页面将呈现不同的选项来偿还你在 Mai Finance 上的
 
 市场处于牛市中，你的加密货币被锁定在 Vault 中，价值越来越高，多到以至于你决定出售它。但是，因为它在 Mai Finance 的 Vault 中，除非你偿还贷款，否则你无法完全解锁它。
 
-市场看跌，你的加密货币正在迅速失去价值。你产生的收益不足以弥补损失并保持健康的抵押债务比率 (CDR)，清算即将到来。现在是偿还债务以确保您不会损失太多并防止清算的时候了。
+市场看跌，你的加密货币正在迅速失去价值。你产生的收益不足以弥补损失并保持健康的抵押债务比率 (CDR)，清算即将到来。现在是偿还债务以确保你不会损失太多并防止清算的时候了。
 
-如果你不处于上述任何一种情况，则可能不值得偿还您的债务。请参看[债务偿还](https://qidao-qimps.gitbook.io/mai-finance-tutorials/debt-management-tutorials/debt-repayment-why-and-when)一章了解更多详情。
+如果你不处于上述任何一种情况，则可能不值得偿还你的债务。请参看[债务偿还](https://qidao-qimps.gitbook.io/mai-finance-tutorials/debt-management-tutorials/debt-repayment-why-and-when)一章了解更多详情。
 
-## **使用法币部分或全部还款**
+## **使用fiat部分或全部还款**
 
-偿还债务最直接的方法是使用一些法定货币，尤其是如果你想保持抵押品和其他投资不变的情况下。
+偿还债务最直接的方法是使用一些fiat，尤其是如果你想保持抵押品和其他投资不变的情况下。
 
 Mai Finance 正在与 [Transak](https://transak.com) 搭档，将通过信用卡/借记卡或银行转账购买的资金容易地桥接到 Polygon 网络。只需前往 Mai Finance 并单击菜单栏中的 transak图标，打开一个模式，让你购买一些 MATIC 并将它们直接发送到你的 Polygon 钱包。
 
-![从法币购买一些 USDC 并直接桥接到 Polygon](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
+![从fiat购买一些 USDC 并直接桥接到 Polygon](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
 
 主要问题是处理交易所需的时间。但是，这样做可以让你将 USDC 互换成 MAI，然后部分或全部偿还你的债务。
 
