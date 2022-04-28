@@ -1,115 +1,113 @@
 ---
-description: >-
-  This guide presents different ways to farm a single LP pair in order to illustrate
-  the differences between staking and compounding.
+description: 本指南介绍了种植单个 LP 对的不同方法，以说明质押和复利之间的差异。
 ---
 
-# One LP Pair, Many ways to farm
+# 一个LP对，多种耕作方式
 
-## Introduction
+## 介绍
 
-Providing liquidity on a DEX (**D**ecentralized **EX**change) and farming reward is one of the most common way to farm yields in DeFi (**De**centralized **Fi**nance). However, many users are only paying attention to the rates of the LP (**L**iquidity **P**roviding) pool they enter, without really checking if the rate is an APR (**A**nnual **P**ercentage **R**eward) or an APY (**A**nnual **P**ercentage **Y**ield). There are many ways to farm a pool and manage the reward tokens. We will see in this guide some of the different way you can farm one of the latest pools on Harmony, MAI-ELK, and see what you can do with the ELK tokens that you will get as a reward.
+在 DEX（去中心化交易所）上提供流动性和耕作奖励是 DeFi（去中心化金融）中耕作收益的最常见方式之一。然而，很多用户只关注他们进入的 LP（流动性提供）池的费率，而没有真正检查该费率是 APR（年度百分比奖励）还是 APY（年度百分比收益率）。有很多方法可以建立矿池和管理奖励代币。我们将在本指南中看到一些不同的方式，你可以在 Harmony 上的最新矿池之一 MAI-ELK 中进行耕种，并了解你可以使用将获得的 ELK 代币作为奖励做什么。
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+本指南绝对不是财务建议，它是出于教育目标而制定的。你需要注意价格变化，供需，奖励计划，结束日期，无常损失等......目标不是提出可以盲目遵循的食谱，所以请做好功课和自己的模拟，并且只投资你准备好可能失去的东西。
 {% endhint %}
 
-![](<../../.gitbook/assets/elk-farming-1.png>)
+![](../../.gitbook/assets/elk-farming-1.png)
 
 ## Elk Finance
 
-[Elk Finance](https://app.elk.finance/#/) is a DEX forked from Uniswap v2, as well as an AMM (**A**utomoated **M**arket **M**aker). You will find all the usual features of Uniswap forks: trading your assets, combine your different crypto currencies into LP tokens, farm some LP pairs, and stake their native token, the ELK.
+[Elk Finance](https://app.elk.finance/#/) 是从 Uniswap v2 fork的 DEX，也是 AMM（自动做市商）。你会发现 Uniswap forks的所有常见功能：交易你的资产，将你不同的加密货币组合成 LP 代币，种植一些 LP 对，并质押他们的原生代币 ELK。
 
-What makes Elk Finance a totally different project though is its presence on many blockchains, and not only the EVM-compatibles chains (**E**thereum **V**irtual **M**achine). Indeed, Elk Finance is currentl present on 16 chains and they have plans to expand to many others. They managed to build a bridge between all those chains to let users transfers the ELK token: The ELKNET.
+使 Elk Finance 成为一个完全不同的项目的原因在于它存在于许多区块链上，而不仅仅是 EVM 兼容链（以太坊虚拟机）。事实上，Elk Finance 目前存在于 16 个链上，并且他们计划扩展到其他许多链。他们设法在所有这些链之间架起了一座桥梁，让用户可以转移 ELK 代币：ELKNET。
 
-![Bridging some ELK from Harmony to Moonriver using the ElkNet](<../../.gitbook/assets/elk-farming-2.png>)
+![使用 ElkNet 将一些 ELK 从 Harmony 桥接到 Moonriver](../../.gitbook/assets/elk-farming-2.png)
 
-Also, one cool feature proposed by the ElkNet is the possibility to swap a portion of the transferred asset for some gas token on the destination. This is particularly useful if you are going for the first time on a block chain where there is no available faucet.
+此外，ElkNet 提出的一个很酷的功能是可以将一部分转移的资产换成目的地的一些 gas 代币。如果你第一次使用没有可用水龙头的区块链，这将特别有用。
 
 {% hint style="success" %}
-Except for chains where gas is high (only Avalanche and Cronos at time of writing), using ElkNet to bridge your ELK tokens from one chain to another is done at no expense. You read that right, you don't pay any bridging fees!
+除了 gas 非常高的链（在撰写本文时只有 Avalanche 和 Cronos），使用 ElkNet 将你的 ELK 代币从一条链桥接到另一条链是免费的。你没看错，你无需支付任何桥接费！
 {% endhint %}
 
-Finally, Elk Finance provides Impermanent Loss protection. You can read all the details about the Impermanent Loss program in [their official documentation](https://docs.elk.finance/features/impermanent-loss-protection), but basically, all you need to know is that if the price of ELK changes between the moment you deposit and the moment you withdraw, you'll be pay extra ELK in order to cover the impermanent loss. Because MAI is pegged to 1 USD, the impermanent loss is only linked to the price movement of ELK, so you're always a winner when you're entering LP pools on Elk Finance DEX.
+最后，麋鹿金融Elk Finance提供无常损失保护。你可以在[他们的官方文档](https://docs.elk.finance/features/impermanent-loss-protection)中阅读有关 Impermanent Loss 计划的所有详细信息，但基本上，你需要知道的是，如果 ELK 的价格在你存款和提款之间发生变化，你将获得额外的 ELK以弥补无常的损失。由于 MAI 与 1 美元挂钩，因此无常损失仅与 ELK 的价格变动有关，因此当你在 Elk Finance DEX 上进入 LP 池时，你始终是赢家。
 
-## Farming the MAI-ELK LP Pair
+## 耕种 MAI-ELK LP 对
 
-Elk Finance partnered with Mai Finance in January 2022 to propose token farming using the MAI-ELK LP pair on their DEX. The MAI-ELK pair can be used on 3 different networks for now: Harmony, Moonriver and Gnosis. Some additional pools may be launched later on Polygon, Cronos and Fantom. Let's see the different strategies that you can apply for this new pool.
+Elk Finance 于 2022 年 1 月与 Mai Finance 合作，提议在其 DEX 上使用 MAI-ELK LP 对进行代币农业。 MAI-ELK 对目前可用于 3 个不同的网络：Harmony、Moonriver 和 Gnosis。稍后可能会在 Polygon、Cronos 和 Fantom 上启动一些额外的池。让我们看看你可以为这个新池应用的不同策略。
 
 {% hint style="info" %}
-We are proposing this guide for Harmony because the gas fees are very cheap, which allows you to compound your reward manually on a daily basis. This makes it a very good blockchain for beginners who have only a few dollars to invest as play money. However, everything presented in this guide can be also applied to any other chain.
+我们建议为 Harmony 提供本指南，因为gas费非常便宜，你可以每天手动复合奖励。对于只有几美元作为游戏币投资的初学者来说，这使其成为一个非常好的区块链。但是，本指南中介绍的所有内容也可以应用于任何其他链。
 {% endhint %}
 
-### Farming and Staking
+### 耕种和质押
 
-The very first strategy is pretty straightforward:
+第一个策略非常直白：
 
-* combine your LP pair
-* deposit the LP in the MAI-ELK pool and get 200% APR
-* harvest your rewards daily
-* stake them at 32.53% APR
+* 组合你的 LP 对
+* 将LP存入MAI-ELK池，获得200% APR
+* 每天收获你的奖励
+* 以 32.53% 的年利率抵押他们
 
-If you start with an initial $100, here are the results you can get month after month for a complete year of farming, assuming the rates given above remain the same for the entire farming period.
+如果你从最初的 100 美元开始，假设上面给出的费率在整个耕作期间保持不变，那么你可以逐月获得全年耕作的结果。
 
-| day | MAI-ELK ($) | staked ELK ($) |
-|-----|-------------|----------------|
-|  30 |     100.000 |         16.653 |
-|  60 |     100.000 |         33.756 |
-|  90 |     100.000 |         51.323 |
-| 120 |     100.000 |         69.366 |
-| 150 |     100.000 |         87.897 |
-| 180 |     100.000 |        106.930 |
-| 210 |     100.000 |        126.479 |
-| 240 |     100.000 |        146.557 |
-| 270 |     100.000 |        167.180 |
-| 300 |     100.000 |        188.360 |
-| 330 |     100.000 |        210.115 |
-| 360 |     100.000 |        232.458 |
+| 天   | MAI-ELK ($) | staked ELK ($) |
+| --- | ----------- | -------------- |
+| 30  | 100.000     | 16.653         |
+| 60  | 100.000     | 33.756         |
+| 90  | 100.000     | 51.323         |
+| 120 | 100.000     | 69.366         |
+| 150 | 100.000     | 87.897         |
+| 180 | 100.000     | 106.930        |
+| 210 | 100.000     | 126.479        |
+| 240 | 100.000     | 146.557        |
+| 270 | 100.000     | 167.180        |
+| 300 | 100.000     | 188.360        |
+| 330 | 100.000     | 210.115        |
+| 360 | 100.000     | 232.458        |
 
-At the end of the year, you would have
+在年底，你将拥有
 
-* $100.00 worth of MAI-ELK LP tokens in the pool
-* $236.24 worth of staked ELK tokens
+* 池中价值 100.00 美元的 MAI-ELK LP 代币
+* 价值 236.24 美元的质押ELK 代币
 
-Which corresponds to an overall APY of 236.24%. It's not exactly APR because part of the reward is compounded (the staked ELK).
+这对应于 236.24% 的整体 APY。这不完全是 APR，因为部分奖励是复合的（质押的 ELK）。
 
 {% hint style="info" %}
-You can find all the results and the formula used to build this table in [the following Google Sheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the first tab. You can copy this file to your own drive and adjust rates and initial investment to see the overall APY change with the number you enter.
+你可以在第一个选项卡的[以下 Google 表格](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing)中找到所有结果和用于构建此表的公式。你可以将此文件复制到你自己的驱动器并调整费率和初始投资，以查看整体 APY 随你输入的数字的变化。
 {% endhint %}
 
-### Farming and Compounding directly
+### 直接耕种和复合
 
-Compounding means that you harvest your rewards, and use it to create additional LP tokens. In our case, you would:
+复利意味着您收获奖励，并使用它来创建额外的 LP 代币。在我们的例子中，你会：
 
-* harvest your ELK rewards
-* sell 50% for MAI
-* combine into some additional MAI-ELK LP token
-* deposit in the pool
+* 收获你的 ELK 奖励
+* 为 MAI 出售 50%
+* 组合成一些额外的 MAI-ELK LP 代币
+* 存入池中
 
-If you start with the same initial investment of $100, the results you can expect for a complete year of farming, assuming the rates given remain the same for the entire farming period, are as follows:
+如果你从 100 美元的相同初始投资开始，假设给定的费率在整个耕作期间保持不变，你可以预期一整年的耕作结果如下：
 
-| day | MAI-ELK ($) |
-|-----|-------------|
-|  30 |     117.172 |
-|  60 |     138.044 |
-|  90 |     162.635 |
-| 120 |     191.607 |
-| 150 |     225.739 |
-| 180 |     265.952 |
-| 210 |     313.328 |
-| 240 |     369.143 |
-| 270 |     434.901 |
-| 300 |     512.374 |
-| 330 |     603.647 |
-| 360 |     711.179 |
+| 天   | MAI-ELK ($) |
+| --- | ----------- |
+| 30  | 117.172     |
+| 60  | 138.044     |
+| 90  | 162.635     |
+| 120 | 191.607     |
+| 150 | 225.739     |
+| 180 | 265.952     |
+| 210 | 313.328     |
+| 240 | 369.143     |
+| 270 | 434.901     |
+| 300 | 512.374     |
+| 330 | 603.647     |
+| 360 | 711.179     |
 
-And at the end of the year, you would have
+在年底，你将会拥有
 
-* $730.878 worth of MAI-ELK LP tokens in the pool
+* 池中价值 730.878 美元的 MAI-ELK LP 代币
 
-Which corresponds, for an initial investment of $100, to an overall APY of 630.88%. Since we are compounding the reward, this is the exact APY you would get from an APR of 200%.
+对于 100 美元的初始投资，这对应于 630.88% 的总体 APY。由于我们正在复合奖励，这就是你从 200% 的 APR 中获得的确切 APY。
 
-As a side note, the formulas to calculate the APY from an APR with daily compounding (or an APR from an APY) are as follows:
+附带说明一下，从每日复利的 APR（或从 APY 计算的 APR）计算 APY 的公式如下：
 
 $$
 APY = ( 1 + \frac{APR}{N})^N-1
@@ -119,7 +117,7 @@ $$
 APR = N * (( 1 + APY)^\frac{1}{N} - 1)
 $$
 
-With `N` being the number of times you compound your rewards. In our case, the 2 formula would give us
+N 是你复合奖励的次数。在我们的例子中，公式 2 会给我们
 
 $$
 APY = ( 1 + \frac{2}{365})^{365}-1 = 634.88\%
@@ -129,103 +127,88 @@ $$
 APR = 365 * (( 1 + 6.3488)^\frac{1}{365} - 1) = 199.99\%
 $$
 
-It's easy to see and understand that if you apply an APR of 200% (the APR of the LP pool) to your reward, you will get better yields than if you apply an APR of 32.53% (staking APR). In that sense, compounding is way better than staking while the farming APR remains above the staking APR. This may obviously change with the amount of liquidity in the pool.
+很容易看出和理解，如果你将 200% 的 APR（LP 池的 APR）应用于你的奖励，你将获得比你应用 32.53% 的 APR（Staking APR）更好的收益。从这个意义上说，复利比质押要好得多，而农耕 APR 仍然高于质押 APR。这可能会随着池中流动性的数量而明显改变。
 
 {% hint style="info" %}
-As for the previous section, the simulation can be found in the same [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the second tab.
+至于上一节，可以在第二个选项卡的同一个 [Google SpreadSheet ](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing)中找到模拟。
 {% endhint %}
 
-### Farming and Compounding using Mai Finance
+### 使用 Mai Finance 进行耕种和复合
 
-If staking and compounding are giving good yields, both methods are directly linked to the price of the ELK token, so the value of your investment will vary with the price of ELK. We already saw that compounding gives better options compared to staking. Now we will see how you can capture some value from your farming rewards, and continue investing in the same pool using Mai Finance. The daily routine would be as follows:
+如果质押和复利产生良好的收益，这两种方法都直接与 ELK 代币的价格挂钩，因此你的投资价值将随 ELK 的价格而变化。我们已经看到，与质押相比，复利提供了更好的选择。现在我们将看到你如何从你的农业奖励中获取一些价值，并继续使用 Mai Finance 投资同一个矿池。日常如下：
 
-* Harvest the ELK rewards
-* Sell 66% of the reward to buy some blue chip token accepted as collateral on Mai Finance. For our exemple, we will be using the ONE token here
-* Deposit the ONE tokens in your vault on Mai Finance
-* Borrow additional MAI at 200% CDR (**C**ollateral to **D**ebt **R**atio), which value will correspond to your remaining ELK tokens
-* combine into some additional MAI-ELK LP token
-* deposit in the pool
+* 收获 ELK 奖励
+* 出售 66% 的奖励以购买一些被Mai Finance接受为抵押品的蓝筹代币。例如，我们将在此处使用 ONE 代币
+* 将 ONE 代币存入你在 Mai Finance 的vault中
+* 以 200% CDR（抵押债务比率）借入额外的 MAI，该值将对应于你剩余的 ELK 代币
+* 组合成一些额外的 MAI-ELK LP 代币
+* 存入池中
 
 {% hint style="info" %}
-Converting your reward tokens to ONE may not be the safest way to protect your assets, one of the best ways to do it is to convert to stable coins. However, options on Mai Finance on Harmony as of writing this article are pretty limited. You may get better options in the future (after January 2021), like staking Stake DAO LP tokens as collateral (see our [dedicated article for Polygon](<../polygon/the-elephant-and-the-otter.md>) to see how you may be able to use Stake DAO tokens on Mai Finance).
+将你的奖励代币转换为 ONE 可能不是保护你的资产的最安全方法，最好的方法之一是转换为稳定币。然而，截至撰写本文时，Harmony 上的 Mai Finance 选项非常有限。你可能会在未来（2021 年 1 月之后）获得更好的选择，例如将 Stake DAO LP 代币作为抵押品（请参阅我们关于[ Polygon 的专门文章](../polygon/the-elephant-and-the-otter.md)，了解如何在 Mai Finance 上使用 Stake DAO 代币）。
 {% endhint %}
 
-If you start with the same initial investment of $100, the results you can expect for a complete year of farming, assuming the rates given remain the same for the entire farming period, and that your vault isn't liquidated, are as follows:
+如果你从 100 美元的相同初始投资开始，假设在整个耕作期间给出的费率保持不变，并且你的vault没有清算，你可以预期一整年的耕作结果如下：
 
-| day | MAI-ELK ($) | ONE ($) | Mai debt ($) |
-|-----|-------------|---------|--------------|
-|  30 |     111.154 |  11.560 |        5.780 |
-|  60 |     124.003 |  24.456 |       12.228 |
-|  90 |     138.337 |  38.842 |       19.421 |
-| 120 |     154.328 |  54.892 |       27.446 |
-| 150 |     172.168 |  72.797 |       36.398 |
-| 180 |     192.070 |  92.772 |       46.386 |
-| 210 |     214.273 | 115.055 |       57.528 |
-| 240 |     239.042 | 139.915 |       69.958 |
-| 270 |     266.674 | 167.648 |       83.824 |
-| 300 |     297.501 | 198.588 |       99.294 |
-| 330 |     331.891 | 233.106 |      116.552 |
-| 360 |     370.257 | 271.609 |      135.805 |
+在年底，你将会拥有
 
-And at the end of the year, you would have
+* 池中价值 377.069 美元的 MAI-ELK LP 代币
+* ONE vault中价值 278.446 美元的 ONE 代币
+* 从你的vault中价值 139.223 美元的债务
+* 正如预期的那样，CDR 为 200%
 
-* $377.069 worth of MAI-ELK LP tokens in the pool
-* $278.446 worth of ONE token in your ONE vault
-* $139.223 worth of debt from your vaule
-* a CDR of 200%, as expected
-
-Starting from an original position of $100 worth of MAI-ELK, this would represent an overall APY of 416.29%. Here we're getting a little less gains compared to pure compounding, however we also extracted a good portion of our gains into ONE, which may be less volatile than ELK, hence may present less risk.
+从最初价值 100 美元的 MAI-ELK 头寸开始，这将代表 416.29% 的整体 APY。在这里，与纯复利相比，我们获得的收益要少一些，但我们也将大部分收益提取到 ONE 中，它可能比 ELK 的波动性更小，因此可能带来的风险更小。
 
 {% hint style="info" %}
-Once again, the simulation can be found in the same [Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing) in the third tab.
+再次，可以在第三个选项卡的同一个[ Google SpreadSheet](https://docs.google.com/spreadsheets/d/1Vva5dhjYix0g4bMZRSAMIutDgbT08TsTLhVJE0TUrF8/edit?usp=sharing)中找到模拟。
 {% endhint %}
 
-Alternatively, you can also sell all your ELK rewards for tokens that are accepted on Mai Finance, borrow MAI and sell part of it to buy additional ELK in order to increase your position in the MAI-ELK pool. By doing so, you increase your exposure to ONE, but also increase your debt. You would end up with $270.715 worth of MAI-ELK, $352.913 worth of ONE and $171.457 worth of debt for an overall APY of 342.17%.
+或者，你也可以将你所有的 ELK 奖励出售给 Mai Finance 接受的代币，借入 MAI 并出售部分以购买额外的 ELK，以增加你在 MAI-ELK 池中的头寸。通过这样做，你增加了对 ONE 的敞口，但也增加了你的债务。你最终会得到价值 270.715 美元的 MAI-ELK、价值 352.913 美元的 ONE 和价值 171.457 美元的债务，总 APY 为 342.17%。
 
-## Influence of the frequency at which you compound
+## 复合频率的影响
 
-Whether you decide to stake your rewards or compound, it's important to understand that your reward will change depending on the frequency at which you perform your harvest + invest routine. As a reminder, the formula that links APY and APR is as follows:
+无论你决定质押奖励还是复合，重要的是要了解你的奖励将根据你执行收获+投资程序的频率而变化。提醒一下，链接 APY 和 APR 的公式如下：
 
 $$
 APY = ( 1 + \frac{APR}{N})^N-1
 $$
 
-In this equation, `N` represents the number of times you compound your rewards in a year. So, and APR of 200% as above would give you the following APY depending on the frequency you compound:
+在这个等式中，N 代表你在一年中复合奖励的次数。因此，如上所述 200% 的 APR 将根据你复合的频率为你提供以下 APY：
 
-| Compounding frequency | equivalent APY |
-|-----------------------|----------------|
-|                 daily |       634.88 % |
-|       twice in a week |       625.01 % |
-|                weekly |       611.71 % |
-|      twice in a month |       609.55 % |
-|               monthly |       535.86 % |
-|             quarterly |       406.25 % |
-|       twice in a year |       300.00 % |
+| 复合频率 | 等效 APY   |
+| ---- | -------- |
+| 每日   | 634.88 % |
+| 一周两次 | 625.01 % |
+| 每周   | 611.71 % |
+| 每月两次 | 609.55 % |
+| 每月   | 535.86 % |
+| 每季   | 406.25 % |
+| 一年两次 | 300.00 % |
 
-Manually compounding more than once a day can be expensive depending on the chain you're on. But basically, it's clear that the more often you compound, the better the reward. This is also explaining why yield optimizer / auto-compounder are popular. Keep in mind that by compounding, you add sell pressure to the token you farm, which will have a negative impact on the price of that token. If that's also the token you are using to farm (in our exemple ELK), you may be impacted by impermanent losses, unless you're using Elk Finance DEX, which protects you from impermanent losses.
+根据你所在的链条，每天多次手动复合可能会很昂贵。但基本上，很明显，你复合的次数越多，奖励就越好。这也解释了为什么产量优化器/自动复合器很受欢迎。请记住，通过复合，你会给你所种植的代币增加卖压，这将对代币的价格产生负面影响。如果这也是你用来耕种的代币（在我们的示例 ELK 中），你可能会受到无常损失的影响，除非你使用 Elk Finance DEX，它可以保护你免受无常损失。
 
-## Choosing the right pool
+## 选择合适的池
 
-The MAI-ELK pair has been deployed to several chains, so it's possible for you to deploy your capital to the chain that offers the best rates.
+MAI-ELK 对已部署到多个链上，因此你可以将资金部署到提供最佳利率的链上。
 
-![MAI-ELK pools on Gnosis (top), Moonriver (middle) and Harmony (bottom) as of January 2021](<../../.gitbook/assets/elk-farming-3.png>)
+![截至 2021 年 1 月，Gnosis（上）、Moonriver（中）和 Harmony（下）上的 MAI-ELK 池](../../.gitbook/assets/elk-farming-3.png)
 
 {% hint style="info" %}
-The MAI-ELK pool may also be deployed to other chains in a near future, possibly on Polygon, Cronos and Fantom. This is not guaranteed and there's no ETA for that, so stay updated by checking the difference Discord servers of both projects, of following them on twitter.
+MAI-ELK 池也可能在不久的将来部署到其他链上，可能在 Polygon、Cronos 和 Fantom 上。这不能保证，也没有预计到达时间，因此请通过检查两个项目的不同 Discord 服务器来保持更新，并在 Twitter 上关注它们。
 {% endhint %}
 
-Besides the reward rate on each chain, you may also have to consider the price of the ELK token on each chain. Indeed, if the price is almost the same on all chains, the tiny difference may also be a factor for you to choose the chain where you want to farm the ELK token.
+除了每条链上的奖励率，你可能还需要考虑每条链上 ELK 代币的价格。确实，如果所有链上的价格几乎相同，那么微小的差异也可能是你选择要在其中耕种 ELK 代币的链的一个因素。
 
-![Price of the ELK tokens on all the chains where it's present](<../../.gitbook/assets/elk-farming-4.png>)
+![ELK 代币在其存在的所有链上的价格](../../.gitbook/assets/elk-farming-4.png)
 
-As you can see, the MAI-ELK pool on Moonriver gives a better reward rate, and the ELK token also has a higher price on that chain. This means that, at time of writing, it may be better to farm the MAI-ELK pool on Moonriver than on Harmony or Gnosis, especially if you plan to sell a part of the farmed tokens. Note that this may not be true all the time, so make sure you choose your chain properly and that you do your own researches before joining a LP pool. Finally, it is strongly recommended to read the [documentation about IL protection](https://docs.elk.finance/features/impermanent-loss-protection) because the insurance is highly dependant on the number of days your LP tokens are deposited in the pool.
+如你所见，Moonriver 上的 MAI-ELK 矿池提供了更好的奖励率，而 ELK 代币在该链上的价格也更高。这意味着，在撰写本文时，在 Moonriver 上种植 MAI-ELK 池可能比在 Harmony 或 Gnosis 上更好，特别是如果你计划出售部分种植的代币。请注意，这可能并非总是如此，因此请确保你正确选择了你的链，并在加入 LP 池之前进行自己的研究。最后，强烈建议阅读[有关 IL 保护的文档](https://docs.elk.finance/features/impermanent-loss-protection)，因为保险高度依赖于你的 LP 代币存入池中的天数。
 
-As a side note, because bridging ELK is free, you can possibly move from one chain to another in order to always benefit from the best rates. Make sure that you understand that by doing so, you will also influence the reward rates of the pool you exit and the one you join (less liquidity will increase the APR, more liquidity will lower it).
+附带说明一下，因为桥接 ELK 是免费的，所以你可以从一个链转移到另一个链，以便始终从最优惠的利率中受益。确保你了解这样做，你还将影响你退出的池和你加入的池的奖励率（较少的流动性会增加 APR，更多的流动性会降低它）。
 
-## Disclaimer
+## 免责声明
 
-This guide has been written in order to illustrate the different ways to farm yields using liquidity providing tokens. You will highly influence your gains with the strategy that you pick, as well as your exposure to risk. Of course, all the notions pointed in this document are also applicable to any LP pair, and it's highly recommended to run your own simulations before picking a strategy, a LP pair, a pool or even a DEX.
+编写本指南是为了说明使用提供流动性的代币来提高耕种产量的不同方法。你将通过你选择的策略以及你所面临的风险来极大地影响你的收益。当然，本文档中指出的所有概念也适用于任何 LP 对，强烈建议在选择策略、LP 对、池甚至 DEX 之前运行自己的模拟。
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请牢记在给定时间运行良好的策略可能在另一个时间表现不佳（或让你赔钱）。请保持消息灵通，监测市场，留意你的投资，并一如既往地，做你的研究。
 {% endhint %}

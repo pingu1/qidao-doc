@@ -36,7 +36,7 @@
   * [用 CroDex 耕种Legos](jiao-cheng/cronos/farming-legos-with-crodex.md)
 * [Harmony](jiao-cheng/harmony/README.md)
   * [如何开始使用 Harmony](jiao-cheng/harmony/how-to-get-started-on-harmony.md)
-  * [One LP Pair, Many ways to farm](jiao-cheng/harmony/how-to-farm-elknet.md)
+  * [一个LP对，多种耕作方式](jiao-cheng/harmony/how-to-farm-elknet.md)
 
 ## MAI University
 
