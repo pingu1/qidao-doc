@@ -24,7 +24,7 @@
 * [Fantom](jiao-cheng/fantom/README.md)
   * [如何开始使用 Fantom](jiao-cheng/fantom/how-to-get-started-on-fantom.md)
   * [Leverage your crypto on Fantom](jiao-cheng/fantom/leverage-your-crypto-on-fantom.md)
-  * [What to do with MAI on Fantom](jiao-cheng/fantom/what-to-do-with-mai-on-fantom.md)
+  * [Fantom 上的 MAI 怎么办](jiao-cheng/fantom/what-to-do-with-mai-on-fantom.md)
   * [Farming loop using SpiritSwap](jiao-cheng/fantom/farming-loop-using-spiritswap.md)
   * [Exodia Combo on Fantom](jiao-cheng/fantom/investing-in-discounted-assets-using-bonds.md)
   * [A Spooky Symfony](jiao-cheng/fantom/spooky-symfony.md)
