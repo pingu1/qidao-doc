@@ -1,222 +1,219 @@
 ---
-description: >-
-  In this guide, we will use the concept of bonds to get assets at a lower price
-  than market price, and use high reward protocols to increase gains.
+description: 在本指南中，我们将使用债券的概念以低于市场价格的价格获得资产，并使用高回报协议来增加收益。
 ---
- 
-# Exodia Combo on Fantom
- 
-## Introduction
- 
-One of the most important things to keep in mind when you're investing in crypto is to make sure your initial is protected. If you keep this fundamental in mind, you may only put your gains at risk. However, there's another option if you want to invest in a token that represents some uncertainty: buying it with a discount, and make sure the rewards are high enough to cover your initial investment as fast as possible.
- 
-For a few months now, this is made possible with the introduction of bonds, and very high reward rates proposed by some projects. So today, we explore two projects on Fantom that are using the bonding concept in order to achieve 2 very different goals.
- 
-![](<../../.gitbook/assets/exodia-tomb-0.png>)
- 
+
+# Fantom上的Exodia Combo
+
+## 介绍
+
+投资加密货币时要记住的最重要的事情之一是确保你的初始值受到保护。如果你牢记这一基本原则，你可能只会将收益置于风险之中。但是，如果你想投资代表一些不确定性的代币，还有另一种选择：以折扣价购买它，并确保回报足够高以尽快支付你的初始投资。
+
+几个月来，通过引入债券和一些项目提出的非常高的回报率，这成为可能。所以今天，我们在 Fantom 上探索两个项目，它们使用结合概念来实现 2 个截然不同的目标。
+
+![](../../.gitbook/assets/exodia-tomb-0.png)
+
 ## Exodia
- 
-### Presentation of the project
- 
-[Exodia](https://app.exodia.fi/dashboard) is a small project on Fantom that has gigantic potential. It's an Ohm-fork based on the EXOD token that is a reserve currency backed by different assets. The initial backing assets added to the Exodia treasury were DAI and FTM, but the team and DAO in charge of the protocol decided to develop ties with the Olympus community and to allocate 33% of its excess reserves to purchase assets denominated in OHM. As such, a small portion of the treasury is denominated in gOHM tokens.
- 
-![Treasury breakdown of Exodia as of January 2022](<../../.gitbook/assets/exodia-tomb-1.png>)
- 
-### New bonding LP Token
- 
-In order to strengthen the ties, Exodia rececntly voted to increase the amount of OHM-related tokens in its treasury, and will soon accept a new token as part of their bonding program. The new token is an LP (**L**iquidity **P**roviding) token that one can create on BeethovenX. One of the best things about BeethovenX tokens is that they can be created even if you only own a single asset from the selection in the pool, which makes it easily accessible. The LP token is compsed of
- 
+
+### 项目介绍
+
+[Exodia](https://app.exodia.fi/dashboard) 是 Fantom 上的一个小项目，具有庞大的潜力。它是基于 EXOD 代币的Ohm fork，是由不同资产支持的储备货币。添加到 Exodia 宝库的初始支持资产是 DAI 和 FTM，但负责协议的团队和 DAO 决定与 Olympus 社区建立联系，并将其 33% 的超额准备金用于购买以 OHM 计价的资产。因此，宝库的一小部分以 gOHM 代币计价。
+
+![截至2022年1月，Eexodia的宝库明细情况](../../.gitbook/assets/exodia-tomb-1.png)
+
+### 新的债券LP代币
+
+为了加强联系，Exodia 最近投票决定增加其宝库中与 OHM 相关的代币数量，并将很快接受新代币作为其债券计划的一部分。新代币是可以在BeethovenX 上创建的LP（流动性提供）代币。 BeethovenX 代币的最大优点之一是即使你只拥有池中选择的单一资产，也可以创建它们，这使得它易于访问。 LP 代币组成由
+
 * 20% wFTM
 * 20% EXOD
 * 20% wsEXOD
 * 20% gOHM
 * 20% MAI
- 
-![The Monolith LP pool on BeethovenX as of January 2022](<../../.gitbook/assets/exodia-tomb-2.png>)
- 
-This is probably the first Ohm fork using a Balancer fork LP token to bond. This is particularly interesting in the sense that you can now purchase new bonds using just your EXOD tokens. The steps involved would be:
- 
-* deposit your EXOD token into `The Monolith` pool on BeethovenX to get the LP token
-* sell your LP token on the Exodia app to purchase new EXOD with a discount
-* wait the vesting period and collect your EXOD tokens
-* repeat
- 
-This drastically reduces the sell pressure on EXOD tokens, which can only benefit the protocol. Previously bond flippers would have to sell their EXOD for DAI to purchase additional bonds, which is partially detrimental by reducing the token price, and has a cascading effect on the treasury and the runway.
- 
+
+![截至 2022 年 1 月，BeethovenX 上的 Monolith LP 池](../../.gitbook/assets/exodia-tomb-2.png)
+
+这可能是第一个使用 Balancer fork LP 代币进行债券的 Ohm fork。这特别有趣，因为你现在可以仅使用你的 EXOD 代币购买新债券。所涉及的步骤是：
+
+* 将你的 EXOD 代币存入 BeethovenX 上的 Monolith 池以获得 LP 代币
+* 在 Exodia 应用程序上出售你的 LP 代币，以折扣价购买新的 EXOD
+* 等待归属期并收集你的 EXOD 代币
+* 重复
+
+这大大降低了 EXOD 代币的抛售压力，这只会使协议受益。以前债券炒股者必须出售他们的 EXOD 以换取 DAI 以购买额外的债券，这对降低代币价格是部分不利的，并对宝库和跑道产生级联效应。
+
 {% hint style="info" %}
-If you're not familiar with Ohm projects, I strongly recommend some more readings on the subject. You can refer to our guide on Klima (see the Polygon section) or go directly to the [official documentation of Exodia](https://docs.exodia.finance/). Also, you could join their discord and enroll in their education scheme.
+如果你不熟悉 Ohm 项目，我强烈建议你阅读有关该主题的更多内容。你可以参考我们的 Klima 指南（参见Polygon部分）或直接访问 [Exodia 的官方文档](https://docs.exodia.finance)。此外，你可以加入他们的不和谐并参加他们的教育计划。
 {% endhint %}
- 
-You also see that the LP token accepts MAI, the stable coin that you can mint on Mai Finance. This will actually be our main source for the LP (see later). Once you purchased your bonds with a decent discount, you will get your EXOD tokens at the end of the vesting period. You can also stake this token at a decent APY (**A**nnual **P**ercentage **Y**ield) of 38,787%, which is equivalent to an APR (**A**nnual **P**ercentage **R**ate) of 601%, or a daily gain of 1.65%.
- 
-We will be using the bonding system to purchase EXOD tokens with a discount, and profit from the very high APY to collect gains from rebase rewards.
- 
+
+你还会看到 LP 代币接受 MAI，这是你可以在 Mai Finance 上铸造的稳定币。这实际上将是我们 LP 的主要来源（见下文）。一旦你以相当好的折扣购买了债券，你将在归属期结束时获得你的 EXOD 代币。你还可以以 38,787% 的体面APY（年度百分比收益率）质押此代币，这相当于 601% 的 APR（年度百分比率）或 1.65% 的每日收益。
+
+我们将使用债券系统以折扣价购买 EXOD 代币，并从非常高的 APY 中获利以从 rebase 奖励中获得收益。
+
 ## Tomb Finance
- 
-[Tomb Finance](https://tomb.finance/) is a very particular project, original in many ways. The TOMB token is an algorithmic stable coin pegged to the FTM token, and designed to be a medium of exchange and to add additional liquidity to FTM,the gas token of the Fantom chain.
- 
-The Tomb Finance ecosystem proposes 2 more tokens:
- 
-* TSHARE: this is the governance token for Tomb Finance. Holders of TSHARE have voting power. TSHARE stakers will also receive additional TOMBs. The emission of additional TOMB tokens to TSHARE holders is following the same mechanics as Ohm forks with new token being minted at the end of each epoch with very high APY.
-* TBOND: this is a special tokens that is primarly used to maintain the peg to 1 FTM. When the TOMB price falls below 1 FTM, users can purchase TBOND at the current price of TOMB tokens. They can do so by selling TOMB tokens to the protocol, and these tokens are burnt, which increases the value of TOMB back to 1 FTM. Buying TBOND at a discount and being able to redeem TOMB tokens gave the name to the TBOND token. When the TOMB token is above thee peg, people can redeem their TBOND for TOMB. New TOMB are minted, reducing the value of the token. In other words, this is an arbitrage token!
- 
-![TOMB, TBOND and TSHARE values as of January 2022](<../../.gitbook/assets/exodia-tomb-3.png>)
- 
-Tomb Finance also proposes 2 LP pools that will earn you TSHARE tokens. This is particularly important for Tomb Finance to have a very important liquidity depth. However, to achieve the objective of geetting TOMB as an alternative solution to FTM, it's important for the protocol to have users using TOMB, hence owning the liquidity. When you farm the TOMB-FTM and TSHARE-FTM pools, you are rewarded with TSHARE tokens that will allow you to earn more TOMB tokens, which is a nice little closed loop within a single application.
- 
-## Additional pieces to close loops
- 
-Now that we presented the 2 big pieces for our strategy, let's quickly see the other pieces of the puzzle of the day.
- 
+
+[Tomb Finance](https://tomb.finance) 是一个非常特殊的项目，在很多方面都是原创的。 TOMB 代币是一种与 FTM 代币挂钩的算法稳定币，旨在成为一种交换媒介，并为 Fantom 链的气体代币 FTM 增加额外的流动性。
+
+Tomb Finance 生态系统提出了另外 2 个代币：
+
+* TSHARE：这是 Tomb Finance 的治理代币。 TSHARE 的持有者拥有投票权。 TSHARE 质押者还将获得额外的 TOMB。向 TSHARE 持有者发行额外的 TOMB 代币遵循与 Ohm forks相同的机制，新代币在每个时期结束时以非常高的 APY 铸造。
+* TBOND：这是一种特殊的代币，主要用于维持与 1 FTM 的挂钩。当 TOMB 价格低于 1 FTM 时，用户可以以 TOMB 代币的当前价格购买 TBOND。他们可以通过向协议出售 TOMB 代币来做到这一点，这些代币被烧毁，这将 TOMB 的价值增加到 1 FTM。以折扣价购买 TBOND 并能够兑换 TOMB 代币为 TBOND 代币命名。当 TOMB 代币高于你的挂钩时，人们可以将他们的 TBOND 兑换为 TOMB。新的 TOMB 被铸造出来，降低了代币的价值。也就是说，这是一个套利代币！
+
+![截至 2022 年 1 月的 TOMB、TBOND 和 TSHARE 值](../../.gitbook/assets/exodia-tomb-3.png)
+
+Tomb Finance 还提出了 2 个 LP 池，这些池将为你赚取 TSHARE 代币。这对于 Tomb Finance 具有非常重要的流动性深度尤为重要。然而，为了实现将 TOMB 作为 FTM 的替代解决方案的目标，协议让用户使用 TOMB 非常重要，因此拥有流动性。当你种植 TOMB-FTM 和 TSHARE-FTM 矿池时，你将获得 TSHARE 代币奖励，这将使你能够赚取更多的 TOMB 代币，这是单个应用程序中一个不错的小闭环。
+
+## 关闭循环的附加部分
+
+既然我们已经介绍了我们战略的两大块，让我们快速查看当天拼图的其他部分。
+
 ### Beefy Finance
- 
-[Beefy Finance](https://app.beefy.finance/#/fantom) is a  yield optimizer that will accept LP tokens from particular DEX (**D**ecentralized **Ex**changes), farm reward tokens, and let their algorithms sell the reward for additional LP. As such, you can get an increasing investment position that will compound only the tokens from the LP and capture the value of the reward token at the time the token is harvested.
- 
-For our stratgy, we will be using the TOMB-FTM LP token. The reasons are multiple:
- 
-* TOMB being pegged to the FTM token, there's no IL (**I**mpermanent **L**oss) on this pair, so the only variation will be linked to the price variation of FTM
-* TOMB-FTM is rewarded with TSHARE, so selling TSHARE won't impact the 2 tokens from the pair
-* TOMB-FTM has quite a high APY which for a LP token with no IL
-* using the LP token on beefy will allow you to get `mooTombTOMB-FTM` receipt token
- 
-![Tomb LP pairs on Beefy Finance aas of January 2022](<../../.gitbook/assets/exodia-tomb-4.png>)
- 
+
+[Beefy Finance](https://app.beefy.finance/#/fantom) 是一个收益优化器，它将接受来自特定 DEX（去中心化交易所）的 LP 代币、农场奖励代币，并让他们的算法出售奖励以获得额外的 LP。因此，你可以获得越来越多的投资头寸，这将仅复合来自 LP 的代币，并在收获代币时获取奖励代币的价值。
+
+对于我们的策略，我们将使用 TOMB-FTM LP 代币。原因是多方面的：
+
+* TOMB 与 FTM 代币挂钩，这对没有 IL（无常损失），因此唯一的变化将与 FTM 的价格变化有关
+* TOMB-FTM 获得 TSHARE 奖励，因此出售 TSHARE 不会影响该货币对的 2 个代币
+* TOMB-FTM 具有相当高的 APY，对于没有 IL 的 LP 代币来说
+* 在 beefy 上使用 LP 代币将允许你获得 mooTombTOMB-FTM 收据代币
+
+![Tomb LP pairs on Beefy Finance aas of January 2022](../../.gitbook/assets/exodia-tomb-4.png)
+
 {% hint style="info" %}
-For the purpose of this guide, we're using TOMB-FTM token because it presents less risk due to the absence of impermanent loss on the pair. However, you can totally use the TSHARE-FTM pair for higher rewards. Make sure you understand the risks and DYOR first.
+出于本指南的目的，我们使用 TOMB-FTM 代币，因为由于该货币对不存在无常损失，因此风险较小。但是，你完全可以使用 TSHARE-FTM 对来获得更高的奖励。确保你首先了解风险和 DYOR。
 {% endhint %}
- 
-### Market XYZ lending market
- 
-[Market.XYZ](https://fantom.market.xyz/pool/3) is a lending protocol on which you will be able to deposit some particular assets and borrow against them. When you lend your asset, you may get some lending incentives paid in the asset you lend. When you borrow, you will have to paay some interests at the time of repayment in the same asset you borrowed.
- 
-Market XYZ started a partnership with Mai Finance in 2021 in order to allow additional classes of assets to be used as collateral to borrow the MAI stablecoin. These assets are considered more risky than the ones currently accepted directly on Mai Finance, or are just waiting for an official ChainLink Oracle and are not accepted directly on the main app. This brings additional benefits: the QiDAO  protocol is earning fees from borrowed MAI, borrowers are getting MAI at low interest rates (Mai Finance is adding more MAI from the treasury regularly based on demaand) and it is a very interesting use case for the stable coin, driving its usage up. On the flip side, lending markets are a great way to kickstart strong relations with different partners while they are waiting for their assets to be accepted on Mai Finance directly.
- 
-![TOMB Beefy Locker on Market XYZ  as of January 2022](<../../.gitbook/assets/exodia-tomb-5.png>)
- 
-The lending market we are interested in for this strategy is the TOMB Beefy locker. After we deposit our TOMB-FTM tokens on Beefy, we receive mooTombTOMB-FTM receipt token that is a "proof of ownership" for the token that is compounding rewards on Beefy. This receipt token can be used as collateral on MarketXYZ to borrow additional MAI.
+
+### 市场 XYZ 借贷市场
+
+[Market.XYZ](https://fantom.market.xyz/pool/3) 是一种借贷协议，你可以在该协议上存入某些特定资产并借用它们。当你借出资产时，你可能会在你借出的资产中获得一些贷款激励。当您借款时，你必须在还款时为你所借的同一资产支付一些利息。
+
+Market XYZ 于 2021 年开始与 Mai Finance 建立合作伙伴关系，以允许将其他类别的资产用作抵押品来借入 MAI 稳定币。这些资产被认为比目前在 Mai Finance 上直接接受的资产风险更大，或者只是在等待官方的 ChainLink Oracle 并且不直接在主应用程序上接受。这带来了额外的好处：QiDAO 协议从借入的 MAI 中赚取费用，借款人以低利率获得 MAI（Mai Finance 会根据 demaand 定期从宝库中添加更多的 MAI），这是稳定币的一个非常有趣的用例，推动其使用率上升。另一方面，借贷市场是与不同合作伙伴建立牢固关系的好方法，同时他们正在等待他们的资产直接在 Mai Finance 上被接受。
+
+![截至 2022 年 1 月，XYZ 市场上的 TOMB Beefy Locker](../../.gitbook/assets/exodia-tomb-5.png)
+
+我们对此策略感兴趣的借贷市场是 TOMB Beefy 储物柜。在我们将 TOMB-FTM 代币存入 Beefy 后，我们会收到 mooTombTOMB-FTM 收据代币，它是代币的“所有权证明”，可在 Beefy 上获得复合奖励。此收据代币可用作 MarketXYZ 的抵押品以借入额外的 MAI。
 
 {% hint style="danger" %}
-Market.XYZ only allows loans with a minimum value of 0.05 ETH (~$170.00 at time of writing). Make sure you deposit enough collateral if you want to bororw from the different lockers.
+Market.XYZ 只允许最低价值为 0.05 ETH 的贷款（在撰写本文时约为 170.00 美元）。如果你想从不同的储物柜借钱，请确保存入足够的抵押品。
 {% endhint %}
- 
-In the screenshot above, you can see that we can
- 
-* deposit the mooTombTOMB-FTM token as collateral and get 355.4% APY on it, provided by Beefy
-* borrow MAI against our collateral with a 15.02% interest rate (APR)
- 
-It's easy to see that the gains we get from the LP farming out-performs by far the borrowing interests, which makes this strategy viable. However, make sure you monitor properly the price of FTM and TOMB to prevent liquidation and make sure you borrow at a very high CDR (**C**ollateral to **D**ebt **R**atio), which will let you enough time to repay your loan in case of a massive price drop.
- 
-{% hint style="info" %}
-If you're not interested in this strategy but you are a user of Mai Finance, Market XYZ is an amazing application to lend your MAI. You will be paid in additional MAI that will be compounded into your position.
-{% endhint %}
- 
-## Farming strategy
- 
-To complete our investment loop, we will start with purchasing EXOD bonds using MAI. The EXOD rebase rewards will be used to purchase TOMB-FTM LP tokens. The tokens will be used on Beefy to compound the TSHARE rewards. Additionally, the LP token receipt will be used as collateral on Market XYZ to borrow more MAI, which sends us back to our initial step.
- 
-We  will simulate with a few assumptions:
- 
-* all reward rates and prices remain the same over one year
-* Exodia APY is 38,787%
-* TOMB-FTM APY via beefy is 318.51%
-* borrowing interest on Market XYZ is 15.02% APR (interest don't compound so we're using APR when we're referring to borrowing fees)
- 
-Also, we will assume that you are harvesting your bonds and extra EXOD tokens daily and stake 50% to benefit from rebases as soon as possible. Bonds will be purchased at an average of 0% discount for simplicity, but you will hopefully get them with a better discount, and we will assume that we can purchase new bonds every 5 days.
- 
-![](<../../.gitbook/assets/exodia-tomb-6.png>)
- 
-### Day 1
- 
-We need to first figure out which entry point presents the less risk. The TOMB-FTM LP seems to fit exactly this (see reasons detailed on the LP pair description), so we will start the loop at this point with $1,000 worth of TOMB-FTM tokens. Once the LP token has been created on SpookySwap, you can deposit it on Beefy Finance and start borrowing right away.
- 
-For this strategy, we will try to stick to a CDR of 300%. This means that we will be able to borrow $333 worth of MAI from the locker with an interest rate of 15.02%. The MAI borrowed will be used on BeethovenX to get a wFTM-EXOD-gOHM-wsEXOD-MAI LP token. Finally, we will purchase an EXOD bond with the LP. Note that all the setup can be done on Day 1. At the end of the first day (assuming 3 rebases) we will get:
- 
-| Position            | value ($) |
-|---------------------|-----------| 
-| TOMB-FTM            | 1,000.000 |
-| MAI loan            |   333.333 |
-| EXOD                |    66.667 |
-| additional TOMB-FTM |     3.930 |
-| additional EXOD     |     1.098 |
- 
-### Day 2, 3, 4 and 5
- 
-The next few days, it's useless to do anything by harvest and compounding the EXOD rewards since the bond we purchased on Day is still vesting. So We can let the TOMB-FTM LP token grow in price without borrowing more and focus on EXOD rewards. 50% of the reward will be compounded into more EXOD, and the other 50% will be added to the TOMB-FTM LP. At the end of Day 5, when the bond is fully vested, we would have:
 
-| Position            | value ($) |
-|---------------------|-----------|
-| TOMB-FTM            | 1,021.369 |
-| MAI loan            |   333.333 |
-| EXOD                |   338.869 |
-| additional TOMB-FTM |     4.014 |
-| additional EXOD     |     5.582 |
- 
+在上面的截图中，你可以看到我们可以
+
+* 存入 mooTombTOMB-FTM 代币作为抵押品并获得 355.4% APY，由 Beefy 提供
+* 以 15.02% 的利率 (APR) 以我们的抵押品借入 MAI
+
+很容易看出，我们从 LP 农业中获得的收益远远超过了借款利息，这使得这种策略可行。但是，请确保你正确监控 FTM 和 TOMB 的价格以防止清算，并确保你以非常高的 CDR（抵押债务比率）借款，这将使你有足够的时间在价格大幅下跌的情况下偿还贷款.
+
 {% hint style="info" %}
-The additional TOMB-FTM and EXOD are only what is produced on day 5 and compounded at the beginning of Day 6.
+如果你对此策略不感兴趣，但你是 Mai Finance 的用户，那么 Market XYZ 是一款出色的应用程序，可以借出你的 MAI。你将获得额外的 MAI 报酬，该 MAI 将复合到你的头寸中。
 {% endhint %}
- 
-### Day 6
- 
-The TOMB-FTM compounded on Day 5, as well as the 50% EXOD harvested, give you a total of $1,028.173 worth of TOMB-FTM at the beginning of Day 6. This means that your possible loan is $342.724, allowing you to borrow an extra $9.391 worth of MAI that will be used to buy a new bond on Exodia. At this point, the system is primed and can simply manage your investment via a light daily routine.
- 
-### Daily Routine
- 
-The routine is split into 2 parts: the real daily routine that you will have to operate daily, and one that you will have to operate every 5 days.
- 
-Daily, you will have to:
- 
-* Claim vested EXOD tokens on Exodia
-* Stake 50% of the EXOD tokens on Exodia
-* Sell 25% of the EXOD tokens for FTM on SpookySwap
-* Sell 25% of the EXOD tokens for TOMB on SpookySwap
-* Create a TOMB-FTM LP token on SpookySwap
-* Deposit the TOMB-FTM LP token on Beefy Finance
-* Deposit the mooTombTOMB-FTM receipt token on Market.xyz
- 
-Every 5 days, you will have to:
- 
-* Borrow additional MAI from Market.xyz to keep a CDR of 300%
-* Deposit the borrowed MAI on BeethovenX in The Monolith pool
-* Exchange your Beethoven LP token for EXOD bond on Exodia
- 
-### Raw Results month after month
- 
-Here are raw results month after month
- 
-| day |  TOMB-FTM  |    EXOD    |   MAI debt |
-|-----|------------|------------|------------|
-|  30 |  1,222.088 |    488.438 |    407.363 |
-|  60 |  1,531.135 |    735.586 |    510.378 |
-|  90 |  1,956.250 |  1,093.089 |    652.083 |
-| 120 |  2,546.404 |  1,609.179 |    848.801 |
-| 150 |  3,371.740 |  2,353.088 |  1,123.913 |
-| 180 |  4,532.773 |  3,424.178 |  1,510.924 |
-| 210 |  6,173.591 |  4,965.049 |  2,057.864 |
-| 240 |  8,500.790 |  7,180.350 |  2,833.597 |
-| 270 | 11,810.653 | 10,363.762 |  3,936.884 |
-| 300 | 16,528.139 | 14,936.728 |  5,509.380 |
-| 330 | 23,262.834 | 21,504.023 |  7,754.278 |
+
+## 农耕策略
+
+为了完成我们的投资循环，我们将从使用 MAI 购买 EXOD 债券开始。 EXOD rebase 奖励将用于购买 TOMB-FTM LP 代币。这些代币将用于 Beefy 以复合 TSHARE 奖励。此外，LP 代币收据将用作 Market XYZ 的抵押品以借入更多 MAI，这使我们回到了最初的步骤。
+
+我们将通过一些假设进行模拟：
+
+* 所有奖励率和价格在一年内保持不变
+* Exodia APY 是 38,787%
+* 通过 beefy 的TOMB-FTM APY是 318.51%
+* Market XYZ 的借款利息为 15.02% APR（利息不复利，因此我们在提及借款费用时使用 APR）
+
+此外，我们将假设您每天都在收获你的债券和额外的 EXOD 代币，并持有 50% 以尽快从 rebase 中受益。为简单起见，债券将以平均 0% 的折扣购买，但你希望获得更好的折扣，我们假设我们可以每 5 天购买一次新债券。
+
+![](../../.gitbook/assets/exodia-tomb-6.png)
+
+### 第1天
+
+我们需要首先弄清楚哪个入口点的风险较小。 TOMB-FTM LP 似乎完全符合这一点（请参阅 LP 对描述中详细说明的原因），因此我们将在此时使用价值 1,000 美元的 TOMB-FTM 代币开始循环。在 SpookySwap 上创建 LP 代币后，你可以将其存入 Beefy Finance 并立即开始借款。
+
+对于此策略，我们将尝试坚持 300% 的 CDR。这意味着我们将能够以 15.02% 的利率从储物柜中借到价值 333 美元的 MAI。借来的 MAI 将用于 BeethovenX，以获得 wFTM-EXOD-gOHM-wsEXOD-MAI LP 代币。最后，我们将与 LP 购买 EXOD 债券。请注意，所有设置都可以在第 1 天完成。在第一天结束时（假设 3 次变基），我们将获得：
+
+| 头寸           | 价值 ($)    |
+| ------------ | --------- |
+| TOMB-FTM     | 1,000.000 |
+| MAI 借贷       | 333.333   |
+| EXOD         | 66.667    |
+| 额外的 TOMB-FTM | 3.930     |
+| 额外的 EXOD     | 1.098     |
+
+### 第2, 3, 4 和 5天
+
+接下来的几天，因为我们在Day购买的债券仍在归属中，所以通过收获和复合EXOD奖励来做任何事情都没有用。所以我们可以让 TOMB-FTM LP 代币在不借更多钱的情况下涨价，专注于 EXOD 奖励。奖励的 50% 将复合成更多的 EXOD，另外 50% 将添加到 TOMB-FTM LP。在第 5 天结束时，当债券完全归属时，我们将拥有：
+
+| 头寸           | 价值 ($)    |
+| ------------ | --------- |
+| TOMB-FTM     | 1,021.369 |
+| MAI 借贷       | 333.333   |
+| EXOD         | 338.869   |
+| 额外的 TOMB-FTM | 4.014     |
+| 额外的  EXOD    | 5.582     |
+
+{% hint style="info" %}
+额外的 TOMB-FTM 和 EXOD 仅在第 5 天产生并在第 6 天开始时复合。
+{% endhint %}
+
+### 第6天
+
+第 5 天复利的 TOMB-FTM 以及收获的 50% EXOD，在第 6 天开始时为你提供总计价值 1,028.173 美元的 TOMB-FTM。这意味着你可能的贷款为 342.724 美元，允许你借到额外价值 9.391 美元的 MAI 将用于在 Exodia 上购买新债券。此时，系统已准备就绪，可以通过简单的日常工作轻松管理你的投资。
+
+### 日常
+
+该例程分为两部分：你必须每天执行的真正日常例程，以及你必须每 5 天执行一次的例程。
+
+&#x20;每天，你必须：
+
+* 在 Exodia 上索取既定的 EXOD 代币
+* 在 Exodia 上质押 50% 的 EXOD 代币
+* 在 SpookySwap 上为 FTM 出售 25% 的 EXOD 代币
+* 在 SpookySwap 上为 TOMB 出售 25% 的 EXOD 代币
+* 在 SpookySwap 上创建 TOMB-FTM LP 代币
+* 将 TOMB-FTM LP 代币存入 Beefy Finance
+* 在 Market.xyz 上存入 mooTombTOMB-FTM 收据代币
+
+每 5 天，你将不得不：
+
+* 从 Market.xyz 借用额外的 MAI 以保持 300% 的 CDR
+* 将借来的 MAI 存入 The Monolith 池中的 BeethovenX
+* 在 Exodia 上用您的贝多芬 LP 代币兑换 EXOD 债券
+
+### 月复一月的原始结果
+
+这是一个月又一个月的原始结果
+
+| 天   | TOMB-FTM   | EXOD       | MAI debt   |
+| --- | ---------- | ---------- | ---------- |
+| 30  | 1,222.088  | 488.438    | 407.363    |
+| 60  | 1,531.135  | 735.586    | 510.378    |
+| 90  | 1,956.250  | 1,093.089  | 652.083    |
+| 120 | 2,546.404  | 1,609.179  | 848.801    |
+| 150 | 3,371.740  | 2,353.088  | 1,123.913  |
+| 180 | 4,532.773  | 3,424.178  | 1,510.924  |
+| 210 | 6,173.591  | 4,965.049  | 2,057.864  |
+| 240 | 8,500.790  | 7,180.350  | 2,833.597  |
+| 270 | 11,810.653 | 10,363.762 | 3,936.884  |
+| 300 | 16,528.139 | 14,936.728 | 5,509.380  |
+| 330 | 23,262.834 | 21,504.023 | 7,754.278  |
 | 360 | 32,889.239 | 30,933.491 | 10,963.080 |
- 
-### Day 365
- 
-After a complete year of farming this system, and assuming everything is the same as on Day 1 (prices, rates and everything else ...), you would have:
- 
-* $34,855.954 worth of TOMB-FTM LP tokens on Beefy
-* $32,863.908 worth of EXOD tokens
-* a debt of $11,618.651 worth of MAI on Market.xyz, with some additional interests to repay (corresponding to a total debt of $13,363.772)
- 
-It is very important to note that your Collateral to Debt Ratio remains close or above 300% at anytime during the exercise, so it is totally possible for you to sell a part of your TOMB-FTM or EXOD to repay it and lower the intests. It is also possible to adjust the portion of EXOD you sell daily to simply repay your initial loan and purchase new EXOD bonds by selling TOMB-FTM. The variations are endless, so feel free to adjust according to what you like the most.
- 
-In the end, from an initial investment of $1,000 you would end up with $67,719.862 and a debt of $13,363.772, which corresponds to an overall APY of 5,335.56%.
- 
-## Disclaimer
- 
-This is an experimental guide that is highlighting how you can increase your gains by adding Ohm forks in your investment loops. The simulation was done at a time where Exodia had very high APY on staked EXOD tokens. The same can be said about TOMB-FTM. These very high ratios are usually varying a lot, so you may expect a lot less benefits over the span of a complete year. Indeed, most Ohm forks are not designed to sustain such high yields for more than a few months, and generally drastically reduce their emission to continue emitting tokens.
- 
-Stay informed about the projects you're using, don't hesitate to ask questions, and as always, do your own researches.
- 
+
+### 第365天
+
+经过一整年的耕作该系统，并假设一切都与第 1 天相同（价格、费率和其他一切......），你将拥有：
+
+* Beefy 上价值 34,855.954 美元的 TOMB-FTM LP 代币
+* 价值 32,863.908 美元的 EXOD 代币
+* Market.xyz 上价值 11,618.651 美元的 MAI 债务，还有一些额外的利息需要偿还（对应的总债务为 13,363.772 美元）
+
+非常重要的是要注意，在行使期间你的抵押品与债务比率在任何时候都保持接近或高于 300%，因此你完全有可能出售你的 TOMB-FTM 或 EXOD 的一部分来偿还它并降低利率。还可以调整你每天出售的 EXOD 部分，以简单地偿还你的初始贷款并通过出售 TOMB-FTM 购买新的 EXOD 债券。变化无穷无尽，因此请随意根据你最喜欢的内容进行调整。
+
+最后，从 1,000 美元的初始投资开始，您最终将获得 67,719.862 美元和 13,363.772 美元的债务，这对应于 5,335.56% 的整体 APY。
+
+## 免责声明
+
+这是一份实验性指南，重点介绍如何通过在投资循环中添加Ohm forks来增加收益。模拟是在 Exodia 对质押的 EXOD 代币的 APY 非常高的时候进行的。 TOMB-FTM 也是如此。这些非常高的比率通常变化很大，因此你可能期望在一整年的跨度内获得更少的收益。事实上，大多数Ohm forks的设计并不能维持如此高的收益率超过几个月，并且通常会大幅减少其排放以继续发行代币。
+
+随时了解你正在使用的项目，毫不犹豫地提出问题，并一如既往地进行自己的研究。
+
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+本指南绝对不是财务建议，它是出于教育目标而制定的。你需要注意价格变化，供需，奖励计划结束日期，无常损失等......目标不是提出可以盲目遵循的食谱，所以请做好功课和自己的模拟，只有投资你准备好可能失去的东西。
 {% endhint %}
- 

@@ -26,7 +26,7 @@
   * [在 Fantom 上杠杆你的加密货币](jiao-cheng/fantom/leverage-your-crypto-on-fantom.md)
   * [Fantom 上的 MAI 怎么办](jiao-cheng/fantom/what-to-do-with-mai-on-fantom.md)
   * [Farming loop using SpiritSwap](jiao-cheng/fantom/farming-loop-using-spiritswap.md)
-  * [Exodia Combo on Fantom](jiao-cheng/fantom/investing-in-discounted-assets-using-bonds.md)
+  * [Fantom上的Exodia Combo](jiao-cheng/fantom/investing-in-discounted-assets-using-bonds.md)
   * [A Spooky Symfony](jiao-cheng/fantom/spooky-symfony.md)
 * [Moonriver](jiao-cheng/moonriver/README.md)
   * [如何开始使用Moonriver](jiao-cheng/moonriver/how-to-get-started-on-moonriver.md)
