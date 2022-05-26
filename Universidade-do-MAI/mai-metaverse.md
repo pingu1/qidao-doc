@@ -6,7 +6,7 @@ description: >-
 
 # Metaverso e MAI
 
-![](../.gitbook/assets/MAI.png)
+![](../.gitbook/assets/screen-shot-2021-09-13-at-1.06.42-pm.png)
 
 ## Introdução
 
@@ -38,7 +38,7 @@ Pools adicionais podem ser encontrados em outros projetos / farms de rendimento 
 
 Solana é uma plataforma blockchain para aplicativos descentralizados. O objetivo da rede é propor transações baixas (menos de US$ 0,01) e rápidas (menos de 400ms). A ideia por trás disso é criar uma alternativa à Ethereum Mainnet e suas side chains. No entanto, não é porque a Solana é uma concorrente da rede Ethereum que ela não suportaria os mesmos ativos. De fato, a Solana agora suporta a stablecoin MAI que pode ser enviada a partir da Polygon (onde pode ser cunhada).
 
-Para enviar seus tokens MAI para a Solana, você pode usar a [AllBridge](https://allbridge.io), uma plataforma de ponte que permite transferir tokens de uma rede para outra. AllBridge suporta as seguintes redes::
+Para enviar seus tokens MAI para a Solana, você pode usar a [AllBridge](https://allbridge.io/), uma plataforma de ponte que permite transferir tokens de uma rede para outra. AllBridge suporta as seguintes redes::
 
 * Ethereum Mainnet
 * Polygon
@@ -58,7 +58,7 @@ Esteja ciente de que a Solana não oferece nenhuma faucet onde você obterá seu
 
 ### Usando MAI na Solana
 
-Da mesma forma que você pode usar o MAI na Polygon para fornecer liquidez e obter rendimentos em farming, você pode fazer o mesmo no Solana. O principal local onde você pode usar o MAI é a [Saber](https://app.saber.so), na pool de MAI/USDC.
+Da mesma forma que você pode usar o MAI na Polygon para fornecer liquidez e obter rendimentos em farming, você pode fazer o mesmo no Solana. O principal local onde você pode usar o MAI é a [Saber](https://app.saber.so/), na pool de MAI/USDC.
 
 ![Estado do pool MAI/USDC na Saber, Setembro de 2021](../.gitbook/assets/screen-shot-2021-09-13-at-2.11.10-pm.png)
 
@@ -69,7 +69,7 @@ Uma das coisas boas da pool MAI/USDC na Saber é que, diferentemente das pools L
 Isso significa que você pode fazer depósitos com apenas MAI da Mai Finance sem precisar trocar nada por USDC. É particularmente conveniente e evita ser afetado por pequenas diferenças de preço entre as 2 stablecoins. Observe que você receberá recompensas pagas no token de farm nativo, da mesma forma que receberia QUICK realizando farming na QuickSwap (na Polygon), por exemplo. Você pode então vender seus tokens SABER para aumentar sua posição de MAI/USDC.
 
 {% hint style="info" %}
-No Solana, você também pode usar o [Sunny](https://app.sunny.ag), um agregador que comporá automaticamente as recompensas da Saber. Observe que o agregador Sunny não é validado pela equipe Mai Finance. AllBridge e Saber são parceiros oficiais da Mai Finance, mas os resultados não são garantidos. Por favor, como de costume, faça suas próprias pesquisas.
+No Solana, você também pode usar o [Sunny](https://app.sunny.ag/), um agregador que comporá automaticamente as recompensas da Saber. Observe que o agregador Sunny não é validado pela equipe Mai Finance. AllBridge e Saber são parceiros oficiais da Mai Finance, mas os resultados não são garantidos. Por favor, como de costume, faça suas próprias pesquisas.
 {% endhint %}
 
 ## Avalanche

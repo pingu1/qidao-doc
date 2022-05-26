@@ -40,7 +40,7 @@ De momento não existem torneiras disponiveis na rede Avalanche. Se precisas de 
 
 ### Pontes (Bridges)
 
-* [Ponte oficial Avalanche](https://bridge.avax.network):  A rede Avalanche fornece uma ponte para transferir os teus tokens da rede Ethereum. As taxas de transação são pagas com o token a ser transferido, podendo ser elevadas tendo em conta que estás a transferir da rede Ethereum.
+* [Ponte oficial Avalanche](https://bridge.avax.network/):  A rede Avalanche fornece uma ponte para transferir os teus tokens da rede Ethereum. As taxas de transação são pagas com o token a ser transferido, podendo ser elevadas tendo em conta que estás a transferir da rede Ethereum.
 * [Anyswap](https://anyswap.exchange/#/bridge): Ponte que permite a transferência de tokens para várias redes.  Existe um número minimo de tokens a ser transferidos que varia consoante o token, mas o custo de transação é geralmente baixo.
 * [Celer Bridge](https://cbridge.celer.network/#/transfer): Ponte que oferece transferência de tokens entre várias redes. A taxa de transação é de 3% para a rede Avalanche.
 * [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer): Ponte que oferece uma interface intuitiva com baixos custos de transação. Adicionalmente, esta ponte é a solução oficialmente suportada para transferir tokens MAI para a rede avalanche.&#x20;

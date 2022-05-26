@@ -36,7 +36,7 @@ Outra forma de cunhar MAI é através da [Anchor](https://app.mai.finance/anchor
 
 Como você pode ver na imagem abaixo, o preço da stablecoin MAI está quase sempre próximo a $1, isso porque, como a [documentação oficial](https://docs.mai.finance/stablecoin-economics) diz, a stablecoin MAI permite que os usuários se envolvam em arbitragem sem risco por meio da Anchor quando o preço do MAI cair abaixo de US$ 0,99 ou subir acima de US$ 1,01.
 
-![Gráfico de preço do token MAI nos ultimos 90 dias](<../.gitbook/assets/image (7) (1) (1) (1) (1).png>)
+![Gráfico de preço do token MAI nos ultimos 90 dias](<../.gitbook/assets/image (7) (1) (1) (1) (2).png>)
 
 ## Porque está sempre proximo a $1?
 

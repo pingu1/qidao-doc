@@ -5,9 +5,9 @@ description: >-
   nesta pool.
 ---
 
-# Loop de Farming utilizando a SpiritSwap
+# Loop de farming utilizando a SpiritSwap
 
-Ao fazer farming, o par LP (**L**iquidity **P**roviding, provedor de liquidez) é muito importante. De fato, você quer o menor impermanent loss possível para que, assim, você não perca seu investimento inicial. Este par inicial gerará rendimentos, e você pode aumentar seus ganhos ao reinvestir o token com que você fez farming sem riscos adicionais no seu inicial. Esta é uma das razōes porque nossos guias propōem estratégias baseadas em stablecoins apenas, ou em pares que são compsotos por uma stable coin a uma blue chip como Bitcoin, Ethereum, ou o token nativo da rede que está sendo utilizada na estratégia.&#x20;
+Ao fazer farming, o par LP (**L**iquidity **P**roviding, provedor de liquidez) é muito importante. De fato, você quer o menor impermanent loss possível para que, assim, você não perca seu investimento inicial. Este par inicial gerará rendimentos, e você pode aumentar seus ganhos ao reinvestir o token com que você fez farming sem riscos adicionais no seu inicial. Esta é uma das razōes porque nossos guias propōem estratégias baseadas em stablecoins apenas, ou em pares que são compsotos por uma stable coin a uma blue chip como Bitcoin, Ethereum, ou o token nativo da rede que está sendo utilizada na estratégia.
 
 Hoje, nós exploraremos um loop relativamente complexo que sera baseado no par MAI-WFTM provido pela SpiritSwap para celebrar seu lançamento e o boost atual.
 
@@ -31,7 +31,7 @@ Ao fazer farming de MAI-WFTM na SpiritSwap, você receberá recompensas pagas em
 
 ## Farming com tokens SPIRIT na Liquid Driver
 
-[Liquid Driver](https://www.liquiddriver.finance) é outro fork da Uniswap focado em prover liquidez na Fantom. Uma de suas funçōes mais interessantes é o fato que eles podem criar tokens linSPIRIT. A razão entre linSPIRIT e inSPIRIT é de 1:1, é de fato apenas uma versão wrapped (embrulhada) do token inSPIRIT, e você pode trocar ambos tokens um pelo outro na Liqud Driver.
+[Liquid Driver](https://www.liquiddriver.finance/) é outro fork da Uniswap focado em prover liquidez na Fantom. Uma de suas funçōes mais interessantes é o fato que eles podem criar tokens linSPIRIT. A razão entre linSPIRIT e inSPIRIT é de 1:1, é de fato apenas uma versão wrapped (embrulhada) do token inSPIRIT, e você pode trocar ambos tokens um pelo outro na Liqud Driver.
 
 ![LiquidSwapper na Liquid Driver](../../.gitbook/assets/spiritswap-3.png)
 

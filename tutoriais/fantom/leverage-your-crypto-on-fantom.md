@@ -29,7 +29,7 @@ Após depositar seu DAI na Yearn Finance, você deverá obter yvDAI em sua carte
 
 A Mai Finance aceita diversos tokens comprovantes de rendimentos como garantia, incluindo yvDAI. Agora, você pode depositar esse token como garantia e tomar emprestado MAI.
 
-![Deposite seu yvToken na Mai Finance](<../../.gitbook/assets/ftm-leverage-yv2 (1).png>)
+![Deposite seu yvToken na Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
 
 O vault yvDAI possui um limite de liquidação em 110%, isso significa que você pode tomar MAI emprestado até o ponto que a razão entre o valor de sua garantia e o valor da dívida é de 110%. Tenha cuidado, pois 110% é o valor pelo qual você já é liquidado. Você precisa, portanto, manter uma proporção acima deste limite minimo. Como DAI não varia muito em preço (menos de centavos) é possivel mantermos uma CDR (**C**ollateral to **D**ebt **R**atio) "segura" de 115%, mas sinta-se livre para manter a taxa mais alta.
 

@@ -5,21 +5,21 @@ description: >-
   faça o mesmo travando seus tokens QI.
 ---
 
-# Recebendo renda passaiva com a QiDAO
+# Recebendo renda passiva com a QiDAO
 
 ## Renda passiva através da QiDAO?
 
 A QiDAO permite que você receba uma fatia semanal do rendimento obtido pelo protocolo, precisamente:
 
 * 30% do rendimento do reembolso das taxas semanalmente (mais um boost de 25%).&#x20;
-* 100% das recompensas LP recebidas do uso de rendimento da taxa de depósito para farming na QuickSwap&#x20;
+* 100% das recompensas LP recebidas do uso de rendimento da taxa de depósito para farming na QuickSwap
 * 30% das taxas de swap de USDC semanalmente.&#x20;
 
 Essa parte da receita é distribuída para as pessoas que fazem staking e bloqueiam seus tokens QI por um determinado período de tempo, as recompensas são então distribuídas na forma de tokens QI que são enviados diretamente para suas carteiras. Essas recompensas são lançadas por airdrop todas as quartas-feiras, e você pode verificar suas recompensas anteriores [aqui](https://app.mai.finance/rewards).
 
 ## Introdução a snapshots
 
-Uma snapshot (foto instantânea) é basicamente uma gravação do estado de uma blockchain em uma altura de bloco particular. Isso significa que a snapshot gravará o conteúdo de toda a ledger da blockchain, que inclui todos os endereços existentes e seus dados associados (transações, taxas, saldo, etc). Já que a Qi está na blockchain Polygon, podemos verificar quando a próxima snapshot vai ocorrer pela [Polygonscan](https://polygonscan.com).
+Uma snapshot (foto instantânea) é basicamente uma gravação do estado de uma blockchain em uma altura de bloco particular. Isso significa que a snapshot gravará o conteúdo de toda a ledger da blockchain, que inclui todos os endereços existentes e seus dados associados (transações, taxas, saldo, etc). Já que a Qi está na blockchain Polygon, podemos verificar quando a próxima snapshot vai ocorrer pela [Polygonscan](https://polygonscan.com/).
 
 Você se torna elegível para as recompensas ao fazer staking com seus tokens Qi por, pelo menos, 10 dias, dependendo de quando você bloqueou seus tokens. Em outras palavras, um período de staking válido deve conter pelo menos 2 snapshots, então você será pago na quarta-feira seguinte à segunda snapshot.
 

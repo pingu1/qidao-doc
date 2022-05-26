@@ -7,7 +7,7 @@ description: >-
 
 # Metaverso e MAI - Parte 2
 
-![](../.gitbook/assets/screen-shot-2021-09-13-at-1.06.42-pm.png)
+![](../.gitbook/assets/MAI.png)
 
 ## Harmony
 

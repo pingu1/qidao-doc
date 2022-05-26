@@ -43,7 +43,7 @@ Não há nenhum faucet oficial para obter seus primeiros tokens CRO para suas pr
 
 ![Usando a ponte ElkNet e convertendo $1 em tokens de gas](../../.gitbook/assets/Cronos-onboarding-2.png)
 
-* [Crypto.com](https://crypto.com): Não se esqueça de que a Cronos é uma rede profundamente ligada a Crypto.com. Você pode criar uma conta lá, comprar seus tokens CRO diretamente vinculando uma conta bancária e enviá-los a Cronos.
+* [Crypto.com](https://crypto.com/): Não se esqueça de que a Cronos é uma rede profundamente ligada a Crypto.com. Você pode criar uma conta lá, comprar seus tokens CRO diretamente vinculando uma conta bancária e enviá-los a Cronos.
 
 {% hint style="info" %}
 Lembre-se de que você precisará de tokens de gas para poder fazer transações. Isso significa que se você conectar os ativos de outra rede a Cronos em uma conta sem tokens CRO, você ficará preso e não poderá fazer nada. Certifique-se de que sua carteira tenha fundos suficientes para realizar pelo menos uma transação de troca por token de gás.
@@ -82,8 +82,8 @@ Sendo a Cronos uma rede vinculada a Crypto.com, muitos investimentos estão flui
 
 Quando você faz farming na CroDex, você receberá recompensas em tokens CRX que você pode utilizar para staking em um Vault, para obter mais tokens CRX, mas há outras (melhores) opções que serão apresentadas em um tutorial futuro.
 
-* [VVS](https://vvs.finance) e [CronaSwap](https://app.cronaswap.org): Estes são outros DEXes / AMMs que são forks da PancakeSwap (outro fork do Uniswap), onde você obterá os mesmos recursos do CroDex.
-* [Beefy Finance](https://app.beefy.finance/#/cronos), [Adamant](https://adamant.finance) e [Autofarm](https://autofarm.network/cronos/) são agregadores/otimizadores de rendimento famosos que estão presentes em muitas redes, e onde você poderá depositar seus tokens LP da maioria dos DEXes e deixar os algoritmos encarregados dos pools coletarem os tokens de farm e combinarem as recompensas em mais tokens LP.
+* [VVS](https://vvs.finance/) e [CronaSwap](https://app.cronaswap.org/): Estes são outros DEXes / AMMs que são forks da PancakeSwap (outro fork do Uniswap), onde você obterá os mesmos recursos do CroDex.
+* [Beefy Finance](https://app.beefy.finance/#/cronos), [Adamant](https://adamant.finance/) e [Autofarm](https://autofarm.network/cronos/) são agregadores/otimizadores de rendimento famosos que estão presentes em muitas redes, e onde você poderá depositar seus tokens LP da maioria dos DEXes e deixar os algoritmos encarregados dos pools coletarem os tokens de farm e combinarem as recompensas em mais tokens LP.
 * [Crystl Finance](https://cronos.crystl.finance) é um fork da Goose Finance que foi lançado primeiramente na Polygon e agora também está disponível na Cronos. Os usuários poderão depositar tokens LP em vaults para ganhar tokens CRYSTL que podem ser usados para staking ou farming (ou trocados).
 * [Fortune DAO](https://www.fortunedao.com/#/) é o fork principal da Ohm (Olympus) na Cronos que aceita DAI e USDC.
 

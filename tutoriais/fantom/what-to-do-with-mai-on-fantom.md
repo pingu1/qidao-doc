@@ -20,7 +20,7 @@ Projetos blue chip são aplicaçōes DeFi que provaram-se sólidas e que apresen
 
 ### BeethovenX
 
-[BeethovenX](https://app.beets.fi/#/) é um fork da Balancer, um projeto que não foi lançado na Fantom, mas cuja presença é bem estabelecida em outras redes. Como a Balancer, BeethoveeX é um gerenciador automatizado de portólios, provedor de liquidez, e detector de preços. Na plataforma, você será capaz de emprestar suas criptomoedas e coletar taxas de trades. Se precisar de mais informaçōes sobre o projeto, por favor, visite [a documentação oficial](https://docs.beethovenx.io)
+[BeethovenX](https://app.beets.fi/#/) é um fork da Balancer, um projeto que não foi lançado na Fantom, mas cuja presença é bem estabelecida em outras redes. Como a Balancer, BeethoveeX é um gerenciador automatizado de portólios, provedor de liquidez, e detector de preços. Na plataforma, você será capaz de emprestar suas criptomoedas e coletar taxas de trades. Se precisar de mais informaçōes sobre o projeto, por favor, visite [a documentação oficial](https://docs.beethovenx.io/)
 
 O time da BeethovenX não somente criou um fork da Balancer, como também construiu ferramentas incríveis (gerenciamento de portfólio, rastreamento do token nativo BEETS, recompensas que podem ser reivindicadas a qualquer momento). E isso tudo com um universo e uma história fantástica, que os ajudou a criar uma fantástica comunidade.
 
@@ -34,7 +34,7 @@ BeethovenX é também a melhor aplicação se você quer trocar seu MAI por outr
 
 ### SpookySwap
 
-[SpookySwap](https://spookyswap.finance) é provavelmente uma das melhores DEX na Fantom onde você será capaz de trocar seus tokens ERC20, providenciar liquidez e obter rendimentos de farming, criar tokens LP (**L**iquidity **P**rovider), realizar staking com o seu token nativo BOO, e você pode até mesmo fazer a ponte de alguns ativos da Fantom a outras rede (e vice versa). É um fork da Uniswap v2 em que o time construiu mais funçōes incríveis.
+[SpookySwap](https://spookyswap.finance/) é provavelmente uma das melhores DEX na Fantom onde você será capaz de trocar seus tokens ERC20, providenciar liquidez e obter rendimentos de farming, criar tokens LP (**L**iquidity **P**rovider), realizar staking com o seu token nativo BOO, e você pode até mesmo fazer a ponte de alguns ativos da Fantom a outras rede (e vice versa). É um fork da Uniswap v2 em que o time construiu mais funçōes incríveis.
 
 A SpookySwap recentemente introduziu um par de MAI-USDC que pode ser utilizado em farming para lucrar tokens BOO com uma média de APR entre 25% e 30%.
 

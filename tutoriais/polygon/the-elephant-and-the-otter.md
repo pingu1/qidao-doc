@@ -16,11 +16,11 @@ Este poderia ser um bom título para alguma poesia, no entanto, parece que esses
 
 ### Apresentando a Stake DAO
 
-[Stake DAO](https://app.stakedao.org) é uma plataforma de otimização de rendimentos onde os usuários podem depositar seus ativos e permitir que a plataforma use as estratégias mais selecionadas para maximizar os rendimentos. Os investimentos são propostos com uma pontuação de risco, e os investimentos são devidamente exibidos em um belo painel que facilita o acompanhamento dos resultados das estratégias escolhidas. Lançada principalmente na Ethereum Mainnet, a Stake DAO está se expandindo rapidamente para outras cadeias como Polygon e Avalanche. É claro que você pode ler mais sobre o Stake DAO em sua [documentação oficial.](https://stakedao.gitbook.io/stakedaohq/)
+[Stake DAO](https://app.stakedao.org/) é uma plataforma de otimização de rendimentos onde os usuários podem depositar seus ativos e permitir que a plataforma use as estratégias mais selecionadas para maximizar os rendimentos. Os investimentos são propostos com uma pontuação de risco, e os investimentos são devidamente exibidos em um belo painel que facilita o acompanhamento dos resultados das estratégias escolhidas. Lançada principalmente na Ethereum Mainnet, a Stake DAO está se expandindo rapidamente para outras cadeias como Polygon e Avalanche. É claro que você pode ler mais sobre o Stake DAO em sua [documentação oficial.](https://stakedao.gitbook.io/stakedaohq/)
 
 ### A estratégia am3CRV
 
-Para nosso guia, usaremos a `Passive Aave USD Strategy` (Estratégia passiva Aave USD) para a Polygon. Esta estratégia que depende do pool am3CRV da [Curve Finance](https://polygon.curve.fi): você deposita suas stablecoins (USDC, USDT ou DAI) no pool aave da Curve e receberá um token de comprovante am3CRV. Este é o token que você pode usar para fazer staking diretamente na Curve para receber recompensas CRV e WMATIC, mas você também pode depositar esse token na Stake DAO e as recompensas CRV e WMATIC serão vendidas e reinvestidas em sua posição de stablecoins.
+Para nosso guia, usaremos a `Passive Aave USD Strategy` (Estratégia passiva Aave USD) para a Polygon. Esta estratégia que depende do pool am3CRV da [Curve Finance](https://polygon.curve.fi/): você deposita suas stablecoins (USDC, USDT ou DAI) no pool aave da Curve e receberá um token de comprovante am3CRV. Este é o token que você pode usar para fazer staking diretamente na Curve para receber recompensas CRV e WMATIC, mas você também pode depositar esse token na Stake DAO e as recompensas CRV e WMATIC serão vendidas e reinvestidas em sua posição de stablecoins.
 
 ![Pool aave na Curve em janeiro de 2022](../../.gitbook/assets/stakedao-otter-2.png)
 
@@ -40,7 +40,7 @@ Você pode usar o instrumento de farming na Stake DAO para depositar seus tokens
 
 ## Mai Finance
 
-[Mai Finance](https://app.mai.finance) é um protocolo de empréstimos onde você pode depositar seus ativos como garantia e tomar outros emprestado. Esta não é uma plataforma de empréstimos genérica onde você encontrará pessoas emprestando ativos a mutuários. Na Mai Finance, você empresta apenas a si mesmo e apenas toma emprestado por conta dos ativos que possui. Encontre mais detalhes sobre a Mai Finance neste site ou na [documentação oficial.](https://docs.mai.finance)
+[Mai Finance](https://app.mai.finance) é um protocolo de empréstimos onde você pode depositar seus ativos como garantia e tomar outros emprestado. Esta não é uma plataforma de empréstimos genérica onde você encontrará pessoas emprestando ativos a mutuários. Na Mai Finance, você empresta apenas a si mesmo e apenas toma emprestado por conta dos ativos que possui. Encontre mais detalhes sobre a Mai Finance neste site ou na [documentação oficial.](https://docs.mai.finance/)
 
 Em janeiro de 2022, o token sdam3CRV foi aprovado como opção de garantia na Mai Finance. Isso significa que o token que foi criado ao depositar seu recibo am3CRV no Stake DAO agora pode ser usado para tomar emprestado a stablecoin MAI. Isso é ótimo por alguns motivos:
 
@@ -65,7 +65,7 @@ Com o MAI você pode tomar emprestado contra sua garantia, você pode alavancar 
 
 ## OtterClam DAO
 
-[OtterClam Finance](https://app.otterclam.finance) é um OHM-fork na Polygon muito original e inovador, integrando NFTs em sua plataforma. Lançado em novembro de 2021, a OtterClam teve um grande crescimento desde o início e agora está se movendo em direção ao GameFi.
+[OtterClam Finance](https://app.otterclam.finance/) é um OHM-fork na Polygon muito original e inovador, integrando NFTs em sua plataforma. Lançado em novembro de 2021, a OtterClam teve um grande crescimento desde o início e agora está se movendo em direção ao GameFi.
 
 Uma das coisas mais interessantes sobre a OtterClam é sua parceria com o protocolo QiDao por trás da Mai Finance. A maior parte das stablecoins que apoiam seu token CLAM está em MAI, a stablecoin cunhada na Mai Finance. Isso significa que você pode comprar títulos CLAM diretamente usando MAI, e é exatamente isso que faremos em nossa estratégia. De fato, os   OHM-forks são conhecidos por fornecer taxas de recompensa muito altas, e a OtterClam não é uma exceção. Algo único sobre os bonds da OtterClam é que você compra sCLAM (tokens CLAM em staking), para que os tokens recebam recompensas de rebase durante todo o período de vesting, o que torna os títulos ainda mais atraentes.
 

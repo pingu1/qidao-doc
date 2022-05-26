@@ -79,10 +79,10 @@ A Moonriver está ganhando muita força e mais e mais aplicativos estão mudando
 
 Quando você faz farming na Solarbeam, você será recompensado em tokens SOLAR, que permitem a você fazer staking em um Vault por um determinado período de vesting e ganhar tokens SOLAR adicionais, ou mais staking para ganhar outros tokens exóticos para a plataforma.
 
-* [Huckleberry Finance](https://www.huckleberry.finance): Esta é outra DEX / AMM na Moonriver onde você será capaz de obter rendimento por farming e, possivelmente, usar o Beefy para aumentar seus ganhos.
+* [Huckleberry Finance](https://www.huckleberry.finance/): Esta é outra DEX / AMM na Moonriver onde você será capaz de obter rendimento por farming e, possivelmente, usar o Beefy para aumentar seus ganhos.
 * [Beefy Finance](https://app.beefy.finance/#/moonriver): O famoso auto acumulador também está na Moonriver e o ajudará a aumentar seus ganhos com a Solarbeam e a Huckleberry. Como uma observação, a Beefy não propõe o par MAI-MOVR no momento da escrita, mas você poderá usar a Beefy para colher os tokens SOLAR e obter mais MAI-MOVR do acumulador.
-* [Sushiswap](https://app.sushi.com): Não há necessidade de apresentar a SushiSwap! Você poderá trocar seus ativos e fazer farming por certos tokens LP, como faria em qualquer outra rede. As recompensas são concedidas no SUSHI e MOVR.
-* [Rome DAO](https://romedao.finance): Este é o primeiro OHM-fork na Moonriver. Empreste seus ativos para obter tokens ROME com desconto, com que você pode realizar staking para ganhar um APY muito alto. No momento da escrita, o ROI de 5 dias é de cerca de 10,6%. A RomeDAO atualmente aceita FRAX e MIM em sua tesouraria, mas em breve poderá aceitar também MAI.
+* [Sushiswap](https://app.sushi.com/): Não há necessidade de apresentar a SushiSwap! Você poderá trocar seus ativos e fazer farming por certos tokens LP, como faria em qualquer outra rede. As recompensas são concedidas no SUSHI e MOVR.
+* [Rome DAO](https://romedao.finance/): Este é o primeiro OHM-fork na Moonriver. Empreste seus ativos para obter tokens ROME com desconto, com que você pode realizar staking para ganhar um APY muito alto. No momento da escrita, o ROI de 5 dias é de cerca de 10,6%. A RomeDAO atualmente aceita FRAX e MIM em sua tesouraria, mas em breve poderá aceitar também MAI.
 
 ## Mai Finance na Moonriver
 

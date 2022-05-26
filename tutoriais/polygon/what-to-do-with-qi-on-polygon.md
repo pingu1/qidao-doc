@@ -35,7 +35,7 @@ Um lembrete rápido, Qi é pareado a diferentes tokens para formar pares LP (**L
 * Qi-WETH na QuickSwap e receber recompensas em tokens QUICK
 * Qi-QUICK na QuickSwap e receber recompensas em tokens QUICK
 
-![LP Pool na QuickSwap para o par Qi-WETH](<../../.gitbook/assets/image (19) (2) (1).png>)
+![LP Pool na QuickSwap para o par Qi-WETH](<../../.gitbook/assets/image (19) (2) (1) (1).png>)
 
 ### Farming apenas com Qi
 

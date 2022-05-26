@@ -8,7 +8,7 @@ description: >-
 
 ## Introdução
 
-[Celsius Network](https://celsius.network) é um dos grandes players do CeFi, onde as pessoas podem facilmente comprar criptoativos com sua conta bancária e fazer staking com os tokens comprados para obter recompensas extras. Como exemplo, você pode obter um APY de 6,20% em seu BTC (Bitcoin), 5,35% em seu ETH (Ether), etc. Além de manter seus ativos e obter ganhos semanais compostos, você também pode emprestar ativos adicionais contra os que já possui (que são usados como garantia) para alavancar sua posição ou trocar por outros tokens. No entanto, a Celsius é uma rede fechada, e é por isso que muitas vezes é referenciado como um aplicativo CeFi (**Ce**ntralized **Fi**nance).
+[Celsius Network](https://celsius.network/) é um dos grandes players do CeFi, onde as pessoas podem facilmente comprar criptoativos com sua conta bancária e fazer staking com os tokens comprados para obter recompensas extras. Como exemplo, você pode obter um APY de 6,20% em seu BTC (Bitcoin), 5,35% em seu ETH (Ether), etc. Além de manter seus ativos e obter ganhos semanais compostos, você também pode emprestar ativos adicionais contra os que já possui (que são usados como garantia) para alavancar sua posição ou trocar por outros tokens. No entanto, a Celsius é uma rede fechada, e é por isso que muitas vezes é referenciado como um aplicativo CeFi (**Ce**ntralized **Fi**nance).
 
 Se você tiver ativos na Celsius, ainda poderá enviá-los para outros aplicativos na blockchain nativa dos tokens. Por exemplo, você pode transferir ETH para dentro e para fora de Celsius usando sua carteira Ethereum ou BTC usando seu endereço na cadeia Bitcoin. Além disso, a Celsius lançou em fevereiro uma nova ponte chamada CelsiusX que permite enviar alguns ativos específicos do aplicativo Celsius para a Polygon. Os tokens atuais que são suportados são:
 
@@ -90,7 +90,7 @@ Uma vez enviado, você receberá um e-mail solicitando a confirmação da transf
 
 ![Os fundos foram enviados, vejo você na Polygon](../../.gitbook/assets/Celsius-Coinbase-11.png)
 
-Após alguns minutos, você terá seus ativos (cxTokens) disponíveis em sua carteira na Polygon. A melhor maneira de acompanhar essas transferências é provavelmente usar [um aplicativo como o DeBank ](https://debank.com)e dar uma olhada no seu histórico de transações na rede desejada (neste caso, Polygon):
+Após alguns minutos, você terá seus ativos (cxTokens) disponíveis em sua carteira na Polygon. A melhor maneira de acompanhar essas transferências é provavelmente usar [um aplicativo como o DeBank ](https://debank.com/)e dar uma olhada no seu histórico de transações na rede desejada (neste caso, Polygon):
 
 ![Transação como vista em seu histórico no DeBank](../../.gitbook/assets/Celsius-Coinbase-12.png)
 

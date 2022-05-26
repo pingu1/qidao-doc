@@ -48,7 +48,7 @@ Após ter feito isso, você está quase pronto para poder utilizar a carteira Me
 
 Agora que você já tem tudo configurado para utilizar a rede Polygon, você precisa de um saldo de MATIC, o token da rede Polygon, em sua carteira, senão, você nao conseguirá realizar qualquer **transação** na rede Blockchain. Uma transação é basicamente uma troca realizada entre 2 endereços, que requer tempo para ser processado (isso é feito atraves dos diferentes validadores que a rede Polygon possui) e gera uma taxa (essa taxa é conhecida como _**Gas**_**, gasolina em inglês,** e é paga atraves do tokens MATIC).
 
-Felizmente, esta [página](https://matic.supply) distribui MATIC gratuitamente, para ajudar a você realizar as suas primeiras transaçoes na rede Polygon (este tipo de pagina pode ser chamado de _**faucet,**_** ou torneira em inglês**). A unica coisa que você precisa fazer é conectar a sua carteira à pagina e completar o captcha. Estes 0.002 MATIC (\~0,00223$) irão permitir a voce fazer algumas transaçoes na rede Polygon.
+Felizmente, esta [página](https://matic.supply/) distribui MATIC gratuitamente, para ajudar a você realizar as suas primeiras transaçoes na rede Polygon (este tipo de pagina pode ser chamado de _**faucet,**_** ou torneira em inglês**). A unica coisa que você precisa fazer é conectar a sua carteira à pagina e completar o captcha. Estes 0.002 MATIC (\~0,00223$) irão permitir a voce fazer algumas transaçoes na rede Polygon.
 
 ![Garantindo MATIC gratuitamente](<../../.gitbook/assets/image (26).png>)
 
@@ -58,7 +58,7 @@ Antes de avançarmos para a próxima parte do artigo, você precisa estar atento
 
 ## Adicionando tokens à Metamask
 
-Agora que você ja possui um saldo positivo de MATIC na sua Metamask, você está pronto para utilizar os diferentes DApps e tokens que a Polygon possui. Você pode copiar o endereço do token que você deseja usar utilizando a [PolygonScan](https://polygonscan.com). Quando você acessar a página, apenas precisará escrever o nome do token que deseja adicionar. Por exemplo, se nós procuramos QiDAO na Polygon, nós encontraremos isto:
+Agora que você ja possui um saldo positivo de MATIC na sua Metamask, você está pronto para utilizar os diferentes DApps e tokens que a Polygon possui. Você pode copiar o endereço do token que você deseja usar utilizando a [PolygonScan](https://polygonscan.com/). Quando você acessar a página, apenas precisará escrever o nome do token que deseja adicionar. Por exemplo, se nós procuramos QiDAO na Polygon, nós encontraremos isto:
 
 ![Resultado exibido ao pesquisar QiDAO na PolygonScan](<../../.gitbook/assets/image (24).png>)
 
@@ -68,7 +68,7 @@ Agora, você precisará copiar o endereço do contrato e clicar em **adicionar t
 
 ## Como comprar tokens na Polygon
 
-Agora que nós temos nossa Metamask configurada e um saldo de MATIC para pagar o _gas_, nós podemos começar a comprar alguns tokens na rede Polygon. Para fazer isto, você precisar acessar uma **DEX** (_Decentralized Exchange_, ou Corretora Decentralizada em inglês). Há muitas DEX para você escolher, tais como: [_Quickswap_](https://quickswap.exchange/#/swap), [_Slingshot_](https://app.slingshot.finance/trade/m/MATIC/USDC), [_Dexguru_](https://dex.guru), [_Sushiswap_](https://app.sushi.com/swap), etc.&#x20;
+Agora que nós temos nossa Metamask configurada e um saldo de MATIC para pagar o _gas_, nós podemos começar a comprar alguns tokens na rede Polygon. Para fazer isto, você precisar acessar uma **DEX** (_Decentralized Exchange_, ou Corretora Decentralizada em inglês). Há muitas DEX para você escolher, tais como: [_Quickswap_](https://quickswap.exchange/#/swap), [_Slingshot_](https://app.slingshot.finance/trade/m/MATIC/USDC), [_Dexguru_](https://dex.guru/), [_Sushiswap_](https://app.sushi.com/swap), etc.&#x20;
 
 Após você decidir que DEX deseja utiliar, você pode começar a comprar seus tokens favoritos na rede Polygon.
 
@@ -80,7 +80,7 @@ Um DApp interessante que pode ser utilizado no momento voce for comprar tokens s
 
 ## Verificando o histórico da sua carteira
 
-É importante saber como verificar o histórico de transaçōes da sua carteira, e para fazer isso, você pode utilizar a [DeBank](https://debank.com). DeBank permite a você conferir as diferentes transações que voce realizou utilizando sua Metamask, assim como conferir o seu portfolio dentro de todas as redes que voce utiliza ou os NFT's que você possui. Isto será util quando você quiser comparar, por exemplo, os diferentes _airdrops_ de Qi que você recebe ao fazer _staking_ de Qi.
+É importante saber como verificar o histórico de transaçōes da sua carteira, e para fazer isso, você pode utilizar a [DeBank](https://debank.com/). DeBank permite a você conferir as diferentes transações que voce realizou utilizando sua Metamask, assim como conferir o seu portfolio dentro de todas as redes que voce utiliza ou os NFT's que você possui. Isto será util quando você quiser comparar, por exemplo, os diferentes _airdrops_ de Qi que você recebe ao fazer _staking_ de Qi.
 
 ![Todas as transaçōes feitas com o nosso novo endereço Metamask](<../../.gitbook/assets/image (10).png>)
 
@@ -91,7 +91,7 @@ Como você pode perceber, por exemplo, há uma transação contendo 800,000 DxDe
 Aqui há alguns links que podem ser úteis ao utilizar a rede Polygon:
 
 * [Quickswap](https://quickswap.exchange/#/swap): uma das maiores DEX (corretoras decentralizadas)
-* [AAVE](https://app.aave.com): útil para obter para credito colateralizado em criptomoedas
+* [AAVE](https://app.aave.com/): útil para obter para credito colateralizado em criptomoedas
 * [PolygonScan](https://polygonscan.com/gastracker/): útil para analisar tokens, e conferir os preços de gas da rede Polygon
 
 ## Aviso legal

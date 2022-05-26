@@ -9,7 +9,7 @@ description: >-
 
 ## Quando uma imagem vale mil palavras
 
-![](<../../.gitbook/assets/image (21) (2).png>)
+![](<../../.gitbook/assets/image (21) (1) (1).png>)
 
 ## Mas mil palavras também são valiosas
 
@@ -19,7 +19,7 @@ Vamos assumir que gostas do token MATIC e que consideras que está subvalorizado
 
 ### Usa plataforma Aave para aumentar o teu capital
 
-[Aave](https://app.aave.com) é uma plataforma de empréstimos onde podes depositar os teus tokens MATIC (entre outros tokens). Ao depositares na plataforma AAVE, os teus tokens vão gerar lucro. Por exemplo, os teus $100 de MATIC vão gerar uma potencial taxa de retorno de 1.2% ao longo de 1 ano (annual percentage yield (APY) =rendimento percentual anual). Por vezes, a plataforma AAVE dispõe de programas específicos que fornecem recompensas adicionais para além da taxa base de APY.
+[Aave](https://app.aave.com/) é uma plataforma de empréstimos onde podes depositar os teus tokens MATIC (entre outros tokens). Ao depositares na plataforma AAVE, os teus tokens vão gerar lucro. Por exemplo, os teus $100 de MATIC vão gerar uma potencial taxa de retorno de 1.2% ao longo de 1 ano (annual percentage yield (APY) =rendimento percentual anual). Por vezes, a plataforma AAVE dispõe de programas específicos que fornecem recompensas adicionais para além da taxa base de APY.
 
 Enquanto que os teus tokens MATIC estiverem na reserva de liquidez da plataforma AAVE (ou _liquidity pool_ em inglês), os juros gerados são automaticamente compostos, o que significa que a tua quantidade de tokens MATIC aumenta com o passar do tempo.
 

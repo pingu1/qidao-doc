@@ -24,7 +24,7 @@ Projetos bluechip são aplicaçōes de DeFi que mostram-se excelentes, e que apr
 
 ### Balancer
 
-[Balancer](https://polygon.balancer.fi/#/) é um gerenciador automatizado de portfólios, provedor de liquidez, e detector de preços. Nesta plataforma, você poderá emprestar suas criptomoedas, e receber taxas dos traders, que reorganizam seu portfolio seguindo oportunidade de arbitragem. Se você precisar de mais informaçōes sobre o balancer, por favor leia o [guia oficial](https://docs.balancer.fi).
+[Balancer](https://polygon.balancer.fi/#/) é um gerenciador automatizado de portfólios, provedor de liquidez, e detector de preços. Nesta plataforma, você poderá emprestar suas criptomoedas, e receber taxas dos traders, que reorganizam seu portfolio seguindo oportunidade de arbitragem. Se você precisar de mais informaçōes sobre o balancer, por favor leia o [guia oficial](https://docs.balancer.fi/).
 
 Na rede Polygon, o Balancer possui uma pool composta de 4 principais stablecoins: DAI, USDC, USDT e MAI (miMATIC). Esta pool possui atualmente uma taxa APR de aproximadamente 20%, que tem se mostrado estável.
 
@@ -32,7 +32,7 @@ Na rede Polygon, o Balancer possui uma pool composta de 4 principais stablecoins
 
 A melhor coisa da Balancer é que você não precisa necessariamente possuir as 4 moedas para depositá-las na pool. A Balancer irá gerar automaticamente uma combinação equilibrada com qualquer seja o depósito que você fizer. Isso significa que se você tem 100$ de MAI, você pode simplesmente depositá-los na pool da Balancer e deixar o algoritmo introduzi-los corretamente para obter uma razão de 25% para cada moeda, dependendo de seu preço no momento do depósito.
 
-Recompensas para a pool são pagas utilizando o token BAL, distribuidas semanalmente. Somado ao token BAL, recompensas adicionais podem ser garantidas dependendo da pool que você investiu. Você pode conferir os diferentes programas de incentivo[ aqui](https://balancer-incentives.web.app). No nosso caso, participar da pool de stablecoins tambem nos gerará recompensas em MATIC e Qi.
+Recompensas para a pool são pagas utilizando o token BAL, distribuidas semanalmente. Somado ao token BAL, recompensas adicionais podem ser garantidas dependendo da pool que você investiu. Você pode conferir os diferentes programas de incentivo[ aqui](https://balancer-incentives.web.app/). No nosso caso, participar da pool de stablecoins tambem nos gerará recompensas em MATIC e Qi.
 
 O fluxo completo seria algo semelhante a esta foto:&#x20;
 
@@ -42,7 +42,7 @@ Se você precisa de mais informações sobre como usar a Mai Finance para empres
 
 ### Curve Finance
 
-Um certo click-bait aqui. [Curve](https://polygon.curve.fi) é outra plataforma onde voce é capaz de emprestar suas criptomoedas em pools que ter geram rendimento, mas não em MAI diretamente, pelos menos ainda. As pools que nós estamos interessadas são:&#x20;
+Um certo click-bait aqui. [Curve](https://polygon.curve.fi/) é outra plataforma onde voce é capaz de emprestar suas criptomoedas em pools que ter geram rendimento, mas não em MAI diretamente, pelos menos ainda. As pools que nós estamos interessadas são:&#x20;
 
 * A pool AAVE que gera entre 5% e 15% de APR (o APR varia bastante) no trio de stablecoins (DAI/USDC/USDT). Esta pool funciona exatamente como a Balancar, de modo que você participar da pool com apenas um ativo, que será utilizado na AAVE pelo protocolo.
 * A pool Atricrypto que é composta do trio de stablecoins e também inclui wETH e wBTC para mitigar impermanent loss. Esta pool possui um APR que varia entre 25% e 35%. No momento, o time da Mai Finance está tentando adicionar MAI a essa pool, o que significa que você poderia entrar com o seu MAI diretamente.
@@ -129,7 +129,7 @@ Outras farms provavelmente já possuem pools de MAI/USDC. Se você deseja ficar 
 
 ### Uma pequena explicação
 
-A [Impermax](https://polygon.impermax.finance) é uma plataforma que permite aos seus usuarios alavancarem seus LP tokens para obterem rendimentos maiores. O objetivo é muito simples: ao providenciar LP tokens e utilizá-los como garantia, você poderá tomar emprestado mais dos 2 ativos subjacentes para gerar mais LP tokens e repetir o loop.
+A [Impermax](https://polygon.impermax.finance/) é uma plataforma que permite aos seus usuarios alavancarem seus LP tokens para obterem rendimentos maiores. O objetivo é muito simples: ao providenciar LP tokens e utilizá-los como garantia, você poderá tomar emprestado mais dos 2 ativos subjacentes para gerar mais LP tokens e repetir o loop.
 
 ![Loop da Impermax explicado](../../.gitbook/assets/screen-shot-2021-08-11-at-1.15.21-pm.png)
 

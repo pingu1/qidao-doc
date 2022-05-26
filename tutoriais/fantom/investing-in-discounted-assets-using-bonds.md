@@ -45,7 +45,7 @@ Este é provavelmente o primeiro fork da Ohm usando um token LP de um fork da Ba
 Isso reduz drasticamente a pressão de venda dos tokens EXOD, o que beneficia o protocolo. Anteriormente, os flippers de títulos teriam que vender seu EXOD para obter DAI e comprar títulos adicionais, o que é prejudicial por reduzir o preço do token e causar um efeito em cascata ao tesouro e ao projeto.
 
 {% hint style="info" %}
-Se você não está familiarizado com os projetos Ohm, recomendo fortemente mais algumas leituras sobre o assunto. Você pode consultar nosso guia sobre Klima (veja a seção Polígono) ou ir diretamente para a [official documentation of Exodia](https://docs.exodia.finance). Além disso, você pode se juntar à discórdia e se inscrever no esquema de educação..
+Se você não está familiarizado com os projetos Ohm, recomendo fortemente mais algumas leituras sobre o assunto. Você pode consultar nosso guia sobre Klima (veja a seção Polígono) ou ir diretamente para a [official documentation of Exodia](https://docs.exodia.finance/). Além disso, você pode se juntar à discórdia e se inscrever no esquema de educação..
 {% endhint %}
 
 Você também vê que o LP token aceita MAI, a stablecoin que você pode cunhar na Mai Finance. Esta será, na verdade, nossa fonte principal para o LP (veremos a seguir). Depois de comprar seus bonds com um desconto decente, você receberá seus tokens EXOD no final do período de vesting. Você também pode fazer staking com esse token, rendendo um APY (**A**nnual **P**ercentage **Y**ield, ou Rendimento Percentual Anual) de 38.787%, o que equivale a um APR (**A**nnual **P**ercentage **R**ate, ou Taxa Percentual Anual) de 601% e um ganho diário de 1,65%.
@@ -54,7 +54,7 @@ Usaremos o sistema de bonding para comprar tokens EXOD com desconto e lucrar com
 
 ## Tomb Finance
 
-[Tomb Finance](https://tomb.finance) é um projeto muito particular, original em muitos aspectos. O token TOMB é uma stablecoin algorítmica atrelada ao token FTM, projetada para ser um meio de troca e para adicionar liquidez adicional ao FTM, o token de gas da rede Fantom.
+[Tomb Finance](https://tomb.finance/) é um projeto muito particular, original em muitos aspectos. O token TOMB é uma stablecoin algorítmica atrelada ao token FTM, projetada para ser um meio de troca e para adicionar liquidez adicional ao FTM, o token de gas da rede Fantom.
 
 O ecossistema Tomb Finance propõe mais 2 tokens:
 
