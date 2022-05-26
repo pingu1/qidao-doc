@@ -20,98 +20,97 @@ Neste artigo, focaremos em stablecoins atreladas a FIATs (moedas emitidas pelo g
 ![](../../.gitbook/assets/Jarvis-0.png)
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Por favor, mantenha-se informado, monitore os mercados, fique de olho em seus investimentos e, como sempre, faça sua própria pesquisa.
 {% endhint %}
 
-## Why do we need synthetic FIATs ?
+## Por que precisamos de dinheiro sintético?
 
-Let's consider you are living in a European country and use Euro daily. If you were to buy crypto assets, you would most likely buy them with your Euros. For volatile assets like Bitcoin, it doesn't really matter because you'll be focusing on the price of Bitcoin in Euros to assess whether or not you are making money. And hopefully, you will make some.
+Vamos considerar que você mora em um país europeu e usa o Euro diariamente. Se você fosse comprar criptoativos, provavelmente os compraria com seus euros. Para ativos voláteis como o Bitcoin, isso realmente não importa, porque você se concentrará no preço do Bitcoin em euros para avaliar se está ou não ganhando dinheiro. E esperançosamente, você vai fazer alguns.
 
-But what if you want to invest in DeFi and yield farming instead? And what if, to mitigate the risks, you want to provide liquidity using stable coins only? Most of the stable liquidity on many chains is provided as USD-pegged assets, which means you will have to purchase USDC/USDT/DAI/MAI using your Euros. At this point, you should check that the liquidity you provide is generating interest, but also that the price difference between the US Dollar and the Euro isn't working against you.
+Mas e se você quiser investir em DeFi e produzir farming? E se, para mitigar os riscos, você quiser fornecer liquidez usando apenas stablecoins? A maior parte da liquidez de stablecoins em muitas redes é fornecida como ativos indexados ao USD, o que significa que você terá que comprar USDC/USDT/DAI/MAI usando seus Euros. Neste ponto, você deve verificar se a liquidez que você fornece está gerando juros, mas também se a diferença de preço entre o dólar americano e o euro não está trabalhando contra você.
 
-![EUR/USD over the last year](../../.gitbook/assets/Jarvis-1.png)
+![EUR/USD durante o último ano](../../.gitbook/assets/Jarvis-1.png)
 
-If you bought 100€ worth of USDC on the 20th of September 2021, you would have had $117.29 worth of USDC because the ratio EUR:USD was 1:1.1729 at that time. If you were to convert $117.29 worth of USDC in Euros today (March 24th, 2022) with a ratio 1:1.0994, you would get 106.69€, or a gain of 6.69%.
+Se você comprou 100€ de USDC no dia 20 de setembro de 2021, você teria $117,29 de USDC porque a relação EUR:USD era de 1:1,1729 naquele momento. Se você converter $117,29 de USDC em Euros hoje (24 de março de 2022) com uma proporção de 1:1,0994, obterá 106,69€, ou um ganho de 6,69%.
 
-But if you bought CAD 100 (100 Canadian Dollars) worth of USDC on the same day (September 20th, 2021) with a ratio of 1:0.7796 you would have had USD 77.96 worth of USDC. Converting these today to CAD with a ratio of 1:0.7972, would be worth CAD 97.79, or a loss of 2.21%.
+Mas se você comprou CAD 100 (100 dólares canadenses) de USDC no mesmo dia (20 de setembro de 2021) com uma proporção de 1:0,7796, você teria $77,96 de USDC. Convertê-los hoje para CAD com uma proporção de 1:0,7972 valeria CAD 97,79, ou uma perda de 2,21%.
 
-However, 1 CAD always equals 1 CAD no matter what, like 1 USD = 1 USD and 1 EUR = 1 EUR.
+No entanto, 1 CAD sempre é igual a 1 CAD, não importa o que aconteça, como 1 USD = 1 USD e 1 EUR = 1 EUR.
 
-Every currency of every country varies according to the geopolitical situation, internal and international politics, micro and macroeconomic decisions. This is why you need to pay attention to the price variation of your crypto assets, even if they are "stable".
+Cada moeda de cada país varia de acordo com a situação geopolítica, política interna e internacional, decisões micro e macroeconômicas. É por isso que você precisa ficar atento à variação de preços de seus ativos de criptomoedas, mesmo que sejam "estáveis".
 
-## Jarvis Network and Mt. Pelerin
+## Rede Jarvis e Mt. Pelerin
 
-### What is Jarvis Network
+### O que é a Rede Jarvis
 
-[Jarvis Network](https://jarvis.network/) is a specialized application that allows users [to swap their crypto assets](https://app.jarvis.exchange/) for synthetics FIATs. A synthetic FIAT is a cryptocurrency that is pegged to the price of an existing FIAT. As such, Jarvis will let you swap your USDCs for
+[Rede Jarvis](https://jarvis.network/) é um aplicativo especializado que permite aos usuários [trocarem seus criptoativos](https://app.jarvis.exchange/) por moedas fiduciárias (FIAT) sintéticas. Um FIAT sintético é uma criptomoeda atrelada ao preço de um FIAT existente. Como tal, Jarvis permitirá que você troque seus USDCs por:
 
-* jCAD: the crypto version of the Canadian Dollar
-* jEUR: the crypto representation of Euro
-* jJPY: the crypto version of the Japanese Yen
-* jSGD, jCHF, jGBP, and many more
+* jCAD: a versão cripto do dólar canadense
+* jEUR: a versão cripto do Euro
+* jJPY: a versão criptográfica do iene japonês
+* jSGD, jCHF, jGBP, e muitas outras
 
-As such, Jarvis really is an On-Chain Forex (**For**eign **Ex**change) that is live on the Ethereum Mainnet, but also on Polygon, BNB Chain, Gnosis Chain, and Avalanche.
+Como tal, Jarvis é realmente uma Forex On-Chain (Foreign Exchange, Agência de Câmbio) que está ao vivo na Ethereum Mainnet, mas também na Polygon, BNB Chain, Gnosis Chain e Avalanche.
 
-But it doesn't stop there. Jarvis proposes incentivezed liquidity pools that inclue jFIATs. This is done to attract users to deposit their jFIATs and earn yields on their stablecoins (with the hability to deposit a single asset via Curve pools), help other protocols that offer stable coins while not having a lot of liquidity, and make it easy for DeFi users to off-ramp their gains.
+Mas não para por aí. Jarvis propõe pools de liquidez incentivados que incluem jFIATs. Isso é feito para atrair usuários para depositar seus jFIATs e obter rendimentos em suas stablecoins (com a capacidade de depositar um único ativo por meio de pools da Curve), ajudar outros protocolos que oferecem stablecoins sem ter muita liquidez e facilitar para usuários DeFi aumentarem seus ganhos.
 
-![Liquidity pools on Jarvis as of March 2022](../../.gitbook/assets/Jarvis-2.png)
+![Pools de liquidez em Jarvis a partir de março de 2022](../../.gitbook/assets/Jarvis-2.png)
 
 {% hint style="info" %}
-You can see in the screenshot above that the 2CAD pair is composed of jCAD and CADC. The CADC token is actually another version of the Canadian Dollar provided by [DFX](https://app.dfx.finance/), another decentralized Forex solution.
+Você pode ver na captura de tela acima que o par 2CAD é composto por jCAD e CADC. O token CADC é na verdade outra versão do dólar canadense fornecida pela [DFX](https://app.dfx.finance/), outra solução Forex descentralizada.
 {% endhint %}
 
 ### Mt. Pelerin
 
-[Mt. Pelerin](https://www.mtpelerin.com/bridge-wallet) is a non custodial fiat-crypto OTC desk. It allows users to purchase crypto from their bank account directly, and to have them directly deposited in their crypto wallet. It's also a direct partner of Jarvis and lets you buy jFIATs.
+[Mt. Pelerin](https://www.mtpelerin.com/bridge-wallet) é uma mesa OTC fiat-cripto sem custódia. Ela permite que os usuários comprem criptomoedas diretamente de sua conta bancária e os depositem diretamente em sua carteira de criptomoedas. Também é um parceiro direto da Jarvis e permite comprar jFIATs.
 
 {% hint style="info" %}
-The easiest way to use Mt. Pelerin is via the Bridge Wallet mobile application. Note that because it's a centralized service, you will have to provide personal information to prove your identity if you want to be able to use the service. You also need to have a bank that allows you to make bank transfers to Switzerland. However, it's always possible to use their website on which you will find a widget allowing you to buy cryptocurrencies from a bank transfer or using a Credit Card. This isn't subject to any KYC but has some limitations. Note that by using the website, your purchase will be sent directly to your web wallet. For the rest of this guide, we will present the Birdge Wallet solution though.
+A maneira mais fácil de usar o Mt. Pelerin é através do aplicativo móvel Bridge Wallet. Observe que, por ser um serviço centralizado, você terá que fornecer informações pessoais para provar sua identidade se quiser usar o serviço. Você também precisa ter um banco que permita fazer transferências bancárias para a Suíça. No entanto, sempre é possível usar o site deles no qual você encontrará um widget que permite comprar criptomoedas por transferência bancária ou cartão de crédito. Isso não está sujeito a nenhum KYC, mas tem algumas limitações. Observe que, ao usar o site, sua compra será enviada diretamente para sua carteira web. No restante deste guia, apresentaremos a solução Bridge Wallet.
 {% endhint %}
 
-![Buying some jEUR with a EUR bank transfer](../../.gitbook/assets/Jarvis-3.png)
+![Comprar alguns jEUR com uma transferência bancária em EUR](../../.gitbook/assets/Jarvis-3.png)
 
-Bank transfers may be subject to fees, and will most likely take some time to complete, but overall, Mt. Pelerin allows you to easily buy and sell your synthetic FIATs for their FIAT counterparts. They also have an internal [fee structure](https://www.mtpelerin.com/pricing) that you can read in more detail, and depending on the asset you buy, you may be able to buy and sell up to $100,000 per year free of charge.
+As transferências bancárias podem estar sujeitas a taxas e provavelmente levarão algum tempo para serem concluídas, mas no geral, o Mt. Pelerin permite que você compre e venda facilmente seus FIATs sintéticos por suas contrapartes FIAT. Eles também têm uma [estrutura de taxas](https://www.mtpelerin.com/pricing) internas que você pode estudar com mais detalhes e, dependendo do ativo que você comprar, poderá comprar e vender até $100.000 por ano gratuitamente.
 
-![Selling some jCAD to my bank account](../../.gitbook/assets/Jarvis-6.png)
+![Vendendo um pouco jCAD para minha conta bancária](../../.gitbook/assets/Jarvis-6.png)
 
 {% hint style="info" %}
-If you bought jFIATs, your bank account is automatically linked to your Bridge Wallet account and you will be able to select it from the dropdown list of recipients. If not, you will have to create a new account from an IBAN.
+Se você comprou jFIATs, sua conta bancária é automaticamente vinculada à sua conta Bridge Wallet e você poderá selecioná-la na lista suspensa de destinatários. Caso contrário, terá de criar uma nova conta a partir de um IBAN.
 {% endhint %}
 
-### Link your Polygon wallet to your Mt. Pelerin account (Bridge wallet address)
+### Vincule sua carteira Polygon à sua conta Mt. Pelerin (endereço da carteira Bridge)
 
-Linking your wallet to your Mt. Pelerin / Bridge Wallet account is as easy as
+Vincular sua carteira à sua conta Mt. Pelerin / Bridge Wallet é muito fácil. Você só precisa:&#x20;
 
-* Opening the Bridge Wallet application
-* Open the Addresses tab at the bottom
-* Click on `Link an address`
-* Take a photo of the QR code of your Polygon wallet, or copy and paste the complete address in the field
-* Send a few MATICs to the Bridge Wallet address to validate it
+* Abra a guia Endereços na parte inferior
+* Clique em `Link an address`
+* Tire uma foto do código QR da sua carteira Polygon ou copie e cole o endereço completo no campo
+* Envie alguns MATICs para o endereço da Bridge Wallet para validá-lo
 
 ![](../../.gitbook/assets/Jarvis-5.png)
 
-![Linking my Polygon wallets to my Mt. Pelerin application](../../.gitbook/assets/Jarvis-4.png)
+![Vinculando minhas carteiras Polygon ao meu aplicativo Mt. Pelerin](../../.gitbook/assets/Jarvis-4.png)
 
 {% hint style="info" %}
-Once again, you can use the widget on the Mt. Pelerin website to [buy](https://www.mtpelerin.com/buy-ehtereum) and [sell](https://www.mtpelerin.com/sell-ethereum) your crypto using your web wallet (or hardware wallet) directly without using the Bridge Wallet. Please refer to the Mt. Pelerin website.
+Mais uma vez, você pode usar o widget no site da Mt. Pelerin para comprar e vender suas criptomoedas usando sua carteira da web (ou carteira de hardware) diretamente sem usar a Bridge Wallet. Consulte o site da Mt. Pelerin.
 {% endhint %}
 
-### Sending jFIATs to your Polygon wallet
+### Enviando jFIATs para sua carteira Polygon
 
-Sending your jFIATs to your wallet on Polygon (or any supported chain) is very easy. From the Wallet tab, make sure you are on the network you want to use as a destination and load your jWallet Currencies.
+Enviar seus jFIATs para sua carteira na Polygon (ou em qualquer rede suportada) é muito fácil. Na guia Wallet, verifique se você está na rede que deseja usar como destino e carregue suas moedas do jWallet.
 
-![Sending jCAD to Polygon](../../.gitbook/assets/Jarvis-8.png)
+![Enviando jCAD à Polygon](../../.gitbook/assets/Jarvis-8.png)
 
-After you selected the jFIAT you want to send, simply click on send, fill up the different fields, then initiate the transaction and enjoy low gas and fast processing!
+Depois de selecionar o jFIAT que deseja enviar, basta clicar em enviar, preencher os diferentes campos, iniciar a transação e desfrutar de baixo gás e processamento rápido!
 
 {% hint style="info" %}
-You can get a full recap of all your transactions in the activity section of each jFIAT, as well as on the Activity tab on the main screen.
+Você pode obter uma recapitulação completa de todas as suas transações na seção de atividades de cada jFIAT, bem como na guia Atividade na tela principal.
 {% endhint %}
 
-![Checking that I received my jCAD on DeBank.com](../../.gitbook/assets/Jarvis-7.png)
+![Verificando se recebi meu jCAD no DeBank.com](../../.gitbook/assets/Jarvis-7.png)
 
 {% hint style="success" %}
-Mt. Pelerin is a very good solution to buy and sell cryptocurrencies and synthetic FIATs. But you can also use this service to send money to your friends and family if they are also using the application and possibly bypass complex bank transfers or limitations.
+Mt. Pelerin é uma solução muito boa para comprar e vender criptomoedas e FIATs sintéticos. Mas você também pode usar este serviço para enviar dinheiro para seus amigos e familiares se eles também estiverem usando o aplicativo e possivelmente contornar transferências bancárias complexas ou limitações.
 {% endhint %}
 
 ## Getting the best of your stable jFIATs
