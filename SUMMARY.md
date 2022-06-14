@@ -37,6 +37,8 @@
 * [Harmony](tutoriels/harmony/README.md)
   * [How to get started on Harmony](tutoriels/harmony/how-to-get-started-on-harmony.md)
   * [Une paire de jetons LP, de nombreuses options de farming](tutoriels/harmony/how-to-farm-elknet.md)
+* [Gnosis Chain](tutoriels/gnosis/README.md)
+  * [How to get started on Gnosis Chain](tutoriels/gnosis/how-to-get-started-on-gnosis.md)
 
 ## L'Université du MAI <a href="#universite-mai" id="universite-mai"></a>
 
