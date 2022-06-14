@@ -37,6 +37,8 @@
 * [Harmony](tutorials/harmony/README.md)
   * [How to get started on Harmony](tutorials/harmony/how-to-get-started-on-harmony.md)
   * [One LP Pair, Many ways to farm](tutorials/harmony/how-to-farm-elknet.md)
+* [Gnosis Chain](tutorials/gnosis/README.md)
+  * [How to get started on Gnosis Chain](tutorials/gnosis/how-to-get-started-on-gnosis.md)
 
 ## MAI University
 
