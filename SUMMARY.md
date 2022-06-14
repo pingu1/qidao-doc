@@ -37,6 +37,8 @@
 * [Harmony](jiao-cheng/harmony/README.md)
   * [如何开始使用 Harmony](jiao-cheng/harmony/how-to-get-started-on-harmony.md)
   * [一个LP对，多种耕作方式](jiao-cheng/harmony/how-to-farm-elknet.md)
+* [Gnosis Chain](jiao-cheng/gnosis/README.md)
+  * [How to get started on Gnosis Chain](jiao-cheng/gnosis/how-to-get-started-on-gnosis.md)
 
 ## MAI University
 
