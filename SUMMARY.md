@@ -38,6 +38,8 @@
 * [Harmony](tutoriales/harmony/README.md)
   * [Cómo comenzar en Harmony](tutoriales/harmony/how-to-get-started-on-harmony.md)
   * [Un Par LP, muchas formas de farmear](tutoriales/harmony/how-to-farm-elknet.md)
+* [Gnosis Chain](tutoriales/gnosis/README.md)
+  * [How to get started on Gnosis Chain](tutoriales/gnosis/how-to-get-started-on-gnosis.md)
 
 ## Artículos sobre MAI <a href="#universidade-de-mai" id="universidade-de-mai"></a>
 
