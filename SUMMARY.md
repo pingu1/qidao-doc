@@ -17,7 +17,6 @@
   * [OHM forks on Polygon: The case of KLIMA](jiao-cheng/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
   * [MAI single-staking with Ethalend](jiao-cheng/polygon/ethalend-single-staking.md)
   * [The Elephant, the Chimp and the Otter](jiao-cheng/polygon/the-elephant-and-the-otter.md)
-  * [From CeFi to DeFi with Celsius](jiao-cheng/polygon/cefi-to-defi-with-celsius.md)
   * [From Traditional Finance to DeFi with Jarvis](jiao-cheng/polygon/jarvis.md)
 * [Avalanche](jiao-cheng/avalanche/README.md)
   * [如何开始使用Avalanche](jiao-cheng/avalanche/how-to-get-started-on-avalanche.md)
