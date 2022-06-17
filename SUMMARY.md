@@ -17,7 +17,6 @@
   * [Forks di OHM su Polygon: l'esempio di KLIMA](tutorial/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
   * [Staking singolo di MAI su Ethalend](tutorial/polygon/ethalend-single-staking.md)
   * [L'elefante, lo scimpanzé e la lontra](tutorial/polygon/the-elephant-and-the-otter.md)
-  * [Dalla CeFi alla DeFi con Celsius](tutorial/polygon/cefi-to-defi-with-celsius.md)
   * [Dalla finanza tradizionale alla DeFi con Jarvis](tutorial/polygon/jarvis.md)
 * [Avalanche](tutorial/avalanche/README.md)
   * [Come iniziare con Avalanche](tutorial/avalanche/how-to-get-started-on-avalanche.md)
