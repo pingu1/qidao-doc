@@ -52,10 +52,6 @@ description: Polygon table of content
 [the-elephant-and-the-otter.md](the-elephant-and-the-otter.md)
 {% endcontent-ref %}
 
-{% content-ref url="cefi-to-defi-with-celsius.md" %}
-[cefi-to-defi-with-celsius.md](cefi-to-defi-with-celsius.md)
-{% endcontent-ref %}
-
 {% content-ref url="jarvis.md" %}
 [jarvis.md](jarvis.md)
 {% endcontent-ref %}
