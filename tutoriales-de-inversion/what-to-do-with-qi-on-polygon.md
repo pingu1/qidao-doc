@@ -35,7 +35,11 @@ As a quick reminder, Qi is paired to different tokens to form LP \(**L**iquidity
 * Qi-WETH on QuickSwap and get rewarded with QUICK tokens
 * Qi-QUICK on QuickSwap and get rewarded with QUICK tokens
 
+<<<<<<< HEAD:tutoriales-de-inversion/what-to-do-with-qi-on-polygon.md
 ![LP pool on QuickSwap for the Qi-WETH pair](../.gitbook/assets/image%20%2819%29.png)
+=======
+![LP pool on QuickSwap for the Qi-WETH pair](<../../.gitbook/assets/image (19) (2) (1).png>)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam):tutorials/polygon/what-to-do-with-qi-on-polygon.md
 
 ### Single Qi farming
 
