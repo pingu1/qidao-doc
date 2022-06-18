@@ -79,10 +79,10 @@ Moonriver is getting a lot of traction and more and more applications are moving
 
 When you farm on Solarbeam, you will be rewarded in SOLAR tokens that you can then stake in a Vault for a certain vesting period and earn additional SOLAR tokens, or stake to gain other tokens exotic to the platform.
 
-* [Huckleberry Finance](https://www.huckleberry.finance): This is another DEX/AMM on Moonriver where you will be able to farm yiels, and possible use Beefy to compound your gains.
+* [Huckleberry Finance](https://www.huckleberry.finance/): This is another DEX/AMM on Moonriver where you will be able to farm yiels, and possible use Beefy to compound your gains.
 * [Beefy Finance](https://app.beefy.finance/#/moonriver): The famous auto-compounder is also on Moonriver and will help you compound your gains from both Solarbeam and Huckleberry. As a side note, Beefy doesn't propose the MAI-MOVR pair as of writing, but you may soon be able to use Beefy to harvest the SOLAR tokens and get more MAI-MOVR from the compounder.
-* [Sushiswap](https://app.sushi.com): No need to present SushiSwap! You'll be able to swap your assets and farm yields for certain LP tokens like you would do on any other chains. Rewards are granted in SUSHI and MOVR.
-* [Rome DAO](https://romedao.finance): This is the first OHM-fork on Moonriver. Bond your assets to get discounted ROME tokens that you can stake to gain very high APY. As time of writing, the 5-Day ROI is around 10.6%. RomeDAO currently accepts FRAX and MIM in its treasury, but may soon accept MAI also.
+* [Sushiswap](https://app.sushi.com/): No need to present SushiSwap! You'll be able to swap your assets and farm yields for certain LP tokens like you would do on any other chains. Rewards are granted in SUSHI and MOVR.
+* [Rome DAO](https://romedao.finance/): This is the first OHM-fork on Moonriver. Bond your assets to get discounted ROME tokens that you can stake to gain very high APY. As time of writing, the 5-Day ROI is around 10.6%. RomeDAO currently accepts FRAX and MIM in its treasury, but may soon accept MAI also.
 
 ## Mai Finance on Moonriver
 

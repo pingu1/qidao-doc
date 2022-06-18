@@ -7,7 +7,7 @@ description: >-
 
 # Farming or Staking? Or both?
 
-![](<../../.gitbook/assets/Screen Shot 2021-09-03 at 9.24.12 AM.png>)
+![](../../.gitbook/assets/screen-shot-2021-09-03-at-9.24.12-am.png)
 
 ## Intro
 
@@ -46,7 +46,7 @@ You also need to know that tokens generated in excess on Mai Finance and QuickSw
 
 ## Bootstrapping the system
 
-![](<../../.gitbook/assets/Screen Shot 2021-09-08 at 6.54.08 AM.png>)
+![](../../.gitbook/assets/screen-shot-2021-09-08-at-6.54.08-am.png)
 
 What follows is a simulation made with an initial investment of $1,000 worth of Qi/MATIC and Qi/WETH LP tokens, and the current APRs / APYs given by the different platforms on September 9th 2021. This is not a real application of what we described above. Rates will vary, token prices will vary, some programs will come to an end etc ... so the final results are just an estimation of what you could get if everything remained stable, which will never be the case.
 

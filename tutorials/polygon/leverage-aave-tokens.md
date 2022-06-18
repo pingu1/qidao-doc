@@ -9,7 +9,7 @@ description: >-
 
 ## When a picture is worth a thousand words
 
-![](<../../.gitbook/assets/image (21) (1).png>)
+![](<../../.gitbook/assets/image (21) (2).png>)
 
 ## But a thousand words are also not that bad
 
@@ -23,11 +23,11 @@ Let's assume that you really like MATIC, and think that it's currently undervalu
 
 As your MATIC tokens are in the Aave pool, the interest generated is automatically compounded, which means that the amount of MATIC you hold will grow over time.
 
-![On this example, I lended 0.2 MATIC](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.29.53 PM.png>)
+![On this example, I lended 0.2 MATIC](../../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
 
 By lending your MATIC token on Aave, you receive an equivalent amount of amWMATIC (aave market wrapped MATIC). You may not see these tokens directly in your wallet unless you manually add them, but you do own them.
 
-![I can see the 0.20 MATIC I lended on DeBank](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.31.01 PM.png>)
+![I can see the 0.20 MATIC I lended on DeBank](../../.gitbook/assets/screen-shot-2021-08-06-at-5.31.01-pm.png)
 
 ### Use Mai Finance to compound your Aave tokens
 
@@ -35,7 +35,7 @@ Mai Finance will accept your amWMATIC tokens on the Yield page of the website. B
 
 However, in addition to the base APY, Mai Finance will also compound any additional Aave rewards that are currently available back into the token of your choice, thus passively generating more of the chosen token over time. In our example (see above), Aave provides 1.16% APY for the deposited MATIC, as well as an additional 3.69% APR paid in MATIC, but this APR reward is not generating any yield. By depositing your amWMATIC on Mai Finance, the reward is collected periodically, and put back into your main deposit in order to apply the 1.16% interest rate on it too.
 
-![My 0.2MATIC are now deposited on Mai Finance and will generate 4.93% annually](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.45.00 PM.png>)
+![My 0.2MATIC are now deposited on Mai Finance and will generate 4.93% annually](../../.gitbook/assets/screen-shot-2021-08-06-at-5.45.00-pm.png)
 
 When amWMATIC is deposited on Mai Finance, camWMATIC is received in exchange. The ratio of these two tokens isn't perfectly 1:1, because camMATIC actually represents a share of the amWMATIC pool on Mai, in which interest and rewards are automatically compounded. It should also be noted that when you deposit amWMATIC on Mai Finance, these tokens are removed from Aave. However, if you withdraw your amWMATIC from Mai Finance, you will find them back on Aave.
 
@@ -59,7 +59,7 @@ When camWMATIC is deposited into a Vault, the balance on the Yield page will be 
 
 When you navigate to the Vaults page and select camWMATIC from the drop-down vault menu, you will be given the option to create a new vault where you can then deposit your camWMATIC. Keep in mind that you need to keep a Collateral to Debt Ratio (CDR) of at least 155% when you borrow against your camWMATIC.
 
-![My 0.2 MATIC are now fully used as collateral](<../../.gitbook/assets/Screen Shot 2021-08-06 at 5.57.55 PM.png>)
+![My 0.2 MATIC are now fully used as collateral](../../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
 
 **Note:** On this page, you will be able to see your collateral value in USD, and the value is fluctuating based on your collateral type, the token value, and the benefits generated in the camWMATIC pool.
 
@@ -69,7 +69,7 @@ When you navigate to the Vaults page and select camWMATIC from the drop-down vau
 You should visit the Vault page from time to time to verify that you're always above the liquidation ratio, and possibly add more collateral if you start falling bellow a "safe ratio". Depending on your risk profile, this safe threshold may vary.
 {% endhint %}
 
-![I now have a debt of $0.10](<../../.gitbook/assets/Screen Shot 2021-08-06 at 6.07.34 PM.png>)
+![I now have a debt of $0.10](../../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
 
 I borrowed $0.10 of MAI, which translates to a 214.56% CDR. Now let's have some fun with my money.
 
@@ -77,7 +77,7 @@ I borrowed $0.10 of MAI, which translates to a 214.56% CDR. Now let's have some 
 
 I can now safely go to my favorite DEX (QuickSwap or SushiSwap are great examples) and swap my MAI for more MATIC.
 
-![Let's buy more MATIC](<../../.gitbook/assets/Screen Shot 2021-08-06 at 6.10.35 PM.png>)
+![Let's buy more MATIC](../../.gitbook/assets/screen-shot-2021-08-06-at-6.10.35-pm.png)
 
 After the swap, I have more MATIC in my wallet.
 

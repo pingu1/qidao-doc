@@ -19,9 +19,9 @@ If you've been around in crypto for some time, you may remember the disaster of 
 
 In June of 2021 the TITAN token reached an ATH of $65, which caused that a bunch of investors, who invested heavily in the coin, decided to sell. This caused a problem because TITAN is priced based on supply and demand. So as the available supply of TITAN increased, the price began to decrease. This caused a huge sell pressure so the price of TITAN fell even faster, so when TITAN began to fall rapidly, IRON lost its backing and eventually its peg.
 
-![Price chart of the TITAN token](../.gitbook/assets/Iron.JPG)
+![Price chart of the TITAN token](../.gitbook/assets/iron.jpg)
 
-![Price chart of the IRON stablecoin](../.gitbook/assets/titan.JPG)
+![Price chart of the IRON stablecoin](../.gitbook/assets/titan.jpg)
 
 People started buying the IRON stable coin to sell it for USDC and earn some quick bucks, in a huge arbitrage opportunity (this means profiting in the price variations of tokens) Long story short, it's been calculated that almost $1.75 billion were lost in this incident. Now, is there a difference between the IRON stable coin and the MAI stable coin?
 
@@ -37,7 +37,7 @@ Another way to mint MAI is through the [Anchor](https://app.mai.finance/anchor),
 
 As you can see on the picture below, the price of the MAI stable coin it's almost always close to $1, this is because as the [official documentation](https://docs.mai.finance/stablecoin-economics) says, the MAI stable coin allows users to engage in risk-free arbitrage through Anchor when the price of MAI falls below $0.99 or rises above $1.01.
 
-![Price chart of the MAI token in the last 90 days](<../.gitbook/assets/image (7) (1) (1) (2).png>)
+![Price chart of the MAI token in the last 90 days](<../.gitbook/assets/image (7) (1) (1) (1) (2).png>)
 
 ## Why is it always close to $1?
 
