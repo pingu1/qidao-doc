@@ -38,6 +38,15 @@
   * [一个LP对，多种耕作方式](jiao-cheng/harmony/how-to-farm-elknet.md)
 * [Gnosis Chain](jiao-cheng/gnosis/README.md)
   * [How to get started on Gnosis Chain](jiao-cheng/gnosis/how-to-get-started-on-gnosis.md)
+* [Optimism](jiao-cheng/optimism/README.md)
+  * [How to get started on Optimism](jiao-cheng/optimism/how-to-get-started-on-optimism.md)
+* [Arbitrum](jiao-cheng/arbitrum/README.md)
+  * [How to get started on Arbitrum](jiao-cheng/arbitrum/how-to-get-started-on-arbitrum.md)
+* [BNB Chain](jiao-cheng/bnb-chain/README.md)
+  * [How to get started on BNB Chain](jiao-cheng/bnb-chain/how-to-get-started-on-bnb-chain.md)
+* [Moonbeam](jiao-cheng/moonbeam/README.md)
+  * [How to get started on Moonbeam](jiao-cheng/moonbeam/how-to-get-started-on-moonbeam.md)
+  * [Playing with MAI legos on StellaSwap](jiao-cheng/moonbeam/playing-with-mai-legos-on-stellaswap.md)
 
 ## MAI University
 
