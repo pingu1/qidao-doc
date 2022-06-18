@@ -42,12 +42,12 @@ Now that you are on FTM, you will need some FTM (native token used to cover gas 
 
 * Once you joined the [SpookySwap Discord](http://discord.gg/AqbsWsWDgn) server, and verified your account, head to the #faucet section.
 
-![](<../../.gitbook/assets/image (42).png>)
+![](<../../.gitbook/assets/image (42) (1).png>)
 
 * In the #faucet channel, simply type the `!faucet` command and the bot will send you some $FTM. Note that you'll be limited to 1 interaction every 30 days.
 * If you want to verify that you properly received your FTM token, you can click the Fantom Tip Bot name to interact directly with it and type `!balance`
 
-![Thank you Fantom Tip Bot and SpookySwap](<../../.gitbook/assets/image (45).png>)
+![Thank you Fantom Tip Bot and SpookySwap](<../../.gitbook/assets/image (45) (1).png>)
 
 * All you need to do now is to send your FTM tokens to your wallet address using the command `!withdraw <your_wallet_address>`. You will find your wallet address at the top of Metamask window.
 
@@ -63,7 +63,7 @@ If you want to bridge stable coins to Fantom, you can use the following list of 
 
 * [AnySwap](https://anyswap.exchange/#/bridge): This is the officially supported bridge to send the MAI you minted on Polygon to Fantom (see the [MAI metaverse](../../mai-university/mai-metaverse.md#fantom) guide for details). This solution supports many assets and many chains so that it will be easy for you to send your crypto currencies to Fantom. Please check the Reminder notes at the bottom of the bridging UI for transaction fees and expected execution time.
 
-![Bridging some MAI from Polygon to Fantom](../../.gitbook/assets/ftm\_anyswap.png)
+![Bridging some MAI from Polygon to Fantom](<../../.gitbook/assets/ftm\_anyswap (1).png>)
 
 * [Celer Bridge](https://cbridge.celer.network/#/): offers bridging services for many chains for most stable coins, with fees ranging from 0.04% to 0.19% to bridge to Fantom (DYOR).
 * [xpollinate](https://www.xpollinate.io): low fees, and ensures that there's enough liquidity on the target chain for the token you want to bridge. The lower the liquidity (or the large the amount to bridge), the longer the transfer.
@@ -80,7 +80,7 @@ Fantom has seen a pretty impressive expansion at the end of the summer 2021, esp
 
 * [BeethovenX](https://app.beethovenx.io/#/): This application is very similar to Balancer. You will be able to trade some tokens for others, and also enter balanced pools composed of multiple tokens. This is also the first official partner of Mai Finance on Fantom, and the only place where you will be able to swap your MAI, or use them in a MAI-USDC pool.
 
-![Swapping MAI for a little more FTM](<../../.gitbook/assets/image (44).png>)
+![Swapping MAI for a little more FTM](<../../.gitbook/assets/image (44) (1).png>)
 
 * [SpookySwap](https://spookyswap.finance): This is the biggest DEX (**D**ecentralized **Ex**change) on Fantom where you will be able to swap your tokens for others, deposit liquidity and farm yields, pretty much the same way you would do it on QuickSwap on Polygon. SpookySwap will reward you using the BOO token, the native token of the platform. As a side note, when you stake your BOO tokens, you will get xBOO, a yield baring token, in exchange, and you can use them to earn extra rewards (same principle as the dragon syrup on QuickSwap).
 * [SpiritSwap](https://app.spiritswap.finance): Traditional AMM and yield farming platform where you'll be able to swap tokens, create LP tokens and farm yields in liquidity pools. SpiritSwap will pay you with SPIRIT tokens that you can stake on the platform and get inSPIRIT tokens (SPIRIT will be locked for a certain period of time), the pendent of veCRV tokens. You can also use SpiritSwap for lending and borrowing while waiting for Mai Finance on Fantom.
@@ -88,7 +88,7 @@ Fantom has seen a pretty impressive expansion at the end of the summer 2021, esp
 * [Scream](https://scream.sh): This is a clone of Compound where you will be able to lend your tokens and borrow against them. Lending your tokens will make you earn rewards in the token you lend, as well as SCREAM tokens that you will be able to use on other platforms.
 * [Curve](how-to-get-started-on-fantom.md#bridging-stable-coins-eth-btc): Curve is the blue chip project everyone knows well, where you will be able to deposit your tokens in specific pools (no need to deposit a balanced amount) and you will be rewarded in the tokens you lend, as well as CRV and wFTM tokens.
 
-![DAI+USDC dual pool on Curve on Fantom](<../../.gitbook/assets/image (36).png>)
+![DAI+USDC dual pool on Curve on Fantom](<../../.gitbook/assets/image (38).png>)
 
 There are plenty of other opportunities on Fantom that will be described in other guides.
 
