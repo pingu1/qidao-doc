@@ -37,7 +37,11 @@ Another way to mint MAI is through the [Anchor](https://app.mai.finance/anchor),
 
 As you can see on the picture below, the price of the MAI stable coin it's almost always close to $1, this is because as the [official documentation](https://docs.mai.finance/stablecoin-economics) says, the MAI stable coin allows users to engage in risk-free arbitrage through Anchor when the price of MAI falls below $0.99 or rises above $1.01.
 
+<<<<<<< HEAD:mai-eqi-qi-tutorials/how-does-mai-work.md
 ![Price chart of the MAI token in the last 90 days](../.gitbook/assets/image%20%287%29%20%281%29%20%281%29%20%281%29.png)
+=======
+![Price chart of the MAI token in the last 90 days](<../.gitbook/assets/image (7) (1) (1) (1) (2).png>)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam):mai-university/how-does-mai-work.md
 
 ## Why is it always close to $1?
 
