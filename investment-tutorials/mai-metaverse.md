@@ -7,7 +7,11 @@ description: >-
 
 # MAI Metaverse
 
+<<<<<<< HEAD:investment-tutorials/mai-metaverse.md
 ![](../.gitbook/assets/screen-shot-2021-09-13-at-1.06.42-pm.png)
+=======
+![](../.gitbook/assets/MAI.png)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam):mai-university/mai-metaverse.md
 
 ## Intro
 
