@@ -40,6 +40,8 @@
   * [How to get started on Gnosis Chain](tutorials/gnosis/how-to-get-started-on-gnosis.md)
 * [Optimism](tutorials/optimism/README.md)
   * [How to get started on Optimism](tutorials/optimism/how-to-get-started-on-optimism.md)
+* [Arbitrum](tutorials/arbitrum/README.md)
+  * [How to get started on Arbitrum](tutorials/arbitrum/how-to-get-started-on-arbitrum.md)
 
 ## MAI University
 
