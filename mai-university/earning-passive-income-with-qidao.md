@@ -43,7 +43,7 @@ Bu, Qi'yi kilitlemenin aşağıdaki avantajlara sahip olduğu anlamına gelebili
 
 Qi kilitlemek için Qi Powah Boost kilit çubuğuna gitmeniz ve kaç tane token kilitlemek istediğinizi ve kilitlemek istediğiniz süreyi seçmeniz gerekir. Süre ne kadar uzun olursa, o kadar fazla **eQi** elde edersiniz, eQi'nin kilitleme süresi sona erdikten sonra kaç Qi olacağını unutmayın.
 
-![Qi Powah Boost Kilidi](../.gitbook/assets/Captura.JPG)
+![Qi Powah Boost Kilidi](../.gitbook/assets/captura.JPG)
 
 Tüm bunlara karar verdikten sonra, işlemi onayla ve onayla'ya tıklayın, ardından `Kilitli QI ve kilitleme süresini artır'a tıklayın ve işlemi onaylayın.
 
@@ -53,7 +53,7 @@ Lütfen Qi'lerinizi belirli bir süre kilitlediğinizde, kilit süresi bitmeden 
 
 Tebrikler, artık resmi olarak Qi staker'ı oldunuz, sonraki haftalarda haftalık maaş çeki alacaksınız. Gelecek haftanın gelir paylaşımı için kalifiye olup olmadığınız konusunda herhangi bir şüpheniz varsa, kalifiye olup olmadığınızı destek sayfasında görebilirsiniz.
 
-![](<../.gitbook/assets/Captura (1).JPG>)
+![](<../.gitbook/assets/captura (1).jpg>)
 
 ### Qi Powah İstatistikleri
 

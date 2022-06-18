@@ -5,7 +5,7 @@ description: >-
 
 # MAI Metaverse
 
-![](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.06.42 PM.png>)
+![](../.gitbook/assets/MAI.png)
 
 ## Giriş
 
@@ -47,7 +47,7 @@ MAI tokenlarınızı Solana'ya göndermek için tokenları bir zincirden diğeri
 
 Arayüz, iki ağı ve ikisi arasında aktarmak istediğiniz varlığı seçmeniz gerektiği anlamında gerçekten sezgiseldir.
 
-![MAI'den Solana'ya Köprü Oluşturma](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.52.23 PM.png>)
+![MAI'den Solana'ya Köprü Oluşturma](<../.gitbook/assets/screen-shot-2021-09-13-at-1.52.23-pm.png>)
 
 Bir sonraki adım, Solana cüzdanınızın adresini ve aktarmak istediğiniz tutarı belirtmektir. MetaMask'in Solana cüzdanlarını desteklemediğini unutmayın (henüz?), bu ağda ayrı bir cüzdan oluşturmanız gerekecek. MetaMask gibi bir web cüzdanı veya bir uygulama cüzdanı olabilir. Lütfen birini seçmeden önce [Solana'nın resmi önerilerini](https://docs.solana.com/wallet-guide) okuyun.
 

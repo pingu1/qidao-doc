@@ -143,7 +143,7 @@ $$
 
 Aşağıdaki ekran görüntüsünde gösterildiği gibi, aşağı yukarı MATIC Kasasının APR'sine karşılık gelir:
 
-![Kasa ödüllerinin başlatılmasından sonra Mai Finance'te bir MATIC kasasının Nisan ayı görünümü](<../.gitbook/assets/image (23) (2) (3) (4).png>)
+![Kasa ödüllerinin başlatılmasından sonra Mai Finance'te bir MATIC kasasının Nisan ayı görünümü](<../.gitbook/assets/image (23) (2) (3) (1) (4).png>)
 
 ### Başlangıç ​​kasalarının APR'larını hesaplama
 

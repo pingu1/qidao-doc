@@ -19,7 +19,7 @@ Borcunuzu ödemenin en doğrudan yolu, özellikle teminatınızı ve diğer yat�
 
 Mai Finance, Kredi / Banka Kartları veya banka havaleleri ile satın alınan parayı doğrudan Polygon ağına kolayca bağlamak için [Transak](https://transak.com) ile ortaklık kuruyor. Basitçe Mai Finans'a gidin ve bazı MATIC satın almanıza ve bunları doğrudan Polygon cüzdanınıza göndermenize izin verecek bir model açmak için menü çubuğundaki Transak simgesine tıklayın.
 
-![Fiat para ile biraz USDC satın almak ve doğrudan Polygon'a köprü kurma](<../.gitbook/assets/Screen Shot 2021-08-18 at 9.43.07 AM.png>)
+![Fiat para ile biraz USDC satın almak ve doğrudan Polygon'a köprü kurma](<../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png>)
 
 Ana konu, işlemin işlenmesi için geçen süredir. Bunu yapmak USDC'yi MAI ile değiştirmenize ve ardından borcunuzu kısmen veya tamamen geri ödemenize izin verecektir.
 
@@ -42,7 +42,7 @@ Bununla birlikte, bazı insanlar borç sahibi olma fikrinden hoşlanmazlar ve m�
 * Geri ödemek istediğiniz herhangi bir tutarı girin
 * 'MAI'yi Geri Öde'yi tıklayın ve işiniz bitti
 
-![Borcumun bir kısmını geri ödüyorum](<../.gitbook/assets/Screen Shot 2021-08-17 at 1.02.23 PM.png>)
+![Borcumun bir kısmını geri ödüyorum](<../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png>)
 
 Örnek olarak
 
@@ -132,7 +132,7 @@ Stratejinize ve borcunuzla ilgili hislerinize bağlı olarak, farklı kredi plat
 * Mais %0 faiz + %0.5 geri ödeme ücretidir.
 * AAVE'nin geri ödeme ücreti yoktur, ancak geri ödemeniz gereken faizler için değişken bir APR vardır
 
-![Ağustos 2021 itibariyle AAVE'de APY Tedarik ve Ödünç Alma Oranları](<../.gitbook/assets/Screen Shot 2021-08-18 at 6.52.08 AM.png>)
+![Ağustos 2021 itibariyle AAVE'de APY Tedarik ve Ödünç Alma Oranları](<../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png>)
 
 USDC'ye örnek olarak, MATIC'te geri ödenen %2,08 cari ödül ile borçlanma oranının %3,79 olduğunu görebilirsiniz. Oran kredinizi tam bir yıl boyunca tutarsanız geri ödemeniz gereken %1,71'lik eşdeğeri verir. AAVE ile borcunuzu çok hızlı ödeyebildiğiniz için APY değişkeni günlük %0,005'e eşittir. Dolayısıyla borcunuzun %0,5'ine ulaşmanız 100 gün (3 aydan biraz fazla) alacaktır.
 

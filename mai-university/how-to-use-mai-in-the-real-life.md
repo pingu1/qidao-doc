@@ -23,7 +23,7 @@ Bugün o gün! GPU'lara yaptığı ilk yatırım sonunda tamamen geri ödendi ve
 
 DogeOfWallStreet, kârının üzerine oturup fiyatların hızla yükselmesini beklemek yerine, daha fazla grafik kartı satın almanın ve muhtemelen madencilik kârını artırmanın zamanının geldiğine karar verir. Maliyetler açısından, _RTX 1660 super_ şu anda en karlı kart gibi görünüyor ve sadece 500,00$'a mal oluyor.
 
-![](<../.gitbook/assets/Screen Shot 2021-08-13 at 12.07.41 PM.png>)
+![](../.gitbook/assets/screen-shot-2021-08-13-at-12.07.41-pm.png)
 
 1 aylık madencilikten sonra akıllı madenci, havuz kendisine ödeme yaptıktan sonra portföyünü ETH ana ağında kontrol eder. 1,340,00 dolar değerinde ETH'ye sahip (madencilik karı ve ETH 4 haftada neredeyse %12 kazandı) , bu kartı satın almak için yeterli olmalı ... ama sonra, ikilem:
 

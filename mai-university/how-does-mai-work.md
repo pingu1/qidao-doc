@@ -18,9 +18,9 @@ Bir süredir kriptodaysanız, **TITAN** ve **IRON** token felaketini hatırlayab
 
 Haziran 2021'de TITAN tokeni 65 $'lık bir ATH'ye ulaştı ve bu da tokena büyük yatırım yapan bir grup yatırımcının satmaya karar vermesine neden oldu. Bu bir soruna neden oldu çünkü TITAN arz ve talebe göre fiyatlandırılmaktaydı. TITAN'ın mevcut arzı arttıkça fiyat düşmeye başladı. Bu da büyük bir satış baskısına neden oldu ve bu yüzden TITAN'ın fiyatı daha da hızlı düştü. TITAN anormal hızla düşmeye başladığında IRON desteğini ve sonunda sabitleyicisini kaybetti.
 
-![Price chart of the TITAN token](../.gitbook/assets/Iron.JPG)
+![Price chart of the TITAN token](../.gitbook/assets/iron.jpg)
 
-![Price chart of the IRON stablecoin](../.gitbook/assets/titan.JPG)
+![Price chart of the IRON stablecoin](../.gitbook/assets/titan.jpg)
 
 İnsanlar, büyük bir arbitraj fırsatıyla USDC'ye satmak ve hızlı paralar kazanmak için IRON satın almaya başladılar (bu, tokenların fiyat değişikliklerinden kâr etmek anlamına gelir) Uzun lafın kısası, bu olayda yaklaşık 1,75 milyar doların kaybedildiği hesaplandı. Şimdi, IRON stablecoin ile MAI arasında bir fark var mı birlikte inceleyelim.
 
