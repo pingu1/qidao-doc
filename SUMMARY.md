@@ -42,6 +42,8 @@
   * [How to get started on Optimism](tutorials/optimism/how-to-get-started-on-optimism.md)
 * [Arbitrum](tutorials/arbitrum/README.md)
   * [How to get started on Arbitrum](tutorials/arbitrum/how-to-get-started-on-arbitrum.md)
+* [BNB Chain](tutorials/bnb-chain/README.md)
+  * [How to get started on BNB Chain](tutorials/bnb-chain/how-to-get-started-on-bnb-chain.md)
 
 ## MAI University
 
