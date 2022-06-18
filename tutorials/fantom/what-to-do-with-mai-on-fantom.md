@@ -20,7 +20,7 @@ Bluechip projects are the DeFi applications that proved to be solid and present 
 
 ### BeethovenX
 
-[BeethovenX](https://app.beets.fi/#/) is a fork of Balancer, a project that has not launched on Fantom, but which presence is well established on other networks. Like Balancer, BeethovenX is an automated portfolio manager, liquidity provider, and price sensor. On the platform, you will be able to lend your crypto and you collect fees from trades. If you need more info about the projcets, please visit [their official doc](https://docs.beethovenx.io).
+[BeethovenX](https://app.beets.fi/#/) is a fork of Balancer, a project that has not launched on Fantom, but which presence is well established on other networks. Like Balancer, BeethovenX is an automated portfolio manager, liquidity provider, and price sensor. On the platform, you will be able to lend your crypto and you collect fees from trades. If you need more info about the projcets, please visit [their official doc](https://docs.beethovenx.io/).
 
 The BeethovenX team not only forked the Balancer project, it also built amazing additional features (portfolio management, native token BEETS tracking, rewards that can be claimed anytime). And all this with a fantastic universe and story, which helped them create a fantastic community.
 
@@ -34,7 +34,7 @@ BeethovenX is also the best application if you want to swap your MAI for another
 
 ### SpookySwap
 
-[SpookySwap](https://spookyswap.finance) is probably one of the best DEX on Fantom where you will be able to swap your ERC20 tokens, provide liquidity and farm yields, create LP (**L**iquidity **P**rovider) tokens, stake their native BOO token, and you can even bridge some assets from Fantom to other chains (and vice versa). It's a fork of Uniswap v2 on top of which the team built additional amazing features.
+[SpookySwap](https://spookyswap.finance/) is probably one of the best DEX on Fantom where you will be able to swap your ERC20 tokens, provide liquidity and farm yields, create LP (**L**iquidity **P**rovider) tokens, stake their native BOO token, and you can even bridge some assets from Fantom to other chains (and vice versa). It's a fork of Uniswap v2 on top of which the team built additional amazing features.
 
 SpookySwap recently introduced a MAI-USDC pair that people can now farm and gain BOO tokens with an average APR between 25% and 30%.
 

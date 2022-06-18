@@ -37,7 +37,11 @@ Das nennt man Hebelwirkung. Stell dir vor, du findest eine Bank, bei der du dir 
 
 [AAVE](https://app.aave.com) ist eine Plattform zum Verleihen und Ausleihen, auf der du dein Vermögen hinterlegen kannst. Wenn du auf AAVE leihst, erhalten deine hinterlegten Token eine Rendite. Für unsere Strategie verleihen wir DAI, einen Stable Coin (mit Preisbindung an den US-Dollar). Auf AAVE können DAI im Wert von 100 US-Dollar über einen Zeitraum von einem Jahr eine Rendite zwischen 4 und 10 % erzielen.
 
+<<<<<<< HEAD
 ![AAVE Markt auf Polygon, Stand Oktober 2021](../../.gitbook/assets/canDAI-aave.png)
+=======
+![AAVE markets on Polygon as of October 2021](<../../.gitbook/assets/image (47).png>)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 Wenn du dein Vermögen auf AAVE einzahlst, erhältst du einen Einzahlungsnachweis. In unserem Beispiel erhalten wir, da wir DAI einzahlen, amDAI-Token in unserer Wallet (aave market DAI). Diese Quittung musst du unbedingt aufbewahren, denn du brauchst sie, um deine DAI von AAVE abzuheben. Das ist die Bank, die dein Gold in unserem Far-West-Vergleich annehmen wird.
 
@@ -73,7 +77,7 @@ Für unseren Leitfaden werden wir Balancer nutzen, um unsere Investitionen etwas
 
 Auch wenn wir erklärt haben, was AAVE ist, wird unsere Strategie eine Funktion von Mai Finance nutzen, um die DAI-Hinterlegung auf AAVE, die amDAI-Hinterlegung im Renditeinstrument und die camDAI-Hinterlegung im camDAI-Vault zu automatisieren.
 
-![](../../.gitbook/assets/camDAI-zapDAI.png) ![](../../.gitbook/assets/camDAI-zapdeposit.png)
+![](../../.gitbook/assets/camDAI-zapDAI.png) ![](<../../.gitbook/assets/image (48) (1).png>)
 
 Die Schaltfläche `Zap in using DAI` öffnet ein Popup-Fenster, mit dem du dein DAI in den Vault einzahlen kannst und die AAVE-Einzahlung im Hintergrund durchführst. Das spart eine Menge Zeit und etwas Gas.
 

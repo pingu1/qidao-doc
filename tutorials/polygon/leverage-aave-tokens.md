@@ -9,7 +9,11 @@ description: >-
 
 ## Manchmal ist ein Bild mehr wert als tausend Worte
 
+<<<<<<< HEAD
 ![](<../../.gitbook/assets/image (21).png>)
+=======
+![](<../../.gitbook/assets/image (21) (2).png>)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 ## Ein paar Worte sind dennoch ganz nett
 
@@ -23,7 +27,11 @@ Nehmen wir an, du magst MATIC wirklich und glaubst, dass es derzeit unterbewerte
 
 Da sich deine MATIC-Token im Aave-Pool befinden, werden die Zinsen automatisch aufgezinst, was bedeutet, dass dein MATIC-Bestand mit der Zeit wächst.
 
+<<<<<<< HEAD
 ![In diesem Beispiel habe ich 0.2 MATIC verliehen](../../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
+=======
+![On this example, I lended 0.2 MATIC](../../.gitbook/assets/screen-shot-2021-08-06-at-5.29.53-pm.png)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 Wenn du deinen MATIC-Token auf Aave verleihst, erhältst du den gleichen Betrag an amWMATIC (in Aave Market verpackte MATIC). Du siehst diese Token zwar nicht direkt in deiner Wallet, es sei denn, du fügst sie manuell hinzu, aber du besitzt sie trotzdem.
 
@@ -59,7 +67,11 @@ Wenn camWMATIC in einen Vault eingezahlt wird, ist der Saldo auf der Ertragsseit
 
 Wenn du auf die Vault Seite gehst und camWMATIC aus dem Dropdown-Menü des Vault auswählst, kannst du einen neuen Vault anlegen, in dem du deine camWMATIC hinterlegen kannst. Denke daran, dass du eine Collateral to Debt Ratio (CDR) von mindestens 155% einhalten musst, wenn du deine camWMATIC beleihst.
 
+<<<<<<< HEAD
 ![Meine 0.2 MATIC sind nun vollständig als Sicherheit hinterlegt](../../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
+=======
+![My 0.2 MATIC are now fully used as collateral](../../.gitbook/assets/screen-shot-2021-08-06-at-5.57.55-pm.png)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 **Hinweis:** Auf dieser Seite siehst du den Wert deiner Sicherheit in USD. Der Wert schwankt je nach Art deiner Sicherheit, dem Wert der Token und den im camWMATIC-Pool erzielten Gewinnen.
 
@@ -69,7 +81,11 @@ Wenn du auf die Vault Seite gehst und camWMATIC aus dem Dropdown-Menü des Vault
 Du solltest die Vault-Seite von Zeit zu Zeit besuchen, um zu überprüfen, ob du immer über der Liquidation Ratio liegst, und eventuell weitere Sicherheiten hinzufügen, wenn du unter eine "sichere Ratio" fällst. Je nach deinem Risikoprofil kann diese Sicherheitsschwelle variieren.
 {% endhint %}
 
+<<<<<<< HEAD
 ![I habe nun Schulden in Höhe von $0.10](../../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
+=======
+![I now have a debt of $0.10](../../.gitbook/assets/screen-shot-2021-08-06-at-6.07.34-pm.png)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 Ich habe mir $0,10 von MAI geliehen, was einem CDR von 214,56% entspricht. Jetzt lass uns etwas Spaß mit meinem Geld haben.
 
@@ -77,7 +93,11 @@ Ich habe mir $0,10 von MAI geliehen, was einem CDR von 214,56% entspricht. Jetzt
 
 Ich kann jetzt sicher zu meinem Lieblings-DEX gehen (QuickSwap oder SushiSwap sind gute Beispiele) und meine MAI gegen mehr MATIC tauschen.
 
+<<<<<<< HEAD
 ![Lass uns mehr MATIC kaufen](../../.gitbook/assets/screen-shot-2021-08-06-at-6.10.35-pm.png)
+=======
+![Let's buy more MATIC](../../.gitbook/assets/screen-shot-2021-08-06-at-6.10.35-pm.png)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 Nach dem Tausch habe ich mehr MATIC in meinem Wallet.
 

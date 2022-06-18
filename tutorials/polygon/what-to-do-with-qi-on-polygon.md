@@ -35,6 +35,10 @@ Zur Erinnerung: Qi wird mit verschiedenen Token gepaart, um LP (**L**iquidität 
 * Qi-WETH auf QuickSwap und mit QUICK-Token belohnt wirst
 * Qi-QUICK auf QuickSwap und Belohnung mit QUICK-Token
 
+<<<<<<< HEAD
+=======
+![LP pool on QuickSwap for the Qi-WETH pair](<../../.gitbook/assets/image (19) (2) (1).png>)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 
 ![LP pool auf QuickSwap für das Qi-WETH Paar](<../../.gitbook/assets/image (19) (2).png>)

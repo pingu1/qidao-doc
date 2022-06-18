@@ -42,12 +42,16 @@ Jetzt, wo du auf FTM bist, brauchst du einige FTM (native Token, die zur Deckung
 
 * Sobald du dem [SpookySwap Discord](http://discord.gg/AqbsWsWDgn) Server beigetreten bist und deinen Account verifiziert hast, gehe zum Bereich #faucets.
 
-![](<../../.gitbook/assets/image (42).png>)
+![](<../../.gitbook/assets/image (42) (1).png>)
 
 * Gib im Kanal #faucet einfach den Befehl `!faucet` ein und der Bot schickt dir ein paar $FTM. Beachte, dass du nur 1 Interaktion alle 30 Tage machen kannst.
 * Wenn du überprüfen willst, ob du dein FTM-Token richtig erhalten hast, kannst du auf den Namen des Fantom Tip Bots klicken, um direkt mit ihm zu interagieren und `!balance` eingeben
 
+<<<<<<< HEAD
 ![Danke Fantom Tip Bot und SpookySwap](<../../.gitbook/assets/image (45).png>)
+=======
+![Thank you Fantom Tip Bot and SpookySwap](<../../.gitbook/assets/image (45) (1).png>)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 * Jetzt musst du nur noch deine FTM-Token an deine Wallet-Adresse schicken, indem du den Befehl `!withdraw <Deine_Wallet-Adresse>` verwendest. Du findest deine Wallet-Adresse oben im Metamask-Fenster.
 
@@ -63,7 +67,11 @@ Wenn du Stable Coins zu Fantom überbrücken willst, kannst du die folgende List
 
 * [AnySwap](https://anyswap.exchange/#/bridge): Dies ist die offiziell unterstützte Brücke, um MAI, die du auf Polygon geprägt hast, nach Fantom zu schicken (siehe den [MAI metaverse](../../MAI-university/mai-metaverse.md#fantom) Leitfaden für Details). Diese Lösung unterstützt viele Assets und viele Chains, so dass es für dich einfach ist, deine Kryptowährungen nach Fantom zu schicken. Die Transaktionsgebühren und die voraussichtliche Ausführungszeit findest du in den Hinweisen am unteren Rand der Bridging-UI.
 
+<<<<<<< HEAD
 ![MAI von Polygon nach Fantom übertragen](<../../.gitbook/assets/image (43).png>)
+=======
+![Bridging some MAI from Polygon to Fantom](<../../.gitbook/assets/ftm\_anyswap (1).png>)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 * [Celer Bridge](https://cbridge.celer.network/#/): bietet Überbrückungsdienste für viele Chains für die meisten Stable Coins, mit Gebühren zwischen 0,04% und 0,19% für die Überbrückung zu Fantom an (DYOR).
 * [xpollinate](https://www.xpollinate.io): niedrige Gebühren und stellt sicher, dass es auf der Ziel-Chain genügend Liquidität für den Token gibt, den du überbrücken willst. Je geringer die Liquidität (oder je größer der zu überbrückende Betrag), desto länger dauert der Transfer.
@@ -80,7 +88,11 @@ Fantom hat am Ende des Sommers 2021 eine ziemlich beeindruckende Expansion erleb
 
 * [BeethovenX](https://app.beethovenx.io/#/): Diese Anwendung ist Balancer sehr ähnlich. Du kannst einige Token gegen andere eintauschen und auch an ausgewogenen Pools teilnehmen, die aus mehreren Token bestehen. Dies ist auch der erste offizielle Partner von Mai Finance auf Fantom und der einzige Ort, an dem du deine MAI tauschen oder sie in einem MAI-USDC-Pool verwenden kannst.
 
+<<<<<<< HEAD
 ![MAI für etwas mehr  FTM eintauschen](<../../.gitbook/assets/image (44).png>)
+=======
+![Swapping MAI for a little more FTM](<../../.gitbook/assets/image (44) (1).png>)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 *
   * [SpookySwap](https://spookyswap.finance): Dies ist die größte DEX (**D**ecentralized **Ex**change) auf Fantom, wo du deine Token gegen andere tauschen, Liquidität einzahlen und Renditen farmen kannst, ziemlich genau so, wie du es bei QuickSwap auf Polygon tun würdest. SpookySwap belohnt dich mit dem BOO-Token, dem nativen Token der Plattform. Nebenbei bemerkt: Wenn du deine BOO-Token stakst, erhältst du dafür xBOO, einen ertragsabhängigen Token, mit dem du zusätzliche Belohnungen verdienen kannst (dasselbe Prinzip wie beim Dragon Syrup auf QuickSwap).
@@ -89,7 +101,11 @@ Fantom hat am Ende des Sommers 2021 eine ziemlich beeindruckende Expansion erleb
   * [Scream](https://scream.sh): Das ist ein Klon von Compound, bei dem du deine Token verleihen und gegen sie leihen kannst. Wenn du deine Token ausleihst, erzeugst du Belohnungen in Form der Token, die du verliehen hast, sowie SCREAM-Tokens, die du auf anderen Plattformen verwenden kannst.
   * [Curve](how-to-get-started-on-fantom.md#bridging-stable-coins-eth-btc): Curve ist das Blue-Chip-Projekt, das jeder gut kennt. Hier kannst du deine Token in bestimmte Pools einzahlen (du musst keinen ausgeglichenen Betrag einzahlen) und wirst in den Token belohnt, die du leihst, sowie in CRV- und wFTM-Token.
 
+<<<<<<< HEAD
 ![DAI+USDC dual pool auf Curve Fantom](../../.gitbook/assets/ftm-crv.png)
+=======
+![DAI+USDC dual pool on Curve on Fantom](<../../.gitbook/assets/image (38).png>)
+>>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 Es gibt noch viele andere Möglichkeiten auf Fantom, die in anderen Leitfäden beschrieben werden.
 
