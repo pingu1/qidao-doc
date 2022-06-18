@@ -38,6 +38,15 @@
   * [Um par LP, diferentes formas de farming](tutoriais/harmony/how-to-farm-elknet.md)
 * [Gnosis Chain](tutoriais/gnosis/README.md)
   * [How to get started on Gnosis Chain](tutoriais/gnosis/how-to-get-started-on-gnosis.md)
+* [Optimism](tutoriais/optimism/README.md)
+  * [How to get started on Optimism](tutoriais/optimism/how-to-get-started-on-optimism.md)
+* [Arbitrum](tutoriais/arbitrum/README.md)
+  * [How to get started on Arbitrum](tutoriais/arbitrum/how-to-get-started-on-arbitrum.md)
+* [BNB Chain](tutoriais/bnb-chain/README.md)
+  * [How to get started on BNB Chain](tutoriais/bnb-chain/how-to-get-started-on-bnb-chain.md)
+* [Moonbeam](tutoriais/moonbeam/README.md)
+  * [How to get started on Moonbeam](tutoriais/moonbeam/how-to-get-started-on-moonbeam.md)
+  * [Playing with MAI legos on StellaSwap](tutoriais/moonbeam/playing-with-mai-legos-on-stellaswap.md)
 
 ## Universidade do MAI
 
