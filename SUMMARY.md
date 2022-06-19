@@ -37,7 +37,7 @@
   * [Harmony Nasıl Kullanırım?](rehberler/harmony/how-to-get-started-on-harmony.md)
   * [Bir LP ile Çiftçilik Yapmanın Farklı Yolları](rehberler/harmony/how-to-farm-elknet.md)
 * [Gnosis Chain](rehberler/gnosis/README.md)
-  * [How to get started on Gnosis Chain](rehberler/gnosis/how-to-get-started-on-gnosis.md)
+  * [Gnosis Chain Başlangıç Rehberi](rehberler/gnosis/how-to-get-started-on-gnosis.md)
 
 ## MAI Üniversitesi
 
