@@ -43,7 +43,7 @@ Không có bất kỳ faucet chính thức nào để nhận  CRO đầu tiên c
 
 ![Sử dụng cầu nối ElkNet và chuyển đổi $ 1 thành mã thông báo gas](../../.gitbook/assets/Cronos-onboarding-2.png)
 
-* [Crypto.com](https://crypto.com): Đừng quên rằng Cronos là một chuỗi liên kết với Crypto.com. Bạn có thể tạo tài khoản ở đó, mua mã thông báo CRO của mình trực tiếp bằng cách liên kết tài khoản ngân hàng và gửi chúng đến Cronos.
+* [Crypto.com](https://crypto.com/): Đừng quên rằng Cronos là một chuỗi liên kết với Crypto.com. Bạn có thể tạo tài khoản ở đó, mua mã thông báo CRO của mình trực tiếp bằng cách liên kết tài khoản ngân hàng và gửi chúng đến Cronos.
 
 {% hint style="info" %}
 Hãy nhớ rằng bạn sẽ cần một số mã thông báo gas để có thể thực hiện các giao dịch. Điều này có nghĩa là nếu bạn kết nối tài sản từ một chuỗi khác với Cronos trong một tài khoản không có mã thông báo CRO, bạn sẽ bị mắc kẹt và không thể làm bất cứ điều gì. Đảm bảo ví của bạn có đủ tiền để thực hiện ít nhất một giao dịch hoán đổi lấy mã thông báo gas.
@@ -82,8 +82,8 @@ Cronos được liên kết với Crypto.com, rất nhiều khoản đầu tư �
 
 Khi bạn cung cấp thanh khoản trên CroDex, bạn sẽ nhận được phần thưởng là mã thông báo CRX mà bạn có thể đặt cược trong Vault để nhận được nhiều mã thông báo CRX hơn, nhưng có các tùy chọn khác (tốt hơn) sẽ được trình bày trong một hướng dẫn trong tương lai
 
-* [VVS](https://vvs.finance) và [CronaSwap](https://app.cronaswap.org): Đây là các DEX / AMM khác là fork của PancakeSwap (một fork khác của Uniswap), nơi bạn sẽ nhận được các tính năng tương tự như trên CroDex.
-* [Beefy Finance](https://app.beefy.finance/#/cronos), [Adamant](https://adamant.finance) và [Autofarm](https://autofarm.network/cronos/) là những trình tổng hợp / tối ưu hóa năng suất nổi tiếng có mặt trên nhiều mạng và nơi bạn sẽ có thể gửi mã thông báo LP của mình từ hầu hết các DEX và để các thuật toán phụ trách nhóm thu thập mã thông báo trang trại và cộng dồn phần thưởng thành nhiều mã thông báo LP hơn
+* [VVS](https://vvs.finance/) và [CronaSwap](https://app.cronaswap.org/): Đây là các DEX / AMM khác là fork của PancakeSwap (một fork khác của Uniswap), nơi bạn sẽ nhận được các tính năng tương tự như trên CroDex.
+* [Beefy Finance](https://app.beefy.finance/#/cronos), [Adamant](https://adamant.finance/) và [Autofarm](https://autofarm.network/cronos/) là những trình tổng hợp / tối ưu hóa năng suất nổi tiếng có mặt trên nhiều mạng và nơi bạn sẽ có thể gửi mã thông báo LP của mình từ hầu hết các DEX và để các thuật toán phụ trách nhóm thu thập mã thông báo trang trại và cộng dồn phần thưởng thành nhiều mã thông báo LP hơn
 * [Crystl Finance](https://cronos.crystl.finance) là một bản fork ra mắt trên Polygon đầu tiên và hiện cũng có sẵn trên Cronos. Người dùng sẽ có thể gửi mã thông báo LP trong hầm để kiếm mã thông báo CRYSTL có thể được đặt cọc hoặc cung cấp thanh khoản (hoặc hoán đổi).
 * [Fortune DAO](https://www.fortunedao.com/#/) là bản fork Ohm (Olympus) chính trên Cronos chấp nhận DAI và USDC
 

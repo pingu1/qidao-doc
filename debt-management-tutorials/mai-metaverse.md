@@ -39,7 +39,7 @@ Các bể khác có thể được tìm thấy trên các dự án khác / yield
 
 Solana là một nền tảng blockchain cho các ứng dụng phi tập trung. Mục tiêu của mạng là đề xuất phí thấp (dưới 0,01 đô la) và giao dịch nhanh (dưới 400 mili giây). Ý tưởng đằng sau điều này là tạo ra một số thay thế cho Ethereum Mainnet và các chuỗi phụ của nó. Tuy nhiên, không phải vì Solana là đối thủ cạnh tranh trực tiếp với mạng Ethereum mà nó không hỗ trợ các tài sản tương tự. Thật vậy, Solana hiện hỗ trợ đồng tiền stablecoin MAI có thể được bắc cầu từ Polygon (nơi nó có thể được đúc).
 
-Để gửi đồng MAI của bạn đến Solana, bạn có thể sử dụng [AllBridge](https://allbridge.io), một nền tảng cầu nối cho phép bạn chuyển tài sản từ chuỗi này sang chuỗi khác. AllBridge hỗ trợ các mạng sau:
+Để gửi đồng MAI của bạn đến Solana, bạn có thể sử dụng [AllBridge](https://allbridge.io/), một nền tảng cầu nối cho phép bạn chuyển tài sản từ chuỗi này sang chuỗi khác. AllBridge hỗ trợ các mạng sau:
 
 * Ethereum Mainnet
 * Polygon
@@ -70,7 +70,7 @@ Một trong những điều thuận lợi cần biết về bể MAI / USDC trê
 Điều này có nghĩa là bạn thực sự có thể sử dụng 100% tiền gửi MAI từ Mai Finance mà không cần phải hoán đổi bất kỳ khoản nào để lấy USDC. Nó đặc biệt tiện lợi và tránh bị ảnh hưởng bởi sự khác biệt nhỏ về giá giữa 2 đồng. Lưu ý rằng bạn sẽ nhận được phần thưởng được trả bằng token của trang trại gốc, giống như cách bạn sẽ được trả trong QUICK nếu bạn đang farming ở QuickSwap trên Polygon. Sau đó, bạn có thể bán đồng bản vị của saber để tăng vị thế của LP MAI / USDC.
 
 {% hint style="info" %}
-Trên Solana, bạn cũng có thể sử dụng [Sunny](https://app.sunny.ag), một nền tảng tăng tốc tự động gộp phần thưởng từ Saber. Lưu ý rằng nền tảng Sunny không được xác thực bởi team Mai Finance. AllBridge và Saber đã là đối tác chính thức của Mai Finance, nhưng kết quả không được đảm bảo chắc chắn. Và vui lòng, như thường lệ, hãy tự nghiên cứu.
+Trên Solana, bạn cũng có thể sử dụng [Sunny](https://app.sunny.ag/), một nền tảng tăng tốc tự động gộp phần thưởng từ Saber. Lưu ý rằng nền tảng Sunny không được xác thực bởi team Mai Finance. AllBridge và Saber đã là đối tác chính thức của Mai Finance, nhưng kết quả không được đảm bảo chắc chắn. Và vui lòng, như thường lệ, hãy tự nghiên cứu.
 {% endhint %}
 
 ## Avalanche

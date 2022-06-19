@@ -19,7 +19,7 @@ Giả sử rằng bạn thực sự tin tưởng vào MATIC và nghĩ rằng hi�
 
 ### Sử dụng Aave để tăng vốn của bạn
 
-[Aave](https://app.aave.com) là một nền tảng cho vay và đi vay hàng đầu nơi mà bạn có thể gửi MATIC (trong rất nhiều token khác). Bằng cách cho vay trên Aave, các token được ký gửi sẽ nhận thêm lãi. Ví dụ, với 100$ MATIC của bạn sẽ có khả năng tạo ra lợi  nhuận 1.2% trong khoảng thời gian 1 năm. Đôi khi Aave cũng có các chương trình cụ thể cung cấp thêm phần thưởng trên tỷ lệ APYs cho vay cơ bản.
+[Aave](https://app.aave.com/) là một nền tảng cho vay và đi vay hàng đầu nơi mà bạn có thể gửi MATIC (trong rất nhiều token khác). Bằng cách cho vay trên Aave, các token được ký gửi sẽ nhận thêm lãi. Ví dụ, với 100$ MATIC của bạn sẽ có khả năng tạo ra lợi  nhuận 1.2% trong khoảng thời gian 1 năm. Đôi khi Aave cũng có các chương trình cụ thể cung cấp thêm phần thưởng trên tỷ lệ APYs cho vay cơ bản.
 
 Bởi vì MATIC bạn nằm trong bể của Aave, tiền lãi sẽ được tự động cộng dồn, có nghĩa là số MATIC sẽ tăng theo thời gian.
 

@@ -20,7 +20,7 @@ Các dự án Bluechip là các ứng dụng DeFi được chứng minh là ch�
 
 ### BeethovenX
 
-[BeethovenX](https://app.beets.fi/#/) là một nhánh của Balancer, một dự án chưa được khởi chạy trên Fantom, nhưng sự hiện diện của nó đã được thiết lập tốt trên các mạng khác. Giống như Balancer, BeethovenX là một trình quản lý danh mục đầu tư tự động, nhà cung cấp thanh khoản và cảm biến giá. Trên nền tảng này, bạn sẽ có thể cho vay tiền điện tử của mình và thu phí từ các giao dịch. Nếu bạn cần thêm thông tin về dự án, vui lòng truy cập [tài liệu chính thức](https://docs.beethovenx.io) của họ.
+[BeethovenX](https://app.beets.fi/#/) là một nhánh của Balancer, một dự án chưa được khởi chạy trên Fantom, nhưng sự hiện diện của nó đã được thiết lập tốt trên các mạng khác. Giống như Balancer, BeethovenX là một trình quản lý danh mục đầu tư tự động, nhà cung cấp thanh khoản và cảm biến giá. Trên nền tảng này, bạn sẽ có thể cho vay tiền điện tử của mình và thu phí từ các giao dịch. Nếu bạn cần thêm thông tin về dự án, vui lòng truy cập [tài liệu chính thức](https://docs.beethovenx.io/) của họ.
 
 Dự án BeethovenX không chỉ là dự án nhánh Balancer mà còn xây dựng các tính năng bổ sung tuyệt vời khác (quản lý danh mục đầu tư, theo dõi mã thông báo gốc BEETS, phần thưởng có thể nhận bất cứ lúc nào).
 
@@ -34,7 +34,7 @@ BeethovenX cũng là ứng dụng tốt nhất nếu bạn muốn hoán đổi M
 
 ### SpookySwap
 
-[SpookySwap](https://spookyswap.finance) có lẽ là một trong những DEX tốt nhất trên Fantom, nơi bạn sẽ có thể hoán đổi mã thông báo ERC20 của mình, cung cấp tính thanh khoản và canh tác lợi tức, tạo mã thông báo LP (Nhà cung cấp thanh khoản), đặt cổ phần mã thông báo BOO bản vị của họ và bạn thậm chí có thể kết nối một số tài sản từ Fantom sang chuỗi khác (và ngược lại). Đó là một nhánh của Uniswap v2, trên đó nhóm đã xây dựng các tính năng tuyệt vời.
+[SpookySwap](https://spookyswap.finance/) có lẽ là một trong những DEX tốt nhất trên Fantom, nơi bạn sẽ có thể hoán đổi mã thông báo ERC20 của mình, cung cấp tính thanh khoản và canh tác lợi tức, tạo mã thông báo LP (Nhà cung cấp thanh khoản), đặt cổ phần mã thông báo BOO bản vị của họ và bạn thậm chí có thể kết nối một số tài sản từ Fantom sang chuỗi khác (và ngược lại). Đó là một nhánh của Uniswap v2, trên đó nhóm đã xây dựng các tính năng tuyệt vời.
 
 SpookySwap gần đây đã giới thiệu cặp MAI-USDC mà mọi người hiện có thể cung cấp thanh khoản và kiếm được mã thông báo BOO với APR trung bình từ 25% đến 30%.
 

@@ -17,11 +17,11 @@ description: >-
 
 ### Trình bày Stake DAO
 
-[Stake DAO](https://app.stakedao.org) là một nền tảng tối ưu hóa lợi nhuận nơi người dùng có thể gửi tài sản và cho phép nền tảng sử dụng các chiến lược tốt nhất để tối đa hóa lợi nhuận cho họ. Các chiến lược được hiện thị một cách chi tiết và sắp xếp một cách khoa học nhằm tạo điều kiện cho người dùng có thể dễ dàng theo dõi và lựa chọn. Ethereum là chuối khối đầu tiên được StakeDAO chọn để ra mắt nền tảng của mình, sau đó mở rộng ra các chuỗi khỗi khác như Polygon và Avalanche. Bạn có thể tìm hiểu thêm về StakeDAO thông qua tài liệu chính thức của họ [tại đây.](https://stakedao.gitbook.io/stakedaohq/)
+[Stake DAO](https://app.stakedao.org/) là một nền tảng tối ưu hóa lợi nhuận nơi người dùng có thể gửi tài sản và cho phép nền tảng sử dụng các chiến lược tốt nhất để tối đa hóa lợi nhuận cho họ. Các chiến lược được hiện thị một cách chi tiết và sắp xếp một cách khoa học nhằm tạo điều kiện cho người dùng có thể dễ dàng theo dõi và lựa chọn. Ethereum là chuối khối đầu tiên được StakeDAO chọn để ra mắt nền tảng của mình, sau đó mở rộng ra các chuỗi khỗi khác như Polygon và Avalanche. Bạn có thể tìm hiểu thêm về StakeDAO thông qua tài liệu chính thức của họ [tại đây.](https://stakedao.gitbook.io/stakedaohq/)
 
 ### Chiến lược am3CRV
 
-Trong hướng dẫn này, chúng tôi sẽ sử dụng chiến lược tiết kiệm thụ động USD trên Polygon. Đây là chiến lược sử dụng bể 3amCRV từ [Curve Finance](https://polygon.curve.fi): bạn gửi USDT, USDC và DAI vào bể Aave từ Curve và bạn sẽ nhận được mã thông báo biên nhận là am3CRV. Với mã thông báo này bạn có thể gửi trực tiếp trên nền tảng Curve để nhận phần thưởng là CRV và WMATIC hoặc gửi lên nền tảng StakeDAO để nền tảng trực tiếp bán phần thưởng và tự động cộng dồn vào vị thế ổn định ban đầu của bạn.
+Trong hướng dẫn này, chúng tôi sẽ sử dụng chiến lược tiết kiệm thụ động USD trên Polygon. Đây là chiến lược sử dụng bể 3amCRV từ [Curve Finance](https://polygon.curve.fi/): bạn gửi USDT, USDC và DAI vào bể Aave từ Curve và bạn sẽ nhận được mã thông báo biên nhận là am3CRV. Với mã thông báo này bạn có thể gửi trực tiếp trên nền tảng Curve để nhận phần thưởng là CRV và WMATIC hoặc gửi lên nền tảng StakeDAO để nền tảng trực tiếp bán phần thưởng và tự động cộng dồn vào vị thế ổn định ban đầu của bạn.
 
 ![bể aave trên Curve tại thời điểm tháng 1 năm 2022](../../.gitbook/assets/stakedao-otter-2.png)
 
@@ -39,7 +39,7 @@ Ngoài ra bạn cũng có thể gửi mã thông báo am3CRV tại các hợp đ
 
 ## Mai Finance
 
-[Mai Finance](https://app.mai.finance) là một giao thức cho vay nơi bạn có thể gửi tài sản thế chấp để vay đồng ổn định MAI. Đây không phải là nền tảng cho vay thông thường nơi mà bạn vay từ những tài sản của người cho vay mà bạn vay từ chính tài sản của mình. Để tìm hiểu thêm chi tiết về MAI Finance vui lòng tham khảo [tài liệu này.](https://docs.mai.finance)
+[Mai Finance](https://app.mai.finance) là một giao thức cho vay nơi bạn có thể gửi tài sản thế chấp để vay đồng ổn định MAI. Đây không phải là nền tảng cho vay thông thường nơi mà bạn vay từ những tài sản của người cho vay mà bạn vay từ chính tài sản của mình. Để tìm hiểu thêm chi tiết về MAI Finance vui lòng tham khảo [tài liệu này.](https://docs.mai.finance/)
 
 Vào thời điểm tháng 1 năm 2022, mã thông báo sdam3CRV được chấp nhận là tài sản thế chấp để vay đồng ổn định MAI. Điều này đặc biệt tuyệt vời bởi những lý do sau:
 
@@ -64,7 +64,7 @@ Với MAI vay được từ kho sdam3CRV bạn có thể tạo đòn bẩy cho v
 
 ## OtterClam DAO
 
-[OtterClam Finance](https://app.otterclam.finance) là một bản sao chép của OHM rất độc đáo trên chuỗi khối Polygon. Ra mắt vào tháng 11 năm 2021, Otter Clam đã có nhiều sự phát triển và hiện đang đi theo con đường GameFi.
+[OtterClam Finance](https://app.otterclam.finance/) là một bản sao chép của OHM rất độc đáo trên chuỗi khối Polygon. Ra mắt vào tháng 11 năm 2021, Otter Clam đã có nhiều sự phát triển và hiện đang đi theo con đường GameFi.
 
 Một trong những điều thú vị nhất đó chính là quan hệ đối tác giữa OtterClam và QiDAO- nền tảng đằng sau Mai Finance bởi phần lớn trái phiếu được phát hành trên Otter là được hỗ trợ bởi đồng ổn định MAI. Do đó, bạn có thể mua được trái phiếu được chiết khấu tại Otter bằng cách đúc MAI trên nền tảng Mai Finance. Hầu hết các bản sao chép OHM đều đưa ra mức APY rất cao nhằm thu hút nguồn vốn, Otter lại có chính sách cho phép mua sCLAM(trái phiếu đã được gửi) vẫn sinh lời ngay cả trong thời gian kỳ hạn.
 

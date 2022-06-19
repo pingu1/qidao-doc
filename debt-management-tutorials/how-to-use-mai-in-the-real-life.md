@@ -36,7 +36,7 @@ Sau 1 tháng khai thác, anh ấy kiểm tra danh mục đầu tư của mình t
 
 Sau khi đọc các tài liệu khác nhau của Mai Finance và nhận được một số trợ giúp từ cộng đồng Discord, DogeOfWallStreet nhận thấy khả năng giữ Ethereum của mình trong khi vẫn được mua thêm card đồ họa.
 
-Bước đầu tiên là kết nối ETH với mạng Polygon. Điều này thật dễ dàng bằng cách sử dụng cầu [PoS](https://wallet.polygon.technology) và việc bắc cầu các tài sản được thực hiện ở "mức giá hợp lý" là 20,00 đô la được thanh toán bằng ETH.
+Bước đầu tiên là kết nối ETH với mạng Polygon. Điều này thật dễ dàng bằng cách sử dụng cầu [PoS](https://wallet.polygon.technology/) và việc bắc cầu các tài sản được thực hiện ở "mức giá hợp lý" là 20,00 đô la được thanh toán bằng ETH.
 
 DogeOfWallStreet gửi ETH của mình trên AAVE và nhận được amWETH. Bây giờ anh ta đến Mai Finance và gửi số tiền này để nhận được các token camWETH sẽ được sử dụng làm tài sản thế chấp trong vault. Ở giai đoạn đó, anh ấy vẫn sở hữu tất cả ETH của mình và Mai Finance cho phép anh ấy kiếm được 1,39% APY trên tài sản của mình. Không nhiều, nhưng vẫn được đánh giá là cao.
 

@@ -37,7 +37,7 @@
   * [Khởi động trên Harmony](toan-tap/harmony/how-to-get-started-on-harmony.md)
   * [Một cách mới để farm cặp ELK-MAI](toan-tap/harmony/how-to-farm-elknet.md)
 * [Gnosis Chain](toan-tap/gnosis/README.md)
-  * [How to get started on Gnosis Chain](toan-tap/gnosis/how-to-get-started-on-gnosis.md)
+  * [Khởi động trên chuỗi Gnosis](toan-tap/gnosis/how-to-get-started-on-gnosis.md)
 
 ## Học viện MAI <a href="#debt-management-tutorials" id="debt-management-tutorials"></a>
 

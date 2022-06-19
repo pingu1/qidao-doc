@@ -22,7 +22,7 @@ Trong chiến lược này, chúng tôi sẽ sử dụng rất nhiều cặp LP 
 
 ### Market.XYZ
 
-[Market.XYZ](https://fantom.market.xyz) là một giao thức cho vay xây dựng một số hầm khóa cho các đối tác của họ. Bạn sẽ có thể gửi các tài sản đơn lẻ hoặc mã thông báo LP làm tài sản thế chấp để vay các tài sản khác. Bởi vì bạn đang vay thế chấp, điều quan trọng là phải đảm bảo rằng bạn không bị thanh lý. Việc thanh lý xảy ra khi giá trị của tài sản bạn ký gửi làm tài sản thế chấp thấp hơn giá trị của khoản vay mà bạn đã ký hợp đồng. Đây là lý do tại sao điều quan trọng là đảm bảo tỷ lệ giữa 2 giá trị vẫn tương đối cao và tài sản thế chấp của bạn không mất quá nhiều giá trị khi thị trường đi xuống.
+[Market.XYZ](https://fantom.market.xyz/) là một giao thức cho vay xây dựng một số hầm khóa cho các đối tác của họ. Bạn sẽ có thể gửi các tài sản đơn lẻ hoặc mã thông báo LP làm tài sản thế chấp để vay các tài sản khác. Bởi vì bạn đang vay thế chấp, điều quan trọng là phải đảm bảo rằng bạn không bị thanh lý. Việc thanh lý xảy ra khi giá trị của tài sản bạn ký gửi làm tài sản thế chấp thấp hơn giá trị của khoản vay mà bạn đã ký hợp đồng. Đây là lý do tại sao điều quan trọng là đảm bảo tỷ lệ giữa 2 giá trị vẫn tương đối cao và tài sản thế chấp của bạn không mất quá nhiều giá trị khi thị trường đi xuống.
 
 Để giảm thiểu rủi ro thanh lý, chúng tôi sẽ sử dụng mã thông báo FTM-USDC LP làm tài sản thế chấp
 
@@ -66,7 +66,7 @@ Như mọi khi, lợi thế lớn nhất của việc sử dụng nền tảng B
 
 ### SpookySwap
 
-[Spookyswap](https://spookyswap.finance) là bản fork Uniswap V2 lớn nhất trên Fantom, một nền tảng nơi bạn có thể hoán đổi tài sản và cung cấp thanh khoản cho nhiều cặp. Spookyswap cũng là đối tác vững chắc của Mai Finance và đề xuất quỹ MAI-USDC. Mối quan hệ hợp tác được mở rộng thông qua Market.XYZ, nơi bạn sẽ có thể mượn MAI đối với một số cặp LP cụ thể (xem phần về Market.xyz) cũng như mã thông báo BOO và BOO đặt cọc của bạn, mã thông báo gốc của Spookswap.
+[Spookyswap](https://spookyswap.finance/) là bản fork Uniswap V2 lớn nhất trên Fantom, một nền tảng nơi bạn có thể hoán đổi tài sản và cung cấp thanh khoản cho nhiều cặp. Spookyswap cũng là đối tác vững chắc của Mai Finance và đề xuất quỹ MAI-USDC. Mối quan hệ hợp tác được mở rộng thông qua Market.XYZ, nơi bạn sẽ có thể mượn MAI đối với một số cặp LP cụ thể (xem phần về Market.xyz) cũng như mã thông báo BOO và BOO đặt cọc của bạn, mã thông báo gốc của Spookswap.
 
 Đối với hướng dẫn này, chúng tôi sẽ sử dụng hai mã thông báo LP khác nhau từ SpookySwap:
 
@@ -75,7 +75,7 @@ Như mọi khi, lợi thế lớn nhất của việc sử dụng nền tảng B
 
 ### Liquid Driver
 
-[Liquid Driver](https://www.liquiddriver.finance) là một công cụ tối ưu hóa lợi nhuận mà bạn sẽ có thể gửi mã thông báo LP từ các bể thanh khoản khác nhau và kiếm được lợi nhuận từ chúng. Cách thức hoạt động của trình tối ưu hóa lợi nhuận là thu thập các mã thông báo phần thưởng của nền tảng mục tiêu và cộng dồn chúng lại. Điều này rất hữu ích vì gas trên Fantom có thể là một khoản chi phí đáng kể. Một khoản phí vận hành được tính nhưng một phần doanh thu của giao thức được phân phối lại cho các cổ đông LQDR. LQDR là mã thông báo gốc của Liquid Driver.
+[Liquid Driver](https://www.liquiddriver.finance/) là một công cụ tối ưu hóa lợi nhuận mà bạn sẽ có thể gửi mã thông báo LP từ các bể thanh khoản khác nhau và kiếm được lợi nhuận từ chúng. Cách thức hoạt động của trình tối ưu hóa lợi nhuận là thu thập các mã thông báo phần thưởng của nền tảng mục tiêu và cộng dồn chúng lại. Điều này rất hữu ích vì gas trên Fantom có thể là một khoản chi phí đáng kể. Một khoản phí vận hành được tính nhưng một phần doanh thu của giao thức được phân phối lại cho các cổ đông LQDR. LQDR là mã thông báo gốc của Liquid Driver.
 
 Đối với chiến lược này, chúng ta sẽ sử dụng cặp FTM-BOO LP vì đây là bể có một trong những APR cao nhất trong LQDR cho Spookyswap.
 
@@ -228,7 +228,7 @@ Chiến lược này có nhiều biến thể mang lại những lợi ích khá
 
 ### Mai Finance và Market.xyz
 
-Bạn hoàn toàn có thể vay MAI tại[ Mai Finance ](https://app.mai.finance)với lãi suất 0%. Ví dụ: nếu bạn sử dụng mooScreamFTM thay vì mooBooFTM-USDC làm tài sản thế chấp, điều này sẽ mang lại những ưu điểm sau:
+Bạn hoàn toàn có thể vay MAI tại[ Mai Finance ](https://app.mai.finance/)với lãi suất 0%. Ví dụ: nếu bạn sử dụng mooScreamFTM thay vì mooBooFTM-USDC làm tài sản thế chấp, điều này sẽ mang lại những ưu điểm sau:
 
 * Bạn không có bất kỳ tổn thất tạm thời nào đối với tài sản thế chấp của mình&#x20;
 * Bạn vay ở mức 0% với một khoản phí hoàn trả 0,5% duy nhất, trong hầu hết các trường hợp, sẽ thấp hơn nhiều so với lãi suất bạn sẽ trả trên Market.xyz (nếu có MAI để vay cho kho tiền này)&#x20;

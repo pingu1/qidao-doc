@@ -37,7 +37,7 @@ Một cách khác để đúc MAI là thông qua [Ancho](https://app.mai.finance
 
 Như bạn có thể thấy trên hình bên dưới, giá của đồng tiền ổn định MAI hầu như luôn gần với mức 1 đô la, điều này là do như [tài liệu chính thức](https://docs.mai.finance/stablecoin-economics) cho biết, đồng tiền ổn định MAI cho phép người dùng tham gia vào chênh lệch giá không rủi ro thông qua Anchor khi giá của MAI giảm xuống dưới $ 0,99 hoặc tăng trên $ 1,01.&#x20;
 
-![Price chart of the MAI token in the last 90 days](<../.gitbook/assets/image (7) (1) (1) (1) (2).png>)
+![Price chart of the MAI token in the last 90 days](<../.gitbook/assets/image (7) (1) (1) (1) (1) (2) (1).png>)
 
 ## Tại sao nó luôn gần 1$?
 

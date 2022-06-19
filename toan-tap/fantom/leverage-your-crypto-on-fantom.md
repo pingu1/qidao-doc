@@ -17,7 +17,7 @@ Mai Finance đã ra mắt nền tảng cho vay của mình trên Fantom với nh
 
 [Yearn Finance](https://beta.yearn.finance/#/home) là một nhóm giao thức chạy trên mạng Ethereum và một số mạng khác cho phép người dùng tối đa hóa tài sản mã hóa thông qua hoạt động cho vay và giao dịch. Tại hướng dẫn này, chúng tôi sẽ gửi mã token đơn lẻ vào các hầm tiền trên Yearn để nhận lại yvToken như là bằng chứng cho việc gửi tiền. Tại trường hợp này, chúng ta sẽ nhận lại yvDAI khi ký gửi DAI
 
-![yearn vaults on Fantom network](../../.gitbook/assets/ftm-leverage-yv1.png)
+<img src="../../.gitbook/assets/ftm-leverage-yv1.png" alt="yearn vaults on Fantom network" data-size="original">
 
 {% hint style="info" %}
 Trang web của Yearn hiện tại đang trong giai đoạn thử nghiệm trên chuỗi khối Fantom nên chỉ số APR/APY không được hiển thị trên giao diện. Tuy nhiên, bạn có thể thấy APR của DAI trên tab Iron Bank là 8%. Hãy luôn nghiên cứu trước khi đầu tư.
@@ -29,7 +29,7 @@ Khi bạn đã gửi DAI của mình vào Yearn Finance, bạn sẽ có yvDAI tr
 
 Mai Finance chấp nhận rất nhiều mã thông báo lợi nhuận đến từ các hầm tiền của Yearn như một loại thế chấp để có thể vay MAI từ đó.&#x20;
 
-![Deposit your yvToken on Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
+<img src="../../.gitbook/assets/ftm-leverage-yv2.png" alt="Deposit your yvToken on Mai Finance" data-size="original">
 
 Hiện tại kho tiền yvDAI có ngưỡng thanh lý là 110%, điều này có nghĩa là bạn có thể vay MAI để tỷ lệ giữa giá trị tài sản thế chấp của bạn và giá trị nợ là 110%. Hãy cẩn thận rằng 110% thực sự là tỷ lệ mà kho tiền của bạn sẽ được thanh lý. Bạn cần giữ tỷ lệ trên ngưỡng tối thiểu này. Vì DAI không thay đổi nhiều về giá (lên hoặc xuống dưới vài xu) nên có thể giữ CDR (Tỷ lệ tài sản đảm bảo trên nợ) "an toàn" là 115%, nhưng hãy thoải mái giữ mức cao hơn nếu bạn muốn.
 

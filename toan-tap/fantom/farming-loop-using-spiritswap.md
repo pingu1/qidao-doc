@@ -31,7 +31,7 @@ Khi tiến hành cung cấp thanh khoản bể MAI-WFTM trên SpiritSwap, bạn 
 
 ## Cung cấp thanh khoản SPIRIT trên Liquid Driver
 
-[Liquid Driver](https://www.liquiddriver.finance) là một bản fork khác của Uniswap tập trung vào việc cung cấp tính thanh khoản trên Fantom. Một trong những tính năng được quan tâm nhất trên Liquid Driver là việc họ có thể tạo mã thông báo linSPIRIT từ mã thông báo SPIRIT. LinSPIRIT là phiên bản linh hoạt của mã thông báo inSPIRIT. Tỷ lệ giữa linSPIRIT và inSPIRIT là 1: 1, nó thực sự chỉ là một phiên bản gói của mã thông báo inSPIRIT và bạn có thể giao dịch cả hai mã thông báo cho nhau trực tiếp trên Liquid Driver.
+[Liquid Driver](https://www.liquiddriver.finance/) là một bản fork khác của Uniswap tập trung vào việc cung cấp tính thanh khoản trên Fantom. Một trong những tính năng được quan tâm nhất trên Liquid Driver là việc họ có thể tạo mã thông báo linSPIRIT từ mã thông báo SPIRIT. LinSPIRIT là phiên bản linh hoạt của mã thông báo inSPIRIT. Tỷ lệ giữa linSPIRIT và inSPIRIT là 1: 1, nó thực sự chỉ là một phiên bản gói của mã thông báo inSPIRIT và bạn có thể giao dịch cả hai mã thông báo cho nhau trực tiếp trên Liquid Driver.
 
 ![LiquidSwapper trêm Liquid Driver](../../.gitbook/assets/spiritswap-3.png)
 

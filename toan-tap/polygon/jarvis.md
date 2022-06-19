@@ -56,7 +56,7 @@ Nhưng không dừng ở đó, Javis còn đưa ra các chương trình khuyến
 ![Các bể thanh khoản trên Javis tại thời điểm tháng 3 năm  2022](../../.gitbook/assets/Jarvis-2.png)
 
 {% hint style="info" %}
-Bạn có thể thấy hình chụp màn hình xuất hiện bể 2CAD bao gồm JCAD và CADC. Mã thông báo CADC là một phiên bản khác của đồng đô la Canada trên [DFX](https://app.dfx.finance), một sàn ngoại hối phi tập trung khác.
+Bạn có thể thấy hình chụp màn hình xuất hiện bể 2CAD bao gồm JCAD và CADC. Mã thông báo CADC là một phiên bản khác của đồng đô la Canada trên [DFX](https://app.dfx.finance/), một sàn ngoại hối phi tập trung khác.
 {% endhint %}
 
 ### Mt. Pelerin
@@ -121,7 +121,7 @@ Cũng hãy suy nghĩ về kịch bản này: bạn có đô la Canada và muốn
 
 ### Market.xyz
 
-[Market.xyz](https://www.market.xyz) là một giao thức cho vay, nơi bạn sẽ có thể sử dụng một số tài sản tiền điện tử của mình làm tài sản thế chấp để vay các tài sản khác. Gần đây, họ đã ra mắt một pool mới 100% dành riêng cho các FIAT tổng hợp của Jarvis: https://polygon.market.xyz/pool/7.
+[Market.xyz](https://www.market.xyz/) là một giao thức cho vay, nơi bạn sẽ có thể sử dụng một số tài sản tiền điện tử của mình làm tài sản thế chấp để vay các tài sản khác. Gần đây, họ đã ra mắt một pool mới 100% dành riêng cho các FIAT tổng hợp của Jarvis: https://polygon.market.xyz/pool/7.
 
 ![Jarvis Forex khóa trên Market.xyz tại thời điểm tháng 2 năm 2022](../../.gitbook/assets/Jarvis-9.png)
 
@@ -153,7 +153,7 @@ Bây giờ chúng ta hãy xem phải làm gì với khoản vay được chốt 
 
 ### Uniswap V3
 
-[Uniswap V3](https://app.uniswap.org) là phiên bản mới nhất của Uniswap, dự án mẹ của nhiều DEX (Sàn giao dịch phi tập trung), nơi người dùng có thể hoán đổi tài sản của họ cho các loại tiền điện tử khác, cũng như cung cấp tính thanh khoản để hỗ trợ các giao dịch hoán đổi này.
+[Uniswap V3](https://app.uniswap.org/) là phiên bản mới nhất của Uniswap, dự án mẹ của nhiều DEX (Sàn giao dịch phi tập trung), nơi người dùng có thể hoán đổi tài sản của họ cho các loại tiền điện tử khác, cũng như cung cấp tính thanh khoản để hỗ trợ các giao dịch hoán đổi này.
 
 Uniswap V3 không được khuyến khích trên Polygon ( vẫn chưa), nhưng cung cấp một cách mới để cung cấp tính thanh khoản: thanh khoản tập trung! Bạn có thể chọn phạm vi giá mà bạn muốn cung cấp thanh khoản và nếu phạm vi rất hẹp, bạn sẽ kiếm được nhiều phí hơn những người dùng cung cấp thanh khoản trên phạm vi rộng hơn. Bạn có thể tìm hiểu cách cung cấp các cặp thanh khoản trên Uniswap V3 với[ hướng dẫn chính thức của họ](https://help.uniswap.org/en/articles/5391541-provide-liquidity-on-uniswap-v3) và bạn cũng có thể xem[ video tuyệt vời của Finegraphic](https://www.youtube.com/watch?v=Ehm-OYBmlPM) về UniswapV3.
 
@@ -171,7 +171,7 @@ Phạm vi giá dự kiến là từ 0,99 đến 1,01 USDC cho 1 MAI, tùy thuộ
 * Nếu chọn một phạm vi hẹp, khi giá vượt ra ngoài phạm vi đó, bạn sẽ không thu được phí
 * Thanh khoản của bạn không được điều chỉnh dựa trên giá cả. Nếu bạn chọn phạm vi \[0,99; 1,01] cho MAI: USDC và giá của MAI là 0,99 USDC, bạn sẽ có 100% MAI và 0% USDC. Mặt khác, nếu giá là 1,01 USDC cho mỗi MAI, bạn sẽ có 100% USDC và 0% MAI
 * Bạn có thể thoát khỏi bể thanh khoản của mình bất cứ lúc nào và tạo một vị thế mới với phạm vi rộng hơn / hẹp hơn nếu bạn thấy rằng thiết lập đầu tiên của mình không hiệu quả
-* Đối với đồng ổn định, tốt hơn nên đặt phạm vi phí 0,05% để các giao thức tổng hợp như [zapper](https://zapper.fi) hoặc [1inch](https://zapper.fi) chọn bể của bạn khi người dùng hoán đổi đồng ổn định của họ.
+* Đối với đồng ổn định, tốt hơn nên đặt phạm vi phí 0,05% để các giao thức tổng hợp như [zapper](https://zapper.fi/) hoặc [1inch](https://zapper.fi/) chọn bể của bạn khi người dùng hoán đổi đồng ổn định của họ.
 
 Để đơn giản hóa hướng dẫn này, chúng tôi sẽ đặt phạm vi tập trung vào 1.000 với mức chênh lệch 1% từ 0,995 đến 1,005 USDC mỗi MAI.
 

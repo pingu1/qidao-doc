@@ -18,7 +18,7 @@ Vấn đề chính khi bạn farming là bạn phải lựa chọn giữa:
 Hướng dẫn dưới đây sẽ trình bày từng bước các tận dụng nền tảng Mai Finance để thực sự đảm bảo được lợi nhuận thu được trong khi vẫn tái đầu tư một phần vào farm.
 
 {% hint style="info" %}
-Để minh họa chi tiết hơn làm thế nào bạn có thể làm điều đó, chúng ta sẽ dùng [farm mới nhất ](https://ball.polypup.finance)của Polypup. Xin lưu ý đây chỉ là ví dụ cho mục đích giáo dục nên tuyệt đối không sử dụng như là một lời khuyên tài chính. Ngoài ra, thuật ngữ "an toàn" cũng chỉ mang tính chủ quan cá nhân.
+Để minh họa chi tiết hơn làm thế nào bạn có thể làm điều đó, chúng ta sẽ dùng [farm mới nhất ](https://ball.polypup.finance/)của Polypup. Xin lưu ý đây chỉ là ví dụ cho mục đích giáo dục nên tuyệt đối không sử dụng như là một lời khuyên tài chính. Ngoài ra, thuật ngữ "an toàn" cũng chỉ mang tính chủ quan cá nhân.
 {% endhint %}
 
 ![](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)

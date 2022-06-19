@@ -19,7 +19,7 @@ Phần chia doanh thu này được phân phối cho những người stake vào
 
 ## Giới thiệu về snapshot
 
-Một snapshot cơ bản là bản ghi lại trạng thái của một blockchain trên một chiều cao khối cụ thể, điều đó có nghĩa là môt snapshot sẽ ghi lại tất nội dung trên toàn bộ sổ cái blockchain, bao gồm tất cả địa chỉ hiện có và các thông tin liên quan đến chúng (giao dich, phí, số dư...). Vì QiDao nằm trên chuỗi khối Polygon nên chúng ta có thể kiểm tra khi nào snapshot được tiến hành lần tới tại [Polygonscan](https://polygonscan.com).
+Một snapshot cơ bản là bản ghi lại trạng thái của một blockchain trên một chiều cao khối cụ thể, điều đó có nghĩa là môt snapshot sẽ ghi lại tất nội dung trên toàn bộ sổ cái blockchain, bao gồm tất cả địa chỉ hiện có và các thông tin liên quan đến chúng (giao dich, phí, số dư...). Vì QiDao nằm trên chuỗi khối Polygon nên chúng ta có thể kiểm tra khi nào snapshot được tiến hành lần tới tại [Polygonscan](https://polygonscan.com/).
 
 Bạn đủ điều kiện để nhận phần thưởng nếu bạn stake số Qi của mình trong ít nhất 10 ngày tùy thuộc vào thời điểm bạn khóa token của mình.&#x20;
 

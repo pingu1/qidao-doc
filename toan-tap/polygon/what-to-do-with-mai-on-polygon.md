@@ -24,7 +24,7 @@ Các dự án bluechip là các ứng dụng DeFi được chứng minh là bề
 
 ### Balancer
 
-[Balancer](https://polygon.balancer.fi/#/) là trình quản lý danh mục đầu tư tự động, nhà cung cấp thanh khoản và cảm biến giá. Trên nền tảng này, bạn sẽ có thể cho vay tiền điện tử của mình và thu phí từ các nhà giao dịch, những người tái danh mục đầu tư của bạn bằng cách tận dụng các cơ hội kinh doanh chênh lệch giá. Nếu bạn cần thêm thông tin chi tiết về Balancer, vui lòng đọc [tài liệu chính thức của Balancer](https://docs.balancer.fi).
+[Balancer](https://polygon.balancer.fi/#/) là trình quản lý danh mục đầu tư tự động, nhà cung cấp thanh khoản và cảm biến giá. Trên nền tảng này, bạn sẽ có thể cho vay tiền điện tử của mình và thu phí từ các nhà giao dịch, những người tái danh mục đầu tư của bạn bằng cách tận dụng các cơ hội kinh doanh chênh lệch giá. Nếu bạn cần thêm thông tin chi tiết về Balancer, vui lòng đọc [tài liệu chính thức của Balancer](https://docs.balancer.fi/).
 
 Trên chuỗi Polygon, Balancer đề xuất một bể bao gồm 4 đồng stablecoin chính: DAI, USDC, USDT và MAI (miMATIC). Bể stablecoin này hiện có APR khá ổn định là \~ 20%.
 
@@ -32,7 +32,7 @@ Trên chuỗi Polygon, Balancer đề xuất một bể bao gồm 4 đồng stab
 
 Tính năng nổi trội nhất về Balancer là bạn hoàn toàn không cần phải sở hữu 4 đồng tiền để gửi vào bể. Tính năng cân bằng sẽ tự động tạo ra một kết hợp cân bằng với bất kỳ khoản tiền gửi nào bạn thực hiện. Điều này có nghĩa là nếu bạn có MAI trị giá 100 đô la, bạn có thể chỉ cần gửi chúng vào nhóm Balancer và để thuật toán chia đúng tỷ lệ 25% cho mỗi đồng xu tùy thuộc vào giá tương ứng của chúng tại thời điểm bạn gửi tiền.
 
-Phần thưởng được phân phối hàng tuần bằng đồng BAL. Ngoài đồng BAL ra, phần thưởng bổ sung có thể được cấp phụ thuộc vào bể mà bạn đã tham gia. Bạn có thể kiểm tra các chương trình ưu đãi khác nhau [tại đây](https://balancer-incentives.web.app). Trong trường hợp của chúng ta, việc tham gia vào bể stablecoin cũng sẽ giúp bạn kiếm được phần thưởng MATIC và Qi.
+Phần thưởng được phân phối hàng tuần bằng đồng BAL. Ngoài đồng BAL ra, phần thưởng bổ sung có thể được cấp phụ thuộc vào bể mà bạn đã tham gia. Bạn có thể kiểm tra các chương trình ưu đãi khác nhau [tại đây](https://balancer-incentives.web.app/). Trong trường hợp của chúng ta, việc tham gia vào bể stablecoin cũng sẽ giúp bạn kiếm được phần thưởng MATIC và Qi.
 
 Một vòng hoàn hảo sẽ được minh họa như sau:
 
@@ -42,7 +42,7 @@ Nếu bạn cần thêm thông tin chi tiết về cách bạn có thể sử d�
 
 ### Curve finance
 
-[Curve](https://curve.fi) là một nền tảng nơi bạn có thể cho vay tài sản tiền điện tử của mình trong các bể sẽ tạo ra doanh thu, nhưng không trực tiếp MAI (vẫn chưa?). Các bể mà chúng tôi quan tâm là
+[Curve](https://curve.fi/) là một nền tảng nơi bạn có thể cho vay tài sản tiền điện tử của mình trong các bể sẽ tạo ra doanh thu, nhưng không trực tiếp MAI (vẫn chưa?). Các bể mà chúng tôi quan tâm là
 
 * Bể AAVE sẽ tạo ra từ 5% đến 15% APR (APR biến động rất nhiều) trên bộ ba đồng tiền ổn định (DAI / USDC / USDT). Bể hoạt động giống hệt như Balancer theo cách mà bạn có thể vào nhóm bằng cách sử dụng một tài sản duy nhất sẽ được sử dụng trên AAVE bởi giao thức.
 * Bể Atricrypto bao gồm bộ ba đồng tiền ổn định và bao gồm cả wETH và wBTC để giảm thiểu tổn thất tạm thời. Bể này có APR dao động trong khoảng từ 25% đến 30%. Mai Finance team hiện cũng đang cố gắng thêm MAI vào nhóm này, có nghĩa là bạn có thể tham gia trực tiếp bằng MAI của mình.
@@ -129,7 +129,7 @@ Các farm khác cũng có thể chấp nhận bể MAI / USDC. Nếu bạn muố
 
 ### Giải thích một chút&#x20;
 
-[Impermax](https://polygon.impermax.finance) là một nền tảng cho phép người tạo đòn bẩy mã token LP của họ để có lợi suất cao hơn. Mục tiêu rất đơn giản: bằng cách cung cấp cặp LP và sử dụng chúng làm tài sản thế chấp, sau đó người ta có thể vay thêm trong số 2 tài sản cơ bản để tạo ra nhiều cặp LP hơn và tiếp tục lặp lại vòng lặp.
+[Impermax](https://polygon.impermax.finance/) là một nền tảng cho phép người tạo đòn bẩy mã token LP của họ để có lợi suất cao hơn. Mục tiêu rất đơn giản: bằng cách cung cấp cặp LP và sử dụng chúng làm tài sản thế chấp, sau đó người ta có thể vay thêm trong số 2 tài sản cơ bản để tạo ra nhiều cặp LP hơn và tiếp tục lặp lại vòng lặp.
 
 ![Giải thích vòng lặp trên Impermax](<../../.gitbook/assets/Screen Shot 2021-08-11 at 1.15.21 PM.png>)
 

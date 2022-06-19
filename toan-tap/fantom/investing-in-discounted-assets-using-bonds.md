@@ -45,7 +45,7 @@ Trong thời gian gần đây, điều này có thể thực hiện được nh�
 Điều này làm giảm đáng kể áp lực bán đối với mã thông báo EXOD mang lại lợi ích đáng kể cho giao thức. Trước đây, các tay chèo trái phiếu sẽ phải bán EXOD của họ cho DAI để mua trái phiếu bổ sung, điều này gây bất lợi một phần do giảm giá mã thông báo và có tác động phân tầng đối với kho bạc.
 
 {% hint style="info" %}
-Nếu bạn không quen thuộc với các dự án Ohm, tôi thực sự khuyên bạn nên đọc thêm một số bài viết về chủ đề này. Bạn có thể tham khảo hướng dẫn của chúng tôi về Klima ( tại phần Polygon) hoặc [truy cập trực tiếp vào tài liệu chính thức của Exodia](https://docs.exodia.finance). Ngoài ra, bạn có thể tham gia vào máy chủ Discord và đăng ký vào chương trình giáo dục của họ.
+Nếu bạn không quen thuộc với các dự án Ohm, tôi thực sự khuyên bạn nên đọc thêm một số bài viết về chủ đề này. Bạn có thể tham khảo hướng dẫn của chúng tôi về Klima ( tại phần Polygon) hoặc [truy cập trực tiếp vào tài liệu chính thức của Exodia](https://docs.exodia.finance/). Ngoài ra, bạn có thể tham gia vào máy chủ Discord và đăng ký vào chương trình giáo dục của họ.
 {% endhint %}
 
 Bạn cũng thấy rằng bể mã thông báo LP chấp nhận MAI, đồng tiền ổn định được đúc trên Mai Finance. Khi bạn đã mua trái phiếu của mình với mức chiết khấu, bạn sẽ nhận được mã thông báo EXOD của mình vào cuối kỳ hạn. Bạn cũng có thể gửi mã thông báo này ở mức APY (Lợi tức cộng dồn phần trăm hàng năm) là 38,787%, tương đương với APR (Tỷ lệ lợi nhuận hàng năm) là 601% hoặc mức tăng hàng ngày là 1,65%.
@@ -54,7 +54,7 @@ Chúng ta sẽ sử dụng hệ thống trái phiếu để mua mã thông báo 
 
 ## Tomb Finance
 
-[Tomb Finance](https://tomb.finance) là một dự án rất đặc biệt, nguyên bản theo nhiều phương diện. Mã thông báo TOMB là một đồng tiền ổn định theo thuật toán được neo với mã thông báo FTM và được thiết kế để trở thành một phương tiện trao đổi và thêm thanh khoản bổ sung cho FTM, mã thông báo bản vị trên chuỗi khối Fantom.
+[Tomb Finance](https://tomb.finance/) là một dự án rất đặc biệt, nguyên bản theo nhiều phương diện. Mã thông báo TOMB là một đồng tiền ổn định theo thuật toán được neo với mã thông báo FTM và được thiết kế để trở thành một phương tiện trao đổi và thêm thanh khoản bổ sung cho FTM, mã thông báo bản vị trên chuỗi khối Fantom.
 
 Hệ sinh thái Tomb Finance đề xuất thêm 2 mã thông báo:
 

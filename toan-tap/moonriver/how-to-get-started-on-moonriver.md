@@ -79,10 +79,10 @@ Moonriver đang nhận được rất nhiều sức hấp và ngày càng có nh
 
 Khi bạn farm trên Solarbeam, bạn sẽ được thưởng bằng mã thông báo SOLAR mà sau đó bạn có thể đặt  vào Vault trong một khoảng thời gian nhất định và nhận thêm mã thông báo SOLAR hoặc đặt cổ phần để đạt được các mã thông báo khác trên nền tảng.
 
-* [Huckleberry Finance](https://www.huckleberry.finance): Đây là một DEX / AMM khác trên Moonriver, nơi bạn sẽ có thể thu được sản lợi nhuận và có thể sử dụng Beefy để cộng dồn lợi nhuận.
+* [Huckleberry Finance](https://www.huckleberry.finance/): Đây là một DEX / AMM khác trên Moonriver, nơi bạn sẽ có thể thu được sản lợi nhuận và có thể sử dụng Beefy để cộng dồn lợi nhuận.
 * [Beefy Finance](https://app.beefy.finance/#/moonriver): Công cụ cộng dồn tự động nổi tiếng cũng có trên Moonriver và sẽ giúp bạn gộp số tiền kiếm được từ cả Solarbeam và Huckleberry. Lưu ý thêm, Beefy không đề xuất cặp MAI-MOVR khi viết bài, nhưng bạn có thể sớm sử dụng Beefy để thu thập mã thông báo SOLAR và nhận thêm MAI-MOVR.
-* [Sushiswap](https://app.sushi.com): Không cần trình bày nhiều về SushiSwap! Bạn sẽ có thể hoán đổi tài sản và cung cấp thanh khỏa của mình cho một số mã thông báo LP nhất định giống như bạn làm trên bất kỳ chuỗi nào khác. Phần thưởng được cấp trong SUSHI và MOVR.
-* [Rome DAO](https://romedao.finance): Đây là OHM-fork đầu tiên trên Moonriver. Liên kết tài sản của bạn để nhận mã thông báo ROME chiết khấu mà bạn có thể đặt cổ phầntrên để đạt được APY rất cao. Tại thời điểm viết bài, ROI trong 5 ngày là khoảng 10,6%. RomeDAO hiện chấp nhận FRAX và MIM trong kho quỹ của mình, nhưng cũng có thể sớm chấp nhận MAI.
+* [Sushiswap](https://app.sushi.com/): Không cần trình bày nhiều về SushiSwap! Bạn sẽ có thể hoán đổi tài sản và cung cấp thanh khỏa của mình cho một số mã thông báo LP nhất định giống như bạn làm trên bất kỳ chuỗi nào khác. Phần thưởng được cấp trong SUSHI và MOVR.
+* [Rome DAO](https://romedao.finance/): Đây là OHM-fork đầu tiên trên Moonriver. Liên kết tài sản của bạn để nhận mã thông báo ROME chiết khấu mà bạn có thể đặt cổ phầntrên để đạt được APY rất cao. Tại thời điểm viết bài, ROI trong 5 ngày là khoảng 10,6%. RomeDAO hiện chấp nhận FRAX và MIM trong kho quỹ của mình, nhưng cũng có thể sớm chấp nhận MAI.
 
 ## Mai Finance trên Moonriver
 

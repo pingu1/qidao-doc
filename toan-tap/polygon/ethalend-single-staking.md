@@ -9,7 +9,7 @@ description: >-
 
 ## Giới thiệu
 
-Một trong những sứ mệnh của bộ hướng dẫn này cung cấp là làm cho Defi thân thiện với người dùng bằng cách làm đơn giản hóa các giao thức phức tạp nhất. Tầm nhìn này cũng được chia sẻ bởi đội ngũ đằng sau [Ethalen](https://www.ethalend.org)[d](https://www.ethalend.org) và hướng dẫn này sẽ trình  bày một cách hoàn hảo cách để sử dụng nền tảng này với Mai Finance để nâng cao năng suất đồng ổn định của bạn.
+Một trong những sứ mệnh của bộ hướng dẫn này cung cấp là làm cho Defi thân thiện với người dùng bằng cách làm đơn giản hóa các giao thức phức tạp nhất. Tầm nhìn này cũng được chia sẻ bởi đội ngũ đằng sau [Ethalen](https://www.ethalend.org/)[d](https://www.ethalend.org/) và hướng dẫn này sẽ trình  bày một cách hoàn hảo cách để sử dụng nền tảng này với Mai Finance để nâng cao năng suất đồng ổn định của bạn.
 
 ## Trình bày Ethalend&#x20;
 
@@ -17,7 +17,7 @@ Một trong những sứ mệnh của bộ hướng dẫn này cung cấp là l�
 
 ### Ethalend là gì?
 
-Ethalend là một giao thức có thể kết hợp để tóm lược độ phức tạp trong DeFi nhằm cung cấp năng suất tối ưu về mặt thuật toán. Nó không phải là một công cụ tổng hợp năng suất, mà là một công cụ tối ưu hóa lợi nhuận. Bạn sẽ có thể gửi tài sản của mình trên nền tảng và thuật toán phụ trách bể sẽ thực sự đầu tư chúng theo cách tốt nhất có thể. Sau đó, lợi nhuận được phân bằng mã thông báo gốc của Ethalend, mã thông báo ETHA, cũng như một số mã thông báo đối tác, bao gồm Qi từ Mai Finance mà bạn có thể nhận được bằng cách gửi MAI của mình vào MAI-USDT eVault. Bạn có thể đọc thêm về Ethalend qua [tài liệu chính thức](https://docs.ethalend.org) của họ hoặc bằng cách[ đọc bài phỏng vấn ](ethalend-single-staking.md#intro)tuyệt vời này của người đồng sáng lập
+Ethalend là một giao thức có thể kết hợp để tóm lược độ phức tạp trong DeFi nhằm cung cấp năng suất tối ưu về mặt thuật toán. Nó không phải là một công cụ tổng hợp năng suất, mà là một công cụ tối ưu hóa lợi nhuận. Bạn sẽ có thể gửi tài sản của mình trên nền tảng và thuật toán phụ trách bể sẽ thực sự đầu tư chúng theo cách tốt nhất có thể. Sau đó, lợi nhuận được phân bằng mã thông báo gốc của Ethalend, mã thông báo ETHA, cũng như một số mã thông báo đối tác, bao gồm Qi từ Mai Finance mà bạn có thể nhận được bằng cách gửi MAI của mình vào MAI-USDT eVault. Bạn có thể đọc thêm về Ethalend qua [tài liệu chính thức](https://docs.ethalend.org/) của họ hoặc bằng cách[ đọc bài phỏng vấn ](ethalend-single-staking.md#intro)tuyệt vời này của người đồng sáng lập
 
 ### Tạo ví Ethalend bằng ví web 3
 

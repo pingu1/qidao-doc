@@ -15,7 +15,7 @@ Thị trường đang giảm giá và tiền điện tử của bạn đang mấ
 
 Cách trực tiếp nhất để trả nợ là sử dụng một số fiat, đặc biệt nếu bạn muốn giữ nguyên tài sản thế chấp và các khoản đầu tư khác của mình.&#x20;
 
-Mai Finance đang hợp tác với [Transak ](https://transak.com)để dễ dàng chuyển tiền được mua bằng Thẻ tín dụng / Thẻ ghi nợ hoặc chuyển khoản ngân hàng trực tiếp với mạng Polygon. Chỉ cần truy cập Mai Finance và nhấp vào biểu tượng chuyển khoản trong thanh menu để mở một phương thức cho phép bạn mua một số MATIC và gửi chúng trực tiếp đến ví Polygon của bạn.
+Mai Finance đang hợp tác với [Transak ](https://transak.com/)để dễ dàng chuyển tiền được mua bằng Thẻ tín dụng / Thẻ ghi nợ hoặc chuyển khoản ngân hàng trực tiếp với mạng Polygon. Chỉ cần truy cập Mai Finance và nhấp vào biểu tượng chuyển khoản trong thanh menu để mở một phương thức cho phép bạn mua một số MATIC và gửi chúng trực tiếp đến ví Polygon của bạn.
 
 ![Mua một số USDT từ fiat và chuyển tiếp sang Polygon trực tiếp](<../.gitbook/assets/Screen Shot 2021-08-18 at 9.43.07 AM.png>)
 

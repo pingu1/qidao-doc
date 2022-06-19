@@ -46,7 +46,7 @@ Sau khi hoàn tất, bạn gần như đã sẵn sàng để sử dụng ví Met
 
 Bây giờ bạn đã thiết lập mọi thứ để sử dụng Polygon, tuy nhiên bạn không có bất kỳ MATIC nào trên ví của mình, vì vậy bạn không thể thực hiện bất kỳ giao dịch nào trên Polygon cả. Về cơ bản, một giao dịch là sự trao đổi giữa 2 địa chỉ, cần một thời gian để được xử lý (điều này được thực hiện bởi các node xác thực khác nhau mà Polygon có) và có phí (phí này còn được gọi là gas và được thanh toán bằng mã thông báo MATIC).
 
-May mắn thay, [trang này](https://matic.supply) cung cấp cho bạn MATIC miễn phí để thực hiện các giao dịch đầu tiên của bạn trên mạng Polygon (những loại trang đó có thể được gọi là faucet). Điều duy nhất bạn cần làm là kết nối ví của bạn với trang đó và hoàn thành hình ảnh xác thực. 0,002 MATIC này (\~ 0,00223 $) sẽ cho phép bạn thực hiện một số giao dịch sử dụng trên mạng Polygon.
+May mắn thay, [trang này](https://matic.supply/) cung cấp cho bạn MATIC miễn phí để thực hiện các giao dịch đầu tiên của bạn trên mạng Polygon (những loại trang đó có thể được gọi là faucet). Điều duy nhất bạn cần làm là kết nối ví của bạn với trang đó và hoàn thành hình ảnh xác thực. 0,002 MATIC này (\~ 0,00223 $) sẽ cho phép bạn thực hiện một số giao dịch sử dụng trên mạng Polygon.
 
 ![Nhận miễn phí MATIC](<../../.gitbook/assets/image (23).png>)
 
@@ -56,7 +56,7 @@ Trước khi chúng ta chuyển sang phần tiếp theo của bài viết, bạn
 
 ## Thêm token vào Metamask
 
-Bây giờ bạn đã có một số MATIC miễn phí trong Metamask để sẵn sàng sử dụng các DApp và mã thông báo khác nhau mà Polygon. Bạn có thể sao chép địa chỉ của mã thông báo mà bạn muốn sử dụng bằng [PolygonScan](https://polygonscan.com). Khi bạn ở đó, bạn chỉ cần viết tên của mã thông báo mà bạn muốn thêm. Ví dụ: nếu chúng ta tìm kiếm QiDAO trên Polygon, chúng ta sẽ thấy:
+Bây giờ bạn đã có một số MATIC miễn phí trong Metamask để sẵn sàng sử dụng các DApp và mã thông báo khác nhau mà Polygon. Bạn có thể sao chép địa chỉ của mã thông báo mà bạn muốn sử dụng bằng [PolygonScan](https://polygonscan.com/). Khi bạn ở đó, bạn chỉ cần viết tên của mã thông báo mà bạn muốn thêm. Ví dụ: nếu chúng ta tìm kiếm QiDAO trên Polygon, chúng ta sẽ thấy:
 
 ![Kết quả của QiDao trên Polygonscan](<../../.gitbook/assets/image (24).png>)
 
@@ -73,12 +73,12 @@ Khi bạn quyết định DEX nào bạn muốn sử dụng, bạn có thể b�
 ![Buying Qi tokens using Quickswap](<../../.gitbook/assets/image (26).png>)
 
 {% hint style="info" %}
-Một DApp thú vị khác để sử dụng khi bạn muốn trao đổi tiền mã hóa là [Zapper](https://zapper.fi). Về mặt lý thuyết, Zapper tìm kiếm nền tảng rẻ nhất để thực hiện hoán đổi hai mã thông báo, vì vậy đó là một cách tốt để tiết kiệm một số MATIC nhất định.
+Một DApp thú vị khác để sử dụng khi bạn muốn trao đổi tiền mã hóa là [Zapper](https://zapper.fi/). Về mặt lý thuyết, Zapper tìm kiếm nền tảng rẻ nhất để thực hiện hoán đổi hai mã thông báo, vì vậy đó là một cách tốt để tiết kiệm một số MATIC nhất định.
 {% endhint %}
 
 ## Kiểm tra ví của bạn
 
-Điều quan trọng là phải biết cách kiểm tra lịch sử ví của bạn, để làm như vậy, bạn có thể sử dụng [DeBank](https://debank.com). Debank sẽ cho phép bạn kiểm tra các giao dịch khác nhau mà bạn đã thực hiện trong tài khoản Metamask của mình, cũng như kiểm tra danh mục đầu tư của bạn trong tất cả các blockchain mà bạn sử dụng hoặc NFT mà bạn sở hữu. Điều này sẽ hữu ích nếu bạn muốn so sánh, chẳng hạn như các airdrop Qi khác nhau mà bạn nhận được khi đặt một số cổ phần Qi.
+Điều quan trọng là phải biết cách kiểm tra lịch sử ví của bạn, để làm như vậy, bạn có thể sử dụng [DeBank](https://debank.com/). Debank sẽ cho phép bạn kiểm tra các giao dịch khác nhau mà bạn đã thực hiện trong tài khoản Metamask của mình, cũng như kiểm tra danh mục đầu tư của bạn trong tất cả các blockchain mà bạn sử dụng hoặc NFT mà bạn sở hữu. Điều này sẽ hữu ích nếu bạn muốn so sánh, chẳng hạn như các airdrop Qi khác nhau mà bạn nhận được khi đặt một số cổ phần Qi.
 
 ![Tất cả các giao dịch được hiển thị trên ví Metamask mới ](<../../.gitbook/assets/image (27).png>)
 
@@ -89,7 +89,7 @@ Như bạn có thể thấy, tôi có trong ví 800.000 DxDex.io nhưng tôi ch�
 Dưới đây là một số liên kết mà bạn có thể thấy hữu ích khi sử dụng chuỗi khối Polygon:
 
 * [Quickswap](https://quickswap.exchange/#/swap)
-* &#x20;[AAVE](https://app.aave.com)
+* &#x20;[AAVE](https://app.aave.com/)
 * [PolygonScan](https://polygonscan.com/gastracker/): liên kết này sẽ hữu ích để quan sát giá gas giao dịch trên chuỗi khối Polygon
 
 ## Tuyên bố từ chối trách nhiệm
