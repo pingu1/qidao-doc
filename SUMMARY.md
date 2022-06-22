@@ -18,6 +18,7 @@
   * [Ethalend ile MAI Tek Yönlü Stake](rehberler/polygon/ethalend-single-staking.md)
   * [Fil, Şempanze ve Su Samuru](rehberler/polygon/the-elephant-and-the-otter.md)
   * [Jarvis ile Geleneksel Finanstan DeFi'a](rehberler/polygon/jarvis.md)
+  * [DCA in bear and bull markets](rehberler/polygon/dca.md)
 * [Avalanche](rehberler/avalanche/README.md)
   * [Avalanche'ı Nasıl Kullanırım?](rehberler/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](rehberler/fantom/README.md)
@@ -47,7 +48,6 @@
 * [Moonbeam](rehberler/moonbeam/README.md)
   * [Moonbeam'i Nasıl Kullanırım?](rehberler/moonbeam/how-to-get-started-on-moonbeam.md)
   * [StellaSwap'te MAI legoları ile oynamak](rehberler/moonbeam/playing-with-mai-legos-on-stellaswap.md)
-
 
 ## MAI Üniversitesi
 
