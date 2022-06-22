@@ -18,6 +18,7 @@
   * [MAI single staking sur Ethalend](tutoriels/polygon/ethalend-single-staking.md)
   * [L'éléphant, le singe et la loutre](tutoriels/polygon/the-elephant-and-the-otter.md)
   * [De la finance traditionnelle à la DEFI avec Jarvis](tutoriels/polygon/jarvis.md)
+  * [DCA in bear and bull markets](tutoriels/polygon/dca.md)
 * [Avalanche](tutoriels/avalanche/README.md)
   * [Comment démarrer sur Avalanche](tutoriels/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](tutoriels/fantom/README.md)
