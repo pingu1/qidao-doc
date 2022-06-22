@@ -18,6 +18,7 @@
   * [Sử dụng MAI tại Ethalend](toan-tap/polygon/ethalend-single-staking.md)
   * [Voi, khỉ và hải ly](toan-tap/polygon/the-elephant-and-the-otter.md)
   * [Từ tài chính truyền thống đến tài chính phi tập trung với Javis](toan-tap/polygon/jarvis.md)
+  * [DCA in bear and bull markets](toan-tap/polygon/dca.md)
 * [Avalanche](toan-tap/avalanche/README.md)
   * [Hướng dẫn khởi đầu trên mạng Avalanche](toan-tap/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](toan-tap/fantom/README.md)
