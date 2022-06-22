@@ -18,6 +18,7 @@
   * [MAI single-staking with Ethalend](jiao-cheng/polygon/ethalend-single-staking.md)
   * [The Elephant, the Chimp and the Otter](jiao-cheng/polygon/the-elephant-and-the-otter.md)
   * [From Traditional Finance to DeFi with Jarvis](jiao-cheng/polygon/jarvis.md)
+  * [DCA in bear and bull markets](jiao-cheng/polygon/dca.md)
 * [Avalanche](jiao-cheng/avalanche/README.md)
   * [如何开始使用Avalanche](jiao-cheng/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](jiao-cheng/fantom/README.md)
