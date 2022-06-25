@@ -9,11 +9,7 @@ description: >-
 
 ## Einleitung
 
-<<<<<<< HEAD
 Eine der Aufgaben dieser Website und der Sammlung von Tutorials ist es, DeFi benutzerfreundlich zu machen, indem wir die komplexesten Protokolle entmystifizieren. Diese Vision wird auch vom Team hinter [Ethalend](https://www.ethalend.org) geteilt, und dieser Leitfaden zeigt dir, wie du diese Plattform in Verbindung mit Mai Finance nutzen kannst, um deine stabilen Erträge beim Farmen zu steigern.
-=======
-One of the missions of this website and the collection of tutorials that are offered is to make DeFi user friendly by demystifying the most complex protocols. This vision is also shared by the team behind [Ethalend](https://www.ethalend.org/), and this guide will present a perfect way to use this platform in conjunction with Mai Finance to amplify your stable farming yields.
->>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 ## Ethalend Vorstellung
 
@@ -21,11 +17,7 @@ One of the missions of this website and the collection of tutorials that are off
 
 ### Was ist Ethalend
 
-<<<<<<< HEAD
 Ethalend ist ein zusammensetzbares Protokoll, das die Komplexität in DeFi abstrahiert, um algorithmisch optimale Erträge zu erzielen. Es ist kein Renditeaggregator, sondern ein Renditeoptimierer. Du kannst dein Vermögen auf der Plattform deponieren und der Algorithmus, der für den Pool zuständig ist, in dem du dein Vermögen deponierst, investiert es auf die bestmögliche Weise. Die Renditen werden dann in dem Ethalend-eigenen Token, dem ETHA-Token, sowie in einigen Partner-Token ausgeschüttet, darunter Qi von Mai Finance, den du durch Einzahlung deines MAI in den MAI-USDT eVault erhältst. Mehr über Ethalend erfährst du in der [offiziellen Dokumentation](https://docs.ethalend.org) oder in diesem hervorragenden [Interview mit dem Mitbegründer](https://ambcrypto.com/un-complicating-defi-an-interview-with-ethalend-co-founder-danny-b/).
-=======
-Ethalend is a composable protocol that abstracts the complexity in DeFi to provide algorithmically optimal yield. It is not a yield aggregagor, but a yield optimizer. You will be able to deposit your assets on the platform, and the algorithm in charge of the pool in which you deposit your assets will actually invest them in the best way possible. Yields are then distributed in the native token of Ethalend, the ETHA token, as well as some partner tokens, including Qi from Mai Finance that you can get by depositing your MAI in the MAI-USDT eVault. You can read more about Ethalend via their [official documentation](https://docs.ethalend.org/), or by reading this excellent [interview of the co-founder](https://ambcrypto.com/un-complicating-defi-an-interview-with-ethalend-co-founder-danny-b/).
->>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 ### Erstelle dir ein Ethalend wallet von deinem web3 wallet
 

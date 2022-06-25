@@ -21,19 +21,11 @@ QuickSwap ist einer der größten AMM (Automated Market Maker) auf Polygon. Man 
 
 Für diese Übung werden wir das Paar MAI/USDC auf QuickSwap verwenden. Dieser Liquiditätspool, ein stabiler Pool, bietet einen APY (Annual Percentage Yield), der zwischen 20% und 25% schwankt. Die Rendite setzt sich aus den Transaktionsgebühren (die im Liquiditätspool anfallen) und den Belohnungen von QUICK zusammen.
 
-<<<<<<< HEAD
 ![MAI/USDC liquidity Pool auf QuickSwap, Stand August 2021](../../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
-=======
-![MAI/USDC liquidity pool on QuickSwap as of August 2021](../../.gitbook/assets/screen-shot-2021-08-11-at-12.37.56-pm.png)
->>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 Der Pool erhält jeden Tag eine bestimmte Menge an QUICK-Tokens, die dann an die Liquiditätsanbieter entsprechend ihrem Anteil am Pool verteilt werden. Wenn der Pool beispielsweise einen Gegenwert von 1.000.000 US-Dollar hat und du bereits 1.000 US-Dollar an LP-Token (Liquiditätsanbieter) eingezahlt hast, gehören dir 0,1 % des Pools, was dich zu 0,1 % der täglichen QUICK-Belohnung berechtigt. Deine Belohnung kannst du dann einfordern, wenn du den Pool verwaltest, dem du beigetreten bist.
 
-<<<<<<< HEAD
 ![Beanspruchen der QUICK Belohnung](../../.gitbook/assets/screen-shot-2021-08-30-at-6.39.44-am.png)
-=======
-![Claiming my QUICK reward for a $20 deposit](../../.gitbook/assets/screen-shot-2021-08-30-at-6.39.44-am.png)
->>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 Du kannst sie regelmäßig in Anspruch nehmen, um sie zum Einsatz zu bringen. Lass uns sehen, wie.
 
@@ -41,11 +33,7 @@ Du kannst sie regelmäßig in Anspruch nehmen, um sie zum Einsatz zu bringen. La
 
 Der Dragon's Lair ist eine Möglichkeit, deine Gewinne bei QuickSwap zu optimieren. Du kannst die QUICK-Token, die du in Liquiditätspools verdienst, in die Lair einzahlen, und sie bringen dir zusätzliche QUICK-Belohnungen ein. Das ist eine gute Idee, wenn du die QUICK-Token behalten willst, anstatt sie zu verkaufen. Wenn du deine QUICK-Token im Dragon's Lair stakst, werden die Belohnungen, die sie generieren, automatisch aufgezinst, und der APY des Lair liegt bei 12%.
 
-<<<<<<< HEAD
 ![Dragon's Lair APY, Stand  August 2021](../../.gitbook/assets/screen-shot-2021-08-30-at-6.42.39-am.png)
-=======
-![Dragon's Lair APY as of August 2021](../../.gitbook/assets/screen-shot-2021-08-30-at-6.42.39-am.png)
->>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 Nachdem du deine QUICK-Token eingezahlt hast, erhältst du in deinem Wallet einige dQUICK-Token, die deinen Anteil am QUICK-Pool darstellen. Beachte, dass die Ratio QUICK:dQUICK nicht 1:1 ist, da die dQUICK deinen Anteil am Pool darstellen, während die Menge an QUICK mit der Zeit zunimmt, wenn mehr Belohnungen zum Pool hinzugefügt werden.
 
@@ -55,11 +43,7 @@ Jetzt hast du deine Stable Coins in den Liquiditätspool eingezahlt, und sie gen
 
 Der Dragon's Syrup ist eine zusätzliche Möglichkeit, die QuickSwap anbietet, um noch mehr Nutzer/innen zu belohnen, die QUICK-Tokens besitzen. Das QuickSwap-Team hat ein Programm eingerichtet, bei dem Partner ihre Produkte bewerben können, indem sie den Nutzern der QuickSwap-Plattform ihre eigenen Token gewähren. Du kannst dann deine dQUICK-Token in eine der Farmen einzahlen, um diese exotischen Token zusätzlich zu den Belohnungen in Dragon's Lair zu erhalten. Die Farm, die uns interessiert, ist die ADDY-Farm.
 
-<<<<<<< HEAD
 ![Dragon's Syrup, eine Farm für ADDY Token via dQUICK Einlage](../../.gitbook/assets/screen-shot-2021-08-30-at-6.49.25-am.png)
-=======
-![Dragon's Syrup, a farm to collect ADDY token via dQUICK deposits](../../.gitbook/assets/screen-shot-2021-08-30-at-6.49.25-am.png)
->>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 Wenn du deine dQUICK in die Farm einzahlst, verschwinden sie aus der Dragon's Lair (so ähnlich wie deine camTokens von der Yield-Seite auf Mai Finance verschwinden, wenn du sie in einen Vault einzahlst).Du kannst aber deutlich sehen, dass der dQUICK APY aus der Lair immer noch gilt und dass du außerdem eine zusätzliche ADDY Belohnung erhältst. Hier beträgt der effektive Jahreszins (APR - Annual Percentage Reward) derzeit 21,36%.
 
@@ -95,11 +79,7 @@ Für diese Übung werden wir auch den MAI/USDC-Pool in Impermax nutzen. Indem wi
 
 Bei QuickSwap habe ich ein MAI/USDC-Paar im Wert von $20 eingezahlt. Bei Impermax werde ich nur MAI/USDC im Wert von $10 einzahlen und einen Hebel von x2 anwenden, um ein Engagement von $20 zu erhalten.
 
-<<<<<<< HEAD
 ![Heleb-Übersicht von Impermax](../../.gitbook/assets/screen-shot-2021-08-30-at-7.11.10-am.png)
-=======
-![Leverage window on Impermax at a given time](../../.gitbook/assets/screen-shot-2021-08-30-at-7.11.10-am.png)
->>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 Auf dem Screenshot oben siehst du, dass ich, wenn ich meinen Hebel auf x2,1 erhöhe, Folgendes leihen würde
 
@@ -127,11 +107,7 @@ Adamant ist eine Plattform zur Ertragsoptimierung, die das Harvesting in Liquidi
 
 Wir verdienen QUICK-Tokens bei QuickSwap und IMX-Tokens bei Impermax. Lass uns Adamant benutzen, um den QUICK/IMX-Pool von QuickSwap zu farmen. Warum tun wir das? Weil die Farm tatsächlich sehr profitabel ist, wie du hier sehen kannst:
 
-<<<<<<< HEAD
 ![IMX/QUICK Pool von QuickSwap auf Adamant](../../.gitbook/assets/screen-shot-2021-08-30-at-7.27.26-am.png)
-=======
-![IMX/QUICK pool from QuickSwap on Adamant](../../.gitbook/assets/screen-shot-2021-08-30-at-7.27.26-am.png)
->>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 Während dieser Artikel geschrieben wird, beträgt der aktuelle APY des IMX/QUICK-Pools bei Adamant 417,25%. Die Belohnung setzt sich zusammen aus
 

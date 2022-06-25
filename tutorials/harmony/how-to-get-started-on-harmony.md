@@ -58,25 +58,14 @@ Da Harmony One ein Netzwerk ist, das schnelle und sichere Transaktionen sowie se
 
 Du wirst feststellen, dass die APRs (**A**nnual **P**ercentage **R**ate) auf Pools sehr hoch sind. Das liegt vor allem am Belohnungsformat auf ViperSwap: Wenn du deine Belohnung einforderst, können 5% der VIPER-Tokens direkt verwendet werden, während 95% bis zum 25.12.2021 gesperrt sind. Anschließend wird die Belohnung über ein ganzes Jahr gesperrt, was bedeutet, dass du nicht sofort auf deine Gewinne beim Farmen zugreifen kannst, sondern dass sie SEHR langsam abfließen werden. Es gibt noch eine weitere Besonderheit bei den ViperSwap-Pools: Du musst eine Abhebungsgebühr zahlen, die sinkt, wenn du deine LP-Token über einen längeren Zeitraum stakst. Die Gebühr trifft von 25%, wenn du innerhalb desselben Blocks wie die Einzahlung abhebst (um Flashloan-Operationen zu verhindern), auf 0,01%, wenn du nach einem Monat abhebst. Mehr Details in der offiziellen Dokumentation über [Belohnungen beim Farmen](https://docs.venomdao.org/viper/tokenomics#bbd0) und [LP-Abhebungsgebühren](https://docs.venomdao.org/viper/fees).
 
-<<<<<<< HEAD
 * [DeFi Kingdom](https://game.defikingdoms.com/#/): Dies ist ein besonders interessantes Projekt, das DeFi und Gamification miteinander verbindet. Sein nativer Token, der JEWEL-Token, wird als Belohnung für das Farmen von Nutzern verwendet, die Liquidität bereitstellen, kann aber auch im Spiel oder auf dem Marktplatz eingesetzt werden. Das gesamte Universum von DeFi Kingdom (oder DFK) zu erklären, würde zu viel Zeit für diesen Leitfaden in Anspruch nehmen, daher empfehlen wir dir dringend, [die offizielle Dokumentation](https://docs.defikingdoms.com) zu lesen.
-=======
-* [DeFi Kingdom](https://game.defikingdoms.com/#/): This is a particularly interesting project that is mixing DeFi and Gamification. Its native token, the JEWEL token, is used as a farming reward for users that are providing liquidity, but it can be used in game or in the marketplace. Explaining the entire universe of DeFi Kingdom (or DFK) would take too much time for this guide, so we strongly recommend reading [the official documentation](https://docs.defikingdoms.com/).
->>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 ![Hauptkarte von DeFi Kingdom, Stand Dezember 2021](../../.gitbook/assets/Harmony-onboarding-4.png)
 
-<<<<<<< HEAD
 * [SushiSwap](https://app.sushi.com) ist das berühmte DEX/AMM, das es auch bei vielen anderen Chains gibt. Tausche, biete Liquidität an, farm ONE und SUSHI Yields.
 * [Curve Finance](https://harmony.curve.fi) ist eine weitere Chain-übergreifende Anwendung, mit der du Liquidität (3pool und Tricrypto) bereitstellen kannst und die dich mit zusammengesetzten Token sowie ONE und CRV belohnt.
 * [Beefy Finance](https://app.beefy.finance/#/harmony) ist ein Renditeoptimierer, den wir bereits in vielen unserer Leitfäden vorstellen, da er auf vielen Chains vertreten ist. Derzeit kannst du deine LP-Token von Curve und SushiSwap einzahlen und die Belohnungen der Farmen durch den Beefy Compounder in weitere LP-Token umwandeln lassen.
 * Die [Euphoria DAO](https://app.euphoria.money/#/dashboard) ist derzeit die größte OHM-Fork auf Harmony und wurde von der Venom DAO entwickelt, die auch hinter ViperSwap steht. Du kannst verschiedene Assets bonden und bekommst dafür den WAGMI-Token. Stake WAGMIs für mehr WAGMI mit irrsinnigen APY (**A**nnnual **P**ercentage **Y**ield) wie bei den meisten OHM-Projekten.
-=======
-* [SushiSwap](https://app.sushi.com) is the famous DEX/AMM that is also present on many other chains. Swap, provide liquidity, farm ONE and SUSHI yields.
-* [Curve Finance](https://harmony.curve.fi/) is another cross-chain application that will let you provide liquidity (3pool and tricrypto) and will reward you with compounded tokens, as well as ONE and CRV.
-* [Beefy Finance](https://app.beefy.finance/#/harmony) is a yield optimizer that we already present in many of our guides since it's present on many chains. Currently, you will be able to deposit your LP tokens from Curve and SushiSwap, and let the Beefy compounder aggregate the rewards provided by the farming platform into more LP tokens.
-* [Euphoria DAO](https://app.euphoria.money/#/dashboard) is currently the biggest Ohm-fork on Harmony, and developped by the Venom DAO also behind ViperSwap. You can bond a few different assets and get their native asset, the WAGMI token. Stake WAGMIs for more WAGMI with insane APY (**A**nnual **P**ercentage **Y**ield) as for most OHM projects.
->>>>>>> dd7bf1b (GitBook: [#262] Optimism + Arbi + BNB + Moonbeam)
 
 ## Mai Finance auf Harmony
 
