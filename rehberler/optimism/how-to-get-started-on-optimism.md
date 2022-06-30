@@ -23,7 +23,7 @@ Bu eğitim için, tıpkı bu sitedeki diğer tüm kılavuzlar için yaptığım�
 
 ### Cüzdan Kurulumu
 
-OMetamask açılır penceresini açın, cüzdanınızın simgesine tıklayın, Ayarlar'a gidin, ardından Ağlar'ı seçin ve Ağ Ekle'yi bulun. İlgili metin alanlarında aşağıdaki bilgileri kullanacaksınız:
+Metamask açılır penceresini açın, cüzdanınızın simgesine tıklayın, Ayarlar'a gidin, ardından Ağlar'ı seçin ve Ağ Ekle'yi bulun. İlgili metin alanlarında aşağıdaki bilgileri kullanacaksınız:
 
 
 * **Network Name:** Optimism
