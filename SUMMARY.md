@@ -39,7 +39,7 @@
 * [Gnosis Chain](rehberler/gnosis/README.md)
   * [Gnosis Chain Başlangıç Rehberi](rehberler/gnosis/how-to-get-started-on-gnosis.md)
 * [Optimism](rehberler/optimism/README.md)
-  * [How to get started on Optimism](rehberler/optimism/how-to-get-started-on-optimism.md)
+  * [Optimism'e Giriş Rehberi](rehberler/optimism/how-to-get-started-on-optimism.md)
 * [Arbitrum](rehberler/arbitrum/README.md)
   * [How to get started on Arbitrum](rehberler/arbitrum/how-to-get-started-on-arbitrum.md)
 * [BNB Chain](rehberler/bnb-chain/README.md)
