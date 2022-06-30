@@ -15,13 +15,13 @@ Optimism bir toplama teknolojisi olduğu için kendi bloklarını üretmez ve bu
 \
 Bu nedenle, Optimism'in kendi gas tokenını kullanmadığını, bunun yerine işlemler için ödeme yaparken gas olarak Ether'i kullandığını unutmayın.
 
-## Getting started on Optimism
+## Optimism'e Başlarken
 
 Optimism'i kullanmadan önce bir cüzdan adresine ihtiyacınız olacak. Optimism bir EVM ağı olduğu için Metamask veya Nifty gibi web cüzdanları da dahil olmak üzere diğer EVM zincirlerinde olduğu gibi aynı cüzdanları kabul edecek ve Trezor veya Ledger gibi donanım cüzdanınızı kullanabileceksiniz ancak Soğuk cüzdanınızı ağa bağlayabilmek için ekstra adımları izlemeniz gerekebilir.
 
 Bu eğitim için, tıpkı bu sitedeki diğer tüm kılavuzlar için yaptığımız gibi Metamask'a bağlı kalacağız. Yüklü Metamask'ınız yoksa, [Polygon Başlangıç Rehberine](../polygon/how-to-get-started-on-polygon.md) göz atın.
 
-### Optimism'e Başlarken
+### Cüzdan Kurulumu
 
 OMetamask açılır penceresini açın, cüzdanınızın simgesine tıklayın, Ayarlar'a gidin, ardından Ağlar'ı seçin ve Ağ Ekle'yi bulun. İlgili metin alanlarında aşağıdaki bilgileri kullanacaksınız:
 
