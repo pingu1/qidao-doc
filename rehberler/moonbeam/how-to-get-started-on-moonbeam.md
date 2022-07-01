@@ -1,36 +1,36 @@
 ---
-description: In this guide, we'll explain how to get started using Moonbeam.
+description: Bu kılavuzda, Moonbeam'i kullanmaya nasıl başlayacağınızı açıklayacağız.
 ---
 
-# How to get started on Moonbeam
+# Moonbeam’i Nasıl Kullanırım?
 
-## What is Moonbean?
+## Moonbeam Nedir?
 
-Launching in January 2020, Moonbeam is an EVM (Ethereum virtual machine) compatible smart contract platform running on the Polkadot network making it what is called a Polkadot parachain. Parachains are interconnected set of chains that benefit from Polkadot's main relay chain while remaining interoperable, thereby partaking in the benefits and security of the main chain while running in parallel to it.\
-\
-Polkadot describes the benefits of parachains as follows, “Parachains end the era of siloed blockchains, creating a decentralized, connected internet of blockchains where before there existed only isolated networks with their own tribalistic communities.”
+Ocak 2020'de piyasaya sürülen Moonbeam, Polkadot ağında çalışan ve Polkadot parachain olarak adlandırılan bir EVM (Ethereum Virtual Machine) uyumlu akıllı kontrat platformudur. Parachainler, Polkadot'un ana aktarıcı zincirinden yararlanan ve birlikte çalışabilir olan, böylece ana zincirin avantajlarından ve güvenliğinden yararlanan birbirine paralel zincirler kümesidir.
 
-![Moonbeam, a Polkadot parachain](<../../.gitbook/assets/moonbeam (1).jpg>)
+Polkadot, parachainlerin faydalarını şu şekilde açıklıyor: “Parachainler, daha önce sadece kendi kabile topluluklarına sahip izole ağların olduğu yerde, merkeziyetsiz, bağlantılı bir blok zincirler interneti oluşturarak izole blok zincirleri çağını sona erdiriyor.”
 
-Because of its EVM compatibility layer, Moonbeam makes it easier for Solidity developers to be able to port their existing applications from other EVM-compatible networks to Moonbeam with few code changes. Moonbeam currently has a TVL of $130m, and a [vibrant and growing](https://defillama.com/chain/Moonbeam) ecosystem of applications.&#x20;
+![Moonbeam bir Polkadot parachainidir](<../../.gitbook/assets/moonbeam (1).jpg>)
 
-Moonbeat also offers Substrate compatibility. Substrate is a modular blockchain framework used by developers for building blockchains tailored to their needs using reusable components called pallets. It uses the Rust programming language and is the framework most developers use when building parachains for the Polkadot network.
+Moonbeam, EVM uyumluluk katmanı nedeniyle, Solidity geliştiricilerinin mevcut uygulamalarını diğer EVM uyumlu ağlardan birkaç kod değişikliği ile Moonbeam'e taşımasını kolaylaştırır. Moonbeam şu anda 130m$’lık bir TVL'ye ve [hızlı büyüyen](https://defillama.com/chain/Moonbeam) bir uygulama ekosistemine sahip.
 
-As Moonbeam is a Substrate-based blockchain, apps integrated with its network benefit from interoperability between the Polkadot and Ethereum chains, as well as others like Bitcoin.
+Moonbeat ayrıca Substrat uyumluluğu sunar. Substrate, geliştiriciler tarafından palet adı verilen yeniden kullanılabilir bileşenleri kullanarak ihtiyaçlarına göre uyarlanmış blok zincirleri oluşturmak için kullanılan modüler bir blok zinciri çerçevesidir. Rust programlama dilini kullanır ve çoğu geliştiricinin Polkadot ağı için parachain oluştururken kullandığı çerçevedir.
 
-Developers can also use Substrate-compatible ecosystem tools commonly used on Ethereum, including block explorers, front-end development libraries, and wallets, as well as development tools like Truffle and Remix.\
-\
-The native gas token for Moonbeam is GLMR.
+Moonbeam, Substrat tabanlı bir blok zinciri olduğundan, ağıyla entegre olan uygulamalar, Polkadot ve Ethereum zincirlerinin yanı sıra Bitcoin gibi diğerleri arasındaki birlikte çalışabilirlikten yararlanır.
 
-## Getting started on Moonbeam
+Geliştiriciler ayrıca, blok kaşifler, front-end geliştirme kitaplıkları ve cüzdanlar dahil olmak üzere Ethereum'da yaygın olarak kullanılan Substrate uyumlu ekosistem araçlarını ve ayrıca Truffle ve Remix gibi geliştirme araçlarını kullanabilir.
 
-Before using Moonbeam, you will need a wallet address. Because Moonbeam is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network.
+Moonbeam’in yerel gas tokenı GLMR'dir.
 
-For this tutorial, we will stick to Metamask just as we have done for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
+## Moonbeam’e Başlarken
 
-### Adding Moonbeam to Metamask
+Moonbeam’i kullanmadan önce bir cüzdan adresine ihtiyacınız olacak. Moonbeam bir EVM ağı olduğu için Metamask veya Nifty gibi web cüzdanları da dahil olmak üzere diğer EVM zincirlerinde olduğu gibi aynı cüzdanları kabul edecek ve Trezor veya Ledger gibi donanım cüzdanınızı kullanabileceksiniz ancak Soğuk cüzdanınızı ağa bağlayabilmek için ekstra adımları izlemeniz gerekebilir.
 
-Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Add Network`. You will use the following information in the relevant text fields:
+Bu eğitim için, tıpkı bu sitedeki diğer tüm kılavuzlar için yaptığımız gibi Metamask'a bağlı kalacağız. Yüklü Metamask'ınız yoksa, Polygon Başlangıç Rehberine göz atın.
+
+### Metamask'ta Cüzdan Kurulumu
+
+Metamask açılır penceresini açın, cüzdanınızın simgesine tıklayın, Ayarlar'a gidin, ardından Ağlar'ı seçin ve Ağ Ekle'yi bulun. İlgili metin alanlarında aşağıdaki bilgileri kullanacaksınız:
 
 * **Network Name:** Moonbeam
 * **New RPC URL:** [https://rpc.api.moonbeam.network](https://rpc.api.moonbeam.network)
@@ -38,58 +38,58 @@ Open the Metamask popup, click the icon of your wallet, navigate to `Settings` t
 * **Currency Symbol:** GLMR
 * **Block Explorer URL:** [https://moonscan.io/](https://moonscan.io/)
 
-Save the changes, and Metamask will automatically switch you over to Moonbeam:
+Değişiklikleri kaydedin, Metamask sizi otomatik olarak Moonbeam’e geçirecektir:
 
-![Moonbeam on Metamask](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.34.43 PM.png>)
+![Moonbeam hesabınız artık Metamaskta](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.34.43 PM.png>)
 
-## Bridging to Moonbeam
+## Moonbeam'e Köprüleme
 
-### Faucets
+### Musluklar
 
-GLMR is Moonbeam's native gas token so you'll need to have some in your wallet to make transactions on chain. Fortunately, the official Moonbeam Faucet will help get your started with a small amount of GLMR, though please note that the amount dispersed by the token may sometimes not be enough to complete a transaction if the network is congested. \
-\
-In order to receive some free GLMR, you'll need to verify you're a human via the captcha bot, and connect your Metamask wallet to the site. A small amount (0.007 GLMR) will then be sent immediately to your wallet.
+GLMR, Moonbeam'in yerel gas tokenıdır, bu nedenle zincir üzerinde işlem yapmak için cüzdanınızda biraz token olması gerekir. Neyse ki, resmi Moonbeam musluğu, küçük bir miktar GLMR ile başlamanıza yardımcı olacaktır, ancak lütfen ağ sıkışıksa dağıtılan token miktarının bazen bir işlemi tamamlamak için yeterli olmayabileceğini unutmayın.
 
-![GLMR.Supply Faucet](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.57.39 PM.png>)
+Ücretsiz GLMR almak için, captcha botu aracılığıyla robot olmadığınızı doğrulamanız ve Metamask cüzdanınızı siteye bağlamanız gerekir. Ardından hemen cüzdanınıza küçük bir miktar (0,007 GLMR) gönderilecektir.
 
-Additionally, users may want to use Solarflare's "[Swap for gas](https://app.solarflare.io/bridge/gas-swap)" feature. This allows users to swap other tokens including WETH, WBTC, USDC, DAI, USDT, BUSD, FLARE, and BNB into GLMR, Moonbeam's native gas token.
+![GLMR.sağlayan musluk](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.57.39 PM.png>)
 
-![Solarflare's "Swap for Gas" feature](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.15.46 PM.png>)
+Ek olarak, kullanıcılar Solarflare'in "[Gas ile değiştir](https://app.solarflare.io/bridge/gas-swap)"  özelliğini kullanmak isteyebilir. Bu özellik, kullanıcıların WETH, WBTC, USDC, DAI, USDT, BUSD, FLARE ve BNB dahil olmak üzere diğer tokenları Moonbeam'in yerel gas tokenı olan GLMR ile değiştirmesine olanak tanır.
 
-### Bridges
+![Solarflare'in "Gas ile değiştir" özelliği](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.15.46 PM.png>)
 
-* [Multichain](https://app.multichain.org/#/router) is the official bridge for MAI through its partnership with MAI finance, and you can easily send your MAI to Moonbeam by using it.
+### Köprüler
 
-![Multichain on Moonbeam](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.03.00 PM.png>)
+* [Multichain](https://app.multichain.org/#/router) MAI Finance ile olan ortaklığından dolayı MAI için resmi köprüdür. Bu köprüyü kullanarak MAI'nizi kolayca Moonbeam'e gönderebilirsiniz.
 
-* [Solarflare](https://app.solarflare.io/bridge) is a full-featured AMM (automated market maker) on Moonbeam which is very similar to Uniswap. Solarflare has a built-in bridge which allows users to bridge assets from Ethereum mainnet as well as BNB chain to Moonbeam. Solarflare also has a "Swap for gas" feature as mentioned in the Faucets section above.
+![Multichain Moonbeam Köprüsü](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.03.00 PM.png>)
 
-![Bridging with Solarflare](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.06.21 PM.png>)
+* [Solarflare](https://app.solarflare.io/bridge) Moonbeam'de Uniswap'e çok benzeyen tam özellikli bir AMM'dir (Automated Market Maker). Solarflare, kullanıcıların Ethereum ana ağından ve BNB zincirinden Moonbeam'e varlıkları köprülemelerine olanak tanıyan yerleşik bir köprüye sahiptir. Solarflare ayrıca yukarıdaki Musluklar bölümünde belirtildiği gibi "Gas ile Değiştir" özelliğine sahiptir.
 
-* [Celer](https://cbridge.celer.network/#/transfer) is a popular bridge that also supports Moonbeam. Please note that you may not be able to bridge from every chain into Moonbeam (Polygon to Moonbeam bridging is not supported, for example).
+![Solarflare'de köprüleme](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.06.21 PM.png>)
 
-![Bridging with Celer](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.10.32 PM.png>)
+* [Celer](https://cbridge.celer.network/#/transfer) Moonbeam'i de destekleyen popüler bir köprüdür. Lütfen her zincirden Moonbeam'e köprü yapamayabileceğinizi unutmayın (Örneğin, Polygon’dan Moonbeam'e köprüleme yapılamaz).
 
-* Other bridges are available but may be chain specific such as Nomad or Axelar for the Cosmos ecosystem.
+![Celer ile köprüleme](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.10.32 PM.png>)
 
-## DeFi on Moonbeam
+* Başka köprüler de mevcuttur ancak Cosmos ekosistemi için Nomad veya Axelar gibi zincire özel olabilir.
 
-[StellaSwap](https://app.stellaswap.com/farm) is currently the main source of liquidity for MAI on Moonbeam. The MAI-Base4Pool is comprised of MAI, FRAX, USDT, USDC, and DAI and currently has a TVL (total value locked) of $535k, yielding a solid 26% APR (annual percentage rate) on your stablecoins.
+## Moonbeam’de DeFi
+
+[StellaSwap](https://app.stellaswap.com/farm) şu anda Moonbeam'deki MAI için ana likidite kaynağıdır. MAI-Base4Pool, MAI, FRAX, USDT, USDC ve DAI'den oluşur, şu anda 535k$’lık bir TVL'ye sahiptir ve stablecoinlerinizde %26'lık sağlam bir APR sağlar.
 
 ![MAI-Base4Pool on StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.22.32 PM.png>)
 
-Moonbeam has a vibrant DeFi ecosystem with dozens of DApps (decentralized applications) available to use including DeFi staples found on other chains such as [Curve](https://moonbeam.curve.fi/) and [Beefy Finance](https://app.beefy.com/). For a full list of available DApps, check out [DefiLlama's Moonbeam page](https://defillama.com/chain/Moonbeam).
+Moonbeam, [Curve](https://moonbeam.curve.fi/) ve [Beefy Finance](https://app.beefy.com/) gibi diğer zincirlerde bulunan düzinelerce DApp (merkeziyetsiz uygulama) ile canlı bir DeFi ekosistemine sahiptir. Mevcut DApp'lerin tam listesi için [DefiLlama Moonbeam sayfasına](https://defillama.com/chain/Moonbeam)ayfasına göz atın.
 
-## Mai Finance on Moonbeam
+## Moonbeam'de Mai Finance
 
-While Mai Finance is not available on Moonbeam, you can create vaults and borrow MAI against xStella and wGLMR on StellaSwap. Please note that borrowing MAI on StellaSwap will incur interests - 12% on xStella vaults, and 8% on wGLMR vaults. You can find out more on how to use StellaSwap's MAI vaults in the next section titled, [Playing with MAI legos on StellaSwap](playing-with-mai-legos-on-stellaswap.md).
+Mai Finance, Moonbeam'de mevcut olmasa da kasalar oluşturabilir ve StellaSwap'te xStella ve wGLMR'ye karşı MAI ödünç alabilirsiniz. Lütfen MAI'yi StellaSwap üzerinden ödünç almanın faiz getireceğini unutmayın - xStella kasalarında %12 ve wGLMR kasalarında %8. StellaSwap'in MAI kasalarının nasıl kullanılacağı hakkında daha fazla bilgiyi StellaSwap'te MAI legolarıyla oynamak başlıklı bir sonraki bölümde bulabilirsiniz.
 
-![Vaults on StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.01.01 PM.png>)
+![StellaSwap'taki kasalar](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.01.01 PM.png>)
 
-## Disclaimer
+## Sorumluluk Reddi
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Bu kılavuz kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Her zaman kendi araştırmanızı yapın. Bu kılavuzda bir projenin tartışılması, projenin onaylanması olarak değerlendirilmemelidir.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen güncel olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
