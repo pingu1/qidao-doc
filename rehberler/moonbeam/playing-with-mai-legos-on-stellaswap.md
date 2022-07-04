@@ -1,52 +1,52 @@
 ---
-description: Using MAI on Moonbeam to earn yield with StellaSwap.
+description: Bu kılavuzda StellaSwap ile verim elde etmek için Moonbeam'de MAI kullanımından bahsedeceğiz.
 ---
 
-# Playing with MAI legos on StellaSwap
+# StellaSwap'te MAI legoları ile oynamak
 
-While Mai Finance does not offer vaults on Moonbeam, it is possible to use some of your favorite tokens on the chain to mint MAI by using Stella_S_wap's new MAI vaults. By leveraging your collateral tokens and borrowing MAI against it, you can earn great yield through a looping strategy involving xSTELLA and MAI.
+Mai Finance, Moonbeam'de kasa sunmasa da StellaSwap'in yeni MAI kasalarını kullanarak zincirdeki istediğiniz tokenlardan bazılarını MAI'ye mint’lemek için kullanmak mümkündür. Teminat tokenlarınızı kullanarak ve buna karşı MAI ödünç alarak xSTELLA ve MAI'yi içeren bir döngü stratejisi aracılığıyla büyük verim elde edebilirsiniz.
 
-_NOTE: This guide is not meant as financial advice. It was created with an educational goal in mind. The goal of this guide is not to propose a strategy to be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose._
+_NOT: Bu rehber kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Amaç körü körüne takip edilebilecek stratejiler önermek değildir. Bu yüzden lütfen kendi simülasyonunuzu yapın ve sadece kaybetmeyi göze aldığınız kadar yatırım yapın._
 
-[StellaSwap](https://stellaswap.com/) is the leading DEX (decentralized exchange) on Moonbeam. As a full-featured DEX, StellaSwap offers users the ability to swap tokens, earn yield on farms, and participate in protocol governance. What sets StellaSwap apart, is that it is the first such protocol that allows users to mint MAI natively directly from its interface through a partnership with Mai Finance.
+[StellaSwap](https://stellaswap.com/) Moonbeam'deki lider DEX'tir (merkeziyetsiz borsa). Tam özellikli bir DEX olarak StellaSwap, kullanıcılara token takas etme, çiftliklerde verim kazanma ve protokol yönetişimine katılma olanağı sunar. StellaSwap'i diğerlerinden ayıran özellik, kullanıcıların MAI'yi, Mai Finance ile ortaklık yoluyla doğrudan arayüzünden yerel olarak mint’lemesine izin veren bu tür ilk protokol olmasıdır.
 
-![Mint MAI directly from StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 4.41.56 PM.png>)
+![MAI'yi direkt StellaSwap üzerinden mint’leyin](<../../.gitbook/assets/Screen Shot 2022-06-24 at 4.41.56 PM.png>)
 
-### Minting MAI on StellaSwap
+### MAI'yi StellaSwap üzerinden mint’lemek
 
-Unlike MAI vaults on Mai Finance, StellaSwap's MAI vaults do charge interest for borrowing against your assets. Currently, users can borrow MAI against xStella, StellaSwap's revenue sharing staked token, at 12% interest, or against wGLMR, a wrapped version of Moonbeam's native gas token, at 8% interest. While users familiar with Mai Finance's 0% interest vaults might be taken aback by the higher interest rates, we'll go through a looping strategy in this guide to allow you to earn high yields on your borrowed stablecoins without ever leaving StellaSwap.
+Mai Finance'deki MAI kasalarının aksine, StellaSwap'in MAI kasaları varlıklarınıza karşı borçlanma için faiz alır. Şu anda kullanıcılar MAI'yi StellaSwap'in gelir paylaşımı stake token'ı xStella'ya %12 faizle veya Moonbeam'in yerel gas tokenının wrapped versiyonu olan wGLMR'ye %8 faizle ödünç alabilirler. Mai Finance'in %0 faiz kasalarına aşina olan kullanıcılar, yüksek faiz oranları karşısında şaşırmış olsalar da bu kılavuzda, StellaSwap'ten hiç ayrılmadan ödünç aldığınız stablecoin'lerinizden yüksek getiriler elde etmenize olanak tanıyan bir döngü stratejisinden geçeceğiz.
 
-![Vaults on StellSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.01.01 PM.png>)
+![StellSwap'teki Kasalar](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.01.01 PM.png>)
 
-1. First, head off to StellaSwap's [MAI minting facility](https://app.stellaswap.com/mai).
-2. From here you'll be able to create an xStella or wGLMR vault to borrow MAI against. To create our looping strategy, we will create an xStella vault.
-3. Now enter your newly created vault and deposit xStella. Please note that xStella vaults have a  40% LTV (loan to value ratio) which means that for every $100 worth of xStella, you will be able to borrow $40 worth of MAI.&#x20;
-4. Next, you'll want to head to the borrow section, and borrow MAI. Please keep in mind your LTV to avoid being liquidated.
+1. İlk önce StellaSwap'in [MAI mintleme bölümüne](https://app.stellaswap.com/mai) gidin.
+2. Buradan MAI ödünç almak için bir xStella veya wGLMR kasası oluşturabileceksiniz. Döngü stratejimizi oluşturmak için bir xStella kasası oluşturacağız.
+3. Şimdi yeni oluşturduğunuz kasanıza girin ve xStella yatırın. Lütfen xStella kasalarının %40 LTV'ye (kredi/değer oranı) sahip olduğunu unutmayın; bu, her 100$ değerindeki xStella için 40$ değerinde MAI ödünç alabileceğiniz anlamına gelir.
+4. Ardından, ödünç alma bölümüne gidip MAI'yi ödünç alabilirsiniz. Lütfen likidasyondan kaçınmak için LTV'nizi unutmayın.
 
-![xStella vault](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.05.01 PM.png>)
+![xStella kasası](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.05.01 PM.png>)
 
-### Putting the legos together
+### Legoları bir araya getirmek
 
-Now that you've successfully borrowed MAI, it's time to put it to use! We'll be leveraging our MAI by depositing it into StellaSwap's MAI-Base4Pool stablecoin farm and using the yields to earn more Stella tokens by staking them. Always remember that if you enter this strategy you do so at your own risk and your vault may be liquidated if you do not do your due diligence! \
+MAI'yi başarıyla ödünç aldığınıza göre şimdi onu kullanma zamanı! MAI'mizi StellaSwap'in MAI-Base4Pool stablecoin çiftliğine yatırarak güçlendireceğiz ve getirileri stake ederek daha fazla Stella tokenı kazanmak için kullanacağız. Bu stratejiyi kendi sorumluluğunuzda yaptığınızı ve gerekli özeni göstermezseniz kasanızın tasfiye edilebileceğini asla unutmayın! \
 \
-Let's first find the MAI-Base4Pool on the StellaSwap [Farms](https://app.stellaswap.com/farm) page.
+İlk olarak StellaSwap Çiftlikleri sayfasında MAI-Base4Pool'u bulalım. [Farm](https://app.stellaswap.com/farm) sayfası.
 
 ![MAI-Base4Pool](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.22.32 PM.png>)
 
-This farm currently offers a very attractive 26% yield on stable coins with a pool comprised of MAI, FRAX, USDT, USDC, and DAI with a yield paid out in Stella tokens. Note that this yield is mostly offsetting the interest we are currently paying on our borrowed MAI (12%). We can take a look at our performance so far:
+Bu çiftlik şu anda MAI, FRAX, USDT, USDC ve DAI'den oluşan bir havuza sahip, Stella tokenlarında ödenen bir getiri ile stablecoinler üzerinde çok cazip bir %26 verim sunuyor. Bu verimin, şu anda ödünç alınan MAI'mize (%12) ödediğimiz faizi çoğunlukla dengelediğini unutmayın. Şimdiye kadarki performansımıza bir göz atalım:
 
 $$effective interest = (collateral * borrow interest)-(mai*farmingyield)$$
 
-This gives us an effective yield of 1.6% to borrow MAI - not bad, but we can do better. We can now take the Stella tokens we are earning from being in the MAI-Base4Pool and [stake them to receive xStella](https://app.stellaswap.com/xstella).&#x20;
+Bu bize MAI'yi ödünç almak için %1,6'lık etkili bir verim sağlıyor - fena değil, ama daha iyisini yapabiliriz. Artık MAI-Base4Pool'da bulunarak kazandığımız Stella tokenlarını alıp [xStella almak için onları stake edebiliriz.](https://app.stellaswap.com/xstella).&#x20;
 
 ![Staking xStella](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.33.31 PM.png>)
 
-Staking xStella has two additional benefits. First, it provides a staking APR of 70%, thereby compounding our yields, but more importantly, xStella increases in value over time as swap revenue from the protocol is shared among users. This means that any yields we are earning from our relatively safe position in a stablecoin farm, are continuously increasing. We can then use these additional yields to deposit additional xStella into our vault to increase our LTV, or to borrow additional MAI against it.
+xStella'yı stake etmenin iki ek avantajı vardır. Birincisi, %70'lik bir stake APR'si sağlayarak getirilerimizi birleştirir, ancak daha da önemlisi, protokolden elde edilen takas geliri kullanıcılar arasında paylaşıldığından xStella'nın değeri zaman içinde artar. Bu, bir stablecoin çiftliğinde nispeten güvenli konumumuzdan kazandığımız her türlü verimin sürekli olarak artacağı anlamına gelir. Daha sonra bu ek getirileri, LTV'mizi artırmak için kasamıza ek xStella yatırmak veya buna karşı ek MAI ödünç almak için kullanabiliriz.
 
-## Disclaimer
+## Sorumluluk Reddi
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Bu kılavuz kesinlikle finansal tavsiye değildir, eğitim amaçlı hazırlanmıştır. Her zaman kendi araştırmanızı yapın. Bu kılavuzda bir projenin tartışılması, projenin onaylanması olarak değerlendirilmemelidir.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Belirli bir zamanda iyi çalışan bir stratejinin başka bir zamanda kötü performans gösterebileceğini (veya para kaybetmenize neden olabileceğini) unutmayın. Lütfen güncel olun, piyasaları takip edin, yatırımlarınızı takip edin ve her zaman olduğu gibi kendi araştırmanızı yapın.
 {% endhint %}
