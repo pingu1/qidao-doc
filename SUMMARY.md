@@ -45,8 +45,8 @@
 * [BNB Chain](rehberler/bnb-chain/README.md)
   * [How to get started on BNB Chain](rehberler/bnb-chain/how-to-get-started-on-bnb-chain.md)
 * [Moonbeam](rehberler/moonbeam/README.md)
-  * [How to get started on Moonbeam](rehberler/moonbeam/how-to-get-started-on-moonbeam.md)
-  * [Playing with MAI legos on StellaSwap](rehberler/moonbeam/playing-with-mai-legos-on-stellaswap.md)
+  * [Moonbeam'i Nasıl Kullanırım?](rehberler/moonbeam/how-to-get-started-on-moonbeam.md)
+  * [PStellaSwap'te MAI legoları ile oynamak](rehberler/moonbeam/playing-with-mai-legos-on-stellaswap.md)
 
 
 ## MAI Üniversitesi
