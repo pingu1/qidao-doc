@@ -17,7 +17,7 @@
   * [Polygon'daki OHM kopyaları: KLIMA örneği](rehberler/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
   * [Ethalend ile MAI Tek Yönlü Stake](rehberler/polygon/ethalend-single-staking.md)
   * [Fil, Şempanze ve Su Samuru](rehberler/polygon/the-elephant-and-the-otter.md)
-  * [From Traditional Finance to DeFi with Jarvis](rehberler/polygon/jarvis.md)
+  * [Jarvis ile Geleneksel Finanstan DeFi'a](rehberler/polygon/jarvis.md)
 * [Avalanche](rehberler/avalanche/README.md)
   * [Avalanche'ı Nasıl Kullanırım?](rehberler/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](rehberler/fantom/README.md)
