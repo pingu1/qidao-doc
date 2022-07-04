@@ -37,7 +37,7 @@ This is what is called leverage. Now imagine that you can find a bank that lets 
 
 [AAVE](https://app.aave.com) is a lending and borrowing platform where you can deposit your assets. By lending on AAVE, your deposited tokens will earn yield. For our strategy, we'll be lending DAI, a stable coin (pegged to the US dollar). On AAVE, $100 worth of DAI will potentially generate between 4% and 10% rate of return over the span of 1 year.
 
-![AAVE markets on Polygon as of October 2021](<../../.gitbook/assets/image (47).png>)
+![AAVE markets on Polygon as of October 2021](../../.gitbook/assets/canDAI-aave.png)
 
 When you deposit your assets on AAVE, you will receive a proof of deposit. In our example, since we are depositing DAI, we will get amDAI tokens in our wallet (**a**ave **m**arket DAI). You absolutely need to keep this receipt because you will need it to remove your DAI from AAVE. This is the bank that will accept your gold in our far west comparison.
 
@@ -73,7 +73,7 @@ For our guide, we will use Balancer to expose our investments to a little more v
 
 Even if we explained what AAVE is, our strategy will use a feature from Mai Finance to automate the DAI deposit on AAVE, the amDAI deposit in the yield instrument and the camDAI deposit in the camDAI vault.
 
-![](../../.gitbook/assets/camDAI-zapDAI.png) ![](<../../.gitbook/assets/image (48) (1).png>)
+![](../../.gitbook/assets/camDAI-zapDAI.png) ![](../../.gitbook/assets/camDAI-zapdeposit.png)
 
 The `Zap in using DAI` button opens a popup that lets you deposit your DAI in the vault and operates the AAVE deposit under the hood. This is saving a lot of time, and some gas.
 

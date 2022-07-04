@@ -10,7 +10,7 @@ Launching in January 2020, Moonbeam is an EVM (Ethereum virtual machine) compati
 \
 Polkadot describes the benefits of parachains as follows, “Parachains end the era of siloed blockchains, creating a decentralized, connected internet of blockchains where before there existed only isolated networks with their own tribalistic communities.”
 
-![Moonbeam, a Polkadot parachain](<../../.gitbook/assets/moonbeam (1).jpg>)
+![Moonbeam, a Polkadot parachain](../../.gitbook/assets/moonbeam.jpg)
 
 Because of its EVM compatibility layer, Moonbeam makes it easier for Solidity developers to be able to port their existing applications from other EVM-compatible networks to Moonbeam with few code changes. Moonbeam currently has a TVL of $130m, and a [vibrant and growing](https://defillama.com/chain/Moonbeam) ecosystem of applications.&#x20;
 

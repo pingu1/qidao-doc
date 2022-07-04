@@ -7,7 +7,7 @@ description: >-
 
 # MAI Metaverse
 
-![](../.gitbook/assets/MAI.png)
+![](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.06.42 PM.png>)
 
 ## Intro
 
@@ -49,7 +49,7 @@ In order to send your MAI tokens to Solana, you can use [AllBridge](https://allb
 
 The interface is really intuitive in the sense you simply have to select the two networks and the asset you want to transfer between the 2.
 
-![Bridging MAI from Polygon to Solana](../.gitbook/assets/screen-shot-2021-09-13-at-1.52.23-pm.png)
+![Bridging MAI from Polygon to Solana](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.52.23 PM.png>)
 
 The next step is to indicate the address of your Solana wallet and the amount you want to transfer. Be aware that MetaMask doesn't support Solana wallets (yet?), you will have to create a separate wallet on that network. It can be either a web wallet like MetaMask, or an app wallet. Please read the [official recommendations from Solana](https://docs.solana.com/wallet-guide) before choosing one.
 
@@ -61,11 +61,11 @@ Be aware that Solana does not offers any faucet where you will get your first SO
 
 The same way you can use MAI on Polygon to provide liquidity and farm yields, you can do the same on Solana. The main place where you can use MAI is [Saber](https://app.saber.so), in the MAI/USDC pool.
 
-![State of the MAI/USDC pool on Saber as of Sept. 2021](../.gitbook/assets/screen-shot-2021-09-13-at-2.11.10-pm.png)
+![State of the MAI/USDC pool on Saber as of Sept. 2021](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.11.10 PM.png>)
 
 One of the good thing to know about the MAI/USDC pool on saber is that, unlike LP (**L**iquidity **P**roviding) pools on QuickSwap, you don't need to provide LP pairs with a ratio 1:1. You can simply deposit a single asset (**MAI** or **USDC**) or an (un)balanced ratio of both stable coins.
 
-![MAI and USDC are unbalanced in the Saber pool](../.gitbook/assets/screen-shot-2021-09-13-at-2.13.51-pm.png)
+![MAI and USDC are unbalanced in the Saber pool](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.13.51 PM.png>)
 
 This means that you can actually use 100% MAI deposits from Mai Finance without having to swap any for USDC. It's particularly convenient and prevents getting impacted by small price differences between the 2 stable coins. Note that you will get rewards paid in the native farm token, the same way as you would get paid in QUICK if you're farming on QuickSwap on Polygon. You can then sell your saber tokens to increase your MAI/USDC position.
 
@@ -81,7 +81,7 @@ Avalanche is a blockchain network, designed to provide an open-source platform a
 
 As for AllBridge, the UI is quite simple. You simply select the network from which the asset will be bridge, its destination, and the asset to transfer.
 
-![Bridging MAI from Polygon to Avalanche](../.gitbook/assets/screen-shot-2021-09-13-at-2.52.31-pm.png)
+![Bridging MAI from Polygon to Avalanche](<../.gitbook/assets/Screen Shot 2021-09-13 at 2.52.31 PM.png>)
 
 Metamask **does** support [Avax wallets](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche), so you won't need any additional wallet like for Solana.
 
@@ -89,7 +89,7 @@ Metamask **does** support [Avax wallets](https://support.avax.network/en/article
 
 The same way you can use MAI to farm yields on Polygon, you can use MAI on Avalanche. The main place to do so is [Trader Joe's farms](https://www.traderjoexyz.com/#/farm), where you will find a MAI/USDC pool.
 
-![State of the MAI/USDC pool on Trader Joe as of Sept. 2021](../.gitbook/assets/screen-shot-2021-09-13-at-3.07.19-pm.png)
+![State of the MAI/USDC pool on Trader Joe as of Sept. 2021](<../.gitbook/assets/Screen Shot 2021-09-13 at 3.07.19 PM.png>)
 
 The farms on Avalanche work very closely to what you can find on Polygon. Hence, you can use Trader Joe's app the same way you would use QuickSwap. You first need to create an LP pair on the site using the same ratio of MAI and USDC, then deposit the LP pair on the farm. The same way you would get paid in QUICK when farming on QuickSwap, you will get rewarded in JOE tokens when farming on Trader Joe. You can then use these tokens in other pools, or sell them to increase your MAI/USDC pair.
 

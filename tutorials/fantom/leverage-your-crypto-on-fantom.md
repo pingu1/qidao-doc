@@ -28,7 +28,7 @@ Once you deposited your DAI on yearn finance, you should have yvDAI in your wall
 
 Mai Finance accepts a lot of different yield bearing tokens as collateral, including yvDAI. You can now deposit this token and borrow MAI against it.
 
-![Deposit your yvToken on Mai Finance](<../../.gitbook/assets/ftm-leverage-yv2 (1).png>)
+![Deposit your yvToken on Mai Finance](../../.gitbook/assets/ftm-leverage-yv2.png)
 
 The yvDAI vault has a liquidation threshold of 110%, this means that you can borrow MAI so that the ratio between your collateral value and the debt value is 110%. Be careful that 110% is actually the ratio at which your vault will be liquidated. You need to keep the ratio above this minimum threshold. Since DAI doesn't vary much in price (less than a few cents up or down) it's possible to keep a "safe" CDR (**C**ollateral to **D**ebt **R**atio) of 115%, but feel free to keep something higher.
 
