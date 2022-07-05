@@ -3,7 +3,7 @@ description: >-
   Bu kılavuzda, Arbitrum’un sunduğu farklı DApp'leri kullanmaya başlamak için bilmeniz gereken her şeyi açıklayacağız.
 ---
 
-# HArbitrum’u Nasıl Kullanırım?
+# Arbitrum’u Nasıl Kullanırım?
 
 ## Arbitrum Nedir?
 
