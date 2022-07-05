@@ -44,7 +44,7 @@
 * [Arbitrum](rehberler/arbitrum/README.md)
   * [How to get started on Arbitrum](rehberler/arbitrum/how-to-get-started-on-arbitrum.md)
 * [BNB Chain](rehberler/bnb-chain/README.md)
-  * [How to get started on BNB Chain](rehberler/bnb-chain/how-to-get-started-on-bnb-chain.md)
+  * [BNB Chain'i Nasıl Kullanırım?](rehberler/bnb-chain/how-to-get-started-on-bnb-chain.md)
 * [Moonbeam](rehberler/moonbeam/README.md)
   * [Moonbeam'i Nasıl Kullanırım?](rehberler/moonbeam/how-to-get-started-on-moonbeam.md)
   * [StellaSwap'te MAI legoları ile oynamak](rehberler/moonbeam/playing-with-mai-legos-on-stellaswap.md)
