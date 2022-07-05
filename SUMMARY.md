@@ -42,7 +42,7 @@
 * [Optimism](rehberler/optimism/README.md)
   * [Optimism'i Nasıl Kullanırım?](rehberler/optimism/how-to-get-started-on-optimism.md)
 * [Arbitrum](rehberler/arbitrum/README.md)
-  * [How to get started on Arbitrum](rehberler/arbitrum/how-to-get-started-on-arbitrum.md)
+  * [Arbitrum’u Nasıl Kullanırım?](rehberler/arbitrum/how-to-get-started-on-arbitrum.md)
 * [BNB Chain](rehberler/bnb-chain/README.md)
   * [BNB Chain'i Nasıl Kullanırım?](rehberler/bnb-chain/how-to-get-started-on-bnb-chain.md)
 * [Moonbeam](rehberler/moonbeam/README.md)
