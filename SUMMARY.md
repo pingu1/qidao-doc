@@ -44,7 +44,7 @@
 * [Arbitrum](toan-tap/arbitrum/README.md)
   * [Khởi động trên mạng Arbitrum](toan-tap/arbitrum/how-to-get-started-on-arbitrum.md)
 * [BNB Chain](toan-tap/bnb-chain/README.md)
-  * [How to get started on BNB Chain](toan-tap/bnb-chain/how-to-get-started-on-bnb-chain.md)
+  * [Khởi động trên chuỗi BNB](toan-tap/bnb-chain/how-to-get-started-on-bnb-chain.md)
 * [Moonbeam](toan-tap/moonbeam/README.md)
   * [How to get started on Moonbeam](toan-tap/moonbeam/how-to-get-started-on-moonbeam.md)
   * [Playing with MAI legos on StellaSwap](toan-tap/moonbeam/playing-with-mai-legos-on-stellaswap.md)

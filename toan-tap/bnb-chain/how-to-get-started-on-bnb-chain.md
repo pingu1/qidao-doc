@@ -1,83 +1,83 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the different DApps that BNB Chain has to offer.
+  Trong hướng dẫn này, chúng tôi sẽ giải thích mọi thứ bạn cần biết để bắt đầu
+  sử dụng các DApp khác nhau mà chuỗi BNB cung cấp.
 ---
 
-# How to get started on BNB Chain
+# Khởi động trên chuỗi BNB
 
-## What is BNB Chain?
+## Chuỗi BNB là gì?
 
-BNB Chain is an EVM (Ethereum Virtual Machine) compatible network which is an upgraded version of the original Binance Smart Chain which provides low transaction fees, and much faster block times than Ethereum, the chain from which is it based.\
+BNB Chain là mạng tương thích EVM (Máy ảo Ethereum), là phiên bản nâng cấp của BSC ban đầu, cung cấp phí giao dịch thấp và thời gian khối nhanh hơn nhiều so với Ethereum.\
 \
-Because of this, BNB Chain is one of the most popular chains in the world with over 4.5 billion annual transactions and an extremely vibrant and mature [DApp ecosystem](https://dappbay.bnbchain.org/).
+Bởi vì điều này, BNB Chain là một trong những chuỗi phổ biến nhất trên thế giới với hơn 4,5 tỷ giao dịch hàng năm và một hệ sinh thái DApp cực kỳ sôi động.
 
-BNB Chain uses Binance's BNB token to pay for gas fees so be sure to have some in your wallet in order to perform transactions. Binance provides [easy to follow guides](https://www.binance.com/en/support/faq/85a1c394ac1d489fb0bfac0ef2fceafd) on how to get purchase or transfer tokens to its BNB Chain.
+BNB Chain sử dụng mã thông báo BNB của Binance để thanh toán phí gas, vì vậy hãy đảm bảo có một số trong ví của bạn để thực hiện các giao dịch. Binance cung cấp các hướng dẫn đơn gian làm theo về cách mua hoặc chuyển token vào [chuỗi BNB của mình.](https://www.binance.com/en/support/faq/85a1c394ac1d489fb0bfac0ef2fceafd)
 
-## Getting started on BNB Chain
+## Khởi động trên chuỗi BNB
 
-Before using BNB Chain, you will need a wallet address. Because BNB Chain is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network.
+Trước khi sử dụng BNB Chain, bạn sẽ cần địa chỉ ví. Vì BNB Chain là mạng EVM nên nó sẽ chấp nhận các ví tương tự như trên các chuỗi EVM khác, bao gồm ví web như Metamask hoặc Nifty và bạn sẽ có thể sử dụng ví phần cứng của mình như Trezor hoặc Ledger, nhưng bạn có thể phải tuân theo các bước bổ sung để có thể kết nối ví lạnh của bạn với mạng.
 
-For this tutorial, we will stick to Metamask just as we have done for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).&#x20;
+Đối với hướng dẫn này, chúng tôi sẽ gắn bó với Metamask giống như chúng tôi đã làm cho tất cả các hướng dẫn khác trên trang web này. Nếu bạn chưa cài đặt Metamask, bạn có thể tìm hướng dẫn về [Cách bắt đầu trên Polygon](../polygon/how-to-get-started-on-polygon.md).&#x20;
 
-Additionally, you can use Binance's own Binance Wallet for an easier way to get started on the network.
+Ngoài ra, bạn có thể sử dụng Ví Binance của riêng Binance để bắt đầu sử dụng mạng một cách dễ dàng hơn.
 
-### Adding BNB Chain to Metamask
+### Thêm chuỗi BNB vào Metamask
 
-Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Add Network`. You will use the following information in the relevant text fields:
+Mở cửa sổ bật lên Metamask, nhấp vào biểu tượng ví của bạn, điều hướng đến Cài đặt, sau đó chọn Mạng và tìm Thêm mạng. Bạn sẽ sử dụng thông tin sau trong các trường văn bản có liên quan dưới đây.
 
 * **Network Name:** BNB Chain
 * **New RPC URL:** [https://docs.binance.org/smart-chain/developer/rpc.html](https://docs.binance.org/smart-chain/developer/rpc.html)
 * **Chain ID:** 0x38
 * **Currency Symbol:** BNB
-* **Block Explorer URL:** [**https://bscscan.com/**](https://bscscan.com/)****
+* **Block Explorer URL:** [**https://bscscan.com/**](https://bscscan.com/)\*\*\*\*
 
-Save the changes, and Metamask will automatically switch you over to BNB:
+Lưu các thay đổi và Metamask sẽ tự động chuyển bạn sang BNB:
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.28.44 AM.png>)
 
-If you would like to search for additional RPCs with lower latency, take a look at [ChainList](https://chainlist.org/) for additional endpoints.
+Nếu bạn muốn tìm kiếm các RPC bổ sung có độ trễ thấp hơn, hãy xem [ChainList ](https://chainlist.org/)để biết các điểm cuối bổ sung.
 
-## Bridging to BNB Chain
+## Kết nối với chuỗi BNB
 
 ### Faucets
 
-There are freely available faucets on BNB Chain, but it is the opinion of the author that it will be safer to use something like ElkNet to get free gas tokens. If you choose to use a faucet you found online, please do so at your own risk. With [ElkNet](https://app.elk.finance/#/elknet), you can opt to swap some of your Elk tokens as gas when bridging from any of the supported networks.
+Có các nguồn faucets miễn phí có sẵn trên BNB Chain, nhưng theo ý kiến của tác giả rằng sẽ an toàn hơn khi sử dụng [ElkNet](https://app.elk.finance/#/elknet) để nhận mã thông báo gas miễn phí. Nếu bạn chọn sử dụng một vòi bạn tìm thấy trực tuyến, vui lòng tự chịu rủi ro. Với ElkNet, bạn có thể chọn hoán đổi một số mã thông báo Elk của mình dưới dạng khí khi bắc cầu từ bất kỳ mạng nào được hỗ trợ.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.29.50 AM.png>)
 
-### Bridges
+### Cầu nối
 
-* [Multi Chain](https://app.multichain.org/#/router) is the official partner of Mai Finance if you want to transfer your MAI or QI to BNB Chain from any other networks. From your selected network, you can simply chose the destination chain (BNB Chain) and the asset you want to send (MAI or QI for example) with the correct amount, and click on the `Transfer` button. Pay attention to the transfer fees taken directly on the asset you are transferring.
+* [Multi Chain](https://app.multichain.org/#/router)là đối tác chính thức của Mai Finance nếu bạn muốn chuyển MAI hoặc QI của mình sang BNB Chain từ bất kỳ mạng nào khác. Từ mạng đã chọn của bạn, bạn có thể chỉ cần chọn chuỗi đích (Chuỗi BNB) và tài sản bạn muốn gửi (ví dụ: MAI hoặc QI) với số tiền chính xác và nhấp vào nút Chuyển. Chú ý đến phí chuyển khoản được tính trực tiếp trên tài sản bạn đang chuyển.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.32.07 AM.png>)
 
-* [Celer](https://cbridge.celer.network/#/transfer) is a popular bridge and allows you to transfer tokens from about fifteen different networks to BNB Chain.
+* [Celer](https://cbridge.celer.network/#/transfer) là một cầu nối phổ biến và cho phép bạn chuyển mã thông báo từ khoảng 15 mạng khác nhau sang Chuỗi BNB.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.31.15 AM.png>)
 
-* [Hashflow](https://app.hashflow.com/) is a newer bridging technology that works essentially as a crosschain DEX (decentralized exchange) for any token with sufficient liquidity. Additionally, Hashflow users can currently earn HFT (Hashflow tokens) for swapping or providing token liquidity. Chains are currently limited to Ethereum, Avalanche, Arbitrum, Optimism, Polygon, and BNB.
+* [Hashflow](https://app.hashflow.com/) là một công nghệ bắc cầu mới hơn, hoạt động về cơ bản như một DEX xuyên chuỗi (trao đổi phi tập trung) cho bất kỳ mã thông báo nào có đủ thanh khoản. Ngoài ra, người dùng Hashflow hiện có thể kiếm được HFT (mã thông báo Hashflow) để hoán đổi hoặc cung cấp tính thanh khoản cho mã thông báo. Chuỗi hiện được giới hạn ở Ethereum, Avalanche, Arbitrum, Optimism, Polygon và BNB.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.33.51 AM.png>)
 
-* [Elknet](https://app.elk.finance/#/elknet) will act both as a bridge and as a faucet when you transfer the ELK token between 2 networks. You will be able to bridge your ELK and on the receiving end, you can have a small portion of your ELK directly available as the gas token, BNB in our case, as explained in the section above.
+* [Elknet](https://app.elk.finance/#/elknet) sẽ hoạt động như một cầu nối và một nguồn faucets khi bạn chuyển mã thông báo ELK giữa 2 mạng. Bạn sẽ có thể kết nối ELK của mình và ở đầu nhận, bạn có thể có một phần nhỏ ELK của mình trực tiếp dưới dạng mã thông báo gas, BNB trong trường hợp của chúng tôi, như đã giải thích trong phần trên.
 
-## DeFi on BNB Chain
+## DeFi trên chuỗi BNB
 
-* [Ellipsis Finance](https://ellipsis.finance/pool/0x68354c6E8Bbd020F9dE81EAf57ea5424ba9ef322) is the go to place for MAI liquidity on BNB Chain. The MAI pool on Ellipsis (MAI+val3EPS) is comprised of four stablecoins including BUSD (Binance USD), USDC, USDT (Tether), and MAI. By depositing stablecoins, and then staking the LP into Ellipsis, users can earn a variable yield between 6 and 15% paid out in Ellipsis' EPS token, Vallas' VAL token, as well as trading fees.
+* [Ellipsis Finance](https://ellipsis.finance/pool/0x68354c6E8Bbd020F9dE81EAf57ea5424ba9ef322) là lựa chọn phù hợp cho thanh khoản MAI trên Chuỗi BNB. Nhóm MAI trên Ellipsis (MAI + val3EPS) bao gồm bốn loại tiền ổn định bao gồm BUSD (Binance USD), USDC, USDT (Tether) và MAI. Bằng cách gửi các stablecoin, và sau đó đặt LP vào Ellipsis, người dùng có thể kiếm được lợi nhuận thay đổi từ 6 đến 15% được thanh toán bằng mã thông báo EPS của Ellipsis, mã thông báo VAL của Vallas, cũng như phí giao dịch.
 
-![MAI+val3EPS pool on Ellipsis](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.07.42 AM.png>)
+![Bể MAI+val3EPS trên Ellipsis](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.07.42 AM.png>)
 
-## Mai Finance on BNB Chain
+## Mai Finance trên chuỗi BNB
 
-The lending platform is already available on BNB Chain where you will be able to deposit your WBNB (Wrapped BNB) and CAKE (PancakeSwap) tokens in a vault and borrow MAI against them. You can then deposit your borrowed MAI on Ellipsis to earn yield on your MAI.
+Nền tảng cho vay đã có sẵn trên Chuỗi BNB, nơi bạn sẽ có thể gửi mã thông báo WBNB (Wrapped BNB) và CAKE (PancakeSwap) vào một kho tiền làm thế chấp và mượn MAI. Sau đó, bạn có thể gửi MAI đã vay của mình trên Ellipsis để kiếm được lợi nhuận từ MAI của bạn.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.11.26 AM.png>)
 
-## Disclaimer
+## Từ chối trách nhiệm
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Hướng dẫn này KHÔNG phải là lời khuyên tài chính, và chỉ nên được coi là một công cụ giáo dục. Luôn luôn làm nghiên cứu riêng của bạn. Thảo luận về một dự án trong hướng dẫn này không nên được coi là sự chứng thực của dự án.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}
