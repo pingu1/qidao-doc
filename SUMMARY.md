@@ -42,7 +42,7 @@
 * [Optimism](toan-tap/optimism/README.md)
   * [Khởi động trên mạng Optimism](toan-tap/optimism/how-to-get-started-on-optimism.md)
 * [Arbitrum](toan-tap/arbitrum/README.md)
-  * [How to get started on Arbitrum](toan-tap/arbitrum/how-to-get-started-on-arbitrum.md)
+  * [Khởi động trên mạng Arbitrum](toan-tap/arbitrum/how-to-get-started-on-arbitrum.md)
 * [BNB Chain](toan-tap/bnb-chain/README.md)
   * [How to get started on BNB Chain](toan-tap/bnb-chain/how-to-get-started-on-bnb-chain.md)
 * [Moonbeam](toan-tap/moonbeam/README.md)
