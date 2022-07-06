@@ -21,7 +21,7 @@ Hướng dẫn dưới đây sẽ trình bày từng bước các tận dụng n
 Để minh họa chi tiết hơn làm thế nào bạn có thể làm điều đó, chúng ta sẽ dùng [farm mới nhất ](https://ball.polypup.finance/)của Polypup. Xin lưu ý đây chỉ là ví dụ cho mục đích giáo dục nên tuyệt đối không sử dụng như là một lời khuyên tài chính. Ngoài ra, thuật ngữ "an toàn" cũng chỉ mang tính chủ quan cá nhân.
 {% endhint %}
 
-![](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)
+![](../../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
 
 ## Vòng đời farming
 
@@ -41,11 +41,11 @@ Bạn có thể gửi trực tiếp đồng MATIC của mình vào vault MATIC h
 
 Khi vay đã vay stablecoin MAI, bạn có thể sử dụng mục [Anchor](https://app.mai.finance/anchor) trên app Mai Finance để chuyển một nửa MAI thành USDC với tỷ lên là 1:1.&#x20;
 
-![Sử dụng mục Swap để chuyển một nửa MAI thành USDC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
+![Sử dụng mục Swap để chuyển một nửa MAI thành USDC](../../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
 
 Bây giờ, phụ thuộc vào farm cụ thể bạn muốn tham gia, bạn cần ghép 2 đồng này với nhau để tạo ra một cặp thanh khoản LP trên các nền tảng DEX. Vì dự định ban đầu của chúng ta là Polypup mà farm này chấp nhận cặp thanh khoản của Quickswap LPs, nên chúng ta đi tới trang chính của Quickswap vào mục [Pool](https://quickswap.exchange/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xa3Fa99A148fA48D14Ed51d610c367C61876997F1) để tạo cặp MAI-USDC
 
-![Tạo LP token bằng MAI và USDC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
+![Tạo LP token bằng MAI và USDC](../../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
 
 Vậy là bạn đã sẵn sàng
 
@@ -53,7 +53,7 @@ Vậy là bạn đã sẵn sàng
 
 Bây giờ bạn có một số token LP, bạn truy nhập vào website và gửi chúng vào bể thanh khoản để bắt đầu thu hoạch đồng coin Ball của Polypup.
 
-![Nhận BALL trong bể](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
+![Nhận BALL trong bể](../../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
 
 Như bạn thấy ở trên hình, farming cặp MAI/USDC cho chúng ta mức lãi suất 176% một năm. Tùy vào dung lượng bể và giá của token BALL mà APR sẽ thay đổi theo thời gian.&#x20;
 
@@ -72,7 +72,7 @@ Bây giờ bạn có một số token farm được, bạn sẽ lựa chọn gi�
 
 Mai Finance giới thiệu cho bạn lựa chọn thứ ba cho phép bạn thực hiện cả hai điều này. Một khi bạn nhận được đồng coin mà bạn đã farm được, bạn chuyển chúng lên các sàn DEX mà hỗ trợ bán đồng coin này. Thông thường bạn sẽ tìm thấy liên kết với DEX chấp nhận trao đổi đồng coin này tại menu của farm. Trong link sẽ có địa chỉ hợp đồng giúp bạn dễ dàng hơn.
 
-![Swapping phần thưởng thành MATIC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
+![Swapping phần thưởng thành MATIC](../../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
 
 Tại thời điểm đó,  chúng ta đã quay lại bước mà chúng ta có token MATIC trong ví, sẵn sàng được gửi vào Mai Finance làm tài sản thế chấp để vay MAI, hoán đổi một phần của nó thành USDC, tạo một cặp LP và gửi lại vào trang trại. Bằng cách thực hiện chuyển đổi này, chúng ta "đảm bảo" 100% phần thưởng của mình bằng cách hoán đổi chúng thành một loại đồng coin ổn định hơn (ở đây là MATIC) và chúng ta gửi tiếp 50% phần thưởng của mình bể farming (hoặc thực tế, trong ví dụ này là 46% vì phí gửi là 4%).
 

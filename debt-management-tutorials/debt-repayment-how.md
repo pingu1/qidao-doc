@@ -17,7 +17,7 @@ Cách trực tiếp nhất để trả nợ là sử dụng một số fiat, đ�
 
 Mai Finance đang hợp tác với [Transak ](https://transak.com/)để dễ dàng chuyển tiền được mua bằng Thẻ tín dụng / Thẻ ghi nợ hoặc chuyển khoản ngân hàng trực tiếp với mạng Polygon. Chỉ cần truy cập Mai Finance và nhấp vào biểu tượng chuyển khoản trong thanh menu để mở một phương thức cho phép bạn mua một số MATIC và gửi chúng trực tiếp đến ví Polygon của bạn.
 
-![Mua một số USDT từ fiat và chuyển tiếp sang Polygon trực tiếp](<../.gitbook/assets/Screen Shot 2021-08-18 at 9.43.07 AM.png>)
+![Mua một số USDT từ fiat và chuyển tiếp sang Polygon trực tiếp](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
 
 Vấn đề chính là thời gian thực hiện để xử lý giao dịch. Tuy nhiên, làm như vậy sẽ cho phép bạn hoán đổi USDC lấy MAI và sau đó trả một phần hoặc toàn bộ khoản nợ của mình.
 
@@ -40,7 +40,7 @@ Tuy nhiên, một số người chỉ đơn giản là không thích ý tưởng
 * Điền bất cứ số lượng nào bạn muốn hoàn trả
 * Nhấn `Repay MAI`&#x20;
 
-![Trả lại một phần một phần nợ](<../.gitbook/assets/Screen Shot 2021-08-17 at 1.02.23 PM.png>)
+![Trả lại một phần một phần nợ](../.gitbook/assets/screen-shot-2021-08-17-at-1.02.23-pm.png)
 
 Như một ví dụ
 
@@ -131,7 +131,7 @@ Tùy thuộc vào chiến lược của bạn và cách bạn cảm thấy về 
 * MAI là 0% lãi suất + 0,5% phí hoàn trả
 * &#x20;AAVE không có phí hoàn trả, nhưng APR có thể thay đổi cho các khoản lãi mà bạn cần trả lại
 
-![Đi vay và cho vay APY trên AAVE kể từ tháng 8 năm 2021](<../.gitbook/assets/Screen Shot 2021-08-18 at 6.52.08 AM.png>)
+![Đi vay và cho vay APY trên AAVE kể từ tháng 8 năm 2021](../.gitbook/assets/screen-shot-2021-08-18-at-6.52.08-am.png)
 
 Ví dụ đối với USDC, bạn có thể thấy rằng tỷ lệ đi vay là 3,79% với phần thưởng hiện tại là 2,08% được trả lại trong MATIC. Điều này cho thấy, tại thời điểm viết bài, tương đương với 1,71% bạn cần phải trả lại nếu bạn giữ khoản vay của mình trong một năm hoàn thành. Với AAVE, vì bạn có thể trả nợ rất nhanh nên APY biến đổi tương đương với 0,005% hàng ngày. Do đó, sẽ mất 100 ngày (hơn 3 tháng một chút) để đạt được 0,5% khoản nợ của bạn.
 

@@ -63,7 +63,7 @@ Nếu bạn muốn kết nối các đồng tiền ổn định với Fantom, b�
 
 * [AnySwap](https://anyswap.exchange/#/bridge): Đây là cầu nối chính thức được hỗ trợ để gửi MAI mà bạn đã đúc trên Polygon đến Fantom (xem [hướng dẫn MAI](how-to-get-started-on-fantom.md#what-is-fantom) để biết chi tiết). Giải pháp này hỗ trợ nhiều tài sản và nhiều chuỗi để bạn dễ dàng gửi tiền điện tử của mình đến Fantom. Vui lòng kiểm tra ghi chú Nhắc nhở ở cuối giao diện bắc cầu để biết chi tiết phí giao dịch và thời gian thực hiện dự kiến.
 
-![Mang MAI sang Fantom](<../../.gitbook/assets/image (43).png>)
+![Mang MAI sang Fantom](<../../.gitbook/assets/ftm\_anyswap (1) (1).png>)
 
 * [Celer Bridge](https://cbridge.celer.network/#/): cung cấp dịch vụ cầu nối cho nhiều chuỗi đối với hầu hết các đồng tiền ổn định, với phí dao động từ 0,04% đến 0,19% để kết nối với Fantom (DYOR).
 * [xpollinate](https://www.xpollinate.io): phí thấp và đảm bảo rằng có đủ thanh khoản trên chuỗi mục tiêu cho mã thông báo bạn muốn làm cầu nối. Thanh khoản càng thấp (hoặc số lượng cầu nối càng lớn), thời gian chuyển càng dài.

@@ -44,7 +44,7 @@ Có nghĩa là số Qi bị khóa sẽ có những lợi thế sau:
 
 Để khóa Qi của bạn, bạn cần vào thanh Boost và chọn số lượng token bạn muốn khóa và khoảng thời gian bạn muốn khóa token Qi của mình. Khoảng thời gian càng dài thì bạn sẽ nhận được càng nhiều eQi, hãy nhớ rằng eQi chỉ là số lượng token Qi bạn sẽ có sau khi thời gian khóa kết thúc.
 
-![Thông tin khóa tăng cường Qi Powah](../.gitbook/assets/Captura.JPG)
+![Thông tin khóa tăng cường Qi Powah](../.gitbook/assets/captura.jpg)
 
 Một khi đã quyết định tất cả những thứ đó hãy nhấp vào phê duyệt và chấp nhận phê duyệt giao dịch `Increase locked QI and lock time` .
 
@@ -54,7 +54,7 @@ Xin lưu ý rằng khi bạn khóa token Qi của mình trong một khoảng th�
 
 Xin chúc mừng, bây giờ bạn đã chính thức là một cổ đông Qi, bạn sẽ nhận được tiền thưởng hàng tuần và các tuần tiếp theo. Nếu bạn có bất kỳ nghi ngờ nào về việc bạn có đủ điều kiện để chia sẻ doanh thu của tuần tiếp theo hay không, bạn có thể xem trên trang Boost xem bạn có đủ điều kiện hay không.
 
-![](<../.gitbook/assets/Captura (1).JPG>)
+![](<../.gitbook/assets/captura (1).jpg>)
 
 ### Số liệu thống kê Qi Powah
 
