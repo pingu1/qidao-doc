@@ -3,7 +3,7 @@ açıklama: >-
   Bir kredi almak, bu krediyi bir yatırım stratejisinin başlangıç noktası olarak kullandığınız takdirde tam olarak bir borç sözleşmesi olmaz. Bu gerçek bir yatırım olur
 ---
 
-# A Spooky Symfony
+# Spooky Senfonisi
 
 ## Giriş
 
