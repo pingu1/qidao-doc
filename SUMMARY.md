@@ -47,7 +47,7 @@
   * [Khởi động trên chuỗi BNB](toan-tap/bnb-chain/how-to-get-started-on-bnb-chain.md)
 * [Moonbeam](toan-tap/moonbeam/README.md)
   * [Khởi động trên Moonbeam](toan-tap/moonbeam/how-to-get-started-on-moonbeam.md)
-  * [Playing with MAI legos on StellaSwap](toan-tap/moonbeam/playing-with-mai-legos-on-stellaswap.md)
+  * [Chơi với MAI lego trên StellaSwap](toan-tap/moonbeam/playing-with-mai-legos-on-stellaswap.md)
 
 ## Học viện MAI <a href="#debt-management-tutorials" id="debt-management-tutorials"></a>
 
