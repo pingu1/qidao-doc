@@ -2,7 +2,7 @@
 
 * [Mai Finance için Topluluk Rehberi](README.md)
 
-## rehberler
+## Rehberler
 
 * [Polygon](rehberler/polygon/README.md)
   * [Polygon'u Nasıl Kullanırım?](rehberler/polygon/how-to-get-started-on-polygon.md)
@@ -27,7 +27,7 @@
   * [Fantom'da MAI ile ne yapılır?](rehberler/fantom/what-to-do-with-mai-on-fantom.md)
   * [SpiritSwap ile çiftçilik döngüsü](rehberler/fantom/farming-loop-using-spiritswap.md)
   * [Fantom'daki Exodia Combo](rehberler/fantom/investing-in-discounted-assets-using-bonds.md)
-  * [A Spooky Symfony](rehberler/fantom/spooky-symfony.md)
+  * [Spooky Senfonisi](rehberler/fantom/spooky-symfony.md)
 * [Moonriver](rehberler/moonriver/README.md)
   * [Moonriver'ı Nasıl Kullanırım?](rehberler/moonriver/how-to-get-started-on-moonriver.md)
   * [SolarBeam'de MAI Çiftçiliği](rehberler/moonriver/farming-mai-on-solarbeam.md)
