@@ -1,36 +1,38 @@
 ---
-description: In this guide, we'll explain how to get started using Moonbeam.
+description: Trong hướng dẫn này, chúng tôi sẽ giải thích cách bắt đầu sử dụng Moonbeam.
 ---
 
-# How to get started on Moonbeam
+# Khởi động trên Moonbeam
 
-## What is Moonbean?
+## Moonbean là gì?
 
-Launching in January 2020, Moonbeam is an EVM (Ethereum virtual machine) compatible smart contract platform running on the Polkadot network making it what is called a Polkadot parachain. Parachains are interconnected set of chains that benefit from Polkadot's main relay chain while remaining interoperable, thereby partaking in the benefits and security of the main chain while running in parallel to it.\
+Ra mắt vào tháng 1 năm 2020, Moonbeam là một nền tảng hợp đồng thông minh tương thích EVM (máy ảo Ethereum) chạy trên mạng Polkadot, khiến nó được gọi là Polkadot parachain. Parachains là tập hợp các chuỗi được kết nối với nhau được hưởng lợi từ chuỗi chuyển tiếp chính của Polkadot trong khi vẫn có thể tương tác, do đó tham gia vào lợi ích và bảo mật của chuỗi chính trong khi chạy song song với nó.
+
 \
-Polkadot describes the benefits of parachains as follows, “Parachains end the era of siloed blockchains, creating a decentralized, connected internet of blockchains where before there existed only isolated networks with their own tribalistic communities.”
+Polkadot mô tả những lợi ích của parachains như sau, “Parachains kết thúc kỷ nguyên của các blockchain bị che khuất, tạo ra một mạng lưới blockchain được kết nối, phi tập trung mà trước đây chỉ tồn tại các mạng bị cô lập với các cộng đồng bộ lạc của riêng họ”.
 
 ![Moonbeam, a Polkadot parachain](<../../.gitbook/assets/moonbeam (1).jpg>)
 
-Because of its EVM compatibility layer, Moonbeam makes it easier for Solidity developers to be able to port their existing applications from other EVM-compatible networks to Moonbeam with few code changes. Moonbeam currently has a TVL of $130m, and a [vibrant and growing](https://defillama.com/chain/Moonbeam) ecosystem of applications.&#x20;
+Do lớp tương thích EVM của nó, Moonbeam giúp các nhà phát triển Solidity dễ dàng chuyển các ứng dụng hiện có của họ từ các mạng tương thích EVM khác sang Moonbeam với một vài thay đổi mã. Moonbeam hiện có TVL là 130 triệu đô la và một hệ sinh thái các [ứng dụng sôi động và phát triển mạnh.](https://defillama.com/chain/Moonbeam)
 
-Moonbeat also offers Substrate compatibility. Substrate is a modular blockchain framework used by developers for building blockchains tailored to their needs using reusable components called pallets. It uses the Rust programming language and is the framework most developers use when building parachains for the Polkadot network.
+Moonbeat cũng cung cấp khả năng tương thích với Substrate. Substrate là một khuôn khổ blockchain mô-đun được các nhà phát triển sử dụng để xây dựng các blockchain phù hợp với nhu cầu của họ bằng cách sử dụng các thành phần có thể tái sử dụng được gọi là pallet. Nó sử dụng ngôn ngữ lập trình Rust và là khung mà hầu hết các nhà phát triển sử dụng khi xây dựng các parachains cho mạng Polkadot.
 
-As Moonbeam is a Substrate-based blockchain, apps integrated with its network benefit from interoperability between the Polkadot and Ethereum chains, as well as others like Bitcoin.
+Vì Moonbeam là một blockchain dựa trên Substrate, các ứng dụng được tích hợp với mạng của nó được hưởng lợi từ khả năng tương tác giữa các chuỗi Polkadot và Ethereum, cũng như các chuỗi khác như Bitcoin.
 
-Developers can also use Substrate-compatible ecosystem tools commonly used on Ethereum, including block explorers, front-end development libraries, and wallets, as well as development tools like Truffle and Remix.\
+Các nhà phát triển cũng có thể sử dụng các công cụ hệ sinh thái tương thích với Substrate thường được sử dụng trên Ethereum, bao gồm trình khám phá khối, thư viện phát triển front-end và ví, cũng như các công cụ phát triển như Truffle và Remix.
+
 \
-The native gas token for Moonbeam is GLMR.
+Mã thông báo gas gốc cho Moonbeam là GLMR.
 
-## Getting started on Moonbeam
+## Khởi động trên Moonbeam
 
-Before using Moonbeam, you will need a wallet address. Because Moonbeam is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network.
+Trước khi sử dụng Moonbeam, bạn sẽ cần một địa chỉ ví. Vì Moonbeam là một mạng EVM, nó sẽ chấp nhận các ví giống như trên các chuỗi EVM khác, bao gồm ví web như Metamask hoặc Nifty và bạn sẽ có thể sử dụng ví phần cứng của mình như Trezor hoặc Ledger, nhưng bạn có thể phải thực hiện thêm các bước để có thể kết nối ví lạnh của bạn với mạng.
 
-For this tutorial, we will stick to Metamask just as we have done for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
+Đối với hướng dẫn này, chúng tôi sẽ gắn bó với Metamask giống như chúng tôi đã làm cho tất cả các hướng dẫn khác trên trang web này. Nếu bạn chưa cài đặt Metamask, bạn có thể tìm hướng dẫn về [Cách bắt đầu với Polygon.](../polygon/how-to-get-started-on-polygon.md)
 
-### Adding Moonbeam to Metamask
+### Thêm Moonbeam vào Metamask
 
-Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Add Network`. You will use the following information in the relevant text fields:
+Mở cửa sổ bật lên Metamask, nhấp vào biểu tượng ví của bạn, điều hướng đến Cài đặt, sau đó chọn Mạng và tìm Thêm mạng. Bạn sẽ sử dụng thông tin sau trong các trường văn bản có liên quan:
 
 * **Network Name:** Moonbeam
 * **New RPC URL:** [https://rpc.api.moonbeam.network](https://rpc.api.moonbeam.network)
@@ -38,58 +40,57 @@ Open the Metamask popup, click the icon of your wallet, navigate to `Settings` t
 * **Currency Symbol:** GLMR
 * **Block Explorer URL:** [https://moonscan.io/](https://moonscan.io/)
 
-Save the changes, and Metamask will automatically switch you over to Moonbeam:
+Lưu các thay đổi và Metamask sẽ tự động chuyển bạn sang Moonbeam:
 
 ![Moonbeam on Metamask](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.34.43 PM.png>)
 
-## Bridging to Moonbeam
+## Kết nối Moonbeam
 
 ### Faucets
 
-GLMR is Moonbeam's native gas token so you'll need to have some in your wallet to make transactions on chain. Fortunately, the official Moonbeam Faucet will help get your started with a small amount of GLMR, though please note that the amount dispersed by the token may sometimes not be enough to complete a transaction if the network is congested. \
-\
-In order to receive some free GLMR, you'll need to verify you're a human via the captcha bot, and connect your Metamask wallet to the site. A small amount (0.007 GLMR) will then be sent immediately to your wallet.
+GLMR là mã thông báo gas gốc của Moonbeam, vì vậy bạn sẽ cần có một số trong ví của mình để thực hiện các giao dịch trên chuỗi. May mắn thay, Faucet Moonbeam chính thức sẽ giúp bạn bắt đầu với một lượng nhỏ GLMR, mặc dù xin lưu ý rằng số lượng phân tán bằng mã thông báo đôi khi có thể không đủ để hoàn thành giao dịch nếu mạng bị tắc nghẽn.\
+Để nhận được một số GLMR miễn phí, bạn cần xác minh bạn là người thông qua bot captcha và kết nối ví Metamask của bạn với trang web. Một số tiền nhỏ (0,007 GLMR) sau đó sẽ được gửi ngay lập tức vào ví của bạn.
 
-![GLMR.Supply Faucet](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.57.39 PM.png>)
+![GLMR Faucet](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.57.39 PM.png>)
 
-Additionally, users may want to use Solarflare's "[Swap for gas](https://app.solarflare.io/bridge/gas-swap)" feature. This allows users to swap other tokens including WETH, WBTC, USDC, DAI, USDT, BUSD, FLARE, and BNB into GLMR, Moonbeam's native gas token.
+Ngoài ra, người dùng có thể muốn sử dụng tính năng "[Hoán đổi lấy phí gas](https://app.solarflare.io/bridge/gas-swap)" của Solarflare. Điều này cho phép người dùng hoán đổi các mã thông báo khác bao gồm WETH, WBTC, USDC, DAI, USDT, BUSD, FLARE và BNB thành GLMR, mã thông báo gas gốc của Moonbeam.
 
-![Solarflare's "Swap for Gas" feature](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.15.46 PM.png>)
+![Tính năng hoán đổi phí gas của Solarflare](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.15.46 PM.png>)
 
-### Bridges
+### Cầu nối
 
-* [Multichain](https://app.multichain.org/#/router) is the official bridge for MAI through its partnership with MAI finance, and you can easily send your MAI to Moonbeam by using it.
+* [Multichain](https://app.multichain.org/#/router) là cầu nối chính thức của MAI thông qua quan hệ đối tác với Qi Protocol, và bạn có thể dễ dàng gửi MAI của mình đến Moonbeam bằng cách sử dụng nó.
 
-![Multichain on Moonbeam](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.03.00 PM.png>)
+![Multichain trên Moonbeam](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.03.00 PM.png>)
 
-* [Solarflare](https://app.solarflare.io/bridge) is a full-featured AMM (automated market maker) on Moonbeam which is very similar to Uniswap. Solarflare has a built-in bridge which allows users to bridge assets from Ethereum mainnet as well as BNB chain to Moonbeam. Solarflare also has a "Swap for gas" feature as mentioned in the Faucets section above.
+* [Solarflare](https://app.solarflare.io/bridge) là một AMM (nhà tạo thị trường tự động) đầy đủ tính năng trên Moonbeam, rất giống với Uniswap. Solarflare có một cầu nối tích hợp cho phép người dùng kết nối tài sản từ mạng chính Ethereum cũng như chuỗi BNB với Moonbeam. Solarflare cũng có tính năng "Hoán đổi lấy phí gas" như đã đề cập trong phần Faucet ở trên.
 
-![Bridging with Solarflare](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.06.21 PM.png>)
+![Kết nối với Solarflare](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.06.21 PM.png>)
 
-* [Celer](https://cbridge.celer.network/#/transfer) is a popular bridge that also supports Moonbeam. Please note that you may not be able to bridge from every chain into Moonbeam (Polygon to Moonbeam bridging is not supported, for example).
+* [Celer](https://cbridge.celer.network/#/transfer) là một cầu nối phổ biến cũng hỗ trợ Moonbeam. Xin lưu ý rằng bạn có thể không kết nối được từ mọi chuỗi vào Moonbeam (Ví dụ: Polygon to Moonbeam bắc cầu không được hỗ trợ).
 
-![Bridging with Celer](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.10.32 PM.png>)
+![Kết nối với  Celer](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.10.32 PM.png>)
 
-* Other bridges are available but may be chain specific such as Nomad or Axelar for the Cosmos ecosystem.
+* Các cây cầu khác có sẵn nhưng có thể chỉ là chuỗi cụ thể như Nomad hoặc Axelar cho hệ sinh thái Cosmos.
 
-## DeFi on Moonbeam
+## DeFi trên Moonbeam
 
-[StellaSwap](https://app.stellaswap.com/farm) is currently the main source of liquidity for MAI on Moonbeam. The MAI-Base4Pool is comprised of MAI, FRAX, USDT, USDC, and DAI and currently has a TVL (total value locked) of $535k, yielding a solid 26% APR (annual percentage rate) on your stablecoins.
+[StellaSwap](https://app.stellaswap.com/farm) hiện là nguồn thanh khoản chính của MAI trên Moonbeam. MAI-Base4Pool bao gồm MAI, FRAX, USDT, USDC và DAI và hiện có TVL (tổng giá trị bị khóa) là $ 535 nghìn, mang lại APR 26% (tỷ lệ phần trăm hàng năm) trên stablecoin của bạn.
 
 ![MAI-Base4Pool on StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.22.32 PM.png>)
 
-Moonbeam has a vibrant DeFi ecosystem with dozens of DApps (decentralized applications) available to use including DeFi staples found on other chains such as [Curve](https://moonbeam.curve.fi/) and [Beefy Finance](https://app.beefy.com/). For a full list of available DApps, check out [DefiLlama's Moonbeam page](https://defillama.com/chain/Moonbeam).
+Moonbeam có một hệ sinh thái DeFi sôi động với hàng chục DApp (ứng dụng phi tập trung) có sẵn để sử dụng bao gồm các mặt hàng chủ lực của DeFi được tìm thấy trên các chuỗi khác như [Curve ](https://moonbeam.curve.fi/)và [Beefy Finance](https://app.beefy.com/). Để có danh sách đầy đủ các DApp hiện có, hãy xem [trang Moonbeam của DefiLlama.](https://defillama.com/chain/Moonbeam)
 
-## Mai Finance on Moonbeam
+## Mai Finance trên Moonbeam
 
-While Mai Finance is not available on Moonbeam, you can create vaults and borrow MAI against xStella and wGLMR on StellaSwap. Please note that borrowing MAI on StellaSwap will incur interests - 12% on xStella vaults, and 8% on wGLMR vaults. You can find out more on how to use StellaSwap's MAI vaults in the next section titled, [Playing with MAI legos on StellaSwap](playing-with-mai-legos-on-stellaswap.md).
+Mặc dù Mai Finance không có trên Moonbeam, bạn có thể tạo vault và vay MAI bằng xStella và wGLMR trên StellaSwap. Xin lưu ý rằng việc vay MAI trên StellaSwap sẽ phải chịu lãi suất - 12% đối với vault xStella và 8% đối với hầm wGLMR. Bạn có thể tìm hiểu thêm về cách sử dụng các vault MAI của StellaSwap trong phần tiếp theo có tiêu đề, [Chơi với MAI legos trên StellaSwap.](playing-with-mai-legos-on-stellaswap.md)
 
-![Vaults on StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.01.01 PM.png>)
+![Các vault trên StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.01.01 PM.png>)
 
-## Disclaimer
+## Từ chối trách nhiệm
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Hướng dẫn này KHÔNG phải là lời khuyên tài chính, và chỉ nên được coi là một công cụ giáo dục. Luôn luôn làm nghiên cứu riêng của bạn. Thảo luận về một dự án trong hướng dẫn này không nên được coi là sự chứng thực của dự án.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Hãy nhớ rằng một chiến lược hoạt động tốt tại một thời điểm nhất định có thể hoạt động kém (hoặc khiến bạn mất tiền) vào một thời điểm khác. Hãy cập nhật thông tin, theo dõi thị trường, theo dõi các khoản đầu tư của bạn và như mọi khi, hãy tự nghiên cứu.
 {% endhint %}
