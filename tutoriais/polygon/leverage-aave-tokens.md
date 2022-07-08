@@ -9,7 +9,7 @@ description: >-
 
 ## Quando uma imagem vale mil palavras
 
-![](<../../.gitbook/assets/image (21) (1) (1).png>)
+![](<../../.gitbook/assets/image (21) (1) (1) (1).png>)
 
 ## Mas mil palavras também são valiosas
 

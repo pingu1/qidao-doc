@@ -1,26 +1,26 @@
 ---
 description: >-
-  Dollar Cost Averaging is considered one of the best investment strategies
-  during bear markets. This guide explains why it's a good strategy and how you
-  can also DCA in bull markets.
+  Dollar Cost Averaging é considerada uma das melhores estratégias de
+  investimento durante os mercados de baixa. Este guia explica por que é uma boa
+  estratégia e como também usá-la em mercados de alta.
 ---
 
-# DCA in bear and bull markets
+# DCA em mercados de alta e baixa
 
-## Intro
+## Introdução
 
-"Time in the market is way better than timing the market" is something you certainly already heard. In facts, nobody can perfectly sell at the top, or buy at the bottom. This is why most investors will DCA (**D**ollar **C**ost **A**verage) to accumulate the asset they want the most. DCA consists in buying a small amount with a given frequency, regardless of the price. By doing so, the average buy price is lowered and you have better chances to buy more of a given asset compared to a single purchase done at the wrong time.
+"Tempo no mercado é muito melhor do que cronometrar o mercado" é algo que você certamente já ouviu. Na verdade, ninguém pode perfeitamente vender no topo ou comprar no fundo. É por isso que a maioria dos investidores usará o DCA (Dollar Cost Average) para acumular o ativo que mais deseja. O DCA consiste em comprar uma pequena quantidade com uma determinada frequência, independentemente do preço. Ao fazer isso, o preço médio de compra é reduzido e você tem mais chances de comprar mais de um determinado ativo em comparação com uma única compra feita na hora errada.
 
-You can find more details on what is Dollar-Cost Averaging in the [investopedia website](https://www.investopedia.com/terms/d/dollarcostaveraging.asp), which gives this definition:
+Você pode encontrar mais detalhes sobre o que é Dollar-Cost Averaging no site da [investopedia](https://www.investopedia.com/terms/d/dollarcostaveraging.asp), que dá esta definição:
 
-> Dollar-cost averaging (DCA) is an investment strategy in which an investor divides up the total amount to be invested across periodic purchases of a target asset in an effort to reduce the impact of volatility on the overall purchase. The purchases occur regardless of the asset's price and at regular intervals.
+> Dollar-cost averaging (DCA) é uma estratégia de investimento na qual um investidor divide o valor total a ser investido em compras periódicas de um ativo-alvo em um esforço para reduzir o impacto da volatilidade na compra geral. As compras ocorrem independentemente do preço do ativo e em intervalos regulares.
 
-This article explains how you can properly DCA into your favorite assets to top off your vaults on Mai Finance, but you can also DCA into the MAI stablecoin in order to get a better-averaged sell price.
+Este artigo explica como você pode fazer DCA corretamente em seus ativos favoritos para completar seus vaults no Mai Finance, mas você também pode fazer DCA com a stablecoin MAI para obter um preço de venda melhor.
 
 ![](../../.gitbook/assets/dca-0.png)
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Por favor, mantenha-se informado, monitore os mercados, fique de olho em seus investimentos e, como sempre, faça sua própria pesquisa.
 {% endhint %}
 
 ## Understand Dollar Cost Averaging

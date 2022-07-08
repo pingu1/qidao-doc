@@ -44,7 +44,7 @@ Isso significa que bloquear o seu Qi traz as seguintes vantagens:
 
 Para bloquear seus tokens Qi, você precisa ir à barra `Qi Powah Boost Lock` e selecionar quantos tokens deseja bloquear e o período de tempo para o qual deseja bloquear seus tokens Qi. Quanto mais longo o período de tempo, mais **eQi** você obterá. Lembre-se de que eQi é apenas quantos tokens de Qi você terá quando o período de bloqueio terminar.
 
-![Qi Powah Boost Lock](../.gitbook/assets/captura.jpg)
+![Qi Powah Boost Lock](broken-reference)
 
 Depois de ter feito tudo isso, clique em `approve` e aprove a transação, em seguida, clique em `Increase locked QI and lock time` e confirme a transação.
 
@@ -54,7 +54,7 @@ Esteja ciente de que, depois de bloquear seus tokens Qi por um determinado perí
 
 Parabéns, agora você é oficialmente um staker de Qi e receberá nas semanas seguintes um cheque de pagamento semanal. Se você tiver alguma dúvida se está qualificado para a participação nos lucros da próxima semana, veja na página do boost se está qualificado ou não.
 
-![](<../.gitbook/assets/captura (1).jpg>)
+![](broken-reference)
 
 ### Estatísticas da Qi Powah
 

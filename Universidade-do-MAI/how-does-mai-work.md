@@ -18,9 +18,9 @@ Se você já trabalha com criptomoedas há algum tempo, pode se lembrar do desas
 
 Em junho de 2021, o token TITAN atingiu um ATH de US$ 65, o que fez com que vários investidores, que investiram pesadamente na moeda, decidissem vendê-la. Isso causou um problema porque o preço do TITAN é baseado na oferta e na demanda. Assim, à medida que a oferta disponível de TITAN aumentou, o preço começou a diminuir. Isso causou uma enorme pressão de venda, de modo que o preço do TITAN caiu ainda mais rápido, então, quando o TITAN começou a cair rapidamente, o IRON perdeu seu apoio e, eventualmente, seu pareamento.
 
-![Gráfico de preço do token TITAN](../.gitbook/assets/iron.jpg)
+![Gráfico de preço do token TITAN](broken-reference)
 
-![Gráfico de preço da stablecoin IRON](../.gitbook/assets/titan.jpg)
+![Gráfico de preço da stablecoin IRON](broken-reference)
 
 As pessoas começaram a comprar a moeda estável IRON para vendê-la por USDC e ganhar dinheiro rápido, em uma enorme oportunidade de arbitragem (lucrando com as variações de preço dos tokens). Resumindo, foi calculado que quase US$1,75 bilhão foram perdidos neste incidente. Portanto, existe uma diferença entre a stablecoin IRON e a MAI?
 
@@ -36,7 +36,7 @@ Outra forma de cunhar MAI é através da [Anchor](https://app.mai.finance/anchor
 
 Como você pode ver na imagem abaixo, o preço da stablecoin MAI está quase sempre próximo a $1, isso porque, como a [documentação oficial](https://docs.mai.finance/stablecoin-economics) diz, a stablecoin MAI permite que os usuários se envolvam em arbitragem sem risco por meio da Anchor quando o preço do MAI cair abaixo de US$ 0,99 ou subir acima de US$ 1,01.
 
-![Gráfico de preço do token MAI nos ultimos 90 dias](<../.gitbook/assets/image (7) (1) (1) (1) (2).png>)
+![Gráfico de preço do token MAI nos ultimos 90 dias](<../.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png>)
 
 ## Porque está sempre proximo a $1?
 

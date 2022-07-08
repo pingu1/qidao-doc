@@ -63,7 +63,7 @@ Se você que enviar seus ativos à Fantom, você pode utilizar as seguintes pont
 
 * [AnySwap](https://anyswap.exchange/#/bridge): Esta é ponte oficial para enviar seu MAI da Polygon à Fantom (leia o [guia de MAI no metaverso](../../mai-university/mai-metaverse.md#fantom) para mais detalhes). Esta solução suporta vários ativos e muitas redes, o que torna fácil o envio de moedas à Fantom. Por favor confira os lembretes na parte de baixo da interface da ponte para obter as taxas de transaçōes e tempo de execução esperado.
 
-![Mandando um pouco de MAI da Polygon à Fantom](<../../.gitbook/assets/image (43).png>)
+![Mandando um pouco de MAI da Polygon à Fantom](<../../.gitbook/assets/ftm\_anyswap (1) (1).png>)
 
 * [Celer Bridge](https://cbridge.celer.network/#/): oferece serviço de ponte para muitas redes e para a maioria das stablecoins, com taxas variando entre 0.04% e 0.19% para a ponte da Fantom (DYOR).
 * [xpollinate](https://www.xpollinate.io): taxas baixas, e garante que há liquidez suficiente there's na rede alvo para o token que você quer mandar. Quanto mais baixo a liquidez (ou maior a quantidade para mandar), mais demorada a transferência.
