@@ -14,7 +14,7 @@ description: 此页面将呈现不同的选项来偿还你在 Mai Finance 上的
 
 偿还债务最直接的方法是使用一些fiat，尤其是如果你想保持抵押品和其他投资不变的情况下。
 
-Mai Finance 正在与 [Transak](https://transak.com) 搭档，将通过信用卡/借记卡或银行转账购买的资金容易地桥接到 Polygon 网络。只需前往 Mai Finance 并单击菜单栏中的 transak图标，打开一个模式，让你购买一些 MATIC 并将它们直接发送到你的 Polygon 钱包。
+Mai Finance 正在与 [Transak](https://transak.com/) 搭档，将通过信用卡/借记卡或银行转账购买的资金容易地桥接到 Polygon 网络。只需前往 Mai Finance 并单击菜单栏中的 transak图标，打开一个模式，让你购买一些 MATIC 并将它们直接发送到你的 Polygon 钱包。
 
 ![从fiat购买一些 USDC 并直接桥接到 Polygon](../.gitbook/assets/screen-shot-2021-08-18-at-9.43.07-am.png)
 

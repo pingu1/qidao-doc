@@ -77,10 +77,10 @@ Moonriver 获得了很大的吸引力，越来越多的应用程序正在迁移�
 
 当你在 Solarbeam 上耕种时，你将获得 SOLAR 代币奖励，然后你可以在 Vault 中质押一定的归属期并获得额外的 SOLAR 代币，或者质押以获得其他对平台而言具有异国情调的代币。
 
-* [Huckleberry Finance](https://www.huckleberry.finance): 这是 Moonriver 上的另一个 DEX/AMM，你可以在其中耕种产量，并可能使用 Beefy 来增加收益。
+* [Huckleberry Finance](https://www.huckleberry.finance/): 这是 Moonriver 上的另一个 DEX/AMM，你可以在其中耕种产量，并可能使用 Beefy 来增加收益。
 * [Beefy Finance](https://app.beefy.finance/#/moonriver): 著名的自动复合机也在 Moonriver 上，它将帮助你从 Solarbeam 和 Huckleberry 中获得收益。作为旁注，Beefy 在撰写本文时并未提出 MAI-MVR 对，但你可能很快就可以使用 Beefy 来收获 SOLAR 代币并从复合机中获得更多 MAI-MVR。
-* [Sushiswap](https://app.sushi.com): 无需呈现 SushiSwap！你将能够将你的资产和农场收益换成某些 LP 代币，就像你在任何其他链上所做的那样。奖励在 SUSHI 和 MOVR 中被授予。
-* [Rome DAO](https://romedao.finance): 这是 Moonriver 上的第一个 OHM 前叉。绑定你的资产以获得打折的 ROME 代币，你可以质押这些代币以获得非常高的 APY。在撰写本文时，5 天的投资回报率约为 10.6%。 RomeDAO 目前在其资金库中接受 FRAX 和 MIM，但可能很快也会接受 MAI。
+* [Sushiswap](https://app.sushi.com/): 无需呈现 SushiSwap！你将能够将你的资产和农场收益换成某些 LP 代币，就像你在任何其他链上所做的那样。奖励在 SUSHI 和 MOVR 中被授予。
+* [Rome DAO](https://romedao.finance/): 这是 Moonriver 上的第一个 OHM 前叉。绑定你的资产以获得打折的 ROME 代币，你可以质押这些代币以获得非常高的 APY。在撰写本文时，5 天的投资回报率约为 10.6%。 RomeDAO 目前在其资金库中接受 FRAX 和 MIM，但可能很快也会接受 MAI。
 
 ## &#x20;Moonriver上的Mai Finance
 

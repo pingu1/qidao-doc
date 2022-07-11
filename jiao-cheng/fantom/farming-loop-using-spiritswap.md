@@ -28,7 +28,7 @@ description: SpiritSwap 最近为 MAI-WFTM 推出了一个农场，它正在高�
 
 ### 在 Liquid Driver 上使用 SPIRIT 代币进行农耕
 
-[Liquid Driver](https://www.liquiddriver.finance) 是另一个 Uniswap 分叉，专注于在 Fantom 上提供流动性。 Liquid Driver 最感兴趣的功能之一是他们可以从 SPIRIT 代币创建 linSPIRIT 代币。 linSPIRIT 是 inSPIRIT 代币的流动版本。 linSPIRIT 和 inSPIRIT 之间的比例是 1:1，它实际上只是 inSPIRIT 代币的包装版本，你可以直接在 Liquid Driver 上将两个代币相互交易。
+[Liquid Driver](https://www.liquiddriver.finance/) 是另一个 Uniswap 分叉，专注于在 Fantom 上提供流动性。 Liquid Driver 最感兴趣的功能之一是他们可以从 SPIRIT 代币创建 linSPIRIT 代币。 linSPIRIT 是 inSPIRIT 代币的流动版本。 linSPIRIT 和 inSPIRIT 之间的比例是 1:1，它实际上只是 inSPIRIT 代币的包装版本，你可以直接在 Liquid Driver 上将两个代币相互交易。
 
 ![Liquid Driver上的 LiquidSwapper](../../.gitbook/assets/spiritswap-3.png)
 

@@ -22,7 +22,7 @@ Bluechip 项目是被证明是可靠且呈现风险较低的 DeFi 应用程序�
 
 ### Balancer
 
-[Balancer](https://polygon.balancer.fi/#/) 是一个自动化的投资组合管理器、流动性提供者和价格传感器。在该平台上，你将能够借出你的加密货币，并向交易者收取费用，交易者通过追踪套利机会来重新平衡您的投资组合。如果您需要有关 Balancer 的更多详细信息，请阅读[官方文档](https://docs.balancer.fi)。
+[Balancer](https://polygon.balancer.fi/#/) 是一个自动化的投资组合管理器、流动性提供者和价格传感器。在该平台上，你将能够借出你的加密货币，并向交易者收取费用，交易者通过追踪套利机会来重新平衡您的投资组合。如果您需要有关 Balancer 的更多详细信息，请阅读[官方文档](https://docs.balancer.fi/)。
 
 在 Polygon 网络上，Balancer 提出了一个由 4 个主要稳定币组成的池：DAI、USDC、USDT 和 MAI（miMATIC）。这个稳定的矿池目前的 APR 相当稳定，约为 20%。
 
@@ -34,7 +34,7 @@ Balancer 的最大优点是你绝对不需要拥有 4 个硬币即可存入池�
 
 如果你需要有关如何使用 Mai Finance 借出你的加密货币和借入 MAI（而不是出售你的加密货币来购买 MAI）的更多详细信息，请阅读本网站上的其他指南。你甚至可以在循环中包含 AAVE 以赚取更多。
 
-池的奖励使用 BAL 代币支付，每周分发一次。除了 BAL 代币，还可以根据你输入的池授予额外奖励。你可以在此处查不同的[激励项目](https://balancer-incentives.web.app)。在我们的案例中，参与稳定池还将为你赢得 MATIC 和 Qi 奖励。
+池的奖励使用 BAL 代币支付，每周分发一次。除了 BAL 代币，还可以根据你输入的池授予额外奖励。你可以在此处查不同的[激励项目](https://balancer-incentives.web.app/)。在我们的案例中，参与稳定池还将为你赢得 MATIC 和 Qi 奖励。
 
 完整的流程是像这样的
 

@@ -46,7 +46,7 @@ Polygon 还设法建立了信任，并被证明是以太坊网络的可靠替代
 
 现在你已设置好使用 Polygon Blockchain的所有内容，但是你的钱包中没有任何 MATIC，因此你无法在 Polygon Blockchain上进行任何交易。交易基本上是 2 个地址之间的交换，需要一些时间来处理（这是由 Polygon 拥有的不同验证器完成的）并且有费用（该费用也称为 gas 并使用 MATIC 代币支付）。
 
-幸运的是，此[页面](https://matic.supply)为你提供免费 MATIC 以在 Polygon 网络上进行你的第一笔交易（这些类型的页面可以称为水龙头）。你唯一需要做的就是将你的钱包连接到该页面并完成验证码。这些 0.002 MATIC (\~0,00223$) 将允许我们使用Polygon网络进行一些交易。
+幸运的是，此[页面](https://matic.supply/)为你提供免费 MATIC 以在 Polygon 网络上进行你的第一笔交易（这些类型的页面可以称为水龙头）。你唯一需要做的就是将你的钱包连接到该页面并完成验证码。这些 0.002 MATIC (\~0,00223$) 将允许我们使用Polygon网络进行一些交易。
 
 ![获得免费 MATIC](<../../.gitbook/assets/image (23).png>)
 
@@ -56,7 +56,7 @@ Polygon 还设法建立了信任，并被证明是以太坊网络的可靠替代
 
 ## **在 Metamask 中添加代币**
 
-现在你的 Metamask 中有一些免费的 MATIC，你已准备好使用 Polygon 有的不同 DApp 和代币。你可以复制你想要用[PolygonScan](https://polygonscan.com) 使用的代币的地址。你到达那里后，你只需要写下你要添加的代币的名称。例如，如果我们在 Polygon 上搜索 QiDAO，我们将得到：
+现在你的 Metamask 中有一些免费的 MATIC，你已准备好使用 Polygon 有的不同 DApp 和代币。你可以复制你想要用[PolygonScan](https://polygonscan.com/) 使用的代币的地址。你到达那里后，你只需要写下你要添加的代币的名称。例如，如果我们在 Polygon 上搜索 QiDAO，我们将得到：
 
 ![在PolygonScan 上编写 QiDAO 的结果](<../../.gitbook/assets/image (24).png>)
 
@@ -66,7 +66,7 @@ Polygon 还设法建立了信任，并被证明是以太坊网络的可靠替代
 
 ## **如何在 Polygon 上购买代币**
 
-现在我们已经准备好了我们的Metamask以及一些 MATIC来 支付 gas，我们可以开始在 Polygon 网络上购买一些代币。这么做，你需要使用 **DEX**（去中心化交易所），你可以选择很多 DEX，例如 [_Quickswap_](https://quickswap.exchange/#/swap)、[_Slingshot_](https://app.slingshot.finance/trade/m/MATIC/USDC)、[_Dexguru_](https://dex.guru)、[_Sushiswap_](https://app.sushi.com/swap) 等。
+现在我们已经准备好了我们的Metamask以及一些 MATIC来 支付 gas，我们可以开始在 Polygon 网络上购买一些代币。这么做，你需要使用 **DEX**（去中心化交易所），你可以选择很多 DEX，例如 [_Quickswap_](https://quickswap.exchange/#/swap)、[_Slingshot_](https://app.slingshot.finance/trade/m/MATIC/USDC)、[_Dexguru_](https://dex.guru/)、[_Sushiswap_](https://app.sushi.com/swap) 等。
 
 一旦你决定了你想要使用哪个 DEX，你就可以开始在 Polygon Blockchain上购买你最喜欢的代币。
 
@@ -78,7 +78,7 @@ Polygon 还设法建立了信任，并被证明是以太坊网络的可靠替代
 
 ## 检查你的钱包历史记录
 
-I了解如何查钱包历史记录很重要，这么做，你可以使用 [DeBank](https://debank.com)。 Debank 将允许你检查你在 Metamask 帐户中进行的不同交易，以及检查你使用的所有区块链上的投资组合或你拥有的 NFT 。如果你想比较的话这将会非常有用，例如，在质押一些Qi的期间你收到的不同的空投Qi。
+I了解如何查钱包历史记录很重要，这么做，你可以使用 [DeBank](https://debank.com/)。 Debank 将允许你检查你在 Metamask 帐户中进行的不同交易，以及检查你使用的所有区块链上的投资组合或你拥有的 NFT 。如果你想比较的话这将会非常有用，例如，在质押一些Qi的期间你收到的不同的空投Qi。
 
 ![在我们新的 Metamask 地址中进行的所有交易](<../../.gitbook/assets/image (27).png>)
 
@@ -89,7 +89,7 @@ I了解如何查钱包历史记录很重要，这么做，你可以使用 [DeBan
 以下是你在使用 Polygon Blockchain时可能会发现有用的一些链接：
 
 * [Quickswap](https://quickswap.exchange/#/swap)
-* [AAVE](https://app.aave.com)
+* [AAVE](https://app.aave.com/)
 * [PolygonScan](https://polygonscan.com/gastracker/): 此链接将有助于看 Polygon 网络上的 gas 价格。
 
 ## **免责声明**

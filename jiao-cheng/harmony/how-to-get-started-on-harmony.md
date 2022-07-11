@@ -56,12 +56,12 @@ Harmony 是一个试图解决以太坊主网面临的问题的区块链：在去
 
 你会注意到矿池的 APR（年度百分比率）非常高。这主要是由于 ViperSwap 上的奖励格式：当你领取奖励时，5% 的 VIPER 代币可以直接使用，如果锁定到 2021 年 12 月 25 日，则可以使用 95%。在那之后，奖励将在整整一年内归属，这意味着你将无法立即获得你的农耕收益，而且它会非常缓慢地滴下。 ViperSwap 池还有另一个转折点：如果你长期质押你的 LP 代币，你将不得不支付减少的提款费。如果你在与存款交易相同的区块内取款（以对抗闪贷操作），则费用为 25%，如果你在 1 个月后取款，则费用为 0.01%。他们的官方文档中有关[农耕奖励](https://docs.venomdao.org/viper/tokenomics#bbd0)和 [LP 提款费用](https://docs.venomdao.org/viper/fees)的更多详细信息。
 
-* [DeFi Kingdom](https://game.defikingdoms.com/#/): 这是一个特别有趣的项目，它混合了 DeFi 和Gamification。它的原生代币， JEWEL 代币，被用作提供流动性的用户的农耕奖励，但它可以在游戏或市场中使用。本指南解释 DeFi Kingdom（或 DFK）的整个宇宙需要花费太多时间，因此我们强烈建议你阅读[官方文档](https://docs.defikingdoms.com)。
+* [DeFi Kingdom](https://game.defikingdoms.com/#/): 这是一个特别有趣的项目，它混合了 DeFi 和Gamification。它的原生代币， JEWEL 代币，被用作提供流动性的用户的农耕奖励，但它可以在游戏或市场中使用。本指南解释 DeFi Kingdom（或 DFK）的整个宇宙需要花费太多时间，因此我们强烈建议你阅读[官方文档](https://docs.defikingdoms.com/)。
 
 ![截至 2021 年 12 月的 DeFi Kingdom主图](../../.gitbook/assets/Harmony-onboarding-4.png)
 
 * [SushiSwap](https://app.sushi.com) 是著名的 DEX/AMM，也出现在许多其他链上。交换，提供流动性，耕种 ONE 和 SUSHI 收益。
-* [Curve Finance](https://harmony.curve.fi) 是另一个跨链应用程序，它可以让你提供流动性（3pool 和 tricrypto），并将用复合代币以及 ONE 和 CRV 奖励你。
+* [Curve Finance](https://harmony.curve.fi/) 是另一个跨链应用程序，它可以让你提供流动性（3pool 和 tricrypto），并将用复合代币以及 ONE 和 CRV 奖励你。
 * [Beefy Finance](https://app.beefy.finance/#/harmony) 是一个收益优化器，我们已经在我们的许多指南中介绍了它，因为它存在于许多链上。目前，你将能够从 Curve 和 SushiSwap 存入你的 LP 代币，并让 Beefy 合成器将农业平台提供的奖励聚合成更多的 LP 代币。
 * [Euphoria DAO](https://app.euphoria.money/#/dashboard) 目前是 Harmony 上最大的 Ohm-fork，由 Venom DAO 开发，也落后于 ViperSwap。你可以结合一些不同的资产并获得它们的原生资产 WAGMI 代币。与大多数 OHM 项目一样，以疯狂的 APY（年度百分比收益率）为更多 WAGMI 质押 WAGMI。
 

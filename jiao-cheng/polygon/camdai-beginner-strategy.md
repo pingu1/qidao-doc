@@ -32,7 +32,7 @@ description: DeFi 不需要复杂。本文介绍了如何以低风险策略使�
 
 ### AAVE
 
-[AAVE](https://app.aave.com) 是一个借贷平台，你可以在其中存放你的资产。通过在 AAVE 上借贷，你存入的代币将获得收益。对于我们的策略，我们将借出 DAI，一种稳定的硬币（与美元挂钩）。在 AAVE 上，价值 100 美元的 DAI 将有潜在的可能会在 1 年内产生 4% 到 10% 的回报率。
+[AAVE](https://app.aave.com/) 是一个借贷平台，你可以在其中存放你的资产。通过在 AAVE 上借贷，你存入的代币将获得收益。对于我们的策略，我们将借出 DAI，一种稳定的硬币（与美元挂钩）。在 AAVE 上，价值 100 美元的 DAI 将有潜在的可能会在 1 年内产生 4% 到 10% 的回报率。
 
 ![截至 2021 年 10 月，Polygon 上的 AAVE 市场](../../.gitbook/assets/canDAI-aave.png)
 
@@ -40,7 +40,7 @@ description: DeFi 不需要复杂。本文介绍了如何以低风险策略使�
 
 ### Mai Finance
 
-[Mai Finance](https://app.mai.finance) 是一个借贷平台，可让你将一些资产存入保险库，并以该存款的价值进行借贷。如果我们回到银行的类比，它将是一家允许你贷款的银行，但贷款并非来自其他人的贷款。取而代之的是，银行会根据你的个人存款打印货币，因此你只能向自己借款。
+[Mai Finance](https://app.mai.finance/) 是一个借贷平台，可让你将一些资产存入保险库，并以该存款的价值进行借贷。如果我们回到银行的类比，它将是一家允许你贷款的银行，但贷款并非来自其他人的贷款。取而代之的是，银行会根据你的个人存款打印货币，因此你只能向自己借款。
 
 Mai Finance 将在其[收益工具](https://app.mai.finance/yield)上接受 amDAI。收益工具只是 AAVE 和 Mai Finance 的保险库之间的中间工具。正如你在 AAVE 屏幕截图中看到的那样，借出 DAI 将使你获得 8.75% 的 DAI（即复利），以及 2.01% 的 MATIC 奖励。 Mai Finance 上的收益工具将收获此 MATIC 奖励并将其交换成更多 DAI，这些 DAI 将添加到你的 DAI 存款中。因此，Mai Finance 网站上的 APY（年度百分比收益率）显示了来自 AAVE 的合计利息。
 

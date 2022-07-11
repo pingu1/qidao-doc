@@ -1,306 +1,303 @@
 ---
-description: >-
-  This tutorial will try to cover some DeFi solutions
-  enabled by Jarvis for people who want to invest with
-  synthetics assets pegged to non-USD Fiats.
+description: 本教程将尝试介绍 Jarvis 为想要使用与非美元法币挂钩的合成资产进行投资的人启用的一些 DeFi 解决方案。
 ---
 
-# From Traditional Finance to DeFi with Jarvis
+# 从传统金融到使用Jarvis的DeFi
 
-Not all stable coins are equal. For most DeFi (**De**centralized **Fi**nance) users, stable coins represent a cryptocurrency that is pegged to the U.S. dollar. This is the case for assets like:
+并非所有稳定币都是平等的。对于大多数 DeFi（去中心化金融）用户来说，稳定币代表一种与美元挂钩的加密货币。像这样的资产就是这种情况：
 
-* USDC or USDT that are issued by centralized entities and backed by U.S. dollars
-* over-collateralized assets like DAI or MAI that are softly pegged to the U.D. dollar but backed by a basket of different cryptocurrencies
-* algorithmic stable coins like UST or MIM that are partially backed and for which the $1 peg is maintained using a specific algorithm
+* 由中心化实体发行并以美元为后盾的 USDC 或 USDT
+* 与美元挂钩的超额抵押资产，如 DAI 或 MAI。美元，但由一篮子不同的加密货币支持
+* 部分支持的算法稳定币，如 UST 或 MIM，使用特定算法维持 1 美元挂钩
 
-But did you know that you can find other stable coins? As an example, TOMB is a token that is pegged to the FTM price (the native gas token of the Fantom network) using algorithms.
+但是你知道你可以找到其他稳定币吗？例如，TOMB 是一种使用算法与 FTM 价格（Fantom 网络的原生 gas 代币）挂钩的代币。
 
-In this article, we'll focus on stable coins that are pegged to FIATs (government-issued currencies), and we will try to explain why they are important for your investment strategies.
+在本文中，我们将重点关注与 FIAT（政府发行的货币）挂钩的稳定币，并尝试解释它们为何对你的投资策略很重要。
 
-![](<../../.gitbook/assets/Jarvis-0.png>)
+![](../../.gitbook/assets/Jarvis-0.png)
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请记住，在给定时间运作良好的策略可能在其他时间表现不佳（或让你赔钱）。请随时了解情况，监控市场，密切关注你的投资，并一如既往地进行自己的研究。
 {% endhint %}
 
-## Why do we need synthetic FIATs ?
+## 为什么我们需要合成FIATS？
 
-Let's consider you are living in a European country and use Euro daily. If you were to buy crypto assets, you would most likely buy them with your Euros. For volatile assets like Bitcoin, it doesn't really matter because you'll be focusing on the price of Bitcoin in Euros to assess whether or not you are making money. And hopefully, you will make some.
+假设你生活在一个欧洲国家并每天使用欧元。如果你要购买加密资产，你很可能会用欧元购买它们。对于像比特币这样的波动性资产，这并不重要，因为你将专注于比特币的欧元价格来评估你是否赚钱。希望你能做一些。
 
-But what if you want to invest in DeFi and yield farming instead? And what if, to mitigate the risks, you want to provide liquidity using stable coins only? Most of the stable liquidity on many chains is provided as USD-pegged assets, which means you will have to purchase USDC/USDT/DAI/MAI using your Euros. At this point, you should check that the liquidity you provide is generating interest, but also that the price difference between the US Dollar and the Euro isn't working against you.
+但是，如果你想投资 DeFi 和收益农业怎么办？如果为了降低风险，你只想使用稳定币提供流动性呢？许多链上的大部分稳定流动性都是作为与美元挂钩的资产提供的，这意味着你必须使用你的欧元购买 USDC/USDT/DAI/MAI。此时，你应该检查你提供的流动性是否会产生兴趣，但美元和欧元之间的价格差异是否对你不利。
 
-![EUR/USD over the last year](<../../.gitbook/assets/Jarvis-1.png>)
+![过去一年的欧元/美元](../../.gitbook/assets/Jarvis-1.png)
 
-If you bought 100€ worth of USDC on the 20th of September 2021, you would have had $117.29 worth of USDC because the ratio EUR:USD was 1:1.1729 at that time. If you were to convert $117.29 worth of USDC in Euros today (March 24th, 2022) with a ratio 1:1.0994, you would get 106.69€, or a gain of 6.69%.
+如果你在 2021 年 9 月 20 日购买了价值 100 欧元的 USDC，那么你将拥有价值 117.29 美元的 USDC，因为当时欧元与美元的比率为 1:1.1729。如果你今天（2022 年 3 月 24 日）以 1:1.0994 的比率将价值 117.29 美元的 USDC 兑换成欧元，你将获得 106.69 欧元，或 6.69% 的收益。
 
-But if you bought CAD 100 (100 Canadian Dollars) worth of USDC on the same day (September 20th, 2021) with a ratio of 1:0.7796 you would have had USD 77.96 worth of USDC. Converting these today to CAD with a ratio of 1:0.7972, would be worth CAD 97.79, or a loss of 2.21%.
+但是，如果你在同一天（2021 年 9 月 20 日）以 1:0.7796 的比例购买了价值 100 加元（100 加元）的 USDC，那么你将拥有价值 77.96 美元的 USDC。今天将这些以 1:0.7972 的比率转换为加元，价值 97.79 加元，或损失 2.21%。
 
-However, 1 CAD always equals 1 CAD no matter what, like 1 USD = 1 USD and 1 EUR = 1 EUR.
+但是，无论如何，1 加元始终等于 1 加元，例如 1 美元 = 1 美元和 1 欧元 = 1 欧元。
 
-Every currency of every country varies according to the geopolitical situation, internal and international politics, micro and macroeconomic decisions. This is why you need to pay attention to the price variation of your crypto assets, even if they are "stable".
+每个国家的每种货币都因地缘政治局势、国内和国际政治、微观和宏观经济决策而异。这就是为什么你需要注意你的加密资产的价格变化，即使它们是“稳定的”。
 
-## Jarvis Network and Mt. Pelerin
+## Jarvis Network和 Mt. Pelerin
 
-### What is Jarvis Network
+### 什么的Jarvis Network
 
-[Jarvis Network](https://jarvis.network/) is a specialized application that allows users [to swap their crypto assets](https://app.jarvis.exchange/) for synthetics FIATs. A synthetic FIAT is a cryptocurrency that is pegged to the price of an existing FIAT. As such, Jarvis will let you swap your USDCs for
+[Jarvis Network](https://jarvis.network/) 是一个专门的应用程序，允许用户[将他们的加密资产](https://app.jarvis.exchange/)换成合成法币。合成法币是一种与现有法币价格挂钩的加密货币。因此，Jarvis 会让你将你的 USDC 换成
 
-* jCAD: the crypto version of the Canadian Dollar
-* jEUR: the crypto representation of Euro
-* jJPY: the crypto version of the Japanese Yen
-* jSGD, jCHF, jGBP, and many more
+* jCAD: 加元的加密版本
+* jEUR: 欧元的加密表示
+* jJPY: 日元的加密货币版本
+* jSGD, jCHF, jGBP, 还有很多
 
-As such, Jarvis really is an On-Chain Forex (**For**eign **Ex**change) that is live on the Ethereum Mainnet, but also on Polygon, BNB Chain, Gnosis Chain, and Avalanche.
+因此，Jarvis 确实是一个链上外汇（外汇交易所），它存在于以太坊主网上，但也存在于 Polygon、BNB Chain、Gnosis Chain和 Avalanche 上。&#x20;
 
-But it doesn't stop there. Jarvis proposes incentivezed liquidity pools that inclue jFIATs. This is done to attract users to deposit their jFIATs and earn yields on their stablecoins (with the hability to deposit a single asset via Curve pools), help other protocols that offer stable coins while not having a lot of liquidity, and make it easy for DeFi users to off-ramp their gains.
+但它并不止于此。 Jarvis 提出了包括 jFIAT 在内的激励性流动资金池。这样做是为了吸引用户存入他们的 jFIAT 并在他们的稳定币上赚取收益（能够通过曲线池存入单一资产），帮助其他提供稳定币但没有大量流动性的协议，并使其易于DeFi 用户减少他们的收益。
 
-![Liquidity pools on Jarvis as of March 2022](<../../.gitbook/assets/Jarvis-2.png>)
+![截至 2022 年 3 月，Jarvis 的流动资金池](../../.gitbook/assets/Jarvis-2.png)
 
 {% hint style="info" %}
-You can see in the screenshot above that the 2CAD pair is composed of jCAD and CADC. The CADC token is actually another version of the Canadian Dollar provided by [DFX](https://app.dfx.finance/), another decentralized Forex solution.
+你可以在上面的屏幕截图中看到 2CAD 对由 jCAD 和 CADC 组成。 CADC 代币实际上是另一种去中心化外汇解决方案 [DFX](https://app.dfx.finance/) 提供的加元的另一个版本。
 {% endhint %}
 
 ### Mt. Pelerin
 
-[Mt. Pelerin](https://www.mtpelerin.com/bridge-wallet) is a non custodial fiat-crypto OTC desk. It allows users to purchase crypto from their bank account directly, and to have them directly deposited in their crypto wallet. It's also a direct partner of Jarvis and lets you buy jFIATs.
+[Mt. Pelerin](https://www.mtpelerin.com/bridge-wallet) 是一个非托管法定加密场外交易柜台。它允许用户直接从他们的银行账户购买加密货币，并将它们直接存入他们的加密钱包。它也是 Jarvis 的直接合作伙伴，可让你购买 jFIAT。
 
 {% hint style="info" %}
-The easiest way to use Mt. Pelerin is via the Bridge Wallet mobile application. Note that because it's a centralized service, you will have to provide personal information to prove your identity if you want to be able to use the service. You also need to have a bank that allows you to make bank transfers to Switzerland. However, it's always possible to use their website on which you will find a widget allowing you to buy cryptocurrencies from a bank transfer or using a Credit Card. This isn't subject to any KYC but has some limitations. Note that by using the website, your purchase will be sent directly to your web wallet. For the rest of this guide, we will present the Birdge Wallet solution though.
+使用 Mt. Pelerin 最简单的方法是通过 Bridge Wallet 移动应用程序。请注意，由于它是一项集中式服务，因此如果你希望能够使用该服务，则必须提供个人信息来证明你的身份。你还需要拥有一家允许你向瑞士进行银行转账的银行。但是，始终可以使用他们的网站，你可以在该网站上找到一个小部件，允许你通过银行转账或使用信用卡购买加密货币。这不受任何 KYC 约束，但有一些限制。请注意，通过使用该网站，你的购买将直接发送到你的网络钱包。不过，对于本指南的其余部分，我们将介绍 Birdge Wallet 解决方案。
 {% endhint %}
 
-![Buying some jEUR with a EUR bank transfer](<../../.gitbook/assets/Jarvis-3.png>)
+![通过欧元银行转帐购买一些 jEUR](../../.gitbook/assets/Jarvis-3.png)
 
-Bank transfers may be subject to fees, and will most likely take some time to complete, but overall, Mt. Pelerin allows you to easily buy and sell your synthetic FIATs for their FIAT counterparts. They also have an internal [fee structure](https://www.mtpelerin.com/pricing) that you can read in more detail, and depending on the asset you buy, you may be able to buy and sell up to $100,000 per year free of charge.
+银行转账可能会收取费用，并且很可能需要一些时间才能完成，但总体而言，Mt. Pelerin 让你可以轻松地为他们的 FIAT 对手买卖你的合成 FIAT。他们还有一个内部[费用结构](https://www.mtpelerin.com/pricing)，你可以更详细地阅读，并且根据你购买的资产，你每年可以免费买卖高达 100,000 美元。
 
-![Selling some jCAD to my bank account](<../../.gitbook/assets/Jarvis-6.png>)
+![向我的银行账户出售一些 jCAD](../../.gitbook/assets/Jarvis-6.png)
 
 {% hint style="info" %}
-If you bought jFIATs, your bank account is automatically linked to your Bridge Wallet account and you will be able to select it from the dropdown list of recipients. If not, you will have to create a new account from an IBAN.
+如果你购买了 jFIAT，你的银行账户会自动链接到你的 Bridge 钱包账户，你可以从收款人的下拉列表中选择它。如果没有，你将必须从 IBAN 创建一个新帐户。
 {% endhint %}
 
-### Link your Polygon wallet to your Mt. Pelerin account (Bridge wallet address)
+### 将你的 Polygon 钱包链接到你的 Mt. Pelerin 帐户（Bridge 钱包地址）
 
-Linking your wallet to your Mt. Pelerin / Bridge Wallet account is as easy as
+将你的钱包链接到你的 Mt. Pelerin / Bridge 钱包帐户就像
 
-* Opening the Bridge Wallet application
-* Open the Addresses tab at the bottom
-* Click on `Link an address`
-* Take a photo of the QR code of your Polygon wallet, or copy and paste the complete address in the field
-* Send a few MATICs to the Bridge Wallet address to validate it
+* 打开 Bridge 钱包应用程序
+* 打开底部的地址选项卡
+* 点击链接地址
+* 为你的 Polygon 钱包的 QR 码拍照，或将完整地址复制并粘贴到字段中
+* 向 Bridge 钱包地址发送一些 MATIC 进行验证
 
-![](<../../.gitbook/assets/Jarvis-5.png>)
+![](../../.gitbook/assets/Jarvis-5.png)
 
-![Linking my Polygon wallets to my Mt. Pelerin application](<../../.gitbook/assets/Jarvis-4.png>)
+![将我的 Polygon 钱包链接到我的 Mt. Pelerin 应用程序](../../.gitbook/assets/Jarvis-4.png)
 
 {% hint style="info" %}
-Once again, you can use the widget on the Mt. Pelerin website to [buy](https://www.mtpelerin.com/buy-ehtereum) and [sell](https://www.mtpelerin.com/sell-ethereum) your crypto using your web wallet (or hardware wallet) directly without using the Bridge Wallet. Please refer to the Mt. Pelerin website.
+再次，你可以使用 Mt. Pelerin 网站上的小部件直接使用你的网络钱包（或硬件钱包）[购买](https://www.mtpelerin.com/buy-ehtereum)和[出售](https://www.mtpelerin.com/sell-ethereum)你的加密货币，而无需使用 Bridge 钱包。请参阅 Mt. Pelerin 网站。
 {% endhint %}
 
-### Sending jFIATs to your Polygon wallet
+### 将 jFIAT 发送到你的 Polygon 钱包
 
-Sending your jFIATs to your wallet on Polygon (or any supported chain) is very easy. From the Wallet tab, make sure you are on the network you want to use as a destination and load your jWallet Currencies.
+将你的 jFIAT 发送到 Polygon（或任何支持的链）上的钱包非常容易。在 Wallet 选项卡中，确保你位于要用作目的地的网络上并加载你的 jWallet 货币。
 
-![Sending jCAD to Polygon](<../../.gitbook/assets/Jarvis-8.png>)
+![将 jCAD 发送到Polygon](../../.gitbook/assets/Jarvis-8.png)
 
-After you selected the jFIAT you want to send, simply click on send, fill up the different fields, then initiate the transaction and enjoy low gas and fast processing!
+选择好要发送的 jFIAT 后，只需点击发送，填写不同的字段，然后发起交易，即可享受低 gas 和快速处理！
 
 {% hint style="info" %}
-You can get a full recap of all your transactions in the activity section of each jFIAT, as well as on the Activity tab on the main screen.
+你可以在每个 jFIAT 的活动部分以及主屏幕上的“活动”选项卡上全面回顾所有交易。
 {% endhint %}
 
-![Checking that I received my jCAD on DeBank.com](<../../.gitbook/assets/Jarvis-7.png>)
+![检查我是否在 DeBank.com 上收到了我的 jCAD](../../.gitbook/assets/Jarvis-7.png)
 
 {% hint style="success" %}
-Mt. Pelerin is a very good solution to buy and sell cryptocurrencies and synthetic FIATs. But you can also use this service to send money to your friends and family if they are also using the application and possibly bypass complex bank transfers or limitations.
+Mt. Pelerin 是买卖加密货币和合成法币的一个非常好的解决方案。但是，如果你的朋友和家人也在使用该应用程序并且可能绕过复杂的银行转账或限制，你也可以使用此服务向他们汇款。
 {% endhint %}
 
-## Getting the best of your stable jFIATs
+## 充分利用稳定的 jFIAT
 
-You have synthetic FIATs on Polygon, so now we need a clever way to use them. In the intro, we saw that it may be a better idea to use them as-is instead of swapping them (selling them) for USD-pegged stable coins.
+你在 Polygon 上有合成 FIAT，所以现在我们需要一种巧妙的方式来使用它们。在介绍中，我们看到按原样使用它们可能是一个更好的主意，而不是用它们交换（出售它们）与美元挂钩的稳定币。
 
-Think also about this scenario: you have Canadian dollars and want a little bit of exposure to Ethereum. Wouldn't it be nice if you could buy Ethereum without taking the risk of actually buying it? Well, this is what lending markets are for !!!
+还要考虑一下这种情况：你有加元，想要一点点接触以太坊。如果你可以在不冒险实际购买以太坊的情况下购买以太坊，那不是很好吗？好吧，这就是借贷市场的目的！！！
 
 ### Market.xyz
 
-[Market.xyz](https://www.market.xyz/) is a lending protocol where you will be able to use some of your crypto assets as collateral to borrow other assets. They recently launched a new pool 100% dedicated to Jarvis synthetic FIATs: https://polygon.market.xyz/pool/7.
+[Market.xyz](https://www.market.xyz/) 是一种借贷协议，你可以在其中使用你的一些加密资产作为抵押品来借入其他资产。他们最近推出了一个 100% 专用于 Jarvis 合成法币的新池：https://polygon.market.xyz/pool/7。
 
-![Jarvis Forex locked on Market.xyz as of March 2022](<../../.gitbook/assets/Jarvis-9.png>)
+![Jarvis Forex 于 2022 年 3 月锁定 Market.xyz](../../.gitbook/assets/Jarvis-9.png)
 
-As you can see, you can lend your jFIATs and earn interest from borrowers. The locker also accepts some LP (**L**iquidity **P**roviding) tokens as collateral. This means that you can lend your m2CAD or m2JPY and still earn ~27% APY (**A**nnual **P**ercentage **Y**ield) on them, and borrow other jFIATs like jCAD or jJPY to leverage your position. You can also borrow some MAI, the USD-pegged stable coin created by the QiDAO protocol behind Mai Finance. The QiDAO community agreed to provide new MAI on a regular basis to maintain a low interest rate on MAI loans from the Jarvis locker on Market.xyz.
+如你所见，你可以借出 jFIAT 并从借款人那里赚取利息。储物柜还接受一些 LP（流动性提供）代币作为抵押品。这意味着你可以借出你的 m2CAD 或 m2JPY，仍然可以赚取约 27% 的 APY（年收益率），并借入 jCAD 或 jJPY 等其他 jFIAT 来利用你的头寸。你还可以借一些 MAI，这是由 Mai Finance 背后的 QiDAO 协议创建的与美元挂钩的稳定币。 QiDAO 社区同意定期提供新的 MAI，以维持 Market.xyz 上 Jarvis locker 的 MAI 贷款的低利率。
 
 {% hint style="danger" %}
-There's a minimum borrowing amount of 0.05 ETH on Market.xyz lockers, which is equivalent to $150 as of March 2022. Since you need to keep a healthy Collateral to Debt Ratio, make sure that you deposit enough collateral if you want to take a loan on the platform.
+Market.xyz 储物柜的最低借款金额为 0.05 ETH，相当于 2022 年 3 月的 150 美元。由于你需要保持健康的抵押品与债务比率，如果你想贷款，请确保存入足够的抵押品在平台上。
 {% endhint %}
 
-As for any lending platform on Polygon, Market.xyz will enforce a healthy Collateral to Debt Ratio. This is what the LTV of each collateral represents (**L**oan **T**o **V**alue, the inverse of the CDR). As an example, the LTV of m2CAD is 60%, meaning that the ratio between your debt and your collateral value needs to remain above 60%.
+对于 Polygon 上的任何借贷平台，Market.xyz 将强制执行健康的抵押债务比率。这就是每个抵押品的 LTV 所代表的（Loan To Value，CDR 的倒数）。例如，m2CAD 的 LTV 为 60%，这意味着你的债务与抵押品价值之间的比率需要保持在 60% 以上。
 
-In the case of m2CAD, the collateral is pegged to the Canadian Dollar which can vary compared to the MAI you will borrow (pegged to the US dollar). However, the variation is very small, so you can in theory borrow very close to the threshold of 60%. For our guide, we will try to stick to a CDR of 200%, which corresponds to a LTV of 0.4 (1 / 2.5 = 0.5). To be able to borrow the required 0.05 ETH worth of MAI, we will need a collateral value of
+在 m2CAD 的情况下，抵押品与加元挂钩，与你将借入的 MAI（与美元挂钩）相比，可能会有所不同。但是，变化很小，所以理论上可以借到非常接近 60% 的阈值。对于我们的指南，我们将尝试坚持 200% 的 CDR，这对应于 0.4 (1 / 2.5 = 0.5) 的 LTV。为了能够借入所需的 0.05 ETH 的 MAI，我们需要抵押价值为
 
 $$
 AvailableCollateral = \frac{Debt Value}{LTV} = \frac{0.05 ETH}{0.4} = 300\$
 $$
 
-Since today the USD:CAD ratio is 1:0.7972, I will need an initial investment of
+由于今天美元：加元的比率是 1:0.7972，我需要初始投资
 
 $$
 InvestmentCAD = \frac{300}{0.7972} = 376.32 CAD
 $$
 
 {% hint style="info" %}
-Assuming I invest $300 worth of CAD and borrow $150 worth of MAI, I will currently earn 27% APY (23.91% APR) on my collateral and will have to pay 11.28% interest on my loan. Over the span of 1 year, that represents a growth of $81 of my collateral and $16.92 worth of interest to pay.
+假设我投资了价值 300 美元的加元并借入了价值 150 美元的 MAI，我目前的抵押品将获得 27% 的年利率（23.91% 的年利率），并且必须为我的贷款支付 11.28% 的利息。在 1 年的时间里，我的抵押品增加了 81 美元，需要支付的利息为 16.92 美元。
 {% endhint %}
 
-Now let's see what to do with your USD-pegged loan.
+现在让我们看看如何处理你的美元挂钩贷款。
 
 ### Uniswap V3
 
-[Uniswap V3](https://app.uniswap.org/) is the latest version of Uniswap, the parent project of many DEXes (**D**ecentralized **Ex**changes) where users will be able to swap their assets for other cryptocurrencies, as well as provide liquidity to support these swaps.
+[Uniswap V3](https://app.uniswap.org/) 是 Uniswap 的最新版本，Uniswap 是许多 DEX（去中心化交易所）的父项目，用户将能够将他们的资产换成其他加密货币，并提供流动性来支持这些交换。
 
-Uniswap V3 isn't incentivized on Polygon (yet), but offers a new way to provide liquidity: concentrated liquidity! You select the range on which you want to provide liquidity, and if the range is very narrow, you earn more fees than users who provide liquidity on a broader range. You can learn how to provide liquidity pairs on Uniswap V3 with [their official guide](https://help.uniswap.org/en/articles/5391541-provide-liquidity-on-uniswap-v3), and you can also watch the truly amazing [video by Finematics on UniswapV3](https://youtu.be/Ehm-OYBmlPM).
+Uniswap V3 isn't incentivized on Polygon (yet), but offers a new way to provide liquidity: concentrated liquidity! You select the range on which you want to provide liquidity, and if the range is very narrow, you earn more fees than users who provide liquidity on a broader range. You can learn how to provide liquidity pairs on Uniswap V3 with [their official guide](https://help.uniswap.org/en/articles/5391541-provide-liquidity-on-uniswap-v3), and you can also watch the truly amazing [video by Finematics on UniswapV3](https://youtu.be/Ehm-OYBmlPM). Uniswap V3 尚未在 Polygon 上受到激励，但提供了一种提供流动性的新方法：集中流动性！你选择你想提供流动性的范围，如果范围很窄，你比提供更广泛范围流动性的用户赚取更多的费用。你可以通过[官方指南](https://help.uniswap.org/en/articles/5391541-provide-liquidity-on-uniswap-v3)了解如何在 Uniswap V3 上提供流动性对，还可以观看 [Finematics 在 UniswapV3 上的真正精彩视频](https://youtu.be/Ehm-OYBmlPM)。
 
-For this tutorial, we will focus on the MAI-USDC pair since we borrowed some MAI and we want to limit risk exposure by farming stable coins.
+在本教程中，我们将重点关注 MAI-USDC 对，因为我们借了一些 MAI，并且我们希望通过种植稳定币来限制风险敞口。&#x20;
 
-The first thing to do is to define a target range. Now that the price of MAI is a lot more stable due to ever-increasing liquidity, more pools, and some mechanisms like the Curve pool that help keep the price very stable), we will target a 1:1 rate for MAI:USDC. In reality, 1 MAI is closer to 0.998 USDC. 
+首先要做的是定义一个目标范围。现在，由于流动性不断增加、更多池以及有助于保持价格非常稳定的曲线池等一些机制，MAI 的价格更加稳定），我们将 MAI:USDC 的利率设定为 1:1。实际上，1 MAI 更接近 0.998 USDC。
 
-The expected price range is between 0.99 and 1.01 USDC for 1 MAI, depending on the market conditions. When volatile assets are surging, people have more borrowing power and tend to swap a lot of MAI, decreasing its price. The opposite effect occurs when the market shrinks and people need to repay their loans to prevent liquidation: MAI is bought from the market to repay loans, increasing its price. In fact, the actual price range tends to be between 0.994 and 1.004 USDC per MAI.
+1 MAI 的预期价格范围在 0.99 到 1.01 USDC 之间，具体取决于市场情况。当波动性资产激增时，人们有更多的借贷能力，并且倾向于交换大量的 MAI，从而降低其价格。当市场萎缩并且人们需要偿还贷款以防止清算时，就会出现相反的效果：从市场购买 MAI 以偿还贷款，从而提高了其价格。事实上，实际价格范围往往在每 MAI 0.994 到 1.004 USDC 之间。
 
-![Spreading your LP on a broad or narrow position will have a great impact on the fees you collect](<../../.gitbook/assets/Jarvis-10.png>)
+![将你的有限合伙人分散在宽或窄头寸上将对你收取的费用产生很大影响ct](../../.gitbook/assets/Jarvis-10.png)
 
-What you really need to understand though, is
+但是，你真正需要了解的是
 
-* If you select a broad range, you will collect fewer fees than if you select a narrow range because your liquidity is spread on a bigger range
-* If the select a narrow range and the price goes out of that range, you will not collect fees
-* Your liquidity is not adjusted based on price. If you select a [0.99;1.01] range for MAI:USDC and the price of MAI is 0.99 USDC, you will have 100% MAI and 0% USDC. On the other hand, if the price is 1.01 USDC per MAI, you will have 100% USDC and 0% MAI
-* You can exit your liquidity pool anytime and create a new one with a broader / narrower range if you see that your first setup isn't collecting enough fees
-* For stablecoins, it's better to set a 0.05% fee range so that aggregators like [zapper](https://zapper.fi/) or [1inch](https://app.1inch.io/#/137/) pick your pool when users are swapping their stablecoins
+* 如果你选择宽范围，你将比选择窄范围收取更少的费用，因为你的流动性分布在更大的范围内
+* 如果选择一个狭窄的范围并且价格超出该范围，你将不会收取费用
+* 你的流动性不会根据价格进行调整。如果你为 MAI:USDC 选择 \[0.99;1.01] 范围且 MAI 的价格为 0.99 USDC，你将拥有 100% MAI 和 0% USDC。另一方面，如果价格是每 MAI 1.01 USDC，你将拥有 100% USDC 和 0% MAI
+* 如果你发现你的第一个设置没有收取足够的费用，你可以随时退出你的流动资金池并创建一个范围更广/更窄的新流动资金池
+* 对于稳定币，最好设置 0.05% 的费用范围，以便 [zapper](https://zapper.fi/) 或 [1inch](https://app.1inch.io/#/137/) 等聚合器在用户交换其稳定币时选择你的池
 
-For the simplicity of this guide, we will set a range centered on 1.000 with a 1% spread between 0.995 and 1.005 USDC per MAI.
+为简单起见，我们将设置一个以 1.000 为中心的范围，每个 MAI 的 0.995 和 1.005 USDC 之间有 1% 的价差。
 
-![Creating a concentrated liquidity pool for MAI-USDC pair](<../../.gitbook/assets/Jarvis-11.png>)
+![为 MAI-USDC 对创建集中流动性池](../../.gitbook/assets/Jarvis-11.png)
 
 {% hint style="info" %}
-Pay attention to the token order for your pair. Indeed, the price range will not be the same if you select MAI (mimatic) first and USDC second, or USDC first and MAI second !!!
+请注意你的货币对的代币顺序。确实，如果你选择MAI（mimatic）第一然后USDC，或者USDC第一和MAI第二，价格区间是不一样的！！！
 {% endhint %}
 
-Depending on your setup, you can expect between 8% APR (broad range) and 20% APR (narrow range) on your LP paid in MAI and USDC. This will highly depend on the price action and volume of trades operated on UniswapV3. Keep in mind that you can also use this tool to operate your trades with a very low price impact and collect fees from your own trades!
+根据你的设置，你可以预期以 MAI 和 USDC 支付的 LP 的年利率在 8%（宽范围）和 20%（窄范围）之间。这在很大程度上取决于 UniswapV3 上的价格走势和交易量。请记住，你还可以使用此工具以非常低的价格影响进行交易，并从你自己的交易中收取费用！
 
-## Farming Strategy
+## 农耕策略
 
-For this strategy, we will be using Jarvis as our starting point. We will be using jCAD bought via Mt. Pelerin for this. The jCAD will be deposited on Curve Finance into the appropriate pool to get a 2CAD LP token. This LP token will be deposited on Beefy so that swap fees and reward tokens provided by Jarvis can compound into additional 2CAD. As a proof of deposit, we will receive mooJarvis2CAD tokens that we can then use on Market.xyz as collateral to borrow some MAI with a CDR of 200% (50% LTV). The MAI loan will be used to create a liquidity-providing token on UniswapV3 so that it can collect swap fees at 12% APR.
+对于这个策略，我们将使用 Jarvis 作为我们的起点。为此，我们将使用通过 Mt. Pelerin 购买的 jCAD。 jCAD 将在 Curve Finance 上存入适当的池中，以获得 2CAD LP 代币。此 LP 代币将存入 Beefy，以便 Jarvis 提供的交换费和奖励代币可以复合成额外的 2CAD。作为存款证明，我们将收到 mooJarvis2CAD 代币，然后我们可以在 Market.xyz 上使用这些代币作为抵押，以 200% 的 CDR（50% LTV）借入一些 MAI。 MAI 贷款将用于在 UniswapV3 上创建提供流动性的代币，以便它可以按年利率 12% 收取掉期费用。
 
-This initial setup ensures that you don't get impacted by the price variation of the USD in regard to the CAD. Also, the borrowed amount is secured in the UniswapV3 pool and can be repaid at any time.
+此初始设置可确保你不会受到美元相对于加元的价格变化的影响。此外，借入的金额在 UniswapV3 池中进行担保，可以随时偿还。
 
-Both gains from the 2CAD and the UniswapV3 pools will be added to a "reward booster", i.e. a pool that will have 0 impact on the initial investment or the loan but will actually increase the gains from a high reward rate. You can use pretty much any pool with a reward rate higher than the 2CAD pool. It can be a liquidity pool on QuickSwap like the cxDOGE/cxETH (44.24% APY as of March 2022), or even an ohm-fork like Klima (944% APY as of March 2022). For our simulation, we will be using the JRT-MAY22-USDC pool directly on Jarvis Network. The liquidity can be bought/added on [Kyber Network](https://kyberswap.com/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xF5f480Edc68589B51F4217E6aA82Ef7Df5cf789e/0xdaa2c66b06b62bad2e192be0a93f895c855484ee) and uses USDC and a native token from the Jarvis Network. This LP token is currently getting 143% APR.
+2CAD 和 UniswapV3 矿池的收益都将添加到“奖励助推器”中，即对初始投资或贷款影响为零但实际上会增加高回报率收益的矿池。你几乎可以使用任何奖励率高于 2CAD 池的池。它可以是 QuickSwap 上的流动资金池，如 cxDOGE/cxETH（截至 2022 年 3 月，APY 为 44.24%），甚至是 Klima 等ohm fork（截至 2022 年 3 月，APY 为 944%）。对于我们的模拟，我们将直接在 Jarvis Network 上使用 JRT-MAY22-USDC 池。流动性可以在 [Kyber Network](https://kyberswap.com/#/add/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174/0xF5f480Edc68589B51F4217E6aA82Ef7Df5cf789e/0xdaa2c66b06b62bad2e192be0a93f895c855484ee) 上购买/添加，并使用 USDC 和来自 Jarvis Network 的原生代币。此 LP 代币目前获得 143% 的年利率。
 
-This strategy is focusing on stable coins, but also presents a lot of possible variations:
+该策略专注于稳定币，但也存在许多可能的变化：
 
-* You can use 2JPY or 2SGD if you prefer these FIATs over jCAD
-* You can lend your jCAD (or any jFIAT) on Market.xyz and collect borrowing fees from borrowers
-* You can swap your loan from Market.xyz into any token for which you will provide liquidity on UniswapV3. Pick the pool you prefer, but pay attention to potential impermanent losses
-* You can swap the fees you collect on UniV3 to anything accepted on [Mai Finance](https://app.mai.finance) (BTC, CRV, LINK, GHST ...) and repay your loan on Market.xyz using the loan taken on Mai Finance, actually transferring your loan at 11% into a loan at 0%
-* You can also use the fees collected to repay your loan on Market.xyz faster
-* Possibilities are endless
+* 如果你更喜欢这些 FIAT 而不是 jCAD，你可以使用 2JPY 或 2SGD
+* 你可以在 Market.xyz 上借出你的 jCAD（或任何 jFIAT）并向借款人收取借款费用
+* 你可以将来自 Market.xyz 的贷款换成你将在 UniswapV3 上为其提供流动性的任何代币。选择你喜欢的池子，但要注意潜在的无常损失
+* 你可以将在 UniV3 上收取的费用交换为 Mai Finance 上接受的任何费用（BTC、CRV、LINK、GHST ...），并使用在 [Mai Finance](https://app.mai.finance/) 上获得的贷款在 Market.xyz 上偿还你的贷款，实际上以 11% 的价格转移您的贷款以0％的利率贷款
+* 你还可以使用收取的费用更快地偿还 Market.xyz 上的贷款
+* 无限可能
 
-As always, we will assume a few things for the simulation:
+与往常一样，我们将为模拟假设一些事情：
 
-* The APY for 2CAD is 27% APY (23.91% APR)
-* The interest rate for the loan on Market.xyz is 11.28%
-* The APR of your position on UniswapV3 is 12% because you make it quite large (more secure but less efficient)
-* You will get 143% APR on the JRT-MAY22-USDC reward booster on Jarvis Network
+* 2CAD 的 APY 为 27% APY (23.91% APR)
+* Market.xyz 上的贷款利率为 11.28%
+* 你在 UniswapV3 上的头寸 APR 是 12%，因为你把它做得很大（更安全但效率更低）
+* 你将在 Jarvis Network 上的 JRT-MAY22-USDC 奖励助推器上获得 143% 的年利率
 
-![](<../../.gitbook/assets/Jarvis-12.png>)
+![](../../.gitbook/assets/Jarvis-12.png)
 
 {% hint style="info" %}
-If you want to run simulations for this system, you can use the [Google Spreadsheet linked to this strategy](https://docs.google.com/spreadsheets/d/10-n5IyZLl0GZyjM16SNuVOONNsfJ15pm2GL0e2MagzE/edit?usp=sharing). Simply change the different reward rates or desired CDR to estimate the final APY you can get from this loop.
+如果你想为此系统运行模拟，你可以使用链接到该策略的 [Google 电子表格](https://docs.google.com/spreadsheets/d/10-n5IyZLl0GZyjM16SNuVOONNsfJ15pm2GL0e2MagzE/edit?usp=sharing)。只需更改不同的奖励率或所需的 CDR 即可估算你可以从此循环中获得的最终 APY。
 {% endhint %}
 
-### Day 1
+### 第1天
 
-You need to bootstrap your system. To do so
+你需要引导你的系统。这样做
 
-* swap $300 worth of USDC for jCAD on Jarvis Network (or purchase jCAD directly via Mt. Pelerin)
-* deposit the jCAD on Curve Finance in [pool #23](https://polygon.curve.fi/factory/23/deposit)
-* deposit the 2CAD LP token on [beefy finance](https://app.beefy.finance/#/polygon/vault/jarvis-2cad)
-* deposit the beefy receipt token on Market.xyz
-* borrow MAI with a CDR or 200% (LTV of 50%)
-* swap a part of your MAI for USDC on Uniswap V3 and deposit MAI and USDC into a new liquidity pool with parameters of your choice
+* 在 Jarvis Network 上用价值 300 美元的 USDC 兑换 jCAD（或直接通过 Mt. Pelerin 购买 jCAD）
+* 将 jCAD 存入 Curve Finance 的 [pool #23](https://polygon.curve.fi/factory/23/deposit)
+* 将 2CAD LP 代币存入 [beefy finance](https://app.beefy.finance/#/polygon/vault/jarvis-2cad)
+* 将强大的收据代币存入 Market.xyz
+* 借用 CDR 或 200%（LTV 为 50%）的 MAI
+* 在 Uniswap V3 上将你的部分 MAI 换成 USDC，并将 MAI 和 USDC 存入具有你选择的参数的新流动资金池
 
-After the 1st day of farming, you should have
+耕作第一天后，你应该
 
-|     position     |  value ($) |
-|------------------|------------|
-| mooJarvis2CAD    |    300.000 |
-| 2CAD rewards     |      0.197 |
-| MAI-USDC UniV3   |    150.000 |
-| UniV3 fees       |      0.049 |
-| JRT-MAY22-USDC   |      0.000 |
-| Jarvis rewards   |      0.000 |
-| MAI debt         |    150.000 |
+| 头寸             | 价值 ($)  |
+| -------------- | ------- |
+| mooJarvis2CAD  | 300.000 |
+| 2CAD 奖励        | 0.197   |
+| MAI-USDC UniV3 | 150.000 |
+| UniV3 费用       | 0.049   |
+| JRT-MAY22-USDC | 0.000   |
+| Jarvis 奖励      | 0.000   |
+| MAI 借贷         | 150.000 |
 
-You are all set, the rest is simple maintenance and moving the rewards into the Jarvis pool
+一切准备就绪，剩下的就是简单的维护并将奖励转移到 Jarvis 池中
 
-### Daily maintenance
+### 日常维护
 
-Time to put your gains into the reward booster:
+是时候将你的收益投入奖励助推器了：
 
-* harvest MAI and USDC on Uniswap V3
-* extract a small portion of your mooJarvis2CAD corresponding to what has been compounded
-* harvest reward on Jarvis Network
-* swap everything for JRT-MAY22 and USDC on Kyber Network, and create LP tokens
-* deposit the LP token on Jarvis Network
+* 在 Uniswap V3 上收获 MAI 和 USDC
+* 提取 mooJarvis2CAD 的一小部分，对应于已复合的内容
+* Jarvis Network 上的收获奖励
+* 在 Kyber Network 上用 JRT-MAY22 和 USDC 交换所有东西，并创建 LP 代币
+* 将 LP 代币存入 Jarvis Network
 
-At the end of Day 2, you will have
+在第 2 天结束时，你将拥有
 
-|     position     |  value ($) |
-|------------------|------------|
-| mooJarvis2CAD    |    300.000 |
-| 2CAD rewards     |      0.197 |
-| MAI-USDC UniV3   |    150.000 |
-| UniV3 fees       |      0.049 |
-| JRT-MAY22-USDC   |      0.246 |
-| Jarvis rewards   |      0.001 |
-| MAI debt         |    150.000 |
+| 头寸             | 价值 ($)  |
+| -------------- | ------- |
+| mooJarvis2CAD  | 300.000 |
+| 2CAD 奖励        | 0.197   |
+| MAI-USDC UniV3 | 150.000 |
+| UniV3 费用       | 0.049   |
+| JRT-MAY22-USDC | 0.246   |
+| Jarvis 奖励      | 0.001   |
+| MAI 借贷         | 150.000 |
 
-### Raw results month after month
+### 月复一月的原始结果
 
-Here are raw results month after month, as you can get them in the Google SpreadSheet linked above.
- 
-| day | mooJarvis2CAD | MAI-USDC  | JRT-MAY22-USDC |  MAI debt |
-|-----|---------------|-----------|----------------|-----------|
-|  30 |       300.000 |   150.000 |          7.534 |   151.350 |
-|  60 |       300.000 |   150.000 |         16.282 |   152.760 |
-|  90 |       300.000 |   150.000 |         26.118 |   154.182 |
-| 120 |       300.000 |   150.000 |         37.179 |   155.618 |
-| 150 |       300.000 |   150.000 |         49.616 |   157.067 |
-| 180 |       300.000 |   150.000 |         63.601 |   158.530 |
-| 210 |       300.000 |   150.000 |         79.326 |   160.007 |
-| 240 |       300.000 |   150.000 |         97.009 |   161.497 |
-| 270 |       300.000 |   150.000 |        116.893 |   163.001 |
-| 300 |       300.000 |   150.000 |        139.252 |   164.519 |
-| 330 |       300.000 |   150.000 |        164.393 |   166.051 |
-| 360 |       300.000 |   150.000 |          7.343 |     0.000 |
+这是月复一月的原始结果，你可以在上面链接的 Google 电子表格中获得它们。
 
-### Day 365
+| 天数  | mooJarvis2CAD | MAI-USDC | JRT-MAY22-USDC | MAI debt |
+| --- | ------------- | -------- | -------------- | -------- |
+| 30  | 300.000       | 150.000  | 7.534          | 151.350  |
+| 60  | 300.000       | 150.000  | 16.282         | 152.760  |
+| 90  | 300.000       | 150.000  | 26.118         | 154.182  |
+| 120 | 300.000       | 150.000  | 37.179         | 155.618  |
+| 150 | 300.000       | 150.000  | 49.616         | 157.067  |
+| 180 | 300.000       | 150.000  | 63.601         | 158.530  |
+| 210 | 300.000       | 150.000  | 79.326         | 160.007  |
+| 240 | 300.000       | 150.000  | 97.009         | 161.497  |
+| 270 | 300.000       | 150.000  | 116.893        | 163.001  |
+| 300 | 300.000       | 150.000  | 139.252        | 164.519  |
+| 330 | 300.000       | 150.000  | 164.393        | 166.051  |
+| 360 | 300.000       | 150.000  | 7.343          | 0.000    |
 
-With a CDR of 200%, you will repay your entire debt during the 11th month, liberating the initial CAD that you can transfer back into your bank account if you want, and you will still have
+### 第365天
 
-* $150 worth of MAI-USDC
-* $7.343 worth of LP on Jarvis
+CDR 为 200%，N 将在第 11 个月内偿还全部债务，释放初始加元，如果你愿意，你可以将其转回你的银行账户，而且你仍然拥有
 
-For a grand total of 52.91% APY.
+* 价值 150 美元的 MAI-USDC
+* Jarvis 上价值 7.343 美元的 LP
+
+总计 52.91% APY。
 
 {% hint style="info" %}
-If you take the profits from your 2CAD liquidity pool and invest them directly into the JRT-MAY22-USDC pool on Jarvis, without adding Market.xyz in the middle, you would get a total APY of 52.68%. You can see the 2nd sheet on the Google Spreadsheet for details, or set the CDR to 1,000,000 (no loan).
+如果你从你的 2CAD 流动资金池中提取利润，并将其直接投资到 Jarvis 上的 JRT-MAY22-USDC 池中，而不在中间添加 Market.xyz，你将获得 52.68% 的总 APY。你可以查看 Google 电子表格的第二张表以了解详细信息，或将 CDR 设置为 1,000,000（无贷款）。
 {% endhint %}
 
-## Disclaimer
+## 免责声明
 
-This guide has been written mostly to illustrate how you can convert your FIATs into crypto assets (and vice versa) using Mt. Pelerin and Jarvis Network. For non-US residents, this is a very nice opportunity to transfer money from one "world" to the other with very little impact and almost no fees. The fact that you can also get your synthetic FIATs on Polygon makes it particularly efficient since gas cost and transaction time remain among the best for DeFi.
+本指南主要用于说明如何使用 Mt. Pelerin 和 Jarvis Network 将你的 FIAT 转换为加密资产（反之亦然）。对于非美国居民来说，这是一个非常好的机会，可以将资金从一个“世界”转移到另一个，影响很小，而且几乎不收费。你还可以在 Polygon 上获得合成 ​​FIAT，这一事实使其特别高效，因为天然气成本和交易时间对于 DeFi 来说仍然是最好的。
 
-It's also interesting to note that more and more first-grade applications are using jFIATs, especially [AAVE v3](https://app.aave.com/markets/) that started to propose jEUR and EURS lending markets, facilitating the transition from TradFi (**Trad**itional **Fi**nance) to DeFi.
+值得注意的是，越来越多的一级应用正在使用 jFIAT，尤其是 [AAVE v3](https://app.aave.com/markets/)，它开始提出 jEUR 和 EURS 借贷市场，促进了从 TradFi（传统金融）向 DeFi 的过渡。
 
-The strategy proposed in this guide, it's assuming all prices and rates remain the same, which is obviously not what happens in real life. Make sure you pay attention to the reward borrowing rates before you invest anything so that you can repay your loan.
+本指南中提出的策略是假设所有价格和费率保持不变，这显然不是现实生活中发生的情况。在进行任何投资之前，请务必注意奖励借款利率，以便你可以偿还贷款。
 
 {% hint style="info" %}
-This guide is definitely not financial advice, it was made with an educational goal in mind. You need to pay attention to price variations, supply and demand, reward programs, end dates, impermanent losses etc ... The goal wasn't to propose recipes that can be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose.
+本指南绝对不是财务建议，它是出于教育目标而制定的。你需要注意价格变化，供需，奖励计划，结束日期，无常损失等......目标不是提出可以盲目遵循的食谱，所以请做好功课和自己的模拟，并且只投资你准备好可能失去的东西。
 {% endhint %}

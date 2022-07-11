@@ -1,82 +1,79 @@
 ---
-description: >-
-  Getting a good understanding about how MAI works is crucial for any investor
-  that really wants to understand Mai Finance, so in this article you will
-  understand how MAI works.
+description: 好好了解 MAI 的运作方式对于任何想了解 Mai Finance 的投资者来说是至关重要的，因此在本文中，你将了解 MAI 的运作方式。
 ---
 
-# How does MAI work?
+# Mai是如何运作的
 
-## What is a stable coin?
+## **什么是稳定币**
 
-Before getting into what is MAI, we have to understand what is a stable coin, a stable coin is a type of cryptocurrency that is designed to maintain a stable market price. Most of the stable coins are pegged (a currency where the price is designed to remain the same as a designated asset) to the US dollar, but you can find other stable coins pegged to other commodities such as gold (like EGold) or silver (SilverCoin).
+在进入什么是 MAI 之前，我们必须了解什么是稳定币，稳定币是一种旨在维持稳定市场价格的加密货币。大多数稳定币都与美元挂钩（一种价格被设计为与特指的资产保持相同的货币），但你可以找到与其他商品挂钩的其他稳定币，例如黄金（如 EGold）或白银(SilverCoin）。
 
-However, there are 2 main categories in which all stable coins can fit, **collateralized** or **non-collateralized.** The **collateralized** stable coins are those that hold the assets against which their coin is pegged, meanwhile the **non-collateralized** make use of algorithms to control the supply of tokens in order to keep the price fixed at a predetermined level.
+但是，有 2 个主要的所有稳定币都适合的类别，**抵押的**或**非抵押的**。**抵押的**稳定币是那些持有与其币挂钩的资产的稳定币，而**无抵押的**稳定币则利用算法来控制代币的供应，以保持价格固定在预定水平。
 
-## The IRON Finance disaster
+## IRON Finance 灾难
 
-If you've been around in crypto for some time, you may remember the disaster of the **TITAN** and **IRON** token, but for those of you who don't, here is a quick recap. IRON Finance was a project that had 2 tokens, the _IRON_ stable coin and the _TITAN_ token, however the IRON stable coin **wasn't fully backed** with stable coins, the proportion to mint IRON was **75% USDC** and **25% TITAN** token. So it was basically a recipe for disaster.
+如果你已经接触过加密货币一段时间，你可能还记得 **TITAN** 和 **IRON** 代币的灾难，但对于那些不知道的人，这里有一个快速回顾。 IRON Finance 是一个有 2 个代币的项目，IRON 稳定币和 TITAN 代币，但是 IRON 稳定币**没有完全由稳定币支持**，铸造 IRON 的比例是 **75% 的 USDC** 和 25% 的 **TITAN** 代币。所以它基本上是灾难的处方。
 
-In June of 2021 the TITAN token reached an ATH of $65, which caused that a bunch of investors, who invested heavily in the coin, decided to sell. This caused a problem because TITAN is priced based on supply and demand. So as the available supply of TITAN increased, the price began to decrease. This caused a huge sell pressure so the price of TITAN fell even faster, so when TITAN began to fall rapidly, IRON lost its backing and eventually its peg.
+2021 年 6 月，TITAN 代币达到了 65 美元的 ATH，这引起一群对代币投入巨资的投资者决定出售。这引起了一个问题，因为 TITAN 是用供需定价的。因此，随着 TITAN 的可用供应量增加，价格开始下降。这造成了巨大的抛售压力，所以TITAN的价格下跌得更快，所以当TITAN开始快速下跌时，IRON失去了支撑，最终失去了挂钩。
 
-![Price chart of the TITAN token](../.gitbook/assets/iron.jpg)
+![TITAN 代币的价格图表](broken-reference)
 
-![Price chart of the IRON stablecoin](../.gitbook/assets/titan.jpg)
+![IRON代币的价格图表](broken-reference)
 
-People started buying the IRON stable coin to sell it for USDC and earn some quick bucks, in a huge arbitrage opportunity (this means profiting in the price variations of tokens) Long story short, it's been calculated that almost $1.75 billion were lost in this incident. Now, is there a difference between the IRON stable coin and the MAI stable coin?
+人们开始购买 IRON 稳定币以将其以 USDC 出售并赚取一些快钱，在一个巨大的套利机会（这意味着从代币的价格变化中获利）。长话短说，据计算，在这次事件中损失了近 17.5 亿美元。现在，IRON 稳定币和 MAI 稳定币之间有区别吗？
 
-## What is MAI?
+## 什么是MAI?
 
-MAI is a stable coin that is backed by locked collateral tokens, the minting of MAI can be done either through depositing **approved collateral** in vaults or through using **Anchor.**
+MAI 是一种由锁定的抵押代币支持的稳定代币，MAI 的铸造可以通过将**批准的抵押品**存入保险库或通过使用 **Anchor** 来完成。
 
-When minting MAI depositing approved collateral, the **CDR** (Collateral to Debt Ratio) needs to be between 150%, this means that if you deposit $100 worth of collateral, the newly minted MAI can be at most worth $66.6667. We'll get to the reason behind this later in this article.
+当铸造 MAI 存入批准的抵押品时，**CDR**（抵押品与债务比率）需要在 150% 之间，这意味着如果你存入价值 100 美元的抵押品，新铸造的 MAI 最多可以价值 66.6667 美元。我们将在本文后面讨论这背后的原因。
 
-Another way to mint MAI is through the [Anchor](https://app.mai.finance/anchor), this means that when you swap a stable coin (as of September 2021 you can mint MAI using **DAI**, **USDC** and **USDT**) for MAI, new MAI is minted by the treasury and the deposited stablecoin is held in the treasury as collateral. Meanwhile, when you swap back your stablecoins, the MAI that you provide will be burned.
+另一种铸造 MAI 的方法是通过[ Ancho](https://app.mai.finance/anchor)r，这意味着当你将稳定币（截至 2021 年 9 月，你可以使用 **DAI**、**USDC** 和 **USDT** 铸造 MAI）互换成 MAI 时，新的 MAI 由宝库铸造，并且存入的稳定币是作为抵押品存放在宝库中。同时，当你互换回稳定币时，你提供的 MAI 将被销毁。
 
-![Stablecoins that can be swaped to mint MAI](<../.gitbook/assets/image (5).png>)
+![稳定币可以互换到铸造MAI](<../.gitbook/assets/image (5).png>)
 
-As you can see on the picture below, the price of the MAI stable coin it's almost always close to $1, this is because as the [official documentation](https://docs.mai.finance/stablecoin-economics) says, the MAI stable coin allows users to engage in risk-free arbitrage through Anchor when the price of MAI falls below $0.99 or rises above $1.01.
+通过下面图片你可以看到，MAI 稳定币的价格几乎总是接近 1 美元，这是因为正如[官方文档](https://docs.mai.finance/stablecoin-economics)所说，MAI 稳定币允许用户参与在价格上涨时Anchor 进行无风险套利的 MAI 低于 0.99 美元或高于 1.01 美元。
 
-![Price chart of the MAI token in the last 90 days](<../.gitbook/assets/image (7) (1) (1) (1) (2).png>)
+![ 过去 90 天的 MAI 代币价格图表](<../.gitbook/assets/image (7) (1) (1) (1) (2) (2).png>)
 
-## Why is it always close to $1?
+## **为什么它总是接近 1 美元？**
 
-The peg to $1 is maintained by 2 mechanisms, via **Anchor** or by **depositing collatera**l in the vaults, in this section of the article, you'll understand why
+与 1 美元的挂钩由 2 种机制维持，通过 **Anchor** 或通过将**抵押品存入**金库，在本文的这一部分，你将了解原因
 
 ### Anchor
 
-Anchor allows users to mint MAI with stable coins and redeem stable coins from MAI. Also, as you can see on the picture below, there's a 1% fee when swapping your stable coins for MAI or vice versa, there are two main reasons for these fee:
+Anchor 允许用户用稳定币铸造 MAI 并从 MAI 赎回稳定币。还有，如下面图片你可以看到，将稳定币互换成 MAI 时需要支付 1% 的费用，反之亦然，这些费用的主要原因有两个：
 
-* The 1% minting fee to create MAI sets a price ceiling of $1.01.
-* The 1% fee to redeem stable coins from MAI sets a price floor of $0.99
+* 创建 MAI 的 1% 铸币费将价格上限设为 1.01 美元。
+* 从 MAI 赎回稳定币的 1% 费用将价格下限设定为 0.99 美元
 
 ![](<../.gitbook/assets/image (9).png>)
 
-Having a price ceiling and a price floor helps MAI to not diverge from its peg too much, however as you've seen on the picture of the MAI chart, you can participate on low- risk arbitrage opportunities (meaning that you can sell your stable coins when MAI is under $1 or sell MAI when is above $1 to earn some quick bucks).
+设置价格上限和价格下限有助于 MAI 不会偏离其挂钩太多，但是正如你在 MAI 图表中看到的那样，你可以参与低风险套利机会（意味着你可以出售你的稳定币，当 MAI 低于 1 美元时出售硬币或在高于 1 美元时出售 MAI 以赚取一些快钱）。
 
-About what causes the fluctuation of the price of MAI, there could be two main reasons for this:
+关于导致MAI价格波动的原因，可能有两个主要原因：
 
-* If the **market is in a bearish trend**: people will sell their volatile assets and buy more stable coins to avoid losing value of volatile assets. This means that people want to buy MAI, increasing its price.
-* If the **market is in a bullish trend**: people buy more volatile assets when their price is low, using their stable coins. This means that people sell their MAI, driving its price down.
+* 如果市场处于**看跌趋势**：人们会出售波动性资产并购买更多稳定币，以避免波动性资产价值损失。这意味着人们想要购买 MAI，从而提高其价格。
+* 如果市场处于**看涨趋势**：人们在价格较低时使用稳定币购买波动性更大的资产。这意味着人们出售他们的 MAI，从而压低了其价格。
 
-### Depositing collaterals in vaults
+### **将抵押品存入**vaults
 
-In order to mint MAI using the vaults in Mai Finance, you need to deposit some collateral in there and have a **CDR** (Collateral to Debt Ratio) above a certain threshold, in this case is 150% (however this percentage can change in the future if the community decides so). This means that the vaults will always be over-collateralized (by 150%) to ensure that there is always collateral value to back the stable coins minted. Remember that if a vault has less than a 150% CDR it could be partially liquidated by the community, so somebody could loose some of their collateral if a liquitador pays some of their debt.
+为了使用 Mai Finance 中的金库铸造 MAI，你需要在那里存入一些抵押品，并且 **CDR**（抵押品与债务比率）在某个阈值以上，在这种情况下是 150%（但是这个百分比将来可能会发生变化，如果社区决定这样做）。这意味着金库将始终被超额抵押（150%），以确保始终有抵押价值来支持铸造的稳定币。记住，如果保险库的 CDR 低于 150%，则社区可能会对其进行部分清算，因此如果清算人偿还了部分债务，则有人可能会失去部分抵押品。
 
-As the value of the collateral rises, more stable coins can be issued as a rise in collateral price will increase your collateral to debt ratio. Conversely, as the value of the collateral falls, fewer stable coins can be issued, this is done to prevent that the CDR falls below the 150% mark.
+随着抵押品价值的上升，可以发行更多的稳定币，因为抵押品价格的上涨会增加你的抵押品与债务比率。反之，随着抵押品的价值下降，可以发行的稳定币越来越少，这是为了防止 CDR 跌破 150% 大关。
 
-## Afterword
+## 编后记
 
-As you've seen throughout this article, the MAI stable coin is a type of stable coin that is **over-collateralized,** meaning that there will always be enough collateral to back the price of the MAI token. This should give enough relief to those investors who hesitate about investing in projects that mint stable coins. Also, keep in mind that as MAI is expanding to other blockchains, there'll be more MAI in the market, resulting in less volatily in MAI's price.
+正如你在本文中看到的，MAI 稳定币是一种**超额抵押的**稳定币，这意味着始终有足够的抵押品来支持 MAI 代币的价格。这应该足以安慰对铸造稳定币项目犹豫不决的投资者。另外请记住，随着 MAI 扩展到其他区块链，市场上将会有更多的 MAI，从而导致降低 MAI 价格的波动。
 
-Recently, the vaults incentives have been introduced to Mai Finance, if you want to understand what that is, stay tuned because there'll be an article about this topic. This will help even more to the stability of the MAI price.
+近日，Mai Finance引入了金库激励，如果你想了解它是什么，敬请期待，因为会有一篇关于这个话题的文章。这将更有利于 MAI 价格的稳定。
 
-## Disclaimer
+## 免责声明
 
-You can find[ ](https://docs.mai.finance/stablecoin-economics)the original article of the Mai Finance team about MAI [here](https://docs.mai.finance/stablecoin-economics).
+你可以在[此处](https://docs.mai.finance/stablecoin-economics)找到 Mai Finance 团队关于 MAI 的原始文章。
 
-This guide is definitely not financial advice, it was made with an educational goal in mind.
+本指南绝对不是财务建议，它是出于教育目标而制作的。
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请牢记在给定时间运行良好的策略可能在另一个时间表现不佳（或让你赔钱）。请保持消息灵通，监测市场，留意你的投资，并一如既往地，做你的研究。
 {% endhint %}

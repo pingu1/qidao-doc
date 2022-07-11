@@ -12,7 +12,7 @@ Avalanche 与现有的以太坊工具链 100% EVM 兼容，其 C 链提供与以
 
 ## 上Avalanche
 
-在使用 Avalanche 网络之前，你需要创建一个钱包地址。可以使用不同的钱包类型，包括\*\*软件钱包\*\*，例如 Metamask 或本机[Avalanche Wallet](https://wallet.avax.network), 以及\*\*硬件钱包 \*\*，例如 [Trezor](https://trezor.io/coins/) 或者 [Ledger](https://support.ledger.com/hc/en-us/articles/360020765779-Avalanche-AVAX-?docs=true). &#x20;
+在使用 Avalanche 网络之前，你需要创建一个钱包地址。可以使用不同的钱包类型，包括\*\*软件钱包\*\*，例如 Metamask 或本机[Avalanche Wallet](https://wallet.avax.network/), 以及\*\*硬件钱包 \*\*，例如 [Trezor](https://trezor.io/coins/) 或者 [Ledger](https://support.ledger.com/hc/en-us/articles/360020765779-Avalanche-AVAX-?docs=true). &#x20;
 
 出于本教程的目的，我们将使用 Metamask。如果你没有安装 Metamask，你可以找到有关[如何开始使用 Polygon ](https://guide.qidao.community/tutorials/polygon/how-to-get-started-on-polygon#downloading-metamask)的说明
 
@@ -38,7 +38,7 @@ Avalanche 主网上目前没有可用的水龙头。如果你需要一些 AVAX �
 
 ### 网桥
 
-* [官方 Avalanche 网桥](https://bridge.avax.network)**-**Avalanche有自己的网桥，​​可用于将资产从以太坊主网桥接到 Avalanche。 Gas 费用在桥接代币中支付，并且由于你是从以太坊桥接的，所以费用可能会很高。
+* [官方 Avalanche 网桥](https://bridge.avax.network/)**-**Avalanche有自己的网桥，​​可用于将资产从以太坊主网桥接到 Avalanche。 Gas 费用在桥接代币中支付，并且由于你是从以太坊桥接的，所以费用可能会很高。
 * [Anyswap](https://anyswap.exchange/#/bridge)  还允许将资产桥接到许多不同的链。桥接的最低代币数量变化将取决于代币，但桥接成本是固定费用。
 * [Celer Bridge](https://cbridge.celer.network/#/transfer) 为许多具有出色用户界面的连锁店提供桥接服务。 Avalanche 的桥接费约为 3%。
 * [RelayChain](https://app.relaychain.com/#/cross-chain-bridge-transfer) 以低成本提供易于使用且直观的界面。作为旁注，Relay Chain是官方支持的将[MAI 连接到 Avalanche](https://guide.qidao.community/mai-university/mai-metaverse#avalanche)的解决方案。

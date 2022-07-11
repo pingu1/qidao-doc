@@ -38,7 +38,7 @@ Qi（\[tʃ Í] 或 chee），是麦财经的原生代币。有些人用它来投
 
 ### 单Qi耕作
 
-Qi 也可以单独用于[Impermax](https://polygon.impermax.finance)。 Impermax 是一个平台，你将可以在其中杠杆一个特定的 LP 对几次以增加 QuickSwap 的收益。
+Qi 也可以单独用于[Impermax](https://polygon.impermax.finance/)。 Impermax 是一个平台，你将可以在其中杠杆一个特定的 LP 对几次以增加 QuickSwap 的收益。
 
 它的工作方式是，你将借用 2 个代币形成你想要耕种的配对，将它们组合成更多的 LP 代币，然后以更高的寸头耕种。在大多数情况下，借款利率主要通过耕作APR 来补偿，从而为你提供一些净正回报。
 

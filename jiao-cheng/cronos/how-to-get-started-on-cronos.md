@@ -41,7 +41,7 @@ description: 在本指南中，我们将解释你开始使用 Cronos 链所需�
 
 ![使用 ElkNet 桥将 1 美元转换为 gas 代币](../../.gitbook/assets/Cronos-onboarding-2.png)
 
-* [Crypto.com](https://crypto.com): 不要忘记 Cronos 是与 Crypto.com 紧密相连的链。你可以在那里创建一个账户，通过链接银行账户直接购买你的 CRO 代币，然后将它们发送给 Cronos。
+* [Crypto.com](https://crypto.com/): 不要忘记 Cronos 是与 Crypto.com 紧密相连的链。你可以在那里创建一个账户，通过链接银行账户直接购买你的 CRO 代币，然后将它们发送给 Cronos。
 
 {% hint style="info" %}
 记住，你将需要一些气体代币才能进行交易。这意味着，如果你在没有 CRO 代币的账户中将资产从另一条链桥接到 Cronos，你将被卡住，无法做任何事情。确保你的钱包有足够的资金来执行至少一笔 Gas 代币的交换交易。
@@ -80,8 +80,8 @@ Cronos 与 Crypto.com 相关联，大量投资流入链中，DeFi 应用程序�
 
 当你在 CroDex 上耕作时，你将获得 CRX 代币的奖励，你可以将这些代币存入 Vault 以获得更多 CRX 代币，但还有其他（更好的）选项将在未来的教程中介绍。
 
-* [VVS](https://vvs.finance) 和 [CronaSwap](https://app.cronaswap.org): 这些是其他 DEX/AMM，它们是 PancakeSwap（另一个 Uniswap fork）的forks，你将在其中获得与 CroDex 相同的功能。
-* [Beefy Finance](https://app.beefy.finance/#/cronos), [Adamant](https://adamant.finance) 和 [Autofarm](https://autofarm.network/cronos/) 是许多网络上存在的著名聚合器/收益优化器，你可以在其中从大多数 DEX 存入你的 LP 代币，并让负责矿池的算法收获农场代币和化合物将奖励转化为更多 LP 代币。
+* [VVS](https://vvs.finance/) 和 [CronaSwap](https://app.cronaswap.org/): 这些是其他 DEX/AMM，它们是 PancakeSwap（另一个 Uniswap fork）的forks，你将在其中获得与 CroDex 相同的功能。
+* [Beefy Finance](https://app.beefy.finance/#/cronos), [Adamant](https://adamant.finance/) 和 [Autofarm](https://autofarm.network/cronos/) 是许多网络上存在的著名聚合器/收益优化器，你可以在其中从大多数 DEX 存入你的 LP 代币，并让负责矿池的算法收获农场代币和化合物将奖励转化为更多 LP 代币。
 * [Crystl Finance](https://cronos.crystl.finance) 是一个直鹅fork，首先在 Polygon 上推出，现在也可以在 Cronos 上使用。用户将能够将 LP 代币存入金库，以获得可以质押或耕种（或交换）的 CRYSTL 代币。
 * [Fortune DAO](https://www.fortunedao.com/#/) 是 Cronos 上接受 DAI 和 USDC 的主要 Ohm (Olympus) fork。
 

@@ -37,7 +37,7 @@ MAI 稳定币正在 Polygon 上越来越多的项目中使用，尤其是现在�
 Solana 是一个用于去中心化应用程序的区块链平台。该网络的目标是提出低费用（低于 0.01 美元）和快速（低于 400 毫秒）的交易。这背后的想法是为以太坊主网及其侧链创建一些替代方案。然而，并不是因为 Solana 是以太坊网络的直接竞争对手，所以它不支持相同的资产。确实，Solana 现在支持可以从 Polygon（可以铸造）桥接的 MAI 稳定币。
 
 \
-为了将你的 MAI 代币发送到 Solana，你可以使用 [AllBridge](https://allbridge.io)，一个允许你将代币从一个链转移到另一个链的桥接平台。 AllBridge 支持以下网络：
+为了将你的 MAI 代币发送到 Solana，你可以使用 [AllBridge](https://allbridge.io/)，一个允许你将代币从一个链转移到另一个链的桥接平台。 AllBridge 支持以下网络：
 
 * 以太坊主网
 * Polygon
@@ -57,7 +57,7 @@ Solana 是一个用于去中心化应用程序的区块链平台。该网络的�
 
 ### **在Solana使用MAI**
 
-与你可以在 Polygon 上使用 MAI 提供流动性和农耕作收益的方式相同，你也可以在 Solana 上做同样的事情。你可以使用 MAI 的主要地方是 [Saber](https://app.saber.so)，在 MAI/USDC 池中。&#x20;
+与你可以在 Polygon 上使用 MAI 提供流动性和农耕作收益的方式相同，你也可以在 Solana 上做同样的事情。你可以使用 MAI 的主要地方是 [Saber](https://app.saber.so/)，在 MAI/USDC 池中。&#x20;
 
 ![截至 2021 年 9 月，Saber 上的 MAI/USDC 池状态 ](../.gitbook/assets/screen-shot-2021-09-13-at-2.11.10-pm.png)
 
@@ -68,7 +68,7 @@ Solana 是一个用于去中心化应用程序的区块链平台。该网络的�
 这意味着你实际上可以使用来自 Mai Finance 的 100% MAI 存款，而无需将任何资金互换成 USDC。它特别方便，可以防止受到 2 个稳定币之间微小价格差异的影响。注意，如果在 Polygon 上的 QuickSwap 上耕种，你将获得以原生农场代币支付的奖励，就像在 QUICK 中获得报酬一样。然后，你可以出售你的 saber代币以增加你的 MAI/USDC 头寸。
 
 {% hint style="info" %}
-在 Solana 上，你还可以使用[ Sunny](https://app.sunny.ag)，这是一个聚合器，可以自动复合 Saber 的奖励。请注意，Sunny 聚合器未经 Mai Finance 团队验证。 AllBridge 和 Saber 已成为Mai Finance的官方合作伙伴，但不保证结果。请像往常一样，做你自己的研究。.
+在 Solana 上，你还可以使用[ Sunny](https://app.sunny.ag/)，这是一个聚合器，可以自动复合 Saber 的奖励。请注意，Sunny 聚合器未经 Mai Finance 团队验证。 AllBridge 和 Saber 已成为Mai Finance的官方合作伙伴，但不保证结果。请像往常一样，做你自己的研究。.
 {% endhint %}
 
 ## Avalanche
