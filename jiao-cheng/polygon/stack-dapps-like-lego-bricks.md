@@ -32,7 +32,7 @@ QuickSwap 是 Polygon 上最大的 AMM（自动做市商）之一。人们将成
 
 Dragon's Lair 是一种优化 QuickSwap 收益的方法。你可以将你从流动性池中赚取的 QUICK 代币存入 Lair，它们将为你赚取额外的 QUICK 奖励。这是一个好主意如果你想保留 QUICK 代币而不是出售它们。当你的 QUICK 代币投入 Dragon's Lair 时，它们产生的奖励会自动复利，Lair 的 APY 约为 12%。
 
-![截至 2021 年 8 月的 Dragon's Lair APY](<../../.gitbook/assets/image (7).png>)
+![截至 2021 年 8 月的 Dragon's Lair APY](<../../.gitbook/assets/image (7) (1).png>)
 
 在你存入 QUICK 代币后，你将在钱包中获得一些 dQUICK 代币，这些代币代表你拥有的 QUICK 池的份额。注意，QUICK:dQUICK 的比率不是 1:1，因为 dQUICK 代表你在池中的份额，而QUICK的数量将随着时间的推移而增加，因为更多的奖励被添加到池中。
 

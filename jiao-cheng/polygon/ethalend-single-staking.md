@@ -1,185 +1,182 @@
 ---
-description: >-
-  Most people will use their MAI loan to buy other assets. However, some very
-  interesting strategies can be used with MAI directly, and the one using
-  Ethalend is a very good one.
+description: 大多数人会用他们的 MAI 贷款购买其他资产。但是，一些非常有趣的策略可以直接与 MAI 一起使用，使用 Ethalend 的策略非常好。
 ---
 
-# MAI single-staking with Ethalend
+# MAI 与 Ethalend 的单一质押
 
-## Intro
+## 简介
 
-One of the missions of this website and the collection of tutorials that are offered is to make DeFi user friendly by demystifying the most complex protocols. This vision is also shared by the team behind [Ethalend](https://www.ethalend.org/), and this guide will present a perfect way to use this platform in conjunction with Mai Finance to amplify your stable farming yields.
+该网站的任务之一和所提供的教程集合是通过揭开最复杂协议的神秘面纱使 DeFi 用户友好。 [Ethalend](https://www.ethalend.org/) 背后的团队也分享了这一愿景，本指南将提供一种完美的方式来使用该平台与 Mai Finance 一起扩大你的稳定农业产量。
 
-## Ethalend presentation
+## Ethalend 演示文稿
 
-![](../../.gitbook/assets/Ethalend-1.png)
+![](<../../.gitbook/assets/image (36).png>)
 
-### What is Ethalend
+### 什么是 Ethalend
 
-Ethalend is a composable protocol that abstracts the complexity in DeFi to provide algorithmically optimal yield. It is not a yield aggregagor, but a yield optimizer. You will be able to deposit your assets on the platform, and the algorithm in charge of the pool in which you deposit your assets will actually invest them in the best way possible. Yields are then distributed in the native token of Ethalend, the ETHA token, as well as some partner tokens, including Qi from Mai Finance that you can get by depositing your MAI in the MAI-USDT eVault. You can read more about Ethalend via their [official documentation](https://docs.ethalend.org/), or by reading this excellent [interview of the co-founder](https://ambcrypto.com/un-complicating-defi-an-interview-with-ethalend-co-founder-danny-b/).
+Etalend 是一种可组合的协议，它抽象了 DeFi 中的复杂性，以提供算法上的最佳收益。它不是产量聚合器，而是产量优化器。你将能够在平台上存入你的资产，并且负责你存入资产的池的算法实际上将以最佳方式投资它们。然后将收益分配在 Ethalend 的原生代币、ETHA 代币以及一些合作伙伴代币中，包括来自 Mai Finance 的 Qi，你可以通过将 MAI 存入 MAI-USDT eVault 来获得。你可以通过他们的[官方文档](https://docs.ethalend.org/)了解更多关于 Ethalend 的信息，或者阅读对[联合创始人的精彩采访](https://ambcrypto.com/un-complicating-defi-an-interview-with-ethalend-co-founder-danny-b/)。
 
-### Create your Ethalend wallet from your web3 wallet
+### 从你的 web3 钱包创建你的 Ethalend 钱包
 
-One of the very interesting things about Ethalend is that the application is using a dedicated on-chain wallet that is not linked to your web3 wallet. This can be considered as
+关于 Ethalend 的一个非常有趣的事情是，该应用程序使用了一个专用的链上钱包，该钱包未链接到你的 web3 钱包。这可以认为是
 
-* an advantage since all contract risk is limited to what is exposed in this private wallet. Also, some interaction between the Ethalend application and the private wallet are directly included into the platform use, which may save you some transaction fees. As a side note, the ETHA smart wallet is non-custodial, meaning that only you will have access to the wallet, it's not like a master centralized wallet controlling the share corresponding to your wallet.
-* a disadvantage, because it adds complexity in your routine, and the ETHA smart wallet isn't compatible with physical devices.
+* 一个优势，因为所有合同风险都仅限于这个私人钱包中暴露的内容。此外，Ethalend 应用程序和私人钱包之间的一些交互直接包含在平台使用中，这可能会为你节省一些交易费用。附带说明一下，ETHA 智能钱包是非托管的，这意味着只有你可以访问该钱包，它不像一个主中心化钱包控制与你的钱包对应的份额。
+* 一个缺点，因为它增加了你日常工作的复杂性，而且 EHA 智能钱包与物理设备不兼容。
 
-It's going to be up to you to decide if the pros are bringing enough value to surpass the cons. When you are ready to create your wallet, simply click on the `Create Wallet` button in the top right corner of your screen.
+由你来决定专业人士是否带来了足够的价值来超越劣势。当你准备好创建钱包时，只需单击屏幕右上角的创建钱包按钮。
 
-![Create your ETHA smart wallet](../../.gitbook/assets/Ethalend-2.png)
+![创建你的 ETHA 智能钱包](<../../.gitbook/assets/image (28).png>)
 
-There you go, ready to use the protocol!
+好了，准备好使用协议了！
 
-## Strategy overview
+## 战略概述
 
-This strategy can be added to your bucket of relatively safe strategies since it will be using stable coin farming at its root, and additional yields will be provided thanks to more volatile assets from the rewards of the stable position.
+该策略可以添加到你相对安全的策略桶中，因为它将从根本上使用稳定的代币耕作，并且由于稳定头寸的回报带来的波动性更大的资产，将提供额外的收益。
 
-### MAI single staking and gains
+### MAI 单一质押和收益and gains
 
-![Ethalend MAI-USDT eVault as of November 2021](../../.gitbook/assets/Ethalend-3.png)
+![E截至 2021 年 11 月的 Ethalend MAI-USDT eVault](<../../.gitbook/assets/image (40).png>)
 
-One of the big advantages of Ethalend, and one of the key feature that allows DeFi simplification, is that you don't need to provide a LP (**L**iquidity **P**roviding) pair composed of 2 assets with a ratio of 1:1. The algorithm that manages the pool (or eVault in our case) will do it automatically for you. Also, once you deposit your assets in a eVault, they will be re-routed automatically to the best protocol that will maximize your yield. The reward tokens will be farmed and converted for you regularly.
+Ethalend 的一大优势，也是允许 DeFi 简化的关键特性之一，是你不需要提供由 2 种资产以 1:1 的比例组成的 LP（流动性提供）对。管理池的算法（在我们的例子中是 eVault）会自动为你完成。此外，一旦你将资产存入 eVault，它们将自动重新路由到可最大化你的收益的最佳协议。奖励代币将定期为你耕种和转换。
 
-![Depositing 100 MAI in the MAI-USDT eVault from our MetaMask wallet](../../.gitbook/assets/Ethalend-4.png)
+![从我们的 MetaMask 钱包中将 100 MAI 存入 MAI-USDT eVault](<../../.gitbook/assets/image (37).png>)
 
-As you can see, details of the rewards are displayed in the right part of the screen. The ETHA rewards are not displayed, but you get an estimation of the Qi rewards associated with your deposit. If you scroll down the page, you will also get a good understanding of the underlying strategy that is using QuickSwap in our case. QUICK rewards will be converted into Qi rewards. ETHA rewards are minted by the protocol to incentive you to use their platform instead of QuickSwap.
+如你所见，奖励的详细信息显示在屏幕的右侧。 ETHA 奖励不会显示，但你可以估算出与你的存款相关的 Qi 奖励。如果你向下滚动页面，你还将很好地了解在我们的案例中使用 QuickSwap 的基本策略。 QUICK 奖励将转换为 Qi 奖励。 ETHA 奖励由协议铸造，以激励你使用他们的平台而不是 QuickSwap。
 
 {% hint style="info" %}
-Pay attention to the 0.10% withdrawing fees. As of writing, with a deposit of 100 MAI, I will have to pay a 0.1 MAI exit fee, which roughly corresponds to 10 days of farming in the eVault. Make sure you understand this point before investing anything.
+请注意 0.10% 的提款费用。在撰写本文时，存款 100 MAI，我将不得不支付 0.1 MAI 的退出费，这大致相当于在 eVault 中耕作 10 天。在进行任何投资之前，请确保你了解这一点。
 {% endhint %}
 
-### Staking ETHA: Ethalend or QuickSwap
+### 质押 ETHA: Ethalend 或者 QuickSwap
 
-The main reward you will get by lending your MAI on Ethalend will be paid in ETHA, the native token from Ethalend. One of the main advantage of Ethalend is that you will be able to single stake your ETHA tokens directly on the platform and magnify your yields.
+通过在 Ethalend 上借出 MAI 获得的主要奖励将以 ETHA 支付，ETHA 是来自 Ethalend 的原生代币。 Ethalend 的主要优势之一是你将能够直接在平台上单质押你的 ETHA 代币并放大你的收益。
 
-![Staking your ETHA on Ethalend directly](../../.gitbook/assets/Ethalend-5.png)
+![直接在 Ethalend 上质押你的 ETHA](<../../.gitbook/assets/image (43).png>)
 
-As you can see, the best option is to deposit the ETHA you earned in the ETHA-QUICK pool. Because of the nature of the 2 assets (very volatile), the reward is really high. You can possibly reduce the impermanent losses by depositing your ETHA in the ETHA-USDT pool if you prefer. In both cases, you will be rewarded with QUICK tokens. And of course, if you are really bullish on ETHA, you can stake your rewards in the ETHA pool for additional ETHA.
+如你所见，最好的选择是将你获得的 ETHA 存入 ETHA-QUICK 池中。由于 2 种资产的性质（非常不稳定），奖励非常高。如果你愿意，你可以通过将你的 ETHA 存入 ETHA-USDT 池来减少无常损失。在这两种情况下，你都将获得 QUICK 代币作为奖励。当然，如果你真的看好 ETHA，你可以将你的奖励投入 ETHA 池中以获得额外的 ETHA。
 
-The staking vaults on Ethaland are actually a convenience offered by Ethalend. When you deposit your tokens in the pool, the balancing algorithm will sell a few of the deposited tokens to buy the other side of the LP pair, and use this pair in QuickSwap. As a side note, you can totally do this manually: claim your ETHA tokens, withdraw in your web3 wallet, sell 50% for QUICK tokens, create some LP tokens, and deposit them in the QuickSwap pool:
+Ethalend 上的质押vault实际上是 Ethalend 提供的一种便利。当你将代币存入池中时，平衡算法将出售一些存入的代币以购买 LP 对的另一方，并在 QuickSwap 中使用该对。作为旁注，你完全可以手动执行此操作：认领你的 ETHA 代币，在你的 web3 钱包中提取，出售 50% 的 QUICK 代币，创建一些 LP 代币，并将它们存入 QuickSwap 池：
 
-![QuickSwap pools for ETHA as of November 2021](../../.gitbook/assets/Ethalend-6.png)
+![截至 202 年 11 月，ETHA 的 QuickSwap 矿池1](<../../.gitbook/assets/image (39).png>)
 
 {% hint style="info" %}
-QuickSwap promotes a 223.1% APY on the ETHA-QUICK pair, while Ethalend displays a 116.73% APR on the same pair. This is due to the difference between APY (**A**nnual **P**ercentage **Y**ield, or autocompounded rewards) and APR (**A**nnual **P**ercentage **R**evenue, or rewards without auto-compounding). The 2 percentages are actually exactly the same, so it doesn't matter which platform you chose to use your ETHA tokens.
+QuickSwap 在 ETHA-QUICK 对上的年利率为 223.1%，而 Ethalend 在同一对上的年利率为 116.73%。这是由于 APY（年度百分比收益，或自动复合奖励）和 APR（年度百分比收入，或没有自动复合的奖励）之间的差异。这 2 个百分比实际上是完全相同的，因此你选择哪个平台使用你的 ETHA 代币并不重要。
 {% endhint %}
 
-### The dQUICK Mai Vault
+### dQUICK Mai Vault
 
-The best way to use the QUICK rewards you will get from staking your ETHA is to convert them into dQUICK. dQUICK can be created in the Dragon's Lair on QuickSwap. It's the way QuickSwap is incentivizing users to stake their QUICK by rewarding them with additional QUICK: by locking your QUICK tokens on QuickSwap, you will earn extra tokens.
+使用质押 ETHA 所获得的 QUICK 奖励的最佳方式是将其转换为 dQUICK。 dQUICK 可以在 QuickSwap 上的 Dragon's Lair 中创建。这是 QuickSwap 通过用额外的 QUICK 奖励用户来激励用户质押他们的 QUICK 的方式：通过将你的 QUICK 代币锁定在 QuickSwap 上，你将获得额外的代币。
 
-![Dragon's Lair APY on QuickSwap as of November 2021](../../.gitbook/assets/Ethalend-7.png)
+![截至 2021 年 11 月，QuickSwap 上的 Dragon's Lair APY](<../../.gitbook/assets/image (41).png>)
 
 {% hint style="info" %}
-The dQUICK APY varies a lot between 20% and 40%, depending on the amount of QUICK tokens that are actually staked on the Platform
+dQUICK APY 在 20% 到 40% 之间变化很大，具体取决于平台上实际质押的 QUICK 代币数量
 {% endhint %}
 
-But one of the best thing about dQUICK is that it's a "proof of deposit" token that can be used on Mai Finance as a collateral. This means that, after you deposited your QUICK rewards from Ethalend on QuickSwap and received dQUICK, you can head to Mai Finance and deposit the dQUICK tokens into a dQUICK Vault to borrow MAI against them.
+但 dQUICK 最好的一点是它是一种“存款证明”代币，可以在 Mai Finance 上用作抵押品。这意味着，在你将 Ethalend 的 QUICK 奖励存入 QuickSwap 并收到 dQUICK 后，你可以前往 Mai Finance 并将 dQUICK 代币存入 dQUICK Vault 以借用 MAI。
 
-![dQUICK Vault on Mai Finance as of November 2021](../../.gitbook/assets/Ethalend-8.png)
+![截至 2021 年 11 月，Mai Finance 上的 dQUICK Vault](<../../.gitbook/assets/image (21).png>)
 
-A few things about the dQUICK vaults:
+关于 dQUICK vaults的一些事情：
 
-* They have a liquidation ratio of 130%, which means you will be able to borrow a lot of MAI against your dQUICK tokens. However, if you want to collect borrowing rewards too, you will need to keep a CDR (**C**ollateral to **D**ebt **R**atio) between 155% and 400%. This is a good idea since the QUICK token is pretty volatile, and as a general rule, this website strongly promote a CRD 100% above the liquidation ratio (or 230% for dQUICK).
-* dQUICK Vaults are among the ones with the highest APR when you borrow MAI against dQUICK. As of writing, you can get up to 39.40% APR paid in Qi tokens based on the amount of MAI you will borrow against your MAI.
+* 他们的清算比率为 130%，这意味着你将能够借用大量的 MAI 来对抗你的 dQUICK 代币。但是，如果你也想获得借贷奖励，则需要将 CDR（抵押债务比率）保持在 155% 到 400% 之间。这是一个好主意，因为 QUICK 代币非常不稳定，并且作为一般规则，本网站强烈提倡高于清算比率 100% 的 CRD（或 dQUICK 的 230%）。
+* 当你向 dQUICK 借 MAI 时，dQUICK Vault 是 APR 最高的。在撰写本文时，根据你将借入 MAI 的 MAI 数量，你可以获得以 Qi 代币支付的高达 39.40% 的 APR。
 
-You can already see that, providing dQUICK is very interesting since you will have an asset that gets compounded QUICK rewards from QuickSwap, you will get Qi rewards for your loan, and you will be mint MAI that can then be added back into the eVault on Ethalend, increasing your stable farming position.
+你已经可以看到，提供 dQUICK 非常有趣，因为你将拥有从 QuickSwap 获得复合 QUICK 奖励的资产，你的贷款将获得 Qi 奖励，并且你将成为铸币 MAI，然后可以将其添加回 eVault Ethalend，增加你稳定的农业地位。
 
-### What to do with your Qi rewards
+### 怎么处理你的 Qi 奖励
 
-This subject is explained in [a dedicated article](what-to-do-with-qi-on-polygon.md). For the sake of this tutorial, we will simply deposit your Qi in the Qi-BAL pool on Balancer to benefit from a solid APR, paid in additional Qi and BAL tokens that you can compound in the exact same pool.
+这个主题在[一篇专门的文章中](what-to-do-with-qi-on-polygon.md)进行了解释。就本教程而言，我们将简单地将你的 Qi 存入 Balancer 的 Qi-BAL 池中，以从稳定的 APR 中受益，支付额外的 Qi 和 BAL 代币，你可以在完全相同的池中复合。
 
-![State of the Qi-BAL pool on Balancer as of November 2021](../../.gitbook/assets/Ethalend-9.png)
+![截至 2021 年 11 月，Balancer 上 Qi-BAL 池的状态](<../../.gitbook/assets/image (38).png>)
 
-## Bootstrapping the system
+## 引导系统
 
-![](../../.gitbook/assets/Ethalend-10.png)
+![](<../../.gitbook/assets/image (19).png>)
 
-What follows is a simulation made with an initial investment of $100 worth of MAI that you can either borrow from an existing vault, or buy from a DEX platform. It assumes that all current APRs and APYs stay the same over the span of 1 year, and that all tokens keep the same price, which will (of course) never be the case.
+接下来是一个初始投资价值 100 美元的 MAI 的模拟，你可以从现有的保险库中借用，也可以从 DEX 平台购买。它假设所有当前的 APR 和 APY 在 1 年内保持不变，并且所有代币保持相同的价格，（当然）永远不会如此。
 
-### Day 1
+### 第1天
 
-On day 1, you will deposit your MAI on Ethalend in the MAI-USDT pool, then you will get the reward in both Qi and ETHA at the end of the day.
+第1天，你将的 MAI 存入 Ethalend 的 MAI-USDT 池中，然后你将在一天结束时获得 Qi 和 ETHA 的奖励。
 
-| Reward type        | Value in dollars |
-| ------------------ | ---------------- |
-| Mai on Ethalend    | 100.000          |
-| Qi+BAL on Balancer | 0.032            |
-| ETHA on Ethalend   | 0.070            |
-| dQUICK on Mai      | 0.000            |
-| debt on Mai        | 0.000            |
+| 奖励类型              | 美元价值    |
+| ----------------- | ------- |
+| Ethalend 上的 Mai   | 100.000 |
+| Balancer 上的 Qi+BA | 0.032   |
+| Ethalend 上的 ETHA  | 0.070   |
+| Mai 上的 dQUICK     | 0.000   |
+| Mai 上的借贷          | 0.000   |
 
-### Day 2
+### 第2天
 
-On day 2, you can stake your ETHA from day 1 on Ethalend, which will generate QUICK rewards that you can then convert to dQUICK on QuickSwap, deposit on Mai Finance, and you will be able to borrow MAI against these tokens. You can also deposit your Qi in the Balancer pool. At the end of day 2 you will get:
+在第 2 天，你可以从第 1 天开始在 Ethalend 上质押你的 ETHA，这将产生 QUICK 奖励，然后你可以在 QuickSwap 上将其转换为 dQUICK，存入 Mai Finance，你将能够用这些代币借入 MAI。你还可以将 Qi 存入 Balancer 池。在第 2 天结束时，你将获得：
 
-| Reward type        | Value in dollars |
-| ------------------ | ---------------- |
-| Mai on Ethalend    | 100.000          |
-| Qi+BAL on Balancer | 0.065            |
-| ETHA on Ethalend   | 0.141            |
-| dQUICK on Mai      | 0.000            |
-| debt on Mai        | 0.000            |
+| 奖励类型               | 美元价值    |
+| ------------------ | ------- |
+| Ethalend 上的 Mai    | 100.000 |
+| Balancer 上的 Qi+BAL | 0.065   |
+| Ethalend 上的 ETHA   | 0.141   |
+| Mai 上的 dQUICK      | 0.000   |
+| Mai 上的借贷           | 0.000   |
 
-From there, the system is bootstrapped, and you will be able to grow your stable position of MAI, as well as get rewards in Qi, BAL, ETHA and dQUICK. Note that some values are too low to be significant at this point, and since you won't be able to borrow less than 0.01 MAI, you will have to accumulate dQUICK for 14 days before being able to borrow MAI.
+从那里，系统自举，你将能够增加你在 MAI 的稳定位置，并获得 Qi、BAL、ETHA 和 dQUICK 的奖励。请注意，此时某些值太低以至于不重要，并且由于你无法借入少于 0.01 的 MAI，因此你必须累积 14 天的 dQUICK 才能借入 MAI。
 
-## Farming Results
+## 耕作结果
 
-### Daily routine
+### 每日例行
 
-The daily farming routine is composed of
+日常的耕作程序包括
 
-* Harvesting the Qi and ETHA rewards from the MAI-USDT pool on Ethalend
-* Deposit the Qi tokens in the Balancer pool on Balancer
-* Deposit the ETHA tokens in the ETHA-QUICK pool on Ethalend
-* Harvest QUICK rewards from the ETHA-QUICK pool on Ethalend
-* Convert QUICK into dQUICK on QuickSwap
-* Deposit dQUICK into the dQUICK vault on Mai Finance
-* Borrow MAI from the dQUICK vault on Mai Finance
-* Deposit additional MAI borrowed in the MAI-USDT pool on Ethalend
+* 从 Ethalend 的 MAI-USDT 池中获取 Qi 和 ETHA 奖励
+* 将 Qi 代币存入 Balancer 的 Balancer 池中
+* 将 ETHA 代币存入 Ethalend 的 ETHA-QUICK 池中
+* 从 Ethalend 的 ETHA-QUICK 池中获取 QUICK 奖励
+* 在 QuickSwap 上将 QUICK 转换为 dQUICK
+* 将 dQUICK 存入 Mai Finance 上的 dQUICK vault
+* 从 Mai Finance 的 dQUICK vault借 MAI
+* 将借入的额外 MAI 存入 Ethalend 的 MAI-USDT 池中
 
-Additionally, you will be able to harvest and compound the Qi and BAL rewards weekly.
+此外，你将能够每周收获和复合 Qi 和 BAL 奖励。
 
-### Raw results month after month
+### 月复一月的原始结果
 
-Below are the raw results at the end of each month:
+以下是每个月底的原始结果：
 
-| day | Mai on Ethalend | Qi on Balancer | ETHA on Ethalend | dQUICK on Mai | MAI debt |
-| --- | --------------- | -------------- | ---------------- | ------------- | -------- |
-| 30  | 100.046         | 1.015          | 2.186            | 0.099         | 0.049    |
-| 60  | 100.196         | 2.116          | 4.303            | 0.406         | 0.203    |
-| 90  | 100.453         | 3.315          | 6.424            | 0.926         | 0.463    |
-| 120 | 100.819         | 4.624          | 8.553            | 1.666         | 0.833    |
-| 150 | 101.297         | 6.058          | 10.690           | 2.631         | 1.315    |
-| 180 | 101.892         | 7.632          | 12.838           | 3.828         | 1.914    |
-| 210 | 102.606         | 9.361          | 15.001           | 5.263         | 2.632    |
-| 240 | 103.443         | 11.264         | 17.179           | 6.945         | 3.473    |
-| 270 | 104.406         | 13.360         | 19.377           | 8.881         | 4.441    |
-| 300 | 105.501         | 15.671         | 21.597           | 11.079        | 5.540    |
-| 330 | 106.731         | 18.220         | 23.841           | 13.548        | 6.774    |
-| 360 | 108.100         | 21.032         | 26.113           | 16.297        | 8.149    |
-| 365 | 108.343         | 21.528         | 26.495           | 16.783        | 8.392    |
+| 天数  | Ethalend 上的 MAI | Balancer 上的 Qi | Ethalend 上的 ETHA | Mai 上的 dQUICK | MAI 借贷 |
+| --- | --------------- | -------------- | ---------------- | ------------- | ------ |
+| 30  | 100.046         | 1.015          | 2.186            | 0.099         | 0.049  |
+| 60  | 100.196         | 2.116          | 4.303            | 0.406         | 0.203  |
+| 90  | 100.453         | 3.315          | 6.424            | 0.926         | 0.463  |
+| 120 | 100.819         | 4.624          | 8.553            | 1.666         | 0.833  |
+| 150 | 101.297         | 6.058          | 10.690           | 2.631         | 1.315  |
+| 180 | 101.892         | 7.632          | 12.838           | 3.828         | 1.914  |
+| 210 | 102.606         | 9.361          | 15.001           | 5.263         | 2.632  |
+| 240 | 103.443         | 11.264         | 17.179           | 6.945         | 3.473  |
+| 270 | 104.406         | 13.360         | 19.377           | 8.881         | 4.441  |
+| 300 | 105.501         | 15.671         | 21.597           | 11.079        | 5.540  |
+| 330 | 106.731         | 18.220         | 23.841           | 13.548        | 6.774  |
+| 360 | 108.100         | 21.032         | 26.113           | 16.297        | 8.149  |
+| 365 | 108.343         | 21.528         | 26.495           | 16.783        | 8.392  |
 
-### Day 365
+### 第365天
 
-At the end of one year, you would have
+在一年结束时，你将拥有
 
-* $108.343 worth of MAI in the MAI-USDT pool on Ethalend
-* $26.495 worth of ETHA in the ETHA-QUICK pool on Ethalend
-* $21.528 worth of Qi in the Qi-BAL pool on Balancher
-* $16.783 worth of dQUICK in the dQUICK vault on Mai Finance
-* $8.392 worth of MAI debt on Mai Finance
+* Ethalend 的 MAI-USDT 池中价值 108.343 美元的 MAI
+* Ethalend 上的 ETHA-QUICK 池中价值 26.495 美元的 ETHA
+* Balancher 的 Qi-BAL 池中价值 21.528 美元的 Qi
+* Mai Finance 上的 dQUICK vault中价值 16.783 美元的 dQUICK
+* Mai Finance 上价值 8.392 美元的 MAI 债务
 
-This sums up as $173.149 worth of assets, and an outstanding debt of $8.392, which corresponds to an equivalent APY of 64.757%. This is achieved with an initial investment of $100 worth of MAI and using a stable pool as basis for farming. Note that transaction fees haven't been taken in account, but may influence the final result. This is also assuming you are compounding daily for 1 complete year.
+这总计价值 173.149 美元的资产，以及 8.392 美元的未偿债务，相当于 64.757% 的等效 APY。这是通过初始投资价值 100 美元的 MAI 并使用稳定的池作为农耕基础来实现的。请注意，交易费用尚未考虑在内，但可能会影响最终结果。这也是假设你每天复利 1 整年。
 
-## Disclaimer
+## 免责声明
 
-Everything presented in this tutorial is educational content made to illustrate how you can use your MAI without selling them, and still generate an APY of more than 60% using different protocols as lego bricks. However, this tutorial should not be considered as financial advice.
+本教程中介绍的所有内容都是教育内容，旨在说明如何在不出售 MAI 的情况下使用它们，并且使用不同的协议作为乐高积木仍然产生超过 60% 的 APY。但是，本教程不应被视为财务建议。
 
-Also, the strategy here is presenting a closed loop that doesn't sell any token and each system is feeding the next one. However, as you can see, the dQUICK final position isn't very high, and the MAI loan will probably not generate a lot of Qi. You can probably achieve the same equivalent APY (if not better) by selling the QUICK rewards granted by the ETHA-QUICK pool, buy MAI and add it to your MAI-USDT position.
+此外，这里的策略是呈现一个不出售任何代币的闭环，每个系统都在提供下一个系统。但是，如你所见，dQUICK 最终排名不是很高，MAI 贷款可能不会产生很多 Qi。你可以通过出售 ETHA-QUICK 池授予的 QUICK 奖励，购买 MAI 并将其添加到你的 MAI-USDT 头寸，来获得相同的等效 APY（如果不是更好）。
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请记住，在给定时间运作良好的策略可能在其他时间表现不佳（或让你赔钱）。请随时了解情况，监控市场，密切关注你的投资，并一如既往地进行自己的研究。
 {% endhint %}

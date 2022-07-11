@@ -15,7 +15,7 @@
   * [耕种还是质押？或两者？](jiao-cheng/polygon/farming-or-staking-or-both.md)
   * [如何结合耕种和借贷奖励](jiao-cheng/polygon/how-to-combine-farming-and-borrowing-rewards.md)
   * [Polygon 上的 OHM forks：KLIMA 案例](jiao-cheng/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
-  * [MAI single-staking with Ethalend](jiao-cheng/polygon/ethalend-single-staking.md)
+  * [MAI 与 Ethalend 的单一质押](jiao-cheng/polygon/ethalend-single-staking.md)
   * [Elephant, Chimp 和 Otter](jiao-cheng/polygon/the-elephant-and-the-otter.md)
   * [从传统金融到使用Jarvis的DeFi](jiao-cheng/polygon/jarvis.md)
   * [DCA in bear and bull markets](jiao-cheng/polygon/dca.md)
