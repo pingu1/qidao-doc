@@ -34,7 +34,7 @@ MAI 是一种由锁定的抵押代币支持的稳定代币，MAI 的铸造可以
 
 通过下面图片你可以看到，MAI 稳定币的价格几乎总是接近 1 美元，这是因为正如[官方文档](https://docs.mai.finance/stablecoin-economics)所说，MAI 稳定币允许用户参与在价格上涨时Anchor 进行无风险套利的 MAI 低于 0.99 美元或高于 1.01 美元。
 
-![ 过去 90 天的 MAI 代币价格图表](<../.gitbook/assets/image (7) (1) (1) (1) (2) (2).png>)
+![ 过去 90 天的 MAI 代币价格图表](<../.gitbook/assets/image (7) (1) (1) (1) (1) (2).png>)
 
 ## **为什么它总是接近 1 美元？**
 

@@ -4,7 +4,7 @@ description: 本指南将概述可以使用 MAI 稳定币的不同链以及如�
 
 # MAI Metaverse
 
-![](../.gitbook/assets/MAI.png)
+![](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.06.42 PM.png>)
 
 ## 介绍
 

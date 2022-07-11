@@ -27,7 +27,7 @@
   * [Fantom 上的 MAI 怎么办](jiao-cheng/fantom/what-to-do-with-mai-on-fantom.md)
   * [使用 SpiritSwap 的农场循环](jiao-cheng/fantom/farming-loop-using-spiritswap.md)
   * [Fantom上的Exodia Combo](jiao-cheng/fantom/investing-in-discounted-assets-using-bonds.md)
-  * [A Spooky Symfony](jiao-cheng/fantom/spooky-symfony.md)
+  * [Spooky Symfony](jiao-cheng/fantom/spooky-symfony.md)
 * [Moonriver](jiao-cheng/moonriver/README.md)
   * [如何开始使用Moonriver](jiao-cheng/moonriver/how-to-get-started-on-moonriver.md)
   * [在 SolarBeam 上耕种MAI](jiao-cheng/moonriver/farming-mai-on-solarbeam.md)
