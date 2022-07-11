@@ -4,7 +4,7 @@ description: 最近，MAI 的发展速度如此之快，是时候再写一篇关
 
 # MAI Metaverse Pt.2
 
-![](../.gitbook/assets/MAI.png)
+![](<../.gitbook/assets/Screen Shot 2021-09-13 at 1.06.42 PM.png>)
 
 ## Harmony
 

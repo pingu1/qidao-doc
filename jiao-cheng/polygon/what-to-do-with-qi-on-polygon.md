@@ -34,7 +34,7 @@ Qi（\[tʃ Í] 或 chee），是麦财经的原生代币。有些人用它来投
 * 在QuickSwap上的Qi-WETH并获得QUICK代币奖励
 * 在QuickSwap上的Qi-QUICK并获得QUICK代币奖励
 
-![用于Qi-WETH对的QuickSwap上的 LP 池](<../../.gitbook/assets/image (19) (2) (1) (1).png>)
+![用于Qi-WETH对的QuickSwap上的 LP 池](<../../.gitbook/assets/image (19) (2) (1).png>)
 
 ### 单Qi耕作
 

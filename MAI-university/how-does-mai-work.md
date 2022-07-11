@@ -16,9 +16,9 @@ description: 好好了解 MAI 的运作方式对于任何想了解 Mai Finance �
 
 2021 年 6 月，TITAN 代币达到了 65 美元的 ATH，这引起一群对代币投入巨资的投资者决定出售。这引起了一个问题，因为 TITAN 是用供需定价的。因此，随着 TITAN 的可用供应量增加，价格开始下降。这造成了巨大的抛售压力，所以TITAN的价格下跌得更快，所以当TITAN开始快速下跌时，IRON失去了支撑，最终失去了挂钩。
 
-![TITAN 代币的价格图表](broken-reference)
+![TITAN 代币的价格图表](../.gitbook/assets/Iron.JPG)
 
-![IRON代币的价格图表](broken-reference)
+![IRON代币的价格图表](../.gitbook/assets/titan.JPG)
 
 人们开始购买 IRON 稳定币以将其以 USDC 出售并赚取一些快钱，在一个巨大的套利机会（这意味着从代币的价格变化中获利）。长话短说，据计算，在这次事件中损失了近 17.5 亿美元。现在，IRON 稳定币和 MAI 稳定币之间有区别吗？
 
@@ -34,7 +34,7 @@ MAI 是一种由锁定的抵押代币支持的稳定代币，MAI 的铸造可以
 
 通过下面图片你可以看到，MAI 稳定币的价格几乎总是接近 1 美元，这是因为正如[官方文档](https://docs.mai.finance/stablecoin-economics)所说，MAI 稳定币允许用户参与在价格上涨时Anchor 进行无风险套利的 MAI 低于 0.99 美元或高于 1.01 美元。
 
-![ 过去 90 天的 MAI 代币价格图表](<../.gitbook/assets/image (7) (1) (1) (1) (1) (2).png>)
+![ 过去 90 天的 MAI 代币价格图表](<../.gitbook/assets/image (7) (1) (1) (1) (2).png>)
 
 ## **为什么它总是接近 1 美元？**
 

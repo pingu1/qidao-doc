@@ -14,7 +14,7 @@
   * [像乐高积木一样堆叠 DApp](jiao-cheng/polygon/stack-dapps-like-lego-bricks.md)
   * [耕种还是质押？或两者？](jiao-cheng/polygon/farming-or-staking-or-both.md)
   * [如何结合耕种和借贷奖励](jiao-cheng/polygon/how-to-combine-farming-and-borrowing-rewards.md)
-  * [OHM forks on Polygon: The case of KLIMA](jiao-cheng/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
+  * [Polygon 上的 OHM forks：KLIMA 案例](jiao-cheng/polygon/ohm-forks-on-polygon-the-case-of-klima.md)
   * [MAI single-staking with Ethalend](jiao-cheng/polygon/ethalend-single-staking.md)
   * [Elephant, Chimp 和 Otter](jiao-cheng/polygon/the-elephant-and-the-otter.md)
   * [从传统金融到使用Jarvis的DeFi](jiao-cheng/polygon/jarvis.md)

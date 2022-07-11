@@ -140,7 +140,7 @@ $$
 
 这或多或少对应于 MATIC Vault 的 APR，如下面的屏幕截图所示：
 
-![Vault奖励推出后MATIC 金库在 Mai Finance 上的 APR](<../.gitbook/assets/image (23) (2) (3) (1) (1) (4).png>)
+![Vault奖励推出后MATIC 金库在 Mai Finance 上的 APR](<../.gitbook/assets/image (23) (2) (3) (1) (4).png>)
 
 ### 计算起始vault的 APR
 
