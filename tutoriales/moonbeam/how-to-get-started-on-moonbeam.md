@@ -1,95 +1,93 @@
 ---
-description: In this guide, we'll explain how to get started using Moonbeam.
+description: En esta guía, explicaremos cómo empezar a utilizar Moonbeam.
 ---
 
-# How to get started on Moonbeam
+# Cómo comenzar en Moonbeam
 
-## What is Moonbean?
+## ¿Qué es Moonbean?
 
-Launching in January 2020, Moonbeam is an EVM (Ethereum virtual machine) compatible smart contract platform running on the Polkadot network making it what is called a Polkadot parachain. Parachains are interconnected set of chains that benefit from Polkadot's main relay chain while remaining interoperable, thereby partaking in the benefits and security of the main chain while running in parallel to it.\
-\
-Polkadot describes the benefits of parachains as follows, “Parachains end the era of siloed blockchains, creating a decentralized, connected internet of blockchains where before there existed only isolated networks with their own tribalistic communities.”
+Lanzado en enero de 2020, Moonbeam es una plataforma de contratos inteligentes compatible con EVM (máquina virtual de Ethereum) que se ejecuta en la red Polkadot, lo que la convierte en lo que se denomina una paracadena Polkadot. Las parachains son conjuntos interconectados de cadenas que se benefician de la cadena principal de Polkadot sin dejar de ser interoperables, por lo que participan en los beneficios y la seguridad de la cadena principal mientras se ejecutan en paralelo a ella.
 
-![Moonbeam, a Polkadot parachain](<../../.gitbook/assets/moonbeam (1).jpg>)
+Polkadot describe los beneficios de las parachains de la siguiente manera: "Las parachains ponen fin a la era de las blockchains en silos, creando una internet descentralizada y conectada de blockchains donde antes sólo existían redes aisladas con sus propias comunidades tribalistas."
 
-Because of its EVM compatibility layer, Moonbeam makes it easier for Solidity developers to be able to port their existing applications from other EVM-compatible networks to Moonbeam with few code changes. Moonbeam currently has a TVL of $130m, and a [vibrant and growing](https://defillama.com/chain/Moonbeam) ecosystem of applications.&#x20;
+![](<../../.gitbook/assets/moonbeam (1).jpg>)
 
-Moonbeat also offers Substrate compatibility. Substrate is a modular blockchain framework used by developers for building blockchains tailored to their needs using reusable components called pallets. It uses the Rust programming language and is the framework most developers use when building parachains for the Polkadot network.
+Gracias a su capa de compatibilidad con EVM, Moonbeam facilita que los desarrolladores de Solidity puedan portar sus aplicaciones existentes de otras redes compatibles con EVM a Moonbeam con pocos cambios de código. Moonbeam tiene actualmente un TVL de 130 millones de dólares- Si quiere comprobar cuales son las aplicaciones existentes en esta red, puede visitar el siguiente [link](https://defillama.com/chain/Moonbeam).&#x20;
 
-As Moonbeam is a Substrate-based blockchain, apps integrated with its network benefit from interoperability between the Polkadot and Ethereum chains, as well as others like Bitcoin.
+Moonbeam también ofrece compatibilidad con Substrate. Substrate es un marco modular de blockchain utilizado por los desarrolladores para construir blockchains a la medida de sus necesidades utilizando componentes reutilizables llamados pallets. Utiliza el lenguaje de programación Rust y es el marco que la mayoría de los desarrolladores utilizan cuando construyen parachains para la red Polkadot.
 
-Developers can also use Substrate-compatible ecosystem tools commonly used on Ethereum, including block explorers, front-end development libraries, and wallets, as well as development tools like Truffle and Remix.\
-\
-The native gas token for Moonbeam is GLMR.
+Como Moonbeam es una blockchain basada en Substrate, las aplicaciones integradas en su red se benefician de la interoperabilidad entre las cadenas Polkadot y Ethereum, además de otras como Bitcoin. Los desarrolladores también pueden utilizar las herramientas del ecosistema compatibles con Substrate que se utilizan habitualmente en Ethereum, incluidos los exploradores de bloques, las bibliotecas de desarrollo front-end y los monederos, así como las herramientas de desarrollo como Truffle y Remix.
 
-## Getting started on Moonbeam
+El token de gas nativo de Moonbeam es GLMR.
 
-Before using Moonbeam, you will need a wallet address. Because Moonbeam is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network.
+## Empezando en Moonbeam
 
-For this tutorial, we will stick to Metamask just as we have done for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
+Antes de utilizar Moonbeam, necesitarás una dirección de monedero. Dado que Moonbeam es una red EVM, aceptará los mismos monederos que en otras cadenas EVM, incluyendo monederos web como Metamask o Nifty, y podrás utilizar tu monedero hardware como Trezor o Ledger, pero puede que tengas que seguir pasos adicionales para poder conectar tu monedero frío a la red.&#x20;
 
-### Adding Moonbeam to Metamask
+Para este tutorial, nos ceñiremos a Metamask tal y como hemos hecho en todas las demás guías de este sitio. Si no tienes Metamask instalado, puedes encontrar instrucciones en [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
 
-Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Add Network`. You will use the following information in the relevant text fields:
+### Añadiendo Moonbeam a Metamask
 
-* **Network Name:** Moonbeam
-* **New RPC URL:** [https://rpc.api.moonbeam.network](https://rpc.api.moonbeam.network)
-* **Chain ID:** 128
-* **Currency Symbol:** GLMR
-* **Block Explorer URL:** [https://moonscan.io/](https://moonscan.io/)
+Abra la ventana emergente de Metamask, haga clic en el icono de su monedero, vaya a Configuración, elija Redes y busque Añadir red. Utilizarás la siguiente información en los campos de texto correspondientes:
 
-Save the changes, and Metamask will automatically switch you over to Moonbeam:
+* **Nombre de la red:** Moonbeam
+* **URL del RPC:** [https://rpc.api.moonbeam.network](https://rpc.api.moonbeam.network)
+* **ID de la red:** 128
+* **Simbolo del token:** GLMR
+* **URL del explorador de bloques:** [https://moonscan.io/](https://moonscan.io/)
 
-![Moonbeam on Metamask](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.34.43 PM.png>)
+Guarde los cambios y Metamask le cambiará automáticamente a Moonbeam:
 
-## Bridging to Moonbeam
+![Moonbeam en Metamask](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.34.43 PM.png>)
+
+## Enviando fondos a Moonbeam
 
 ### Faucets
 
-GLMR is Moonbeam's native gas token so you'll need to have some in your wallet to make transactions on chain. Fortunately, the official Moonbeam Faucet will help get your started with a small amount of GLMR, though please note that the amount dispersed by the token may sometimes not be enough to complete a transaction if the network is congested. \
-\
-In order to receive some free GLMR, you'll need to verify you're a human via the captcha bot, and connect your Metamask wallet to the site. A small amount (0.007 GLMR) will then be sent immediately to your wallet.
+GLMR es el token de gas nativo de Moonbeam, por lo que necesitarás tener un poco en tu cartera para realizar transacciones en la cadena. Afortunadamente, el faucets oficial de Moonbeam te ayudará a empezar con una pequeña cantidad de GLMR, aunque ten en cuenta que la cantidad dispersada por el tokens a veces puede no ser suficiente para completar una transacción si la red está congestionada.
+
+Para recibir un poco de GLMR gratis, tendrás que verificar que eres un humano a través del bot captcha, y conectar tu monedero Metamask al sitio. Una pequeña cantidad (0,007 GLMR) se enviará inmediatamente a su cartera.
 
 ![GLMR.Supply Faucet](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.57.39 PM.png>)
 
-Additionally, users may want to use Solarflare's "[Swap for gas](https://app.solarflare.io/bridge/gas-swap)" feature. This allows users to swap other tokens including WETH, WBTC, USDC, DAI, USDT, BUSD, FLARE, and BNB into GLMR, Moonbeam's native gas token.
+Además, los usuarios pueden utilizar la herramienta de Solarflare "[Intercambiar por gas](https://app.solarflare.io/bridge/gas-swap)". Esto permite a los usuarios intercambiar otros tokens como WETH, WBTC, USDC, DAI, USDT, BUSD, FLARE y BNB en GLMR, el token de gas nativo de Moonbeam.
 
-![Solarflare's "Swap for Gas" feature](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.15.46 PM.png>)
+![La utilidad de Intercambiar por gas de Solarflare](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.15.46 PM.png>)
 
-### Bridges
+### Puentes
 
-* [Multichain](https://app.multichain.org/#/router) is the official bridge for MAI through its partnership with MAI finance, and you can easily send your MAI to Moonbeam by using it.
+* [Multichain](https://app.multichain.org/#/router) es el puente oficial para MAI a través de su asociación con MAI finance, y puedes enviar fácilmente tu MAI a Moonbeam utilizándolo.
 
-![Multichain on Moonbeam](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.03.00 PM.png>)
+![Multichain en Moonbeam](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.03.00 PM.png>)
 
-* [Solarflare](https://app.solarflare.io/bridge) is a full-featured AMM (automated market maker) on Moonbeam which is very similar to Uniswap. Solarflare has a built-in bridge which allows users to bridge assets from Ethereum mainnet as well as BNB chain to Moonbeam. Solarflare also has a "Swap for gas" feature as mentioned in the Faucets section above.
+* [Solarflare](https://app.solarflare.io/bridge) es un AMM (creador de mercado automatizado) con todas las funciones en Moonbeam que es muy similar a Uniswap. Solarflare tiene un puente incorporado que permite a los usuarios puentear activos de la red principal de Ethereum así como de la cadena BNB a Moonbeam. Solarflare también tiene una función de "Swap for gas" como se menciona en la sección Faucets anterior.
 
-![Bridging with Solarflare](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.06.21 PM.png>)
+![Enviando fondos con Solarflare](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.06.21 PM.png>)
 
-* [Celer](https://cbridge.celer.network/#/transfer) is a popular bridge that also supports Moonbeam. Please note that you may not be able to bridge from every chain into Moonbeam (Polygon to Moonbeam bridging is not supported, for example).
+* [Celer](https://cbridge.celer.network/#/transfer) es un puente popular que también soporta Moonbeam. Tenga en cuenta que es posible que no pueda hacer un puente desde todas las cadenas a Moonbeam (no se admite el puente de Polygon a Moonbeam, por ejemplo)..
 
-![Bridging with Celer](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.10.32 PM.png>)
+![Enviando fondos con Celer](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.10.32 PM.png>)
 
-* Other bridges are available but may be chain specific such as Nomad or Axelar for the Cosmos ecosystem.
+* Hay otros puentes disponibles, pero pueden ser específicos de la cadena, como Nomad o Axelar para el ecosistema Cosmos.
 
-## DeFi on Moonbeam
+## DeFi en Moonbeam
 
-[StellaSwap](https://app.stellaswap.com/farm) is currently the main source of liquidity for MAI on Moonbeam. The MAI-Base4Pool is comprised of MAI, FRAX, USDT, USDC, and DAI and currently has a TVL (total value locked) of $535k, yielding a solid 26% APR (annual percentage rate) on your stablecoins.
+[StellaSwap](https://app.stellaswap.com/farm) es actualmente la principal fuente de liquidez para MAI en Moonbeam. El MAI-Base4Pool se compone de MAI, FRAX, USDT, USDC y DAI y actualmente tiene un TVL (valor total bloqueado) de 535.000 dólares, lo que supone un sólido 26% de TAE (tasa de porcentaje anual) en sus stablecoins
 
 ![MAI-Base4Pool on StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.22.32 PM.png>)
 
-Moonbeam has a vibrant DeFi ecosystem with dozens of DApps (decentralized applications) available to use including DeFi staples found on other chains such as [Curve](https://moonbeam.curve.fi/) and [Beefy Finance](https://app.beefy.com/). For a full list of available DApps, check out [DefiLlama's Moonbeam page](https://defillama.com/chain/Moonbeam).
+Moonbeam tiene un vibrante ecosistema DeFi con docenas de DApps (aplicaciones descentralizadas) disponibles para su uso, incluyendo grapas DeFi que se encuentran en otras cadenas como [Curve](https://moonbeam.curve.fi/) y [Beefy Finance](https://app.beefy.com/). Para obtener una lista completa de las DApps disponibles, consulte la siguientes pagina de [DefiLlama](https://defillama.com/chain/Moonbeam)
 
-## Mai Finance on Moonbeam
+## Mai Finance en Moonbeam
 
-While Mai Finance is not available on Moonbeam, you can create vaults and borrow MAI against xStella and wGLMR on StellaSwap. Please note that borrowing MAI on StellaSwap will incur interests - 12% on xStella vaults, and 8% on wGLMR vaults. You can find out more on how to use StellaSwap's MAI vaults in the next section titled, [Playing with MAI legos on StellaSwap](playing-with-mai-legos-on-stellaswap.md).
+Mientras que Mai Finance no está disponible en Moonbeam, puedes crear bóvedas y pedir prestado MAI contra xStella y wGLMR en StellaSwap. Ten en cuenta que los préstamos de MAI en StellaSwap devengarán intereses: el 12% en los depósitos de xStella y el 8% en los de wGLMR. Puede encontrar más información sobre cómo utilizar los depósitos MAI de StellaSwap en la siguiente sección titulada, [Playing with MAI legos on StellaSwap](playing-with-mai-legos-on-stellaswap.md).
 
-![Vaults on StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.01.01 PM.png>)
+![Vaults en StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.01.01 PM.png>)
 
-## Disclaimer
+## Descargo de Responsabilidad
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Esta guía NO es un consejo financiero, y debe considerarse simplemente como una herramienta educativa. Haga siempre su propia investigación. La discusión de un proyecto en esta guía no debe considerarse como una aprobación del proyecto.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenga en cuenta que una estrategia que funciona bien en un momento dado puede dar malos resultados (o hacerle perder dinero) en otro momento. Manténgase informado, controle los mercados, vigile sus inversiones y, como siempre, investigue por su cuenta.
 {% endhint %}
