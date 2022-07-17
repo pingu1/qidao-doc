@@ -1,52 +1,52 @@
 ---
-description: Using MAI on Moonbeam to earn yield with StellaSwap.
+description: Usando MAI en Moonbeam para ganar rendimiento con StellaSwap.
 ---
 
-# Playing with MAI legos on StellaSwap
+# Utilizando MAI como Legos en StellaSwap
 
-While Mai Finance does not offer vaults on Moonbeam, it is possible to use some of your favorite tokens on the chain to mint MAI by using Stella_S_wap's new MAI vaults. By leveraging your collateral tokens and borrowing MAI against it, you can earn great yield through a looping strategy involving xSTELLA and MAI.
+Aunque Mai Finance no ofrece bóvedas en Moonbeam, es posible utilizar algunos de tus tokens favoritos en la cadena para acuñar MAI utilizando las nuevas bóvedas MAI de StellaSwap. Aprovechando tus tokens de garantía y pidiendo prestado MAI contra ellos, puedes ganar un gran rendimiento a través de una estrategia de bucle que involucra a xSTELLA y MAI.&#x20;
 
-_NOTE: This guide is not meant as financial advice. It was created with an educational goal in mind. The goal of this guide is not to propose a strategy to be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose._
+NOTA: Esta guía no pretende ser un consejo financiero. Fue creada con un objetivo educativo en mente. El objetivo de esta guía no es proponer una estrategia a seguir ciegamente, así que por favor haga sus deberes y su propia simulación, y sólo invierta lo que esté dispuesto a perder posiblemente.
 
-[StellaSwap](https://stellaswap.com/) is the leading DEX (decentralized exchange) on Moonbeam. As a full-featured DEX, StellaSwap offers users the ability to swap tokens, earn yield on farms, and participate in protocol governance. What sets StellaSwap apart, is that it is the first such protocol that allows users to mint MAI natively directly from its interface through a partnership with Mai Finance.
+[StellaSwap](https://stellaswap.com/) es el principal DEX (intercambio descentralizado) en Moonbeam. Como DEX con todas las funciones, StellaSwap ofrece a los usuarios la posibilidad de intercambiar tokens, ganar rendimiento en las granjas y participar en el gobierno del protocolo. Lo que diferencia a StellaSwap es que es el primer protocolo de este tipo que permite a los usuarios acuñar MAI de forma nativa directamente desde su interfaz a través de una asociación con Mai Finance.
 
-![Mint MAI directly from StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 4.41.56 PM.png>)
+![Minteando MAI usando StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 4.41.56 PM.png>)
 
-### Minting MAI on StellaSwap
+### Minteando MAI en StellaSwap
 
-Unlike MAI vaults on Mai Finance, StellaSwap's MAI vaults do charge interest for borrowing against your assets. Currently, users can borrow MAI against xStella, StellaSwap's revenue sharing staked token, at 12% interest, or against wGLMR, a wrapped version of Moonbeam's native gas token, at 8% interest. While users familiar with Mai Finance's 0% interest vaults might be taken aback by the higher interest rates, we'll go through a looping strategy in this guide to allow you to earn high yields on your borrowed stablecoins without ever leaving StellaSwap.
+A diferencia de las cajas fuertes de MAI en Mai Finance, las cajas fuertes de MAI de StellaSwap cobran intereses por pedir prestado contra sus activos. Actualmente, los usuarios pueden pedir prestado MAI contra xStella, el token de reparto de ingresos de StellaSwap, a un interés del 12%, o contra wGLMR, una versión "envuelta" del token de gas nativo de Moonbeam, a un interés del 8%. Aunque los usuarios familiarizados con las cajas fuertes de Mai Finance con un interés del 0% podrían sorprenderse por los tipos de interés más elevados, en esta guía veremos una estrategia de bucle que le permitirá obtener altos rendimientos de sus stablecoins prestadas sin tener que salir de StellaSwap.
 
-![Vaults on StellSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.01.01 PM.png>)
+![Vaults en StellSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.01.01 PM.png>)
 
-1. First, head off to StellaSwap's [MAI minting facility](https://app.stellaswap.com/mai).
-2. From here you'll be able to create an xStella or wGLMR vault to borrow MAI against. To create our looping strategy, we will create an xStella vault.
-3. Now enter your newly created vault and deposit xStella. Please note that xStella vaults have a  40% LTV (loan to value ratio) which means that for every $100 worth of xStella, you will be able to borrow $40 worth of MAI.&#x20;
-4. Next, you'll want to head to the borrow section, and borrow MAI. Please keep in mind your LTV to avoid being liquidated.
+1. Primero, vaya a la pagina que permite mintear [MAI.](https://app.stellaswap.com/mai)
+2. Desde aquí podrá crear una bóveda xStella o wGLMR para tomar prestado el MAI. Para crear nuestra estrategia de bucle, crearemos una bóveda xStella.
+3. Ahora entre en su bóveda recién creada y deposite xStella. Tenga en cuenta que los depósitos de xStella tienen un 40% de LTV (relación préstamo-valor), lo que significa que por cada 100 dólares de xStella, podrá pedir prestados 40 dólares de MAI.&#x20;
+4. A continuación, deberás dirigirte a la sección de préstamos, y tomar prestados MAI. Ten en cuenta tu LTV para evitar que te liquiden.
 
-![xStella vault](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.05.01 PM.png>)
+![Vault de xStella](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.05.01 PM.png>)
 
-### Putting the legos together
+### Poniendo el sistema en marcha
 
-Now that you've successfully borrowed MAI, it's time to put it to use! We'll be leveraging our MAI by depositing it into StellaSwap's MAI-Base4Pool stablecoin farm and using the yields to earn more Stella tokens by staking them. Always remember that if you enter this strategy you do so at your own risk and your vault may be liquidated if you do not do your due diligence! \
-\
-Let's first find the MAI-Base4Pool on the StellaSwap [Farms](https://app.stellaswap.com/farm) page.
+Ahora que has tomado prestado MAI con éxito, ¡es el momento de ponerlo en práctica! Aprovecharemos nuestro MAI depositándolo en la granja de stablecoins MAI-Base4Pool de StellaSwap y utilizaremos los rendimientos para ganar más tokens de Stella apostando por ellos. ¡Recuerda siempre que si entras en esta estrategia lo haces bajo tu propio riesgo y tu bóveda puede ser liquidada si no haces tu debido estudio!
+
+Primero encontremos el MAI-Base4Pool en la pagina de [Granjas](https://app.stellaswap.com/farm) de StellaSwap.
 
 ![MAI-Base4Pool](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.22.32 PM.png>)
 
-This farm currently offers a very attractive 26% yield on stable coins with a pool comprised of MAI, FRAX, USDT, USDC, and DAI with a yield paid out in Stella tokens. Note that this yield is mostly offsetting the interest we are currently paying on our borrowed MAI (12%). We can take a look at our performance so far:
+Esta granja ofrece actualmente un rendimiento muy atractivo del 26% en monedas estables con un pool compuesto por MAI, FRAX, USDT, USDC y DAI con un rendimiento pagado en tokens de Stella. Tenga en cuenta que este rendimiento compensa en gran medida el interés que estamos pagando actualmente por nuestro MAI prestado (12%). Podemos echar un vistazo a nuestro rendimiento hasta ahora:
 
-$$effective interest = (collateral * borrow interest)-(mai*farmingyield)$$
+$$interes real = (colateral * interes del prestamo)-(mai*rendimiento del farming)$$
 
-This gives us an effective yield of 1.6% to borrow MAI - not bad, but we can do better. We can now take the Stella tokens we are earning from being in the MAI-Base4Pool and [stake them to receive xStella](https://app.stellaswap.com/xstella).&#x20;
+Esto nos da un rendimiento efectivo del 1,6% al pedir prestado MAI - no está mal, pero podemos hacerlo mejor. Ahora podemos tomar los tokens de Stella que estamos ganando por estar en el MAI-Base4Pool y [hacer staking para recbir xStella](https://app.stellaswap.com/xstella).
 
-![Staking xStella](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.33.31 PM.png>)
+![Staking de xStella](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.33.31 PM.png>)
 
-Staking xStella has two additional benefits. First, it provides a staking APR of 70%, thereby compounding our yields, but more importantly, xStella increases in value over time as swap revenue from the protocol is shared among users. This means that any yields we are earning from our relatively safe position in a stablecoin farm, are continuously increasing. We can then use these additional yields to deposit additional xStella into our vault to increase our LTV, or to borrow additional MAI against it.
+Stakear xStella tiene dos beneficios adicionales. En primer lugar, proporciona un APR de staking del 70%, con lo que aumentan nuestros rendimientos, pero lo más importante es que xStella aumenta su valor con el tiempo, ya que los ingresos por intercambio del protocolo se reparten entre los usuarios que hacen staking. Esto significa que los rendimientos que obtenemos de nuestra posición relativamente segura en una granja de stablecoin, aumentan continuamente. Podemos entonces utilizar estos rendimientos adicionales para depositar xStella adicional en nuestra bóveda para aumentar nuestra LTV, o para pedir prestado MAI adicional contra ella.
 
-## Disclaimer
+## Descargo de Responsabilidad
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Esta guía NO es un consejo financiero, y debe considerarse simplemente como una herramienta educativa. Haga siempre su propia investigación. La discusión de un proyecto en esta guía no debe considerarse como un respaldo al proyecto..
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenga en cuenta que una estrategia que funciona bien en un momento dado puede dar malos resultados (o hacerle perder dinero) en otro momento. Manténgase informado, controle los mercados, vigile sus inversiones y, como siempre, investigue por su cuenta.
 {% endhint %}
