@@ -22,7 +22,7 @@ Esta guía describirá paso a paso cómo usar Mai Finance para asegurar tus gana
 Para entender con mejor detalle cómo puedes hacerlo, usaré la última granja [PolyUp](https://polypup.finance). Esta explicación se realizará con propósito educativo y no deberá ser utilizada como consejo financiero. Además, el término "seguro" esta basado en mi opinión personal del equipo. Como siempre, Haz Tu Propia Investigación (DYOR). Por último, no recomendamos esta granja.
 {% endhint %}
 
-![](../../.gitbook/assets/screen-shot-2021-08-09-at-10.20.26-am.png)
+![](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.20.26 AM.png>)
 
 ## Ciclo de vida del farmeo
 
@@ -42,11 +42,11 @@ Puedes depositar tus tokens de MATIC en tu bóveda de MATIC, pero además puedes
 
 Una vez hayas obtenido el préstamo de MAI, podrás utilizar la página de [Anchor](https://app.mai.finance/anchor) para convertir la mitad de tu préstamo en USDC. Recuerda, que para farmear usando los pares de liquidez, las dos partes tienen que tener un ratio de 1:1.
 
-![Usando la página Anchor se podrá convertir 30 MAI a USDC](../../.gitbook/assets/screen-shot-2021-08-09-at-6.28.28-am.png)
+![Usando la página Anchor se podrá convertir 30 MAI a USDC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.28.28 AM.png>)
 
 Dependiendo de la granja donde quieras farmear, necesitarás combinar tus 2 monedas estables (MAI y USDC) en un par de liquidez válido usando un **DEX** (**EX**change **D**escentralizado). Como vamos a utilizar la granja de Polyup, y esa página acepta los pares de liquidez de Quickswap, deberás ir a [QuickSwap](https://quickswap.exchange/#/pool) y generar ahí el par.
 
-![Genera unos tokens de par de liquidez usando MAI y USDC](../../.gitbook/assets/screen-shot-2021-08-09-at-6.29.16-am.png)
+![Genera unos tokens de par de liquidez usando MAI y USDC ](<../../.gitbook/assets/Screen Shot 2021-08-09 at 6.29.16 AM.png>)
 
 Ahora estás listo para entrar en una granja.
 
@@ -54,7 +54,7 @@ Ahora estás listo para entrar en una granja.
 
 Ahora que tienes algunos tokens del par de liquidez, puedes ir a la granja y depositarlos para empezar a recolectar los tokens nativos de la granja. En este ejemplo, se ha depositado MAI/USDC en la siguiente reserva de liquidez, y se ha empezado a generar tokens BALL.
 
-![Generar BALL en la reserva](../../.gitbook/assets/screen-shot-2021-08-09-at-10.58.19-am.png)
+![Generar BALL en la reserva](<../../.gitbook/assets/Screen Shot 2021-08-09 at 10.58.19 AM.png>)
 
 Por ahora, cómo se puede observar en la imagen superior, farmeando MAI/USDC se puede una tasa de retorno del 176.99%. Esto se debe a la cantidad de liquidez que hay en la reserva de liquidez, y en el precio del token BALL, por lo que este porcentaje puede variar.
 
@@ -73,7 +73,7 @@ Ahora que tienes unos tokens de una granja, puedes elegir entre lo siguiente:
 
 Sin embargo, Mai Finance presenta una alternativa que te deja hacer ambas. Una vez que hayas recolectado tus recompensas, podrás ir a tu DEX favorito que tenga soporte de dicho token. Por lo general, puedes encontrar un link al DEX en el menú de la granja directamente. Este link incluirá la dirección del contrato del token, lo que te permitirá operar con ese token de forma más sencilla.
 
-![Cambiando mis recompensas por MATIC](../../.gitbook/assets/screen-shot-2021-08-09-at-11.14.29-am.png)
+![Cambiando mis recompensas por MATIC](<../../.gitbook/assets/Screen Shot 2021-08-09 at 11.14.29 AM.png>)
 
 Llegados a este punto, volvemos a tener tokens MATIC en nuestra cartera, listos para ser depositados en MAI Finance como colateral. Si lo hiciera, podría pedir prestado MAI, cambiar una parte por USDC, crear un token del par de la reserva de liquidez y redepositarlos en la granja. Haciendo esta conversión, he "asegurado" el 100% de las recompensas intercambiando el token nativo de la granja por un token mucho mas estable (en este caso MATIC) y he vuelto a reinvertir el 50% de mis recompensas en la reserva de liquidez (para ser exactos, ha sido un 46% debido a la comisión del 4% al depositar el par).
 
@@ -117,17 +117,17 @@ Obviamente estas consideraciones no se pueden aplicar en la vida real, ya que el
 * Al final del día 1, como hemos añadido mas MATIC a nuestra bóveda, podemos pedir prestado mas MAI.
 * Para mantener el Ratio de Colateral Deuda (CDR) al 200%, solo se pedira prestado la mitad del MATIC depositado ($0.139).
 * Al comienzo del día 2, se ha reinvertido $0.139 en la granja (donde la granja cobrará un 4% de comisión de depósito).
-* Al comienzo del día 2, se ha comenzado con un $0.134 adicional del token del par de liquidez.
+* Al comienzo del día 2, se ha comenzado con un $0.134 adicional del token del par de liquidez.&#x20;
 
 ### Estimación de APRs, APYs y crecimiento del beneficio
 
-La estimación fue interrumpida en el dia 18 ya que una vez pasada dicha fecha, se puede observar que se ha vuelto a obtener 60$ del token de la reserva de liquidez. Esto significa que se ha farmeado lo suficiente para volver a obtener el depósito inicial, esto debería ser el mínimo que debería hacer cualquier granjero.
+La estimación fue interrumpida en el dia 18 ya que una vez pasada dicha fecha, se puede observar que se ha vuelto a obtener 60$ del token de la reserva de liquidez. Esto significa que se ha farmeado lo suficiente para volver a obtener el depósito inicial, esto debería ser el mínimo que debería hacer cualquier granjero.&#x20;
 
 A partir de ese día, sólo se obtendrían beneficios y al estar en una reserva de liquidez de monedas estables, es imposible que haya pérdida impermanente en la liquidez suministrada. Esto significa, que no habrá ninguna posibilidad de perder dinero al estar en dicha reserva.
 
 Sin embargo, hay que destacar que la comisión del depósito inicial ($2.40) fue repagada en el dia 9 al tener el suficiente MATIC en la cartera como beneficio. Si se hubiera vendido el token nativo de la granja y no se hubiera reinvertido en la reserva de liquidez, ese hubiera sido el momendo dónde solo generaría beneficios.
 
-En términos de ganancias, la recompensa que se compone en la granja, es solo del 50% del APR. Esto significa que con una granja con un APR del 176.99%, el crecimiento anual sería del 88.495% anual, o 0.242% diario.
+En términos de ganancias, la recompensa que se compone en la granja, es solo del 50% del APR. Esto significa que con una granja con un APR del 176.99%, el crecimiento anual sería del 88.495% anual,  o 0.242% diario.
 
 También es posible calcular la ganancia exacta que fue acumulada en cualquier día en la granja, asumiendo que se vuelven a reinvertir diariamente, se puede utilizar la siguiente fórmula para calcular el **ROI** ( Retorno de la Inversión):
 
@@ -145,7 +145,7 @@ $$
 APY = ( 1 + \frac{APR}{N})^N-1
 $$
 
-Esto da como resultado un APR del 88.495% y un del N = 365 (reinvirtiendo diariamente).
+Esto da como resultado un APR del 88.495% y  un del N = 365 (reinvirtiendo diariamente).
 
 $$
 APY = ( 1 + \frac{0.88495}{365})^{365}-1=142.02\%
@@ -161,8 +161,8 @@ Este es el número de MATIC que se generará al mantenerse en la misma granja po
 
 Al final del año se obtendrá lo siguiente:
 
-* $283.62 MATIC en la bóveda ($120.00 iniciales + $163.62 generados en la granja).
-* $141.82 de deuda ($60.00 iniciales + $81.82 prestados y reinvertidos).
+* $283.62 MATIC en la bóveda ($120.00 iniciales  + $163.62 generados en la granja).
+* $141.82 de deuda ($60.00 iniciales  + $81.82 prestados y reinvertidos).
 * $141.82 de MAI/USDC tokens en la granja.
 
 ## Descargo de responsabilidad
@@ -174,7 +174,7 @@ Para realizar esta estrategia se ha asumido lo siguiente:
 
 Además, el APR del par MAI/USDC de la reserva de Polypup tras 24h de farmeo es 128.13%, debido a que el precio de BALL esta disminuyendo ligeramente.
 
-Farmear con monedas estables _**podrá**_. ser la forma más "segura" de obtener ganancias porque no estas expuestos a pérdidas impermanentes. Sin embargo, no hay ninguna garantía de que puedas obtener el 4% de comisión del depósito inicial. Se pueden encontrar facilmente granjas que tiene reservas de monedas estables con 0% o 1% de comisión de depósito, incluso en las reservas no nativas (reservas que aceptan pares de liquidez sin el token de la granja en cuestión).
+Farmear con monedas estables _**podrá**_. ser la forma más "segura" de obtener ganancias porque no estas expuestos a pérdidas impermanentes.   Sin embargo, no hay ninguna garantía de que puedas obtener el 4% de comisión del depósito inicial. Se pueden encontrar facilmente granjas que tiene reservas de monedas estables con 0% o 1%  de comisión de depósito, incluso en las reservas no nativas (reservas que aceptan pares de liquidez sin el token de la granja en cuestión).
 
 Recolectar las recompensas e intercambiarlas por algo valioso es considerado la mejor estrategia cuando se farmea en granjas de rendimiento. Pedir prestado MAI para reinvertir una parte en la reserva de liquidez de tus monedas estables, e incrementar tus beneficios potenciales al farmear expone tus beneficios a la comisión de depósito del 4% que la granja esta cobrando de tu par de liquidez, lo que no sería la mejor solución si estas dudando si los podrás recuperar, por lo que será mejor usar otra estrategia para reinvertir tus ganancias (invertir en reservas nativas / reservas con un 0% de comisión / reservas con mayores APRs).
 

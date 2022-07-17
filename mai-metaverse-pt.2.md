@@ -7,13 +7,13 @@ description: >-
 
 # Universo MAI Pt.2
 
-![](<.gitbook/assets/Screen Shot 2021-09-13 at 1.06.42 PM.png>)
+![](.gitbook/assets/MAI.png)
 
 ## Harmony
 
 ### ¿Qué es Harmony?
 
-Harmony (ONE) es una plataforma de blockchain descentralizada diseñada como puente entre los esfuerzos de escalabilidad y descentralización. Su desarrollo se ha llevado a cabo bajo el lema "descentralización a escala", centrándose en el intercambio de datos y la creación de mercados de tokens fungibles y activos no fungibles. Además, Harmony viene con la promesa adicional de ofrecer un alto rendimiento acompañado de dos "bajas": la latencia y las tarifas. Combinadas, se supone que sitúan a la plataforma en el centro de los esfuerzos por sentar las bases de las futuras economías descentralizadas sin confianza.
+Harmony (ONE) es una plataforma de blockchain descentralizada diseñada como puente entre los esfuerzos de escalabilidad y descentralización. Su desarrollo se ha llevado a cabo bajo el lema "descentralización a escala", centrándose en el intercambio de datos y la creación de mercados de tokens fungibles y activos no fungibles. Además, Harmony viene con la promesa adicional de ofrecer un alto rendimiento acompañado de dos "bajas": la latencia y las tarifas. Combinadas, se supone que sitúan a la plataforma en el centro de los esfuerzos por sentar las bases de las futuras economías descentralizadas sin confianza.&#x20;
 
 Sin embargo, lo que hace única a la blockchain de Harmony es su sistema de fragmentación profunda. Un fragmento (shard) es un sinónimo de pieza o parte. El sharding en Harmony significa dividir sus nodos en cuatro grupos iguales. Por lo tanto, hay un total de 1.000 nodos divididos en cuatro fragmentos, por lo que un fragmento consta de 250 nodos. Además, los nodos exactos dentro de los fragmentos se mezclan de forma regular y aleatoria. Este número se establece exactamente así para aumentar la seguridad del sistema y añadir más escalabilidad. Si quieres saber más sobre esta cadena, puedes leer este [articul](https://guarda.com/academy/crypto/what-is-harmony/)o.
 
@@ -21,7 +21,7 @@ Sin embargo, lo que hace única a la blockchain de Harmony es su sistema de frag
 
 Para enviar MAI de Polygon a Harmony, puede utilizar la plataforma [AnySwap ](https://anyswap.exchange/#/router). La interfaz de usuario es bastante sencilla, lo único que tendrás que hacer es seleccionar la cadena donde tienes el MAI y a dónde quieres enviarlo.
 
-![Enviando MAI desde Polygon a Harmony](<.gitbook/assets/MAI - Harmony.JPG>)
+![ Enviando MAI desde Polygon a Harmony](<.gitbook/assets/MAI - Harmony.JPG>)
 
 {% hint style="info" %}
 Ten en cuenta que al final de la página de Anyswap hay una información importante sobre el puente de MAI, así que compruébalo antes de hacer cualquier transacción.
@@ -62,7 +62,7 @@ Recuerda que para utilizar esta granja, tendrás que depositar la misma proporci
 
 ### ¿Qué es Cronos?
 
-Cronos es una sidechain compatible con EVM que funciona en paralelo con la cadena Crypto.org. Antes de lanzar Cronos, el ecosistema de Crypto.com abarca la cadena Crypto.com y el intercambio centralizado Crypto.com.
+Cronos es una sidechain compatible con EVM que funciona en paralelo con la cadena Crypto.org. Antes de lanzar Cronos, el ecosistema de Crypto.com abarca la cadena Crypto.com y el intercambio centralizado Crypto.com.&#x20;
 
 Cronos se ejecuta en un algoritmo de consenso Proof of Authority (PoA) y es impulsado por Ethermint - una cadena PoS interoperable con Ethereum. Su objetivo es escalar masivamente el ecosistema de Chain DeFi, permitiendo a los desarrolladores portar rápidamente aplicaciones y contratos inteligentes de Ethereum y otras cadenas compatibles con EVM.
 

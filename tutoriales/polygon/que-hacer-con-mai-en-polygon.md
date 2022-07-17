@@ -36,7 +36,7 @@ Las recompensas del pool se pagan utilizando el token BAL, el cual es distribuid
 
 El flujo completo sería algo así:
 
-![](../../.gitbook/assets/granjea-monedas-estables-en-balancer.png)
+![](<../../.gitbook/assets/Granjea monedas estables en Balancer.png>)
 
 Si necesitas más detalles sobre cómo puedes usar Mai Finance para prestar tus criptos y pedir prestado MAI (en lugar de vender tus criptos para comprar MAI), consulta otras guías en este sitio web. Incluso puedes [incluir AAVE en el ciclo](apalancamiento-con-tus-tokens-de-aave.md) para ganar aún más.
 
@@ -44,7 +44,7 @@ Si necesitas más detalles sobre cómo puedes usar Mai Finance para prestar tus 
 
 [Curve](https://polygon.curve.fi) es otra plataforma en la cual podrás prestar tus activos de criptomonedas en reservas de liquidez (pool) que generarán ingresos, aunque no MAI directamente (¿por ahora?). Las opciones más interesantes son:
 
-* El pool de AAVE, que generará entre un 5% y un 15% de APR (el APR varía bastante) en un trío de monedas estables (DAI/USDC/USDT). La reserva funciona exactamente como en Balancer, de forma que puedes entrar en el pool utilizando un solo activo de los tres que serán usados en AAVE por el protocolo.
+* El pool de AAVE, que generará entre un 5% y un 15% de APR (el APR varía bastante) en un trío de monedas estables (DAI/USDC/USDT). La reserva funciona exactamente como en Balancer, de forma que puedes entrar en el pool utilizando un solo activo de los tres que serán usados en AAVE por el protocolo.&#x20;
 * El pool de atricrypto que está compuesto de un trío de monedas estables e incluye wETH y wBTC también para mitigar la pérdida impermanente (_impermanent loss_). Este pool tiene un APR que oscila entre un 25% y un 30%. El equipo de Mai Finance está actualmente intentando añadir MAI también a este pool, lo cual significará que podrías ser capaz de entrar en ella directamente con tu MAI acuñado en Mai Finance.
 
 Mientras que esperamos a que el protocolo Curve acepte a MAI como una moneda estable para sus pools, puedes todavía sacar provecho de ellos usando tus criptos favoritas con Curve siguiendo los siguientes pasos (ejemplo con MATIC)
@@ -63,11 +63,11 @@ Las recompensas en Curve se distribuyen de la siguiente forma:
 * WMATIC que puedes luego usar para repetir el ciclo mostrado arriba e incrementar tu préstamo y el capital invertido.
 * Tokens de CRV, que puedes también usar como colateral en Mai Finance para pedir prestado más MAI e incrementar tu capital invertido.
 
-![](../../.gitbook/assets/granjea-monedas-estables-en-curve.png)
+![](<../../.gitbook/assets/Granjea monedas estables en Curve.png>)
 
 ### AAVE <a href="#aave" id="aave"></a>
 
-Puedes consultar la guía completa acerca de cómo puedes [hacer apalancamiento e incrementar las ganancias de tus tokens con AAVE](apalancamiento-con-tus-tokens-de-aave.md). Este no es un uso directo de la moneda estable MAI, pero podemos imaginar que en el futuro AAVE también tendrá un programa con MAI en el que podrás prestar tus tokens.
+Puedes consultar la guía completa acerca de cómo puedes  [hacer apalancamiento e incrementar las ganancias de tus tokens con AAVE](apalancamiento-con-tus-tokens-de-aave.md). Este no es un uso directo de la moneda estable MAI, pero podemos imaginar que en el futuro AAVE también tendrá un programa con MAI en el que podrás prestar tus tokens.
 
 ### QuickSwap <a href="#quickswap" id="quickswap"></a>
 
@@ -111,7 +111,7 @@ Puedes ver que el APY en Adamant es ligeramente superior al directo en QuickSwap
 Lo cual significa que, del total de 20.92% otorgado por QuickSwap, sólo un 12.88% es usado para incrementar tu posición como proveedor de liquidez (LP) y el resto es intercambiado para obtener dividendo en WMATIC. Tendrás la posibilidad de reclamar tus recompensas en ADDY diariamente (o cuando decidas) y volverlas a depositar, lo cual generará a su vez dividendos en WMATIC. En otras palabras, Adamant _parece_ una opción superior porque tiene mejores APYs y compone automáticamente tus recompensas, pero en realidad incluye para ello un montón de acciones manuales que tendrás que ejecutar para alcanzar ese APY teórico.
 
 {% hint style="info" %}
-La utilización de Adamant tiene también un impacto significativo en los precios de los tokens nativos. Esto es debido a que Adamant está constantemente vendiendo los tokens cosechados para generar más pares de LP y WMATIC como dividendos para los \*\*\*\* poseedores de ADDY. La presión de venta es muy elevada en dichos tokens de granjas y puede dar explicación al por qué sus precios están consistentemente decayendo.
+La utilización de Adamant tiene también un impacto significativo en los precios de los tokens nativos. Esto es debido a que Adamant está constantemente vendiendo los tokens cosechados para generar más pares de LP y WMATIC como dividendos para los **** poseedores de ADDY. La presión de venta es muy elevada en dichos tokens de granjas y puede dar explicación al por qué sus precios están consistentemente decayendo.&#x20;
 {% endhint %}
 
 ### Otras granjas que aceptan el par LP de MAI/USDC <a href="#other-farms-accepting-mai-usdc-lp-pair" id="other-farms-accepting-mai-usdc-lp-pair"></a>
@@ -129,9 +129,9 @@ Otras granjas pueden también aceptar el par MAI/USDC. Si quieres mantenerte inf
 
 ### Explicación general <a href="#a-little-bit-of-explanation" id="a-little-bit-of-explanation"></a>
 
-​[Impermax](https://polygon.impermax.finance) es una plataforma que permite a los usuarios apalancarse con sus tokens LP para obtener rendimientos superiores. El objetivo es muy simple: al proveer con tus tokens LP y utilizarlos como colateral, puedes entonces pedir prestados más de los 2 activos subyacentes para generar más tokens LP y repetir el bucle.
+​[Impermax](https://polygon.impermax.finance) es una plataforma que permite a los usuarios apalancarse con sus tokens LP para obtener rendimientos superiores. El objetivo es muy simple: al proveer con tus tokens LP y utilizarlos como colateral, puedes entonces pedir prestados más de los 2 activos subyacentes para generar más tokens LP y repetir el bucle.&#x20;
 
-![Esquema explicativo del ciclo de Impermax](../../.gitbook/assets/estrategia-con-impermax.png)
+![Esquema explicativo del ciclo de Impermax](<../../.gitbook/assets/Estrategia con Impermax.png>)
 
 Al realizarlo, el usuario está expuesto a la _impermanent loss_ y esa pérdida se ve magnificada por el número de veces que se repita el ciclo. El riesgo de liquidación también se ve multiplicado cuando se ejecutan demasiadas iteraciones del ciclo. Indudablemente, si el APR se multiplica, también la variación de los precios de las dos monedas que conforman el par se ven amplificadas por el efecto del apalancamiento, lo cual puede conducir a ser liquidado más rápidamente.
 
@@ -171,7 +171,7 @@ De hecho, en la aplicación también puedes proporcionar liquidez a aquellos que
 
 ## Descargo de responsabilidad <a href="#disclaimer" id="disclaimer"></a>
 
-Todo lo contenido en este tutorial es puramente educativo. El objetivo es dar luz a proyectos que pensamos que son valiosos para quienes están aprendiendo y evolucionando en el mundo cripto en Polygon. Obviamente no hablamos de Mai Finance como una granja porque dentro de poco habrá un tutorial enteramente dedicado a ello.
+Todo lo contenido en este tutorial es puramente educativo. El objetivo es dar luz a proyectos que pensamos que son valiosos para quienes están aprendiendo y evolucionando en el mundo cripto en Polygon. Obviamente no hablamos de Mai Finance como una granja porque dentro de poco habrá un tutorial enteramente dedicado a ello.&#x20;
 
 Por último, esta guía EN NINGÚN MODO pretende ser aplicada tal cual, no es un consejo financiero y no deberías seguirla ciegamente punto por punto. Por favor, lee los documentos de los diferentes proyectos mencionados antes de considerar invertir en dichas plataformas.
 

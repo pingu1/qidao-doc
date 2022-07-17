@@ -1,91 +1,89 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the different DApps that Optimism has to offer.
+  En esta guía te explicaremos todo lo que necesitas saber para empezar a
+  utilizar las diferentes DApps que ofrece Optimism
 ---
 
-# How to get started on Optimism
+# Cómo comenzar en Optimism
 
+## ¿Qué es Optimism?
 
+Optimism, u Optimistic Ethereum, como se le llama a veces, es una solución de escalado rollup que permite a los usuarios enviar transacciones en la red Ethereum y conseguir que se ejecuten más rápidamente por un coste de gas mucho menor. Por esta razón, Optimism se conoce como una capa 2 de Ethereum (L2 para abreviar). El nombre Optimism proviene de su uso de la tecnología optimistic rollup, que se refiere al tipo de pruebas que la red utiliza para trabajar en tándem con la cadena principal de Ethereum (capa 1, o L1). Para más información sobre los rollups y otras soluciones de rollups como ZK (Zero Knowledge), puede usar este [ link](https://support.deversifi.com/en/article/deversifi-what-is-the-difference-between-zk-rollup-and-optimistic-rollup-3gf3bw/).
 
-## What is Optimism?
+Al ser una tecnología de rollup, Optimism no produce sus propios bloques y, por lo tanto, no es un blockchain. Además, la API de la red de Optimism utiliza en gran medida la misma especificación JSON-RPC que Ethereum y, por lo tanto, es esencialmente equivalente a la EVM (máquina virtual de Ethereum), lo que permite que las aplicaciones creadas para la red principal de Ethereum se ejecuten en Optimism sin cambiar esencialmente su código base.
 
-Optimism, or Optimistic Ethereum as it is sometimes called, is a rollup scaling solution that allows users to submit transactions on the Ethereum network and get them executed faster for a much lower gas cost. For this reason, Optimism is known as an Ethereum layer 2 (L2 for short). The name Optimism comes from its use of optimistic rollup technology which refers to the type of proofs that the network uses to work in tandem with the main Ethereum chain (layer 1, or L1). For further reading on optimistic rollups and other rollup solutions like ZK (zero knowledge), please visit [this link](https://support.deversifi.com/en/article/deversifi-what-is-the-difference-between-zk-rollup-and-optimistic-rollup-3gf3bw/).
+Tenga en cuenta que debido a esto, Optimism no utiliza su propio token de gas, sino que utiliza Ether como gas para pagar las transacciones.
 
-Because it is a rollup technology, Optimism does not produce its own blocks and is therefore not a blockchain. Additionally, the Optimism network API largely uses the same JSON-RPC specification as Ethereum and is therefore essentially EVM (Ethereum Virtual Machine) equivalent, allowing applications created for Ethereum mainnet to run on Optimism with essentially no changes to their codebase.\
-\
-Please note that because of this, Optimism does not use its own gas token, but rather uses Ether as gas to pay for transactions.
+## Empenzando en Optimism
 
-## Getting started on Optimism
+Antes de usar Optimism, necesitarás una dirección de monedero. Debido a que Optimism es una red EVM, aceptará los mismos monederos que en otras cadenas EVM, incluyendo monederos web como Metamask o Nifty, y podrás usar tu monedero hardware como Trezor o Ledger, pero puede que tengas que seguir pasos extra para poder conectar tu monedero frío a la red.&#x20;
 
-Before using Optimism, you will need a wallet address. Because Optimism is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network.
+Para este tutorial, nos ceñiremos a Metamask tal y como hemos hecho en todas las demás guías de este sitio. Si no tienes Metamask instalado, puedes encontrar instrucciones en [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
 
-For this tutorial, we will stick to Metamask just as we have done for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
+### Añadiendo Optimism a Metamask
 
-### Adding Optimism to Metamask
+Abra la ventana emergente de Metamask, haga clic en el icono de su cartera, navegue hasta`Configuracion` , elija `Redes` y busque `Añadir Redes`. Utilizará la siguiente información en los campos de texto correspondientes:
 
-Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Add Network`. You will use the following information in the relevant text fields:
-
-* **Network Name:** Optimism
-* **New RPC URL:** [https://mainnet.optimism.io](https://mainnet.optimism.io)
+* **Nombre de la red:** Optimism
+* **URL del RPC:** [https://mainnet.optimism.io](https://mainnet.optimism.io)
 * **Chain ID:** 10
-* **Currency Symbol:** ETH
-* **Block Explorer URL:** [https://optimistic.etherscan.io/](https://optimistic.etherscan.io/)
+* **Simbolo del token:** ETH
+* **URL del explorador de bloques:** [https://optimistic.etherscan.io/](https://optimistic.etherscan.io/)
 
-Save the changes, and Metamask will automatically switch you over to Optimism:
+Guarde los cambios y Metamask le cambiará automáticamente al Optimism::
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.40.30 PM.png>)
 
-## Bridging to Optimism
+## Enviando fondos a Optimism
 
 ### Faucets
 
-There are no faucets for gas on Optimism, but if you use a DApp like [ElkNet](https://app.elk.finance/#/elknet), you can opt to swap some of your Elk tokens as gas when bridging from any of the supported networks.
+No hay faucets para el gas en Optimism, pero si se utiliza una DApp como [ElkNet](https://app.elk.finance/#/elknet), puedes intercambiar algunas de sus tokens Elk como gas al hacer el puente desde cualquiera de las redes soportadas.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.36.40 PM.png>)
 
-### Bridges
+### Puentes
 
-* [Multi Chain](https://app.multichain.org/#/router) is the official partner of Mai Finance if you want to transfer your MAI or QI to Optimism from any other networks. From your selected network, you can simply chose the destination chain (Optimism) and the asset you want to send (MAI or ETH with the correct amount, and click on the `Transfer` button. Pay attention to the transfer fees taken directly on the asset you are transferring.
+* [Multi Chain](https://app.multichain.org/#/router) es el socio oficial de Mai Finance si quieres transferir tus MAI o QI a Optimism desde cualquier otra red. Desde la red seleccionada, sólo tiene que elegir la cadena de destino (Optimism) y el activo que desea enviar (MAI o ETH con la cantidad correcta, y hacer clic en el botón Transferir. Preste atención a las tasas de transferencia tomadas directamente en el activo que está transfiriendo.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.14.42 PM.png>)
 
-* [Celer](https://cbridge.celer.network/#/transfer) is a popular bridge and one of the official bridging partners for the Optimism network.
-* [Hop Protocol](https://app.hop.exchange/#/send?token=ETH\&sourceNetwork=polygon\&destNetwork=optimism) is another popular bridge that is also an official partner for the Optimism network. There are only a small number of supported tokens including ETH, and various stablecoins like USDC, DAI, and USDT, but it offers lower bridging fees than most other solutions.
-* [Hashflow](https://app.hashflow.com/) is a newer bridging technology that works essentially as a crosschain DEX (decentralized exchange) for any token with sufficient liquidity. Additionally, Hashflow users can currently earn HFT (Hashflow tokens) for swapping or providing token liquidity. Chains are currently limited to Ethereum, Avalanche, Arbitrum, Optimism, Polygon, and BNB.
+* [Celer](https://cbridge.celer.network/#/transfer) es un puente popular y uno de los socios oficiales de la red Optimism.
+* [Hop Protocol](https://app.hop.exchange/#/send?token=ETH\&sourceNetwork=polygon\&destNetwork=optimism) es otro puente popular que también es socio oficial de la red Optimism. Sólo hay un pequeño número de tokens compatibles, incluyendo ETH, y varias stablecoins como USDC, DAI y USDT, pero ofrece tarifas de puente más bajas que la mayoría de las otras soluciones.
+* [Hashflow](https://app.hashflow.com/) es una tecnología puente más reciente que funciona esencialmente como un DEX (intercambio descentralizado) crosschain para cualquier token con suficiente liquidez. Además, los usuarios de Hashflow pueden ganar HFT (tokens de Hashflow) por intercambiar o proporcionar liquidez a los tokens. Las cadenas están actualmente limitadas a Ethereum, Avalanche, Arbitrum, Optimism, Polygon y BNB..
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.51.25 PM.png>)
 
-* [Elknet](https://app.elk.finance/#/elknet) will act both as a bridge and as a faucet when you transfer the ELK token between 2 networks. You will be able to bridge your ELK and on the receiving end, you can have a small portion of your ELK directly available as the gas token, ETH in our case, as explained in the section above.
+* [Elknet](https://app.elk.finance/#/elknet) actuará tanto como bridge como faucets cuando transfieras el token ELK entre 2 redes. Podrás hacer un puente con tu ELK y en el extremo receptor, podrás tener una pequeña porción de tu ELK directamente disponible como token de gas, ETH en nuestro caso, como se explica en la sección anterior.
 
-## DeFi on Optimism
+## DeFi en Optimism
 
-To get started on Optimism, here are some DApps you may find useful to put your MAI and QI to use, including:
+Para empezar con el optimismo, aquí tienes algunas DApps que te pueden resultar útiles para poner en práctica tu MAI y QI, entre ellas:
 
-* [Curve](https://optimism.curve.fi/factory/4/deposit): This is where the majority of the MAI liquidity currently exists on Optimism as Curve is extremely efficient at performing stablecoin swaps.\
-  \
-  By depositing MAI into the Curve LP, you will then receive LP tokens which can be deposited into the Curve farm on Mai Finance's [Farm page](https://app.mai.finance/farm) to earn yield in QI tokens.
+* [Curve](https://optimism.curve.fi/factory/4/deposit): Aquí es donde existe actualmente la mayor parte de la liquidez de MAI en Optimism, ya que Curve es extremadamente eficiente a la hora de realizar intercambios de stablecoin
+
+Al depositar MAI en el LP de Curve, recibirá tokens de LP que pueden depositarse en la granja de Curve en el sitio web de Mai Finance para generar rendimientos en tokens QI.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.58.06 PM.png>)
 
-* [Arrakis](https://beta.arrakis.finance/#/vaults/0x65Fbf30f29C7626385f78Dbc41702d97b9cD486a) recently launched on Optimism, and this is where you will find the QI/WETH liquidity pool. It is currently unseeded by the protocol, but should provide an additional use case for QI until QI staking launches on the network. Please note that Arrakis uses Uniswap pools so you will have to deposit both QI and WETH in the specified ratios in order to enter the LP.
+* [Arrakis](https://beta.arrakis.finance/#/vaults/0x65Fbf30f29C7626385f78Dbc41702d97b9cD486a) se ha lanzado recientemente en Optimism, y aquí es donde encontrarás el fondo de liquidez QI/WETH. Actualmente, el protocolo no tiene semillas, pero debería proporcionar un caso de uso adicional para QI hasta que se lance el staking de QI en la red. Ten en cuenta que Arrakis utiliza pools Uniswap, por lo que tendrás que depositar tanto QI como WETH en las proporciones especificadas para poder entrar en el LP.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.07.37 PM.png>)
 
-* [BeethovenX](https://op.beets.fi/#/pool/0x3dc09db8e571da76dd04e9176afc7feee0b89106000000000000000000000019), an officially sanctioned Balancer fork, launched on Optimism on June 2022 and offers a brand new high liquidity stablecoin pool dubbed "Come Together" which is composed of FRAX, USDC, and MAI. Due to its large rewards including QI, BEETS, and BAL tokens, it is certain to become the de facto stablecoin pool for MAI on Optimism.
+* [BeethovenX](https://op.beets.fi/#/pool/0x3dc09db8e571da76dd04e9176afc7feee0b89106000000000000000000000019), una bifurcación de Balancer sancionada oficialmente, se lanzó en Optimism en junio de 2022 y ofrece un nuevo grupo de stablecoin de alta liquidez apodado "Come Together" que se compone de FRAX, USDC y MAI. Debido a sus grandes recompensas, que incluyen tokens QI, BEETS y BAL, es seguro que se convertirá en el grupo de stablecoin de facto para MAI en Optimism.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.09.43 PM.png>)
 
-## Mai Finance on Optimism
+## Mai Finance en Optimism
 
-The lending platform is already available on Optimism where you will be able to deposit your WETH (Wrapped Ether) or WBTC (Wrapped Bitcoin) tokens in a vault and borrow MAI against them. MAI can be deposit into the Curve farm to earn QI, or the new FRAX/USDC/MAI stable pool on the recently launched BeethovenX which earns rewards in QI, BEETS, and BAL tokens.
+La plataforma de préstamos ya está disponible en Optimism, donde podrás depositar tus tokens WETH (Wrapped Ether) o WBTC (Wrapped Bitcoin) en una cámara acorazada y tomar prestados MAI contra ellos. Los MAI se pueden depositar en la granja Curve para ganar QI, o en el nuevo pool estable FRAX/USDC/MAI en la recientemente lanzada BeethovenX que gana recompensas en tokens QI, BEETS y BAL.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.56.07 PM.png>)
 
-## Disclaimer
+## Descargo de Responsabilidad
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Esta guía NO es un consejo financiero, y debe considerarse simplemente como una herramienta educativa. Haga siempre su propia investigación. La discusión de un proyecto en esta guía no debe considerarse como un respaldo al proyecto..
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenga en cuenta que una estrategia que funciona bien en un momento dado puede dar malos resultados (o hacerle perder dinero) en otro momento. Manténgase informado, controle los mercados, vigile sus inversiones y, como siempre, investigue por su cuenta.
 {% endhint %}

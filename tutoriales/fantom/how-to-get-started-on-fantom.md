@@ -8,7 +8,7 @@ description: >-
 
 ## ¿Qué es Fantom?
 
-Fantom es una alternativa a Ethereum para los programadores de blockchain. Fantom es una blockchain de código abierto con contratos inteligentes, que permite a los diseñadores desarrollar **DApps** (aplicaciones descentralizadas) seguras, completas y modulares.
+Fantom es una alternativa a Ethereum para los programadores de blockchain. Fantom es una blockchain de código abierto con contratos inteligentes, que permite a los diseñadores desarrollar **DApps** (aplicaciones descentralizadas) seguras, completas y modulares.&#x20;
 
 La red ha sido diseñada para superar todas las limitaciones de la anterior generación de plataformas blockchain, a veces referidas como el _trilema blockchain_: **descentralización**, **seguridad** y **escalabilidad**. Para poder mejorar uno de estos aspectos, siempre había que hacerlo a costa de uno de los otros dos. Fantom trató de resolver esto gracias a su mecanismo de consenso Lachesis aBFT (Asynchronous Byzantine Fault Tolerant) basado en DAG (Directed Acyclic Graphs), lo que le permite tener un alto rendimiento, ser escalable y seguro. Los test iniciales mostraron que Fantom puede manejar fácilmente más de 20.000 transacciones por segundo.
 
@@ -16,7 +16,7 @@ Por último, Fantom es 100% compatible con **EVM** (Ethereum Virtual Machine), l
 
 ## Comenzando en Fantom
 
-Fantom al ser compatible con **EVM**, si ya tienes un monedero con otras cadenas EVM (Ethereum Mainnet, Polygon o Avalanche), serás capaz de utilizar esta red sin ningún problema. Si no lo has hecho anteriormente, es el momento de crear una nueva dirección de monedero. Hay diferentes tipos de monederos que se pueden utilizar: **monederos de software** como Metamask o [fWallet](https://pwawallet.fantom.network/#/), o **monederos de hardware** como [Trezor ](https://trezor.io/coins/)o [Ledger](https://fantom.foundation/blog/how-to-set-up-your-ledger-nano-s-x-with-fantom/?\_\_cf\_chl\_jschl\_tk\_\_=pmd\_yGSaskxM9Y.hIl5QLRLLktRbV9OAJvYIVHg5DDa6Pw0-1634317961-0-gqNtZGzNAlCjcnBszQiR).
+Fantom al ser compatible con **EVM**, si ya tienes un monedero con otras cadenas EVM (Ethereum Mainnet, Polygon o Avalanche), serás capaz de utilizar esta red sin ningún problema. Si no lo has hecho anteriormente, es el momento de crear una nueva dirección de monedero. Hay diferentes tipos de monederos que se pueden utilizar: **monederos de software** como Metamask o [fWallet](https://pwawallet.fantom.network/#/), o **monederos de hardware** como [Trezor ](https://trezor.io/coins/)o [Ledger](https://fantom.foundation/blog/how-to-set-up-your-ledger-nano-s-x-with-fantom/?\_\_cf\_chl\_jschl\_tk\_\_=pmd\_yGSaskxM9Y.hIl5QLRLLktRbV9OAJvYIVHg5DDa6Pw0-1634317961-0-gqNtZGzNAlCjcnBszQiR).&#x20;
 
 Para esta guía, y debido a que hemos usamos Metamask en todas nuestras guías anteriores, volveremos a usar Metamask, pero siéntete libre de usar cualquier otra cartera de software/hardware que te guste. Si necesitas saber cómo instalar Metamask, puedes encontrar más información en el artículo [Cómo comenzar en Polygon](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/espanol/tutoriales-de-polygon/how-to-get-started-on-polygon).
 
@@ -51,7 +51,7 @@ Ahora que estás en FTM, necesitarás algunos **FTM** (token nativo utilizado pa
 
 * Lo único que te falta por hacer es retirar los fondos hacia tu cartera de Metamask, para realizar esto, tienes que escribir `!withdraw <dirección de tu cartera>`. Para saber cual es la dirección de tu cartera, tendrás que hacer clic en el logo de Metamask y tu dirección se encontrará arriba.
 
-![Retirando desde una cuenta de Discord](../../.gitbook/assets/ftm-faucet.png)
+![Retirando desde una cuenta de Discord ](../../.gitbook/assets/ftm-faucet.png)
 
 ![Recibiendo el FTM gratis](../../.gitbook/assets/ftm-mm.png)
 
@@ -63,7 +63,7 @@ Si quieres transferirte algunas monedas desde otras cadenas a Fantom, puedes usa
 
 * [AnySwap](https://anyswap.exchange/#/bridge): Este es el puente oficial recomendado para enviar el MAI que has generado en Polygon a Fantom (ver la guía del [universo MAI ](https://qidao-qimps.gitbook.io/mai-finance-tutorials/v/espanol/universidade-de-mai/mai-metaverse)para más detalles). Esta aplicación soporta muchos activos y muchas cadenas, por lo que te será fácil enviar tus criptomonedas a Fantom. Por favor, compruebe las notas que se encuentran en la parte inferior de la interfaz de usuario de la aplicación para ver cúales son las tasas de transacción y el tiempo de ejecución previsto de la transacción.
 
-![Transfiriendo MAI desde Polygon a Fantom](<../../.gitbook/assets/ftm\_anyswap (1) (1).png>)
+![Transfiriendo MAI desde Polygon a Fantom](<../../.gitbook/assets/image (43).png>)
 
 * [Celer Bridge](https://cbridge.celer.network/#/): ofrece servicio para transferir stablecoins a muchas blockchains distintas, con las comisiones rondando desde el 0.04% al 0.19% para enviar a Fantom (DYOR).
 * [xpollinate](https://www.xpollinate.io): bajas comisiones, y asegura que siempre hay suficiente liquidez en la cadena de destino para el token que se quiere transferir. Cuanto menor sea la liquidez (o mayor sea la cantidad a transferir), tendrás que esperar más tiempo para que se realice la transferencia.
@@ -72,7 +72,7 @@ Si quieres transferirte algunas monedas desde otras cadenas a Fantom, puedes usa
 
 * Binance CEX: Podrás comprar el token FTM directamente en Binance y enviarlo directamente a su red, el único problema es que el único token que podrás enviar a la red es FTM.
 * [SpookySwap](https://spookyswap.finance/bridge): Tiene soporte de varios tokens de distintas redes que podrás enviar directamente a la red FTM.
-* AnySwap: Puedes encontrar más información sobre esta aplicacion en el apartado anterior .
+* AnySwap: Puedes encontrar más información sobre esta aplicacion en el apartado anterior  .
 
 ## DeFi en Fantom
 
@@ -96,8 +96,8 @@ Hay muchas más oportunidades en Fantom que serán explicadas en artículos post
 
 * [Explorador de Fantom](https://explorer.fantom.network)
 * [Comprobar el precio del gas en Fantom](https://ftmscan.com/gastracker)
-* [Discord de Fantom](how-to-get-started-on-fantom.md#ftm-faucet)
-* [DeBank](https://debank.com)
+* [Discord de Fantom](how-to-get-started-on-fantom.md#ftm-faucet)&#x20;
+* [DeBank](https://debank.com)&#x20;
 
 ## Descargo de Responsabilidad
 
@@ -106,3 +106,4 @@ Esta guía NO es un consejo financiero, y debe considerarse simplemente como una
 {% hint style="info" %}
 Tenga en cuenta que una estrategia que funciona bien en un momento dado puede dar malos resultados (o hacerle perder dinero) en otro momento. Manténgase informado, controle los mercados, vigile sus inversiones y, como siempre, investigue por su cuenta.
 {% endhint %}
+

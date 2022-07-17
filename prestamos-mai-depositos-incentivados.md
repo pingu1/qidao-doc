@@ -143,7 +143,7 @@ $$
 
 Esto da como resultado aproximadamente el APR existente al crear una bóveda en Mai Finance, ten en cuenta que la cantidad de MAI prestado y el precio de Qi variarán con el tiempo por lo que el APR no sera siempre el mismo.
 
-![APR de la bóveda de MAI en el lanzamiento de los préstamos incentivados](<.gitbook/assets/image (23) (2) (3) (1) (1) (1) (1).png>)
+![APR de la bóveda de MAI en el lanzamiento de los préstamos incentivados](<.gitbook/assets/image (23) (2) (3) (1) (2).png>)
 
 ### Calculando los APRs iniciales
 

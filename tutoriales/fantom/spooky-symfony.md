@@ -23,7 +23,7 @@ En esta estrategia, utilizaremos un montón de diferentes pares LP (Liquidity Pr
 
 ### Market.XYZ
 
-[Market.XYZ](https://fantom.market.xyz/) es un protocolo de préstamo que construye varias "taquillas" para sus usuarios. Podrás depositar tokens individuales o tokens de LP como garantía, y pedir prestados otros activos contra tus depósitos. Debido a que usted está pidiendo prestado contra una garantía, es importante asegurarse de que no se liquide. Una liquidación se produce cuando el valor del activo que has depositado como garantía es inferior al valor del préstamo que has contratado. Por eso es importante asegurarse de que la relación entre los dos valores se mantiene relativamente alta, y que tu garantía no pierde demasiado valor cuando el mercado baja. Con el fin de mitigar el riesgo de liquidación, vamos a utilizar el token FTM-USDC LP como garantía:
+[Market.XYZ](https://fantom.market.xyz) es un protocolo de préstamo que construye varias "taquillas" para sus usuarios. Podrás depositar tokens individuales o tokens de LP como garantía, y pedir prestados otros activos contra tus depósitos. Debido a que usted está pidiendo prestado contra una garantía, es importante asegurarse de que no se liquide. Una liquidación se produce cuando el valor del activo que has depositado como garantía es inferior al valor del préstamo que has contratado. Por eso es importante asegurarse de que la relación entre los dos valores se mantiene relativamente alta, y que tu garantía no pierde demasiado valor cuando el mercado baja. Con el fin de mitigar el riesgo de liquidación, vamos a utilizar el token FTM-USDC LP como garantía:
 
 * La pérdida impermanente en este par es relativamente baja USDC es una moneda estable vinculada al dólar estadounidense
 * FTM es el token de gas nativo de Fantom, tiene una gran liquidez y se utiliza en todas partes&#x20;
@@ -64,14 +64,14 @@ Como siempre, la mayor ventaja de utilizar BeethovenX (o Balancer) es que puedes
 
 ### SpookySwap
 
-[Spookyswap](https://spookyswap.finance/) es el mayor fork de Uniswap V2 en Fantom, una plataforma en la que podrá intercambiar activos y proporcionar liquidez para muchos pares. Spookyswap también ha sido un socio de Mai Finance y propone un pool MAI-USDC. La asociación se ha extendido a través de Market.XYZ, donde podrá tomar prestados MAI contra algunos pares específicos de LP (véase la sección sobre Market.xyz), así como sus tokens BOO y staked BOO, el token nativo de Spookswap. Para esta guía, vamos a utilizar dos diferentes tokens LP de SpookySwap:&#x20;
+[Spookyswap](https://spookyswap.finance) es el mayor fork de Uniswap V2 en Fantom, una plataforma en la que podrá intercambiar activos y proporcionar liquidez para muchos pares. Spookyswap también ha sido un socio de Mai Finance y propone un pool MAI-USDC. La asociación se ha extendido a través de Market.XYZ, donde podrá tomar prestados MAI contra algunos pares específicos de LP (véase la sección sobre Market.xyz), así como sus tokens BOO y staked BOO, el token nativo de Spookswap. Para esta guía, vamos a utilizar dos diferentes tokens LP de SpookySwap:&#x20;
 
 * FTM-USDC que se utilizará como nuestro punto de partida para la estrategia. Este token LP se utiliza como garantía en market.xyz&#x20;
 * FTM-BOO porque es uno de los pool de SpookySwap aceptados en Liquid Driver con el mayor APY. Intercambiaremos las recompensas BEETS de Monolith por este par (más en la sección de estrategia de farming)
 
 ### Liquid Driver
 
-[Liquid Driver](https://www.liquiddriver.finance/) es un optimizador de rendimientos en el que podrás depositar tokens LP de diferentes granjas y ganar rendimientos con ellos. El optimizador de rendimiento funciona cosechando los tokens de recompensa de la plataforma de destino y componiéndolos para ti. Esto es útil ya que el gas en Fantom puede ser caro. Se extrae una tasa de rendimiento, pero una parte de los ingresos del protocolo se redistribuye a los stakers de LQDR. LQDR es el token nativo de Liquid Driver. Para esta estrategia, utilizaremos el par LP FTM-BOO porque es un pool con una de las mayores TAE en LQDR para Spookyswap..
+[Liquid Driver](https://www.liquiddriver.finance) es un optimizador de rendimientos en el que podrás depositar tokens LP de diferentes granjas y ganar rendimientos con ellos. El optimizador de rendimiento funciona cosechando los tokens de recompensa de la plataforma de destino y componiéndolos para ti. Esto es útil ya que el gas en Fantom puede ser caro. Se extrae una tasa de rendimiento, pero una parte de los ingresos del protocolo se redistribuye a los stakers de LQDR. LQDR es el token nativo de Liquid Driver. Para esta estrategia, utilizaremos el par LP FTM-BOO porque es un pool con una de las mayores TAE en LQDR para Spookyswap..
 
 ![Par FTM-BOO y FTM-USDC en LiquidDriver en Febrero de 2022](../../.gitbook/assets/spooky-symfony-5.png)
 
