@@ -18,7 +18,7 @@
   * [Haciendo staking de MAI con Ethalend](tutoriales/polygon/ethalend-single-staking.md)
   * [El elefante, el chimpacé y la nutria](tutoriales/polygon/the-elephant-and-the-otter.md)
   * [De Finanzas tradicionales a DeFi con Jarvis](tutoriales/polygon/jarvis.md)
-  * [DCA in bear and bull markets](tutoriales/polygon/dca.md)
+  * [DCA en mercados alcistas y bajistas](tutoriales/polygon/dca.md)
 * [Avalanche](tutoriales/avalanche/README.md)
   * [Cómo comenzar en Avalanche](tutoriales/avalanche/how-to-get-started-on-avalanche.md)
   * [Page 1](tutoriales/avalanche/page-1.md)

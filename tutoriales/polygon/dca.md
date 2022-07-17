@@ -1,207 +1,207 @@
 ---
 description: >-
-  Dollar Cost Averaging is considered one of the best investment strategies
-  during bear markets. This guide explains why it's a good strategy and how you
-  can also DCA in bull markets.
+  El Dollar Cost Averaging se considera una de las mejores estrategias de
+  inversión durante los mercados bajistas. En esta guía se explica por qué es
+  una buena estrategia y cómo se puede aplicar el DCA
 ---
 
-# DCA in bear and bull markets
+# DCA en mercados alcistas y bajistas
 
-## Intro
+## Introducción
 
-"Time in the market is way better than timing the market" is something you certainly already heard. In facts, nobody can perfectly sell at the top, or buy at the bottom. This is why most investors will DCA (**D**ollar **C**ost **A**verage) to accumulate the asset they want the most. DCA consists in buying a small amount with a given frequency, regardless of the price. By doing so, the average buy price is lowered and you have better chances to buy more of a given asset compared to a single purchase done at the wrong time.
+"El tiempo en el mercado es mucho mejor que la sincronización del mercado" es algo que seguramente ya ha escuchado. En realidad, nadie puede vender perfectamente en la cima, ni comprar en la cima. Por ello, la mayoría de los inversores recurren al DCA (Dollar Cost Average) para acumular el activo que más desean. El DCA consiste en comprar una pequeña cantidad con una frecuencia determinada, independientemente del precio. Al hacerlo, se reduce el precio medio de compra y se tienen más posibilidades de comprar más de un determinado activo en comparación con una única compra realizada en el momento equivocado.
 
-You can find more details on what is Dollar-Cost Averaging in the [investopedia website](https://www.investopedia.com/terms/d/dollarcostaveraging.asp), which gives this definition:
+Puede encontrar más detalles sobre qué es el Dollar-Cost Averaging en la pagina web de [investopedia](https://www.investopedia.com/terms/d/dollarcostaveraging.asp), la cual define el DCA como:
 
-> Dollar-cost averaging (DCA) is an investment strategy in which an investor divides up the total amount to be invested across periodic purchases of a target asset in an effort to reduce the impact of volatility on the overall purchase. The purchases occur regardless of the asset's price and at regular intervals.
+> El promediado de costes en dólares (DCA) es una estrategia de inversión en la que un inversor divide el importe total que va a invertir en compras periódicas de un activo objetivo en un esfuerzo por reducir el impacto de la volatilidad en la compra total. Las compras se realizan independientemente del precio del activo y a intervalos regulares
 
-This article explains how you can properly DCA into your favorite assets to top off your vaults on Mai Finance, but you can also DCA into the MAI stablecoin in order to get a better-averaged sell price.
+En este artículo se explica cómo se puede DCA correctamente en sus activos favoritos para completar sus bóvedas en Mai Finance, pero también se puede DCA en el MAI stablecoin con el fin de obtener un mejor precio de venta promedio.
 
 ![](../../.gitbook/assets/dca-0.png)
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenga en cuenta que una estrategia que funciona bien en un momento dado puede dar malos resultados (o hacerle perder dinero) en otro momento. Manténgase informado, controle los mercados, vigile sus inversiones y, como siempre, investigue por su cuenta.
 {% endhint %}
 
-## Understand Dollar Cost Averaging
+## Entendiendo el Dollar Cost Averaging
 
-Let's see how you can DCA in different market conditions, and what it means in terms of buying/selling power.
+Veamos cómo puede DCA en diferentes condiciones de mercado, y lo que significa en términos de poder de compra/venta.
 
-### DCA in a downtrend (bearish market)
+### DCA en mercados bajistas
 
-When the market is already quite down and (hopefully) near the bottom, or at least at a price level you feel comfortable buying, that's the moment to accumulate your favorite assets and buy tokens. Because you know, you want to buy when the price is low, and sell when it's high. As an example, here's a real example of ETH price for the first 15 days of June 2022
+Cuando el mercado está ya bastante bajo y (con suerte) cerca del fondo, o al menos a un nivel de precios en el que te sientas cómodo comprando, ese es el momento de acumular tus activos favoritos y comprar tokens. Porque ya sabes, quieres comprar cuando el precio está bajo, y vender cuando está alto. Como ejemplo, aquí hay un ejemplo real del precio de ETH para los primeros 15 días de junio de 2022
 
-| Date     | ETH price in USD |
-| -------- | ---------------- |
-| 06/01/22 | 1,928.60         |
-| 06/02/22 | 1,814.00         |
-| 06/03/22 | 1,826.39         |
-| 06/04/22 | 1,751.69         |
-| 06/05/22 | 1,791.55         |
-| 06/06/22 | 1,876.70         |
-| 06/07/22 | 1,756.89         |
-| 06/08/22 | 1,776.58         |
-| 06/09/22 | 1,798.50         |
-| 06/10/22 | 1,791.43         |
-| 06/11/22 | 1,668.25         |
-| 06/12/22 | 1,467.21         |
-| 06/13/22 | 1,349.25         |
-| 06/14/22 | 1,170.75         |
-| 06/15/22 | 1,169.67         |
+| Fecha    | Precio de ETH en USD |
+| -------- | -------------------- |
+| 06/01/22 | 1,928.60             |
+| 06/02/22 | 1,814.00             |
+| 06/03/22 | 1,826.39             |
+| 06/04/22 | 1,751.69             |
+| 06/05/22 | 1,791.55             |
+| 06/06/22 | 1,876.70             |
+| 06/07/22 | 1,756.89             |
+| 06/08/22 | 1,776.58             |
+| 06/09/22 | 1,798.50             |
+| 06/10/22 | 1,791.43             |
+| 06/11/22 | 1,668.25             |
+| 06/12/22 | 1,467.21             |
+| 06/13/22 | 1,349.25             |
+| 06/14/22 | 1,170.75             |
+| 06/15/22 | 1,169.67             |
 
-This is a drop in price of 39.35% for the first half of June, which followed a disastrous month of May. Now, assuming you bought a little bit of ETH every day over the same period of time, this is the average price at which you would have bought ETH:
+Esto supone una caída del precio del 39,35% para la primera mitad de junio, que siguió a un desastroso mes de mayo. Ahora bien, suponiendo que hayas comprado un poco de ETH cada día durante el mismo periodo de tiempo, este es el precio medio al que habrías comprado ETH:
 
-| Date     | average DCA price |
-| -------- | ----------------- |
-| 06/01/22 | 1,928.60          |
-| 06/02/22 | 1,871.30          |
-| 06/03/22 | 1,856.33          |
-| 06/04/22 | 1,830.17          |
-| 06/05/22 | 1,822.45          |
-| 06/06/22 | 1,831.49          |
-| 06/07/22 | 1,820.83          |
-| 06/08/22 | 1,815.30          |
-| 06/09/22 | 1,813.43          |
-| 06/10/22 | 1,811.23          |
-| 06/11/22 | 1,798.23          |
-| 06/12/22 | 1,770.65          |
-| 06/13/22 | 1,738.23          |
-| 06/14/22 | 1,697.70          |
-| 06/15/22 | 1,662.50          |
+| Fecha    | Precio medio de compra |
+| -------- | ---------------------- |
+| 06/01/22 | 1,928.60               |
+| 06/02/22 | 1,871.30               |
+| 06/03/22 | 1,856.33               |
+| 06/04/22 | 1,830.17               |
+| 06/05/22 | 1,822.45               |
+| 06/06/22 | 1,831.49               |
+| 06/07/22 | 1,820.83               |
+| 06/08/22 | 1,815.30               |
+| 06/09/22 | 1,813.43               |
+| 06/10/22 | 1,811.23               |
+| 06/11/22 | 1,798.23               |
+| 06/12/22 | 1,770.65               |
+| 06/13/22 | 1,738.23               |
+| 06/14/22 | 1,697.70               |
+| 06/15/22 | 1,662.50               |
 
-With an average price of $1,662.50 and an ending price of $1,169.67, the drop goes from more than 39% to 29.64%. In that sense, DCA lowers your losses. This also means that, to break even, you need the price to go back to $1,662.50 instead of $1,928.60, and in case the price goes back to $1,928.60, you would be in profit of 16%.
+Con un precio medio de 1.662,50 dólares y un precio final de 1.169,67 dólares, la caída pasa de más del 39% al 29,64%. En este sentido, el DCA reduce sus pérdidas. Esto también significa que, para alcanzar el punto de equilibrio, necesita que el precio vuelva a los 1.662,50 dólares en lugar de los 1.928,60 dólares, y en caso de que el precio vuelva a los 1.928,60 dólares, tendría un beneficio del 16%.
 
-![Actual ETH price VS DCA'd ETH price](../../.gitbook/assets/dca-1.png)
+![Precio de ETH actual VS Precio de ETH DCA](../../.gitbook/assets/dca-1.png)
 
-An interesting thing to note is that if you sold your ETH for USDC (or another stable coin like MAI) over the same period, your average selling price would also have been $1,662.50, and you would have sold at a better price every day except for the 6th of June. This once again proves that DCA is way better than trying to time the market.
+Una cosa interesante a tener en cuenta es que si vendieras tu ETH por USDC (u otra moneda estable como MAI) durante el mismo período, tu precio medio de venta también habría sido de 1.662,50 dólares, y habrías vendido a un mejor precio todos los días excepto el 6 de junio. Esto demuestra una vez más que el DCA es mucho mejor que tratar de cronometrar el mercado.
 
-### DCA in an uptrend (bullish market)
+### DCA en un mercado alcista
 
-When the market is going up, you may also want to DCA into specific assets to pull the average purchase price down while the price is going up. Obviously, you want to do that at the beginning of the mark-up period of the main market cycle, which is why it's strongly recommended to DCA even in an uptrend. As an example, here's the ETH price for the first 15 days of October 2021.
+Cuando el mercado está subiendo, también puede querer hacer DCA en activos específicos para bajar el precio medio de compra mientras el precio está subiendo. Obviamente, usted quiere hacer eso al principio del período de aumento del ciclo principal del mercado, por lo que se recomienda encarecidamente a DCA incluso en una tendencia alcista. Como ejemplo, aquí está el precio de ETH para los primeros 15 días de octubre de 2021.
 
-| Date     | ETH price in USD |
-| -------- | ---------------- |
-| 10/01/21 | 3,001.13         |
-| 10/02/21 | 3,308.87         |
-| 10/03/21 | 3,390.77         |
-| 10/04/21 | 3,418.78         |
-| 10/05/21 | 3,381.78         |
-| 10/06/21 | 3,516.57         |
-| 10/07/21 | 3,576.81         |
-| 10/08/21 | 3,587.83         |
-| 10/09/21 | 3,560.00         |
-| 10/10/21 | 3,575.02         |
-| 10/11/21 | 3,419.73         |
-| 10/12/21 | 3,546.48         |
-| 10/13/21 | 3,492.75         |
-| 10/14/21 | 3,604.96         |
-| 10/15/21 | 3,790.15         |
+| Fecha    | Precio de ETH en USD |
+| -------- | -------------------- |
+| 10/01/21 | 3,001.13             |
+| 10/02/21 | 3,308.87             |
+| 10/03/21 | 3,390.77             |
+| 10/04/21 | 3,418.78             |
+| 10/05/21 | 3,381.78             |
+| 10/06/21 | 3,516.57             |
+| 10/07/21 | 3,576.81             |
+| 10/08/21 | 3,587.83             |
+| 10/09/21 | 3,560.00             |
+| 10/10/21 | 3,575.02             |
+| 10/11/21 | 3,419.73             |
+| 10/12/21 | 3,546.48             |
+| 10/13/21 | 3,492.75             |
+| 10/14/21 | 3,604.96             |
+| 10/15/21 | 3,790.15             |
 
-This is more or less the opposite of the previous section where the price of ETH jumped by +26.29% in 15 days. So if you were lucky and bought on the 1st of October, that's the profit you would have realized by selling on the 15th. Instead, if you had invested every day for the period, here is the average price at which you would have bought ETH:
+Esto es más o menos lo contrario de la sección anterior donde el precio de ETH subio un +26,29% en 15 días. Así que si tuviste suerte y compraste el 1 de octubre, ese es el beneficio que habrías obtenido vendiendo el día 15. En cambio, si hubieras invertido todos los días del periodo, este es el precio medio al que habrías comprado ETH
 
-| Date     | ETH price in USD |
-| -------- | ---------------- |
-| 10/01/21 | 3,001.13         |
-| 10/02/21 | 3,155.00         |
-| 10/03/21 | 3,233.59         |
-| 10/04/21 | 3,279.89         |
-| 10/05/21 | 3,300.27         |
-| 10/06/21 | 3,336.32         |
-| 10/07/21 | 3,370.67         |
-| 10/08/21 | 3,397.82         |
-| 10/09/21 | 3,415.84         |
-| 10/10/21 | 3,431.76         |
-| 10/11/21 | 3,430.66         |
-| 10/12/21 | 3,440.31         |
-| 10/13/21 | 3,444.35         |
-| 10/14/21 | 3,455.82         |
-| 10/15/21 | 3,478.11         |
+| Fecha    | Precio de ETH en USD |
+| -------- | -------------------- |
+| 10/01/21 | 3,001.13             |
+| 10/02/21 | 3,155.00             |
+| 10/03/21 | 3,233.59             |
+| 10/04/21 | 3,279.89             |
+| 10/05/21 | 3,300.27             |
+| 10/06/21 | 3,336.32             |
+| 10/07/21 | 3,370.67             |
+| 10/08/21 | 3,397.82             |
+| 10/09/21 | 3,415.84             |
+| 10/10/21 | 3,431.76             |
+| 10/11/21 | 3,430.66             |
+| 10/12/21 | 3,440.31             |
+| 10/13/21 | 3,444.35             |
+| 10/14/21 | 3,455.82             |
+| 10/15/21 | 3,478.11             |
 
-With an average price of $3,478.11 and an ending price of $3,790.15, you would make a gain of 15.89% by selling on the 15th. In this case, the DCA price is always lower than the market price, except on the 11th of October, which means that you would always be able to sell the asset you purchased with a benefit.
+Con un precio medio de 3.478,11 dólares y un precio final de 3.790,15 dólares, usted obtendría una ganancia del 15,89% vendiendo el día 15. En este caso, el precio del DCA es siempre inferior al del mercado, excepto el 11 de octubre, lo que significa que siempre podría vender el activo que compró con un beneficio.
 
-![Actual ETH price VS DCA'd ETH price](../../.gitbook/assets/dca-2.png)
+![Precio de ETH actual VS Precio de ETH con DCA](../../.gitbook/assets/dca-2.png)
 
-In this situation, you can also DCA into stablecoins using your Ether. With an average sell price of $3,478.11, you would make a better profit than spot selling in the first 5 days or on the 11th. This is particularly good if you want to capture benefits, repay a loan, or accumulate stablecoins for the next time the market goes down. You may also want to "save" high prices into stablecoins in order to farm yields in uncertain times where your volatile assets have a risk to go down.
+En esta situación, también puede DCA en stablecoins utilizando su Ether. Con un precio medio de venta de 3.478,11 dólares, obtendrías un mejor beneficio que vendiendo al contado en los primeros 5 días o el día 11. Esto es especialmente bueno si quieres obtener beneficios, pagar un préstamo o acumular stablecoins para la próxima vez que el mercado baje. También puede querer "ahorrar" precios altos en stablecoins para obtener rendimientos en tiempos inciertos en los que sus activos volátiles tienen riesgo de bajar..
 
-### DCA'ing during market cycle
+### Haciendo DCA en los ciclos del mercado
 
-Whether you are investing in crypto-currencies or the stock market, you probably noticed that markets are cyclical. Once again, you can read more about market cycles in the [investopedia](https://www.investopedia.com/trading/market-cycles-key-maximum-returns/), but here are the key things you need to know:
+Tanto si invierte en criptomonedas como en el mercado de valores, probablemente haya notado que los mercados son cíclicos. Una vez más, puede leer más sobre los ciclos del mercado en la pagina de [investopedia](https://www.investopedia.com/trading/market-cycles-key-maximum-returns/), pero aquí están las cosas clave que necesitas saber:
 
-* Markets move in four phases; understanding how each phase works and how to benefit is the difference between floundering and flourishing.
-* In the accumulation phase, the market has bottomed, and early adopters and contrarians see an opportunity to jump in and scoop up discounts.
-* In the mark-up phase, the market seems to have leveled out, and the early majority are jumping back in, while the smart money is cashing out.
-* In the distribution phase, sentiment turns mixed to slightly bearish, prices are choppy, sellers prevail, and the end of the rally is near.
-* In the mark-down phase, laggards try to sell and salvage what they can, while early adopters look for signs of a bottom so they can get back in.
+* Los mercados se mueven en cuatro fases; entender cómo funciona cada una de ellas y cómo beneficiarse es la diferencia entre tambalearse y prosperar.&#x20;
+* En la fase de acumulación, el mercado ha tocado fondo, y los pioneros y los contrarios ven la oportunidad de entrar en él y aprovechar los descuentos.&#x20;
+* En la fase de aumento, el mercado parece haberse estabilizado, y la mayoría de los pioneros vuelven a entrar, mientras que el dinero inteligente se retira.&#x20;
+* En la fase de distribución, el sentimiento se torna de mixto a ligeramente bajista, los precios se agitan, los vendedores prevalecen y el final del rally se acerca.
+* En la fase de rebaja, los rezagados intentan vender y salvar lo que puedan, mientras que los primeros buscan señales de un fondo para volver a entrar..
 
-Inflection points are the moment when you need to switch from a buyer to a seller in your DCA strategy:
+Los puntos de inflexión son el momento en el que debe pasar de comprador a vendedor en su estrategia de DCA:
 
-![Buying and Selling phases during market cycles](../../.gitbook/assets/dca-3.png)
+![Las fases de compra y venta del mercado](../../.gitbook/assets/dca-3.png)
 
-## DCA into volatile assets using Mai Finance and Mean Finance
+## DCA usando Mai Finance y Mean Finance
 
 ### Mai Finance
 
-[Mai Finance](https://app.mai.finance) is a lending protocol where you will be able to deposit particular assets as collateral and borrow the MAI stablecoin at 0% interest. For this particular guide, let's assume we want to DCA into ETH from an existing portfolio already containing the equivalent of $1,000 worth of ETH. On the decentralized application, you will be able to
+[Mai Finance](https://app.mai.finance) es un protocolo de préstamo en el que podrá depositar determinados activos como garantía y tomar prestada la stablecoin MAI a un interés del 0%. Para esta guía en particular, supongamos que queremos DCA en ETH desde una cartera existente que ya contiene el equivalente a 1.000 dólares de ETH. En la aplicación descentralizada, podrá:
 
-* deposit the ETH into an ETH vault
-* borrow MAI against your collateral
+* depositar el ETH en una bóveda de ETH
+* tomar prestado MAI contra su garantía&#x20;
 
-In order to limit the risks, we will assume that you borrow $300 worth of MAI to keep a healthy CDR (**C**ollateral to **D**ebt **R**atio).
+Para limitar los riesgos, supondremos que toma prestados 300 $ de MAI para mantener un CDR (ratio de garantía a deuda) saludable..
 
 ### Mean Finance
 
-[Mean Finance](https://mean.finance/) is an automated application where you will be able to set up a DCA position that will automatically purchase specific assets using other assets, with a given frequency over a given amount of time.
+[Mean Finance](https://mean.finance/) es una aplicación automatizada en la que podrá establecer una posición de DCA que comprará automáticamente activos específicos utilizando otros activos, con una frecuencia determinada durante un tiempo determinado.
 
-![Creating a DCA position on Mean finance](../../.gitbook/assets/dca-4.png)
+![Creando una posicion de DCA en Mean finance](../../.gitbook/assets/dca-4.png)
 
-Once created, you will be able to see the performance of your DCA position as well as the history of all the swaps.
+Una vez creado, podrá ver el rendimiento de su posición DCA, así como el historial de todos los swaps.
 
-![DCA performance over time](../../.gitbook/assets/dca-5.png)
+![El rendimiento del DCA en el tiempo](../../.gitbook/assets/dca-5.png)
 
-As you can see above, the DCA strategy is currently buying ETH every 4 hours and buying 1.61 MAI worth of ETH. A higher frequency will reflect the volatility of the targetted asset more than a less frequent swap.
+Como puede ver arriba, la estrategia DCA está comprando actualmente ETH cada 4 horas y comprando 1,61 MAI de ETH. Una frecuencia más alta reflejará la volatilidad del activo objetivo más que un intercambio menos frecuente.&#x20;
 
-It's important to note a few things about Mean Finance
+Es importante tener en cuenta algunas cosas sobre Mean Finance:
 
-* Positions are NFTs, meaning that you are the only one with access to the position.
-* Because it's an NFT, you can possibly transfer the ownership to another address.
-* You can withdraw the asset already swapped at any given moment. This is particularly useful if the average price is way lower than the current market price and you want to sell what you already converted.
-* You can update the duration and rate of the DCA strategy as you wish. This is once again particularly useful if you can withdraw and sell the swapped asset with a substantial profit and re-invest into your DCA position.
-* You can terminate the position at any moment and withdraw both the swapped asset as well as the collateral used to make purchases.
+* Las posiciones son NFT, lo que significa que usted es el único que tiene acceso a la posición.&#x20;
+* Al ser una NFT, usted puede posiblemente transferir la propiedad a otra dirección.&#x20;
+* Puede retirar el activo ya intercambiado en cualquier momento. Esto es especialmente útil si el precio medio es muy inferior al precio actual del mercado y quiere vender lo que ya ha convertido.&#x20;
+* Puede actualizar la duración y la tasa de la estrategia DCA como desee. Esto es, una vez más, especialmente útil si puede retirar y vender el activo canjeado con un beneficio sustancial y reinvertirlo en su posición DCA.&#x20;
+* Puede terminar la posición en cualquier momento y retirar tanto el activo canjeado como la garantía utilizada para hacer la compra
 
-### DCA Strategy
+### Estrategia de DCA&#x20;
 
-The strategy for this guide is more or less what has been explained in the sections above.
+La estrategia para esta guía es más o menos la que se ha explicado en las secciones anteriores
 
-![DCA back and forth using Mai.Finance and Mean.Finance](../../.gitbook/assets/dca-6.png)
+![Realizando DCA continuo usando Mai.Finance y Mean.Finance](../../.gitbook/assets/dca-6.png)
 
-Assuming you want to accumulate Ether, you will have to
+Suponiendo que quieras acumular Éter, tendrás que:
 
-* You can zap your ETH into the camWETH vault on Mai Finance in order to collect rewards from AAVE v2 lending market
-* Borrow MAI to keep a healthy CDR
-* Feed your MAI in Mean Finance for a given period of time
-* At the end of the DCA period collect your WETH
-* Repeat by topping off your vault
+* Puedes depositar tu ETH en la bóveda de camWETH en Mai Finance para recoger las recompensas del mercado de préstamos de AAVE v2
+* Pedir prestado MAI para mantener un CDR saludable&#x20;
+* Alimenta tu MAI en Mean Finance durante un periodo de tiempo determinado
+* &#x20;Al final del periodo de DCA recoge tu WETH&#x20;
+* Repite la operación rellenando tu caja fuerte
 
-The idea here is that you may be able to borrow more or less MAI every time you renew your DCA position, depending on the market price and the health factor of your vault on Mai Finance. This strategy will allow you to slowly accumulate Ether using a DCA approach instead of leveraging everything at once. Topping off your vault is also a good way to keep a healthy CDR.
+La idea aquí es que usted puede ser capaz de pedir prestado más o menos MAI cada vez que renueve su posición DCA, dependiendo del precio de mercado y el factor de salud de su bóveda en Mai Finance. Esta estrategia le permitirá acumular lentamente Ether utilizando un enfoque DCA en lugar de apalancar todo a la vez. Recargar tu bóveda es también una buena manera de mantener un CDR saludable.&#x20;
 
-If you prefer selling your Ether, you can do the opposite loop and DCA into stable coins to repay your loan on Mai Finance:
+Si prefieres vender tu Ether, puedes hacer el bucle contrario y DCA en monedas estables para pagar tu préstamo en Mai Finance:
 
-* Feed WETH into Mean Finance for a given period of time and DCA out for MAI
-* At the end of the DCA period, collect your MAI
-* Repay your loan from Mai Finance
-* Zap out your camWETH tokens from the vault and collect WETH
-* Repeat by selling more WETH via Mean Finance
+* Introduzca el WETH en Mean Finance durante un periodo de tiempo determinado y realice el DCA para obtener el MAI&#x20;
+* Al final del período de DCA, recoja su MAI&#x20;
+* Devuelve tu préstamo de Mai Finance
+* Saca tus tokens de camWETH de la caja fuerte y recoge WETH&#x20;
+* Repite la operación vendiendo más WETH a través de Mean Finance
 
-If you're doing this correctly, you will normally be able to fully repay your loan and end up with more Ether than what you originally deposited.
+Si lo haces correctamente, normalmente podrás devolver completamente tu préstamo y acabarás con más Ether del que depositaste originalmente.&#x20;
 
-Alternatively, you can use the MAI loan to farm yields, and convert the rewards to a stablecoin that will be used to feed the DCA engine from Mean Finance.
+Alternativamente, puedes utilizar el préstamo MAI para cultivar rendimientos, y convertir las recompensas en una stablecoin que se utilizará para alimentar el motor DCA de Mean Finance.
 
-## Disclaimer
+## Descargo de responsabilidad
 
-Everything presented in this tutorial is educational content made to illustrate how you can use Dollar Cost Average to average the price of volatile assets and hopefully accumulate them in a sustainable manner. The goal here is to build wealth over a long period of time using automated tools rather than buying and selling with your feelings.
+Todo lo que se presenta en este tutorial es contenido educativo hecho para ilustrar cómo se puede utilizar el Promedio del Costo del Dólar para promediar el precio de los activos volátiles y, con suerte, acumularlos de manera sostenible. El objetivo aquí es construir riqueza durante un largo período de tiempo utilizando herramientas automatizadas en lugar de comprar y vender con sus sentimientos.&#x20;
 
-This strategy also presents some risks if you don't analyze the entire market. Indeed, if you start buying at the top of the cycle, DCA'ing will obviously not work that well and will take a lot of time before the average purchase price reaches an adequate market price. And your vault may be at risk if you use all your loan to DCA into a volatile asset while the market is at the beginning of a downtrend. As always, make sure you understand properly where the market is going before investing.
+Esta estrategia también presenta algunos riesgos si no se analiza todo el mercado. De hecho, si empieza a comprar en la parte alta del ciclo, el DCA'ing obviamente no funcionará tan bien y pasará mucho tiempo antes de que el precio medio de compra alcance un precio de mercado adecuado. Y su vault puede estar en riesgo si utiliza todo su préstamo para hacer DCA en un activo volátil mientras el mercado está al principio de una tendencia a la baja. Como siempre, asegúrese de entender bien hacia dónde va el mercado antes de invertir..
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenga en cuenta que una estrategia que funciona bien en un momento dado puede dar malos resultados (o hacerle perder dinero) en otro momento. Manténgase informado, controle los mercados, vigile sus inversiones y, como siempre, investigue por su cuenta.
 {% endhint %}
