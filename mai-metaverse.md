@@ -6,13 +6,11 @@ description: >-
 
 # Universo MAI
 
-
-
-![](<.gitbook/assets/Screen Shot 2021-09-13 at 1.06.42 PM.png>)
+![](.gitbook/assets/MAI.png)
 
 ## Introducción
 
-MAI, también conocida cómo miMATIC, es la primera stablecoin nativa de la red de Polygon. Casi siempre tendrá un valor cercano al $1.00, y su valor fluctuará entre $0.99 y $1.01. Puedes obtener más información acerca cómo se mantiene estable en la [documetación oficial](https://docs.mai.finance/stablecoin-economics). Sin embargo, aunque MAI sea nativa a Polygon, no significa que no la puedas encontrar en otras blockchains. De la misma forma que puedes encontrar DAI en otras cadenas (DAI es una stablecoin con origen en la red Mainnet de Ethereum ), MAI se está expandiendo lentamente a otras cadenas. En este artículo encontrarás cuáles son las distintas redes en la que puedes encontrar MAI y como puedes transferirlas entre una red y otra.&#x20;
+MAI, también conocida cómo miMATIC, es la primera stablecoin nativa de la red de Polygon. Casi siempre tendrá un valor cercano al $1.00, y su valor fluctuará entre $0.99 y $1.01. Puedes obtener más información acerca cómo se mantiene estable en la [documetación oficial](https://docs.mai.finance/stablecoin-economics). Sin embargo, aunque MAI sea nativa a Polygon, no significa que no la puedas encontrar en otras blockchains. De la misma forma que puedes encontrar DAI en otras cadenas (DAI es una stablecoin con origen en la red Mainnet de Ethereum ), MAI se está expandiendo lentamente a otras cadenas. En este artículo encontrarás cuáles son las distintas redes en la que puedes encontrar MAI y como puedes transferirlas entre una red y otra.
 
 ## Polygon
 
@@ -38,7 +36,7 @@ Puedes encontrar otros pares de liquidez en otros proyectos / granjas de rendimi
 
 ### ¿Cómo obtener MAI en Solana?
 
-Solana es una plataforma blockchain para DAPPs (**D**ecentralized **Apps**).El objetivo de la red es proponer bajas comisiones (menos de $0.01) con una alta velocidad de transacción (menos de 400ms). La idea tras la creación de esta red es proponer una alternativa a la Mainnet de Ethereum y sus sidechains. Sin embargo, aunque Solana es un competidor directo respecto a la red de Ethereum, eso no signifca que no pueda apoyar a "apoyar" a los mismos activos. Ya que ahora Solana tiene soporte de la stablecoin MAI que puede ser transferida desde  la red de Polygon (dónde es "fabricada").
+Solana es una plataforma blockchain para DAPPs (**D**ecentralized **Apps**).El objetivo de la red es proponer bajas comisiones (menos de $0.01) con una alta velocidad de transacción (menos de 400ms). La idea tras la creación de esta red es proponer una alternativa a la Mainnet de Ethereum y sus sidechains. Sin embargo, aunque Solana es un competidor directo respecto a la red de Ethereum, eso no signifca que no pueda apoyar a "apoyar" a los mismos activos. Ya que ahora Solana tiene soporte de la stablecoin MAI que puede ser transferida desde la red de Polygon (dónde es "fabricada").
 
 Para poder enviar tus tokens MAI a Solana, puedes usar [AllBridge](https://allbridge.io), una plataforma que te permite enviar proyectos de una red a otra. AllBridge tiene soporte de las siguientes redes:
 
@@ -50,7 +48,7 @@ Para poder enviar tus tokens MAI a Solana, puedes usar [AllBridge](https://allbr
 
 La interfaz es bastante intuitiva en el sentido de que solo tienes que seleccionar las dos redes y el activo que quieres transferir entre estas.
 
-![Transferiendo MAI de Polygon a Solana](<.gitbook/assets/Screen Shot 2021-09-13 at 1.52.23 PM.png>)
+![Transferiendo MAI de Polygon a Solana](.gitbook/assets/screen-shot-2021-09-13-at-1.52.23-pm.png)
 
 El siguiente paso es escribir la dirección de tu cartera de Solana y la cantidad que quieras transferir. Tenga cuidado ya que MetaMask no tiene soporte de las carteras de la red de Solana (por ahora), por lo que tendrás que crearte una cartera diferente en dicha red. Esto puede ser a través de una web wallet como MetaMask, o una app wallet. Leáse la [recomendación oficial de Solana](https://docs.solana.com/wallet-guide) antes de elegir una.
 
@@ -60,15 +58,15 @@ Tenga cuidado al crearse una cartera nueva en la red de Solana, ya que no hay ni
 
 ### Usando MAI en Solana
 
-De la misma forma que puedes usar MAI  para dar liquidez y participar en granjas de rendimiento en Polygon , puedes hacer lo mismo en Solana. La página principal donde puedes hacer esto es en [Saber](https://app.saber.so), en el par MAI/USDC.
+De la misma forma que puedes usar MAI para dar liquidez y participar en granjas de rendimiento en Polygon , puedes hacer lo mismo en Solana. La página principal donde puedes hacer esto es en [Saber](https://app.saber.so), en el par MAI/USDC.
 
-![Estado del par MAI/USDC en Saber a fecha de Sept. 2021](<.gitbook/assets/Screen Shot 2021-09-13 at 2.11.10 PM.png>)
+![Estado del par MAI/USDC en Saber a fecha de Sept. 2021](.gitbook/assets/screen-shot-2021-09-13-at-2.11.10-pm.png)
 
 Una de las ventajas acerca del par MAI/USDC en Saber es que, a diferencia de los pares de liquidez en QuickSwap, no necesitas suministrar los activos en un ratio de 1:1. Puedes depositar simplemente un sólo activo (**MAI** o **USDC**) o un ratio desequilibrado de ambas stablecoin.
 
-![MAI y USDC tienen cantidades dispares en el par de Saber](<.gitbook/assets/Screen Shot 2021-09-13 at 2.13.51 PM.png>)
+![MAI y USDC tienen cantidades dispares en el par de Saber](.gitbook/assets/screen-shot-2021-09-13-at-2.13.51-pm.png)
 
-Esto significa que puedes usar el 100% de los depósitos de MAI de Mai Finance sin tener que cambiar nada por USDC. Esto es bastante beneficioso ya que previene ser afectado por la minúscula diferencia entre el precio de estas 2 stablecoins. Destacar que obtendrás las recompensas en el token nativo de la plataforma,  de la misma forma que obtienes QUICK si estás haciendo farming en QuickSwap en Polygon. Lo que podrías hacer es vender tus tokens SBR para aumentar tu posicion en el par MAI/USDC .
+Esto significa que puedes usar el 100% de los depósitos de MAI de Mai Finance sin tener que cambiar nada por USDC. Esto es bastante beneficioso ya que previene ser afectado por la minúscula diferencia entre el precio de estas 2 stablecoins. Destacar que obtendrás las recompensas en el token nativo de la plataforma, de la misma forma que obtienes QUICK si estás haciendo farming en QuickSwap en Polygon. Lo que podrías hacer es vender tus tokens SBR para aumentar tu posicion en el par MAI/USDC .
 
 {% hint style="info" %}
 En Solana, puedes usar [Sunny](https://app.sunny.ag), un agregador que auto-compondrá (auto-compound) tus recompensas de Saber. Destacar que Sunny no se encuentra validado por el equipoy de Mai Finance . AllBridge y Saber son colaboradores oficiales de Mai Finance, pero los resultados no pueden ser asegurados. Por favor, y como siempre , haz tu propia investigación.
@@ -82,7 +80,7 @@ Avalanche es una red blockchain, diseñado para suministrar una plataforma de co
 
 Al igual que pasaba con AllBridge, la UI es bastante sencilla. Solo tienes que seleccionar la red a la cual quieres transferir el activo, el activo y la red de origen.
 
-![Transferiendo MAI de Polygon a Avalanche](<.gitbook/assets/Screen Shot 2021-09-13 at 2.52.31 PM.png>)
+![Transferiendo MAI de Polygon a Avalanche](.gitbook/assets/screen-shot-2021-09-13-at-2.52.31-pm.png)
 
 Metamask **si** tiene soporte a las [carteras de Avax](https://support.avax.network/en/articles/4626956-how-do-i-set-up-metamask-on-avalanche), por lo que no necesitarás crearte una cartera adicional como en Solana.
 
@@ -90,9 +88,9 @@ Metamask **si** tiene soporte a las [carteras de Avax](https://support.avax.netw
 
 De la misma forma que puedes usar MAI en granjas de rendimiento en Polygon, puedes usar MAI en Avalanche. El lugar principal para hacer esto es en [Trader Joe's farms](https://www.traderjoexyz.com/#/farm), donde encontrarás un par de liquidez MAI/USDC.
 
-![Estado del par MAI/USDC en Trader Joe a fecha de Sept. 2021](<.gitbook/assets/Screen Shot 2021-09-13 at 3.07.19 PM.png>)
+![Estado del par MAI/USDC en Trader Joe a fecha de Sept. 2021](.gitbook/assets/screen-shot-2021-09-13-at-3.07.19-pm.png)
 
-Las granjas de Avalanche funcionan de forma muy parecida a las que puedes encontrar en Polygon. Por lo que podrás usar la app de Trader Joe's app de la misma forma que usas QuickSwap. Lo primero que tendrás que hacer será crear el par con MAI y USDC en la misma página con el mismo ratio, es decir, 1:1. Luego, tendrás que depositar el par en la página. De la misma forma que obtienes QUICK cuando farmeas usando QuickSwap,  obtendrás tokens JOE cuando farmees usando Trader Joe. Podrás utilizar este token en otros pares de liquidez en la misma página, o podrás vender el token para incrementar tu posición el par MAI/USDC .
+Las granjas de Avalanche funcionan de forma muy parecida a las que puedes encontrar en Polygon. Por lo que podrás usar la app de Trader Joe's app de la misma forma que usas QuickSwap. Lo primero que tendrás que hacer será crear el par con MAI y USDC en la misma página con el mismo ratio, es decir, 1:1. Luego, tendrás que depositar el par en la página. De la misma forma que obtienes QUICK cuando farmeas usando QuickSwap, obtendrás tokens JOE cuando farmees usando Trader Joe. Podrás utilizar este token en otros pares de liquidez en la misma página, o podrás vender el token para incrementar tu posición el par MAI/USDC .
 
 ## Fantom
 

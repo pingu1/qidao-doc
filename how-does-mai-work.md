@@ -19,9 +19,9 @@ Si llevas algún tiempo en el mundo de las criptomonedas, puede que recuerdes el
 
 En junio de 2021 el token TITAN alcanzó un ATH (All-Time-High o precio record) de 65 dólares, lo que provocó que un montón de inversores, que habían invertido cantidades considerables en la moneda, decidieran vender. Esto causó un problema ya que TITAN tiene un precio basado en la oferta y la demanda. Por lo tanto, a medida que la oferta disponible de TITAN aumentaba, el precio comenzó a disminuir. Esto causó una enorme presión de venta, por lo que el precio de TITAN cayó aún más rápido, así que cuando TITAN comenzó a caer rápidamente, IRON perdió su respaldo, por lo que la stablecoin de IRON dejó de valer $1 (esto se conoce como perder el "**peg**").
 
-![Gráfica del precio del token TITAN](.gitbook/assets/Iron.JPG)
+![Gráfica del precio del token TITAN](.gitbook/assets/iron.jpg)
 
-![Gráfica del precio de IRON](.gitbook/assets/titan.JPG)
+![Gráfica del precio de IRON](.gitbook/assets/titan.jpg)
 
 La gente comenzó a comprar la moneda estable IRON para venderla por USDC y ganar algo de dinero rápido, en una gran oportunidad de arbitraje (esto es beneficiarse de las variaciones de precio de los tokens). En resumen, se ha llegado a calcular que aproximadamente se perdieron casi 1.750 millones de dólares en este incidente. Ahora, ¿hay alguna diferencia entre la moneda estable IRON y la moneda estable MAI?
 
@@ -37,7 +37,7 @@ Otra forma de acuñar MAI es a través del [Anchor](https://app.mai.finance/anch
 
 Como se puede ver en la imagen de abajo, el precio de la moneda estable MAI oscila casi siempre en los $ 1, esto se debe a que, tal y cómo dice la [documentación oficial](https://docs.mai.finance/stablecoin-economics), la moneda estable MAI permite a los usuarios participar en oportunidades de arbitraje de bajo riesgo a través de Anchor cuando el precio de MAI cae por debajo de $0,99 o sube por encima de $1,01.
 
-![Gráfica del precio del token MAI en los últimos 90 días](<.gitbook/assets/image (7) (1) (1) (1) (2).png>)
+![Gráfica del precio del token MAI en los últimos 90 días](<.gitbook/assets/image (7) (1) (1) (1) (1) (1) (1).png>)
 
 ## ¿Por qué se mantiene siempre en $1?
 

@@ -41,7 +41,7 @@ Sin embargo, 1 CAD siempre es igual a 1 CAD, pase lo que pase, como 1 USD = 1 US
 
 ### ¿Qué es la red Jarvis?
 
-[Jarvis Network](https://jarvis.network) es una aplicacion que permite [intercambar cryptoactivos ](https://app.jarvis.exchange) por FIAT sintéticas. Una FIAT sintética es una criptomoneda que está vinculada al precio de una FIAT existente. Como tal, Jarvis le permitirá cambiar sus:
+[Jarvis Network](https://jarvis.network/) es una aplicacion que permite [intercambar cryptoactivos ](https://app.jarvis.exchange/) por FIAT sintéticas. Una FIAT sintética es una criptomoneda que está vinculada al precio de una FIAT existente. Como tal, Jarvis le permitirá cambiar sus:
 
 * USDCs por jCAD: la versión criptográfica del dólar canadiense
 * &#x20;jEUR: la representación criptográfica del euro j
@@ -118,7 +118,7 @@ Piensa también en este escenario: tienes dólares canadienses y quieres un poco
 
 ### Market.xyz
 
-[Market.xyz](https://www.market.xyz) es un protocolo de préstamo en el que podrás utilizar algunos de tus criptoactivos como garantía para pedir prestados otros activos. Recientemente han lanzado un nuevo pool 100% dedicado a los FIAT sintéticos de Jarvis, puede comprobarlo [aquí ](https://polygon.market.xyz/pool/7)
+[Market.xyz](https://www.market.xyz/) es un protocolo de préstamo en el que podrás utilizar algunos de tus criptoactivos como garantía para pedir prestados otros activos. Recientemente han lanzado un nuevo pool 100% dedicado a los FIAT sintéticos de Jarvis, puede comprobarlo [aquí ](https://polygon.market.xyz/pool/7)
 
 ![Forex de Jarvis Forex bloqueado en  Market.xyz en March 2022](../../.gitbook/assets/Jarvis-9.png)
 
@@ -154,7 +154,7 @@ Ahora vamos a ver qué hacer con su préstamo en dólares.
 
 ### Uniswap V3
 
-[Uniswap V3](https://app.uniswap.org) es la última versión de Uniswap, el proyecto matriz de muchos DEX (Decentralized Exchanges) donde los usuarios podrán intercambiar sus activos por otras criptodivisas, así como proporcionar liquidez para apoyar estos intercambios.
+[Uniswap V3](https://app.uniswap.org/) es la última versión de Uniswap, el proyecto matriz de muchos DEX (Decentralized Exchanges) donde los usuarios podrán intercambiar sus activos por otras criptodivisas, así como proporcionar liquidez para apoyar estos intercambios.
 
 Uniswap V3 no está incentivado en Polygon (todavía), pero ofrece una nueva forma de proporcionar liquidez: ¡liquidez concentrada! Usted selecciona el rango en el que quiere proporcionar liquidez, y si el rango es muy estrecho, gana más comisiones que los usuarios que proporcionan liquidez en un rango más amplio. Puedes aprender como proveer liquidez en Uniswap V3 con [su guia oficial](https://help.uniswap.org/en/articles/5391541-provide-liquidity-on-uniswap-v3), o tambien puedes ver este video hecho por [Finematics](https://youtu.be/Ehm-OYBmlPM).
 
@@ -172,7 +172,7 @@ Sin embargo, lo que realmente debe entender es:
 * Si selecciona un rango estrecho y el precio se sale de ese rango, no cobrará comisiones Su liquidez no se ajusta en función del precio.&#x20;
 * Si selecciona un rango \[0,99;1,01] para MAI:USDC y el precio de MAI es 0,99 USDC, tendrá 100% de MAI y 0% de USDC. Por otro lado, si el precio es de 1,01 USDC por MAI, tendrá un 100% de USDC y un 0% de MAI&#x20;
 * Puedes salir de tu pool de liquidez en cualquier momento y crear uno nuevo con un rango más amplio/estrecho si ves que tu primera configuración no está recogiendo suficientes comisiones
-* Para las stablecoins, es mejor establecer un rango de comisiones del 0,05% para que los agregadores como [zapper](https://zapper.fi) o [1inch](https://app.1inch.io/#/137/) elijan su pool cuando los usuarios están intercambiando sus stablecoins
+* Para las stablecoins, es mejor establecer un rango de comisiones del 0,05% para que los agregadores como [zapper](https://zapper.fi/) o [1inch](https://app.1inch.io/#/137/) elijan su pool cuando los usuarios están intercambiando sus stablecoins
 
 Para simplificar esta guía, estableceremos un rango centrado en 1,000 con un margen del 1% entre 0,995 y 1,005 USDC por MAI.
 

@@ -39,7 +39,7 @@
   * [Cómo comenzar en Harmony](tutoriales/harmony/how-to-get-started-on-harmony.md)
   * [Un Par LP, muchas formas de farmear](tutoriales/harmony/how-to-farm-elknet.md)
 * [Gnosis Chain](tutoriales/gnosis/README.md)
-  * [How to get started on Gnosis Chain](tutoriales/gnosis/how-to-get-started-on-gnosis.md)
+  * [Cómo comenzar en Gnosis Chain](tutoriales/gnosis/how-to-get-started-on-gnosis.md)
 * [Optimism](tutoriales/optimism/README.md)
   * [How to get started on Optimism](tutoriales/optimism/how-to-get-started-on-optimism.md)
 * [Arbitrum](tutoriales/arbitrum/README.md)
