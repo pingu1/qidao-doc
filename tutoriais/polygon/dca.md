@@ -23,33 +23,33 @@ Este artigo explica como você pode fazer DCA corretamente em seus ativos favori
 Tenha em mente que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Por favor, mantenha-se informado, monitore os mercados, fique de olho em seus investimentos e, como sempre, faça sua própria pesquisa.
 {% endhint %}
 
-## Understand Dollar Cost Averaging
+## Entendendo o Dollar Cost Averaging
 
-Let's see how you can DCA in different market conditions, and what it means in terms of buying/selling power.
+Vamos ver como você pode fazer DCA em diferentes condições de mercado e o que isso significa em termos de poder de compra/venda.
 
-### DCA in a downtrend (bearish market)
+### DCA em tendência de baixa (mercado baixista)
 
-When the market is already quite down and (hopefully) near the bottom, or at least at a price level you feel comfortable buying, that's the moment to accumulate your favorite assets and buy tokens. Because you know, you want to buy when the price is low, and sell when it's high. As an example, here's a real example of ETH price for the first 15 days of June 2022
+Quando o mercado já estiver em baixa por bastante tempo e (assim esperamos) perto do fundo, ou pelo menos em um nível de preço que você se sinta confortável para comprar, esse é o momento de acumular seus ativos favoritos e comprar tokens. Porque, é claro, você quer comprar quando o preço estiver baixo para vender quando estiver alto. E aqui temos um exemplo real do preço de ETH na primeira metade de junho de 2022:
 
-| Date     | ETH price in USD |
-| -------- | ---------------- |
-| 06/01/22 | 1,928.60         |
-| 06/02/22 | 1,814.00         |
-| 06/03/22 | 1,826.39         |
-| 06/04/22 | 1,751.69         |
-| 06/05/22 | 1,791.55         |
-| 06/06/22 | 1,876.70         |
-| 06/07/22 | 1,756.89         |
-| 06/08/22 | 1,776.58         |
-| 06/09/22 | 1,798.50         |
-| 06/10/22 | 1,791.43         |
-| 06/11/22 | 1,668.25         |
-| 06/12/22 | 1,467.21         |
-| 06/13/22 | 1,349.25         |
-| 06/14/22 | 1,170.75         |
-| 06/15/22 | 1,169.67         |
+| Data     | Preço de ETH em USD |
+| -------- | ------------------- |
+| 06/01/22 | 1,928.60            |
+| 06/02/22 | 1,814.00            |
+| 06/03/22 | 1,826.39            |
+| 06/04/22 | 1,751.69            |
+| 06/05/22 | 1,791.55            |
+| 06/06/22 | 1,876.70            |
+| 06/07/22 | 1,756.89            |
+| 06/08/22 | 1,776.58            |
+| 06/09/22 | 1,798.50            |
+| 06/10/22 | 1,791.43            |
+| 06/11/22 | 1,668.25            |
+| 06/12/22 | 1,467.21            |
+| 06/13/22 | 1,349.25            |
+| 06/14/22 | 1,170.75            |
+| 06/15/22 | 1,169.67            |
 
-This is a drop in price of 39.35% for the first half of June, which followed a disastrous month of May. Now, assuming you bought a little bit of ETH every day over the same period of time, this is the average price at which you would have bought ETH:
+Esta é uma queda no preço de 39,35% para a primeira quinzena de junho, que antecedeu um mês desastroso de maio. Agora, supondo que você comprou um pouco de ETH todos os dias durante o mesmo período de tempo, este é o preço médio pelo qual você teria comprado ETH:
 
 | Date     | average DCA price |
 | -------- | ----------------- |
@@ -69,9 +69,9 @@ This is a drop in price of 39.35% for the first half of June, which followed a d
 | 06/14/22 | 1,697.70          |
 | 06/15/22 | 1,662.50          |
 
-With an average price of $1,662.50 and an ending price of $1,169.67, the drop goes from more than 39% to 29.64%. In that sense, DCA lowers your losses. This also means that, to break even, you need the price to go back to $1,662.50 instead of $1,928.60, and in case the price goes back to $1,928.60, you would be in profit of 16%.
+Com preço médio de US$ 1.662,50 e preço final de US$ 1.169,67, a queda passa de mais de 39% para 29,64%. Nesse sentido, o DCA reduz suas perdas. Isso também significa que, para equilibrar, você precisa que o preço volte para US$ 1.662,50 em vez de US$ 1.928,60, e caso o preço volte para US$ 1.928,60, você teria um lucro de 16%.
 
-![Actual ETH price VS DCA'd ETH price](../../.gitbook/assets/dca-1.png)
+![Preço real de ETH vs preço de ETH + DCA](../../.gitbook/assets/dca-1.png)
 
 An interesting thing to note is that if you sold your ETH for USDC (or another stable coin like MAI) over the same period, your average selling price would also have been $1,662.50, and you would have sold at a better price every day except for the 6th of June. This once again proves that DCA is way better than trying to time the market.
 
