@@ -73,31 +73,31 @@ Com preço médio de US$ 1.662,50 e preço final de US$ 1.169,67, a queda passa 
 
 ![Preço real de ETH vs preço de ETH + DCA](../../.gitbook/assets/dca-1.png)
 
-An interesting thing to note is that if you sold your ETH for USDC (or another stable coin like MAI) over the same period, your average selling price would also have been $1,662.50, and you would have sold at a better price every day except for the 6th of June. This once again proves that DCA is way better than trying to time the market.
+Uma coisa interessante a notar é que se você vendesse seu ETH por USDC (ou outra stablecoin como MAI) no mesmo período, seu preço médio de venda também teria sido de $ 1.662,50, e você teria vendido a um preço melhor todos os dias, exceto para o 6 de junho. Isso prova mais uma vez que o DCA é muito melhor do que tentar cronometrar o mercado.
 
-### DCA in an uptrend (bullish market)
+### DCA em tendência de alta (mercado altista)
 
-When the market is going up, you may also want to DCA into specific assets to pull the average purchase price down while the price is going up. Obviously, you want to do that at the beginning of the mark-up period of the main market cycle, which is why it's strongly recommended to DCA even in an uptrend. As an example, here's the ETH price for the first 15 days of October 2021.
+Quando o mercado está subindo, você também pode querer fazer DCA em ativos específicos para reduzir o preço médio de compra enquanto o preço está subindo. Obviamente, você quer fazer isso no início do período de mark-up do principal ciclo de mercado, e é por isso que é altamente recomendável fazer DCA mesmo em uma tendência de alta. Por exemplo, aqui está o preço de ETH para a primeira metade de outubro de 2021.
 
-| Date     | ETH price in USD |
-| -------- | ---------------- |
-| 10/01/21 | 3,001.13         |
-| 10/02/21 | 3,308.87         |
-| 10/03/21 | 3,390.77         |
-| 10/04/21 | 3,418.78         |
-| 10/05/21 | 3,381.78         |
-| 10/06/21 | 3,516.57         |
-| 10/07/21 | 3,576.81         |
-| 10/08/21 | 3,587.83         |
-| 10/09/21 | 3,560.00         |
-| 10/10/21 | 3,575.02         |
-| 10/11/21 | 3,419.73         |
-| 10/12/21 | 3,546.48         |
-| 10/13/21 | 3,492.75         |
-| 10/14/21 | 3,604.96         |
-| 10/15/21 | 3,790.15         |
+| Data     | Preço de ETH em USD |
+| -------- | ------------------- |
+| 10/01/21 | 3,001.13            |
+| 10/02/21 | 3,308.87            |
+| 10/03/21 | 3,390.77            |
+| 10/04/21 | 3,418.78            |
+| 10/05/21 | 3,381.78            |
+| 10/06/21 | 3,516.57            |
+| 10/07/21 | 3,576.81            |
+| 10/08/21 | 3,587.83            |
+| 10/09/21 | 3,560.00            |
+| 10/10/21 | 3,575.02            |
+| 10/11/21 | 3,419.73            |
+| 10/12/21 | 3,546.48            |
+| 10/13/21 | 3,492.75            |
+| 10/14/21 | 3,604.96            |
+| 10/15/21 | 3,790.15            |
 
-This is more or less the opposite of the previous section where the price of ETH jumped by +26.29% in 15 days. So if you were lucky and bought on the 1st of October, that's the profit you would have realized by selling on the 15th. Instead, if you had invested every day for the period, here is the average price at which you would have bought ETH:
+Isso é mais ou menos o oposto da seção anterior, onde o preço do ETH saltou +26,29% em 15 dias. Então, se você tivesse sorte e comprasse no dia 1º de outubro, esse seria o lucro que você teria ao vender no dia 15. Em vez disso, se você tivesse investido todos os dias durante o período, aqui está o preço médio pelo qual você compraria ETH:
 
 | Date     | ETH price in USD |
 | -------- | ---------------- |
@@ -117,25 +117,25 @@ This is more or less the opposite of the previous section where the price of ETH
 | 10/14/21 | 3,455.82         |
 | 10/15/21 | 3,478.11         |
 
-With an average price of $3,478.11 and an ending price of $3,790.15, you would make a gain of 15.89% by selling on the 15th. In this case, the DCA price is always lower than the market price, except on the 11th of October, which means that you would always be able to sell the asset you purchased with a benefit.
+Com um preço médio de $3.478,11 e um preço final de $3.790,15, você obteria um ganho de 15,89% vendendo no dia 15. Nesse caso, o preço do DCA é sempre inferior ao preço de mercado, exceto no dia 11 de outubro, o que significa que você sempre poderá vender o ativo adquirido com um benefício.
 
-![Actual ETH price VS DCA'd ETH price](../../.gitbook/assets/dca-2.png)
+![Preço real do ETH vs preço do ETH + DCA](../../.gitbook/assets/dca-2.png)
 
-In this situation, you can also DCA into stablecoins using your Ether. With an average sell price of $3,478.11, you would make a better profit than spot selling in the first 5 days or on the 11th. This is particularly good if you want to capture benefits, repay a loan, or accumulate stablecoins for the next time the market goes down. You may also want to "save" high prices into stablecoins in order to farm yields in uncertain times where your volatile assets have a risk to go down.
+Nesta situação, você também pode fazer DCA em stablecoins usando seu Ether. Com um preço médio de venda de $3.478,11, você teria um lucro melhor do que a venda à vista nos primeiros 5 dias ou no 11º. Isso é particularmente bom se você deseja capturar benefícios, pagar um empréstimo ou acumular stablecoins para a próxima vez que o mercado cair. Você também pode querer "economizar" preços altos em stablecoins para obter rendimentos em tempos incertos, quando seus ativos voláteis correm o risco de cair.
 
-### DCA'ing during market cycle
+### Ciclos de mercado e DCA
 
-Whether you are investing in crypto-currencies or the stock market, you probably noticed that markets are cyclical. Once again, you can read more about market cycles in the [investopedia](https://www.investopedia.com/trading/market-cycles-key-maximum-returns/), but here are the key things you need to know:
+Esteja você investindo em criptomoedas ou no mercado de ações, provavelmente notou que os mercados são cíclicos. Mais uma vez, você pode ler mais sobre os ciclos de mercado na [Investopedia](https://www.investopedia.com/trading/market-cycles-key-maximum-returns/), mas aqui estão as principais coisas que você precisa saber:
 
-* Markets move in four phases; understanding how each phase works and how to benefit is the difference between floundering and flourishing.
-* In the accumulation phase, the market has bottomed, and early adopters and contrarians see an opportunity to jump in and scoop up discounts.
-* In the mark-up phase, the market seems to have leveled out, and the early majority are jumping back in, while the smart money is cashing out.
-* In the distribution phase, sentiment turns mixed to slightly bearish, prices are choppy, sellers prevail, and the end of the rally is near.
-* In the mark-down phase, laggards try to sell and salvage what they can, while early adopters look for signs of a bottom so they can get back in.
+* Os mercados se movem em quatro fases; entender como funciona cada fase e como se beneficiar é a diferença entre tropeçar e prosperar.
+* Na fase de acumulação, o mercado chegou ao fundo do poço e os primeiros adeptos e os contrários veem uma oportunidade de entrar e conseguir descontos.
+* Na fase mark-up, o mercado parece ter se estabilizado e a maioria inicial está voltando, enquanto o dinheiro inteligente está sendo sacado.
+* Na fase de distribuição, o sentimento se torna misto a levemente baixista, os preços estão agitados, os vendedores prevalecem e o fim do rali está próximo.
+* Na fase mark-down, os atrasados tentam vender e salvar o que podem, enquanto os adeptos iniciais procuram sinais de um fundo para que possam voltar.
 
-Inflection points are the moment when you need to switch from a buyer to a seller in your DCA strategy:
+Os pontos de inflexão são o momento em que você precisa mudar de comprador para vendedor em sua estratégia de DCA:
 
-![Buying and Selling phases during market cycles](../../.gitbook/assets/dca-3.png)
+![Fases de compra e venda durante os ciclos de mercado](../../.gitbook/assets/dca-3.png)
 
 ## DCA into volatile assets using Mai Finance and Mean Finance
 
