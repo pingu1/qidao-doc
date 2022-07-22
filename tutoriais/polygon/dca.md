@@ -137,35 +137,35 @@ Os pontos de inflexão são o momento em que você precisa mudar de comprador pa
 
 ![Fases de compra e venda durante os ciclos de mercado](../../.gitbook/assets/dca-3.png)
 
-## DCA into volatile assets using Mai Finance and Mean Finance
+## DCA em ativos voláteis usando Mai Finance e Mean Finance
 
 ### Mai Finance
 
-[Mai Finance](https://app.mai.finance) is a lending protocol where you will be able to deposit particular assets as collateral and borrow the MAI stablecoin at 0% interest. For this particular guide, let's assume we want to DCA into ETH from an existing portfolio already containing the equivalent of $1,000 worth of ETH. On the decentralized application, you will be able to
+[Mai Finance](https://app.mai.finance) é um protocolo de empréstimo no qual você poderá depositar ativos específicos como garantia e tomar emprestado a stablecoin MAI com 0% de juros. Para este guia específico, vamos supor que queremos converter o DCA em ETH a partir de um portfólio existente que já contém o equivalente a US$ 1.000 em ETH. No aplicativo descentralizado, você poderá:
 
-* deposit the ETH into an ETH vault
-* borrow MAI against your collateral
+* depositar o ETH em um cofre ETH
+* tomar emprestado MAI contra sua garantia
 
-In order to limit the risks, we will assume that you borrow $300 worth of MAI to keep a healthy CDR (**C**ollateral to **D**ebt **R**atio).
+Para limitar os riscos, assumiremos que você toma emprestado $300 em MAI para manter uma CDR (Colateral to Debt Ratio) saudável.
 
 ### Mean Finance
 
-[Mean Finance](https://mean.finance/) is an automated application where you will be able to set up a DCA position that will automatically purchase specific assets using other assets, with a given frequency over a given amount of time.
+[Mean Finance](https://mean.finance/) é um aplicativo automatizado onde você poderá configurar uma posição de DCA que comprará automaticamente ativos específicos usando outros ativos, com uma determinada frequência durante um determinado período de tempo.
 
-![Creating a DCA position on Mean finance](../../.gitbook/assets/dca-4.png)
+![Criando uma posição de DCA em finanças médias](../../.gitbook/assets/dca-4.png)
 
-Once created, you will be able to see the performance of your DCA position as well as the history of all the swaps.
+Uma vez criado, você poderá ver o desempenho de sua posição de DCA, bem como o histórico de todos os swaps.
 
-![DCA performance over time](../../.gitbook/assets/dca-5.png)
+![Performance de DCA ao longo do tempo](../../.gitbook/assets/dca-5.png)
 
-As you can see above, the DCA strategy is currently buying ETH every 4 hours and buying 1.61 MAI worth of ETH. A higher frequency will reflect the volatility of the targetted asset more than a less frequent swap.
+Como você pode ver acima, a estratégia DCA está comprando ETH a cada 4 horas e comprando 1,61 MAI de ETH. Uma frequência mais alta refletirá a volatilidade do ativo visado mais do que uma troca menos frequente.
 
-It's important to note a few things about Mean Finance
+É importante notar algumas coisas sobre a Mean Finance:
 
-* Positions are NFTs, meaning that you are the only one with access to the position.
-* Because it's an NFT, you can possibly transfer the ownership to another address.
-* You can withdraw the asset already swapped at any given moment. This is particularly useful if the average price is way lower than the current market price and you want to sell what you already converted.
-* You can update the duration and rate of the DCA strategy as you wish. This is once again particularly useful if you can withdraw and sell the swapped asset with a substantial profit and re-invest into your DCA position.
+* As posições são NFTs, o que significa que você é o único com acesso à posição.
+* Por ser um NFT, você pode transferir a propriedade para outro endereço.
+* Você pode retirar o ativo já trocado a qualquer momento. Isso é particularmente útil se o preço médio for muito inferior ao preço de mercado atual e você quiser vender o que já converteu.
+* Você pode atualizar a duração e a taxa da estratégia DCA conforme desejar. Isso é mais uma vez particularmente útil se você puder retirar e vender o ativo trocado com um lucro substancial e reinvestir em sua posição de DCA.
 * You can terminate the position at any moment and withdraw both the swapped asset as well as the collateral used to make purchases.
 
 ### DCA Strategy
