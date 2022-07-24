@@ -166,9 +166,9 @@ Como você pode ver acima, a estratégia DCA está comprando ETH a cada 4 horas 
 * Por ser um NFT, você pode transferir a propriedade para outro endereço.
 * Você pode retirar o ativo já trocado a qualquer momento. Isso é particularmente útil se o preço médio for muito inferior ao preço de mercado atual e você quiser vender o que já converteu.
 * Você pode atualizar a duração e a taxa da estratégia DCA conforme desejar. Isso é mais uma vez particularmente útil se você puder retirar e vender o ativo trocado com um lucro substancial e reinvestir em sua posição de DCA.
-* You can terminate the position at any moment and withdraw both the swapped asset as well as the collateral used to make purchases.
+* Você pode encerrar a posição a qualquer momento e retirar tanto o ativo trocado quanto a garantia usada para fazer compras.
 
-### DCA Strategy
+### Estratégia em DCA
 
 The strategy for this guide is more or less what has been explained in the sections above.
 
