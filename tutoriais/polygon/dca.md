@@ -168,40 +168,40 @@ Como você pode ver acima, a estratégia DCA está comprando ETH a cada 4 horas 
 * Você pode atualizar a duração e a taxa da estratégia DCA conforme desejar. Isso é mais uma vez particularmente útil se você puder retirar e vender o ativo trocado com um lucro substancial e reinvestir em sua posição de DCA.
 * Você pode encerrar a posição a qualquer momento e retirar tanto o ativo trocado quanto a garantia usada para fazer compras.
 
-### Estratégia em DCA
+### Estratégia de DCA
 
-The strategy for this guide is more or less what has been explained in the sections above.
+A estratégia para este guia contém mais ou menos o que foi explicado nas seções acima.
 
-![DCA back and forth using Mai.Finance and Mean.Finance](../../.gitbook/assets/dca-6.png)
+![Estratégia de DCA usando Mai.Finance e Mean.Finance](../../.gitbook/assets/dca-6.png)
 
-Assuming you want to accumulate Ether, you will have to
+Supondo que você queira acumular Ether, você terá que:
 
-* You can zap your ETH into the camWETH vault on Mai Finance in order to collect rewards from AAVE v2 lending market
-* Borrow MAI to keep a healthy CDR
-* Feed your MAI in Mean Finance for a given period of time
-* At the end of the DCA period collect your WETH
-* Repeat by topping off your vault
+* Você pode colocar seu ETH no cofre do camWETH no Mai Finance para coletar recompensas do mercado de empréstimos AAVE v2&#x20;
+* Tome emprestado MAI para manter um CDR saudável&#x20;
+* Invista seu MAI na Mean Finance por um determinado período de tempo&#x20;
+* No final do período de DCA recolha o seu WETH&#x20;
+* Repita completando seu cofre
 
-The idea here is that you may be able to borrow more or less MAI every time you renew your DCA position, depending on the market price and the health factor of your vault on Mai Finance. This strategy will allow you to slowly accumulate Ether using a DCA approach instead of leveraging everything at once. Topping off your vault is also a good way to keep a healthy CDR.
+A ideia aqui é que você possa tomar emprestado mais ou menos MAI toda vez que renovar sua posição de DCA, dependendo do preço de mercado e do fator de saúde do seu cofre na Mai Finance. Essa estratégia permitirá que você acumule lentamente o Ether usando uma abordagem DCA em vez de aproveitar tudo de uma vez. Completar seu cofre também é uma boa maneira de manter um CDR saudável.
 
-If you prefer selling your Ether, you can do the opposite loop and DCA into stable coins to repay your loan on Mai Finance:
+Se preferir vender seu Ether, você pode fazer o loop oposto e DCA em moedas estáveis para pagar seu empréstimo na Mai Finance:
 
-* Feed WETH into Mean Finance for a given period of time and DCA out for MAI
-* At the end of the DCA period, collect your MAI
-* Repay your loan from Mai Finance
-* Zap out your camWETH tokens from the vault and collect WETH
-* Repeat by selling more WETH via Mean Finance
+* Invista WETH na Mean Finance por um determinado período de tempo e faça DCA para MAI
+* No final do período de DCA, recolha o seu MAI&#x20;
+* Reembolse seu empréstimo da Mai Finance&#x20;
+* Retire seus tokens camWETH do cofre e colete WETH&#x20;
+* Repita vendendo mais WETH através da Mean Finance
 
-If you're doing this correctly, you will normally be able to fully repay your loan and end up with more Ether than what you originally deposited.
+Se você fizer isso corretamente, provavelmente poderá reembolsar totalmente seu empréstimo e acabar com mais Ether do que o que depositou originalmente.&#x20;
 
-Alternatively, you can use the MAI loan to farm yields, and convert the rewards to a stablecoin that will be used to feed the DCA engine from Mean Finance.
+Você também pode usar o empréstimo em MAI para gerar rendimentos e converter as recompensas em stablecoins que serão usada para alimentar o mecanismo de DCA da Mean Finance.
 
-## Disclaimer
+## Aviso legal
 
-Everything presented in this tutorial is educational content made to illustrate how you can use Dollar Cost Average to average the price of volatile assets and hopefully accumulate them in a sustainable manner. The goal here is to build wealth over a long period of time using automated tools rather than buying and selling with your feelings.
+Tudo apresentado neste tutorial é conteúdo educacional feito para ilustrar como você pode usar o Dollar Cost Average para calcular a média do preço de ativos voláteis e, esperançosamente, acumulá-los de maneira sustentável. O objetivo aqui é gerar riqueza por um longo período de tempo usando ferramentas automatizadas, em vez de comprar e vender com seus sentimentos.&#x20;
 
-This strategy also presents some risks if you don't analyze the entire market. Indeed, if you start buying at the top of the cycle, DCA'ing will obviously not work that well and will take a lot of time before the average purchase price reaches an adequate market price. And your vault may be at risk if you use all your loan to DCA into a volatile asset while the market is at the beginning of a downtrend. As always, make sure you understand properly where the market is going before investing.
+Essa estratégia também apresenta alguns riscos se você não analisar todo o mercado. De fato, se você começar a comprar no topo do ciclo, o DCA obviamente não funcionará tão bem e levará muito tempo até que o preço médio de compra atinja um preço de mercado adequado. E seu cofre pode estar em risco se você usar todo o seu empréstimo para DCA em um ativo volátil enquanto o mercado estiver no início de uma tendência de baixa. Como sempre, certifique-se de entender corretamente para onde o mercado está indo antes de investir.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Por favor, mantenha-se informado, monitore os mercados, fique de olho em seus investimentos e, como sempre, faça sua própria pesquisa.
 {% endhint %}
