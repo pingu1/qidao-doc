@@ -10,12 +10,12 @@ description: >-
 
 The Gnosis Chain is a EVM-compatible blockchain, meaning that it's compatible with the code deployed on the Ethereum network (EVM = **E**thereum **V**irtual **M**achine). As most chains are trying to achieve the Security/Scalability/Decentralization Trifecta, Gnosis Chain focuses on speed (5s transaction finality) and low costs for transactions. It uses xDAI (gnosis chain wrapped DAI) as its main gas token for regular transactions, but also uses the GNO token for governance and staking. The Gnosis Chain has been originally designed for prediction markets built on Ethereum. Prediction markets are like exchanges where outcome of events are traded. As events unfold, the gnosis tokens gain or lose value depending on what was predicted.
 
-To support the goal of the Gnosis Chain, an application layer has been added, on which you will find specialized decentralized applications such as 
+To support the goal of the Gnosis Chain, an application layer has been added, on which you will find specialized decentralized applications such as
 
-* RealT: a Tokenized Real Estate application 
+* RealT: a Tokenized Real Estate application
 * Kleros: a Justice-as-a-Service platform that aims at resolving conflicts using blockchain technology
 
-You can check additinonal details about Gnosis Chain like its TVL and other applications on [DeFi Llama](https://defillama.com/chain/Gnosis).
+You can check additional details about Gnosis Chain like its TVL and other applications on [DeFi Llama](https://defillama.com/chain/Gnosis).
 
 ## Getting started on Gnosis Chain
 
@@ -62,7 +62,7 @@ Gnosis will propose a few DeFi options on its chain, including:
 
 ![LP pools that include MAI on Curve as of June 2022](../../.gitbook/assets/gnosis-3.png)
 
-* [Honeyswap](https://app.honeyswap.org/#/pool), [Honeycomb](https://1hive.io/#/wallet) and [Agave](https://app.agave.finance/#/dashboard): Respecively a DEX (Uniswap fork) that allows you to swap tokens and create Liquidity Providing tokens, an AMM (Goose fork) that lets you stake your LP tokens created on Honeyswap and get yields for providing liquidity, and a lending protocol (AAVE fork) that lets you lend certain assets and borrow others. These 3 dApps are forming a complete ecosystem managed by the same team.
+* [Honeyswap](https://app.honeyswap.org/#/pool), [Honeycomb](https://1hive.io/#/wallet) and [Agave](https://app.agave.finance/#/dashboard): Respectively a DEX (Uniswap fork) that allows you to swap tokens and create Liquidity Providing tokens, an AMM (Goose fork) that lets you stake your LP tokens created on Honeyswap and get yields for providing liquidity, and a lending protocol (AAVE fork) that lets you lend certain assets and borrow others. These 3 dApps are forming a complete ecosystem managed by the same team.
 * [Elk Finance](https://app.elk.finance/#/farms): Elk is a Uniswap V2 fork that will let you operate swaps, deposit liquidity and farm their $ELK token using different assets of the Gnosis Chain, including $MAI. You will also be able to stake your ELK tokens for more rewards, or transfer them from one chain to another using the ElkNet bridge.
 
 ![Farming ELK using MAI on Elk Finance as of June 2022](../../.gitbook/assets/gnosis-5.png)
