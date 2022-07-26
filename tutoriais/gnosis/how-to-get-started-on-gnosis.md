@@ -1,31 +1,31 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the different DApps that Gnosis has on its blockchain.
+  Neste guia, explicaremos tudo o que você precisa saber para começar a usar os
+  diferentes DApps que a Gnosis possui em sua blockchain.
 ---
 
-# How to get started on Gnosis Chain
+# Como começar na Gnosis Chain
 
-## What is Gnosis Chain?
+## O que é a Gnosis Chain?
 
-The Gnosis Chain is a EVM-compatible blockchain, meaning that it's compatible with the code deployed on the Ethereum network (EVM = **E**thereum **V**irtual **M**achine). As most chains are trying to achieve the Security/Scalability/Decentralization Trifecta, Gnosis Chain focuses on speed (5s transaction finality) and low costs for transactions. It uses xDAI (gnosis chain wrapped DAI) as its main gas token for regular transactions, but also uses the GNO token for governance and staking. The Gnosis Chain has been originally designed for prediction markets built on Ethereum. Prediction markets are like exchanges where outcome of events are traded. As events unfold, the gnosis tokens gain or lose value depending on what was predicted.
+A Gnosis Chain é uma blockchain compatível com EVM, o que significa que é compatível com o código implantado na rede Ethereum (EVM = Ethereum Virtual Machine). Como a maioria das redes está tentando alcançar o Trilema Segurança/Escalabilidade/Descentralização, a Gnosis Chain se concentra na velocidade (finalidade da transação 5s) e baixos custos para transações. Ele usa xDAI (DAI encapsulado na Gnosis Chain) como seu principal token de gas para transações regulares, mas também usa o token GNO para governança e staking. A Gnosis Chain foi originalmente projetada para mercados de previsão construídos no Ethereum. Os mercados de previsão são como bolsas onde os resultados dos eventos são negociados. À medida que os eventos se desenrolam, os tokens gnosis ganham ou perdem valor dependendo do que foi previsto.
 
-To support the goal of the Gnosis Chain, an application layer has been added, on which you will find specialized decentralized applications such as 
+Para apoiar o objetivo da Gnosis Chain, foi adicionada uma camada de aplicativos, na qual você encontrará aplicativos descentralizados especializados, como
 
-* RealT: a Tokenized Real Estate application 
-* Kleros: a Justice-as-a-Service platform that aims at resolving conflicts using blockchain technology
+* RealT: uma aplicação imobiliária tokenizada
+* Kleros: uma plataforma justiça (JaaS) que visa resolver conflitos usando a tecnologia blockchain
 
-You can check additinonal details about Gnosis Chain like its TVL and other applications on [DeFi Llama](https://defillama.com/chain/Gnosis).
+Você pode obter detalhes adicionais sobre a Gnosis Chain como seu TVL e outros aplicativos na [DeFi Llama](https://defillama.com/chain/Gnosis).
 
-## Getting started on Gnosis Chain
+## Começando na Gnosis Chain
 
-Before usign the Gnosis Chain, you will need a wallet address. Because Gnosis is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network.
+Antes de usar a Gnosis Chain, você precisará de um endereço de carteira. Como a Gnosis é uma rede EVM, ela aceita as mesmas carteiras de outras redes EVM, incluindo carteiras web como a Metamask ou Nifty. Você também poderá usar sua hard wallet, como a Trezor ou a Ledger, mas pode ser necessário seguir mais passos para poder conectá-la à rede.
 
-For this tutorial, we will stick to Metamask like for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
+Para este tutorial, vamos nos ater a Metamask como fazemos em todos os outros guias deste site. Se você não tiver a Metamask instalada, poderá encontrar instruções em [Como começar a sua jornada na Polygon.](../polygon/how-to-get-started-on-polygon.md)
 
-### Adding Gnosis Chain to Metamask
+### Adicionando a Gnosis Chain a Metamask
 
-In theory, Gnosis comes pre-installed with MetaMask, meaning that you should not have to add the chain information for Metamask to work. However, it may be a good idea to verify that your setup is correct by double checking the values saved into your local wallet. Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Gnosis Chain`. The data you should get are as follows:
+Em teoria, a Gnosis já vem pré-instalada com a MetaMask, o que significa que você não deve adicionar as informações da rede para que a Metamask funcione. No entanto, pode ser uma boa ideia verificar se sua configuração está correta verificando novamente os valores salvos em sua carteira local. Abra o pop-up Metamask, clique no ícone da sua carteira, navegue até Configurações, escolha Redes e encontre a Gnosis Chain. Os dados que você deve obter são os seguintes:
 
 * **Network Name:** Gnosis Chain
 * **New RPC URL:** https://rpc.gnosischain.com/
@@ -33,55 +33,55 @@ In theory, Gnosis comes pre-installed with MetaMask, meaning that you should not
 * **Currency Symbol:** xDAI
 * **Block Explorer URL:** https://blockscout.com/xdai/mainnet
 
-Save the changes, and Metamask will automatically switch you over to the Gnosis chain:
+Salve as alterações e a Metamask irá automaticamente mudar para a rede Gnosis:
 
-![Success!! You're now on Gnosis!](../../.gitbook/assets/gnosis-0.png)
+![Parabéns!! Você está agora na Gnosis!](../../.gitbook/assets/gnosis-0.png)
 
-## Bridging to Gnosis Chain
+## Pontes à Gnosis Chain
 
 ### Faucets
 
-You can use Google to find a few faucets on Gnosis Chain where you will be able to request your first few xDAI to start transacting. I don't recommend anything in particular, but found [this community-ran faucet](https://www.gimlu.com/faucet) that delivers 0.002 xDAI on every requests. Beware that the number of request you can do is limited, and it's absolutely not a way to make free money.
+Você pode usar o Google para encontrar algumas faucets (ou torneiras) na Gnosis Chain, onde poderá solicitar seus primeiros xDAI para iniciar as transações. Eu não recomendo nenhuma em particular, mas encontrei [esta faucet de comunidade](https://www.gimlu.com/faucet) que entrega 0,002 xDAI por solicitação. Esteja ciente de que o número de solicitações que você pode fazer é limitado e ela não foi feita para você ganhar dinheiro de graça.
 
-![I received a few xDAI from the faucet, let's do some transactions now.](../../.gitbook/assets/gnosis-1.png)
+![Recebi alguns xDAI da faucet, vamos fazer algumas transações agora.](../../.gitbook/assets/gnosis-1.png)
 
-### Bridges
+### Pontes
 
-* [Multi Chain](https://app.multichain.org/#/router) is the official partner of Mai Finance if you want to transfer your MAI to Gnosis Chain from Polygon or other networks. When you're connected to Polygon, you can simply chose the destination chain (Gnosis Chain) and the asset you want to send (MAI or miMATIC) with the correct amount, and click on the `Transfer` button. Pay attention to the transfer fees taken directly on the asset you're transferring.
+* [Multi Chain](https://app.multichain.org/#/router) é a parceira oficial da Mai Finance para você que deseja transferir seu MAI para a Gnosis Chain da Polygon ou de outras redes. Após se conectar à Polygon, você deve escolher a rede de destino (Gnosis Chain) e o ativo que deseja enviar (MAI ou miMATIC) com o valor correto e clicar no botão Transferir. Preste atenção às taxas de transferência cobradas diretamente no ativo que você está transferindo.
 
-![Bridging MAI from Polygon to Gnosis using Multi Chain](../../.gitbook/assets/gnosis-2.png)
+![Enviando MAI da Polygon à Gnosis usando a Multi Chain](../../.gitbook/assets/gnosis-2.png)
 
-* [Elknet](https://app.elk.finance/#/elknet) will act both as a bridge and as a faucet when you transfer the ELK token between 2 networks. You will be able to bridge your ELK and on the receiving end, you can have a small portion of your ELK directly available as the gas token, xDAI in our case.
+* [Elknet](https://app.elk.finance/#/elknet) atuará como uma ponte e como uma faucet quando você transferir o token ELK entre 2 redes. Você poderá enviar seu ELK e, na rede receptora, obter uma pequena parte do seu ELK diretamente disponível como token de gas, xDAI no nosso caso.
 
-## DeFi on Gnosis
+## DeFi na Gnosis
 
-Gnosis will propose a few DeFi options on its chain, including:
+A Gnosis possui algumas soluções DeFi em sua rede, incluindo:
 
-* [SushiSwap](https://app.sushi.com/farm?chainId=100): This is one of the main DEX and AMM on Gnosis/xDAI. You will be able to swap your assets, or participate in liquidity mining by providing LP (**L**iquidity **P**roviding) pairs in farms.
-* [Curve](https://xdai.curve.fi/): This is where the majority of the liquidity is provided on the Gnosis Chain. This is also where you will be able to provide the MAI stablecoin in the [MAI Stablecoin](https://xdai.curve.fi/factory/4) pool and receive rewards in GNO tokens.
+* [SushiSwap](https://app.sushi.com/farm?chainId=100): Esta é uma das principais DEX e AMM na Gnosis/xDAI. Você poderá trocar seus ativos ou participar da mineração de liquidez fornecendo pares de LP (**L**iquidity **P**roviding, ou Fornecimento de Liquidez) em farms.
+* [Curve](https://xdai.curve.fi/): É aqui que a maior parte da liquidez é fornecida na Gnosis Chain. Também é aqui que você poderá fornecer a stablecoin MAI na[ pool de MAI](https://xdai.curve.fi/factory/4) e receber recompensas em tokens GNO.
 
-![LP pools that include MAI on Curve as of June 2022](../../.gitbook/assets/gnosis-3.png)
+![Pools LP da Curve que incluem MAI em Junho de 2022](../../.gitbook/assets/gnosis-3.png)
 
-* [Honeyswap](https://app.honeyswap.org/#/pool), [Honeycomb](https://1hive.io/#/wallet) and [Agave](https://app.agave.finance/#/dashboard): Respecively a DEX (Uniswap fork) that allows you to swap tokens and create Liquidity Providing tokens, an AMM (Goose fork) that lets you stake your LP tokens created on Honeyswap and get yields for providing liquidity, and a lending protocol (AAVE fork) that lets you lend certain assets and borrow others. These 3 dApps are forming a complete ecosystem managed by the same team.
-* [Elk Finance](https://app.elk.finance/#/farms): Elk is a Uniswap V2 fork that will let you operate swaps, deposit liquidity and farm their $ELK token using different assets of the Gnosis Chain, including $MAI. You will also be able to stake your ELK tokens for more rewards, or transfer them from one chain to another using the ElkNet bridge.
+* [Honeyswap](https://app.honeyswap.org/#/pool), [Honeycomb](https://1hive.io/#/wallet) e [Agave](https://app.agave.finance/#/dashboard): Respectivamente, uma DEX (fork da Uniswap) que permite o swap de tokens e a criação de tokens de fornecimento de liquidez, uma AMM (fork da Goose) que permite o staking de seus tokens LP criados na Honeyswap e a produção de rendimentos ao fornecer liquidez, e um protocolo de empréstimo (fork da AAVE) que permite emprestar certos ativos e tomar emprestado outros. Esses 3 dApps estão formando um ecossistema completo gerenciado pela mesma equipe.
+* [Elk Finance](https://app.elk.finance/#/farms): Elk é um fork da Uniswap V2 que permite operar swaps, depositar liquidez e farmar seu token $ELK usando diferentes ativos da Gnosis Chain, incluindo $MAI. Você também poderá fazer staking com seus tokens ELK para obter mais recompensas ou transferi-los de uma rede para outra usando a ponte ElkNet.
 
-![Farming ELK using MAI on Elk Finance as of June 2022](../../.gitbook/assets/gnosis-5.png)
+![Farmando ELK usando MAI na Elk Finance em Junho de 2022](../../.gitbook/assets/gnosis-5.png)
 
-## Mai Finance on Gnosis Chain
+## Mai Finance na Gnosis Chain
 
-The lending platform is already available on Gnosis Chain where you will be able to put your GNO tokens in a vault and borrow MAI against it. This will allow you to use your GNO tokens as collateral, and use your MAI on Curve to farm more GNO tokens. The loop would consist of
+A plataforma de empréstimo já está disponível na Gnosis Chain, onde você poderá colocar seus tokens GNO em um cofre e tomar emprestado MAI. Isso permitirá que você use seus tokens GNO como garantia e use seu MAI na Curve para cultivar mais tokens GNO. O loop consistiria em:
 
-* Create a vault on [Mai Finance](https://app.mai.finance)
-* Deposit your $GNO tokens in the vault
-* Borrow $MAI against your collateral at 0% interest
-* Deposit the $MAI on Curve Finance and get GNO rewards
+* Criar um cofre na [Mai Finance](https://app.mai.finance)
+* Depositar seus tokens $GNO no cofre
+* Tomar emprestado $MAI contra sua garantia a 0% de juros
+* Depositar o $MAI na Curve Finance e receber recompensas em GNO
 
-![Farming yields on Gnosis Chain](../../.gitbook/assets/gnosis-4.png)
+![Rendimentos de farming na Gnosis Chain](../../.gitbook/assets/gnosis-4.png)
 
-## Disclaimer
+## Aviso legal
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Este guia NÃO é conselho financeiro e deve ser simplesmente considerado uma ferramenta educacional. Sempre faça sua própria pesquisa. A discussão de um projeto neste guia não deve ser considerada como um endosso do projeto.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Por favor, mantenha-se informado, monitore os mercados, fique de olho em seus investimentos e, como sempre, faça sua própria pesquisa.
 {% endhint %}
