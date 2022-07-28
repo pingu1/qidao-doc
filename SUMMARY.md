@@ -40,7 +40,7 @@
 * [Gnosis Chain](tutoriais/gnosis/README.md)
   * [Como começar na Gnosis Chain](tutoriais/gnosis/how-to-get-started-on-gnosis.md)
 * [Optimism](tutoriais/optimism/README.md)
-  * [How to get started on Optimism](tutoriais/optimism/how-to-get-started-on-optimism.md)
+  * [Como começar na Optimism](tutoriais/optimism/how-to-get-started-on-optimism.md)
 * [Arbitrum](tutoriais/arbitrum/README.md)
   * [How to get started on Arbitrum](tutoriais/arbitrum/how-to-get-started-on-arbitrum.md)
 * [BNB Chain](tutoriais/bnb-chain/README.md)

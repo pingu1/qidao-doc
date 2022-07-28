@@ -1,14 +1,12 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the different DApps that Optimism has to offer.
+  Neste guia, explicaremos tudo o que você precisa saber para começar a usar os
+  diferentes DApps que o Optimism tem a oferecer.
 ---
 
-# How to get started on Optimism
+# Como começar na Optimism
 
-
-
-## What is Optimism?
+## O que é Optimism?
 
 Optimism, or Optimistic Ethereum as it is sometimes called, is a rollup scaling solution that allows users to submit transactions on the Ethereum network and get them executed faster for a much lower gas cost. For this reason, Optimism is known as an Ethereum layer 2 (L2 for short). The name Optimism comes from its use of optimistic rollup technology which refers to the type of proofs that the network uses to work in tandem with the main Ethereum chain (layer 1, or L1). For further reading on optimistic rollups and other rollup solutions like ZK (zero knowledge), please visit [this link](https://support.deversifi.com/en/article/deversifi-what-is-the-difference-between-zk-rollup-and-optimistic-rollup-3gf3bw/).
 
