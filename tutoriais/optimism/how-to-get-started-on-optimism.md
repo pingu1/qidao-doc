@@ -8,21 +8,21 @@ description: >-
 
 ## O que é Optimism?
 
-Optimism, or Optimistic Ethereum as it is sometimes called, is a rollup scaling solution that allows users to submit transactions on the Ethereum network and get them executed faster for a much lower gas cost. For this reason, Optimism is known as an Ethereum layer 2 (L2 for short). The name Optimism comes from its use of optimistic rollup technology which refers to the type of proofs that the network uses to work in tandem with the main Ethereum chain (layer 1, or L1). For further reading on optimistic rollups and other rollup solutions like ZK (zero knowledge), please visit [this link](https://support.deversifi.com/en/article/deversifi-what-is-the-difference-between-zk-rollup-and-optimistic-rollup-3gf3bw/).
+Optimism, ou Optimistic Ethereum como às vezes é chamado, é uma solução de escalabilidade de rollup que permite aos usuários enviar transações na rede Ethereum e executá-las mais rapidamente por um custo de gas muito menor. Por esse motivo, a Optimism é conhecida como uma segunda camada, ou layer 2, da Ethereum (L2 para abreviar). O nome Optimism vem do uso da tecnologia de rollup otimista, que se refere ao tipo de prova que a rede usa para trabalhar em conjunto com a rede principal da Ethereum (camada 1 ou L1). Para ler mais sobre rollups otimistas e outras soluções de rollup como ZK (conhecimento zero), visite [este link](https://support.deversifi.com/en/article/deversifi-what-is-the-difference-between-zk-rollup-and-optimistic-rollup-3gf3bw/).
 
-Because it is a rollup technology, Optimism does not produce its own blocks and is therefore not a blockchain. Additionally, the Optimism network API largely uses the same JSON-RPC specification as Ethereum and is therefore essentially EVM (Ethereum Virtual Machine) equivalent, allowing applications created for Ethereum mainnet to run on Optimism with essentially no changes to their codebase.\
-\
-Please note that because of this, Optimism does not use its own gas token, but rather uses Ether as gas to pay for transactions.
+Por ser uma tecnologia de rollup, a Optimism não produz seus próprios blocos e, portanto, não é um blockchain. Além disso, a API da rede Optimism usa amplamente a mesma especificação JSON-RPC da Ethereum e, portanto, é essencialmente equivalente ao EVM (Ethereum Virtual Machine), permitindo que aplicativos criados para a rede principal do Ethereum sejam executados na Optimism sem alterações em sua base de código.
 
-## Getting started on Optimism
+Observe que, por causa disso, a Optimism não possui um próprio token de gas, mas Ether para pagar as transações..
 
-Before using Optimism, you will need a wallet address. Because Optimism is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network.
+## Começando na Optimism
 
-For this tutorial, we will stick to Metamask just as we have done for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
+Antes de usar o Optimism, você precisará de um endereço de carteira. Como a Optimism é uma rede EVM, ele aceitará as mesmas carteiras que em outras cadeias EVM, incluindo carteiras web como Metamask ou Nifty. Você também poderá usar sua cold wallet, como a Trezor ou Ledger, mas talvez seja necessário seguir mais passos para poder conectá-la à rede.
 
-### Adding Optimism to Metamask
+Para este tutorial, vamos nos ater ao Metamask, assim como fazemos em todos os outros guias deste site. Se você não tiver a Metamask instalado, poderá encontrar instruções em [Como começar a sua jornada na Polygon.](../polygon/how-to-get-started-on-polygon.md)
 
-Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Add Network`. You will use the following information in the relevant text fields:
+### Adicionando a Optimism na Metamask
+
+Abra o pop-up da Metamask, clique no ícone da sua carteira, navegue até `Settings` então selecione `Networks` e encontre `Add Network`. Você usará as seguintes informações nos campos de texto relevantes::
 
 * **Network Name:** Optimism
 * **New RPC URL:** [https://mainnet.optimism.io](https://mainnet.optimism.io)
@@ -30,11 +30,11 @@ Open the Metamask popup, click the icon of your wallet, navigate to `Settings` t
 * **Currency Symbol:** ETH
 * **Block Explorer URL:** [https://optimistic.etherscan.io/](https://optimistic.etherscan.io/)
 
-Save the changes, and Metamask will automatically switch you over to Optimism:
+Salve as alterações e a Metamask irá automaticamente mudar para a Optimism:
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.40.30 PM.png>)
 
-## Bridging to Optimism
+## Pontes à Optimism
 
 ### Faucets
 
