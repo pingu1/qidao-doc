@@ -38,7 +38,7 @@ Salve as alterações e a Metamask irá automaticamente mudar para a Optimism:
 
 ### Faucets
 
-Não há torneiras para gas, ou faucets, na Optimism, mas se você usar um DApp como a [ElkNet](https://app.elk.finance/#/elknet), você pode optar por trocar alguns de seus tokens Elk por gas ao fazer a ponte para qualquer uma das redes suportadas.
+Não há faucets para gas, ou torneiras, na Optimism, mas se você usar um DApp como a [ElkNet](https://app.elk.finance/#/elknet), você pode optar por trocar alguns de seus tokens Elk por gas ao fazer a ponte para qualquer uma das redes suportadas.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.36.40 PM.png>)
 
@@ -54,36 +54,36 @@ Não há torneiras para gas, ou faucets, na Optimism, mas se você usar um DApp 
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.51.25 PM.png>)
 
-* [Elknet](https://app.elk.finance/#/elknet) will act both as a bridge and as a faucet when you transfer the ELK token between 2 networks. You will be able to bridge your ELK and on the receiving end, you can have a small portion of your ELK directly available as the gas token, ETH in our case, as explained in the section above.
+* [Elknet](https://app.elk.finance/#/elknet) atuará como uma ponte e como uma faucet quando você transferir o token ELK entre 2 redes. Você poderá conectar seu ELK e, na extremidade receptora, poderá ter uma pequena parte do seu ELK diretamente disponível como token de gas, ETH no nosso caso, conforme explicado na seção acima.
 
-## DeFi on Optimism
+## DeFi na Optimism
 
-To get started on Optimism, here are some DApps you may find useful to put your MAI and QI to use, including:
+Para começar na Optimism, aqui estão alguns DApps que você pode achar úteis para usar seu MAI e QI, incluindo:
 
-* [Curve](https://optimism.curve.fi/factory/4/deposit): This is where the majority of the MAI liquidity currently exists on Optimism as Curve is extremely efficient at performing stablecoin swaps.\
+* [Curve](https://optimism.curve.fi/factory/4/deposit): É aqui que a maior parte da liquidez do MAI existe atualmente na Optimism, pois a Curve é extremamente eficiente na realização de swaps de stablecoin.\
   \
-  By depositing MAI into the Curve LP, you will then receive LP tokens which can be deposited into the Curve farm on Mai Finance's [Farm page](https://app.mai.finance/farm) to earn yield in QI tokens.
+  Ao depositar MAI na Curve LP, você receberá tokens LP que podem ser depositados na farm da Curve na [página de Farm](https://app.mai.finance/farm) da Mai Finance para ganhar rendimento em tokens QI.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.58.06 PM.png>)
 
-* [Arrakis](https://beta.arrakis.finance/#/vaults/0x65Fbf30f29C7626385f78Dbc41702d97b9cD486a) recently launched on Optimism, and this is where you will find the QI/WETH liquidity pool. It is currently unseeded by the protocol, but should provide an additional use case for QI until QI staking launches on the network. Please note that Arrakis uses Uniswap pools so you will have to deposit both QI and WETH in the specified ratios in order to enter the LP.
+* [Arrakis](https://beta.arrakis.finance/#/vaults/0x65Fbf30f29C7626385f78Dbc41702d97b9cD486a) foi lançada recentemente na Optimism, e é aqui que você encontrará o pool de liquidez QI/WETH. Atualmente, é ainda não disponível no protocolo, mas deve fornecer um caso de uso adicional para o QI até que o staking de QI seja lançado na rede. Observe que a Arrakis usa pools da Uniswap, portanto, você terá que depositar QI e WETH nas proporções especificadas para entrar no LP.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.07.37 PM.png>)
 
-* [BeethovenX](https://op.beets.fi/#/pool/0x3dc09db8e571da76dd04e9176afc7feee0b89106000000000000000000000019), an officially sanctioned Balancer fork, launched on Optimism on June 2022 and offers a brand new high liquidity stablecoin pool dubbed "Come Together" which is composed of FRAX, USDC, and MAI. Due to its large rewards including QI, BEETS, and BAL tokens, it is certain to become the de facto stablecoin pool for MAI on Optimism.
+* [BeethovenX](https://op.beets.fi/#/pool/0x3dc09db8e571da76dd04e9176afc7feee0b89106000000000000000000000019), um fork da Balancer oficialmente sancionado e lançado na Optimism em junho de 2022, oferece um nova pool de stablecoins de alta liquidez apelidado de "Come Together", composto por FRAX, USDC e MAI. Devido às suas grandes recompensas, incluindo tokens QI, BEETS e BAL, certamente se tornará o pool de stablecoins "oficial" para a MAI na Optimism.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.09.43 PM.png>)
 
-## Mai Finance on Optimism
+## Mai Finance na Optimism
 
-The lending platform is already available on Optimism where you will be able to deposit your WETH (Wrapped Ether) or WBTC (Wrapped Bitcoin) tokens in a vault and borrow MAI against them. MAI can be deposit into the Curve farm to earn QI, or the new FRAX/USDC/MAI stable pool on the recently launched BeethovenX which earns rewards in QI, BEETS, and BAL tokens.
+A plataforma de empréstimo já está disponível na Optimism, onde você poderá depositar seus tokens WETH (Wrapped Ether) ou WBTC (Wrapped Bitcoin) em um cofre e tomar emprestado MAI contra eles. MAI pode ser depositado na farm da Curve para rendimentos em QI, ou no novo pool de stablecoins FRAX/USDC/MAI no recém-lançado BeethovenX, que produz recompensas em tokens QI, BEETS e BAL.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.56.07 PM.png>)
 
-## Disclaimer
+## Aviso legal
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Este guia NÃO é um conselho financeiro e deve ser simplesmente considerado uma ferramenta educacional. Sempre faça sua própria pesquisa. A discussão de um projeto neste guia não deve ser considerada como um endosso do projeto.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Por favor, mantenha-se informado, monitore os mercados, fique de olho em seus investimentos e, como sempre, faça sua própria pesquisa.
 {% endhint %}
