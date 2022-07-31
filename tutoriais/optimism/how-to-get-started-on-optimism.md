@@ -38,19 +38,19 @@ Salve as alterações e a Metamask irá automaticamente mudar para a Optimism:
 
 ### Faucets
 
-There are no faucets for gas on Optimism, but if you use a DApp like [ElkNet](https://app.elk.finance/#/elknet), you can opt to swap some of your Elk tokens as gas when bridging from any of the supported networks.
+Não há torneiras para gas, ou faucets, na Optimism, mas se você usar um DApp como a [ElkNet](https://app.elk.finance/#/elknet), você pode optar por trocar alguns de seus tokens Elk por gas ao fazer a ponte para qualquer uma das redes suportadas.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.36.40 PM.png>)
 
-### Bridges
+### Pontes
 
-* [Multi Chain](https://app.multichain.org/#/router) is the official partner of Mai Finance if you want to transfer your MAI or QI to Optimism from any other networks. From your selected network, you can simply chose the destination chain (Optimism) and the asset you want to send (MAI or ETH with the correct amount, and click on the `Transfer` button. Pay attention to the transfer fees taken directly on the asset you are transferring.
+* [Multi Chain](https://app.multichain.org/#/router) é o parceiro oficial da Mai Finance se você deseja transferir seu MAI ou QI para a Optimism, de qualquer outra rede. Após selecionar a sua rede, você pode simplesmente escolher a rede de destino (Optimism) e o ativo que deseja enviar (MAI ou ETH com o valor correto, e clicar no botão`Transfer`. Mas preste atenção às taxas de transferência cobradas diretamente no ativo que você está transferindo.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.14.42 PM.png>)
 
-* [Celer](https://cbridge.celer.network/#/transfer) is a popular bridge and one of the official bridging partners for the Optimism network.
-* [Hop Protocol](https://app.hop.exchange/#/send?token=ETH\&sourceNetwork=polygon\&destNetwork=optimism) is another popular bridge that is also an official partner for the Optimism network. There are only a small number of supported tokens including ETH, and various stablecoins like USDC, DAI, and USDT, but it offers lower bridging fees than most other solutions.
-* [Hashflow](https://app.hashflow.com/) is a newer bridging technology that works essentially as a crosschain DEX (decentralized exchange) for any token with sufficient liquidity. Additionally, Hashflow users can currently earn HFT (Hashflow tokens) for swapping or providing token liquidity. Chains are currently limited to Ethereum, Avalanche, Arbitrum, Optimism, Polygon, and BNB.
+* [Celer](https://cbridge.celer.network/#/transfer) é uma ponte popular e um dos parceiros oficiais da rede Optimism.
+* [Hop Protocol](https://app.hop.exchange/#/send?token=ETH\&sourceNetwork=polygon\&destNetwork=optimism) é outra ponte popular que também é parceira oficial da rede Optimism. Há apenas um pequeno número de tokens suportados, incluindo ETH e várias stablecoins como USDC, DAI e USDT, mas oferece taxas mais baixas do que a maioria das outras soluções.
+* [Hashflow](https://app.hashflow.com/) é uma tecnologia de ponte mais recente que funciona essencialmente como uma DEX crosschain (corretora descentralizada entre redes) para qualquer token com liquidez suficiente. Além disso, os usuários do Hashflow atualmente podem ganhar HFT (tokens de fluxo de hash) para trocar ou fornecer liquidez para tokens. Atualmente, as redes estão limitadas a Ethereum, Avalanche, Arbitrum, Optimism, Polygon e BNB.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.51.25 PM.png>)
 
