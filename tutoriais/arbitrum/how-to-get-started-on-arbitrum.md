@@ -1,18 +1,18 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the different DApps that Arbitrum has to offer.
+  Neste guia, explicaremos tudo o que você precisa saber para começar a usar os
+  diferentes DApps que Arbitrum tem a oferecer.
 ---
 
-# How to get started on Arbitrum
+# Como começar na Arbitrum
 
-## What is Arbitrum?
+## O que é Arbitrum?
 
-Arbitrum is a rollup scaling solution that allows users to submit transactions on the Ethereum network and get them executed faster for a much lower gas cost. For this reason, Arbitrum is known as an Ethereum layer 2 (L2 for short). Like its sibling network, Optimism, Arbitrum uses optimistic rollup technology which refers to the type of proofs that the network uses to work in tandem with the main Ethereum chain (layer 1, or L1). For further reading on optimistic rollups and other rollup solutions like ZK (zero knowledge), please visit [this link](https://support.deversifi.com/en/article/deversifi-what-is-the-difference-between-zk-rollup-and-optimistic-rollup-3gf3bw/).
+Arbitrum é uma solução de escalabilidade cumulativa que permite aos usuários enviar transações na rede Ethereum e executá-las mais rapidamente por um custo de gas muito menor. Por esta razão, a Arbitrum é conhecida como uma layer 2, ou segunda camada, da Ethereum (L2 para abreviar). Como a sua rede irmã, Optimism, a Arbitrum usa a tecnologia de rollup otimista, que se refere ao tipo de provas que a rede usa para trabalhar em conjunto com a rede principal do Ethereum (camada 1 ou L1). Para ler mais sobre rollups otimistas e outras soluções de rollup como ZK (conhecimento zero), visite [este link](https://support.deversifi.com/en/article/deversifi-what-is-the-difference-between-zk-rollup-and-optimistic-rollup-3gf3bw/).
 
-Because it is a rollup technology, Arbitrum does not produce its own blocks and is therefore not a true blockchain. Offchain Labs, the developers behind Arbitrum, aim to make the network EVM (Ethereum Virtual Machine) equivalent with future upgrades.\
-\
-Please note that because of this, Arbitrum does not use its own gas token, but rather uses Ether as gas to pay for transactions.
+Por ser uma tecnologia de rollup, a Arbitrum não produz seus próprios blocos e, portanto, não é uma verdadeira blockchain. Offchain Labs, os desenvolvedores por trás da Arbitrum, pretendem tornar a rede compatível com EVM (Ethereum Virtual Machine) equivalente com futuras atualizações.
+
+Observe que, por causa disso, a Arbitrum não usa seu próprio token de gas, mas usa Ether como gas para pagar as transações.
 
 ## Getting started on Arbitrum
 
