@@ -42,7 +42,7 @@
 * [Optimism](tutoriais/optimism/README.md)
   * [Como começar na Optimism](tutoriais/optimism/how-to-get-started-on-optimism.md)
 * [Arbitrum](tutoriais/arbitrum/README.md)
-  * [How to get started on Arbitrum](tutoriais/arbitrum/how-to-get-started-on-arbitrum.md)
+  * [Como começar na Arbitrum](tutoriais/arbitrum/how-to-get-started-on-arbitrum.md)
 * [BNB Chain](tutoriais/bnb-chain/README.md)
   * [How to get started on BNB Chain](tutoriais/bnb-chain/how-to-get-started-on-bnb-chain.md)
 * [Moonbeam](tutoriais/moonbeam/README.md)
