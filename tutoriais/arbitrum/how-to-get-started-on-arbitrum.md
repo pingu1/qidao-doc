@@ -14,15 +14,15 @@ Por ser uma tecnologia de rollup, a Arbitrum não produz seus próprios blocos e
 
 Observe que, por causa disso, a Arbitrum não usa seu próprio token de gas, mas usa Ether como gas para pagar as transações.
 
-## Getting started on Arbitrum
+## Começando na Arbitrum
 
-Before using Arbitrum, you will need a wallet address. Because Arbitrum is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network.
+Antes de usar a Arbitrum, você precisará de um endereço de carteira. Como a Arbitrum é uma rede EVM, ela aceitará as mesmas carteiras que em outras cadeias EVM, incluindo carteiras web como a Metamask ou a Nifty, e você poderá usar sua carteira de hardware, como Trezor ou Ledger, mas talvez seja necessário seguir mais passos para poder conectá-las à rede.
 
-For this tutorial, we will stick to Metamask just as we have done for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
+Para este tutorial, vamos nos ater à Metamask, assim como fazemos em todos os outros guias deste site. Se você não tiver a Metamask instalado, poderá encontrar instruções em [Como começar a sua jornada na Polygon.](../polygon/how-to-get-started-on-polygon.md)
 
-### Adding Arbitrum to Metamask
+### Adicionando a Arbitrum à Metamask
 
-Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Add Network`. You will use the following information in the relevant text fields:
+Abra o pop-up Metamask, clique no ícone da sua carteira, navegue até`Settings` então escolha `Networks` e encontre `Add Network`. Você usará as seguintes informações nos campos de texto relevantes:
 
 * **Network Name:** Arbitrum
 * **New RPC URL:** [https://arb1.arbitrum.io/rpc](https://arb1.arbitrum.io/rpc)
@@ -30,11 +30,11 @@ Open the Metamask popup, click the icon of your wallet, navigate to `Settings` t
 * **Currency Symbol:** ETH
 * **Block Explorer URL:** [https://arbiscan.io/](https://arbiscan.io/)
 
-Save the changes, and Metamask will automatically switch you over to Arbitrum:
+Salve as alterações e a Metamask o mudará automaticamente para a Arbitrum:
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.27.21 PM.png>)
 
-## Bridging to Arbitrum
+## Pontes à Arbitrum
 
 ### Faucets
 
