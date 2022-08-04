@@ -38,43 +38,43 @@ Salve as alterações e a Metamask o mudará automaticamente para a Arbitrum:
 
 ### Faucets
 
-There are no faucets for gas on Arbitrum, but if you use a DApp like [ElkNet](https://app.elk.finance/#/elknet), you can opt to swap some of your Elk tokens as gas when bridging from any of the supported networks.
+Não há faucets para gas na Arbitrum, mas se você usar um DApp como a [ElkNet](https://app.elk.finance/#/elknet), você pode optar por usar alguns de seus tokens Elk como gas ao fazer a ponte para qualquer uma das redes suportadas.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.31.52 PM.png>)
 
-### Bridges
+### Pontes
 
-* [Multi Chain](https://app.multichain.org/#/router) is the official partner of Mai Finance if you want to transfer your MAI or QI to Arbitrum from any other networks. From your selected network, you can simply chose the destination chain (Arbitrum) and the asset you want to send (MAI or ETH with the correct amount, and click on the `Transfer` button. Pay attention to the transfer fees taken directly on the asset you are transferring.
+* [Multi Chain](https://app.multichain.org/#/router) é o parceiro oficial da Mai Finance se você deseja transferir seu MAI ou QI para a Arbitrum de qualquer outra rede. A partir de sua rede selecionada, você pode simplesmente escolher a rede de destino (Arbitrum) e o ativo que deseja enviar (MAI ou ETH com o valor correto, e clicar no botão `Transfer`. Preste atenção às taxas de transferência cobradas diretamente no ativo que você está transferindo.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.33.02 PM.png>)
 
-* [Celer](https://cbridge.celer.network/#/transfer) is a popular bridge and allows you to transfer tokens from about fifteen different networks to Arbitrum.
+* [Celer](https://cbridge.celer.network/#/transfer) é uma ponte popular e permite transferir tokens de cerca de quinze redes diferentes para a Arbitrum.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.35.44 PM.png>)
 
-* [Hop Protocol](https://app.hop.exchange/#/send?token=ETH\&sourceNetwork=polygon\&destNetwork=optimism) is another popular bridge. There are only a small number of supported tokens including ETH, and various stablecoins like USDC, DAI, and USDT, but it offers lower bridging fees than most other solutions.
-* [Hashflow](https://app.hashflow.com/) is a newer bridging technology that works essentially as a crosschain DEX (decentralized exchange) for any token with sufficient liquidity. Additionally, Hashflow users can currently earn HFT (Hashflow tokens) for swapping or providing token liquidity. Chains are currently limited to Ethereum, Avalanche, Arbitrum, Optimism, Polygon, and BNB.
+* [Hop Protocol](https://app.hop.exchange/#/send?token=ETH\&sourceNetwork=polygon\&destNetwork=optimism) é outra ponte popular. Há apenas um pequeno número de tokens suportados, incluindo ETH e várias stablecoins como USDC, DAI e USDT, mas oferece taxas de ponte mais baixas do que a maioria das outras soluções.
+* [Hashflow](https://app.hashflow.com/) é uma tecnologia de ponte mais recente que funciona essencialmente como uma DEX (corretora descentralizada) crosschain para qualquer token com liquidez suficiente. Além disso, os usuários da Hashflow atualmente podem ganhar HFTs (tokens de fluxo de hash) por trocar tokens ou fornecer liquidez. Atualmente, as redes estão limitadas a Ethereum, Avalanche, Arbitrum, Optimism, Polygon e BNB.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.51.25 PM.png>)
 
-* [Elknet](https://app.elk.finance/#/elknet) will act both as a bridge and as a faucet when you transfer the ELK token between 2 networks. You will be able to bridge your ELK and on the receiving end, you can have a small portion of your ELK directly available as the gas token, ETH in our case, as explained in the section above.
+* [Elknet](https://app.elk.finance/#/elknet) atuará como uma ponte e como uma faucet quando você transferir o token ELK entre 2 redes. Você poderá conectar seu ELK e, na extremidade receptora, poderá ter uma pequena parte do seu ELK diretamente disponível como token de gás, ETH no nosso caso, conforme explicado na seção acima.
 
-## DeFi on Arbitrum
+## DeFi na Arbitrum
 
-* [Balancer](https://arbitrum.balancer.fi/#/pool/0x0510ccf9eb3ab03c1508d3b9769e8ee2cfd6fdcf00000000000000000000005d) currently has the only pool on Arbitrum with MAI liquidity. By depositing your MAI into the MAI/USDC/USDT pool, users can earn roughly 13% yield on their stablecoins. Please note that this pool will be migrated shortly which fixes an existing liquidity bug.
+* A [Balancer](https://arbitrum.balancer.fi/#/pool/0x0510ccf9eb3ab03c1508d3b9769e8ee2cfd6fdcf00000000000000000000005d) é atualmente a única plataforma com pool de liquidez em MAI na rede Arbitrum. Ao depositar seu MAI no pool MAI/USDC/USDT, os usuários podem ganhar cerca de 13% de rendimentos em suas stablecoins. Observe que este pool será migrado em breve, o que corrige um bug de liquidez existente.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.43.57 PM.png>)
 
-## Mai Finance on Arbitrum
+## Mai Finance na Arbitrum
 
-The lending platform is already available on Arbitrum where you will be able to deposit your WETH (Wrapped Ether) or WBTC (Wrapped Bitcoin) tokens in a vault and borrow MAI against them. You can then deposit your borrowed MAI on Balancer to earn yield.
+A plataforma de empréstimos já está disponível na Arbitrum, onde você poderá depositar seus tokens WETH (Wrapped Ether) ou WBTC (Wrapped Bitcoin) em um cofre e tomar emprestado MAI contra eles. Você poderá então depositar o seu MAI na Balancer para gerar rendimentos.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.38.15 PM.png>)
 
-## Disclaimer
+## Aviso legal
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Este guia NÃO é um conselho financeiro e deve ser simplesmente considerado uma ferramenta educacional. Sempre faça sua própria pesquisa. A discussão de um projeto neste guia não deve ser considerada como um endosso do projeto.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Por favor, mantenha-se informado, monitore os mercados, fique de olho em seus investimentos e, como sempre, faça sua própria pesquisa.
 {% endhint %}
