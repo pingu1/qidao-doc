@@ -1,12 +1,12 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the different DApps that BNB Chain has to offer.
+  Neste guia, explicaremos tudo o que você precisa saber para começar a usar os
+  diferentes DApps que a rede BNB oferece.
 ---
 
-# How to get started on BNB Chain
+# Como começar na rede BNB
 
-## What is BNB Chain?
+## O que é a rede BNB?
 
 BNB Chain is an EVM (Ethereum Virtual Machine) compatible network which is an upgraded version of the original Binance Smart Chain which provides low transaction fees, and much faster block times than Ethereum, the chain from which is it based.\
 \
@@ -18,7 +18,7 @@ BNB Chain uses Binance's BNB token to pay for gas fees so be sure to have some i
 
 Before using BNB Chain, you will need a wallet address. Because BNB Chain is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network.
 
-For this tutorial, we will stick to Metamask just as we have done for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).&#x20;
+For this tutorial, we will stick to Metamask just as we have done for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
 
 Additionally, you can use Binance's own Binance Wallet for an easier way to get started on the network.
 
@@ -30,7 +30,7 @@ Open the Metamask popup, click the icon of your wallet, navigate to `Settings` t
 * **New RPC URL:** [https://docs.binance.org/smart-chain/developer/rpc.html](https://docs.binance.org/smart-chain/developer/rpc.html)
 * **Chain ID:** 0x38
 * **Currency Symbol:** BNB
-* **Block Explorer URL:** [**https://bscscan.com/**](https://bscscan.com/)****
+* **Block Explorer URL:** [**https://bscscan.com/**](https://bscscan.com/)\*\*\*\*
 
 Save the changes, and Metamask will automatically switch you over to BNB:
 
