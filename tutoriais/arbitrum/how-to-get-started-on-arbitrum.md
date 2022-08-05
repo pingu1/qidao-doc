@@ -53,7 +53,7 @@ Não há faucets para gas na Arbitrum, mas se você usar um DApp como a [ElkNet]
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 10.35.44 PM.png>)
 
 * [Hop Protocol](https://app.hop.exchange/#/send?token=ETH\&sourceNetwork=polygon\&destNetwork=optimism) é outra ponte popular. Há apenas um pequeno número de tokens suportados, incluindo ETH e várias stablecoins como USDC, DAI e USDT, mas oferece taxas de ponte mais baixas do que a maioria das outras soluções.
-* [Hashflow](https://app.hashflow.com/) é uma tecnologia de ponte mais recente que funciona essencialmente como uma DEX (corretora descentralizada) crosschain para qualquer token com liquidez suficiente. Além disso, os usuários da Hashflow atualmente podem ganhar HFTs (tokens de fluxo de hash) por trocar tokens ou fornecer liquidez. Atualmente, as redes estão limitadas a Ethereum, Avalanche, Arbitrum, Optimism, Polygon e BNB.
+* [Hashflow](https://app.hashflow.com/) é uma tecnologia de ponte mais recente que funciona essencialmente como uma DEX (corretora descentralizada) crosschain para qualquer token com liquidez suficiente. Além disso, os usuários do Hashflow atualmente podem ganhar HFTs (tokens Hashflow) por trocar ou fornecer liquidez. Atualmente, as redes estão limitadas a Ethereum, Avalanche, Arbitrum, Optimism, Polygon e BNB..
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.51.25 PM.png>)
 

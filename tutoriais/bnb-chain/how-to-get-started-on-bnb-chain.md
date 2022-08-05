@@ -22,9 +22,9 @@ Para este tutorial, vamos nos ater à Metamask, assim como fazemos em todos os o
 
 Além disso, você pode usar a própria Binance Wallet para começar na rede mais facilmente.
 
-### Adding BNB Chain to Metamask
+### Adicionando a BNB Chain à Metamask
 
-Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Add Network`. You will use the following information in the relevant text fields:
+Abra o pop-up Metamask, clique no ícone da sua carteira, navegue até`Settings` então escolha `Networks` e encontre `Add Network`. Você usará as seguintes informações nos campos de texto relevantes:
 
 * **Network Name:** BNB Chain
 * **New RPC URL:** [https://docs.binance.org/smart-chain/developer/rpc.html](https://docs.binance.org/smart-chain/developer/rpc.html)
@@ -32,52 +32,52 @@ Open the Metamask popup, click the icon of your wallet, navigate to `Settings` t
 * **Currency Symbol:** BNB
 * **Block Explorer URL:** [**https://bscscan.com/**](https://bscscan.com/)\*\*\*\*
 
-Save the changes, and Metamask will automatically switch you over to BNB:
+Salve as alterações e a Metamask o mudará automaticamente para o BNB:
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.28.44 AM.png>)
 
-If you would like to search for additional RPCs with lower latency, take a look at [ChainList](https://chainlist.org/) for additional endpoints.
+Se você quiser pesquisar RPCs adicionais com menor latência, dê uma olhada em ChainList para pontos de extremidade adicionais.
 
-## Bridging to BNB Chain
+## Pontes à BNB Chain
 
 ### Faucets
 
-There are freely available faucets on BNB Chain, but it is the opinion of the author that it will be safer to use something like ElkNet to get free gas tokens. If you choose to use a faucet you found online, please do so at your own risk. With [ElkNet](https://app.elk.finance/#/elknet), you can opt to swap some of your Elk tokens as gas when bridging from any of the supported networks.
+Existem faucets, ou torneiras, disponíveis gratuitamente na BNB Chain, mas é a opinião do autor que será mais seguro usar algo como a ElkNet para obter tokens de gas gratuitos. Se você optar por usar uma faucet que encontrou online, faça-o por sua conta e risco. Com a [ElkNet](https://app.elk.finance/#/elknet), você pode optar por trocar alguns de seus tokens Elk por gas ao fazer a ponte para qualquer uma das redes suportadas.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.29.50 AM.png>)
 
-### Bridges
+### Pontes
 
-* [Multi Chain](https://app.multichain.org/#/router) is the official partner of Mai Finance if you want to transfer your MAI or QI to BNB Chain from any other networks. From your selected network, you can simply chose the destination chain (BNB Chain) and the asset you want to send (MAI or QI for example) with the correct amount, and click on the `Transfer` button. Pay attention to the transfer fees taken directly on the asset you are transferring.
+* [Multi Chain](https://app.multichain.org/#/router) é o parceiro oficial da Mai Finance se você deseja transferir seu MAI ou QI para a BNB Chain de qualquer outra rede. Da sua rede selecionada, você pode simplesmente escolher a rede de destino (BNB Chain) e o ativo que deseja enviar (MAI ou QI por exemplo) com o valor correto e clicar no botão `Transfer`. Preste atenção às taxas de transferência cobradas diretamente no ativo que você está transferindo.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.32.07 AM.png>)
 
-* [Celer](https://cbridge.celer.network/#/transfer) is a popular bridge and allows you to transfer tokens from about fifteen different networks to BNB Chain.
+* [Celer](https://cbridge.celer.network/#/transfer) é uma ponte popular e permite transferir tokens de cerca de quinze redes diferentes para a BNB Chain.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.31.15 AM.png>)
 
-* [Hashflow](https://app.hashflow.com/) is a newer bridging technology that works essentially as a crosschain DEX (decentralized exchange) for any token with sufficient liquidity. Additionally, Hashflow users can currently earn HFT (Hashflow tokens) for swapping or providing token liquidity. Chains are currently limited to Ethereum, Avalanche, Arbitrum, Optimism, Polygon, and BNB.
+* [Hashflow](https://app.hashflow.com/) é uma tecnologia de ponte mais recente que funciona essencialmente como uma DEX (corretora descentralizada) crosschain para qualquer token com liquidez suficiente. Além disso, os usuários do Hashflow atualmente podem ganhar HFTs (tokens Hashflow) por trocar ou fornecer liquidez. Atualmente, as redes estão limitadas a Ethereum, Avalanche, Arbitrum, Optimism, Polygon e BNB.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.33.51 AM.png>)
 
-* [Elknet](https://app.elk.finance/#/elknet) will act both as a bridge and as a faucet when you transfer the ELK token between 2 networks. You will be able to bridge your ELK and on the receiving end, you can have a small portion of your ELK directly available as the gas token, BNB in our case, as explained in the section above.
+* [Elknet](https://app.elk.finance/#/elknet) atuará como uma ponte e como uma faucet quando você transferir o token ELK entre 2 redes. Você poderá conectar seu ELK e, na extremidade receptora, poderá ter uma pequena parte do seu ELK diretamente disponível como token de gás, BNB no nosso caso, conforme explicado na seção acima.
 
-## DeFi on BNB Chain
+## DeFi na BNB Chain
 
-* [Ellipsis Finance](https://ellipsis.finance/pool/0x68354c6E8Bbd020F9dE81EAf57ea5424ba9ef322) is the go to place for MAI liquidity on BNB Chain. The MAI pool on Ellipsis (MAI+val3EPS) is comprised of four stablecoins including BUSD (Binance USD), USDC, USDT (Tether), and MAI. By depositing stablecoins, and then staking the LP into Ellipsis, users can earn a variable yield between 6 and 15% paid out in Ellipsis' EPS token, Vallas' VAL token, as well as trading fees.
+* [Ellipsis Finance](https://ellipsis.finance/pool/0x68354c6E8Bbd020F9dE81EAf57ea5424ba9ef322) é o lugar ideal para prover liquidez em MAI na BNB Chain. O pool MAI na Ellipsis (MAI+val3EPS) é composto por quatro stablecoins, incluindo BUSD (Binance USD), USDC, USDT (Tether) e MAI. Ao depositar stablecoins e, em seguida, fazer staking com o LP na Ellipsis, os usuários podem ganhar um rendimento variável entre 6 e 15% pago no token EPS da Ellipsis, token VAL da Vallas, bem como taxas de negociação.
 
 ![MAI+val3EPS pool on Ellipsis](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.07.42 AM.png>)
 
-## Mai Finance on BNB Chain
+## Mai Finance na BNB Chain
 
-The lending platform is already available on BNB Chain where you will be able to deposit your WBNB (Wrapped BNB) and CAKE (PancakeSwap) tokens in a vault and borrow MAI against them. You can then deposit your borrowed MAI on Ellipsis to earn yield on your MAI.
+A plataforma de empréstimo já está disponível na BNB Chain, onde você poderá depositar seus tokens WBNB (Wrapped BNB) e CAKE (PancakeSwap) em um cofre e tomar emprestado MAI contra eles. Você pode então depositar seu MAI na Ellipsis para obter rendimentos.
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-18 at 11.11.26 AM.png>)
 
-## Disclaimer
+## Aviso legal
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+Este guia NÃO é um conselho financeiro e deve ser simplesmente considerado uma ferramenta educacional. Sempre faça sua própria pesquisa. A discussão de um projeto neste guia não deve ser considerada como um endosso do projeto.
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+Tenha em mente que uma estratégia que funciona bem em um determinado momento pode ter um desempenho ruim (ou fazer você perder dinheiro) em outro momento. Por favor, mantenha-se informado, monitore os mercados, fique de olho em seus investimentos e, como sempre, faça sua própria pesquisa.
 {% endhint %}

@@ -50,7 +50,7 @@ Não há faucets para gas, ou torneiras, na Optimism, mas se você usar um DApp 
 
 * [Celer](https://cbridge.celer.network/#/transfer) é uma ponte popular e um dos parceiros oficiais da rede Optimism.
 * [Hop Protocol](https://app.hop.exchange/#/send?token=ETH\&sourceNetwork=polygon\&destNetwork=optimism) é outra ponte popular que também é parceira oficial da rede Optimism. Há apenas um pequeno número de tokens suportados, incluindo ETH e várias stablecoins como USDC, DAI e USDT, mas oferece taxas mais baixas do que a maioria das outras soluções.
-* [Hashflow](https://app.hashflow.com/) é uma tecnologia de ponte mais recente que funciona essencialmente como uma DEX crosschain (corretora descentralizada entre redes) para qualquer token com liquidez suficiente. Além disso, os usuários do Hashflow atualmente podem ganhar HFT (tokens de fluxo de hash) para trocar ou fornecer liquidez para tokens. Atualmente, as redes estão limitadas a Ethereum, Avalanche, Arbitrum, Optimism, Polygon e BNB.
+* [Hashflow](https://app.hashflow.com/) é uma tecnologia de ponte mais recente que funciona essencialmente como uma DEX (corretora descentralizada) crosschain para qualquer token com liquidez suficiente. Além disso, os usuários do Hashflow atualmente podem ganhar HFTs (tokens Hashflow) por trocar ou fornecer liquidez. Atualmente, as redes estão limitadas a Ethereum, Avalanche, Arbitrum, Optimism, Polygon e BNB..
 
 ![](<../../.gitbook/assets/Screen Shot 2022-06-17 at 9.51.25 PM.png>)
 
