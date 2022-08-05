@@ -1,7 +1,7 @@
 ---
 description: >-
-  In this guide we'll explain everything you need to know in order to start
-  using the different DApps that Arbitrum has to offer.
+  Neste guia, explicaremos tudo o que você precisa saber para começar a usar os
+  diferentes DApps que Arbitrum tem a oferecer.
 ---
 
 # Arbitrum

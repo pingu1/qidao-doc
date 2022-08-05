@@ -1,5 +1,5 @@
 ---
-description: Optimism table of contents
+description: Tabela de conteúdo da Optimism
 ---
 
 # Optimism
