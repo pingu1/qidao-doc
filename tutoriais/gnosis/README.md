@@ -1,5 +1,5 @@
 ---
-description: Gnosis Chain table of content
+description: Tabela de conteúdo da Gnosis Chain
 ---
 
 # Gnosis Chain
