@@ -1,26 +1,26 @@
 ---
 description: >-
   Neste guia, explicaremos tudo o que você precisa saber para começar a usar os
-  diferentes DApps que a rede BNB oferece.
+  diferentes DApps que a BNB Chain oferece.
 ---
 
-# Como começar na rede BNB
+# Como começar na BNB Chain
 
-## O que é a rede BNB?
+## O que é a BNB Chain?
 
-BNB Chain is an EVM (Ethereum Virtual Machine) compatible network which is an upgraded version of the original Binance Smart Chain which provides low transaction fees, and much faster block times than Ethereum, the chain from which is it based.\
-\
-Because of this, BNB Chain is one of the most popular chains in the world with over 4.5 billion annual transactions and an extremely vibrant and mature [DApp ecosystem](https://dappbay.bnbchain.org/).
+A BNB Chain é uma rede compatível com EVM (Ethereum Virtual Machine) que é uma versão atualizada da Binance Smart Chain original que fornece baixas taxas de transação e tempos de bloco muito mais rápidos do que a Ethereum, a rede na qual se baseia.
 
-BNB Chain uses Binance's BNB token to pay for gas fees so be sure to have some in your wallet in order to perform transactions. Binance provides [easy to follow guides](https://www.binance.com/en/support/faq/85a1c394ac1d489fb0bfac0ef2fceafd) on how to get purchase or transfer tokens to its BNB Chain.
+Por isso, a BNB Chain é uma das redes mais populares do mundo, com mais de 4,5 bilhões de transações anuais e um [ecossistema de DApps](https://dappbay.bnbchain.org/) extremamente vibrante e maduro.
 
-## Getting started on BNB Chain
+A BNB Chain usa o token BNB da Binance para pagar as taxas de gas, portanto, certifique-se de ter alguns em sua carteira para realizar transações. A Binance oferece [guias fáceis de serem seguidos ](https://www.binance.com/en/support/faq/85a1c394ac1d489fb0bfac0ef2fceafd)sobre como comprar ou transferir tokens para sua rede BNB.
 
-Before using BNB Chain, you will need a wallet address. Because BNB Chain is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network.
+## Começando na BNB Chain
 
-For this tutorial, we will stick to Metamask just as we have done for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
+Antes de usar a BNB Chain, você precisará de um endereço de carteira. Como o BNB Chain é uma rede EVM, ele aceitará as mesmas carteiras que em outras cadeias EVM, incluindo carteiras web como a Metamask ou a Nifty, e você poderá usar sua carteira de hardware como Trezor ou Ledger, mas pode ser necessário seguir etapas extras para poder conectá-las a rede.
 
-Additionally, you can use Binance's own Binance Wallet for an easier way to get started on the network.
+Para este tutorial, vamos nos ater à Metamask, assim como fazemos em todos os outros guias deste site. Se você não tiver a Metamask instalada, poderá encontrar instruções em[ Como começar sua jornada na Polygon.](../polygon/how-to-get-started-on-polygon.md)
+
+Além disso, você pode usar a própria Binance Wallet para começar na rede mais facilmente.
 
 ### Adding BNB Chain to Metamask
 

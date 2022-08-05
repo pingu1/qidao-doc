@@ -44,7 +44,7 @@
 * [Arbitrum](tutoriais/arbitrum/README.md)
   * [Como começar na Arbitrum](tutoriais/arbitrum/how-to-get-started-on-arbitrum.md)
 * [BNB Chain](tutoriais/bnb-chain/README.md)
-  * [Como começar na rede BNB](tutoriais/bnb-chain/how-to-get-started-on-bnb-chain.md)
+  * [Como começar na BNB Chain](tutoriais/bnb-chain/how-to-get-started-on-bnb-chain.md)
 * [Moonbeam](tutoriais/moonbeam/README.md)
   * [How to get started on Moonbeam](tutoriais/moonbeam/how-to-get-started-on-moonbeam.md)
   * [Playing with MAI legos on StellaSwap](tutoriais/moonbeam/playing-with-mai-legos-on-stellaswap.md)
