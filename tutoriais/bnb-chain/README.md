@@ -1,5 +1,5 @@
 ---
-description: Tabela de conteúdos da BNB Chain
+description: Índice da BNB Chain
 ---
 
 # BNB Chain

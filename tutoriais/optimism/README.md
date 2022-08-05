@@ -1,5 +1,5 @@
 ---
-description: Tabela de conteúdo da Optimism
+description: Índice da Optimism
 ---
 
 # Optimism
