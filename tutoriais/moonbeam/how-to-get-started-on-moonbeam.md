@@ -1,8 +1,8 @@
 ---
-description: In this guide, we'll explain how to get started using Moonbeam.
+description: Neste guia, explicaremos como começar a usar o Moonbeam.
 ---
 
-# How to get started on Moonbeam
+# Como começar na Moonbeam
 
 ## What is Moonbean?
 
@@ -12,7 +12,7 @@ Polkadot describes the benefits of parachains as follows, “Parachains end the 
 
 ![Moonbeam, a Polkadot parachain](<../../.gitbook/assets/moonbeam (1).jpg>)
 
-Because of its EVM compatibility layer, Moonbeam makes it easier for Solidity developers to be able to port their existing applications from other EVM-compatible networks to Moonbeam with few code changes. Moonbeam currently has a TVL of $130m, and a [vibrant and growing](https://defillama.com/chain/Moonbeam) ecosystem of applications.&#x20;
+Because of its EVM compatibility layer, Moonbeam makes it easier for Solidity developers to be able to port their existing applications from other EVM-compatible networks to Moonbeam with few code changes. Moonbeam currently has a TVL of $130m, and a [vibrant and growing](https://defillama.com/chain/Moonbeam) ecosystem of applications.
 
 Moonbeat also offers Substrate compatibility. Substrate is a modular blockchain framework used by developers for building blockchains tailored to their needs using reusable components called pallets. It uses the Rust programming language and is the framework most developers use when building parachains for the Polkadot network.
 
@@ -46,7 +46,7 @@ Save the changes, and Metamask will automatically switch you over to Moonbeam:
 
 ### Faucets
 
-GLMR is Moonbeam's native gas token so you'll need to have some in your wallet to make transactions on chain. Fortunately, the official Moonbeam Faucet will help get your started with a small amount of GLMR, though please note that the amount dispersed by the token may sometimes not be enough to complete a transaction if the network is congested. \
+GLMR is Moonbeam's native gas token so you'll need to have some in your wallet to make transactions on chain. Fortunately, the official Moonbeam Faucet will help get your started with a small amount of GLMR, though please note that the amount dispersed by the token may sometimes not be enough to complete a transaction if the network is congested.\
 \
 In order to receive some free GLMR, you'll need to verify you're a human via the captcha bot, and connect your Metamask wallet to the site. A small amount (0.007 GLMR) will then be sent immediately to your wallet.
 
