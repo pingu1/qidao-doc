@@ -47,7 +47,7 @@
   * [Como começar na BNB Chain](tutoriais/bnb-chain/how-to-get-started-on-bnb-chain.md)
 * [Moonbeam](tutoriais/moonbeam/README.md)
   * [Como começar na Moonbeam](tutoriais/moonbeam/how-to-get-started-on-moonbeam.md)
-  * [Playing with MAI legos on StellaSwap](tutoriais/moonbeam/playing-with-mai-legos-on-stellaswap.md)
+  * [Brincando de LEGO na StellaSwap](tutoriais/moonbeam/playing-with-mai-legos-on-stellaswap.md)
 
 ## Universidade do MAI
 

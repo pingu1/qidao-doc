@@ -1,10 +1,10 @@
 ---
-description: Using MAI on Moonbeam to earn yield with StellaSwap.
+description: Usando MAI na Moonbeam para gerar rendimentos com a StellaSwap.
 ---
 
-# Playing with MAI legos on StellaSwap
+# Brincando de LEGO na StellaSwap
 
-While Mai Finance does not offer vaults on Moonbeam, it is possible to use some of your favorite tokens on the chain to mint MAI by using Stella_S_wap's new MAI vaults. By leveraging your collateral tokens and borrowing MAI against it, you can earn great yield through a looping strategy involving xSTELLA and MAI.
+While Mai Finance does not offer vaults on Moonbeam, it is possible to use some of your favorite tokens on the chain to mint MAI by using Stella\_S\_wap's new MAI vaults. By leveraging your collateral tokens and borrowing MAI against it, you can earn great yield through a looping strategy involving xSTELLA and MAI.&#x20;
 
 _NOTE: This guide is not meant as financial advice. It was created with an educational goal in mind. The goal of this guide is not to propose a strategy to be followed blindly, so please do your homework and your own simulation, and only invest what you're ready to possibly lose._
 
@@ -20,14 +20,14 @@ Unlike MAI vaults on Mai Finance, StellaSwap's MAI vaults do charge interest for
 
 1. First, head off to StellaSwap's [MAI minting facility](https://app.stellaswap.com/mai).
 2. From here you'll be able to create an xStella or wGLMR vault to borrow MAI against. To create our looping strategy, we will create an xStella vault.
-3. Now enter your newly created vault and deposit xStella. Please note that xStella vaults have a  40% LTV (loan to value ratio) which means that for every $100 worth of xStella, you will be able to borrow $40 worth of MAI.&#x20;
+3. Now enter your newly created vault and deposit xStella. Please note that xStella vaults have a 40% LTV (loan to value ratio) which means that for every $100 worth of xStella, you will be able to borrow $40 worth of MAI.
 4. Next, you'll want to head to the borrow section, and borrow MAI. Please keep in mind your LTV to avoid being liquidated.
 
 ![xStella vault](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.05.01 PM.png>)
 
 ### Putting the legos together
 
-Now that you've successfully borrowed MAI, it's time to put it to use! We'll be leveraging our MAI by depositing it into StellaSwap's MAI-Base4Pool stablecoin farm and using the yields to earn more Stella tokens by staking them. Always remember that if you enter this strategy you do so at your own risk and your vault may be liquidated if you do not do your due diligence! \
+Now that you've successfully borrowed MAI, it's time to put it to use! We'll be leveraging our MAI by depositing it into StellaSwap's MAI-Base4Pool stablecoin farm and using the yields to earn more Stella tokens by staking them. Always remember that if you enter this strategy you do so at your own risk and your vault may be liquidated if you do not do your due diligence!\
 \
 Let's first find the MAI-Base4Pool on the StellaSwap [Farms](https://app.stellaswap.com/farm) page.
 
@@ -37,7 +37,7 @@ This farm currently offers a very attractive 26% yield on stable coins with a po
 
 $$effective interest = (collateral * borrow interest)-(mai*farmingyield)$$
 
-This gives us an effective yield of 1.6% to borrow MAI - not bad, but we can do better. We can now take the Stella tokens we are earning from being in the MAI-Base4Pool and [stake them to receive xStella](https://app.stellaswap.com/xstella).&#x20;
+This gives us an effective yield of 1.6% to borrow MAI - not bad, but we can do better. We can now take the Stella tokens we are earning from being in the MAI-Base4Pool and [stake them to receive xStella](https://app.stellaswap.com/xstella).
 
 ![Staking xStella](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.33.31 PM.png>)
 
