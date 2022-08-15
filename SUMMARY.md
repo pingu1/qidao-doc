@@ -18,7 +18,7 @@
   * [MAI 与 Ethalend 的单一质押](jiao-cheng/polygon/ethalend-single-staking.md)
   * [Elephant, Chimp 和 Otter](jiao-cheng/polygon/the-elephant-and-the-otter.md)
   * [从传统金融到使用Jarvis的DeFi](jiao-cheng/polygon/jarvis.md)
-  * [DCA in bear and bull markets](jiao-cheng/polygon/dca.md)
+  * [熊市和牛市中的 DCA](jiao-cheng/polygon/dca.md)
 * [Avalanche](jiao-cheng/avalanche/README.md)
   * [如何开始使用Avalanche](jiao-cheng/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](jiao-cheng/fantom/README.md)
@@ -40,14 +40,14 @@
 * [Gnosis Chain](jiao-cheng/gnosis/README.md)
   * [如何开始使用 Gnosis Chain](jiao-cheng/gnosis/how-to-get-started-on-gnosis.md)
 * [Optimism](jiao-cheng/optimism/README.md)
-  * [How to get started on Optimism](jiao-cheng/optimism/how-to-get-started-on-optimism.md)
+  * [如何在Optimism上开始](jiao-cheng/optimism/how-to-get-started-on-optimism.md)
 * [Arbitrum](jiao-cheng/arbitrum/README.md)
-  * [How to get started on Arbitrum](jiao-cheng/arbitrum/how-to-get-started-on-arbitrum.md)
+  * [如何在 Arbitrum上开始](jiao-cheng/arbitrum/how-to-get-started-on-arbitrum.md)
 * [BNB Chain](jiao-cheng/bnb-chain/README.md)
-  * [How to get started on BNB Chain](jiao-cheng/bnb-chain/how-to-get-started-on-bnb-chain.md)
+  * [如何在BNB Chain上开始](jiao-cheng/bnb-chain/how-to-get-started-on-bnb-chain.md)
 * [Moonbeam](jiao-cheng/moonbeam/README.md)
-  * [How to get started on Moonbeam](jiao-cheng/moonbeam/how-to-get-started-on-moonbeam.md)
-  * [Playing with MAI legos on StellaSwap](jiao-cheng/moonbeam/playing-with-mai-legos-on-stellaswap.md)
+  * [如何在 Moonbeam 开始](jiao-cheng/moonbeam/how-to-get-started-on-moonbeam.md)
+  * [在 StellaSwap 上玩 MAI 乐高积木](jiao-cheng/moonbeam/playing-with-mai-legos-on-stellaswap.md)
 
 ## MAI University
 

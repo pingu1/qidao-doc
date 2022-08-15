@@ -1,95 +1,95 @@
 ---
-description: In this guide, we'll explain how to get started using Moonbeam.
+description: 在本指南中，我们将解释如何开始使用 Moonbeam。
 ---
 
-# How to get started on Moonbeam
+# 如何在 Moonbeam 开始
 
-## What is Moonbean?
+## 什么是 Moonbean?
 
-Launching in January 2020, Moonbeam is an EVM (Ethereum virtual machine) compatible smart contract platform running on the Polkadot network making it what is called a Polkadot parachain. Parachains are interconnected set of chains that benefit from Polkadot's main relay chain while remaining interoperable, thereby partaking in the benefits and security of the main chain while running in parallel to it.\
+Moonbeam 于 2020 年 1 月推出，是一个在 Polkadot 网络上运行的与 EVM（以太坊虚拟机）兼容的智能合约平台，这就是所谓的 Polkadot 平行链。平行链是一组相互连接的链，它们从 Polkadot 的主中继链中受益，同时保持互操作性，从而在与主链并行运行的同时分享主链的好处和安全性。\
 \
-Polkadot describes the benefits of parachains as follows, “Parachains end the era of siloed blockchains, creating a decentralized, connected internet of blockchains where before there existed only isolated networks with their own tribalistic communities.”
+Polkadot 将平行链的好处描述如下：“平行链结束了孤立区块链的时代，创建了一个分散的、连接的区块链互联网，在此之前只存在具有自己部落社区的孤立网络。”
 
-![Moonbeam, a Polkadot parachain](<../../.gitbook/assets/moonbeam (1).jpg>)
+![Moonbeam, 一个 Polkadot 平行链](<../../.gitbook/assets/moonbeam (1).jpg>)
 
-Because of its EVM compatibility layer, Moonbeam makes it easier for Solidity developers to be able to port their existing applications from other EVM-compatible networks to Moonbeam with few code changes. Moonbeam currently has a TVL of $130m, and a [vibrant and growing](https://defillama.com/chain/Moonbeam) ecosystem of applications.&#x20;
+由于其 EVM 兼容层，Moonbeam 使 Solidity 开发人员能够更轻松地将其现有应用程序从其他 EVM 兼容网络移植到 Moonbeam，而只需少量代码更改。 Moonbeam 目前拥有 1.3 亿美元的 TVL，以及一个[充满活力且不断增长的](https://defillama.com/chain/Moonbeam)应用生态系统。
 
-Moonbeat also offers Substrate compatibility. Substrate is a modular blockchain framework used by developers for building blockchains tailored to their needs using reusable components called pallets. It uses the Rust programming language and is the framework most developers use when building parachains for the Polkadot network.
+Moonbeat 还提供 Substrate 兼容性。 Substrate 是一个模块化的区块链框架，开发人员使用它来构建适合他们需要的区块链，使用称为托盘的可重复使用组件。它使用 Rust 编程语言，是大多数开发人员在为 Polkadot 网络构建平行链时使用的框架。
 
-As Moonbeam is a Substrate-based blockchain, apps integrated with its network benefit from interoperability between the Polkadot and Ethereum chains, as well as others like Bitcoin.
+由于 Moonbeam 是基于 Substrate 的区块链，与其网络集成的应用程序受益于 Polkadot 和以太坊链以及比特币等其他链之间的互操作性。
 
-Developers can also use Substrate-compatible ecosystem tools commonly used on Ethereum, including block explorers, front-end development libraries, and wallets, as well as development tools like Truffle and Remix.\
-\
-The native gas token for Moonbeam is GLMR.
+开发者还可以使用以太坊上常用的兼容 Substrate 的生态系统工具，包括区块浏览器、前端开发库和钱包，以及 Truffle 和 Remix 等开发工具。
 
-## Getting started on Moonbeam
+Moonbeam 的原生 gas 代币是 GLMR。
 
-Before using Moonbeam, you will need a wallet address. Because Moonbeam is an EVM network, it will accept the same wallets as on other EVM chains, including web wallet like Metamask or Nifty, and you will be able to use your hardware wallet such as Trezor or Ledger, but you may have to follow extra steps to be able to connect your cold wallet to the network.
+## 在 Moonbeam 上开始
 
-For this tutorial, we will stick to Metamask just as we have done for all the other guides on this site. If you don't have Metamask installed, you can find instructions on [How to get started on Polygon](../polygon/how-to-get-started-on-polygon.md).
+在使用 Moonbeam 之前，你需要一个钱包地址。因为 Moonbeam 是一个 EVM 网络，它将接受与其他 EVM 链上相同的钱包，包括 Metamask 或 Nifty 等网络钱包，你将能够使用 Trezor 或 Ledger 等硬件钱包，但你可能需要额外关注能够将你的冷钱包连接到网络的步骤。
 
-### Adding Moonbeam to Metamask
+对于本教程，我们将坚持使用 Metamask，就像我们为本网站上所有其他指南所做的那样。如果你没有安装 Metamask，你可以找到有关[如何开始使用 Polygon ](../polygon/how-to-get-started-on-polygon.md)的说明。
 
-Open the Metamask popup, click the icon of your wallet, navigate to `Settings` then chose `Networks` and find `Add Network`. You will use the following information in the relevant text fields:
+### 添加 Moonbeam 到 Metamask
 
-* **Network Name:** Moonbeam
-* **New RPC URL:** [https://rpc.api.moonbeam.network](https://rpc.api.moonbeam.network)
+网络并找到添加网络。你将在相关文本字段中使用以下信息：
+
+* **网络名称:** Moonbeam
+* **新 RPC URL:** [https://rpc.api.moonbeam.network](https://rpc.api.moonbeam.network)
 * **Chain ID:** 128
-* **Currency Symbol:** GLMR
-* **Block Explorer URL:** [https://moonscan.io/](https://moonscan.io/)
+* **货币标志:** GLMR
+* **组织资源管理器 URL:** [https://moonscan.io/](https://moonscan.io/)
 
-Save the changes, and Metamask will automatically switch you over to Moonbeam:
+保存更改，Metamask 会自动将你切换到 Moonbeam：
 
 ![Moonbeam on Metamask](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.34.43 PM.png>)
 
-## Bridging to Moonbeam
+## 桥接到 Moonbeam
 
-### Faucets
+### 水龙头
 
-GLMR is Moonbeam's native gas token so you'll need to have some in your wallet to make transactions on chain. Fortunately, the official Moonbeam Faucet will help get your started with a small amount of GLMR, though please note that the amount dispersed by the token may sometimes not be enough to complete a transaction if the network is congested. \
-\
-In order to receive some free GLMR, you'll need to verify you're a human via the captcha bot, and connect your Metamask wallet to the site. A small amount (0.007 GLMR) will then be sent immediately to your wallet.
+GLMR 是 Moonbeam 的原生 gas 代币，所以你需要在钱包里放一些来进行链上交易。幸运的是，官方 Moonbeam Faucet 将帮助你开始使用少量 GLMR，但请注意，如果网络拥塞，代币分散的金额有时可能不足以完成交易。
+
+为了获得一些免费的 GLMR，你需要通过验证码机器人验证你是人类，并将你的 Metamask 钱包连接到该站点。少量（0.007 GLMR）将立即发送到你的钱包。
 
 ![GLMR.Supply Faucet](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.57.39 PM.png>)
 
-Additionally, users may want to use Solarflare's "[Swap for gas](https://app.solarflare.io/bridge/gas-swap)" feature. This allows users to swap other tokens including WETH, WBTC, USDC, DAI, USDT, BUSD, FLARE, and BNB into GLMR, Moonbeam's native gas token.
+此外，用户可能希望使用 Solarflare 的“[Swap for gas](https://app.solarflare.io/bridge/gas-swap)”功能。这允许用户将包括 WETH、WBTC、USDC、DAI、USDT、BUSD、FLARE 和 BNB 在内的其他代币兑换成 Moonbeam 的原生 gas 代币 GLMR。
 
-![Solarflare's "Swap for Gas" feature](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.15.46 PM.png>)
+![Solarflare's "Swap for Gas"功能 ](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.15.46 PM.png>)
 
-### Bridges
+### 桥接
 
-* [Multichain](https://app.multichain.org/#/router) is the official bridge for MAI through its partnership with MAI finance, and you can easily send your MAI to Moonbeam by using it.
+* [Multichain](https://app.multichain.org/#/router) 是 MAI 通过与 MAI Finance 合作的官方桥梁，你可以使用它轻松地将你的 MAI 发送到 Moonbeam。
 
-![Multichain on Moonbeam](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.03.00 PM.png>)
+![ Moonbeam 上的 Multichain](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.03.00 PM.png>)
 
-* [Solarflare](https://app.solarflare.io/bridge) is a full-featured AMM (automated market maker) on Moonbeam which is very similar to Uniswap. Solarflare has a built-in bridge which allows users to bridge assets from Ethereum mainnet as well as BNB chain to Moonbeam. Solarflare also has a "Swap for gas" feature as mentioned in the Faucets section above.
+* [Solarflare](https://app.solarflare.io/bridge) 是 Moonbeam 上的全功能 AMM（自动做市商），与 Uniswap 非常相似。 Solarflare 有一个内置的桥接器，允许用户将资产从以太坊主网以及 BNB 链桥接到 Moonbeam。如上面的水龙头部分所述，Solarflare 还具有“Swap for gas”功能。
 
-![Bridging with Solarflare](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.06.21 PM.png>)
+![通过 Solarflare 桥接](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.06.21 PM.png>)
 
-* [Celer](https://cbridge.celer.network/#/transfer) is a popular bridge that also supports Moonbeam. Please note that you may not be able to bridge from every chain into Moonbeam (Polygon to Moonbeam bridging is not supported, for example).
+* [Celer](https://cbridge.celer.network/#/transfer) 是一种流行的桥，也支持 Moonbeam。请注意，你可能无法从每条链桥接到 Moonbeam（例如，不支持 Polygon 到 Moonbeam 的桥接）。
 
-![Bridging with Celer](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.10.32 PM.png>)
+![通过 Celer 桥接](<../../.gitbook/assets/Screen Shot 2022-06-24 at 6.10.32 PM.png>)
 
-* Other bridges are available but may be chain specific such as Nomad or Axelar for the Cosmos ecosystem.
+* 其他桥梁可用，但可能是特定于链的，例如 Cosmos 生态系统的 Nomad 或 Axelar。
 
-## DeFi on Moonbeam
+## Moonbeam 上的 DeFi
 
-[StellaSwap](https://app.stellaswap.com/farm) is currently the main source of liquidity for MAI on Moonbeam. The MAI-Base4Pool is comprised of MAI, FRAX, USDT, USDC, and DAI and currently has a TVL (total value locked) of $535k, yielding a solid 26% APR (annual percentage rate) on your stablecoins.
+[StellaSwap](https://app.stellaswap.com/farm) 目前是 Moonbeam 上 MAI 的主要流动性来源。 MAI-Base4Pool 由 MAI、FRAX、USDT、USDC 和 DAI 组成，目前的 TVL（锁定总价值）为 535,000 美元，为你的稳定币产生稳定的 26% APR（年百分比率）。
 
-![MAI-Base4Pool on StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.22.32 PM.png>)
+![ StellaSwap 上的 MAI-Base4Pool](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.22.32 PM.png>)
 
-Moonbeam has a vibrant DeFi ecosystem with dozens of DApps (decentralized applications) available to use including DeFi staples found on other chains such as [Curve](https://moonbeam.curve.fi/) and [Beefy Finance](https://app.beefy.com/). For a full list of available DApps, check out [DefiLlama's Moonbeam page](https://defillama.com/chain/Moonbeam).
+Moonbeam 拥有一个充满活力的 DeFi 生态系统，有数十个 DApp（去中心化应用程序）可供使用，包括在[ Curve](https://moonbeam.curve.fi/) 和 [Beefy Finance](https://app.beefy.com/) 等其他链上发现的 DeFi 主食。有关可用 DApp 的完整列表，请查看[ DefiLlama 的 Moonbeam 页面](https://defillama.com/chain/Moonbeam)。
 
-## Mai Finance on Moonbeam
+## Moonbeam 上的 Mai Finance
 
-While Mai Finance is not available on Moonbeam, you can create vaults and borrow MAI against xStella and wGLMR on StellaSwap. Please note that borrowing MAI on StellaSwap will incur interests - 12% on xStella vaults, and 8% on wGLMR vaults. You can find out more on how to use StellaSwap's MAI vaults in the next section titled, [Playing with MAI legos on StellaSwap](playing-with-mai-legos-on-stellaswap.md).
+虽然 Moonbeam 上不提供 Mai Finance，但你可以在 StellaSwap 上创建vault并针对 xStella 和 wGLMR 借用 MAI。请注意，在 StellaSwap 上借用 MAI 会产生利息——xStella vault为 12%，wGLMR vault为 8%。你可以在下一个标题为“[在 StellaSwap 上玩 MAI 乐高积木](playing-with-mai-legos-on-stellaswap.md)”的部分中找到有关如何使用 StellaSwap 的 MAI vault的更多信息。
 
-![Vaults on StellaSwap](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.01.01 PM.png>)
+![StellaSwap 的 vaults](<../../.gitbook/assets/Screen Shot 2022-06-24 at 5.01.01 PM.png>)
 
-## Disclaimer
+## 免责声明
 
-This guide is NOT financial advice, and should simply be regarded as an educational tool. Always do your own research. Discussion of a project in this guide should not be considered as an endorsement of the project.
+本指南不是财务建议，应仅被视为一种教育工具。总是做自己的研究。本指南中对项目的讨论不应被视为对该项目的认可。
 
 {% hint style="info" %}
-Keep in mind that a strategy that works well at a given time may perform poorly (or make you lose money) at another time. Please stay informed, monitor the markets, keep an eye on your investments, and as always, do your own research.
+请记住，在给定时间运作良好的策略可能在其他时间表现不佳（或让你赔钱）。请随时了解情况，监控市场，密切关注你的投资，并一如既往地进行自己的研究。
 {% endhint %}
