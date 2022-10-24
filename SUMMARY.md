@@ -19,6 +19,7 @@
   * [The Elephant, the Chimp and the Otter](tutorials/polygon/the-elephant-and-the-otter.md)
   * [From Traditional Finance to DeFi with Jarvis](tutorials/polygon/jarvis.md)
   * [DCA in bear and bull markets](tutorials/polygon/dca.md)
+* [Guides for Polygon supporters with Qi DAO](tutorials/guides-for-polygon-supporters-with-qi-dao.md)
 * [Avalanche](tutorials/avalanche/README.md)
   * [How to get started on Avalanche](tutorials/avalanche/how-to-get-started-on-avalanche.md)
 * [Fantom](tutorials/fantom/README.md)
