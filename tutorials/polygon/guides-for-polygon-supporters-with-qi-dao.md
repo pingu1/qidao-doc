@@ -7,7 +7,7 @@ description: >-
 
 # Guides for Polygon supporters with Qi DAO
 
-<figure><img src="../.gitbook/assets/pictrure(1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/pictrure(1).png" alt=""><figcaption></figcaption></figure>
 
 ## I. Introduction
 
@@ -15,7 +15,7 @@ description: >-
 
 Staking is a term derived from [the Proof of Stake](https://en.wikipedia.org/wiki/Proof\_of\_stake) (PoS) mechanism, which describes the process of locking native cryptoassets as collateral to participate network validation. There are [various staking mechanisms](https://ethereum.org/en/staking/pools/), which are suitable for specific demands and capacities including solo staking, staking as-a-service, exchange staking, and liquid staking. While solo staking and staking-as-service require a significant technical effort and a full amount of staking requirement, for example, Ethereum network requires a minimum amount of 32 ETH or $42,000 (current price) need to be locked to active a validator, liquid staking allows for any deposit amount which then will be pooled together to meet network requirement before delegating it to chosen validators.
 
-<figure><img src="../.gitbook/assets/polygon staking.PNG" alt=""><figcaption><p>Staking on Polygon Network</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/polygon staking.PNG" alt=""><figcaption><p>Staking on Polygon Network</p></figcaption></figure>
 
 Besides, liquid staking users could exit their staking position anytime by trading their receipt tokens back to their original assets in any DEX in which the liquidity for their tokens is available. In contrast,  solo staking and staking as-a-service are more likely vulnerable with price volatility due to locked assets becoming illiquidity during staking period. Therefore, liquid staking has been recognized as the most popular staking mechanism among investors, especially retail stakers.
 
@@ -25,21 +25,21 @@ Liquid staking tokens are issued by liquid staking protocols for their stakers a
 
 [Lido Finance](https://lido.fi/) is the biggest liquid staking provider with [over $6 billion](https://defillama.com/protocol/lido) worth of staking assets across multiple chains including Ethereum, Polygon, Polkadot, and Kusama. stMATIC is a receipt token for their MATIC stakers which represents the share of the staker on MATIC staking pool. The token could be acquired by staking your MATIC to staking smart contracts on the [Ethereum mainnet](https://polygon.lido.fi/?pk\_vid=e5bd510b25e807b01665044852e22b7d). It is important to notice that Lido applies a 10% fee on staking rewards which mainly uses for slashing insurance and validator compensation.
 
-<figure><img src="../.gitbook/assets/stake MATIC on Lido page 1.PNG" alt=""><figcaption><p>Staking MATIC on Ethereum</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/stake MATIC on Lido page 1.PNG" alt=""><figcaption><p>Staking MATIC on Ethereum</p></figcaption></figure>
 
 The token then could be bridged to Polygon network through the [official Polygon PoS bridge](https://wallet.polygon.technology/bridge/) by pasting Ethereum [stMATIC address](https://etherscan.io/token/0x9ee91F9f426fA633d227f7a9b000E28b9dfd8599).
 
-<figure><img src="../.gitbook/assets/Polygon bridge 1.PNG" alt=""><figcaption><p>Bridging stMATIC to Polygon</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Polygon bridge 1.PNG" alt=""><figcaption><p>Bridging stMATIC to Polygon</p></figcaption></figure>
 
 However, there is a much simpler way to get stMATIC by swapping directly on DEXes which are Quickswap, Balancer, and [Kyber Network](https://kyberswap.com/swap/polygon/matic-to-stmatic?lng=en-US) on Polygon while still enjoying staking reward.
 
-<figure><img src="../.gitbook/assets/Capture.PNG" alt=""><figcaption><p>Swapping stMATIC on Kyberswap</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture.PNG" alt=""><figcaption><p>Swapping stMATIC on Kyberswap</p></figcaption></figure>
 
 ### Stader and MATICx
 
 [Stader](https://staderlabs.com/) is also a liquid staking protocol with more than [$150 million worth](https://defillama.com/protocol/stader) of staking assets **** which range from different blockchains. They started their staking solution for Terra Classic at first before expanding their service to other networks. Polygon is their latest supported network with MATICx as their receipt token for their MATIC stakers. Similar to Lido Finance, their MATIC staking contracts are deployed in [Ethereum Mainnet](https://polygon.staderlabs.com/liquid-staking/maticx).
 
-<figure><img src="../.gitbook/assets/Capture (1).PNG" alt=""><figcaption><p>Staking MATICx on Stader</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture (1).PNG" alt=""><figcaption><p>Staking MATICx on Stader</p></figcaption></figure>
 
 However, there is a little more convenience compared with Lido, Stader has also implemented the MATIC staking [smart contracts on Polygon ](https://polygon.staderlabs.com/liquid-staking/maticx)for users who might feel comfortable with Polygon transaction fee. The staked MATIC on Polygon then will be eriodically bridged back to the mainnet.
 
@@ -51,31 +51,31 @@ MATICx could also be acquired by exchanging them in [Quickswap](https://quickswa
 
 Liquid tokens including stMATIC and MATICx could be used as collateral assets to borrow other assets in other DeFi protocols such as Manhattan Finance. [Manhattan Finance](https://manhattan.finance/) is a collateralized debt position (CDP) protocol with fixed interest rates. Currently, the protocol has supported [stMATIC and MATICx](https://app.manhattan.finance/vaults/create) as their collateral assets for borrowing stablecoin MAI – the soft-peg stablecoin is created by [QiDao](https://www.mai.finance/) protocol with the same 1% interest rate.
 
-<figure><img src="../.gitbook/assets/Capture (2).PNG" alt=""><figcaption><p>Vaults on Manhattan Finance</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture (2).PNG" alt=""><figcaption><p>Vaults on Manhattan Finance</p></figcaption></figure>
 
 ### Arrakis Finance and MATICx –MAI LP
 
 [Arrakis Finance](https://www.arrakis.finance/) is an automatic liquidity management protocol built on Uniswap V3 by creating a curated marketplace of tokenized LP strategies. Qi Dao has recently launched[ MATICx-MAI](https://app.mai.finance/farm) farming vault on Arrakis Finance with up to 40% APR which is incentivized in form of SD token – the Stader native token.
 
-<figure><img src="../.gitbook/assets/Maticx - Mai.PNG" alt=""><figcaption><p>MATICx-MAI pool on Mai Finance</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Maticx - Mai.PNG" alt=""><figcaption><p>MATICx-MAI pool on Mai Finance</p></figcaption></figure>
 
 ### Kyberswap and stMATIC-MAI LP
 
 [KyberSwap](https://kyberswap.com/about/kyberswap) is a leading decentralized exchange aggregator in multiple chains including Ethereum, Polygon, BSC… Their governance and utility token, KNC has been added as[ collateral asset ](https://app.mai.finance/vaults/create)to borrow MAI recently.&#x20;
 
-<figure><img src="../.gitbook/assets/Fflpf8ZWIAEdQp-.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Fflpf8ZWIAEdQp-.jpg" alt=""><figcaption></figcaption></figure>
 
 KyberSwap is also an automated market maker (AMM) with a concentrated liquidity feature which allows users could add their liquidity in custom price ranges in order to receive more trading fees, similar to Uniswap V3. However, Kyberswap has other advanced features in their protocols such as dynamic fee, sniping attacks prevent, and auto-compounding.
 
-<figure><img src="../.gitbook/assets/stMATIC - MAI on kyberswap.PNG" alt=""><figcaption><p>Concentrated Liquidity </p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/stMATIC - MAI on kyberswap.PNG" alt=""><figcaption><p>Concentrated Liquidity </p></figcaption></figure>
 
 KyberSwap has launched [stMATIC-MAI](https://kyberswap.com/pools?search=0xdaed9ee2836e3048f03f891cdcb86e07f25ca227\&tab=elastic\&networkId=polygon) LP which is rewarded 124.74% APR in form of KNC token, and LDO token – the native token of Lido Finance. Those tokens could also be traded in Kyberswap directly for farming.
 
-<figure><img src="../.gitbook/assets/stmatic mai.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/stmatic mai.PNG" alt=""><figcaption></figcaption></figure>
 
 Notice that they also have [KNC-MAI](https://kyberswap.com/pools?search=0x21a8fd8e34594494d139975e592438f77ba533e0\&tab=elastic\&networkId=polygon) farming pool with APR up to 102.16%.
 
-### **II. Farming strategy**
+## **II. Farming strategy**
 
 To implement our strategies, we assume that the rates including prices, interest rates, APRs, and chosen farming price ranges will have been constant during our simulations period, precisely:
 
@@ -89,17 +89,17 @@ To implement our strategies, we assume that the rates including prices, interest
 
 We also assume that our initial investment begins with $1000 worth of stMATIC or MATIx by whatever method we introduced above. We will outline two different strategies for stMATIC and MATICx, respectively which go to two different routes.&#x20;
 
-#### **Strategy for stMATIC**
+### **Strategy for stMATIC**
 
 At first step, we will use Manhattan Finance to borrow $500 stablecoin MAI against $1000 worth stMATIC to maintain Collateral Debt Rate (CDR) at 200% before creating stMATIC-MAI LP in Kyberswap to farm as our next step based on the rate we have assumed above. All LDO rewards will be swapped to MAI to pair with the remaining KNC reward for KNC-MAI LP farming before swapping all the earnings in form of KNC token into stMATIC for the next loop. The illustration for our strategy is described below.
 
-<figure><img src="../.gitbook/assets/stMATIC route(1).png" alt=""><figcaption><p>Strategy for stMATIC</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/stMATIC route(1).png" alt=""><figcaption><p>Strategy for stMATIC</p></figcaption></figure>
 
-**Strategy for MATICx**
+### **Strategy for MATICx**
 
 Similarly, we start with a $1000 assumption worth of MATICx which also will be used to borrow $500 stablecoin MAI with 200% CDR on Manhattan Finance before using it to create MATICx-MAI vault on Arrakis Finance. The position then will be deposited into Mai Farm to receive SD reward with 40% APR, which will be swapped back MATICx for our next loop.
 
-<figure><img src="../.gitbook/assets/MATICx route.png" alt=""><figcaption><p>Strategy for MATICx</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/MATICx route.png" alt=""><figcaption><p>Strategy for MATICx</p></figcaption></figure>
 
 ## **III. Daily Routine**
 
