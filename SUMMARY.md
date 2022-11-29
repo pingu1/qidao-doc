@@ -60,6 +60,7 @@
 * [MAI Metaverse](mai-university/mai-metaverse.md)
 * [MAI Metaverse Pt.2](mai-university/mai-metaverse-pt.2.md)
 * [How to use MAI in the real life](mai-university/how-to-use-mai-in-the-real-life.md)
+* [How to interact directly with QiDao’s contracts](mai-university/how-to-interact-directly-with-qidaos-contracts.md)
 
 ## Join the Community <a href="#community" id="community"></a>
 
