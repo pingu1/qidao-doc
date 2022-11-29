@@ -1,7 +1,7 @@
 ---
 description: >-
   In case the front-end get any UI error or the RPC you have been using become
-  congested, you could continue their works by interacting with contracts
+  congested, you could continue your works by interacting with contracts
   directly on blockchain explorers.
 ---
 
