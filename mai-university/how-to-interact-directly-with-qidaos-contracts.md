@@ -79,5 +79,5 @@ In case of QiDAO’s V2 contracts (screenshots below), there is an additional sp
 
 ## Conclusion
 
-We showed the WriteContract features on Optimism, as an illustration, to assist users in interacting with any smart contract deployed by QiDao, which is also on any currently supported EVM blockchain. You should be more careful about the amount token you want to proceed followed by 18 decimal spots. Make sure you write the number correctly in the first time which will save you plenty of gas fees.&#x20;
+We showed the _WriteContract_ features on Optimism, as an illustration, to assist users in interacting with any smart contract deployed by QiDao, which is also on any currently supported EVM blockchain. You should be more careful about the amount token you want to proceed followed by 18 decimal spots. Make sure you write the number correctly in the first time which will save you plenty of gas fees.&#x20;
 
