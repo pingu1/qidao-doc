@@ -49,7 +49,7 @@ _**NOTE**_: Refresh the page if the page doesn’t show its connected wallet.
 
 ## Step #3: Interact with a smart contract.
 
-After your wallet connection is completed, there are numerous ways to interact with a contract similar with front-end interactions including vault creation, MAI borrowing, repayment, collateral withdrawal… In this guide, we will use the payBacktoken function as example.
+After your wallet connection completed, there are numerous ways to interact with a contract similar with front-end interactions including vault creation, MAI borrowing, repayment, collateral withdrawal… In this guide, we will use the payBacktoken function as example.
 
 ![](https://lh4.googleusercontent.com/A5WAF-9yNuOQh6KfumdSzKhk78puR8ixOppriAEpY31BpX\_ZEVOrW9YGH56TSOJ-jCuUCG14Yfh-CtZ3Z3fViqGc0AnAeD04tS69W90juS5nbRE0bpV8aGdJnDupW81JQmwenPIBlPwXv0EIXJg3yEkpbMLLia9Me17Rb\_X2U\_88VS6ecTNHCZ6Yjdyz5JvDYRs5xUSNNA)
 
