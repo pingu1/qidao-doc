@@ -15,7 +15,7 @@ description: >-
 
 ### The snapshot
 
-<figure><img src="../.gitbook/assets/Frame 4(4).png" alt=""><figcaption><p>QiDao snapshot graph</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Frame 4(4).png" alt=""><figcaption><p>QiDao snapshot graph</p></figcaption></figure>
 
 QiDao protocol has managed its platform by weekly snapshot at **5 PM UTC+0 every Sunday**, which will take a snapshot of all existed position across the platform to implement its scheduled activities such as vault incentive aidrop, staking reward distribution, update eligible vault list… Users could monitor the left time of the next snapshot through a Discord bot in Discord server:
 
@@ -23,7 +23,7 @@ QiDao protocol has managed its platform by weekly snapshot at **5 PM UTC+0 every
 
 In order to be eligible for NFTs, your 7-days period have to be between **two weekly adjacent snapshots**. Therefore, users have to deposit and borrow before the first snapshot then users could repay and withdraw after the second snapshot as the below the figue illustrates:
 
-<figure><img src="../.gitbook/assets/Capture (2).PNG" alt=""><figcaption><p>An efficient schedule</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture (2).PNG" alt=""><figcaption><p>An efficient schedule</p></figcaption></figure>
 
 ### The eligible vaults and Collateral to Debt Rates (CDRs)
 
@@ -31,7 +31,7 @@ QiDao quest has only accepted **WETH and OP** token as eligible collaterals, whi
 
 The eligible CDR ranges are describe on #optimism-quest on QiDao discord:
 
-<figure><img src="../.gitbook/assets/Capture (3).PNG" alt=""><figcaption><p>Eligible CDRs range</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture (3).PNG" alt=""><figcaption><p>Eligible CDRs range</p></figcaption></figure>
 
 However, currently, we has witnessed numerous cases in which users were ineligible accidentally due to setting their CDRs **too high** from upper ranges ( higher than 400% CDR for WETH vault or 425% CDR for OP vault) by depositing too much collateral assets compare with 100 borrowed MAI. Therefore, to avoid the possibility of such unexpected situations, users should also notice the upper CDRs ranges, ideally, the vault with around 300% CDR should be considered, which is relatively safe from market volatility.
 
