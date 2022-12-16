@@ -51,7 +51,7 @@ MATICx could also be acquired by exchanging them in [Quickswap](https://quickswa
 
 Liquid tokens including stMATIC and MATICx could be used as collateral assets to borrow other assets in other DeFi protocols such as Manhattan Finance. [Manhattan Finance](https://manhattan.finance/) is a collateralized debt position (CDP) protocol with fixed interest rates. Currently, the protocol has supported [stMATIC and MATICx](https://app.manhattan.finance/vaults/create) as their collateral assets for borrowing stablecoin MAI – the soft-peg stablecoin is created by [QiDao](https://www.mai.finance/) protocol with the same 1% interest rate.
 
-<figure><img src="../../.gitbook/assets/Capture (2).PNG" alt=""><figcaption><p>Vaults on Manhattan Finance</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Capture (2) (1).PNG" alt=""><figcaption><p>Vaults on Manhattan Finance</p></figcaption></figure>
 
 ### Arrakis Finance and MATICx –MAI LP
 
