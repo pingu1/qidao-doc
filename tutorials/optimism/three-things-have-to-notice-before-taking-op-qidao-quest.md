@@ -9,7 +9,7 @@ description: >-
 
 ## Introduction
 
-**Optimism Quest** (OP Quest) is a campaign in which you can earn NFTs on Galxe by completing a variety of missions from trading, lending, staking, and borrowing… By that, the camapaign could help users experience the ecosystem in the smooth way as much as possible.  There are total of 18 projects are involved in this campaign with the deadline from the end of September 2022 to January 18, 2023. Holding these NFTs may be one of the criterias to be eligible for the remaining 14% of $OP airdrop (5% have already been airdropped at the end of May 2022.)
+**Optimism Quest** (OP Quest) is a campaign in which you can earn NFTs on Galxe by completing a variety of missions from trading, lending, staking, and borrowing… By that, the campaign could help users experience the ecosystem in a smooth way as much as possible.  There are total of 18 projects are involved in this campaign with the deadline from the end of September 2022 to January 18, 2023. Holding these NFTs may be one of the criterias to be eligible for the remaining 14% of $OP airdrop (5% have already been airdropped at the end of May 2022.)
 
 **QiDao quest** is categorized in“dive deeper into DeFi” level after users got used with ecosystem by bridging and swapping. Similar with other quests in this level which require more commitment and attention from users, QiDao quest is fulfilled by borrowing at least 100 MAI with eligible Collateral to Debts (CDRs) for a 7-day period to be eligible for NFTs. However, before taking the quest, users need to notice:
 
