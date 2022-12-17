@@ -77,7 +77,7 @@ In case of QiDAO’s V2 contracts (screenshots below), there is an additional sp
 
 3\.  Press _Write_ to proceed your transaction as normal.&#x20;
 
-Here's a video example made by a member of our community.
+Here's an example video made by a member of our community.
 
 {% embed url="https://youtu.be/rLmVAV-LS64" %}
 
